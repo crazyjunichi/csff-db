@@ -1,0 +1,1 @@
+function a(r){const t=new Map;for(const u of r??[])for(const e of u.RequiredElements??[]){const n=e.RequiredCard||e.RequiredTabGroup;if(!n)continue;const i=n.key??"",o=t.get(i);o?o.quantity+=e.RequiredQuantity??1:t.set(i,{card:n,quantity:e.RequiredQuantity??1,dontSpend:!!e.DontSpend})}return[...t.values()]}export{a as g};
