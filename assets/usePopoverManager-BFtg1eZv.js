@@ -1,0 +1,1 @@
+import{S as t,g as r,B as l}from"./vue-BZbvGJGX.js";const n=l(null);function i(){function u(e){n.value=e}function o(e){(!e||n.value===e)&&(n.value=null)}function a(e){return r(()=>n.value===e)}return{activeId:t(n),open:u,close:o,isOpen:a}}export{i as u};
