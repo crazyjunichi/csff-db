@@ -1,1 +1,80 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"tag_FillingPrecursor","type":"CardTag","count":2,"name":{"zh":"\u9884\u5236\u586B\u6599","en":"Filling Precursor","ja":"Filling Precursor"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":2,"OwnershipPriority":1,"DutyPriority":0},"AffectType":1,"SimpleAffectDuration":0,"ActionToPerform":{"ActionType":1,"ActionTagFilter":[{"key":"HandAction","type":"ActionTag","name":{"zh":"\u624B\u90E8\u52A8\u4F5C","en":"HandAction","ja":"HandAction"}}],"GivenCardSelectionMethod":0,"GivenCardSelection":{"ItemPool":[{"Target":{"Target":{"key":"Fat","type":"CardData","CardType":0,"icon":"4d09cd73aa61ce61","name":{"zh":"\u8102\u80AA","en":"Fat","ja":"\u8102"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":2,"OwnershipPriority":1,"DutyPriority":1},"ActionDroppedCards":0},"key":"Mince Meat","type":"NPCDutyAction","name":{"zh":"Mince Meat","en":"Mince Meat","ja":"Mince Meat"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "tag_FillingPrecursor",
+            "type" : "CardTag",
+            "count" : 2,
+            "name"  : {
+              "zh" : "\u9884\u5236\u586B\u6599",
+              "en" : "Filling Precursor",
+              "ja" : "Filling Precursor"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 2,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0
+  },
+  "AffectType"    : 1,
+  "SimpleAffectDuration" : 0,
+  "ActionToPerform"      : {
+    "ActionType" : 1,
+    "ActionTagFilter" : [
+      {
+        "key" : "HandAction",
+        "type" : "ActionTag",
+        "name" : {
+          "zh" : "\u624B\u90E8\u52A8\u4F5C",
+          "en" : "HandAction",
+          "ja" : "HandAction"
+        }
+      }
+    ],
+    "GivenCardSelectionMethod" : 0,
+    "GivenCardSelection"       : {
+      "ItemPool" : [
+        {
+          "Target" : {
+            "Target" : {
+              "key" : "Fat",
+              "type" : "CardData",
+              "CardType" : 0,
+              "icon"     : "CardData__Fat__CardImage",
+              "name"     : {
+                "zh" : "\u8102\u80AA",
+                "en" : "Fat",
+                "ja" : "\u8102"
+              }
+            }
+          },
+          "Quantity" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "SearchPriority" : 2,
+      "OwnershipPriority" : 1,
+      "DutyPriority"      : 1
+    },
+    "ActionDroppedCards"       : 0
+  },
+  "key"                  : "Mince Meat",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Mince Meat",
+    "en" : "Mince Meat",
+    "ja" : "Mince Meat"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

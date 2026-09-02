@@ -1,1 +1,77 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"WoodCarving_Maiden","type":"CardData","CardType":0,"icon":"1b639e5a8a119fb4","name":{"zh":"\u5C11\u5973\u6728\u96D5","en":"Maiden Figure","ja":"\u5973\u6027\u306E\u30D5\u30A3\u30AE\u30E5\u30A2"}}},"Quantity":{"x":1.0,"y":1.0}},{"Target":{"Target":{"key":"WoodCarving_Warrior","type":"CardData","CardType":0,"icon":"18b378724ecd04c7","name":{"zh":"\u6218\u58EB\u6728\u96D5","en":"Warrior Figure","ja":"\u9A0E\u58EB\u306E\u30D5\u30A3\u30AE\u30E5\u30A2"}}},"Quantity":{"x":1.0,"y":1.0}},{"Target":{"Target":{"key":"WoodCarving_Wolf","type":"CardData","CardType":0,"icon":"c88673b89542557c","name":{"zh":"\u72FC\u6728\u96D5","en":"Wolf Figure","ja":"\u72FC\u306E\u30D5\u30A3\u30AE\u30E5\u30A2"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":0,"OwnershipPriority":0,"DutyPriority":0},"AffectType":3,"SimpleAffectDuration":0,"key":"Drop Finished carving","type":"NPCDutyAction","name":{"zh":"Drop Finished carving","en":"Drop Finished carving","ja":"Drop Finished carving"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "WoodCarving_Maiden",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "GameStat__MoonMaidenBlessing__DefaultStatusIcon",
+            "name"     : {
+              "zh" : "\u5C11\u5973\u6728\u96D5",
+              "en" : "Maiden Figure",
+              "ja" : "\u5973\u6027\u306E\u30D5\u30A3\u30AE\u30E5\u30A2"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "WoodCarving_Warrior",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "CardData__WoodCarving_Warrior__CardImage",
+            "name"     : {
+              "zh" : "\u6218\u58EB\u6728\u96D5",
+              "en" : "Warrior Figure",
+              "ja" : "\u9A0E\u58EB\u306E\u30D5\u30A3\u30AE\u30E5\u30A2"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "WoodCarving_Wolf",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "NPCCharacterPerk__PartnerPerk_KnowledgeWoodworker__PerkIcon",
+            "name"     : {
+              "zh" : "\u72FC\u6728\u96D5",
+              "en" : "Wolf Figure",
+              "ja" : "\u72FC\u306E\u30D5\u30A3\u30AE\u30E5\u30A2"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 0
+  },
+  "AffectType"    : 3,
+  "SimpleAffectDuration" : 0,
+  "key"                  : "Drop Finished carving",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Drop Finished carving",
+    "en" : "Drop Finished carving",
+    "ja" : "Drop Finished carving"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

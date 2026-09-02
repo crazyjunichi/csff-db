@@ -1,1 +1,65 @@
-{"Actions":[{"RepeatOptions":2,"ActionCooldown":0,"PlayerUsesCardCondition":0,"StatChangeTrigger":[{"Stat":{"key":"SeasonCounter_Autumn","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u79CB\u5B63","en":"Autumn Counter","ja":"Autumn Counter"}},"TriggerRange":{"x":1.0,"y":2880.0}}],"ActionName":{"zh":"Autumn Start","en":"Autumn Start","ja":"Autumn Start"},"DaytimeCost":0,"UseMiniTicks":0,"StatModifications":[{"Stat":{"key":"ApparitionsEnabled","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u5E7B\u5F71\u542F\u7528","en":"ApparitionsEnabled","ja":"ApparitionsEnabled"}},"ValueModifier":{"x":1.0,"y":1.0}}],"RoomDirection":0,"ExitDirection":0}],"type":"SelfTriggeredAction","key":"Tgr_AutumnStart","name":{"zh":"Tgr_AutumnStart","en":"Tgr_AutumnStart","ja":"Tgr_AutumnStart"},"_uuid":"90e284f9908f4df4db869932c61bd815"}
+
+{
+  "Actions" : [
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SeasonCounter_Autumn",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "\u79CB\u5B63",
+              "en" : "Autumn Counter",
+              "ja" : "Autumn Counter"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 2880.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Autumn Start",
+        "en" : "Autumn Start",
+        "ja" : "Autumn Start"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "ApparitionsEnabled",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u5E7B\u5F71\u542F\u7528",
+              "en" : "ApparitionsEnabled",
+              "ja" : "ApparitionsEnabled"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "type"    : "SelfTriggeredAction",
+  "key"     : "Tgr_AutumnStart",
+  "name"    : {
+    "zh" : "Tgr_AutumnStart",
+    "en" : "Tgr_AutumnStart",
+    "ja" : "Tgr_AutumnStart"
+  },
+  "_uuid"   : "90e284f9908f4df4db869932c61bd815"
+}

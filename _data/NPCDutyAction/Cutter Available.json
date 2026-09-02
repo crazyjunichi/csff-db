@@ -1,1 +1,30 @@
-{"Conditions":{"PlayerUsesCard":0,"RequiredTagsInInventory":[{"key":"tag_Cutter","type":"CardTag","count":11,"name":{"zh":"\u5207\u5272\u5DE5\u5177","en":"Cutter","ja":"Cutter"}}]},"OnFalse":{"Outcome":1,"MoveToStep":12},"key":"Cutter Available","type":"NPCDutyAction","name":{"zh":"Cutter Available","en":"Cutter Available","ja":"Cutter Available"},"actionType":"TakeSimpleDecisionDutyAction"}
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredTagsInInventory" : [
+      {
+        "key" : "tag_Cutter",
+        "type" : "CardTag",
+        "count" : 11,
+        "name"  : {
+          "zh" : "\u5207\u5272\u5DE5\u5177",
+          "en" : "Cutter",
+          "ja" : "Cutter"
+        }
+      }
+    ]
+  },
+  "OnFalse"    : {
+    "Outcome" : 1,
+    "MoveToStep" : 12
+  },
+  "key"        : "Cutter Available",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "Cutter Available",
+    "en" : "Cutter Available",
+    "ja" : "Cutter Available"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

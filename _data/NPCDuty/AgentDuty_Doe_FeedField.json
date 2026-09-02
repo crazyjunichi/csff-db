@@ -1,1 +1,78 @@
-{"DutyName":{"zh":"\u5543\u98DF\u519C\u7530","en":"Doe Feed Field","ja":"Doe Feed Field"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":85.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":2,"ActionSequence":[{"key":"DoeFeedField","type":"ChangeNPCStatDutyAction","name":{"zh":"DoeFeedField","en":"DoeFeedField","ja":"DoeFeedField"}},{"key":"DoeDamageFeedField","type":"AffectItemsDutyAction","name":{"zh":"DoeDamageFeedField","en":"DoeDamageFeedField","ja":"DoeDamageFeedField"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Doe_FeedField","name":{"zh":"\u5543\u98DF\u519C\u7530","en":"Doe Feed Field","ja":"Doe Feed Field"},"_uuid":"877292fab14fbda4f82d9b6f3a7ab86e"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5543\u98DF\u519C\u7530",
+    "en" : "Doe Feed Field",
+    "ja" : "Doe Feed Field"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 85.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 2,
+  "ActionSequence"                   : [
+    {
+      "key" : "DoeFeedField",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "DoeFeedField",
+        "en" : "DoeFeedField",
+        "ja" : "DoeFeedField"
+      }
+    },
+    {
+      "key" : "DoeDamageFeedField",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "DoeDamageFeedField",
+        "en" : "DoeDamageFeedField",
+        "ja" : "DoeDamageFeedField"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Doe_FeedField",
+  "name"                             : {
+    "zh" : "\u5543\u98DF\u519C\u7530",
+    "en" : "Doe Feed Field",
+    "ja" : "Doe Feed Field"
+  },
+  "_uuid"                            : "877292fab14fbda4f82d9b6f3a7ab86e"
+}

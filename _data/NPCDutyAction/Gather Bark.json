@@ -1,1 +1,110 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"TreeLargeAlder","type":"CardData","CardType":2,"icon":"c4377c42a44e4b41","name":{"zh":"\u6864\u6728","en":"Alder Tree","ja":"Alder Tree"}}},"Quantity":{"x":1.0,"y":1.0}},{"Target":{"Target":{"key":"TreeLargeOak","type":"CardData","CardType":2,"icon":"7d5f8b8b673177bb","name":{"zh":"\u6A61\u6811","en":"Oak Tree","ja":"\u30AA\u30FC\u30AF\u306E\u6728"}}},"Quantity":{"x":1.0,"y":1.0}},{"Target":{"Target":{"key":"TreeLargeWillow","type":"CardData","CardType":2,"icon":"5bdf6b60e5db8584","name":{"zh":"\u67F3\u6811","en":"Willow Tree","ja":"\u30E4\u30CA\u30AE\u306E\u6728"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":2,"DebugItemSelection":true},"AffectType":1,"SimpleAffectDuration":0,"ActionToPerform":{"ActionType":1,"GivenCardSelectionMethod":0,"GivenCardSelection":{"ItemPool":[{"Target":{"Target":{"key":"tag_Cutter","type":"CardTag","count":11,"name":{"zh":"\u5207\u5272\u5DE5\u5177","en":"Cutter","ja":"Cutter"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":0,"DebugItemSelection":true},"ActionDroppedCards":0,"DebugActionSelection":true},"key":"Gather Bark","type":"NPCDutyAction","name":{"zh":"Gather Bark","en":"Gather Bark","ja":"Gather Bark"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "TreeLargeAlder",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__TreeLargeAlder__CardImage",
+            "name"     : {
+              "zh" : "\u6864\u6728",
+              "en" : "Alder Tree",
+              "ja" : "Alder Tree"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "TreeLargeOak",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__StickLong__SpecialDurability4-OverrideIcon",
+            "name"     : {
+              "zh" : "\u6A61\u6811",
+              "en" : "Oak Tree",
+              "ja" : "\u30AA\u30FC\u30AF\u306E\u6728"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "TreeLargeWillow",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Event_WillowSpiritBlessingGranted__CardImage",
+            "name"     : {
+              "zh" : "\u67F3\u6811",
+              "en" : "Willow Tree",
+              "ja" : "\u30E4\u30CA\u30AE\u306E\u6728"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 2,
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 1,
+  "SimpleAffectDuration" : 0,
+  "ActionToPerform"      : {
+    "ActionType" : 1,
+    "GivenCardSelectionMethod" : 0,
+    "GivenCardSelection"       : {
+      "ItemPool" : [
+        {
+          "Target" : {
+            "Target" : {
+              "key" : "tag_Cutter",
+              "type" : "CardTag",
+              "count" : 11,
+              "name"  : {
+                "zh" : "\u5207\u5272\u5DE5\u5177",
+                "en" : "Cutter",
+                "ja" : "Cutter"
+              }
+            }
+          },
+          "Quantity" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "SearchPriority" : 0,
+      "OwnershipPriority" : 1,
+      "DutyPriority"      : 0,
+      "DebugItemSelection" : true
+    },
+    "ActionDroppedCards"       : 0,
+    "DebugActionSelection"     : true
+  },
+  "key"                  : "Gather Bark",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Gather Bark",
+    "en" : "Gather Bark",
+    "ja" : "Gather Bark"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

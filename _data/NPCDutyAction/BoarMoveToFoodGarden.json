@@ -1,1 +1,73 @@
-{"MovementType":0,"MoveDestination":5,"DestinationSelection":0,"MoveToTags":[{"key":"tag_FeedCarniOmni","type":"CardTag","count":140,"name":{"zh":"\u8089\u98DF/\u6742\u98DF\u9972\u6599","en":"Feed for Carnivores and Omnivores","ja":"Feed for Carnivores and Omnivores"}}],"MoveToItems":[{"Target":{"key":"tag_BoarFoodCropGarden","type":"CardTag","count":37,"name":{"zh":"\u91CE\u732A\u98DF\u7269\u83DC\u56ED","en":"Boar Food Crop Garden","ja":"Boar Food Crop Garden"}}}],"Containers":{"CanLookInContainers":true,"AllowedContainers":[{"Target":{"key":"GardenPlot","type":"CardData","CardType":2,"icon":"55973abac27ca68b","name":{"zh":"\u83DC\u56ED","en":"Garden Plot","ja":"\u30AC\u30FC\u30C7\u30F3\u30B9\u30DA\u30FC\u30B9"}}},{"Target":{"key":"MushroomBed","type":"CardData","CardType":2,"icon":"55973abac27ca68b","name":{"zh":"\u83CC\u5E8A","en":"Mushroom Bed","ja":"\u83CC\u5E8A"}}}]},"LeaveTracks":true,"CostRequirements":0,"key":"BoarMoveToFoodGarden","type":"NPCDutyAction","name":{"zh":"BoarMoveToFoodGarden","en":"BoarMoveToFoodGarden","ja":"BoarMoveToFoodGarden"},"actionType":"MoveDutyAction"}
+
+{
+  "MovementType" : 0,
+  "MoveDestination" : 5,
+  "DestinationSelection" : 0,
+  "MoveToTags"           : [
+    {
+      "key" : "tag_FeedCarniOmni",
+      "type" : "CardTag",
+      "count" : 140,
+      "name"  : {
+        "zh" : "\u8089\u98DF/\u6742\u98DF\u9972\u6599",
+        "en" : "Feed for Carnivores and Omnivores",
+        "ja" : "Feed for Carnivores and Omnivores"
+      }
+    }
+  ],
+  "MoveToItems"          : [
+    {
+      "Target" : {
+        "key" : "tag_BoarFoodCropGarden",
+        "type" : "CardTag",
+        "count" : 37,
+        "name"  : {
+          "zh" : "\u91CE\u732A\u98DF\u7269\u83DC\u56ED",
+          "en" : "Boar Food Crop Garden",
+          "ja" : "Boar Food Crop Garden"
+        }
+      }
+    }
+  ],
+  "Containers"           : {
+    "CanLookInContainers" : true,
+    "AllowedContainers"   : [
+      {
+        "Target" : {
+          "key" : "GardenPlot",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_GardenPlot__CardImage",
+          "name"     : {
+            "zh" : "\u83DC\u56ED",
+            "en" : "Garden Plot",
+            "ja" : "\u30AC\u30FC\u30C7\u30F3\u30B9\u30DA\u30FC\u30B9"
+          }
+        }
+      },
+      {
+        "Target" : {
+          "key" : "MushroomBed",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_GardenPlot__CardImage",
+          "name"     : {
+            "zh" : "\u83CC\u5E8A",
+            "en" : "Mushroom Bed",
+            "ja" : "\u83CC\u5E8A"
+          }
+        }
+      }
+    ]
+  },
+  "LeaveTracks"          : true,
+  "CostRequirements"     : 0,
+  "key"                  : "BoarMoveToFoodGarden",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "BoarMoveToFoodGarden",
+    "en" : "BoarMoveToFoodGarden",
+    "ja" : "BoarMoveToFoodGarden"
+  },
+  "actionType"           : "MoveDutyAction"
+}

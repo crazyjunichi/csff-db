@@ -1,1 +1,61 @@
-{"ObjectiveDescription":{"zh":"\u996E\u7528\u6E56\u6C34","en":"Drink Water from the Lake","ja":"\u6E56\u306E\u6C34\u3092\u98F2\u3080"},"NotificationSettings":{"Frequency":0,"PercentThreshold":0.01},"QuestBehavior":0,"ActionObjectives":[{"OnCard":{"key":"River","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"\u6CB3\u6D41","en":"River","ja":"\u5DDD"}},"ActionName":"Drink","OnActionStarted":true,"PerformMultipleTimes":0,"ObjectiveName":"1","CompletionWeight":1},{"OnCard":{"key":"IceHoleRiver","type":"CardData","CardType":2,"icon":"58ca4d6d62ab2c41","name":{"zh":"\u51B0\u6D1E","en":"Ice Hole","ja":"\u30A2\u30A4\u30B9\u30DB\u30FC\u30EB"}},"ActionName":"Drink","OnActionStarted":true,"PerformMultipleTimes":0,"ObjectiveName":"1","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":2,"type":"Objective","key":"Huntsman2_FindingSustenance_Obj2_DrinkWaterFromTheLake","name":{"zh":"\u996E\u7528\u6E56\u6C34","en":"Drink Water from the Lake","ja":"\u6E56\u306E\u6C34\u3092\u98F2\u3080"},"_uuid":"637147fe16884e449a1805cdba1a6d7a"}
+
+{
+  "ObjectiveDescription" : {
+    "zh" : "\u996E\u7528\u6E56\u6C34",
+    "en" : "Drink Water from the Lake",
+    "ja" : "\u6E56\u306E\u6C34\u3092\u98F2\u3080"
+  },
+  "NotificationSettings" : {
+    "Frequency" : 0,
+    "PercentThreshold" : 0.01
+  },
+  "QuestBehavior"        : 0,
+  "ActionObjectives"     : [
+    {
+      "OnCard" : {
+        "key" : "River",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "\u6CB3\u6D41",
+          "en" : "River",
+          "ja" : "\u5DDD"
+        }
+      },
+      "ActionName" : "Drink",
+      "OnActionStarted" : true,
+      "PerformMultipleTimes" : 0,
+      "ObjectiveName"        : "1",
+      "CompletionWeight"     : 1
+    },
+    {
+      "OnCard" : {
+        "key" : "IceHoleRiver",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__IceHolePond__CardImage",
+        "name"     : {
+          "zh" : "\u51B0\u6D1E",
+          "en" : "Ice Hole",
+          "ja" : "\u30A2\u30A4\u30B9\u30DB\u30FC\u30EB"
+        }
+      },
+      "ActionName" : "Drink",
+      "OnActionStarted" : true,
+      "PerformMultipleTimes" : 0,
+      "ObjectiveName"        : "1",
+      "CompletionWeight"     : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 2,
+  "type"                        : "Objective",
+  "key"                         : "Huntsman2_FindingSustenance_Obj2_DrinkWaterFromTheLake",
+  "name"                        : {
+    "zh" : "\u996E\u7528\u6E56\u6C34",
+    "en" : "Drink Water from the Lake",
+    "ja" : "\u6E56\u306E\u6C34\u3092\u98F2\u3080"
+  },
+  "_uuid"                       : "637147fe16884e449a1805cdba1a6d7a"
+}

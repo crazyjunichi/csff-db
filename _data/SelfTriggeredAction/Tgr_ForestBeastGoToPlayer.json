@@ -1,1 +1,158 @@
-{"Actions":[{"RepeatOptions":2,"ActionCooldown":0,"PlayerUsesCardCondition":0,"StatChangeTrigger":[{"Stat":{"key":"ForestBeastGoToPlayerCounter","type":"GameStat","min":0.0,"max":96.0,"name":{"zh":"\u68EE\u6797\u91CE\u517D\u8FFD\u8E2A\u8BA1\u6570","en":"ForestBeastGoToPlayerCounter","ja":"ForestBeastGoToPlayerCounter"}},"TriggerRange":{"x":96.0,"y":96.0}}],"ActionName":{"zh":"Tgr_ForestBeastGoToPlayer","en":"Tgr_ForestBeastGoToPlayer","ja":"Tgr_ForestBeastGoToPlayer"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"0","CollectionWeight":100,"StatsDropChanceModifiers":[{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"StatRange":{"x":0.0,"y":54720.0},"InterpWeightRange":{"m_X":0,"m_Y":-50},"WhenOutOfRange":1}],"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}]},{"CollectionName":"1","CollectionWeight":0,"StatsDropChanceModifiers":[{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"StatRange":{"x":0.0,"y":54720.0},"InterpWeightRange":{"m_X":0,"m_Y":50},"WhenOutOfRange":1}],"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}],"StatModifications":[{"Stat":{"key":"Agent_ForestBeastGoToPlayer","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u68EE\u6797\u91CE\u517D\u8FFD\u8E2A\u73A9\u5BB6","en":"Agent_ForestBeastGoToPlayer","ja":"Agent_ForestBeastGoToPlayer"}},"ValueModifier":{"x":1.0,"y":1.0}}]}],"StatModifications":[{"Stat":{"key":"ForestBeastGoToPlayerCounter","type":"GameStat","min":0.0,"max":96.0,"name":{"zh":"\u68EE\u6797\u91CE\u517D\u8FFD\u8E2A\u8BA1\u6570","en":"ForestBeastGoToPlayerCounter","ja":"ForestBeastGoToPlayerCounter"}},"ValueModifier":{"x":-96.0,"y":-96.0}}],"RoomDirection":0,"ExitDirection":0}],"type":"SelfTriggeredAction","key":"Tgr_ForestBeastGoToPlayer","name":{"zh":"Tgr_ForestBeastGoToPlayer","en":"Tgr_ForestBeastGoToPlayer","ja":"Tgr_ForestBeastGoToPlayer"},"_uuid":"ceb8602ad673cb744824ba8a9d974f89"}
+
+{
+  "Actions" : [
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "ForestBeastGoToPlayerCounter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u68EE\u6797\u91CE\u517D\u8FFD\u8E2A\u8BA1\u6570",
+              "en" : "ForestBeastGoToPlayerCounter",
+              "ja" : "ForestBeastGoToPlayerCounter"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 96.0,
+            "y" : 96.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Tgr_ForestBeastGoToPlayer",
+        "en" : "Tgr_ForestBeastGoToPlayer",
+        "ja" : "Tgr_ForestBeastGoToPlayer"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "0",
+          "CollectionWeight" : 100,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Counter",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 1000000000.0,
+                "name" : {
+                  "zh" : "\u8BA1\u6570\u5668",
+                  "en" : "Counter",
+                  "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 54720.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : -50
+              },
+              "WhenOutOfRange"    : 1
+            }
+          ],
+          "DroppedCards"             : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 0,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Counter",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 1000000000.0,
+                "name" : {
+                  "zh" : "\u8BA1\u6570\u5668",
+                  "en" : "Counter",
+                  "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 54720.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : 50
+              },
+              "WhenOutOfRange"    : 1
+            }
+          ],
+          "DroppedCards"             : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ],
+          "StatModifications"        : [
+            {
+              "Stat" : {
+                "key" : "Agent_ForestBeastGoToPlayer",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 1.0,
+                "name" : {
+                  "zh" : "\u68EE\u6797\u91CE\u517D\u8FFD\u8E2A\u73A9\u5BB6",
+                  "en" : "Agent_ForestBeastGoToPlayer",
+                  "ja" : "Agent_ForestBeastGoToPlayer"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 1.0,
+                "y" : 1.0
+              }
+            }
+          ]
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "ForestBeastGoToPlayerCounter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u68EE\u6797\u91CE\u517D\u8FFD\u8E2A\u8BA1\u6570",
+              "en" : "ForestBeastGoToPlayerCounter",
+              "ja" : "ForestBeastGoToPlayerCounter"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -96.0,
+            "y" : -96.0
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "type"    : "SelfTriggeredAction",
+  "key"     : "Tgr_ForestBeastGoToPlayer",
+  "name"    : {
+    "zh" : "Tgr_ForestBeastGoToPlayer",
+    "en" : "Tgr_ForestBeastGoToPlayer",
+    "ja" : "Tgr_ForestBeastGoToPlayer"
+  },
+  "_uuid"   : "ceb8602ad673cb744824ba8a9d974f89"
+}

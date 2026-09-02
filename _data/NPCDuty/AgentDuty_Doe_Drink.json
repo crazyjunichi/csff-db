@@ -1,1 +1,80 @@
-{"DutyName":{"zh":"\u996E\u6C34","en":"Doe Drink","ja":"Doe Drink"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_DrinkingArea","type":"CardTag","count":29,"name":{"zh":"\u996E\u6C34\u533A","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentHydration","type":"NPCStat","name":{"zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"}},"ConditionRange":{"x":0.0,"y":75.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"DoeDrink","type":"ChangeNPCStatDutyAction","name":{"zh":"DoeDrink","en":"DoeDrink","ja":"DoeDrink"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Doe_Drink","name":{"zh":"\u996E\u6C34","en":"Doe Drink","ja":"Doe Drink"},"_uuid":"bb3ebb3dc334a2242888f2ad4f67e2e7"}
+
+{
+  "DutyName" : {
+    "zh" : "\u996E\u6C34",
+    "en" : "Doe Drink",
+    "ja" : "Doe Drink"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_DrinkingArea",
+        "type" : "CardTag",
+        "count" : 29,
+        "name"  : {
+          "zh" : "\u996E\u6C34\u533A",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentHydration",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u996E\u6C34",
+            "en" : "AgentHydration",
+            "ja" : "AgentHydration"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 75.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "DoeDrink",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "DoeDrink",
+        "en" : "DoeDrink",
+        "ja" : "DoeDrink"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Doe_Drink",
+  "name"                 : {
+    "zh" : "\u996E\u6C34",
+    "en" : "Doe Drink",
+    "ja" : "Doe Drink"
+  },
+  "_uuid"                : "bb3ebb3dc334a2242888f2ad4f67e2e7"
+}

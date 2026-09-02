@@ -1,1 +1,53 @@
-{"DutyName":{"zh":"\u6781\u997F\u65F6\u6FC0\u6012","en":"WolfPack Get Angry If Very Hungry","ja":"WolfPack Get Angry If Very Hungry"},"MaxPerformPerDay":0,"DutyConditions":{"NotInBackground":true,"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":25.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfPackGetAngry","type":"ChangeNPCStatDutyAction","name":{"zh":"WolfPackGetAngry","en":"WolfPackGetAngry","ja":"WolfPackGetAngry"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Wolfpack_GetAngryIfVeryHungry","name":{"zh":"\u6781\u997F\u65F6\u6FC0\u6012","en":"WolfPack Get Angry If Very Hungry","ja":"WolfPack Get Angry If Very Hungry"},"_uuid":"e0eac23f46474ef428b2ae733a209f94"}
+
+{
+  "DutyName" : {
+    "zh" : "\u6781\u997F\u65F6\u6FC0\u6012",
+    "en" : "WolfPack Get Angry If Very Hungry",
+    "ja" : "WolfPack Get Angry If Very Hungry"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "NotInBackground" : true,
+    "PlayerUsesCard"  : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 25.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "WolfPackGetAngry",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WolfPackGetAngry",
+        "en" : "WolfPackGetAngry",
+        "ja" : "WolfPackGetAngry"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Wolfpack_GetAngryIfVeryHungry",
+  "name"                 : {
+    "zh" : "\u6781\u997F\u65F6\u6FC0\u6012",
+    "en" : "WolfPack Get Angry If Very Hungry",
+    "ja" : "WolfPack Get Angry If Very Hungry"
+  },
+  "_uuid"                : "e0eac23f46474ef428b2ae733a209f94"
+}

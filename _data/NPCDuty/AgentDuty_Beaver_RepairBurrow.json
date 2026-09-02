@@ -1,1 +1,65 @@
-{"DutyName":{"zh":"\u4FEE\u8865\u5DE2\u7A74","en":"Beaver Repair Burrow","ja":"Beaver Repair Burrow"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredCardsOnBoard":[{"key":"LodgeBeaverUnstable","type":"CardData","CardType":2,"icon":"c622d004cd20741b","name":{"zh":"\u4E0D\u7A33\u5B9A\u7684\u6CB3\u72F8\u7A9D","en":"Unstable Beaver Lodge","ja":"Unstable Beaver Lodge"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"BeaverRepairBurrow","type":"AffectItemsDutyAction","name":{"zh":"BeaverRepairBurrow","en":"BeaverRepairBurrow","ja":"BeaverRepairBurrow"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Beaver_RepairBurrow","name":{"zh":"\u4FEE\u8865\u5DE2\u7A74","en":"Beaver Repair Burrow","ja":"Beaver Repair Burrow"},"_uuid":"23bc3763b5bdb4d42806430f4b6a0f8e"}
+
+{
+  "DutyName" : {
+    "zh" : "\u4FEE\u8865\u5DE2\u7A74",
+    "en" : "Beaver Repair Burrow",
+    "ja" : "Beaver Repair Burrow"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsOnBoard" : [
+      {
+        "key" : "LodgeBeaverUnstable",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__DamBeaverHalfBuilt__CardImage",
+        "name"     : {
+          "zh" : "\u4E0D\u7A33\u5B9A\u7684\u6CB3\u72F8\u7A9D",
+          "en" : "Unstable Beaver Lodge",
+          "ja" : "Unstable Beaver Lodge"
+        }
+      }
+    ],
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "BeaverRepairBurrow",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "BeaverRepairBurrow",
+        "en" : "BeaverRepairBurrow",
+        "ja" : "BeaverRepairBurrow"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Beaver_RepairBurrow",
+  "name"                 : {
+    "zh" : "\u4FEE\u8865\u5DE2\u7A74",
+    "en" : "Beaver Repair Burrow",
+    "ja" : "Beaver Repair Burrow"
+  },
+  "_uuid"                : "23bc3763b5bdb4d42806430f4b6a0f8e"
+}

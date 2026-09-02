@@ -1,1 +1,35 @@
-{"Conditions":{"PlayerUsesCard":0,"RequiredCardsInInventory":[{"key":"Axe_Stone","type":"CardData","CardType":0,"icon":"6b1f83bac3dd477c","name":{"zh":"\u77F3\u65A7","en":"Stone Axe","ja":"\u77F3\u306E\u65A7"}}]},"OnTrue":{"Outcome":0,"MoveToStep":5},"OnFalse":{"Outcome":1,"MoveToStep":9},"key":"Stone or Adv","type":"NPCDutyAction","name":{"zh":"Stone or Adv","en":"Stone or Adv","ja":"Stone or Adv"},"actionType":"TakeSimpleDecisionDutyAction"}
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsInInventory" : [
+      {
+        "key" : "Axe_Stone",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Axe_Stone__CardImage",
+        "name"     : {
+          "zh" : "\u77F3\u65A7",
+          "en" : "Stone Axe",
+          "ja" : "\u77F3\u306E\u65A7"
+        }
+      }
+    ]
+  },
+  "OnTrue"     : {
+    "Outcome" : 0,
+    "MoveToStep" : 5
+  },
+  "OnFalse"    : {
+    "Outcome" : 1,
+    "MoveToStep" : 9
+  },
+  "key"        : "Stone or Adv",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "Stone or Adv",
+    "en" : "Stone or Adv",
+    "ja" : "Stone or Adv"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

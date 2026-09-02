@@ -1,1 +1,116 @@
-{"ObjectiveDescription":{"zh":"\u6D3B\u8FC7\u591C\u665A","en":"Holding the Night Back","ja":"\u591C\u3092\u9000\u3051\u308B"},"NotificationSettings":{"Frequency":1,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"Completed","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Huntsman2_HoldingTheNightBack_Completed_Event","type":"CardData","CardType":3,"icon":"9c22fc20ce801165","name":{"zh":"\u6D3B\u8FC7\u591C\u665A","en":"Holding the Night Back","ja":"\u591C\u3092\u9000\u3051\u308B"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"NestedObjectives":[{"ObjectiveCondition":{"key":"Huntsman2_HoldingTheNightBack_Obj1_WarmUpByTheFire","type":"Objective","name":{"zh":"\u5728\u8425\u706B\u5904\u53D6\u6696","en":"Warm Up by the Campfire","ja":"\u711A\u304D\u706B\u3067\u6696\u3092\u53D6\u308B"}},"ObjectiveName":"1","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_HoldingTheNightBack_Obj2_AddFuelToTheCampfire","type":"Objective","name":{"zh":"\u4E3A\u8425\u706B\u8865\u5145\u71C3\u6599","en":"Add Fuel to the Campfire","ja":"\u711A\u304D\u706B\u306B\u71C3\u6599\u3092\u304F\u3079\u308B"}},"ObjectiveName":"2","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_HoldingTheNightBack_Obj3_GoToSleepByUsingTheClock","type":"Objective","name":{"zh":"\u4F7F\u7528\u65F6\u949F\u6309\u94AE\u7761\u89C9","en":"Go To Sleep by Using the Clock","ja":"\u6642\u8A08\u3092\u4F7F\u3063\u3066\u7720\u308B"}},"ObjectiveName":"3","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_HoldingTheNightBack_Obj4_ReachTheMorningLight","type":"Objective","name":{"zh":"\u89C1\u5230\u65E5\u51FA","en":"Reach the Morning Light","ja":"\u671D\u65E5\u3092\u8FCE\u3048\u308B"}},"ObjectiveName":"4","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":0,"type":"Objective","key":"Huntsman2_HoldingTheNightBack_Completed","name":{"zh":"\u6D3B\u8FC7\u591C\u665A","en":"Holding the Night Back","ja":"\u591C\u3092\u9000\u3051\u308B"},"_uuid":"bd36db2af05a6734093c481515929bb1"}
+
+{
+  "ObjectiveDescription" : {
+    "zh" : "\u6D3B\u8FC7\u591C\u665A",
+    "en" : "Holding the Night Back",
+    "ja" : "\u591C\u3092\u9000\u3051\u308B"
+  },
+  "NotificationSettings" : {
+    "Frequency" : 1,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ProducedCards" : [
+        {
+          "CollectionName" : "Completed",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Huntsman2_HoldingTheNightBack_Completed_Event",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "CardData__Bp_Campfire__CardImage",
+                "name"     : {
+                  "zh" : "\u6D3B\u8FC7\u591C\u665A",
+                  "en" : "Holding the Night Back",
+                  "ja" : "\u591C\u3092\u9000\u3051\u308B"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "FadeToBlack"   : 0,
+      "RoomDirection" : 0,
+      "ExitDirection" : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "NestedObjectives"     : [
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_HoldingTheNightBack_Obj1_WarmUpByTheFire",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u5728\u8425\u706B\u5904\u53D6\u6696",
+          "en" : "Warm Up by the Campfire",
+          "ja" : "\u711A\u304D\u706B\u3067\u6696\u3092\u53D6\u308B"
+        }
+      },
+      "ObjectiveName"      : "1",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_HoldingTheNightBack_Obj2_AddFuelToTheCampfire",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u4E3A\u8425\u706B\u8865\u5145\u71C3\u6599",
+          "en" : "Add Fuel to the Campfire",
+          "ja" : "\u711A\u304D\u706B\u306B\u71C3\u6599\u3092\u304F\u3079\u308B"
+        }
+      },
+      "ObjectiveName"      : "2",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_HoldingTheNightBack_Obj3_GoToSleepByUsingTheClock",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u4F7F\u7528\u65F6\u949F\u6309\u94AE\u7761\u89C9",
+          "en" : "Go To Sleep by Using the Clock",
+          "ja" : "\u6642\u8A08\u3092\u4F7F\u3063\u3066\u7720\u308B"
+        }
+      },
+      "ObjectiveName"      : "3",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_HoldingTheNightBack_Obj4_ReachTheMorningLight",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u89C1\u5230\u65E5\u51FA",
+          "en" : "Reach the Morning Light",
+          "ja" : "\u671D\u65E5\u3092\u8FCE\u3048\u308B"
+        }
+      },
+      "ObjectiveName"      : "4",
+      "CompletionWeight"   : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "Objective",
+  "key"                         : "Huntsman2_HoldingTheNightBack_Completed",
+  "name"                        : {
+    "zh" : "\u6D3B\u8FC7\u591C\u665A",
+    "en" : "Holding the Night Back",
+    "ja" : "\u591C\u3092\u9000\u3051\u308B"
+  },
+  "_uuid"                       : "bd36db2af05a6734093c481515929bb1"
+}

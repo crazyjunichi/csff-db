@@ -1,1 +1,91 @@
-{"key":"ButcheringActionSpecial2Receiving","type":"ActionTag","name":{"zh":"\u5C60\u5BB0\u52A8\u4F5C-\u7279\u6B8A2\u63A5\u6536","en":"ButcheringActionSpecial2Receiving","ja":"ButcheringActionSpecial2Receiving"},"_modifiers":[{"source":{"key":"ToolOrWeapon_ButcheringKnife_Metal","type":"CardData","CardType":0,"icon":"10643f0a720816ef","name":{"zh":"\u91D1\u5C5E\u5C60\u5BB0\u5200","en":"Metal Butchering Knife","ja":"\u91D1\u5C5E\u88FD\u306E\u89E3\u4F53\u30CA\u30A4\u30D5"}},"description":{"zh":"\u5361\u724C\u80FD\u529B","en":"Card Ability","ja":"\u30AB\u30FC\u30C9\u80FD\u529B"},"modifier":{"AppliesTo":[{"key":"ButcheringActionSpecial2Receiving","type":"ActionTag","name":{"zh":"\u5C60\u5BB0\u52A8\u4F5C-\u7279\u6B8A2\u63A5\u6536","en":"ButcheringActionSpecial2Receiving","ja":"ButcheringActionSpecial2Receiving"}}],"DurationModifier":-1,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":2.0,"y":2.0}}],"ReceivingDurabilities":{"Special2Change":{"x":5.0,"y":5.0}},"AddedTemporaryStatModifiers":[{"Stat":{"key":"Skill_Butchering","type":"GameStat","icon":"d684bada7c0a723f","min":0.0,"max":150.0,"name":{"zh":"\u5C60\u5BB0","en":"Butchering","ja":"\u89E3\u4F53"}},"ValueModifier":{"x":15.0,"y":15.0}}],"FadeToBlack":0}}]}
+
+{
+  "key" : "ButcheringActionSpecial2Receiving",
+  "type" : "ActionTag",
+  "name" : {
+    "zh" : "\u5C60\u5BB0\u52A8\u4F5C-\u7279\u6B8A2\u63A5\u6536",
+    "en" : "ButcheringActionSpecial2Receiving",
+    "ja" : "ButcheringActionSpecial2Receiving"
+  },
+  "_modifiers" : [
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_ButcheringKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_ButcheringKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5C60\u5BB0\u5200",
+          "en" : "Metal Butchering Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u89E3\u4F53\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u5361\u724C\u80FD\u529B",
+        "en" : "Card Ability",
+        "ja" : "\u30AB\u30FC\u30C9\u80FD\u529B"
+      },
+      "modifier"    : {
+        "AppliesTo" : [
+          {
+            "key" : "ButcheringActionSpecial2Receiving",
+            "type" : "ActionTag",
+            "name" : {
+              "zh" : "\u5C60\u5BB0\u52A8\u4F5C-\u7279\u6B8A2\u63A5\u6536",
+              "en" : "ButcheringActionSpecial2Receiving",
+              "ja" : "ButcheringActionSpecial2Receiving"
+            }
+          }
+        ],
+        "DurationModifier" : -1,
+        "AddedStatModifiers" : [
+          {
+            "Stat" : {
+              "key" : "Stamina",
+              "type" : "GameStat",
+              "icon" : "GameStat__Stamina__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 32.0,
+              "name" : {
+                "zh" : "\u8010\u529B",
+                "en" : "Stamina",
+                "ja" : "\u30B9\u30BF\u30DF\u30CA"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 2.0,
+              "y" : 2.0
+            }
+          }
+        ],
+        "ReceivingDurabilities" : {
+          "Special2Change" : {
+            "x" : 5.0,
+            "y" : 5.0
+          }
+        },
+        "AddedTemporaryStatModifiers" : [
+          {
+            "Stat" : {
+              "key" : "Skill_Butchering",
+              "type" : "GameStat",
+              "icon" : "CardData__Bp_ToolOrWeapon_Knife_Metal__CardImage",
+              "min"  : 0.0,
+              "max"  : 150.0,
+              "name" : {
+                "zh" : "\u5C60\u5BB0",
+                "en" : "Butchering",
+                "ja" : "\u89E3\u4F53"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 15.0,
+              "y" : 15.0
+            }
+          }
+        ],
+        "FadeToBlack"                 : 0
+      }
+    }
+  ]
+}

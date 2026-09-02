@@ -1,1 +1,129 @@
-{"GameName":{"zh":"\u6297\u751F\u7D20","en":"Antibiotics","ja":"\u6297\u751F\u7269\u8CEA"},"Description":{"zh":"\u6B64\u6548\u679C\u53EF\u4EE5\u6781\u5927\u5730\u589E\u5F3A\u4F60\u7684\u514D\u75AB\u7CFB\u7EDF\uFF0C\u5E2E\u52A9\u6740\u6B7B\u7EC6\u83CC\u548C\u5BC4\u751F\u866B\u3002","en":"This effect considerably boosts your immune system, helping you kill bacteria and parasites.","ja":"\u514D\u75AB\u529B\u3092\u30D6\u30FC\u30B9\u30C8\u3057\u3001\u3070\u3044\u83CC\u3068\u5BC4\u751F\u866B\u3092\u6BBA\u3059\u3053\u3068\u3092\u624B\u4F1D\u3046\u3002"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":96.0},"BaseRatePerTick":-1.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":0.0941,"g":0.298,"b":0.8275,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"\u4E2D\u7B49\u6297\u751F\u7D20\u5242\u91CF","en":"Moderate Antibiotics Dose","ja":"\u9069\u91CF\u306E\u6297\u751F\u7269\u8CEA"},"ValueRange":{"m_X":1,"m_Y":48},"EffectsOnStats":[{"Stat":{"key":"ImmuneSystem","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":325.0,"name":{"zh":"\u514D\u75AB\u7CFB\u7EDF","en":"Immune System","ja":"\u514D\u75AB\u7CFB"}},"ValueModifier":{"x":300.0,"y":300.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u9AD8\u6297\u751F\u7D20\u5242\u91CF","en":"Strong Antibiotics Dose","ja":"\u5927\u91CF\u306E\u6297\u751F\u7269\u8CEA"},"ValueRange":{"m_X":49,"m_Y":96},"EffectsOnStats":[{"Stat":{"key":"ImmuneSystem","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":325.0,"name":{"zh":"\u514D\u75AB\u7CFB\u7EDF","en":"Immune System","ja":"\u514D\u75AB\u7CFB"}},"ValueModifier":{"x":600.0,"y":600.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"2d61e72639793669"},"StepValue":10.0},"type":"GameStat","key":"AntibioticsEffect","name":{"zh":"\u6297\u751F\u7D20","en":"Antibiotics","ja":"\u6297\u751F\u7269\u8CEA"},"min":0.0,"max":96.0,"_uuid":"82ad714edf2afc845ac1af1c9a42948a"}
+
+{
+  "GameName" : {
+    "zh" : "\u6297\u751F\u7D20",
+    "en" : "Antibiotics",
+    "ja" : "\u6297\u751F\u7269\u8CEA"
+  },
+  "Description" : {
+    "zh" : "\u6B64\u6548\u679C\u53EF\u4EE5\u6781\u5927\u5730\u589E\u5F3A\u4F60\u7684\u514D\u75AB\u7CFB\u7EDF\uFF0C\u5E2E\u52A9\u6740\u6B7B\u7EC6\u83CC\u548C\u5BC4\u751F\u866B\u3002",
+    "en" : "This effect considerably boosts your immune system, helping you kill bacteria and parasites.",
+    "ja" : "\u514D\u75AB\u529B\u3092\u30D6\u30FC\u30B9\u30C8\u3057\u3001\u3070\u3044\u83CC\u3068\u5BC4\u751F\u866B\u3092\u6BBA\u3059\u3053\u3068\u3092\u624B\u4F1D\u3046\u3002"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 96.0
+  },
+  "BaseRatePerTick" : -1.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.0941,
+    "g" : 0.298,
+    "b" : 0.8275,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u4E2D\u7B49\u6297\u751F\u7D20\u5242\u91CF",
+        "en" : "Moderate Antibiotics Dose",
+        "ja" : "\u9069\u91CF\u306E\u6297\u751F\u7269\u8CEA"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 48
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 300.0,
+            "y" : 300.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u9AD8\u6297\u751F\u7D20\u5242\u91CF",
+        "en" : "Strong Antibiotics Dose",
+        "ja" : "\u5927\u91CF\u306E\u6297\u751F\u7269\u8CEA"
+      },
+      "ValueRange" : {
+        "m_X" : 49,
+        "m_Y" : 96
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 600.0,
+            "y" : 600.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "GameStat__AntibioticsEffect__FeedbackInfo-Icon"
+    },
+    "StepValue" : 10.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "AntibioticsEffect",
+  "name"                    : {
+    "zh" : "\u6297\u751F\u7D20",
+    "en" : "Antibiotics",
+    "ja" : "\u6297\u751F\u7269\u8CEA"
+  },
+  "min"                     : 0.0,
+  "max"                     : 96.0,
+  "_uuid"                   : "82ad714edf2afc845ac1af1c9a42948a"
+}

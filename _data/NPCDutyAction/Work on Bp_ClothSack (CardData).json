@@ -1,1 +1,67 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"Bp_ClothSack","type":"CardData","CardType":7,"icon":"915fd9b4b5de53dd","name":{"zh":"\u5E03\u888B","en":"Cloth Sack","ja":"Cloth Sack"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":1,"OwnershipPriority":0,"DutyPriority":2,"Containers":{"CanLookInContainers":true},"DebugItemSelection":true},"AffectType":4,"SimpleAffectDuration":0,"BpIngredientsSelection":{"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":0,"Containers":{"CanLookInContainers":true,"NOTAllowedContainers":[{"Target":{"key":"Bp_ClothSack","type":"CardData","CardType":7,"icon":"915fd9b4b5de53dd","name":{"zh":"\u5E03\u888B","en":"Cloth Sack","ja":"Cloth Sack"}}}]},"DebugItemSelection":true},"key":"Work on Bp_ClothSack (CardData)","type":"NPCDutyAction","name":{"zh":"Work on Bp_ClothSack (CardData)","en":"Work on Bp_ClothSack (CardData)","ja":"Work on Bp_ClothSack (CardData)"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Bp_ClothSack",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Bp_ClothSack__CardImage",
+            "name"     : {
+              "zh" : "\u5E03\u888B",
+              "en" : "Cloth Sack",
+              "ja" : "Cloth Sack"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Bp_ClothSack",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Bp_ClothSack__CardImage",
+            "name"     : {
+              "zh" : "\u5E03\u888B",
+              "en" : "Cloth Sack",
+              "ja" : "Cloth Sack"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Bp_ClothSack (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "Work on Bp_ClothSack (CardData)",
+    "en" : "Work on Bp_ClothSack (CardData)",
+    "ja" : "Work on Bp_ClothSack (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

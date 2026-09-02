@@ -1,1 +1,58 @@
-{"DutyName":{"zh":"\u996E\u7528","en":"Drink","ja":"Drink"},"DutySummary":{"zh":"Drinking.","en":"Drinking.","ja":"Drinking."},"CanPerformWhileInDialog":true,"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"Partner_Thirst","type":"NPCStat","name":{"zh":"\u53E3\u6E34","en":"Partner_Thirst","ja":"Partner_Thirst"}},"ConditionRange":{"x":0.0,"y":210.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"Drink","type":"AffectItemsDutyAction","name":{"zh":"Drink","en":"Drink","ja":"Drink"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_DrinkFree","name":{"zh":"\u996E\u7528","en":"Drink","ja":"Drink"},"_uuid":"9060e702466d6764eb64e5983e72215e"}
+
+{
+  "DutyName" : {
+    "zh" : "\u996E\u7528",
+    "en" : "Drink",
+    "ja" : "Drink"
+  },
+  "DutySummary" : {
+    "zh" : "Drinking.",
+    "en" : "Drinking.",
+    "ja" : "Drinking."
+  },
+  "CanPerformWhileInDialog" : true,
+  "MaxPerformPerDay"        : 0,
+  "DutyConditions"          : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "Partner_Thirst",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u53E3\u6E34",
+            "en" : "Partner_Thirst",
+            "ja" : "Partner_Thirst"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 210.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions"    : 0,
+  "ActionSequence"          : [
+    {
+      "key" : "Drink",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Drink",
+        "en" : "Drink",
+        "ja" : "Drink"
+      }
+    }
+  ],
+  "GiveUpOptions"           : 0,
+  "GiveUpTicks"             : 0,
+  "type"                    : "NPCDuty",
+  "key"                     : "PartnerDuty_DrinkFree",
+  "name"                    : {
+    "zh" : "\u996E\u7528",
+    "en" : "Drink",
+    "ja" : "Drink"
+  },
+  "_uuid"                   : "9060e702466d6764eb64e5983e72215e"
+}

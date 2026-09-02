@@ -1,1 +1,65 @@
-{"key":"CreativeAction","type":"ActionTag","name":{"zh":"\u521B\u9020\u52A8\u4F5C","en":"CreativeAction","ja":"CreativeAction"},"_modifiers":[{"source":{"key":"Pk_4_6_Creative","type":"CharacterPerk","icon":"2040f4bb605711f0","name":{"zh":"\u521B\u4F5C\u8005","en":"Creative","ja":"\u30AF\u30EA\u30A8\u30A4\u30C6\u30A3\u30D6"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"modifier":{"AppliesTo":[{"key":"CreativeAction","type":"ActionTag","name":{"zh":"\u521B\u9020\u52A8\u4F5C","en":"CreativeAction","ja":"CreativeAction"}}],"DurationModifier":0,"AddedStatModifiers":[{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"ValueModifier":{"x":1.0,"y":1.0},"ApplyEachTick":true}],"FadeToBlack":0}}]}
+
+{
+  "key" : "CreativeAction",
+  "type" : "ActionTag",
+  "name" : {
+    "zh" : "\u521B\u9020\u52A8\u4F5C",
+    "en" : "CreativeAction",
+    "ja" : "CreativeAction"
+  },
+  "_modifiers" : [
+    {
+      "source" : {
+        "key" : "Pk_4_6_Creative",
+        "type" : "CharacterPerk",
+        "icon" : "CharacterPerk__Pk_4_5_Social__PerkIcon",
+        "name" : {
+          "zh" : "\u521B\u4F5C\u8005",
+          "en" : "Creative",
+          "ja" : "\u30AF\u30EA\u30A8\u30A4\u30C6\u30A3\u30D6"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "modifier"    : {
+        "AppliesTo" : [
+          {
+            "key" : "CreativeAction",
+            "type" : "ActionTag",
+            "name" : {
+              "zh" : "\u521B\u9020\u52A8\u4F5C",
+              "en" : "CreativeAction",
+              "ja" : "CreativeAction"
+            }
+          }
+        ],
+        "DurationModifier" : 0,
+        "AddedStatModifiers" : [
+          {
+            "Stat" : {
+              "key" : "Gratification",
+              "type" : "GameStat",
+              "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+              "min"  : -100.0,
+              "max"  : 100.0,
+              "name" : {
+                "zh" : "\u6EE1\u8DB3\u611F",
+                "en" : "Gratification",
+                "ja" : "\u6E80\u8DB3\u611F"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 1.0,
+              "y" : 1.0
+            },
+            "ApplyEachTick" : true
+          }
+        ],
+        "FadeToBlack"        : 0
+      }
+    }
+  ]
+}

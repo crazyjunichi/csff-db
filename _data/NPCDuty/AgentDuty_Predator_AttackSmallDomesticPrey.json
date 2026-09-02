@@ -1,1 +1,68 @@
-{"DutyName":{"zh":"\u730E\u6355\u5C0F\u578B\u5BB6\u755C","en":"Predator Attack Small  Domestic Prey","ja":"Predator Attack Small  Domestic Prey"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":50.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfAttackSmallDomesticPrey","type":"AffectItemsDutyAction","name":{"zh":"WolfAttackSmallDomesticPrey","en":"WolfAttackSmallDomesticPrey","ja":"WolfAttackSmallDomesticPrey"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Predator_AttackSmallDomesticPrey","name":{"zh":"\u730E\u6355\u5C0F\u578B\u5BB6\u755C","en":"Predator Attack Small  Domestic Prey","ja":"Predator Attack Small  Domestic Prey"},"_uuid":"0edadd47e0a1b794996c3aca2e73b95f"}
+
+{
+  "DutyName" : {
+    "zh" : "\u730E\u6355\u5C0F\u578B\u5BB6\u755C",
+    "en" : "Predator Attack Small  Domestic Prey",
+    "ja" : "Predator Attack Small  Domestic Prey"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 50.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "WolfAttackSmallDomesticPrey",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "WolfAttackSmallDomesticPrey",
+        "en" : "WolfAttackSmallDomesticPrey",
+        "ja" : "WolfAttackSmallDomesticPrey"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Predator_AttackSmallDomesticPrey",
+  "name"                 : {
+    "zh" : "\u730E\u6355\u5C0F\u578B\u5BB6\u755C",
+    "en" : "Predator Attack Small  Domestic Prey",
+    "ja" : "Predator Attack Small  Domestic Prey"
+  },
+  "_uuid"                : "0edadd47e0a1b794996c3aca2e73b95f"
+}

@@ -1,1 +1,90 @@
-{"DutyName":{"zh":"\u8FD4\u56DE\u5DE2\u7A74","en":"Primeval Wolf go Home","ja":"Primeval Wolf go Home"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentHomeCall","type":"NPCStat","name":{"zh":"\u5DE2\u7A74\u547C\u5524","en":"AgentHomeCall","ja":"AgentHomeCall"}}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentEnraged","type":"NPCStat","name":{"zh":"\u6FC0\u6012","en":"AgentEnraged","ja":"AgentEnraged"}},"ConditionRange":{"x":0.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":0,"ActionSequence":[{"key":"GoHome","type":"MoveDutyAction","name":{"zh":"GoHome","en":"GoHome","ja":"GoHome"}},{"key":"RefillHomecall","type":"ChangeNPCStatDutyAction","name":{"zh":"RefillHomecall","en":"RefillHomecall","ja":"RefillHomecall"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_PrimevalWolf_GoHome","name":{"zh":"\u8FD4\u56DE\u5DE2\u7A74","en":"Primeval Wolf go Home","ja":"Primeval Wolf go Home"},"_uuid":"3c1edd3803fd002448011393b5df3512"}
+
+{
+  "DutyName" : {
+    "zh" : "\u8FD4\u56DE\u5DE2\u7A74",
+    "en" : "Primeval Wolf go Home",
+    "ja" : "Primeval Wolf go Home"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentHomeCall",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5DE2\u7A74\u547C\u5524",
+            "en" : "AgentHomeCall",
+            "ja" : "AgentHomeCall"
+          }
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentEnraged",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6FC0\u6012",
+            "en" : "AgentEnraged",
+            "ja" : "AgentEnraged"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "GoHome",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "GoHome",
+        "en" : "GoHome",
+        "ja" : "GoHome"
+      }
+    },
+    {
+      "key" : "RefillHomecall",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "RefillHomecall",
+        "en" : "RefillHomecall",
+        "ja" : "RefillHomecall"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_PrimevalWolf_GoHome",
+  "name"                             : {
+    "zh" : "\u8FD4\u56DE\u5DE2\u7A74",
+    "en" : "Primeval Wolf go Home",
+    "ja" : "Primeval Wolf go Home"
+  },
+  "_uuid"                            : "3c1edd3803fd002448011393b5df3512"
+}

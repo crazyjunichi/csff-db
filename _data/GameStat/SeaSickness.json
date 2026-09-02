@@ -1,1 +1,465 @@
-{"GameName":{"zh":"\u6655\u8239","en":"Sea Sickness","ja":"\u8239\u9154\u3044"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":96.0},"BaseRatePerTick":-1.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":0.4207,"g":0.7804,"b":0.1922,"a":1.0},"BarHighlightColor":{"r":0.8899,"g":1.0,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"d34c86d1059e4a22"},"Statuses":[{"GameName":{"zh":"\u8F7B\u5EA6\u6076\u5FC3","en":"Mild Nausea","ja":"\u8EFD\u3044\u5410\u304D\u6C17"},"ValueRange":{"m_X":1,"m_Y":8},"EffectsOnStats":[{"Stat":{"key":"SeaSicknessResistance","type":"GameStat","icon":"d34c86d1059e4a22","min":0.0,"max":128.0,"name":{"zh":"\u822A\u6D77\u6280\u672F","en":"Seamanship","ja":"\u6D77\u306E\u7537"}},"RateModifier":{"x":0.25,"y":0.25}},{"Stat":{"key":"Nausea","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":24.0,"name":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"}},"RateModifier":{"x":1.0,"y":1.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"},"ValueRange":{"m_X":9,"m_Y":48},"EffectsOnStats":[{"Stat":{"key":"SeaSicknessResistance","type":"GameStat","icon":"d34c86d1059e4a22","min":0.0,"max":128.0,"name":{"zh":"\u822A\u6D77\u6280\u672F","en":"Seamanship","ja":"\u6D77\u306E\u7537"}},"RateModifier":{"x":0.5,"y":0.5}},{"Stat":{"key":"Nausea","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":24.0,"name":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"}},"RateModifier":{"x":1.5,"y":1.5}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u975E\u5E38\u6076\u5FC3","en":"Strong Nausea","ja":"\u3072\u3069\u3044\u5410\u304D\u6C17"},"ValueRange":{"m_X":49,"m_Y":96},"EffectsOnStats":[{"Stat":{"key":"SeaSicknessResistance","type":"GameStat","icon":"d34c86d1059e4a22","min":0.0,"max":128.0,"name":{"zh":"\u822A\u6D77\u6280\u672F","en":"Seamanship","ja":"\u6D77\u306E\u7537"}},"RateModifier":{"x":0.5,"y":0.5}},{"Stat":{"key":"Nausea","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":24.0,"name":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"}},"RateModifier":{"x":2.0,"y":2.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"SeaSickness","icon":"d34c86d1059e4a22","name":{"zh":"\u6655\u8239","en":"Sea Sickness","ja":"\u8239\u9154\u3044"},"min":0.0,"max":96.0,"_modifierValues":[{"source":{"key":"Event_FluteTunes3","type":"CardData","CardType":3,"icon":"14df6ecbe5be68ab","name":{"zh":"\u7B2C3\u9875","en":"Page 3","ja":"\uFF13\u30DA\u30FC\u30B8"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6EAA\u6D41\u4E4B\u8C03","en":"Action: River Tune","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5DDD\u306E\u66F2"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"Event_FluteTunes3","type":"CardData","CardType":3,"icon":"14df6ecbe5be68ab","name":{"zh":"\u7B2C3\u9875","en":"Page 3","ja":"\uFF13\u30DA\u30FC\u30B8"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6EAA\u6D41\u4E4B\u8C03","en":"Action: River Tune","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5DDD\u306E\u66F2"},"value":{"x":-10.0,"y":-10.0}}],"_modifierRates":[{"source":{"key":"SeaAgitation","type":"GameStat","min":0.0,"max":5.0,"name":{"zh":"\u6D77\u98CE\u7A0B\u5EA6","en":"Sea Agitation","ja":"\u6CE2\u306E\u6FC0\u3057\u3055"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5E73\u9759\u7684\u6C34\u9762","en":"Status Stage: Calm Waters","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9759\u304B\u306A\u6D77"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"SeaAgitation","type":"GameStat","min":0.0,"max":5.0,"name":{"zh":"\u6D77\u98CE\u7A0B\u5EA6","en":"Sea Agitation","ja":"\u6CE2\u306E\u6FC0\u3057\u3055"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5FAE\u7684\u6D6A","en":"Status Stage: Mild agitation","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8EFD\u3044\u63FA\u308C"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"SeaAgitation","type":"GameStat","min":0.0,"max":5.0,"name":{"zh":"\u6D77\u98CE\u7A0B\u5EA6","en":"Sea Agitation","ja":"\u6CE2\u306E\u6FC0\u3057\u3055"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u7684\u6D6A","en":"Status Stage: Medium Agitation","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u63FA\u308C"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"SeaAgitation","type":"GameStat","min":0.0,"max":5.0,"name":{"zh":"\u6D77\u98CE\u7A0B\u5EA6","en":"Sea Agitation","ja":"\u6CE2\u306E\u6FC0\u3057\u3055"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u529B\u7684\u6D6A","en":"Status Stage: Strong Agitation","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6FC0\u3057\u3044\u63FA\u308C"},"value":{"x":3.0,"y":3.0}},{"source":{"key":"SeaAgitation","type":"GameStat","min":0.0,"max":5.0,"name":{"zh":"\u6D77\u98CE\u7A0B\u5EA6","en":"Sea Agitation","ja":"\u6CE2\u306E\u6FC0\u3057\u3055"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u98CE\u66B4\u6D77\u57DF","en":"Status Stage: Storm Waters","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5D50\u306E\u6D77"},"value":{"x":4.0,"y":4.0}},{"source":{"key":"SeaSicknessResistance","type":"GameStat","icon":"d34c86d1059e4a22","min":0.0,"max":128.0,"name":{"zh":"\u822A\u6D77\u6280\u672F","en":"Seamanship","ja":"\u6D77\u306E\u7537"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5EA6\u6297\u6027","en":"Status Stage: Minor Resistance","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8EFD\u3044\u8010\u6027"},"value":{"x":-0.5,"y":-0.5}},{"source":{"key":"SeaSicknessResistance","type":"GameStat","icon":"d34c86d1059e4a22","min":0.0,"max":128.0,"name":{"zh":"\u822A\u6D77\u6280\u672F","en":"Seamanship","ja":"\u6D77\u306E\u7537"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u6297\u6027","en":"Status Stage: Medium Resistance","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u8010\u6027"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"SeaSicknessResistance","type":"GameStat","icon":"d34c86d1059e4a22","min":0.0,"max":128.0,"name":{"zh":"\u822A\u6D77\u6280\u672F","en":"Seamanship","ja":"\u6D77\u306E\u7537"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5EA6\u6297\u6027","en":"Status Stage: High Resistance","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3059\u3054\u3044\u8010\u6027"},"value":{"x":-2.0,"y":-2.0}},{"source":{"key":"SeaSicknessResistance","type":"GameStat","icon":"d34c86d1059e4a22","min":0.0,"max":128.0,"name":{"zh":"\u822A\u6D77\u6280\u672F","en":"Seamanship","ja":"\u6D77\u306E\u7537"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u6297\u6027","en":"Status Stage: Extreme Resistance","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5B8C\u5168\u8010\u6027"},"value":{"x":-4.0,"y":-4.0}}],"_uuid":"071e6d0dfed0b834195915fb2a75036e"}
+
+{
+  "GameName" : {
+    "zh" : "\u6655\u8239",
+    "en" : "Sea Sickness",
+    "ja" : "\u8239\u9154\u3044"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 96.0
+  },
+  "BaseRatePerTick" : -1.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.4207,
+    "g" : 0.7804,
+    "b" : 0.1922,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 0.8899,
+    "g" : 1.0,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "GameStat__SeaSickness__DefaultStatusIcon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u8F7B\u5EA6\u6076\u5FC3",
+        "en" : "Mild Nausea",
+        "ja" : "\u8EFD\u3044\u5410\u304D\u6C17"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 8
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "SeaSicknessResistance",
+            "type" : "GameStat",
+            "icon" : "GameStat__SeaSickness__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 128.0,
+            "name" : {
+              "zh" : "\u822A\u6D77\u6280\u672F",
+              "en" : "Seamanship",
+              "ja" : "\u6D77\u306E\u7537"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.25,
+            "y" : 0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Nausea",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 24.0,
+            "name" : {
+              "zh" : "\u6076\u5FC3",
+              "en" : "Nausea",
+              "ja" : "\u5410\u304D\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6076\u5FC3",
+        "en" : "Nausea",
+        "ja" : "\u5410\u304D\u6C17"
+      },
+      "ValueRange" : {
+        "m_X" : 9,
+        "m_Y" : 48
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "SeaSicknessResistance",
+            "type" : "GameStat",
+            "icon" : "GameStat__SeaSickness__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 128.0,
+            "name" : {
+              "zh" : "\u822A\u6D77\u6280\u672F",
+              "en" : "Seamanship",
+              "ja" : "\u6D77\u306E\u7537"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Nausea",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 24.0,
+            "name" : {
+              "zh" : "\u6076\u5FC3",
+              "en" : "Nausea",
+              "ja" : "\u5410\u304D\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.5,
+            "y" : 1.5
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u975E\u5E38\u6076\u5FC3",
+        "en" : "Strong Nausea",
+        "ja" : "\u3072\u3069\u3044\u5410\u304D\u6C17"
+      },
+      "ValueRange" : {
+        "m_X" : 49,
+        "m_Y" : 96
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "SeaSicknessResistance",
+            "type" : "GameStat",
+            "icon" : "GameStat__SeaSickness__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 128.0,
+            "name" : {
+              "zh" : "\u822A\u6D77\u6280\u672F",
+              "en" : "Seamanship",
+              "ja" : "\u6D77\u306E\u7537"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Nausea",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 24.0,
+            "name" : {
+              "zh" : "\u6076\u5FC3",
+              "en" : "Nausea",
+              "ja" : "\u5410\u304D\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "SeaSickness",
+  "icon"                    : "GameStat__SeaSickness__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u6655\u8239",
+    "en" : "Sea Sickness",
+    "ja" : "\u8239\u9154\u3044"
+  },
+  "min"                     : 0.0,
+  "max"                     : 96.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Event_FluteTunes3",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Bp_FluteWooden__CardImage",
+        "name"     : {
+          "zh" : "\u7B2C3\u9875",
+          "en" : "Page 3",
+          "ja" : "\uFF13\u30DA\u30FC\u30B8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6EAA\u6D41\u4E4B\u8C03",
+        "en" : "Action: River Tune",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5DDD\u306E\u66F2"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_FluteTunes3",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Bp_FluteWooden__CardImage",
+        "name"     : {
+          "zh" : "\u7B2C3\u9875",
+          "en" : "Page 3",
+          "ja" : "\uFF13\u30DA\u30FC\u30B8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6EAA\u6D41\u4E4B\u8C03",
+        "en" : "Action: River Tune",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5DDD\u306E\u66F2"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "SeaAgitation",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 5.0,
+        "name" : {
+          "zh" : "\u6D77\u98CE\u7A0B\u5EA6",
+          "en" : "Sea Agitation",
+          "ja" : "\u6CE2\u306E\u6FC0\u3057\u3055"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5E73\u9759\u7684\u6C34\u9762",
+        "en" : "Status Stage: Calm Waters",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9759\u304B\u306A\u6D77"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SeaAgitation",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 5.0,
+        "name" : {
+          "zh" : "\u6D77\u98CE\u7A0B\u5EA6",
+          "en" : "Sea Agitation",
+          "ja" : "\u6CE2\u306E\u6FC0\u3057\u3055"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5FAE\u7684\u6D6A",
+        "en" : "Status Stage: Mild agitation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8EFD\u3044\u63FA\u308C"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SeaAgitation",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 5.0,
+        "name" : {
+          "zh" : "\u6D77\u98CE\u7A0B\u5EA6",
+          "en" : "Sea Agitation",
+          "ja" : "\u6CE2\u306E\u6FC0\u3057\u3055"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u7684\u6D6A",
+        "en" : "Status Stage: Medium Agitation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u63FA\u308C"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SeaAgitation",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 5.0,
+        "name" : {
+          "zh" : "\u6D77\u98CE\u7A0B\u5EA6",
+          "en" : "Sea Agitation",
+          "ja" : "\u6CE2\u306E\u6FC0\u3057\u3055"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u529B\u7684\u6D6A",
+        "en" : "Status Stage: Strong Agitation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6FC0\u3057\u3044\u63FA\u308C"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SeaAgitation",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 5.0,
+        "name" : {
+          "zh" : "\u6D77\u98CE\u7A0B\u5EA6",
+          "en" : "Sea Agitation",
+          "ja" : "\u6CE2\u306E\u6FC0\u3057\u3055"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u98CE\u66B4\u6D77\u57DF",
+        "en" : "Status Stage: Storm Waters",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5D50\u306E\u6D77"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SeaSicknessResistance",
+        "type" : "GameStat",
+        "icon" : "GameStat__SeaSickness__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 128.0,
+        "name" : {
+          "zh" : "\u822A\u6D77\u6280\u672F",
+          "en" : "Seamanship",
+          "ja" : "\u6D77\u306E\u7537"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5EA6\u6297\u6027",
+        "en" : "Status Stage: Minor Resistance",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8EFD\u3044\u8010\u6027"
+      },
+      "value"       : {
+        "x" : -0.5,
+        "y" : -0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "SeaSicknessResistance",
+        "type" : "GameStat",
+        "icon" : "GameStat__SeaSickness__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 128.0,
+        "name" : {
+          "zh" : "\u822A\u6D77\u6280\u672F",
+          "en" : "Seamanship",
+          "ja" : "\u6D77\u306E\u7537"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u6297\u6027",
+        "en" : "Status Stage: Medium Resistance",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u8010\u6027"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SeaSicknessResistance",
+        "type" : "GameStat",
+        "icon" : "GameStat__SeaSickness__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 128.0,
+        "name" : {
+          "zh" : "\u822A\u6D77\u6280\u672F",
+          "en" : "Seamanship",
+          "ja" : "\u6D77\u306E\u7537"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5EA6\u6297\u6027",
+        "en" : "Status Stage: High Resistance",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3059\u3054\u3044\u8010\u6027"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SeaSicknessResistance",
+        "type" : "GameStat",
+        "icon" : "GameStat__SeaSickness__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 128.0,
+        "name" : {
+          "zh" : "\u822A\u6D77\u6280\u672F",
+          "en" : "Seamanship",
+          "ja" : "\u6D77\u306E\u7537"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u6297\u6027",
+        "en" : "Status Stage: Extreme Resistance",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5B8C\u5168\u8010\u6027"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    }
+  ],
+  "_uuid"                   : "071e6d0dfed0b834195915fb2a75036e"
+}

@@ -1,1 +1,68 @@
-{"SunsCost":15,"MoonsCost":0,"StarsCost":0,"PerkName":{"zh":"\u98DF\u6B32\u4F4E\u4E0B","en":"Low Apetite","ja":"Low Apetite"},"PerkDescription":{"zh":"\u5EF6\u7F13\u9965\u997F\u611F\uFF0C\u66F4\u96BE\u8FDB\u98DF\uFF0C\u66F4\u5BB9\u6613\u8425\u517B\u4E0D\u826F\u3002","en":"Delays hunger, making it harder to eat and easier to get malnourished.","ja":"Delays hunger, making it harder to eat and easier to get malnourished."},"PerkIcon":{"FileName":"7a17661f0faba539"},"DisplayPriority":0.0,"PassiveNPCStatModifiers":[{"TargetStat":{"key":"Partner_Appetite","type":"NPCStat","name":{"zh":"\u98DF\u6B32","en":"Partner_Appetite","ja":"Partner_Appetite"}},"ValueChange":{"MaxValue":-100.0,"FloatValue":-100.0,"Active":true}},{"TargetStat":{"key":"Partner_Satiation","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u9971\u98DF","en":"Partner_Satiation","ja":"Partner_Satiation"}},"ValueChange":{"MaxValue":100.0,"FloatValue":100.0},"RateChange":{"MaxValue":0.0,"FloatValue":0.0,"Active":true}}],"CheckingNotificationDetails":0,"type":"NPCCharacterPerk","key":"PartnerPerk_LowAppetite","icon":"7a17661f0faba539","name":{"zh":"\u98DF\u6B32\u4F4E\u4E0B","en":"Low Apetite","ja":"Low Apetite"},"_uuid":"e17e93247ea21ca42be8c81cb6468ccb"}
+
+{
+  "SunsCost" : 15,
+  "MoonsCost" : 0,
+  "StarsCost" : 0,
+  "PerkName"  : {
+    "zh" : "\u98DF\u6B32\u4F4E\u4E0B",
+    "en" : "Low Apetite",
+    "ja" : "Low Apetite"
+  },
+  "PerkDescription" : {
+    "zh" : "\u5EF6\u7F13\u9965\u997F\u611F\uFF0C\u66F4\u96BE\u8FDB\u98DF\uFF0C\u66F4\u5BB9\u6613\u8425\u517B\u4E0D\u826F\u3002",
+    "en" : "Delays hunger, making it harder to eat and easier to get malnourished.",
+    "ja" : "Delays hunger, making it harder to eat and easier to get malnourished."
+  },
+  "PerkIcon"        : {
+    "FileName" : "GameStat__Appetite__DefaultStatusIcon"
+  },
+  "DisplayPriority" : 0.0,
+  "PassiveNPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "Partner_Appetite",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u98DF\u6B32",
+          "en" : "Partner_Appetite",
+          "ja" : "Partner_Appetite"
+        }
+      },
+      "ValueChange" : {
+        "MaxValue" : -100.0,
+        "FloatValue" : -100.0,
+        "Active"     : true
+      }
+    },
+    {
+      "TargetStat" : {
+        "key" : "Partner_Satiation",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u540C\u4F34\u9971\u98DF",
+          "en" : "Partner_Satiation",
+          "ja" : "Partner_Satiation"
+        }
+      },
+      "ValueChange" : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 100.0
+      },
+      "RateChange"  : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      }
+    }
+  ],
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "NPCCharacterPerk",
+  "key"                         : "PartnerPerk_LowAppetite",
+  "icon"                        : "GameStat__Appetite__DefaultStatusIcon",
+  "name"                        : {
+    "zh" : "\u98DF\u6B32\u4F4E\u4E0B",
+    "en" : "Low Apetite",
+    "ja" : "Low Apetite"
+  },
+  "_uuid"                       : "e17e93247ea21ca42be8c81cb6468ccb"
+}

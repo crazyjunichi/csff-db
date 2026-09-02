@@ -1,1 +1,2144 @@
-{"GameName":{"zh":"\u7761\u7720\u949F","en":"Sleep Clock","ja":"\u7761\u7720\u306E\u6642\u8A08"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":999.0},"BaseRatePerTick":-1.0,"StatPriority":100,"Visibility":2,"BarColor":{"r":0.0745,"g":0.9098,"b":0.6118,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"ValueRange":{"m_X":1,"m_Y":999},"EffectsOnStats":[{"Stat":{"key":"TemperaturePerceived","type":"GameStat","icon":"4194726ee334e108","min":-80.0,"max":80.0,"name":{"zh":"\u4F53\u611F\u6E29\u5EA6","en":"Perceived Temperature","ja":"\u4F53\u611F\u6E29\u5EA6"}},"ValueModifier":{"x":-2.0,"y":-2.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"Icon":{"FileName":"3e355a2ebcd28297"},"NegativeIcon":{"FileName":"8bebd73fcbf117cf"},"StepValue":100.0},"type":"GameStat","key":"SleepClock","name":{"zh":"\u7761\u7720\u949F","en":"Sleep Clock","ja":"\u7761\u7720\u306E\u6642\u8A08"},"min":0.0,"max":999.0,"_modifierValues":[{"source":{"key":"Event_Nightmare","type":"CardData","CardType":3,"icon":"57ea339ac3cedefa","name":{"zh":"\u68A6\u9B47\uFF01","en":"Nightmare!","ja":"\u60AA\u5922\uFF01"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C1D\u8BD5\u5E73\u9759\u4E0B\u6765\u2026\u2026","en":"Action: Try to calm down...","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u843D\u3061\u7740\u3053\u3046\u30FB\u30FB\u30FB"},"value":{"x":-999.0,"y":-999.0}},{"source":{"key":"Event_NightTerror","type":"CardData","CardType":3,"icon":"395e1904b190072a","name":{"zh":"\u591C\u60E7\uFF01","en":"Night Terror!","ja":"\u591C\u306E\u6050\u6016\uFF01"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C1D\u8BD5\u5E73\u9759\u4E0B\u6765\u2026\u2026","en":"Action: Try to calm down...","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u843D\u3061\u7740\u3053\u3046\u30FB\u30FB\u30FB"},"value":{"x":-999.0,"y":-999.0}},{"source":{"key":"Event_NightTerror","type":"CardData","CardType":3,"icon":"395e1904b190072a","name":{"zh":"\u591C\u60E7\uFF01","en":"Night Terror!","ja":"\u591C\u306E\u6050\u6016\uFF01"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u878D\u5408","en":"Action: Bind it","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30D0\u30A4\u30F3\u30C9\u3059\u308B"},"value":{"x":-999.0,"y":-999.0}},{"source":{"key":"BedImprovised","type":"CardData","CardType":2,"icon":"b72b21adc8b22116","name":{"zh":"\u7B80\u6613\u5E8A","en":"Improvised Bed","ja":"\u624B\u4F5C\u308A\u30D9\u30C3\u30C9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C0F\u61A9","en":"Action: Nap","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"},"value":{"x":15.0,"y":15.0}},{"source":{"key":"BedImprovised","type":"CardData","CardType":2,"icon":"b72b21adc8b22116","name":{"zh":"\u7B80\u6613\u5E8A","en":"Improvised Bed","ja":"\u624B\u4F5C\u308A\u30D9\u30C3\u30C9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7761\u89C9","en":"Action: Sleep","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"},"value":{"x":31.0,"y":31.0}},{"source":{"key":"BedLog","type":"CardData","CardType":2,"icon":"cfbfdf09b84a8da7","name":{"zh":"\u539F\u6728\u5E8A","en":"Log Bed","ja":"\u4E38\u592A\u306E\u30D9\u30C3\u30C9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C0F\u61A9","en":"Action: Nap","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4EEE\u7720"},"value":{"x":15.0,"y":15.0}},{"source":{"key":"BedLog","type":"CardData","CardType":2,"icon":"cfbfdf09b84a8da7","name":{"zh":"\u539F\u6728\u5E8A","en":"Log Bed","ja":"\u4E38\u592A\u306E\u30D9\u30C3\u30C9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7761\u89C9","en":"Action: Sleep","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"},"value":{"x":31.0,"y":31.0}},{"source":{"key":"BedRoll","type":"CardData","CardType":0,"name":{"zh":"\u7761\u888B","en":"Bedroll","ja":"\u5BDD\u888B"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C0F\u61A9","en":"Action: Nap","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4EEE\u7720"},"value":{"x":15.0,"y":15.0}},{"source":{"key":"BedRoll","type":"CardData","CardType":0,"name":{"zh":"\u7761\u888B","en":"Bedroll","ja":"\u5BDD\u888B"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7761\u89C9","en":"Action: Sleep","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"},"value":{"x":31.0,"y":31.0}},{"source":{"key":"ImprovisedShelter","type":"CardData","CardType":2,"icon":"9c01e51aff3d7a19","name":{"zh":"\u4E34\u65F6\u5E87\u62A4\u6240","en":"Improvised Shelter","ja":"\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C0F\u61A9","en":"Action: Nap","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"},"value":{"x":15.0,"y":15.0}},{"source":{"key":"ImprovisedShelter","type":"CardData","CardType":2,"icon":"9c01e51aff3d7a19","name":{"zh":"\u4E34\u65F6\u5E87\u62A4\u6240","en":"Improvised Shelter","ja":"\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7761\u89C9","en":"Action: Sleep","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"},"value":{"x":31.0,"y":31.0}},{"source":{"key":"Hideout","type":"CardData","CardType":2,"icon":"c96b5dfdaf59e2be","name":{"zh":"\u85CF\u533F\u70B9","en":"Hideout","ja":"\u96A0\u308C\u5BB6"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C0F\u61A9","en":"Action: Nap","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u663C\u5BDD"},"value":{"x":15.0,"y":15.0}},{"source":{"key":"Hideout","type":"CardData","CardType":2,"icon":"c96b5dfdaf59e2be","name":{"zh":"\u85CF\u533F\u70B9","en":"Hideout","ja":"\u96A0\u308C\u5BB6"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7761\u89C9","en":"Action: Sleep","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"},"value":{"x":31.0,"y":31.0}},{"source":{"key":"SnowShelter","type":"CardData","CardType":2,"icon":"7c7c7d8b4a940549","name":{"zh":"\u96EA\u68DA","en":"Snow Shelter","ja":"\u96EA\u30B7\u30A7\u30EB\u30BF\u30FC"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C0F\u61A9","en":"Action: Nap","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u663C\u5BDD"},"value":{"x":15.0,"y":15.0}},{"source":{"key":"SnowShelter","type":"CardData","CardType":2,"icon":"7c7c7d8b4a940549","name":{"zh":"\u96EA\u68DA","en":"Snow Shelter","ja":"\u96EA\u30B7\u30A7\u30EB\u30BF\u30FC"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7761\u89C9","en":"Action: Sleep","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"},"value":{"x":31.0,"y":31.0}},{"source":{"key":"Event_SpiderNight","type":"CardData","CardType":3,"name":{"zh":"A Spider bit me!","en":"A Spider bit me!","ja":"A Spider bit me!"}},"description":{"zh":"\u52A8\u4F5C\uFF1APush Spider away!","en":"Action: Push Spider away!","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1APush Spider away!"},"value":{"x":-999.0,"y":-999.0}},{"source":{"key":"Mania","type":"GameStat","icon":"9e1c9c294ec3f4b9","min":0.0,"max":1000.0,"name":{"zh":"\u72C2\u8E81","en":"Mania","ja":"\u30BD\u30A6\u72B6\u614B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5EA6\u72C2\u70ED","en":"Status Stage: Hypomanic","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30B1\u30A4\u30BD\u30A6\u75C5"},"value":{"x":-4.0,"y":-4.0}},{"source":{"key":"Mania","type":"GameStat","icon":"9e1c9c294ec3f4b9","min":0.0,"max":1000.0,"name":{"zh":"\u72C2\u8E81","en":"Mania","ja":"\u30BD\u30A6\u72B6\u614B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u72C2\u70ED","en":"Status Stage: Manic","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30BD\u30A6\u72B6\u614B"},"value":{"x":-8.0,"y":-8.0}},{"source":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6291\u90C1","en":"Status Stage: Depressed","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3057\u3093\u3069\u3044"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E25\u91CD\u6291\u90C1","en":"Status Stage: Seriously Depressed","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9B31\u75C5"},"value":{"x":4.0,"y":4.0}},{"source":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5D29\u6E83","en":"Status Stage: Self Destructive","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u81EA\u5DF1\u7834\u58CA\u7684"},"value":{"x":6.0,"y":6.0}},{"source":{"key":"Stress","type":"GameStat","icon":"43e350618ec951e0","min":0.0,"max":240.0,"name":{"zh":"\u538B\u529B","en":"Stress","ja":"\u30B9\u30C8\u30EC\u30B9"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u7D27\u5F20","en":"Status Stage: Stressed","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30B9\u30C8\u30EC\u30B9\u3092\u611F\u3058\u3066\u308B"},"value":{"x":-2.0,"y":-2.0}},{"source":{"key":"Stress","type":"GameStat","icon":"43e350618ec951e0","min":0.0,"max":240.0,"name":{"zh":"\u538B\u529B","en":"Stress","ja":"\u30B9\u30C8\u30EC\u30B9"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u5EA6\u7D27\u5F20","en":"Status Stage: Extremely Stressed","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u975E\u5E38\u306B\u30B9\u30C8\u30EC\u30B9\u3092\u611F\u3058\u3066\u308B"},"value":{"x":-4.0,"y":-4.0}}],"_requires":[{"source":{"key":"HeatherStemsDry","type":"CardData","CardType":0,"icon":"63692c009c324be6","name":{"zh":"\u5E72\u5E1A\u77F3\u5357\u830E","en":"Dry Heather Stems","ja":"\u4E7E\u3044\u305F\u30D2\u30FC\u30B9\u306E\u830E"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"HeatherStemsDry","type":"CardData","CardType":0,"icon":"63692c009c324be6","name":{"zh":"\u5E72\u5E1A\u77F3\u5357\u830E","en":"Dry Heather Stems","ja":"\u4E7E\u3044\u305F\u30D2\u30FC\u30B9\u306E\u830E"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"HeatherStemsFresh","type":"CardData","CardType":0,"icon":"63692c009c324be6","name":{"zh":"\u65B0\u9C9C\u5E1A\u77F3\u5357\u830E","en":"Fresh Heather Stems","ja":"\u65B0\u9BAE\u306A\u30D8\u30B6\u30FC\u306E\u830E"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"HeatherStemsFresh","type":"CardData","CardType":0,"icon":"63692c009c324be6","name":{"zh":"\u65B0\u9C9C\u5E1A\u77F3\u5357\u830E","en":"Fresh Heather Stems","ja":"\u65B0\u9BAE\u306A\u30D8\u30B6\u30FC\u306E\u830E"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"MeadowgrassDry","type":"CardData","CardType":0,"icon":"63692c009c324be6","name":{"zh":"\u5E72\u7267\u8349","en":"Dry Meadowgrass","ja":"\u4E7E\u71E5\u3057\u305F\u7267\u8349"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"MeadowgrassDry","type":"CardData","CardType":0,"icon":"63692c009c324be6","name":{"zh":"\u5E72\u7267\u8349","en":"Dry Meadowgrass","ja":"\u4E7E\u71E5\u3057\u305F\u7267\u8349"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"MeadowgrassFresh","type":"CardData","CardType":0,"icon":"63692c009c324be6","name":{"zh":"\u65B0\u9C9C\u7267\u8349","en":"Fresh Meadowgrass","ja":"\u65B0\u9BAE\u306A\u7267\u8349"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"MeadowgrassFresh","type":"CardData","CardType":0,"icon":"63692c009c324be6","name":{"zh":"\u65B0\u9C9C\u7267\u8349","en":"Fresh Meadowgrass","ja":"\u65B0\u9BAE\u306A\u7267\u8349"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ReedsDry","type":"CardData","CardType":0,"icon":"557f4034fc66c4e8","name":{"zh":"\u5E72\u82A6\u82C7","en":"Dry Reeds","ja":"\u4E7E\u71E5\u3057\u305F\u30E8\u30B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ReedsDry","type":"CardData","CardType":0,"icon":"557f4034fc66c4e8","name":{"zh":"\u5E72\u82A6\u82C7","en":"Dry Reeds","ja":"\u4E7E\u71E5\u3057\u305F\u30E8\u30B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ReedsFresh","type":"CardData","CardType":0,"icon":"557f4034fc66c4e8","name":{"zh":"\u9752\u82A6\u82C7","en":"Fresh Reeds","ja":"\u65B0\u9BAE\u306A\u30E8\u30B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ReedsFresh","type":"CardData","CardType":0,"icon":"557f4034fc66c4e8","name":{"zh":"\u9752\u82A6\u82C7","en":"Fresh Reeds","ja":"\u65B0\u9BAE\u306A\u30E8\u30B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"WillowTwigs","type":"CardData","CardType":0,"icon":"1e0d2351e5858122","name":{"zh":"\u67F3\u679D","en":"Willow Twigs","ja":"\u30E4\u30CA\u30AE\u306E\u679D"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"WillowTwigs","type":"CardData","CardType":0,"icon":"1e0d2351e5858122","name":{"zh":"\u67F3\u679D","en":"Willow Twigs","ja":"\u30E4\u30CA\u30AE\u306E\u679D"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"BogMyrtleLeavesFresh","type":"CardData","CardType":0,"icon":"a7d659fe9c1e0768","name":{"zh":"\u6CBC\u6CFD\u9999\u6728\u53F6","en":"Bog Myrtle Leaves","ja":"Bog Myrtle Leaves"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u868A","en":"Passive Effect: Mosquito protection when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMosquito protection when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"BogMyrtleLeavesFresh","type":"CardData","CardType":0,"icon":"a7d659fe9c1e0768","name":{"zh":"\u6CBC\u6CFD\u9999\u6728\u53F6","en":"Bog Myrtle Leaves","ja":"Bog Myrtle Leaves"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"BogMyrtleLeavesDried","type":"CardData","CardType":0,"icon":"ace6b7795827031b","name":{"zh":"\u5E72\u6CBC\u6CFD\u9999\u6728\u53F6","en":"Dry Bog Myrtle Leaves","ja":"Dry Bog Myrtle Leaves"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u868A","en":"Passive Effect: Mosquito protection when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMosquito protection when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"BogMyrtleLeavesDried","type":"CardData","CardType":0,"icon":"ace6b7795827031b","name":{"zh":"\u5E72\u6CBC\u6CFD\u9999\u6728\u53F6","en":"Dry Bog Myrtle Leaves","ja":"Dry Bog Myrtle Leaves"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ClothMedium","type":"CardData","CardType":0,"icon":"4328a9386e6759f2","name":{"zh":"\u5E03","en":"Cloth","ja":"\u5E03"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\u4E0E\u9632\u6C34","en":"Passive Effect: Warmth and Waterproofing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth and Waterproofing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ClothMedium","type":"CardData","CardType":0,"icon":"4328a9386e6759f2","name":{"zh":"\u5E03","en":"Cloth","ja":"\u5E03"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"MossDry","type":"CardData","CardType":0,"icon":"6787bd0cf57a4f0e","name":{"zh":"\u5E72\u82D4\u85D3","en":"Dry Moss","ja":"Dry Moss"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"MossDry","type":"CardData","CardType":0,"icon":"6787bd0cf57a4f0e","name":{"zh":"\u5E72\u82D4\u85D3","en":"Dry Moss","ja":"Dry Moss"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"MossFresh","type":"CardData","CardType":0,"icon":"6787bd0cf57a4f0e","name":{"zh":"\u82D4\u85D3","en":"Moss","ja":"Moss"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"MossFresh","type":"CardData","CardType":0,"icon":"6787bd0cf57a4f0e","name":{"zh":"\u82D4\u85D3","en":"Moss","ja":"Moss"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_FurCured","type":"CardData","CardType":0,"icon":"93a797a329a77403","name":{"zh":"\u97A3\u5236\u6BDB\u76AE","en":"Cured Pelt","ja":"\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F","en":"Passive Effect: Waterproofing and Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_FurCured","type":"CardData","CardType":0,"icon":"93a797a329a77403","name":{"zh":"\u97A3\u5236\u6BDB\u76AE","en":"Cured Pelt","ja":"\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5C0F\uFF09","en":"Passive Effect: Warmth when Sleeping - Small","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Small"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_FurCured","type":"CardData","CardType":0,"icon":"93a797a329a77403","name":{"zh":"\u97A3\u5236\u6BDB\u76AE","en":"Cured Pelt","ja":"\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u4E2D\uFF09","en":"Passive Effect: Warmth when Sleeping - Medium","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Medium"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_FurCured","type":"CardData","CardType":0,"icon":"93a797a329a77403","name":{"zh":"\u97A3\u5236\u6BDB\u76AE","en":"Cured Pelt","ja":"\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5927\uFF09","en":"Passive Effect: Warmth when Sleeping - Large","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Large"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_FurCured","type":"CardData","CardType":0,"icon":"93a797a329a77403","name":{"zh":"\u97A3\u5236\u6BDB\u76AE","en":"Cured Pelt","ja":"\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u7279\u5927\uFF09","en":"Passive Effect: Warmth when Sleeping - Very Large","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Very Large"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_FurLeather","type":"CardData","CardType":0,"icon":"b910cd6912a00b62","name":{"zh":"\u6BDB\u76AE","en":"Pelt","ja":"\u30DA\u30EB\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F","en":"Passive Effect: Waterproofing and Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_FurLeather","type":"CardData","CardType":0,"icon":"b910cd6912a00b62","name":{"zh":"\u6BDB\u76AE","en":"Pelt","ja":"\u30DA\u30EB\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5C0F\uFF09","en":"Passive Effect: Warmth when Sleeping - Small","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Small"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_FurLeather","type":"CardData","CardType":0,"icon":"b910cd6912a00b62","name":{"zh":"\u6BDB\u76AE","en":"Pelt","ja":"\u30DA\u30EB\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u4E2D\uFF09","en":"Passive Effect: Warmth when Sleeping - Medium","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Medium"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_FurLeather","type":"CardData","CardType":0,"icon":"b910cd6912a00b62","name":{"zh":"\u6BDB\u76AE","en":"Pelt","ja":"\u30DA\u30EB\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5927\uFF09","en":"Passive Effect: Warmth when Sleeping - Large","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Large"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_FurLeather","type":"CardData","CardType":0,"icon":"b910cd6912a00b62","name":{"zh":"\u6BDB\u76AE","en":"Pelt","ja":"\u30DA\u30EB\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u7279\u5927\uFF09","en":"Passive Effect: Warmth when Sleeping - Very Large","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Very Large"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_SkinCured","type":"CardData","CardType":0,"icon":"2e7c21969a6ebe45","name":{"zh":"\u97A3\u5236\u517D\u76AE","en":"Cured Skin","ja":"\u76AE\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F","en":"Passive Effect: Waterproofing and Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_SkinCured","type":"CardData","CardType":0,"icon":"2e7c21969a6ebe45","name":{"zh":"\u97A3\u5236\u517D\u76AE","en":"Cured Skin","ja":"\u76AE\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5C0F\uFF09","en":"Passive Effect: Warmth when Sleeping - Small","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Small"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_SkinCured","type":"CardData","CardType":0,"icon":"2e7c21969a6ebe45","name":{"zh":"\u97A3\u5236\u517D\u76AE","en":"Cured Skin","ja":"\u76AE\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u4E2D\uFF09","en":"Passive Effect: Warmth when Sleeping - Medium","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Medium"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_SkinCured","type":"CardData","CardType":0,"icon":"2e7c21969a6ebe45","name":{"zh":"\u97A3\u5236\u517D\u76AE","en":"Cured Skin","ja":"\u76AE\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5927\uFF09","en":"Passive Effect: Warmth when Sleeping - Large","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Large"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_SkinCured","type":"CardData","CardType":0,"icon":"2e7c21969a6ebe45","name":{"zh":"\u97A3\u5236\u517D\u76AE","en":"Cured Skin","ja":"\u76AE\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u7279\u5927\uFF09","en":"Passive Effect: Warmth when Sleeping - Very Large","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Very Large"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_SkinLeather","type":"CardData","CardType":0,"icon":"a0ed814abbbf1584","name":{"zh":"\u76AE\u9769","en":"Leather","ja":"\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F","en":"Passive Effect: Waterproofing and Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_SkinLeather","type":"CardData","CardType":0,"icon":"a0ed814abbbf1584","name":{"zh":"\u76AE\u9769","en":"Leather","ja":"\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5C0F\uFF09","en":"Passive Effect: Warmth when Sleeping - Small","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Small"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_SkinLeather","type":"CardData","CardType":0,"icon":"a0ed814abbbf1584","name":{"zh":"\u76AE\u9769","en":"Leather","ja":"\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u4E2D\uFF09","en":"Passive Effect: Warmth when Sleeping - Medium","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Medium"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_SkinLeather","type":"CardData","CardType":0,"icon":"a0ed814abbbf1584","name":{"zh":"\u76AE\u9769","en":"Leather","ja":"\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5927\uFF09","en":"Passive Effect: Warmth when Sleeping - Large","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Large"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"OLD_SkinLeather","type":"CardData","CardType":0,"icon":"a0ed814abbbf1584","name":{"zh":"\u76AE\u9769","en":"Leather","ja":"\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u7279\u5927\uFF09","en":"Passive Effect: Warmth when Sleeping - Very Large","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Very Large"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"SkinLeatherLarge","type":"CardData","CardType":0,"icon":"4de952a6877b173e","name":{"zh":"\u5927\u5757\u76AE\u9769","en":"Large Leather","ja":"\u5927\u578B\u306E\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F","en":"Passive Effect: Waterproofing and Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"SkinLeatherLarge","type":"CardData","CardType":0,"icon":"4de952a6877b173e","name":{"zh":"\u5927\u5757\u76AE\u9769","en":"Large Leather","ja":"\u5927\u578B\u306E\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5927\uFF09","en":"Passive Effect: Warmth when Sleeping - Large","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Large"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"SkinLeatherMedium","type":"CardData","CardType":0,"icon":"9fc11dc27a8a194d","name":{"zh":"\u4E2D\u5757\u76AE\u9769","en":"Medium Leather","ja":"\u4E2D\u578B\u306E\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F","en":"Passive Effect: Waterproofing and Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"SkinLeatherMedium","type":"CardData","CardType":0,"icon":"9fc11dc27a8a194d","name":{"zh":"\u4E2D\u5757\u76AE\u9769","en":"Medium Leather","ja":"\u4E2D\u578B\u306E\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u4E2D\uFF09","en":"Passive Effect: Warmth when Sleeping - Medium","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Medium"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"SkinLeatherSmall","type":"CardData","CardType":0,"icon":"568a5efc06653714","name":{"zh":"\u5C0F\u5757\u76AE\u9769","en":"Small Leather","ja":"\u5C0F\u578B\u306E\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F","en":"Passive Effect: Waterproofing and Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"SkinLeatherSmall","type":"CardData","CardType":0,"icon":"568a5efc06653714","name":{"zh":"\u5C0F\u5757\u76AE\u9769","en":"Small Leather","ja":"\u5C0F\u578B\u306E\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5C0F\uFF09","en":"Passive Effect: Warmth when Sleeping - Small","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Small"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"SkinLeatherVeryLarge","type":"CardData","CardType":0,"icon":"a0ed814abbbf1584","name":{"zh":"\u7279\u5927\u5757\u76AE\u9769","en":"Very Large Leather","ja":"\u7279\u5927\u306E\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F","en":"Passive Effect: Waterproofing and Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"SkinLeatherVeryLarge","type":"CardData","CardType":0,"icon":"a0ed814abbbf1584","name":{"zh":"\u7279\u5927\u5757\u76AE\u9769","en":"Very Large Leather","ja":"\u7279\u5927\u306E\u9769"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u7279\u5927\uFF09","en":"Passive Effect: Warmth when Sleeping - Very Large","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Very Large"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ClothLarge","type":"CardData","CardType":0,"icon":"f487b3c3f47e8f09","name":{"zh":"\u5927\u5757\u7684\u5E03","en":"Large Cloth","ja":"\u5927\u304D\u3044\u5E03"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34","en":"Passive Effect: Waterproofing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ClothLarge","type":"CardData","CardType":0,"icon":"f487b3c3f47e8f09","name":{"zh":"\u5927\u5757\u7684\u5E03","en":"Large Cloth","ja":"\u5927\u304D\u3044\u5E03"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696","en":"Passive Effect: Warmth when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ClothLarge","type":"CardData","CardType":0,"icon":"f487b3c3f47e8f09","name":{"zh":"\u5927\u5757\u7684\u5E03","en":"Large Cloth","ja":"\u5927\u304D\u3044\u5E03"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ClothSmall","type":"CardData","CardType":0,"icon":"d31b837e23834363","name":{"zh":"\u5E03\u7247","en":"Small Cloth","ja":"\u5C0F\u3055\u3044\u5E03"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\u4E0E\u9632\u6C34","en":"Passive Effect: Warmth and Waterproofing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth and Waterproofing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ClothSmall","type":"CardData","CardType":0,"icon":"d31b837e23834363","name":{"zh":"\u5E03\u7247","en":"Small Cloth","ja":"\u5C0F\u3055\u3044\u5E03"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F","en":"Passive Effect: Wellbeing when sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"BedImprovised","type":"CardData","CardType":2,"icon":"b72b21adc8b22116","name":{"zh":"\u7B80\u6613\u5E8A","en":"Improvised Bed","ja":"\u624B\u4F5C\u308A\u30D9\u30C3\u30C9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29","en":"Passive Effect: Insulation","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"BedLog","type":"CardData","CardType":2,"icon":"cfbfdf09b84a8da7","name":{"zh":"\u539F\u6728\u5E8A","en":"Log Bed","ja":"\u4E38\u592A\u306E\u30D9\u30C3\u30C9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29","en":"Passive Effect: Insulation","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"ImprovisedShelter","type":"CardData","CardType":2,"icon":"9c01e51aff3d7a19","name":{"zh":"\u4E34\u65F6\u5E87\u62A4\u6240","en":"Improvised Shelter","ja":"\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29","en":"Passive Effect: Insulation","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"Hideout","type":"CardData","CardType":2,"icon":"c96b5dfdaf59e2be","name":{"zh":"\u85CF\u533F\u70B9","en":"Hideout","ja":"\u96A0\u308C\u5BB6"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29","en":"Passive Effect: Insulation","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"SnowShelter","type":"CardData","CardType":2,"icon":"7c7c7d8b4a940549","name":{"zh":"\u96EA\u68DA","en":"Snow Shelter","ja":"\u96EA\u30B7\u30A7\u30EB\u30BF\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29","en":"Passive Effect: Insulation","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"RyeStraw","type":"CardData","CardType":0,"icon":"a9ba05ba6263f2cd","name":{"zh":"\u9ED1\u9EA6\u79C6","en":"Rye Straw","ja":"\u30E9\u30A4\u9EA6"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AWarmth and Wellbeing when Sleeping","en":"Passive Effect: Warmth and Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth and Wellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"WheatStraw","type":"CardData","CardType":0,"icon":"a9ba05ba6263f2cd","name":{"zh":"\u9EA6\u6746","en":"Wheat Straw","ja":"\u5C0F\u9EA6\u308F\u3089"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AWarmth and Wellbeing when Sleeping","en":"Passive Effect: Warmth and Wellbeing when Sleeping","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth and Wellbeing when Sleeping"},"value":{"x":1.0,"y":999.0}},{"source":{"key":"Tgr_Apparitions","type":"SelfTriggeredAction","name":{"zh":"Tgr_Apparitions","en":"Tgr_Apparitions","ja":"Tgr_Apparitions"}},"description":{"zh":"Tgr_Apparitions","en":"Tgr_Apparitions","ja":"Tgr_Apparitions"}},{"source":{"key":"Tgr_MoonMaidenDream","type":"SelfTriggeredAction","name":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"}},"description":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"},"value":{"x":1.0,"y":1000000000.0}}],"_triggers":[{"source":{"key":"Tgr_Apparitions","type":"SelfTriggeredAction","name":{"zh":"Tgr_Apparitions","en":"Tgr_Apparitions","ja":"Tgr_Apparitions"}},"description":{"zh":"Tgr_Apparitions","en":"Tgr_Apparitions","ja":"Tgr_Apparitions"}},{"source":{"key":"Tgr_MoonMaidenDream","type":"SelfTriggeredAction","name":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"}},"description":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"},"value":{"x":1.0,"y":1000000000.0}},{"source":{"key":"Tgr_Nightmare","type":"SelfTriggeredAction","name":{"zh":"Tgr_Nightmare","en":"Tgr_Nightmare","ja":"Tgr_Nightmare"}},"description":{"zh":"Tgr_Nightmare","en":"Tgr_Nightmare","ja":"Tgr_Nightmare"},"value":{"x":1.0,"y":1000.0}}],"_uuid":"ca25b2c02ece6674bae6aaba4a6b8c10"}
+
+{
+  "GameName" : {
+    "zh" : "\u7761\u7720\u949F",
+    "en" : "Sleep Clock",
+    "ja" : "\u7761\u7720\u306E\u6642\u8A08"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 999.0
+  },
+  "BaseRatePerTick" : -1.0,
+  "StatPriority"    : 100,
+  "Visibility"      : 2,
+  "BarColor"        : {
+    "r" : 0.0745,
+    "g" : 0.9098,
+    "b" : 0.6118,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 999
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "TemperaturePerceived",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+            "min"  : -80.0,
+            "max"  : 80.0,
+            "name" : {
+              "zh" : "\u4F53\u611F\u6E29\u5EA6",
+              "en" : "Perceived Temperature",
+              "ja" : "\u4F53\u611F\u6E29\u5EA6"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "GameStat__BloodSpilled__FeedbackInfo-Icon"
+    },
+    "NegativeIcon" : {
+      "FileName" : "GameStat__BloodSpilled__FeedbackInfo-NegativeIcon"
+    },
+    "StepValue"    : 100.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "SleepClock",
+  "name"                    : {
+    "zh" : "\u7761\u7720\u949F",
+    "en" : "Sleep Clock",
+    "ja" : "\u7761\u7720\u306E\u6642\u8A08"
+  },
+  "min"                     : 0.0,
+  "max"                     : 999.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Event_Nightmare",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Bp_VoidSpiritCalling__CardImage",
+        "name"     : {
+          "zh" : "\u68A6\u9B47\uFF01",
+          "en" : "Nightmare!",
+          "ja" : "\u60AA\u5922\uFF01"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C1D\u8BD5\u5E73\u9759\u4E0B\u6765\u2026\u2026",
+        "en" : "Action: Try to calm down...",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u843D\u3061\u7740\u3053\u3046\u30FB\u30FB\u30FB"
+      },
+      "value"       : {
+        "x" : -999.0,
+        "y" : -999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_NightTerror",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_FearSpiritAngry__CardImage",
+        "name"     : {
+          "zh" : "\u591C\u60E7\uFF01",
+          "en" : "Night Terror!",
+          "ja" : "\u591C\u306E\u6050\u6016\uFF01"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C1D\u8BD5\u5E73\u9759\u4E0B\u6765\u2026\u2026",
+        "en" : "Action: Try to calm down...",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u843D\u3061\u7740\u3053\u3046\u30FB\u30FB\u30FB"
+      },
+      "value"       : {
+        "x" : -999.0,
+        "y" : -999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_NightTerror",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_FearSpiritAngry__CardImage",
+        "name"     : {
+          "zh" : "\u591C\u60E7\uFF01",
+          "en" : "Night Terror!",
+          "ja" : "\u591C\u306E\u6050\u6016\uFF01"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u878D\u5408",
+        "en" : "Action: Bind it",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30D0\u30A4\u30F3\u30C9\u3059\u308B"
+      },
+      "value"       : {
+        "x" : -999.0,
+        "y" : -999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedImprovised",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BedImprovised__CardImage",
+        "name"     : {
+          "zh" : "\u7B80\u6613\u5E8A",
+          "en" : "Improvised Bed",
+          "ja" : "\u624B\u4F5C\u308A\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C0F\u61A9",
+        "en" : "Action: Nap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      },
+      "value"       : {
+        "x" : 15.0,
+        "y" : 15.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedImprovised",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BedImprovised__CardImage",
+        "name"     : {
+          "zh" : "\u7B80\u6613\u5E8A",
+          "en" : "Improvised Bed",
+          "ja" : "\u624B\u4F5C\u308A\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7761\u89C9",
+        "en" : "Action: Sleep",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      },
+      "value"       : {
+        "x" : 31.0,
+        "y" : 31.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedLog",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BedLog__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u6728\u5E8A",
+          "en" : "Log Bed",
+          "ja" : "\u4E38\u592A\u306E\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C0F\u61A9",
+        "en" : "Action: Nap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4EEE\u7720"
+      },
+      "value"       : {
+        "x" : 15.0,
+        "y" : 15.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedLog",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BedLog__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u6728\u5E8A",
+          "en" : "Log Bed",
+          "ja" : "\u4E38\u592A\u306E\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7761\u89C9",
+        "en" : "Action: Sleep",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      },
+      "value"       : {
+        "x" : 31.0,
+        "y" : 31.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedRoll",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "\u7761\u888B",
+          "en" : "Bedroll",
+          "ja" : "\u5BDD\u888B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C0F\u61A9",
+        "en" : "Action: Nap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4EEE\u7720"
+      },
+      "value"       : {
+        "x" : 15.0,
+        "y" : 15.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedRoll",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "\u7761\u888B",
+          "en" : "Bedroll",
+          "ja" : "\u5BDD\u888B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7761\u89C9",
+        "en" : "Action: Sleep",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      },
+      "value"       : {
+        "x" : 31.0,
+        "y" : 31.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ImprovisedShelter",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_ImprovisedShelter__CardImage",
+        "name"     : {
+          "zh" : "\u4E34\u65F6\u5E87\u62A4\u6240",
+          "en" : "Improvised Shelter",
+          "ja" : "\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C0F\u61A9",
+        "en" : "Action: Nap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      },
+      "value"       : {
+        "x" : 15.0,
+        "y" : 15.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ImprovisedShelter",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_ImprovisedShelter__CardImage",
+        "name"     : {
+          "zh" : "\u4E34\u65F6\u5E87\u62A4\u6240",
+          "en" : "Improvised Shelter",
+          "ja" : "\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7761\u89C9",
+        "en" : "Action: Sleep",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      },
+      "value"       : {
+        "x" : 31.0,
+        "y" : 31.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Hideout",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_Hideout__CardImage",
+        "name"     : {
+          "zh" : "\u85CF\u533F\u70B9",
+          "en" : "Hideout",
+          "ja" : "\u96A0\u308C\u5BB6"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C0F\u61A9",
+        "en" : "Action: Nap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u663C\u5BDD"
+      },
+      "value"       : {
+        "x" : 15.0,
+        "y" : 15.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Hideout",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_Hideout__CardImage",
+        "name"     : {
+          "zh" : "\u85CF\u533F\u70B9",
+          "en" : "Hideout",
+          "ja" : "\u96A0\u308C\u5BB6"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7761\u89C9",
+        "en" : "Action: Sleep",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      },
+      "value"       : {
+        "x" : 31.0,
+        "y" : 31.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnowShelter",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_SnowShelter__CardImage",
+        "name"     : {
+          "zh" : "\u96EA\u68DA",
+          "en" : "Snow Shelter",
+          "ja" : "\u96EA\u30B7\u30A7\u30EB\u30BF\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C0F\u61A9",
+        "en" : "Action: Nap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u663C\u5BDD"
+      },
+      "value"       : {
+        "x" : 15.0,
+        "y" : 15.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnowShelter",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_SnowShelter__CardImage",
+        "name"     : {
+          "zh" : "\u96EA\u68DA",
+          "en" : "Snow Shelter",
+          "ja" : "\u96EA\u30B7\u30A7\u30EB\u30BF\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7761\u89C9",
+        "en" : "Action: Sleep",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      },
+      "value"       : {
+        "x" : 31.0,
+        "y" : 31.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_SpiderNight",
+        "type" : "CardData",
+        "CardType" : 3,
+        "name"     : {
+          "zh" : "A Spider bit me!",
+          "en" : "A Spider bit me!",
+          "ja" : "A Spider bit me!"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1APush Spider away!",
+        "en" : "Action: Push Spider away!",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1APush Spider away!"
+      },
+      "value"       : {
+        "x" : -999.0,
+        "y" : -999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Mania",
+        "type" : "GameStat",
+        "icon" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u72C2\u8E81",
+          "en" : "Mania",
+          "ja" : "\u30BD\u30A6\u72B6\u614B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5EA6\u72C2\u70ED",
+        "en" : "Status Stage: Hypomanic",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30B1\u30A4\u30BD\u30A6\u75C5"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Mania",
+        "type" : "GameStat",
+        "icon" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u72C2\u8E81",
+          "en" : "Mania",
+          "ja" : "\u30BD\u30A6\u72B6\u614B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u72C2\u70ED",
+        "en" : "Status Stage: Manic",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30BD\u30A6\u72B6\u614B"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Morale",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+        "min"  : -350.0,
+        "max"  : 350.0,
+        "name" : {
+          "zh" : "\u60C5\u7EEA",
+          "en" : "Morale",
+          "ja" : "\u58EB\u6C17"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6291\u90C1",
+        "en" : "Status Stage: Depressed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3057\u3093\u3069\u3044"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Morale",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+        "min"  : -350.0,
+        "max"  : 350.0,
+        "name" : {
+          "zh" : "\u60C5\u7EEA",
+          "en" : "Morale",
+          "ja" : "\u58EB\u6C17"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E25\u91CD\u6291\u90C1",
+        "en" : "Status Stage: Seriously Depressed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9B31\u75C5"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Morale",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+        "min"  : -350.0,
+        "max"  : 350.0,
+        "name" : {
+          "zh" : "\u60C5\u7EEA",
+          "en" : "Morale",
+          "ja" : "\u58EB\u6C17"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5D29\u6E83",
+        "en" : "Status Stage: Self Destructive",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u81EA\u5DF1\u7834\u58CA\u7684"
+      },
+      "value"       : {
+        "x" : 6.0,
+        "y" : 6.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Stress",
+        "type" : "GameStat",
+        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 240.0,
+        "name" : {
+          "zh" : "\u538B\u529B",
+          "en" : "Stress",
+          "ja" : "\u30B9\u30C8\u30EC\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7D27\u5F20",
+        "en" : "Status Stage: Stressed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30B9\u30C8\u30EC\u30B9\u3092\u611F\u3058\u3066\u308B"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Stress",
+        "type" : "GameStat",
+        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 240.0,
+        "name" : {
+          "zh" : "\u538B\u529B",
+          "en" : "Stress",
+          "ja" : "\u30B9\u30C8\u30EC\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u5EA6\u7D27\u5F20",
+        "en" : "Status Stage: Extremely Stressed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u975E\u5E38\u306B\u30B9\u30C8\u30EC\u30B9\u3092\u611F\u3058\u3066\u308B"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "HeatherStemsDry",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__FlaxStems__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u5E1A\u77F3\u5357\u830E",
+          "en" : "Dry Heather Stems",
+          "ja" : "\u4E7E\u3044\u305F\u30D2\u30FC\u30B9\u306E\u830E"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HeatherStemsDry",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__FlaxStems__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u5E1A\u77F3\u5357\u830E",
+          "en" : "Dry Heather Stems",
+          "ja" : "\u4E7E\u3044\u305F\u30D2\u30FC\u30B9\u306E\u830E"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HeatherStemsFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__FlaxStems__CardImage",
+        "name"     : {
+          "zh" : "\u65B0\u9C9C\u5E1A\u77F3\u5357\u830E",
+          "en" : "Fresh Heather Stems",
+          "ja" : "\u65B0\u9BAE\u306A\u30D8\u30B6\u30FC\u306E\u830E"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HeatherStemsFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__FlaxStems__CardImage",
+        "name"     : {
+          "zh" : "\u65B0\u9C9C\u5E1A\u77F3\u5357\u830E",
+          "en" : "Fresh Heather Stems",
+          "ja" : "\u65B0\u9BAE\u306A\u30D8\u30B6\u30FC\u306E\u830E"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MeadowgrassDry",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__FlaxStems__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u7267\u8349",
+          "en" : "Dry Meadowgrass",
+          "ja" : "\u4E7E\u71E5\u3057\u305F\u7267\u8349"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MeadowgrassDry",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__FlaxStems__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u7267\u8349",
+          "en" : "Dry Meadowgrass",
+          "ja" : "\u4E7E\u71E5\u3057\u305F\u7267\u8349"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MeadowgrassFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__FlaxStems__CardImage",
+        "name"     : {
+          "zh" : "\u65B0\u9C9C\u7267\u8349",
+          "en" : "Fresh Meadowgrass",
+          "ja" : "\u65B0\u9BAE\u306A\u7267\u8349"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MeadowgrassFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__FlaxStems__CardImage",
+        "name"     : {
+          "zh" : "\u65B0\u9C9C\u7267\u8349",
+          "en" : "Fresh Meadowgrass",
+          "ja" : "\u65B0\u9BAE\u306A\u7267\u8349"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ReedsDry",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__ReedsDry__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u82A6\u82C7",
+          "en" : "Dry Reeds",
+          "ja" : "\u4E7E\u71E5\u3057\u305F\u30E8\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ReedsDry",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__ReedsDry__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u82A6\u82C7",
+          "en" : "Dry Reeds",
+          "ja" : "\u4E7E\u71E5\u3057\u305F\u30E8\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ReedsFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__ReedsDry__CardImage",
+        "name"     : {
+          "zh" : "\u9752\u82A6\u82C7",
+          "en" : "Fresh Reeds",
+          "ja" : "\u65B0\u9BAE\u306A\u30E8\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ReedsFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__ReedsDry__CardImage",
+        "name"     : {
+          "zh" : "\u9752\u82A6\u82C7",
+          "en" : "Fresh Reeds",
+          "ja" : "\u65B0\u9BAE\u306A\u30E8\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WillowTwigs",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__WillowTwigs__CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u679D",
+          "en" : "Willow Twigs",
+          "ja" : "\u30E4\u30CA\u30AE\u306E\u679D"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WillowTwigs",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__WillowTwigs__CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u679D",
+          "en" : "Willow Twigs",
+          "ja" : "\u30E4\u30CA\u30AE\u306E\u679D"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BogMyrtleLeavesFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__BogMyrtleEffect__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u6CBC\u6CFD\u9999\u6728\u53F6",
+          "en" : "Bog Myrtle Leaves",
+          "ja" : "Bog Myrtle Leaves"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u868A",
+        "en" : "Passive Effect: Mosquito protection when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMosquito protection when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BogMyrtleLeavesFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__BogMyrtleEffect__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u6CBC\u6CFD\u9999\u6728\u53F6",
+          "en" : "Bog Myrtle Leaves",
+          "ja" : "Bog Myrtle Leaves"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BogMyrtleLeavesFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__BogMyrtleEffect__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u6CBC\u6CFD\u9999\u6728\u53F6",
+          "en" : "Bog Myrtle Leaves",
+          "ja" : "Bog Myrtle Leaves"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BogMyrtleLeavesDried",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BogMyrtleLeavesDried__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u6CBC\u6CFD\u9999\u6728\u53F6",
+          "en" : "Dry Bog Myrtle Leaves",
+          "ja" : "Dry Bog Myrtle Leaves"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u868A",
+        "en" : "Passive Effect: Mosquito protection when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMosquito protection when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BogMyrtleLeavesDried",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BogMyrtleLeavesDried__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u6CBC\u6CFD\u9999\u6728\u53F6",
+          "en" : "Dry Bog Myrtle Leaves",
+          "ja" : "Dry Bog Myrtle Leaves"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BogMyrtleLeavesDried",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BogMyrtleLeavesDried__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u6CBC\u6CFD\u9999\u6728\u53F6",
+          "en" : "Dry Bog Myrtle Leaves",
+          "ja" : "Dry Bog Myrtle Leaves"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothMedium",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothMedium__CardImage",
+        "name"     : {
+          "zh" : "\u5E03",
+          "en" : "Cloth",
+          "ja" : "\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\u4E0E\u9632\u6C34",
+        "en" : "Passive Effect: Warmth and Waterproofing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth and Waterproofing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothMedium",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothMedium__CardImage",
+        "name"     : {
+          "zh" : "\u5E03",
+          "en" : "Cloth",
+          "ja" : "\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MossDry",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__HealersMoss__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u82D4\u85D3",
+          "en" : "Dry Moss",
+          "ja" : "Dry Moss"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MossDry",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__HealersMoss__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u82D4\u85D3",
+          "en" : "Dry Moss",
+          "ja" : "Dry Moss"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MossFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__HealersMoss__CardImage",
+        "name"     : {
+          "zh" : "\u82D4\u85D3",
+          "en" : "Moss",
+          "ja" : "Moss"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MossFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__HealersMoss__CardImage",
+        "name"     : {
+          "zh" : "\u82D4\u85D3",
+          "en" : "Moss",
+          "ja" : "Moss"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_FurCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BearCoat__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u6BDB\u76AE",
+          "en" : "Cured Pelt",
+          "ja" : "\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Waterproofing and Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_FurCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BearCoat__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u6BDB\u76AE",
+          "en" : "Cured Pelt",
+          "ja" : "\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5C0F\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Small",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Small"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_FurCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BearCoat__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u6BDB\u76AE",
+          "en" : "Cured Pelt",
+          "ja" : "\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u4E2D\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Medium",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Medium"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_FurCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BearCoat__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u6BDB\u76AE",
+          "en" : "Cured Pelt",
+          "ja" : "\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5927\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Large",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Large"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_FurCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BearCoat__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u6BDB\u76AE",
+          "en" : "Cured Pelt",
+          "ja" : "\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u7279\u5927\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Very Large",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Very Large"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_FurLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_FurLeather__CardImage",
+        "name"     : {
+          "zh" : "\u6BDB\u76AE",
+          "en" : "Pelt",
+          "ja" : "\u30DA\u30EB\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Waterproofing and Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_FurLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_FurLeather__CardImage",
+        "name"     : {
+          "zh" : "\u6BDB\u76AE",
+          "en" : "Pelt",
+          "ja" : "\u30DA\u30EB\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5C0F\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Small",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Small"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_FurLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_FurLeather__CardImage",
+        "name"     : {
+          "zh" : "\u6BDB\u76AE",
+          "en" : "Pelt",
+          "ja" : "\u30DA\u30EB\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u4E2D\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Medium",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Medium"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_FurLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_FurLeather__CardImage",
+        "name"     : {
+          "zh" : "\u6BDB\u76AE",
+          "en" : "Pelt",
+          "ja" : "\u30DA\u30EB\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5927\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Large",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Large"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_FurLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_FurLeather__CardImage",
+        "name"     : {
+          "zh" : "\u6BDB\u76AE",
+          "en" : "Pelt",
+          "ja" : "\u30DA\u30EB\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u7279\u5927\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Very Large",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Very Large"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_SkinCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__CardImage",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u517D\u76AE",
+          "en" : "Cured Skin",
+          "ja" : "\u76AE\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Waterproofing and Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_SkinCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__CardImage",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u517D\u76AE",
+          "en" : "Cured Skin",
+          "ja" : "\u76AE\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5C0F\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Small",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Small"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_SkinCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__CardImage",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u517D\u76AE",
+          "en" : "Cured Skin",
+          "ja" : "\u76AE\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u4E2D\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Medium",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Medium"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_SkinCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__CardImage",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u517D\u76AE",
+          "en" : "Cured Skin",
+          "ja" : "\u76AE\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5927\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Large",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Large"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_SkinCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__CardImage",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u517D\u76AE",
+          "en" : "Cured Skin",
+          "ja" : "\u76AE\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u7279\u5927\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Very Large",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Very Large"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_SkinLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u76AE\u9769",
+          "en" : "Leather",
+          "ja" : "\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Waterproofing and Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_SkinLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u76AE\u9769",
+          "en" : "Leather",
+          "ja" : "\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5C0F\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Small",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Small"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_SkinLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u76AE\u9769",
+          "en" : "Leather",
+          "ja" : "\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u4E2D\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Medium",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Medium"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_SkinLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u76AE\u9769",
+          "en" : "Leather",
+          "ja" : "\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5927\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Large",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Large"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_SkinLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u76AE\u9769",
+          "en" : "Leather",
+          "ja" : "\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u7279\u5927\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Very Large",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Very Large"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SkinLeatherLarge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_PatchedLeatherLarge__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u5757\u76AE\u9769",
+          "en" : "Large Leather",
+          "ja" : "\u5927\u578B\u306E\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Waterproofing and Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SkinLeatherLarge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_PatchedLeatherLarge__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u5757\u76AE\u9769",
+          "en" : "Large Leather",
+          "ja" : "\u5927\u578B\u306E\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5927\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Large",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Large"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SkinLeatherMedium",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_PatchedLeatherMedium__CardImage",
+        "name"     : {
+          "zh" : "\u4E2D\u5757\u76AE\u9769",
+          "en" : "Medium Leather",
+          "ja" : "\u4E2D\u578B\u306E\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Waterproofing and Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SkinLeatherMedium",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_PatchedLeatherMedium__CardImage",
+        "name"     : {
+          "zh" : "\u4E2D\u5757\u76AE\u9769",
+          "en" : "Medium Leather",
+          "ja" : "\u4E2D\u578B\u306E\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u4E2D\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Medium",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Medium"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SkinLeatherSmall",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_PatchedLeatherSmall__CardImage",
+        "name"     : {
+          "zh" : "\u5C0F\u5757\u76AE\u9769",
+          "en" : "Small Leather",
+          "ja" : "\u5C0F\u578B\u306E\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Waterproofing and Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SkinLeatherSmall",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_PatchedLeatherSmall__CardImage",
+        "name"     : {
+          "zh" : "\u5C0F\u5757\u76AE\u9769",
+          "en" : "Small Leather",
+          "ja" : "\u5C0F\u578B\u306E\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u5C0F\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Small",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Small"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SkinLeatherVeryLarge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u7279\u5927\u5757\u76AE\u9769",
+          "en" : "Very Large Leather",
+          "ja" : "\u7279\u5927\u306E\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34\u4E0E\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Waterproofing and Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing and Wellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SkinLeatherVeryLarge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u7279\u5927\u5757\u76AE\u9769",
+          "en" : "Very Large Leather",
+          "ja" : "\u7279\u5927\u306E\u9769"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\uFF08\u7279\u5927\uFF09",
+        "en" : "Passive Effect: Warmth when Sleeping - Very Large",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping - Very Large"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothLarge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothLarge__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u5757\u7684\u5E03",
+          "en" : "Large Cloth",
+          "ja" : "\u5927\u304D\u3044\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u9632\u6C34",
+        "en" : "Passive Effect: Waterproofing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWaterproofing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothLarge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothLarge__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u5757\u7684\u5E03",
+          "en" : "Large Cloth",
+          "ja" : "\u5927\u304D\u3044\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696",
+        "en" : "Passive Effect: Warmth when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothLarge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothLarge__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u5757\u7684\u5E03",
+          "en" : "Large Cloth",
+          "ja" : "\u5927\u304D\u3044\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothSmall",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothSmall__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u7247",
+          "en" : "Small Cloth",
+          "ja" : "\u5C0F\u3055\u3044\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u4FDD\u6696\u4E0E\u9632\u6C34",
+        "en" : "Passive Effect: Warmth and Waterproofing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth and Waterproofing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothSmall",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothSmall__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u7247",
+          "en" : "Small Cloth",
+          "ja" : "\u5C0F\u3055\u3044\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7761\u7720\u5E78\u798F\u611F",
+        "en" : "Passive Effect: Wellbeing when sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWellbeing when sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedImprovised",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BedImprovised__CardImage",
+        "name"     : {
+          "zh" : "\u7B80\u6613\u5E8A",
+          "en" : "Improvised Bed",
+          "ja" : "\u624B\u4F5C\u308A\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29",
+        "en" : "Passive Effect: Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedLog",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BedLog__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u6728\u5E8A",
+          "en" : "Log Bed",
+          "ja" : "\u4E38\u592A\u306E\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29",
+        "en" : "Passive Effect: Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ImprovisedShelter",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_ImprovisedShelter__CardImage",
+        "name"     : {
+          "zh" : "\u4E34\u65F6\u5E87\u62A4\u6240",
+          "en" : "Improvised Shelter",
+          "ja" : "\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29",
+        "en" : "Passive Effect: Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Hideout",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_Hideout__CardImage",
+        "name"     : {
+          "zh" : "\u85CF\u533F\u70B9",
+          "en" : "Hideout",
+          "ja" : "\u96A0\u308C\u5BB6"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29",
+        "en" : "Passive Effect: Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnowShelter",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_SnowShelter__CardImage",
+        "name"     : {
+          "zh" : "\u96EA\u68DA",
+          "en" : "Snow Shelter",
+          "ja" : "\u96EA\u30B7\u30A7\u30EB\u30BF\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29",
+        "en" : "Passive Effect: Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RyeStraw",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__NettleStemsDried__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u9EA6\u79C6",
+          "en" : "Rye Straw",
+          "ja" : "\u30E9\u30A4\u9EA6"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AWarmth and Wellbeing when Sleeping",
+        "en" : "Passive Effect: Warmth and Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth and Wellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WheatStraw",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__NettleStemsDried__CardImage",
+        "name"     : {
+          "zh" : "\u9EA6\u6746",
+          "en" : "Wheat Straw",
+          "ja" : "\u5C0F\u9EA6\u308F\u3089"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AWarmth and Wellbeing when Sleeping",
+        "en" : "Passive Effect: Warmth and Wellbeing when Sleeping",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWarmth and Wellbeing when Sleeping"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 999.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Apparitions",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Apparitions",
+          "en" : "Tgr_Apparitions",
+          "ja" : "Tgr_Apparitions"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Apparitions",
+        "en" : "Tgr_Apparitions",
+        "ja" : "Tgr_Apparitions"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_MoonMaidenDream",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_MoonMaidenDream",
+          "en" : "Tgr_MoonMaidenDream",
+          "ja" : "Tgr_MoonMaidenDream"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_MoonMaidenDream",
+        "en" : "Tgr_MoonMaidenDream",
+        "ja" : "Tgr_MoonMaidenDream"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1000000000.0
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_Apparitions",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Apparitions",
+          "en" : "Tgr_Apparitions",
+          "ja" : "Tgr_Apparitions"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Apparitions",
+        "en" : "Tgr_Apparitions",
+        "ja" : "Tgr_Apparitions"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_MoonMaidenDream",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_MoonMaidenDream",
+          "en" : "Tgr_MoonMaidenDream",
+          "ja" : "Tgr_MoonMaidenDream"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_MoonMaidenDream",
+        "en" : "Tgr_MoonMaidenDream",
+        "ja" : "Tgr_MoonMaidenDream"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Nightmare",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Nightmare",
+          "en" : "Tgr_Nightmare",
+          "ja" : "Tgr_Nightmare"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Nightmare",
+        "en" : "Tgr_Nightmare",
+        "ja" : "Tgr_Nightmare"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1000.0
+      }
+    }
+  ],
+  "_uuid"                   : "ca25b2c02ece6674bae6aaba4a6b8c10"
+}

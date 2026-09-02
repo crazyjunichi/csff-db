@@ -1,1 +1,92 @@
-{"GameName":{"zh":"\u4FE1\u4EFB\u5EA6","en":"Agent Trust","ja":"Agent Trust"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":20000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":20000.0},"StatScalingToModifiers":[{"InterpolatedValue":{"InputStat":{"key":"Empathy","type":"GameStat","icon":"9bfeb7135e9607fd","min":0.0,"max":100.0,"name":{"zh":"\u4FE1\u4EFB","en":"Empathy","ja":"Empathy"}},"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.9,"y":1.1},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}},{"InterpolatedValue":{"InputStat":{"key":"Skill_Socials","type":"GameStat","icon":"52649902b67c6c1a","min":0.0,"max":150.0,"name":{"zh":"\u4EBA\u60C5\u7EC3\u8FBE","en":"Socials","ja":"\u793E\u4EA4"}},"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":0.9,"y":1.1},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"type":"NPCStat","key":"AgentTrust","name":{"zh":"\u4FE1\u4EFB\u5EA6","en":"AgentTrust","ja":"AgentTrust"},"_uuid":"eeccbe55704197944a02a36405404c46"}
+
+{
+  "GameName" : {
+    "zh" : "\u4FE1\u4EFB\u5EA6",
+    "en" : "Agent Trust",
+    "ja" : "Agent Trust"
+  },
+  "DefaultStartingValue" : 0.0,
+  "DefaultMinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 20000.0
+  },
+  "DefaultRate"          : 0.0,
+  "DefaultMinMaxRate"    : {
+    "x" : 0.0,
+    "y" : 20000.0
+  },
+  "StatScalingToModifiers" : [
+    {
+      "InterpolatedValue" : {
+        "InputStat" : {
+          "key" : "Empathy",
+          "type" : "GameStat",
+          "icon" : "GameStat__Empathy__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u4FE1\u4EFB",
+            "en" : "Empathy",
+            "ja" : "Empathy"
+          }
+        },
+        "Value"     : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.9,
+            "y" : 1.1
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "InterpolatedValue" : {
+        "InputStat" : {
+          "key" : "Skill_Socials",
+          "type" : "GameStat",
+          "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+          "min"  : 0.0,
+          "max"  : 150.0,
+          "name" : {
+            "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+            "en" : "Socials",
+            "ja" : "\u793E\u4EA4"
+          }
+        },
+        "Value"     : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.9,
+            "y" : 1.1
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "HidingOptions"          : 0,
+  "TextDisplay"            : 0,
+  "NumberPrecision"        : 0,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "type"                    : "NPCStat",
+  "key"                     : "AgentTrust",
+  "name"                    : {
+    "zh" : "\u4FE1\u4EFB\u5EA6",
+    "en" : "AgentTrust",
+    "ja" : "AgentTrust"
+  },
+  "_uuid"                   : "eeccbe55704197944a02a36405404c46"
+}

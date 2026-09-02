@@ -1,1 +1,93 @@
-{"Line":{"zh":"\u7537\u4EBA\u505C\u987F\u7247\u523B\uFF0C\u6C89\u9ED8\u5730\u6253\u91CF\u7740\u4F60\u3002","en":"The man pauses, studying you in silence.","ja":"\u7537\u306F\u7ACB\u3061\u6B62\u307E\u308A\u3001\u9ED9\u3063\u3066\u3042\u306A\u305F\u3092\u898B\u5B9A\u3081\u3066\u3044\u308B\u3002"},"ShowContinueButton":0,"ActionToPerform":{"StatModifications":[{"Stat":{"key":"Loneliness","type":"GameStat","icon":"55aa9bdd01ba38d7","min":0.0,"max":4880.0,"name":{"zh":"\u5B64\u72EC\u611F","en":"Loneliness","ja":"\u5B64\u72EC\u3055"}},"RateModifier":{"x":-1000000.0,"y":-1000000.0}}],"Ticks":0,"Miniticks":0},"PossibleAnswers":[{"Answer":{"zh":"\u8C28\u614E\u63A5\u89E6","en":"Approach cautiously","ja":"\u614E\u91CD\u306B\u8FD1\u3065\u304F "},"NewNextLine":{"NextStep":1,"NextScene":{"key":"TraderTalkAnimal","type":"DialogScene","firstLine":{"zh":"\u4ED6\u8F7B\u8F7B\u70B9\u4E86\u70B9\u5934\u3002","en":"He gives a small nod.","ja":"\u5F7C\u306F\u5C0F\u3055\u304F\u3046\u306A\u305A\u3044\u305F\u3002"}}},"ActionToPerform":{"NPCStatModifications":[{"TargetStat":{"key":"SeenPlayerEver","type":"NPCStat","name":{"zh":"\u89C1\u8FC7\u73A9\u5BB6","en":"SeenPlayerEver","ja":"SeenPlayerEver"}},"UseAssociatedAgent":true,"ValueChange":{"x":1.0,"y":1.0}}],"Ticks":0,"Miniticks":0}},{"Answer":{"zh":"\u8BA9\u4ED6\u4E00\u4E2A\u4EBA\u5F85\u4F1A\u513F\u3002","en":"Leave the man alone","ja":"\u7537\u3092\u653E\u3063\u3066\u304A\u304F"},"NewNextLine":{"NextStep":2}}],"type":"DialogLine","key":"TraderIntroIntro","name":{"zh":"\u7537\u4EBA\u505C\u987F\u7247\u523B\uFF0C\u6C89\u9ED8\u5730\u6253\u91CF\u7740\u4F60\u3002","en":"The man pauses, studying you in silence.","ja":"\u7537\u306F\u7ACB\u3061\u6B62\u307E\u308A\u3001\u9ED9\u3063\u3066\u3042\u306A\u305F\u3092\u898B\u5B9A\u3081\u3066\u3044\u308B\u3002"}}
+
+{
+  "Line" : {
+    "zh" : "\u7537\u4EBA\u505C\u987F\u7247\u523B\uFF0C\u6C89\u9ED8\u5730\u6253\u91CF\u7740\u4F60\u3002",
+    "en" : "The man pauses, studying you in silence.",
+    "ja" : "\u7537\u306F\u7ACB\u3061\u6B62\u307E\u308A\u3001\u9ED9\u3063\u3066\u3042\u306A\u305F\u3092\u898B\u5B9A\u3081\u3066\u3044\u308B\u3002"
+  },
+  "ShowContinueButton" : 0,
+  "ActionToPerform"    : {
+    "StatModifications" : [
+      {
+        "Stat" : {
+          "key" : "Loneliness",
+          "type" : "GameStat",
+          "icon" : "GameStat__Grief__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 4880.0,
+          "name" : {
+            "zh" : "\u5B64\u72EC\u611F",
+            "en" : "Loneliness",
+            "ja" : "\u5B64\u72EC\u3055"
+          }
+        },
+        "RateModifier" : {
+          "x" : -1000000.0,
+          "y" : -1000000.0
+        }
+      }
+    ],
+    "Ticks"             : 0,
+    "Miniticks"         : 0
+  },
+  "PossibleAnswers"    : [
+    {
+      "Answer" : {
+        "zh" : "\u8C28\u614E\u63A5\u89E6",
+        "en" : "Approach cautiously",
+        "ja" : "\u614E\u91CD\u306B\u8FD1\u3065\u304F "
+      },
+      "NewNextLine" : {
+        "NextStep" : 1,
+        "NextScene" : {
+          "key" : "TraderTalkAnimal",
+          "type" : "DialogScene",
+          "firstLine" : {
+            "zh" : "\u4ED6\u8F7B\u8F7B\u70B9\u4E86\u70B9\u5934\u3002",
+            "en" : "He gives a small nod.",
+            "ja" : "\u5F7C\u306F\u5C0F\u3055\u304F\u3046\u306A\u305A\u3044\u305F\u3002"
+          }
+        }
+      },
+      "ActionToPerform" : {
+        "NPCStatModifications" : [
+          {
+            "TargetStat" : {
+              "key" : "SeenPlayerEver",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u89C1\u8FC7\u73A9\u5BB6",
+                "en" : "SeenPlayerEver",
+                "ja" : "SeenPlayerEver"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      }
+    },
+    {
+      "Answer" : {
+        "zh" : "\u8BA9\u4ED6\u4E00\u4E2A\u4EBA\u5F85\u4F1A\u513F\u3002",
+        "en" : "Leave the man alone",
+        "ja" : "\u7537\u3092\u653E\u3063\u3066\u304A\u304F"
+      },
+      "NewNextLine" : {
+        "NextStep" : 2
+      }
+    }
+  ],
+  "type"               : "DialogLine",
+  "key"                : "TraderIntroIntro",
+  "name"               : {
+    "zh" : "\u7537\u4EBA\u505C\u987F\u7247\u523B\uFF0C\u6C89\u9ED8\u5730\u6253\u91CF\u7740\u4F60\u3002",
+    "en" : "The man pauses, studying you in silence.",
+    "ja" : "\u7537\u306F\u7ACB\u3061\u6B62\u307E\u308A\u3001\u9ED9\u3063\u3066\u3042\u306A\u305F\u3092\u898B\u5B9A\u3081\u3066\u3044\u308B\u3002"
+  }
+}

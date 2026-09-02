@@ -1,1 +1,2952 @@
-{"AgentName":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"},"AgentDescription":{"zh":"\u4E00\u53EA\u7EA4\u7626\u6BCD\u9E7F\u6B63\u5728\u6797\u95F4\u6E38\u8D70\u3002","en":"A slender doe grazes among the trees.","ja":"\u7D30\u8EAB\u306E\u96CC\u9E7F\u304C\u6728\u3005\u306E\u9593\u3067\u9759\u304B\u306B\u8349\u3092\u98DF\u3093\u3067\u3044\u308B\u3002"},"AgentImage":{"FileName":"9dcc5383b66aa4b8"},"WeightCategory":{"key":"Heavy","type":"AgentWeightCategory","name":{"zh":"\u6C89\u7684","en":"Heavy","ja":"\u91CD\u3044"}},"AgentTags":[{"key":"AgentTag_WolfPackPrey","type":"NPCTag","name":{"zh":"\u72FC\u7FA4\u730E\u7269","en":"AgentTag_WolfPackPrey","ja":"AgentTag_WolfPackPrey"}},{"key":"AgentTag_WolfPackSafePrey","type":"NPCTag","name":{"zh":"\u72FC\u7FA4\u5B89\u5168\u730E\u7269","en":"AgentTag_WolfPackSafePrey","ja":"AgentTag_WolfPackSafePrey"}},{"key":"AgentTag_PartnerHuntTarget","type":"NPCTag","name":{"zh":"\u4F34\u4FA3\u730E\u7269","en":"AgentTag_PartnerHuntTarget","ja":"AgentTag_PartnerHuntTarget"}}],"Interactions":[{"ButtonName":{"zh":"\u63A5\u8FD1","en":"Approach","ja":"\u8FD1\u3065\u304F"},"ButtonType":1,"Dialog":{"key":"Dialogue_AgentDoe","type":"DialogScene","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u30E1\u30B9\u30B8\u30AB"},"firstLine":{"zh":"\u4F60\u63A5\u8FD1\u6BCD\u9E7F","en":"You approach the Doe","ja":"\u30E1\u30B9\u30B8\u30AB\u306B\u8FD1\u3065\u304F\u30FB\u30FB\u30FB"}},"DroppedEncounter":{"key":"Combat_EncounterDoe","type":"Encounter","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}}}],"DefaultTracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"OverrideDefaultTracksCard":{"key":"DefaultTracksCard","type":"CardData","CardType":2,"icon":"259e64c61d5d1036","name":{"zh":"\u6709\u8E2A\u8FF9\uFF01","en":"Tracks!","ja":"\u8DB3\u8DE1\uFF01"}},"TracksDirection":0,"OverrideTrackDurabilities":0,"NPCStatsToTrackDurabilities":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"OutputDurability":32,"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]},"AmbientSoundRealRange":0.0,"AmbientSoundNodesRange":1,"AmbientSounds":[{"DontPlayWhenInCombat":true,"AddedRealRange":0.0,"AddedNodesRange":0,"InternalName":"Doe"}],"AgentStats":[{"ModelStat":{"GameName":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. ","ja":"Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":2880.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRespawnCounter","zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"},"OverrideStartingValue":{"FloatValue":619.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":2880.0,"FloatValue":0.0},"OverrideMinMaxRate":{"MaxValue":0.0,"FloatValue":-10.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u5B58\u5728","en":"1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. ","ja":"1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentExists","zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":-3520.0},"OverrideRate":{"FloatValue":1.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8840\u91CF","en":"Agent Stamina","ja":"Agent Stamina"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentBlood","zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.17,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u996E\u6C34","en":"Agent Hydration","ja":"Agent Hydration"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentHydration","zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":-1.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9971\u98DF","en":"Agent Satiation","ja":"Agent Satiation"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentSatiation","zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":-1.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6E05\u9192","en":"Agent Satiation","ja":"Agent Satiation"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentWakefulness","zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":-1.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6597\u5FD7","en":"Agent Morale","ja":"Agent Morale"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentMorale","zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":10.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8010\u529B","en":"Agent Stamina","ja":"Agent Stamina"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentStamina","zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6BD2\u6297","en":"Agent Special1","ja":"Agent Special1"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentPoisonResistance","zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"},"OverrideStartingValue":{"FloatValue":96.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":96.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.4,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9677\u9631\u7C7B\u578B","en":"Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40","ja":"Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapType","zh":"\u9677\u9631\u7C7B\u578B","en":"AgentTrapType","ja":"AgentTrapType"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunning","zh":"\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunning","ja":"AgentTrapCunning"},"OverrideStartingValue":{"FloatValue":15.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":15.0,"FloatValue":15.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u5957\u7D22\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningSnare","zh":"\u5957\u7D22\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunningSnare","ja":"AgentTrapCunningSnare"},"OverrideStartingValue":{"FloatValue":10000.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":10000.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9677\u5751\u6280\u5DE7","en":"Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningPitTrap","zh":"\u9677\u5751\u6280\u5DE7","en":"AgentTrapCunningPitTrap","ja":"AgentTrapCunningPitTrap"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":0.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u539F\u6728\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningLogTrap","zh":"\u539F\u6728\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunningLogTrap","ja":"AgentTrapCunningLogTrap"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":0.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u843D\u77F3\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningDeadfall","zh":"\u843D\u77F3\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunningDeadfall","ja":"AgentTrapCunningDeadfall"},"OverrideStartingValue":{"FloatValue":10000.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":10000.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0}],"AgentActions":[{"ActionID":"teleport to lost woods","ActionLocalizedName":{"zh":"HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1","en":"HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1","ja":"HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1"},"RepeatOptions":0,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"HOTFIX_REDUNDANT_13032026_patch","type":"GameStat","min":0.0,"max":3.0,"name":{"zh":"\u70ED\u4FEE\u590D_13032026","en":"HOTFIX_REDUNDANT_13032026_patch","ja":"HOTFIX_REDUNDANT_13032026_patch"}},"TriggerRange":{"x":0.0,"y":2.0}}]},"MoveToEnvironment":{"key":"Env_ThicketOak_LostWoods","type":"CardData","CardType":4,"name":{"zh":"\u8FF7\u6797\u5E7D\u5F84","en":"Lost Woods","ja":"\u8FF7\u3044\u306E\u68EE"}},"MoveTiming":1},{"ActionID":"If Agent Exist is 0 Go to Spirit World","ActionLocalizedName":{"zh":"If Agent Exist is 0 Go to Spirit World","en":"If Agent Exist is 0 Go to Spirit World","ja":"If Agent Exist is 0 Go to Spirit World"},"RepeatOptions":1,"CannotPerformWhileDoingOtherAction":true,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}}},{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"ConditionRange":{"x":100.0,"y":2880.0}}]},"StatModifications":[{"Stat":{"key":"Agent_DoeExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6BCD\u9E7F\u5B58\u5728","en":"Doe Exists","ja":"\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"Spawn into the World_1","ActionLocalizedName":{"zh":"Spawn into the World_1","en":"Spawn into the World_1","ja":"Spawn into the World_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}}},{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}}}]},"StatModifications":[{"Stat":{"key":"Agent_DoeExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6BCD\u9E7F\u5B58\u5728","en":"Doe Exists","ja":"\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"}},"ValueModifier":{"x":1.0,"y":1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":1.0,"y":1.0}},{"TargetStat":{"key":"AgentHydration","type":"NPCStat","name":{"zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}},{"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}},{"TargetStat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}},{"TargetStat":{"key":"AgentTrapType","type":"NPCStat","name":{"zh":"\u9677\u9631\u7C7B\u578B","en":"AgentTrapType","ja":"AgentTrapType"}},"UseAssociatedAgent":true,"ValueChange":{"x":-100.0,"y":-100.0}}],"MoveToEnvironment":{"key":"Env_ThicketOak_LostWoods","type":"CardData","CardType":4,"name":{"zh":"\u8FF7\u6797\u5E7D\u5F84","en":"Lost Woods","ja":"\u8FF7\u3044\u306E\u68EE"}},"MoveTiming":0},{"ActionID":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World","ActionLocalizedName":{"zh":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World","en":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World","ja":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Agent_DoeExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6BCD\u9E7F\u5B58\u5728","en":"Doe Exists","ja":"\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"}}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass_1","ActionLocalizedName":{"zh":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","en":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","ja":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world"},"RepeatOptions":1,"CannotPerformWhileInCombat":true,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"ConditionRange":{"x":0.0,"y":6.0}},{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"StatModifications":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}},{"Stat":{"key":"Agent_DoeExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6BCD\u9E7F\u5B58\u5728","en":"Doe Exists","ja":"\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"DroppedCards":[{"CollectionName":"1","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Carcass_DoeCarcass","type":"CardData","CardType":0,"icon":"ad695f53ae7569fb","name":{"zh":"\u6BCD\u9E7F\u5C38\u4F53","en":"Doe Carcass","ja":"\u96CC\u9E7F\u306E\u6B7B\u9AB8"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","ActionLocalizedName":{"zh":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","en":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","ja":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentPoisonResistance","type":"NPCStat","name":{"zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"}}}]},"StatModifications":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}},{"Stat":{"key":"Agent_DoeExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6BCD\u9E7F\u5B58\u5728","en":"Doe Exists","ja":"\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"DroppedCards":[{"CollectionName":"1","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Carcass_DoeCarcass","type":"CardData","CardType":0,"icon":"ad695f53ae7569fb","name":{"zh":"\u6BCD\u9E7F\u5C38\u4F53","en":"Doe Carcass","ja":"\u96CC\u9E7F\u306E\u6B7B\u9AB8"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"Very large Population_1","ActionLocalizedName":{"zh":"Very large Population_1","en":"Very large Population_1","ja":"Very large Population_1"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":10001.0,"y":100000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-2.15,"y":-2.15}}],"MoveTiming":0},{"ActionID":"Very large Population_1 + Oak Blight = slower respawn ","ActionLocalizedName":{"zh":"\u8D85\u5927\u79CD\u7FA4_1 + \u6A61\u6728\u67AF\u840E = \u91CD\u751F\u51CF\u6162","en":"Very large Population_1 + Oak Blight = slower respawn ","ja":"Very large Population_1 + Oak Blight = slower respawn "},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":10001.0,"y":100000.0}},{"Stat":{"key":"OakBlight","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6A61\u6811\u67AF\u840E","en":"Oak Blight","ja":"Oak Blight"}},"TriggerRange":{"x":2529.0,"y":1000000000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":1.075,"y":1.075}}],"MoveTiming":0},{"ActionID":"Large Population_1","ActionLocalizedName":{"zh":"Large Population_1","en":"Large Population_1","ja":"Large Population_1"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":6001.0,"y":10000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.6,"y":-1.6}}],"MoveTiming":0},{"ActionID":"Large Population_1 + Oak Blight = slower respawn ","ActionLocalizedName":{"zh":"Large Population_1 + Oak Blight = slower respawn ","en":"Large Population_1 + Oak Blight = slower respawn ","ja":"Large Population_1 + Oak Blight = slower respawn "},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":6001.0,"y":10000.0}},{"Stat":{"key":"OakBlight","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6A61\u6811\u67AF\u840E","en":"Oak Blight","ja":"Oak Blight"}},"TriggerRange":{"x":2529.0,"y":1000000000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":0.8,"y":0.8}}],"MoveTiming":0},{"ActionID":"Medium Population_1","ActionLocalizedName":{"zh":"Medium Population_1","en":"Medium Population_1","ja":"Medium Population_1"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":3001.0,"y":6000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.05,"y":-1.05}}],"MoveTiming":0},{"ActionID":"Medium Population_1 + Oak Blight = slower respawn ","ActionLocalizedName":{"zh":"Medium Population_1 + Oak Blight = slower respawn ","en":"Medium Population_1 + Oak Blight = slower respawn ","ja":"Medium Population_1 + Oak Blight = slower respawn "},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":3001.0,"y":6000.0}},{"Stat":{"key":"OakBlight","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6A61\u6811\u67AF\u840E","en":"Oak Blight","ja":"Oak Blight"}},"TriggerRange":{"x":2520.0,"y":1000000000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":0.525,"y":0.525}}],"MoveTiming":0},{"ActionID":"Small Population_1","ActionLocalizedName":{"zh":"Small Population_1","en":"Small Population_1","ja":"Small Population_1"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":2000.0,"y":3000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-0.5,"y":-0.5}}],"MoveTiming":0},{"ActionID":"Small Population_1 + Oak Blight = slower respawn ","ActionLocalizedName":{"zh":"Small Population_1 + Oak Blight = slower respawn ","en":"Small Population_1 + Oak Blight = slower respawn ","ja":"Small Population_1 + Oak Blight = slower respawn "},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":2000.0,"y":3000.0}},{"Stat":{"key":"OakBlight","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6A61\u6811\u67AF\u840E","en":"Oak Blight","ja":"Oak Blight"}},"TriggerRange":{"x":2592.0,"y":1000000000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":0.25,"y":0.25}}],"MoveTiming":0},{"ActionID":"Interact with a Trap","ActionLocalizedName":{"zh":"Interact with a Trap","en":"Interact with a Trap","ja":"Interact with a Trap"},"RepeatOptions":3,"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"DroppedCards":[{"CollectionName":"1","CollectionWeight":100,"DroppedCards":[{"DroppedCard":{"key":"Carcass_DoeCarcass","type":"CardData","CardType":0,"icon":"ad695f53ae7569fb","name":{"zh":"\u6BCD\u9E7F\u5C38\u4F53","en":"Doe Carcass","ja":"\u96CC\u9E7F\u306E\u6B7B\u9AB8"}},"Quantity":{"m_X":1,"m_Y":1}}],"StatModifications":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}}]}],"DropCardsInTriggerContainer":true,"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"Reset Agent Trap Type","ActionLocalizedName":{"zh":"Reset Agent Trap Type","en":"Reset Agent Trap Type","ja":"Reset Agent Trap Type"},"RepeatOptions":1,"NPCStatModifications":[{"TargetStat":{"key":"AgentTrapType","type":"NPCStat","name":{"zh":"\u9677\u9631\u7C7B\u578B","en":"AgentTrapType","ja":"AgentTrapType"}},"UseAssociatedAgent":true,"ValueChange":{"x":-100.0,"y":-100.0}}],"MoveTiming":0},{"ActionID":"Bleed","ActionLocalizedName":{"zh":"Bleed","en":"Bleed","ja":"Bleed"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"ConditionRange":{"x":0.0,"y":50.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"UseAssociatedAgent":true,"ValueChange":{"x":-5.0,"y":-5.0}}],"MoveTiming":0},{"ActionID":"Fall Asleep","ActionLocalizedName":{"zh":"Fall Asleep","en":"Fall Asleep","ja":"Fall Asleep"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentPoisonResistance","type":"NPCStat","name":{"zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"}},"ConditionRange":{"x":0.0,"y":48.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentPoisonResistance","type":"NPCStat","name":{"zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"}},"UseAssociatedAgent":true,"ValueChange":{"x":-3.4,"y":-3.4}}],"MoveTiming":0}],"AgentDuties":[{"TargetDuty":{"key":"AgentDuty_AllAnimals_WaitIfBleedingOut","type":"NPCDuty","name":{"zh":"\u7B49\u5F85\u6D41\u8840","en":"All Animals Wait if Bleeding Out","ja":"All Animals Wait if Bleeding Out"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1000000000}},{"TargetDuty":{"key":"AgentDuty_Doe_Rest","type":"NPCDuty","name":{"zh":"\u4F11\u606F","en":"Doe Rest","ja":"Doe Rest"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":5000}},{"TargetDuty":{"key":"AgentDuty_Doe_Flee","type":"NPCDuty","name":{"zh":"\u9003\u8DD1","en":"Doe Flee","ja":"Doe Flee"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":4000}},{"TargetDuty":{"key":"AgentDuty_Doe_AvoidPlayer","type":"NPCDuty","name":{"zh":"\u8EB2\u907F\u73A9\u5BB6","en":"Doe Avoid Player","ja":"Doe Avoid Player"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":0,"StatWeightModifiers":[{"Stat":{"key":"Skill_Stealth","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":150.0,"name":{"zh":"\u6F5C\u884C","en":"Stealth","ja":"\u30B9\u30C6\u30EB\u30B9"}},"StatRange":{"x":0.0,"y":150.0},"InterpWeightRange":{"m_X":0,"m_Y":-3000},"WhenOutOfRange":0},{"Stat":{"key":"Profile","type":"GameStat","icon":"94edac44ebf01321","min":0.0,"max":150.0,"name":{"zh":"\u8F6E\u5ED3","en":"Profile","ja":"\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB"}},"StatRange":{"x":0.0,"y":150.0},"InterpWeightRange":{"m_X":600,"m_Y":-2400},"WhenOutOfRange":0},{"Stat":{"key":"AmbushAid","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":288.0,"name":{"zh":"\u8FFD\u730E\u8005\u7684\u6700\u7231","en":"Stalker's Favour","ja":"\u30B9\u30C8\u30FC\u30AB\u30FC\u306E\u6069\u6075"}},"StatRange":{"x":0.0,"y":288.0},"InterpWeightRange":{"m_X":0,"m_Y":-1920},"WhenOutOfRange":0}],"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":100.0},"InterpWeightRange":{"m_X":0,"m_Y":3000},"WhenOutOfRange":0}],"DistanceToOthersWeightModifiers":[{"Target":{"TargetPlayer":true,"Method":0,"UsePathfinding":true},"DistanceRange":{"x":0.0,"y":10.0},"WhenOutOfRange":2}]}},{"TargetDuty":{"key":"AgentDuty_Doe_Drink","type":"NPCDuty","name":{"zh":"\u996E\u6C34","en":"Doe Drink","ja":"Doe Drink"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":200,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentHydration","type":"NPCStat","name":{"zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Doe_Sleep","type":"NPCDuty","name":{"zh":"\u7761\u89C9","en":"Doe Sleep","ja":"Doe Sleep"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":200,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Doe_SeekSleep","type":"NPCDuty","name":{"zh":"\u524D\u5F80\u4F11\u606F\u5730\u70B9","en":"Doe Seek Sleep","ja":"Doe Seek Sleep"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":100,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Doe_SeekDrink","type":"NPCDuty","name":{"zh":"\u524D\u5F80\u6C34\u6E90","en":"Doe Seek Drink","ja":"Doe Seek Drink"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":100,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentHydration","type":"NPCStat","name":{"zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Doe_FeedHerbi","type":"NPCDuty","name":{"zh":"\u8349\u98DF\u8FDB\u98DF","en":"Doe Feed Herbi","ja":"Doe Feed Herbi"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":405,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Doe_FeedField","type":"NPCDuty","name":{"zh":"\u5543\u98DF\u519C\u7530","en":"Doe Feed Field","ja":"Doe Feed Field"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":400,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Doe_FeedHerbiOmni","type":"NPCDuty","name":{"zh":"\u8349\u98DF\u6742\u98DF\u8FDB\u98DF","en":"Stag Feed Herbi Omni","ja":"Stag Feed Herbi Omni"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":400,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Doe_SeekFoodField","type":"NPCDuty","name":{"zh":"\u5BFB\u627E\u519C\u7530\u98DF\u7269","en":"Doe Seek Food Field","ja":"Doe Seek Food Field"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":300,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}],"DistanceToOthersWeightModifiers":[{"Target":{"TargetPlayer":true,"Method":0,"UsePathfinding":true},"DistanceRange":{"x":0.0,"y":10.0},"InterpWeightRange":{"m_X":-150,"m_Y":-150},"WhenOutOfRange":0}],"DistanceToItemWeightModifiers":[{"Item":{"Target":{"key":"tag_DeerFoodCropField","type":"CardTag","count":16,"name":{"zh":"\u9E7F\u98DF\u7269\u519C\u7530","en":"Deer Food Crop Field","ja":"Deer Food Crop Field"}}},"UsePathfinding":true,"Containers":{"CanLookInContainers":true,"AllowedContainers":[{"Target":{"key":"SnareTrap","type":"CardData","CardType":2,"icon":"0e9fbf16c721852c","name":{"zh":"\u5957\u7D22\u9677\u9631","en":"Snare Trap","ja":"\u304F\u304F\u308A\u7F60"}}},{"Target":{"key":"Sledge","type":"CardData","CardType":0,"icon":"84d7920f689192c0","name":{"zh":"\u96EA\u6A47","en":"Sledge","ja":"\u30BD\u30EA"}}},{"Target":{"key":"Travois","type":"CardData","CardType":0,"icon":"423ece728a489dc3","name":{"zh":"\u65E7\u5F0F\u96EA\u6A47","en":"Travois","ja":"\u305D\u308A"}}}]},"WhenOutOfRange":2}]}},{"TargetDuty":{"key":"AgentDuty_Doe_FeedNature","type":"NPCDuty","name":{"zh":"\u81EA\u7136\u89C5\u98DF","en":"Doe Feed Nature","ja":"Doe Feed Nature"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":200,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Doe_SeekFoodNature","type":"NPCDuty","name":{"zh":"\u5BFB\u627E\u91CE\u5916\u98DF\u7269","en":"Doe Seek Food Nature","ja":"Doe Seek Food Nature"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":100,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Doe_Wandering","type":"NPCDuty","name":{"zh":"\u95F2\u901B","en":"Doe Wondering","ja":"Doe Wondering"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1}}],"MaxCarryWeight":1.0,"CannotTrade":true,"DebugColor":{"r":0.4145,"g":1.0,"b":0.0,"a":1.0},"type":"NPCAgent","key":"Agent_Doe","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"},"_uuid":"6604ce2a04bc31a41b8dbe3ac8369549"}
+
+{
+  "AgentName" : {
+    "zh" : "\u6BCD\u9E7F",
+    "en" : "Doe",
+    "ja" : "\u96CC\u9E7F"
+  },
+  "AgentDescription" : {
+    "zh" : "\u4E00\u53EA\u7EA4\u7626\u6BCD\u9E7F\u6B63\u5728\u6797\u95F4\u6E38\u8D70\u3002",
+    "en" : "A slender doe grazes among the trees.",
+    "ja" : "\u7D30\u8EAB\u306E\u96CC\u9E7F\u304C\u6728\u3005\u306E\u9593\u3067\u9759\u304B\u306B\u8349\u3092\u98DF\u3093\u3067\u3044\u308B\u3002"
+  },
+  "AgentImage"       : {
+    "FileName" : "NPCAgent__Agent_Doe__AgentImage"
+  },
+  "WeightCategory"   : {
+    "key" : "Heavy",
+    "type" : "AgentWeightCategory",
+    "name" : {
+      "zh" : "\u6C89\u7684",
+      "en" : "Heavy",
+      "ja" : "\u91CD\u3044"
+    }
+  },
+  "AgentTags"        : [
+    {
+      "key" : "AgentTag_WolfPackPrey",
+      "type" : "NPCTag",
+      "name" : {
+        "zh" : "\u72FC\u7FA4\u730E\u7269",
+        "en" : "AgentTag_WolfPackPrey",
+        "ja" : "AgentTag_WolfPackPrey"
+      }
+    },
+    {
+      "key" : "AgentTag_WolfPackSafePrey",
+      "type" : "NPCTag",
+      "name" : {
+        "zh" : "\u72FC\u7FA4\u5B89\u5168\u730E\u7269",
+        "en" : "AgentTag_WolfPackSafePrey",
+        "ja" : "AgentTag_WolfPackSafePrey"
+      }
+    },
+    {
+      "key" : "AgentTag_PartnerHuntTarget",
+      "type" : "NPCTag",
+      "name" : {
+        "zh" : "\u540C\u4F34\u730E\u7269",
+        "en" : "AgentTag_PartnerHuntTarget",
+        "ja" : "AgentTag_PartnerHuntTarget"
+      }
+    }
+  ],
+  "Interactions"     : [
+    {
+      "ButtonName" : {
+        "zh" : "\u63A5\u8FD1",
+        "en" : "Approach",
+        "ja" : "\u8FD1\u3065\u304F"
+      },
+      "ButtonType" : 1,
+      "Dialog"     : {
+        "key" : "Dialogue_AgentDoe",
+        "type" : "DialogScene",
+        "name" : {
+          "zh" : "\u6BCD\u9E7F",
+          "en" : "Doe",
+          "ja" : "\u30E1\u30B9\u30B8\u30AB"
+        },
+        "firstLine" : {
+          "zh" : "\u4F60\u63A5\u8FD1\u6BCD\u9E7F",
+          "en" : "You approach the Doe",
+          "ja" : "\u30E1\u30B9\u30B8\u30AB\u306B\u8FD1\u3065\u304F\u30FB\u30FB\u30FB"
+        }
+      },
+      "DroppedEncounter" : {
+        "key" : "Combat_EncounterDoe",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Doe__AgentImage",
+        "name" : {
+          "zh" : "\u6BCD\u9E7F",
+          "en" : "Doe",
+          "ja" : "\u96CC\u9E7F"
+        }
+      }
+    }
+  ],
+  "DefaultTracks"    : {
+    "Active" : true,
+    "TrackLifetime" : {
+      "m_X" : 32,
+      "m_Y" : 32
+    },
+    "OverrideDefaultTracksCard" : {
+      "key" : "DefaultTracksCard",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__BeastTracksCardInvisible__CardImage",
+      "name"     : {
+        "zh" : "\u6709\u8E2A\u8FF9\uFF01",
+        "en" : "Tracks!",
+        "ja" : "\u8DB3\u8DE1\uFF01"
+      }
+    },
+    "TracksDirection"           : 0,
+    "OverrideTrackDurabilities" : 0,
+    "NPCStatsToTrackDurabilities" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBlood",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8840\u91CF",
+            "en" : "AgentBlood",
+            "ja" : "AgentBlood"
+          }
+        },
+        "OutputDurability"   : 32,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    ]
+  },
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 1,
+  "AmbientSounds"          : [
+    {
+      "DontPlayWhenInCombat" : true,
+      "AddedRealRange"       : 0.0,
+      "AddedNodesRange"      : 0,
+      "InternalName"         : "Doe"
+    }
+  ],
+  "AgentStats"             : [
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+          "en" : "Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. ",
+          "ja" : "Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 2880.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRespawnCounter",
+        "zh"                      : "\u5237\u65B0\u5012\u8BA1\u65F6",
+        "en"                      : "AgentRespawnCounter",
+        "ja"                      : "AgentRespawnCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 619.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 2880.0,
+        "FloatValue" : 0.0
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -10.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5B58\u5728",
+          "en" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. ",
+          "ja" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentExists",
+        "zh"                      : "\u5B58\u5728",
+        "en"                      : "AgentExists",
+        "ja"                      : "AgentExists"
+      },
+      "OverrideMinMaxValue" : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : -3520.0
+      },
+      "OverrideRate"        : {
+        "FloatValue" : 1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8840\u91CF",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentBlood",
+        "zh"                      : "\u8840\u91CF",
+        "en"                      : "AgentBlood",
+        "ja"                      : "AgentBlood"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.17,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u996E\u6C34",
+          "en" : "Agent Hydration",
+          "ja" : "Agent Hydration"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentHydration",
+        "zh"                      : "\u996E\u6C34",
+        "en"                      : "AgentHydration",
+        "ja"                      : "AgentHydration"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9971\u98DF",
+          "en" : "Agent Satiation",
+          "ja" : "Agent Satiation"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentSatiation",
+        "zh"                      : "\u9971\u98DF",
+        "en"                      : "AgentSatiation",
+        "ja"                      : "AgentSatiation"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6E05\u9192",
+          "en" : "Agent Satiation",
+          "ja" : "Agent Satiation"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentWakefulness",
+        "zh"                      : "\u6E05\u9192",
+        "en"                      : "AgentWakefulness",
+        "ja"                      : "AgentWakefulness"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6597\u5FD7",
+          "en" : "Agent Morale",
+          "ja" : "Agent Morale"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentMorale",
+        "zh"                      : "\u6597\u5FD7",
+        "en"                      : "AgentMorale",
+        "ja"                      : "AgentMorale"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 10.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8010\u529B",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentStamina",
+        "zh"                      : "\u8010\u529B",
+        "en"                      : "AgentStamina",
+        "ja"                      : "AgentStamina"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6BD2\u6297",
+          "en" : "Agent Special1",
+          "ja" : "Agent Special1"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentPoisonResistance",
+        "zh"                      : "\u6BD2\u6297",
+        "en"                      : "AgentPoisonResistance",
+        "ja"                      : "AgentPoisonResistance"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 96.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 96.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.4,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u7C7B\u578B",
+          "en" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40",
+          "ja" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapType",
+        "zh"                      : "\u9677\u9631\u7C7B\u578B",
+        "en"                      : "AgentTrapType",
+        "ja"                      : "AgentTrapType"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunning",
+        "zh"                      : "\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunning",
+        "ja"                      : "AgentTrapCunning"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 15.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 15.0,
+        "FloatValue" : 15.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningSnare",
+        "zh"                      : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningSnare",
+        "ja"                      : "AgentTrapCunningSnare"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u5751\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningPitTrap",
+        "zh"                      : "\u9677\u5751\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningPitTrap",
+        "ja"                      : "AgentTrapCunningPitTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningLogTrap",
+        "zh"                      : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningLogTrap",
+        "ja"                      : "AgentTrapCunningLogTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningDeadfall",
+        "zh"                      : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningDeadfall",
+        "ja"                      : "AgentTrapCunningDeadfall"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    }
+  ],
+  "AgentActions"           : [
+    {
+      "ActionID" : "teleport to lost woods",
+      "ActionLocalizedName" : {
+        "zh" : "HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1",
+        "en" : "HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1",
+        "ja" : "HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1"
+      },
+      "RepeatOptions"       : 0,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "HOTFIX_REDUNDANT_13032026_patch",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 3.0,
+              "name" : {
+                "zh" : "\u70ED\u4FEE\u590D_13032026",
+                "en" : "HOTFIX_REDUNDANT_13032026_patch",
+                "ja" : "HOTFIX_REDUNDANT_13032026_patch"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 0.0,
+              "y" : 2.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ThicketOak_LostWoods",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u8FF7\u6797\u5E7D\u5F84",
+          "en" : "Lost Woods",
+          "ja" : "\u8FF7\u3044\u306E\u68EE"
+        }
+      },
+      "MoveTiming"          : 1
+    },
+    {
+      "ActionID" : "If Agent Exist is 0 Go to Spirit World",
+      "ActionLocalizedName" : {
+        "zh" : "If Agent Exist is 0 Go to Spirit World",
+        "en" : "If Agent Exist is 0 Go to Spirit World",
+        "ja" : "If Agent Exist is 0 Go to Spirit World"
+      },
+      "RepeatOptions"       : 1,
+      "CannotPerformWhileDoingOtherAction" : true,
+      "Conditions"                         : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentRespawnCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+                "en" : "AgentRespawnCounter",
+                "ja" : "AgentRespawnCounter"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 100.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "StatModifications"                  : [
+        {
+          "Stat" : {
+            "key" : "Agent_DoeExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6BCD\u9E7F\u5B58\u5728",
+              "en" : "Doe Exists",
+              "ja" : "\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveToEnvironment"                  : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"                         : 1
+    },
+    {
+      "ActionID" : "Spawn into the World_1",
+      "ActionLocalizedName" : {
+        "zh" : "Spawn into the World_1",
+        "en" : "Spawn into the World_1",
+        "ja" : "Spawn into the World_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentRespawnCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+                "en" : "AgentRespawnCounter",
+                "ja" : "AgentRespawnCounter"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            }
+          }
+        ]
+      },
+      "StatModifications"   : [
+        {
+          "Stat" : {
+            "key" : "Agent_DoeExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6BCD\u9E7F\u5B58\u5728",
+              "en" : "Doe Exists",
+              "ja" : "\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentHydration",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u996E\u6C34",
+              "en" : "AgentHydration",
+              "ja" : "AgentHydration"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentSatiation",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9971\u98DF",
+              "en" : "AgentSatiation",
+              "ja" : "AgentSatiation"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentWakefulness",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u6E05\u9192",
+              "en" : "AgentWakefulness",
+              "ja" : "AgentWakefulness"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentTrapType",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9677\u9631\u7C7B\u578B",
+              "en" : "AgentTrapType",
+              "ja" : "AgentTrapType"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ThicketOak_LostWoods",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u8FF7\u6797\u5E7D\u5F84",
+          "en" : "Lost Woods",
+          "ja" : "\u8FF7\u3044\u306E\u68EE"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World",
+      "ActionLocalizedName" : {
+        "zh" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World",
+        "en" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World",
+        "ja" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Agent_DoeExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u5B58\u5728",
+                "en" : "Doe Exists",
+                "ja" : "\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"
+              }
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass_1",
+      "ActionLocalizedName" : {
+        "zh" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+        "en" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+        "ja" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world"
+      },
+      "RepeatOptions"       : 1,
+      "CannotPerformWhileInCombat" : true,
+      "Conditions"                 : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentBlood",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8840\u91CF",
+                "en" : "AgentBlood",
+                "ja" : "AgentBlood"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 0.0,
+              "y" : 6.0
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "StatModifications"          : [
+        {
+          "Stat" : {
+            "key" : "Pop_Doe",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 15000.0,
+            "name" : {
+              "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+              "en" : "Population Doe",
+              "ja" : "\u96CC\u9E7F\u306E\u6570"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1000.0,
+            "y" : -1000.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Agent_DoeExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6BCD\u9E7F\u5B58\u5728",
+              "en" : "Doe Exists",
+              "ja" : "\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NPCStatModifications"       : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "DroppedCards"               : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_DoeCarcass",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Carcass_DoeCarcass__CardImage",
+                "name"     : {
+                  "zh" : "\u6BCD\u9E7F\u5C38\u4F53",
+                  "en" : "Doe Carcass",
+                  "ja" : "\u96CC\u9E7F\u306E\u6B7B\u9AB8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "MoveToEnvironment"          : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"                 : 1
+    },
+    {
+      "ActionID" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+      "ActionLocalizedName" : {
+        "zh" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+        "en" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+        "ja" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentPoisonResistance",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6BD2\u6297",
+                "en" : "AgentPoisonResistance",
+                "ja" : "AgentPoisonResistance"
+              }
+            }
+          }
+        ]
+      },
+      "StatModifications"   : [
+        {
+          "Stat" : {
+            "key" : "Pop_Doe",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 15000.0,
+            "name" : {
+              "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+              "en" : "Population Doe",
+              "ja" : "\u96CC\u9E7F\u306E\u6570"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1000.0,
+            "y" : -1000.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Agent_DoeExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6BCD\u9E7F\u5B58\u5728",
+              "en" : "Doe Exists",
+              "ja" : "\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "DroppedCards"         : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_DoeCarcass",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Carcass_DoeCarcass__CardImage",
+                "name"     : {
+                  "zh" : "\u6BCD\u9E7F\u5C38\u4F53",
+                  "en" : "Doe Carcass",
+                  "ja" : "\u96CC\u9E7F\u306E\u6B7B\u9AB8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"           : 1
+    },
+    {
+      "ActionID" : "Very large Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Very large Population_1",
+        "en" : "Very large Population_1",
+        "ja" : "Very large Population_1"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 10001.0,
+              "y" : 100000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -2.15,
+            "y" : -2.15
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Very large Population_1 + Oak Blight = slower respawn ",
+      "ActionLocalizedName" : {
+        "zh" : "\u8D85\u5927\u79CD\u7FA4_1 + \u6A61\u6728\u67AF\u840E = \u91CD\u751F\u51CF\u6162",
+        "en" : "Very large Population_1 + Oak Blight = slower respawn ",
+        "ja" : "Very large Population_1 + Oak Blight = slower respawn "
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 10001.0,
+              "y" : 100000.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "OakBlight",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6A61\u6811\u67AF\u840E",
+                "en" : "Oak Blight",
+                "ja" : "Oak Blight"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2529.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 1.075,
+            "y" : 1.075
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Large Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Large Population_1",
+        "en" : "Large Population_1",
+        "ja" : "Large Population_1"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 6001.0,
+              "y" : 10000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.6,
+            "y" : -1.6
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Large Population_1 + Oak Blight = slower respawn ",
+      "ActionLocalizedName" : {
+        "zh" : "Large Population_1 + Oak Blight = slower respawn ",
+        "en" : "Large Population_1 + Oak Blight = slower respawn ",
+        "ja" : "Large Population_1 + Oak Blight = slower respawn "
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 6001.0,
+              "y" : 10000.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "OakBlight",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6A61\u6811\u67AF\u840E",
+                "en" : "Oak Blight",
+                "ja" : "Oak Blight"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2529.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 0.8,
+            "y" : 0.8
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Medium Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Medium Population_1",
+        "en" : "Medium Population_1",
+        "ja" : "Medium Population_1"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3001.0,
+              "y" : 6000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.05,
+            "y" : -1.05
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Medium Population_1 + Oak Blight = slower respawn ",
+      "ActionLocalizedName" : {
+        "zh" : "Medium Population_1 + Oak Blight = slower respawn ",
+        "en" : "Medium Population_1 + Oak Blight = slower respawn ",
+        "ja" : "Medium Population_1 + Oak Blight = slower respawn "
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3001.0,
+              "y" : 6000.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "OakBlight",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6A61\u6811\u67AF\u840E",
+                "en" : "Oak Blight",
+                "ja" : "Oak Blight"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2520.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 0.525,
+            "y" : 0.525
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Small Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Small Population_1",
+        "en" : "Small Population_1",
+        "ja" : "Small Population_1"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2000.0,
+              "y" : 3000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -0.5,
+            "y" : -0.5
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Small Population_1 + Oak Blight = slower respawn ",
+      "ActionLocalizedName" : {
+        "zh" : "Small Population_1 + Oak Blight = slower respawn ",
+        "en" : "Small Population_1 + Oak Blight = slower respawn ",
+        "ja" : "Small Population_1 + Oak Blight = slower respawn "
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2000.0,
+              "y" : 3000.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "OakBlight",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6A61\u6811\u67AF\u840E",
+                "en" : "Oak Blight",
+                "ja" : "Oak Blight"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2592.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 0.25,
+            "y" : 0.25
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Interact with a Trap",
+      "ActionLocalizedName" : {
+        "zh" : "Interact with a Trap",
+        "en" : "Interact with a Trap",
+        "ja" : "Interact with a Trap"
+      },
+      "RepeatOptions"       : 3,
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "DroppedCards"         : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 100,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_DoeCarcass",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Carcass_DoeCarcass__CardImage",
+                "name"     : {
+                  "zh" : "\u6BCD\u9E7F\u5C38\u4F53",
+                  "en" : "Doe Carcass",
+                  "ja" : "\u96CC\u9E7F\u306E\u6B7B\u9AB8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ],
+          "StatModifications" : [
+            {
+              "Stat" : {
+                "key" : "Pop_Doe",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 15000.0,
+                "name" : {
+                  "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                  "en" : "Population Doe",
+                  "ja" : "\u96CC\u9E7F\u306E\u6570"
+                }
+              },
+              "ValueModifier" : {
+                "x" : -1000.0,
+                "y" : -1000.0
+              }
+            }
+          ]
+        }
+      ],
+      "DropCardsInTriggerContainer" : true,
+      "MoveToEnvironment"           : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"                  : 1
+    },
+    {
+      "ActionID" : "Reset Agent Trap Type",
+      "ActionLocalizedName" : {
+        "zh" : "Reset Agent Trap Type",
+        "en" : "Reset Agent Trap Type",
+        "ja" : "Reset Agent Trap Type"
+      },
+      "RepeatOptions"       : 1,
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentTrapType",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9677\u9631\u7C7B\u578B",
+              "en" : "AgentTrapType",
+              "ja" : "AgentTrapType"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Bleed",
+      "ActionLocalizedName" : {
+        "zh" : "Bleed",
+        "en" : "Bleed",
+        "ja" : "Bleed"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentBlood",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8840\u91CF",
+                "en" : "AgentBlood",
+                "ja" : "AgentBlood"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 0.0,
+              "y" : 50.0
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentBlood",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8840\u91CF",
+              "en" : "AgentBlood",
+              "ja" : "AgentBlood"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -5.0,
+            "y" : -5.0
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Fall Asleep",
+      "ActionLocalizedName" : {
+        "zh" : "Fall Asleep",
+        "en" : "Fall Asleep",
+        "ja" : "Fall Asleep"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentPoisonResistance",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6BD2\u6297",
+                "en" : "AgentPoisonResistance",
+                "ja" : "AgentPoisonResistance"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 0.0,
+              "y" : 48.0
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentPoisonResistance",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u6BD2\u6297",
+              "en" : "AgentPoisonResistance",
+              "ja" : "AgentPoisonResistance"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -3.4,
+            "y" : -3.4
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    }
+  ],
+  "AgentDuties"            : [
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_AllAnimals_WaitIfBleedingOut",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u7B49\u5F85\u6D41\u8840",
+          "en" : "All Animals Wait if Bleeding Out",
+          "ja" : "All Animals Wait if Bleeding Out"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1000000000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_Rest",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u4F11\u606F",
+          "en" : "Doe Rest",
+          "ja" : "Doe Rest"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 5000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_Flee",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u9003\u8DD1",
+          "en" : "Doe Flee",
+          "ja" : "Doe Flee"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 4000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_AvoidPlayer",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u8EB2\u907F\u73A9\u5BB6",
+          "en" : "Doe Avoid Player",
+          "ja" : "Doe Avoid Player"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 0,
+        "StatWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "Skill_Stealth",
+              "type" : "GameStat",
+              "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 150.0,
+              "name" : {
+                "zh" : "\u6F5C\u884C",
+                "en" : "Stealth",
+                "ja" : "\u30B9\u30C6\u30EB\u30B9"
+              }
+            },
+            "StatRange" : {
+              "x" : 0.0,
+              "y" : 150.0
+            },
+            "InterpWeightRange" : {
+              "m_X" : 0,
+              "m_Y" : -3000
+            },
+            "WhenOutOfRange"    : 0
+          },
+          {
+            "Stat" : {
+              "key" : "Profile",
+              "type" : "GameStat",
+              "icon" : "CardData__LeatherTunic__AlternateNames-0-Art-CardImage",
+              "min"  : 0.0,
+              "max"  : 150.0,
+              "name" : {
+                "zh" : "\u8F6E\u5ED3",
+                "en" : "Profile",
+                "ja" : "\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB"
+              }
+            },
+            "StatRange" : {
+              "x" : 0.0,
+              "y" : 150.0
+            },
+            "InterpWeightRange" : {
+              "m_X" : 600,
+              "m_Y" : -2400
+            },
+            "WhenOutOfRange"    : 0
+          },
+          {
+            "Stat" : {
+              "key" : "AmbushAid",
+              "type" : "GameStat",
+              "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 288.0,
+              "name" : {
+                "zh" : "\u8FFD\u730E\u8005\u7684\u6700\u7231",
+                "en" : "Stalker's Favour",
+                "ja" : "\u30B9\u30C8\u30FC\u30AB\u30FC\u306E\u6069\u6075"
+              }
+            },
+            "StatRange" : {
+              "x" : 0.0,
+              "y" : 288.0
+            },
+            "InterpWeightRange" : {
+              "m_X" : 0,
+              "m_Y" : -1920
+            },
+            "WhenOutOfRange"    : 0
+          }
+        ],
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentWakefulness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6E05\u9192",
+                "en" : "AgentWakefulness",
+                "ja" : "AgentWakefulness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 0,
+              "m_Y" : 3000
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ],
+        "DistanceToOthersWeightModifiers" : [
+          {
+            "Target" : {
+              "TargetPlayer" : true,
+              "Method"       : 0,
+              "UsePathfinding" : true
+            },
+            "DistanceRange" : {
+              "x" : 0.0,
+              "y" : 10.0
+            },
+            "WhenOutOfRange" : 2
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_Drink",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u996E\u6C34",
+          "en" : "Doe Drink",
+          "ja" : "Doe Drink"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 200,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentHydration",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u996E\u6C34",
+                "en" : "AgentHydration",
+                "ja" : "AgentHydration"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_Sleep",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u7761\u89C9",
+          "en" : "Doe Sleep",
+          "ja" : "Doe Sleep"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 200,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentWakefulness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6E05\u9192",
+                "en" : "AgentWakefulness",
+                "ja" : "AgentWakefulness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_SeekSleep",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u524D\u5F80\u4F11\u606F\u5730\u70B9",
+          "en" : "Doe Seek Sleep",
+          "ja" : "Doe Seek Sleep"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 100,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentWakefulness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6E05\u9192",
+                "en" : "AgentWakefulness",
+                "ja" : "AgentWakefulness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_SeekDrink",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u524D\u5F80\u6C34\u6E90",
+          "en" : "Doe Seek Drink",
+          "ja" : "Doe Seek Drink"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 100,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentHydration",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u996E\u6C34",
+                "en" : "AgentHydration",
+                "ja" : "AgentHydration"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_FeedHerbi",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u8349\u98DF\u8FDB\u98DF",
+          "en" : "Doe Feed Herbi",
+          "ja" : "Doe Feed Herbi"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 405,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_FeedField",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5543\u98DF\u519C\u7530",
+          "en" : "Doe Feed Field",
+          "ja" : "Doe Feed Field"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 400,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_FeedHerbiOmni",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u8349\u98DF\u6742\u98DF\u8FDB\u98DF",
+          "en" : "Stag Feed Herbi Omni",
+          "ja" : "Stag Feed Herbi Omni"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 400,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_SeekFoodField",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u519C\u7530\u98DF\u7269",
+          "en" : "Doe Seek Food Field",
+          "ja" : "Doe Seek Food Field"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 300,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ],
+        "DistanceToOthersWeightModifiers" : [
+          {
+            "Target" : {
+              "TargetPlayer" : true,
+              "Method"       : 0,
+              "UsePathfinding" : true
+            },
+            "DistanceRange" : {
+              "x" : 0.0,
+              "y" : 10.0
+            },
+            "InterpWeightRange" : {
+              "m_X" : -150,
+              "m_Y" : -150
+            },
+            "WhenOutOfRange"    : 0
+          }
+        ],
+        "DistanceToItemWeightModifiers"   : [
+          {
+            "Item" : {
+              "Target" : {
+                "key" : "tag_DeerFoodCropField",
+                "type" : "CardTag",
+                "count" : 16,
+                "name"  : {
+                  "zh" : "\u9E7F\u98DF\u7269\u519C\u7530",
+                  "en" : "Deer Food Crop Field",
+                  "ja" : "Deer Food Crop Field"
+                }
+              }
+            },
+            "UsePathfinding" : true,
+            "Containers"     : {
+              "CanLookInContainers" : true,
+              "AllowedContainers"   : [
+                {
+                  "Target" : {
+                    "key" : "SnareTrap",
+                    "type" : "CardData",
+                    "CardType" : 2,
+                    "icon"     : "CardData__Bp_SnareTrap__CardImage",
+                    "name"     : {
+                      "zh" : "\u5957\u7D22\u9677\u9631",
+                      "en" : "Snare Trap",
+                      "ja" : "\u304F\u304F\u308A\u7F60"
+                    }
+                  }
+                },
+                {
+                  "Target" : {
+                    "key" : "Sledge",
+                    "type" : "CardData",
+                    "CardType" : 0,
+                    "icon"     : "CardData__Bp_Sledge__CardImage",
+                    "name"     : {
+                      "zh" : "\u96EA\u6A47",
+                      "en" : "Sledge",
+                      "ja" : "\u30BD\u30EA"
+                    }
+                  }
+                },
+                {
+                  "Target" : {
+                    "key" : "Travois",
+                    "type" : "CardData",
+                    "CardType" : 0,
+                    "icon"     : "CardData__Bp_Travois__CardImage",
+                    "name"     : {
+                      "zh" : "\u65E7\u5F0F\u96EA\u6A47",
+                      "en" : "Travois",
+                      "ja" : "\u305D\u308A"
+                    }
+                  }
+                }
+              ]
+            },
+            "WhenOutOfRange" : 2
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_FeedNature",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u81EA\u7136\u89C5\u98DF",
+          "en" : "Doe Feed Nature",
+          "ja" : "Doe Feed Nature"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 200,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_SeekFoodNature",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u91CE\u5916\u98DF\u7269",
+          "en" : "Doe Seek Food Nature",
+          "ja" : "Doe Seek Food Nature"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 100,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Doe_Wandering",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u95F2\u901B",
+          "en" : "Doe Wondering",
+          "ja" : "Doe Wondering"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1
+      }
+    }
+  ],
+  "MaxCarryWeight"         : 1.0,
+  "CannotTrade"            : true,
+  "DebugColor"             : {
+    "r" : 0.4145,
+    "g" : 1.0,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "type"                   : "NPCAgent",
+  "key"                    : "Agent_Doe",
+  "icon"                   : "NPCAgent__Agent_Doe__AgentImage",
+  "name"                   : {
+    "zh" : "\u6BCD\u9E7F",
+    "en" : "Doe",
+    "ja" : "\u96CC\u9E7F"
+  },
+  "_uuid"                  : "6604ce2a04bc31a41b8dbe3ac8369549"
+}

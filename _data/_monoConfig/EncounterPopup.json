@@ -1,1 +1,1341 @@
-{"DefaultPlayerSize":75.0,"PlayerSizeStat":{"key":"Size","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":300.0,"name":{"zh":"\u5C3A\u5BF8","en":"Size","ja":"\u5927\u304D\u3055"}},"Head":{"MeleeHitChanceWeight":1.0,"RangedHitChanceWeight":1.0,"Armor":0.0},"Torso":{"MeleeHitChanceWeight":2.0,"RangedHitChanceWeight":4.0,"Armor":0.0},"LArm":{"MeleeHitChanceWeight":3.0,"RangedHitChanceWeight":1.0,"Armor":0.0},"RArm":{"MeleeHitChanceWeight":3.0,"RangedHitChanceWeight":1.0,"Armor":0.0},"LLeg":{"MeleeHitChanceWeight":2.0,"RangedHitChanceWeight":1.0,"Armor":0.0},"RLeg":{"MeleeHitChanceWeight":2.0,"RangedHitChanceWeight":1.0,"Armor":0.0},"ClashDifferenceTieChance":[{"Active":true,"InputValueRange":{"x":1.0,"y":1.25},"OutputValueRange":{"x":0.22,"y":0.22},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0},{"Active":true,"InputValueRange":{"x":1.25,"y":1.5},"OutputValueRange":{"x":0.11,"y":0.11},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0},{"Active":true,"InputValueRange":{"x":1.5,"y":2.0},"OutputValueRange":{"x":0.05,"y":0.05},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0},{"Active":true,"InputValueRange":{"x":2.0,"y":5.0},"OutputValueRange":{"x":0.02,"y":0.02},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}],"WoundSeverityMappings":[{"AttackDefenseRatio":{"x":0.7,"y":1.5},"WoundSeverity":1},{"AttackDefenseRatio":{"x":1.5,"y":2.0},"WoundSeverity":2}],"PlayerStealthCalculation":[{"Stat":{"key":"Skill_Stealth","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":150.0,"name":{"zh":"\u6F5C\u884C","en":"Stealth","ja":"\u30B9\u30C6\u30EB\u30B9"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":0.0,"y":150.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0},"RandomAddedValue":{"x":-25.0,"y":25.0}}},{"Stat":{"key":"Profile","type":"GameStat","icon":"94edac44ebf01321","min":0.0,"max":150.0,"name":{"zh":"\u8F6E\u5ED3","en":"Profile","ja":"\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":-30.0,"y":120.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}},{"Stat":{"key":"AmbushAid","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":288.0,"name":{"zh":"\u8FFD\u730E\u8005\u7684\u6700\u7231","en":"Stalker's Favour","ja":"\u30B9\u30C8\u30FC\u30AB\u30FC\u306E\u6069\u6075"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":288.0},"OutputValueRange":{"x":0.0,"y":96.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"PlayerAlertnessCalculation":[{"Stat":{"key":"Skill_Stealth","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":150.0,"name":{"zh":"\u6F5C\u884C","en":"Stealth","ja":"\u30B9\u30C6\u30EB\u30B9"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":25.0,"y":150.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0},"RandomAddedValue":{"x":-25.0,"y":25.0}}},{"Stat":{"key":"Perception","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":150.0,"name":{"zh":"\u611F\u77E5","en":"Perception","ja":"\u77E5\u899A"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":-50.0,"y":50.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Stat":{"key":"AlertnessAid","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":288.0,"name":{"zh":"\u8B66\u89C9\u63F4\u52A9","en":"Alertness Aid","ja":"\u899A\u9192\u88DC\u52A9\u85AC"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":288.0},"OutputValueRange":{"x":0.0,"y":96.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Stat":{"key":"AwarenessTempBonus","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":1000.0,"name":{"zh":"\u611F\u77E5\u4E34\u65F6\u52A0\u6210","en":"Awareness Temp Bonus","ja":"Awareness Temp Bonus"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":1000.0},"OutputValueRange":{"x":0.0,"y":1000.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Stat":{"key":"HagBargainFear","type":"GameStat","min":0.0,"max":10000.0,"name":{"zh":"\u5973\u5DEB\u4EA4\u6613\u6050\u60E7","en":"Hag Fear Bargain","ja":"Hag Fear Bargain"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":10000.0},"OutputValueRange":{"x":0.0,"y":-10000.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}}],"PlayerExtraDefenseCalculation":[{"Stat":{"key":"ArmorBlessing","type":"GameStat","icon":"970da5f1f2e32aeb","min":0.0,"max":215.0,"name":{"zh":"\u62A4\u7532\u8D50\u798F","en":"ArmorBlessing","ja":"\u9632\u8B77\u306E\u52A0\u8B77"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":1000000000.0},"OutputValueRange":{"x":0.0,"y":1000000000.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}}],"StatEnforcedPlayerActions":[{"Conditions":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"TriggerRange":{"x":100.0,"y":10000000.0}}],"LogMessage":{"LogText":{"zh":"\u6050\u60E7\u6DF9\u6CA1\u4E86\u4F60\uFF01\n<b>\u4F60\u7AED\u5C3D\u6240\u80FD\u4ECE\u6218\u6597\u4E2D\u8131\u8EAB\uFF0C\u5F00\u59CB\u9003\u547D</b>","en":"Fear overwhelms you!\n<b>You disentangle yourself from the fight as best you can and run for dear life!</b>","ja":"\u6050\u308D\u3057\u3059\u304E\u308B\uFF01<b> \u6226\u3044\u304B\u3089\u96E2\u308C\u3001\u306A\u308B\u3079\u304F\u9060\u304F\u3078\u9003\u3052\u305F\uFF01</b>"}},"Action":{"ActionName":{"zh":"\u843D\u8352\u800C\u9003","en":"Demoralized Escape","ja":"\u843D\u80C6\u3057\u305F\u9003\u4EA1"},"ActionSuccessLog":{"LogText":{"zh":"\u4F60\u6210\u529F\u9003\u8131\u4E86\uFF01","en":"you manage to escape!","ja":"\u306A\u3093\u3068\u304B\u9003\u3052\u51FA\u305B\u305F\uFF01"}},"ActionFailureLog":{"LogText":{"zh":"\u4F60\u5728\u8BD5\u56FE\u9003\u8DD1\uFF01","en":"you manage to escape!","ja":"\u306A\u3093\u3068\u304B\u9003\u3052\u51FA\u305B\u305F\uFF01"}},"RequiredDistance":2,"RequiredWrestlingState":0,"RequiredAmbush":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"PreClashDistanceChange":1,"ActionRange":0,"ActionType":0,"Reach":0.0,"DoesNotAttack":true,"DontShowSuccessChance":true,"IsEscapeAction":true,"Cooldown":0,"LimitedUses":0,"InitialClashValue":{"x":150.0,"y":300.0},"EncounterResult":3}},{"Conditions":[{"Stat":{"key":"HuntsmansIntegrity","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u730E\u4EBA\u6B63\u76F4","en":"Huntsman Integrity","ja":"Huntsman Integrity"}}}],"Action":{"ActionName":{"zh":"\u5931\u8D25","en":"Defeat","ja":"\u6557\u5317"},"ActionSuccessLog":{"LogText":{"zh":"\u67D0\u79CD\u4E1C\u897F\u5728\u4F60\u5185\u5FC3\u7834\u788E\u4E86\u2026\u2026","en":"something breaks in you...","ja":"\u3042\u306A\u305F\u306E\u4E2D\u3067\u4F55\u304B\u304C\u58CA\u308C\u308B\u30FB\u30FB\u30FB"}},"ActionFailureLog":{"LogText":{"zh":"\u67D0\u79CD\u4E1C\u897F\u5728\u4F60\u5185\u5FC3\u7834\u788E\u4E86\u2026\u2026","en":"something breaks in you...","ja":"\u3042\u306A\u305F\u306E\u4E2D\u3067\u4F55\u304B\u304C\u58CA\u308C\u308B\u30FB\u30FB\u30FB"}},"RequiredDistance":2,"RequiredWrestlingState":0,"RequiredAmbush":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"PreClashDistanceChange":1,"ActionRange":0,"ActionType":0,"Reach":0.0,"DoesNotAttack":true,"DontShowSuccessChance":true,"IsEscapeAction":true,"Cooldown":0,"LimitedUses":0,"InitialClashValue":{"x":-1000000000.0,"y":-1000000000.0},"EncounterResult":4}}],"NoWoundDefaultScore":0.0,"MinorWoundDefaultScore":1.0,"MediumWoundDefaultScore":3.0,"SeriousWoundDefaultScore":9.0,"ArmorDefaultDurabilityDamage":250.0,"DefaultWeaponDurabilityDamagePerHit":[{"Durability":1,"Value":{"x":-1.0,"y":-1.0}}],"AutoEquipWeapons":true,"DefaultPlayerWounds":{"MinorWounds":[{"DroppedCards":[{"key":"W_MinorLaceration","type":"CardData","CardType":0,"icon":"2c006f18cb0fa416","name":{"zh":"\u8F7B\u5FAE\u6495\u88C2\u4F24","en":"Minor Laceration","ja":"\u8EFD\u3044\u5207\u308A\u50B7"}}],"WoundSelectionWeight":0.0,"EncounterResult":0}],"MediumWounds":[{"DroppedCards":[{"key":"W_ArmLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}}],"WoundSelectionWeight":0.0,"EncounterResult":0}],"SeriousWounds":[{"DroppedCards":[{"key":"W_LegFractureL","type":"CardData","CardType":0,"icon":"a1e1db1978bf2f1a","name":{"zh":"\u5DE6\u817F\u9AA8\u6298","en":"Leg Fracture","ja":"\u8DB3\u306E\u9AA8\u6298"}}],"WoundSelectionWeight":0.0,"EncounterResult":0}]},"PlayerEscapeAction":{"ActionName":{"zh":"\u9003\u8DD1\uFF01","en":"Escape!","ja":"\u9003\u3052\u308D\uFF01"},"ActionSuccessLog":{"LogText":{"zh":"\u4F60\u6210\u529F\u9003\u8131\u4E86\uFF01","en":"you manage to escape!","ja":"\u306A\u3093\u3068\u304B\u9003\u3052\u51FA\u305B\u305F\uFF01"}},"ActionFailureLog":{"LogText":{"zh":"\u4F60\u5728\u8BD5\u56FE\u9003\u8DD1\uFF01","en":"you manage to escape!","ja":"\u306A\u3093\u3068\u304B\u9003\u3052\u51FA\u305B\u305F\uFF01"}},"RequiredDistance":2,"RequiredWrestlingState":2,"RequiredAmbush":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"PreClashDistanceChange":1,"ActionRange":0,"ActionType":0,"Reach":0.0,"DoesNotAttack":true,"DontShowSuccessChance":true,"IsEscapeAction":true,"Cooldown":0,"LimitedUses":0,"InitialClashValue":{"x":150.0,"y":300.0},"ClashStatInfluences":[{"Stat":{"key":"EscapeAid","type":"GameStat","icon":"5fdc392497df040d","min":0.0,"max":288.0,"name":{"zh":"\u9003\u8131\u63F4\u52A9","en":"Escape Aid","ja":"\u8131\u51FA\u88DC\u52A9"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":288.0},"OutputValueRange":{"x":0.0,"y":288.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"EncounterResult":3},"PlayerGetCloseAction":{"ActionName":{"zh":"\u51B2\u950B","en":"Charge","ja":"\u30C1\u30E3\u30FC\u30B8"},"ActionSuccessLog":{"LogText":{"zh":"\u4F60\u5F00\u59CB\u8D34\u8EAB\u8089\u640F!","en":"you move into close combat!","ja":"\u63A5\u8FD1\u6226\u304C\u59CB\u307E\u3063\u305F\uFF01"}},"ActionFailureLog":{"LogText":{"zh":"\u4F60\u5F00\u59CB\u8D34\u8EAB\u8089\u640F!","en":"you move into close combat!","ja":"\u63A5\u8FD1\u6226\u304C\u59CB\u307E\u3063\u305F\uFF01"}},"RequiredDistance":1,"RequiredWrestlingState":0,"RequiredAmbush":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"PreClashDistanceChange":0,"ActionRange":0,"ActionType":0,"Reach":0.0,"DoesNotAttack":true,"DontShowSuccessChance":true,"Cooldown":0,"LimitedUses":0,"EncounterResult":0},"PlayerBreakFreeAction":{"ActionName":{"zh":"\u6323\u8131","en":"Break Free","ja":"\u9003\u3052\u308B"},"ActionSuccessLog":{"LogText":{"zh":"\u4F60\u63A8\u5F00{0}\u5E76\u7AD9\u4E86\u8D77\u6765\u3002","en":"you push the {0} away and get on your feet.","ja":"{0}\u3092\u7A81\u304D\u98DB\u3070\u3057\u3001\u7ACB\u3061\u4E0A\u304C\u3063\u305F\u3002"}},"ActionFailureLog":{"LogText":{"zh":"\u4F60\u65E0\u6CD5\u4ECE{0}\u4E2D\u62BD\u8EAB\uFF01","en":"you can't get away from the {0}!","ja":"{0}\u304B\u3089\u96E2\u308C\u3089\u308C\u306A\u3044\uFF01"}},"RequiredDistance":0,"RequiredWrestlingState":1,"RequiredAmbush":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"PreClashDistanceChange":0,"WrestlingStateChange":{"WrestlingStateChange":2,"ChangeApplies":1},"ActionRange":0,"ActionType":0,"Reach":0.0,"DoesNotAttack":true,"DontShowSuccessChance":true,"Cooldown":0,"LimitedUses":0,"InitialClashValue":{"x":200.0,"y":200.0},"EncounterResult":0},"PlayerRecoverAction":{"ActionName":{"zh":"\u6062\u590D","en":"Recover","ja":"\u56DE\u5FA9"},"RequiredDistance":2,"RequiredWrestlingState":0,"RequiredAmbush":0,"RequiredSelfVulnerableState":1,"RequiredOpponentVulnerableState":0,"PreClashDistanceChange":0,"ActionRange":0,"ActionType":0,"Reach":0.0,"CannotFailClash":true,"DoesNotAttack":true,"DontShowSuccessChance":true,"Cooldown":0,"LimitedUses":0,"InitialClashValue":{"x":200.0,"y":200.0},"EncounterResult":0},"GeneralPlayerActions":[{"ActionName":{"zh":"\u95EA\u907F","en":"Dodge","ja":"\u56DE\u907F"},"RequiredDistance":2,"RequiredWrestlingState":2,"RequiredAmbush":2,"RequiredSelfVulnerableState":2,"RequiredOpponentVulnerableState":0,"PreClashDistanceChange":0,"ActionRange":0,"ActionType":0,"Reach":0.0,"DoesNotAttack":true,"IsDodgeAction":true,"Cooldown":0,"LimitedUses":0,"InitialClashValue":{"x":250.0,"y":250.0},"ClashStatInfluences":[{"Stat":{"key":"Skill_CombatExperience","type":"GameStat","icon":"df04cfeb9fb7336e","min":0.0,"max":100.0,"name":{"zh":"\u6218\u6597\u7ECF\u9A8C","en":"Combat Experience","ja":"\u6226\u95D8\u7D4C\u9A13"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":350.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}},{"Stat":{"key":"DodgeBonus","type":"GameStat","icon":"5fdc392497df040d","min":0.0,"max":288.0,"name":{"zh":"\u95EA\u907F\u52A0\u6210","en":"Dodge Bonus","ja":"\u56DE\u907F\u30DC\u30FC\u30CA\u30B9"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":288.0},"OutputValueRange":{"x":0.0,"y":350.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"ActionStatChanges":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":0.5,"y":0.5}}],"EncounterResult":0}],"PlayerChaseSetup":{"BasePlayerChaseValue":{"x":100.0,"y":100.0},"StatsBasedChaseModifiers":[{"Stat":{"key":"Skill_Tracking","type":"GameStat","icon":"259e64c61d5d1036","min":0.0,"max":150.0,"name":{"zh":"\u8FFD\u8E2A\u6280\u80FD","en":"Tracking","ja":"\u8FFD\u8DE1\u306E\u30B9\u30AD\u30EB"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":0.0,"y":100.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}},{"Stat":{"key":"ChasingAid","type":"GameStat","icon":"5fdc392497df040d","min":0.0,"max":288.0,"name":{"zh":"\u8FFD\u9010\u63F4\u52A9","en":"Chasing Aid","ja":"\u8FFD\u8DE1\u652F\u63F4"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":96.0},"OutputValueRange":{"x":0.0,"y":96.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}}],"RequiredStatsForChasing":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"TriggerRange":{"x":11.0,"y":10000.0},"NotifyWhenNotMet":true},{"Stat":{"key":"Light","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":100.0,"name":{"zh":"\u5149\u4EAE","en":"Light","ja":"\u5149"}},"TriggerRange":{"x":15.0,"y":10000.0},"NotifyWhenNotMet":true}],"ChaseAttemptStatModifiers":[{"Stat":{"key":"Skill_Tracking","type":"GameStat","icon":"259e64c61d5d1036","min":0.0,"max":150.0,"name":{"zh":"\u8FFD\u8E2A\u6280\u80FD","en":"Tracking","ja":"\u8FFD\u8DE1\u306E\u30B9\u30AD\u30EB"}},"ValueModifier":{"x":0.5,"y":0.5}}],"ChaseSuccessStatModifiers":[{"Stat":{"key":"Skill_Tracking","type":"GameStat","icon":"259e64c61d5d1036","min":0.0,"max":150.0,"name":{"zh":"\u8FFD\u8E2A\u6280\u80FD","en":"Tracking","ja":"\u8FFD\u8DE1\u306E\u30B9\u30AD\u30EB"}},"ValueModifier":{"x":0.5,"y":0.5}}]},"DefaultEnemyEscapeCalculation":{"BaseEnemyEscapeValue":{"x":100.0,"y":100.0},"EnemyValuesModifiers":{"EnemyBloodMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-50.0,"y":0.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}},"EnemyStaminaMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-50.0,"y":0.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}},"EnemyWoundModifiers":{"AllWoundModifier":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":18.0},"OutputValueRange":{"x":0.0,"y":-50.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}},"EnemyHiddenLog":{"LogText":{"zh":"{0} \u6253\u4E86\u4F60\u4E2A\u63AA\u624B\u4E0D\u53CA\uFF01","en":"{0} catches you off guard!","ja":"{0}\u304B\u3089\u4E0D\u610F\u6253\u3061\u3092\u304F\u3089\u3063\u305F\uFF01"}},"EnemyHiddenPluralLog":{"LogText":{"zh":"{0} \u6253\u4E86\u4F60\u4E2A\u63AA\u624B\u4E0D\u53CA\uFF01","en":"{0} catch you off guard!","ja":"{0}\u304B\u3089\u4E0D\u610F\u6253\u3061\u3092\u304F\u3089\u3063\u305F\uFF01"}},"PlayerHiddenLog":{"LogText":{"zh":"{0} \u8FD8\u6CA1\u6709\u6CE8\u610F\u5230\u4F60......","en":"{0} hasn't noticed you yet...","ja":"\u307E\u3060{0}\u306B\u6C17\u3065\u304B\u308C\u3066\u306A\u3044\u30FB\u30FB\u30FB"}},"PlayerHiddenPluralLog":{"LogText":{"zh":"{0} \u8FD8\u6CA1\u6709\u6CE8\u610F\u5230\u4F60......","en":"{0} haven't noticed you yet...","ja":"\u307E\u3060{0}\u306B\u6C17\u3065\u304B\u308C\u3066\u306A\u3044\u30FB\u30FB\u30FB"}},"PlayerStealthAttackLog":{"LogText":{"zh":"\u4F60\u6084\u6084\u9760\u8FC7\u53BB......","en":"You approach silently...","ja":"\u9759\u304B\u306B\u8FD1\u3065\u3044\u305F\u30FB\u30FB\u30FB"}},"PlayerVulnerableLog":{"LogText":{"zh":"\u4F60\u5931\u53BB\u5E73\u8861\uFF0C\u5904\u4E8E\u6613\u4F24\u72B6\u6001......","en":"You lose your footing and are left in a vulnerable state...","ja":"\u30D0\u30E9\u30F3\u30B9\u304C\u5D29\u308C\u3066\u3057\u307E\u3044\u3001\u5371\u6A5F\u7684\u306A\u72B6\u6CC1\u306B\u306A\u3063\u3066\u3057\u307E\u3063\u305F\u3002"},"TextColor":{"ColorValue":{"r":0.5725,"g":0.0,"b":0.0392,"a":1.0},"Active":true}},"EnemyVulnerableLog":{"LogText":{"zh":"{0}\u5931\u8861\uFF0C\u6613\u53D7\u653B\u51FB\uFF01","en":"{0} is off balance and vulnerable!","ja":"{0}\u306F\u30D0\u30E9\u30F3\u30B9\u3092\u5D29\u3057\u3001\u7121\u9632\u5099\u306B\u306A\u3063\u305F\u3002"},"TextColor":{"ColorValue":{"r":0.0627,"g":0.2039,"b":0.651,"a":1.0},"Active":true}},"EnemySuccessTextSettings":{"Bold":true,"Active":true},"EnemyWoundTextSettings":{"Bold":true,"Active":true},"EnemyWoundTextColor":{"ColorValue":{"r":0.0627,"g":0.2039,"b":0.651,"a":1.0},"Active":true},"PlayerWoundTextSettings":{"Bold":true,"Active":true},"PlayerWoundTextColor":{"ColorValue":{"r":0.5725,"g":0.0,"b":0.0392,"a":1.0},"Active":true},"PlayerWeaponActionSuccessLog":{"LogText":{"zh":"\u4F60\u6210\u529F\u7528{1}\u51FB\u4E2D\u3002","en":"you manage to land a hit with your {1}.","ja":"{1}\u3067\u306A\u3093\u3068\u304B\u653B\u6483\u3092\u5F53\u3066\u308B\u3053\u3068\u304C\u3067\u304D\u305F\u3002"}},"PlayerWeaponActionFailureLog":{"LogText":{"zh":"\u4F60\u6CA1\u80FD\u7528{1}\u51FB\u4E2D\u3002","en":"you fail to land a hit with your {1}.","ja":"{1}\u306E\u653B\u6483\u304C\u5916\u308C\u3066\u3057\u307E\u3063\u305F\u3002"}},"DefaultEnemyDefeatedEncounterLog":{"LogText":{"zh":"\u4F60\u80DC\u5229\u4E86\uFF01","en":"You are victorious!","ja":"\u52DD\u5229\uFF01"}},"DefaultEnemyEscapedEncounterLog":{"LogText":{"zh":"\u654C\u4EBA\u9003\u79BB\u6218\u6597\u2026\u2026","en":"The foe runs away from combat...","ja":"\u6575\u304C\u9003\u3052\u3066\u3057\u307E\u3063\u305F\u30FB\u30FB\u30FB"}},"DefaultPlayerEscapedLog":{"LogText":{"zh":"\u4F60\u64A4\u51FA\u6218\u6597\u2026\u2026","en":"You retreat from combat...","ja":"\u6226\u3044\u304B\u3089\u9003\u3052\u305F\u30FB\u30FB\u30FB"}},"DefaultPlayerDemoralizedLog":{"LogText":{"zh":"\u4F60\u9003\u79BB\u4E86{0}\u3002","en":"You run away from the {0}.","ja":"{0}\u304B\u3089\u9003\u3052\u305F\u3002"}},"DefaultInitiatingChaseLog":{"LogText":{"zh":"\u4F60\u5E94\u8BE5\u8FFD\u8D76 {0} \u5417\uFF1F","en":"Should you run after the {0}?","ja":"{0}\u3092\u8FFD\u3046\uFF1F"}},"DefaultChaseSuccessfulLog":{"LogText":{"zh":"\u4F60\u6210\u529F\u8FFD\u4E0A\u4E86\u5B83\uFF01","en":"You manage to catch up with it!","ja":"\u306A\u3093\u3068\u304B\u8FFD\u3044\u3064\u3044\u305F\uFF01"}},"DefaultChaseFailedLog":{"LogText":{"zh":"\u5B83\u4ECE\u4F60\u7684\u624B\u4E2D\u9003\u8131\u4E86\u3002","en":"It escapes your grasp.","ja":"\u9003\u3057\u3066\u3057\u307E\u3063\u305F\u3002"}},"DefaultLeaveBeLog":{"LogText":{"zh":"\u4F60\u653E{0}\u9003\u8D70\u4E86\u3002","en":"You let the {0} run away.","ja":"{0}\u3092\u9003\u3057\u3066\u3057\u307E\u3063\u305F\u3002"}},"EquipInMainHandLog":{"LogText":{"zh":"\u4F60\u4EE5\u4E3B\u624B\u63E1\u7D27{0}\u3002","en":"You hold your {0} in your main hand.","ja":"\u5229\u304D\u624B\u3067{0}\u3092\u6301\u3063\u305F\u3002"}},"EquipInOffHandLog":{"LogText":{"zh":"\u4F60\u4EE5\u526F\u624B\u6301\u7A33{0}\u3002","en":"You hold your {0} in your off hand.","ja":"\u53CD\u5BFE\u306E\u624B\u3067{0}\u3092\u6301\u3063\u305F\u3002"}},"EquipInBothHandsLog":{"LogText":{"zh":"\u4F60\u7528\u53CC\u624B\u63E1\u6301{0}\u3002","en":"You hold your {0} with both hands.","ja":"\u4E21\u624B\u3067{0}\u3092\u6301\u3063\u305F\u3002"}},"SheatheLog":{"LogText":{"zh":"\u4F60\u5C06{0}\u6536\u5165\u9798\u4E2D\u3002","en":"You sheathe away your {0}.","ja":"{0}\u3092\u9798\u306B\u623B\u3057\u305F\u3002"}},"DropOnGroundLog":{"LogText":{"zh":"\u4F60\u5C06{0}\u4E22\u4E0B\u3002","en":"You drop your {0}.","ja":"{0}\u3092\u843D\u3068\u3057\u305F\u3002"}},"DefaultWeaponBrokeLog":{"LogText":{"zh":"\u4F60\u7684{0}\u574F\u4E86\uFF01","en":"Your {0} broke!","ja":"{0}\u304C\u58CA\u308C\u305F\uFF01"},"TextSettings":{"Bold":true,"Active":true},"TextColor":{"ColorValue":{"r":0.5725,"g":0.0,"b":0.0392,"a":1.0},"Active":true}},"MainActionIcon":{"Sprite":{"FileName":"6cbf46f0e3e871cc"},"WithColor":{"ColorValue":{"r":1.0,"g":0.6414,"b":0.0,"a":1.0},"Active":true}},"SubActionIcon":{"Sprite":{"FileName":"95a16521a2568595"},"WithColor":{"ColorValue":{"r":0.3657,"g":0.752,"b":0.0,"a":1.0},"Active":true}},"FreeActionIcon":{"Sprite":{"FileName":"90446a543839297d"},"WithColor":{"ColorValue":{"r":0.0,"g":0.766,"b":0.6158,"a":1.0},"Active":true}},"_type":"EncounterPopup"}
+
+{
+  "DefaultPlayerSize" : 75.0,
+  "PlayerSizeStat"    : {
+    "key" : "Size",
+    "type" : "GameStat",
+    "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+    "min"  : 0.0,
+    "max"  : 300.0,
+    "name" : {
+      "zh" : "\u5C3A\u5BF8",
+      "en" : "Size",
+      "ja" : "\u5927\u304D\u3055"
+    }
+  },
+  "Head"              : {
+    "MeleeHitChanceWeight" : 1.0,
+    "RangedHitChanceWeight" : 1.0,
+    "Armor"                 : 0.0
+  },
+  "Torso"             : {
+    "MeleeHitChanceWeight" : 2.0,
+    "RangedHitChanceWeight" : 4.0,
+    "Armor"                 : 0.0
+  },
+  "LArm"              : {
+    "MeleeHitChanceWeight" : 3.0,
+    "RangedHitChanceWeight" : 1.0,
+    "Armor"                 : 0.0
+  },
+  "RArm"              : {
+    "MeleeHitChanceWeight" : 3.0,
+    "RangedHitChanceWeight" : 1.0,
+    "Armor"                 : 0.0
+  },
+  "LLeg"              : {
+    "MeleeHitChanceWeight" : 2.0,
+    "RangedHitChanceWeight" : 1.0,
+    "Armor"                 : 0.0
+  },
+  "RLeg"              : {
+    "MeleeHitChanceWeight" : 2.0,
+    "RangedHitChanceWeight" : 1.0,
+    "Armor"                 : 0.0
+  },
+  "ClashDifferenceTieChance" : [
+    {
+      "Active" : true,
+      "InputValueRange" : {
+        "x" : 1.0,
+        "y" : 1.25
+      },
+      "OutputValueRange" : {
+        "x" : 0.22,
+        "y" : 0.22
+      },
+      "WhenOutOfRange"   : 0,
+      "OutOfRangeCustomValue" : 0.0
+    },
+    {
+      "Active" : true,
+      "InputValueRange" : {
+        "x" : 1.25,
+        "y" : 1.5
+      },
+      "OutputValueRange" : {
+        "x" : 0.11,
+        "y" : 0.11
+      },
+      "WhenOutOfRange"   : 0,
+      "OutOfRangeCustomValue" : 0.0
+    },
+    {
+      "Active" : true,
+      "InputValueRange" : {
+        "x" : 1.5,
+        "y" : 2.0
+      },
+      "OutputValueRange" : {
+        "x" : 0.05,
+        "y" : 0.05
+      },
+      "WhenOutOfRange"   : 0,
+      "OutOfRangeCustomValue" : 0.0
+    },
+    {
+      "Active" : true,
+      "InputValueRange" : {
+        "x" : 2.0,
+        "y" : 5.0
+      },
+      "OutputValueRange" : {
+        "x" : 0.02,
+        "y" : 0.02
+      },
+      "WhenOutOfRange"   : 1,
+      "OutOfRangeCustomValue" : 0.0
+    }
+  ],
+  "WoundSeverityMappings"    : [
+    {
+      "AttackDefenseRatio" : {
+        "x" : 0.7,
+        "y" : 1.5
+      },
+      "WoundSeverity"      : 1
+    },
+    {
+      "AttackDefenseRatio" : {
+        "x" : 1.5,
+        "y" : 2.0
+      },
+      "WoundSeverity"      : 2
+    }
+  ],
+  "PlayerStealthCalculation" : [
+    {
+      "Stat" : {
+        "key" : "Skill_Stealth",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 150.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C",
+          "en" : "Stealth",
+          "ja" : "\u30B9\u30C6\u30EB\u30B9"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        },
+        "RandomAddedValue"       : {
+          "x" : -25.0,
+          "y" : 25.0
+        }
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "Profile",
+        "type" : "GameStat",
+        "icon" : "CardData__LeatherTunic__AlternateNames-0-Art-CardImage",
+        "min"  : 0.0,
+        "max"  : 150.0,
+        "name" : {
+          "zh" : "\u8F6E\u5ED3",
+          "en" : "Profile",
+          "ja" : "\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : -30.0,
+            "y" : 120.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "AmbushAid",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u8FFD\u730E\u8005\u7684\u6700\u7231",
+          "en" : "Stalker's Favour",
+          "ja" : "\u30B9\u30C8\u30FC\u30AB\u30FC\u306E\u6069\u6075"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 288.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 96.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "PlayerAlertnessCalculation" : [
+    {
+      "Stat" : {
+        "key" : "Skill_Stealth",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 150.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C",
+          "en" : "Stealth",
+          "ja" : "\u30B9\u30C6\u30EB\u30B9"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : 25.0,
+            "y" : 150.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        },
+        "RandomAddedValue"       : {
+          "x" : -25.0,
+          "y" : 25.0
+        }
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "Perception",
+        "type" : "GameStat",
+        "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 150.0,
+        "name" : {
+          "zh" : "\u611F\u77E5",
+          "en" : "Perception",
+          "ja" : "\u77E5\u899A"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : -50.0,
+            "y" : 50.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "AlertnessAid",
+        "type" : "GameStat",
+        "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u8B66\u89C9\u63F4\u52A9",
+          "en" : "Alertness Aid",
+          "ja" : "\u899A\u9192\u88DC\u52A9\u85AC"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 288.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 96.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "AwarenessTempBonus",
+        "type" : "GameStat",
+        "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u611F\u77E5\u4E34\u65F6\u52A0\u6210",
+          "en" : "Awareness Temp Bonus",
+          "ja" : "Awareness Temp Bonus"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 1000.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 1000.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "HagBargainFear",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 10000.0,
+        "name" : {
+          "zh" : "\u5973\u5DEB\u4EA4\u6613\u6050\u60E7",
+          "en" : "Hag Fear Bargain",
+          "ja" : "Hag Fear Bargain"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 10000.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : -10000.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "PlayerExtraDefenseCalculation" : [
+    {
+      "Stat" : {
+        "key" : "ArmorBlessing",
+        "type" : "GameStat",
+        "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 215.0,
+        "name" : {
+          "zh" : "\u62A4\u7532\u8D50\u798F",
+          "en" : "ArmorBlessing",
+          "ja" : "\u9632\u8B77\u306E\u52A0\u8B77"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 1000000000.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 1000000000.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "StatEnforcedPlayerActions"     : [
+    {
+      "Conditions" : [
+        {
+          "Stat" : {
+            "key" : "Fear",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fear__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6050\u60E7",
+              "en" : "Fear",
+              "ja" : "\u6050\u6016"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 100.0,
+            "y" : 10000000.0
+          }
+        }
+      ],
+      "LogMessage" : {
+        "LogText" : {
+          "zh" : "\u6050\u60E7\u6DF9\u6CA1\u4E86\u4F60\uFF01\n<b>\u4F60\u7AED\u5C3D\u6240\u80FD\u4ECE\u6218\u6597\u4E2D\u8131\u8EAB\uFF0C\u5F00\u59CB\u9003\u547D</b>",
+          "en" : "Fear overwhelms you!\n<b>You disentangle yourself from the fight as best you can and run for dear life!</b>",
+          "ja" : "\u6050\u308D\u3057\u3059\u304E\u308B\uFF01<b> \u6226\u3044\u304B\u3089\u96E2\u308C\u3001\u306A\u308B\u3079\u304F\u9060\u304F\u3078\u9003\u3052\u305F\uFF01</b>"
+        }
+      },
+      "Action"     : {
+        "ActionName" : {
+          "zh" : "\u843D\u8352\u800C\u9003",
+          "en" : "Demoralized Escape",
+          "ja" : "\u843D\u80C6\u3057\u305F\u9003\u4EA1"
+        },
+        "ActionSuccessLog" : {
+          "LogText" : {
+            "zh" : "\u4F60\u6210\u529F\u9003\u8131\u4E86\uFF01",
+            "en" : "you manage to escape!",
+            "ja" : "\u306A\u3093\u3068\u304B\u9003\u3052\u51FA\u305B\u305F\uFF01"
+          }
+        },
+        "ActionFailureLog" : {
+          "LogText" : {
+            "zh" : "\u4F60\u5728\u8BD5\u56FE\u9003\u8DD1\uFF01",
+            "en" : "you manage to escape!",
+            "ja" : "\u306A\u3093\u3068\u304B\u9003\u3052\u51FA\u305B\u305F\uFF01"
+          }
+        },
+        "RequiredDistance" : 2,
+        "RequiredWrestlingState" : 0,
+        "RequiredAmbush"         : 0,
+        "RequiredSelfVulnerableState" : 0,
+        "RequiredOpponentVulnerableState" : 0,
+        "PreClashDistanceChange"          : 1,
+        "ActionRange"                     : 0,
+        "ActionType"                      : 0,
+        "Reach"                           : 0.0,
+        "DoesNotAttack"                   : true,
+        "DontShowSuccessChance"           : true,
+        "IsEscapeAction"                  : true,
+        "Cooldown"                        : 0,
+        "LimitedUses"                     : 0,
+        "InitialClashValue"               : {
+          "x" : 150.0,
+          "y" : 300.0
+        },
+        "EncounterResult"                 : 3
+      }
+    },
+    {
+      "Conditions" : [
+        {
+          "Stat" : {
+            "key" : "HuntsmansIntegrity",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fear__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u730E\u4EBA\u6B63\u76F4",
+              "en" : "Huntsman Integrity",
+              "ja" : "Huntsman Integrity"
+            }
+          }
+        }
+      ],
+      "Action"     : {
+        "ActionName" : {
+          "zh" : "\u5931\u8D25",
+          "en" : "Defeat",
+          "ja" : "\u6557\u5317"
+        },
+        "ActionSuccessLog" : {
+          "LogText" : {
+            "zh" : "\u67D0\u79CD\u4E1C\u897F\u5728\u4F60\u5185\u5FC3\u7834\u788E\u4E86\u2026\u2026",
+            "en" : "something breaks in you...",
+            "ja" : "\u3042\u306A\u305F\u306E\u4E2D\u3067\u4F55\u304B\u304C\u58CA\u308C\u308B\u30FB\u30FB\u30FB"
+          }
+        },
+        "ActionFailureLog" : {
+          "LogText" : {
+            "zh" : "\u67D0\u79CD\u4E1C\u897F\u5728\u4F60\u5185\u5FC3\u7834\u788E\u4E86\u2026\u2026",
+            "en" : "something breaks in you...",
+            "ja" : "\u3042\u306A\u305F\u306E\u4E2D\u3067\u4F55\u304B\u304C\u58CA\u308C\u308B\u30FB\u30FB\u30FB"
+          }
+        },
+        "RequiredDistance" : 2,
+        "RequiredWrestlingState" : 0,
+        "RequiredAmbush"         : 0,
+        "RequiredSelfVulnerableState" : 0,
+        "RequiredOpponentVulnerableState" : 0,
+        "PreClashDistanceChange"          : 1,
+        "ActionRange"                     : 0,
+        "ActionType"                      : 0,
+        "Reach"                           : 0.0,
+        "DoesNotAttack"                   : true,
+        "DontShowSuccessChance"           : true,
+        "IsEscapeAction"                  : true,
+        "Cooldown"                        : 0,
+        "LimitedUses"                     : 0,
+        "InitialClashValue"               : {
+          "x" : -1000000000.0,
+          "y" : -1000000000.0
+        },
+        "EncounterResult"                 : 4
+      }
+    }
+  ],
+  "NoWoundDefaultScore"           : 0.0,
+  "MinorWoundDefaultScore"        : 1.0,
+  "MediumWoundDefaultScore"       : 3.0,
+  "SeriousWoundDefaultScore"      : 9.0,
+  "ArmorDefaultDurabilityDamage"  : 250.0,
+  "DefaultWeaponDurabilityDamagePerHit" : [
+    {
+      "Durability" : 1,
+      "Value"      : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    }
+  ],
+  "AutoEquipWeapons"                    : true,
+  "DefaultPlayerWounds"                 : {
+    "MinorWounds" : [
+      {
+        "DroppedCards" : [
+          {
+            "key" : "W_MinorLaceration",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "CardData__W_MinorLaceration__CardImage",
+            "name"     : {
+              "zh" : "\u8F7B\u5FAE\u6495\u88C2\u4F24",
+              "en" : "Minor Laceration",
+              "ja" : "\u8EFD\u3044\u5207\u308A\u50B7"
+            }
+          }
+        ],
+        "WoundSelectionWeight" : 0.0,
+        "EncounterResult"      : 0
+      }
+    ],
+    "MediumWounds" : [
+      {
+        "DroppedCards" : [
+          {
+            "key" : "W_ArmLacerationL",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "CardData__W_ArmLacerationL__CardImage",
+            "name"     : {
+              "zh" : "\u5DE6\u81C2\u6495\u88C2\u4F24",
+              "en" : "Arm Laceration",
+              "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+            }
+          }
+        ],
+        "WoundSelectionWeight" : 0.0,
+        "EncounterResult"      : 0
+      }
+    ],
+    "SeriousWounds" : [
+      {
+        "DroppedCards" : [
+          {
+            "key" : "W_LegFractureL",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "CardData__W_ArmFractureL__CardImage",
+            "name"     : {
+              "zh" : "\u5DE6\u817F\u9AA8\u6298",
+              "en" : "Leg Fracture",
+              "ja" : "\u8DB3\u306E\u9AA8\u6298"
+            }
+          }
+        ],
+        "WoundSelectionWeight" : 0.0,
+        "EncounterResult"      : 0
+      }
+    ]
+  },
+  "PlayerEscapeAction"                  : {
+    "ActionName" : {
+      "zh" : "\u9003\u8DD1\uFF01",
+      "en" : "Escape!",
+      "ja" : "\u9003\u3052\u308D\uFF01"
+    },
+    "ActionSuccessLog" : {
+      "LogText" : {
+        "zh" : "\u4F60\u6210\u529F\u9003\u8131\u4E86\uFF01",
+        "en" : "you manage to escape!",
+        "ja" : "\u306A\u3093\u3068\u304B\u9003\u3052\u51FA\u305B\u305F\uFF01"
+      }
+    },
+    "ActionFailureLog" : {
+      "LogText" : {
+        "zh" : "\u4F60\u5728\u8BD5\u56FE\u9003\u8DD1\uFF01",
+        "en" : "you manage to escape!",
+        "ja" : "\u306A\u3093\u3068\u304B\u9003\u3052\u51FA\u305B\u305F\uFF01"
+      }
+    },
+    "RequiredDistance" : 2,
+    "RequiredWrestlingState" : 2,
+    "RequiredAmbush"         : 0,
+    "RequiredSelfVulnerableState" : 0,
+    "RequiredOpponentVulnerableState" : 0,
+    "PreClashDistanceChange"          : 1,
+    "ActionRange"                     : 0,
+    "ActionType"                      : 0,
+    "Reach"                           : 0.0,
+    "DoesNotAttack"                   : true,
+    "DontShowSuccessChance"           : true,
+    "IsEscapeAction"                  : true,
+    "Cooldown"                        : 0,
+    "LimitedUses"                     : 0,
+    "InitialClashValue"               : {
+      "x" : 150.0,
+      "y" : 300.0
+    },
+    "ClashStatInfluences"             : [
+      {
+        "Stat" : {
+          "key" : "EscapeAid",
+          "type" : "GameStat",
+          "icon" : "GameStat__ChasingAid__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u9003\u8131\u63F4\u52A9",
+            "en" : "Escape Aid",
+            "ja" : "\u8131\u51FA\u88DC\u52A9"
+          }
+        },
+        "AddedValue" : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 288.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 288.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      }
+    ],
+    "EncounterResult"                 : 3
+  },
+  "PlayerGetCloseAction"                : {
+    "ActionName" : {
+      "zh" : "\u51B2\u950B",
+      "en" : "Charge",
+      "ja" : "\u30C1\u30E3\u30FC\u30B8"
+    },
+    "ActionSuccessLog" : {
+      "LogText" : {
+        "zh" : "\u4F60\u5F00\u59CB\u8D34\u8EAB\u8089\u640F!",
+        "en" : "you move into close combat!",
+        "ja" : "\u63A5\u8FD1\u6226\u304C\u59CB\u307E\u3063\u305F\uFF01"
+      }
+    },
+    "ActionFailureLog" : {
+      "LogText" : {
+        "zh" : "\u4F60\u5F00\u59CB\u8D34\u8EAB\u8089\u640F!",
+        "en" : "you move into close combat!",
+        "ja" : "\u63A5\u8FD1\u6226\u304C\u59CB\u307E\u3063\u305F\uFF01"
+      }
+    },
+    "RequiredDistance" : 1,
+    "RequiredWrestlingState" : 0,
+    "RequiredAmbush"         : 0,
+    "RequiredSelfVulnerableState" : 0,
+    "RequiredOpponentVulnerableState" : 0,
+    "PreClashDistanceChange"          : 0,
+    "ActionRange"                     : 0,
+    "ActionType"                      : 0,
+    "Reach"                           : 0.0,
+    "DoesNotAttack"                   : true,
+    "DontShowSuccessChance"           : true,
+    "Cooldown"                        : 0,
+    "LimitedUses"                     : 0,
+    "EncounterResult"                 : 0
+  },
+  "PlayerBreakFreeAction"               : {
+    "ActionName" : {
+      "zh" : "\u6323\u8131",
+      "en" : "Break Free",
+      "ja" : "\u9003\u3052\u308B"
+    },
+    "ActionSuccessLog" : {
+      "LogText" : {
+        "zh" : "\u4F60\u63A8\u5F00{0}\u5E76\u7AD9\u4E86\u8D77\u6765\u3002",
+        "en" : "you push the {0} away and get on your feet.",
+        "ja" : "{0}\u3092\u7A81\u304D\u98DB\u3070\u3057\u3001\u7ACB\u3061\u4E0A\u304C\u3063\u305F\u3002"
+      }
+    },
+    "ActionFailureLog" : {
+      "LogText" : {
+        "zh" : "\u4F60\u65E0\u6CD5\u4ECE{0}\u4E2D\u62BD\u8EAB\uFF01",
+        "en" : "you can't get away from the {0}!",
+        "ja" : "{0}\u304B\u3089\u96E2\u308C\u3089\u308C\u306A\u3044\uFF01"
+      }
+    },
+    "RequiredDistance" : 0,
+    "RequiredWrestlingState" : 1,
+    "RequiredAmbush"         : 0,
+    "RequiredSelfVulnerableState" : 0,
+    "RequiredOpponentVulnerableState" : 0,
+    "PreClashDistanceChange"          : 0,
+    "WrestlingStateChange"            : {
+      "WrestlingStateChange" : 2,
+      "ChangeApplies"        : 1
+    },
+    "ActionRange"                     : 0,
+    "ActionType"                      : 0,
+    "Reach"                           : 0.0,
+    "DoesNotAttack"                   : true,
+    "DontShowSuccessChance"           : true,
+    "Cooldown"                        : 0,
+    "LimitedUses"                     : 0,
+    "InitialClashValue"               : {
+      "x" : 200.0,
+      "y" : 200.0
+    },
+    "EncounterResult"                 : 0
+  },
+  "PlayerRecoverAction"                 : {
+    "ActionName" : {
+      "zh" : "\u6062\u590D",
+      "en" : "Recover",
+      "ja" : "\u56DE\u5FA9"
+    },
+    "RequiredDistance" : 2,
+    "RequiredWrestlingState" : 0,
+    "RequiredAmbush"         : 0,
+    "RequiredSelfVulnerableState" : 1,
+    "RequiredOpponentVulnerableState" : 0,
+    "PreClashDistanceChange"          : 0,
+    "ActionRange"                     : 0,
+    "ActionType"                      : 0,
+    "Reach"                           : 0.0,
+    "CannotFailClash"                 : true,
+    "DoesNotAttack"                   : true,
+    "DontShowSuccessChance"           : true,
+    "Cooldown"                        : 0,
+    "LimitedUses"                     : 0,
+    "InitialClashValue"               : {
+      "x" : 200.0,
+      "y" : 200.0
+    },
+    "EncounterResult"                 : 0
+  },
+  "GeneralPlayerActions"                : [
+    {
+      "ActionName" : {
+        "zh" : "\u95EA\u907F",
+        "en" : "Dodge",
+        "ja" : "\u56DE\u907F"
+      },
+      "RequiredDistance" : 2,
+      "RequiredWrestlingState" : 2,
+      "RequiredAmbush"         : 2,
+      "RequiredSelfVulnerableState" : 2,
+      "RequiredOpponentVulnerableState" : 0,
+      "PreClashDistanceChange"          : 0,
+      "ActionRange"                     : 0,
+      "ActionType"                      : 0,
+      "Reach"                           : 0.0,
+      "DoesNotAttack"                   : true,
+      "IsDodgeAction"                   : true,
+      "Cooldown"                        : 0,
+      "LimitedUses"                     : 0,
+      "InitialClashValue"               : {
+        "x" : 250.0,
+        "y" : 250.0
+      },
+      "ClashStatInfluences"             : [
+        {
+          "Stat" : {
+            "key" : "Skill_CombatExperience",
+            "type" : "GameStat",
+            "icon" : "GameStat__Skill_CombatExperience__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6218\u6597\u7ECF\u9A8C",
+              "en" : "Combat Experience",
+              "ja" : "\u6226\u95D8\u7D4C\u9A13"
+            }
+          },
+          "AddedValue" : {
+            "InterpolatedAddedValue" : {
+              "Active" : true,
+              "InputValueRange" : {
+                "x" : 0.0,
+                "y" : 100.0
+              },
+              "OutputValueRange" : {
+                "x" : 0.0,
+                "y" : 350.0
+              },
+              "WhenOutOfRange"   : 1,
+              "OutOfRangeCustomValue" : 0.0
+            }
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "DodgeBonus",
+            "type" : "GameStat",
+            "icon" : "GameStat__ChasingAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u95EA\u907F\u52A0\u6210",
+              "en" : "Dodge Bonus",
+              "ja" : "\u56DE\u907F\u30DC\u30FC\u30CA\u30B9"
+            }
+          },
+          "AddedValue" : {
+            "InterpolatedAddedValue" : {
+              "Active" : true,
+              "InputValueRange" : {
+                "x" : 0.0,
+                "y" : 288.0
+              },
+              "OutputValueRange" : {
+                "x" : 0.0,
+                "y" : 350.0
+              },
+              "WhenOutOfRange"   : 1,
+              "OutOfRangeCustomValue" : 0.0
+            }
+          }
+        }
+      ],
+      "ActionStatChanges"               : [
+        {
+          "Stat" : {
+            "key" : "Stamina",
+            "type" : "GameStat",
+            "icon" : "GameStat__Stamina__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 32.0,
+            "name" : {
+              "zh" : "\u8010\u529B",
+              "en" : "Stamina",
+              "ja" : "\u30B9\u30BF\u30DF\u30CA"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        }
+      ],
+      "EncounterResult"                 : 0
+    }
+  ],
+  "PlayerChaseSetup"                    : {
+    "BasePlayerChaseValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "StatsBasedChaseModifiers" : [
+      {
+        "Stat" : {
+          "key" : "Skill_Tracking",
+          "type" : "GameStat",
+          "icon" : "CardData__BeastTracksCardInvisible__CardImage",
+          "min"  : 0.0,
+          "max"  : 150.0,
+          "name" : {
+            "zh" : "\u8FFD\u8E2A\u6280\u80FD",
+            "en" : "Tracking",
+            "ja" : "\u8FFD\u8DE1\u306E\u30B9\u30AD\u30EB"
+          }
+        },
+        "AddedValue" : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 150.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      {
+        "Stat" : {
+          "key" : "ChasingAid",
+          "type" : "GameStat",
+          "icon" : "GameStat__ChasingAid__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u8FFD\u9010\u63F4\u52A9",
+            "en" : "Chasing Aid",
+            "ja" : "\u8FFD\u8DE1\u652F\u63F4"
+          }
+        },
+        "AddedValue" : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 96.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 96.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      }
+    ],
+    "RequiredStatsForChasing"  : [
+      {
+        "Stat" : {
+          "key" : "Stamina",
+          "type" : "GameStat",
+          "icon" : "GameStat__Stamina__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 32.0,
+          "name" : {
+            "zh" : "\u8010\u529B",
+            "en" : "Stamina",
+            "ja" : "\u30B9\u30BF\u30DF\u30CA"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 11.0,
+          "y" : 10000.0
+        },
+        "NotifyWhenNotMet" : true
+      },
+      {
+        "Stat" : {
+          "key" : "Light",
+          "type" : "GameStat",
+          "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u5149\u4EAE",
+            "en" : "Light",
+            "ja" : "\u5149"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 15.0,
+          "y" : 10000.0
+        },
+        "NotifyWhenNotMet" : true
+      }
+    ],
+    "ChaseAttemptStatModifiers" : [
+      {
+        "Stat" : {
+          "key" : "Skill_Tracking",
+          "type" : "GameStat",
+          "icon" : "CardData__BeastTracksCardInvisible__CardImage",
+          "min"  : 0.0,
+          "max"  : 150.0,
+          "name" : {
+            "zh" : "\u8FFD\u8E2A\u6280\u80FD",
+            "en" : "Tracking",
+            "ja" : "\u8FFD\u8DE1\u306E\u30B9\u30AD\u30EB"
+          }
+        },
+        "ValueModifier" : {
+          "x" : 0.5,
+          "y" : 0.5
+        }
+      }
+    ],
+    "ChaseSuccessStatModifiers" : [
+      {
+        "Stat" : {
+          "key" : "Skill_Tracking",
+          "type" : "GameStat",
+          "icon" : "CardData__BeastTracksCardInvisible__CardImage",
+          "min"  : 0.0,
+          "max"  : 150.0,
+          "name" : {
+            "zh" : "\u8FFD\u8E2A\u6280\u80FD",
+            "en" : "Tracking",
+            "ja" : "\u8FFD\u8DE1\u306E\u30B9\u30AD\u30EB"
+          }
+        },
+        "ValueModifier" : {
+          "x" : 0.5,
+          "y" : 0.5
+        }
+      }
+    ]
+  },
+  "DefaultEnemyEscapeCalculation"       : {
+    "BaseEnemyEscapeValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "EnemyValuesModifiers" : {
+      "EnemyBloodMod" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : -50.0,
+            "y" : 0.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      },
+      "EnemyStaminaMod" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : -50.0,
+            "y" : 0.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    "EnemyWoundModifiers"  : {
+      "AllWoundModifier" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 18.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : -50.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  },
+  "EnemyHiddenLog"                      : {
+    "LogText" : {
+      "zh" : "{0} \u6253\u4E86\u4F60\u4E2A\u63AA\u624B\u4E0D\u53CA\uFF01",
+      "en" : "{0} catches you off guard!",
+      "ja" : "{0}\u304B\u3089\u4E0D\u610F\u6253\u3061\u3092\u304F\u3089\u3063\u305F\uFF01"
+    }
+  },
+  "EnemyHiddenPluralLog"                : {
+    "LogText" : {
+      "zh" : "{0} \u6253\u4E86\u4F60\u4E2A\u63AA\u624B\u4E0D\u53CA\uFF01",
+      "en" : "{0} catch you off guard!",
+      "ja" : "{0}\u304B\u3089\u4E0D\u610F\u6253\u3061\u3092\u304F\u3089\u3063\u305F\uFF01"
+    }
+  },
+  "PlayerHiddenLog"                     : {
+    "LogText" : {
+      "zh" : "{0} \u8FD8\u6CA1\u6709\u6CE8\u610F\u5230\u4F60......",
+      "en" : "{0} hasn't noticed you yet...",
+      "ja" : "\u307E\u3060{0}\u306B\u6C17\u3065\u304B\u308C\u3066\u306A\u3044\u30FB\u30FB\u30FB"
+    }
+  },
+  "PlayerHiddenPluralLog"               : {
+    "LogText" : {
+      "zh" : "{0} \u8FD8\u6CA1\u6709\u6CE8\u610F\u5230\u4F60......",
+      "en" : "{0} haven't noticed you yet...",
+      "ja" : "\u307E\u3060{0}\u306B\u6C17\u3065\u304B\u308C\u3066\u306A\u3044\u30FB\u30FB\u30FB"
+    }
+  },
+  "PlayerStealthAttackLog"              : {
+    "LogText" : {
+      "zh" : "\u4F60\u6084\u6084\u9760\u8FC7\u53BB......",
+      "en" : "You approach silently...",
+      "ja" : "\u9759\u304B\u306B\u8FD1\u3065\u3044\u305F\u30FB\u30FB\u30FB"
+    }
+  },
+  "PlayerVulnerableLog"                 : {
+    "LogText" : {
+      "zh" : "\u4F60\u5931\u53BB\u5E73\u8861\uFF0C\u5904\u4E8E\u6613\u4F24\u72B6\u6001......",
+      "en" : "You lose your footing and are left in a vulnerable state...",
+      "ja" : "\u30D0\u30E9\u30F3\u30B9\u304C\u5D29\u308C\u3066\u3057\u307E\u3044\u3001\u5371\u6A5F\u7684\u306A\u72B6\u6CC1\u306B\u306A\u3063\u3066\u3057\u307E\u3063\u305F\u3002"
+    },
+    "TextColor" : {
+      "ColorValue" : {
+        "r" : 0.5725,
+        "g" : 0.0,
+        "b" : 0.0392,
+        "a" : 1.0
+      },
+      "Active"     : true
+    }
+  },
+  "EnemyVulnerableLog"                  : {
+    "LogText" : {
+      "zh" : "{0}\u5931\u8861\uFF0C\u6613\u53D7\u653B\u51FB\uFF01",
+      "en" : "{0} is off balance and vulnerable!",
+      "ja" : "{0}\u306F\u30D0\u30E9\u30F3\u30B9\u3092\u5D29\u3057\u3001\u7121\u9632\u5099\u306B\u306A\u3063\u305F\u3002"
+    },
+    "TextColor" : {
+      "ColorValue" : {
+        "r" : 0.0627,
+        "g" : 0.2039,
+        "b" : 0.651,
+        "a" : 1.0
+      },
+      "Active"     : true
+    }
+  },
+  "EnemySuccessTextSettings"            : {
+    "Bold" : true,
+    "Active" : true
+  },
+  "EnemyWoundTextSettings"              : {
+    "Bold" : true,
+    "Active" : true
+  },
+  "EnemyWoundTextColor"                 : {
+    "ColorValue" : {
+      "r" : 0.0627,
+      "g" : 0.2039,
+      "b" : 0.651,
+      "a" : 1.0
+    },
+    "Active"     : true
+  },
+  "PlayerWoundTextSettings"             : {
+    "Bold" : true,
+    "Active" : true
+  },
+  "PlayerWoundTextColor"                : {
+    "ColorValue" : {
+      "r" : 0.5725,
+      "g" : 0.0,
+      "b" : 0.0392,
+      "a" : 1.0
+    },
+    "Active"     : true
+  },
+  "PlayerWeaponActionSuccessLog"        : {
+    "LogText" : {
+      "zh" : "\u4F60\u6210\u529F\u7528{1}\u51FB\u4E2D\u3002",
+      "en" : "you manage to land a hit with your {1}.",
+      "ja" : "{1}\u3067\u306A\u3093\u3068\u304B\u653B\u6483\u3092\u5F53\u3066\u308B\u3053\u3068\u304C\u3067\u304D\u305F\u3002"
+    }
+  },
+  "PlayerWeaponActionFailureLog"        : {
+    "LogText" : {
+      "zh" : "\u4F60\u6CA1\u80FD\u7528{1}\u51FB\u4E2D\u3002",
+      "en" : "you fail to land a hit with your {1}.",
+      "ja" : "{1}\u306E\u653B\u6483\u304C\u5916\u308C\u3066\u3057\u307E\u3063\u305F\u3002"
+    }
+  },
+  "DefaultEnemyDefeatedEncounterLog"    : {
+    "LogText" : {
+      "zh" : "\u4F60\u80DC\u5229\u4E86\uFF01",
+      "en" : "You are victorious!",
+      "ja" : "\u52DD\u5229\uFF01"
+    }
+  },
+  "DefaultEnemyEscapedEncounterLog"     : {
+    "LogText" : {
+      "zh" : "\u654C\u4EBA\u9003\u79BB\u6218\u6597\u2026\u2026",
+      "en" : "The foe runs away from combat...",
+      "ja" : "\u6575\u304C\u9003\u3052\u3066\u3057\u307E\u3063\u305F\u30FB\u30FB\u30FB"
+    }
+  },
+  "DefaultPlayerEscapedLog"             : {
+    "LogText" : {
+      "zh" : "\u4F60\u64A4\u51FA\u6218\u6597\u2026\u2026",
+      "en" : "You retreat from combat...",
+      "ja" : "\u6226\u3044\u304B\u3089\u9003\u3052\u305F\u30FB\u30FB\u30FB"
+    }
+  },
+  "DefaultPlayerDemoralizedLog"         : {
+    "LogText" : {
+      "zh" : "\u4F60\u9003\u79BB\u4E86{0}\u3002",
+      "en" : "You run away from the {0}.",
+      "ja" : "{0}\u304B\u3089\u9003\u3052\u305F\u3002"
+    }
+  },
+  "DefaultInitiatingChaseLog"           : {
+    "LogText" : {
+      "zh" : "\u4F60\u5E94\u8BE5\u8FFD\u8D76 {0} \u5417\uFF1F",
+      "en" : "Should you run after the {0}?",
+      "ja" : "{0}\u3092\u8FFD\u3046\uFF1F"
+    }
+  },
+  "DefaultChaseSuccessfulLog"           : {
+    "LogText" : {
+      "zh" : "\u4F60\u6210\u529F\u8FFD\u4E0A\u4E86\u5B83\uFF01",
+      "en" : "You manage to catch up with it!",
+      "ja" : "\u306A\u3093\u3068\u304B\u8FFD\u3044\u3064\u3044\u305F\uFF01"
+    }
+  },
+  "DefaultChaseFailedLog"               : {
+    "LogText" : {
+      "zh" : "\u5B83\u4ECE\u4F60\u7684\u624B\u4E2D\u9003\u8131\u4E86\u3002",
+      "en" : "It escapes your grasp.",
+      "ja" : "\u9003\u3057\u3066\u3057\u307E\u3063\u305F\u3002"
+    }
+  },
+  "DefaultLeaveBeLog"                   : {
+    "LogText" : {
+      "zh" : "\u4F60\u653E{0}\u9003\u8D70\u4E86\u3002",
+      "en" : "You let the {0} run away.",
+      "ja" : "{0}\u3092\u9003\u3057\u3066\u3057\u307E\u3063\u305F\u3002"
+    }
+  },
+  "EquipInMainHandLog"                  : {
+    "LogText" : {
+      "zh" : "\u4F60\u4EE5\u4E3B\u624B\u63E1\u7D27{0}\u3002",
+      "en" : "You hold your {0} in your main hand.",
+      "ja" : "\u5229\u304D\u624B\u3067{0}\u3092\u6301\u3063\u305F\u3002"
+    }
+  },
+  "EquipInOffHandLog"                   : {
+    "LogText" : {
+      "zh" : "\u4F60\u4EE5\u526F\u624B\u6301\u7A33{0}\u3002",
+      "en" : "You hold your {0} in your off hand.",
+      "ja" : "\u53CD\u5BFE\u306E\u624B\u3067{0}\u3092\u6301\u3063\u305F\u3002"
+    }
+  },
+  "EquipInBothHandsLog"                 : {
+    "LogText" : {
+      "zh" : "\u4F60\u7528\u53CC\u624B\u63E1\u6301{0}\u3002",
+      "en" : "You hold your {0} with both hands.",
+      "ja" : "\u4E21\u624B\u3067{0}\u3092\u6301\u3063\u305F\u3002"
+    }
+  },
+  "SheatheLog"                          : {
+    "LogText" : {
+      "zh" : "\u4F60\u5C06{0}\u6536\u5165\u9798\u4E2D\u3002",
+      "en" : "You sheathe away your {0}.",
+      "ja" : "{0}\u3092\u9798\u306B\u623B\u3057\u305F\u3002"
+    }
+  },
+  "DropOnGroundLog"                     : {
+    "LogText" : {
+      "zh" : "\u4F60\u5C06{0}\u4E22\u4E0B\u3002",
+      "en" : "You drop your {0}.",
+      "ja" : "{0}\u3092\u843D\u3068\u3057\u305F\u3002"
+    }
+  },
+  "DefaultWeaponBrokeLog"               : {
+    "LogText" : {
+      "zh" : "\u4F60\u7684{0}\u574F\u4E86\uFF01",
+      "en" : "Your {0} broke!",
+      "ja" : "{0}\u304C\u58CA\u308C\u305F\uFF01"
+    },
+    "TextSettings" : {
+      "Bold" : true,
+      "Active" : true
+    },
+    "TextColor"    : {
+      "ColorValue" : {
+        "r" : 0.5725,
+        "g" : 0.0,
+        "b" : 0.0392,
+        "a" : 1.0
+      },
+      "Active"     : true
+    }
+  },
+  "MainActionIcon"                      : {
+    "Sprite" : {
+      "FileName" : "Mono__EncounterPopup__MainActionIcon-Sprite"
+    },
+    "WithColor" : {
+      "ColorValue" : {
+        "r" : 1.0,
+        "g" : 0.6414,
+        "b" : 0.0,
+        "a" : 1.0
+      },
+      "Active"     : true
+    }
+  },
+  "SubActionIcon"                       : {
+    "Sprite" : {
+      "FileName" : "Mono__EncounterPopup__SubActionIcon-Sprite"
+    },
+    "WithColor" : {
+      "ColorValue" : {
+        "r" : 0.3657,
+        "g" : 0.752,
+        "b" : 0.0,
+        "a" : 1.0
+      },
+      "Active"     : true
+    }
+  },
+  "FreeActionIcon"                      : {
+    "Sprite" : {
+      "FileName" : "Mono__EncounterPopup__FreeActionIcon-Sprite"
+    },
+    "WithColor" : {
+      "ColorValue" : {
+        "r" : 0.0,
+        "g" : 0.766,
+        "b" : 0.6158,
+        "a" : 1.0
+      },
+      "Active"     : true
+    }
+  },
+  "_type"                               : "EncounterPopup"
+}

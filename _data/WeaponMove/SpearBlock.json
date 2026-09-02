@@ -1,1 +1,272 @@
-{"ActionName":{"zh":"\u683C\u6321","en":"Block","ja":"\u30D6\u30ED\u30C3\u30AF"},"ActionSuccessLog":{"LogText":{"zh":"\u4F60\u683C\u6321\u4E86\u8FD9\u6B21\u653B\u51FB\uFF01","en":"you block the attack!","ja":"\u653B\u6483\u3092\u9632\u3044\u3060\uFF01"}},"ActionFailureLog":{"LogText":{"zh":"\u4F60\u672A\u80FD\u683C\u6321\u8FD9\u6B21\u653B\u51FB\u2026\u2026","en":"you fail to block the attack...","ja":"\u653B\u6483\u3092\u9632\u3052\u306A\u304B\u3063\u305F\u30FB\u30FB\u30FB"}},"HandUseOverride":true,"MainHandUse":1,"OffHandUse":1,"BothHandsUse":0,"RequiredDistance":0,"RequiredWrestlingState":0,"RequiredAmbushOverride":true,"RequiredAmbush":2,"RequiredSelfVulnerableStateOverride":true,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"RequiredConditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Skill_SpearFighting","type":"GameStat","icon":"7ac49751d0175db7","min":0.0,"max":150.0,"name":{"zh":"\u67AA\u672F","en":"Spear Fighting","ja":"\u69CD\u306E\u30B9\u30AD\u30EB"}},"TriggerRange":{"x":75.0,"y":150.0}}]},"ActionRange":0,"ActionType":0,"AmmoNeededOverride":0,"Cooldown":0,"LimitedUses":0,"InitialClashValue":{"Value":{"x":200.0,"y":200.0},"Behavior":0},"WrestlingClashBonus":{"Value":{"x":-100.0,"y":-100.0},"Behavior":0},"ClashStatInfluencesOverride":1,"ClashStatInfluences":[{"Stat":{"key":"Skill_SpearFighting","type":"GameStat","icon":"7ac49751d0175db7","min":0.0,"max":150.0,"name":{"zh":"\u67AA\u672F","en":"Spear Fighting","ja":"\u69CD\u306E\u30B9\u30AD\u30EB"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":0.0,"y":200.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"DoesNotAttack":true,"DamageTypeOverride":0,"DamageStatInfluencesOverride":0,"DurabilityModifiersOverride":1,"DurabilityModifiers":[{"Durability":1,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":1000.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":110.0,"y":110.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":120.0,"y":120.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":130.0,"y":130.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":140.0,"y":140.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":400.0,"y":400.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}}],"InHandsModifierOverride":0,"PreClashDistanceChange":0,"WrestlingStateChange":{"WrestlingStateChange":2,"ChangeApplies":1},"WeaponEquipStateChange":0,"ActionStatChanges":[{"Stat":{"key":"Skill_SpearFighting","type":"GameStat","icon":"7ac49751d0175db7","min":0.0,"max":150.0,"name":{"zh":"\u67AA\u672F","en":"Spear Fighting","ja":"\u69CD\u306E\u30B9\u30AD\u30EB"}},"ValueModifier":{"x":1.0,"y":1.0},"IgnoreNovelty":true},{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"EncounterResult":0,"type":"WeaponMove","key":"SpearBlock","name":{"zh":"\u683C\u6321","en":"Block","ja":"\u30D6\u30ED\u30C3\u30AF"}}
+
+{
+  "ActionName" : {
+    "zh" : "\u683C\u6321",
+    "en" : "Block",
+    "ja" : "\u30D6\u30ED\u30C3\u30AF"
+  },
+  "ActionSuccessLog" : {
+    "LogText" : {
+      "zh" : "\u4F60\u683C\u6321\u4E86\u8FD9\u6B21\u653B\u51FB\uFF01",
+      "en" : "you block the attack!",
+      "ja" : "\u653B\u6483\u3092\u9632\u3044\u3060\uFF01"
+    }
+  },
+  "ActionFailureLog" : {
+    "LogText" : {
+      "zh" : "\u4F60\u672A\u80FD\u683C\u6321\u8FD9\u6B21\u653B\u51FB\u2026\u2026",
+      "en" : "you fail to block the attack...",
+      "ja" : "\u653B\u6483\u3092\u9632\u3052\u306A\u304B\u3063\u305F\u30FB\u30FB\u30FB"
+    }
+  },
+  "HandUseOverride"  : true,
+  "MainHandUse"      : 1,
+  "OffHandUse"       : 1,
+  "BothHandsUse"     : 0,
+  "RequiredDistance" : 0,
+  "RequiredWrestlingState" : 0,
+  "RequiredAmbushOverride" : true,
+  "RequiredAmbush"         : 2,
+  "RequiredSelfVulnerableStateOverride" : true,
+  "RequiredSelfVulnerableState"         : 0,
+  "RequiredOpponentVulnerableState"     : 0,
+  "RequiredConditions"                  : {
+    "PlayerUsesCard" : 0,
+    "RequiredStatValues" : [
+      {
+        "Stat" : {
+          "key" : "Skill_SpearFighting",
+          "type" : "GameStat",
+          "icon" : "CardData__Bp_Spear_Flint__CardImage",
+          "min"  : 0.0,
+          "max"  : 150.0,
+          "name" : {
+            "zh" : "\u67AA\u672F",
+            "en" : "Spear Fighting",
+            "ja" : "\u69CD\u306E\u30B9\u30AD\u30EB"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 75.0,
+          "y" : 150.0
+        }
+      }
+    ]
+  },
+  "ActionRange"                         : 0,
+  "ActionType"                          : 0,
+  "AmmoNeededOverride"                  : 0,
+  "Cooldown"                            : 0,
+  "LimitedUses"                         : 0,
+  "InitialClashValue"                   : {
+    "Value" : {
+      "x" : 200.0,
+      "y" : 200.0
+    },
+    "Behavior" : 0
+  },
+  "WrestlingClashBonus"                 : {
+    "Value" : {
+      "x" : -100.0,
+      "y" : -100.0
+    },
+    "Behavior" : 0
+  },
+  "ClashStatInfluencesOverride"         : 1,
+  "ClashStatInfluences"                 : [
+    {
+      "Stat" : {
+        "key" : "Skill_SpearFighting",
+        "type" : "GameStat",
+        "icon" : "CardData__Bp_Spear_Flint__CardImage",
+        "min"  : 0.0,
+        "max"  : 150.0,
+        "name" : {
+          "zh" : "\u67AA\u672F",
+          "en" : "Spear Fighting",
+          "ja" : "\u69CD\u306E\u30B9\u30AD\u30EB"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 200.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "DoesNotAttack"                       : true,
+  "DamageTypeOverride"                  : 0,
+  "DamageStatInfluencesOverride"        : 0,
+  "DurabilityModifiersOverride"         : 1,
+  "DurabilityModifiers"                 : [
+    {
+      "Durability" : 1,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 1000.0
+          },
+          "WhenOutOfRange"  : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 100.0,
+            "y" : 100.0
+          },
+          "WhenOutOfRange"  : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 110.0,
+            "y" : 110.0
+          },
+          "WhenOutOfRange"  : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 120.0,
+            "y" : 120.0
+          },
+          "WhenOutOfRange"  : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 130.0,
+            "y" : 130.0
+          },
+          "WhenOutOfRange"  : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 140.0,
+            "y" : 140.0
+          },
+          "WhenOutOfRange"  : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 400.0,
+            "y" : 400.0
+          },
+          "WhenOutOfRange"  : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "InHandsModifierOverride"             : 0,
+  "PreClashDistanceChange"              : 0,
+  "WrestlingStateChange"                : {
+    "WrestlingStateChange" : 2,
+    "ChangeApplies"        : 1
+  },
+  "WeaponEquipStateChange"              : 0,
+  "ActionStatChanges"                   : [
+    {
+      "Stat" : {
+        "key" : "Skill_SpearFighting",
+        "type" : "GameStat",
+        "icon" : "CardData__Bp_Spear_Flint__CardImage",
+        "min"  : 0.0,
+        "max"  : 150.0,
+        "name" : {
+          "zh" : "\u67AA\u672F",
+          "en" : "Spear Fighting",
+          "ja" : "\u69CD\u306E\u30B9\u30AD\u30EB"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 1.0,
+        "y" : 1.0
+      },
+      "IgnoreNovelty" : true
+    },
+    {
+      "Stat" : {
+        "key" : "Stamina",
+        "type" : "GameStat",
+        "icon" : "GameStat__Stamina__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 32.0,
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "Stamina",
+          "ja" : "\u30B9\u30BF\u30DF\u30CA"
+        }
+      },
+      "ValueModifier" : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    }
+  ],
+  "EncounterResult"                     : 0,
+  "type"                                : "WeaponMove",
+  "key"                                 : "SpearBlock",
+  "name"                                : {
+    "zh" : "\u683C\u6321",
+    "en" : "Block",
+    "ja" : "\u30D6\u30ED\u30C3\u30AF"
+  }
+}

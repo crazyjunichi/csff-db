@@ -1,1 +1,580 @@
-{"GameName":{"zh":"\u8840\u538B","en":"Blood Pressure","ja":"\u8840\u5727"},"Description":{"zh":"\u5F53\u4F60\u5931\u8840\u65F6\u4F1A\u4E0B\u964D\uFF0C\u5F53\u8FBE\u5230\u96F6\u65F6\u4F60\u5C06\u6B7B\u4EA1\u3002\u4F7F\u7528\u6B62\u8840\u5E26\u548C\u6577\u6599\uFF0C\u4EE5\u5E2E\u52A9\u6062\u590D\u8840\u538B\u3002","en":"Drops when you are losing blood and kills you when it reaches 0. Use Tourniquets and dressings to help recover pressure.","ja":"\u51FA\u8840\u4E2D\u306B\u843D\u3061\u3001\uFF10\u306B\u306A\u3063\u305F\u3089\u6B7B\u306C\u3002\u6B62\u8840\u5E2F\u3084\u5305\u5E2F\u3092\u4F7F\u3063\u3066\u8840\u5727\u3092\u623B\u305D\u3046\u3002"},"BaseValue":75.0,"MinMaxValue":{"x":0.0,"y":75.0},"BaseRatePerTick":1.0,"StatPriority":0,"Visibility":0,"VisibleValueRange":{"x":0.0,"y":50.0},"BarColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"747f992097b9e5c9"},"Statuses":[{"GameName":{"zh":"\u9020\u8840\u4E2D","en":"Producing Blood","ja":"\u8840\u6DB2\u751F\u6210\u4E2D"},"ValueRange":{"m_X":1,"m_Y":74},"EffectsOnStats":[{"Stat":{"key":"Weight","type":"GameStat","icon":"0e74d4105e8a3faa","min":293999.0,"max":1000000.0,"name":{"zh":"\u4F53\u91CD","en":"Weight","ja":"\u4F53\u91CD"}},"RateModifier":{"x":-1.0,"y":-1.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4F4E\u8840\u538B","en":"Low Blood Pressure","ja":"\u4F4E\u8840\u5727"},"Description":{"zh":"\u6211\u597D\u6655\u2026\u2026","en":"I feel dizzy...","ja":"\u30D5\u30E9\u30D5\u30E9\u3057\u3066\u308B\u30FB\u30FB\u30FB"},"Icon":{"FileName":"747f992097b9e5c9"},"ValueRange":{"m_X":26,"m_Y":50},"EffectsOnStats":[{"Stat":{"key":"Weight","type":"GameStat","icon":"0e74d4105e8a3faa","min":293999.0,"max":1000000.0,"name":{"zh":"\u4F53\u91CD","en":"Weight","ja":"\u4F53\u91CD"}},"RateModifier":{"x":-1.0,"y":-1.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":4,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4F4E\u8840\u538B","en":"Low Blood Pressure","ja":"\u4F4E\u8840\u5727"},"Description":{"zh":"\u6211\u5C31\u8981\u660F\u5012\u4E86\u2026\u2026","en":"I think I'm going to faint...","ja":"\u6C17\u3092\u5931\u3046\u304B\u3082\u30FB\u30FB\u30FB"},"Icon":{"FileName":"747f992097b9e5c9"},"ValueRange":{"m_X":1,"m_Y":25},"EffectsOnStats":[{"Stat":{"key":"Weight","type":"GameStat","icon":"0e74d4105e8a3faa","min":293999.0,"max":1000000.0,"name":{"zh":"\u4F53\u91CD","en":"Weight","ja":"\u4F53\u91CD"}},"RateModifier":{"x":-1.0,"y":-1.0}}],"NotifyPlayer":3,"RepeatTextNotification":0,"AlertLevel":5,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u6B7B\u4EA1","en":"Death","ja":"\u6B7B"},"Description":{"zh":"\u4F60\u4F11\u514B\u4E86\u3002","en":"You went into shock.","ja":"\u6C17\u3092\u5931\u3063\u305F"},"Icon":{"FileName":"747f992097b9e5c9"},"NotifyPlayer":3,"RepeatTextNotification":0,"AlertLevel":5,"RepeatAlertSounds":0,"GameOver":true,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"NotEnoughText":{"zh":"\u592A\u9ED1\u4E86\u6211\u505A\u4E0D\u5230\u2026\u2026","en":"It's to dark for this action...","ja":"\u6697\u304F\u3066\u30A2\u30AF\u30B7\u30E7\u30F3\u304C\u8D77\u3053\u305B\u306A\u3044\u30FB\u30FB\u30FB"},"type":"GameStat","key":"BloodPressure","icon":"747f992097b9e5c9","name":{"zh":"\u8840\u538B","en":"Blood Pressure","ja":"\u8840\u5727"},"min":0.0,"max":75.0,"_modifierRates":[{"source":{"key":"W_Leech","type":"CardData","CardType":0,"icon":"3ae3b8b59e7688e0","name":{"zh":"\u6C34\u86ED","en":"Leech","ja":"Leech"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1ADraining Blood","en":"Passive Effect: Draining Blood","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADraining Blood"},"value":{"x":-0.052,"y":-0.052}},{"source":{"key":"VDEBUG_HybernationSuit","type":"CardData","CardType":0,"name":{"zh":"hybernation suit","en":"hybernation suit","ja":"hybernation suit"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1Ahealing","en":"Passive Effect: healing","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1Ahealing"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"HummingWidowBlessing","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":288.0,"name":{"zh":"\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Humming Widow Blessing","ja":"Humming Widow Blessing"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Status Stage: Humming Widow Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"},"value":{"x":0.25,"y":0.25}},{"source":{"key":"HummingWidowBlessing","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":288.0,"name":{"zh":"\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Humming Widow Blessing","ja":"Humming Widow Blessing"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Status Stage: Humming Widow Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"HummingWidowBlessing","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":288.0,"name":{"zh":"\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Humming Widow Blessing","ja":"Humming Widow Blessing"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Status Stage: Humming Widow Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"},"value":{"x":0.75,"y":0.75}},{"source":{"key":"HummingWidowBlessing","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":288.0,"name":{"zh":"\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Humming Widow Blessing","ja":"Humming Widow Blessing"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Status Stage: Humming Widow Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"HummingWidowBlessing","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":288.0,"name":{"zh":"\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Humming Widow Blessing","ja":"Humming Widow Blessing"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Status Stage: Humming Widow Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"},"value":{"x":1.5,"y":1.5}},{"source":{"key":"HummingWidowBlessing","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":288.0,"name":{"zh":"\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Humming Widow Blessing","ja":"Humming Widow Blessing"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F","en":"Status Stage: Humming Widow Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"BloodLoss","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":20.0,"name":{"zh":"\u5931\u8840","en":"Blood Loss","ja":"\u5931\u8840"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6B63\u5728\u6D41\u8840","en":"Status Stage: Bleeding","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u51FA\u8840\u4E2D"},"value":{"x":-4.0,"y":-4.0}},{"source":{"key":"BloodLoss","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":20.0,"name":{"zh":"\u5931\u8840","en":"Blood Loss","ja":"\u5931\u8840"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6B63\u5728\u6D41\u8840","en":"Status Stage: Bleeding","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u51FA\u8840\u4E2D"},"value":{"x":-6.0,"y":-6.0}},{"source":{"key":"BloodLoss","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":20.0,"name":{"zh":"\u5931\u8840","en":"Blood Loss","ja":"\u5931\u8840"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5927\u91CF\u51FA\u8840","en":"Status Stage: Bleeding Profusely","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u51FA\u8840\u3057\u3066\u3044\u308B"},"value":{"x":-8.0,"y":-8.0}},{"source":{"key":"BloodLoss","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":20.0,"name":{"zh":"\u5931\u8840","en":"Blood Loss","ja":"\u5931\u8840"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5927\u91CF\u51FA\u8840","en":"Status Stage: Bleeding Profusely","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u51FA\u8840\u3057\u3066\u3044\u308B"},"value":{"x":-12.0,"y":-12.0}},{"source":{"key":"WolfsbaneToxicity","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":96.0,"name":{"zh":"\u4E4C\u5934\u4E2D\u6BD2","en":"Wolfsbane Poisoning","ja":"\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u4E4C\u5934\u4E2D\u6BD2","en":"Status Stage: Severe Wolfsbane Poisoning","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"},"value":{"x":-2.0,"y":-2.0}},{"source":{"key":"Hydration","type":"GameStat","icon":"ffcc59665480a344","min":0.0,"max":192.0,"name":{"zh":"\u6C34\u5206","en":"Hydration ","ja":"\u6C34\u5206"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E25\u91CD\u8131\u6C34","en":"Status Stage: Severely Dehydrated","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3059\u3054\u304F\u8131\u6C34\u3057\u3066\u308B"},"value":{"x":-1.25,"y":-1.25}},{"source":{"key":"Hydration","type":"GameStat","icon":"ffcc59665480a344","min":0.0,"max":192.0,"name":{"zh":"\u6C34\u5206","en":"Hydration ","ja":"\u6C34\u5206"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u81F4\u547D\u8131\u6C34","en":"Status Stage: Dangerously Dehydrated","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5371\u306A\u3044\u307B\u3069\u8131\u6C34\u3057\u3066\u308B"},"value":{"x":-1.5,"y":-1.5}},{"source":{"key":"Infection_Systemic","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1800.0,"name":{"zh":"\u5168\u8EAB\u611F\u67D3","en":"Systemic Infection","ja":"\u5168\u8EAB\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u611F\u67D3\u6027\u4F11\u514B","en":"Status Stage: Septic Shock","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6557\u8840\u75C7\u30B7\u30E7\u30C3\u30AF"},"value":{"x":-3.0,"y":-3.0}}],"_uuid":"94bafb3c1f1d4ae41894051ca1c5c54a"}
+
+{
+  "GameName" : {
+    "zh" : "\u8840\u538B",
+    "en" : "Blood Pressure",
+    "ja" : "\u8840\u5727"
+  },
+  "Description" : {
+    "zh" : "\u5F53\u4F60\u5931\u8840\u65F6\u4F1A\u4E0B\u964D\uFF0C\u5F53\u8FBE\u5230\u96F6\u65F6\u4F60\u5C06\u6B7B\u4EA1\u3002\u4F7F\u7528\u6B62\u8840\u5E26\u548C\u6577\u6599\uFF0C\u4EE5\u5E2E\u52A9\u6062\u590D\u8840\u538B\u3002",
+    "en" : "Drops when you are losing blood and kills you when it reaches 0. Use Tourniquets and dressings to help recover pressure.",
+    "ja" : "\u51FA\u8840\u4E2D\u306B\u843D\u3061\u3001\uFF10\u306B\u306A\u3063\u305F\u3089\u6B7B\u306C\u3002\u6B62\u8840\u5E2F\u3084\u5305\u5E2F\u3092\u4F7F\u3063\u3066\u8840\u5727\u3092\u623B\u305D\u3046\u3002"
+  },
+  "BaseValue"   : 75.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 75.0
+  },
+  "BaseRatePerTick" : 1.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "VisibleValueRange" : {
+    "x" : 0.0,
+    "y" : 50.0
+  },
+  "BarColor"          : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "GameStat__BloodLoss__DefaultStatusIcon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u9020\u8840\u4E2D",
+        "en" : "Producing Blood",
+        "ja" : "\u8840\u6DB2\u751F\u6210\u4E2D"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 74
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Weight",
+            "type" : "GameStat",
+            "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+            "min"  : 293999.0,
+            "max"  : 1000000.0,
+            "name" : {
+              "zh" : "\u4F53\u91CD",
+              "en" : "Weight",
+              "ja" : "\u4F53\u91CD"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4F4E\u8840\u538B",
+        "en" : "Low Blood Pressure",
+        "ja" : "\u4F4E\u8840\u5727"
+      },
+      "Description" : {
+        "zh" : "\u6211\u597D\u6655\u2026\u2026",
+        "en" : "I feel dizzy...",
+        "ja" : "\u30D5\u30E9\u30D5\u30E9\u3057\u3066\u308B\u30FB\u30FB\u30FB"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__BloodLoss__DefaultStatusIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 26,
+        "m_Y" : 50
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Weight",
+            "type" : "GameStat",
+            "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+            "min"  : 293999.0,
+            "max"  : 1000000.0,
+            "name" : {
+              "zh" : "\u4F53\u91CD",
+              "en" : "Weight",
+              "ja" : "\u4F53\u91CD"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 4,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4F4E\u8840\u538B",
+        "en" : "Low Blood Pressure",
+        "ja" : "\u4F4E\u8840\u5727"
+      },
+      "Description" : {
+        "zh" : "\u6211\u5C31\u8981\u660F\u5012\u4E86\u2026\u2026",
+        "en" : "I think I'm going to faint...",
+        "ja" : "\u6C17\u3092\u5931\u3046\u304B\u3082\u30FB\u30FB\u30FB"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__BloodLoss__DefaultStatusIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 1,
+        "m_Y" : 25
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Weight",
+            "type" : "GameStat",
+            "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+            "min"  : 293999.0,
+            "max"  : 1000000.0,
+            "name" : {
+              "zh" : "\u4F53\u91CD",
+              "en" : "Weight",
+              "ja" : "\u4F53\u91CD"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 3,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 5,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6B7B\u4EA1",
+        "en" : "Death",
+        "ja" : "\u6B7B"
+      },
+      "Description" : {
+        "zh" : "\u4F60\u4F11\u514B\u4E86\u3002",
+        "en" : "You went into shock.",
+        "ja" : "\u6C17\u3092\u5931\u3063\u305F"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__BloodLoss__DefaultStatusIcon"
+      },
+      "NotifyPlayer" : 3,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 5,
+      "RepeatAlertSounds"      : 0,
+      "GameOver"               : true,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "NotEnoughText"           : {
+    "zh" : "\u592A\u9ED1\u4E86\u6211\u505A\u4E0D\u5230\u2026\u2026",
+    "en" : "It's to dark for this action...",
+    "ja" : "\u6697\u304F\u3066\u30A2\u30AF\u30B7\u30E7\u30F3\u304C\u8D77\u3053\u305B\u306A\u3044\u30FB\u30FB\u30FB"
+  },
+  "type"                    : "GameStat",
+  "key"                     : "BloodPressure",
+  "icon"                    : "GameStat__BloodLoss__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u8840\u538B",
+    "en" : "Blood Pressure",
+    "ja" : "\u8840\u5727"
+  },
+  "min"                     : 0.0,
+  "max"                     : 75.0,
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "W_Leech",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__HummingWidowLeechProtection__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u6C34\u86ED",
+          "en" : "Leech",
+          "ja" : "Leech"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ADraining Blood",
+        "en" : "Passive Effect: Draining Blood",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADraining Blood"
+      },
+      "value"       : {
+        "x" : -0.052,
+        "y" : -0.052
+      }
+    },
+    {
+      "source" : {
+        "key" : "VDEBUG_HybernationSuit",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "hybernation suit",
+          "en" : "hybernation suit",
+          "ja" : "hybernation suit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1Ahealing",
+        "en" : "Passive Effect: healing",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1Ahealing"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HummingWidowBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+          "en" : "Humming Widow Blessing",
+          "ja" : "Humming Widow Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+        "en" : "Status Stage: Humming Widow Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"
+      },
+      "value"       : {
+        "x" : 0.25,
+        "y" : 0.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "HummingWidowBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+          "en" : "Humming Widow Blessing",
+          "ja" : "Humming Widow Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+        "en" : "Status Stage: Humming Widow Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "HummingWidowBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+          "en" : "Humming Widow Blessing",
+          "ja" : "Humming Widow Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+        "en" : "Status Stage: Humming Widow Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"
+      },
+      "value"       : {
+        "x" : 0.75,
+        "y" : 0.75
+      }
+    },
+    {
+      "source" : {
+        "key" : "HummingWidowBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+          "en" : "Humming Widow Blessing",
+          "ja" : "Humming Widow Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+        "en" : "Status Stage: Humming Widow Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HummingWidowBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+          "en" : "Humming Widow Blessing",
+          "ja" : "Humming Widow Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+        "en" : "Status Stage: Humming Widow Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"
+      },
+      "value"       : {
+        "x" : 1.5,
+        "y" : 1.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "HummingWidowBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+          "en" : "Humming Widow Blessing",
+          "ja" : "Humming Widow Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
+        "en" : "Status Stage: Humming Widow Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHumming Widow Blessing"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BloodLoss",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 20.0,
+        "name" : {
+          "zh" : "\u5931\u8840",
+          "en" : "Blood Loss",
+          "ja" : "\u5931\u8840"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6B63\u5728\u6D41\u8840",
+        "en" : "Status Stage: Bleeding",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u51FA\u8840\u4E2D"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BloodLoss",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 20.0,
+        "name" : {
+          "zh" : "\u5931\u8840",
+          "en" : "Blood Loss",
+          "ja" : "\u5931\u8840"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6B63\u5728\u6D41\u8840",
+        "en" : "Status Stage: Bleeding",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u51FA\u8840\u4E2D"
+      },
+      "value"       : {
+        "x" : -6.0,
+        "y" : -6.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BloodLoss",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 20.0,
+        "name" : {
+          "zh" : "\u5931\u8840",
+          "en" : "Blood Loss",
+          "ja" : "\u5931\u8840"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5927\u91CF\u51FA\u8840",
+        "en" : "Status Stage: Bleeding Profusely",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u51FA\u8840\u3057\u3066\u3044\u308B"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BloodLoss",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 20.0,
+        "name" : {
+          "zh" : "\u5931\u8840",
+          "en" : "Blood Loss",
+          "ja" : "\u5931\u8840"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5927\u91CF\u51FA\u8840",
+        "en" : "Status Stage: Bleeding Profusely",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u51FA\u8840\u3057\u3066\u3044\u308B"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WolfsbaneToxicity",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u4E4C\u5934\u4E2D\u6BD2",
+          "en" : "Wolfsbane Poisoning",
+          "ja" : "\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u4E4C\u5934\u4E2D\u6BD2",
+        "en" : "Status Stage: Severe Wolfsbane Poisoning",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Hydration",
+        "type" : "GameStat",
+        "icon" : "GameStat__CalmingFlow__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 192.0,
+        "name" : {
+          "zh" : "\u6C34\u5206",
+          "en" : "Hydration ",
+          "ja" : "\u6C34\u5206"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E25\u91CD\u8131\u6C34",
+        "en" : "Status Stage: Severely Dehydrated",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3059\u3054\u304F\u8131\u6C34\u3057\u3066\u308B"
+      },
+      "value"       : {
+        "x" : -1.25,
+        "y" : -1.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "Hydration",
+        "type" : "GameStat",
+        "icon" : "GameStat__CalmingFlow__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 192.0,
+        "name" : {
+          "zh" : "\u6C34\u5206",
+          "en" : "Hydration ",
+          "ja" : "\u6C34\u5206"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u81F4\u547D\u8131\u6C34",
+        "en" : "Status Stage: Dangerously Dehydrated",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5371\u306A\u3044\u307B\u3069\u8131\u6C34\u3057\u3066\u308B"
+      },
+      "value"       : {
+        "x" : -1.5,
+        "y" : -1.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "Infection_Systemic",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1800.0,
+        "name" : {
+          "zh" : "\u5168\u8EAB\u611F\u67D3",
+          "en" : "Systemic Infection",
+          "ja" : "\u5168\u8EAB\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u611F\u67D3\u6027\u4F11\u514B",
+        "en" : "Status Stage: Septic Shock",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6557\u8840\u75C7\u30B7\u30E7\u30C3\u30AF"
+      },
+      "value"       : {
+        "x" : -3.0,
+        "y" : -3.0
+      }
+    }
+  ],
+  "_uuid"                   : "94bafb3c1f1d4ae41894051ca1c5c54a"
+}

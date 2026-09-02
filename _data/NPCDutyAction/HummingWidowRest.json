@@ -1,1 +1,53 @@
-{"OverrideModifiersTarget":{"TargetAgent":{"Target":{"key":"Agent_HummingWidow","type":"NPCAgent","icon":"dc51f4f7f64f0f44","name":{"zh":"\u55E1\u9E23\u5BE1\u5987","en":"Humming Widow","ja":"Humming Widow"}}},"Method":0},"NPCStatModifiers":[{"TargetStat":{"key":"AgentStamina","type":"NPCStat","name":{"zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"}},"TargetAgent":{"key":"Agent_HummingWidow","type":"NPCAgent","icon":"dc51f4f7f64f0f44","name":{"zh":"\u55E1\u9E23\u5BE1\u5987","en":"Humming Widow","ja":"Humming Widow"}},"ValueChange":{"x":50.0,"y":50.0}}],"key":"HummingWidowRest","type":"NPCDutyAction","name":{"zh":"HummingWidowRest","en":"HummingWidowRest","ja":"HummingWidowRest"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "OverrideModifiersTarget" : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "Agent_HummingWidow",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_HummingWidow__AgentImage",
+        "name" : {
+          "zh" : "\u55E1\u9E23\u5BE1\u5987",
+          "en" : "Humming Widow",
+          "ja" : "Humming Widow"
+        }
+      }
+    },
+    "Method"      : 0
+  },
+  "NPCStatModifiers"        : [
+    {
+      "TargetStat" : {
+        "key" : "AgentStamina",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "AgentStamina",
+          "ja" : "AgentStamina"
+        }
+      },
+      "TargetAgent" : {
+        "key" : "Agent_HummingWidow",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_HummingWidow__AgentImage",
+        "name" : {
+          "zh" : "\u55E1\u9E23\u5BE1\u5987",
+          "en" : "Humming Widow",
+          "ja" : "Humming Widow"
+        }
+      },
+      "ValueChange" : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    }
+  ],
+  "key"                     : "HummingWidowRest",
+  "type"                    : "NPCDutyAction",
+  "name"                    : {
+    "zh" : "HummingWidowRest",
+    "en" : "HummingWidowRest",
+    "ja" : "HummingWidowRest"
+  },
+  "actionType"              : "ChangeNPCStatDutyAction"
+}

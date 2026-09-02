@@ -1,1 +1,62 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"NettlePatchWild","type":"CardData","CardType":2,"icon":"1ce4e880976d52ba","name":{"zh":"\u91CE\u751F\u8368\u9EBB","en":"Nettle Patch","ja":"\u30A4\u30E9\u30AF\u30B5\u306E\u30D1\u30C3\u30C1"}}}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":2},"AffectType":1,"SimpleAffectDuration":0,"ActionToPerform":{"ActionType":1,"GivenCardSelectionMethod":0,"GivenCardSelection":{"ItemPool":[{"Target":{"Target":{"key":"ToolOrWeapon_Sickle_Metal","type":"CardData","CardType":0,"icon":"9ce652dfdffba972","name":{"zh":"\u91D1\u5C5E\u9570\u5200","en":"Metal Sickle","ja":"\u91D1\u5C5E\u88FD\u306E\u938C"}}}}],"SearchPriority":2,"OwnershipPriority":1,"DutyPriority":0},"ActionDroppedCards":0},"key":"Harvest with Sickle","type":"NPCDutyAction","name":{"zh":"Harvest with Sickle","en":"Harvest with Sickle","ja":"Harvest with Sickle"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "NettlePatchWild",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__NettlePatchWild__CardImage",
+            "name"     : {
+              "zh" : "\u91CE\u751F\u8368\u9EBB",
+              "en" : "Nettle Patch",
+              "ja" : "\u30A4\u30E9\u30AF\u30B5\u306E\u30D1\u30C3\u30C1"
+            }
+          }
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 2
+  },
+  "AffectType"    : 1,
+  "SimpleAffectDuration" : 0,
+  "ActionToPerform"      : {
+    "ActionType" : 1,
+    "GivenCardSelectionMethod" : 0,
+    "GivenCardSelection"       : {
+      "ItemPool" : [
+        {
+          "Target" : {
+            "Target" : {
+              "key" : "ToolOrWeapon_Sickle_Metal",
+              "type" : "CardData",
+              "CardType" : 0,
+              "icon"     : "CardData__Bp_ToolOrWeapon_Sickle_Metal__CardImage",
+              "name"     : {
+                "zh" : "\u91D1\u5C5E\u9570\u5200",
+                "en" : "Metal Sickle",
+                "ja" : "\u91D1\u5C5E\u88FD\u306E\u938C"
+              }
+            }
+          }
+        }
+      ],
+      "SearchPriority" : 2,
+      "OwnershipPriority" : 1,
+      "DutyPriority"      : 0
+    },
+    "ActionDroppedCards"       : 0
+  },
+  "key"                  : "Harvest with Sickle",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Harvest with Sickle",
+    "en" : "Harvest with Sickle",
+    "ja" : "Harvest with Sickle"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

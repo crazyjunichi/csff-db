@@ -1,1 +1,228 @@
-{"GameName":{"zh":"\u94A0","en":"Sodium","ja":"\u30CA\u30C8\u30EA\u30A6\u30E0"},"Description":{"zh":"\u663E\u793A\u4F60\u4F53\u6DB2\u4E2D\u7684\u94A0\u542B\u91CF\u3002\u94A0\u542B\u91CF\u8FC7\u9AD8\u4F1A\u8BA9\u4F60\u8131\u6C34\u4E14\u8BA9\u4F60\u611F\u5230\u6076\u5FC3\u3002","en":"Shows the level of sodium in your body. Will dehydrate you and make you nauseous when high.","ja":"\u4F53\u5185\u306E\u30CA\u30C8\u30EA\u30A6\u30E0\u6FC3\u5EA6\u3092\u793A\u3059\u3002\u9AD8\u3044\u3068\u8131\u6C34\u3084\u5410\u304D\u6C17\u306E\u539F\u56E0\u306B\u306A\u308B\u3002"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":400.0},"BaseRatePerTick":-1.0,"StatPriority":0,"Visibility":0,"Statuses":[{"GameName":{"zh":"\u9AD8\u94A0\u542B\u91CF","en":"High Sodium Levels","ja":"\u9AD8\u3044\u30CA\u30C8\u30EA\u30A6\u30E0\u6FC3\u5EA6"},"ValueRange":{"m_X":101,"m_Y":200},"EffectsOnStats":[{"Stat":{"key":"Thirst","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":288.0,"name":{"zh":"\u53E3\u6E34\u5EA6","en":"Thirst","ja":"\u5589\u306E\u6E07\u304D"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"Nausea","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":24.0,"name":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"}},"RateModifier":{"x":1.0,"y":1.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u8D85\u9AD8\u94A0\u542B\u91CF","en":"Very High Sodium Levels","ja":"\u304B\u306A\u308A\u9AD8\u3044\u30CA\u30C8\u30EA\u30A6\u30E0\u6FC3\u5EA6"},"ValueRange":{"m_X":201,"m_Y":300},"EffectsOnStats":[{"Stat":{"key":"Thirst","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":288.0,"name":{"zh":"\u53E3\u6E34\u5EA6","en":"Thirst","ja":"\u5589\u306E\u6E07\u304D"}},"RateModifier":{"x":-3.0,"y":-3.0}},{"Stat":{"key":"Nausea","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":24.0,"name":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"}},"RateModifier":{"x":3.0,"y":3.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u6781\u9AD8\u94A0\u542B\u91CF","en":"Extreme Sodium Levels","ja":"\u9AD8\u3059\u304E\u308B\u30CA\u30C8\u30EA\u30A6\u30E0\u6FC3\u5EA6"},"ValueRange":{"m_X":301,"m_Y":400},"EffectsOnStats":[{"Stat":{"key":"Thirst","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":288.0,"name":{"zh":"\u53E3\u6E34\u5EA6","en":"Thirst","ja":"\u5589\u306E\u6E07\u304D"}},"RateModifier":{"x":-6.0,"y":-6.0}},{"Stat":{"key":"Nausea","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":24.0,"name":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"}},"RateModifier":{"x":6.0,"y":6.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"Sodium","name":{"zh":"\u94A0","en":"Sodium","ja":"\u30CA\u30C8\u30EA\u30A6\u30E0"},"min":0.0,"max":400.0,"_modifierValues":[{"source":{"key":"Event_Vomit","type":"CardData","CardType":3,"icon":"998380edbb9e32ef","name":{"zh":"\u5455\u5410\uFF01","en":"Vomit!","ja":"\u30B2\u30ED\uFF01"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5455\u5455\u5455\u2026\u2026","en":"Action: Eughhh.....","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u3094\u3094\u3045\u3045\u30FB\u30FB\u30FB"},"value":{"x":-10.0,"y":-10.0}}],"_uuid":"c41e00302ea270c40937be4fd85a30e1"}
+
+{
+  "GameName" : {
+    "zh" : "\u94A0",
+    "en" : "Sodium",
+    "ja" : "\u30CA\u30C8\u30EA\u30A6\u30E0"
+  },
+  "Description" : {
+    "zh" : "\u663E\u793A\u4F60\u4F53\u6DB2\u4E2D\u7684\u94A0\u542B\u91CF\u3002\u94A0\u542B\u91CF\u8FC7\u9AD8\u4F1A\u8BA9\u4F60\u8131\u6C34\u4E14\u8BA9\u4F60\u611F\u5230\u6076\u5FC3\u3002",
+    "en" : "Shows the level of sodium in your body. Will dehydrate you and make you nauseous when high.",
+    "ja" : "\u4F53\u5185\u306E\u30CA\u30C8\u30EA\u30A6\u30E0\u6FC3\u5EA6\u3092\u793A\u3059\u3002\u9AD8\u3044\u3068\u8131\u6C34\u3084\u5410\u304D\u6C17\u306E\u539F\u56E0\u306B\u306A\u308B\u3002"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 400.0
+  },
+  "BaseRatePerTick" : -1.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "Statuses"        : [
+    {
+      "GameName" : {
+        "zh" : "\u9AD8\u94A0\u542B\u91CF",
+        "en" : "High Sodium Levels",
+        "ja" : "\u9AD8\u3044\u30CA\u30C8\u30EA\u30A6\u30E0\u6FC3\u5EA6"
+      },
+      "ValueRange" : {
+        "m_X" : 101,
+        "m_Y" : 200
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Thirst",
+            "type" : "GameStat",
+            "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53E3\u6E34\u5EA6",
+              "en" : "Thirst",
+              "ja" : "\u5589\u306E\u6E07\u304D"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Nausea",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 24.0,
+            "name" : {
+              "zh" : "\u6076\u5FC3",
+              "en" : "Nausea",
+              "ja" : "\u5410\u304D\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u8D85\u9AD8\u94A0\u542B\u91CF",
+        "en" : "Very High Sodium Levels",
+        "ja" : "\u304B\u306A\u308A\u9AD8\u3044\u30CA\u30C8\u30EA\u30A6\u30E0\u6FC3\u5EA6"
+      },
+      "ValueRange" : {
+        "m_X" : 201,
+        "m_Y" : 300
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Thirst",
+            "type" : "GameStat",
+            "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53E3\u6E34\u5EA6",
+              "en" : "Thirst",
+              "ja" : "\u5589\u306E\u6E07\u304D"
+            }
+          },
+          "RateModifier" : {
+            "x" : -3.0,
+            "y" : -3.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Nausea",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 24.0,
+            "name" : {
+              "zh" : "\u6076\u5FC3",
+              "en" : "Nausea",
+              "ja" : "\u5410\u304D\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : 3.0,
+            "y" : 3.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6781\u9AD8\u94A0\u542B\u91CF",
+        "en" : "Extreme Sodium Levels",
+        "ja" : "\u9AD8\u3059\u304E\u308B\u30CA\u30C8\u30EA\u30A6\u30E0\u6FC3\u5EA6"
+      },
+      "ValueRange" : {
+        "m_X" : 301,
+        "m_Y" : 400
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Thirst",
+            "type" : "GameStat",
+            "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53E3\u6E34\u5EA6",
+              "en" : "Thirst",
+              "ja" : "\u5589\u306E\u6E07\u304D"
+            }
+          },
+          "RateModifier" : {
+            "x" : -6.0,
+            "y" : -6.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Nausea",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 24.0,
+            "name" : {
+              "zh" : "\u6076\u5FC3",
+              "en" : "Nausea",
+              "ja" : "\u5410\u304D\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : 6.0,
+            "y" : 6.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Sodium",
+  "name"                    : {
+    "zh" : "\u94A0",
+    "en" : "Sodium",
+    "ja" : "\u30CA\u30C8\u30EA\u30A6\u30E0"
+  },
+  "min"                     : 0.0,
+  "max"                     : 400.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Event_Vomit",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "GameStat__BrimstoneGelProtection__Statuses-0-Icon",
+        "name"     : {
+          "zh" : "\u5455\u5410\uFF01",
+          "en" : "Vomit!",
+          "ja" : "\u30B2\u30ED\uFF01"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5455\u5455\u5455\u2026\u2026",
+        "en" : "Action: Eughhh.....",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u3094\u3094\u3045\u3045\u30FB\u30FB\u30FB"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    }
+  ],
+  "_uuid"                   : "c41e00302ea270c40937be4fd85a30e1"
+}

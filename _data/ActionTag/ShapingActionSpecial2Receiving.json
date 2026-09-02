@@ -1,1 +1,150 @@
-{"key":"ShapingActionSpecial2Receiving","type":"ActionTag","name":{"zh":"\u5851\u5F62\u52A8\u4F5C-\u7279\u6B8A2\u63A5\u6536","en":"ShapingActionSpecial2Receiving","ja":"ShapingActionSpecial2Receiving"},"_actions":[{"source":{"key":"Wood","type":"CardData","CardType":0,"icon":"6e4dd7ce4ea3c1d4","name":{"zh":"\u6728\u6750","en":"Wood","ja":"\u6728\u6750"}},"text":"PartnerDuty_WoodCarvingCreateCarving","time":4.0}],"count":1,"_modifiers":[{"source":{"key":"ToolOrWeapon_Handsaw_Metal","type":"CardData","CardType":0,"icon":"6b6029d64cc4078c","name":{"zh":"\u91D1\u5C5E\u624B\u952F","en":"Metal Handsaw","ja":"Metal Handsaw"}},"description":{"zh":"\u5361\u724C\u80FD\u529B","en":"Card Ability","ja":"\u30AB\u30FC\u30C9\u80FD\u529B"},"modifier":{"AppliesTo":[{"key":"ShapingActionSpecial2Receiving","type":"ActionTag","name":{"zh":"\u5851\u5F62\u52A8\u4F5C-\u7279\u6B8A2\u63A5\u6536","en":"ShapingActionSpecial2Receiving","ja":"ShapingActionSpecial2Receiving"}}],"DurationModifier":-1,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}}}],"ReceivingDurabilities":{"Special2Change":{"x":0.2,"y":0.2}},"AddedTemporaryStatModifiers":[{"Stat":{"key":"Skill_Woodworking","type":"GameStat","icon":"c88673b89542557c","min":0.0,"max":150.0,"name":{"zh":"\u6728\u5DE5","en":"Woodworking","ja":"\u6728\u5DE5\u306E\u30B9\u30AD\u30EB"}},"ValueModifier":{"x":15.0,"y":15.0}}],"FadeToBlack":0}}],"templateCard":{"UsageDurability":{"Active":true,"MaxValue":10000.0,"durabilityKey":"UsageDurability","CardStatName":{"zh":"\u9999\u6C14","en":"Fragrance","ja":"\u9999\u308A"}},"FuelCapacity":{"Active":true,"MaxValue":10000.0,"durabilityKey":"FuelCapacity","CardStatName":{"zh":"\u71C3\u6599","en":"Fuel","ja":"\u71C3\u6599"}},"SpecialDurability2":{"Active":true,"MaxValue":96.0,"durabilityKey":"SpecialDurability2","CardStatName":{"zh":"\u54C1\u8D28","en":"Quality","ja":"\u30AF\u30AA\u30EA\u30C6\u30A3"},"OverrideIcon":{"FileName":"571094bb27864b60"}},"SpecialDurability4":{"Active":true,"MaxValue":10000.0,"durabilityKey":"SpecialDurability4","CardStatName":{"zh":"ID","en":"ID","ja":"ID"}}}}
+
+{
+  "key" : "ShapingActionSpecial2Receiving",
+  "type" : "ActionTag",
+  "name" : {
+    "zh" : "\u5851\u5F62\u52A8\u4F5C-\u7279\u6B8A2\u63A5\u6536",
+    "en" : "ShapingActionSpecial2Receiving",
+    "ja" : "ShapingActionSpecial2Receiving"
+  },
+  "_actions" : [
+    {
+      "source" : {
+        "key" : "Wood",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Huntsman2_WoodGathering_Completed_Event__CardImage",
+        "name"     : {
+          "zh" : "\u6728\u6750",
+          "en" : "Wood",
+          "ja" : "\u6728\u6750"
+        }
+      },
+      "text"   : "PartnerDuty_WoodCarvingCreateCarving",
+      "time"   : 4.0
+    }
+  ],
+  "count"    : 1,
+  "_modifiers" : [
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_Handsaw_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Handsaw_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u624B\u952F",
+          "en" : "Metal Handsaw",
+          "ja" : "Metal Handsaw"
+        }
+      },
+      "description" : {
+        "zh" : "\u5361\u724C\u80FD\u529B",
+        "en" : "Card Ability",
+        "ja" : "\u30AB\u30FC\u30C9\u80FD\u529B"
+      },
+      "modifier"    : {
+        "AppliesTo" : [
+          {
+            "key" : "ShapingActionSpecial2Receiving",
+            "type" : "ActionTag",
+            "name" : {
+              "zh" : "\u5851\u5F62\u52A8\u4F5C-\u7279\u6B8A2\u63A5\u6536",
+              "en" : "ShapingActionSpecial2Receiving",
+              "ja" : "ShapingActionSpecial2Receiving"
+            }
+          }
+        ],
+        "DurationModifier" : -1,
+        "AddedStatModifiers" : [
+          {
+            "Stat" : {
+              "key" : "Stamina",
+              "type" : "GameStat",
+              "icon" : "GameStat__Stamina__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 32.0,
+              "name" : {
+                "zh" : "\u8010\u529B",
+                "en" : "Stamina",
+                "ja" : "\u30B9\u30BF\u30DF\u30CA"
+              }
+            }
+          }
+        ],
+        "ReceivingDurabilities" : {
+          "Special2Change" : {
+            "x" : 0.2,
+            "y" : 0.2
+          }
+        },
+        "AddedTemporaryStatModifiers" : [
+          {
+            "Stat" : {
+              "key" : "Skill_Woodworking",
+              "type" : "GameStat",
+              "icon" : "NPCCharacterPerk__PartnerPerk_KnowledgeWoodworker__PerkIcon",
+              "min"  : 0.0,
+              "max"  : 150.0,
+              "name" : {
+                "zh" : "\u6728\u5DE5",
+                "en" : "Woodworking",
+                "ja" : "\u6728\u5DE5\u306E\u30B9\u30AD\u30EB"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 15.0,
+              "y" : 15.0
+            }
+          }
+        ],
+        "FadeToBlack"                 : 0
+      }
+    }
+  ],
+  "templateCard" : {
+    "UsageDurability" : {
+      "Active" : true,
+      "MaxValue" : 10000.0,
+      "durabilityKey" : "UsageDurability",
+      "CardStatName"  : {
+        "zh" : "\u9999\u6C14",
+        "en" : "Fragrance",
+        "ja" : "\u9999\u308A"
+      }
+    },
+    "FuelCapacity"    : {
+      "Active" : true,
+      "MaxValue" : 10000.0,
+      "durabilityKey" : "FuelCapacity",
+      "CardStatName"  : {
+        "zh" : "\u71C3\u6599",
+        "en" : "Fuel",
+        "ja" : "\u71C3\u6599"
+      }
+    },
+    "SpecialDurability2" : {
+      "Active" : true,
+      "MaxValue" : 96.0,
+      "durabilityKey" : "SpecialDurability2",
+      "CardStatName"  : {
+        "zh" : "\u54C1\u8D28",
+        "en" : "Quality",
+        "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+      },
+      "OverrideIcon"  : {
+        "FileName" : "CardData__AcornDoughRaw__SpecialDurability2-OverrideIcon"
+      }
+    },
+    "SpecialDurability4" : {
+      "Active" : true,
+      "MaxValue" : 10000.0,
+      "durabilityKey" : "SpecialDurability4",
+      "CardStatName"  : {
+        "zh" : "ID",
+        "en" : "ID",
+        "ja" : "ID"
+      }
+    }
+  }
+}

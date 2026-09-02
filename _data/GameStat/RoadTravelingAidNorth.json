@@ -1,1 +1,283 @@
-{"GameName":{"zh":"\u5317\u65B9\u9053\u8DEF\u8F85\u52A9","en":"Road Traveling Aid North","ja":"Road Traveling Aid North"},"IsRuntimeOnly":true,"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"VisibleValueRange":{"x":0.0,"y":96.0},"BarColor":{"r":0.4528,"g":0.4528,"b":0.4528,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"63ad3072dc5472bb"},"Statuses":[{"GameName":{"zh":"Road Traveling Aid North No Wheelbarrow","en":"Road Traveling Aid North No Wheelbarrow","ja":"Road Traveling Aid North No Wheelbarrow"},"Icon":{"FileName":"9873a3645dbafc99"},"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnActions":[{"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"WheelbarrowEquiped","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":1.0,"name":{"zh":"\u88C5\u5907\u72EC\u8F6E\u8F66","en":"Wheelbarrow Equiped","ja":"Wheelbarrow Equiped"}}}]},"AppliesTo":[{"key":"TravelAction","type":"ActionTag","name":{"zh":"\u65C5\u884C\u52A8\u4F5C","en":"TravelAction","ja":"TravelAction"}}],"ExploreDirectionFilter":[0],"ActionAddedSuffix":{"zh":"\u5DF2\u4FEE\u8DEF","en":"Path","ja":"\u5C0F\u9053"},"DurationModifier":-1,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":9.0,"y":9.0}}],"IgnoreStatConditions":[{"key":"Light","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":100.0,"name":{"zh":"\u5149\u4EAE","en":"Light","ja":"\u5149"}}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"Road Traveling Aid North Wheelbarrow","en":"Road Traveling Aid North Wheelbarrow","ja":"Road Traveling Aid North Wheelbarrow"},"Icon":{"FileName":"9873a3645dbafc99"},"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnActions":[{"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"WheelbarrowEquiped","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":1.0,"name":{"zh":"\u88C5\u5907\u72EC\u8F6E\u8F66","en":"Wheelbarrow Equiped","ja":"Wheelbarrow Equiped"}},"TriggerRange":{"x":1.0,"y":1.0}}]},"AppliesTo":[{"key":"TravelAction","type":"ActionTag","name":{"zh":"\u65C5\u884C\u52A8\u4F5C","en":"TravelAction","ja":"TravelAction"}}],"ExploreDirectionFilter":[0],"ActionAddedSuffix":{"zh":"\u5DF2\u4FEE\u8DEF","en":"Path","ja":"\u5C0F\u9053"},"DurationModifier":-2,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":9.0,"y":9.0}}],"IgnoreStatConditions":[{"key":"Light","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":100.0,"name":{"zh":"\u5149\u4EAE","en":"Light","ja":"\u5149"}}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"63ad3072dc5472bb"},"StepValue":50.0},"type":"GameStat","key":"RoadTravelingAidNorth","icon":"63ad3072dc5472bb","name":{"zh":"\u5317\u65B9\u9053\u8DEF\u8F85\u52A9","en":"Road Traveling Aid North","ja":"Road Traveling Aid North"},"min":0.0,"max":1.0,"_modifierValues":[{"source":{"key":"Imp_PathNorth","type":"CardData","CardType":10,"icon":"ac70412e939d72a9","name":{"zh":"\u5317\u65B9\u9053\u8DEF","en":"Path North","ja":"\u5317\u3078\u306E\u9053"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u9053\u8DEF\u901A\u884C\u8F85\u52A9\uFF08\u5317\uFF09","en":"Passive Effect: Road Traveling Aid North","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ARoad Traveling Aid North"},"value":{"x":1.0,"y":1.0}}],"_uuid":"d19c727aa6820234a8cffcb2f8bac569"}
+
+{
+  "GameName" : {
+    "zh" : "\u5317\u65B9\u9053\u8DEF\u8F85\u52A9",
+    "en" : "Road Traveling Aid North",
+    "ja" : "Road Traveling Aid North"
+  },
+  "IsRuntimeOnly" : true,
+  "BaseValue"     : 0.0,
+  "MinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "VisibleValueRange" : {
+    "x" : 0.0,
+    "y" : 96.0
+  },
+  "BarColor"          : {
+    "r" : 0.4528,
+    "g" : 0.4528,
+    "b" : 0.4528,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "GameStat__AmbushAid__DefaultStatusIcon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "Road Traveling Aid North No Wheelbarrow",
+        "en" : "Road Traveling Aid North No Wheelbarrow",
+        "ja" : "Road Traveling Aid North No Wheelbarrow"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__RoadTravelingAidEast__Statuses-0-Icon"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnActions" : [
+        {
+          "Conditions" : {
+            "PlayerUsesCard" : 0,
+            "RequiredStatValues" : [
+              {
+                "Stat" : {
+                  "key" : "WheelbarrowEquiped",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 1.0,
+                  "name" : {
+                    "zh" : "\u88C5\u5907\u72EC\u8F6E\u8F66",
+                    "en" : "Wheelbarrow Equiped",
+                    "ja" : "Wheelbarrow Equiped"
+                  }
+                }
+              }
+            ]
+          },
+          "AppliesTo"  : [
+            {
+              "key" : "TravelAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u65C5\u884C\u52A8\u4F5C",
+                "en" : "TravelAction",
+                "ja" : "TravelAction"
+              }
+            }
+          ],
+          "ExploreDirectionFilter" : [
+            0
+          ],
+          "ActionAddedSuffix"      : {
+            "zh" : "\u5DF2\u4FEE\u8DEF",
+            "en" : "Path",
+            "ja" : "\u5C0F\u9053"
+          },
+          "DurationModifier"       : -1,
+          "AddedStatModifiers"     : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 9.0,
+                "y" : 9.0
+              }
+            }
+          ],
+          "IgnoreStatConditions"   : [
+            {
+              "key" : "Light",
+              "type" : "GameStat",
+              "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 100.0,
+              "name" : {
+                "zh" : "\u5149\u4EAE",
+                "en" : "Light",
+                "ja" : "\u5149"
+              }
+            }
+          ],
+          "FadeToBlack"            : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Road Traveling Aid North Wheelbarrow",
+        "en" : "Road Traveling Aid North Wheelbarrow",
+        "ja" : "Road Traveling Aid North Wheelbarrow"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__RoadTravelingAidEast__Statuses-0-Icon"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnActions" : [
+        {
+          "Conditions" : {
+            "PlayerUsesCard" : 0,
+            "RequiredStatValues" : [
+              {
+                "Stat" : {
+                  "key" : "WheelbarrowEquiped",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 1.0,
+                  "name" : {
+                    "zh" : "\u88C5\u5907\u72EC\u8F6E\u8F66",
+                    "en" : "Wheelbarrow Equiped",
+                    "ja" : "Wheelbarrow Equiped"
+                  }
+                },
+                "TriggerRange" : {
+                  "x" : 1.0,
+                  "y" : 1.0
+                }
+              }
+            ]
+          },
+          "AppliesTo"  : [
+            {
+              "key" : "TravelAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u65C5\u884C\u52A8\u4F5C",
+                "en" : "TravelAction",
+                "ja" : "TravelAction"
+              }
+            }
+          ],
+          "ExploreDirectionFilter" : [
+            0
+          ],
+          "ActionAddedSuffix"      : {
+            "zh" : "\u5DF2\u4FEE\u8DEF",
+            "en" : "Path",
+            "ja" : "\u5C0F\u9053"
+          },
+          "DurationModifier"       : -2,
+          "AddedStatModifiers"     : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 9.0,
+                "y" : 9.0
+              }
+            }
+          ],
+          "IgnoreStatConditions"   : [
+            {
+              "key" : "Light",
+              "type" : "GameStat",
+              "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 100.0,
+              "name" : {
+                "zh" : "\u5149\u4EAE",
+                "en" : "Light",
+                "ja" : "\u5149"
+              }
+            }
+          ],
+          "FadeToBlack"            : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "GameStat__AmbushAid__DefaultStatusIcon"
+    },
+    "StepValue" : 50.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "RoadTravelingAidNorth",
+  "icon"                    : "GameStat__AmbushAid__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u5317\u65B9\u9053\u8DEF\u8F85\u52A9",
+    "en" : "Road Traveling Aid North",
+    "ja" : "Road Traveling Aid North"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Imp_PathNorth",
+        "type" : "CardData",
+        "CardType" : 10,
+        "icon"     : "CardData__Imp_HuntingFencesEast__CardImage",
+        "name"     : {
+          "zh" : "\u5317\u65B9\u9053\u8DEF",
+          "en" : "Path North",
+          "ja" : "\u5317\u3078\u306E\u9053"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u9053\u8DEF\u901A\u884C\u8F85\u52A9\uFF08\u5317\uFF09",
+        "en" : "Passive Effect: Road Traveling Aid North",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ARoad Traveling Aid North"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_uuid"                   : "d19c727aa6820234a8cffcb2f8bac569"
+}

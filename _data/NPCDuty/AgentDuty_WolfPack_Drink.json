@@ -1,1 +1,80 @@
-{"DutyName":{"zh":"\u996E\u6C34","en":"Wolf Pack Drink","ja":"Wolf Pack Drink"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_WolfDrinkingArea","type":"CardTag","count":19,"name":{"zh":"\u72FC\u7FA4\u996E\u6C34\u533A","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentHydration","type":"NPCStat","name":{"zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"}},"ConditionRange":{"x":0.0,"y":75.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfPackDrink","type":"ChangeNPCStatDutyAction","name":{"zh":"WolfPackDrink","en":"WolfPackDrink","ja":"WolfPackDrink"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_WolfPack_Drink","name":{"zh":"\u996E\u6C34","en":"Wolf Pack Drink","ja":"Wolf Pack Drink"},"_uuid":"698007d4f10628f43994791611885845"}
+
+{
+  "DutyName" : {
+    "zh" : "\u996E\u6C34",
+    "en" : "Wolf Pack Drink",
+    "ja" : "Wolf Pack Drink"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_WolfDrinkingArea",
+        "type" : "CardTag",
+        "count" : 19,
+        "name"  : {
+          "zh" : "\u72FC\u7FA4\u996E\u6C34\u533A",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentHydration",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u996E\u6C34",
+            "en" : "AgentHydration",
+            "ja" : "AgentHydration"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 75.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "WolfPackDrink",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WolfPackDrink",
+        "en" : "WolfPackDrink",
+        "ja" : "WolfPackDrink"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_WolfPack_Drink",
+  "name"                 : {
+    "zh" : "\u996E\u6C34",
+    "en" : "Wolf Pack Drink",
+    "ja" : "Wolf Pack Drink"
+  },
+  "_uuid"                : "698007d4f10628f43994791611885845"
+}

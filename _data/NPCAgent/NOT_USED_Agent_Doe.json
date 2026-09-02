@@ -1,1 +1,2407 @@
-{"AgentName":{"zh":"Doe","en":"Doe","ja":"Doe"},"AgentImage":{"FileName":"9dcc5383b66aa4b8"},"WeightCategory":{"key":"Heavy","type":"AgentWeightCategory","name":{"zh":"\u6C89\u7684","en":"Heavy","ja":"\u91CD\u3044"}},"AmbientSoundRealRange":0.0,"AmbientSoundNodesRange":0,"AgentStats":[{"ModelStat":{"GameName":{"zh":"\u8BA1\u6B65\u5668","en":"Agent Counter","ja":"Agent Counter"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":1.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentCounter","zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":-3520.0},"OverrideRate":{"FloatValue":1.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. ","ja":"Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":2880.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRespawnCounter","zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"},"OverrideStartingValue":{"FloatValue":2880.0},"OverrideMinMaxValue":{"MaxValue":2880.0,"FloatValue":0.0},"OverrideMinMaxRate":{"MaxValue":0.0,"FloatValue":-10.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u5B58\u5728","en":"1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. ","ja":"1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentExists","zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":-3520.0},"OverrideRate":{"FloatValue":1.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8010\u529B","en":"Agent Stamina","ja":"Agent Stamina"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentStamina","zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":10.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8840\u91CF","en":"Agent Stamina","ja":"Agent Stamina"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentBlood","zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.17,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0}],"AgentActions":[{"ActionID":"Agent Trapped or Killed","ActionLocalizedName":{"zh":"Agent Trapped or Killed","en":"Agent Trapped or Killed","ja":"Agent Trapped or Killed"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Agent_DoeExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6BCD\u9E7F\u5B58\u5728","en":"Doe Exists","ja":"\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"}}}],"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-10000.0,"y":-10000.0}},{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"Prevent Move Actions_1","ActionLocalizedName":{"zh":"Prevent Move Actions","en":"Prevent Move Actions","ja":"Prevent Move Actions"},"ActionPopupText":{"zh":"Used to keep the AgentCounter at 0 while Agent does not exist until a way to change the rate is introduced. ","en":"Used to keep the AgentCounter at 0 while Agent does not exist until a way to change the rate is introduced. ","ja":"Used to keep the AgentCounter at 0 while Agent does not exist until a way to change the rate is introduced. "},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-10000.0,"y":-10000.0}}],"MoveTiming":0},{"ActionID":"Very large Population_1","ActionLocalizedName":{"zh":"Very large Population","en":"Very large Population","ja":"Very large Population"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":10001.0,"y":100000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-4.3,"y":-4.3}}],"MoveTiming":0},{"ActionID":"Large Population_1","ActionLocalizedName":{"zh":"Large Population","en":"Large Population","ja":"Large Population"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":6001.0,"y":10000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-3.2,"y":-3.2}}],"MoveTiming":0},{"ActionID":"Medium Population_1","ActionLocalizedName":{"zh":"Medium Population","en":"Medium Population","ja":"Medium Population"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":3001.0,"y":6000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-2.1,"y":-2.1}}],"MoveTiming":0},{"ActionID":"Small Population_1","ActionLocalizedName":{"zh":"Small Population","en":"Small Population","ja":"Small Population"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Doe","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF","en":"Population Doe","ja":"\u96CC\u9E7F\u306E\u6570"}},"TriggerRange":{"x":2000.0,"y":3000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"MoveTiming":0},{"ActionID":"Spawn into Spirit World_1","ActionLocalizedName":{"zh":"Spawn into Spirit World","en":"Spawn into Spirit World","ja":"Spawn into Spirit World"},"ActionPopupText":{"zh":"Bandaid solution because the Encounter does not do it properly and right away","en":"Bandaid solution because the Encounter does not do it properly and right away","ja":"Bandaid solution because the Encounter does not do it properly and right away"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}}}]},"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"Spawn into the World_1","ActionLocalizedName":{"zh":"Spawn into the World","en":"Spawn into the World","ja":"Spawn into the World"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}}},{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}}}],"RequiredInGameTimes":[{"TimeType":0,"CompareType":0,"StartValue":0,"EndValue":1}]},"StatModifications":[{"Stat":{"key":"Agent_DoeExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6BCD\u9E7F\u5B58\u5728","en":"Doe Exists","ja":"\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"}},"ValueModifier":{"x":1.0,"y":1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":1.0,"y":1.0}},{"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":5.0,"y":5.0}}],"MoveToEnvironment":{"key":"Env_GroveOak_SecretGrove","type":"CardData","CardType":4,"name":{"zh":"\u9690\u79D8\u6797\u5730","en":"Secret Grove","ja":"\u79D8\u5BC6\u306E\u6797"}},"MoveTiming":0},{"ActionID":"Move into Greenfals_1","ActionLocalizedName":{"zh":"Move into Greenfals","en":"Move into Greenfals","ja":"Move into Greenfals"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":26.0,"y":26.0}}]},"MoveToEnvironment":{"key":"Env_River_GroveOak_GreenFalls","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u8272\u7011\u5E03","en":"Greenfalls","ja":"\u30B0\u30EA\u30FC\u30F3\u30D5\u30A9\u30FC\u30EB\u30BA"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":20,"m_Y":20},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":2,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Shady Bank_1","ActionLocalizedName":{"zh":"Move into Shady Bank","en":"Move into Shady Bank","ja":"Move into Shady Bank"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":31.0,"y":31.0}}]},"MoveToEnvironment":{"key":"Env_River_ThicketOak_ShadyBank","type":"CardData","CardType":4,"name":{"zh":"\u5E7D\u836B\u6CB3\u7554","en":"Shady Bank","ja":"\u8584\u6697\u3044\u5DDD\u5CB8"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":1,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Shady Grove_1","ActionLocalizedName":{"zh":"Move into Shady Grove","en":"Move into Shady Grove","ja":"Move into Shady Grove"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":36.0,"y":36.0}}]},"MoveToEnvironment":{"key":"Env_GroveOak_ShadyGrove","type":"CardData","CardType":4,"name":{"zh":"\u5E7D\u836B\u6797\u5730","en":"Shady Grove","ja":"\u8584\u6697\u3044\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":3,"OverrideTrackDurabilities":0}},{"ActionID":"Move into High Grove_1","ActionLocalizedName":{"zh":"Move into High  Grove","en":"Move into High  Grove","ja":"Move into High  Grove"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":41.0,"y":41.0}}]},"MoveToEnvironment":{"key":"Env_GrovePine_HighGrove","type":"CardData","CardType":4,"name":{"zh":"\u9AD8\u5730\u6797\u5730","en":"High Grove","ja":"\u9AD8\u3044\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":3,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Deer Grove_1","ActionLocalizedName":{"zh":"Move into Deer Grove","en":"Move into Deer Grove","ja":"Move into Deer Grove"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":46.0,"y":46.0}}]},"MoveToEnvironment":{"key":"Env_GrovePine_DeerGrove","type":"CardData","CardType":4,"name":{"zh":"\u9E7F\u9E23\u677E\u6797","en":"Deer Grove","ja":"\u9E7F\u306E\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":3,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Flower Glade_1","ActionLocalizedName":{"zh":"Move into Flower Glade","en":"Move into Flower Glade","ja":"Move into Flower Glade"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":51.0,"y":51.0}}]},"MoveToEnvironment":{"key":"Env_ClearingPine_FlowerGlade","type":"CardData","CardType":4,"name":{"zh":"\u82B1\u95F4\u7A7A\u5730","en":"Flower Glade","ja":"\u82B1\u306E\u5E83\u5834"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":3,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Whispering Thicket_1","ActionLocalizedName":{"zh":"Move into Whispering Thicket","en":"Move into Whispering Thicket","ja":"Move into Whispering Thicket"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":56.0,"y":56.0}}]},"MoveToEnvironment":{"key":"Env_ThicketOak_WhisperingThicket","type":"CardData","CardType":4,"name":{"zh":"\u7D6E\u8BED\u98CE\u6797","en":"Whispering Thicket","ja":"\u56C1\u304D\u306E\u5BC6\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":1,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Oaken Grove_1","ActionLocalizedName":{"zh":"Move into Oaken Grove","en":"Move into Oaken Grove","ja":"Move into Oaken Grove"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":60.0,"y":60.0}}]},"MoveToEnvironment":{"key":"Env_GroveOak_OakenGrove","type":"CardData","CardType":4,"name":{"zh":"\u6A61\u6728\u6797","en":"Oaken Grove","ja":"\u30AA\u30FC\u30AF\u306E\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":1,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Greenglade_1","ActionLocalizedName":{"zh":"Move into Greenglade","en":"Move into Greenglade","ja":"Move into Greenglade"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":64.0,"y":64.0}}]},"MoveToEnvironment":{"key":"Env_ClearingOak_GreenGlade","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u91CE\u7A7A\u5730","en":"Green Glade","ja":"\u7DD1\u306E\u5E83\u5834"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":2,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Oaken Grove_2","ActionLocalizedName":{"zh":"Move into Oaken Grove","en":"Move into Oaken Grove","ja":"Move into Oaken Grove"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":68.0,"y":68.0}}]},"MoveToEnvironment":{"key":"Env_GroveOak_OakenGrove","type":"CardData","CardType":4,"name":{"zh":"\u6A61\u6728\u6797","en":"Oaken Grove","ja":"\u30AA\u30FC\u30AF\u306E\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":3,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Whispering Thicket_2","ActionLocalizedName":{"zh":"Move into Whispering Thicket","en":"Move into Whispering Thicket","ja":"Move into Whispering Thicket"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":72.0,"y":72.0}}]},"MoveToEnvironment":{"key":"Env_ThicketOak_WhisperingThicket","type":"CardData","CardType":4,"name":{"zh":"\u7D6E\u8BED\u98CE\u6797","en":"Whispering Thicket","ja":"\u56C1\u304D\u306E\u5BC6\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":0,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Flower Glade_2","ActionLocalizedName":{"zh":"Move into Flower Glade","en":"Move into Flower Glade","ja":"Move into Flower Glade"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":76.0,"y":76.0}}]},"MoveToEnvironment":{"key":"Env_ClearingPine_FlowerGlade","type":"CardData","CardType":4,"name":{"zh":"\u82B1\u95F4\u7A7A\u5730","en":"Flower Glade","ja":"\u82B1\u306E\u5E83\u5834"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":0,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Deer Grove_2","ActionLocalizedName":{"zh":"Move into Deer Grove","en":"Move into Deer Grove","ja":"Move into Deer Grove"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":80.0,"y":80.0}}]},"MoveToEnvironment":{"key":"Env_GrovePine_DeerGrove","type":"CardData","CardType":4,"name":{"zh":"\u9E7F\u9E23\u677E\u6797","en":"Deer Grove","ja":"\u9E7F\u306E\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":2,"OverrideTrackDurabilities":0}},{"ActionID":"Move into HIgh Grove_2","ActionLocalizedName":{"zh":"Move into High Grove","en":"Move into High Grove","ja":"Move into High Grove"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":84.0,"y":84.0}}]},"MoveToEnvironment":{"key":"Env_GrovePine_HighGrove","type":"CardData","CardType":4,"name":{"zh":"\u9AD8\u5730\u6797\u5730","en":"High Grove","ja":"\u9AD8\u3044\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":2,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Shady Grove_2","ActionLocalizedName":{"zh":"Move into Shady Grove","en":"Move into Shady Grove","ja":"Move into Shady Grove"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":88.0,"y":88.0}}]},"MoveToEnvironment":{"key":"Env_GroveOak_ShadyGrove","type":"CardData","CardType":4,"name":{"zh":"\u5E7D\u836B\u6797\u5730","en":"Shady Grove","ja":"\u8584\u6697\u3044\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":2,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Shady Bank_2","ActionLocalizedName":{"zh":"Move into Shady Bank","en":"Move into Shady Bank","ja":"Move into Shady Bank"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":92.0,"y":92.0}}]},"MoveToEnvironment":{"key":"Env_River_ThicketOak_ShadyBank","type":"CardData","CardType":4,"name":{"zh":"\u5E7D\u836B\u6CB3\u7554","en":"Shady Bank","ja":"\u8584\u6697\u3044\u5DDD\u5CB8"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":2,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Greenfals_2","ActionLocalizedName":{"zh":"Move into Greenfals","en":"Move into Greenfals","ja":"Move into Greenfals"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":96.0,"y":96.0}}]},"MoveToEnvironment":{"key":"Env_River_GroveOak_GreenFalls","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u8272\u7011\u5E03","en":"Greenfalls","ja":"\u30B0\u30EA\u30FC\u30F3\u30D5\u30A9\u30FC\u30EB\u30BA"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":0,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Spirit World to Heal","ActionLocalizedName":{"zh":"Move into Spirit World to Heal","en":"Move into Spirit World to Heal","ja":"Move into Spirit World to Heal"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":100.0,"y":100.0}},{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"ConditionRange":{"x":0.0,"y":99.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0,"Tracks":{"TrackLifetime":{"m_X":96,"m_Y":96},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":3,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Secret Grove - Not Winter - Skip Otherwise","ActionLocalizedName":{"zh":"Move into Secret Grove - Not Winter - Skip Otherwise","en":"Move into Secret Grove - Not Winter - Skip Otherwise","ja":"Move into Secret Grove - Not Winter - Skip Otherwise"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Winter","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u51AC\u5B63","en":"Winter Counter","ja":"Winter Counter"}}}],"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":101.0,"y":101.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-96.0,"y":-96.0}}],"MoveToEnvironment":{"key":"Env_GroveOak_SecretGrove","type":"CardData","CardType":4,"name":{"zh":"\u9690\u79D8\u6797\u5730","en":"Secret Grove","ja":"\u79D8\u5BC6\u306E\u6797"}},"MoveTiming":0,"Tracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":3,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Spirit World for 1 day - Winter","ActionLocalizedName":{"zh":"Move into Spirit World for 1 day","en":"Move into Spirit World for 1 day","ja":"Move into Spirit World for 1 day"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Winter","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u51AC\u5B63","en":"Winter Counter","ja":"Winter Counter"}},"TriggerRange":{"x":1.0,"y":2880.0}}],"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":101.0,"y":101.0}}]},"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0,"Tracks":{"TrackLifetime":{"m_X":96,"m_Y":96},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":3,"OverrideTrackDurabilities":0}},{"ActionID":"Move into Secret Grove - for Winter but can trigger outside Winter as well","ActionLocalizedName":{"zh":"Move into Secret Grove - Winter, but Can Trigger Outside Winter","en":"Move into Secret Grove - Winter, but Can Trigger Outside Winter","ja":"Move into Secret Grove - Winter, but Can Trigger Outside Winter"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":197.0,"y":197.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-192.0,"y":-192.0}}],"MoveToEnvironment":{"key":"Env_GroveOak_SecretGrove","type":"CardData","CardType":4,"name":{"zh":"\u9690\u79D8\u6797\u5730","en":"Secret Grove","ja":"\u79D8\u5BC6\u306E\u6797"}},"MoveTiming":0,"Tracks":{"TrackLifetime":{"m_X":96,"m_Y":96},"AddedChanceToDiscoverTracks":{"x":20.0,"y":20.0},"TracksDirection":3,"OverrideTrackDurabilities":0}},{"ActionID":"Player Encounter - Stealth Malus - Move to Spirit World_1","ActionLocalizedName":{"zh":"Player Encounter - Stealth Malus - Move to Spirit World","en":"Player Encounter - Stealth Malus - Move to Spirit World","ja":"Player Encounter - Stealth Malus - Move to Spirit World"},"RepeatOptions":2,"Conditions":{"NotInBackground":true,"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Stat_StealthMalus","type":"GameStat","icon":"98391543f4e4d8fd","min":0.0,"max":12.0,"name":{"zh":"\u6F5C\u884C\u51CF\u76CA","en":"Stealth Malus","ja":"Stealth Malus"}},"TriggerRange":{"x":1.0,"y":10000.0}}],"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":0.0,"y":10000.0}}]},"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"Player Encounter - No Stealth Malus - Interact with the Player_1","ActionLocalizedName":{"zh":"Player Encounter - No Stealth Malus - Interact with the Player","en":"Player Encounter - No Stealth Malus - Interact with the Player","ja":"Player Encounter - No Stealth Malus - Interact with the Player"},"RepeatOptions":2,"Conditions":{"NotInBackground":true,"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Stat_StealthMalus","type":"GameStat","icon":"98391543f4e4d8fd","min":0.0,"max":12.0,"name":{"zh":"\u6F5C\u884C\u51CF\u76CA","en":"Stealth Malus","ja":"Stealth Malus"}}}],"RequiredNPCStatValues":[{"TargetAgent":{"key":"NOT_USED_Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"}},"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"ConditionRange":{"x":0.0,"y":10000.0}}]},"DroppedCards":[{"CollectionName":"Combat_EventDoe","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Combat_EventDoe_1_Explore_F","type":"CardData","CardType":3,"icon":"9dcc5383b66aa4b8","name":{"zh":"\u4F60\u770B\u5230\u4E86\u4E00\u53EA\u6BCD\u9E7F\uFF01","en":"You see a Doe!","ja":"\u96CC\u9E7F\u304C\u3044\u305F\uFF01"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"MoveTiming":0,"TriggerHidingGroups":[{"key":"Hunting","type":"NPCHidingGroup","name":{"zh":"Hunting","en":"Hunting","ja":"Hunting"}}]}],"MaxCarryWeight":1.0,"CannotTrade":true,"DebugColor":{"r":1.0,"g":0.0,"b":0.0,"a":1.0},"type":"NPCAgent","key":"NOT_USED_Agent_Doe","icon":"9dcc5383b66aa4b8","name":{"zh":"Doe","en":"Doe","ja":"Doe"},"_uuid":"380d5807aff7cd149b16aef169cfe52a"}
+
+{
+  "AgentName" : {
+    "zh" : "Doe",
+    "en" : "Doe",
+    "ja" : "Doe"
+  },
+  "AgentImage" : {
+    "FileName" : "NPCAgent__Agent_Doe__AgentImage"
+  },
+  "WeightCategory" : {
+    "key" : "Heavy",
+    "type" : "AgentWeightCategory",
+    "name" : {
+      "zh" : "\u6C89\u7684",
+      "en" : "Heavy",
+      "ja" : "\u91CD\u3044"
+    }
+  },
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 0,
+  "AgentStats"             : [
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BA1\u6B65\u5668",
+          "en" : "Agent Counter",
+          "ja" : "Agent Counter"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCounter",
+        "zh"                      : "\u8BA1\u6B65\u5668",
+        "en"                      : "AgentCounter",
+        "ja"                      : "AgentCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : -3520.0
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+          "en" : "Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. ",
+          "ja" : "Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 2880.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRespawnCounter",
+        "zh"                      : "\u5237\u65B0\u5012\u8BA1\u65F6",
+        "en"                      : "AgentRespawnCounter",
+        "ja"                      : "AgentRespawnCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 2880.0
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 2880.0,
+        "FloatValue" : 0.0
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -10.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5B58\u5728",
+          "en" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. ",
+          "ja" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentExists",
+        "zh"                      : "\u5B58\u5728",
+        "en"                      : "AgentExists",
+        "ja"                      : "AgentExists"
+      },
+      "OverrideMinMaxValue" : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : -3520.0
+      },
+      "OverrideRate"        : {
+        "FloatValue" : 1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8010\u529B",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentStamina",
+        "zh"                      : "\u8010\u529B",
+        "en"                      : "AgentStamina",
+        "ja"                      : "AgentStamina"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 10.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8840\u91CF",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentBlood",
+        "zh"                      : "\u8840\u91CF",
+        "en"                      : "AgentBlood",
+        "ja"                      : "AgentBlood"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.17,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    }
+  ],
+  "AgentActions"           : [
+    {
+      "ActionID" : "Agent Trapped or Killed",
+      "ActionLocalizedName" : {
+        "zh" : "Agent Trapped or Killed",
+        "en" : "Agent Trapped or Killed",
+        "ja" : "Agent Trapped or Killed"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Agent_DoeExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u5B58\u5728",
+                "en" : "Doe Exists",
+                "ja" : "\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"
+              }
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -10000.0,
+            "y" : -10000.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Prevent Move Actions_1",
+      "ActionLocalizedName" : {
+        "zh" : "Prevent Move Actions",
+        "en" : "Prevent Move Actions",
+        "ja" : "Prevent Move Actions"
+      },
+      "ActionPopupText"     : {
+        "zh" : "Used to keep the AgentCounter at 0 while Agent does not exist until a way to change the rate is introduced. ",
+        "en" : "Used to keep the AgentCounter at 0 while Agent does not exist until a way to change the rate is introduced. ",
+        "ja" : "Used to keep the AgentCounter at 0 while Agent does not exist until a way to change the rate is introduced. "
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -10000.0,
+            "y" : -10000.0
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Very large Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Very large Population",
+        "en" : "Very large Population",
+        "ja" : "Very large Population"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 10001.0,
+              "y" : 100000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -4.3,
+            "y" : -4.3
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Large Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Large Population",
+        "en" : "Large Population",
+        "ja" : "Large Population"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 6001.0,
+              "y" : 10000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -3.2,
+            "y" : -3.2
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Medium Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Medium Population",
+        "en" : "Medium Population",
+        "ja" : "Medium Population"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3001.0,
+              "y" : 6000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -2.1,
+            "y" : -2.1
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Small Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Small Population",
+        "en" : "Small Population",
+        "ja" : "Small Population"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Doe",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u6BCD\u9E7F\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Doe",
+                "ja" : "\u96CC\u9E7F\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2000.0,
+              "y" : 3000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Spawn into Spirit World_1",
+      "ActionLocalizedName" : {
+        "zh" : "Spawn into Spirit World",
+        "en" : "Spawn into Spirit World",
+        "ja" : "Spawn into Spirit World"
+      },
+      "ActionPopupText"     : {
+        "zh" : "Bandaid solution because the Encounter does not do it properly and right away",
+        "en" : "Bandaid solution because the Encounter does not do it properly and right away",
+        "ja" : "Bandaid solution because the Encounter does not do it properly and right away"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Spawn into the World_1",
+      "ActionLocalizedName" : {
+        "zh" : "Spawn into the World",
+        "en" : "Spawn into the World",
+        "ja" : "Spawn into the World"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentRespawnCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+                "en" : "AgentRespawnCounter",
+                "ja" : "AgentRespawnCounter"
+              }
+            }
+          },
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            }
+          }
+        ],
+        "RequiredInGameTimes"   : [
+          {
+            "TimeType" : 0,
+            "CompareType" : 0,
+            "StartValue"  : 0,
+            "EndValue"    : 1
+          }
+        ]
+      },
+      "StatModifications"   : [
+        {
+          "Stat" : {
+            "key" : "Agent_DoeExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6BCD\u9E7F\u5B58\u5728",
+              "en" : "Doe Exists",
+              "ja" : "\u96CC\u9E7F\u304C\u5B58\u5728\u3059\u308B"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 5.0,
+            "y" : 5.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_GroveOak_SecretGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u9690\u79D8\u6797\u5730",
+          "en" : "Secret Grove",
+          "ja" : "\u79D8\u5BC6\u306E\u6797"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Move into Greenfals_1",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Greenfals",
+        "en" : "Move into Greenfals",
+        "ja" : "Move into Greenfals"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 26.0,
+              "y" : 26.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_River_GroveOak_GreenFalls",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u8272\u7011\u5E03",
+          "en" : "Greenfalls",
+          "ja" : "\u30B0\u30EA\u30FC\u30F3\u30D5\u30A9\u30FC\u30EB\u30BA"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 20,
+          "m_Y" : 20
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 2,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Shady Bank_1",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Shady Bank",
+        "en" : "Move into Shady Bank",
+        "ja" : "Move into Shady Bank"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 31.0,
+              "y" : 31.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_River_ThicketOak_ShadyBank",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u5E7D\u836B\u6CB3\u7554",
+          "en" : "Shady Bank",
+          "ja" : "\u8584\u6697\u3044\u5DDD\u5CB8"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 1,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Shady Grove_1",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Shady Grove",
+        "en" : "Move into Shady Grove",
+        "ja" : "Move into Shady Grove"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 36.0,
+              "y" : 36.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_GroveOak_ShadyGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u5E7D\u836B\u6797\u5730",
+          "en" : "Shady Grove",
+          "ja" : "\u8584\u6697\u3044\u6797"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 3,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into High Grove_1",
+      "ActionLocalizedName" : {
+        "zh" : "Move into High  Grove",
+        "en" : "Move into High  Grove",
+        "ja" : "Move into High  Grove"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 41.0,
+              "y" : 41.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_GrovePine_HighGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u9AD8\u5730\u6797\u5730",
+          "en" : "High Grove",
+          "ja" : "\u9AD8\u3044\u6797"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 3,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Deer Grove_1",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Deer Grove",
+        "en" : "Move into Deer Grove",
+        "ja" : "Move into Deer Grove"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 46.0,
+              "y" : 46.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_GrovePine_DeerGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u9E7F\u9E23\u677E\u6797",
+          "en" : "Deer Grove",
+          "ja" : "\u9E7F\u306E\u6797"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 3,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Flower Glade_1",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Flower Glade",
+        "en" : "Move into Flower Glade",
+        "ja" : "Move into Flower Glade"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 51.0,
+              "y" : 51.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ClearingPine_FlowerGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u82B1\u95F4\u7A7A\u5730",
+          "en" : "Flower Glade",
+          "ja" : "\u82B1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 3,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Whispering Thicket_1",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Whispering Thicket",
+        "en" : "Move into Whispering Thicket",
+        "ja" : "Move into Whispering Thicket"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 56.0,
+              "y" : 56.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ThicketOak_WhisperingThicket",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7D6E\u8BED\u98CE\u6797",
+          "en" : "Whispering Thicket",
+          "ja" : "\u56C1\u304D\u306E\u5BC6\u6797"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 1,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Oaken Grove_1",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Oaken Grove",
+        "en" : "Move into Oaken Grove",
+        "ja" : "Move into Oaken Grove"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 60.0,
+              "y" : 60.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_GroveOak_OakenGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u6A61\u6728\u6797",
+          "en" : "Oaken Grove",
+          "ja" : "\u30AA\u30FC\u30AF\u306E\u6797"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 1,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Greenglade_1",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Greenglade",
+        "en" : "Move into Greenglade",
+        "ja" : "Move into Greenglade"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 64.0,
+              "y" : 64.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ClearingOak_GreenGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+          "en" : "Green Glade",
+          "ja" : "\u7DD1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 2,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Oaken Grove_2",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Oaken Grove",
+        "en" : "Move into Oaken Grove",
+        "ja" : "Move into Oaken Grove"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 68.0,
+              "y" : 68.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_GroveOak_OakenGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u6A61\u6728\u6797",
+          "en" : "Oaken Grove",
+          "ja" : "\u30AA\u30FC\u30AF\u306E\u6797"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 3,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Whispering Thicket_2",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Whispering Thicket",
+        "en" : "Move into Whispering Thicket",
+        "ja" : "Move into Whispering Thicket"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 72.0,
+              "y" : 72.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ThicketOak_WhisperingThicket",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7D6E\u8BED\u98CE\u6797",
+          "en" : "Whispering Thicket",
+          "ja" : "\u56C1\u304D\u306E\u5BC6\u6797"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 0,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Flower Glade_2",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Flower Glade",
+        "en" : "Move into Flower Glade",
+        "ja" : "Move into Flower Glade"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 76.0,
+              "y" : 76.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ClearingPine_FlowerGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u82B1\u95F4\u7A7A\u5730",
+          "en" : "Flower Glade",
+          "ja" : "\u82B1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 0,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Deer Grove_2",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Deer Grove",
+        "en" : "Move into Deer Grove",
+        "ja" : "Move into Deer Grove"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 80.0,
+              "y" : 80.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_GrovePine_DeerGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u9E7F\u9E23\u677E\u6797",
+          "en" : "Deer Grove",
+          "ja" : "\u9E7F\u306E\u6797"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 2,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into HIgh Grove_2",
+      "ActionLocalizedName" : {
+        "zh" : "Move into High Grove",
+        "en" : "Move into High Grove",
+        "ja" : "Move into High Grove"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 84.0,
+              "y" : 84.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_GrovePine_HighGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u9AD8\u5730\u6797\u5730",
+          "en" : "High Grove",
+          "ja" : "\u9AD8\u3044\u6797"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 2,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Shady Grove_2",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Shady Grove",
+        "en" : "Move into Shady Grove",
+        "ja" : "Move into Shady Grove"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 88.0,
+              "y" : 88.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_GroveOak_ShadyGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u5E7D\u836B\u6797\u5730",
+          "en" : "Shady Grove",
+          "ja" : "\u8584\u6697\u3044\u6797"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 2,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Shady Bank_2",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Shady Bank",
+        "en" : "Move into Shady Bank",
+        "ja" : "Move into Shady Bank"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 92.0,
+              "y" : 92.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_River_ThicketOak_ShadyBank",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u5E7D\u836B\u6CB3\u7554",
+          "en" : "Shady Bank",
+          "ja" : "\u8584\u6697\u3044\u5DDD\u5CB8"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 2,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Greenfals_2",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Greenfals",
+        "en" : "Move into Greenfals",
+        "ja" : "Move into Greenfals"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 96.0,
+              "y" : 96.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_River_GroveOak_GreenFalls",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u8272\u7011\u5E03",
+          "en" : "Greenfalls",
+          "ja" : "\u30B0\u30EA\u30FC\u30F3\u30D5\u30A9\u30FC\u30EB\u30BA"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 0,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Spirit World to Heal",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Spirit World to Heal",
+        "en" : "Move into Spirit World to Heal",
+        "ja" : "Move into Spirit World to Heal"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 100.0,
+              "y" : 100.0
+            }
+          },
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentBlood",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8840\u91CF",
+                "en" : "AgentBlood",
+                "ja" : "AgentBlood"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 0.0,
+              "y" : 99.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"           : 0,
+      "Tracks"               : {
+        "TrackLifetime" : {
+          "m_X" : 96,
+          "m_Y" : 96
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 3,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Secret Grove - Not Winter - Skip Otherwise",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Secret Grove - Not Winter - Skip Otherwise",
+        "en" : "Move into Secret Grove - Not Winter - Skip Otherwise",
+        "ja" : "Move into Secret Grove - Not Winter - Skip Otherwise"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Winter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u51AC\u5B63",
+                "en" : "Winter Counter",
+                "ja" : "Winter Counter"
+              }
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 101.0,
+              "y" : 101.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -96.0,
+            "y" : -96.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_GroveOak_SecretGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u9690\u79D8\u6797\u5730",
+          "en" : "Secret Grove",
+          "ja" : "\u79D8\u5BC6\u306E\u6797"
+        }
+      },
+      "MoveTiming"           : 0,
+      "Tracks"               : {
+        "Active" : true,
+        "TrackLifetime" : {
+          "m_X" : 32,
+          "m_Y" : 32
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 3,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Spirit World for 1 day - Winter",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Spirit World for 1 day",
+        "en" : "Move into Spirit World for 1 day",
+        "ja" : "Move into Spirit World for 1 day"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Winter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u51AC\u5B63",
+                "en" : "Winter Counter",
+                "ja" : "Winter Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 2880.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 101.0,
+              "y" : 101.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0,
+      "Tracks"              : {
+        "TrackLifetime" : {
+          "m_X" : 96,
+          "m_Y" : 96
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 3,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Move into Secret Grove - for Winter but can trigger outside Winter as well",
+      "ActionLocalizedName" : {
+        "zh" : "Move into Secret Grove - Winter, but Can Trigger Outside Winter",
+        "en" : "Move into Secret Grove - Winter, but Can Trigger Outside Winter",
+        "ja" : "Move into Secret Grove - Winter, but Can Trigger Outside Winter"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 197.0,
+              "y" : 197.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -192.0,
+            "y" : -192.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_GroveOak_SecretGrove",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u9690\u79D8\u6797\u5730",
+          "en" : "Secret Grove",
+          "ja" : "\u79D8\u5BC6\u306E\u6797"
+        }
+      },
+      "MoveTiming"           : 0,
+      "Tracks"               : {
+        "TrackLifetime" : {
+          "m_X" : 96,
+          "m_Y" : 96
+        },
+        "AddedChanceToDiscoverTracks" : {
+          "x" : 20.0,
+          "y" : 20.0
+        },
+        "TracksDirection"             : 3,
+        "OverrideTrackDurabilities"   : 0
+      }
+    },
+    {
+      "ActionID" : "Player Encounter - Stealth Malus - Move to Spirit World_1",
+      "ActionLocalizedName" : {
+        "zh" : "Player Encounter - Stealth Malus - Move to Spirit World",
+        "en" : "Player Encounter - Stealth Malus - Move to Spirit World",
+        "ja" : "Player Encounter - Stealth Malus - Move to Spirit World"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Stat_StealthMalus",
+              "type" : "GameStat",
+              "icon" : "GameStat__Stat_StealthMalus__Statuses-0-Icon",
+              "min"  : 0.0,
+              "max"  : 12.0,
+              "name" : {
+                "zh" : "\u6F5C\u884C\u51CF\u76CA",
+                "en" : "Stealth Malus",
+                "ja" : "Stealth Malus"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 10000.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 0.0,
+              "y" : 10000.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Player Encounter - No Stealth Malus - Interact with the Player_1",
+      "ActionLocalizedName" : {
+        "zh" : "Player Encounter - No Stealth Malus - Interact with the Player",
+        "en" : "Player Encounter - No Stealth Malus - Interact with the Player",
+        "ja" : "Player Encounter - No Stealth Malus - Interact with the Player"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Stat_StealthMalus",
+              "type" : "GameStat",
+              "icon" : "GameStat__Stat_StealthMalus__Statuses-0-Icon",
+              "min"  : 0.0,
+              "max"  : 12.0,
+              "name" : {
+                "zh" : "\u6F5C\u884C\u51CF\u76CA",
+                "en" : "Stealth Malus",
+                "ja" : "Stealth Malus"
+              }
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "NOT_USED_Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "Doe",
+                "en" : "Doe",
+                "ja" : "Doe"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 0.0,
+              "y" : 10000.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Combat_EventDoe",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Combat_EventDoe_1_Explore_F",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "NPCAgent__Agent_Doe__AgentImage",
+                "name"     : {
+                  "zh" : "\u4F60\u770B\u5230\u4E86\u4E00\u53EA\u6BCD\u9E7F\uFF01",
+                  "en" : "You see a Doe!",
+                  "ja" : "\u96CC\u9E7F\u304C\u3044\u305F\uFF01"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "MoveTiming"          : 0,
+      "TriggerHidingGroups" : [
+        {
+          "key" : "Hunting",
+          "type" : "NPCHidingGroup",
+          "name" : {
+            "zh" : "Hunting",
+            "en" : "Hunting",
+            "ja" : "Hunting"
+          }
+        }
+      ]
+    }
+  ],
+  "MaxCarryWeight"         : 1.0,
+  "CannotTrade"            : true,
+  "DebugColor"             : {
+    "r" : 1.0,
+    "g" : 0.0,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "type"                   : "NPCAgent",
+  "key"                    : "NOT_USED_Agent_Doe",
+  "icon"                   : "NPCAgent__Agent_Doe__AgentImage",
+  "name"                   : {
+    "zh" : "Doe",
+    "en" : "Doe",
+    "ja" : "Doe"
+  },
+  "_uuid"                  : "380d5807aff7cd149b16aef169cfe52a"
+}

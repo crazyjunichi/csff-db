@@ -1,1 +1,90 @@
-{"DutyName":{"zh":"\u98DF\u7528\u5FAE\u5C0F\u5C38\u4F53","en":"Wolf Eat Carcass","ja":"Wolf Eat Carcass"},"MaxPerformPerDay":0,"DutyConditions":{"InBackground":true,"PlayerUsesCard":0,"RequiredTagsOnBoard":[{"key":"tag_CarcassTiny","type":"CardTag","count":5,"name":{"zh":"\u5FAE\u578B\u5C38\u4F53","en":"Tiny Carcass","ja":"Tiny Carcass"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":50.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfEatTinyCarcass","type":"AffectItemsDutyAction","name":{"zh":"WolfEatTinyCarcass","en":"WolfEatTinyCarcass","ja":"WolfEatTinyCarcass"}},{"key":"WolfEatTiny","type":"ChangeNPCStatDutyAction","name":{"zh":"WolfEatTiny","en":"WolfEatTiny","ja":"WolfEatTiny"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Wolf_EatTinyCarcass","name":{"zh":"\u98DF\u7528\u5FAE\u5C0F\u5C38\u4F53","en":"Wolf Eat Carcass","ja":"Wolf Eat Carcass"},"_uuid":"8dc01995a58151a49bf1077e2dac1fa0"}
+
+{
+  "DutyName" : {
+    "zh" : "\u98DF\u7528\u5FAE\u5C0F\u5C38\u4F53",
+    "en" : "Wolf Eat Carcass",
+    "ja" : "Wolf Eat Carcass"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "InBackground" : true,
+    "PlayerUsesCard" : 0,
+    "RequiredTagsOnBoard" : [
+      {
+        "key" : "tag_CarcassTiny",
+        "type" : "CardTag",
+        "count" : 5,
+        "name"  : {
+          "zh" : "\u5FAE\u578B\u5C38\u4F53",
+          "en" : "Tiny Carcass",
+          "ja" : "Tiny Carcass"
+        }
+      }
+    ],
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 50.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "WolfEatTinyCarcass",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "WolfEatTinyCarcass",
+        "en" : "WolfEatTinyCarcass",
+        "ja" : "WolfEatTinyCarcass"
+      }
+    },
+    {
+      "key" : "WolfEatTiny",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WolfEatTiny",
+        "en" : "WolfEatTiny",
+        "ja" : "WolfEatTiny"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Wolf_EatTinyCarcass",
+  "name"                 : {
+    "zh" : "\u98DF\u7528\u5FAE\u5C0F\u5C38\u4F53",
+    "en" : "Wolf Eat Carcass",
+    "ja" : "Wolf Eat Carcass"
+  },
+  "_uuid"                : "8dc01995a58151a49bf1077e2dac1fa0"
+}

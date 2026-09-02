@@ -1,1 +1,119 @@
-{"DutyName":{"zh":"\u6536\u83B7\u7FFB\u6839","en":"Harvest","ja":"Harvest"},"DutySummary":{"zh":"Harvesting turnroot.","en":"Harvesting turnroot.","ja":"Harvesting turnroot."},"DutyTags":[{"key":"DutyTag_Methodical","type":"NPCDutyTag","name":{"zh":"\u6709\u6761\u4E0D\u7D0A\u7684","en":"Methodical","ja":"Methodical"}},{"key":"DutyTag_Physical","type":"NPCDutyTag","name":{"zh":"\u4F53\u529B","en":"Physical","ja":"Physical"}}],"MaxPerformPerDay":0,"DutyExecutionOptions":0,"ActionSequence":[{"key":"Start Duty Harvest Turnroot","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Start Duty Harvest Turnroot","en":"Start Duty Harvest Turnroot","ja":"Start Duty Harvest Turnroot"}},{"key":"Reduce Favour","type":"ChangeNPCStatDutyAction","name":{"zh":"Reduce Favour","en":"Reduce Favour","ja":"Reduce Favour"}},{"key":"Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Complete","en":"Complete","ja":"Complete"}},{"key":"Sickle Available","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Sickle Available","en":"Sickle Available","ja":"Sickle Available"}},{"key":"Harvest Turnroot with Sickle","type":"AffectItemsDutyAction","name":{"zh":"Harvest Turnroot with Sickle","en":"Harvest Turnroot with Sickle","ja":"Harvest Turnroot with Sickle"}},{"key":"Reduce Favour and Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Reduce Favour and Complete","en":"Reduce Favour and Complete","ja":"Reduce Favour and Complete"}},{"key":"Harvest Turnroot by Hand","type":"AffectItemsDutyAction","name":{"zh":"Harvest Turnroot by Hand","en":"Harvest Turnroot by Hand","ja":"Harvest Turnroot by Hand"}},{"key":"Reduce Favour and Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Reduce Favour and Complete","en":"Reduce Favour and Complete","ja":"Reduce Favour and Complete"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_HarvestTurnroot","name":{"zh":"\u6536\u83B7\u7FFB\u6839","en":"Harvest","ja":"Harvest"},"_uuid":"7296a1ae5c59d364ca3c66a0eaffe4ec"}
+
+{
+  "DutyName" : {
+    "zh" : "\u6536\u83B7\u7FFB\u6839",
+    "en" : "Harvest",
+    "ja" : "Harvest"
+  },
+  "DutySummary" : {
+    "zh" : "Harvesting turnroot.",
+    "en" : "Harvesting turnroot.",
+    "ja" : "Harvesting turnroot."
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Methodical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u6709\u6761\u4E0D\u7D0A\u7684",
+        "en" : "Methodical",
+        "ja" : "Methodical"
+      }
+    },
+    {
+      "key" : "DutyTag_Physical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u4F53\u529B",
+        "en" : "Physical",
+        "ja" : "Physical"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Start Duty Harvest Turnroot",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Start Duty Harvest Turnroot",
+        "en" : "Start Duty Harvest Turnroot",
+        "ja" : "Start Duty Harvest Turnroot"
+      }
+    },
+    {
+      "key" : "Reduce Favour",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour",
+        "en" : "Reduce Favour",
+        "ja" : "Reduce Favour"
+      }
+    },
+    {
+      "key" : "Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Complete",
+        "en" : "Complete",
+        "ja" : "Complete"
+      }
+    },
+    {
+      "key" : "Sickle Available",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Sickle Available",
+        "en" : "Sickle Available",
+        "ja" : "Sickle Available"
+      }
+    },
+    {
+      "key" : "Harvest Turnroot with Sickle",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Harvest Turnroot with Sickle",
+        "en" : "Harvest Turnroot with Sickle",
+        "ja" : "Harvest Turnroot with Sickle"
+      }
+    },
+    {
+      "key" : "Reduce Favour and Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour and Complete",
+        "en" : "Reduce Favour and Complete",
+        "ja" : "Reduce Favour and Complete"
+      }
+    },
+    {
+      "key" : "Harvest Turnroot by Hand",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Harvest Turnroot by Hand",
+        "en" : "Harvest Turnroot by Hand",
+        "ja" : "Harvest Turnroot by Hand"
+      }
+    },
+    {
+      "key" : "Reduce Favour and Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour and Complete",
+        "en" : "Reduce Favour and Complete",
+        "ja" : "Reduce Favour and Complete"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_HarvestTurnroot",
+  "name"                 : {
+    "zh" : "\u6536\u83B7\u7FFB\u6839",
+    "en" : "Harvest",
+    "ja" : "Harvest"
+  },
+  "_uuid"                : "7296a1ae5c59d364ca3c66a0eaffe4ec"
+}

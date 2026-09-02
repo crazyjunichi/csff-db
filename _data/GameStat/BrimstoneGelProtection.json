@@ -1,1 +1,228 @@
-{"GameName":{"zh":"\u786B\u78FA\u818F\u4FDD\u62A4","en":"Brimstone Gel Protection","ja":"\u786B\u9EC4\u306E\u4FDD\u8B77\u30B8\u30A7\u30EB"},"Description":{"zh":"\u6709\u52A9\u4E8E\u9884\u9632\u548C\u6CBB\u7597\u80CC\u75DB\u3001\u624B\u811A\u635F\u4F24\u3001\u6652\u4F24\u4EE5\u53CA\u868A\u866B\u53EE\u54AC","en":"Helps treat and prevent backpain, hand and foot damage, sunburn and bugbites ","ja":"\u8170\u306E\u75DB\u307F\u3001\u624B\u3068\u8DB3\u306E\u602A\u6211\u3001\u65E5\u713C\u3051\u3001\u866B\u523A\u3055\u308C\u306B\u52B9\u304F\u3002"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":100.0},"BaseRatePerTick":-1.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":1.0,"g":0.7951,"b":0.0,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.8934,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"\u786B\u78FA\u818F\u5DF2\u6D82\u62B9","en":"Aloe Vera Applied","ja":"\u30A2\u30ED\u30A8\u30D9\u30E9\u3092\u5857\u3063\u305F"},"Icon":{"FileName":"998380edbb9e32ef"},"ValueRange":{"m_X":1,"m_Y":100},"EffectsOnStats":[{"Stat":{"key":"Sunburn","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":1000.0,"name":{"zh":"\u6652\u4F24","en":"Sunburn","ja":"\u65E5\u713C\u3051"}},"RateModifier":{"x":-16.0,"y":-16.0}},{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"BugBites","type":"GameStat","icon":"1dd99cd4ac58bdac","min":0.0,"max":384.0,"name":{"zh":"\u868A\u866B\u53EE\u54AC","en":"Bug Bites","ja":"\u866B\u523A\u3055\u308C"}},"RateModifier":{"x":-2.0,"y":-2.0}},{"Stat":{"key":"Burns","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":1500.0,"name":{"zh":"\u70E7\u4F24","en":"Burns","ja":"\u706B\u50B7"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"Bruising","type":"GameStat","icon":"b3e9523180795fd1","min":0.0,"max":400.0,"name":{"zh":"\u6DE4\u9752","en":"Bruising","ja":"\u30A2\u30B6"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"HandDamage","type":"GameStat","icon":"4527cee819e69ce0","min":0.0,"max":1000.0,"name":{"zh":"\u624B\u638C\u635F\u4F24","en":"Hand Damage","ja":"\u624B\u306E\u30C0\u30E1\u30FC\u30B8"}},"RateModifier":{"x":-0.5,"y":-0.5}},{"Stat":{"key":"FootDamage","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":1000.0,"name":{"zh":"\u8DB3\u90E8\u635F\u4F24","en":"Foot Damage","ja":"\u8DB3\u306E\u30C0\u30E1\u30FC\u30B8"}},"RateModifier":{"x":-0.5,"y":-0.5}},{"Stat":{"key":"SkinHumidity","type":"GameStat","icon":"e6ce508a986e973d","min":0.0,"max":64.0,"name":{"zh":"\u76AE\u80A4\u6E7F\u6DA6\u5EA6","en":"Skin Humidity","ja":"\u808C\u306E\u6E7F\u5EA6"}},"RateModifier":{"x":0.25,"y":0.25}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":2,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"998380edbb9e32ef"},"StepValue":10.0},"type":"GameStat","key":"BrimstoneGelProtection","icon":"998380edbb9e32ef","name":{"zh":"\u786B\u78FA\u818F\u4FDD\u62A4","en":"Brimstone Gel Protection","ja":"\u786B\u9EC4\u306E\u4FDD\u8B77\u30B8\u30A7\u30EB"},"min":0.0,"max":100.0,"_uuid":"030b2186743e66646bdbd937f769ab49"}
+
+{
+  "GameName" : {
+    "zh" : "\u786B\u78FA\u818F\u4FDD\u62A4",
+    "en" : "Brimstone Gel Protection",
+    "ja" : "\u786B\u9EC4\u306E\u4FDD\u8B77\u30B8\u30A7\u30EB"
+  },
+  "Description" : {
+    "zh" : "\u6709\u52A9\u4E8E\u9884\u9632\u548C\u6CBB\u7597\u80CC\u75DB\u3001\u624B\u811A\u635F\u4F24\u3001\u6652\u4F24\u4EE5\u53CA\u868A\u866B\u53EE\u54AC",
+    "en" : "Helps treat and prevent backpain, hand and foot damage, sunburn and bugbites ",
+    "ja" : "\u8170\u306E\u75DB\u307F\u3001\u624B\u3068\u8DB3\u306E\u602A\u6211\u3001\u65E5\u713C\u3051\u3001\u866B\u523A\u3055\u308C\u306B\u52B9\u304F\u3002"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 100.0
+  },
+  "BaseRatePerTick" : -1.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 1.0,
+    "g" : 0.7951,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.8934,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u786B\u78FA\u818F\u5DF2\u6D82\u62B9",
+        "en" : "Aloe Vera Applied",
+        "ja" : "\u30A2\u30ED\u30A8\u30D9\u30E9\u3092\u5857\u3063\u305F"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__BrimstoneGelProtection__Statuses-0-Icon"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 100
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Sunburn",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u6652\u4F24",
+              "en" : "Sunburn",
+              "ja" : "\u65E5\u713C\u3051"
+            }
+          },
+          "RateModifier" : {
+            "x" : -16.0,
+            "y" : -16.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Gratification",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+            "min"  : -100.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6EE1\u8DB3\u611F",
+              "en" : "Gratification",
+              "ja" : "\u6E80\u8DB3\u611F"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "BugBites",
+            "type" : "GameStat",
+            "icon" : "GameStat__BugBites__Statuses-0-Icon",
+            "min"  : 0.0,
+            "max"  : 384.0,
+            "name" : {
+              "zh" : "\u868A\u866B\u53EE\u54AC",
+              "en" : "Bug Bites",
+              "ja" : "\u866B\u523A\u3055\u308C"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Burns",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u70E7\u4F24",
+              "en" : "Burns",
+              "ja" : "\u706B\u50B7"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Bruising",
+            "type" : "GameStat",
+            "icon" : "GameStat__Bruising__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 400.0,
+            "name" : {
+              "zh" : "\u6DE4\u9752",
+              "en" : "Bruising",
+              "ja" : "\u30A2\u30B6"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "HandDamage",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesHands__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u624B\u638C\u635F\u4F24",
+              "en" : "Hand Damage",
+              "ja" : "\u624B\u306E\u30C0\u30E1\u30FC\u30B8"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.5,
+            "y" : -0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FootDamage",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u8DB3\u90E8\u635F\u4F24",
+              "en" : "Foot Damage",
+              "ja" : "\u8DB3\u306E\u30C0\u30E1\u30FC\u30B8"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.5,
+            "y" : -0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SkinHumidity",
+            "type" : "GameStat",
+            "icon" : "GameStat__Rash__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 64.0,
+            "name" : {
+              "zh" : "\u76AE\u80A4\u6E7F\u6DA6\u5EA6",
+              "en" : "Skin Humidity",
+              "ja" : "\u808C\u306E\u6E7F\u5EA6"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.25,
+            "y" : 0.25
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 2,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "GameStat__BrimstoneGelProtection__Statuses-0-Icon"
+    },
+    "StepValue" : 10.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "BrimstoneGelProtection",
+  "icon"                    : "GameStat__BrimstoneGelProtection__Statuses-0-Icon",
+  "name"                    : {
+    "zh" : "\u786B\u78FA\u818F\u4FDD\u62A4",
+    "en" : "Brimstone Gel Protection",
+    "ja" : "\u786B\u9EC4\u306E\u4FDD\u8B77\u30B8\u30A7\u30EB"
+  },
+  "min"                     : 0.0,
+  "max"                     : 100.0,
+  "_uuid"                   : "030b2186743e66646bdbd937f769ab49"
+}

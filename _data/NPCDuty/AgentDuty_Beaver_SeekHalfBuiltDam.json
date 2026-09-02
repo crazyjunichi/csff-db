@@ -1,1 +1,65 @@
-{"DutyName":{"zh":"\u5BFB\u627E\u534A\u6210\u6C34\u575D","en":"Beaver Seek Half Built Dam","ja":"Beaver Seek Half Built Dam"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredCardsNOTOnBoard":[{"key":"DamBeaverHalfBuilt","type":"CardData","CardType":2,"icon":"c622d004cd20741b","name":{"zh":"\u534A\u6210\u54C1\u6CB3\u72F8\u575D","en":"Half Built Beaver Dam","ja":"Half Built Beaver Dam"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"BeaverSeekHalfBuiltDam","type":"MoveDutyAction","name":{"zh":"BeaverSeekHalfBuiltDam","en":"BeaverSeekHalfBuiltDam","ja":"BeaverSeekHalfBuiltDam"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Beaver_SeekHalfBuiltDam","name":{"zh":"\u5BFB\u627E\u534A\u6210\u6C34\u575D","en":"Beaver Seek Half Built Dam","ja":"Beaver Seek Half Built Dam"},"_uuid":"27d519ccd428d2c4dafa482d3a1263a2"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5BFB\u627E\u534A\u6210\u6C34\u575D",
+    "en" : "Beaver Seek Half Built Dam",
+    "ja" : "Beaver Seek Half Built Dam"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsNOTOnBoard" : [
+      {
+        "key" : "DamBeaverHalfBuilt",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__DamBeaverHalfBuilt__CardImage",
+        "name"     : {
+          "zh" : "\u534A\u6210\u54C1\u6CB3\u72F8\u575D",
+          "en" : "Half Built Beaver Dam",
+          "ja" : "Half Built Beaver Dam"
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "BeaverSeekHalfBuiltDam",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "BeaverSeekHalfBuiltDam",
+        "en" : "BeaverSeekHalfBuiltDam",
+        "ja" : "BeaverSeekHalfBuiltDam"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Beaver_SeekHalfBuiltDam",
+  "name"                 : {
+    "zh" : "\u5BFB\u627E\u534A\u6210\u6C34\u575D",
+    "en" : "Beaver Seek Half Built Dam",
+    "ja" : "Beaver Seek Half Built Dam"
+  },
+  "_uuid"                : "27d519ccd428d2c4dafa482d3a1263a2"
+}

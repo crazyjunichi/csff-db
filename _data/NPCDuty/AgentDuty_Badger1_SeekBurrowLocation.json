@@ -1,1 +1,76 @@
-{"DutyName":{"zh":"\u5BFB\u627E\u5EFA\u7A9D\u5730\u70B9","en":"Badger Seek Burrow Location","ja":"Badger Seek Burrow Location"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNOTEnvironmentTags":[{"key":"tag_Env_BurrowArea1","type":"CardTag","count":5,"name":{"zh":"\u7A74\u5C45\u533A","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentHasHome","type":"NPCStat","name":{"zh":"\u6709\u6D1E\u7A74","en":"AgentHasHome","ja":"AgentHasHome"}}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"MoveToBadger1BurrowLocation","type":"MoveDutyAction","name":{"zh":"MoveToBadger1BurrowLocation","en":"MoveToBadger1BurrowLocation","ja":"MoveToBadger1BurrowLocation"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Badger1_SeekBurrowLocation","name":{"zh":"\u5BFB\u627E\u5EFA\u7A9D\u5730\u70B9","en":"Badger Seek Burrow Location","ja":"Badger Seek Burrow Location"},"_uuid":"0ed334428c0b4764b8b9f8724e13af77"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5BFB\u627E\u5EFA\u7A9D\u5730\u70B9",
+    "en" : "Badger Seek Burrow Location",
+    "ja" : "Badger Seek Burrow Location"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNOTEnvironmentTags" : [
+      {
+        "key" : "tag_Env_BurrowArea1",
+        "type" : "CardTag",
+        "count" : 5,
+        "name"  : {
+          "zh" : "\u7A74\u5C45\u533A",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"      : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentHasHome",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6709\u6D1E\u7A74",
+            "en" : "AgentHasHome",
+            "ja" : "AgentHasHome"
+          }
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "MoveToBadger1BurrowLocation",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "MoveToBadger1BurrowLocation",
+        "en" : "MoveToBadger1BurrowLocation",
+        "ja" : "MoveToBadger1BurrowLocation"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Badger1_SeekBurrowLocation",
+  "name"                 : {
+    "zh" : "\u5BFB\u627E\u5EFA\u7A9D\u5730\u70B9",
+    "en" : "Badger Seek Burrow Location",
+    "ja" : "Badger Seek Burrow Location"
+  },
+  "_uuid"                : "0ed334428c0b4764b8b9f8724e13af77"
+}

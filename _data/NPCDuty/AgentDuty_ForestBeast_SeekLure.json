@@ -1,1 +1,66 @@
-{"DutyName":{"zh":"\u5BFB\u627E\u8BF1\u9975","en":"Forest Beast Seek Lure","ja":"Forest Beast Seek Lure"},"MaxPerformPerDay":0,"DutyConditions":{"InBackground":true,"PlayerUsesCard":0,"RequiredCardsNOTOnBoard":[{"key":"ForestBeastLure","type":"CardData","CardType":0,"icon":"43b344317f98f811","name":{"zh":"\u68EE\u6797\u731B\u517D\u8BF1\u9975","en":"Forest Beast Lure","ja":"\u68EE\u306E\u7363\u306E\u8A98\u5F15\u5177"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"ForestBeastSeekLure","type":"MoveDutyAction","name":{"zh":"ForestBeastSeekLure","en":"ForestBeastSeekLure","ja":"ForestBeastSeekLure"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_ForestBeast_SeekLure","name":{"zh":"\u5BFB\u627E\u8BF1\u9975","en":"Forest Beast Seek Lure","ja":"Forest Beast Seek Lure"},"_uuid":"68af24d3924e6e245a194c3b35c5dfe2"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5BFB\u627E\u8BF1\u9975",
+    "en" : "Forest Beast Seek Lure",
+    "ja" : "Forest Beast Seek Lure"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "InBackground" : true,
+    "PlayerUsesCard" : 0,
+    "RequiredCardsNOTOnBoard" : [
+      {
+        "key" : "ForestBeastLure",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__ForestBeastLure__CardImage",
+        "name"     : {
+          "zh" : "\u68EE\u6797\u731B\u517D\u8BF1\u9975",
+          "en" : "Forest Beast Lure",
+          "ja" : "\u68EE\u306E\u7363\u306E\u8A98\u5F15\u5177"
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "ForestBeastSeekLure",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "ForestBeastSeekLure",
+        "en" : "ForestBeastSeekLure",
+        "ja" : "ForestBeastSeekLure"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_ForestBeast_SeekLure",
+  "name"                 : {
+    "zh" : "\u5BFB\u627E\u8BF1\u9975",
+    "en" : "Forest Beast Seek Lure",
+    "ja" : "Forest Beast Seek Lure"
+  },
+  "_uuid"                : "68af24d3924e6e245a194c3b35c5dfe2"
+}

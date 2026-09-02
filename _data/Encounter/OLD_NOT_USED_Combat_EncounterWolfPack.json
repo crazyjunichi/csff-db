@@ -1,1 +1,794 @@
-{"EncounterTitle":{"zh":"Wolf Pack","en":"Wolf Pack","ja":"Wolf Pack"},"EncounterImage":{"FileName":"e20a8a82f5c6719c"},"EnemyName":{"zh":"the wolves","en":"the wolves","ja":"the wolves"},"UsesPlural":true,"EnemyCover":{"x":75.0,"y":75.0},"PlayerCover":{"x":75.0,"y":75.0},"EnemyAwareness":{"x":25.0,"y":50.0},"EnemySize":{"x":50.0,"y":50.0},"EnemyBodyTemplate":{"key":"OLD_NOT_UISED_Combat_ BTWolfPack_F","type":"BodyTemplate","name":{"zh":"OLD_NOT_UISED_Combat_ BTWolfPack_F","en":"OLD_NOT_UISED_Combat_ BTWolfPack_F","ja":"OLD_NOT_UISED_Combat_ BTWolfPack_F"}},"MeleeSkill":{"Name":"Melee Skill","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":0},"Blood":{"Name":"Blood","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":1},"Stamina":{"Name":"Stamina","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":0},"Morale":{"Name":"Morale","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":0},"Value1":{"Name":"Number","StartingValue":{"x":4.0,"y":4.0},"TriggerLoadStat":0,"MaxValue":4.0,"OnZeroEncounterResult":1},"EnemyActions":[{"ActionLog":{"LogText":{"zh":"They circle around you trying to bite your legs!","en":"They circle around you trying to bite your legs!","ja":"They circle around you trying to bite your legs!"}},"SuccessLog":{"LogText":{"zh":"You fail to dodge the attack...","en":"You fail to dodge the attack...","ja":"You fail to dodge the attack..."},"ScreenShake":true},"FailureLog":{"LogText":{"zh":"You successfully get out of the way...","en":"You successfully get out of the way...","ja":"You successfully get out of the way..."}},"RequiredDistance":0,"RequiredWrestlingState":0,"RequiresAmbushState":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"BaseWeight":10,"DistanceWeightModifier":0,"CloseRangeWeightModifier":0,"EnemyHiddenWeightModifier":0,"PlayerHiddenWeightModifier":0,"WrestlingWeightModifier":0,"NOTWrestlingWeightModifier":0,"SelfVulnerableWeightModifier":0,"SelfNOTVulnerableWeightModifier":0,"OpponentVulnerableWeightModifier":0,"OpponentNOTVulnerableWeightModifier":0,"ValuesWeightModifiers":{"WeightPerStamina":{"InterpWeightRange":{"m_X":-1,"m_Y":-1},"WhenOutOfRange":0},"WeightPerMorale":{"InterpWeightRange":{"m_X":-1,"m_Y":-1},"WhenOutOfRange":0}},"ActionRange":0,"Reach":25.0,"PreClashDistanceChange":0,"BaseClashValue":600.0,"ClashStealthBonus":{"x":150.0,"y":150.0},"ClashVsEscapeModifier":{"x":-50.0,"y":-100.0},"EnemyValuesClashModifier":{"EnemyMeleeSkillMod":{"InterpolatedAddedValue":{"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":300.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyBloodMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-100.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyStaminaMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-50.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyMoraleMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-100.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyValue1Mod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":5000.0},"OutputValueRange":{"x":-450.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"EnemyWoundClashModifier":{"AllWoundModifier":{"InterpolatedAddedValue":{"InputValueRange":{"x":0.0,"y":18.0},"OutputValueRange":{"x":0.0,"y":-150.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"Damage":{"x":100.0,"y":400.0},"DamageTypes":[{"key":"DMG_Piercing","type":"DamageType","name":{"zh":"\u7A7F\u523A\u4F24","en":"Piercing","ja":"\u523A\u7A81"}}],"EnemyValuesDamageModifier":{"EnemyMeleeSkillMod":{"InterpolatedAddedValue":{"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":25.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyBloodMod":{"InterpolatedAddedValue":{"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-25.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyStaminaMod":{"InterpolatedAddedValue":{"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-25.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyValue1Mod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":5000.0},"OutputValueRange":{"x":-300.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"EnemyWoundDamageModifier":{"AllWoundModifier":{"InterpolatedAddedValue":{"InputValueRange":{"x":0.0,"y":25.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"AddedPlayerLocationHitProbabilities":{"TorsoHitProbabilityModifier":0.0,"HeadHitProbabilityModifier":-1000.0,"LArmHitProbabilityModifier":0.0,"RArmHitProbabilityModifier":0.0,"LLegHitProbabilityModifier":0.0,"RLegHitProbabilityModifier":0.0},"EnemyValueChanges":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"StaminaApplies":0,"StaminaModifier":{"x":-5.0,"y":-5.0},"MoraleApplies":0,"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"PlayerWounds":{"UnharmedResults":[{"WoundLog":{"LogText":{"zh":"Fortunately, the attack wasn't enough to hurt you.","en":"Fortunately, the attack wasn't enough to hurt you.","ja":"Fortunately, the attack wasn't enough to hurt you."}},"StatChanges":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"ValueModifier":{"x":5.0,"y":5.0}}],"WoundSelectionWeight":0.0,"EncounterResult":0}],"MinorWounds":[{"WoundLog":{"LogText":{"zh":"One of the wolves bit you! ","en":"One of the wolves bit you! ","ja":"One of the wolves bit you! "}},"StatChanges":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"ValueModifier":{"x":10.0,"y":10.0}}],"WoundSelectionWeight":0.0,"EncounterResult":0}],"MediumWounds":[{"WoundLog":{"LogText":{"zh":"One of the wolves bit you! ","en":"One of the wolves bit you! ","ja":"One of the wolves bit you! "}},"StatChanges":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"ValueModifier":{"x":20.0,"y":20.0}}],"WoundSelectionWeight":0.0,"EncounterResult":0}],"SeriousWounds":[{"WoundLog":{"LogText":{"zh":"You got bitten many times!","en":"You got bitten many times!","ja":"You got bitten many times!"}},"StatChanges":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"ValueModifier":{"x":40.0,"y":40.0}}],"WoundSelectionWeight":1.0,"EncounterResult":0}]},"EncounterResult":0},{"ActionLog":{"LogText":{"zh":"The wolves start dispersing...","en":"The wolves start dispersing...","ja":"The wolves start dispersing..."}},"RequiredDistance":0,"RequiredWrestlingState":0,"RequiresAmbushState":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"BaseWeight":0,"DistanceWeightModifier":0,"CloseRangeWeightModifier":0,"EnemyHiddenWeightModifier":0,"PlayerHiddenWeightModifier":0,"WrestlingWeightModifier":0,"NOTWrestlingWeightModifier":0,"SelfVulnerableWeightModifier":0,"SelfNOTVulnerableWeightModifier":0,"OpponentVulnerableWeightModifier":0,"OpponentNOTVulnerableWeightModifier":0,"ValuesWeightModifiers":{"WeightPerStamina":{"Active":true,"InterpWeightRange":{"m_X":10000,"m_Y":10000},"WhenOutOfRange":0},"WeightPerMorale":{"Active":true,"InterpWeightRange":{"m_X":10000,"m_Y":10000},"WhenOutOfRange":0}},"ActionRange":0,"Reach":0.0,"PreClashDistanceChange":1,"CannotFailClash":true,"DoesNotAttack":true,"IsEscapeAction":true,"BaseClashValue":300.0,"EnemyValueChanges":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"StaminaApplies":0,"StaminaModifier":{"x":50.0,"y":50.0},"MoraleApplies":0,"MoraleModifier":{"x":100.0,"y":100.0},"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"EncounterResult":2},{"ActionLog":{"LogText":{"zh":"The wolves start dispersing...","en":"The wolves start dispersing...","ja":"The wolves start dispersing..."}},"RequiredDistance":1,"RequiredWrestlingState":0,"RequiresAmbushState":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"BaseWeight":0,"DistanceWeightModifier":0,"CloseRangeWeightModifier":0,"EnemyHiddenWeightModifier":0,"PlayerHiddenWeightModifier":0,"WrestlingWeightModifier":0,"NOTWrestlingWeightModifier":0,"SelfVulnerableWeightModifier":0,"SelfNOTVulnerableWeightModifier":0,"OpponentVulnerableWeightModifier":0,"OpponentNOTVulnerableWeightModifier":0,"ValuesWeightModifiers":{"WeightPerStamina":{"Active":true,"InterpWeightRange":{"m_X":10000,"m_Y":10000},"WhenOutOfRange":0},"WeightPerMorale":{"Active":true,"InterpWeightRange":{"m_X":10000,"m_Y":10000},"WhenOutOfRange":0}},"ActionRange":0,"Reach":0.0,"PreClashDistanceChange":1,"CannotFailClash":true,"DoesNotAttack":true,"IsEscapeAction":true,"BaseClashValue":300.0,"EnemyValueChanges":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"StaminaApplies":0,"StaminaModifier":{"x":50.0,"y":50.0},"MoraleApplies":0,"MoraleModifier":{"x":100.0,"y":100.0},"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"EncounterResult":2}],"EnemyGettingCloseLog":{"LogText":{"zh":"<b>The wolf pack surrounds you!</b>","en":"<b>The wolf pack surrounds you!</b>","ja":"<b>The wolf pack surrounds you!</b>"}},"EnemyDefeatedEffects":{"ResultLog":{"LogText":{"zh":"The wolf pack is defeated! ","en":"The wolf pack is defeated! ","ja":"The wolf pack is defeated! "}},"DroppedCards":[{"key":"Carcass_WolfCarcass","type":"CardData","CardType":0,"icon":"279ede0c6bdbd7d2","name":{"zh":"\u72FC\u5C38\u4F53","en":"Wolf Carcass","ja":"\u72FC\u306E\u6B7B\u9AB8"}}],"StatChanges":[{"Stat":{"key":"Pop_Wolf","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u72FC\u79CD\u7FA4\u6570\u91CF","en":"Population Wolf","ja":"\u72FC\u306E\u6570"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}},{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"ValueModifier":{"x":20.0,"y":20.0}},{"Stat":{"key":"BloodSpilled","type":"GameStat","min":0.0,"max":11520.0,"name":{"zh":"\u98D9\u8840","en":"Blood Spilled","ja":"\u6D41\u3057\u305F\u8840"}},"ValueModifier":{"x":2880.0,"y":2880.0}}],"AmmoRecovery":0,"MovePlayer":0,"MoveDuration":0,"MoveNPC":0},"EnemyEscapedEffects":{"ResultLog":{"LogText":{"zh":"The wolf pack retreats to lick their wounds. ","en":"The wolf pack retreats to lick their wounds. ","ja":"The wolf pack retreats to lick their wounds. "}},"StatChanges":[{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"ValueModifier":{"x":10.0,"y":10.0}}],"AmmoRecovery":0,"MovePlayer":0,"MoveDuration":0,"MoveNPC":0},"PlayerEscapedEffects":{"ResultLog":{"LogText":{"zh":"You retreat. The wolves follow you for a bit but then drop the chase...","en":"You retreat. The wolves follow you for a bit but then drop the chase...","ja":"You retreat. The wolves follow you for a bit but then drop the chase..."}},"AmmoRecovery":0,"MovePlayer":3,"MoveDuration":0,"MoveNPC":0,"SaveEncounterToNPC":true},"PlayerDemoralizedEffects":{"ResultLog":{"LogText":{"zh":"You run away from the wolves!","en":"You run away from the wolves!","ja":"You run away from the wolves!"}},"AmmoRecovery":0,"MovePlayer":0,"MoveDuration":0,"MoveNPC":0},"type":"Encounter","key":"OLD_NOT_USED_Combat_EncounterWolfPack","icon":"e20a8a82f5c6719c","name":{"zh":"Wolf Pack","en":"Wolf Pack","ja":"Wolf Pack"},"_uuid":"e8c6a399c53f902479edae76f5f883bb"}
+
+{
+  "EncounterTitle" : {
+    "zh" : "Wolf Pack",
+    "en" : "Wolf Pack",
+    "ja" : "Wolf Pack"
+  },
+  "EncounterImage" : {
+    "FileName" : "NPCAgent__Agent_Wolf__AgentImage"
+  },
+  "EnemyName"      : {
+    "zh" : "the wolves",
+    "en" : "the wolves",
+    "ja" : "the wolves"
+  },
+  "UsesPlural"     : true,
+  "EnemyCover"     : {
+    "x" : 75.0,
+    "y" : 75.0
+  },
+  "PlayerCover"    : {
+    "x" : 75.0,
+    "y" : 75.0
+  },
+  "EnemyAwareness" : {
+    "x" : 25.0,
+    "y" : 50.0
+  },
+  "EnemySize"      : {
+    "x" : 50.0,
+    "y" : 50.0
+  },
+  "EnemyBodyTemplate" : {
+    "key" : "OLD_NOT_UISED_Combat_ BTWolfPack_F",
+    "type" : "BodyTemplate",
+    "name" : {
+      "zh" : "OLD_NOT_UISED_Combat_ BTWolfPack_F",
+      "en" : "OLD_NOT_UISED_Combat_ BTWolfPack_F",
+      "ja" : "OLD_NOT_UISED_Combat_ BTWolfPack_F"
+    }
+  },
+  "MeleeSkill"        : {
+    "Name" : "Melee Skill",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 0
+  },
+  "Blood"             : {
+    "Name" : "Blood",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 1
+  },
+  "Stamina"           : {
+    "Name" : "Stamina",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 0
+  },
+  "Morale"            : {
+    "Name" : "Morale",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 0
+  },
+  "Value1"            : {
+    "Name" : "Number",
+    "StartingValue" : {
+      "x" : 4.0,
+      "y" : 4.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 4.0,
+    "OnZeroEncounterResult" : 1
+  },
+  "EnemyActions"      : [
+    {
+      "ActionLog" : {
+        "LogText" : {
+          "zh" : "They circle around you trying to bite your legs!",
+          "en" : "They circle around you trying to bite your legs!",
+          "ja" : "They circle around you trying to bite your legs!"
+        }
+      },
+      "SuccessLog" : {
+        "LogText" : {
+          "zh" : "You fail to dodge the attack...",
+          "en" : "You fail to dodge the attack...",
+          "ja" : "You fail to dodge the attack..."
+        },
+        "ScreenShake" : true
+      },
+      "FailureLog" : {
+        "LogText" : {
+          "zh" : "You successfully get out of the way...",
+          "en" : "You successfully get out of the way...",
+          "ja" : "You successfully get out of the way..."
+        }
+      },
+      "RequiredDistance" : 0,
+      "RequiredWrestlingState" : 0,
+      "RequiresAmbushState"    : 0,
+      "RequiredSelfVulnerableState" : 0,
+      "RequiredOpponentVulnerableState" : 0,
+      "BaseWeight"                      : 10,
+      "DistanceWeightModifier"          : 0,
+      "CloseRangeWeightModifier"        : 0,
+      "EnemyHiddenWeightModifier"       : 0,
+      "PlayerHiddenWeightModifier"      : 0,
+      "WrestlingWeightModifier"         : 0,
+      "NOTWrestlingWeightModifier"      : 0,
+      "SelfVulnerableWeightModifier"    : 0,
+      "SelfNOTVulnerableWeightModifier" : 0,
+      "OpponentVulnerableWeightModifier" : 0,
+      "OpponentNOTVulnerableWeightModifier" : 0,
+      "ValuesWeightModifiers"               : {
+        "WeightPerStamina" : {
+          "InterpWeightRange" : {
+            "m_X" : -1,
+            "m_Y" : -1
+          },
+          "WhenOutOfRange"    : 0
+        },
+        "WeightPerMorale"  : {
+          "InterpWeightRange" : {
+            "m_X" : -1,
+            "m_Y" : -1
+          },
+          "WhenOutOfRange"    : 0
+        }
+      },
+      "ActionRange"                         : 0,
+      "Reach"                               : 25.0,
+      "PreClashDistanceChange"              : 0,
+      "BaseClashValue"                      : 600.0,
+      "ClashStealthBonus"                   : {
+        "x" : 150.0,
+        "y" : 150.0
+      },
+      "ClashVsEscapeModifier"               : {
+        "x" : -50.0,
+        "y" : -100.0
+      },
+      "EnemyValuesClashModifier"            : {
+        "EnemyMeleeSkillMod" : {
+          "InterpolatedAddedValue" : {
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 300.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyBloodMod"      : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -100.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyStaminaMod"    : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -50.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyMoraleMod"     : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -100.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyValue1Mod"     : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 5000.0
+            },
+            "OutputValueRange" : {
+              "x" : -450.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "EnemyWoundClashModifier"             : {
+        "AllWoundModifier" : {
+          "InterpolatedAddedValue" : {
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 18.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : -150.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "Damage"                              : {
+        "x" : 100.0,
+        "y" : 400.0
+      },
+      "DamageTypes"                         : [
+        {
+          "key" : "DMG_Piercing",
+          "type" : "DamageType",
+          "name" : {
+            "zh" : "\u7A7F\u523A\u4F24",
+            "en" : "Piercing",
+            "ja" : "\u523A\u7A81"
+          }
+        }
+      ],
+      "EnemyValuesDamageModifier"           : {
+        "EnemyMeleeSkillMod" : {
+          "InterpolatedAddedValue" : {
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 25.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyBloodMod"      : {
+          "InterpolatedAddedValue" : {
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -25.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyStaminaMod"    : {
+          "InterpolatedAddedValue" : {
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -25.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyValue1Mod"     : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 5000.0
+            },
+            "OutputValueRange" : {
+              "x" : -300.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "EnemyWoundDamageModifier"            : {
+        "AllWoundModifier" : {
+          "InterpolatedAddedValue" : {
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 25.0
+            },
+            "WhenOutOfRange"  : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "AddedPlayerLocationHitProbabilities" : {
+        "TorsoHitProbabilityModifier" : 0.0,
+        "HeadHitProbabilityModifier"  : -1000.0,
+        "LArmHitProbabilityModifier"  : 0.0,
+        "RArmHitProbabilityModifier"  : 0.0,
+        "LLegHitProbabilityModifier"  : 0.0,
+        "RLegHitProbabilityModifier"  : 0.0
+      },
+      "EnemyValueChanges"                   : {
+        "MeleeApplies" : 0,
+        "RangedApplies" : 0,
+        "BloodApplies"  : 0,
+        "StaminaApplies" : 0,
+        "StaminaModifier" : {
+          "x" : -5.0,
+          "y" : -5.0
+        },
+        "MoraleApplies"   : 0,
+        "Value1Applies"   : 0,
+        "Value2Applies"   : 0,
+        "Value3Applies"   : 0,
+        "Value4Applies"   : 0
+      },
+      "PlayerWounds"                        : {
+        "UnharmedResults" : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "Fortunately, the attack wasn't enough to hurt you.",
+                "en" : "Fortunately, the attack wasn't enough to hurt you.",
+                "ja" : "Fortunately, the attack wasn't enough to hurt you."
+              }
+            },
+            "StatChanges" : [
+              {
+                "Stat" : {
+                  "key" : "Fear",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Fear__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 100.0,
+                  "name" : {
+                    "zh" : "\u6050\u60E7",
+                    "en" : "Fear",
+                    "ja" : "\u6050\u6016"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : 5.0,
+                  "y" : 5.0
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ],
+        "MinorWounds"     : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "One of the wolves bit you! ",
+                "en" : "One of the wolves bit you! ",
+                "ja" : "One of the wolves bit you! "
+              }
+            },
+            "StatChanges" : [
+              {
+                "Stat" : {
+                  "key" : "Fear",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Fear__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 100.0,
+                  "name" : {
+                    "zh" : "\u6050\u60E7",
+                    "en" : "Fear",
+                    "ja" : "\u6050\u6016"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : 10.0,
+                  "y" : 10.0
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ],
+        "MediumWounds"    : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "One of the wolves bit you! ",
+                "en" : "One of the wolves bit you! ",
+                "ja" : "One of the wolves bit you! "
+              }
+            },
+            "StatChanges" : [
+              {
+                "Stat" : {
+                  "key" : "Fear",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Fear__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 100.0,
+                  "name" : {
+                    "zh" : "\u6050\u60E7",
+                    "en" : "Fear",
+                    "ja" : "\u6050\u6016"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : 20.0,
+                  "y" : 20.0
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ],
+        "SeriousWounds"   : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "You got bitten many times!",
+                "en" : "You got bitten many times!",
+                "ja" : "You got bitten many times!"
+              }
+            },
+            "StatChanges" : [
+              {
+                "Stat" : {
+                  "key" : "Fear",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Fear__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 100.0,
+                  "name" : {
+                    "zh" : "\u6050\u60E7",
+                    "en" : "Fear",
+                    "ja" : "\u6050\u6016"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : 40.0,
+                  "y" : 40.0
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 1.0,
+            "EncounterResult"      : 0
+          }
+        ]
+      },
+      "EncounterResult"                     : 0
+    },
+    {
+      "ActionLog" : {
+        "LogText" : {
+          "zh" : "The wolves start dispersing...",
+          "en" : "The wolves start dispersing...",
+          "ja" : "The wolves start dispersing..."
+        }
+      },
+      "RequiredDistance" : 0,
+      "RequiredWrestlingState" : 0,
+      "RequiresAmbushState"    : 0,
+      "RequiredSelfVulnerableState" : 0,
+      "RequiredOpponentVulnerableState" : 0,
+      "BaseWeight"                      : 0,
+      "DistanceWeightModifier"          : 0,
+      "CloseRangeWeightModifier"        : 0,
+      "EnemyHiddenWeightModifier"       : 0,
+      "PlayerHiddenWeightModifier"      : 0,
+      "WrestlingWeightModifier"         : 0,
+      "NOTWrestlingWeightModifier"      : 0,
+      "SelfVulnerableWeightModifier"    : 0,
+      "SelfNOTVulnerableWeightModifier" : 0,
+      "OpponentVulnerableWeightModifier" : 0,
+      "OpponentNOTVulnerableWeightModifier" : 0,
+      "ValuesWeightModifiers"               : {
+        "WeightPerStamina" : {
+          "Active" : true,
+          "InterpWeightRange" : {
+            "m_X" : 10000,
+            "m_Y" : 10000
+          },
+          "WhenOutOfRange"    : 0
+        },
+        "WeightPerMorale"  : {
+          "Active" : true,
+          "InterpWeightRange" : {
+            "m_X" : 10000,
+            "m_Y" : 10000
+          },
+          "WhenOutOfRange"    : 0
+        }
+      },
+      "ActionRange"                         : 0,
+      "Reach"                               : 0.0,
+      "PreClashDistanceChange"              : 1,
+      "CannotFailClash"                     : true,
+      "DoesNotAttack"                       : true,
+      "IsEscapeAction"                      : true,
+      "BaseClashValue"                      : 300.0,
+      "EnemyValueChanges"                   : {
+        "MeleeApplies" : 0,
+        "RangedApplies" : 0,
+        "BloodApplies"  : 0,
+        "StaminaApplies" : 0,
+        "StaminaModifier" : {
+          "x" : 50.0,
+          "y" : 50.0
+        },
+        "MoraleApplies"   : 0,
+        "MoraleModifier"  : {
+          "x" : 100.0,
+          "y" : 100.0
+        },
+        "Value1Applies"   : 0,
+        "Value2Applies"   : 0,
+        "Value3Applies"   : 0,
+        "Value4Applies"   : 0
+      },
+      "EncounterResult"                     : 2
+    },
+    {
+      "ActionLog" : {
+        "LogText" : {
+          "zh" : "The wolves start dispersing...",
+          "en" : "The wolves start dispersing...",
+          "ja" : "The wolves start dispersing..."
+        }
+      },
+      "RequiredDistance" : 1,
+      "RequiredWrestlingState" : 0,
+      "RequiresAmbushState"    : 0,
+      "RequiredSelfVulnerableState" : 0,
+      "RequiredOpponentVulnerableState" : 0,
+      "BaseWeight"                      : 0,
+      "DistanceWeightModifier"          : 0,
+      "CloseRangeWeightModifier"        : 0,
+      "EnemyHiddenWeightModifier"       : 0,
+      "PlayerHiddenWeightModifier"      : 0,
+      "WrestlingWeightModifier"         : 0,
+      "NOTWrestlingWeightModifier"      : 0,
+      "SelfVulnerableWeightModifier"    : 0,
+      "SelfNOTVulnerableWeightModifier" : 0,
+      "OpponentVulnerableWeightModifier" : 0,
+      "OpponentNOTVulnerableWeightModifier" : 0,
+      "ValuesWeightModifiers"               : {
+        "WeightPerStamina" : {
+          "Active" : true,
+          "InterpWeightRange" : {
+            "m_X" : 10000,
+            "m_Y" : 10000
+          },
+          "WhenOutOfRange"    : 0
+        },
+        "WeightPerMorale"  : {
+          "Active" : true,
+          "InterpWeightRange" : {
+            "m_X" : 10000,
+            "m_Y" : 10000
+          },
+          "WhenOutOfRange"    : 0
+        }
+      },
+      "ActionRange"                         : 0,
+      "Reach"                               : 0.0,
+      "PreClashDistanceChange"              : 1,
+      "CannotFailClash"                     : true,
+      "DoesNotAttack"                       : true,
+      "IsEscapeAction"                      : true,
+      "BaseClashValue"                      : 300.0,
+      "EnemyValueChanges"                   : {
+        "MeleeApplies" : 0,
+        "RangedApplies" : 0,
+        "BloodApplies"  : 0,
+        "StaminaApplies" : 0,
+        "StaminaModifier" : {
+          "x" : 50.0,
+          "y" : 50.0
+        },
+        "MoraleApplies"   : 0,
+        "MoraleModifier"  : {
+          "x" : 100.0,
+          "y" : 100.0
+        },
+        "Value1Applies"   : 0,
+        "Value2Applies"   : 0,
+        "Value3Applies"   : 0,
+        "Value4Applies"   : 0
+      },
+      "EncounterResult"                     : 2
+    }
+  ],
+  "EnemyGettingCloseLog" : {
+    "LogText" : {
+      "zh" : "<b>The wolf pack surrounds you!</b>",
+      "en" : "<b>The wolf pack surrounds you!</b>",
+      "ja" : "<b>The wolf pack surrounds you!</b>"
+    }
+  },
+  "EnemyDefeatedEffects" : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "The wolf pack is defeated! ",
+        "en" : "The wolf pack is defeated! ",
+        "ja" : "The wolf pack is defeated! "
+      }
+    },
+    "DroppedCards" : [
+      {
+        "key" : "Carcass_WolfCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__BeastAffinity__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u72FC\u5C38\u4F53",
+          "en" : "Wolf Carcass",
+          "ja" : "\u72FC\u306E\u6B7B\u9AB8"
+        }
+      }
+    ],
+    "StatChanges"  : [
+      {
+        "Stat" : {
+          "key" : "Pop_Wolf",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 15000.0,
+          "name" : {
+            "zh" : "\u72FC\u79CD\u7FA4\u6570\u91CF",
+            "en" : "Population Wolf",
+            "ja" : "\u72FC\u306E\u6570"
+          }
+        },
+        "ValueModifier" : {
+          "x" : -1000.0,
+          "y" : -1000.0
+        }
+      },
+      {
+        "Stat" : {
+          "key" : "Gratification",
+          "type" : "GameStat",
+          "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+          "min"  : -100.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u6EE1\u8DB3\u611F",
+            "en" : "Gratification",
+            "ja" : "\u6E80\u8DB3\u611F"
+          }
+        },
+        "ValueModifier" : {
+          "x" : 20.0,
+          "y" : 20.0
+        }
+      },
+      {
+        "Stat" : {
+          "key" : "BloodSpilled",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 11520.0,
+          "name" : {
+            "zh" : "\u98D9\u8840",
+            "en" : "Blood Spilled",
+            "ja" : "\u6D41\u3057\u305F\u8840"
+          }
+        },
+        "ValueModifier" : {
+          "x" : 2880.0,
+          "y" : 2880.0
+        }
+      }
+    ],
+    "AmmoRecovery" : 0,
+    "MovePlayer"   : 0,
+    "MoveDuration" : 0,
+    "MoveNPC"      : 0
+  },
+  "EnemyEscapedEffects"  : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "The wolf pack retreats to lick their wounds. ",
+        "en" : "The wolf pack retreats to lick their wounds. ",
+        "ja" : "The wolf pack retreats to lick their wounds. "
+      }
+    },
+    "StatChanges" : [
+      {
+        "Stat" : {
+          "key" : "Gratification",
+          "type" : "GameStat",
+          "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+          "min"  : -100.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u6EE1\u8DB3\u611F",
+            "en" : "Gratification",
+            "ja" : "\u6E80\u8DB3\u611F"
+          }
+        },
+        "ValueModifier" : {
+          "x" : 10.0,
+          "y" : 10.0
+        }
+      }
+    ],
+    "AmmoRecovery" : 0,
+    "MovePlayer"   : 0,
+    "MoveDuration" : 0,
+    "MoveNPC"      : 0
+  },
+  "PlayerEscapedEffects" : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "You retreat. The wolves follow you for a bit but then drop the chase...",
+        "en" : "You retreat. The wolves follow you for a bit but then drop the chase...",
+        "ja" : "You retreat. The wolves follow you for a bit but then drop the chase..."
+      }
+    },
+    "AmmoRecovery" : 0,
+    "MovePlayer"   : 3,
+    "MoveDuration" : 0,
+    "MoveNPC"      : 0,
+    "SaveEncounterToNPC" : true
+  },
+  "PlayerDemoralizedEffects" : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "You run away from the wolves!",
+        "en" : "You run away from the wolves!",
+        "ja" : "You run away from the wolves!"
+      }
+    },
+    "AmmoRecovery" : 0,
+    "MovePlayer"   : 0,
+    "MoveDuration" : 0,
+    "MoveNPC"      : 0
+  },
+  "type"                     : "Encounter",
+  "key"                      : "OLD_NOT_USED_Combat_EncounterWolfPack",
+  "icon"                     : "NPCAgent__Agent_Wolf__AgentImage",
+  "name"                     : {
+    "zh" : "Wolf Pack",
+    "en" : "Wolf Pack",
+    "ja" : "Wolf Pack"
+  },
+  "_uuid"                    : "e8c6a399c53f902479edae76f5f883bb"
+}

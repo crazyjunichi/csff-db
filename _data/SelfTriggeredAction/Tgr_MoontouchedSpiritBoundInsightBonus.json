@@ -1,1 +1,66 @@
-{"Actions":[{"RepeatOptions":2,"ActionCooldown":0,"PlayerUsesCardCondition":0,"StatChangeTrigger":[{"Stat":{"key":"Stat_MoontouchedSpiritBound","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6708\u89E6\u8005\u7075\u7ED1\u5B9A","en":"MoontouchedSpiritBound","ja":"MoontouchedSpiritBound"}},"TriggerRange":{"x":1.0,"y":1.0}}],"ActionName":{"zh":"1","en":"1","ja":"1"},"DaytimeCost":0,"UseMiniTicks":0,"StatModifications":[{"Stat":{"key":"Skill_Insight","type":"GameStat","icon":"9e1c9c294ec3f4b9","min":0.0,"max":1000.0,"name":{"zh":"\u7075\u89C6","en":"Insight","ja":"\u6D1E\u5BDF\u529B"}},"ValueModifier":{"x":1.0,"y":1.0}}],"RoomDirection":0,"ExitDirection":0}],"type":"SelfTriggeredAction","key":"Tgr_MoontouchedSpiritBoundInsightBonus","name":{"zh":"Tgr_MoontouchedSpiritBoundInsightBonus","en":"Tgr_MoontouchedSpiritBoundInsightBonus","ja":"Tgr_MoontouchedSpiritBoundInsightBonus"},"_uuid":"6bf3e28b65d49744b9dab3a1e00e00f5"}
+
+{
+  "Actions" : [
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "Stat_MoontouchedSpiritBound",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6708\u89E6\u8005\u7075\u7ED1\u5B9A",
+              "en" : "MoontouchedSpiritBound",
+              "ja" : "MoontouchedSpiritBound"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "1",
+        "en" : "1",
+        "ja" : "1"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "Skill_Insight",
+            "type" : "GameStat",
+            "icon" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u7075\u89C6",
+              "en" : "Insight",
+              "ja" : "\u6D1E\u5BDF\u529B"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "type"    : "SelfTriggeredAction",
+  "key"     : "Tgr_MoontouchedSpiritBoundInsightBonus",
+  "name"    : {
+    "zh" : "Tgr_MoontouchedSpiritBoundInsightBonus",
+    "en" : "Tgr_MoontouchedSpiritBoundInsightBonus",
+    "ja" : "Tgr_MoontouchedSpiritBoundInsightBonus"
+  },
+  "_uuid"   : "6bf3e28b65d49744b9dab3a1e00e00f5"
+}

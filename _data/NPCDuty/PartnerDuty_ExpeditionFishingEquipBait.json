@@ -1,1 +1,111 @@
-{"DutyName":{"zh":"\u9493\u9C7C\u8FDC\u5F81\u4E0A\u9975","en":"Fishing Expedition Equip Bait","ja":"Fishing Expedition Equip Bait"},"DutySummary":{"zh":"Adding bait to hook.","en":"Adding bait to hook.","ja":"Adding bait to hook."},"DutyTags":[{"key":"DutyTag_Methodical","type":"NPCDutyTag","name":{"zh":"\u6709\u6761\u4E0D\u7D0A\u7684","en":"Methodical","ja":"Methodical"}},{"key":"DutyTag_Nature","type":"NPCDutyTag","name":{"zh":"\u81EA\u7136","en":"Nature","ja":"Nature"}}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredInventoryWeight":{"Range":{"x":0.0,"y":0.8},"UsePercentage":true},"RequiredNPCStatValues":[{"TargetAgent":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}},"TargetStat":{"key":"Partner_ExpeditionActiveFishing","type":"NPCStat","name":{"zh":"\u8FDC\u5F81\u4E2D(\u9493\u9C7C)","en":"Partner_ExpeditionActiveFishing","ja":"Partner_ExpeditionActiveFishing"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"Has Bait Inside fishing line","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Has Bait Inside fishing line","en":"Has Bait Inside fishing line","ja":"Has Bait Inside fishing line"}},{"key":"Cancel Duty","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Cancel Duty","en":"Cancel Duty","ja":"Cancel Duty"}},{"key":"Equip Bait","type":"AffectItemsDutyAction","name":{"zh":"Equip Bait","en":"Equip Bait","ja":"Equip Bait"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_ExpeditionFishingEquipBait","name":{"zh":"\u9493\u9C7C\u8FDC\u5F81\u4E0A\u9975","en":"Fishing Expedition Equip Bait","ja":"Fishing Expedition Equip Bait"},"_uuid":"e561b6111447c31409f2a27a93eda2fb"}
+
+{
+  "DutyName" : {
+    "zh" : "\u9493\u9C7C\u8FDC\u5F81\u4E0A\u9975",
+    "en" : "Fishing Expedition Equip Bait",
+    "ja" : "Fishing Expedition Equip Bait"
+  },
+  "DutySummary" : {
+    "zh" : "Adding bait to hook.",
+    "en" : "Adding bait to hook.",
+    "ja" : "Adding bait to hook."
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Methodical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u6709\u6761\u4E0D\u7D0A\u7684",
+        "en" : "Methodical",
+        "ja" : "Methodical"
+      }
+    },
+    {
+      "key" : "DutyTag_Nature",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u81EA\u7136",
+        "en" : "Nature",
+        "ja" : "Nature"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredInventoryWeight" : {
+      "Range" : {
+        "x" : 0.0,
+        "y" : 0.8
+      },
+      "UsePercentage" : true
+    },
+    "RequiredNPCStatValues"   : [
+      {
+        "TargetAgent" : {
+          "key" : "Agent_Partner",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_Partner__AgentImage",
+          "name" : {
+            "zh" : "\u540C\u4F34",
+            "en" : "Partner",
+            "ja" : "Partner"
+          }
+        },
+        "TargetStat"  : {
+          "key" : "Partner_ExpeditionActiveFishing",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8FDC\u5F81\u4E2D(\u9493\u9C7C)",
+            "en" : "Partner_ExpeditionActiveFishing",
+            "ja" : "Partner_ExpeditionActiveFishing"
+          }
+        },
+        "ConditionRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Has Bait Inside fishing line",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Has Bait Inside fishing line",
+        "en" : "Has Bait Inside fishing line",
+        "ja" : "Has Bait Inside fishing line"
+      }
+    },
+    {
+      "key" : "Cancel Duty",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Cancel Duty",
+        "en" : "Cancel Duty",
+        "ja" : "Cancel Duty"
+      }
+    },
+    {
+      "key" : "Equip Bait",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Equip Bait",
+        "en" : "Equip Bait",
+        "ja" : "Equip Bait"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_ExpeditionFishingEquipBait",
+  "name"                 : {
+    "zh" : "\u9493\u9C7C\u8FDC\u5F81\u4E0A\u9975",
+    "en" : "Fishing Expedition Equip Bait",
+    "ja" : "Fishing Expedition Equip Bait"
+  },
+  "_uuid"                : "e561b6111447c31409f2a27a93eda2fb"
+}

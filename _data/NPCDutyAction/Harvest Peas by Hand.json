@@ -1,1 +1,70 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"PeaFieldMature","type":"CardData","CardType":2,"icon":"ea00a0a936dd320f","name":{"zh":"\u6210\u719F\u7684\u8C4C\u8C46\u7530","en":"Mature Pea Field","ja":"\u6210\u9577\u3057\u305F\u30D4\u30FC\u30B9\u7551"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":2},"AffectType":1,"SimpleAffectDuration":0,"ActionToPerform":{"ActionType":0,"GivenCardSelectionMethod":0,"GivenCardSelection":{"ItemPool":[{"Target":{"Target":{"key":"MeatBrainMush","type":"CardData","CardType":0,"icon":"555452066fd4fb50","name":{"zh":"\u8111\u6D46","en":"Brain Mush","ja":"\u8133\u306E\u7DF4\u308A\u7269"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":1},"ActionDroppedCards":0},"key":"Harvest Peas by Hand","type":"NPCDutyAction","name":{"zh":"Harvest Peas by Hand","en":"Harvest Peas by Hand","ja":"Harvest Peas by Hand"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "PeaFieldMature",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Bp_PeasField__CardImage",
+            "name"     : {
+              "zh" : "\u6210\u719F\u7684\u8C4C\u8C46\u7530",
+              "en" : "Mature Pea Field",
+              "ja" : "\u6210\u9577\u3057\u305F\u30D4\u30FC\u30B9\u7551"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 2
+  },
+  "AffectType"    : 1,
+  "SimpleAffectDuration" : 0,
+  "ActionToPerform"      : {
+    "ActionType" : 0,
+    "GivenCardSelectionMethod" : 0,
+    "GivenCardSelection"       : {
+      "ItemPool" : [
+        {
+          "Target" : {
+            "Target" : {
+              "key" : "MeatBrainMush",
+              "type" : "CardData",
+              "CardType" : 0,
+              "icon"     : "CardData__MeatBrainMush__CardImage",
+              "name"     : {
+                "zh" : "\u8111\u6D46",
+                "en" : "Brain Mush",
+                "ja" : "\u8133\u306E\u7DF4\u308A\u7269"
+              }
+            }
+          },
+          "Quantity" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "SearchPriority" : 0,
+      "OwnershipPriority" : 1,
+      "DutyPriority"      : 1
+    },
+    "ActionDroppedCards"       : 0
+  },
+  "key"                  : "Harvest Peas by Hand",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Harvest Peas by Hand",
+    "en" : "Harvest Peas by Hand",
+    "ja" : "Harvest Peas by Hand"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

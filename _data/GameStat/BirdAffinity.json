@@ -1,1 +1,548 @@
-{"GameName":{"zh":"\u79BD\u9E1F\u4EB2\u548C\u5EA6","en":"Bird Affinity","ja":"\u9CE5\u306E\u89AA\u548C\u6027"},"Description":{"zh":"\u4F60\u4E0E\u9E1F\u7CBE\u9B44\u7684\u878D\u5408\u7A0B\u5EA6\u3002\n\n\u72E9\u730E\u91CE\u517D\u6216\u5728\u5B83\u4EEC\u9644\u8FD1\u9017\u7559\u5747\u53EF\u5F97\u5230\u63D0\u5347\u3002","en":"How much in common you have with the spirit of Birds.\n\nHunt birds or spend time near them to increase it.","ja":"\u9CE5\u306E\u7CBE\u970A\u3068\u306E\u5171\u9CF4\u306E\u6DF1\u3055\u3002\n\n\u9CE5\u3092\u72E9\u3063\u305F\u308A\u3001\u305D\u306E\u8FD1\u304F\u3067\u904E\u3054\u3059\u3053\u3068\u3067\u9AD8\u307E\u308B\u3002"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1000.0},"BaseRatePerTick":-0.1,"StatPriority":0,"Visibility":0,"BarColor":{"r":0.8706,"g":0.4431,"b":0.4039,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"ecde740067147119"},"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"NotEnoughText":{"zh":"\u4EB2\u548C\u5EA6\u4E0D\u591F\u3002","en":"Not enough affinity.","ja":"\u89AA\u548C\u6027\u304C\u8DB3\u308A\u306A\u3044\u3002"},"type":"GameStat","key":"BirdAffinity","icon":"ecde740067147119","name":{"zh":"\u79BD\u9E1F\u4EB2\u548C\u5EA6","en":"Bird Affinity","ja":"\u9CE5\u306E\u89AA\u548C\u6027"},"min":0.0,"max":1000.0,"_modifierValues":[{"source":{"key":"Bp_PartridgeEnchantment","type":"CardData","CardType":7,"icon":"8237a8aeeb768e08","name":{"zh":"\u7070\u5C71\u9E51\u9644\u9B54","en":"Partridge Enchantment","ja":"\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u52A0\u8B77"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":12.0,"y":12.0}},{"source":{"key":"Carcass_ChickenCarcass","type":"CardData","CardType":0,"icon":"a9514f8884af9547","name":{"zh":"\u6B7B\u9E21","en":"Dead Chicken","ja":"\u6B7B\u3093\u3060\u30CB\u30EF\u30C8\u30EA"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u91CA\u653E\u7CBE\u9B44","en":"Action: Release the Spirit","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7CBE\u970A\u3092\u89E3\u653E\u3059\u308B"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"Carcass_ChickenCockCarcass","type":"CardData","CardType":0,"icon":"73d194d3d5c21ae2","name":{"zh":"\u6B7B\u516C\u9E21","en":"Dead Cock","ja":"\u96C4\u9D8F\u306E\u6B7B\u9AB8"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u91CA\u653E\u7CBE\u9B44","en":"Action: Release the Spirit","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7CBE\u970A\u3092\u89E3\u653E\u3059\u308B"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"Carcass_PartridgeCarcass","type":"CardData","CardType":0,"icon":"ce161f920bef4e79","name":{"zh":"\u7070\u5C71\u9E51\u5C38\u4F53","en":"Dead Partridge","ja":"\u6B7B\u3093\u3060\u30E4\u30DE\u30A6\u30BA\u30E9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u91CA\u653E\u7CBE\u9B44","en":"Action: Release the Spirit","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7CBE\u970A\u3092\u89E3\u653E\u3059\u308B"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"Carcass_PartridgeCarcass","type":"CardData","CardType":0,"icon":"ce161f920bef4e79","name":{"zh":"\u7070\u5C71\u9E51\u5C38\u4F53","en":"Dead Partridge","ja":"\u6B7B\u3093\u3060\u30E4\u30DE\u30A6\u30BA\u30E9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u8D50\u798F","en":"Action: Blessing","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u8B77"},"value":{"x":12.0,"y":12.0}},{"source":{"key":"DEBUG_Event_Spawner","type":"CardData","CardType":3,"icon":"9f58ec6ab37330d9","name":{"zh":"\u8D50\u798F","en":"Spawner Event","ja":"\u795D\u798F"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7EE7\u7EED","en":"Action: Magic  Fuel","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D9A\u3051\u308B"},"value":{"x":3000.0,"y":3000.0}},{"source":{"key":"HollownessStatus","type":"GameStat","min":0.0,"max":10.0,"name":{"zh":"\u7A7A\u58F3\u5316\u72B6\u6001","en":"Hollowness Status","ja":"Hollowness Status"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7EA7","en":"Status Stage: Intermediate","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AIntermediate"},"value":{"x":-125.0,"y":-125.0}},{"source":{"key":"HollownessStatus","type":"GameStat","min":0.0,"max":10.0,"name":{"zh":"\u7A7A\u58F3\u5316\u72B6\u6001","en":"Hollowness Status","ja":"Hollowness Status"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8","en":"Status Stage: High","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHigh"},"value":{"x":-250.0,"y":-250.0}}],"_modifierRates":[{"source":{"key":"ChickenFreeChick","type":"CardData","CardType":0,"icon":"02b6c8c087d8f83d","name":{"zh":"\u9E21\u4ED4","en":"Chicken Chick","ja":"\u3072\u3088\u3053"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"ChickenFreeFemale","type":"CardData","CardType":0,"icon":"8de495879365ff8e","name":{"zh":"\u6BCD\u9E21","en":"Chicken","ja":"\u30CB\u30EF\u30C8\u30EA"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ChickenFreeMale","type":"CardData","CardType":0,"icon":"2a60b7468671cb2d","name":{"zh":"\u516C\u9E21","en":"Cock","ja":"\u96C4\u9D8F"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"PartridgeFreeChick","type":"CardData","CardType":0,"icon":"6aae3523d517ebaa","name":{"zh":"\u7070\u5C71\u9E51\u4ED4","en":"Partridge Chick","ja":"\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u3072\u306A"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"PartridgeFreeFemale","type":"CardData","CardType":0,"icon":"ecde740067147119","name":{"zh":"\u7070\u5C71\u9E51","en":"Partridge","ja":"\u30E4\u30DE\u30A6\u30BA\u30E9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"PartridgeFreeMale","type":"CardData","CardType":0,"icon":"ecde740067147119","name":{"zh":"\u516C\u7070\u5C71\u9E51","en":"Male Partridge","ja":"\u96C4\u30E4\u30DE\u30A6\u30BA\u30E9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"PartridgeTiedFemale","type":"CardData","CardType":0,"icon":"ce161f920bef4e79","name":{"zh":"\u7070\u5C71\u9E51","en":"Partridge","ja":"\u30E4\u30DE\u30A6\u30BA\u30E9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"PartridgeTiedMale","type":"CardData","CardType":0,"icon":"ce161f920bef4e79","name":{"zh":"\u516C\u7070\u5C71\u9E51","en":"Male Partridge","ja":"\u96C4\u306E\u30E4\u30DE\u30A6\u30BA\u30E9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"HollownessStatus","type":"GameStat","min":0.0,"max":10.0,"name":{"zh":"\u7A7A\u58F3\u5316\u72B6\u6001","en":"Hollowness Status","ja":"Hollowness Status"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7EA7","en":"Status Stage: Intermediate","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AIntermediate"},"value":{"x":-0.1,"y":-0.1}},{"source":{"key":"HollownessStatus","type":"GameStat","min":0.0,"max":10.0,"name":{"zh":"\u7A7A\u58F3\u5316\u72B6\u6001","en":"Hollowness Status","ja":"Hollowness Status"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8","en":"Status Stage: High","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHigh"},"value":{"x":-0.25,"y":-0.25}}],"_requires":[{"source":{"key":"Bp_PartridgeEnchantment","type":"CardData","CardType":7,"icon":"8237a8aeeb768e08","name":{"zh":"\u7070\u5C71\u9E51\u9644\u9B54","en":"Partridge Enchantment","ja":"\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u52A0\u8B77"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":100.0,"y":1000000000.0}},{"source":{"key":"Carcass_PartridgeCarcass","type":"CardData","CardType":0,"icon":"ce161f920bef4e79","name":{"zh":"\u7070\u5C71\u9E51\u5C38\u4F53","en":"Dead Partridge","ja":"\u6B7B\u3093\u3060\u30E4\u30DE\u30A6\u30BA\u30E9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u8D50\u798F","en":"Action: Blessing","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u8B77"},"value":{"x":50.0,"y":1000000000.0}},{"source":{"key":"Spirit_Partridge","type":"CardData","CardType":0,"icon":"8237a8aeeb768e08","name":{"zh":"\u7070\u5C71\u9E51\u7CBE\u9B44","en":"Partridge Spirit","ja":"\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u7CBE\u970A"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u4F4E\u4EB2\u548C","en":"Passive Effect: Low Affinity","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALow Affinity"},"value":{"x":0.0,"y":250.0}},{"source":{"key":"Spirit_Partridge","type":"CardData","CardType":0,"icon":"8237a8aeeb768e08","name":{"zh":"\u7070\u5C71\u9E51\u7CBE\u9B44","en":"Partridge Spirit","ja":"\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u7CBE\u970A"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u9AD8\u4EB2\u548C","en":"Passive Effect: High Affinity","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHigh Affinity"},"value":{"x":251.0,"y":1000.0}}],"_uuid":"bcb4a12b1b166cc4c915db264df5e910"}
+
+{
+  "GameName" : {
+    "zh" : "\u79BD\u9E1F\u4EB2\u548C\u5EA6",
+    "en" : "Bird Affinity",
+    "ja" : "\u9CE5\u306E\u89AA\u548C\u6027"
+  },
+  "Description" : {
+    "zh" : "\u4F60\u4E0E\u9E1F\u7CBE\u9B44\u7684\u878D\u5408\u7A0B\u5EA6\u3002\n\n\u72E9\u730E\u91CE\u517D\u6216\u5728\u5B83\u4EEC\u9644\u8FD1\u9017\u7559\u5747\u53EF\u5F97\u5230\u63D0\u5347\u3002",
+    "en" : "How much in common you have with the spirit of Birds.\n\nHunt birds or spend time near them to increase it.",
+    "ja" : "\u9CE5\u306E\u7CBE\u970A\u3068\u306E\u5171\u9CF4\u306E\u6DF1\u3055\u3002\n\n\u9CE5\u3092\u72E9\u3063\u305F\u308A\u3001\u305D\u306E\u8FD1\u304F\u3067\u904E\u3054\u3059\u3053\u3068\u3067\u9AD8\u307E\u308B\u3002"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 1000.0
+  },
+  "BaseRatePerTick" : -0.1,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.8706,
+    "g" : 0.4431,
+    "b" : 0.4039,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "GameStat__BirdAffinity__DefaultStatusIcon"
+  },
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "NotEnoughText"           : {
+    "zh" : "\u4EB2\u548C\u5EA6\u4E0D\u591F\u3002",
+    "en" : "Not enough affinity.",
+    "ja" : "\u89AA\u548C\u6027\u304C\u8DB3\u308A\u306A\u3044\u3002"
+  },
+  "type"                    : "GameStat",
+  "key"                     : "BirdAffinity",
+  "icon"                    : "GameStat__BirdAffinity__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u79BD\u9E1F\u4EB2\u548C\u5EA6",
+    "en" : "Bird Affinity",
+    "ja" : "\u9CE5\u306E\u89AA\u548C\u6027"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1000.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Bp_PartridgeEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u7070\u5C71\u9E51\u9644\u9B54",
+          "en" : "Partridge Enchantment",
+          "ja" : "\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u52A0\u8B77"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 12.0,
+        "y" : 12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Carcass_ChickenCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_ChickenCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E21",
+          "en" : "Dead Chicken",
+          "ja" : "\u6B7B\u3093\u3060\u30CB\u30EF\u30C8\u30EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u91CA\u653E\u7CBE\u9B44",
+        "en" : "Action: Release the Spirit",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7CBE\u970A\u3092\u89E3\u653E\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Carcass_ChickenCockCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_ChickenCockCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u516C\u9E21",
+          "en" : "Dead Cock",
+          "ja" : "\u96C4\u9D8F\u306E\u6B7B\u9AB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u91CA\u653E\u7CBE\u9B44",
+        "en" : "Action: Release the Spirit",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7CBE\u970A\u3092\u89E3\u653E\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Carcass_PartridgeCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_PartridgeCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u7070\u5C71\u9E51\u5C38\u4F53",
+          "en" : "Dead Partridge",
+          "ja" : "\u6B7B\u3093\u3060\u30E4\u30DE\u30A6\u30BA\u30E9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u91CA\u653E\u7CBE\u9B44",
+        "en" : "Action: Release the Spirit",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7CBE\u970A\u3092\u89E3\u653E\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Carcass_PartridgeCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_PartridgeCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u7070\u5C71\u9E51\u5C38\u4F53",
+          "en" : "Dead Partridge",
+          "ja" : "\u6B7B\u3093\u3060\u30E4\u30DE\u30A6\u30BA\u30E9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u8D50\u798F",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u8B77"
+      },
+      "value"       : {
+        "x" : 12.0,
+        "y" : 12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "DEBUG_Event_Spawner",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Bp_AwakeningRitual__CardImage",
+        "name"     : {
+          "zh" : "\u8D50\u798F",
+          "en" : "Spawner Event",
+          "ja" : "\u795D\u798F"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7EE7\u7EED",
+        "en" : "Action: Magic  Fuel",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D9A\u3051\u308B"
+      },
+      "value"       : {
+        "x" : 3000.0,
+        "y" : 3000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HollownessStatus",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 10.0,
+        "name" : {
+          "zh" : "\u7A7A\u58F3\u5316\u72B6\u6001",
+          "en" : "Hollowness Status",
+          "ja" : "Hollowness Status"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7EA7",
+        "en" : "Status Stage: Intermediate",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AIntermediate"
+      },
+      "value"       : {
+        "x" : -125.0,
+        "y" : -125.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HollownessStatus",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 10.0,
+        "name" : {
+          "zh" : "\u7A7A\u58F3\u5316\u72B6\u6001",
+          "en" : "Hollowness Status",
+          "ja" : "Hollowness Status"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8",
+        "en" : "Status Stage: High",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHigh"
+      },
+      "value"       : {
+        "x" : -250.0,
+        "y" : -250.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "ChickenFreeChick",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__ChickenChickDead__CardImage",
+        "name"     : {
+          "zh" : "\u9E21\u4ED4",
+          "en" : "Chicken Chick",
+          "ja" : "\u3072\u3088\u3053"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "ChickenFreeFemale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__ChickenFreeFemale__CardImage",
+        "name"     : {
+          "zh" : "\u6BCD\u9E21",
+          "en" : "Chicken",
+          "ja" : "\u30CB\u30EF\u30C8\u30EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ChickenFreeMale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__ChickenFreeMale__CardImage",
+        "name"     : {
+          "zh" : "\u516C\u9E21",
+          "en" : "Cock",
+          "ja" : "\u96C4\u9D8F"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartridgeFreeChick",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__PartridgeChickDead__CardImage",
+        "name"     : {
+          "zh" : "\u7070\u5C71\u9E51\u4ED4",
+          "en" : "Partridge Chick",
+          "ja" : "\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u3072\u306A"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartridgeFreeFemale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__BirdAffinity__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u7070\u5C71\u9E51",
+          "en" : "Partridge",
+          "ja" : "\u30E4\u30DE\u30A6\u30BA\u30E9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartridgeFreeMale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__BirdAffinity__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u516C\u7070\u5C71\u9E51",
+          "en" : "Male Partridge",
+          "ja" : "\u96C4\u30E4\u30DE\u30A6\u30BA\u30E9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartridgeTiedFemale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_PartridgeCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u7070\u5C71\u9E51",
+          "en" : "Partridge",
+          "ja" : "\u30E4\u30DE\u30A6\u30BA\u30E9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartridgeTiedMale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_PartridgeCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u516C\u7070\u5C71\u9E51",
+          "en" : "Male Partridge",
+          "ja" : "\u96C4\u306E\u30E4\u30DE\u30A6\u30BA\u30E9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HollownessStatus",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 10.0,
+        "name" : {
+          "zh" : "\u7A7A\u58F3\u5316\u72B6\u6001",
+          "en" : "Hollowness Status",
+          "ja" : "Hollowness Status"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7EA7",
+        "en" : "Status Stage: Intermediate",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AIntermediate"
+      },
+      "value"       : {
+        "x" : -0.1,
+        "y" : -0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "HollownessStatus",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 10.0,
+        "name" : {
+          "zh" : "\u7A7A\u58F3\u5316\u72B6\u6001",
+          "en" : "Hollowness Status",
+          "ja" : "Hollowness Status"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8",
+        "en" : "Status Stage: High",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHigh"
+      },
+      "value"       : {
+        "x" : -0.25,
+        "y" : -0.25
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "Bp_PartridgeEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u7070\u5C71\u9E51\u9644\u9B54",
+          "en" : "Partridge Enchantment",
+          "ja" : "\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u52A0\u8B77"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Carcass_PartridgeCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_PartridgeCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u7070\u5C71\u9E51\u5C38\u4F53",
+          "en" : "Dead Partridge",
+          "ja" : "\u6B7B\u3093\u3060\u30E4\u30DE\u30A6\u30BA\u30E9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u8D50\u798F",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u8B77"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Spirit_Partridge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u7070\u5C71\u9E51\u7CBE\u9B44",
+          "en" : "Partridge Spirit",
+          "ja" : "\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u7CBE\u970A"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4F4E\u4EB2\u548C",
+        "en" : "Passive Effect: Low Affinity",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALow Affinity"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 250.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Spirit_Partridge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u7070\u5C71\u9E51\u7CBE\u9B44",
+          "en" : "Partridge Spirit",
+          "ja" : "\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u7CBE\u970A"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u9AD8\u4EB2\u548C",
+        "en" : "Passive Effect: High Affinity",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHigh Affinity"
+      },
+      "value"       : {
+        "x" : 251.0,
+        "y" : 1000.0
+      }
+    }
+  ],
+  "_uuid"                   : "bcb4a12b1b166cc4c915db264df5e910"
+}

@@ -1,1 +1,55 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"tag_fishBait","type":"CardTag","count":12,"name":{"zh":"\u9C7C\u9975","en":"Fish Bait","ja":"\u9B5A\u306E\u990C"}}}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":0},"AffectType":3,"SimpleAffectDuration":0,"DropItemOptions":{"Drop":1,"Containers":[{"Target":{"key":"FishingLine_Rustic","type":"CardData","CardType":0,"icon":"3db65ab1b9830561","name":{"zh":"\u9493\u9C7C\u7EBF","en":"Fishing Line","ja":"\u91E3\u308A\u7CF8"}}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":0},"key":"Add bait to fishing line","type":"NPCDutyAction","name":{"zh":"Add bait to fishing line","en":"Add bait to fishing line","ja":"Add bait to fishing line"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "tag_fishBait",
+            "type" : "CardTag",
+            "count" : 12,
+            "name"  : {
+              "zh" : "\u9C7C\u9975",
+              "en" : "Fish Bait",
+              "ja" : "\u9B5A\u306E\u990C"
+            }
+          }
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0
+  },
+  "AffectType"    : 3,
+  "SimpleAffectDuration" : 0,
+  "DropItemOptions"      : {
+    "Drop" : 1,
+    "Containers" : [
+      {
+        "Target" : {
+          "key" : "FishingLine_Rustic",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_FishingLine_Rustic__CardImage",
+          "name"     : {
+            "zh" : "\u9493\u9C7C\u7EBF",
+            "en" : "Fishing Line",
+            "ja" : "\u91E3\u308A\u7CF8"
+          }
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0
+  },
+  "key"                  : "Add bait to fishing line",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Add bait to fishing line",
+    "en" : "Add bait to fishing line",
+    "ja" : "Add bait to fishing line"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

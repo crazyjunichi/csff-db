@@ -1,1 +1,3090 @@
-{"GameName":{"zh":"\u906E\u853D","en":"Sheltered","ja":"\u4FDD\u8B77\u3055\u308C\u3066\u308B"},"Description":{"zh":"\u663E\u793A\u51FA\u4F60\u514D\u4E8E\u53D7\u5230\u67D0\u4E9B\u56E0\u7D20\u7684\u5F71\u54CD\uFF0C\u4F8B\u5982\u5BF9\u98CE\u548C\u96E8\u3002","en":"Shows whether you're protected from the elements, such as wind and rain.","ja":"\u98A8\u3084\u96E8\u306A\u3069\u3001\u5C5E\u6027\u304B\u3089\u5B88\u3089\u308C\u3066\u308B\u304B\u3092\u793A\u3059\u3002"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":0,"StatusesHaveNoBar":true,"DefaultStatusIcon":{"FileName":"970da5f1f2e32aeb"},"Statuses":[{"GameName":{"zh":"\u53D7\u5230\u5E87\u62A4","en":"Sheltered","ja":"\u4FDD\u8B77\u3055\u308C\u3066\u308B"},"Description":{"zh":"\u5916\u9762\u7684\u5929\u6C14\u65E0\u6CD5\u5F71\u54CD\u5230\u4F60\u4E86\u3002","en":"You are protected from the weather.","ja":"\u5929\u6C17\u304B\u3089\u5B88\u3089\u308C\u3066\u308B\u3002"},"Icon":{"FileName":"970da5f1f2e32aeb"},"ValueRange":{"m_X":1,"m_Y":1},"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u672A\u88AB\u5E87\u62A4","en":"Unsheltered","ja":"\u4FDD\u8B77\u3055\u308C\u3066\u306A\u3044"},"Description":{"zh":"\u4F60\u4F1A\u53D7\u5230\u5929\u6C14\u7684\u5F71\u54CD\u3002","en":"You are not protected from the weather.","ja":"\u3053\u3053\u3067\u306F\u5929\u6C17\u304B\u3089\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u308B\u53EF\u80FD\u6027\u304C\u3042\u308B\u3002"},"EffectsOnStats":[{"Stat":{"key":"Sanctuary","type":"GameStat","icon":"6456174d4ab93c9c","min":-1000.0,"max":7500.0,"name":{"zh":"\u5E87\u62A4\u5EA6","en":"Sanctuary","ja":"\u5B89\u606F\u5EA6"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"NotEnoughText":{"zh":"\u4E0D\u80FD\u5728\u8FD9\u91CC\u5EFA\u9020\u3002","en":"Cannot be built here.","ja":"\u3053\u3053\u3067\u306F\u5EFA\u3066\u3089\u308C\u306A\u3044\u3002"},"type":"GameStat","key":"Sheltered","icon":"970da5f1f2e32aeb","name":{"zh":"\u906E\u853D","en":"Sheltered","ja":"\u4FDD\u8B77\u3055\u308C\u3066\u308B"},"min":0.0,"max":1.0,"_modifierValues":[{"source":{"key":"CabinConstructionLocationAttic","type":"CardData","CardType":8,"icon":"8914fa4926641df0","name":{"zh":"\u9601\u697C","en":"Attic","ja":"\u5C4B\u6839\u88CF"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"CabinConstructionLocationCabinRoom","type":"CardData","CardType":8,"icon":"6e98e1fd4e7742ab","name":{"zh":"\u6728\u8D28\u623F\u95F4","en":"Cabin Room","ja":"\u5C0F\u5C4B\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"CabinConstructionStartingPointCabin","type":"CardData","CardType":8,"icon":"c0d841edb9de544c","name":{"zh":"\u6728\u5C4B","en":"Cabin","ja":"\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MineConstructionLocationCopperMine","type":"CardData","CardType":8,"icon":"c3fc302af42741e4","name":{"zh":"\u94DC\u77FF\u4E95","en":"Copper Mine","ja":"\u9285\u306E\u9271\u5C71"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MineConstructionLocationFlintMine","type":"CardData","CardType":8,"icon":"c3fc302af42741e4","name":{"zh":"\u71E7\u77F3\u77FF\u4E95","en":"Flint Mine","ja":"\u706B\u6253\u77F3\u9271\u5C71"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MineConstructionLocationWitchstoneMine","type":"CardData","CardType":8,"icon":"c3fc302af42741e4","name":{"zh":"\u5DEB\u77F3\u77FF\u4E95","en":"Witchstone Mine","ja":"\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u9271\u5C71"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MineConstructionStartingPointCopperMine","type":"CardData","CardType":8,"icon":"c3fc302af42741e4","name":{"zh":"\u94DC\u77FF\u4E95","en":"Copper Mine","ja":"\u9285\u306E\u9271\u5C71"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MineConstructionStartingPointFlintMine","type":"CardData","CardType":8,"icon":"c3fc302af42741e4","name":{"zh":"\u71E7\u77F3\u77FF\u4E95","en":"Flint Mine","ja":"\u706B\u6253\u77F3\u9271\u5C71"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MineConstructionStartingPointWitchstoneMine","type":"CardData","CardType":8,"icon":"c3fc302af42741e4","name":{"zh":"\u5DEB\u77F3\u77FF\u4E95","en":"Witchstone Mine","ja":"\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u9271\u5C71"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MudHutConstructionLocationCellar","type":"CardData","CardType":8,"icon":"e2eb668412728cc1","name":{"zh":"\u5730\u7A96","en":"Cellar","ja":"\u30BB\u30E9\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MudHutConstructionLocationRoom","type":"CardData","CardType":8,"icon":"a752f397113b771e","name":{"zh":"\u623F\u95F4","en":"Room","ja":"\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MudHutConstructionStartingPointCellar","type":"CardData","CardType":8,"icon":"e2eb668412728cc1","name":{"zh":"\u5730\u7A96","en":"Cellar","ja":"\u30BB\u30E9\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MudHutConstructionStartingPointMudHut","type":"CardData","CardType":8,"icon":"fa5e4962cedf338b","name":{"zh":"\u6CE5\u5C4B","en":"Mud Hut","ja":"\u6CE5\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Env_Cabin","type":"CardData","CardType":4,"name":{"zh":"\u6728\u5C4B","en":"Cabin","ja":"\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Env_Coop","type":"CardData","CardType":4,"icon":"c6af69c0faad2e48","name":{"zh":"\u7B3C\u5B50","en":"Coop","ja":"\u9CE5\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MudHut","type":"CardData","CardType":8,"icon":"fa5e4962cedf338b","name":{"zh":"\u6CE5\u5C4B","en":"Mud Hut","ja":"\u6CE5\u306E\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MudHutExpansionLeft","type":"CardData","CardType":8,"icon":"a752f397113b771e","name":{"zh":"\u5DE6\u5C4B","en":"Left Room","ja":"\u5DE6\u306E\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"MudHutExpansionRight","type":"CardData","CardType":8,"icon":"a752f397113b771e","name":{"zh":"\u53F3\u5C4B","en":"Right Room","ja":"\u53F3\u306E\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Dmg_RoofCollapsed","type":"CardData","CardType":11,"name":{"zh":"\u574D\u584C\u7684\u5C4B\u9876","en":"Collapsed Roof","ja":"\u5D29\u308C\u305F\u5C4B\u6839"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"Caves_BearCave","type":"CardData","CardType":8,"icon":"b16a3644669613f1","name":{"zh":"\u718A\u6D1E","en":"Bear Cave","ja":"\u30AF\u30DE\u306E\u6D1E\u7A9F"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_CaveOldHollow","type":"CardData","CardType":8,"icon":"b16a3644669613f1","name":{"zh":"\u5DE8\u5927\u6D1E\u7A74","en":"Great Cave","ja":"\u5927\u6D1E\u7A9F"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_CavePineSlopes","type":"CardData","CardType":8,"icon":"b16a3644669613f1","name":{"zh":"\u6D1E\u7A74","en":"Cave","ja":"\u6D1E\u7A9F"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_CaveRiverPass","type":"CardData","CardType":8,"icon":"b16a3644669613f1","name":{"zh":"\u6D1E\u7A74","en":"Cave","ja":"\u6D1E\u7A9F"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_CaveShadyThicket","type":"CardData","CardType":8,"icon":"b16a3644669613f1","name":{"zh":"\u9690\u79D8\u6D1E\u7A74","en":"Secret Cave","ja":"\u79D8\u5BC6\u306E\u6D1E\u7A9F"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_CaveStillHollow","type":"CardData","CardType":8,"icon":"b16a3644669613f1","name":{"zh":"\u9759\u8C27\u6D1E\u7A74","en":"Still Cave","ja":"\u9759\u5BC2\u306E\u6D1E\u7A9F"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FlintSett","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u71E7\u77F3\u5DE2\u7A74","en":"Flint Sett","ja":"\u706B\u6253\u77F3\u306E\u5927\u9271\u8108"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmClearedTunnel","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u5DF2\u6E05\u7406\u7684\u96A7\u9053","en":"Cleared Tunnel","ja":"\u5C4B\u6839\u5D29\u58CA\u30AB\u30A6\u30F3\u30BF\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmCollapsedTunnel","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u574D\u584C\u7684\u96A7\u9053","en":"Collapsed Tunnel","ja":"\u5D29\u308C\u305F\u30C8\u30F3\u30CD\u30EB"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmDarkTunnelNorthEast","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u9ED1\u6697\u96A7\u9053","en":"Dark Tunnel","ja":"\u6697\u3044\u30C8\u30F3\u30CD\u30EB"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmDarkTunnelNorthWest","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u9ED1\u6697\u96A7\u9053","en":"Dark Tunnel","ja":"\u6697\u3044\u30C8\u30F3\u30CD\u30EB"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmDarkTunnelSouthEast","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u9ED1\u6697\u96A7\u9053","en":"Dark Tunnel","ja":"\u6697\u3044\u30C8\u30F3\u30CD\u30EB"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmDarkTunnelSouthWest","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u9ED1\u6697\u96A7\u9053","en":"Dark Tunnel","ja":"\u6697\u3044\u30C8\u30F3\u30CD\u30EB"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmDarkTunnelWest","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u9ED1\u6697\u96A7\u9053","en":"Dark Tunnel","ja":"\u6697\u3044\u30C8\u30F3\u30CD\u30EB\uFF08\u897F\uFF09"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmFlintclawsChamber","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u71E7\u722A\u7684\u5DE2\u7A74","en":"Flintclaw's Chamber","ja":"\u30D5\u30EA\u30F3\u30C8\u30AF\u30ED\u30FC\u306E\u9593"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmFloodedTunnel","type":"CardData","CardType":8,"icon":"a0719a91f80c6d9e","name":{"zh":"\u8986\u6EBA\u96A7\u9053","en":"Flooded Tunnel","ja":"\u6D78\u6C34\u3057\u305F\u30C8\u30F3\u30CD\u30EB"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmNorthernChamber","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u5317\u90E8\u6D1E\u7A74","en":"Northern Chamber","ja":"\u5317\u306E\u9593"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmNorthernTunnel","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u5317\u90E8\u96A7\u9053","en":"Northern Tunnel","ja":"\u5317\u306E\u6D1E\u7A9F"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmOminousTunnel","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u4E0D\u7965\u96A7\u9053","en":"Ominous Tunnel","ja":"\u4E0D\u7A4F\u306A\u30C8\u30F3\u30CD\u30EB"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmOvergrownTunnel","type":"CardData","CardType":8,"icon":"3d0fe771952580d6","name":{"zh":"\u85E4\u8513\u8986\u76D6\u7684\u96A7\u9053","en":"Overgrown Tunnel","ja":"\u8349\u6728\u306B\u8986\u308F\u308C\u305F\u30C8\u30F3\u30CD\u30EB"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmSouthernTunnel","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u5357\u90E8\u96A7\u9053","en":"Southern Tunnel","ja":"\u5357\u306E\u30C8\u30F3\u30CD\u30EB"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_FmTheShaft","type":"CardData","CardType":8,"icon":"8c9b6fb65deaa82e","name":{"zh":"\u7AD6\u4E95","en":"The Shaft","ja":"\u30B7\u30E3\u30D5\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_WaterfallCaves","type":"CardData","CardType":8,"icon":"a8f34a1fc7f5c678","name":{"zh":"\u7011\u5E03\u6D1E\u7A74","en":"Waterfall Caves","ja":"\u6EDD\u306E\u6D1E\u7A9F"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Caves_WolfCave","type":"CardData","CardType":8,"icon":"b16a3644669613f1","name":{"zh":"\u72FC\u7A74","en":"Wolf Cave","ja":"\u72FC\u306E\u6D1E\u7A9F"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"DeathCrack_DeathChamber","type":"CardData","CardType":8,"icon":"3d0fe771952580d6","name":{"zh":"\u6B7B\u4EA1\u6D1E\u5BA4","en":"Death Chamber","ja":"\u6B7B\u306E\u9593"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"DeathCrack_EntranceTunnel","type":"CardData","CardType":8,"icon":"8c9b6fb65deaa82e","name":{"zh":"\u5165\u53E3\u96A7\u6D1E","en":"Entrance Tunnel","ja":"\u5165\u53E3\u306E\u5751\u9053"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"DeathCrack_OuterChamber","type":"CardData","CardType":8,"icon":"3333e19a799949b3","name":{"zh":"\u5916\u5385\u6D1E\u5BA4","en":"Outer Chamber","ja":"\u5916\u90ED\u533A\u753B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"TEST_MudHutMap","type":"CardData","CardType":8,"icon":"fa5e4962cedf338b","name":{"zh":"\u6CE5\u5C4B","en":"Mud Hut","ja":"\u6CE5\u306E\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"TEST_MudHutMapExpansionRoom","type":"CardData","CardType":8,"icon":"a752f397113b771e","name":{"zh":"\u5DE6\u5C4B","en":"Room","ja":"\u5DE6\u306E\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":1.0,"y":1.0}}],"_requires":[{"source":{"key":"Bp_Cabin","type":"CardData","CardType":7,"icon":"c0d841edb9de544c","name":{"zh":"\u6728\u5C4B","en":"Cabin","ja":"\u5C71\u5C0F\u5C4B"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Cellar","type":"CardData","CardType":7,"icon":"e2eb668412728cc1","name":{"zh":"\u5730\u7A96","en":"Cellar","ja":"\u30BB\u30E9\u30FC"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Enclosure","type":"CardData","CardType":7,"icon":"e7113d910e70a938","name":{"zh":"\u755C\u680F","en":"Enclosure","ja":"\u67F5\u56F2\u3044"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Levee","type":"CardData","CardType":7,"icon":"0a1f5e40f6a7d617","name":{"zh":"\u5824\u575D","en":"Levee","ja":"\u5824\u9632"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_LogTrap","type":"CardData","CardType":7,"icon":"e04112dcb3662736","name":{"zh":"\u539F\u6728\u9677\u9631","en":"Log Trap","ja":"\u4E38\u592A\u306E\u7F60"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_MudHut","type":"CardData","CardType":7,"icon":"fa5e4962cedf338b","name":{"zh":"\u6CE5\u5C4B","en":"Mud Hut","ja":"\u6CE5\u5C0F\u5C4B"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_PitTrap","type":"CardData","CardType":7,"icon":"25767ea297684060","name":{"zh":"\u9677\u5751","en":"Pit Trap","ja":"\u843D\u3068\u3057\u7A74"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_RainCistern","type":"CardData","CardType":7,"icon":"0099fdb84ef6ea33","name":{"zh":"\u96E8\u6C34\u7A96","en":"Rain Cistern","ja":"\u96E8\u6C34\u8CAF\u6C34\u69FD"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_TanningPit","type":"CardData","CardType":7,"icon":"ebbb61bc1b723824","name":{"zh":"\u97A3\u5236\u5751","en":"Tanning Pit","ja":"\u30BF\u30F3\u30CB\u30F3\u30B0\u30D4\u30C3\u30C8"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_TilledField","type":"CardData","CardType":7,"icon":"6ec2ca6b6673aea5","name":{"zh":"\u8015\u5730","en":"Tilled Field","ja":"\u8015\u3057\u305F\u7551"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_DeadfallTrap","type":"CardData","CardType":7,"icon":"1502bc76adfeac74","name":{"zh":"\u843D\u77F3\u9677\u9631","en":"Deadfall Trap","ja":"\u843D\u77F3\u30C8\u30E9\u30C3\u30D7"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_SnareTrap","type":"CardData","CardType":7,"icon":"0e9fbf16c721852c","name":{"zh":"\u5957\u7D22\u9677\u9631","en":"Snare Trap","ja":"\u304F\u304F\u308A\u7F60"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_BedLog","type":"CardData","CardType":7,"icon":"cfbfdf09b84a8da7","name":{"zh":"\u539F\u6728\u5E8A","en":"Log Bed","ja":"\u4E38\u592A\u306E\u30D9\u30C3\u30C9"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_Bloomery","type":"CardData","CardType":7,"icon":"40176f655847b0d8","name":{"zh":"\u5757\u70BC\u7089","en":"Bloomery","ja":"Bloomery"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_CloverField","type":"CardData","CardType":7,"icon":"6680bf96d1fe06b4","name":{"zh":"\u4E09\u53F6\u8349","en":"Clover","ja":"\u30AF\u30ED\u30FC\u30D0\u30FC"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_DryingRack","type":"CardData","CardType":7,"icon":"4f64f6fa0ea32b72","name":{"zh":"\u667E\u6652\u67B6","en":"Drying Rack","ja":"\u7269\u5E72\u3057"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_FlaxField","type":"CardData","CardType":7,"icon":"bf6c8c774f0cd749","name":{"zh":"\u4E9A\u9EBB","en":"Flax","ja":"\u4E9C\u9EBB"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Forge","type":"CardData","CardType":7,"icon":"2b90598bbcce1b29","name":{"zh":"\u953B\u9020\u53F0","en":"Forge","ja":"Forge"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Furnace","type":"CardData","CardType":7,"icon":"b2c6b15ed5fdfd74","name":{"zh":"\u7194\u7089","en":"Furnace","ja":"\u6EB6\u9271\u7089"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_GardenPlot","type":"CardData","CardType":7,"icon":"55973abac27ca68b","name":{"zh":"\u83DC\u56ED","en":"Garden Plot","ja":"\u30AC\u30FC\u30C7\u30F3\u533A\u753B"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_HeatherField","type":"CardData","CardType":7,"icon":"cba25afa6c736649","name":{"zh":"\u5E1A\u77F3\u5357","en":"Heather","ja":"\u30D8\u30B6\u30FC\u7551"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_ImprovisedShelter","type":"CardData","CardType":7,"icon":"9c01e51aff3d7a19","name":{"zh":"\u4E34\u65F6\u5E87\u62A4\u6240","en":"Improvised Shelter","ja":"\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Kiln","type":"CardData","CardType":7,"icon":"4e90ce9655385dfa","name":{"zh":"\u7A91\u7089","en":"Kiln","ja":"\u7AAF"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_MeadowgrassField","type":"CardData","CardType":7,"icon":"debc1d23dd555f2a","name":{"zh":"\u7267\u8349","en":"Meadowgrass","ja":"\u7267\u8349"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_PeaField","type":"CardData","CardType":7,"icon":"6680bf96d1fe06b4","name":{"zh":"\u8C4C\u8C46","en":"Peas","ja":"\u30D4\u30FC\u30B9"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_PeasField","type":"CardData","CardType":7,"icon":"ea00a0a936dd320f","name":{"zh":"\u8C4C\u8C46","en":"Peas","ja":"\u30D4\u30FC\u30B9"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_RusticTable","type":"CardData","CardType":7,"icon":"51c45b795d5d18a3","name":{"zh":"\u7B80\u6613\u684C\u5B50","en":"Rustic Table","ja":"\u30B7\u30F3\u30D7\u30EB\u306A\u30C6\u30FC\u30D6\u30EB"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_RyeField","type":"CardData","CardType":7,"icon":"debc1d23dd555f2a","name":{"zh":"\u9ED1\u9EA6","en":"Rye","ja":"\u30E9\u30A4\u9EA6"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Shelf","type":"CardData","CardType":7,"icon":"27369e02201cfd95","name":{"zh":"\u50A8\u7269\u67B6","en":"Shelf","ja":"\u68DA"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_SpiritShrine_Fire_RitualPyre","type":"CardData","CardType":7,"icon":"6b989e73500bc01d","name":{"zh":"\u4EEA\u5F0F\u67F4\u5806","en":"Ritual Pyre","ja":"\u5100\u5F0F\u7528\u706B\u846C\u53F0"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_SpiritShrine_Frost_FrostShrine","type":"CardData","CardType":7,"icon":"68efc20fdf37a535","name":{"zh":"\u971C\u51BB\u796D\u575B","en":"Frost Shrine","ja":"\u6C37\u971C\u306E\u7960"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_TurnrootField","type":"CardData","CardType":7,"icon":"6ec2ca6b6673aea5","name":{"zh":"\u7FFB\u6839","en":"Turnroot","ja":"\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_WheatField","type":"CardData","CardType":7,"icon":"debc1d23dd555f2a","name":{"zh":"\u5C0F\u9EA6","en":"Wheat","ja":"\u5C0F\u9EA6"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Workbench","type":"CardData","CardType":7,"icon":"61cb532639c2309f","name":{"zh":"\u5DE5\u4F5C\u53F0","en":"Workbench","ja":"\u4F5C\u696D\u53F0"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_Bookshelf","type":"CardData","CardType":7,"name":{"zh":"\u4E66\u67B6","en":"Bookshelf","ja":"\u672C\u68DA"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_Hearth","type":"CardData","CardType":7,"name":{"zh":"\u706B\u7089","en":"Hearth","ja":"\u7089\u8FBA"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_Hideout","type":"CardData","CardType":7,"icon":"c96b5dfdaf59e2be","name":{"zh":"\u85CF\u533F\u70B9","en":"Hideout","ja":"\u96A0\u308C\u5BB6"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_RusticStool","type":"CardData","CardType":7,"name":{"zh":"\u7B80\u6613\u51F3\u5B50","en":"Rustic Stool","ja":"\u30B7\u30F3\u30D7\u30EB\u306A\u30B9\u30C4\u30FC\u30EB"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_SnowShelter","type":"CardData","CardType":7,"icon":"7c7c7d8b4a940549","name":{"zh":"\u96EA\u68DA","en":"Snow Shelter","ja":"\u96EA\u30B7\u30A7\u30EB\u30BF\u30FC"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_BlessGrove","type":"CardData","CardType":7,"icon":"cba25afa6c736649","name":{"zh":"\u8D50\u798F\u6797\u5730","en":"Bless Grove","ja":"\u795D\u798F\u306E\u6728\u7ACB"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_CurseGrove","type":"CardData","CardType":7,"icon":"6ec2ca6b6673aea5","name":{"zh":"\u8BC5\u5492\u6797\u5730","en":"Curse Grove","ja":"\u546A\u3044\u306E\u6728\u7ACB"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"TreeLogPieceItem","type":"CardData","CardType":0,"icon":"08d0bead1953406f","name":{"zh":"\u539F\u6728\u5757","en":"Log Piece","ja":"\u4E38\u592A\u306E\u4E00\u90E8"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u653E\u7F6E","en":"Action: Place","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7F6E\u304F"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Witchstone","type":"CardData","CardType":0,"icon":"49cf62eaab39d35b","name":{"zh":"\u5DEB\u77F3","en":"Witchstone","ja":"\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1ALose Quality","en":"Passive Effect: Lose Quality","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALose Quality"}},{"source":{"key":"WitchstoneDust","type":"CardData","CardType":0,"icon":"11d21a3399a0263b","name":{"zh":"\u5DEB\u77F3\u7C89\u672B","en":"Witchstone Dust","ja":"\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u7C89\u672B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1ALose Quality","en":"Passive Effect: Lose Quality","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALose Quality"}},{"source":{"key":"Huntsman_ClothShirt","type":"CardData","CardType":0,"icon":"3f1f22fd0c9264a1","name":{"zh":"\u5E03\u886C\u886B","en":"Cloth Shirt","ja":"\u5E03\u30B7\u30E3\u30C4"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"Huntsman_LeatherTrousers","type":"CardData","CardType":0,"icon":"e5588c71297db4da","name":{"zh":"\u76AE\u9769\u88E4","en":"Leather Trousers","ja":"\u9769\u306E\u30BA\u30DC\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"Pk_5_1_7_WeavingGear_LeatherGloves","type":"CardData","CardType":0,"icon":"643fdaf1fef54e8d","name":{"zh":"\u76AE\u9769\u624B\u5957","en":"Leather Gloves","ja":"\u9769\u306E\u30B0\u30ED\u30FC\u30D6"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"Pk_5_1_RusticClothing_LeatherShoes","type":"CardData","CardType":0,"icon":"a0821e21da8c7e4d","name":{"zh":"\u76AE\u9769\u978B","en":"Leather Shoes ","ja":"\u9769\u9774"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"Pk_5_1_RusticClothing_LeatherTrousers","type":"CardData","CardType":0,"icon":"e5588c71297db4da","name":{"zh":"\u76AE\u9769\u88E4","en":"Leather Trousers","ja":"\u9769\u306E\u30BA\u30DC\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"Pk_5_1_RusticClothing_LeatherTunic","type":"CardData","CardType":0,"icon":"4d4eb5730e4c8c07","name":{"zh":"\u76AE\u9769\u957F\u888D","en":"Leather Tunic","ja":"\u9769\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"ClothCoif","type":"CardData","CardType":0,"icon":"71b2b782e0146301","name":{"zh":"\u5E03\u5934\u5DFE","en":"Cloth Coif","ja":"\u5E03\u88FD\u982D\u5DFE"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"ClothDress","type":"CardData","CardType":0,"icon":"41e8233cbbe03eee","name":{"zh":"\u5E03\u88D9","en":"Cloth Dress","ja":"\u5E03\u88FD\u30C9\u30EC\u30B9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"ClothShirt","type":"CardData","CardType":0,"icon":"3f1f22fd0c9264a1","name":{"zh":"\u5E03\u886C\u886B","en":"Cloth Shirt","ja":"\u30B7\u30E3\u30C4\uFF08\u5E03\uFF09"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"ClothTrousers","type":"CardData","CardType":0,"icon":"e58b464b3cf8dbf8","name":{"zh":"\u5E03\u88E4","en":"Cloth Trousers","ja":"\u5E03\u88FD\u30BA\u30DC\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"ClothUnderwear","type":"CardData","CardType":0,"icon":"5c01d4a067727b0b","name":{"zh":"\u5E03\u5185\u88E4","en":"Cloth Underwear","ja":"\u5E03\u88FD\u4E0B\u7740"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"FurMittens_","type":"CardData","CardType":0,"icon":"910cb24a939888cc","name":{"zh":"\u6BDB\u76AE\u624B\u5957","en":"Fur Mittens","ja":"\u30D5\u30A1\u30FC\u306E\u30DF\u30C8\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"LeatherBracers","type":"CardData","CardType":0,"icon":"7d450465b3567b14","name":{"zh":"\u76AE\u9769\u62A4\u8155","en":"Leather Bracers","ja":"\u9769\u306E\u30D6\u30EC\u30A4\u30B5\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"LeatherCoif","type":"CardData","CardType":0,"icon":"a1e378f687bf74a7","name":{"zh":"\u76AE\u9769\u515C\u5E3D","en":"Leather Coif","ja":"\u9769\u88FD\u982D\u5DFE"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"LeatherCuirass_","type":"CardData","CardType":0,"icon":"2dc5735326dd0d62","name":{"zh":"\u76AE\u9769\u80F8\u7532","en":"Leather Cuirass","ja":"\u9769\u306E\u30AD\u30E5\u30A4\u30E9\u30B9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"LeatherGloves","type":"CardData","CardType":0,"icon":"643fdaf1fef54e8d","name":{"zh":"\u76AE\u9769\u624B\u5957","en":"Leather Gloves","ja":"\u9769\u306E\u30B0\u30ED\u30FC\u30D6"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"LeatherGreaves","type":"CardData","CardType":0,"icon":"1d6c982247fac4a2","name":{"zh":"\u76AE\u9769\u62A4\u80EB","en":"Leather Greaves","ja":"\u9769\u306E\u811B\u5F53\u3066"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"LeatherHelmet","type":"CardData","CardType":0,"icon":"bb14700a690c4786","name":{"zh":"\u76AE\u9769\u5934\u76D4","en":"Leather Helmet","ja":"\u9769\u306E\u30D8\u30EB\u30E1\u30C3\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"LeatherShoes","type":"CardData","CardType":0,"icon":"a0821e21da8c7e4d","name":{"zh":"\u76AE\u9769\u978B","en":"Leather Shoes","ja":"\u9769\u9774"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"LeatherTrousers","type":"CardData","CardType":0,"icon":"e5588c71297db4da","name":{"zh":"\u76AE\u9769\u88E4","en":"Leather Trousers","ja":"\u9769\u306E\u30BA\u30DC\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"LeatherTunic","type":"CardData","CardType":0,"icon":"4d4eb5730e4c8c07","name":{"zh":"\u76AE\u9769\u957F\u888D","en":"Leather Tunic","ja":"\u9769\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"Old_FurMittens_","type":"CardData","CardType":0,"icon":"910cb24a939888cc","name":{"zh":"\u6BDB\u76AE\u624B\u5957","en":"Fur Mittens","ja":"\u30D5\u30A1\u30FC\u306E\u30DF\u30C8\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"OLD_LeatherGloves","type":"CardData","CardType":0,"icon":"643fdaf1fef54e8d","name":{"zh":"\u76AE\u9769\u624B\u5957","en":"Leather Gloves","ja":"\u9769\u306E\u30B0\u30ED\u30FC\u30D6"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"OLD_LeatherShoes","type":"CardData","CardType":0,"icon":"a0821e21da8c7e4d","name":{"zh":"\u76AE\u9769\u978B","en":"Leather Shoes","ja":"\u9769\u9774"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"OLD_LeatherTrousers","type":"CardData","CardType":0,"icon":"e5588c71297db4da","name":{"zh":"\u76AE\u9769\u88E4","en":"Leather Trousers","ja":"\u9769\u306E\u30BA\u30DC\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"OLD_LeatherTunic","type":"CardData","CardType":0,"icon":"4d4eb5730e4c8c07","name":{"zh":"\u76AE\u9769\u957F\u888D","en":"Leather Tunic","ja":"\u9769\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"ReedSkirt","type":"CardData","CardType":0,"icon":"885183ce4c046214","name":{"zh":"\u82A6\u82C7\u88D9","en":"Reed Skirt","ja":"\u30E8\u30B7\u306E\u30B9\u30AB\u30FC\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"ReedTunic","type":"CardData","CardType":0,"icon":"6efedb45314984c9","name":{"zh":"\u82A6\u82C7\u957F\u888D","en":"Reed Tunic","ja":"\u30E8\u30B7\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09","en":"Passive Effect: FillUnderRain (Fuel +2)","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"}},{"source":{"key":"ClothLarge","type":"CardData","CardType":0,"icon":"f487b3c3f47e8f09","name":{"zh":"\u5927\u5757\u7684\u5E03","en":"Large Cloth","ja":"\u5927\u304D\u3044\u5E03"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34","en":"Passive Effect: FillUnderRain","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain"}},{"source":{"key":"Cage","type":"CardData","CardType":0,"icon":"0fe051e1fb443c68","name":{"zh":"\u7B3C\u5B50","en":"Cage","ja":"\u6ABB"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u653E\u7F6E","en":"Action: Deploy","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u8A2D\u7F6E\u3059\u308B"}},{"source":{"key":"Campfire","type":"CardData","CardType":2,"icon":"9c22fc20ce801165","name":{"zh":"\u8425\u706B","en":"Campfire","ja":"\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6","en":"Passive Effect: Indoors Temp","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"FirePit","type":"CardData","CardType":2,"icon":"17483cb3a2621f4a","name":{"zh":"\u706B\u5751","en":"Fire Pit","ja":"Fire Pit"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6","en":"Passive Effect: Indoors Temp","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Fireplace","type":"CardData","CardType":2,"icon":"dcd43a4a3cb174d1","name":{"zh":"\u58C1\u7089","en":"Fireplace","ja":"\u6696\u7089"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6","en":"Passive Effect: Indoors Temp","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Hearth","type":"CardData","CardType":2,"name":{"zh":"\u706B\u7089","en":"Hearth","ja":"\u7089\u8FBA"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29","en":"Passive Effect: Insulation","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"}},{"source":{"key":"Hearth","type":"CardData","CardType":2,"name":{"zh":"\u706B\u7089","en":"Hearth","ja":"\u7089\u8FBA"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u9AD8\u6E29","en":"Passive Effect: Hot","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHot"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"HearthAwakened","type":"CardData","CardType":2,"name":{"zh":"\u71C3\u70E7\u7684\u706B\u7089","en":"Awakened Hearth","ja":"\u518D\u71C3\u3057\u305F\u6696\u7089"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29","en":"Passive Effect: Insulation","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"}},{"source":{"key":"HearthAwakened","type":"CardData","CardType":2,"name":{"zh":"\u71C3\u70E7\u7684\u706B\u7089","en":"Awakened Hearth","ja":"\u518D\u71C3\u3057\u305F\u6696\u7089"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u9AD8\u6E29","en":"Passive Effect: Hot","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHot"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Oven","type":"CardData","CardType":2,"icon":"4e90ce9655385dfa","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6","en":"Passive Effect: Indoors Temp","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"SaunaStove","type":"CardData","CardType":2,"icon":"d16c2c82669d9299","name":{"zh":"\u6851\u62FF\u7089","en":"Sauna Stove","ja":"\u30B5\u30A6\u30CA\u30B9\u30C8\u30FC\u30D6"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6","en":"Passive Effect: Indoors Temp","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Smokehouse","type":"CardData","CardType":2,"icon":"4e90ce9655385dfa","name":{"zh":"\u70DF\u718F\u5C4B","en":"Smokehouse","ja":"\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6","en":"Passive Effect: Indoors Temp","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"BookShelfDismantled","type":"CardData","CardType":0,"name":{"zh":"\u62C6\u5378\u4E66\u67B6","en":"Dismantled BookShelf","ja":"\u89E3\u4F53\u3055\u308C\u305F\u672C\u68DA"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u653E\u7F6E","en":"Action: Place","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7F6E\u304F"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"RusticTableDismantled","type":"CardData","CardType":0,"icon":"51c45b795d5d18a3","name":{"zh":"\u62C6\u5378\u7B80\u6613\u684C\u5B50","en":"Dismantled Rustic Table","ja":"\u89E3\u4F53\u3057\u305F\u30B7\u30F3\u30D7\u30EB\u306A\u30C6\u30FC\u30D6\u30EB"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7EC4\u88C5","en":"Action: Build","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F5C\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Stool","type":"CardData","CardType":0,"name":{"zh":"\u7B80\u6613\u51F3\u5B50","en":"Rustic Stool","ja":"\u30B7\u30F3\u30D7\u30EB\u306A\u30B9\u30C4\u30FC\u30EB"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u653E\u7F6E","en":"Action: Place","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7F6E\u304F"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"WorkbenchItem","type":"CardData","CardType":0,"icon":"61cb532639c2309f","name":{"zh":"\u5DE5\u4F5C\u53F0","en":"Workbench","ja":"\u4F5C\u696D\u53F0"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7EC4\u88C5","en":"Action: Build","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5EFA\u7BC9\u3059\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_NiterBed","type":"CardData","CardType":7,"name":{"zh":"Niter Bed","en":"Niter Bed","ja":"Niter Bed"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Raincatcher","type":"CardData","CardType":7,"name":{"zh":"Raincatcher","en":"Raincatcher","ja":"Raincatcher"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_RicePaddy","type":"CardData","CardType":7,"name":{"zh":"Rice Paddy","en":"Rice Paddy","ja":"Rice Paddy"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Scarecrow","type":"CardData","CardType":7,"name":{"zh":"Scarecrow","en":"Scarecrow","ja":"Scarecrow"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Shower","type":"CardData","CardType":7,"name":{"zh":"Shower","en":"Shower","ja":"Shower"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_SolarStill","type":"CardData","CardType":7,"name":{"zh":"Solar Still","en":"Solar Still","ja":"Solar Still"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_WateringTrough","type":"CardData","CardType":7,"icon":"f00aa28cae06ff44","name":{"zh":"Watering Trough","en":"Watering Trough","ja":"Watering Trough"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"Bp_Well","type":"CardData","CardType":7,"icon":"13bd94a2e0d36d81","name":{"zh":"Well","en":"Well","ja":"Well"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"HoodieRetromation","type":"CardData","CardType":0,"name":{"zh":"Hoodie","en":"Hoodie","ja":"Hoodie"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34","en":"Passive Effect: FillUnderRain","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain"}},{"source":{"key":"BeeSuit","type":"CardData","CardType":0,"name":{"zh":"Bee Suit","en":"Bee Suit","ja":"Bee Suit"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34","en":"Passive Effect: FillUnderRain","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain"}},{"source":{"key":"GasMaskRustic","type":"CardData","CardType":0,"name":{"zh":"Gas Mask","en":"Gas Mask","ja":"Gas Mask"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34","en":"Passive Effect: FillUnderRain","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain"}},{"source":{"key":"MaskMakeshift","type":"CardData","CardType":0,"name":{"zh":"Makeshift Mask","en":"Makeshift Mask","ja":"Makeshift Mask"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34","en":"Passive Effect: FillUnderRain","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain"}},{"source":{"key":"AlembicOn","type":"CardData","CardType":2,"name":{"zh":"Alembic","en":"Alembic","ja":"Alembic"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u9AD8\u6E29","en":"Passive Effect: Hot","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHot"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_Storm","type":"SelfTriggeredAction","name":{"zh":"Tgr_Storm","en":"Tgr_Storm","ja":"Tgr_Storm"}},"description":{"zh":"Tgr_Storm","en":"Tgr_Storm","ja":"Tgr_Storm"}}],"_triggers":[{"source":{"key":"Tgr_Storm","type":"SelfTriggeredAction","name":{"zh":"Tgr_Storm","en":"Tgr_Storm","ja":"Tgr_Storm"}},"description":{"zh":"Tgr_Storm","en":"Tgr_Storm","ja":"Tgr_Storm"}}],"_uuid":"e2031c58efb4cb84fa95a3a813513dae"}
+
+{
+  "GameName" : {
+    "zh" : "\u906E\u853D",
+    "en" : "Sheltered",
+    "ja" : "\u4FDD\u8B77\u3055\u308C\u3066\u308B"
+  },
+  "Description" : {
+    "zh" : "\u663E\u793A\u51FA\u4F60\u514D\u4E8E\u53D7\u5230\u67D0\u4E9B\u56E0\u7D20\u7684\u5F71\u54CD\uFF0C\u4F8B\u5982\u5BF9\u98CE\u548C\u96E8\u3002",
+    "en" : "Shows whether you're protected from the elements, such as wind and rain.",
+    "ja" : "\u98A8\u3084\u96E8\u306A\u3069\u3001\u5C5E\u6027\u304B\u3089\u5B88\u3089\u308C\u3066\u308B\u304B\u3092\u793A\u3059\u3002"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "StatusesHaveNoBar" : true,
+  "DefaultStatusIcon" : {
+    "FileName" : "CardData__Antler__UsageDurability-OverrideIcon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u53D7\u5230\u5E87\u62A4",
+        "en" : "Sheltered",
+        "ja" : "\u4FDD\u8B77\u3055\u308C\u3066\u308B"
+      },
+      "Description" : {
+        "zh" : "\u5916\u9762\u7684\u5929\u6C14\u65E0\u6CD5\u5F71\u54CD\u5230\u4F60\u4E86\u3002",
+        "en" : "You are protected from the weather.",
+        "ja" : "\u5929\u6C17\u304B\u3089\u5B88\u3089\u308C\u3066\u308B\u3002"
+      },
+      "Icon"        : {
+        "FileName" : "CardData__Antler__UsageDurability-OverrideIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "NotifyPlayer" : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u672A\u88AB\u5E87\u62A4",
+        "en" : "Unsheltered",
+        "ja" : "\u4FDD\u8B77\u3055\u308C\u3066\u306A\u3044"
+      },
+      "Description" : {
+        "zh" : "\u4F60\u4F1A\u53D7\u5230\u5929\u6C14\u7684\u5F71\u54CD\u3002",
+        "en" : "You are not protected from the weather.",
+        "ja" : "\u3053\u3053\u3067\u306F\u5929\u6C17\u304B\u3089\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u308B\u53EF\u80FD\u6027\u304C\u3042\u308B\u3002"
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Sanctuary",
+            "type" : "GameStat",
+            "icon" : "GameStat__DarkSense__DefaultStatusIcon",
+            "min"  : -1000.0,
+            "max"  : 7500.0,
+            "name" : {
+              "zh" : "\u5E87\u62A4\u5EA6",
+              "en" : "Sanctuary",
+              "ja" : "\u5B89\u606F\u5EA6"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1000.0,
+            "y" : -1000.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "NotEnoughText"           : {
+    "zh" : "\u4E0D\u80FD\u5728\u8FD9\u91CC\u5EFA\u9020\u3002",
+    "en" : "Cannot be built here.",
+    "ja" : "\u3053\u3053\u3067\u306F\u5EFA\u3066\u3089\u308C\u306A\u3044\u3002"
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Sheltered",
+  "icon"                    : "CardData__Antler__UsageDurability-OverrideIcon",
+  "name"                    : {
+    "zh" : "\u906E\u853D",
+    "en" : "Sheltered",
+    "ja" : "\u4FDD\u8B77\u3055\u308C\u3066\u308B"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "CabinConstructionLocationAttic",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__CabinConstructionLocationAttic__CardImage",
+        "name"     : {
+          "zh" : "\u9601\u697C",
+          "en" : "Attic",
+          "ja" : "\u5C4B\u6839\u88CF"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CabinConstructionLocationCabinRoom",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__CabinConstructionLocationCabinRoom__CardImage",
+        "name"     : {
+          "zh" : "\u6728\u8D28\u623F\u95F4",
+          "en" : "Cabin Room",
+          "ja" : "\u5C0F\u5C4B\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CabinConstructionStartingPointCabin",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cabin__CardImage",
+        "name"     : {
+          "zh" : "\u6728\u5C4B",
+          "en" : "Cabin",
+          "ja" : "\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MineConstructionLocationCopperMine",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_CopperMine__CardImage",
+        "name"     : {
+          "zh" : "\u94DC\u77FF\u4E95",
+          "en" : "Copper Mine",
+          "ja" : "\u9285\u306E\u9271\u5C71"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MineConstructionLocationFlintMine",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_CopperMine__CardImage",
+        "name"     : {
+          "zh" : "\u71E7\u77F3\u77FF\u4E95",
+          "en" : "Flint Mine",
+          "ja" : "\u706B\u6253\u77F3\u9271\u5C71"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MineConstructionLocationWitchstoneMine",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_CopperMine__CardImage",
+        "name"     : {
+          "zh" : "\u5DEB\u77F3\u77FF\u4E95",
+          "en" : "Witchstone Mine",
+          "ja" : "\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u9271\u5C71"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MineConstructionStartingPointCopperMine",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_CopperMine__CardImage",
+        "name"     : {
+          "zh" : "\u94DC\u77FF\u4E95",
+          "en" : "Copper Mine",
+          "ja" : "\u9285\u306E\u9271\u5C71"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MineConstructionStartingPointFlintMine",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_CopperMine__CardImage",
+        "name"     : {
+          "zh" : "\u71E7\u77F3\u77FF\u4E95",
+          "en" : "Flint Mine",
+          "ja" : "\u706B\u6253\u77F3\u9271\u5C71"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MineConstructionStartingPointWitchstoneMine",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_CopperMine__CardImage",
+        "name"     : {
+          "zh" : "\u5DEB\u77F3\u77FF\u4E95",
+          "en" : "Witchstone Mine",
+          "ja" : "\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u9271\u5C71"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionLocationCellar",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cellar__CardImage",
+        "name"     : {
+          "zh" : "\u5730\u7A96",
+          "en" : "Cellar",
+          "ja" : "\u30BB\u30E9\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionLocationRoom",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__EnclosureExit__CardImage",
+        "name"     : {
+          "zh" : "\u623F\u95F4",
+          "en" : "Room",
+          "ja" : "\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionStartingPointCellar",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cellar__CardImage",
+        "name"     : {
+          "zh" : "\u5730\u7A96",
+          "en" : "Cellar",
+          "ja" : "\u30BB\u30E9\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionStartingPointMudHut",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_MudHut__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u5C4B",
+          "en" : "Mud Hut",
+          "ja" : "\u6CE5\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Env_Cabin",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u6728\u5C4B",
+          "en" : "Cabin",
+          "ja" : "\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Env_Coop",
+        "type" : "CardData",
+        "CardType" : 4,
+        "icon"     : "CardData__Coop__CardImage",
+        "name"     : {
+          "zh" : "\u7B3C\u5B50",
+          "en" : "Coop",
+          "ja" : "\u9CE5\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHut",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_MudHut__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u5C4B",
+          "en" : "Mud Hut",
+          "ja" : "\u6CE5\u306E\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutExpansionLeft",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__EnclosureExit__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u5C4B",
+          "en" : "Left Room",
+          "ja" : "\u5DE6\u306E\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutExpansionRight",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__EnclosureExit__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u5C4B",
+          "en" : "Right Room",
+          "ja" : "\u53F3\u306E\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Dmg_RoofCollapsed",
+        "type" : "CardData",
+        "CardType" : 11,
+        "name"     : {
+          "zh" : "\u574D\u584C\u7684\u5C4B\u9876",
+          "en" : "Collapsed Roof",
+          "ja" : "\u5D29\u308C\u305F\u5C4B\u6839"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_BearCave",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_BearCave__CardImage",
+        "name"     : {
+          "zh" : "\u718A\u6D1E",
+          "en" : "Bear Cave",
+          "ja" : "\u30AF\u30DE\u306E\u6D1E\u7A9F"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_CaveOldHollow",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_BearCave__CardImage",
+        "name"     : {
+          "zh" : "\u5DE8\u5927\u6D1E\u7A74",
+          "en" : "Great Cave",
+          "ja" : "\u5927\u6D1E\u7A9F"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_CavePineSlopes",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_BearCave__CardImage",
+        "name"     : {
+          "zh" : "\u6D1E\u7A74",
+          "en" : "Cave",
+          "ja" : "\u6D1E\u7A9F"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_CaveRiverPass",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_BearCave__CardImage",
+        "name"     : {
+          "zh" : "\u6D1E\u7A74",
+          "en" : "Cave",
+          "ja" : "\u6D1E\u7A9F"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_CaveShadyThicket",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_BearCave__CardImage",
+        "name"     : {
+          "zh" : "\u9690\u79D8\u6D1E\u7A74",
+          "en" : "Secret Cave",
+          "ja" : "\u79D8\u5BC6\u306E\u6D1E\u7A9F"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_CaveStillHollow",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_BearCave__CardImage",
+        "name"     : {
+          "zh" : "\u9759\u8C27\u6D1E\u7A74",
+          "en" : "Still Cave",
+          "ja" : "\u9759\u5BC2\u306E\u6D1E\u7A9F"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FlintSett",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u71E7\u77F3\u5DE2\u7A74",
+          "en" : "Flint Sett",
+          "ja" : "\u706B\u6253\u77F3\u306E\u5927\u9271\u8108"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmClearedTunnel",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u6E05\u7406\u7684\u96A7\u9053",
+          "en" : "Cleared Tunnel",
+          "ja" : "\u5C4B\u6839\u5D29\u58CA\u30AB\u30A6\u30F3\u30BF\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmCollapsedTunnel",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u574D\u584C\u7684\u96A7\u9053",
+          "en" : "Collapsed Tunnel",
+          "ja" : "\u5D29\u308C\u305F\u30C8\u30F3\u30CD\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmDarkTunnelNorthEast",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u6697\u96A7\u9053",
+          "en" : "Dark Tunnel",
+          "ja" : "\u6697\u3044\u30C8\u30F3\u30CD\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmDarkTunnelNorthWest",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u6697\u96A7\u9053",
+          "en" : "Dark Tunnel",
+          "ja" : "\u6697\u3044\u30C8\u30F3\u30CD\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmDarkTunnelSouthEast",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u6697\u96A7\u9053",
+          "en" : "Dark Tunnel",
+          "ja" : "\u6697\u3044\u30C8\u30F3\u30CD\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmDarkTunnelSouthWest",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u6697\u96A7\u9053",
+          "en" : "Dark Tunnel",
+          "ja" : "\u6697\u3044\u30C8\u30F3\u30CD\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmDarkTunnelWest",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u6697\u96A7\u9053",
+          "en" : "Dark Tunnel",
+          "ja" : "\u6697\u3044\u30C8\u30F3\u30CD\u30EB\uFF08\u897F\uFF09"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmFlintclawsChamber",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u71E7\u722A\u7684\u5DE2\u7A74",
+          "en" : "Flintclaw's Chamber",
+          "ja" : "\u30D5\u30EA\u30F3\u30C8\u30AF\u30ED\u30FC\u306E\u9593"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmFloodedTunnel",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FmFloodedTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u8986\u6EBA\u96A7\u9053",
+          "en" : "Flooded Tunnel",
+          "ja" : "\u6D78\u6C34\u3057\u305F\u30C8\u30F3\u30CD\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmNorthernChamber",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u5317\u90E8\u6D1E\u7A74",
+          "en" : "Northern Chamber",
+          "ja" : "\u5317\u306E\u9593"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmNorthernTunnel",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u5317\u90E8\u96A7\u9053",
+          "en" : "Northern Tunnel",
+          "ja" : "\u5317\u306E\u6D1E\u7A9F"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmOminousTunnel",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u4E0D\u7965\u96A7\u9053",
+          "en" : "Ominous Tunnel",
+          "ja" : "\u4E0D\u7A4F\u306A\u30C8\u30F3\u30CD\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmOvergrownTunnel",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FmOvergrownTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u85E4\u8513\u8986\u76D6\u7684\u96A7\u9053",
+          "en" : "Overgrown Tunnel",
+          "ja" : "\u8349\u6728\u306B\u8986\u308F\u308C\u305F\u30C8\u30F3\u30CD\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmSouthernTunnel",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u5357\u90E8\u96A7\u9053",
+          "en" : "Southern Tunnel",
+          "ja" : "\u5357\u306E\u30C8\u30F3\u30CD\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_FmTheShaft",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FmTheShaft__CardImage",
+        "name"     : {
+          "zh" : "\u7AD6\u4E95",
+          "en" : "The Shaft",
+          "ja" : "\u30B7\u30E3\u30D5\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_WaterfallCaves",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_WaterfallCaves__CardImage",
+        "name"     : {
+          "zh" : "\u7011\u5E03\u6D1E\u7A74",
+          "en" : "Waterfall Caves",
+          "ja" : "\u6EDD\u306E\u6D1E\u7A9F"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caves_WolfCave",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_BearCave__CardImage",
+        "name"     : {
+          "zh" : "\u72FC\u7A74",
+          "en" : "Wolf Cave",
+          "ja" : "\u72FC\u306E\u6D1E\u7A9F"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "DeathCrack_DeathChamber",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FmOvergrownTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u4EA1\u6D1E\u5BA4",
+          "en" : "Death Chamber",
+          "ja" : "\u6B7B\u306E\u9593"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "DeathCrack_EntranceTunnel",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FmTheShaft__CardImage",
+        "name"     : {
+          "zh" : "\u5165\u53E3\u96A7\u6D1E",
+          "en" : "Entrance Tunnel",
+          "ja" : "\u5165\u53E3\u306E\u5751\u9053"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "DeathCrack_OuterChamber",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Caves_FlintSett__CardImage",
+        "name"     : {
+          "zh" : "\u5916\u5385\u6D1E\u5BA4",
+          "en" : "Outer Chamber",
+          "ja" : "\u5916\u90ED\u533A\u753B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TEST_MudHutMap",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_MudHut__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u5C4B",
+          "en" : "Mud Hut",
+          "ja" : "\u6CE5\u306E\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TEST_MudHutMapExpansionRoom",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__EnclosureExit__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u5C4B",
+          "en" : "Room",
+          "ja" : "\u5DE6\u306E\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "Bp_Cabin",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Cabin__CardImage",
+        "name"     : {
+          "zh" : "\u6728\u5C4B",
+          "en" : "Cabin",
+          "ja" : "\u5C71\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Cellar",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Cellar__CardImage",
+        "name"     : {
+          "zh" : "\u5730\u7A96",
+          "en" : "Cellar",
+          "ja" : "\u30BB\u30E9\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Enclosure",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Enclosure__CardImage",
+        "name"     : {
+          "zh" : "\u755C\u680F",
+          "en" : "Enclosure",
+          "ja" : "\u67F5\u56F2\u3044"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Levee",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Levee__CardImage",
+        "name"     : {
+          "zh" : "\u5824\u575D",
+          "en" : "Levee",
+          "ja" : "\u5824\u9632"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_LogTrap",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_LogTrap__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u6728\u9677\u9631",
+          "en" : "Log Trap",
+          "ja" : "\u4E38\u592A\u306E\u7F60"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_MudHut",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_MudHut__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u5C4B",
+          "en" : "Mud Hut",
+          "ja" : "\u6CE5\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_PitTrap",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_PitTrap__CardImage",
+        "name"     : {
+          "zh" : "\u9677\u5751",
+          "en" : "Pit Trap",
+          "ja" : "\u843D\u3068\u3057\u7A74"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_RainCistern",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_RainCistern__CardImage",
+        "name"     : {
+          "zh" : "\u96E8\u6C34\u7A96",
+          "en" : "Rain Cistern",
+          "ja" : "\u96E8\u6C34\u8CAF\u6C34\u69FD"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_TanningPit",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_TanningPit__CardImage",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u5751",
+          "en" : "Tanning Pit",
+          "ja" : "\u30BF\u30F3\u30CB\u30F3\u30B0\u30D4\u30C3\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_TilledField",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BlessedGroveInvisible__CardImage",
+        "name"     : {
+          "zh" : "\u8015\u5730",
+          "en" : "Tilled Field",
+          "ja" : "\u8015\u3057\u305F\u7551"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_DeadfallTrap",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_DeadfallTrap__CardImage",
+        "name"     : {
+          "zh" : "\u843D\u77F3\u9677\u9631",
+          "en" : "Deadfall Trap",
+          "ja" : "\u843D\u77F3\u30C8\u30E9\u30C3\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_SnareTrap",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_SnareTrap__CardImage",
+        "name"     : {
+          "zh" : "\u5957\u7D22\u9677\u9631",
+          "en" : "Snare Trap",
+          "ja" : "\u304F\u304F\u308A\u7F60"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BedLog",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BedLog__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u6728\u5E8A",
+          "en" : "Log Bed",
+          "ja" : "\u4E38\u592A\u306E\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Bloomery",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bloomery__CardImage",
+        "name"     : {
+          "zh" : "\u5757\u70BC\u7089",
+          "en" : "Bloomery",
+          "ja" : "Bloomery"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_CloverField",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_CloverField__CardImage",
+        "name"     : {
+          "zh" : "\u4E09\u53F6\u8349",
+          "en" : "Clover",
+          "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_DryingRack",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_DryingRack__CardImage",
+        "name"     : {
+          "zh" : "\u667E\u6652\u67B6",
+          "en" : "Drying Rack",
+          "ja" : "\u7269\u5E72\u3057"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_FlaxField",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_FlaxField__CardImage",
+        "name"     : {
+          "zh" : "\u4E9A\u9EBB",
+          "en" : "Flax",
+          "ja" : "\u4E9C\u9EBB"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Forge",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Forge__CardImage",
+        "name"     : {
+          "zh" : "\u953B\u9020\u53F0",
+          "en" : "Forge",
+          "ja" : "Forge"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Furnace",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Furnace__CardImage",
+        "name"     : {
+          "zh" : "\u7194\u7089",
+          "en" : "Furnace",
+          "ja" : "\u6EB6\u9271\u7089"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_GardenPlot",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_GardenPlot__CardImage",
+        "name"     : {
+          "zh" : "\u83DC\u56ED",
+          "en" : "Garden Plot",
+          "ja" : "\u30AC\u30FC\u30C7\u30F3\u533A\u753B"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_HeatherField",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_BlessGrove__CardImage",
+        "name"     : {
+          "zh" : "\u5E1A\u77F3\u5357",
+          "en" : "Heather",
+          "ja" : "\u30D8\u30B6\u30FC\u7551"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ImprovisedShelter",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ImprovisedShelter__CardImage",
+        "name"     : {
+          "zh" : "\u4E34\u65F6\u5E87\u62A4\u6240",
+          "en" : "Improvised Shelter",
+          "ja" : "\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Kiln",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Kiln__CardImage",
+        "name"     : {
+          "zh" : "\u7A91\u7089",
+          "en" : "Kiln",
+          "ja" : "\u7AAF"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_MeadowgrassField",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_MeadowgrassField__CardImage",
+        "name"     : {
+          "zh" : "\u7267\u8349",
+          "en" : "Meadowgrass",
+          "ja" : "\u7267\u8349"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_PeaField",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_CloverField__CardImage",
+        "name"     : {
+          "zh" : "\u8C4C\u8C46",
+          "en" : "Peas",
+          "ja" : "\u30D4\u30FC\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_PeasField",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_PeasField__CardImage",
+        "name"     : {
+          "zh" : "\u8C4C\u8C46",
+          "en" : "Peas",
+          "ja" : "\u30D4\u30FC\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_RusticTable",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_RusticTable__CardImage",
+        "name"     : {
+          "zh" : "\u7B80\u6613\u684C\u5B50",
+          "en" : "Rustic Table",
+          "ja" : "\u30B7\u30F3\u30D7\u30EB\u306A\u30C6\u30FC\u30D6\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_RyeField",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_MeadowgrassField__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u9EA6",
+          "en" : "Rye",
+          "ja" : "\u30E9\u30A4\u9EA6"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Shelf",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Shelf__CardImage",
+        "name"     : {
+          "zh" : "\u50A8\u7269\u67B6",
+          "en" : "Shelf",
+          "ja" : "\u68DA"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_SpiritShrine_Fire_RitualPyre",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_SpiritShrine_Fire_RitualPyre__CardImage",
+        "name"     : {
+          "zh" : "\u4EEA\u5F0F\u67F4\u5806",
+          "en" : "Ritual Pyre",
+          "ja" : "\u5100\u5F0F\u7528\u706B\u846C\u53F0"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_SpiritShrine_Frost_FrostShrine",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_SpiritShrine_Frost_FrostShrine__CardImage",
+        "name"     : {
+          "zh" : "\u971C\u51BB\u796D\u575B",
+          "en" : "Frost Shrine",
+          "ja" : "\u6C37\u971C\u306E\u7960"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_TurnrootField",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BlessedGroveInvisible__CardImage",
+        "name"     : {
+          "zh" : "\u7FFB\u6839",
+          "en" : "Turnroot",
+          "ja" : "\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_WheatField",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_MeadowgrassField__CardImage",
+        "name"     : {
+          "zh" : "\u5C0F\u9EA6",
+          "en" : "Wheat",
+          "ja" : "\u5C0F\u9EA6"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Workbench",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Workbench__CardImage",
+        "name"     : {
+          "zh" : "\u5DE5\u4F5C\u53F0",
+          "en" : "Workbench",
+          "ja" : "\u4F5C\u696D\u53F0"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Bookshelf",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "\u4E66\u67B6",
+          "en" : "Bookshelf",
+          "ja" : "\u672C\u68DA"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Hearth",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "\u706B\u7089",
+          "en" : "Hearth",
+          "ja" : "\u7089\u8FBA"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Hideout",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Hideout__CardImage",
+        "name"     : {
+          "zh" : "\u85CF\u533F\u70B9",
+          "en" : "Hideout",
+          "ja" : "\u96A0\u308C\u5BB6"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_RusticStool",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "\u7B80\u6613\u51F3\u5B50",
+          "en" : "Rustic Stool",
+          "ja" : "\u30B7\u30F3\u30D7\u30EB\u306A\u30B9\u30C4\u30FC\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_SnowShelter",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_SnowShelter__CardImage",
+        "name"     : {
+          "zh" : "\u96EA\u68DA",
+          "en" : "Snow Shelter",
+          "ja" : "\u96EA\u30B7\u30A7\u30EB\u30BF\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BlessGrove",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_BlessGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8D50\u798F\u6797\u5730",
+          "en" : "Bless Grove",
+          "ja" : "\u795D\u798F\u306E\u6728\u7ACB"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_CurseGrove",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BlessedGroveInvisible__CardImage",
+        "name"     : {
+          "zh" : "\u8BC5\u5492\u6797\u5730",
+          "en" : "Curse Grove",
+          "ja" : "\u546A\u3044\u306E\u6728\u7ACB"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "TreeLogPieceItem",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__TreeLogPieceItem__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u6728\u5757",
+          "en" : "Log Piece",
+          "ja" : "\u4E38\u592A\u306E\u4E00\u90E8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u653E\u7F6E",
+        "en" : "Action: Place",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7F6E\u304F"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Witchstone",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Witchstone__CardImage",
+        "name"     : {
+          "zh" : "\u5DEB\u77F3",
+          "en" : "Witchstone",
+          "ja" : "\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ALose Quality",
+        "en" : "Passive Effect: Lose Quality",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALose Quality"
+      }
+    },
+    {
+      "source" : {
+        "key" : "WitchstoneDust",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__WitchstoneDust__CardImage",
+        "name"     : {
+          "zh" : "\u5DEB\u77F3\u7C89\u672B",
+          "en" : "Witchstone Dust",
+          "ja" : "\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u7C89\u672B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ALose Quality",
+        "en" : "Passive Effect: Lose Quality",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALose Quality"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Huntsman_ClothShirt",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothShirt__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u886C\u886B",
+          "en" : "Cloth Shirt",
+          "ja" : "\u5E03\u30B7\u30E3\u30C4"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Huntsman_LeatherTrousers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherTrousers__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u88E4",
+          "en" : "Leather Trousers",
+          "ja" : "\u9769\u306E\u30BA\u30DC\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_1_7_WeavingGear_LeatherGloves",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherGloves__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u624B\u5957",
+          "en" : "Leather Gloves",
+          "ja" : "\u9769\u306E\u30B0\u30ED\u30FC\u30D6"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_1_RusticClothing_LeatherShoes",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherShoes__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u978B",
+          "en" : "Leather Shoes ",
+          "ja" : "\u9769\u9774"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_1_RusticClothing_LeatherTrousers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherTrousers__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u88E4",
+          "en" : "Leather Trousers",
+          "ja" : "\u9769\u306E\u30BA\u30DC\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_1_RusticClothing_LeatherTunic",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherTunic__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u957F\u888D",
+          "en" : "Leather Tunic",
+          "ja" : "\u9769\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothCoif",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothCoif__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u5934\u5DFE",
+          "en" : "Cloth Coif",
+          "ja" : "\u5E03\u88FD\u982D\u5DFE"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothDress",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothDress__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u88D9",
+          "en" : "Cloth Dress",
+          "ja" : "\u5E03\u88FD\u30C9\u30EC\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothShirt",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothShirt__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u886C\u886B",
+          "en" : "Cloth Shirt",
+          "ja" : "\u30B7\u30E3\u30C4\uFF08\u5E03\uFF09"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothTrousers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothTrousers__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u88E4",
+          "en" : "Cloth Trousers",
+          "ja" : "\u5E03\u88FD\u30BA\u30DC\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothUnderwear",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothUnderwear__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u5185\u88E4",
+          "en" : "Cloth Underwear",
+          "ja" : "\u5E03\u88FD\u4E0B\u7740"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "FurMittens_",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_FurMittens__CardImage",
+        "name"     : {
+          "zh" : "\u6BDB\u76AE\u624B\u5957",
+          "en" : "Fur Mittens",
+          "ja" : "\u30D5\u30A1\u30FC\u306E\u30DF\u30C8\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherBracers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherBracers__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u62A4\u8155",
+          "en" : "Leather Bracers",
+          "ja" : "\u9769\u306E\u30D6\u30EC\u30A4\u30B5\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherCoif",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherCoif__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u515C\u5E3D",
+          "en" : "Leather Coif",
+          "ja" : "\u9769\u88FD\u982D\u5DFE"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherCuirass_",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherCuirass___CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u80F8\u7532",
+          "en" : "Leather Cuirass",
+          "ja" : "\u9769\u306E\u30AD\u30E5\u30A4\u30E9\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherGloves",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherGloves__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u624B\u5957",
+          "en" : "Leather Gloves",
+          "ja" : "\u9769\u306E\u30B0\u30ED\u30FC\u30D6"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherGreaves",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherGreaves__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u62A4\u80EB",
+          "en" : "Leather Greaves",
+          "ja" : "\u9769\u306E\u811B\u5F53\u3066"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherHelmet",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherHelmet__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u5934\u76D4",
+          "en" : "Leather Helmet",
+          "ja" : "\u9769\u306E\u30D8\u30EB\u30E1\u30C3\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherShoes",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherShoes__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u978B",
+          "en" : "Leather Shoes",
+          "ja" : "\u9769\u9774"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherTrousers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherTrousers__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u88E4",
+          "en" : "Leather Trousers",
+          "ja" : "\u9769\u306E\u30BA\u30DC\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherTunic",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherTunic__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u957F\u888D",
+          "en" : "Leather Tunic",
+          "ja" : "\u9769\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Old_FurMittens_",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_FurMittens__CardImage",
+        "name"     : {
+          "zh" : "\u6BDB\u76AE\u624B\u5957",
+          "en" : "Fur Mittens",
+          "ja" : "\u30D5\u30A1\u30FC\u306E\u30DF\u30C8\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_LeatherGloves",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherGloves__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u624B\u5957",
+          "en" : "Leather Gloves",
+          "ja" : "\u9769\u306E\u30B0\u30ED\u30FC\u30D6"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_LeatherShoes",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherShoes__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u978B",
+          "en" : "Leather Shoes",
+          "ja" : "\u9769\u9774"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_LeatherTrousers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherTrousers__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u88E4",
+          "en" : "Leather Trousers",
+          "ja" : "\u9769\u306E\u30BA\u30DC\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_LeatherTunic",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherTunic__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u957F\u888D",
+          "en" : "Leather Tunic",
+          "ja" : "\u9769\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "ReedSkirt",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ReedSkirt__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u88D9",
+          "en" : "Reed Skirt",
+          "ja" : "\u30E8\u30B7\u306E\u30B9\u30AB\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "ReedTunic",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ReedTunic__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u957F\u888D",
+          "en" : "Reed Tunic",
+          "ja" : "\u30E8\u30B7\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34\uFF08\u71C3\u6599 +2\uFF09",
+        "en" : "Passive Effect: FillUnderRain (Fuel +2)",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain (Fuel +2)"
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothLarge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothLarge__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u5757\u7684\u5E03",
+          "en" : "Large Cloth",
+          "ja" : "\u5927\u304D\u3044\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34",
+        "en" : "Passive Effect: FillUnderRain",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Cage",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_Cage__CardImage",
+        "name"     : {
+          "zh" : "\u7B3C\u5B50",
+          "en" : "Cage",
+          "ja" : "\u6ABB"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u653E\u7F6E",
+        "en" : "Action: Deploy",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u8A2D\u7F6E\u3059\u308B"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Campfire",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_Campfire__CardImage",
+        "name"     : {
+          "zh" : "\u8425\u706B",
+          "en" : "Campfire",
+          "ja" : "\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6",
+        "en" : "Passive Effect: Indoors Temp",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FirePit",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_Firepit___CardImage",
+        "name"     : {
+          "zh" : "\u706B\u5751",
+          "en" : "Fire Pit",
+          "ja" : "Fire Pit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6",
+        "en" : "Passive Effect: Indoors Temp",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Fireplace",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Fireplace__CardImage",
+        "name"     : {
+          "zh" : "\u58C1\u7089",
+          "en" : "Fireplace",
+          "ja" : "\u6696\u7089"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6",
+        "en" : "Passive Effect: Indoors Temp",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Hearth",
+        "type" : "CardData",
+        "CardType" : 2,
+        "name"     : {
+          "zh" : "\u706B\u7089",
+          "en" : "Hearth",
+          "ja" : "\u7089\u8FBA"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29",
+        "en" : "Passive Effect: Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Hearth",
+        "type" : "CardData",
+        "CardType" : 2,
+        "name"     : {
+          "zh" : "\u706B\u7089",
+          "en" : "Hearth",
+          "ja" : "\u7089\u8FBA"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u9AD8\u6E29",
+        "en" : "Passive Effect: Hot",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHot"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HearthAwakened",
+        "type" : "CardData",
+        "CardType" : 2,
+        "name"     : {
+          "zh" : "\u71C3\u70E7\u7684\u706B\u7089",
+          "en" : "Awakened Hearth",
+          "ja" : "\u518D\u71C3\u3057\u305F\u6696\u7089"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u6E29",
+        "en" : "Passive Effect: Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AInsulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "HearthAwakened",
+        "type" : "CardData",
+        "CardType" : 2,
+        "name"     : {
+          "zh" : "\u71C3\u70E7\u7684\u706B\u7089",
+          "en" : "Awakened Hearth",
+          "ja" : "\u518D\u71C3\u3057\u305F\u6696\u7089"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u9AD8\u6E29",
+        "en" : "Passive Effect: Hot",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHot"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Oven",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_Kiln__CardImage",
+        "name"     : {
+          "zh" : "\u70E4\u7BB1",
+          "en" : "Oven",
+          "ja" : "\u30AA\u30FC\u30D6\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6",
+        "en" : "Passive Effect: Indoors Temp",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SaunaStove",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__SaunaStove__CardImage",
+        "name"     : {
+          "zh" : "\u6851\u62FF\u7089",
+          "en" : "Sauna Stove",
+          "ja" : "\u30B5\u30A6\u30CA\u30B9\u30C8\u30FC\u30D6"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6",
+        "en" : "Passive Effect: Indoors Temp",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Smokehouse",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_Kiln__CardImage",
+        "name"     : {
+          "zh" : "\u70DF\u718F\u5C4B",
+          "en" : "Smokehouse",
+          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6",
+        "en" : "Passive Effect: Indoors Temp",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BookShelfDismantled",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "\u62C6\u5378\u4E66\u67B6",
+          "en" : "Dismantled BookShelf",
+          "ja" : "\u89E3\u4F53\u3055\u308C\u305F\u672C\u68DA"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u653E\u7F6E",
+        "en" : "Action: Place",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7F6E\u304F"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RusticTableDismantled",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_RusticTable__CardImage",
+        "name"     : {
+          "zh" : "\u62C6\u5378\u7B80\u6613\u684C\u5B50",
+          "en" : "Dismantled Rustic Table",
+          "ja" : "\u89E3\u4F53\u3057\u305F\u30B7\u30F3\u30D7\u30EB\u306A\u30C6\u30FC\u30D6\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7EC4\u88C5",
+        "en" : "Action: Build",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F5C\u308B"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Stool",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "\u7B80\u6613\u51F3\u5B50",
+          "en" : "Rustic Stool",
+          "ja" : "\u30B7\u30F3\u30D7\u30EB\u306A\u30B9\u30C4\u30FC\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u653E\u7F6E",
+        "en" : "Action: Place",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7F6E\u304F"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WorkbenchItem",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_Workbench__CardImage",
+        "name"     : {
+          "zh" : "\u5DE5\u4F5C\u53F0",
+          "en" : "Workbench",
+          "ja" : "\u4F5C\u696D\u53F0"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7EC4\u88C5",
+        "en" : "Action: Build",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5EFA\u7BC9\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_NiterBed",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Niter Bed",
+          "en" : "Niter Bed",
+          "ja" : "Niter Bed"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Raincatcher",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Raincatcher",
+          "en" : "Raincatcher",
+          "ja" : "Raincatcher"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_RicePaddy",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Rice Paddy",
+          "en" : "Rice Paddy",
+          "ja" : "Rice Paddy"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Scarecrow",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Scarecrow",
+          "en" : "Scarecrow",
+          "ja" : "Scarecrow"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Shower",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Shower",
+          "en" : "Shower",
+          "ja" : "Shower"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_SolarStill",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Solar Still",
+          "en" : "Solar Still",
+          "ja" : "Solar Still"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_WateringTrough",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_WateringTrough__CardImage",
+        "name"     : {
+          "zh" : "Watering Trough",
+          "en" : "Watering Trough",
+          "ja" : "Watering Trough"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Well",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Well__CardImage",
+        "name"     : {
+          "zh" : "Well",
+          "en" : "Well",
+          "ja" : "Well"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "HoodieRetromation",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Hoodie",
+          "en" : "Hoodie",
+          "ja" : "Hoodie"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34",
+        "en" : "Passive Effect: FillUnderRain",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain"
+      }
+    },
+    {
+      "source" : {
+        "key" : "BeeSuit",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Bee Suit",
+          "en" : "Bee Suit",
+          "ja" : "Bee Suit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34",
+        "en" : "Passive Effect: FillUnderRain",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain"
+      }
+    },
+    {
+      "source" : {
+        "key" : "GasMaskRustic",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Gas Mask",
+          "en" : "Gas Mask",
+          "ja" : "Gas Mask"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34",
+        "en" : "Passive Effect: FillUnderRain",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain"
+      }
+    },
+    {
+      "source" : {
+        "key" : "MaskMakeshift",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Makeshift Mask",
+          "en" : "Makeshift Mask",
+          "ja" : "Makeshift Mask"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u96E8\u4E2D\u84C4\u6C34",
+        "en" : "Passive Effect: FillUnderRain",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFillUnderRain"
+      }
+    },
+    {
+      "source" : {
+        "key" : "AlembicOn",
+        "type" : "CardData",
+        "CardType" : 2,
+        "name"     : {
+          "zh" : "Alembic",
+          "en" : "Alembic",
+          "ja" : "Alembic"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u9AD8\u6E29",
+        "en" : "Passive Effect: Hot",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHot"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Storm",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Storm",
+          "en" : "Tgr_Storm",
+          "ja" : "Tgr_Storm"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Storm",
+        "en" : "Tgr_Storm",
+        "ja" : "Tgr_Storm"
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_Storm",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Storm",
+          "en" : "Tgr_Storm",
+          "ja" : "Tgr_Storm"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Storm",
+        "en" : "Tgr_Storm",
+        "ja" : "Tgr_Storm"
+      }
+    }
+  ],
+  "_uuid"                   : "e2031c58efb4cb84fa95a3a813513dae"
+}

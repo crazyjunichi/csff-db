@@ -1,1 +1,114 @@
-{"GameName":{"zh":"\u730E\u4EBA\u4E4B\u68A6(\u8D25\u5317)","en":"HuntsmanDreamDefeat","ja":"HuntsmanDreamDefeat"},"Description":{"zh":"Used to track the Huntsman Dream fight outcome","en":"Used to track the Huntsman Dream fight outcome","ja":"Used to track the Huntsman Dream fight outcome"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"BarColor":{"r":0.8706,"g":0.4431,"b":0.4039,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"NotEnoughText":{"zh":"\u96FE\u592A\u6D53\u4E86\u6211\u505A\u4E0D\u5230\u2026\u2026","en":"Mist is to thick for this action...","ja":"\u9727\u304C\u6FC3\u3059\u304E\u3066\u3053\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u3067\u304D\u306A\u3044\u30FB\u30FB\u30FB"},"type":"GameStat","key":"HuntsmanDreamDefeat","name":{"zh":"\u730E\u4EBA\u4E4B\u68A6(\u8D25\u5317)","en":"HuntsmanDreamDefeat","ja":"HuntsmanDreamDefeat"},"min":0.0,"max":1.0,"_modifierValues":[{"source":{"key":"Event_HuntsmanDreamDefeat","type":"CardData","CardType":3,"icon":"d00ac28a756edac4","name":{"zh":"\u68A6\u9192\u4E86","en":"The Dream finally Ends","ja":"\u3064\u3044\u306B\u5922\u306F\u7D42\u308F\u308B"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7EE7\u7EED","en":"Action: Continue","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D9A\u3051\u308B"},"value":{"x":1.0,"y":1.0}}],"_requires":[{"source":{"key":"Tgr_MoonMaidenDream","type":"SelfTriggeredAction","name":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"}},"description":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"}}],"_triggers":[{"source":{"key":"Tgr_MoonMaidenDream","type":"SelfTriggeredAction","name":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"}},"description":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"}}],"_uuid":"b7099b82430a91c4caafbad42313d09a"}
+
+{
+  "GameName" : {
+    "zh" : "\u730E\u4EBA\u4E4B\u68A6(\u8D25\u5317)",
+    "en" : "HuntsmanDreamDefeat",
+    "ja" : "HuntsmanDreamDefeat"
+  },
+  "Description" : {
+    "zh" : "Used to track the Huntsman Dream fight outcome",
+    "en" : "Used to track the Huntsman Dream fight outcome",
+    "ja" : "Used to track the Huntsman Dream fight outcome"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "BarColor"        : {
+    "r" : 0.8706,
+    "g" : 0.4431,
+    "b" : 0.4039,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "NotEnoughText"           : {
+    "zh" : "\u96FE\u592A\u6D53\u4E86\u6211\u505A\u4E0D\u5230\u2026\u2026",
+    "en" : "Mist is to thick for this action...",
+    "ja" : "\u9727\u304C\u6FC3\u3059\u304E\u3066\u3053\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u3067\u304D\u306A\u3044\u30FB\u30FB\u30FB"
+  },
+  "type"                    : "GameStat",
+  "key"                     : "HuntsmanDreamDefeat",
+  "name"                    : {
+    "zh" : "\u730E\u4EBA\u4E4B\u68A6(\u8D25\u5317)",
+    "en" : "HuntsmanDreamDefeat",
+    "ja" : "HuntsmanDreamDefeat"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Event_HuntsmanDreamDefeat",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_HuntsmanDreamDefeat__CardImage",
+        "name"     : {
+          "zh" : "\u68A6\u9192\u4E86",
+          "en" : "The Dream finally Ends",
+          "ja" : "\u3064\u3044\u306B\u5922\u306F\u7D42\u308F\u308B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7EE7\u7EED",
+        "en" : "Action: Continue",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D9A\u3051\u308B"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "Tgr_MoonMaidenDream",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_MoonMaidenDream",
+          "en" : "Tgr_MoonMaidenDream",
+          "ja" : "Tgr_MoonMaidenDream"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_MoonMaidenDream",
+        "en" : "Tgr_MoonMaidenDream",
+        "ja" : "Tgr_MoonMaidenDream"
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_MoonMaidenDream",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_MoonMaidenDream",
+          "en" : "Tgr_MoonMaidenDream",
+          "ja" : "Tgr_MoonMaidenDream"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_MoonMaidenDream",
+        "en" : "Tgr_MoonMaidenDream",
+        "ja" : "Tgr_MoonMaidenDream"
+      }
+    }
+  ],
+  "_uuid"                   : "b7099b82430a91c4caafbad42313d09a"
+}

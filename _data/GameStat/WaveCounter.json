@@ -1,1 +1,145 @@
-{"GameName":{"zh":"\u6CE2\u6B21","en":"WaveCounter","ja":"\u6CE2\u30AB\u30A6\u30F3\u30BF\u30FC"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":24.0},"BaseRatePerTick":-1.0,"StatPriority":0,"Visibility":2,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"NotEnoughText":{"zh":"\u66B4\u98CE\u96E8\u592A\u5927\u4E86\u6211\u7761\u4E0D\u7740\uFF01","en":"It's too stormy to sleep!","ja":"\u5D50\u306E\u305B\u3044\u3067\u5BDD\u308C\u306A\u3044\uFF01"},"type":"GameStat","key":"WaveCounter","name":{"zh":"\u6CE2\u6B21","en":"WaveCounter","ja":"\u6CE2\u30AB\u30A6\u30F3\u30BF\u30FC"},"min":0.0,"max":24.0,"_requires":[{"source":{"key":"BedImprovised","type":"CardData","CardType":2,"icon":"b72b21adc8b22116","name":{"zh":"\u7B80\u6613\u5E8A","en":"Improvised Bed","ja":"\u624B\u4F5C\u308A\u30D9\u30C3\u30C9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C0F\u61A9","en":"Action: Nap","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"}},{"source":{"key":"BedImprovised","type":"CardData","CardType":2,"icon":"b72b21adc8b22116","name":{"zh":"\u7B80\u6613\u5E8A","en":"Improvised Bed","ja":"\u624B\u4F5C\u308A\u30D9\u30C3\u30C9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7761\u89C9","en":"Action: Sleep","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"}},{"source":{"key":"BedLog","type":"CardData","CardType":2,"icon":"cfbfdf09b84a8da7","name":{"zh":"\u539F\u6728\u5E8A","en":"Log Bed","ja":"\u4E38\u592A\u306E\u30D9\u30C3\u30C9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C0F\u61A9","en":"Action: Nap","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4EEE\u7720"}},{"source":{"key":"BedLog","type":"CardData","CardType":2,"icon":"cfbfdf09b84a8da7","name":{"zh":"\u539F\u6728\u5E8A","en":"Log Bed","ja":"\u4E38\u592A\u306E\u30D9\u30C3\u30C9"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7761\u89C9","en":"Action: Sleep","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"}},{"source":{"key":"BedRoll","type":"CardData","CardType":0,"name":{"zh":"\u7761\u888B","en":"Bedroll","ja":"\u5BDD\u888B"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C0F\u61A9","en":"Action: Nap","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4EEE\u7720"}},{"source":{"key":"BedRoll","type":"CardData","CardType":0,"name":{"zh":"\u7761\u888B","en":"Bedroll","ja":"\u5BDD\u888B"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7761\u89C9","en":"Action: Sleep","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"}}],"_uuid":"ecb835c85d6df5447a38548588f4c9d6"}
+
+{
+  "GameName" : {
+    "zh" : "\u6CE2\u6B21",
+    "en" : "WaveCounter",
+    "ja" : "\u6CE2\u30AB\u30A6\u30F3\u30BF\u30FC"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 24.0
+  },
+  "BaseRatePerTick" : -1.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "NotEnoughText"           : {
+    "zh" : "\u66B4\u98CE\u96E8\u592A\u5927\u4E86\u6211\u7761\u4E0D\u7740\uFF01",
+    "en" : "It's too stormy to sleep!",
+    "ja" : "\u5D50\u306E\u305B\u3044\u3067\u5BDD\u308C\u306A\u3044\uFF01"
+  },
+  "type"                    : "GameStat",
+  "key"                     : "WaveCounter",
+  "name"                    : {
+    "zh" : "\u6CE2\u6B21",
+    "en" : "WaveCounter",
+    "ja" : "\u6CE2\u30AB\u30A6\u30F3\u30BF\u30FC"
+  },
+  "min"                     : 0.0,
+  "max"                     : 24.0,
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "BedImprovised",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BedImprovised__CardImage",
+        "name"     : {
+          "zh" : "\u7B80\u6613\u5E8A",
+          "en" : "Improvised Bed",
+          "ja" : "\u624B\u4F5C\u308A\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C0F\u61A9",
+        "en" : "Action: Nap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedImprovised",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BedImprovised__CardImage",
+        "name"     : {
+          "zh" : "\u7B80\u6613\u5E8A",
+          "en" : "Improvised Bed",
+          "ja" : "\u624B\u4F5C\u308A\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7761\u89C9",
+        "en" : "Action: Sleep",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedLog",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BedLog__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u6728\u5E8A",
+          "en" : "Log Bed",
+          "ja" : "\u4E38\u592A\u306E\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C0F\u61A9",
+        "en" : "Action: Nap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4EEE\u7720"
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedLog",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BedLog__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u6728\u5E8A",
+          "en" : "Log Bed",
+          "ja" : "\u4E38\u592A\u306E\u30D9\u30C3\u30C9"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7761\u89C9",
+        "en" : "Action: Sleep",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedRoll",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "\u7761\u888B",
+          "en" : "Bedroll",
+          "ja" : "\u5BDD\u888B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C0F\u61A9",
+        "en" : "Action: Nap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4EEE\u7720"
+      }
+    },
+    {
+      "source" : {
+        "key" : "BedRoll",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "\u7761\u888B",
+          "en" : "Bedroll",
+          "ja" : "\u5BDD\u888B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7761\u89C9",
+        "en" : "Action: Sleep",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5BDD\u308B"
+      }
+    }
+  ],
+  "_uuid"                   : "ecb835c85d6df5447a38548588f4c9d6"
+}

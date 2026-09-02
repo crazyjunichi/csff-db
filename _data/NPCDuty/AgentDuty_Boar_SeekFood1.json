@@ -1,1 +1,80 @@
-{"DutyName":{"zh":"\u5BFB\u627E\u98DF\u7269","en":"Boar1 Seek Food","ja":"Boar1 Seek Food"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNOTEnvironmentTags":[{"key":"tag_Env_BoarArea1","type":"CardTag","count":8,"name":{"zh":"\u91CE\u732A\u533A\u57DF1","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":45.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"Boar1SeekFoodMove","type":"MoveDutyAction","name":{"zh":"Boar1SeekFoodMove","en":"Boar1SeekFoodMove","ja":"Boar1SeekFoodMove"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Boar_SeekFood1","name":{"zh":"\u5BFB\u627E\u98DF\u7269","en":"Boar1 Seek Food","ja":"Boar1 Seek Food"},"_uuid":"e1de956b286628e4582959a07a914468"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5BFB\u627E\u98DF\u7269",
+    "en" : "Boar1 Seek Food",
+    "ja" : "Boar1 Seek Food"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNOTEnvironmentTags" : [
+      {
+        "key" : "tag_Env_BoarArea1",
+        "type" : "CardTag",
+        "count" : 8,
+        "name"  : {
+          "zh" : "\u91CE\u732A\u533A\u57DF1",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"      : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 45.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Boar1SeekFoodMove",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "Boar1SeekFoodMove",
+        "en" : "Boar1SeekFoodMove",
+        "ja" : "Boar1SeekFoodMove"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Boar_SeekFood1",
+  "name"                 : {
+    "zh" : "\u5BFB\u627E\u98DF\u7269",
+    "en" : "Boar1 Seek Food",
+    "ja" : "Boar1 Seek Food"
+  },
+  "_uuid"                : "e1de956b286628e4582959a07a914468"
+}

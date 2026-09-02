@@ -1,1 +1,86 @@
-{"NotificationSettings":{"Frequency":2,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"NestedObjectives":[{"ObjectiveCondition":{"key":"Farmer_FieldCrops_Completed","type":"Objective","name":{"zh":"\u8015\u5730\u4F5C\u7269","en":"Field Crops","ja":"\u7551\u306E\u4F5C\u7269"}},"ObjectiveName":"1","CompletionWeight":1},{"ObjectiveCondition":{"key":"Farmer_FarmingTools_Completed","type":"Objective","name":{"zh":"\u519C\u5177","en":"Farming Tools","ja":"\u8FB2\u5177"}},"ObjectiveName":"2","CompletionWeight":1},{"ObjectiveCondition":{"key":"Farmer_GardenCrops_Completed","type":"Objective","name":{"zh":"\u56ED\u827A\u4F5C\u7269","en":"Garden Crops","ja":"\u5EAD\u5712\u4F5C\u7269"}},"ObjectiveName":"3","CompletionWeight":1},{"ObjectiveCondition":{"key":"Farmer_ProcessingTools_Completed","type":"Objective","name":{"zh":"\u519C\u52A1\u5DE5\u5177","en":"Processing Tools","ja":"\u52A0\u5DE5\u306E\u30C4\u30FC\u30EB"}},"ObjectiveName":"4","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":2,"type":"Objective","key":"Farmer_TheEnd_DisplayConditions","name":{"zh":"Farmer_TheEnd_DisplayConditions","en":"Farmer_TheEnd_DisplayConditions","ja":"Farmer_TheEnd_DisplayConditions"},"_uuid":"a49c066d76edb5247829141aafd3a6a7"}
+
+{
+  "NotificationSettings" : {
+    "Frequency" : 2,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "FadeToBlack"  : 0,
+      "RoomDirection" : 0,
+      "ExitDirection" : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "NestedObjectives"     : [
+    {
+      "ObjectiveCondition" : {
+        "key" : "Farmer_FieldCrops_Completed",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u8015\u5730\u4F5C\u7269",
+          "en" : "Field Crops",
+          "ja" : "\u7551\u306E\u4F5C\u7269"
+        }
+      },
+      "ObjectiveName"      : "1",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Farmer_FarmingTools_Completed",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u519C\u5177",
+          "en" : "Farming Tools",
+          "ja" : "\u8FB2\u5177"
+        }
+      },
+      "ObjectiveName"      : "2",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Farmer_GardenCrops_Completed",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u56ED\u827A\u4F5C\u7269",
+          "en" : "Garden Crops",
+          "ja" : "\u5EAD\u5712\u4F5C\u7269"
+        }
+      },
+      "ObjectiveName"      : "3",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Farmer_ProcessingTools_Completed",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u519C\u52A1\u5DE5\u5177",
+          "en" : "Processing Tools",
+          "ja" : "\u52A0\u5DE5\u306E\u30C4\u30FC\u30EB"
+        }
+      },
+      "ObjectiveName"      : "4",
+      "CompletionWeight"   : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 2,
+  "type"                        : "Objective",
+  "key"                         : "Farmer_TheEnd_DisplayConditions",
+  "name"                        : {
+    "zh" : "Farmer_TheEnd_DisplayConditions",
+    "en" : "Farmer_TheEnd_DisplayConditions",
+    "ja" : "Farmer_TheEnd_DisplayConditions"
+  },
+  "_uuid"                       : "a49c066d76edb5247829141aafd3a6a7"
+}

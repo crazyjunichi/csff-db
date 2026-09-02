@@ -1,1 +1,226 @@
-{"GameName":{"zh":"\u559C\u6B22\u7167\u6599\u4EFB\u52A1","en":"Likes Nurturing Tasks","ja":"Likes Nurturing Tasks"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":-200.0,"y":200.0},"DefaultRate":0.0,"Statuses":[{"GameName":{"zh":"\u5F88\u559C\u6B22","en":"Really Likes","ja":"Really Likes"},"Priority":0,"ValueRange":{"m_X":150,"m_Y":200},"EffectsOnNPCStatModifiers":[{"ForDuties":[{"Target":{"key":"DutyTag_Nurturing","type":"NPCDutyTag","name":{"zh":"\u7167\u6599","en":"Nurturing","ja":"Nurturing"}}}],"Modifiers":[{"TargetStat":{"key":"Partner_Favour","type":"NPCStat","name":{"zh":"\u597D\u610F","en":"Partner_Favour","ja":"Partner_Favour"}},"AddedValue":{"Value":{"x":0.25,"y":0.25},"Behavior":1}}]}]},{"GameName":{"zh":"\u559C\u6B22","en":" Likes","ja":" Likes"},"Priority":0,"ValueRange":{"m_X":50,"m_Y":149},"EffectsOnNPCStatModifiers":[{"ForDuties":[{"Target":{"key":"DutyTag_Nurturing","type":"NPCDutyTag","name":{"zh":"\u7167\u6599","en":"Nurturing","ja":"Nurturing"}}}],"Modifiers":[{"TargetStat":{"key":"Partner_Favour","type":"NPCStat","name":{"zh":"\u597D\u610F","en":"Partner_Favour","ja":"Partner_Favour"}},"AddedValue":{"Value":{"x":0.5,"y":0.5},"Behavior":1}}]}]},{"GameName":{"zh":"\u4E0D\u559C\u6B22","en":"Dislikes","ja":"Dislikes"},"Priority":0,"ValueRange":{"m_X":-149,"m_Y":-50},"EffectsOnNPCStatModifiers":[{"ForDuties":[{"Target":{"key":"DutyTag_Nurturing","type":"NPCDutyTag","name":{"zh":"\u7167\u6599","en":"Nurturing","ja":"Nurturing"}}}],"Modifiers":[{"TargetStat":{"key":"Partner_Favour","type":"NPCStat","name":{"zh":"\u597D\u610F","en":"Partner_Favour","ja":"Partner_Favour"}},"AddedValue":{"Value":{"x":2.0,"y":2.0},"Behavior":1}}]}]},{"GameName":{"zh":"\u5F88\u4E0D\u559C\u6B22","en":"Really Dislikes","ja":"Really Dislikes"},"Priority":0,"ValueRange":{"m_X":-200,"m_Y":-150},"EffectsOnNPCStatModifiers":[{"ForDuties":[{"Target":{"key":"DutyTag_Nurturing","type":"NPCDutyTag","name":{"zh":"\u7167\u6599","en":"Nurturing","ja":"Nurturing"}}}],"Modifiers":[{"TargetStat":{"key":"Partner_Favour","type":"NPCStat","name":{"zh":"\u597D\u610F","en":"Partner_Favour","ja":"Partner_Favour"}},"AddedValue":{"Value":{"x":4.0,"y":4.0},"Behavior":1}}]}]}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"type":"NPCStat","key":"Partner_LikesNurturingTasks","name":{"zh":"\u559C\u6B22\u7167\u6599\u4EFB\u52A1","en":"Partner_LikesNurturingTasks","ja":"Partner_LikesNurturingTasks"},"_uuid":"c2a293f6a652efd41aa8090bfd08b566"}
+
+{
+  "GameName" : {
+    "zh" : "\u559C\u6B22\u7167\u6599\u4EFB\u52A1",
+    "en" : "Likes Nurturing Tasks",
+    "ja" : "Likes Nurturing Tasks"
+  },
+  "DefaultStartingValue" : 0.0,
+  "DefaultMinMaxValue"   : {
+    "x" : -200.0,
+    "y" : 200.0
+  },
+  "DefaultRate"          : 0.0,
+  "Statuses"             : [
+    {
+      "GameName" : {
+        "zh" : "\u5F88\u559C\u6B22",
+        "en" : "Really Likes",
+        "ja" : "Really Likes"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 150,
+        "m_Y" : 200
+      },
+      "EffectsOnNPCStatModifiers" : [
+        {
+          "ForDuties" : [
+            {
+              "Target" : {
+                "key" : "DutyTag_Nurturing",
+                "type" : "NPCDutyTag",
+                "name" : {
+                  "zh" : "\u7167\u6599",
+                  "en" : "Nurturing",
+                  "ja" : "Nurturing"
+                }
+              }
+            }
+          ],
+          "Modifiers" : [
+            {
+              "TargetStat" : {
+                "key" : "Partner_Favour",
+                "type" : "NPCStat",
+                "name" : {
+                  "zh" : "\u597D\u610F",
+                  "en" : "Partner_Favour",
+                  "ja" : "Partner_Favour"
+                }
+              },
+              "AddedValue" : {
+                "Value" : {
+                  "x" : 0.25,
+                  "y" : 0.25
+                },
+                "Behavior" : 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u559C\u6B22",
+        "en" : " Likes",
+        "ja" : " Likes"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 50,
+        "m_Y" : 149
+      },
+      "EffectsOnNPCStatModifiers" : [
+        {
+          "ForDuties" : [
+            {
+              "Target" : {
+                "key" : "DutyTag_Nurturing",
+                "type" : "NPCDutyTag",
+                "name" : {
+                  "zh" : "\u7167\u6599",
+                  "en" : "Nurturing",
+                  "ja" : "Nurturing"
+                }
+              }
+            }
+          ],
+          "Modifiers" : [
+            {
+              "TargetStat" : {
+                "key" : "Partner_Favour",
+                "type" : "NPCStat",
+                "name" : {
+                  "zh" : "\u597D\u610F",
+                  "en" : "Partner_Favour",
+                  "ja" : "Partner_Favour"
+                }
+              },
+              "AddedValue" : {
+                "Value" : {
+                  "x" : 0.5,
+                  "y" : 0.5
+                },
+                "Behavior" : 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4E0D\u559C\u6B22",
+        "en" : "Dislikes",
+        "ja" : "Dislikes"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : -149,
+        "m_Y" : -50
+      },
+      "EffectsOnNPCStatModifiers" : [
+        {
+          "ForDuties" : [
+            {
+              "Target" : {
+                "key" : "DutyTag_Nurturing",
+                "type" : "NPCDutyTag",
+                "name" : {
+                  "zh" : "\u7167\u6599",
+                  "en" : "Nurturing",
+                  "ja" : "Nurturing"
+                }
+              }
+            }
+          ],
+          "Modifiers" : [
+            {
+              "TargetStat" : {
+                "key" : "Partner_Favour",
+                "type" : "NPCStat",
+                "name" : {
+                  "zh" : "\u597D\u610F",
+                  "en" : "Partner_Favour",
+                  "ja" : "Partner_Favour"
+                }
+              },
+              "AddedValue" : {
+                "Value" : {
+                  "x" : 2.0,
+                  "y" : 2.0
+                },
+                "Behavior" : 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u5F88\u4E0D\u559C\u6B22",
+        "en" : "Really Dislikes",
+        "ja" : "Really Dislikes"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : -200,
+        "m_Y" : -150
+      },
+      "EffectsOnNPCStatModifiers" : [
+        {
+          "ForDuties" : [
+            {
+              "Target" : {
+                "key" : "DutyTag_Nurturing",
+                "type" : "NPCDutyTag",
+                "name" : {
+                  "zh" : "\u7167\u6599",
+                  "en" : "Nurturing",
+                  "ja" : "Nurturing"
+                }
+              }
+            }
+          ],
+          "Modifiers" : [
+            {
+              "TargetStat" : {
+                "key" : "Partner_Favour",
+                "type" : "NPCStat",
+                "name" : {
+                  "zh" : "\u597D\u610F",
+                  "en" : "Partner_Favour",
+                  "ja" : "Partner_Favour"
+                }
+              },
+              "AddedValue" : {
+                "Value" : {
+                  "x" : 4.0,
+                  "y" : 4.0
+                },
+                "Behavior" : 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "HidingOptions"        : 0,
+  "TextDisplay"          : 0,
+  "NumberPrecision"      : 0,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "type"                    : "NPCStat",
+  "key"                     : "Partner_LikesNurturingTasks",
+  "name"                    : {
+    "zh" : "\u559C\u6B22\u7167\u6599\u4EFB\u52A1",
+    "en" : "Partner_LikesNurturingTasks",
+    "ja" : "Partner_LikesNurturingTasks"
+  },
+  "_uuid"                   : "c2a293f6a652efd41aa8090bfd08b566"
+}

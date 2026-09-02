@@ -1,1 +1,514 @@
-{"CardName":{"zh":"Chest","en":"Chest","ja":"Chest"},"CardHelpSection":{"zh":"d","en":"d","ja":"d"},"CardType":1,"ObjectWeight":20000.0,"WeightReductionWhenEquipped":0.0,"TradingValue":0.0,"MapStructureType":0,"FlavourFadeRate":0.0,"AlwaysUpdate":true,"CanBeTrashed":true,"SpoilageTime":{"RandomStartingOffset":0.0,"MaxValue":100.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"Active":true,"durabilityKey":"SpoilageTime"},"UsageDurability":{"RandomStartingOffset":0.0,"MaxValue":100.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"Active":true,"durabilityKey":"UsageDurability"},"FuelCapacity":{"RandomStartingOffset":0.0,"MaxValue":100.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":20.0,"Active":true,"durabilityKey":"FuelCapacity","_valueModifications":[{"source":{"key":"TestBox 1","type":"CardData","CardType":1,"name":{"zh":"Chest","en":"Chest","ja":"Chest"}},"description":{"zh":"\u52A8\u4F5C\uFF1ARefuel","en":"Action: Refuel","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ARefuel"},"value":{"x":10.0,"y":10.0}}]},"Progress":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"Progress"},"LiquidEvaporationRate":0.0,"SpecialDurability1":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability1"},"SpecialDurability2":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability2"},"SpecialDurability3":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability3"},"SpecialDurability4":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability4"},"CardInteractions":[{"GivenCardChanges":{"ModType":3,"TransformToLiquidQuantity":0.0,"LiquidEffectScaling":0},"CompatibleCards":{"TriggerTags":[{"key":"tag_Fuel","type":"CardTag","count":23,"name":{"zh":"\u71C3\u6599","en":"Fuel","ja":"\u71C3\u6599"}}]},"ActionName":{"zh":"Refuel","en":"Refuel","ja":"Refuel"},"DaytimeCost":0,"UseMiniTicks":0,"ReceivingCardChanges":{"ModType":1,"TransformToLiquidQuantity":0.0,"LiquidEffectScaling":0,"FuelChange":{"x":10.0,"y":10.0}},"RoomDirection":0,"ExitDirection":0}],"OnStatsChangeActions":[{"RepeatOptions":0,"ActionCooldown":2,"OncePerTick":true,"PlayerUsesCardCondition":3,"StatChangeTrigger":[{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":0.0,"y":500000.0}}],"ActionName":{"zh":"Move south","en":"Move south","ja":"Move south"},"DaytimeCost":0,"UseMiniTicks":0,"RequiredTagsOnBoard":[{"TriggerTag":{"key":"tag_Env_River","type":"CardTag","count":27,"name":{"zh":"\u6CB3\u6D41\u5730\u5F62","en":"Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ","ja":"Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "}}}],"MoveReceivingCard":{"UseCardinalDirection":true,"MoveInDirection":1},"RoomDirection":0,"ExitDirection":0}],"DismantleActions":[{"ExplorationValue":0.0,"ExplorationDirection":0,"VisibilityWithInventory":0,"ActionName":{"zh":"Spawn stones","en":"Spawn stones","ja":"Spawn stones"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"Stones!","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"StoneSmall","type":"CardData","CardType":0,"icon":"2ff4ab1d379832d3","name":{"zh":"\u77F3\u5934","en":"Stone","ja":"\u77F3"}},"Quantity":{"m_X":1,"m_Y":5}}]}],"RoomDirection":0,"ExitDirection":0},{"ExplorationValue":0.0,"ExplorationDirection":0,"VisibilityWithInventory":0,"ActionName":{"zh":"Spawn stones force","en":"Spawn stones force","ja":"Spawn stones force"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"Stones!","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"StoneSmall","type":"CardData","CardType":0,"icon":"2ff4ab1d379832d3","name":{"zh":"\u77F3\u5934","en":"Stone","ja":"\u77F3"}},"Quantity":{"m_X":1,"m_Y":5}}],"IgnoreEnvironmentQuantityLimits":true}],"RoomDirection":0,"ExitDirection":0},{"ExplorationValue":0.0,"ExplorationDirection":0,"VisibilityWithInventory":0,"ActionName":{"zh":"Transform into stone","en":"Transform into stone","ja":"Transform into stone"},"DaytimeCost":0,"UseMiniTicks":0,"ReceivingCardChanges":{"ModType":2,"TransformInto":{"key":"StoneSmall","type":"CardData","CardType":0,"icon":"2ff4ab1d379832d3","name":{"zh":"\u77F3\u5934","en":"Stone","ja":"\u77F3"}},"TransformToLiquidQuantity":0.0,"LiquidEffectScaling":0},"RoomDirection":0,"ExitDirection":0}],"MaxLiquidCapacity":0.0,"MinQuantityLeftAfterATransfer":0.0,"OpenOnTab":0,"MaxWeightCapacity":0.0,"ContentWeightReduction":0.0,"InventoryFilter":{"AcceptedTypes":[0]},"CookingRecipes":[{"ActionName":{"zh":"Cook","en":"Cook","ja":"Cook"},"ConditionsCard":0,"Duration":10,"DurationRdmVariation":0,"FeedbackMode":0,"ProgressBar":0,"Notification":0,"Drops":[{"Quantity":{"m_X":3,"m_Y":5}}]}],"UnlockNotifications":0,"BlueprintUnlockTicksCost":0.0,"ResearchedNotification":0,"BuildingDaytimeCost":0,"BuildingMiniTicks":0,"DeconstructDaytimeCost":0,"DeconstructMiniTicks":0,"RoadDirection":0,"MainHandUse":0,"OffHandUse":0,"BothHandsUse":0,"RequiredDistance":0,"RequiredWrestlingState":0,"RequiredAmbush":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"ActionRange":0,"AmmoUsageCost":0.0,"WeaponReach":0.0,"PlayerAddedCover":0.0,"EnemyAddedCover":0.0,"PlayerAddedStealth":0.0,"EnemyAddedStealth":0.0,"type":"CardData","key":"TestBox 1","name":{"zh":"Chest","en":"Chest","ja":"Chest"},"_gotFrom":[{"source":{"key":"BP_TestBox1","type":"CardData","CardType":7,"name":{"zh":"Test Chest","en":"Test Chest","ja":"Test Chest"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}},{"source":{"key":"TestBox","type":"CardData","CardType":1,"name":{"zh":"Chest","en":"Chest","ja":"Chest"}},"description":{"zh":"\u52A8\u4F5C\uFF1ATest","en":"Action: Test","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATest"}}],"_transformTo":[{"source":{"key":"StoneSmall","type":"CardData","CardType":0,"icon":"2ff4ab1d379832d3","name":{"zh":"\u77F3\u5934","en":"Stone","ja":"\u77F3"}},"description":{"zh":"\u52A8\u4F5C\uFF1ASpawn stones","en":"Action: Spawn stones","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASpawn stones"}},{"source":{"key":"StoneSmall","type":"CardData","CardType":0,"icon":"2ff4ab1d379832d3","name":{"zh":"\u77F3\u5934","en":"Stone","ja":"\u77F3"}},"description":{"zh":"\u52A8\u4F5C\uFF1ASpawn stones force","en":"Action: Spawn stones force","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASpawn stones force"}},{"source":{"key":"StoneSmall","type":"CardData","CardType":0,"icon":"2ff4ab1d379832d3","name":{"zh":"\u77F3\u5934","en":"Stone","ja":"\u77F3"}},"description":{"zh":"\u52A8\u4F5C\uFF1ATransform into stone","en":"Action: Transform into stone","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATransform into stone"}}],"_uuid":"85adf140826ff344b80b7347cfa47795"}
+
+{
+  "CardName" : {
+    "zh" : "Chest",
+    "en" : "Chest",
+    "ja" : "Chest"
+  },
+  "CardHelpSection" : {
+    "zh" : "d",
+    "en" : "d",
+    "ja" : "d"
+  },
+  "CardType"        : 1,
+  "ObjectWeight"    : 20000.0,
+  "WeightReductionWhenEquipped" : 0.0,
+  "TradingValue"                : 0.0,
+  "MapStructureType"            : 0,
+  "FlavourFadeRate"             : 0.0,
+  "AlwaysUpdate"                : true,
+  "CanBeTrashed"                : true,
+  "SpoilageTime"                : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 100.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "Active"                : true,
+    "durabilityKey"         : "SpoilageTime"
+  },
+  "UsageDurability"             : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 100.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "Active"                : true,
+    "durabilityKey"         : "UsageDurability"
+  },
+  "FuelCapacity"                : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 100.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 20.0,
+    "Active"                : true,
+    "durabilityKey"         : "FuelCapacity",
+    "_valueModifications"   : [
+      {
+        "source" : {
+          "key" : "TestBox 1",
+          "type" : "CardData",
+          "CardType" : 1,
+          "name"     : {
+            "zh" : "Chest",
+            "en" : "Chest",
+            "ja" : "Chest"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1ARefuel",
+          "en" : "Action: Refuel",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ARefuel"
+        },
+        "value"       : {
+          "x" : 10.0,
+          "y" : 10.0
+        }
+      }
+    ]
+  },
+  "Progress"                    : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "Progress"
+  },
+  "LiquidEvaporationRate"       : 0.0,
+  "SpecialDurability1"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability1"
+  },
+  "SpecialDurability2"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability2"
+  },
+  "SpecialDurability3"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability3"
+  },
+  "SpecialDurability4"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability4"
+  },
+  "CardInteractions"            : [
+    {
+      "GivenCardChanges" : {
+        "ModType" : 3,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "CompatibleCards"  : {
+        "TriggerTags" : [
+          {
+            "key" : "tag_Fuel",
+            "type" : "CardTag",
+            "count" : 23,
+            "name"  : {
+              "zh" : "\u71C3\u6599",
+              "en" : "Fuel",
+              "ja" : "\u71C3\u6599"
+            }
+          }
+        ]
+      },
+      "ActionName"       : {
+        "zh" : "Refuel",
+        "en" : "Refuel",
+        "ja" : "Refuel"
+      },
+      "DaytimeCost"      : 0,
+      "UseMiniTicks"     : 0,
+      "ReceivingCardChanges" : {
+        "ModType" : 1,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0,
+        "FuelChange"                : {
+          "x" : 10.0,
+          "y" : 10.0
+        }
+      },
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    }
+  ],
+  "OnStatsChangeActions"        : [
+    {
+      "RepeatOptions" : 0,
+      "ActionCooldown" : 2,
+      "OncePerTick"    : true,
+      "PlayerUsesCardCondition" : 3,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "Counter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1000000000.0,
+            "name" : {
+              "zh" : "\u8BA1\u6570\u5668",
+              "en" : "Counter",
+              "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 0.0,
+            "y" : 500000.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Move south",
+        "en" : "Move south",
+        "ja" : "Move south"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredTagsOnBoard"     : [
+        {
+          "TriggerTag" : {
+            "key" : "tag_Env_River",
+            "type" : "CardTag",
+            "count" : 27,
+            "name"  : {
+              "zh" : "\u6CB3\u6D41\u5730\u5F62",
+              "en" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ",
+              "ja" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "
+            }
+          }
+        }
+      ],
+      "MoveReceivingCard"       : {
+        "UseCardinalDirection" : true,
+        "MoveInDirection"      : 1
+      },
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "DismantleActions"            : [
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Spawn stones",
+        "en" : "Spawn stones",
+        "ja" : "Spawn stones"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "Stones!",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "StoneSmall",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__Skill_RockThrowing__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u77F3\u5934",
+                  "en" : "Stone",
+                  "ja" : "\u77F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 5
+              }
+            }
+          ]
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Spawn stones force",
+        "en" : "Spawn stones force",
+        "ja" : "Spawn stones force"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "Stones!",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "StoneSmall",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__Skill_RockThrowing__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u77F3\u5934",
+                  "en" : "Stone",
+                  "ja" : "\u77F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 5
+              }
+            }
+          ],
+          "IgnoreEnvironmentQuantityLimits" : true
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Transform into stone",
+        "en" : "Transform into stone",
+        "ja" : "Transform into stone"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "ReceivingCardChanges"    : {
+        "ModType" : 2,
+        "TransformInto" : {
+          "key" : "StoneSmall",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "GameStat__Skill_RockThrowing__DefaultStatusIcon",
+          "name"     : {
+            "zh" : "\u77F3\u5934",
+            "en" : "Stone",
+            "ja" : "\u77F3"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "MaxLiquidCapacity"           : 0.0,
+  "MinQuantityLeftAfterATransfer" : 0.0,
+  "OpenOnTab"                     : 0,
+  "MaxWeightCapacity"             : 0.0,
+  "ContentWeightReduction"        : 0.0,
+  "InventoryFilter"               : {
+    "AcceptedTypes" : [
+      0
+    ]
+  },
+  "CookingRecipes"                : [
+    {
+      "ActionName" : {
+        "zh" : "Cook",
+        "en" : "Cook",
+        "ja" : "Cook"
+      },
+      "ConditionsCard" : 0,
+      "Duration"       : 10,
+      "DurationRdmVariation" : 0,
+      "FeedbackMode"         : 0,
+      "ProgressBar"          : 0,
+      "Notification"         : 0,
+      "Drops"                : [
+        {
+          "Quantity" : {
+            "m_X" : 3,
+            "m_Y" : 5
+          }
+        }
+      ]
+    }
+  ],
+  "UnlockNotifications"           : 0,
+  "BlueprintUnlockTicksCost"      : 0.0,
+  "ResearchedNotification"        : 0,
+  "BuildingDaytimeCost"           : 0,
+  "BuildingMiniTicks"             : 0,
+  "DeconstructDaytimeCost"        : 0,
+  "DeconstructMiniTicks"          : 0,
+  "RoadDirection"                 : 0,
+  "MainHandUse"                   : 0,
+  "OffHandUse"                    : 0,
+  "BothHandsUse"                  : 0,
+  "RequiredDistance"              : 0,
+  "RequiredWrestlingState"        : 0,
+  "RequiredAmbush"                : 0,
+  "RequiredSelfVulnerableState"   : 0,
+  "RequiredOpponentVulnerableState" : 0,
+  "ActionRange"                     : 0,
+  "AmmoUsageCost"                   : 0.0,
+  "WeaponReach"                     : 0.0,
+  "PlayerAddedCover"                : 0.0,
+  "EnemyAddedCover"                 : 0.0,
+  "PlayerAddedStealth"              : 0.0,
+  "EnemyAddedStealth"               : 0.0,
+  "type"                            : "CardData",
+  "key"                             : "TestBox 1",
+  "name"                            : {
+    "zh" : "Chest",
+    "en" : "Chest",
+    "ja" : "Chest"
+  },
+  "_gotFrom"                        : [
+    {
+      "source" : {
+        "key" : "BP_TestBox1",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Test Chest",
+          "en" : "Test Chest",
+          "ja" : "Test Chest"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "TestBox",
+        "type" : "CardData",
+        "CardType" : 1,
+        "name"     : {
+          "zh" : "Chest",
+          "en" : "Chest",
+          "ja" : "Chest"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATest",
+        "en" : "Action: Test",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATest"
+      }
+    }
+  ],
+  "_transformTo"                    : [
+    {
+      "source" : {
+        "key" : "StoneSmall",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__Skill_RockThrowing__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u77F3\u5934",
+          "en" : "Stone",
+          "ja" : "\u77F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASpawn stones",
+        "en" : "Action: Spawn stones",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASpawn stones"
+      }
+    },
+    {
+      "source" : {
+        "key" : "StoneSmall",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__Skill_RockThrowing__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u77F3\u5934",
+          "en" : "Stone",
+          "ja" : "\u77F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASpawn stones force",
+        "en" : "Action: Spawn stones force",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASpawn stones force"
+      }
+    },
+    {
+      "source" : {
+        "key" : "StoneSmall",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__Skill_RockThrowing__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u77F3\u5934",
+          "en" : "Stone",
+          "ja" : "\u77F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATransform into stone",
+        "en" : "Action: Transform into stone",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATransform into stone"
+      }
+    }
+  ],
+  "_uuid"                           : "85adf140826ff344b80b7347cfa47795"
+}

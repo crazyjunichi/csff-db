@@ -1,1 +1,118 @@
-{"DutyName":{"zh":"\u9057\u5FD8\u5DE2\u7A74","en":"Fox2 Forget Burrow","ja":"Fox2 Forget Burrow"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredCardsOnBoard":[{"key":"BurrowFoxAbandoned2","type":"CardData","CardType":2,"icon":"08d7e879b2200363","name":{"zh":"\u5E9F\u5F03\u7684\u72D0\u72F8\u6D1E","en":"Abandoned Fox Burrow","ja":"\u6368\u3066\u3089\u308C\u305F\u30AD\u30C4\u30CD\u306E\u5DE3\u7A74"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentBurrowAbandoned","type":"NPCStat","name":{"zh":"\u9057\u5F03\u6D1E\u7A74","en":"AgentBurrowAbandoned","ja":"AgentBurrowAbandoned"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":2,"ActionSequence":[{"key":"Fox2ResetBurrowAbandoned","type":"ChangeNPCStatDutyAction","name":{"zh":"Fox2ResetBurrowAbandoned","en":"Fox2ResetBurrowAbandoned","ja":"Fox2ResetBurrowAbandoned"}},{"key":"Fox2RemoveHome","type":"SetHomeDutyAction","name":{"zh":"Fox2RemoveHome","en":"Fox2RemoveHome","ja":"Fox2RemoveHome"}},{"key":"Fox2RemoveHasHome","type":"ChangeNPCStatDutyAction","name":{"zh":"Fox2RemoveHasHome","en":"Fox2RemoveHasHome","ja":"Fox2RemoveHasHome"}},{"key":"New WaitDutyAction","type":"WaitDutyAction","name":{"zh":"New WaitDutyAction","en":"New WaitDutyAction","ja":"New WaitDutyAction"}},{"key":"Fox2FindNewHome","type":"MoveDutyAction","name":{"zh":"Fox2FindNewHome","en":"Fox2FindNewHome","ja":"Fox2FindNewHome"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Fox2_ForgetBurrow","name":{"zh":"\u9057\u5FD8\u5DE2\u7A74","en":"Fox2 Forget Burrow","ja":"Fox2 Forget Burrow"},"_uuid":"1855c4fd49e991e4390b2a29fa344f5c"}
+
+{
+  "DutyName" : {
+    "zh" : "\u9057\u5FD8\u5DE2\u7A74",
+    "en" : "Fox2 Forget Burrow",
+    "ja" : "Fox2 Forget Burrow"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsOnBoard" : [
+      {
+        "key" : "BurrowFoxAbandoned2",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_CharcoalMound__CardImage",
+        "name"     : {
+          "zh" : "\u5E9F\u5F03\u7684\u72D0\u72F8\u6D1E",
+          "en" : "Abandoned Fox Burrow",
+          "ja" : "\u6368\u3066\u3089\u308C\u305F\u30AD\u30C4\u30CD\u306E\u5DE3\u7A74"
+        }
+      }
+    ],
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBurrowAbandoned",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9057\u5F03\u6D1E\u7A74",
+            "en" : "AgentBurrowAbandoned",
+            "ja" : "AgentBurrowAbandoned"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 2,
+  "ActionSequence"                   : [
+    {
+      "key" : "Fox2ResetBurrowAbandoned",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Fox2ResetBurrowAbandoned",
+        "en" : "Fox2ResetBurrowAbandoned",
+        "ja" : "Fox2ResetBurrowAbandoned"
+      }
+    },
+    {
+      "key" : "Fox2RemoveHome",
+      "type" : "SetHomeDutyAction",
+      "name" : {
+        "zh" : "Fox2RemoveHome",
+        "en" : "Fox2RemoveHome",
+        "ja" : "Fox2RemoveHome"
+      }
+    },
+    {
+      "key" : "Fox2RemoveHasHome",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Fox2RemoveHasHome",
+        "en" : "Fox2RemoveHasHome",
+        "ja" : "Fox2RemoveHasHome"
+      }
+    },
+    {
+      "key" : "New WaitDutyAction",
+      "type" : "WaitDutyAction",
+      "name" : {
+        "zh" : "New WaitDutyAction",
+        "en" : "New WaitDutyAction",
+        "ja" : "New WaitDutyAction"
+      }
+    },
+    {
+      "key" : "Fox2FindNewHome",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "Fox2FindNewHome",
+        "en" : "Fox2FindNewHome",
+        "ja" : "Fox2FindNewHome"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Fox2_ForgetBurrow",
+  "name"                             : {
+    "zh" : "\u9057\u5FD8\u5DE2\u7A74",
+    "en" : "Fox2 Forget Burrow",
+    "ja" : "Fox2 Forget Burrow"
+  },
+  "_uuid"                            : "1855c4fd49e991e4390b2a29fa344f5c"
+}

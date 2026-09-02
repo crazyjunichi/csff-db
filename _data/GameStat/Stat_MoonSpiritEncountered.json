@@ -1,1 +1,100 @@
-{"GameName":{"zh":"\u6708\u7075\u906D\u9047","en":"MoonSpiritEncountered","ja":"MoonSpiritEncountered"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"Stat_MoonSpiritEncountered","name":{"zh":"\u6708\u7075\u906D\u9047","en":"MoonSpiritEncountered","ja":"MoonSpiritEncountered"},"min":0.0,"max":1.0,"_modifierValues":[{"source":{"key":"Event_MoonSpiritSummoning","type":"CardData","CardType":3,"icon":"fc98d09cc017ba1f","name":{"zh":"\u53EC\u5524\u4EEA\u5F0F","en":"Summoning Ritual","ja":"\u53EC\u559A\u306E\u5100\u5F0F"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5FFD\u7565","en":"Action: Ignore","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7121\u8996\u3059\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Event_MoonSpiritSummoningGranted","type":"CardData","CardType":3,"icon":"fc98d09cc017ba1f","name":{"zh":"\u53EC\u5524\u4EEA\u5F0F","en":"Summoning Ritual","ja":"\u53EC\u559A\u306E\u5100\u5F0F"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7EE7\u7EED","en":"Action: Continue","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D9A\u3051\u308B"},"value":{"x":1.0,"y":1.0}}],"_triggers":[{"source":{"key":"Tgr_LesserEarthSpiritBoundInsightBonus","type":"SelfTriggeredAction","name":{"zh":"Tgr_LesserEarthSpiritBoundInsightBonus","en":"Tgr_LesserEarthSpiritBoundInsightBonus","ja":"Tgr_LesserEarthSpiritBoundInsightBonus"}},"description":{"zh":"Tgr_LesserEarthSpiritBoundInsightBonus","en":"Tgr_LesserEarthSpiritBoundInsightBonus","ja":"Tgr_LesserEarthSpiritBoundInsightBonus"},"value":{"x":1.0,"y":1.0}}],"_uuid":"58b220b31cf6ba444ae093ab97250c44"}
+
+{
+  "GameName" : {
+    "zh" : "\u6708\u7075\u906D\u9047",
+    "en" : "MoonSpiritEncountered",
+    "ja" : "MoonSpiritEncountered"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Stat_MoonSpiritEncountered",
+  "name"                    : {
+    "zh" : "\u6708\u7075\u906D\u9047",
+    "en" : "MoonSpiritEncountered",
+    "ja" : "MoonSpiritEncountered"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Event_MoonSpiritSummoning",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Bp_MoonEnchantment__CardImage",
+        "name"     : {
+          "zh" : "\u53EC\u5524\u4EEA\u5F0F",
+          "en" : "Summoning Ritual",
+          "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5FFD\u7565",
+        "en" : "Action: Ignore",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7121\u8996\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_MoonSpiritSummoningGranted",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Bp_MoonEnchantment__CardImage",
+        "name"     : {
+          "zh" : "\u53EC\u5524\u4EEA\u5F0F",
+          "en" : "Summoning Ritual",
+          "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7EE7\u7EED",
+        "en" : "Action: Continue",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D9A\u3051\u308B"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_LesserEarthSpiritBoundInsightBonus",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_LesserEarthSpiritBoundInsightBonus",
+          "en" : "Tgr_LesserEarthSpiritBoundInsightBonus",
+          "ja" : "Tgr_LesserEarthSpiritBoundInsightBonus"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_LesserEarthSpiritBoundInsightBonus",
+        "en" : "Tgr_LesserEarthSpiritBoundInsightBonus",
+        "ja" : "Tgr_LesserEarthSpiritBoundInsightBonus"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_uuid"                   : "58b220b31cf6ba444ae093ab97250c44"
+}

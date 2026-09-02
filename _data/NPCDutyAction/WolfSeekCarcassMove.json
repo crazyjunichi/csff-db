@@ -1,1 +1,75 @@
-{"MovementType":0,"MoveDestination":5,"DestinationSelection":0,"MoveToTags":[{"key":"tag_Env_GrazingArea","type":"CardTag","count":14,"name":{"zh":"\u7267\u8349\u533A","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"MoveToItems":[{"Target":{"key":"tag_Carcass","type":"CardTag","count":42,"name":{"zh":"\u5C38\u4F53","en":"Carcass","ja":"Carcass"}}}],"OtherAgent":{"TargetAgent":{"Target":{"key":"AgentTag_WolfPackPrey","type":"NPCTag","name":{"zh":"\u72FC\u7FA4\u730E\u7269","en":"AgentTag_WolfPackPrey","ja":"AgentTag_WolfPackPrey"}}},"Method":0,"UsePathfinding":true},"Containers":{"CanLookInContainers":true,"AllowedContainers":[{"Target":{"key":"tag_NotSafeFromAnimals","type":"CardTag","count":11,"name":{"zh":"\u4E0D\u5B89\u5168(\u52A8\u7269)","en":"Used for containers that partridges, badgers, foxes, hares, wolves, does, stags and boars can eat from","ja":"Used for containers that partridges, badgers, foxes, hares, wolves, does, stags and boars can eat from"}}}]},"LeaveTracks":true,"CostRequirements":0,"RequiredForSelectingDuty":true,"key":"WolfSeekCarcassMove","type":"NPCDutyAction","name":{"zh":"WolfSeekCarcassMove","en":"WolfSeekCarcassMove","ja":"WolfSeekCarcassMove"},"actionType":"MoveDutyAction"}
+
+{
+  "MovementType" : 0,
+  "MoveDestination" : 5,
+  "DestinationSelection" : 0,
+  "MoveToTags"           : [
+    {
+      "key" : "tag_Env_GrazingArea",
+      "type" : "CardTag",
+      "count" : 14,
+      "name"  : {
+        "zh" : "\u7267\u8349\u533A",
+        "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+        "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+      }
+    }
+  ],
+  "MoveToItems"          : [
+    {
+      "Target" : {
+        "key" : "tag_Carcass",
+        "type" : "CardTag",
+        "count" : 42,
+        "name"  : {
+          "zh" : "\u5C38\u4F53",
+          "en" : "Carcass",
+          "ja" : "Carcass"
+        }
+      }
+    }
+  ],
+  "OtherAgent"           : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "AgentTag_WolfPackPrey",
+        "type" : "NPCTag",
+        "name" : {
+          "zh" : "\u72FC\u7FA4\u730E\u7269",
+          "en" : "AgentTag_WolfPackPrey",
+          "ja" : "AgentTag_WolfPackPrey"
+        }
+      }
+    },
+    "Method"      : 0,
+    "UsePathfinding" : true
+  },
+  "Containers"           : {
+    "CanLookInContainers" : true,
+    "AllowedContainers"   : [
+      {
+        "Target" : {
+          "key" : "tag_NotSafeFromAnimals",
+          "type" : "CardTag",
+          "count" : 11,
+          "name"  : {
+            "zh" : "\u4E0D\u5B89\u5168(\u52A8\u7269)",
+            "en" : "Used for containers that partridges, badgers, foxes, hares, wolves, does, stags and boars can eat from",
+            "ja" : "Used for containers that partridges, badgers, foxes, hares, wolves, does, stags and boars can eat from"
+          }
+        }
+      }
+    ]
+  },
+  "LeaveTracks"          : true,
+  "CostRequirements"     : 0,
+  "RequiredForSelectingDuty" : true,
+  "key"                      : "WolfSeekCarcassMove",
+  "type"                     : "NPCDutyAction",
+  "name"                     : {
+    "zh" : "WolfSeekCarcassMove",
+    "en" : "WolfSeekCarcassMove",
+    "ja" : "WolfSeekCarcassMove"
+  },
+  "actionType"               : "MoveDutyAction"
+}

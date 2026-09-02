@@ -1,1 +1,99 @@
-{"DutyName":{"zh":"\u8FDB\u5165\u5DE2\u7A74\u9690\u85CF","en":"Fox2 Enter Burrow to Hide","ja":"Fox2 Enter Burrow to Hide"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredCardsOnBoard":[{"key":"BurrowFox2","type":"CardData","CardType":2,"icon":"08d7e879b2200363","name":{"zh":"\u72D0\u72F8\u6D1E","en":"Fox Burrow","ja":"\u72D0\u306E\u5DE3\u7A74"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentMorale","type":"NPCStat","name":{"zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"}},"ConditionRange":{"x":0.0,"y":99.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"RepairFox2Burrow_Hide","type":"AffectItemsDutyAction","name":{"zh":"RepairFox2Burrow_Hide","en":"RepairFox2Burrow_Hide","ja":"RepairFox2Burrow_Hide"}},{"key":"ResetFox2Home","type":"SetHomeDutyAction","name":{"zh":"ResetFox2Home","en":"ResetFox2Home","ja":"ResetFox2Home"}},{"key":"Fox2HideInSpiritWorld","type":"MoveDutyAction","name":{"zh":"Fox2HideInSpiritWorld","en":"Fox2HideInSpiritWorld","ja":"Fox2HideInSpiritWorld"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Fox2_EnterBurrowToHide","name":{"zh":"\u8FDB\u5165\u5DE2\u7A74\u9690\u85CF","en":"Fox2 Enter Burrow to Hide","ja":"Fox2 Enter Burrow to Hide"},"_uuid":"fdba9e79762e0e94c803156049ab6a4a"}
+
+{
+  "DutyName" : {
+    "zh" : "\u8FDB\u5165\u5DE2\u7A74\u9690\u85CF",
+    "en" : "Fox2 Enter Burrow to Hide",
+    "ja" : "Fox2 Enter Burrow to Hide"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsOnBoard" : [
+      {
+        "key" : "BurrowFox2",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_CharcoalMound__CardImage",
+        "name"     : {
+          "zh" : "\u72D0\u72F8\u6D1E",
+          "en" : "Fox Burrow",
+          "ja" : "\u72D0\u306E\u5DE3\u7A74"
+        }
+      }
+    ],
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentMorale",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6597\u5FD7",
+            "en" : "AgentMorale",
+            "ja" : "AgentMorale"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 99.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "RepairFox2Burrow_Hide",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "RepairFox2Burrow_Hide",
+        "en" : "RepairFox2Burrow_Hide",
+        "ja" : "RepairFox2Burrow_Hide"
+      }
+    },
+    {
+      "key" : "ResetFox2Home",
+      "type" : "SetHomeDutyAction",
+      "name" : {
+        "zh" : "ResetFox2Home",
+        "en" : "ResetFox2Home",
+        "ja" : "ResetFox2Home"
+      }
+    },
+    {
+      "key" : "Fox2HideInSpiritWorld",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "Fox2HideInSpiritWorld",
+        "en" : "Fox2HideInSpiritWorld",
+        "ja" : "Fox2HideInSpiritWorld"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Fox2_EnterBurrowToHide",
+  "name"                 : {
+    "zh" : "\u8FDB\u5165\u5DE2\u7A74\u9690\u85CF",
+    "en" : "Fox2 Enter Burrow to Hide",
+    "ja" : "Fox2 Enter Burrow to Hide"
+  },
+  "_uuid"                : "fdba9e79762e0e94c803156049ab6a4a"
+}

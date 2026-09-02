@@ -1,1 +1,58 @@
-{"SceneImage":{"FileName":"61328b25391d1762"},"SceneTitle":{"zh":"\u737E","en":"Badger","ja":"\u30A2\u30CA\u30B0\u30DE"},"SceneLines":[{"Line":{"zh":"\u4F60\u63A5\u8FD1\u737E","en":"You approach the Badger","ja":"\u30A2\u30CA\u30B0\u30DE\u306B\u8FD1\u3065\u304F"},"NextStep":{"NextStep":2},"ShowContinueButton":0,"ActionToPerform":{"StartCombatEncounter":{"key":"Combat_EncounterBadger","type":"Encounter","icon":"61328b25391d1762","name":{"zh":"\u906D\u9047\u737E","en":"Badger Encounter","ja":"\u30A2\u30CA\u30B0\u30DE\u906D\u9047"}},"OverrideEncounterNPC":true,"EncounterNPC":{"key":"Agent_Badger1","type":"NPCAgent","icon":"61328b25391d1762","name":{"zh":"\u737E","en":"Badger","ja":"\u30A2\u30CA\u30B0\u30DE"}},"Ticks":0,"Miniticks":0},"key":"Badger1Intro","type":"dialog"}],"key":"Dialogue_AgentBadger1","type":"DialogScene","name":{"zh":"Dialogue_AgentBadger1","en":"Dialogue_AgentBadger1","ja":"Dialogue_AgentBadger1"}}
+
+{
+  "SceneImage" : {
+    "FileName" : "NPCAgent__Agent_Badger1__AgentImage"
+  },
+  "SceneTitle" : {
+    "zh" : "\u737E",
+    "en" : "Badger",
+    "ja" : "\u30A2\u30CA\u30B0\u30DE"
+  },
+  "SceneLines" : [
+    {
+      "Line" : {
+        "zh" : "\u4F60\u63A5\u8FD1\u737E",
+        "en" : "You approach the Badger",
+        "ja" : "\u30A2\u30CA\u30B0\u30DE\u306B\u8FD1\u3065\u304F"
+      },
+      "NextStep" : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 0,
+      "ActionToPerform"    : {
+        "StartCombatEncounter" : {
+          "key" : "Combat_EncounterBadger",
+          "type" : "Encounter",
+          "icon" : "NPCAgent__Agent_Badger1__AgentImage",
+          "name" : {
+            "zh" : "\u906D\u9047\u737E",
+            "en" : "Badger Encounter",
+            "ja" : "\u30A2\u30CA\u30B0\u30DE\u906D\u9047"
+          }
+        },
+        "OverrideEncounterNPC" : true,
+        "EncounterNPC"         : {
+          "key" : "Agent_Badger1",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_Badger1__AgentImage",
+          "name" : {
+            "zh" : "\u737E",
+            "en" : "Badger",
+            "ja" : "\u30A2\u30CA\u30B0\u30DE"
+          }
+        },
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      },
+      "key"                : "Badger1Intro",
+      "type"               : "dialog"
+    }
+  ],
+  "key"        : "Dialogue_AgentBadger1",
+  "type"       : "DialogScene",
+  "name"       : {
+    "zh" : "Dialogue_AgentBadger1",
+    "en" : "Dialogue_AgentBadger1",
+    "ja" : "Dialogue_AgentBadger1"
+  }
+}

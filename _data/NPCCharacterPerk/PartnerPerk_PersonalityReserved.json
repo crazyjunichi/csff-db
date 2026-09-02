@@ -1,1 +1,66 @@
-{"SunsCost":30,"MoonsCost":0,"StarsCost":0,"PerkName":{"zh":"\u5185\u5411","en":"Reserved","ja":"Reserved"},"PerkDescription":{"zh":"\u66F4\u96BE\u7D2F\u8BA1\u4FE1\u4EFB\uFF0C\u5E76\u66F4\u6613\u6000\u7591\u4ED6\u4EBA\u3002","en":"Gains trust more slowly and is quicker to become suspicious of others.","ja":"Gains trust more slowly and is quicker to become suspicious of others."},"PerkIcon":{"FileName":"55aa9bdd01ba38d7"},"DisplayPriority":0.0,"StartingNPCStatModifiers":[{"TargetStat":{"key":"Partner_Trust","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u4FE1\u4EFB","en":"Partner_Trust","ja":"Partner_Trust"}},"UseAssociatedAgent":true,"ValueChange":{"x":-2000.0,"y":-2000.0}}],"PassiveNPCStatModifiers":[{"TargetStat":{"key":"Partner_Trustfulness","type":"NPCStat","name":{"zh":"\u4FE1\u4EFB\u503E\u5411","en":"Partner_Trustfulness","ja":"Partner_Trustfulness"}},"ValueChange":{"MaxValue":-50.0,"FloatValue":-50.0,"Active":true}}],"CheckingNotificationDetails":0,"type":"NPCCharacterPerk","key":"PartnerPerk_PersonalityReserved","icon":"55aa9bdd01ba38d7","name":{"zh":"\u5185\u5411","en":"Reserved","ja":"Reserved"},"_uuid":"aa88c71e33e55fc488f68dbca86684df"}
+
+{
+  "SunsCost" : 30,
+  "MoonsCost" : 0,
+  "StarsCost" : 0,
+  "PerkName"  : {
+    "zh" : "\u5185\u5411",
+    "en" : "Reserved",
+    "ja" : "Reserved"
+  },
+  "PerkDescription" : {
+    "zh" : "\u66F4\u96BE\u7D2F\u8BA1\u4FE1\u4EFB\uFF0C\u5E76\u66F4\u6613\u6000\u7591\u4ED6\u4EBA\u3002",
+    "en" : "Gains trust more slowly and is quicker to become suspicious of others.",
+    "ja" : "Gains trust more slowly and is quicker to become suspicious of others."
+  },
+  "PerkIcon"        : {
+    "FileName" : "GameStat__Grief__DefaultStatusIcon"
+  },
+  "DisplayPriority" : 0.0,
+  "StartingNPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "Partner_Trust",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+          "en" : "Partner_Trust",
+          "ja" : "Partner_Trust"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : -2000.0,
+        "y" : -2000.0
+      }
+    }
+  ],
+  "PassiveNPCStatModifiers"  : [
+    {
+      "TargetStat" : {
+        "key" : "Partner_Trustfulness",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u4FE1\u4EFB\u503E\u5411",
+          "en" : "Partner_Trustfulness",
+          "ja" : "Partner_Trustfulness"
+        }
+      },
+      "ValueChange" : {
+        "MaxValue" : -50.0,
+        "FloatValue" : -50.0,
+        "Active"     : true
+      }
+    }
+  ],
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "NPCCharacterPerk",
+  "key"                         : "PartnerPerk_PersonalityReserved",
+  "icon"                        : "GameStat__Grief__DefaultStatusIcon",
+  "name"                        : {
+    "zh" : "\u5185\u5411",
+    "en" : "Reserved",
+    "ja" : "Reserved"
+  },
+  "_uuid"                       : "aa88c71e33e55fc488f68dbca86684df"
+}

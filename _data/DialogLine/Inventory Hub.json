@@ -1,0 +1,632 @@
+
+{
+  "Line" : {
+    "zh" : "Your partner listens attentively.",
+    "en" : "Your partner listens attentively.",
+    "ja" : "Your partner listens attentively."
+  },
+  "ShowContinueButton" : 0,
+  "PossibleAnswers"    : [
+    {
+      "Answer" : {
+        "zh" : "Back",
+        "en" : "Back",
+        "ja" : "Back"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Directions Hub",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "\u4F60\u7684\u540C\u4F34\u6B63\u542C\u7740\u5462\u3002",
+            "en" : "Your partner listens.",
+            "ja" : "Your partner listens."
+          }
+        }
+      }
+    },
+    {
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCActiveDuties" : [
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_NettleFiber",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u63D0\u53D6\u8368\u9EBB\u7EA4\u7EF4",
+                "en" : "Process",
+                "ja" : "Process"
+              }
+            },
+            "IsActive"           : true
+          }
+        ]
+      },
+      "Answer"     : {
+        "zh" : "Stop Processing Inventory",
+        "en" : "Stop Processing Inventory",
+        "ja" : "Stop Processing Inventory"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Inventory Hub",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "Your partner listens attentively.",
+            "en" : "Your partner listens attentively.",
+            "ja" : "Your partner listens attentively."
+          }
+        }
+      },
+      "ActionToPerform" : {
+        "NPCSetDuties" : [
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_NettleFiber",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u63D0\u53D6\u8368\u9EBB\u7EA4\u7EF4",
+                "en" : "Process",
+                "ja" : "Process"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_PoundSinew",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u6376\u6253\u808C\u8171",
+                "en" : "Pound",
+                "ja" : "Pound"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_CrushBones",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u78BE\u9AA8",
+                "en" : "Crush Bones",
+                "ja" : "Crush Bones"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_GutFish",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5256\u9C7C",
+                "en" : "Gut",
+                "ja" : "Gut"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_PeelRoots",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u524A\u6839\u76AE",
+                "en" : "Peel Roots",
+                "ja" : "Peel Roots"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_ThreshWheatOrRye",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u8131\u7C92",
+                "en" : "Thresh Sheaves",
+                "ja" : "Thresh Sheaves"
+              }
+            }
+          }
+        ],
+        "Ticks"        : 0,
+        "Miniticks"    : 0
+      }
+    },
+    {
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCActiveDuties" : [
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_NettleFiber",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u63D0\u53D6\u8368\u9EBB\u7EA4\u7EF4",
+                "en" : "Process",
+                "ja" : "Process"
+              }
+            }
+          }
+        ]
+      },
+      "Answer"     : {
+        "zh" : "Process Inventory",
+        "en" : "Process Inventory",
+        "ja" : "Process Inventory"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Inventory Hub",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "Your partner listens attentively.",
+            "en" : "Your partner listens attentively.",
+            "ja" : "Your partner listens attentively."
+          }
+        }
+      },
+      "ActionToPerform" : {
+        "NPCSetDuties" : [
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_NettleFiber",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u63D0\u53D6\u8368\u9EBB\u7EA4\u7EF4",
+                "en" : "Process",
+                "ja" : "Process"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_PoundSinew",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u6376\u6253\u808C\u8171",
+                "en" : "Pound",
+                "ja" : "Pound"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_GutFish",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5256\u9C7C",
+                "en" : "Gut",
+                "ja" : "Gut"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_CrushBones",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u78BE\u9AA8",
+                "en" : "Crush Bones",
+                "ja" : "Crush Bones"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_PeelRoots",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u524A\u6839\u76AE",
+                "en" : "Peel Roots",
+                "ja" : "Peel Roots"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_ThreshWheatOrRye",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u8131\u7C92",
+                "en" : "Thresh Sheaves",
+                "ja" : "Thresh Sheaves"
+              }
+            },
+            "SetActive"          : true
+          }
+        ],
+        "Ticks"        : 0,
+        "Miniticks"    : 0
+      }
+    },
+    {
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCActiveDuties" : [
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_CordMaking",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5236\u7EBF",
+                "en" : "Cord Making",
+                "ja" : "Cord Making"
+              }
+            },
+            "IsActive"           : true
+          }
+        ]
+      },
+      "Answer"     : {
+        "zh" : "Stop Crafting from Inventory",
+        "en" : "Stop Crafting from Inventory",
+        "ja" : "Stop Crafting from Inventory"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Inventory Hub",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "Your partner listens attentively.",
+            "en" : "Your partner listens attentively.",
+            "ja" : "Your partner listens attentively."
+          }
+        }
+      },
+      "ActionToPerform" : {
+        "NPCSetDuties" : [
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_CordMaking",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5236\u7EBF",
+                "en" : "Cord Making",
+                "ja" : "Cord Making"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_CrushBonePieces",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u78BE\u9AA8\u788E",
+                "en" : "Crush Bone Pieces",
+                "ja" : "Crush Bone Pieces"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_GrindWithHammeringTool",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u7528\u9524\u51FB\u5DE5\u5177\u7814\u78E8",
+                "en" : "Grind",
+                "ja" : "Grind"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_GrindWithMortarAndPestle",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u7528\u81FC\u548C\u6775\u7814\u78E8",
+                "en" : "Grind",
+                "ja" : "Grind"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_MakeBrick",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5236\u7816",
+                "en" : "Make Brick",
+                "ja" : "Make Brick"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_MakeClay",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5236\u4F5C\u7C98\u571F",
+                "en" : "Make Clay",
+                "ja" : "Make Clay"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_MakeFilling",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u7EDE\u8089",
+                "en" : "Make Filling",
+                "ja" : "Make Filling"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_MakeTwineFromPineRoots",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u7528\u677E\u6811\u6839\u5236\u7EBF",
+                "en" : "Make Cord from Pine Roots",
+                "ja" : "Make Cord from Pine Roots"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_MinceMeat",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u7EDE\u8089",
+                "en" : "Mince",
+                "ja" : "Mince"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_PressCheese",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u538B\u5236\u5976\u916A",
+                "en" : "Press",
+                "ja" : "Press"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_SinewCord",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5236\u4F5C\u808C\u8171\u7EF3",
+                "en" : "Make Cord",
+                "ja" : "Make Cord"
+              }
+            }
+          }
+        ],
+        "Ticks"        : 0,
+        "Miniticks"    : 0
+      }
+    },
+    {
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCActiveDuties" : [
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_CordMaking",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5236\u7EBF",
+                "en" : "Cord Making",
+                "ja" : "Cord Making"
+              }
+            }
+          }
+        ]
+      },
+      "Answer"     : {
+        "zh" : "Craft from Inventory",
+        "en" : "Craft from Inventory",
+        "ja" : "Craft from Inventory"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Inventory Hub",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "Your partner listens attentively.",
+            "en" : "Your partner listens attentively.",
+            "ja" : "Your partner listens attentively."
+          }
+        }
+      },
+      "ActionToPerform" : {
+        "NPCSetDuties" : [
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_CordMaking",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5236\u7EBF",
+                "en" : "Cord Making",
+                "ja" : "Cord Making"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_CrushBonePieces",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u78BE\u9AA8\u788E",
+                "en" : "Crush Bone Pieces",
+                "ja" : "Crush Bone Pieces"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_GrindWithHammeringTool",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u7528\u9524\u51FB\u5DE5\u5177\u7814\u78E8",
+                "en" : "Grind",
+                "ja" : "Grind"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_GrindWithMortarAndPestle",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u7528\u81FC\u548C\u6775\u7814\u78E8",
+                "en" : "Grind",
+                "ja" : "Grind"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_MakeBrick",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5236\u7816",
+                "en" : "Make Brick",
+                "ja" : "Make Brick"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_MakeClay",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5236\u4F5C\u7C98\u571F",
+                "en" : "Make Clay",
+                "ja" : "Make Clay"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_MakeFilling",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u7EDE\u8089",
+                "en" : "Make Filling",
+                "ja" : "Make Filling"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_MakeTwineFromPineRoots",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u7528\u677E\u6811\u6839\u5236\u7EBF",
+                "en" : "Make Cord from Pine Roots",
+                "ja" : "Make Cord from Pine Roots"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_MinceMeat",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u7EDE\u8089",
+                "en" : "Mince",
+                "ja" : "Mince"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_PressCheese",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u538B\u5236\u5976\u916A",
+                "en" : "Press",
+                "ja" : "Press"
+              }
+            },
+            "SetActive"          : true
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "Duty"               : {
+              "key" : "PartnerDuty_SinewCord",
+              "type" : "NPCDuty",
+              "name" : {
+                "zh" : "\u5236\u4F5C\u808C\u8171\u7EF3",
+                "en" : "Make Cord",
+                "ja" : "Make Cord"
+              }
+            },
+            "SetActive"          : true
+          }
+        ],
+        "Ticks"        : 0,
+        "Miniticks"    : 0
+      }
+    }
+  ],
+  "type"               : "DialogLine",
+  "key"                : "Inventory Hub",
+  "name"               : {
+    "zh" : "Your partner listens attentively.",
+    "en" : "Your partner listens attentively.",
+    "ja" : "Your partner listens attentively."
+  }
+}

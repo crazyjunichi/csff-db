@@ -1,1 +1,247 @@
-{"GameName":{"zh":"\u54C0\u60BC","en":"Mourning","ja":"\u8FFD\u60BC"},"Description":{"zh":"\u4F60\u6B63\u5728\u54C0\u60BC\u53BB\u4E16\u7684\u4EB2\u4EBA\u3002\u5F71\u54CD\u4F60\u7684\u60C5\u7EEA\u548C\u4E16\u754C\u89C2\u3002","en":"You are mourning the death of a loved one. Lowers your morale and mental structure.","ja":"\u4EA1\u304F\u306A\u3063\u305F\u4EBA\u3092\u8FFD\u60BC\u3057\u3001\u58EB\u6C17\u3068\u5FC3\u306E\u5065\u5EB7\u304C\u60AA\u5316\u3057\u3066\u308B\u3002"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":2880.0},"BaseRatePerTick":-1.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":0.0941,"g":0.298,"b":0.8275,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"265ef9706a28898b"},"Statuses":[{"GameName":{"zh":"\u54C0\u60BC","en":"Mourning","ja":"\u8FFD\u60BC"},"Description":{"zh":"\u4F60\u6B63\u5728\u54C0\u60BC\u53BB\u4E16\u7684\u4EB2\u4EBA\u3002","en":"You are mourning the death of a loved one.","ja":"\u4EA1\u304F\u306A\u3063\u305F\u4EBA\u3092\u8FFD\u60BC\u3057\u3066\u308B\u3002"},"Icon":{"FileName":"265ef9706a28898b"},"ValueRange":{"m_X":1,"m_Y":2880},"EffectsOnStats":[{"Stat":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"RateModifier":{"x":-1.5,"y":-1.5}},{"Stat":{"key":"MentalStructure","type":"GameStat","icon":"970da5f1f2e32aeb","min":0.0,"max":250.0,"name":{"zh":"\u4E16\u754C\u89C2","en":"Mental Structure","ja":"\u7CBE\u795E\u69CB\u9020"}},"RateModifier":{"x":-1.0,"y":-1.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"265ef9706a28898b"},"StepValue":10.0},"type":"GameStat","key":"Mourning","icon":"265ef9706a28898b","name":{"zh":"\u54C0\u60BC","en":"Mourning","ja":"\u8FFD\u60BC"},"min":0.0,"max":2880.0,"_modifierValues":[{"source":{"key":"DogFriend","type":"CardData","CardType":0,"name":{"zh":"Dog Friend","en":"Dog Friend","ja":"Dog Friend"}},"description":{"zh":"Hunger \u964D\u4E3A\u96F6","en":"Hunger Depleted","ja":"Hunger \u30BC\u30ED"},"value":{"x":672.0,"y":672.0}},{"source":{"key":"DogFriend","type":"CardData","CardType":0,"name":{"zh":"Dog Friend","en":"Dog Friend","ja":"Dog Friend"}},"description":{"zh":"Thirst \u964D\u4E3A\u96F6","en":"Thirst Depleted","ja":"Thirst \u30BC\u30ED"},"value":{"x":672.0,"y":672.0}},{"source":{"key":"DogFriend","type":"CardData","CardType":0,"name":{"zh":"Dog Friend","en":"Dog Friend","ja":"Dog Friend"}},"description":{"zh":"\u52A8\u4F5C\uFF1AMurder!","en":"Action: Murder!","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMurder!"},"value":{"x":288.0,"y":288.0}},{"source":{"key":"PartnerDialog_ExpressUltimatum","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u5931\u53BB\u4E86\u5BF9\u4F60\u7684\u6240\u6709\u4FE1\u4EFB\u5E76\u53EF\u80FD\u6253\u7B97\u79BB\u5F00\u4F60\u3002","en":"Your partner has lost all trust in you and now approaches with the intention of leaving you.","ja":"Your partner has lost all trust in you and now approaches with the intention of leaving you."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":1440.0,"y":1440.0}},{"source":{"key":"Partner_BodyTemperature","type":"NPCStat","name":{"zh":"\u4F53\u6E29","en":"Partner_BodyTemperature","ja":"Partner_BodyTemperature"}},"description":{"zh":"NPC\u72B6\u6001\u9636\u6BB5","en":"NPC Status","ja":"NPC\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E"},"value":{"x":2880.0,"y":2880.0}},{"source":{"key":"Partner_Weight","type":"NPCStat","name":{"zh":"\u4F53\u91CD","en":"Partner_Weight","ja":"Partner_Weight"}},"description":{"zh":"NPC\u72B6\u6001\u9636\u6BB5","en":"NPC Status","ja":"NPC\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E"},"value":{"x":2880.0,"y":2880.0}}],"_uuid":"8e461e8c41bd3294f8c102991f2ff63b"}
+
+{
+  "GameName" : {
+    "zh" : "\u54C0\u60BC",
+    "en" : "Mourning",
+    "ja" : "\u8FFD\u60BC"
+  },
+  "Description" : {
+    "zh" : "\u4F60\u6B63\u5728\u54C0\u60BC\u53BB\u4E16\u7684\u4EB2\u4EBA\u3002\u5F71\u54CD\u4F60\u7684\u60C5\u7EEA\u548C\u4E16\u754C\u89C2\u3002",
+    "en" : "You are mourning the death of a loved one. Lowers your morale and mental structure.",
+    "ja" : "\u4EA1\u304F\u306A\u3063\u305F\u4EBA\u3092\u8FFD\u60BC\u3057\u3001\u58EB\u6C17\u3068\u5FC3\u306E\u5065\u5EB7\u304C\u60AA\u5316\u3057\u3066\u308B\u3002"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 2880.0
+  },
+  "BaseRatePerTick" : -1.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.0941,
+    "g" : 0.298,
+    "b" : 0.8275,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "GameStat__Assertiveness__FeedbackInfo-NegativeIcon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u54C0\u60BC",
+        "en" : "Mourning",
+        "ja" : "\u8FFD\u60BC"
+      },
+      "Description" : {
+        "zh" : "\u4F60\u6B63\u5728\u54C0\u60BC\u53BB\u4E16\u7684\u4EB2\u4EBA\u3002",
+        "en" : "You are mourning the death of a loved one.",
+        "ja" : "\u4EA1\u304F\u306A\u3063\u305F\u4EBA\u3092\u8FFD\u60BC\u3057\u3066\u308B\u3002"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__Assertiveness__FeedbackInfo-NegativeIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 1,
+        "m_Y" : 2880
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Morale",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+            "min"  : -350.0,
+            "max"  : 350.0,
+            "name" : {
+              "zh" : "\u60C5\u7EEA",
+              "en" : "Morale",
+              "ja" : "\u58EB\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.5,
+            "y" : -1.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "MentalStructure",
+            "type" : "GameStat",
+            "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 250.0,
+            "name" : {
+              "zh" : "\u4E16\u754C\u89C2",
+              "en" : "Mental Structure",
+              "ja" : "\u7CBE\u795E\u69CB\u9020"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "GameStat__Assertiveness__FeedbackInfo-NegativeIcon"
+    },
+    "StepValue" : 10.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Mourning",
+  "icon"                    : "GameStat__Assertiveness__FeedbackInfo-NegativeIcon",
+  "name"                    : {
+    "zh" : "\u54C0\u60BC",
+    "en" : "Mourning",
+    "ja" : "\u8FFD\u60BC"
+  },
+  "min"                     : 0.0,
+  "max"                     : 2880.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "DogFriend",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Dog Friend",
+          "en" : "Dog Friend",
+          "ja" : "Dog Friend"
+        }
+      },
+      "description" : {
+        "zh" : "Hunger \u964D\u4E3A\u96F6",
+        "en" : "Hunger Depleted",
+        "ja" : "Hunger \u30BC\u30ED"
+      },
+      "value"       : {
+        "x" : 672.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "DogFriend",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Dog Friend",
+          "en" : "Dog Friend",
+          "ja" : "Dog Friend"
+        }
+      },
+      "description" : {
+        "zh" : "Thirst \u964D\u4E3A\u96F6",
+        "en" : "Thirst Depleted",
+        "ja" : "Thirst \u30BC\u30ED"
+      },
+      "value"       : {
+        "x" : 672.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "DogFriend",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Dog Friend",
+          "en" : "Dog Friend",
+          "ja" : "Dog Friend"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AMurder!",
+        "en" : "Action: Murder!",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMurder!"
+      },
+      "value"       : {
+        "x" : 288.0,
+        "y" : 288.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressUltimatum",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u5931\u53BB\u4E86\u5BF9\u4F60\u7684\u6240\u6709\u4FE1\u4EFB\u5E76\u53EF\u80FD\u6253\u7B97\u79BB\u5F00\u4F60\u3002",
+          "en" : "Your partner has lost all trust in you and now approaches with the intention of leaving you.",
+          "ja" : "Your partner has lost all trust in you and now approaches with the intention of leaving you."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 1440.0,
+        "y" : 1440.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Partner_BodyTemperature",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u4F53\u6E29",
+          "en" : "Partner_BodyTemperature",
+          "ja" : "Partner_BodyTemperature"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u72B6\u6001\u9636\u6BB5",
+        "en" : "NPC Status",
+        "ja" : "NPC\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E"
+      },
+      "value"       : {
+        "x" : 2880.0,
+        "y" : 2880.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Partner_Weight",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Partner_Weight",
+          "ja" : "Partner_Weight"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u72B6\u6001\u9636\u6BB5",
+        "en" : "NPC Status",
+        "ja" : "NPC\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E"
+      },
+      "value"       : {
+        "x" : 2880.0,
+        "y" : 2880.0
+      }
+    }
+  ],
+  "_uuid"                   : "8e461e8c41bd3294f8c102991f2ff63b"
+}

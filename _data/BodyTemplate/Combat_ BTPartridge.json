@@ -1,1 +1,174 @@
-{"Head":{"UnharmedResults":[{"CombatLog":{"LogText":{"zh":"\u4E0D\u5E78\u7684\u662F\uFF0C\u4F60\u6CA1\u80FD\u4F24\u5BB3\u5230{0}\u3002","en":"Unfortunately, you didn't manage to harm {0}.","ja":"\u6B8B\u5FF5\u306A\u304C\u3089{0}\u306B\u50B7\u3092\u4E0E\u3048\u308B\u3053\u3068\u3059\u3089\u3067\u304D\u306A\u304B\u3063\u305F\u3002"}},"EncounterResult":0}],"MinorWounds":[{"CombatLog":{"LogText":{"zh":"\u4F60\u4EC5\u662F\u64E6\u5230\u4E86{0}\uFF0C\u53EA\u9020\u6210\u4E86\u6D45\u6D45\u7684\u4F24\u53E3\u3002","en":"You merely graze {0}, causing only a minor wound.","ja":"{0}\u306B\u8EFD\u3044\u50B7\u3057\u304B\u4E0E\u3048\u308B\u3053\u3068\u304C\u3067\u304D\u306A\u304B\u3063\u305F\u3002"}},"BodyLocationModifiers":{"TorsoDefenseModifier":{"x":-10.0,"y":-10.0}},"EnemyValuesModifiers":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"BloodModifier":{"x":-17.0,"y":-17.0},"StaminaApplies":0,"MoraleApplies":0,"MoraleModifier":{"x":-17.0,"y":-17.0},"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"WeaponUsageDamage":{"FloatValue":-0.92},"EncounterResult":0}],"MediumWounds":[{"CombatLog":{"LogText":{"zh":"\u4F60\u4F24\u5230\u4E86{0}\uFF0C\u4F46\u4E0D\u8DB3\u4EE5\u8BA9\u5B83\u505C\u4E0B\u3002","en":"You were able to hurt {0}, but it wasn't enought to stop it.","ja":"{0}\u306B\u653B\u6483\u3092\u4E0E\u3048\u308B\u3053\u3068\u304C\u3067\u304D\u305F\u304C\u3001\u52D5\u304D\u3092\u6B62\u3081\u308B\u3053\u3068\u306F\u3067\u304D\u306A\u304B\u3063\u305F\u3002"}},"EnemyValuesModifiers":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"BloodModifier":{"x":-68.0,"y":-68.0},"StaminaApplies":0,"MoraleApplies":0,"MoraleModifier":{"x":-34.0,"y":-34.0},"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"EncounterResult":0}],"SeriousWounds":[{"CombatLog":{"LogText":{"zh":"\u4F60\u76F4\u63A5\u523A\u7A7F\u4E86{0}\uFF0C\u4E2D\u65AD\u4E86\u5B83\u7684\u884C\u52A8\u3002","en":"You pierced right through {0}, stopping it in its tracks.","ja":"{0}\u3092\u7DBA\u9E97\u306B\u8CAB\u901A\u3059\u308B\u653B\u6483\u3092\u653E\u3063\u305F\u3002\u52D5\u304D\u3092\u6B62\u3081\u305F"}},"RequiredDamageTypes":[{"key":"DMG_Piercing","type":"DamageType","name":{"zh":"\u7A7F\u523A\u4F24","en":"Piercing","ja":"\u523A\u7A81"}}],"EnemyValuesModifiers":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"BloodModifier":{"x":-100.0,"y":-100.0},"StaminaApplies":0,"MoraleApplies":0,"MoraleModifier":{"x":-34.0,"y":-34.0},"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"EncounterResult":1},{"CombatLog":{"LogText":{"zh":"\u4F60\u91CD\u51FB\u4E86{0}\uFF0C\u4E2D\u65AD\u4E86\u5B83\u7684\u884C\u52A8\u3002","en":"You struck {0} hard, stopping it in its tracks.","ja":"{0}\u306B\u5F37\u529B\u306A\u4E00\u6483\u3092\u653E\u3063\u305F\u3002\u52D5\u304D\u3092\u6B62\u3081\u305F\u3002"}},"EnemyValuesModifiers":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"BloodModifier":{"x":-100.0,"y":-100.0},"StaminaApplies":0,"MoraleApplies":0,"MoraleModifier":{"x":-34.0,"y":-34.0},"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"EncounterResult":1}],"MeleeHitChanceWeight":1.0,"RangedHitChanceWeight":1.0},"DefaultWound":{"WeaponUsageDamage":{"FloatValue":-1.0},"EncounterResult":0},"type":"BodyTemplate","key":"Combat_ BTPartridge","name":{"zh":"Combat_ BTPartridge","en":"Combat_ BTPartridge","ja":"Combat_ BTPartridge"}}
+
+{
+  "Head" : {
+    "UnharmedResults" : [
+      {
+        "CombatLog" : {
+          "LogText" : {
+            "zh" : "\u4E0D\u5E78\u7684\u662F\uFF0C\u4F60\u6CA1\u80FD\u4F24\u5BB3\u5230{0}\u3002",
+            "en" : "Unfortunately, you didn't manage to harm {0}.",
+            "ja" : "\u6B8B\u5FF5\u306A\u304C\u3089{0}\u306B\u50B7\u3092\u4E0E\u3048\u308B\u3053\u3068\u3059\u3089\u3067\u304D\u306A\u304B\u3063\u305F\u3002"
+          }
+        },
+        "EncounterResult" : 0
+      }
+    ],
+    "MinorWounds"     : [
+      {
+        "CombatLog" : {
+          "LogText" : {
+            "zh" : "\u4F60\u4EC5\u662F\u64E6\u5230\u4E86{0}\uFF0C\u53EA\u9020\u6210\u4E86\u6D45\u6D45\u7684\u4F24\u53E3\u3002",
+            "en" : "You merely graze {0}, causing only a minor wound.",
+            "ja" : "{0}\u306B\u8EFD\u3044\u50B7\u3057\u304B\u4E0E\u3048\u308B\u3053\u3068\u304C\u3067\u304D\u306A\u304B\u3063\u305F\u3002"
+          }
+        },
+        "BodyLocationModifiers" : {
+          "TorsoDefenseModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        "EnemyValuesModifiers"  : {
+          "MeleeApplies" : 0,
+          "RangedApplies" : 0,
+          "BloodApplies"  : 0,
+          "BloodModifier" : {
+            "x" : -17.0,
+            "y" : -17.0
+          },
+          "StaminaApplies" : 0,
+          "MoraleApplies"  : 0,
+          "MoraleModifier" : {
+            "x" : -17.0,
+            "y" : -17.0
+          },
+          "Value1Applies"  : 0,
+          "Value2Applies"  : 0,
+          "Value3Applies"  : 0,
+          "Value4Applies"  : 0
+        },
+        "WeaponUsageDamage"     : {
+          "FloatValue" : -0.92
+        },
+        "EncounterResult"       : 0
+      }
+    ],
+    "MediumWounds"    : [
+      {
+        "CombatLog" : {
+          "LogText" : {
+            "zh" : "\u4F60\u4F24\u5230\u4E86{0}\uFF0C\u4F46\u4E0D\u8DB3\u4EE5\u8BA9\u5B83\u505C\u4E0B\u3002",
+            "en" : "You were able to hurt {0}, but it wasn't enought to stop it.",
+            "ja" : "{0}\u306B\u653B\u6483\u3092\u4E0E\u3048\u308B\u3053\u3068\u304C\u3067\u304D\u305F\u304C\u3001\u52D5\u304D\u3092\u6B62\u3081\u308B\u3053\u3068\u306F\u3067\u304D\u306A\u304B\u3063\u305F\u3002"
+          }
+        },
+        "EnemyValuesModifiers" : {
+          "MeleeApplies" : 0,
+          "RangedApplies" : 0,
+          "BloodApplies"  : 0,
+          "BloodModifier" : {
+            "x" : -68.0,
+            "y" : -68.0
+          },
+          "StaminaApplies" : 0,
+          "MoraleApplies"  : 0,
+          "MoraleModifier" : {
+            "x" : -34.0,
+            "y" : -34.0
+          },
+          "Value1Applies"  : 0,
+          "Value2Applies"  : 0,
+          "Value3Applies"  : 0,
+          "Value4Applies"  : 0
+        },
+        "EncounterResult"      : 0
+      }
+    ],
+    "SeriousWounds"   : [
+      {
+        "CombatLog" : {
+          "LogText" : {
+            "zh" : "\u4F60\u76F4\u63A5\u523A\u7A7F\u4E86{0}\uFF0C\u4E2D\u65AD\u4E86\u5B83\u7684\u884C\u52A8\u3002",
+            "en" : "You pierced right through {0}, stopping it in its tracks.",
+            "ja" : "{0}\u3092\u7DBA\u9E97\u306B\u8CAB\u901A\u3059\u308B\u653B\u6483\u3092\u653E\u3063\u305F\u3002\u52D5\u304D\u3092\u6B62\u3081\u305F"
+          }
+        },
+        "RequiredDamageTypes" : [
+          {
+            "key" : "DMG_Piercing",
+            "type" : "DamageType",
+            "name" : {
+              "zh" : "\u7A7F\u523A\u4F24",
+              "en" : "Piercing",
+              "ja" : "\u523A\u7A81"
+            }
+          }
+        ],
+        "EnemyValuesModifiers" : {
+          "MeleeApplies" : 0,
+          "RangedApplies" : 0,
+          "BloodApplies"  : 0,
+          "BloodModifier" : {
+            "x" : -100.0,
+            "y" : -100.0
+          },
+          "StaminaApplies" : 0,
+          "MoraleApplies"  : 0,
+          "MoraleModifier" : {
+            "x" : -34.0,
+            "y" : -34.0
+          },
+          "Value1Applies"  : 0,
+          "Value2Applies"  : 0,
+          "Value3Applies"  : 0,
+          "Value4Applies"  : 0
+        },
+        "EncounterResult"      : 1
+      },
+      {
+        "CombatLog" : {
+          "LogText" : {
+            "zh" : "\u4F60\u91CD\u51FB\u4E86{0}\uFF0C\u4E2D\u65AD\u4E86\u5B83\u7684\u884C\u52A8\u3002",
+            "en" : "You struck {0} hard, stopping it in its tracks.",
+            "ja" : "{0}\u306B\u5F37\u529B\u306A\u4E00\u6483\u3092\u653E\u3063\u305F\u3002\u52D5\u304D\u3092\u6B62\u3081\u305F\u3002"
+          }
+        },
+        "EnemyValuesModifiers" : {
+          "MeleeApplies" : 0,
+          "RangedApplies" : 0,
+          "BloodApplies"  : 0,
+          "BloodModifier" : {
+            "x" : -100.0,
+            "y" : -100.0
+          },
+          "StaminaApplies" : 0,
+          "MoraleApplies"  : 0,
+          "MoraleModifier" : {
+            "x" : -34.0,
+            "y" : -34.0
+          },
+          "Value1Applies"  : 0,
+          "Value2Applies"  : 0,
+          "Value3Applies"  : 0,
+          "Value4Applies"  : 0
+        },
+        "EncounterResult"      : 1
+      }
+    ],
+    "MeleeHitChanceWeight" : 1.0,
+    "RangedHitChanceWeight" : 1.0
+  },
+  "DefaultWound" : {
+    "WeaponUsageDamage" : {
+      "FloatValue" : -1.0
+    },
+    "EncounterResult"   : 0
+  },
+  "type"         : "BodyTemplate",
+  "key"          : "Combat_ BTPartridge",
+  "name"         : {
+    "zh" : "Combat_ BTPartridge",
+    "en" : "Combat_ BTPartridge",
+    "ja" : "Combat_ BTPartridge"
+  }
+}

@@ -1,1 +1,790 @@
-{"CardName":{"zh":"Fish Trap","en":"Fish Trap","ja":"Fish Trap"},"CardDescription":{"zh":"I should check it for fish later.","en":"I should check it for fish later.","ja":"I should check it for fish later."},"CardType":2,"ObjectWeight":0.0,"WeightReductionWhenEquipped":0.0,"TradingValue":0.0,"MapStructureType":0,"FlavourFadeRate":0.0,"CannotBeTrashed":true,"CanBeTrashed":true,"DoesNotPile":true,"DroppedOnDestroy":[{"CollectionName":"Drops","CollectionWeight":1,"DroppedCards":[{"DroppedCard":{"key":"NOT_USED_FishTrap","type":"CardData","CardType":0,"name":{"zh":"Fish Trap","en":"Fish Trap","ja":"Fish Trap"}},"Quantity":{"m_X":0,"m_Y":1}}]}],"SpoilageTime":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpoilageTime"},"UsageDurability":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"UsageDurability"},"FuelCapacity":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"FuelCapacity"},"Progress":{"RandomStartingOffset":0.0,"MaxValue":192.0,"RatePerDaytimePoint":-1.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"HasActionOnZero":true,"OnZeroNotification":0,"OnZero":{"DaytimeCost":0,"UseMiniTicks":0,"ReceivingCardChanges":{"ModType":2,"TransformToLiquidQuantity":0.0,"LiquidEffectScaling":0},"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0},"OnFullNotification":0,"FloatValue":192.0,"durabilityKey":"Progress"},"LiquidEvaporationRate":0.0,"SpecialDurability1":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability1"},"SpecialDurability2":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability2"},"SpecialDurability3":{"CardStatName":{"zh":"\u795D\u798F","en":"Blessed","ja":"Blessed"},"RandomStartingOffset":0.0,"MaxValue":1.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":3,"TextDisplay":0,"NumberPrecision":0,"OverrideIcon":{"FileName":"759a7bf765ce9c92"},"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"Active":true,"durabilityKey":"SpecialDurability3"},"SpecialDurability4":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability4"},"DismantleActions":[{"ExplorationValue":0.0,"ExplorationDirection":0,"VisibilityWithInventory":0,"ActionName":{"zh":"Pick up Trap","en":"Pick up Trap","ja":"Pick up Trap"},"DaytimeCost":1,"UseMiniTicks":0,"ActionTags":[{"key":"LegAction","type":"ActionTag","name":{"zh":"\u817F\u90E8\u52A8\u4F5C","en":"LegAction","ja":"LegAction"}}],"RequiredStatValues":[{"Stat":{"key":"Light","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":100.0,"name":{"zh":"\u5149\u4EAE","en":"Light","ja":"\u5149"}},"TriggerRange":{"x":10.0,"y":100.0},"NotifyWhenNotMet":true}],"ReceivingCardChanges":{"ModType":2,"TransformInto":{"key":"NOT_USED_FishTrap","type":"CardData","CardType":0,"name":{"zh":"Fish Trap","en":"Fish Trap","ja":"Fish Trap"}},"TransformToLiquidQuantity":0.0,"LiquidEffectScaling":0},"RoomDirection":0,"ExitDirection":0}],"MaxLiquidCapacity":0.0,"MinQuantityLeftAfterATransfer":0.0,"OpenOnTab":0,"MaxWeightCapacity":0.0,"ContentWeightReduction":0.0,"InventoryFilter":{"AcceptedTags":[{"key":"tag_Cookable","type":"CardTag","count":131,"name":{"zh":"\u53EF\u70F9\u996A\u7684","en":"Cookable","ja":"\u6599\u7406\u3067\u304D\u308B"}}]},"SpillsInventoryOnDestroy":true,"TransferCookingResultsOnTransform":true,"CookingRecipes":[{"ActionName":{"zh":"Catch Prey","en":"Catch Prey","ja":"Catch Prey"},"ConditionsCard":0,"Duration":100,"DurationRdmVariation":200,"FeedbackMode":0,"ProgressBar":0,"HideCookingProgress":true,"RandomSingleDrop":true,"Notification":1,"CustomNotification":{"zh":"Trap Triggered!","en":"Trap Triggered!","ja":"Trap Triggered!"},"StatModifications":[{"Stat":{"key":"Skill_Trapping","type":"GameStat","icon":"1502bc76adfeac74","min":0.0,"max":150.0,"name":{"zh":"\u9677\u9631","en":"Trapping","ja":"\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"}},"ValueModifier":{"x":0.5,"y":0.5}}],"DropsAsCollection":[{"CollectionName":"Fail","CollectionWeight":25,"StatsDropChanceModifiers":[{"Stat":{"key":"Skill_Trapping","type":"GameStat","icon":"1502bc76adfeac74","min":0.0,"max":150.0,"name":{"zh":"\u9677\u9631","en":"Trapping","ja":"\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"}},"StatRange":{"x":0.0,"y":150.0},"InterpWeightRange":{"m_X":0,"m_Y":-20},"WhenOutOfRange":0}],"DurabilitiesDropChanceModifier":{"Special3":{"DurabilityRange":{"x":1.0,"y":1.0},"InterpWeightRange":{"m_X":-10,"m_Y":-10},"WhenOutOfRange":0}},"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}]},{"CollectionName":"Parrotfish","CollectionWeight":0,"CardDropChanceModifiers":[{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":6,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":6,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":4,"MaxStack":0}],"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}]},{"CollectionName":"Goatfish","CollectionWeight":0,"CardDropChanceModifiers":[{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0},{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0}],"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}]},{"CollectionName":"Mudskipper","CollectionWeight":0,"CardDropChanceModifiers":[{"LookInside":0,"MaxWeightPerCard":8,"MaxStack":0}],"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}]},{"CollectionName":"Crab","CollectionWeight":0,"CardDropChanceModifiers":[{"LookInside":0,"MaxWeightPerCard":0,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":10},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":0,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":10},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":0,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":10},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":10,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":10},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":4,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":16},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":4,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":16},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":4,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":20},"WhenOutOfRange":0}]}],"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}],"StatModifications":[{"ValueModifier":{"x":-1000.0,"y":-1000.0}}]},{"CollectionName":"Prawns","CollectionWeight":0,"CardDropChanceModifiers":[{"LookInside":0,"MaxWeightPerCard":0,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":10},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":0,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":10},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":0,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":10},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":10,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":10},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":4,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":14},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":4,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":14},"WhenOutOfRange":0}]},{"LookInside":0,"MaxWeightPerCard":4,"MaxStack":0,"AddedStatModifiers":[{"StatRange":{"x":1000.0,"y":60000.0},"InterpWeightRange":{"m_X":1,"m_Y":20},"WhenOutOfRange":0}]}],"DroppedCards":[{"Quantity":{"m_X":3,"m_Y":3}}],"StatModifications":[{"ValueModifier":{"x":-1000.0,"y":-1000.0}}]}]}],"UnlockNotifications":0,"BlueprintUnlockTicksCost":0.0,"ResearchedNotification":0,"BuildingDaytimeCost":0,"BuildingMiniTicks":0,"DeconstructDaytimeCost":0,"DeconstructMiniTicks":0,"RoadDirection":0,"MainHandUse":0,"OffHandUse":0,"BothHandsUse":0,"RequiredDistance":0,"RequiredWrestlingState":0,"RequiredAmbush":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"ActionRange":0,"AmmoUsageCost":0.0,"WeaponReach":0.0,"PlayerAddedCover":0.0,"EnemyAddedCover":0.0,"PlayerAddedStealth":0.0,"EnemyAddedStealth":0.0,"type":"CardData","key":"NOT_USED_FishTrapDeployed","name":{"zh":"Fish Trap","en":"Fish Trap","ja":"Fish Trap"},"_uuid":"1b02062011f9cc1409fe48e49003d63f"}
+
+{
+  "CardName" : {
+    "zh" : "Fish Trap",
+    "en" : "Fish Trap",
+    "ja" : "Fish Trap"
+  },
+  "CardDescription" : {
+    "zh" : "I should check it for fish later.",
+    "en" : "I should check it for fish later.",
+    "ja" : "I should check it for fish later."
+  },
+  "CardType"        : 2,
+  "ObjectWeight"    : 0.0,
+  "WeightReductionWhenEquipped" : 0.0,
+  "TradingValue"                : 0.0,
+  "MapStructureType"            : 0,
+  "FlavourFadeRate"             : 0.0,
+  "CannotBeTrashed"             : true,
+  "CanBeTrashed"                : true,
+  "DoesNotPile"                 : true,
+  "DroppedOnDestroy"            : [
+    {
+      "CollectionName" : "Drops",
+      "CollectionWeight" : 1,
+      "DroppedCards"     : [
+        {
+          "DroppedCard" : {
+            "key" : "NOT_USED_FishTrap",
+            "type" : "CardData",
+            "CardType" : 0,
+            "name"     : {
+              "zh" : "Fish Trap",
+              "en" : "Fish Trap",
+              "ja" : "Fish Trap"
+            }
+          },
+          "Quantity"    : {
+            "m_X" : 0,
+            "m_Y" : 1
+          }
+        }
+      ]
+    }
+  ],
+  "SpoilageTime"                : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpoilageTime"
+  },
+  "UsageDurability"             : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "UsageDurability"
+  },
+  "FuelCapacity"                : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "FuelCapacity"
+  },
+  "Progress"                    : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 192.0,
+    "RatePerDaytimePoint"  : -1.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "HasActionOnZero"       : true,
+    "OnZeroNotification"    : 0,
+    "OnZero"                : {
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ReceivingCardChanges" : {
+        "ModType" : 2,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "FadeToBlack"          : 0,
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    },
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 192.0,
+    "durabilityKey"         : "Progress"
+  },
+  "LiquidEvaporationRate"       : 0.0,
+  "SpecialDurability1"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability1"
+  },
+  "SpecialDurability2"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability2"
+  },
+  "SpecialDurability3"          : {
+    "CardStatName" : {
+      "zh" : "\u795D\u798F",
+      "en" : "Blessed",
+      "ja" : "Blessed"
+    },
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 1.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 3,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OverrideIcon"          : {
+      "FileName" : "CardData__Bp_PikeEnchantment__CardImage"
+    },
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "Active"                : true,
+    "durabilityKey"         : "SpecialDurability3"
+  },
+  "SpecialDurability4"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability4"
+  },
+  "DismantleActions"            : [
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Pick up Trap",
+        "en" : "Pick up Trap",
+        "ja" : "Pick up Trap"
+      },
+      "DaytimeCost"             : 1,
+      "UseMiniTicks"            : 0,
+      "ActionTags"              : [
+        {
+          "key" : "LegAction",
+          "type" : "ActionTag",
+          "name" : {
+            "zh" : "\u817F\u90E8\u52A8\u4F5C",
+            "en" : "LegAction",
+            "ja" : "LegAction"
+          }
+        }
+      ],
+      "RequiredStatValues"      : [
+        {
+          "Stat" : {
+            "key" : "Light",
+            "type" : "GameStat",
+            "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5149\u4EAE",
+              "en" : "Light",
+              "ja" : "\u5149"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 10.0,
+            "y" : 100.0
+          },
+          "NotifyWhenNotMet" : true
+        }
+      ],
+      "ReceivingCardChanges"    : {
+        "ModType" : 2,
+        "TransformInto" : {
+          "key" : "NOT_USED_FishTrap",
+          "type" : "CardData",
+          "CardType" : 0,
+          "name"     : {
+            "zh" : "Fish Trap",
+            "en" : "Fish Trap",
+            "ja" : "Fish Trap"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "MaxLiquidCapacity"           : 0.0,
+  "MinQuantityLeftAfterATransfer" : 0.0,
+  "OpenOnTab"                     : 0,
+  "MaxWeightCapacity"             : 0.0,
+  "ContentWeightReduction"        : 0.0,
+  "InventoryFilter"               : {
+    "AcceptedTags" : [
+      {
+        "key" : "tag_Cookable",
+        "type" : "CardTag",
+        "count" : 131,
+        "name"  : {
+          "zh" : "\u53EF\u70F9\u996A\u7684",
+          "en" : "Cookable",
+          "ja" : "\u6599\u7406\u3067\u304D\u308B"
+        }
+      }
+    ]
+  },
+  "SpillsInventoryOnDestroy"      : true,
+  "TransferCookingResultsOnTransform" : true,
+  "CookingRecipes"                    : [
+    {
+      "ActionName" : {
+        "zh" : "Catch Prey",
+        "en" : "Catch Prey",
+        "ja" : "Catch Prey"
+      },
+      "ConditionsCard" : 0,
+      "Duration"       : 100,
+      "DurationRdmVariation" : 200,
+      "FeedbackMode"         : 0,
+      "ProgressBar"          : 0,
+      "HideCookingProgress"  : true,
+      "RandomSingleDrop"     : true,
+      "Notification"         : 1,
+      "CustomNotification"   : {
+        "zh" : "Trap Triggered!",
+        "en" : "Trap Triggered!",
+        "ja" : "Trap Triggered!"
+      },
+      "StatModifications"    : [
+        {
+          "Stat" : {
+            "key" : "Skill_Trapping",
+            "type" : "GameStat",
+            "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+            "min"  : 0.0,
+            "max"  : 150.0,
+            "name" : {
+              "zh" : "\u9677\u9631",
+              "en" : "Trapping",
+              "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        }
+      ],
+      "DropsAsCollection"    : [
+        {
+          "CollectionName" : "Fail",
+          "CollectionWeight" : 25,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_Trapping",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u9677\u9631",
+                  "en" : "Trapping",
+                  "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 150.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : -20
+              },
+              "WhenOutOfRange"    : 0
+            }
+          ],
+          "DurabilitiesDropChanceModifier" : {
+            "Special3" : {
+              "DurabilityRange" : {
+                "x" : 1.0,
+                "y" : 1.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : -10,
+                "m_Y" : -10
+              },
+              "WhenOutOfRange"    : 0
+            }
+          },
+          "DroppedCards"                   : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Parrotfish",
+          "CollectionWeight" : 0,
+          "CardDropChanceModifiers" : [
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 6,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 6,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 4,
+              "MaxStack"         : 0
+            }
+          ],
+          "DroppedCards"            : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Goatfish",
+          "CollectionWeight" : 0,
+          "CardDropChanceModifiers" : [
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            }
+          ],
+          "DroppedCards"            : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Mudskipper",
+          "CollectionWeight" : 0,
+          "CardDropChanceModifiers" : [
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 8,
+              "MaxStack"         : 0
+            }
+          ],
+          "DroppedCards"            : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Crab",
+          "CollectionWeight" : 0,
+          "CardDropChanceModifiers" : [
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 0,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 10
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 0,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 10
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 0,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 10
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 10,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 10
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 4,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 16
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 4,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 16
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 4,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 20
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            }
+          ],
+          "DroppedCards"            : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ],
+          "StatModifications"       : [
+            {
+              "ValueModifier" : {
+                "x" : -1000.0,
+                "y" : -1000.0
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Prawns",
+          "CollectionWeight" : 0,
+          "CardDropChanceModifiers" : [
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 0,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 10
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 0,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 10
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 0,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 10
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 10,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 10
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 4,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 14
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 4,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 14
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            },
+            {
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 4,
+              "MaxStack"         : 0,
+              "AddedStatModifiers" : [
+                {
+                  "StatRange" : {
+                    "x" : 1000.0,
+                    "y" : 60000.0
+                  },
+                  "InterpWeightRange" : {
+                    "m_X" : 1,
+                    "m_Y" : 20
+                  },
+                  "WhenOutOfRange"    : 0
+                }
+              ]
+            }
+          ],
+          "DroppedCards"            : [
+            {
+              "Quantity" : {
+                "m_X" : 3,
+                "m_Y" : 3
+              }
+            }
+          ],
+          "StatModifications"       : [
+            {
+              "ValueModifier" : {
+                "x" : -1000.0,
+                "y" : -1000.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "UnlockNotifications"               : 0,
+  "BlueprintUnlockTicksCost"          : 0.0,
+  "ResearchedNotification"            : 0,
+  "BuildingDaytimeCost"               : 0,
+  "BuildingMiniTicks"                 : 0,
+  "DeconstructDaytimeCost"            : 0,
+  "DeconstructMiniTicks"              : 0,
+  "RoadDirection"                     : 0,
+  "MainHandUse"                       : 0,
+  "OffHandUse"                        : 0,
+  "BothHandsUse"                      : 0,
+  "RequiredDistance"                  : 0,
+  "RequiredWrestlingState"            : 0,
+  "RequiredAmbush"                    : 0,
+  "RequiredSelfVulnerableState"       : 0,
+  "RequiredOpponentVulnerableState"   : 0,
+  "ActionRange"                       : 0,
+  "AmmoUsageCost"                     : 0.0,
+  "WeaponReach"                       : 0.0,
+  "PlayerAddedCover"                  : 0.0,
+  "EnemyAddedCover"                   : 0.0,
+  "PlayerAddedStealth"                : 0.0,
+  "EnemyAddedStealth"                 : 0.0,
+  "type"                              : "CardData",
+  "key"                               : "NOT_USED_FishTrapDeployed",
+  "name"                              : {
+    "zh" : "Fish Trap",
+    "en" : "Fish Trap",
+    "ja" : "Fish Trap"
+  },
+  "_uuid"                             : "1b02062011f9cc1409fe48e49003d63f"
+}

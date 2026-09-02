@@ -1,1 +1,1446 @@
-{"GameName":{"zh":"\u5927\u4FBF\u8F6F\u786C\u5EA6","en":"Stool Liquidity","ja":"\u4FBF\u306E\u786C\u3055"},"Description":{"zh":"\u9010\u6E10\u52A0\u901F\u6C34\u5206\u6D41\u5931\uFF0C\u964D\u4F4E\u4F60\u7684\u5E78\u798F\u5EA6\u3002","en":"Gradually increases the rate at which you lose hydration and lowers your wellbeing.","ja":"\u6C34\u5206\u304C\u5C11\u306A\u304B\u3063\u305F\u308A\u5E78\u798F\u5EA6\u304C\u4F4E\u3044\u6642\u306B\u8D77\u3053\u308B\u3002"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":300.0},"BaseRatePerTick":-0.75,"StatPriority":0,"Visibility":0,"BarColor":{"r":0.502,"g":0.1725,"b":0.0118,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"e12f39b6f3bc9d40"},"Statuses":[{"GameName":{"zh":"\u5927\u4FBF\u7A00\u8F6F","en":"Loose Stools","ja":"\u3086\u308B\u3044\u30A6\u30F3\u30B3"},"Description":{"zh":"\u611F\u89C9\u4E0D\u592A\u597D\u2026\u2026","en":"Not feeling that well...","ja":"\u5177\u5408\u304C\u60AA\u3044\u30FB\u30FB\u30FB"},"Icon":{"FileName":"e12f39b6f3bc9d40"},"ValueRange":{"m_X":149,"m_Y":200},"EffectsOnStats":[{"Stat":{"key":"Calories_Intestines","type":"GameStat","icon":"a731353da40e251d","min":0.0,"max":1000.0,"name":{"zh":"\u80A0\u5B50","en":"Intestines","ja":"\u8178"}},"RateModifier":{"x":-0.5,"y":-0.5}},{"Stat":{"key":"Thirst","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":288.0,"name":{"zh":"\u53E3\u6E34\u5EA6","en":"Thirst","ja":"\u5589\u306E\u6E07\u304D"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"RectalPressure","type":"GameStat","icon":"e12f39b6f3bc9d40","min":0.0,"max":384.0,"name":{"zh":"\u76F4\u80A0\u538B\u529B","en":"Rectal Pressure","ja":"\u76F4\u8178\u5727"}},"RateModifier":{"x":8.0,"y":8.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":1,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u8179\u6CFB","en":"Diarrhoea","ja":"\u4E0B\u75E2"},"Description":{"zh":"\u6211\u62C9\u809A\u5B50\u4E86\uFF01","en":"I have diarrhoea!","ja":"\u4E0B\u75E2\u306B\u306A\u3063\u305F\uFF01"},"Icon":{"FileName":"e12f39b6f3bc9d40"},"ValueRange":{"m_X":201,"m_Y":250},"EffectsOnStats":[{"Stat":{"key":"Calories_Intestines","type":"GameStat","icon":"a731353da40e251d","min":0.0,"max":1000.0,"name":{"zh":"\u80A0\u5B50","en":"Intestines","ja":"\u8178"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"Thirst","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":288.0,"name":{"zh":"\u53E3\u6E34\u5EA6","en":"Thirst","ja":"\u5589\u306E\u6E07\u304D"}},"RateModifier":{"x":-2.0,"y":-2.0}},{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"RateModifier":{"x":-0.5,"y":-0.5}},{"Stat":{"key":"RectalPressure","type":"GameStat","icon":"e12f39b6f3bc9d40","min":0.0,"max":384.0,"name":{"zh":"\u76F4\u80A0\u538B\u529B","en":"Rectal Pressure","ja":"\u76F4\u8178\u5727"}},"RateModifier":{"x":16.0,"y":16.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":3,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4E25\u91CD\u8179\u6CFB","en":"Severe Diarrhoea","ja":"\u3072\u3069\u3044\u4E0B\u75E2\u3060"},"Description":{"zh":"\u2026\u2026","en":"...","ja":"\u30FB\u30FB\u30FB"},"Icon":{"FileName":"e12f39b6f3bc9d40"},"ValueRange":{"m_X":251,"m_Y":300},"EffectsOnStats":[{"Stat":{"key":"Calories_Intestines","type":"GameStat","icon":"a731353da40e251d","min":0.0,"max":1000.0,"name":{"zh":"\u80A0\u5B50","en":"Intestines","ja":"\u8178"}},"RateModifier":{"x":-2.0,"y":-2.0}},{"Stat":{"key":"Thirst","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":288.0,"name":{"zh":"\u53E3\u6E34\u5EA6","en":"Thirst","ja":"\u5589\u306E\u6E07\u304D"}},"RateModifier":{"x":-3.0,"y":-3.0}},{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"RectalPressure","type":"GameStat","icon":"e12f39b6f3bc9d40","min":0.0,"max":384.0,"name":{"zh":"\u76F4\u80A0\u538B\u529B","en":"Rectal Pressure","ja":"\u76F4\u8178\u5727"}},"RateModifier":{"x":32.0,"y":32.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":4,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"e12f39b6f3bc9d40"},"StepValue":100.0},"type":"GameStat","key":"StoolLiquidity","icon":"e12f39b6f3bc9d40","name":{"zh":"\u5927\u4FBF\u8F6F\u786C\u5EA6","en":"Stool Liquidity","ja":"\u4FBF\u306E\u786C\u3055"},"min":0.0,"max":300.0,"_modifierValues":[{"source":{"key":"RottenRemains","type":"CardData","CardType":0,"icon":"d0e7aa0a2c6e6783","name":{"zh":"\u8150\u70C2\u7269","en":"Rotten Remains","ja":"\u8150\u3063\u305F\u6B8B\u9AB8"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5403\u6389","en":"Action: Eat","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98DF\u3079\u308B"},"value":{"x":300.0,"y":600.0}},{"source":{"key":"HeatherFlowersFresh","type":"CardData","CardType":0,"icon":"aa540f0196444a25","name":{"zh":"\u65B0\u9C9C\u7684\u5E1A\u77F3\u5357\u82B1","en":"Fresh Heather Flowers","ja":"\u65B0\u9BAE\u306A\u30D2\u30FC\u30B9\u306E\u82B1"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5403\u6389","en":"Action: Eat","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98DF\u3079\u308B"},"value":{"x":20.0,"y":20.0}},{"source":{"key":"HeatherFlowersDried","type":"CardData","CardType":0,"icon":"aa540f0196444a25","name":{"zh":"\u5E72\u71E5\u7684\u5E1A\u77F3\u5357\u82B1","en":"Dry Heather Flowers","ja":"\u4E7E\u71E5\u3057\u305F\u30D2\u30FC\u30B9\u306E\u82B1"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5403\u6389","en":"Action: Eat","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98DF\u3079\u308B"},"value":{"x":20.0,"y":20.0}},{"source":{"key":"CharredRemains","type":"CardData","CardType":0,"icon":"5459928475d67c6a","name":{"zh":"\u70E7\u7126\u7269","en":"Charred Remains","ja":"\u7126\u3052\u305F\u6B8B\u308A\u7269"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5403\u70E7\u7126\u7269","en":"Action: Eat Charred Remains","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7126\u3052\u305F\u6B8B\u308A\u7269\u3092\u98DF\u3079\u308B"},"value":{"x":-7.0,"y":-7.0}},{"source":{"key":"LQ_NightBroth","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u6697\u591C\u6D53\u6C64","en":"Night Broth","ja":"Night Broth"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u996E\u7528","en":"Action: Drink","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ADrink"},"value":{"x":300.0,"y":600.0}}],"_modifierRates":[{"source":{"key":"VDEBUG_HybernationSuit","type":"CardData","CardType":0,"name":{"zh":"hybernation suit","en":"hybernation suit","ja":"hybernation suit"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1Ahealing","en":"Passive Effect: healing","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1Ahealing"},"value":{"x":-100.0,"y":-100.0}},{"source":{"key":"Caffeine","type":"GameStat","icon":"dbb2c206390fde0b","min":0.0,"max":24.0,"name":{"zh":"\u5496\u5561\u56E0","en":"Caffeine","ja":"\u30AB\u30D5\u30A7\u30A4\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5496\u5561\u56E0","en":"Status Stage: Caffeine","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30AB\u30D5\u30A7\u30A4\u30F3"},"value":{"x":0.75,"y":0.75}},{"source":{"key":"Caffeine","type":"GameStat","icon":"dbb2c206390fde0b","min":0.0,"max":24.0,"name":{"zh":"\u5496\u5561\u56E0","en":"Caffeine","ja":"\u30AB\u30D5\u30A7\u30A4\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5496\u5561\u56E0","en":"Status Stage: Caffeine","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30AB\u30D5\u30A7\u30A4\u30F3"},"value":{"x":1.5,"y":1.5}},{"source":{"key":"Capsaicin","type":"GameStat","min":0.0,"max":24.0,"name":{"zh":"\u8FA3\u6912\u7D20","en":"Capsaicin","ja":"\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u8FA3\u6912\u7D20\u6C34\u5E73","en":"Status Stage: Moderate Capsaicin Levels","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3\u30EC\u30D9\u30EB"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"Capsaicin","type":"GameStat","min":0.0,"max":24.0,"name":{"zh":"\u8FA3\u6912\u7D20","en":"Capsaicin","ja":"\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u8FA3\u6912\u7D20\u6C34\u5E73","en":"Status Stage: High Capsaicin Levels","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u3044\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3\u30EC\u30D9\u30EB"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"GingerEffect","type":"GameStat","min":0.0,"max":48.0,"name":{"zh":"\u59DC\u6548\u679C","en":"Ginger","ja":"\u751F\u59DC"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u5242\u91CF","en":"Status Stage: Small Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF"},"value":{"x":-4.0,"y":-4.0}},{"source":{"key":"GingerEffect","type":"GameStat","min":0.0,"max":48.0,"name":{"zh":"\u59DC\u6548\u679C","en":"Ginger","ja":"\u751F\u59DC"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5242\u91CF","en":"Status Stage: High Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF"},"value":{"x":-8.0,"y":-8.0}},{"source":{"key":"Quinine","type":"GameStat","min":0.0,"max":96.0,"name":{"zh":"\u594E\u5B81","en":"Quinine","ja":"\u30AD\u30CB\u30FC\u30CD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u594E\u5B81\u5242\u91CF","en":"Status Stage: Low Quinine Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF\u306E\u30AD\u30CB\u30FC\u30CD"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"Quinine","type":"GameStat","min":0.0,"max":96.0,"name":{"zh":"\u594E\u5B81","en":"Quinine","ja":"\u30AD\u30CB\u30FC\u30CD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u594E\u5B81\u5242\u91CF","en":"Status Stage: Moderate Quinine Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9069\u91CF\u306E\u30AD\u30CB\u30FC\u30CD"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Quinine","type":"GameStat","min":0.0,"max":96.0,"name":{"zh":"\u594E\u5B81","en":"Quinine","ja":"\u30AD\u30CB\u30FC\u30CD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u594E\u5B81\u5242\u91CF","en":"Status Stage: High Quinine Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF\u306E\u30AD\u30CB\u30FC\u30CD"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Quinine","type":"GameStat","min":0.0,"max":96.0,"name":{"zh":"\u594E\u5B81","en":"Quinine","ja":"\u30AD\u30CB\u30FC\u30CD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8FC7\u91CF\u594E\u5B81","en":"Status Stage: Quinine Overdose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30AD\u30CB\u30FC\u30CD\u306E\u904E\u5270\u6442\u53D6"},"value":{"x":4.0,"y":4.0}},{"source":{"key":"RiceEffect","type":"GameStat","icon":"6226598c1742cfef","min":0.0,"max":48.0,"name":{"zh":"\u7C73\u996D\u6548\u679C","en":"Rice Effect","ja":"\u7C73\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5FAE\u7C73\u996D\u6548\u679C","en":"Status Stage: Minor Rice Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8EFD\u3044\u7C73\u52B9\u679C"},"value":{"x":-2.0,"y":-2.0}},{"source":{"key":"RiceEffect","type":"GameStat","icon":"6226598c1742cfef","min":0.0,"max":48.0,"name":{"zh":"\u7C73\u996D\u6548\u679C","en":"Rice Effect","ja":"\u7C73\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8F83\u9AD8\u7C73\u996D\u6548\u679C","en":"Status Stage: Major Rice Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u3044\u7C73\u52B9\u679C"},"value":{"x":-4.0,"y":-4.0}},{"source":{"key":"Stress","type":"GameStat","icon":"43e350618ec951e0","min":0.0,"max":240.0,"name":{"zh":"\u538B\u529B","en":"Stress","ja":"\u30B9\u30C8\u30EC\u30B9"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u7D27\u5F20","en":"Status Stage: Stressed","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30B9\u30C8\u30EC\u30B9\u3092\u611F\u3058\u3066\u308B"},"value":{"x":0.25,"y":0.25}},{"source":{"key":"Stress","type":"GameStat","icon":"43e350618ec951e0","min":0.0,"max":240.0,"name":{"zh":"\u538B\u529B","en":"Stress","ja":"\u30B9\u30C8\u30EC\u30B9"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u5EA6\u7D27\u5F20","en":"Status Stage: Extremely Stressed","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u975E\u5E38\u306B\u30B9\u30C8\u30EC\u30B9\u3092\u611F\u3058\u3066\u308B"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"AppleWeedEffect","type":"GameStat","icon":"eaeea9883ec772a3","min":0.0,"max":48.0,"name":{"zh":"\u67F0\u8349\u6548\u679C","en":"Appleweed Effect","ja":"\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u67F0\u8349\u6548\u679C","en":"Status Stage: Weak Appleweed Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"AppleWeedEffect","type":"GameStat","icon":"eaeea9883ec772a3","min":0.0,"max":48.0,"name":{"zh":"\u67F0\u8349\u6548\u679C","en":"Appleweed Effect","ja":"\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u67F0\u8349\u6548\u679C","en":"Status Stage: Strong Appleweed Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"},"value":{"x":-2.0,"y":-2.0}},{"source":{"key":"FirerootToxicityEffect","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u706B\u6839\u4E2D\u6BD2","en":"Fireroot Toxicity","ja":"\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5EA6\u706B\u6839\u4E2D\u6BD2","en":"Status Stage: Mild Fireroot Toxicity","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4F4E\u3044\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"FirerootToxicityEffect","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u706B\u6839\u4E2D\u6BD2","en":"Fireroot Toxicity","ja":"\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u706B\u6839\u4E2D\u6BD2","en":"Status Stage: Medium Fireroot Toxicity","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"FirerootToxicityEffect","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u706B\u6839\u4E2D\u6BD2","en":"Fireroot Toxicity","ja":"\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u706B\u6839\u4E2D\u6BD2","en":"Status Stage: High Fireroot Toxicity","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u3044\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"},"value":{"x":4.0,"y":4.0}},{"source":{"key":"FoodPoisoning","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":48.0,"name":{"zh":"\u98DF\u7269\u4E2D\u6BD2","en":"Food Poisoning","ja":"\u98DF\u4E2D\u6BD2"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u7A0B\u5EA6\u7684\u98DF\u7269\u4E2D\u6BD2","en":"Status Stage: Moderate Food Poisoning","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u98DF\u4E2D\u6BD2"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"FoodPoisoning","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":48.0,"name":{"zh":"\u98DF\u7269\u4E2D\u6BD2","en":"Food Poisoning","ja":"\u98DF\u4E2D\u6BD2"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E25\u91CD\u7684\u98DF\u7269\u4E2D\u6BD2","en":"Status Stage: Strong Food Poisoning","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u98DF\u4E2D\u6BD2"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"IngestedCharcoal","type":"GameStat","icon":"5459928475d67c6a","min":0.0,"max":400.0,"name":{"zh":"\u6728\u70AD\u6444\u5165","en":"Ingested Charcoal","ja":"\u6D3B\u6027\u70AD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u6728\u70AD\u5242\u91CF","en":"Status Stage: Minor Charcoal Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF\u306E\u6728\u70AD"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"IngestedCharcoal","type":"GameStat","icon":"5459928475d67c6a","min":0.0,"max":400.0,"name":{"zh":"\u6728\u70AD\u6444\u5165","en":"Ingested Charcoal","ja":"\u6D3B\u6027\u70AD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u6728\u70AD\u5242\u91CF","en":"Status Stage: Moderate Charcoal Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9069\u91CF\u306E\u6728\u70AD"},"value":{"x":-2.0,"y":-2.0}},{"source":{"key":"IngestedCharcoal","type":"GameStat","icon":"5459928475d67c6a","min":0.0,"max":400.0,"name":{"zh":"\u6728\u70AD\u6444\u5165","en":"Ingested Charcoal","ja":"\u6D3B\u6027\u70AD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u6728\u70AD\u5242\u91CF","en":"Status Stage: High Charcoal Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF\u306E\u6728\u70AD"},"value":{"x":-3.0,"y":-3.0}},{"source":{"key":"IngestedCharcoal","type":"GameStat","icon":"5459928475d67c6a","min":0.0,"max":400.0,"name":{"zh":"\u6728\u70AD\u6444\u5165","en":"Ingested Charcoal","ja":"\u6D3B\u6027\u70AD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u9AD8\u6728\u70AD\u5242\u91CF","en":"Status Stage: Very High Charcoal Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8D85\u5927\u91CF\u306E\u6728\u70AD"},"value":{"x":-4.0,"y":-4.0}},{"source":{"key":"JuniperEffect","type":"GameStat","icon":"eaeea9883ec772a3","min":0.0,"max":48.0,"name":{"zh":"\u675C\u677E\u6548\u679C","en":"Juniper Effect","ja":"\u30B8\u30E5\u30CB\u30D1\u30FC\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u675C\u677E\u6548\u679C","en":"Status Stage: Weak Juniper Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u30B8\u30E5\u30CB\u30D1\u30FC\u52B9\u679C"},"value":{"x":-0.5,"y":-0.5}},{"source":{"key":"JuniperEffect","type":"GameStat","icon":"eaeea9883ec772a3","min":0.0,"max":48.0,"name":{"zh":"\u675C\u677E\u6548\u679C","en":"Juniper Effect","ja":"\u30B8\u30E5\u30CB\u30D1\u30FC\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u675C\u677E\u6548\u679C","en":"Status Stage: Strong Juniper Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u30B8\u30E5\u30CB\u30D1\u30FC\u52B9\u679C"},"value":{"x":-0.75,"y":-0.75}},{"source":{"key":"Tannins","type":"GameStat","icon":"05f848ade9e42e53","min":0.0,"max":400.0,"name":{"zh":"\u97A3\u8D28","en":"Tannins","ja":"\u30BF\u30F3\u30CB\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u97A3\u8D28\u5242\u91CF","en":"Status Stage: Minor Tannins Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF\u306E\u30BF\u30F3\u30CB\u30F3"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"Tannins","type":"GameStat","icon":"05f848ade9e42e53","min":0.0,"max":400.0,"name":{"zh":"\u97A3\u8D28","en":"Tannins","ja":"\u30BF\u30F3\u30CB\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u97A3\u8D28\u5242\u91CF","en":"Status Stage: Moderate Tannins Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9069\u91CF\u306E\u30BF\u30F3\u30CB\u30F3"},"value":{"x":-2.0,"y":-2.0}},{"source":{"key":"Tannins","type":"GameStat","icon":"05f848ade9e42e53","min":0.0,"max":400.0,"name":{"zh":"\u97A3\u8D28","en":"Tannins","ja":"\u30BF\u30F3\u30CB\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u97A3\u8D28\u5242\u91CF","en":"Status Stage: High Tannins Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF\u306E\u30BF\u30F3\u30CB\u30F3"},"value":{"x":-3.0,"y":-3.0}},{"source":{"key":"Tannins","type":"GameStat","icon":"05f848ade9e42e53","min":0.0,"max":400.0,"name":{"zh":"\u97A3\u8D28","en":"Tannins","ja":"\u30BF\u30F3\u30CB\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u9AD8\u97A3\u8D28\u5242\u91CF","en":"Status Stage: Very High Tannins Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8D85\u5927\u91CF\u306E\u30BF\u30F3\u30CB\u30F3"},"value":{"x":-4.0,"y":-4.0}},{"source":{"key":"WolfsbaneToxicity","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":96.0,"name":{"zh":"\u4E4C\u5934\u4E2D\u6BD2","en":"Wolfsbane Poisoning","ja":"\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u4E4C\u5934\u4E2D\u6BD2","en":"Status Stage: Moderate Wolfsbane Poisoning","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"WolfsbaneToxicity","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":96.0,"name":{"zh":"\u4E4C\u5934\u4E2D\u6BD2","en":"Wolfsbane Poisoning","ja":"\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u4E4C\u5934\u4E2D\u6BD2","en":"Status Stage: Severe Wolfsbane Poisoning","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u611F\u67D3","en":"Status Stage: Gastrointestinal Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u80C3\u8178\u611F\u67D3"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u611F\u67D3","en":"Status Stage: Gastrointestinal Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u80C3\u8178\u611F\u67D3"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u611F\u67D3","en":"Status Stage: Gastrointestinal Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u80C3\u8178\u611F\u67D3"},"value":{"x":4.0,"y":4.0}},{"source":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u611F\u67D3","en":"Status Stage: Gastrointestinal Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u80C3\u8178\u611F\u67D3"},"value":{"x":8.0,"y":8.0}}],"_requires":[{"source":{"key":"RectalPressure","type":"GameStat","icon":"e12f39b6f3bc9d40","min":0.0,"max":384.0,"name":{"zh":"\u76F4\u80A0\u538B\u529B","en":"Rectal Pressure","ja":"\u76F4\u8178\u5727"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6392\u4FBF","en":"Action: Defecate","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30A6\u30F3\u30B3\u3059\u308B"},"value":{"x":0.0,"y":148.0}},{"source":{"key":"RectalPressure","type":"GameStat","icon":"e12f39b6f3bc9d40","min":0.0,"max":384.0,"name":{"zh":"\u76F4\u80A0\u538B\u529B","en":"Rectal Pressure","ja":"\u76F4\u8178\u5727"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6392\u4FBF\uFF08\u8179\u6CFB\uFF09","en":"Action: Defecate (Diarrhoea)","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30A6\u30F3\u30B3\u3059\u308B\uFF08\u4E0B\u75E2\uFF09"},"value":{"x":149.0,"y":300.0}},{"source":{"key":"Tgr_Poop","type":"SelfTriggeredAction","name":{"zh":"Tgr_Poop","en":"Tgr_Poop","ja":"Tgr_Poop"}},"description":{"zh":"Tgr_Poop","en":"Tgr_Poop","ja":"Tgr_Poop"},"value":{"x":0.0,"y":150.0}},{"source":{"key":"Tgr_Poop","type":"SelfTriggeredAction","name":{"zh":"Tgr_Poop","en":"Tgr_Poop","ja":"Tgr_Poop"}},"description":{"zh":"Tgr_Poop","en":"Tgr_Poop","ja":"Tgr_Poop"},"value":{"x":150.0,"y":1000000000.0}}],"_triggers":[{"source":{"key":"Tgr_Poop","type":"SelfTriggeredAction","name":{"zh":"Tgr_Poop","en":"Tgr_Poop","ja":"Tgr_Poop"}},"description":{"zh":"Tgr_Poop","en":"Tgr_Poop","ja":"Tgr_Poop"},"value":{"x":0.0,"y":150.0}},{"source":{"key":"Tgr_Poop","type":"SelfTriggeredAction","name":{"zh":"Tgr_Poop","en":"Tgr_Poop","ja":"Tgr_Poop"}},"description":{"zh":"Tgr_Poop","en":"Tgr_Poop","ja":"Tgr_Poop"},"value":{"x":150.0,"y":1000000000.0}}],"_uuid":"7d92f27f60c110a45b9682a476b836f5"}
+
+{
+  "GameName" : {
+    "zh" : "\u5927\u4FBF\u8F6F\u786C\u5EA6",
+    "en" : "Stool Liquidity",
+    "ja" : "\u4FBF\u306E\u786C\u3055"
+  },
+  "Description" : {
+    "zh" : "\u9010\u6E10\u52A0\u901F\u6C34\u5206\u6D41\u5931\uFF0C\u964D\u4F4E\u4F60\u7684\u5E78\u798F\u5EA6\u3002",
+    "en" : "Gradually increases the rate at which you lose hydration and lowers your wellbeing.",
+    "ja" : "\u6C34\u5206\u304C\u5C11\u306A\u304B\u3063\u305F\u308A\u5E78\u798F\u5EA6\u304C\u4F4E\u3044\u6642\u306B\u8D77\u3053\u308B\u3002"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 300.0
+  },
+  "BaseRatePerTick" : -0.75,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.502,
+    "g" : 0.1725,
+    "b" : 0.0118,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "CardData__ExcrementHuman__CardImage"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u5927\u4FBF\u7A00\u8F6F",
+        "en" : "Loose Stools",
+        "ja" : "\u3086\u308B\u3044\u30A6\u30F3\u30B3"
+      },
+      "Description" : {
+        "zh" : "\u611F\u89C9\u4E0D\u592A\u597D\u2026\u2026",
+        "en" : "Not feeling that well...",
+        "ja" : "\u5177\u5408\u304C\u60AA\u3044\u30FB\u30FB\u30FB"
+      },
+      "Icon"        : {
+        "FileName" : "CardData__ExcrementHuman__CardImage"
+      },
+      "ValueRange"  : {
+        "m_X" : 149,
+        "m_Y" : 200
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Calories_Intestines",
+            "type" : "GameStat",
+            "icon" : "GameStat__Calories_Intestines__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u80A0\u5B50",
+              "en" : "Intestines",
+              "ja" : "\u8178"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.5,
+            "y" : -0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Thirst",
+            "type" : "GameStat",
+            "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53E3\u6E34\u5EA6",
+              "en" : "Thirst",
+              "ja" : "\u5589\u306E\u6E07\u304D"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "RectalPressure",
+            "type" : "GameStat",
+            "icon" : "CardData__ExcrementHuman__CardImage",
+            "min"  : 0.0,
+            "max"  : 384.0,
+            "name" : {
+              "zh" : "\u76F4\u80A0\u538B\u529B",
+              "en" : "Rectal Pressure",
+              "ja" : "\u76F4\u8178\u5727"
+            }
+          },
+          "RateModifier" : {
+            "x" : 8.0,
+            "y" : 8.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 1,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u8179\u6CFB",
+        "en" : "Diarrhoea",
+        "ja" : "\u4E0B\u75E2"
+      },
+      "Description" : {
+        "zh" : "\u6211\u62C9\u809A\u5B50\u4E86\uFF01",
+        "en" : "I have diarrhoea!",
+        "ja" : "\u4E0B\u75E2\u306B\u306A\u3063\u305F\uFF01"
+      },
+      "Icon"        : {
+        "FileName" : "CardData__ExcrementHuman__CardImage"
+      },
+      "ValueRange"  : {
+        "m_X" : 201,
+        "m_Y" : 250
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Calories_Intestines",
+            "type" : "GameStat",
+            "icon" : "GameStat__Calories_Intestines__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u80A0\u5B50",
+              "en" : "Intestines",
+              "ja" : "\u8178"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Thirst",
+            "type" : "GameStat",
+            "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53E3\u6E34\u5EA6",
+              "en" : "Thirst",
+              "ja" : "\u5589\u306E\u6E07\u304D"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Gratification",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+            "min"  : -100.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6EE1\u8DB3\u611F",
+              "en" : "Gratification",
+              "ja" : "\u6E80\u8DB3\u611F"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.5,
+            "y" : -0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "RectalPressure",
+            "type" : "GameStat",
+            "icon" : "CardData__ExcrementHuman__CardImage",
+            "min"  : 0.0,
+            "max"  : 384.0,
+            "name" : {
+              "zh" : "\u76F4\u80A0\u538B\u529B",
+              "en" : "Rectal Pressure",
+              "ja" : "\u76F4\u8178\u5727"
+            }
+          },
+          "RateModifier" : {
+            "x" : 16.0,
+            "y" : 16.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 3,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4E25\u91CD\u8179\u6CFB",
+        "en" : "Severe Diarrhoea",
+        "ja" : "\u3072\u3069\u3044\u4E0B\u75E2\u3060"
+      },
+      "Description" : {
+        "zh" : "\u2026\u2026",
+        "en" : "...",
+        "ja" : "\u30FB\u30FB\u30FB"
+      },
+      "Icon"        : {
+        "FileName" : "CardData__ExcrementHuman__CardImage"
+      },
+      "ValueRange"  : {
+        "m_X" : 251,
+        "m_Y" : 300
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Calories_Intestines",
+            "type" : "GameStat",
+            "icon" : "GameStat__Calories_Intestines__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u80A0\u5B50",
+              "en" : "Intestines",
+              "ja" : "\u8178"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Thirst",
+            "type" : "GameStat",
+            "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53E3\u6E34\u5EA6",
+              "en" : "Thirst",
+              "ja" : "\u5589\u306E\u6E07\u304D"
+            }
+          },
+          "RateModifier" : {
+            "x" : -3.0,
+            "y" : -3.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Gratification",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+            "min"  : -100.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6EE1\u8DB3\u611F",
+              "en" : "Gratification",
+              "ja" : "\u6E80\u8DB3\u611F"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "RectalPressure",
+            "type" : "GameStat",
+            "icon" : "CardData__ExcrementHuman__CardImage",
+            "min"  : 0.0,
+            "max"  : 384.0,
+            "name" : {
+              "zh" : "\u76F4\u80A0\u538B\u529B",
+              "en" : "Rectal Pressure",
+              "ja" : "\u76F4\u8178\u5727"
+            }
+          },
+          "RateModifier" : {
+            "x" : 32.0,
+            "y" : 32.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 4,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "CardData__ExcrementHuman__CardImage"
+    },
+    "StepValue" : 100.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "StoolLiquidity",
+  "icon"                    : "CardData__ExcrementHuman__CardImage",
+  "name"                    : {
+    "zh" : "\u5927\u4FBF\u8F6F\u786C\u5EA6",
+    "en" : "Stool Liquidity",
+    "ja" : "\u4FBF\u306E\u786C\u3055"
+  },
+  "min"                     : 0.0,
+  "max"                     : 300.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "RottenRemains",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__RavagedCrop__CardImage",
+        "name"     : {
+          "zh" : "\u8150\u70C2\u7269",
+          "en" : "Rotten Remains",
+          "ja" : "\u8150\u3063\u305F\u6B8B\u9AB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5403\u6389",
+        "en" : "Action: Eat",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98DF\u3079\u308B"
+      },
+      "value"       : {
+        "x" : 300.0,
+        "y" : 600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HeatherFlowersFresh",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__HeatherFlowersDried__CardImage",
+        "name"     : {
+          "zh" : "\u65B0\u9C9C\u7684\u5E1A\u77F3\u5357\u82B1",
+          "en" : "Fresh Heather Flowers",
+          "ja" : "\u65B0\u9BAE\u306A\u30D2\u30FC\u30B9\u306E\u82B1"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5403\u6389",
+        "en" : "Action: Eat",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98DF\u3079\u308B"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HeatherFlowersDried",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__HeatherFlowersDried__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u71E5\u7684\u5E1A\u77F3\u5357\u82B1",
+          "en" : "Dry Heather Flowers",
+          "ja" : "\u4E7E\u71E5\u3057\u305F\u30D2\u30FC\u30B9\u306E\u82B1"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5403\u6389",
+        "en" : "Action: Eat",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98DF\u3079\u308B"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CharredRemains",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Campfire__Progress-OverrideIcon",
+        "name"     : {
+          "zh" : "\u70E7\u7126\u7269",
+          "en" : "Charred Remains",
+          "ja" : "\u7126\u3052\u305F\u6B8B\u308A\u7269"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5403\u70E7\u7126\u7269",
+        "en" : "Action: Eat Charred Remains",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7126\u3052\u305F\u6B8B\u308A\u7269\u3092\u98DF\u3079\u308B"
+      },
+      "value"       : {
+        "x" : -7.0,
+        "y" : -7.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_NightBroth",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u6697\u591C\u6D53\u6C64",
+          "en" : "Night Broth",
+          "ja" : "Night Broth"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u996E\u7528",
+        "en" : "Action: Drink",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ADrink"
+      },
+      "value"       : {
+        "x" : 300.0,
+        "y" : 600.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "VDEBUG_HybernationSuit",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "hybernation suit",
+          "en" : "hybernation suit",
+          "ja" : "hybernation suit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1Ahealing",
+        "en" : "Passive Effect: healing",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1Ahealing"
+      },
+      "value"       : {
+        "x" : -100.0,
+        "y" : -100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caffeine",
+        "type" : "GameStat",
+        "icon" : "GameStat__Caffeine__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 24.0,
+        "name" : {
+          "zh" : "\u5496\u5561\u56E0",
+          "en" : "Caffeine",
+          "ja" : "\u30AB\u30D5\u30A7\u30A4\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5496\u5561\u56E0",
+        "en" : "Status Stage: Caffeine",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30AB\u30D5\u30A7\u30A4\u30F3"
+      },
+      "value"       : {
+        "x" : 0.75,
+        "y" : 0.75
+      }
+    },
+    {
+      "source" : {
+        "key" : "Caffeine",
+        "type" : "GameStat",
+        "icon" : "GameStat__Caffeine__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 24.0,
+        "name" : {
+          "zh" : "\u5496\u5561\u56E0",
+          "en" : "Caffeine",
+          "ja" : "\u30AB\u30D5\u30A7\u30A4\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5496\u5561\u56E0",
+        "en" : "Status Stage: Caffeine",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30AB\u30D5\u30A7\u30A4\u30F3"
+      },
+      "value"       : {
+        "x" : 1.5,
+        "y" : 1.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "Capsaicin",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 24.0,
+        "name" : {
+          "zh" : "\u8FA3\u6912\u7D20",
+          "en" : "Capsaicin",
+          "ja" : "\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u8FA3\u6912\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: Moderate Capsaicin Levels",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3\u30EC\u30D9\u30EB"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "Capsaicin",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 24.0,
+        "name" : {
+          "zh" : "\u8FA3\u6912\u7D20",
+          "en" : "Capsaicin",
+          "ja" : "\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u8FA3\u6912\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: High Capsaicin Levels",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u3044\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3\u30EC\u30D9\u30EB"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GingerEffect",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u59DC\u6548\u679C",
+          "en" : "Ginger",
+          "ja" : "\u751F\u59DC"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u5242\u91CF",
+        "en" : "Status Stage: Small Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GingerEffect",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u59DC\u6548\u679C",
+          "en" : "Ginger",
+          "ja" : "\u751F\u59DC"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5242\u91CF",
+        "en" : "Status Stage: High Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Quinine",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u594E\u5B81",
+          "en" : "Quinine",
+          "ja" : "\u30AD\u30CB\u30FC\u30CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u594E\u5B81\u5242\u91CF",
+        "en" : "Status Stage: Low Quinine Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF\u306E\u30AD\u30CB\u30FC\u30CD"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "Quinine",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u594E\u5B81",
+          "en" : "Quinine",
+          "ja" : "\u30AD\u30CB\u30FC\u30CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u594E\u5B81\u5242\u91CF",
+        "en" : "Status Stage: Moderate Quinine Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9069\u91CF\u306E\u30AD\u30CB\u30FC\u30CD"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Quinine",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u594E\u5B81",
+          "en" : "Quinine",
+          "ja" : "\u30AD\u30CB\u30FC\u30CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u594E\u5B81\u5242\u91CF",
+        "en" : "Status Stage: High Quinine Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF\u306E\u30AD\u30CB\u30FC\u30CD"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Quinine",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u594E\u5B81",
+          "en" : "Quinine",
+          "ja" : "\u30AD\u30CB\u30FC\u30CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8FC7\u91CF\u594E\u5B81",
+        "en" : "Status Stage: Quinine Overdose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30AD\u30CB\u30FC\u30CD\u306E\u904E\u5270\u6442\u53D6"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiceEffect",
+        "type" : "GameStat",
+        "icon" : "CardData__CattailRootBoiled__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u7C73\u996D\u6548\u679C",
+          "en" : "Rice Effect",
+          "ja" : "\u7C73\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5FAE\u7C73\u996D\u6548\u679C",
+        "en" : "Status Stage: Minor Rice Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8EFD\u3044\u7C73\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiceEffect",
+        "type" : "GameStat",
+        "icon" : "CardData__CattailRootBoiled__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u7C73\u996D\u6548\u679C",
+          "en" : "Rice Effect",
+          "ja" : "\u7C73\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8F83\u9AD8\u7C73\u996D\u6548\u679C",
+        "en" : "Status Stage: Major Rice Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u3044\u7C73\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Stress",
+        "type" : "GameStat",
+        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 240.0,
+        "name" : {
+          "zh" : "\u538B\u529B",
+          "en" : "Stress",
+          "ja" : "\u30B9\u30C8\u30EC\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7D27\u5F20",
+        "en" : "Status Stage: Stressed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30B9\u30C8\u30EC\u30B9\u3092\u611F\u3058\u3066\u308B"
+      },
+      "value"       : {
+        "x" : 0.25,
+        "y" : 0.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "Stress",
+        "type" : "GameStat",
+        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 240.0,
+        "name" : {
+          "zh" : "\u538B\u529B",
+          "en" : "Stress",
+          "ja" : "\u30B9\u30C8\u30EC\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u5EA6\u7D27\u5F20",
+        "en" : "Status Stage: Extremely Stressed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u975E\u5E38\u306B\u30B9\u30C8\u30EC\u30B9\u3092\u611F\u3058\u3066\u308B"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "AppleWeedEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__AppleWeedEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u67F0\u8349\u6548\u679C",
+          "en" : "Appleweed Effect",
+          "ja" : "\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u67F0\u8349\u6548\u679C",
+        "en" : "Status Stage: Weak Appleweed Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "AppleWeedEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__AppleWeedEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u67F0\u8349\u6548\u679C",
+          "en" : "Appleweed Effect",
+          "ja" : "\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u67F0\u8349\u6548\u679C",
+        "en" : "Status Stage: Strong Appleweed Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FirerootToxicityEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u706B\u6839\u4E2D\u6BD2",
+          "en" : "Fireroot Toxicity",
+          "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5EA6\u706B\u6839\u4E2D\u6BD2",
+        "en" : "Status Stage: Mild Fireroot Toxicity",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4F4E\u3044\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FirerootToxicityEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u706B\u6839\u4E2D\u6BD2",
+          "en" : "Fireroot Toxicity",
+          "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u706B\u6839\u4E2D\u6BD2",
+        "en" : "Status Stage: Medium Fireroot Toxicity",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FirerootToxicityEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u706B\u6839\u4E2D\u6BD2",
+          "en" : "Fireroot Toxicity",
+          "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u706B\u6839\u4E2D\u6BD2",
+        "en" : "Status Stage: High Fireroot Toxicity",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u3044\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FoodPoisoning",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u98DF\u7269\u4E2D\u6BD2",
+          "en" : "Food Poisoning",
+          "ja" : "\u98DF\u4E2D\u6BD2"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u7A0B\u5EA6\u7684\u98DF\u7269\u4E2D\u6BD2",
+        "en" : "Status Stage: Moderate Food Poisoning",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u98DF\u4E2D\u6BD2"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FoodPoisoning",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u98DF\u7269\u4E2D\u6BD2",
+          "en" : "Food Poisoning",
+          "ja" : "\u98DF\u4E2D\u6BD2"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E25\u91CD\u7684\u98DF\u7269\u4E2D\u6BD2",
+        "en" : "Status Stage: Strong Food Poisoning",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u98DF\u4E2D\u6BD2"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "IngestedCharcoal",
+        "type" : "GameStat",
+        "icon" : "CardData__Campfire__Progress-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u6728\u70AD\u6444\u5165",
+          "en" : "Ingested Charcoal",
+          "ja" : "\u6D3B\u6027\u70AD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u6728\u70AD\u5242\u91CF",
+        "en" : "Status Stage: Minor Charcoal Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF\u306E\u6728\u70AD"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "IngestedCharcoal",
+        "type" : "GameStat",
+        "icon" : "CardData__Campfire__Progress-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u6728\u70AD\u6444\u5165",
+          "en" : "Ingested Charcoal",
+          "ja" : "\u6D3B\u6027\u70AD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u6728\u70AD\u5242\u91CF",
+        "en" : "Status Stage: Moderate Charcoal Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9069\u91CF\u306E\u6728\u70AD"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "IngestedCharcoal",
+        "type" : "GameStat",
+        "icon" : "CardData__Campfire__Progress-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u6728\u70AD\u6444\u5165",
+          "en" : "Ingested Charcoal",
+          "ja" : "\u6D3B\u6027\u70AD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u6728\u70AD\u5242\u91CF",
+        "en" : "Status Stage: High Charcoal Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF\u306E\u6728\u70AD"
+      },
+      "value"       : {
+        "x" : -3.0,
+        "y" : -3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "IngestedCharcoal",
+        "type" : "GameStat",
+        "icon" : "CardData__Campfire__Progress-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u6728\u70AD\u6444\u5165",
+          "en" : "Ingested Charcoal",
+          "ja" : "\u6D3B\u6027\u70AD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u9AD8\u6728\u70AD\u5242\u91CF",
+        "en" : "Status Stage: Very High Charcoal Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8D85\u5927\u91CF\u306E\u6728\u70AD"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "JuniperEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__AppleWeedEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u675C\u677E\u6548\u679C",
+          "en" : "Juniper Effect",
+          "ja" : "\u30B8\u30E5\u30CB\u30D1\u30FC\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u675C\u677E\u6548\u679C",
+        "en" : "Status Stage: Weak Juniper Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u30B8\u30E5\u30CB\u30D1\u30FC\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -0.5,
+        "y" : -0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "JuniperEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__AppleWeedEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u675C\u677E\u6548\u679C",
+          "en" : "Juniper Effect",
+          "ja" : "\u30B8\u30E5\u30CB\u30D1\u30FC\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u675C\u677E\u6548\u679C",
+        "en" : "Status Stage: Strong Juniper Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u30B8\u30E5\u30CB\u30D1\u30FC\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -0.75,
+        "y" : -0.75
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tannins",
+        "type" : "GameStat",
+        "icon" : "CardData__AlderBark__CardImage",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u97A3\u8D28",
+          "en" : "Tannins",
+          "ja" : "\u30BF\u30F3\u30CB\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u97A3\u8D28\u5242\u91CF",
+        "en" : "Status Stage: Minor Tannins Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF\u306E\u30BF\u30F3\u30CB\u30F3"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tannins",
+        "type" : "GameStat",
+        "icon" : "CardData__AlderBark__CardImage",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u97A3\u8D28",
+          "en" : "Tannins",
+          "ja" : "\u30BF\u30F3\u30CB\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u97A3\u8D28\u5242\u91CF",
+        "en" : "Status Stage: Moderate Tannins Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9069\u91CF\u306E\u30BF\u30F3\u30CB\u30F3"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tannins",
+        "type" : "GameStat",
+        "icon" : "CardData__AlderBark__CardImage",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u97A3\u8D28",
+          "en" : "Tannins",
+          "ja" : "\u30BF\u30F3\u30CB\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u97A3\u8D28\u5242\u91CF",
+        "en" : "Status Stage: High Tannins Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF\u306E\u30BF\u30F3\u30CB\u30F3"
+      },
+      "value"       : {
+        "x" : -3.0,
+        "y" : -3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tannins",
+        "type" : "GameStat",
+        "icon" : "CardData__AlderBark__CardImage",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u97A3\u8D28",
+          "en" : "Tannins",
+          "ja" : "\u30BF\u30F3\u30CB\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u9AD8\u97A3\u8D28\u5242\u91CF",
+        "en" : "Status Stage: Very High Tannins Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8D85\u5927\u91CF\u306E\u30BF\u30F3\u30CB\u30F3"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WolfsbaneToxicity",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u4E4C\u5934\u4E2D\u6BD2",
+          "en" : "Wolfsbane Poisoning",
+          "ja" : "\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u4E4C\u5934\u4E2D\u6BD2",
+        "en" : "Status Stage: Moderate Wolfsbane Poisoning",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WolfsbaneToxicity",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u4E4C\u5934\u4E2D\u6BD2",
+          "en" : "Wolfsbane Poisoning",
+          "ja" : "\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u4E4C\u5934\u4E2D\u6BD2",
+        "en" : "Status Stage: Severe Wolfsbane Poisoning",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Infection_Gastrointestinal",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+          "en" : "Gastrointestinal Infection",
+          "ja" : "\u80C3\u8178\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u611F\u67D3",
+        "en" : "Status Stage: Gastrointestinal Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u80C3\u8178\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Infection_Gastrointestinal",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+          "en" : "Gastrointestinal Infection",
+          "ja" : "\u80C3\u8178\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u611F\u67D3",
+        "en" : "Status Stage: Gastrointestinal Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u80C3\u8178\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Infection_Gastrointestinal",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+          "en" : "Gastrointestinal Infection",
+          "ja" : "\u80C3\u8178\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u611F\u67D3",
+        "en" : "Status Stage: Gastrointestinal Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u80C3\u8178\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Infection_Gastrointestinal",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+          "en" : "Gastrointestinal Infection",
+          "ja" : "\u80C3\u8178\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u611F\u67D3",
+        "en" : "Status Stage: Gastrointestinal Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u80C3\u8178\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : 8.0,
+        "y" : 8.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "RectalPressure",
+        "type" : "GameStat",
+        "icon" : "CardData__ExcrementHuman__CardImage",
+        "min"  : 0.0,
+        "max"  : 384.0,
+        "name" : {
+          "zh" : "\u76F4\u80A0\u538B\u529B",
+          "en" : "Rectal Pressure",
+          "ja" : "\u76F4\u8178\u5727"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6392\u4FBF",
+        "en" : "Action: Defecate",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30A6\u30F3\u30B3\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 148.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RectalPressure",
+        "type" : "GameStat",
+        "icon" : "CardData__ExcrementHuman__CardImage",
+        "min"  : 0.0,
+        "max"  : 384.0,
+        "name" : {
+          "zh" : "\u76F4\u80A0\u538B\u529B",
+          "en" : "Rectal Pressure",
+          "ja" : "\u76F4\u8178\u5727"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6392\u4FBF\uFF08\u8179\u6CFB\uFF09",
+        "en" : "Action: Defecate (Diarrhoea)",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30A6\u30F3\u30B3\u3059\u308B\uFF08\u4E0B\u75E2\uFF09"
+      },
+      "value"       : {
+        "x" : 149.0,
+        "y" : 300.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Poop",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Poop",
+          "en" : "Tgr_Poop",
+          "ja" : "Tgr_Poop"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Poop",
+        "en" : "Tgr_Poop",
+        "ja" : "Tgr_Poop"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Poop",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Poop",
+          "en" : "Tgr_Poop",
+          "ja" : "Tgr_Poop"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Poop",
+        "en" : "Tgr_Poop",
+        "ja" : "Tgr_Poop"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 1000000000.0
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_Poop",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Poop",
+          "en" : "Tgr_Poop",
+          "ja" : "Tgr_Poop"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Poop",
+        "en" : "Tgr_Poop",
+        "ja" : "Tgr_Poop"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Poop",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Poop",
+          "en" : "Tgr_Poop",
+          "ja" : "Tgr_Poop"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Poop",
+        "en" : "Tgr_Poop",
+        "ja" : "Tgr_Poop"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 1000000000.0
+      }
+    }
+  ],
+  "_uuid"                   : "7d92f27f60c110a45b9682a476b836f5"
+}

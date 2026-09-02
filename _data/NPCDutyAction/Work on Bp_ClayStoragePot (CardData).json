@@ -1,1 +1,67 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"Bp_ClayStoragePot","type":"CardData","CardType":7,"icon":"bfee60233e5f89c3","name":{"zh":"\u50A8\u7269\u7F50","en":"Storage Pot","ja":"\u53CE\u7D0D\u30DD\u30C3\u30C8"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":1,"OwnershipPriority":0,"DutyPriority":2,"Containers":{"CanLookInContainers":true},"DebugItemSelection":true},"AffectType":4,"SimpleAffectDuration":0,"BpIngredientsSelection":{"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":0,"Containers":{"CanLookInContainers":true,"NOTAllowedContainers":[{"Target":{"key":"Bp_ClayStoragePot","type":"CardData","CardType":7,"icon":"bfee60233e5f89c3","name":{"zh":"\u50A8\u7269\u7F50","en":"Storage Pot","ja":"\u53CE\u7D0D\u30DD\u30C3\u30C8"}}}]},"DebugItemSelection":true},"key":"Work on Bp_ClayStoragePot (CardData)","type":"NPCDutyAction","name":{"zh":"Work on Bp_ClayStoragePot (CardData)","en":"Work on Bp_ClayStoragePot (CardData)","ja":"Work on Bp_ClayStoragePot (CardData)"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Bp_ClayStoragePot",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Bp_ClayStoragePot__CardImage",
+            "name"     : {
+              "zh" : "\u50A8\u7269\u7F50",
+              "en" : "Storage Pot",
+              "ja" : "\u53CE\u7D0D\u30DD\u30C3\u30C8"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Bp_ClayStoragePot",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Bp_ClayStoragePot__CardImage",
+            "name"     : {
+              "zh" : "\u50A8\u7269\u7F50",
+              "en" : "Storage Pot",
+              "ja" : "\u53CE\u7D0D\u30DD\u30C3\u30C8"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Bp_ClayStoragePot (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "Work on Bp_ClayStoragePot (CardData)",
+    "en" : "Work on Bp_ClayStoragePot (CardData)",
+    "ja" : "Work on Bp_ClayStoragePot (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

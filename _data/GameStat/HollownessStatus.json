@@ -1,1 +1,695 @@
-{"GameName":{"zh":"\u7A7A\u58F3\u5316\u72B6\u6001","en":"Hollowness Status","ja":"Hollowness Status"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":10.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"StatusesHaveNoBar":true,"BarColor":{"r":0.8706,"g":0.4431,"b":0.4039,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"\u4E2D\u7EA7","en":"Intermediate","ja":"Intermediate"},"ValueRange":{"m_X":4,"m_Y":7},"EffectsOnStats":[{"Stat":{"key":"NightmareFuel","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":100.0,"name":{"zh":"\u68A6\u9B47\u71C3\u6599","en":"Nightmare Fuel","ja":"\u60AA\u5922\u306E\u71C3\u6599"}},"RateModifier":{"x":1.5,"y":1.5}},{"Stat":{"key":"VoidAffinity","type":"GameStat","icon":"3e355a2ebcd28297","min":0.0,"max":1000.0,"name":{"zh":"\u865A\u7A7A\u4EB2\u548C\u5EA6","en":"Void Affinity","ja":"\u865A\u7121\u89AA\u548C\u6027"}},"ValueModifier":{"x":250.0,"y":250.0},"RateModifier":{"x":1.0,"y":1.0}},{"Stat":{"key":"BeastAffinity","type":"GameStat","icon":"279ede0c6bdbd7d2","min":0.0,"max":1000.0,"name":{"zh":"\u91CE\u517D\u4EB2\u548C\u5EA6","en":"Beast Affinity","ja":"\u7363\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}},{"Stat":{"key":"BirdAffinity","type":"GameStat","icon":"ecde740067147119","min":0.0,"max":1000.0,"name":{"zh":"\u79BD\u9E1F\u4EB2\u548C\u5EA6","en":"Bird Affinity","ja":"\u9CE5\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}},{"Stat":{"key":"DarknessAffinity","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1000.0,"name":{"zh":"\u9ED1\u6697\u4EB2\u548C\u5EA6","en":"Darkness Affinity","ja":"\u95C7\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}},{"Stat":{"key":"EarthAffinity","type":"GameStat","icon":"dbd66ae4108b3861","min":0.0,"max":1000.0,"name":{"zh":"\u5927\u5730\u4EB2\u548C\u5EA6","en":"Earth Affinity","ja":"\u5730\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}},{"Stat":{"key":"FearAffinity","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":1000.0,"name":{"zh":"\u6050\u60E7\u4EB2\u548C\u5EA6","en":"Fear Affinity","ja":"\u6050\u6016\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}},{"Stat":{"key":"FireAffinity","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":1000.0,"name":{"zh":"\u706B\u4EB2\u548C\u5EA6","en":"Fire Affinity","ja":"\u708E\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}},{"Stat":{"key":"FlintAffinity","type":"GameStat","icon":"ed490600b075becb","min":0.0,"max":1000.0,"name":{"zh":"\u71E7\u77F3\u4EB2\u548C\u5EA6","en":"Flint Affinity","ja":"\u706B\u6253\u3061\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}},{"Stat":{"key":"FrostAffinity","type":"GameStat","icon":"2307358107fe28e3","min":0.0,"max":1000.0,"name":{"zh":"\u51B0\u971C\u4EB2\u548C\u5EA6","en":"Frost Affinity","ja":"\u6C37\u971C\u3068\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}},{"Stat":{"key":"MoonAffinity","type":"GameStat","icon":"d502a50ed945d5fc","min":0.0,"max":1000.0,"name":{"zh":"\u6708\u4EB2\u548C\u5EA6","en":"Moon Affinity","ja":"\u6708\u3078\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}},{"Stat":{"key":"WaterAffinity","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":1000.0,"name":{"zh":"\u6C34\u4EB2\u548C\u5EA6","en":"Water Affinity","ja":"\u6C34\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}},{"Stat":{"key":"WindAffinity","type":"GameStat","icon":"f184d49a1c223540","min":0.0,"max":1000.0,"name":{"zh":"\u98CE\u4EB2\u548C\u5EA6","en":"Wind Affinity","ja":"\u98A8\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-125.0,"y":-125.0},"RateModifier":{"x":-0.1,"y":-0.1}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u9AD8","en":"High","ja":"High"},"ValueRange":{"m_X":8,"m_Y":10},"EffectsOnStats":[{"Stat":{"key":"NightmareFuel","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":100.0,"name":{"zh":"\u68A6\u9B47\u71C3\u6599","en":"Nightmare Fuel","ja":"\u60AA\u5922\u306E\u71C3\u6599"}},"RateModifier":{"x":2.0,"y":2.0}},{"Stat":{"key":"VoidAffinity","type":"GameStat","icon":"3e355a2ebcd28297","min":0.0,"max":1000.0,"name":{"zh":"\u865A\u7A7A\u4EB2\u548C\u5EA6","en":"Void Affinity","ja":"\u865A\u7121\u89AA\u548C\u6027"}},"ValueModifier":{"x":500.0,"y":500.0},"RateModifier":{"x":2.0,"y":2.0}},{"Stat":{"key":"BeastAffinity","type":"GameStat","icon":"279ede0c6bdbd7d2","min":0.0,"max":1000.0,"name":{"zh":"\u91CE\u517D\u4EB2\u548C\u5EA6","en":"Beast Affinity","ja":"\u7363\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"BirdAffinity","type":"GameStat","icon":"ecde740067147119","min":0.0,"max":1000.0,"name":{"zh":"\u79BD\u9E1F\u4EB2\u548C\u5EA6","en":"Bird Affinity","ja":"\u9CE5\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"DarknessAffinity","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1000.0,"name":{"zh":"\u9ED1\u6697\u4EB2\u548C\u5EA6","en":"Darkness Affinity","ja":"\u95C7\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"EarthAffinity","type":"GameStat","icon":"dbd66ae4108b3861","min":0.0,"max":1000.0,"name":{"zh":"\u5927\u5730\u4EB2\u548C\u5EA6","en":"Earth Affinity","ja":"\u5730\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"FearAffinity","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":1000.0,"name":{"zh":"\u6050\u60E7\u4EB2\u548C\u5EA6","en":"Fear Affinity","ja":"\u6050\u6016\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"FireAffinity","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":1000.0,"name":{"zh":"\u706B\u4EB2\u548C\u5EA6","en":"Fire Affinity","ja":"\u708E\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"FlintAffinity","type":"GameStat","icon":"ed490600b075becb","min":0.0,"max":1000.0,"name":{"zh":"\u71E7\u77F3\u4EB2\u548C\u5EA6","en":"Flint Affinity","ja":"\u706B\u6253\u3061\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"FrostAffinity","type":"GameStat","icon":"2307358107fe28e3","min":0.0,"max":1000.0,"name":{"zh":"\u51B0\u971C\u4EB2\u548C\u5EA6","en":"Frost Affinity","ja":"\u6C37\u971C\u3068\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"MoonAffinity","type":"GameStat","icon":"d502a50ed945d5fc","min":0.0,"max":1000.0,"name":{"zh":"\u6708\u4EB2\u548C\u5EA6","en":"Moon Affinity","ja":"\u6708\u3078\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"WaterAffinity","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":1000.0,"name":{"zh":"\u6C34\u4EB2\u548C\u5EA6","en":"Water Affinity","ja":"\u6C34\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"WindAffinity","type":"GameStat","icon":"f184d49a1c223540","min":0.0,"max":1000.0,"name":{"zh":"\u98CE\u4EB2\u548C\u5EA6","en":"Wind Affinity","ja":"\u98A8\u306E\u89AA\u548C\u6027"}},"ValueModifier":{"x":-250.0,"y":-250.0},"RateModifier":{"x":-0.25,"y":-0.25}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"HollownessStatus","name":{"zh":"\u7A7A\u58F3\u5316\u72B6\u6001","en":"Hollowness Status","ja":"Hollowness Status"},"min":0.0,"max":10.0,"_modifierValues":[{"source":{"key":"HollownessLevel","type":"GameStat","min":0.0,"max":11520.0,"name":{"zh":"\u7A7A\u58F3\u5316\u7B49\u7EA7","en":"Hollowness Level","ja":"Hollowness Level"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7EA7","en":"Status Stage: Intermediate","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AIntermediate"},"value":{"x":4.0,"y":4.0}},{"source":{"key":"HollownessLevel","type":"GameStat","min":0.0,"max":11520.0,"name":{"zh":"\u7A7A\u58F3\u5316\u7B49\u7EA7","en":"Hollowness Level","ja":"Hollowness Level"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8","en":"Status Stage: High","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHigh"},"value":{"x":8.0,"y":8.0}}],"_uuid":"4d45348916ae6d047b2d5209cc086a83"}
+
+{
+  "GameName" : {
+    "zh" : "\u7A7A\u58F3\u5316\u72B6\u6001",
+    "en" : "Hollowness Status",
+    "ja" : "Hollowness Status"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 10.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "StatusesHaveNoBar" : true,
+  "BarColor"          : {
+    "r" : 0.8706,
+    "g" : 0.4431,
+    "b" : 0.4039,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u4E2D\u7EA7",
+        "en" : "Intermediate",
+        "ja" : "Intermediate"
+      },
+      "ValueRange" : {
+        "m_X" : 4,
+        "m_Y" : 7
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "NightmareFuel",
+            "type" : "GameStat",
+            "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u68A6\u9B47\u71C3\u6599",
+              "en" : "Nightmare Fuel",
+              "ja" : "\u60AA\u5922\u306E\u71C3\u6599"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.5,
+            "y" : 1.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "VoidAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__BloodSpilled__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u865A\u7A7A\u4EB2\u548C\u5EA6",
+              "en" : "Void Affinity",
+              "ja" : "\u865A\u7121\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 250.0,
+            "y" : 250.0
+          },
+          "RateModifier"  : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "BeastAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeastAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u91CE\u517D\u4EB2\u548C\u5EA6",
+              "en" : "Beast Affinity",
+              "ja" : "\u7363\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "BirdAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__BirdAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u79BD\u9E1F\u4EB2\u548C\u5EA6",
+              "en" : "Bird Affinity",
+              "ja" : "\u9CE5\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "DarknessAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u9ED1\u6697\u4EB2\u548C\u5EA6",
+              "en" : "Darkness Affinity",
+              "ja" : "\u95C7\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "EarthAffinity",
+            "type" : "GameStat",
+            "icon" : "CardData__Caves_FmOvergrownTunnel__Progress-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u5927\u5730\u4EB2\u548C\u5EA6",
+              "en" : "Earth Affinity",
+              "ja" : "\u5730\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FearAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u6050\u60E7\u4EB2\u548C\u5EA6",
+              "en" : "Fear Affinity",
+              "ja" : "\u6050\u6016\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FireAffinity",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u706B\u4EB2\u548C\u5EA6",
+              "en" : "Fire Affinity",
+              "ja" : "\u708E\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FlintAffinity",
+            "type" : "GameStat",
+            "icon" : "CardData__Bp_FlintBlessing__CardImage",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u71E7\u77F3\u4EB2\u548C\u5EA6",
+              "en" : "Flint Affinity",
+              "ja" : "\u706B\u6253\u3061\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FrostAffinity",
+            "type" : "GameStat",
+            "icon" : "CardData__Basket__SpecialDurability3-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u51B0\u971C\u4EB2\u548C\u5EA6",
+              "en" : "Frost Affinity",
+              "ja" : "\u6C37\u971C\u3068\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "MoonAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__MoonAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u6708\u4EB2\u548C\u5EA6",
+              "en" : "Moon Affinity",
+              "ja" : "\u6708\u3078\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "WaterAffinity",
+            "type" : "GameStat",
+            "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u6C34\u4EB2\u548C\u5EA6",
+              "en" : "Water Affinity",
+              "ja" : "\u6C34\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "WindAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__WindAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u98CE\u4EB2\u548C\u5EA6",
+              "en" : "Wind Affinity",
+              "ja" : "\u98A8\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -125.0,
+            "y" : -125.0
+          },
+          "RateModifier"  : {
+            "x" : -0.1,
+            "y" : -0.1
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u9AD8",
+        "en" : "High",
+        "ja" : "High"
+      },
+      "ValueRange" : {
+        "m_X" : 8,
+        "m_Y" : 10
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "NightmareFuel",
+            "type" : "GameStat",
+            "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u68A6\u9B47\u71C3\u6599",
+              "en" : "Nightmare Fuel",
+              "ja" : "\u60AA\u5922\u306E\u71C3\u6599"
+            }
+          },
+          "RateModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "VoidAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__BloodSpilled__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u865A\u7A7A\u4EB2\u548C\u5EA6",
+              "en" : "Void Affinity",
+              "ja" : "\u865A\u7121\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 500.0,
+            "y" : 500.0
+          },
+          "RateModifier"  : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "BeastAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeastAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u91CE\u517D\u4EB2\u548C\u5EA6",
+              "en" : "Beast Affinity",
+              "ja" : "\u7363\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "BirdAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__BirdAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u79BD\u9E1F\u4EB2\u548C\u5EA6",
+              "en" : "Bird Affinity",
+              "ja" : "\u9CE5\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "DarknessAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u9ED1\u6697\u4EB2\u548C\u5EA6",
+              "en" : "Darkness Affinity",
+              "ja" : "\u95C7\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "EarthAffinity",
+            "type" : "GameStat",
+            "icon" : "CardData__Caves_FmOvergrownTunnel__Progress-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u5927\u5730\u4EB2\u548C\u5EA6",
+              "en" : "Earth Affinity",
+              "ja" : "\u5730\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FearAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u6050\u60E7\u4EB2\u548C\u5EA6",
+              "en" : "Fear Affinity",
+              "ja" : "\u6050\u6016\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FireAffinity",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u706B\u4EB2\u548C\u5EA6",
+              "en" : "Fire Affinity",
+              "ja" : "\u708E\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FlintAffinity",
+            "type" : "GameStat",
+            "icon" : "CardData__Bp_FlintBlessing__CardImage",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u71E7\u77F3\u4EB2\u548C\u5EA6",
+              "en" : "Flint Affinity",
+              "ja" : "\u706B\u6253\u3061\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FrostAffinity",
+            "type" : "GameStat",
+            "icon" : "CardData__Basket__SpecialDurability3-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u51B0\u971C\u4EB2\u548C\u5EA6",
+              "en" : "Frost Affinity",
+              "ja" : "\u6C37\u971C\u3068\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "MoonAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__MoonAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u6708\u4EB2\u548C\u5EA6",
+              "en" : "Moon Affinity",
+              "ja" : "\u6708\u3078\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "WaterAffinity",
+            "type" : "GameStat",
+            "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u6C34\u4EB2\u548C\u5EA6",
+              "en" : "Water Affinity",
+              "ja" : "\u6C34\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "WindAffinity",
+            "type" : "GameStat",
+            "icon" : "GameStat__WindAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u98CE\u4EB2\u548C\u5EA6",
+              "en" : "Wind Affinity",
+              "ja" : "\u98A8\u306E\u89AA\u548C\u6027"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -250.0,
+            "y" : -250.0
+          },
+          "RateModifier"  : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "HollownessStatus",
+  "name"                    : {
+    "zh" : "\u7A7A\u58F3\u5316\u72B6\u6001",
+    "en" : "Hollowness Status",
+    "ja" : "Hollowness Status"
+  },
+  "min"                     : 0.0,
+  "max"                     : 10.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "HollownessLevel",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 11520.0,
+        "name" : {
+          "zh" : "\u7A7A\u58F3\u5316\u7B49\u7EA7",
+          "en" : "Hollowness Level",
+          "ja" : "Hollowness Level"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7EA7",
+        "en" : "Status Stage: Intermediate",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AIntermediate"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HollownessLevel",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 11520.0,
+        "name" : {
+          "zh" : "\u7A7A\u58F3\u5316\u7B49\u7EA7",
+          "en" : "Hollowness Level",
+          "ja" : "Hollowness Level"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8",
+        "en" : "Status Stage: High",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHigh"
+      },
+      "value"       : {
+        "x" : 8.0,
+        "y" : 8.0
+      }
+    }
+  ],
+  "_uuid"                   : "4d45348916ae6d047b2d5209cc086a83"
+}

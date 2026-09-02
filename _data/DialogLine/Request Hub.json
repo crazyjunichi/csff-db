@@ -1,1 +1,241 @@
-{"Line":{"zh":"\u4ED6\u5728\u7B49\u5F85\u3002","en":"He waits.","ja":"\u5F7C\u306F\u9ED9\u3063\u3066\u5F85\u3063\u3066\u3044\u308B\u3002"},"ShowContinueButton":0,"PossibleAnswers":[{"Answer":{"zh":"\u6362\u4E2A\u8BDD\u9898","en":"Change the subject","ja":"\u8A71\u984C\u3092\u5909\u3048\u308B"},"NewNextLine":{"NextStep":0,"NextLine":{"key":"Trader Talk Intro","type":"DialogLine","name":{"zh":"\u4ED6\u8F7B\u8F7B\u70B9\u4E86\u70B9\u5934\u3002","en":"He gives a small nod.","ja":"\u5F7C\u306F\u5C0F\u3055\u304F\u3046\u306A\u305A\u3044\u305F\u3002"}}}},{"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"Agent_TraderAnimal","type":"NPCAgent","icon":"6e68e29f3a1c8aac","name":{"zh":"\u52A8\u7269\u5546\u4EBA","en":"Animal Trader","ja":"\u5BB6\u755C\u5546"}},"TargetStat":{"key":"AgentRequestAgedCheese","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u9648\u5E74\u5976\u916A","en":"AgentRequestAgedCheese","ja":"AgentRequestAgedCheese"}}}]},"Answer":{"zh":"\u8BF7\u6C42\u9648\u5E74\u5976\u916A","en":"Request Aged Cheese","ja":"\u719F\u6210\u30C1\u30FC\u30BA\u3092\u8981\u6C42\u3059\u308B"},"NewNextLine":{"NextStep":0,"NextLine":{"key":"Bring Aged Cheese","type":"DialogLine","name":{"zh":"\u4ED6\u8BF4\u4E0B\u6B21\u6765\u7684\u65F6\u5019\u4F1A\u8BD5\u7740\u5E26\u4E9B\u989D\u5916\u7684\u5976\u916A\u3002","en":"He says he will try to bring additional cheese on his next visit.","ja":"\u6B21\u306B\u8A2A\u308C\u308B\u6642\u306B\u306F\u3001\u3082\u3063\u3068\u30C1\u30FC\u30BA\u3092\u6301\u3063\u3066\u6765\u308B\u3088\u3046\u52AA\u3081\u308B\u3068\u8A00\u3063\u305F\u3002"}}},"ActionToPerform":{"StatModifications":[{"Stat":{"key":"MakeARequestFromTheTrader","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u5411\u5546\u4EBA\u63D0\u51FA\u8BF7\u6C42","en":"MakeARequestFromTheTrader","ja":"MakeARequestFromTheTrader"}},"ValueModifier":{"x":1.0,"y":1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentRequestAgedCheese","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u9648\u5E74\u5976\u916A","en":"AgentRequestAgedCheese","ja":"AgentRequestAgedCheese"}},"UseAssociatedAgent":true,"ValueChange":{"x":1.0,"y":1.0}},{"TargetStat":{"key":"AgentTrust","type":"NPCStat","name":{"zh":"\u4FE1\u4EFB\u5EA6","en":"AgentTrust","ja":"AgentTrust"}},"UseAssociatedAgent":true,"ValueChange":{"x":-25.0,"y":-25.0}}],"Ticks":0,"Miniticks":0}},{"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"Agent_TraderAnimal","type":"NPCAgent","icon":"6e68e29f3a1c8aac","name":{"zh":"\u52A8\u7269\u5546\u4EBA","en":"Animal Trader","ja":"\u5BB6\u755C\u5546"}},"TargetStat":{"key":"AgentRequestChickens","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u9E21","en":"AgentRequestChickens","ja":"AgentRequestChickens"}}}]},"Answer":{"zh":"\u8BF7\u6C42\u9E21","en":"Request Chickens","ja":"\u9D8F\u3092\u8981\u6C42\u3059\u308B"},"NewNextLine":{"NextStep":0,"NextLine":{"key":"Bring Chickens","type":"DialogLine","name":{"zh":"\u4ED6\u8BF4\u4E0B\u6B21\u6765\u7684\u65F6\u5019\u4F1A\u5E26\u66F4\u591A\u7684\u9E21\u3002","en":"He says he will bring more Chickens on his next visit.","ja":"\u6B21\u306B\u8A2A\u308C\u308B\u6642\u306B\u306F\u3001\u3082\u3063\u3068\u9D8F\u3092\u9023\u308C\u3066\u6765\u308B\u3068\u8A00\u3063\u305F\u3002"}}},"ActionToPerform":{"StatModifications":[{"Stat":{"key":"MakeARequestFromTheTrader","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u5411\u5546\u4EBA\u63D0\u51FA\u8BF7\u6C42","en":"MakeARequestFromTheTrader","ja":"MakeARequestFromTheTrader"}},"ValueModifier":{"x":1.0,"y":1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentRequestChickens","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u9E21","en":"AgentRequestChickens","ja":"AgentRequestChickens"}},"UseAssociatedAgent":true,"ValueChange":{"x":1.0,"y":1.0}},{"TargetStat":{"key":"AgentTrust","type":"NPCStat","name":{"zh":"\u4FE1\u4EFB\u5EA6","en":"AgentTrust","ja":"AgentTrust"}},"UseAssociatedAgent":true,"ValueChange":{"x":-25.0,"y":-25.0}}],"Ticks":0,"Miniticks":0}}],"type":"DialogLine","key":"Request Hub","name":{"zh":"\u4ED6\u5728\u7B49\u5F85\u3002","en":"He waits.","ja":"\u5F7C\u306F\u9ED9\u3063\u3066\u5F85\u3063\u3066\u3044\u308B\u3002"}}
+
+{
+  "Line" : {
+    "zh" : "\u4ED6\u5728\u7B49\u5F85\u3002",
+    "en" : "He waits.",
+    "ja" : "\u5F7C\u306F\u9ED9\u3063\u3066\u5F85\u3063\u3066\u3044\u308B\u3002"
+  },
+  "ShowContinueButton" : 0,
+  "PossibleAnswers"    : [
+    {
+      "Answer" : {
+        "zh" : "\u6362\u4E2A\u8BDD\u9898",
+        "en" : "Change the subject",
+        "ja" : "\u8A71\u984C\u3092\u5909\u3048\u308B"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Trader Talk Intro",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "\u4ED6\u8F7B\u8F7B\u70B9\u4E86\u70B9\u5934\u3002",
+            "en" : "He gives a small nod.",
+            "ja" : "\u5F7C\u306F\u5C0F\u3055\u304F\u3046\u306A\u305A\u3044\u305F\u3002"
+          }
+        }
+      }
+    },
+    {
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "Agent_TraderAnimal",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_TraderAnimal__AgentImage",
+              "name" : {
+                "zh" : "\u52A8\u7269\u5546\u4EBA",
+                "en" : "Animal Trader",
+                "ja" : "\u5BB6\u755C\u5546"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentRequestAgedCheese",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BF7\u6C42\u9648\u5E74\u5976\u916A",
+                "en" : "AgentRequestAgedCheese",
+                "ja" : "AgentRequestAgedCheese"
+              }
+            }
+          }
+        ]
+      },
+      "Answer"     : {
+        "zh" : "\u8BF7\u6C42\u9648\u5E74\u5976\u916A",
+        "en" : "Request Aged Cheese",
+        "ja" : "\u719F\u6210\u30C1\u30FC\u30BA\u3092\u8981\u6C42\u3059\u308B"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Bring Aged Cheese",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "\u4ED6\u8BF4\u4E0B\u6B21\u6765\u7684\u65F6\u5019\u4F1A\u8BD5\u7740\u5E26\u4E9B\u989D\u5916\u7684\u5976\u916A\u3002",
+            "en" : "He says he will try to bring additional cheese on his next visit.",
+            "ja" : "\u6B21\u306B\u8A2A\u308C\u308B\u6642\u306B\u306F\u3001\u3082\u3063\u3068\u30C1\u30FC\u30BA\u3092\u6301\u3063\u3066\u6765\u308B\u3088\u3046\u52AA\u3081\u308B\u3068\u8A00\u3063\u305F\u3002"
+          }
+        }
+      },
+      "ActionToPerform" : {
+        "StatModifications" : [
+          {
+            "Stat" : {
+              "key" : "MakeARequestFromTheTrader",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u5411\u5546\u4EBA\u63D0\u51FA\u8BF7\u6C42",
+                "en" : "MakeARequestFromTheTrader",
+                "ja" : "MakeARequestFromTheTrader"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "NPCStatModifications" : [
+          {
+            "TargetStat" : {
+              "key" : "AgentRequestAgedCheese",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BF7\u6C42\u9648\u5E74\u5976\u916A",
+                "en" : "AgentRequestAgedCheese",
+                "ja" : "AgentRequestAgedCheese"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "AgentTrust",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u4FE1\u4EFB\u5EA6",
+                "en" : "AgentTrust",
+                "ja" : "AgentTrust"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -25.0,
+              "y" : -25.0
+            }
+          }
+        ],
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      }
+    },
+    {
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "Agent_TraderAnimal",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_TraderAnimal__AgentImage",
+              "name" : {
+                "zh" : "\u52A8\u7269\u5546\u4EBA",
+                "en" : "Animal Trader",
+                "ja" : "\u5BB6\u755C\u5546"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentRequestChickens",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BF7\u6C42\u9E21",
+                "en" : "AgentRequestChickens",
+                "ja" : "AgentRequestChickens"
+              }
+            }
+          }
+        ]
+      },
+      "Answer"     : {
+        "zh" : "\u8BF7\u6C42\u9E21",
+        "en" : "Request Chickens",
+        "ja" : "\u9D8F\u3092\u8981\u6C42\u3059\u308B"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Bring Chickens",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "\u4ED6\u8BF4\u4E0B\u6B21\u6765\u7684\u65F6\u5019\u4F1A\u5E26\u66F4\u591A\u7684\u9E21\u3002",
+            "en" : "He says he will bring more Chickens on his next visit.",
+            "ja" : "\u6B21\u306B\u8A2A\u308C\u308B\u6642\u306B\u306F\u3001\u3082\u3063\u3068\u9D8F\u3092\u9023\u308C\u3066\u6765\u308B\u3068\u8A00\u3063\u305F\u3002"
+          }
+        }
+      },
+      "ActionToPerform" : {
+        "StatModifications" : [
+          {
+            "Stat" : {
+              "key" : "MakeARequestFromTheTrader",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u5411\u5546\u4EBA\u63D0\u51FA\u8BF7\u6C42",
+                "en" : "MakeARequestFromTheTrader",
+                "ja" : "MakeARequestFromTheTrader"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "NPCStatModifications" : [
+          {
+            "TargetStat" : {
+              "key" : "AgentRequestChickens",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BF7\u6C42\u9E21",
+                "en" : "AgentRequestChickens",
+                "ja" : "AgentRequestChickens"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "AgentTrust",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u4FE1\u4EFB\u5EA6",
+                "en" : "AgentTrust",
+                "ja" : "AgentTrust"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -25.0,
+              "y" : -25.0
+            }
+          }
+        ],
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      }
+    }
+  ],
+  "type"               : "DialogLine",
+  "key"                : "Request Hub",
+  "name"               : {
+    "zh" : "\u4ED6\u5728\u7B49\u5F85\u3002",
+    "en" : "He waits.",
+    "ja" : "\u5F7C\u306F\u9ED9\u3063\u3066\u5F85\u3063\u3066\u3044\u308B\u3002"
+  }
+}

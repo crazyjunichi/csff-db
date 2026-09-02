@@ -1,1 +1,31 @@
-{"Conditions":{"PlayerUsesCard":0,"RequiredCardsInInventory":[{"key":"Thresher","type":"CardData","CardType":0,"icon":"a2e9a563d9f21083","name":{"zh":"\u8131\u7C92\u673A","en":"Thresher","ja":"\u8131\u7A40\u5177"}}]},"OnFalse":{"Outcome":1,"MoveToStep":4},"key":"Has Thresher","type":"NPCDutyAction","name":{"zh":"Has Thresher","en":"Has Thresher","ja":"Has Thresher"},"actionType":"TakeSimpleDecisionDutyAction"}
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsInInventory" : [
+      {
+        "key" : "Thresher",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_Thresher__CardImage",
+        "name"     : {
+          "zh" : "\u8131\u7C92\u673A",
+          "en" : "Thresher",
+          "ja" : "\u8131\u7A40\u5177"
+        }
+      }
+    ]
+  },
+  "OnFalse"    : {
+    "Outcome" : 1,
+    "MoveToStep" : 4
+  },
+  "key"        : "Has Thresher",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "Has Thresher",
+    "en" : "Has Thresher",
+    "ja" : "Has Thresher"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

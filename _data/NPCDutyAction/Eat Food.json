@@ -1,1 +1,96 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"tag_HumanFood","type":"CardTag","count":179,"name":{"zh":"\u4EBA\u7C7B\u98DF\u7269","en":"Human Food","ja":"\u4EBA\u9593\u306E\u98DF\u3079\u7269"}}},"Quantity":{"x":1.0,"y":1.0}},{"Target":{"Target":{"key":"LQ_Water","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u6C34","en":"Water","ja":"\u6C34"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":0,"OwnershipPriority":3,"DutyPriority":0,"Containers":{"CanLookInContainers":true},"SelectionTags":[{"key":"NPCFoodSelection","type":"ItemSelectionTag","name":{"zh":"\u98DF\u7269\u504F\u597D","en":"NPCFoodSelection","ja":"NPCFoodSelection"}}],"ExplicitPreference":{"key":"NPCHumanPreferences_Food","type":"NPCPreferenceList","name":{"zh":"NPCHumanPreferences_Food","en":"NPCHumanPreferences_Food","ja":"NPCHumanPreferences_Food"}}},"AffectType":1,"SimpleAffectDuration":0,"ActionToPerform":{"ActionType":0,"GivenCardSelectionMethod":0,"GivenCardSelection":{"SearchPriority":0,"OwnershipPriority":3,"DutyPriority":0},"ActionDroppedCards":0},"key":"Eat Food","type":"NPCDutyAction","name":{"zh":"Eat Food","en":"Eat Food","ja":"Eat Food"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "tag_HumanFood",
+            "type" : "CardTag",
+            "count" : 181,
+            "name"  : {
+              "zh" : "\u4EBA\u7C7B\u98DF\u7269",
+              "en" : "Human Food",
+              "ja" : "\u4EBA\u9593\u306E\u98DF\u3079\u7269"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "LQ_Water",
+            "type" : "CardData",
+            "CardType" : 9,
+            "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+            "name"     : {
+              "zh" : "\u6C34",
+              "en" : "Water",
+              "ja" : "\u6C34"
+            }
+          },
+          "RequiredDurabilities" : {
+            "ProgressRange" : {
+              "x" : 10.0,
+              "y" : 100.0
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 3,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "SelectionTags"     : [
+      {
+        "key" : "NPCFoodSelection",
+        "type" : "ItemSelectionTag",
+        "name" : {
+          "zh" : "\u98DF\u7269\u504F\u597D",
+          "en" : "NPCFoodSelection",
+          "ja" : "NPCFoodSelection"
+        }
+      }
+    ],
+    "ExplicitPreference" : {
+      "key" : "NPCHumanPreferences_Food",
+      "type" : "NPCPreferenceList",
+      "name" : {
+        "zh" : "NPCHumanPreferences_Food",
+        "en" : "NPCHumanPreferences_Food",
+        "ja" : "NPCHumanPreferences_Food"
+      }
+    }
+  },
+  "AffectType"    : 1,
+  "SimpleAffectDuration" : 0,
+  "ActionToPerform"      : {
+    "ActionType" : 0,
+    "GivenCardSelectionMethod" : 0,
+    "GivenCardSelection"       : {
+      "SearchPriority" : 0,
+      "OwnershipPriority" : 3,
+      "DutyPriority"      : 0
+    },
+    "ActionDroppedCards"       : 0
+  },
+  "key"                  : "Eat Food",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Eat Food",
+    "en" : "Eat Food",
+    "ja" : "Eat Food"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

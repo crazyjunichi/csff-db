@@ -1,1 +1,3307 @@
-{"GameName":{"zh":"\u52C7\u6C14","en":"Courage","ja":"\u52C7\u6C17"},"Description":{"zh":"\u5B83\u80FD\u8BA9\u4F60\u5B8C\u6210\u5E73\u65F6\u65E0\u6CD5\u505A\u5230\u7684\u75DB\u82E6\u6216\u5371\u9669\u52A8\u4F5C\u3002\u8FD8\u80FD\u5E2E\u52A9\u4F60\u66F4\u5FEB\u5730\u4ECE\u6CAE\u4E27\u6216\u6050\u60E7\u4E2D\u6062\u590D\u8FC7\u6765\u3002","en":"Allows you to perform painful or dangerous actions you would otherwise not be able to do. It also helps you recover from being demoralized or frightened faster.","ja":"\u666E\u6BB5\u6016\u304F\u3066\u3067\u304D\u306A\u3044\u30A2\u30AF\u30B7\u30E7\u30F3\u304C\u3001\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308B\u3002\u58EB\u6C17\u304C\u843D\u3061\u305F\u6642\u3084\u3001\u6050\u6016\u3092\u611F\u3058\u305F\u6642\u306E\u56DE\u5FA9\u304C\u65E9\u307E\u308B\u3002"},"BaseValue":50.0,"MinMaxValue":{"x":0.0,"y":200.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":0,"DefaultStatusIcon":{"FileName":"970da5f1f2e32aeb"},"Statuses":[{"GameName":{"zh":"\u4F4E\u52C7\u6C14","en":"Low Courage","ja":"\u52C7\u6C17\uFF08\u4F4E\uFF09"},"ValueRange":{"m_X":0,"m_Y":25},"EffectsOnStats":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"RateModifier":{"x":-0.5,"y":-0.5},"MinValueModifier":{"x":25.0,"y":25.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4E2D\u7B49\u52C7\u6C14","en":"Moderate Courage","ja":"\u52C7\u6C17\uFF08\u4E2D\uFF09"},"ValueRange":{"m_X":26,"m_Y":50},"EffectsOnStats":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"RateModifier":{"x":-1.0,"y":-1.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u9AD8\u52C7\u6C14","en":"High Courage","ja":"\u52C7\u6C17\uFF08\u9AD8\uFF09"},"ValueRange":{"m_X":51,"m_Y":75},"EffectsOnStats":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"RateModifier":{"x":-2.0,"y":-2.0},"MinValueModifier":{"x":-50.0,"y":-50.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u975E\u5E38\u9AD8\u52C7\u6C14","en":"Very High Courage","ja":"\u52C7\u6C17\uFF08\u6700\u5927\uFF09"},"ValueRange":{"m_X":76,"m_Y":100},"EffectsOnStats":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"RateModifier":{"x":-4.0,"y":-4.0},"MinValueModifier":{"x":-100.0,"y":-100.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u52C7\u6C14\u6781\u9AD8","en":"Extreme Courage","ja":"\u6975\u9650\u306E\u52C7\u6C17"},"ValueRange":{"m_X":101,"m_Y":150},"EffectsOnStats":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"RateModifier":{"x":-6.0,"y":-6.0},"MinValueModifier":{"x":-200.0,"y":-200.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u65E0\u60E7","en":"Fearless","ja":"\u6050\u308C\u77E5\u3089\u305A"},"ValueRange":{"m_X":151,"m_Y":200},"EffectsOnStats":[{"Stat":{"key":"Fear","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u6050\u60E7","en":"Fear","ja":"\u6050\u6016"}},"RateModifier":{"x":-8.0,"y":-8.0},"MinValueModifier":{"x":-500.0,"y":-500.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"NotEnoughText":{"zh":"\u6211\u8FD8\u6CA1\u6709\u8DB3\u591F\u7684\u52C7\u6C14\u2026\u2026","en":"I haven't mustered enough courage yet...","ja":"\u52C7\u6C17\u304C\u8DB3\u308A\u306A\u3044\u30FB\u30FB\u30FB"},"type":"GameStat","key":"Courage","icon":"970da5f1f2e32aeb","name":{"zh":"\u52C7\u6C14","en":"Courage","ja":"\u52C7\u6C17"},"min":0.0,"max":200.0,"_modifierValues":[{"source":{"key":"MaidenCharm","type":"CardData","CardType":0,"icon":"68ba82a4c27d2ec3","name":{"zh":"\u5C11\u5973\u6728\u96D5","en":"Maiden Charm","ja":"\u4E59\u5973\u306E\u30C1\u30E3\u30FC\u30E0"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"BearCoat","type":"CardData","CardType":0,"icon":"fd334c90d9e07c1e","name":{"zh":"\u718A\u76AE\u5927\u8863","en":"Bear Coat","ja":"\u30AF\u30DE\u306E\u30B3\u30FC\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"BoarCoat","type":"CardData","CardType":0,"icon":"df860b08e643435c","name":{"zh":"\u91CE\u732A\u76AE\u5927\u8863","en":"Boar Coat","ja":"\u30A4\u30CE\u30B7\u30B7\u6BDB\u76AE\u30B3\u30FC\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"ClothCoif","type":"CardData","CardType":0,"icon":"71b2b782e0146301","name":{"zh":"\u5E03\u5934\u5DFE","en":"Cloth Coif","ja":"\u5E03\u88FD\u982D\u5DFE"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"ClothDress","type":"CardData","CardType":0,"icon":"41e8233cbbe03eee","name":{"zh":"\u5E03\u88D9","en":"Cloth Dress","ja":"\u5E03\u88FD\u30C9\u30EC\u30B9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"ClothShirt","type":"CardData","CardType":0,"icon":"3f1f22fd0c9264a1","name":{"zh":"\u5E03\u886C\u886B","en":"Cloth Shirt","ja":"\u30B7\u30E3\u30C4\uFF08\u5E03\uFF09"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"ClothTrousers","type":"CardData","CardType":0,"icon":"e58b464b3cf8dbf8","name":{"zh":"\u5E03\u88E4","en":"Cloth Trousers","ja":"\u5E03\u88FD\u30BA\u30DC\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"DeerCoat","type":"CardData","CardType":0,"icon":"89026d6e0e7790f3","name":{"zh":"\u9E7F\u76AE\u5927\u8863","en":"Deer Coat","ja":"\u9E7F\u6BDB\u76AE\u30B3\u30FC\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"FurCoat","type":"CardData","CardType":0,"icon":"fae8085c35285809","name":{"zh":"\u6BDB\u76AE\u5927\u8863","en":"Fur Coat","ja":"\u6BDB\u76AE\u306E\u30B3\u30FC\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"LeatherBracers","type":"CardData","CardType":0,"icon":"7d450465b3567b14","name":{"zh":"\u76AE\u9769\u62A4\u8155","en":"Leather Bracers","ja":"\u9769\u306E\u30D6\u30EC\u30A4\u30B5\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"LeatherCoif","type":"CardData","CardType":0,"icon":"a1e378f687bf74a7","name":{"zh":"\u76AE\u9769\u515C\u5E3D","en":"Leather Coif","ja":"\u9769\u88FD\u982D\u5DFE"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"LeatherCuirass_","type":"CardData","CardType":0,"icon":"2dc5735326dd0d62","name":{"zh":"\u76AE\u9769\u80F8\u7532","en":"Leather Cuirass","ja":"\u9769\u306E\u30AD\u30E5\u30A4\u30E9\u30B9"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"LeatherGloves","type":"CardData","CardType":0,"icon":"643fdaf1fef54e8d","name":{"zh":"\u76AE\u9769\u624B\u5957","en":"Leather Gloves","ja":"\u9769\u306E\u30B0\u30ED\u30FC\u30D6"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"LeatherGreaves","type":"CardData","CardType":0,"icon":"1d6c982247fac4a2","name":{"zh":"\u76AE\u9769\u62A4\u80EB","en":"Leather Greaves","ja":"\u9769\u306E\u811B\u5F53\u3066"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"LeatherHelmet","type":"CardData","CardType":0,"icon":"bb14700a690c4786","name":{"zh":"\u76AE\u9769\u5934\u76D4","en":"Leather Helmet","ja":"\u9769\u306E\u30D8\u30EB\u30E1\u30C3\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"LeatherShoes","type":"CardData","CardType":0,"icon":"a0821e21da8c7e4d","name":{"zh":"\u76AE\u9769\u978B","en":"Leather Shoes","ja":"\u9769\u9774"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"LeatherTrousers","type":"CardData","CardType":0,"icon":"e5588c71297db4da","name":{"zh":"\u76AE\u9769\u88E4","en":"Leather Trousers","ja":"\u9769\u306E\u30BA\u30DC\u30F3"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"LeatherTunic","type":"CardData","CardType":0,"icon":"4d4eb5730e4c8c07","name":{"zh":"\u76AE\u9769\u957F\u888D","en":"Leather Tunic","ja":"\u9769\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"MoontouchedCoat","type":"CardData","CardType":0,"icon":"50fec3bd97314da9","name":{"zh":"\u6708\u517D\u5927\u8863","en":"Moontouched Coat","ja":"\u6708\u89E6\u308C\u306E\u30B3\u30FC\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"PrimevalWolfCoat","type":"CardData","CardType":0,"icon":"4ac18358851310fd","name":{"zh":"\u539F\u521D\u72FC\u5927\u8863","en":"Primeval Wolf Coat","ja":"\u592A\u53E4\u306E\u72FC\u30B3\u30FC\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"WolfCoat","type":"CardData","CardType":0,"icon":"e0efe48a8f7aa1ae","name":{"zh":"\u72FC\u76AE\u5927\u8863","en":"Wolf Coat","ja":"\u30AA\u30AA\u30AB\u30DF\u6BDB\u76AE\u30B3\u30FC\u30C8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09","en":"Passive Effect: Courage and Fighting bonus if Red","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"Spirit_HagBargainFear","type":"CardData","CardType":0,"icon":"c940e27eb72a7687","name":{"zh":"\u6050\u60E7\u5951\u7EA6","en":"Fear Bargain","ja":"Fear Bargain"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMax Courage, Remove Fear, Removes Allertness","en":"Passive Effect: Max Courage, Remove Fear, Removes Allertness","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMax Courage, Remove Fear, Removes Allertness"},"value":{"x":100000.0,"y":100000.0}},{"source":{"key":"BloodPaint","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":50.0,"name":{"zh":"\u8840\u6D82\u6599","en":"Blood Paint","ja":"\u8840\u5316\u7CA7"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8840\u6D82\u6599","en":"Status Stage: Blood Paint","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8840\u5316\u7CA7"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"Capsaicin","type":"GameStat","min":0.0,"max":24.0,"name":{"zh":"\u8FA3\u6912\u7D20","en":"Capsaicin","ja":"\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u8FA3\u6912\u7D20\u6C34\u5E73","en":"Status Stage: High Capsaicin Levels","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u3044\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3\u30EC\u30D9\u30EB"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"GingerEffect","type":"GameStat","min":0.0,"max":48.0,"name":{"zh":"\u59DC\u6548\u679C","en":"Ginger","ja":"\u751F\u59DC"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u5242\u91CF","en":"Status Stage: Small Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"GingerEffect","type":"GameStat","min":0.0,"max":48.0,"name":{"zh":"\u59DC\u6548\u679C","en":"Ginger","ja":"\u751F\u59DC"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5242\u91CF","en":"Status Stage: High Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"MoonMaidenBlessing","type":"GameStat","icon":"1b639e5a8a119fb4","min":0.0,"max":288.0,"name":{"zh":"\u6708\u5973\u8D50\u798F","en":"Moon Maiden Blessing","ja":"\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F","en":"Status Stage: Maiden Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"MoonMaidenBlessing","type":"GameStat","icon":"1b639e5a8a119fb4","min":0.0,"max":288.0,"name":{"zh":"\u6708\u5973\u8D50\u798F","en":"Moon Maiden Blessing","ja":"\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F","en":"Status Stage: Maiden Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"MoonMaidenBlessing","type":"GameStat","icon":"1b639e5a8a119fb4","min":0.0,"max":288.0,"name":{"zh":"\u6708\u5973\u8D50\u798F","en":"Moon Maiden Blessing","ja":"\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F","en":"Status Stage: Maiden Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"},"value":{"x":20.0,"y":20.0}},{"source":{"key":"MoonMaidenBlessing","type":"GameStat","icon":"1b639e5a8a119fb4","min":0.0,"max":288.0,"name":{"zh":"\u6708\u5973\u8D50\u798F","en":"Moon Maiden Blessing","ja":"\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F","en":"Status Stage: Maiden Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"},"value":{"x":30.0,"y":30.0}},{"source":{"key":"MoonMaidenBlessing","type":"GameStat","icon":"1b639e5a8a119fb4","min":0.0,"max":288.0,"name":{"zh":"\u6708\u5973\u8D50\u798F","en":"Moon Maiden Blessing","ja":"\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F","en":"Status Stage: Maiden Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"},"value":{"x":40.0,"y":40.0}},{"source":{"key":"MoonMaidenBlessing","type":"GameStat","icon":"1b639e5a8a119fb4","min":0.0,"max":288.0,"name":{"zh":"\u6708\u5973\u8D50\u798F","en":"Moon Maiden Blessing","ja":"\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F","en":"Status Stage: Maiden Blessing","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":20.0,"y":20.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":30.0,"y":30.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":40.0,"y":40.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":60.0,"y":60.0}},{"source":{"key":"Derealization","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1000.0,"name":{"zh":"\u5931\u5B9E\u75C7","en":"Derealization","ja":"\u975E\u73FE\u5B9F\u5316"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u73B0\u5B9E\u611F\u4E27\u5931","en":"Status Stage: Derealization","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u975E\u73FE\u5B9F\u5316"},"value":{"x":1000.0,"y":1000.0}},{"source":{"key":"Derealization","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1000.0,"name":{"zh":"\u5931\u5B9E\u75C7","en":"Derealization","ja":"\u975E\u73FE\u5B9F\u5316"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u73B0\u5B9E\u611F\u4E27\u5931","en":"Status Stage: Derealization","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u975E\u73FE\u5B9F\u5316"},"value":{"x":2000.0,"y":2000.0}},{"source":{"key":"Derealization","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1000.0,"name":{"zh":"\u5931\u5B9E\u75C7","en":"Derealization","ja":"\u975E\u73FE\u5B9F\u5316"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u73B0\u5B9E\u611F\u4E27\u5931","en":"Status Stage: Derealization","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u975E\u73FE\u5B9F\u5316"},"value":{"x":3000.0,"y":3000.0}},{"source":{"key":"Mania","type":"GameStat","icon":"9e1c9c294ec3f4b9","min":0.0,"max":1000.0,"name":{"zh":"\u72C2\u8E81","en":"Mania","ja":"\u30BD\u30A6\u72B6\u614B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5EA6\u72C2\u70ED","en":"Status Stage: Hypomanic","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30B1\u30A4\u30BD\u30A6\u75C5"},"value":{"x":1000.0,"y":1000.0}},{"source":{"key":"Mania","type":"GameStat","icon":"9e1c9c294ec3f4b9","min":0.0,"max":1000.0,"name":{"zh":"\u72C2\u8E81","en":"Mania","ja":"\u30BD\u30A6\u72B6\u614B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u72C2\u70ED","en":"Status Stage: Manic","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30BD\u30A6\u72B6\u614B"},"value":{"x":2000.0,"y":2000.0}},{"source":{"key":"Pain","type":"GameStat","icon":"19852c5a3a835637","min":0.0,"max":500.0,"name":{"zh":"\u75BC\u75DB","en":"Pain","ja":"\u75DB\u307F"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6709\u70B9\u75BC","en":"Status Stage: Minor Pain","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u3057\u75DB\u3044"},"value":{"x":20.0,"y":20.0}},{"source":{"key":"Pain","type":"GameStat","icon":"19852c5a3a835637","min":0.0,"max":500.0,"name":{"zh":"\u75BC\u75DB","en":"Pain","ja":"\u75DB\u307F"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u75BC\u75DB","en":"Status Stage: Moderate Pain","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u307E\u3042\u307E\u3042\u75DB\u3044"},"value":{"x":40.0,"y":40.0}},{"source":{"key":"Pain","type":"GameStat","icon":"19852c5a3a835637","min":0.0,"max":500.0,"name":{"zh":"\u75BC\u75DB","en":"Pain","ja":"\u75DB\u307F"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5267\u70C8\u75BC\u75DB","en":"Status Stage: Acute Pain","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u75DB\u3044"},"value":{"x":60.0,"y":60.0}},{"source":{"key":"Pain","type":"GameStat","icon":"19852c5a3a835637","min":0.0,"max":500.0,"name":{"zh":"\u75BC\u75DB","en":"Pain","ja":"\u75DB\u307F"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u5EA6\u75BC\u75DB","en":"Status Stage: Extreme Pain","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6FC0\u75DB"},"value":{"x":80.0,"y":80.0}},{"source":{"key":"AlcoholEffect","type":"GameStat","icon":"130378a64dac99e1","min":0.0,"max":70.0,"name":{"zh":"\u9152\u7CBE","en":"Alcohol","ja":"\u9152"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5FAE\u91BA","en":"Status Stage: Tipsy","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u307B\u308D\u9154\u3044"},"value":{"x":20.0,"y":20.0}},{"source":{"key":"AlcoholEffect","type":"GameStat","icon":"130378a64dac99e1","min":0.0,"max":70.0,"name":{"zh":"\u9152\u7CBE","en":"Alcohol","ja":"\u9152"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9189\u9152","en":"Status Stage: Drunk","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9154\u3063\u305F"},"value":{"x":40.0,"y":40.0}},{"source":{"key":"AlcoholEffect","type":"GameStat","icon":"130378a64dac99e1","min":0.0,"max":70.0,"name":{"zh":"\u9152\u7CBE","en":"Alcohol","ja":"\u9152"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5927\u9189","en":"Status Stage: Horribly Drunk","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u98F2\u307F\u3059\u304E\u3061\u3083\u3063\u305F"},"value":{"x":80.0,"y":80.0}},{"source":{"key":"Pk_4_4_Brave","type":"CharacterPerk","icon":"970da5f1f2e32aeb","name":{"zh":"\u52C7\u6562","en":"Brave","ja":"\u52C7\u6562"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":10000.0,"y":10000.0}},{"source":{"key":"Pk_4_4_Fainthearted","type":"CharacterPerk","icon":"43e350618ec951e0","name":{"zh":"\u80C6\u5C0F","en":"Fainthearted","ja":"\u8C46\u8150\u30E1\u30F3\u30BF\u30EB"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":-10000.0,"y":-10000.0}}],"_modifierRates":[{"source":{"key":"Spirit_HagBargainFear","type":"CardData","CardType":0,"icon":"c940e27eb72a7687","name":{"zh":"\u6050\u60E7\u5951\u7EA6","en":"Fear Bargain","ja":"Fear Bargain"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMax Courage, Remove Fear, Removes Allertness","en":"Passive Effect: Max Courage, Remove Fear, Removes Allertness","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMax Courage, Remove Fear, Removes Allertness"},"value":{"x":1000.0,"y":1000.0}},{"source":{"key":"Pk_4_4_Brave","type":"CharacterPerk","icon":"970da5f1f2e32aeb","name":{"zh":"\u52C7\u6562","en":"Brave","ja":"\u52C7\u6562"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":1.0,"y":1.0}}],"_requires":[{"source":{"key":"HealingOintment","type":"CardData","CardType":0,"icon":"4e2377648390d482","name":{"zh":"\u6CBB\u7597\u836F\u818F","en":"Healing Ointment","ja":"\u56DE\u5FA9\u30DA\u30FC\u30B9\u30C8"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F","en":"Action: Apply to Wound","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"HealingSalve","type":"CardData","CardType":0,"icon":"d2db51fad665b21f","name":{"zh":"\u6CBB\u6108\u818F","en":"Healing Salve","ja":"\u56DE\u5FA9\u30D0\u30FC\u30E0"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F","en":"Action: Apply to Wound","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"PineSalve","type":"CardData","CardType":0,"icon":"d2db51fad665b21f","name":{"zh":"\u677E\u8102\u818F","en":"Pine Salve","ja":"\u677E\u8102\u30D0\u30FC\u30E0"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F","en":"Action: Apply to Wound","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"SoothingOintment","type":"CardData","CardType":0,"icon":"c2c2a29111cd4a5c","name":{"zh":"\u6B62\u75DB\u818F","en":"Soothing Ointment","ja":"\u93AE\u75DB\u5264"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F","en":"Action: Apply to Wound","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"SoothingSalve","type":"CardData","CardType":0,"icon":"5333cb814d2d510f","name":{"zh":"\u8212\u7F13\u818F","en":"Soothing Salve","ja":"\u93AE\u75DB\u30D0\u30FC\u30E0"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F","en":"Action: Apply to Wound","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Abrasion","type":"CardData","CardType":0,"icon":"452404ee30fd5958","name":{"zh":"\u64E6\u4F24","en":"Abrasion","ja":"\u64E6\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Abrasion","type":"CardData","CardType":0,"icon":"452404ee30fd5958","name":{"zh":"\u64E6\u4F24","en":"Abrasion","ja":"\u64E6\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Abrasion","type":"CardData","CardType":0,"icon":"452404ee30fd5958","name":{"zh":"\u64E6\u4F24","en":"Abrasion","ja":"\u64E6\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7F1D\u5408","en":"Action: Stitch","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7E2B\u3046"},"value":{"x":100.0,"y":1000000.0}},{"source":{"key":"W_ArmLacerationLStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DE6\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u88C2\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationLStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DE6\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u88C2\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationLStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DE6\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u88C2\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7F1D\u5408","en":"Action: Stitch","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7E2B\u3046"},"value":{"x":100.0,"y":1000000.0}},{"source":{"key":"W_ArmLacerationRStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u53F3\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationRStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u53F3\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ArmLacerationRStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u53F3\u81C2\u6495\u88C2\u4F24","en":"Arm Laceration","ja":"\u8155\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_BearBite","type":"CardData","CardType":0,"icon":"836c16ef35e94f15","name":{"zh":"\u718A\u54AC\u4F24","en":"Bear Bite","ja":"\u718A\u306B\u3088\u308B\u54AC\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_BearBite","type":"CardData","CardType":0,"icon":"836c16ef35e94f15","name":{"zh":"\u718A\u54AC\u4F24","en":"Bear Bite","ja":"\u718A\u306B\u3088\u308B\u54AC\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6253\u626B","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_BearBite","type":"CardData","CardType":0,"icon":"836c16ef35e94f15","name":{"zh":"\u718A\u54AC\u4F24","en":"Bear Bite","ja":"\u718A\u306B\u3088\u308B\u54AC\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6253\u626B","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_BearClawmarks","type":"CardData","CardType":0,"icon":"963f3ea48ddf9b28","name":{"zh":"\u718A\u722A\u75D5","en":"Bear Clawmarks","ja":"\u718A\u306E\u722A\u75D5"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_BearClawmarks","type":"CardData","CardType":0,"icon":"963f3ea48ddf9b28","name":{"zh":"\u718A\u722A\u75D5","en":"Bear Clawmarks","ja":"\u718A\u306E\u722A\u75D5"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6253\u626B","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_BearClawmarks","type":"CardData","CardType":0,"icon":"963f3ea48ddf9b28","name":{"zh":"\u718A\u722A\u75D5","en":"Bear Clawmarks","ja":"\u718A\u306E\u722A\u75D5"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_BiteWound","type":"CardData","CardType":0,"icon":"101c21bec6682381","name":{"zh":"\u54AC\u4F24","en":"Bite Wound","ja":"\u565B\u307E\u308C\u305F\u8DE1"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_BiteWound","type":"CardData","CardType":0,"icon":"101c21bec6682381","name":{"zh":"\u54AC\u4F24","en":"Bite Wound","ja":"\u565B\u307E\u308C\u305F\u8DE1"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_BiteWound","type":"CardData","CardType":0,"icon":"101c21bec6682381","name":{"zh":"\u54AC\u4F24","en":"Bite Wound","ja":"\u565B\u307E\u308C\u305F\u8DE1"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Bruise","type":"CardData","CardType":0,"icon":"fc1071643fa7db92","name":{"zh":"\u6DE4\u9752","en":"Bruise","ja":"\u30A2\u30B6"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Bruise","type":"CardData","CardType":0,"icon":"fc1071643fa7db92","name":{"zh":"\u6DE4\u9752","en":"Bruise","ja":"\u30A2\u30B6"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Bruise","type":"CardData","CardType":0,"icon":"fc1071643fa7db92","name":{"zh":"\u6DE4\u9752","en":"Bruise","ja":"\u30A2\u30B6"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ClawMarks","type":"CardData","CardType":0,"icon":"963f3ea48ddf9b28","name":{"zh":"\u6293\u4F24","en":"Claw Marks","ja":"\u5F15\u3063\u63BB\u304B\u308C\u305F\u8DE1"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ClawMarks","type":"CardData","CardType":0,"icon":"963f3ea48ddf9b28","name":{"zh":"\u6293\u4F24","en":"Claw Marks","ja":"\u5F15\u3063\u63BB\u304B\u308C\u305F\u8DE1"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ClawMarks","type":"CardData","CardType":0,"icon":"963f3ea48ddf9b28","name":{"zh":"\u6293\u4F24","en":"Claw Marks","ja":"\u5F15\u3063\u63BB\u304B\u308C\u305F\u8DE1"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_FireBurn","type":"CardData","CardType":0,"icon":"5d1801a70481550d","name":{"zh":"\u70E7\u4F24","en":"Fire Burn","ja":"\u706B\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_FireBurn","type":"CardData","CardType":0,"icon":"5d1801a70481550d","name":{"zh":"\u70E7\u4F24","en":"Fire Burn","ja":"\u706B\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_FireBurn","type":"CardData","CardType":0,"icon":"5d1801a70481550d","name":{"zh":"\u70E7\u4F24","en":"Fire Burn","ja":"\u706B\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ForestBeastBite","type":"CardData","CardType":0,"icon":"836c16ef35e94f15","name":{"zh":"\u68EE\u6797\u731B\u517D\u54AC\u4F24","en":"Forest Beast Bite","ja":"\u68EE\u306E\u7363\u306B\u3088\u308B\u54AC\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6253\u626B","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ForestBeastBite","type":"CardData","CardType":0,"icon":"836c16ef35e94f15","name":{"zh":"\u68EE\u6797\u731B\u517D\u54AC\u4F24","en":"Forest Beast Bite","ja":"\u68EE\u306E\u7363\u306B\u3088\u308B\u54AC\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6253\u626B","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ForestBeastBite","type":"CardData","CardType":0,"icon":"836c16ef35e94f15","name":{"zh":"\u68EE\u6797\u731B\u517D\u54AC\u4F24","en":"Forest Beast Bite","ja":"\u68EE\u306E\u7363\u306B\u3088\u308B\u54AC\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6253\u626B","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ForestBeastClawmarks","type":"CardData","CardType":0,"icon":"963f3ea48ddf9b28","name":{"zh":"\u68EE\u6797\u731B\u517D\u722A\u75D5","en":"Forest Beast Clawmarks","ja":"\u68EE\u306E\u7363\u306B\u3088\u308B\u722A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6253\u626B","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ForestBeastClawmarks","type":"CardData","CardType":0,"icon":"963f3ea48ddf9b28","name":{"zh":"\u68EE\u6797\u731B\u517D\u722A\u75D5","en":"Forest Beast Clawmarks","ja":"\u68EE\u306E\u7363\u306B\u3088\u308B\u722A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6253\u626B","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_ForestBeastClawmarks","type":"CardData","CardType":0,"icon":"963f3ea48ddf9b28","name":{"zh":"\u68EE\u6797\u731B\u517D\u722A\u75D5","en":"Forest Beast Clawmarks","ja":"\u68EE\u306E\u7363\u306B\u3088\u308B\u722A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6253\u626B","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Frostbite","type":"CardData","CardType":0,"icon":"5d1801a70481550d","name":{"zh":"\u51BB\u4F24","en":"Frostbite","ja":"\u51CD\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Frostbite","type":"CardData","CardType":0,"icon":"5d1801a70481550d","name":{"zh":"\u51BB\u4F24","en":"Frostbite","ja":"\u51CD\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Frostbite","type":"CardData","CardType":0,"icon":"5d1801a70481550d","name":{"zh":"\u51BB\u4F24","en":"Frostbite","ja":"\u51CD\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Frostnip","type":"CardData","CardType":0,"icon":"4e99507146355eb0","name":{"zh":"\u51BB\u75AE","en":"Frostnip","ja":"\u51CD\u7621"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Frostnip","type":"CardData","CardType":0,"icon":"4e99507146355eb0","name":{"zh":"\u51BB\u75AE","en":"Frostnip","ja":"\u51CD\u7621"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Frostnip","type":"CardData","CardType":0,"icon":"4e99507146355eb0","name":{"zh":"\u51BB\u75AE","en":"Frostnip","ja":"\u51CD\u7621"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7F1D\u5408","en":"Action: Stitch","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7E2B\u3046"},"value":{"x":100.0,"y":1000000.0}},{"source":{"key":"W_LegLacerationLStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationLStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationLStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7F1D\u5408","en":"Action: Stitch","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7E2B\u3046"},"value":{"x":100.0,"y":1000000.0}},{"source":{"key":"W_LegLacerationRStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationRStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_LegLacerationRStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_MinorLaceration","type":"CardData","CardType":0,"icon":"2c006f18cb0fa416","name":{"zh":"\u8F7B\u5FAE\u6495\u88C2\u4F24","en":"Minor Laceration","ja":"\u8EFD\u3044\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_MinorLaceration","type":"CardData","CardType":0,"icon":"2c006f18cb0fa416","name":{"zh":"\u8F7B\u5FAE\u6495\u88C2\u4F24","en":"Minor Laceration","ja":"\u8EFD\u3044\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_MinorLaceration","type":"CardData","CardType":0,"icon":"2c006f18cb0fa416","name":{"zh":"\u8F7B\u5FAE\u6495\u88C2\u4F24","en":"Minor Laceration","ja":"\u8EFD\u3044\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_MinorLaceration","type":"CardData","CardType":0,"icon":"2c006f18cb0fa416","name":{"zh":"\u8F7B\u5FAE\u6495\u88C2\u4F24","en":"Minor Laceration","ja":"\u8EFD\u3044\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7F1D\u5408","en":"Action: Stitch","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7E2B\u3046"},"value":{"x":20.0,"y":1000000.0}},{"source":{"key":"W_MinorLacerationStitched","type":"CardData","CardType":0,"icon":"8b9b9ecdb11120ff","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u8F7B\u5FAE\u6495\u88C2\u4F24","en":"Minor Laceration","ja":"\u8EFD\u3044\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_MinorLacerationStitched","type":"CardData","CardType":0,"icon":"8b9b9ecdb11120ff","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u8F7B\u5FAE\u6495\u88C2\u4F24","en":"Minor Laceration","ja":"\u8EFD\u3044\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_MinorLacerationStitched","type":"CardData","CardType":0,"icon":"8b9b9ecdb11120ff","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u8F7B\u5FAE\u6495\u88C2\u4F24","en":"Minor Laceration","ja":"\u8EFD\u3044\u5207\u308A\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_MudlingSpit","type":"CardData","CardType":0,"name":{"zh":"\u6CE5\u6D46\u55B7\u5410","en":"Mudling Spit","ja":"\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7247\u4ED8\u3051\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_MudlingSpit","type":"CardData","CardType":0,"name":{"zh":"\u6CE5\u6D46\u55B7\u5410","en":"Mudling Spit","ja":"\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_MudlingSpit","type":"CardData","CardType":0,"name":{"zh":"\u6CE5\u6D46\u55B7\u5410","en":"Mudling Spit","ja":"\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Puncture","type":"CardData","CardType":0,"icon":"de74c9d44b3ef884","name":{"zh":"\u7A7F\u523A\u4F24","en":"Puncture Wound","ja":"\u523A\u3057\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Puncture","type":"CardData","CardType":0,"icon":"de74c9d44b3ef884","name":{"zh":"\u7A7F\u523A\u4F24","en":"Puncture Wound","ja":"\u523A\u3057\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_Puncture","type":"CardData","CardType":0,"icon":"de74c9d44b3ef884","name":{"zh":"\u7A7F\u523A\u4F24","en":"Puncture Wound","ja":"\u523A\u3057\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_WolfBite","type":"CardData","CardType":0,"icon":"836c16ef35e94f15","name":{"zh":"\u72FC\u54AC\u4F24","en":"Wolf Bite","ja":"\u72FC\u306E\u565B\u307F\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_WolfBite","type":"CardData","CardType":0,"icon":"836c16ef35e94f15","name":{"zh":"\u72FC\u54AC\u4F24","en":"Wolf Bite","ja":"\u72FC\u306E\u565B\u307F\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}},{"source":{"key":"W_WolfBite","type":"CardData","CardType":0,"icon":"836c16ef35e94f15","name":{"zh":"\u72FC\u54AC\u4F24","en":"Wolf Bite","ja":"\u72FC\u306E\u565B\u307F\u50B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E05\u7406","en":"Action: Clean","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"},"value":{"x":0.0,"y":4000.0}}],"_uuid":"3d37dbda5252dc14cb772b4c5e739916"}
+
+{
+  "GameName" : {
+    "zh" : "\u52C7\u6C14",
+    "en" : "Courage",
+    "ja" : "\u52C7\u6C17"
+  },
+  "Description" : {
+    "zh" : "\u5B83\u80FD\u8BA9\u4F60\u5B8C\u6210\u5E73\u65F6\u65E0\u6CD5\u505A\u5230\u7684\u75DB\u82E6\u6216\u5371\u9669\u52A8\u4F5C\u3002\u8FD8\u80FD\u5E2E\u52A9\u4F60\u66F4\u5FEB\u5730\u4ECE\u6CAE\u4E27\u6216\u6050\u60E7\u4E2D\u6062\u590D\u8FC7\u6765\u3002",
+    "en" : "Allows you to perform painful or dangerous actions you would otherwise not be able to do. It also helps you recover from being demoralized or frightened faster.",
+    "ja" : "\u666E\u6BB5\u6016\u304F\u3066\u3067\u304D\u306A\u3044\u30A2\u30AF\u30B7\u30E7\u30F3\u304C\u3001\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308B\u3002\u58EB\u6C17\u304C\u843D\u3061\u305F\u6642\u3084\u3001\u6050\u6016\u3092\u611F\u3058\u305F\u6642\u306E\u56DE\u5FA9\u304C\u65E9\u307E\u308B\u3002"
+  },
+  "BaseValue"   : 50.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 200.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "DefaultStatusIcon" : {
+    "FileName" : "CardData__Antler__UsageDurability-OverrideIcon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u4F4E\u52C7\u6C14",
+        "en" : "Low Courage",
+        "ja" : "\u52C7\u6C17\uFF08\u4F4E\uFF09"
+      },
+      "ValueRange" : {
+        "m_X" : 0,
+        "m_Y" : 25
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Fear",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fear__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6050\u60E7",
+              "en" : "Fear",
+              "ja" : "\u6050\u6016"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.5,
+            "y" : -0.5
+          },
+          "MinValueModifier" : {
+            "x" : 25.0,
+            "y" : 25.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4E2D\u7B49\u52C7\u6C14",
+        "en" : "Moderate Courage",
+        "ja" : "\u52C7\u6C17\uFF08\u4E2D\uFF09"
+      },
+      "ValueRange" : {
+        "m_X" : 26,
+        "m_Y" : 50
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Fear",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fear__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6050\u60E7",
+              "en" : "Fear",
+              "ja" : "\u6050\u6016"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u9AD8\u52C7\u6C14",
+        "en" : "High Courage",
+        "ja" : "\u52C7\u6C17\uFF08\u9AD8\uFF09"
+      },
+      "ValueRange" : {
+        "m_X" : 51,
+        "m_Y" : 75
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Fear",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fear__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6050\u60E7",
+              "en" : "Fear",
+              "ja" : "\u6050\u6016"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          },
+          "MinValueModifier" : {
+            "x" : -50.0,
+            "y" : -50.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u975E\u5E38\u9AD8\u52C7\u6C14",
+        "en" : "Very High Courage",
+        "ja" : "\u52C7\u6C17\uFF08\u6700\u5927\uFF09"
+      },
+      "ValueRange" : {
+        "m_X" : 76,
+        "m_Y" : 100
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Fear",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fear__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6050\u60E7",
+              "en" : "Fear",
+              "ja" : "\u6050\u6016"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          },
+          "MinValueModifier" : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u52C7\u6C14\u6781\u9AD8",
+        "en" : "Extreme Courage",
+        "ja" : "\u6975\u9650\u306E\u52C7\u6C17"
+      },
+      "ValueRange" : {
+        "m_X" : 101,
+        "m_Y" : 150
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Fear",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fear__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6050\u60E7",
+              "en" : "Fear",
+              "ja" : "\u6050\u6016"
+            }
+          },
+          "RateModifier" : {
+            "x" : -6.0,
+            "y" : -6.0
+          },
+          "MinValueModifier" : {
+            "x" : -200.0,
+            "y" : -200.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u65E0\u60E7",
+        "en" : "Fearless",
+        "ja" : "\u6050\u308C\u77E5\u3089\u305A"
+      },
+      "ValueRange" : {
+        "m_X" : 151,
+        "m_Y" : 200
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Fear",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fear__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6050\u60E7",
+              "en" : "Fear",
+              "ja" : "\u6050\u6016"
+            }
+          },
+          "RateModifier" : {
+            "x" : -8.0,
+            "y" : -8.0
+          },
+          "MinValueModifier" : {
+            "x" : -500.0,
+            "y" : -500.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "NotEnoughText"           : {
+    "zh" : "\u6211\u8FD8\u6CA1\u6709\u8DB3\u591F\u7684\u52C7\u6C14\u2026\u2026",
+    "en" : "I haven't mustered enough courage yet...",
+    "ja" : "\u52C7\u6C17\u304C\u8DB3\u308A\u306A\u3044\u30FB\u30FB\u30FB"
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Courage",
+  "icon"                    : "CardData__Antler__UsageDurability-OverrideIcon",
+  "name"                    : {
+    "zh" : "\u52C7\u6C14",
+    "en" : "Courage",
+    "ja" : "\u52C7\u6C17"
+  },
+  "min"                     : 0.0,
+  "max"                     : 200.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "MaidenCharm",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_MaidenCharm__CardImage",
+        "name"     : {
+          "zh" : "\u5C11\u5973\u6728\u96D5",
+          "en" : "Maiden Charm",
+          "ja" : "\u4E59\u5973\u306E\u30C1\u30E3\u30FC\u30E0"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BearCoat",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BearCoat__AlternateNames-0-Art-CardImage",
+        "name"     : {
+          "zh" : "\u718A\u76AE\u5927\u8863",
+          "en" : "Bear Coat",
+          "ja" : "\u30AF\u30DE\u306E\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BoarCoat",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BoarCoat__AlternateNames-0-Art-CardImage",
+        "name"     : {
+          "zh" : "\u91CE\u732A\u76AE\u5927\u8863",
+          "en" : "Boar Coat",
+          "ja" : "\u30A4\u30CE\u30B7\u30B7\u6BDB\u76AE\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothCoif",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothCoif__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u5934\u5DFE",
+          "en" : "Cloth Coif",
+          "ja" : "\u5E03\u88FD\u982D\u5DFE"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothDress",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothDress__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u88D9",
+          "en" : "Cloth Dress",
+          "ja" : "\u5E03\u88FD\u30C9\u30EC\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothShirt",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothShirt__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u886C\u886B",
+          "en" : "Cloth Shirt",
+          "ja" : "\u30B7\u30E3\u30C4\uFF08\u5E03\uFF09"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClothTrousers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ClothTrousers__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u88E4",
+          "en" : "Cloth Trousers",
+          "ja" : "\u5E03\u88FD\u30BA\u30DC\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "DeerCoat",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_DeerCoat__CardImage",
+        "name"     : {
+          "zh" : "\u9E7F\u76AE\u5927\u8863",
+          "en" : "Deer Coat",
+          "ja" : "\u9E7F\u6BDB\u76AE\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FurCoat",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_FurCoat__CardImage",
+        "name"     : {
+          "zh" : "\u6BDB\u76AE\u5927\u8863",
+          "en" : "Fur Coat",
+          "ja" : "\u6BDB\u76AE\u306E\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherBracers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherBracers__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u62A4\u8155",
+          "en" : "Leather Bracers",
+          "ja" : "\u9769\u306E\u30D6\u30EC\u30A4\u30B5\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherCoif",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherCoif__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u515C\u5E3D",
+          "en" : "Leather Coif",
+          "ja" : "\u9769\u88FD\u982D\u5DFE"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherCuirass_",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherCuirass___CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u80F8\u7532",
+          "en" : "Leather Cuirass",
+          "ja" : "\u9769\u306E\u30AD\u30E5\u30A4\u30E9\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherGloves",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherGloves__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u624B\u5957",
+          "en" : "Leather Gloves",
+          "ja" : "\u9769\u306E\u30B0\u30ED\u30FC\u30D6"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherGreaves",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherGreaves__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u62A4\u80EB",
+          "en" : "Leather Greaves",
+          "ja" : "\u9769\u306E\u811B\u5F53\u3066"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherHelmet",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherHelmet__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u5934\u76D4",
+          "en" : "Leather Helmet",
+          "ja" : "\u9769\u306E\u30D8\u30EB\u30E1\u30C3\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherShoes",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherShoes__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u978B",
+          "en" : "Leather Shoes",
+          "ja" : "\u9769\u9774"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherTrousers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherTrousers__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u88E4",
+          "en" : "Leather Trousers",
+          "ja" : "\u9769\u306E\u30BA\u30DC\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LeatherTunic",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_LeatherTunic__CardImage",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u957F\u888D",
+          "en" : "Leather Tunic",
+          "ja" : "\u9769\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MoontouchedCoat",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_MoontouchedCoat__CardImage",
+        "name"     : {
+          "zh" : "\u6708\u517D\u5927\u8863",
+          "en" : "Moontouched Coat",
+          "ja" : "\u6708\u89E6\u308C\u306E\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PrimevalWolfCoat",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_PrimevalWolfCoat__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u521D\u72FC\u5927\u8863",
+          "en" : "Primeval Wolf Coat",
+          "ja" : "\u592A\u53E4\u306E\u72FC\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WolfCoat",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_WolfCoat__CardImage",
+        "name"     : {
+          "zh" : "\u72FC\u76AE\u5927\u8863",
+          "en" : "Wolf Coat",
+          "ja" : "\u30AA\u30AA\u30AB\u30DF\u6BDB\u76AE\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u52C7\u6C14\u4E0E\u6218\u6597\u52A0\u6210\uFF08\u7EA2\u8272\uFF09",
+        "en" : "Passive Effect: Courage and Fighting bonus if Red",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACourage and Fighting bonus if Red"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Spirit_HagBargainFear",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__MeatHeartRaw__CardImage",
+        "name"     : {
+          "zh" : "\u6050\u60E7\u5951\u7EA6",
+          "en" : "Fear Bargain",
+          "ja" : "Fear Bargain"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMax Courage, Remove Fear, Removes Allertness",
+        "en" : "Passive Effect: Max Courage, Remove Fear, Removes Allertness",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMax Courage, Remove Fear, Removes Allertness"
+      },
+      "value"       : {
+        "x" : 100000.0,
+        "y" : 100000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BloodPaint",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 50.0,
+        "name" : {
+          "zh" : "\u8840\u6D82\u6599",
+          "en" : "Blood Paint",
+          "ja" : "\u8840\u5316\u7CA7"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8840\u6D82\u6599",
+        "en" : "Status Stage: Blood Paint",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8840\u5316\u7CA7"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Capsaicin",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 24.0,
+        "name" : {
+          "zh" : "\u8FA3\u6912\u7D20",
+          "en" : "Capsaicin",
+          "ja" : "\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u8FA3\u6912\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: High Capsaicin Levels",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u3044\u30AB\u30D7\u30B5\u30A4\u30B7\u30F3\u30EC\u30D9\u30EB"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GingerEffect",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u59DC\u6548\u679C",
+          "en" : "Ginger",
+          "ja" : "\u751F\u59DC"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u5242\u91CF",
+        "en" : "Status Stage: Small Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GingerEffect",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u59DC\u6548\u679C",
+          "en" : "Ginger",
+          "ja" : "\u751F\u59DC"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5242\u91CF",
+        "en" : "Status Stage: High Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MoonMaidenBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__MoonMaidenBlessing__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6708\u5973\u8D50\u798F",
+          "en" : "Moon Maiden Blessing",
+          "ja" : "\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F",
+        "en" : "Status Stage: Maiden Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MoonMaidenBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__MoonMaidenBlessing__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6708\u5973\u8D50\u798F",
+          "en" : "Moon Maiden Blessing",
+          "ja" : "\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F",
+        "en" : "Status Stage: Maiden Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MoonMaidenBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__MoonMaidenBlessing__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6708\u5973\u8D50\u798F",
+          "en" : "Moon Maiden Blessing",
+          "ja" : "\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F",
+        "en" : "Status Stage: Maiden Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MoonMaidenBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__MoonMaidenBlessing__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6708\u5973\u8D50\u798F",
+          "en" : "Moon Maiden Blessing",
+          "ja" : "\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F",
+        "en" : "Status Stage: Maiden Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"
+      },
+      "value"       : {
+        "x" : 30.0,
+        "y" : 30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MoonMaidenBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__MoonMaidenBlessing__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6708\u5973\u8D50\u798F",
+          "en" : "Moon Maiden Blessing",
+          "ja" : "\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F",
+        "en" : "Status Stage: Maiden Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"
+      },
+      "value"       : {
+        "x" : 40.0,
+        "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MoonMaidenBlessing",
+        "type" : "GameStat",
+        "icon" : "GameStat__MoonMaidenBlessing__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6708\u5973\u8D50\u798F",
+          "en" : "Moon Maiden Blessing",
+          "ja" : "\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C11\u5973\u8D50\u798F",
+        "en" : "Status Stage: Maiden Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E59\u5973\u306E\u52A0\u8B77"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 30.0,
+        "y" : 30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 40.0,
+        "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 60.0,
+        "y" : 60.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Derealization",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u5931\u5B9E\u75C7",
+          "en" : "Derealization",
+          "ja" : "\u975E\u73FE\u5B9F\u5316"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u73B0\u5B9E\u611F\u4E27\u5931",
+        "en" : "Status Stage: Derealization",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u975E\u73FE\u5B9F\u5316"
+      },
+      "value"       : {
+        "x" : 1000.0,
+        "y" : 1000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Derealization",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u5931\u5B9E\u75C7",
+          "en" : "Derealization",
+          "ja" : "\u975E\u73FE\u5B9F\u5316"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u73B0\u5B9E\u611F\u4E27\u5931",
+        "en" : "Status Stage: Derealization",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u975E\u73FE\u5B9F\u5316"
+      },
+      "value"       : {
+        "x" : 2000.0,
+        "y" : 2000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Derealization",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u5931\u5B9E\u75C7",
+          "en" : "Derealization",
+          "ja" : "\u975E\u73FE\u5B9F\u5316"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u73B0\u5B9E\u611F\u4E27\u5931",
+        "en" : "Status Stage: Derealization",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u975E\u73FE\u5B9F\u5316"
+      },
+      "value"       : {
+        "x" : 3000.0,
+        "y" : 3000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Mania",
+        "type" : "GameStat",
+        "icon" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u72C2\u8E81",
+          "en" : "Mania",
+          "ja" : "\u30BD\u30A6\u72B6\u614B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5EA6\u72C2\u70ED",
+        "en" : "Status Stage: Hypomanic",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30B1\u30A4\u30BD\u30A6\u75C5"
+      },
+      "value"       : {
+        "x" : 1000.0,
+        "y" : 1000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Mania",
+        "type" : "GameStat",
+        "icon" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u72C2\u8E81",
+          "en" : "Mania",
+          "ja" : "\u30BD\u30A6\u72B6\u614B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u72C2\u70ED",
+        "en" : "Status Stage: Manic",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30BD\u30A6\u72B6\u614B"
+      },
+      "value"       : {
+        "x" : 2000.0,
+        "y" : 2000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pain",
+        "type" : "GameStat",
+        "icon" : "CardData__ClothSmall__SpecialDurability3-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 500.0,
+        "name" : {
+          "zh" : "\u75BC\u75DB",
+          "en" : "Pain",
+          "ja" : "\u75DB\u307F"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6709\u70B9\u75BC",
+        "en" : "Status Stage: Minor Pain",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u3057\u75DB\u3044"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pain",
+        "type" : "GameStat",
+        "icon" : "CardData__ClothSmall__SpecialDurability3-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 500.0,
+        "name" : {
+          "zh" : "\u75BC\u75DB",
+          "en" : "Pain",
+          "ja" : "\u75DB\u307F"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u75BC\u75DB",
+        "en" : "Status Stage: Moderate Pain",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u307E\u3042\u307E\u3042\u75DB\u3044"
+      },
+      "value"       : {
+        "x" : 40.0,
+        "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pain",
+        "type" : "GameStat",
+        "icon" : "CardData__ClothSmall__SpecialDurability3-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 500.0,
+        "name" : {
+          "zh" : "\u75BC\u75DB",
+          "en" : "Pain",
+          "ja" : "\u75DB\u307F"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5267\u70C8\u75BC\u75DB",
+        "en" : "Status Stage: Acute Pain",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u75DB\u3044"
+      },
+      "value"       : {
+        "x" : 60.0,
+        "y" : 60.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pain",
+        "type" : "GameStat",
+        "icon" : "CardData__ClothSmall__SpecialDurability3-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 500.0,
+        "name" : {
+          "zh" : "\u75BC\u75DB",
+          "en" : "Pain",
+          "ja" : "\u75DB\u307F"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u5EA6\u75BC\u75DB",
+        "en" : "Status Stage: Extreme Pain",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6FC0\u75DB"
+      },
+      "value"       : {
+        "x" : 80.0,
+        "y" : 80.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "AlcoholEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__AlcoholEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 70.0,
+        "name" : {
+          "zh" : "\u9152\u7CBE",
+          "en" : "Alcohol",
+          "ja" : "\u9152"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5FAE\u91BA",
+        "en" : "Status Stage: Tipsy",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u307B\u308D\u9154\u3044"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "AlcoholEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__AlcoholEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 70.0,
+        "name" : {
+          "zh" : "\u9152\u7CBE",
+          "en" : "Alcohol",
+          "ja" : "\u9152"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9189\u9152",
+        "en" : "Status Stage: Drunk",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9154\u3063\u305F"
+      },
+      "value"       : {
+        "x" : 40.0,
+        "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "AlcoholEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__AlcoholEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 70.0,
+        "name" : {
+          "zh" : "\u9152\u7CBE",
+          "en" : "Alcohol",
+          "ja" : "\u9152"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5927\u9189",
+        "en" : "Status Stage: Horribly Drunk",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u98F2\u307F\u3059\u304E\u3061\u3083\u3063\u305F"
+      },
+      "value"       : {
+        "x" : 80.0,
+        "y" : 80.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_4_4_Brave",
+        "type" : "CharacterPerk",
+        "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+        "name" : {
+          "zh" : "\u52C7\u6562",
+          "en" : "Brave",
+          "ja" : "\u52C7\u6562"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 10000.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_4_4_Fainthearted",
+        "type" : "CharacterPerk",
+        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "name" : {
+          "zh" : "\u80C6\u5C0F",
+          "en" : "Fainthearted",
+          "ja" : "\u8C46\u8150\u30E1\u30F3\u30BF\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -10000.0,
+        "y" : -10000.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "Spirit_HagBargainFear",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__MeatHeartRaw__CardImage",
+        "name"     : {
+          "zh" : "\u6050\u60E7\u5951\u7EA6",
+          "en" : "Fear Bargain",
+          "ja" : "Fear Bargain"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMax Courage, Remove Fear, Removes Allertness",
+        "en" : "Passive Effect: Max Courage, Remove Fear, Removes Allertness",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMax Courage, Remove Fear, Removes Allertness"
+      },
+      "value"       : {
+        "x" : 1000.0,
+        "y" : 1000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_4_4_Brave",
+        "type" : "CharacterPerk",
+        "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+        "name" : {
+          "zh" : "\u52C7\u6562",
+          "en" : "Brave",
+          "ja" : "\u52C7\u6562"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "HealingOintment",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_HealingOintment__CardImage",
+        "name"     : {
+          "zh" : "\u6CBB\u7597\u836F\u818F",
+          "en" : "Healing Ointment",
+          "ja" : "\u56DE\u5FA9\u30DA\u30FC\u30B9\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F",
+        "en" : "Action: Apply to Wound",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HealingSalve",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_HealingSalve__CardImage",
+        "name"     : {
+          "zh" : "\u6CBB\u6108\u818F",
+          "en" : "Healing Salve",
+          "ja" : "\u56DE\u5FA9\u30D0\u30FC\u30E0"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F",
+        "en" : "Action: Apply to Wound",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PineSalve",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_HealingSalve__CardImage",
+        "name"     : {
+          "zh" : "\u677E\u8102\u818F",
+          "en" : "Pine Salve",
+          "ja" : "\u677E\u8102\u30D0\u30FC\u30E0"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F",
+        "en" : "Action: Apply to Wound",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SoothingOintment",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_SoothingOintment__CardImage",
+        "name"     : {
+          "zh" : "\u6B62\u75DB\u818F",
+          "en" : "Soothing Ointment",
+          "ja" : "\u93AE\u75DB\u5264"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F",
+        "en" : "Action: Apply to Wound",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SoothingSalve",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_BugRepellentSalve__CardImage",
+        "name"     : {
+          "zh" : "\u8212\u7F13\u818F",
+          "en" : "Soothing Salve",
+          "ja" : "\u93AE\u75DB\u30D0\u30FC\u30E0"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F",
+        "en" : "Action: Apply to Wound",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Abrasion",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Abrasion__CardImage",
+        "name"     : {
+          "zh" : "\u64E6\u4F24",
+          "en" : "Abrasion",
+          "ja" : "\u64E6\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Abrasion",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Abrasion__CardImage",
+        "name"     : {
+          "zh" : "\u64E6\u4F24",
+          "en" : "Abrasion",
+          "ja" : "\u64E6\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Abrasion",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Abrasion__CardImage",
+        "name"     : {
+          "zh" : "\u64E6\u4F24",
+          "en" : "Abrasion",
+          "ja" : "\u64E6\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7F1D\u5408",
+        "en" : "Action: Stitch",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7E2B\u3046"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 1000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationLStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u88C2\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationLStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u88C2\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationLStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u88C2\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7F1D\u5408",
+        "en" : "Action: Stitch",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7E2B\u3046"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 1000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationRStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u53F3\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationRStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u53F3\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ArmLacerationRStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u53F3\u81C2\u6495\u88C2\u4F24",
+          "en" : "Arm Laceration",
+          "ja" : "\u8155\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_BearBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u718A\u54AC\u4F24",
+          "en" : "Bear Bite",
+          "ja" : "\u718A\u306B\u3088\u308B\u54AC\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_BearBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u718A\u54AC\u4F24",
+          "en" : "Bear Bite",
+          "ja" : "\u718A\u306B\u3088\u308B\u54AC\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6253\u626B",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_BearBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u718A\u54AC\u4F24",
+          "en" : "Bear Bite",
+          "ja" : "\u718A\u306B\u3088\u308B\u54AC\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6253\u626B",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_BearClawmarks",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearClawmarks__CardImage",
+        "name"     : {
+          "zh" : "\u718A\u722A\u75D5",
+          "en" : "Bear Clawmarks",
+          "ja" : "\u718A\u306E\u722A\u75D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_BearClawmarks",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearClawmarks__CardImage",
+        "name"     : {
+          "zh" : "\u718A\u722A\u75D5",
+          "en" : "Bear Clawmarks",
+          "ja" : "\u718A\u306E\u722A\u75D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6253\u626B",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_BearClawmarks",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearClawmarks__CardImage",
+        "name"     : {
+          "zh" : "\u718A\u722A\u75D5",
+          "en" : "Bear Clawmarks",
+          "ja" : "\u718A\u306E\u722A\u75D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_BiteWound",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BiteWound__CardImage",
+        "name"     : {
+          "zh" : "\u54AC\u4F24",
+          "en" : "Bite Wound",
+          "ja" : "\u565B\u307E\u308C\u305F\u8DE1"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_BiteWound",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BiteWound__CardImage",
+        "name"     : {
+          "zh" : "\u54AC\u4F24",
+          "en" : "Bite Wound",
+          "ja" : "\u565B\u307E\u308C\u305F\u8DE1"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_BiteWound",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BiteWound__CardImage",
+        "name"     : {
+          "zh" : "\u54AC\u4F24",
+          "en" : "Bite Wound",
+          "ja" : "\u565B\u307E\u308C\u305F\u8DE1"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Bruise",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Bruise__CardImage",
+        "name"     : {
+          "zh" : "\u6DE4\u9752",
+          "en" : "Bruise",
+          "ja" : "\u30A2\u30B6"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Bruise",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Bruise__CardImage",
+        "name"     : {
+          "zh" : "\u6DE4\u9752",
+          "en" : "Bruise",
+          "ja" : "\u30A2\u30B6"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Bruise",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Bruise__CardImage",
+        "name"     : {
+          "zh" : "\u6DE4\u9752",
+          "en" : "Bruise",
+          "ja" : "\u30A2\u30B6"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ClawMarks",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearClawmarks__CardImage",
+        "name"     : {
+          "zh" : "\u6293\u4F24",
+          "en" : "Claw Marks",
+          "ja" : "\u5F15\u3063\u63BB\u304B\u308C\u305F\u8DE1"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ClawMarks",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearClawmarks__CardImage",
+        "name"     : {
+          "zh" : "\u6293\u4F24",
+          "en" : "Claw Marks",
+          "ja" : "\u5F15\u3063\u63BB\u304B\u308C\u305F\u8DE1"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ClawMarks",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearClawmarks__CardImage",
+        "name"     : {
+          "zh" : "\u6293\u4F24",
+          "en" : "Claw Marks",
+          "ja" : "\u5F15\u3063\u63BB\u304B\u308C\u305F\u8DE1"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_FireBurn",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_FireBurn__CardImage",
+        "name"     : {
+          "zh" : "\u70E7\u4F24",
+          "en" : "Fire Burn",
+          "ja" : "\u706B\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_FireBurn",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_FireBurn__CardImage",
+        "name"     : {
+          "zh" : "\u70E7\u4F24",
+          "en" : "Fire Burn",
+          "ja" : "\u706B\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_FireBurn",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_FireBurn__CardImage",
+        "name"     : {
+          "zh" : "\u70E7\u4F24",
+          "en" : "Fire Burn",
+          "ja" : "\u706B\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ForestBeastBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u68EE\u6797\u731B\u517D\u54AC\u4F24",
+          "en" : "Forest Beast Bite",
+          "ja" : "\u68EE\u306E\u7363\u306B\u3088\u308B\u54AC\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6253\u626B",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ForestBeastBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u68EE\u6797\u731B\u517D\u54AC\u4F24",
+          "en" : "Forest Beast Bite",
+          "ja" : "\u68EE\u306E\u7363\u306B\u3088\u308B\u54AC\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6253\u626B",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ForestBeastBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u68EE\u6797\u731B\u517D\u54AC\u4F24",
+          "en" : "Forest Beast Bite",
+          "ja" : "\u68EE\u306E\u7363\u306B\u3088\u308B\u54AC\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6253\u626B",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ForestBeastClawmarks",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearClawmarks__CardImage",
+        "name"     : {
+          "zh" : "\u68EE\u6797\u731B\u517D\u722A\u75D5",
+          "en" : "Forest Beast Clawmarks",
+          "ja" : "\u68EE\u306E\u7363\u306B\u3088\u308B\u722A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6253\u626B",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ForestBeastClawmarks",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearClawmarks__CardImage",
+        "name"     : {
+          "zh" : "\u68EE\u6797\u731B\u517D\u722A\u75D5",
+          "en" : "Forest Beast Clawmarks",
+          "ja" : "\u68EE\u306E\u7363\u306B\u3088\u308B\u722A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6253\u626B",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_ForestBeastClawmarks",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearClawmarks__CardImage",
+        "name"     : {
+          "zh" : "\u68EE\u6797\u731B\u517D\u722A\u75D5",
+          "en" : "Forest Beast Clawmarks",
+          "ja" : "\u68EE\u306E\u7363\u306B\u3088\u308B\u722A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6253\u626B",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Frostbite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_FireBurn__CardImage",
+        "name"     : {
+          "zh" : "\u51BB\u4F24",
+          "en" : "Frostbite",
+          "ja" : "\u51CD\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Frostbite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_FireBurn__CardImage",
+        "name"     : {
+          "zh" : "\u51BB\u4F24",
+          "en" : "Frostbite",
+          "ja" : "\u51CD\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Frostbite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_FireBurn__CardImage",
+        "name"     : {
+          "zh" : "\u51BB\u4F24",
+          "en" : "Frostbite",
+          "ja" : "\u51CD\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Frostnip",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Frostnip__CardImage",
+        "name"     : {
+          "zh" : "\u51BB\u75AE",
+          "en" : "Frostnip",
+          "ja" : "\u51CD\u7621"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Frostnip",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Frostnip__CardImage",
+        "name"     : {
+          "zh" : "\u51BB\u75AE",
+          "en" : "Frostnip",
+          "ja" : "\u51CD\u7621"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Frostnip",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Frostnip__CardImage",
+        "name"     : {
+          "zh" : "\u51BB\u75AE",
+          "en" : "Frostnip",
+          "ja" : "\u51CD\u7621"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7F1D\u5408",
+        "en" : "Action: Stitch",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7E2B\u3046"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 1000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationLStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationLStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationLStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7F1D\u5408",
+        "en" : "Action: Stitch",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7E2B\u3046"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 1000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationRStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationRStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationRStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_MinorLaceration",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_MinorLaceration__CardImage",
+        "name"     : {
+          "zh" : "\u8F7B\u5FAE\u6495\u88C2\u4F24",
+          "en" : "Minor Laceration",
+          "ja" : "\u8EFD\u3044\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_MinorLaceration",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_MinorLaceration__CardImage",
+        "name"     : {
+          "zh" : "\u8F7B\u5FAE\u6495\u88C2\u4F24",
+          "en" : "Minor Laceration",
+          "ja" : "\u8EFD\u3044\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_MinorLaceration",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_MinorLaceration__CardImage",
+        "name"     : {
+          "zh" : "\u8F7B\u5FAE\u6495\u88C2\u4F24",
+          "en" : "Minor Laceration",
+          "ja" : "\u8EFD\u3044\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_MinorLaceration",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_MinorLaceration__CardImage",
+        "name"     : {
+          "zh" : "\u8F7B\u5FAE\u6495\u88C2\u4F24",
+          "en" : "Minor Laceration",
+          "ja" : "\u8EFD\u3044\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7F1D\u5408",
+        "en" : "Action: Stitch",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7E2B\u3046"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 1000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_MinorLacerationStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_MinorLacerationStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u8F7B\u5FAE\u6495\u88C2\u4F24",
+          "en" : "Minor Laceration",
+          "ja" : "\u8EFD\u3044\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_MinorLacerationStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_MinorLacerationStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u8F7B\u5FAE\u6495\u88C2\u4F24",
+          "en" : "Minor Laceration",
+          "ja" : "\u8EFD\u3044\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_MinorLacerationStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_MinorLacerationStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u8F7B\u5FAE\u6495\u88C2\u4F24",
+          "en" : "Minor Laceration",
+          "ja" : "\u8EFD\u3044\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_MudlingSpit",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "\u6CE5\u6D46\u55B7\u5410",
+          "en" : "Mudling Spit",
+          "ja" : "\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7247\u4ED8\u3051\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_MudlingSpit",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "\u6CE5\u6D46\u55B7\u5410",
+          "en" : "Mudling Spit",
+          "ja" : "\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_MudlingSpit",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "\u6CE5\u6D46\u55B7\u5410",
+          "en" : "Mudling Spit",
+          "ja" : "\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Puncture",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Puncture__CardImage",
+        "name"     : {
+          "zh" : "\u7A7F\u523A\u4F24",
+          "en" : "Puncture Wound",
+          "ja" : "\u523A\u3057\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Puncture",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Puncture__CardImage",
+        "name"     : {
+          "zh" : "\u7A7F\u523A\u4F24",
+          "en" : "Puncture Wound",
+          "ja" : "\u523A\u3057\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_Puncture",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_Puncture__CardImage",
+        "name"     : {
+          "zh" : "\u7A7F\u523A\u4F24",
+          "en" : "Puncture Wound",
+          "ja" : "\u523A\u3057\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_WolfBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u72FC\u54AC\u4F24",
+          "en" : "Wolf Bite",
+          "ja" : "\u72FC\u306E\u565B\u307F\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_WolfBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u72FC\u54AC\u4F24",
+          "en" : "Wolf Bite",
+          "ja" : "\u72FC\u306E\u565B\u307F\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_WolfBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u72FC\u54AC\u4F24",
+          "en" : "Wolf Bite",
+          "ja" : "\u72FC\u306E\u565B\u307F\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    }
+  ],
+  "_uuid"                   : "3d37dbda5252dc14cb772b4c5e739916"
+}

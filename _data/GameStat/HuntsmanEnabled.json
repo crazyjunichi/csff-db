@@ -1,1 +1,181 @@
-{"GameName":{"zh":"\u730E\u4EBA\u4EFB\u52A1\u542F\u7528","en":"HuntsmanEnabled","ja":"HuntsmanEnabled"},"Description":{"zh":"Used to turn on the Huntsman Quest line and disable the normal Quest line","en":"Used to turn on the Huntsman Quest line and disable the normal Quest line","ja":"Used to turn on the Huntsman Quest line and disable the normal Quest line"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"HuntsmanEnabled","name":{"zh":"\u730E\u4EBA\u4EFB\u52A1\u542F\u7528","en":"HuntsmanEnabled","ja":"HuntsmanEnabled"},"min":0.0,"max":1.0,"_modifierValues":[{"source":{"key":"Huntsman","type":"PlayerCharacter","name":{"zh":"\u730E\u4EBA","en":"Huntsman","ja":"\u30CF\u30F3\u30C8\u30DE\u30F3"}},"description":{"zh":"\u521D\u59CB\u89D2\u8272","en":"Player Character","ja":"\u30D7\u30EC\u30A4\u30E4\u30FC\u30AD\u30E3\u30E9"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Witch","type":"PlayerCharacter","name":{"zh":"\u5973\u5DEB","en":"Witch","ja":"\u9B54\u5973"}},"description":{"zh":"\u521D\u59CB\u89D2\u8272","en":"Player Character","ja":"\u30D7\u30EC\u30A4\u30E4\u30FC\u30AD\u30E3\u30E9"},"value":{"x":1.0,"y":1.0}}],"_requires":[{"source":{"key":"SpiritShrine_Moon_MoonStone","type":"CardData","CardType":2,"icon":"d8678688837b857d","name":{"zh":"\u6708\u77F3","en":"Moonstone","ja":"\u6708\u9577\u77F3"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4EA4\u6D41","en":"Action: Commune","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4EA4\u4FE1\u3059\u308B"}},{"source":{"key":"Tgr_Apparitions","type":"SelfTriggeredAction","name":{"zh":"Tgr_Apparitions","en":"Tgr_Apparitions","ja":"Tgr_Apparitions"}},"description":{"zh":"Tgr_Apparitions","en":"Tgr_Apparitions","ja":"Tgr_Apparitions"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_MoonMaidenDream","type":"SelfTriggeredAction","name":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"}},"description":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"},"value":{"x":1.0,"y":1.0}}],"_triggers":[{"source":{"key":"Tgr_Apparitions","type":"SelfTriggeredAction","name":{"zh":"Tgr_Apparitions","en":"Tgr_Apparitions","ja":"Tgr_Apparitions"}},"description":{"zh":"Tgr_Apparitions","en":"Tgr_Apparitions","ja":"Tgr_Apparitions"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_MoonMaidenDream","type":"SelfTriggeredAction","name":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"}},"description":{"zh":"Tgr_MoonMaidenDream","en":"Tgr_MoonMaidenDream","ja":"Tgr_MoonMaidenDream"},"value":{"x":1.0,"y":1.0}}],"_uuid":"b4fd0ad5c6f05c74e8333f68a10153a9"}
+
+{
+  "GameName" : {
+    "zh" : "\u730E\u4EBA\u4EFB\u52A1\u542F\u7528",
+    "en" : "HuntsmanEnabled",
+    "ja" : "HuntsmanEnabled"
+  },
+  "Description" : {
+    "zh" : "Used to turn on the Huntsman Quest line and disable the normal Quest line",
+    "en" : "Used to turn on the Huntsman Quest line and disable the normal Quest line",
+    "ja" : "Used to turn on the Huntsman Quest line and disable the normal Quest line"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "HuntsmanEnabled",
+  "name"                    : {
+    "zh" : "\u730E\u4EBA\u4EFB\u52A1\u542F\u7528",
+    "en" : "HuntsmanEnabled",
+    "ja" : "HuntsmanEnabled"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Huntsman",
+        "type" : "PlayerCharacter",
+        "name" : {
+          "zh" : "\u730E\u4EBA",
+          "en" : "Huntsman",
+          "ja" : "\u30CF\u30F3\u30C8\u30DE\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u521D\u59CB\u89D2\u8272",
+        "en" : "Player Character",
+        "ja" : "\u30D7\u30EC\u30A4\u30E4\u30FC\u30AD\u30E3\u30E9"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Witch",
+        "type" : "PlayerCharacter",
+        "name" : {
+          "zh" : "\u5973\u5DEB",
+          "en" : "Witch",
+          "ja" : "\u9B54\u5973"
+        }
+      },
+      "description" : {
+        "zh" : "\u521D\u59CB\u89D2\u8272",
+        "en" : "Player Character",
+        "ja" : "\u30D7\u30EC\u30A4\u30E4\u30FC\u30AD\u30E3\u30E9"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "SpiritShrine_Moon_MoonStone",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Event_HuntsmanDreamVictory__CardImage",
+        "name"     : {
+          "zh" : "\u6708\u77F3",
+          "en" : "Moonstone",
+          "ja" : "\u6708\u9577\u77F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4EA4\u6D41",
+        "en" : "Action: Commune",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4EA4\u4FE1\u3059\u308B"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Apparitions",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Apparitions",
+          "en" : "Tgr_Apparitions",
+          "ja" : "Tgr_Apparitions"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Apparitions",
+        "en" : "Tgr_Apparitions",
+        "ja" : "Tgr_Apparitions"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_MoonMaidenDream",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_MoonMaidenDream",
+          "en" : "Tgr_MoonMaidenDream",
+          "ja" : "Tgr_MoonMaidenDream"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_MoonMaidenDream",
+        "en" : "Tgr_MoonMaidenDream",
+        "ja" : "Tgr_MoonMaidenDream"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_Apparitions",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Apparitions",
+          "en" : "Tgr_Apparitions",
+          "ja" : "Tgr_Apparitions"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Apparitions",
+        "en" : "Tgr_Apparitions",
+        "ja" : "Tgr_Apparitions"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_MoonMaidenDream",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_MoonMaidenDream",
+          "en" : "Tgr_MoonMaidenDream",
+          "ja" : "Tgr_MoonMaidenDream"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_MoonMaidenDream",
+        "en" : "Tgr_MoonMaidenDream",
+        "ja" : "Tgr_MoonMaidenDream"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_uuid"                   : "b4fd0ad5c6f05c74e8333f68a10153a9"
+}

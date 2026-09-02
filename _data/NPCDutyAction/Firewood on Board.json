@@ -1,1 +1,31 @@
-{"Conditions":{"PlayerUsesCard":0,"RequiredCardsOnBoard":[{"key":"Firewood","type":"CardData","CardType":0,"icon":"ab2eec4efebb3068","name":{"zh":"\u67F4\u706B","en":"Firewood","ja":"\u85AA"}}]},"OnTrue":{"Outcome":1,"MoveToStep":5},"key":"Firewood on Board","type":"NPCDutyAction","name":{"zh":"Firewood on Board","en":"Firewood on Board","ja":"Firewood on Board"},"actionType":"TakeSimpleDecisionDutyAction"}
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsOnBoard" : [
+      {
+        "key" : "Firewood",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Firewood__CardImage",
+        "name"     : {
+          "zh" : "\u67F4\u706B",
+          "en" : "Firewood",
+          "ja" : "\u85AA"
+        }
+      }
+    ]
+  },
+  "OnTrue"     : {
+    "Outcome" : 1,
+    "MoveToStep" : 5
+  },
+  "key"        : "Firewood on Board",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "Firewood on Board",
+    "en" : "Firewood on Board",
+    "ja" : "Firewood on Board"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

@@ -1,1 +1,69 @@
-{"DutyName":{"zh":"\u51FB\u9F13","en":"Drum Playing","ja":"Drum Playing"},"DutySummary":{"zh":"Playing a drum.","en":"Playing a drum.","ja":"Playing a drum."},"DutyTags":[{"key":"DutyTag_Creative","type":"NPCDutyTag","name":{"zh":"\u521B\u9020","en":"Creative","ja":"Creative"}}],"MaxPerformPerDay":0,"DutyConditions":{"NotInBackground":true,"PlayerUsesCard":0},"DutyExecutionOptions":0,"ActionSequence":[{"key":"Has Flute","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Has Flute","en":"Has Flute","ja":"Has Flute"}},{"key":"Start Playing Drum","type":"ChangeNPCStatDutyAction","name":{"zh":"Start Playing Drum","en":"Start Playing Drum","ja":"Start Playing Drum"}},{"key":"Play Drum","type":"AffectItemsDutyAction","name":{"zh":"Play Drum","en":"Play Drum","ja":"Play Drum"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_DrumPlaying","name":{"zh":"\u51FB\u9F13","en":"Drum Playing","ja":"Drum Playing"},"_uuid":"5151c2ac14ff32f4bac502a273971de3"}
+
+{
+  "DutyName" : {
+    "zh" : "\u51FB\u9F13",
+    "en" : "Drum Playing",
+    "ja" : "Drum Playing"
+  },
+  "DutySummary" : {
+    "zh" : "Playing a drum.",
+    "en" : "Playing a drum.",
+    "ja" : "Playing a drum."
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Creative",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u521B\u9020",
+        "en" : "Creative",
+        "ja" : "Creative"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "NotInBackground" : true,
+    "PlayerUsesCard"  : 0
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Has Flute",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Has Flute",
+        "en" : "Has Flute",
+        "ja" : "Has Flute"
+      }
+    },
+    {
+      "key" : "Start Playing Drum",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Start Playing Drum",
+        "en" : "Start Playing Drum",
+        "ja" : "Start Playing Drum"
+      }
+    },
+    {
+      "key" : "Play Drum",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Play Drum",
+        "en" : "Play Drum",
+        "ja" : "Play Drum"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_DrumPlaying",
+  "name"                 : {
+    "zh" : "\u51FB\u9F13",
+    "en" : "Drum Playing",
+    "ja" : "Drum Playing"
+  },
+  "_uuid"                : "5151c2ac14ff32f4bac502a273971de3"
+}

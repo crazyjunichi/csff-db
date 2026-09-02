@@ -1,1 +1,90 @@
-{"SceneLines":[{"Line":{"zh":"\u4F60\u63A5\u8FD1\u4E86\u72FC\u3002","en":"You approach the Wolf. ","ja":"\u30AA\u30AA\u30AB\u30DF\u306B\u8FD1\u3065\u304F\u30FB\u30FB\u30FB"},"ShowContinueButton":0,"PossibleAnswers":[{"Answer":{"zh":"\u4E0D\u62DB\u60F9\u72FC\u3002","en":"Leave the Wolf alone. ","ja":"\u30AA\u30AA\u30AB\u30DF\u3092\u653E\u3063\u3066\u304A\u304F"},"NewNextLine":{"NextStep":2}},{"Answer":{"zh":"\u653B\u51FB\u72FC","en":"Attack the Wolf","ja":"\u30AA\u30AA\u30AB\u30DF\u3092\u653B\u6483\u3059\u308B"},"NewNextLine":{"NextStep":2},"ActionToPerform":{"StatModifications":[{"Stat":{"key":"AwarenessTempBonus","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":1000.0,"name":{"zh":"\u611F\u77E5\u4E34\u65F6\u52A0\u6210","en":"Awareness Temp Bonus","ja":"Awareness Temp Bonus"}},"ValueModifier":{"x":1000.0,"y":1000.0}}],"StartCombatEncounter":{"key":"Combat_EncounterWolf","type":"Encounter","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"SkipEncounterEvent":true,"OverrideEncounterNPC":true,"EncounterNPC":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"Ticks":0,"Miniticks":0}}],"key":"WolfIntro","type":"dialog"}],"key":"Dialogue_AgentWolf","type":"DialogScene","name":{"zh":"Dialogue_AgentWolf","en":"Dialogue_AgentWolf","ja":"Dialogue_AgentWolf"}}
+
+{
+  "SceneLines" : [
+    {
+      "Line" : {
+        "zh" : "\u4F60\u63A5\u8FD1\u4E86\u72FC\u3002",
+        "en" : "You approach the Wolf. ",
+        "ja" : "\u30AA\u30AA\u30AB\u30DF\u306B\u8FD1\u3065\u304F\u30FB\u30FB\u30FB"
+      },
+      "ShowContinueButton" : 0,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "\u4E0D\u62DB\u60F9\u72FC\u3002",
+            "en" : "Leave the Wolf alone. ",
+            "ja" : "\u30AA\u30AA\u30AB\u30DF\u3092\u653E\u3063\u3066\u304A\u304F"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "\u653B\u51FB\u72FC",
+            "en" : "Attack the Wolf",
+            "ja" : "\u30AA\u30AA\u30AB\u30DF\u3092\u653B\u6483\u3059\u308B"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          },
+          "ActionToPerform" : {
+            "StatModifications" : [
+              {
+                "Stat" : {
+                  "key" : "AwarenessTempBonus",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 1000.0,
+                  "name" : {
+                    "zh" : "\u611F\u77E5\u4E34\u65F6\u52A0\u6210",
+                    "en" : "Awareness Temp Bonus",
+                    "ja" : "Awareness Temp Bonus"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : 1000.0,
+                  "y" : 1000.0
+                }
+              }
+            ],
+            "StartCombatEncounter" : {
+              "key" : "Combat_EncounterWolf",
+              "type" : "Encounter",
+              "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+              "name" : {
+                "zh" : "\u72FC",
+                "en" : "Wolf",
+                "ja" : "\u72FC"
+              }
+            },
+            "SkipEncounterEvent"   : true,
+            "OverrideEncounterNPC" : true,
+            "EncounterNPC"         : {
+              "key" : "Agent_Wolf",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+              "name" : {
+                "zh" : "\u72FC",
+                "en" : "Wolf",
+                "ja" : "\u72FC"
+              }
+            },
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        }
+      ],
+      "key"                : "WolfIntro",
+      "type"               : "dialog"
+    }
+  ],
+  "key"        : "Dialogue_AgentWolf",
+  "type"       : "DialogScene",
+  "name"       : {
+    "zh" : "Dialogue_AgentWolf",
+    "en" : "Dialogue_AgentWolf",
+    "ja" : "Dialogue_AgentWolf"
+  }
+}

@@ -1,1 +1,843 @@
-{"GameName":{"zh":"\u7F16\u7EC7","en":"Weaving","ja":"\u7E54\u7269"},"Description":{"zh":"\u63D0\u5347\u7F16\u5236\u54C1\u7684\u54C1\u8D28\uFF0C\u8B6C\u5982\u7BEE\u7BD3\u548C\u7B80\u6613\u8863\u7269\u3002","en":"Increases the quality of your weaving crafts, such as baskets and improvised plantwear.","ja":"\u30AB\u30B4\u3084\u690D\u7269\u8863\u88C5\u306A\u3069\u3001\u7E54\u7269\u306E\u30AF\u30AA\u30EA\u30C6\u30A3\u304C\u9AD8\u304F\u306A\u308B\u3002"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":150.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":0.3113,"g":0.1043,"b":0.1079,"a":0.0},"DefaultStatusIcon":{"FileName":"6efedb45314984c9"},"UsesNovelty":true,"NoveltyCooldownDuration":672,"StalenessMultiplier":0.75,"MaxStalenessStack":5,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"Skill_Weaving","icon":"6efedb45314984c9","name":{"zh":"\u7F16\u7EC7","en":"Weaving","ja":"\u7E54\u7269"},"min":0.0,"max":150.0,"_modifierValues":[{"source":{"key":"Bp_BarkSandals","type":"CardData","CardType":7,"icon":"d539adb54e2e8bc7","name":{"zh":"\u6811\u76AE\u51C9\u978B","en":"Bark Sandals","ja":"\u6A39\u76AE\u306E\u30B5\u30F3\u30C0\u30EB"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_Basket","type":"CardData","CardType":7,"icon":"f19c8051c83dca72","name":{"zh":"\u7F16\u7EC7\u7BD3","en":"Basket","ja":"\u30AB\u30B4"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_ClothLarge","type":"CardData","CardType":7,"icon":"f487b3c3f47e8f09","name":{"zh":"\u5927\u5757\u7684\u5E03","en":"Large cloth","ja":"\u5927\u304D\u306A\u5E03"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":4.0,"y":4.0}},{"source":{"key":"Bp_ClothLargeTreadle","type":"CardData","CardType":7,"icon":"f487b3c3f47e8f09","name":{"zh":"\u5927\u5757\u7684\u5E03","en":"Large cloth","ja":"Large cloth"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":4.0,"y":4.0}},{"source":{"key":"Bp_ClothMedium","type":"CardData","CardType":7,"icon":"4328a9386e6759f2","name":{"zh":"\u5E03","en":"Cloth","ja":"\u5E03"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_ClothMediumTreadle","type":"CardData","CardType":7,"icon":"4328a9386e6759f2","name":{"zh":"\u5E03","en":"Cloth","ja":"Cloth"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_ClothSmall","type":"CardData","CardType":7,"icon":"d31b837e23834363","name":{"zh":"\u5E03\u7247","en":"Small Cloth","ja":"\u5C0F\u3055\u3044\u5E03"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"Bp_ClothSmallTreadle","type":"CardData","CardType":7,"icon":"d31b837e23834363","name":{"zh":"\u5E03\u7247","en":"Small Cloth","ja":"Small Cloth"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"Bp_FunnelTrap","type":"CardData","CardType":7,"icon":"dff87db6bc56f0f9","name":{"zh":"\u9C7C\u7BD3\u9677\u9631","en":"Funnel Trap","ja":"\u30D5\u30A1\u30CD\u30EB\u30C8\u30E9\u30C3\u30D7"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_HandBasket","type":"CardData","CardType":7,"icon":"7420f21e5892c656","name":{"zh":"\u624B\u63D0\u7BEE","en":"Hand Basket","ja":"\u30CF\u30F3\u30C9\u30D0\u30B9\u30B1\u30C3\u30C8"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_ProcessFlaxFiber","type":"CardData","CardType":7,"icon":"13aac5febb3407fb","name":{"zh":"\u52A0\u5DE5\u4E9A\u9EBB\u7EA4\u7EF4","en":"Process Flax Fiber","ja":"Process Flax Fiber"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":0.1,"y":0.1}},{"source":{"key":"Bp_ProcessNettleFiber","type":"CardData","CardType":7,"icon":"13aac5febb3407fb","name":{"zh":"\u52A0\u5DE5\u8368\u9EBB\u7EA4\u7EF4","en":"Process Nettle Fiber","ja":"Process Nettle Fiber"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":0.1,"y":0.1}},{"source":{"key":"Bp_ReedCoat","type":"CardData","CardType":7,"icon":"3e10ba4d2771f413","name":{"zh":"\u82A6\u82C7\u5927\u8863","en":"Reed Coat","ja":"\u30E8\u30B7\u306E\u30B3\u30FC\u30C8"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_ReedSkirt","type":"CardData","CardType":7,"icon":"885183ce4c046214","name":{"zh":"\u82A6\u82C7\u88D9","en":"Reed Skirt","ja":"\u30E8\u30B7\u306E\u30B9\u30AB\u30FC\u30C8"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_ReedTunic","type":"CardData","CardType":7,"icon":"6efedb45314984c9","name":{"zh":"\u82A6\u82C7\u957F\u888D","en":"Reed Tunic","ja":"\u30E8\u30B7\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Bp_Rope","type":"CardData","CardType":7,"icon":"a3a77296cc85eb0c","name":{"zh":"\u7EF3\u5B50","en":"Rope","ja":"\u30ED\u30FC\u30D7"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":0.25,"y":0.25}},{"source":{"key":"Bp_Twine","type":"CardData","CardType":7,"icon":"f9674363ef374583","name":{"zh":"\u7EC6\u7EBF","en":"Twine","ja":"\u7D10"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":0.1,"y":0.1}},{"source":{"key":"Bp_TwineSpinningWheel","type":"CardData","CardType":7,"icon":"f9674363ef374583","name":{"zh":"\u7EC6\u7EBF","en":"Twine","ja":"Twine"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":0.1,"y":0.1}},{"source":{"key":"Bp_Yarn","type":"CardData","CardType":7,"icon":"96f47d3c27b36485","name":{"zh":"\u7EBF\u56E2","en":"Yarn","ja":"\u6BDB\u7CF8"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":0.25,"y":0.25}},{"source":{"key":"Bp_YarnSpinningWheel","type":"CardData","CardType":7,"icon":"96f47d3c27b36485","name":{"zh":"\u7EBF\u56E2","en":"Yarn","ja":"Yarn"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"},"value":{"x":0.25,"y":0.25}},{"source":{"key":"ReedsDry","type":"CardData","CardType":0,"icon":"557f4034fc66c4e8","name":{"zh":"\u5E72\u82A6\u82C7","en":"Dry Reeds","ja":"\u4E7E\u71E5\u3057\u305F\u30E8\u30B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5236\u4F5C\u7EC6\u7EBF","en":"Action: Make Twine","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMake Twine"},"value":{"x":0.1,"y":0.1}},{"source":{"key":"Fibers","type":"CardData","CardType":0,"icon":"13aac5febb3407fb","name":{"zh":"\u7EA4\u7EF4","en":"Fibers","ja":"\u7E4A\u7DAD"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5236\u4F5C\u7EC6\u7EBF","en":"Action: Make Twine","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D10\u3092\u4F5C\u308B"},"value":{"x":0.1,"y":0.1}},{"source":{"key":"Fibers","type":"CardData","CardType":0,"icon":"13aac5febb3407fb","name":{"zh":"\u7EA4\u7EF4","en":"Fibers","ja":"\u7E4A\u7DAD"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u68B3\u7406","en":"Action: Comb","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u3068\u304B\u3059"},"value":{"x":0.1,"y":0.1}},{"source":{"key":"PineRoots","type":"CardData","CardType":0,"icon":"fa49002b8402b813","name":{"zh":"\u677E\u6811\u6839","en":"Pine Roots","ja":"\u677E\u306E\u6839"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5236\u4F5C\u7EC6\u7EBF","en":"Action: Make Twine","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u3088\u308A\u7CF8\u3092\u4F5C\u308B"},"value":{"x":0.1,"y":0.1}},{"source":{"key":"Pk_6_8_Weaver","type":"CharacterPerk","icon":"7420f21e5892c656","name":{"zh":"\u7F16\u7EC7\u8005","en":"Weaver","ja":"\u7E54\u308A\u624B"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":75.0,"y":75.0}}],"_requires":[{"source":{"key":"Bp_BarkSandals","type":"CardData","CardType":7,"icon":"d539adb54e2e8bc7","name":{"zh":"\u6811\u76AE\u51C9\u978B","en":"Bark Sandals","ja":"\u6A39\u76AE\u306E\u30B5\u30F3\u30C0\u30EB"}},"description":{"zh":"\u84DD\u56FE\u76EE\u6807","en":"Blueprint Objective","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"},"value":{"x":5.0,"y":150.0}},{"source":{"key":"Bp_FunnelTrap","type":"CardData","CardType":7,"icon":"dff87db6bc56f0f9","name":{"zh":"\u9C7C\u7BD3\u9677\u9631","en":"Funnel Trap","ja":"\u30D5\u30A1\u30CD\u30EB\u30C8\u30E9\u30C3\u30D7"}},"description":{"zh":"\u84DD\u56FE\u76EE\u6807","en":"Blueprint Objective","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"},"value":{"x":5.0,"y":150.0}},{"source":{"key":"Bp_ReedCoat","type":"CardData","CardType":7,"icon":"3e10ba4d2771f413","name":{"zh":"\u82A6\u82C7\u5927\u8863","en":"Reed Coat","ja":"\u30E8\u30B7\u306E\u30B3\u30FC\u30C8"}},"description":{"zh":"\u84DD\u56FE\u76EE\u6807","en":"Blueprint Objective","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"},"value":{"x":3.0,"y":150.0}},{"source":{"key":"Bp_Rope","type":"CardData","CardType":7,"icon":"a3a77296cc85eb0c","name":{"zh":"\u7EF3\u5B50","en":"Rope","ja":"\u30ED\u30FC\u30D7"}},"description":{"zh":"\u84DD\u56FE\u76EE\u6807","en":"Blueprint Objective","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"},"value":{"x":5.0,"y":150.0}},{"source":{"key":"Bp_FiberBreak","type":"CardData","CardType":7,"icon":"ac97a90461126f34","name":{"zh":"\u7EA4\u7EF4\u7834\u788E\u67B6","en":"Fiber Break","ja":"Fiber Break"}},"description":{"zh":"\u84DD\u56FE\u76EE\u6807","en":"Blueprint Objective","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"},"value":{"x":25.0,"y":150.0}},{"source":{"key":"Bp_Spindle","type":"CardData","CardType":7,"icon":"f59363017f24ce27","name":{"zh":"\u7EBA\u9524","en":"Spindle","ja":"\u7D21\u9318\u5668"}},"description":{"zh":"\u84DD\u56FE\u76EE\u6807","en":"Blueprint Objective","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"},"value":{"x":5.0,"y":150.0}},{"source":{"key":"Bp_SpinningWheel","type":"CardData","CardType":7,"icon":"bcfc90b2633160b0","name":{"zh":"\u7EBA\u8F66","en":"Spinning Wheel","ja":"Spinning Wheel"}},"description":{"zh":"\u84DD\u56FE\u76EE\u6807","en":"Blueprint Objective","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"},"value":{"x":50.0,"y":150.0}},{"source":{"key":"Bp_TreadleLoom","type":"CardData","CardType":7,"icon":"9fafa8b02a373caa","name":{"zh":"\u8E0F\u677F\u7EC7\u673A","en":"Treadle Loom","ja":"Treadle Loom"}},"description":{"zh":"\u84DD\u56FE\u76EE\u6807","en":"Blueprint Objective","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"},"value":{"x":75.0,"y":150.0}},{"source":{"key":"Bp_WeightedLoom","type":"CardData","CardType":7,"icon":"bc723fb2c080a160","name":{"zh":"\u91CD\u9524\u7EC7\u673A","en":"Weighted Loom","ja":"Weighted Loom"}},"description":{"zh":"\u84DD\u56FE\u76EE\u6807","en":"Blueprint Objective","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"},"value":{"x":10.0,"y":150.0}},{"source":{"key":"Bp_Hackle","type":"CardData","CardType":7,"icon":"e3c70eec62c525e5","name":{"zh":"\u68B3\u7406\u5668","en":"Hackle","ja":"\u30B3\u30FC\u30E0"}},"description":{"zh":"\u84DD\u56FE\u76EE\u6807","en":"Blueprint Objective","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"},"value":{"x":5.0,"y":150.0}}],"_uuid":"056080607e57afa4ea4dfc3db3377204"}
+
+{
+  "GameName" : {
+    "zh" : "\u7F16\u7EC7",
+    "en" : "Weaving",
+    "ja" : "\u7E54\u7269"
+  },
+  "Description" : {
+    "zh" : "\u63D0\u5347\u7F16\u5236\u54C1\u7684\u54C1\u8D28\uFF0C\u8B6C\u5982\u7BEE\u7BD3\u548C\u7B80\u6613\u8863\u7269\u3002",
+    "en" : "Increases the quality of your weaving crafts, such as baskets and improvised plantwear.",
+    "ja" : "\u30AB\u30B4\u3084\u690D\u7269\u8863\u88C5\u306A\u3069\u3001\u7E54\u7269\u306E\u30AF\u30AA\u30EA\u30C6\u30A3\u304C\u9AD8\u304F\u306A\u308B\u3002"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 150.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.3113,
+    "g" : 0.1043,
+    "b" : 0.1079,
+    "a" : 0.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "CardData__Bp_ReedTunic__CardImage"
+  },
+  "UsesNovelty"       : true,
+  "NoveltyCooldownDuration" : 672,
+  "StalenessMultiplier"     : 0.75,
+  "MaxStalenessStack"       : 5,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Skill_Weaving",
+  "icon"                    : "CardData__Bp_ReedTunic__CardImage",
+  "name"                    : {
+    "zh" : "\u7F16\u7EC7",
+    "en" : "Weaving",
+    "ja" : "\u7E54\u7269"
+  },
+  "min"                     : 0.0,
+  "max"                     : 150.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Bp_BarkSandals",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BarkSandals__CardImage",
+        "name"     : {
+          "zh" : "\u6811\u76AE\u51C9\u978B",
+          "en" : "Bark Sandals",
+          "ja" : "\u6A39\u76AE\u306E\u30B5\u30F3\u30C0\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Basket",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Basket__CardImage",
+        "name"     : {
+          "zh" : "\u7F16\u7EC7\u7BD3",
+          "en" : "Basket",
+          "ja" : "\u30AB\u30B4"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ClothLarge",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClothLarge__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u5757\u7684\u5E03",
+          "en" : "Large cloth",
+          "ja" : "\u5927\u304D\u306A\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ClothLargeTreadle",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClothLarge__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u5757\u7684\u5E03",
+          "en" : "Large cloth",
+          "ja" : "Large cloth"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ClothMedium",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClothMedium__CardImage",
+        "name"     : {
+          "zh" : "\u5E03",
+          "en" : "Cloth",
+          "ja" : "\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ClothMediumTreadle",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClothMedium__CardImage",
+        "name"     : {
+          "zh" : "\u5E03",
+          "en" : "Cloth",
+          "ja" : "Cloth"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ClothSmall",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClothSmall__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u7247",
+          "en" : "Small Cloth",
+          "ja" : "\u5C0F\u3055\u3044\u5E03"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ClothSmallTreadle",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClothSmall__CardImage",
+        "name"     : {
+          "zh" : "\u5E03\u7247",
+          "en" : "Small Cloth",
+          "ja" : "Small Cloth"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_FunnelTrap",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_FunnelTrap__CardImage",
+        "name"     : {
+          "zh" : "\u9C7C\u7BD3\u9677\u9631",
+          "en" : "Funnel Trap",
+          "ja" : "\u30D5\u30A1\u30CD\u30EB\u30C8\u30E9\u30C3\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_HandBasket",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_HandBasket__CardImage",
+        "name"     : {
+          "zh" : "\u624B\u63D0\u7BEE",
+          "en" : "Hand Basket",
+          "ja" : "\u30CF\u30F3\u30C9\u30D0\u30B9\u30B1\u30C3\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ProcessFlaxFiber",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ProcessFlaxFiber__CardImage",
+        "name"     : {
+          "zh" : "\u52A0\u5DE5\u4E9A\u9EBB\u7EA4\u7EF4",
+          "en" : "Process Flax Fiber",
+          "ja" : "Process Flax Fiber"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ProcessNettleFiber",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ProcessFlaxFiber__CardImage",
+        "name"     : {
+          "zh" : "\u52A0\u5DE5\u8368\u9EBB\u7EA4\u7EF4",
+          "en" : "Process Nettle Fiber",
+          "ja" : "Process Nettle Fiber"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ReedCoat",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ReedCoat__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u5927\u8863",
+          "en" : "Reed Coat",
+          "ja" : "\u30E8\u30B7\u306E\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ReedSkirt",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ReedSkirt__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u88D9",
+          "en" : "Reed Skirt",
+          "ja" : "\u30E8\u30B7\u306E\u30B9\u30AB\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ReedTunic",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ReedTunic__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u957F\u888D",
+          "en" : "Reed Tunic",
+          "ja" : "\u30E8\u30B7\u306E\u30C1\u30E5\u30FC\u30CB\u30C3\u30AF"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Rope",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Rope__CardImage",
+        "name"     : {
+          "zh" : "\u7EF3\u5B50",
+          "en" : "Rope",
+          "ja" : "\u30ED\u30FC\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.25,
+        "y" : 0.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Twine",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_LeatherCordage__CardImage",
+        "name"     : {
+          "zh" : "\u7EC6\u7EBF",
+          "en" : "Twine",
+          "ja" : "\u7D10"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_TwineSpinningWheel",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_LeatherCordage__CardImage",
+        "name"     : {
+          "zh" : "\u7EC6\u7EBF",
+          "en" : "Twine",
+          "ja" : "Twine"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Yarn",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Yarn__CardImage",
+        "name"     : {
+          "zh" : "\u7EBF\u56E2",
+          "en" : "Yarn",
+          "ja" : "\u6BDB\u7CF8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.25,
+        "y" : 0.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_YarnFromTwine",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Yarn__CardImage",
+        "name"     : {
+          "zh" : "\u7EBF\u56E2",
+          "en" : "Yarn",
+          "ja" : "\u6BDB\u7CF8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.25,
+        "y" : 0.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_YarnSpinningWheel",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Yarn__CardImage",
+        "name"     : {
+          "zh" : "\u7EBF\u56E2",
+          "en" : "Yarn",
+          "ja" : "Yarn"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.25,
+        "y" : 0.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "ReedsDry",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__ReedsDry__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u82A6\u82C7",
+          "en" : "Dry Reeds",
+          "ja" : "\u4E7E\u71E5\u3057\u305F\u30E8\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5236\u4F5C\u7EC6\u7EBF",
+        "en" : "Action: Make Twine",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMake Twine"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "Fibers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ProcessFlaxFiber__CardImage",
+        "name"     : {
+          "zh" : "\u7EA4\u7EF4",
+          "en" : "Fibers",
+          "ja" : "\u7E4A\u7DAD"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5236\u4F5C\u7EC6\u7EBF",
+        "en" : "Action: Make Twine",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D10\u3092\u4F5C\u308B"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "Fibers",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ProcessFlaxFiber__CardImage",
+        "name"     : {
+          "zh" : "\u7EA4\u7EF4",
+          "en" : "Fibers",
+          "ja" : "\u7E4A\u7DAD"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u68B3\u7406",
+        "en" : "Action: Comb",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u3068\u304B\u3059"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "PineRoots",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__PineRoots__CardImage",
+        "name"     : {
+          "zh" : "\u677E\u6811\u6839",
+          "en" : "Pine Roots",
+          "ja" : "\u677E\u306E\u6839"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5236\u4F5C\u7EC6\u7EBF",
+        "en" : "Action: Make Twine",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u3088\u308A\u7CF8\u3092\u4F5C\u308B"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_6_8_Weaver",
+        "type" : "CharacterPerk",
+        "icon" : "CardData__Bp_HandBasket__CardImage",
+        "name" : {
+          "zh" : "\u7F16\u7EC7\u8005",
+          "en" : "Weaver",
+          "ja" : "\u7E54\u308A\u624B"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 75.0,
+        "y" : 75.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "Bp_BarkSandals",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BarkSandals__CardImage",
+        "name"     : {
+          "zh" : "\u6811\u76AE\u51C9\u978B",
+          "en" : "Bark Sandals",
+          "ja" : "\u6A39\u76AE\u306E\u30B5\u30F3\u30C0\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_FunnelTrap",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_FunnelTrap__CardImage",
+        "name"     : {
+          "zh" : "\u9C7C\u7BD3\u9677\u9631",
+          "en" : "Funnel Trap",
+          "ja" : "\u30D5\u30A1\u30CD\u30EB\u30C8\u30E9\u30C3\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ReedCoat",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ReedCoat__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u5927\u8863",
+          "en" : "Reed Coat",
+          "ja" : "\u30E8\u30B7\u306E\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Rope",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Rope__CardImage",
+        "name"     : {
+          "zh" : "\u7EF3\u5B50",
+          "en" : "Rope",
+          "ja" : "\u30ED\u30FC\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_FiberBreak",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_FiberBreak__CardImage",
+        "name"     : {
+          "zh" : "\u7EA4\u7EF4\u7834\u788E\u67B6",
+          "en" : "Fiber Break",
+          "ja" : "Fiber Break"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Spindle",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Spindle__CardImage",
+        "name"     : {
+          "zh" : "\u7EBA\u9524",
+          "en" : "Spindle",
+          "ja" : "\u7D21\u9318\u5668"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_SpinningWheel",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_SpinningWheel__CardImage",
+        "name"     : {
+          "zh" : "\u7EBA\u8F66",
+          "en" : "Spinning Wheel",
+          "ja" : "Spinning Wheel"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_TreadleLoom",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_TreadleLoom__CardImage",
+        "name"     : {
+          "zh" : "\u8E0F\u677F\u7EC7\u673A",
+          "en" : "Treadle Loom",
+          "ja" : "Treadle Loom"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 75.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_WeightedLoom",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_WeightedLoom__CardImage",
+        "name"     : {
+          "zh" : "\u91CD\u9524\u7EC7\u673A",
+          "en" : "Weighted Loom",
+          "ja" : "Weighted Loom"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Hackle",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Hackle__CardImage",
+        "name"     : {
+          "zh" : "\u68B3\u7406\u5668",
+          "en" : "Hackle",
+          "ja" : "\u30B3\u30FC\u30E0"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 150.0
+      }
+    }
+  ],
+  "_uuid"                   : "056080607e57afa4ea4dfc3db3377204"
+}

@@ -1,1 +1,284 @@
-{"GameName":{"zh":"\u9762\u90E8\u5BF9\u79F0\u6027","en":"Facial Harmony","ja":"Facial Harmony"},"BaseValue":50.0,"MinMaxValue":{"x":0.0,"y":100.0},"BaseRatePerTick":0.0,"StatPriority":100,"Visibility":0,"VisibleInDetailedList":true,"BarColor":{"r":0.0745,"g":0.9098,"b":0.6118,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"9bfeb7135e9607fd"},"Statuses":[{"GameName":{"zh":"\u4E94\u5B98\u6B6A\u659C","en":"Asymmetric","ja":"Asymmetric"},"ValueRange":{"m_X":0,"m_Y":24},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_AttractionToPlayer","type":"NPCStat","name":{"zh":"\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B","en":"Partner_AttractionToPlayer","ja":"Partner_AttractionToPlayer"}},"ValueChange":{"MaxValue":-40.0,"FloatValue":-40.0,"Active":true}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4E94\u5B98\u5931\u8C03","en":"Uneven","ja":"Uneven"},"ValueRange":{"m_X":25,"m_Y":49},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_AttractionToPlayer","type":"NPCStat","name":{"zh":"\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B","en":"Partner_AttractionToPlayer","ja":"Partner_AttractionToPlayer"}},"ValueChange":{"MaxValue":-20.0,"FloatValue":-20.0,"Active":true}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4E94\u5B98\u7AEF\u6B63","en":"Harmonious","ja":"Harmonious"},"ValueRange":{"m_X":50,"m_Y":75},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_AttractionToPlayer","type":"NPCStat","name":{"zh":"\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B","en":"Partner_AttractionToPlayer","ja":"Partner_AttractionToPlayer"}},"ValueChange":{"MaxValue":20.0,"FloatValue":20.0,"Active":true}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4E94\u5B98\u6D51\u7136\u5929\u6210","en":"Very Harmonious","ja":"Very Harmonious"},"ValueRange":{"m_X":76,"m_Y":100},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_AttractionToPlayer","type":"NPCStat","name":{"zh":"\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B","en":"Partner_AttractionToPlayer","ja":"Partner_AttractionToPlayer"}},"ValueChange":{"MaxValue":40.0,"FloatValue":40.0,"Active":true}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":96,"StalenessMultiplier":0.5,"MaxStalenessStack":2,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"f13bd2faddd55828"},"NegativeIcon":{"FileName":"265ef9706a28898b"},"StepValue":100.0},"type":"GameStat","key":"FacialHarmony","icon":"9bfeb7135e9607fd","name":{"zh":"\u9762\u90E8\u5BF9\u79F0\u6027","en":"Facial Harmony","ja":"Facial Harmony"},"min":0.0,"max":100.0,"_modifierValues":[{"source":{"key":"Pk_2_1_ImmuneSystemStrong","type":"CharacterPerk","icon":"4c0984e0a4d80995","name":{"zh":"\u5F3A\u514D\u75AB\u7CFB\u7EDF","en":"Strong Immune System","ja":"\u9AD8\u3044\u514D\u75AB\u529B"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"Pk_2_1_ImmuneSystemWeak","type":"CharacterPerk","icon":"4c0984e0a4d80995","name":{"zh":"\u5F31\u514D\u75AB\u7CFB\u7EDF","en":"Weak Immune System","ja":"\u4F4E\u3044\u514D\u75AB\u529B"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":-25.0,"y":-25.0}},{"source":{"key":"Pk_3_10_FineFeatures","type":"CharacterPerk","icon":"f05ca369c996d036","name":{"zh":"\u4E94\u5B98\u7CBE\u81F4","en":"Fine Features","ja":"Fine Features"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"Pk_3_11_IrregularFeatures","type":"CharacterPerk","icon":"f05ca369c996d036","name":{"zh":"\u4E94\u5B98\u7C97\u7CD9","en":"Irregular Features","ja":"Irregular Features"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":-25.0,"y":-25.0}}],"_uuid":"a2b9a00cae306bf40b1dedafd87dc9ee"}
+
+{
+  "GameName" : {
+    "zh" : "\u9762\u90E8\u5BF9\u79F0\u6027",
+    "en" : "Facial Harmony",
+    "ja" : "Facial Harmony"
+  },
+  "BaseValue" : 50.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 100.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 100,
+  "Visibility"      : 0,
+  "VisibleInDetailedList" : true,
+  "BarColor"              : {
+    "r" : 0.0745,
+    "g" : 0.9098,
+    "b" : 0.6118,
+    "a" : 1.0
+  },
+  "BarHighlightColor"     : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon"     : {
+    "FileName" : "GameStat__Empathy__DefaultStatusIcon"
+  },
+  "Statuses"              : [
+    {
+      "GameName" : {
+        "zh" : "\u4E94\u5B98\u6B6A\u659C",
+        "en" : "Asymmetric",
+        "ja" : "Asymmetric"
+      },
+      "ValueRange" : {
+        "m_X" : 0,
+        "m_Y" : 24
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_AttractionToPlayer",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+              "en" : "Partner_AttractionToPlayer",
+              "ja" : "Partner_AttractionToPlayer"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -40.0,
+            "FloatValue" : -40.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "NotifyPlayer"      : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4E94\u5B98\u5931\u8C03",
+        "en" : "Uneven",
+        "ja" : "Uneven"
+      },
+      "ValueRange" : {
+        "m_X" : 25,
+        "m_Y" : 49
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_AttractionToPlayer",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+              "en" : "Partner_AttractionToPlayer",
+              "ja" : "Partner_AttractionToPlayer"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -20.0,
+            "FloatValue" : -20.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "NotifyPlayer"      : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4E94\u5B98\u7AEF\u6B63",
+        "en" : "Harmonious",
+        "ja" : "Harmonious"
+      },
+      "ValueRange" : {
+        "m_X" : 50,
+        "m_Y" : 75
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_AttractionToPlayer",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+              "en" : "Partner_AttractionToPlayer",
+              "ja" : "Partner_AttractionToPlayer"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 20.0,
+            "FloatValue" : 20.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "NotifyPlayer"      : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4E94\u5B98\u6D51\u7136\u5929\u6210",
+        "en" : "Very Harmonious",
+        "ja" : "Very Harmonious"
+      },
+      "ValueRange" : {
+        "m_X" : 76,
+        "m_Y" : 100
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_AttractionToPlayer",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+              "en" : "Partner_AttractionToPlayer",
+              "ja" : "Partner_AttractionToPlayer"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 40.0,
+            "FloatValue" : 40.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "NotifyPlayer"      : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 96,
+  "StalenessMultiplier"     : 0.5,
+  "MaxStalenessStack"       : 2,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "GameStat__Assertiveness__FeedbackInfo-Icon"
+    },
+    "NegativeIcon" : {
+      "FileName" : "GameStat__Assertiveness__FeedbackInfo-NegativeIcon"
+    },
+    "StepValue"    : 100.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "FacialHarmony",
+  "icon"                    : "GameStat__Empathy__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u9762\u90E8\u5BF9\u79F0\u6027",
+    "en" : "Facial Harmony",
+    "ja" : "Facial Harmony"
+  },
+  "min"                     : 0.0,
+  "max"                     : 100.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Pk_2_1_ImmuneSystemStrong",
+        "type" : "CharacterPerk",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "name" : {
+          "zh" : "\u5F3A\u514D\u75AB\u7CFB\u7EDF",
+          "en" : "Strong Immune System",
+          "ja" : "\u9AD8\u3044\u514D\u75AB\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_2_1_ImmuneSystemWeak",
+        "type" : "CharacterPerk",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "name" : {
+          "zh" : "\u5F31\u514D\u75AB\u7CFB\u7EDF",
+          "en" : "Weak Immune System",
+          "ja" : "\u4F4E\u3044\u514D\u75AB\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -25.0,
+        "y" : -25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_3_10_FineFeatures",
+        "type" : "CharacterPerk",
+        "icon" : "GameStat__FootDamage__Statuses-1-Icon",
+        "name" : {
+          "zh" : "\u4E94\u5B98\u7CBE\u81F4",
+          "en" : "Fine Features",
+          "ja" : "Fine Features"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_3_11_IrregularFeatures",
+        "type" : "CharacterPerk",
+        "icon" : "GameStat__FootDamage__Statuses-1-Icon",
+        "name" : {
+          "zh" : "\u4E94\u5B98\u7C97\u7CD9",
+          "en" : "Irregular Features",
+          "ja" : "Irregular Features"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -25.0,
+        "y" : -25.0
+      }
+    }
+  ],
+  "_uuid"                   : "a2b9a00cae306bf40b1dedafd87dc9ee"
+}

@@ -1,1 +1,103 @@
-{"ObjectiveDescription":{"zh":"\u51FB\u8D25\u731B\u517D","en":"Defeat the Beast","ja":"\u30D3\u30FC\u30B9\u30C8\u3092\u5012\u3059"},"NotificationSettings":{"Frequency":1,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"Completed","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Huntsman2_DefeatTheBeast_Completed_Event","type":"CardData","CardType":3,"icon":"36a826319f4d3b95","name":{"zh":"\u51FB\u8D25\u731B\u517D","en":"Defeat the Beast","ja":"\u30D3\u30FC\u30B9\u30C8\u3092\u5012\u3059"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"NestedObjectives":[{"ObjectiveCondition":{"key":"Huntsman2_DefeatTheBeast_Obj1_FindTheBeastsTracks","type":"Objective","name":{"zh":"\u627E\u5230\u731B\u517D\u8E2A\u8FF9","en":"Find the Beast's Tracks","ja":"\u7363\u306E\u8DB3\u8DE1\u3092\u898B\u3064\u3051\u308B"}},"ObjectiveName":"1","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_DefeatTheBeast_Obj2_FightTheBeast","type":"Objective","name":{"zh":"\u627E\u5230\u731B\u517D","en":"Fight the Beast","ja":"\u7363\u3068\u6226\u3046"}},"ObjectiveName":"2","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_DefeatTheBeast_Obj3_DefeatTheBeast","type":"Objective","name":{"zh":"\u51FB\u8D25\u731B\u517D","en":"Defeat the Beast","ja":"\u30D3\u30FC\u30B9\u30C8\u3092\u5012\u3059"}},"ObjectiveName":"3","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":0,"type":"Objective","key":"Huntsman2_DefeatTheBeast_Completed","name":{"zh":"\u51FB\u8D25\u731B\u517D","en":"Defeat the Beast","ja":"\u30D3\u30FC\u30B9\u30C8\u3092\u5012\u3059"},"_uuid":"51c445a20bea4eb42a4eec799d617fd4"}
+
+{
+  "ObjectiveDescription" : {
+    "zh" : "\u51FB\u8D25\u731B\u517D",
+    "en" : "Defeat the Beast",
+    "ja" : "\u30D3\u30FC\u30B9\u30C8\u3092\u5012\u3059"
+  },
+  "NotificationSettings" : {
+    "Frequency" : 1,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ProducedCards" : [
+        {
+          "CollectionName" : "Completed",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Huntsman2_DefeatTheBeast_Completed_Event",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "NPCAgent__Agent_ForestBeast__AgentImage",
+                "name"     : {
+                  "zh" : "\u51FB\u8D25\u731B\u517D",
+                  "en" : "Defeat the Beast",
+                  "ja" : "\u30D3\u30FC\u30B9\u30C8\u3092\u5012\u3059"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "FadeToBlack"   : 0,
+      "RoomDirection" : 0,
+      "ExitDirection" : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "NestedObjectives"     : [
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_DefeatTheBeast_Obj1_FindTheBeastsTracks",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u627E\u5230\u731B\u517D\u8E2A\u8FF9",
+          "en" : "Find the Beast's Tracks",
+          "ja" : "\u7363\u306E\u8DB3\u8DE1\u3092\u898B\u3064\u3051\u308B"
+        }
+      },
+      "ObjectiveName"      : "1",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_DefeatTheBeast_Obj2_FightTheBeast",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u627E\u5230\u731B\u517D",
+          "en" : "Fight the Beast",
+          "ja" : "\u7363\u3068\u6226\u3046"
+        }
+      },
+      "ObjectiveName"      : "2",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_DefeatTheBeast_Obj3_DefeatTheBeast",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u51FB\u8D25\u731B\u517D",
+          "en" : "Defeat the Beast",
+          "ja" : "\u30D3\u30FC\u30B9\u30C8\u3092\u5012\u3059"
+        }
+      },
+      "ObjectiveName"      : "3",
+      "CompletionWeight"   : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "Objective",
+  "key"                         : "Huntsman2_DefeatTheBeast_Completed",
+  "name"                        : {
+    "zh" : "\u51FB\u8D25\u731B\u517D",
+    "en" : "Defeat the Beast",
+    "ja" : "\u30D3\u30FC\u30B9\u30C8\u3092\u5012\u3059"
+  },
+  "_uuid"                       : "51c445a20bea4eb42a4eec799d617fd4"
+}

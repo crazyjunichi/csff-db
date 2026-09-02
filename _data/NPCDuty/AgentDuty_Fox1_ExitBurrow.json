@@ -1,1 +1,97 @@
-{"DutyName":{"zh":"\u79BB\u5F00\u5DE2\u7A74","en":"Fox1 Exit Burrow","ja":"Fox1 Exit Burrow"},"ValidTimesOfDay":[{"TimeType":0,"CompareType":0,"StartValue":20,"EndValue":5}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_SpiritWorld","type":"CardTag","count":3,"name":{"zh":"\u7CBE\u9B44\u754C","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentMorale","type":"NPCStat","name":{"zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"}},"ConditionRange":{"x":100.0,"y":100.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"ExitFox1Burrow","type":"MoveDutyAction","name":{"zh":"ExitFox1Burrow","en":"ExitFox1Burrow","ja":"ExitFox1Burrow"}},{"key":"RepairFox1Burrow_Exit","type":"AffectItemsDutyAction","name":{"zh":"RepairFox1Burrow_Exit","en":"RepairFox1Burrow_Exit","ja":"RepairFox1Burrow_Exit"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Fox1_ExitBurrow","name":{"zh":"\u79BB\u5F00\u5DE2\u7A74","en":"Fox1 Exit Burrow","ja":"Fox1 Exit Burrow"},"_uuid":"cd4a222bd5316c44cabcd14d4aa0b68e"}
+
+{
+  "DutyName" : {
+    "zh" : "\u79BB\u5F00\u5DE2\u7A74",
+    "en" : "Fox1 Exit Burrow",
+    "ja" : "Fox1 Exit Burrow"
+  },
+  "ValidTimesOfDay" : [
+    {
+      "TimeType" : 0,
+      "CompareType" : 0,
+      "StartValue"  : 20,
+      "EndValue"    : 5
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_SpiritWorld",
+        "type" : "CardTag",
+        "count" : 3,
+        "name"  : {
+          "zh" : "\u7CBE\u9B44\u754C",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentMorale",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6597\u5FD7",
+            "en" : "AgentMorale",
+            "ja" : "AgentMorale"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 100.0,
+          "y" : 100.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "ExitFox1Burrow",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "ExitFox1Burrow",
+        "en" : "ExitFox1Burrow",
+        "ja" : "ExitFox1Burrow"
+      }
+    },
+    {
+      "key" : "RepairFox1Burrow_Exit",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "RepairFox1Burrow_Exit",
+        "en" : "RepairFox1Burrow_Exit",
+        "ja" : "RepairFox1Burrow_Exit"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Fox1_ExitBurrow",
+  "name"                 : {
+    "zh" : "\u79BB\u5F00\u5DE2\u7A74",
+    "en" : "Fox1 Exit Burrow",
+    "ja" : "Fox1 Exit Burrow"
+  },
+  "_uuid"                : "cd4a222bd5316c44cabcd14d4aa0b68e"
+}

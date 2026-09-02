@@ -1,1 +1,2761 @@
-{"GameName":{"zh":"\u514D\u75AB\u7CFB\u7EDF","en":"Immune System","ja":"\u514D\u75AB\u7CFB"},"Description":{"zh":"\u6D88\u706D\u611F\u67D3\u4F60\u7684\u7EC6\u83CC\u548C\u5BC4\u751F\u866B\u3002","en":"Gets rid of the Bacteria and Parasites infecting your body.","ja":"\u4F53\u306B\u5165\u3063\u3066\u308B\u3070\u3044\u83CC\u3084\u5BC4\u751F\u866B\u3092\u99C6\u9664\u3059\u308B\u3002"},"BaseValue":150.0,"MinMaxValue":{"x":0.0,"y":325.0},"BaseRatePerTick":0.0,"StatPriority":100,"Visibility":0,"VisibleInDetailedList":true,"VisibleValueRange":{"x":0.0,"y":325.0},"BarColor":{"r":0.6941,"g":0.4314,"b":0.2784,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"d47179c32ba52c4f"},"Statuses":[{"GameName":{"zh":"\u65E0\u514D\u75AB\u529B","en":"No Immune System","ja":"\u514D\u75AB\u7CFB\u304C\u306A\u3044"},"EffectsOnStats":[{"Stat":{"key":"Infection_Systemic","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1800.0,"name":{"zh":"\u5168\u8EAB\u611F\u67D3","en":"Systemic Infection","ja":"\u5168\u8EAB\u611F\u67D3"}}},{"Stat":{"key":"Infection_LowerRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0B\u547C\u5438\u9053\u611F\u67D3","en":"Lower Respiratory Infection","ja":"\u4E0B\u6C17\u9053\u611F\u67D3"}}},{"Stat":{"key":"Infection_UpperRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0A\u547C\u5438\u9053\u611F\u67D3","en":"Upper Respiratory Infection","ja":"\u4E0A\u6C17\u9053\u611F\u67D3"}}},{"Stat":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}}},{"Stat":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u53D7\u635F\u514D\u75AB\u529B","en":"Compromised Immune System","ja":"\u975E\u5E38\u306B\u5F31\u3044\u514D\u75AB\u7CFB"},"ValueRange":{"m_X":1,"m_Y":75},"EffectsOnStats":[{"Stat":{"key":"Infection_Systemic","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1800.0,"name":{"zh":"\u5168\u8EAB\u611F\u67D3","en":"Systemic Infection","ja":"\u5168\u8EAB\u611F\u67D3"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"Infection_LowerRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0B\u547C\u5438\u9053\u611F\u67D3","en":"Lower Respiratory Infection","ja":"\u4E0B\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"Infection_UpperRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0A\u547C\u5438\u9053\u611F\u67D3","en":"Upper Respiratory Infection","ja":"\u4E0A\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"RateModifier":{"x":-1.0,"y":-1.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u5F31\u514D\u75AB\u529B","en":"Weak Immune System","ja":"\u5F31\u3044\u514D\u75AB\u7CFB"},"ValueRange":{"m_X":76,"m_Y":125},"EffectsOnStats":[{"Stat":{"key":"Infection_Systemic","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1800.0,"name":{"zh":"\u5168\u8EAB\u611F\u67D3","en":"Systemic Infection","ja":"\u5168\u8EAB\u611F\u67D3"}},"RateModifier":{"x":-2.0,"y":-2.0}},{"Stat":{"key":"Infection_LowerRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0B\u547C\u5438\u9053\u611F\u67D3","en":"Lower Respiratory Infection","ja":"\u4E0B\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-2.0,"y":-2.0}},{"Stat":{"key":"Infection_UpperRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0A\u547C\u5438\u9053\u611F\u67D3","en":"Upper Respiratory Infection","ja":"\u4E0A\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-2.0,"y":-2.0}},{"Stat":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}},"RateModifier":{"x":-2.0,"y":-2.0}},{"Stat":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"RateModifier":{"x":-2.0,"y":-2.0}},{"Stat":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"RateModifier":{"x":-2.0,"y":-2.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u6B63\u5E38\u514D\u75AB\u529B","en":"Normal Immune System","ja":"\u666E\u901A\u306E\u514D\u75AB\u7CFB"},"ValueRange":{"m_X":126,"m_Y":175},"EffectsOnStats":[{"Stat":{"key":"Infection_Systemic","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1800.0,"name":{"zh":"\u5168\u8EAB\u611F\u67D3","en":"Systemic Infection","ja":"\u5168\u8EAB\u611F\u67D3"}},"RateModifier":{"x":-4.0,"y":-4.0}},{"Stat":{"key":"Infection_LowerRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0B\u547C\u5438\u9053\u611F\u67D3","en":"Lower Respiratory Infection","ja":"\u4E0B\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-4.0,"y":-4.0}},{"Stat":{"key":"Infection_UpperRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0A\u547C\u5438\u9053\u611F\u67D3","en":"Upper Respiratory Infection","ja":"\u4E0A\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-4.0,"y":-4.0}},{"Stat":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}},"RateModifier":{"x":-4.0,"y":-4.0}},{"Stat":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"RateModifier":{"x":-4.0,"y":-4.0}},{"Stat":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"RateModifier":{"x":-4.0,"y":-4.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u5F3A\u514D\u75AB\u529B","en":"Strong Immune System","ja":"\u5F37\u3044\u514D\u75AB\u7CFB"},"ValueRange":{"m_X":176,"m_Y":225},"EffectsOnStats":[{"Stat":{"key":"Infection_Systemic","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1800.0,"name":{"zh":"\u5168\u8EAB\u611F\u67D3","en":"Systemic Infection","ja":"\u5168\u8EAB\u611F\u67D3"}},"RateModifier":{"x":-8.0,"y":-8.0}},{"Stat":{"key":"Infection_LowerRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0B\u547C\u5438\u9053\u611F\u67D3","en":"Lower Respiratory Infection","ja":"\u4E0B\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-8.0,"y":-8.0}},{"Stat":{"key":"Infection_UpperRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0A\u547C\u5438\u9053\u611F\u67D3","en":"Upper Respiratory Infection","ja":"\u4E0A\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-8.0,"y":-8.0}},{"Stat":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}},"RateModifier":{"x":-8.0,"y":-8.0}},{"RateModifier":{"x":-8.0,"y":-8.0}},{"Stat":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"RateModifier":{"x":-6.0,"y":-6.0}},{"Stat":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"RateModifier":{"x":-6.0,"y":-6.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u8D85\u5F3A\u514D\u75AB\u529B","en":"Very Strong Immune System","ja":"\u304B\u306A\u308A\u5F37\u3044\u514D\u75AB\u7CFB"},"ValueRange":{"m_X":226,"m_Y":275},"EffectsOnStats":[{"Stat":{"key":"Infection_Systemic","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1800.0,"name":{"zh":"\u5168\u8EAB\u611F\u67D3","en":"Systemic Infection","ja":"\u5168\u8EAB\u611F\u67D3"}},"RateModifier":{"x":-16.0,"y":-16.0}},{"Stat":{"key":"Infection_LowerRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0B\u547C\u5438\u9053\u611F\u67D3","en":"Lower Respiratory Infection","ja":"\u4E0B\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-16.0,"y":-16.0}},{"Stat":{"key":"Infection_UpperRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0A\u547C\u5438\u9053\u611F\u67D3","en":"Upper Respiratory Infection","ja":"\u4E0A\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-16.0,"y":-16.0}},{"Stat":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}},"RateModifier":{"x":-16.0,"y":-16.0}},{"RateModifier":{"x":-16.0,"y":-16.0}},{"Stat":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"RateModifier":{"x":-8.0,"y":-8.0}},{"Stat":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"RateModifier":{"x":-8.0,"y":-8.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u575A\u4E0D\u53EF\u6467","en":"Artificially Strong Immune System","ja":"\u4EBA\u5DE5\u7684\u306B\u5F37\u5316\u3055\u308C\u305F\u514D\u75AB\u7CFB"},"ValueRange":{"m_X":276,"m_Y":325},"EffectsOnStats":[{"Stat":{"key":"Infection_Systemic","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1800.0,"name":{"zh":"\u5168\u8EAB\u611F\u67D3","en":"Systemic Infection","ja":"\u5168\u8EAB\u611F\u67D3"}},"RateModifier":{"x":-32.0,"y":-32.0}},{"Stat":{"key":"Infection_LowerRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0B\u547C\u5438\u9053\u611F\u67D3","en":"Lower Respiratory Infection","ja":"\u4E0B\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-32.0,"y":-32.0}},{"Stat":{"key":"Infection_UpperRespiratory","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u4E0A\u547C\u5438\u9053\u611F\u67D3","en":"Upper Respiratory Infection","ja":"\u4E0A\u6C17\u9053\u611F\u67D3"}},"RateModifier":{"x":-32.0,"y":-32.0}},{"Stat":{"key":"Infection_Gastrointestinal","type":"GameStat","icon":"4c0984e0a4d80995","min":0.0,"max":1000.0,"name":{"zh":"\u80C3\u80A0\u9053\u611F\u67D3","en":"Gastrointestinal Infection","ja":"\u80C3\u8178\u611F\u67D3"}},"RateModifier":{"x":-32.0,"y":-32.0}},{"Stat":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"RateModifier":{"x":-12.0,"y":-12.0}},{"Stat":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"RateModifier":{"x":-10.0,"y":-10.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"d47179c32ba52c4f"},"StepValue":5.0},"type":"GameStat","key":"ImmuneSystem","icon":"d47179c32ba52c4f","name":{"zh":"\u514D\u75AB\u7CFB\u7EDF","en":"Immune System","ja":"\u514D\u75AB\u7CFB"},"min":0.0,"max":325.0,"_modifierValues":[{"source":{"key":"CabinConstructionLocationCabinRoom","type":"CardData","CardType":8,"icon":"6e98e1fd4e7742ab","name":{"zh":"\u6728\u8D28\u623F\u95F4","en":"Cabin Room","ja":"\u5C0F\u5C4B\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"CabinConstructionLocationCabinRoom","type":"CardData","CardType":8,"icon":"6e98e1fd4e7742ab","name":{"zh":"\u6728\u8D28\u623F\u95F4","en":"Cabin Room","ja":"\u5C0F\u5C4B\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"CabinConstructionLocationCabinRoom","type":"CardData","CardType":8,"icon":"6e98e1fd4e7742ab","name":{"zh":"\u6728\u8D28\u623F\u95F4","en":"Cabin Room","ja":"\u5C0F\u5C4B\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"CabinConstructionStartingPointCabin","type":"CardData","CardType":8,"icon":"c0d841edb9de544c","name":{"zh":"\u6728\u5C4B","en":"Cabin","ja":"\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"CabinConstructionStartingPointCabin","type":"CardData","CardType":8,"icon":"c0d841edb9de544c","name":{"zh":"\u6728\u5C4B","en":"Cabin","ja":"\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"CabinConstructionStartingPointCabin","type":"CardData","CardType":8,"icon":"c0d841edb9de544c","name":{"zh":"\u6728\u5C4B","en":"Cabin","ja":"\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"MudHutConstructionLocationCellar","type":"CardData","CardType":8,"icon":"e2eb668412728cc1","name":{"zh":"\u5730\u7A96","en":"Cellar","ja":"\u30BB\u30E9\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"MudHutConstructionLocationCellar","type":"CardData","CardType":8,"icon":"e2eb668412728cc1","name":{"zh":"\u5730\u7A96","en":"Cellar","ja":"\u30BB\u30E9\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"MudHutConstructionLocationCellar","type":"CardData","CardType":8,"icon":"e2eb668412728cc1","name":{"zh":"\u5730\u7A96","en":"Cellar","ja":"\u30BB\u30E9\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"MudHutConstructionLocationRoom","type":"CardData","CardType":8,"icon":"a752f397113b771e","name":{"zh":"\u623F\u95F4","en":"Room","ja":"\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"MudHutConstructionLocationRoom","type":"CardData","CardType":8,"icon":"a752f397113b771e","name":{"zh":"\u623F\u95F4","en":"Room","ja":"\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"MudHutConstructionLocationRoom","type":"CardData","CardType":8,"icon":"a752f397113b771e","name":{"zh":"\u623F\u95F4","en":"Room","ja":"\u90E8\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"MudHutConstructionStartingPointCellar","type":"CardData","CardType":8,"icon":"e2eb668412728cc1","name":{"zh":"\u5730\u7A96","en":"Cellar","ja":"\u30BB\u30E9\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"MudHutConstructionStartingPointCellar","type":"CardData","CardType":8,"icon":"e2eb668412728cc1","name":{"zh":"\u5730\u7A96","en":"Cellar","ja":"\u30BB\u30E9\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"MudHutConstructionStartingPointCellar","type":"CardData","CardType":8,"icon":"e2eb668412728cc1","name":{"zh":"\u5730\u7A96","en":"Cellar","ja":"\u30BB\u30E9\u30FC"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"MudHutConstructionStartingPointMudHut","type":"CardData","CardType":8,"icon":"fa5e4962cedf338b","name":{"zh":"\u6CE5\u5C4B","en":"Mud Hut","ja":"\u6CE5\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"MudHutConstructionStartingPointMudHut","type":"CardData","CardType":8,"icon":"fa5e4962cedf338b","name":{"zh":"\u6CE5\u5C4B","en":"Mud Hut","ja":"\u6CE5\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"MudHutConstructionStartingPointMudHut","type":"CardData","CardType":8,"icon":"fa5e4962cedf338b","name":{"zh":"\u6CE5\u5C4B","en":"Mud Hut","ja":"\u6CE5\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57","en":"Passive Effect: Sauna","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"Spirit_HagBargainHealth","type":"CardData","CardType":0,"icon":"5780df68fc82bfb7","name":{"zh":"\u5EB7\u5065\u5951\u7EA6","en":"Health Bargain","ja":"Health Bargain"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1APermanent minimum 301 Fever and 50 Immune System","en":"Passive Effect: Permanent minimum 301 Fever and 50 Immune System","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1APermanent minimum 301 Fever and 50 Immune System"},"value":{"x":150.0,"y":150.0}},{"source":{"key":"ChinaRoseEffect","type":"GameStat","icon":"4c2f28617ac9ff31","min":0.0,"max":48.0,"name":{"zh":"\u6708\u5B63\u6548\u679C","en":"China Rose Effect","ja":"\u30B3\u30A6\u30B7\u30F3\u30D0\u30E9\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u6708\u5B63\u6548\u679C","en":"Status Stage: Moderate China Rose Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30B3\u30A6\u30B7\u30F3\u30D0\u30E9\u52B9\u679C"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"ChinaRoseEffect","type":"GameStat","icon":"4c2f28617ac9ff31","min":0.0,"max":48.0,"name":{"zh":"\u6708\u5B63\u6548\u679C","en":"China Rose Effect","ja":"\u30B3\u30A6\u30B7\u30F3\u30D0\u30E9\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u6708\u5B63\u6548\u679C","en":"Status Stage: Strong China Rose Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u306E\u30B3\u30A6\u30B7\u30F3\u30D0\u30E9\u52B9\u679C"},"value":{"x":30.0,"y":30.0}},{"source":{"key":"GingerEffect","type":"GameStat","min":0.0,"max":48.0,"name":{"zh":"\u59DC\u6548\u679C","en":"Ginger","ja":"\u751F\u59DC"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u5242\u91CF","en":"Status Stage: Small Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"GingerEffect","type":"GameStat","min":0.0,"max":48.0,"name":{"zh":"\u59DC\u6548\u679C","en":"Ginger","ja":"\u751F\u59DC"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5242\u91CF","en":"Status Stage: High Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"SpiderLilyEffect","type":"GameStat","icon":"6e90d5b922c973f7","min":0.0,"max":48.0,"name":{"zh":"\u8718\u86DB\u5170\u6548\u679C","en":"Spider Lily Effect","ja":"\u30D2\u30AC\u30F3\u30D0\u30CA\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u8718\u86DB\u5170\u6548\u679C","en":"Status Stage: Moderate Spider Lily Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30D2\u30AC\u30F3\u30D0\u30CA\u52B9\u679C"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"SpiderLilyEffect","type":"GameStat","icon":"6e90d5b922c973f7","min":0.0,"max":48.0,"name":{"zh":"\u8718\u86DB\u5170\u6548\u679C","en":"Spider Lily Effect","ja":"\u30D2\u30AC\u30F3\u30D0\u30CA\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u8718\u86DB\u5170\u6548\u679C","en":"Status Stage: Strong Spider Lily Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u3044\u306E\u30D2\u30AC\u30F3\u30D0\u30CA\u52B9\u679C"},"value":{"x":300.0,"y":300.0}},{"source":{"key":"InnerWarmthXYZ","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":288.0,"name":{"zh":"\u5185\u70ED\u81EA\u751F","en":"Inner Warmth","ja":"\u5FC3\u306E\u6E29\u3082\u308A"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F","en":"Status Stage: Inner Warmth","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"InnerWarmthXYZ","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":288.0,"name":{"zh":"\u5185\u70ED\u81EA\u751F","en":"Inner Warmth","ja":"\u5FC3\u306E\u6E29\u3082\u308A"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F","en":"Status Stage: Inner Warmth","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"InnerWarmthXYZ","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":288.0,"name":{"zh":"\u5185\u70ED\u81EA\u751F","en":"Inner Warmth","ja":"\u5FC3\u306E\u6E29\u3082\u308A"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F","en":"Status Stage: Inner Warmth","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"},"value":{"x":75.0,"y":75.0}},{"source":{"key":"InnerWarmthXYZ","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":288.0,"name":{"zh":"\u5185\u70ED\u81EA\u751F","en":"Inner Warmth","ja":"\u5FC3\u306E\u6E29\u3082\u308A"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F","en":"Status Stage: Inner Warmth","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"InnerWarmthXYZ","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":288.0,"name":{"zh":"\u5185\u70ED\u81EA\u751F","en":"Inner Warmth","ja":"\u5FC3\u306E\u6E29\u3082\u308A"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F","en":"Status Stage: Inner Warmth","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"},"value":{"x":125.0,"y":125.0}},{"source":{"key":"InnerWarmthXYZ","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":288.0,"name":{"zh":"\u5185\u70ED\u81EA\u751F","en":"Inner Warmth","ja":"\u5FC3\u306E\u6E29\u3082\u308A"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F","en":"Status Stage: Inner Warmth","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"},"value":{"x":150.0,"y":150.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":75.0,"y":75.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":125.0,"y":125.0}},{"source":{"key":"Resilience","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":288.0,"name":{"zh":"\u91CE\u517D\u822C\u575A\u97E7","en":"Bestial Resilience","ja":"\u7363\u7684\u8010\u4E45\u529B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7","en":"Status Stage: Bestial Resilience","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"},"value":{"x":150.0,"y":150.0}},{"source":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6B22\u6B23","en":"Status Stage: Euphoric","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5E78\u305B"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5FEB\u4E50","en":"Status Stage: Happy","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E0A\u6A5F\u5ACC"},"value":{"x":75.0,"y":75.0}},{"source":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6EE1\u610F","en":"Status Stage: Content","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6E80\u8DB3"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5931\u843D","en":"Status Stage: Feeling down","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u843D\u3061\u8FBC\u3093\u3067\u308B"},"value":{"x":-25.0,"y":-25.0}},{"source":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6291\u90C1","en":"Status Stage: Depressed","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3057\u3093\u3069\u3044"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E25\u91CD\u6291\u90C1","en":"Status Stage: Seriously Depressed","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9B31\u75C5"},"value":{"x":-75.0,"y":-75.0}},{"source":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5D29\u6E83","en":"Status Stage: Self Destructive","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u81EA\u5DF1\u7834\u58CA\u7684"},"value":{"x":-100.0,"y":-100.0}},{"source":{"key":"SleepDeprivationEffects","type":"GameStat","icon":"3d02d165232268dd","min":0.0,"max":4.0,"name":{"zh":"\u7761\u7720\u4E0D\u8DB3\u6548\u679C","en":"Sleep Deprivation","ja":"Sleep Deprivation"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5FAE\u7F3A\u4E4F\u7761\u7720","en":"Status Stage: Minor Sleep Deprivation","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u3057\u7761\u7720\u4E0D\u8DB3"},"value":{"x":-25.0,"y":-25.0}},{"source":{"key":"SleepDeprivationEffects","type":"GameStat","icon":"3d02d165232268dd","min":0.0,"max":4.0,"name":{"zh":"\u7761\u7720\u4E0D\u8DB3\u6548\u679C","en":"Sleep Deprivation","ja":"Sleep Deprivation"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u7F3A\u4E4F\u7761\u7720","en":"Status Stage: Sleep Deprivation","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7761\u7720\u4E0D\u8DB3"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"SleepDeprivationEffects","type":"GameStat","icon":"3d02d165232268dd","min":0.0,"max":4.0,"name":{"zh":"\u7761\u7720\u4E0D\u8DB3\u6548\u679C","en":"Sleep Deprivation","ja":"Sleep Deprivation"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5EA6\u7F3A\u4E4F\u7761\u7720","en":"Status Stage: Major Sleep Deprivation","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u7761\u7720\u4E0D\u8DB3"},"value":{"x":-100.0,"y":-100.0}},{"source":{"key":"SleepDeprivationEffects","type":"GameStat","icon":"3d02d165232268dd","min":0.0,"max":4.0,"name":{"zh":"\u7761\u7720\u4E0D\u8DB3\u6548\u679C","en":"Sleep Deprivation","ja":"Sleep Deprivation"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u5EA6\u7F3A\u4E4F\u7761\u7720","en":"Status Stage: Serious Sleep Deprivation","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5371\u967A\u306A\u307B\u3069\u7761\u7720\u4E0D\u8DB3"},"value":{"x":-200.0,"y":-200.0}},{"source":{"key":"AppleWeedEffect","type":"GameStat","icon":"eaeea9883ec772a3","min":0.0,"max":48.0,"name":{"zh":"\u67F0\u8349\u6548\u679C","en":"Appleweed Effect","ja":"\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u67F0\u8349\u6548\u679C","en":"Status Stage: Weak Appleweed Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"AppleWeedEffect","type":"GameStat","icon":"eaeea9883ec772a3","min":0.0,"max":48.0,"name":{"zh":"\u67F0\u8349\u6548\u679C","en":"Appleweed Effect","ja":"\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u67F0\u8349\u6548\u679C","en":"Status Stage: Strong Appleweed Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"},"value":{"x":75.0,"y":75.0}},{"source":{"key":"FirerootEffect","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":100.0,"name":{"zh":"\u706B\u6839","en":"Fireroot","ja":"\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u706B\u917F\u6548\u679C","en":"Status Stage: Mild Firebrew Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u708E\u30DD\u30FC\u30B7\u30E7\u30F3\u52B9\u679C"},"value":{"x":75.0,"y":75.0}},{"source":{"key":"FirerootEffect","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":100.0,"name":{"zh":"\u706B\u6839","en":"Fireroot","ja":"\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u706B\u917F\u6548\u679C","en":"Status Stage: Medium Firebrew Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u708E\u30DD\u30FC\u30B7\u30E7\u30F3\u52B9\u679C"},"value":{"x":125.0,"y":125.0}},{"source":{"key":"FirerootEffect","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":100.0,"name":{"zh":"\u706B\u6839","en":"Fireroot","ja":"\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u706B\u917F\u6548\u679C","en":"Status Stage:  Strong Firebrew Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u708E\u30DD\u30FC\u30B7\u30E7\u30F3\u52B9\u679C"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"GarlicEffect","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":100.0,"name":{"zh":"\u849C","en":"Garlic","ja":"\u30CB\u30F3\u30CB\u30AF"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u5927\u849C\u6548\u679C","en":"Status Stage: Mild Garlic Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u30CB\u30F3\u30CB\u30AF\u52B9\u679C"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"GarlicEffect","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":100.0,"name":{"zh":"\u849C","en":"Garlic","ja":"\u30CB\u30F3\u30CB\u30AF"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5927\u849C\u6548\u679C","en":"Status Stage: Medium Garlic Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30CB\u30F3\u30CB\u30AF\u52B9\u679C"},"value":{"x":75.0,"y":75.0}},{"source":{"key":"GarlicEffect","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":100.0,"name":{"zh":"\u849C","en":"Garlic","ja":"\u30CB\u30F3\u30CB\u30AF"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u5927\u849C\u6548\u679C","en":"Status Stage: Strong Garlic Effect","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u30CB\u30F3\u30CB\u30AF\u52B9\u679C"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"Iron","type":"GameStat","icon":"747f992097b9e5c9","min":0.0,"max":336.0,"name":{"zh":"\u94C1\u5143\u7D20","en":"Iron","ja":"\u9244"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u7F3A\u94C1","en":"Status Stage: Low Iron","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9244\u5206\u4E0D\u8DB3"},"value":{"x":-150.0,"y":-150.0}},{"source":{"key":"Proteins","type":"GameStat","icon":"a83601a86cc93685","min":0.0,"max":336.0,"name":{"zh":"\u86CB\u767D\u8D28","en":"Proteins","ja":"\u30BF\u30F3\u30D1\u30AF\u8CEA"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u86CB\u767D","en":"Status Stage: Low Proteins","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30B4\u30DF"},"value":{"x":-150.0,"y":-150.0}},{"source":{"key":"Vitamins","type":"GameStat","icon":"544dd80cb4004856","min":0.0,"max":336.0,"name":{"zh":"\u7EF4\u751F\u7D20","en":"Vitamins","ja":"\u30D3\u30BF\u30DF\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u7EF4\u751F\u7D20","en":"Status Stage: Low Vitamins","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u306A\u3044\u30D3\u30BF\u30DF\u30F3"},"value":{"x":-100.0,"y":-100.0}},{"source":{"key":"Weight","type":"GameStat","icon":"0e74d4105e8a3faa","min":293999.0,"max":1000000.0,"name":{"zh":"\u4F53\u91CD","en":"Weight","ja":"\u4F53\u91CD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4F53\u91CD\u8FC7\u8F7B","en":"Status Stage: Underweight","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4F53\u91CD\u304C\u8EFD\u3044"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"Weight","type":"GameStat","icon":"0e74d4105e8a3faa","min":293999.0,"max":1000000.0,"name":{"zh":"\u4F53\u91CD","en":"Weight","ja":"\u4F53\u91CD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u7AEF\u8FC7\u7626","en":"Status Stage: Severely Underweight","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4F53\u91CD\u304C\u304B\u306A\u308A\u8EFD\u3044"},"value":{"x":-100.0,"y":-100.0}},{"source":{"key":"Weight","type":"GameStat","icon":"0e74d4105e8a3faa","min":293999.0,"max":1000000.0,"name":{"zh":"\u4F53\u91CD","en":"Weight","ja":"\u4F53\u91CD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u7626\u5F31","en":"Status Stage: Emaciated","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30AC\u30EA\u30AC\u30EA"},"value":{"x":-150.0,"y":-150.0}},{"source":{"key":"Weight","type":"GameStat","icon":"0e74d4105e8a3faa","min":293999.0,"max":1000000.0,"name":{"zh":"\u4F53\u91CD","en":"Weight","ja":"\u4F53\u91CD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6FD2\u4E34\u997F\u6B7B","en":"Status Stage: On the Verge of Starvation","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u98E2\u9913\u72B6\u614B\u306B\u306A\u308A\u305D\u3046"},"value":{"x":-200.0,"y":-200.0}},{"source":{"key":"Fever","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":1000.0,"name":{"zh":"\u53D1\u70E7","en":"Fever","ja":"\u767A\u71B1"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u53D1\u70E7","en":"Status Stage: Fever","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u767A\u71B1"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"Fever","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":1000.0,"name":{"zh":"\u53D1\u70E7","en":"Fever","ja":"\u767A\u71B1"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u53D1\u70E7","en":"Status Stage: Fever","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u767A\u71B1"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"Fever","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":1000.0,"name":{"zh":"\u53D1\u70E7","en":"Fever","ja":"\u767A\u71B1"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u70E7","en":"Status Stage: High Fever","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u71B1"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"Fever","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":1000.0,"name":{"zh":"\u53D1\u70E7","en":"Fever","ja":"\u767A\u71B1"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8D85\u9AD8\u70E7","en":"Status Stage: Very High Fever","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3059\u3054\u3044\u9AD8\u71B1"},"value":{"x":150.0,"y":150.0}},{"source":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Status Stage: Parasitic Gut Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"},"value":{"x":-25.0,"y":-25.0}},{"source":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Status Stage: Parasitic Gut Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Status Stage: Parasitic Gut Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"},"value":{"x":-75.0,"y":-75.0}},{"source":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u53D1\u70E7","en":"Status Stage: Fever","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u767A\u71B1"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u53D1\u70E7","en":"Status Stage: Fever","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u767A\u71B1"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u70E7","en":"Status Stage: High Fever","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u71B1"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8D85\u9AD8\u70E7","en":"Status Stage: Very High Fever","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3059\u3054\u3044\u9AD8\u71B1"},"value":{"x":150.0,"y":150.0}},{"source":{"key":"SunlightExposure","type":"GameStat","icon":"ef6572e4cd58bb39","min":0.0,"max":672.0,"name":{"zh":"\u9633\u5149\u8F90\u5C04","en":"Sunlight Exposure","ja":"\u65E5\u5149"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u65E5\u7167\u4E0D\u8DB3","en":"Status Stage: Sunlight Deficiency","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u65E5\u5149\u4E0D\u8DB3"},"value":{"x":-100.0,"y":-100.0}},{"source":{"key":"Estrogen","type":"GameStat","icon":"12ddd58e0e6a1a87","min":0.0,"max":100.0,"name":{"zh":"\u96CC\u6FC0\u7D20","en":"Estrogen","ja":"\u5973\u6027\u30DB\u30EB\u30E2\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u96CC\u6FC0\u7D20\u6C34\u5E73","en":"Status Stage: Moderate Estrogen","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5973\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u4E2D\uFF09"},"value":{"x":25.0,"y":25.0}},{"source":{"key":"Estrogen","type":"GameStat","icon":"12ddd58e0e6a1a87","min":0.0,"max":100.0,"name":{"zh":"\u96CC\u6FC0\u7D20","en":"Estrogen","ja":"\u5973\u6027\u30DB\u30EB\u30E2\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u96CC\u6FC0\u7D20\u6C34\u5E73","en":"Status Stage: High Estrogen","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5973\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u9AD8\uFF09"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"AntibioticsEffect","type":"GameStat","min":0.0,"max":96.0,"name":{"zh":"\u6297\u751F\u7D20","en":"Antibiotics","ja":"\u6297\u751F\u7269\u8CEA"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u6297\u751F\u7D20\u5242\u91CF","en":"Status Stage: Moderate Antibiotics Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9069\u91CF\u306E\u6297\u751F\u7269\u8CEA"},"value":{"x":300.0,"y":300.0}},{"source":{"key":"AntibioticsEffect","type":"GameStat","min":0.0,"max":96.0,"name":{"zh":"\u6297\u751F\u7D20","en":"Antibiotics","ja":"\u6297\u751F\u7269\u8CEA"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u6297\u751F\u7D20\u5242\u91CF","en":"Status Stage: Strong Antibiotics Dose","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF\u306E\u6297\u751F\u7269\u8CEA"},"value":{"x":600.0,"y":600.0}},{"source":{"key":"Pk_2_1_ImmuneSystemStrong","type":"CharacterPerk","icon":"4c0984e0a4d80995","name":{"zh":"\u5F3A\u514D\u75AB\u7CFB\u7EDF","en":"Strong Immune System","ja":"\u9AD8\u3044\u514D\u75AB\u529B"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":100.0,"y":100.0}},{"source":{"key":"Pk_2_1_ImmuneSystemWeak","type":"CharacterPerk","icon":"4c0984e0a4d80995","name":{"zh":"\u5F31\u514D\u75AB\u7CFB\u7EDF","en":"Weak Immune System","ja":"\u4F4E\u3044\u514D\u75AB\u529B"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":-100.0,"y":-100.0}}],"_uuid":"322eaed3c37a4cd4b8b088495db6a8ed"}
+
+{
+  "GameName" : {
+    "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+    "en" : "Immune System",
+    "ja" : "\u514D\u75AB\u7CFB"
+  },
+  "Description" : {
+    "zh" : "\u6D88\u706D\u611F\u67D3\u4F60\u7684\u7EC6\u83CC\u548C\u5BC4\u751F\u866B\u3002",
+    "en" : "Gets rid of the Bacteria and Parasites infecting your body.",
+    "ja" : "\u4F53\u306B\u5165\u3063\u3066\u308B\u3070\u3044\u83CC\u3084\u5BC4\u751F\u866B\u3092\u99C6\u9664\u3059\u308B\u3002"
+  },
+  "BaseValue"   : 150.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 325.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 100,
+  "Visibility"      : 0,
+  "VisibleInDetailedList" : true,
+  "VisibleValueRange"     : {
+    "x" : 0.0,
+    "y" : 325.0
+  },
+  "BarColor"              : {
+    "r" : 0.6941,
+    "g" : 0.4314,
+    "b" : 0.2784,
+    "a" : 1.0
+  },
+  "BarHighlightColor"     : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon"     : {
+    "FileName" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon"
+  },
+  "Statuses"              : [
+    {
+      "GameName" : {
+        "zh" : "\u65E0\u514D\u75AB\u529B",
+        "en" : "No Immune System",
+        "ja" : "\u514D\u75AB\u7CFB\u304C\u306A\u3044"
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Infection_Systemic",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1800.0,
+            "name" : {
+              "zh" : "\u5168\u8EAB\u611F\u67D3",
+              "en" : "Systemic Infection",
+              "ja" : "\u5168\u8EAB\u611F\u67D3"
+            }
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_LowerRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0B\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Lower Respiratory Infection",
+              "ja" : "\u4E0B\u6C17\u9053\u611F\u67D3"
+            }
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_UpperRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0A\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Upper Respiratory Infection",
+              "ja" : "\u4E0A\u6C17\u9053\u611F\u67D3"
+            }
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_Gastrointestinal",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+              "en" : "Gastrointestinal Infection",
+              "ja" : "\u80C3\u8178\u611F\u67D3"
+            }
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Parasites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Parasites__Statuses-2-Icon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+              "en" : "Parasitic Gut Infection",
+              "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u53D7\u635F\u514D\u75AB\u529B",
+        "en" : "Compromised Immune System",
+        "ja" : "\u975E\u5E38\u306B\u5F31\u3044\u514D\u75AB\u7CFB"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 75
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Infection_Systemic",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1800.0,
+            "name" : {
+              "zh" : "\u5168\u8EAB\u611F\u67D3",
+              "en" : "Systemic Infection",
+              "ja" : "\u5168\u8EAB\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_LowerRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0B\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Lower Respiratory Infection",
+              "ja" : "\u4E0B\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_UpperRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0A\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Upper Respiratory Infection",
+              "ja" : "\u4E0A\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_Gastrointestinal",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+              "en" : "Gastrointestinal Infection",
+              "ja" : "\u80C3\u8178\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Parasites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Parasites__Statuses-2-Icon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+              "en" : "Parasitic Gut Infection",
+              "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampFeverInfectedRBCs",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100000.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+              "en" : "Swamp Fever Infected RBCs",
+              "ja" : "Swamp Fever Infected RBCs"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u5F31\u514D\u75AB\u529B",
+        "en" : "Weak Immune System",
+        "ja" : "\u5F31\u3044\u514D\u75AB\u7CFB"
+      },
+      "ValueRange" : {
+        "m_X" : 76,
+        "m_Y" : 125
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Infection_Systemic",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1800.0,
+            "name" : {
+              "zh" : "\u5168\u8EAB\u611F\u67D3",
+              "en" : "Systemic Infection",
+              "ja" : "\u5168\u8EAB\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_LowerRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0B\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Lower Respiratory Infection",
+              "ja" : "\u4E0B\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_UpperRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0A\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Upper Respiratory Infection",
+              "ja" : "\u4E0A\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_Gastrointestinal",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+              "en" : "Gastrointestinal Infection",
+              "ja" : "\u80C3\u8178\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Parasites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Parasites__Statuses-2-Icon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+              "en" : "Parasitic Gut Infection",
+              "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampFeverInfectedRBCs",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100000.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+              "en" : "Swamp Fever Infected RBCs",
+              "ja" : "Swamp Fever Infected RBCs"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6B63\u5E38\u514D\u75AB\u529B",
+        "en" : "Normal Immune System",
+        "ja" : "\u666E\u901A\u306E\u514D\u75AB\u7CFB"
+      },
+      "ValueRange" : {
+        "m_X" : 126,
+        "m_Y" : 175
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Infection_Systemic",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1800.0,
+            "name" : {
+              "zh" : "\u5168\u8EAB\u611F\u67D3",
+              "en" : "Systemic Infection",
+              "ja" : "\u5168\u8EAB\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_LowerRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0B\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Lower Respiratory Infection",
+              "ja" : "\u4E0B\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_UpperRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0A\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Upper Respiratory Infection",
+              "ja" : "\u4E0A\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_Gastrointestinal",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+              "en" : "Gastrointestinal Infection",
+              "ja" : "\u80C3\u8178\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Parasites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Parasites__Statuses-2-Icon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+              "en" : "Parasitic Gut Infection",
+              "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampFeverInfectedRBCs",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100000.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+              "en" : "Swamp Fever Infected RBCs",
+              "ja" : "Swamp Fever Infected RBCs"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u5F3A\u514D\u75AB\u529B",
+        "en" : "Strong Immune System",
+        "ja" : "\u5F37\u3044\u514D\u75AB\u7CFB"
+      },
+      "ValueRange" : {
+        "m_X" : 176,
+        "m_Y" : 225
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Infection_Systemic",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1800.0,
+            "name" : {
+              "zh" : "\u5168\u8EAB\u611F\u67D3",
+              "en" : "Systemic Infection",
+              "ja" : "\u5168\u8EAB\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -8.0,
+            "y" : -8.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_LowerRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0B\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Lower Respiratory Infection",
+              "ja" : "\u4E0B\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -8.0,
+            "y" : -8.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_UpperRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0A\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Upper Respiratory Infection",
+              "ja" : "\u4E0A\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -8.0,
+            "y" : -8.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_Gastrointestinal",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+              "en" : "Gastrointestinal Infection",
+              "ja" : "\u80C3\u8178\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -8.0,
+            "y" : -8.0
+          }
+        },
+        {
+          "RateModifier" : {
+            "x" : -8.0,
+            "y" : -8.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Parasites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Parasites__Statuses-2-Icon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+              "en" : "Parasitic Gut Infection",
+              "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -6.0,
+            "y" : -6.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampFeverInfectedRBCs",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100000.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+              "en" : "Swamp Fever Infected RBCs",
+              "ja" : "Swamp Fever Infected RBCs"
+            }
+          },
+          "RateModifier" : {
+            "x" : -6.0,
+            "y" : -6.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u8D85\u5F3A\u514D\u75AB\u529B",
+        "en" : "Very Strong Immune System",
+        "ja" : "\u304B\u306A\u308A\u5F37\u3044\u514D\u75AB\u7CFB"
+      },
+      "ValueRange" : {
+        "m_X" : 226,
+        "m_Y" : 275
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Infection_Systemic",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1800.0,
+            "name" : {
+              "zh" : "\u5168\u8EAB\u611F\u67D3",
+              "en" : "Systemic Infection",
+              "ja" : "\u5168\u8EAB\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -16.0,
+            "y" : -16.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_LowerRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0B\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Lower Respiratory Infection",
+              "ja" : "\u4E0B\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -16.0,
+            "y" : -16.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_UpperRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0A\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Upper Respiratory Infection",
+              "ja" : "\u4E0A\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -16.0,
+            "y" : -16.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_Gastrointestinal",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+              "en" : "Gastrointestinal Infection",
+              "ja" : "\u80C3\u8178\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -16.0,
+            "y" : -16.0
+          }
+        },
+        {
+          "RateModifier" : {
+            "x" : -16.0,
+            "y" : -16.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Parasites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Parasites__Statuses-2-Icon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+              "en" : "Parasitic Gut Infection",
+              "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -8.0,
+            "y" : -8.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampFeverInfectedRBCs",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100000.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+              "en" : "Swamp Fever Infected RBCs",
+              "ja" : "Swamp Fever Infected RBCs"
+            }
+          },
+          "RateModifier" : {
+            "x" : -8.0,
+            "y" : -8.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u575A\u4E0D\u53EF\u6467",
+        "en" : "Artificially Strong Immune System",
+        "ja" : "\u4EBA\u5DE5\u7684\u306B\u5F37\u5316\u3055\u308C\u305F\u514D\u75AB\u7CFB"
+      },
+      "ValueRange" : {
+        "m_X" : 276,
+        "m_Y" : 325
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Infection_Systemic",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1800.0,
+            "name" : {
+              "zh" : "\u5168\u8EAB\u611F\u67D3",
+              "en" : "Systemic Infection",
+              "ja" : "\u5168\u8EAB\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -32.0,
+            "y" : -32.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_LowerRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0B\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Lower Respiratory Infection",
+              "ja" : "\u4E0B\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -32.0,
+            "y" : -32.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_UpperRespiratory",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u4E0A\u547C\u5438\u9053\u611F\u67D3",
+              "en" : "Upper Respiratory Infection",
+              "ja" : "\u4E0A\u6C17\u9053\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -32.0,
+            "y" : -32.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Infection_Gastrointestinal",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1000.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
+              "en" : "Gastrointestinal Infection",
+              "ja" : "\u80C3\u8178\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -32.0,
+            "y" : -32.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Parasites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Parasites__Statuses-2-Icon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+              "en" : "Parasitic Gut Infection",
+              "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+            }
+          },
+          "RateModifier" : {
+            "x" : -12.0,
+            "y" : -12.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampFeverInfectedRBCs",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100000.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+              "en" : "Swamp Fever Infected RBCs",
+              "ja" : "Swamp Fever Infected RBCs"
+            }
+          },
+          "RateModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon"
+    },
+    "StepValue" : 5.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "ImmuneSystem",
+  "icon"                    : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+  "name"                    : {
+    "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+    "en" : "Immune System",
+    "ja" : "\u514D\u75AB\u7CFB"
+  },
+  "min"                     : 0.0,
+  "max"                     : 325.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "CabinConstructionLocationCabinRoom",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__CabinConstructionLocationCabinRoom__CardImage",
+        "name"     : {
+          "zh" : "\u6728\u8D28\u623F\u95F4",
+          "en" : "Cabin Room",
+          "ja" : "\u5C0F\u5C4B\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CabinConstructionLocationCabinRoom",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__CabinConstructionLocationCabinRoom__CardImage",
+        "name"     : {
+          "zh" : "\u6728\u8D28\u623F\u95F4",
+          "en" : "Cabin Room",
+          "ja" : "\u5C0F\u5C4B\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CabinConstructionLocationCabinRoom",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__CabinConstructionLocationCabinRoom__CardImage",
+        "name"     : {
+          "zh" : "\u6728\u8D28\u623F\u95F4",
+          "en" : "Cabin Room",
+          "ja" : "\u5C0F\u5C4B\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CabinConstructionStartingPointCabin",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cabin__CardImage",
+        "name"     : {
+          "zh" : "\u6728\u5C4B",
+          "en" : "Cabin",
+          "ja" : "\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CabinConstructionStartingPointCabin",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cabin__CardImage",
+        "name"     : {
+          "zh" : "\u6728\u5C4B",
+          "en" : "Cabin",
+          "ja" : "\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CabinConstructionStartingPointCabin",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cabin__CardImage",
+        "name"     : {
+          "zh" : "\u6728\u5C4B",
+          "en" : "Cabin",
+          "ja" : "\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionLocationCellar",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cellar__CardImage",
+        "name"     : {
+          "zh" : "\u5730\u7A96",
+          "en" : "Cellar",
+          "ja" : "\u30BB\u30E9\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionLocationCellar",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cellar__CardImage",
+        "name"     : {
+          "zh" : "\u5730\u7A96",
+          "en" : "Cellar",
+          "ja" : "\u30BB\u30E9\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionLocationCellar",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cellar__CardImage",
+        "name"     : {
+          "zh" : "\u5730\u7A96",
+          "en" : "Cellar",
+          "ja" : "\u30BB\u30E9\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionLocationRoom",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__EnclosureExit__CardImage",
+        "name"     : {
+          "zh" : "\u623F\u95F4",
+          "en" : "Room",
+          "ja" : "\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionLocationRoom",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__EnclosureExit__CardImage",
+        "name"     : {
+          "zh" : "\u623F\u95F4",
+          "en" : "Room",
+          "ja" : "\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionLocationRoom",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__EnclosureExit__CardImage",
+        "name"     : {
+          "zh" : "\u623F\u95F4",
+          "en" : "Room",
+          "ja" : "\u90E8\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionStartingPointCellar",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cellar__CardImage",
+        "name"     : {
+          "zh" : "\u5730\u7A96",
+          "en" : "Cellar",
+          "ja" : "\u30BB\u30E9\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionStartingPointCellar",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cellar__CardImage",
+        "name"     : {
+          "zh" : "\u5730\u7A96",
+          "en" : "Cellar",
+          "ja" : "\u30BB\u30E9\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionStartingPointCellar",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_Cellar__CardImage",
+        "name"     : {
+          "zh" : "\u5730\u7A96",
+          "en" : "Cellar",
+          "ja" : "\u30BB\u30E9\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionStartingPointMudHut",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_MudHut__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u5C4B",
+          "en" : "Mud Hut",
+          "ja" : "\u6CE5\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionStartingPointMudHut",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_MudHut__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u5C4B",
+          "en" : "Mud Hut",
+          "ja" : "\u6CE5\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionStartingPointMudHut",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Bp_MudHut__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u5C4B",
+          "en" : "Mud Hut",
+          "ja" : "\u6CE5\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u84B8\u6C57",
+        "en" : "Passive Effect: Sauna",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASauna"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Spirit_HagBargainHealth",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__Fever__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u5EB7\u5065\u5951\u7EA6",
+          "en" : "Health Bargain",
+          "ja" : "Health Bargain"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1APermanent minimum 301 Fever and 50 Immune System",
+        "en" : "Passive Effect: Permanent minimum 301 Fever and 50 Immune System",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1APermanent minimum 301 Fever and 50 Immune System"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ChinaRoseEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__ChinaRoseEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u6708\u5B63\u6548\u679C",
+          "en" : "China Rose Effect",
+          "ja" : "\u30B3\u30A6\u30B7\u30F3\u30D0\u30E9\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u6708\u5B63\u6548\u679C",
+        "en" : "Status Stage: Moderate China Rose Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30B3\u30A6\u30B7\u30F3\u30D0\u30E9\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ChinaRoseEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__ChinaRoseEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u6708\u5B63\u6548\u679C",
+          "en" : "China Rose Effect",
+          "ja" : "\u30B3\u30A6\u30B7\u30F3\u30D0\u30E9\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u6708\u5B63\u6548\u679C",
+        "en" : "Status Stage: Strong China Rose Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u306E\u30B3\u30A6\u30B7\u30F3\u30D0\u30E9\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 30.0,
+        "y" : 30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GingerEffect",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u59DC\u6548\u679C",
+          "en" : "Ginger",
+          "ja" : "\u751F\u59DC"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u5242\u91CF",
+        "en" : "Status Stage: Small Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GingerEffect",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u59DC\u6548\u679C",
+          "en" : "Ginger",
+          "ja" : "\u751F\u59DC"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5242\u91CF",
+        "en" : "Status Stage: High Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpiderLilyEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__SpiderLilyEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u8718\u86DB\u5170\u6548\u679C",
+          "en" : "Spider Lily Effect",
+          "ja" : "\u30D2\u30AC\u30F3\u30D0\u30CA\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u8718\u86DB\u5170\u6548\u679C",
+        "en" : "Status Stage: Moderate Spider Lily Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30D2\u30AC\u30F3\u30D0\u30CA\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 200.0,
+        "y" : 200.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpiderLilyEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__SpiderLilyEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u8718\u86DB\u5170\u6548\u679C",
+          "en" : "Spider Lily Effect",
+          "ja" : "\u30D2\u30AC\u30F3\u30D0\u30CA\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u8718\u86DB\u5170\u6548\u679C",
+        "en" : "Status Stage: Strong Spider Lily Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u3044\u306E\u30D2\u30AC\u30F3\u30D0\u30CA\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 300.0,
+        "y" : 300.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "InnerWarmthXYZ",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5185\u70ED\u81EA\u751F",
+          "en" : "Inner Warmth",
+          "ja" : "\u5FC3\u306E\u6E29\u3082\u308A"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F",
+        "en" : "Status Stage: Inner Warmth",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "InnerWarmthXYZ",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5185\u70ED\u81EA\u751F",
+          "en" : "Inner Warmth",
+          "ja" : "\u5FC3\u306E\u6E29\u3082\u308A"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F",
+        "en" : "Status Stage: Inner Warmth",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "InnerWarmthXYZ",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5185\u70ED\u81EA\u751F",
+          "en" : "Inner Warmth",
+          "ja" : "\u5FC3\u306E\u6E29\u3082\u308A"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F",
+        "en" : "Status Stage: Inner Warmth",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"
+      },
+      "value"       : {
+        "x" : 75.0,
+        "y" : 75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "InnerWarmthXYZ",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5185\u70ED\u81EA\u751F",
+          "en" : "Inner Warmth",
+          "ja" : "\u5FC3\u306E\u6E29\u3082\u308A"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F",
+        "en" : "Status Stage: Inner Warmth",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "InnerWarmthXYZ",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5185\u70ED\u81EA\u751F",
+          "en" : "Inner Warmth",
+          "ja" : "\u5FC3\u306E\u6E29\u3082\u308A"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F",
+        "en" : "Status Stage: Inner Warmth",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"
+      },
+      "value"       : {
+        "x" : 125.0,
+        "y" : 125.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "InnerWarmthXYZ",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5185\u70ED\u81EA\u751F",
+          "en" : "Inner Warmth",
+          "ja" : "\u5FC3\u306E\u6E29\u3082\u308A"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5185\u70ED\u81EA\u751F",
+        "en" : "Status Stage: Inner Warmth",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u306E\u6E29\u304B\u3055"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 75.0,
+        "y" : 75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 125.0,
+        "y" : 125.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Resilience",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
+          "en" : "Bestial Resilience",
+          "ja" : "\u7363\u7684\u8010\u4E45\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u517D\u4E4B\u575A\u97E7",
+        "en" : "Status Stage: Bestial Resilience",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7363\u7684\u8010\u4E45\u529B"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Morale",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+        "min"  : -350.0,
+        "max"  : 350.0,
+        "name" : {
+          "zh" : "\u60C5\u7EEA",
+          "en" : "Morale",
+          "ja" : "\u58EB\u6C17"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6B22\u6B23",
+        "en" : "Status Stage: Euphoric",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5E78\u305B"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Morale",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+        "min"  : -350.0,
+        "max"  : 350.0,
+        "name" : {
+          "zh" : "\u60C5\u7EEA",
+          "en" : "Morale",
+          "ja" : "\u58EB\u6C17"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5FEB\u4E50",
+        "en" : "Status Stage: Happy",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E0A\u6A5F\u5ACC"
+      },
+      "value"       : {
+        "x" : 75.0,
+        "y" : 75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Morale",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+        "min"  : -350.0,
+        "max"  : 350.0,
+        "name" : {
+          "zh" : "\u60C5\u7EEA",
+          "en" : "Morale",
+          "ja" : "\u58EB\u6C17"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6EE1\u610F",
+        "en" : "Status Stage: Content",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6E80\u8DB3"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Morale",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+        "min"  : -350.0,
+        "max"  : 350.0,
+        "name" : {
+          "zh" : "\u60C5\u7EEA",
+          "en" : "Morale",
+          "ja" : "\u58EB\u6C17"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5931\u843D",
+        "en" : "Status Stage: Feeling down",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u843D\u3061\u8FBC\u3093\u3067\u308B"
+      },
+      "value"       : {
+        "x" : -25.0,
+        "y" : -25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Morale",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+        "min"  : -350.0,
+        "max"  : 350.0,
+        "name" : {
+          "zh" : "\u60C5\u7EEA",
+          "en" : "Morale",
+          "ja" : "\u58EB\u6C17"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6291\u90C1",
+        "en" : "Status Stage: Depressed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3057\u3093\u3069\u3044"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Morale",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+        "min"  : -350.0,
+        "max"  : 350.0,
+        "name" : {
+          "zh" : "\u60C5\u7EEA",
+          "en" : "Morale",
+          "ja" : "\u58EB\u6C17"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E25\u91CD\u6291\u90C1",
+        "en" : "Status Stage: Seriously Depressed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9B31\u75C5"
+      },
+      "value"       : {
+        "x" : -75.0,
+        "y" : -75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Morale",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+        "min"  : -350.0,
+        "max"  : 350.0,
+        "name" : {
+          "zh" : "\u60C5\u7EEA",
+          "en" : "Morale",
+          "ja" : "\u58EB\u6C17"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5D29\u6E83",
+        "en" : "Status Stage: Self Destructive",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u81EA\u5DF1\u7834\u58CA\u7684"
+      },
+      "value"       : {
+        "x" : -100.0,
+        "y" : -100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SleepDeprivationEffects",
+        "type" : "GameStat",
+        "icon" : "GameStat__Eyesight__Statuses-0-Icon",
+        "min"  : 0.0,
+        "max"  : 4.0,
+        "name" : {
+          "zh" : "\u7761\u7720\u4E0D\u8DB3\u6548\u679C",
+          "en" : "Sleep Deprivation",
+          "ja" : "Sleep Deprivation"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5FAE\u7F3A\u4E4F\u7761\u7720",
+        "en" : "Status Stage: Minor Sleep Deprivation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u3057\u7761\u7720\u4E0D\u8DB3"
+      },
+      "value"       : {
+        "x" : -25.0,
+        "y" : -25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SleepDeprivationEffects",
+        "type" : "GameStat",
+        "icon" : "GameStat__Eyesight__Statuses-0-Icon",
+        "min"  : 0.0,
+        "max"  : 4.0,
+        "name" : {
+          "zh" : "\u7761\u7720\u4E0D\u8DB3\u6548\u679C",
+          "en" : "Sleep Deprivation",
+          "ja" : "Sleep Deprivation"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7F3A\u4E4F\u7761\u7720",
+        "en" : "Status Stage: Sleep Deprivation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7761\u7720\u4E0D\u8DB3"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SleepDeprivationEffects",
+        "type" : "GameStat",
+        "icon" : "GameStat__Eyesight__Statuses-0-Icon",
+        "min"  : 0.0,
+        "max"  : 4.0,
+        "name" : {
+          "zh" : "\u7761\u7720\u4E0D\u8DB3\u6548\u679C",
+          "en" : "Sleep Deprivation",
+          "ja" : "Sleep Deprivation"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5EA6\u7F3A\u4E4F\u7761\u7720",
+        "en" : "Status Stage: Major Sleep Deprivation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u7761\u7720\u4E0D\u8DB3"
+      },
+      "value"       : {
+        "x" : -100.0,
+        "y" : -100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SleepDeprivationEffects",
+        "type" : "GameStat",
+        "icon" : "GameStat__Eyesight__Statuses-0-Icon",
+        "min"  : 0.0,
+        "max"  : 4.0,
+        "name" : {
+          "zh" : "\u7761\u7720\u4E0D\u8DB3\u6548\u679C",
+          "en" : "Sleep Deprivation",
+          "ja" : "Sleep Deprivation"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u5EA6\u7F3A\u4E4F\u7761\u7720",
+        "en" : "Status Stage: Serious Sleep Deprivation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5371\u967A\u306A\u307B\u3069\u7761\u7720\u4E0D\u8DB3"
+      },
+      "value"       : {
+        "x" : -200.0,
+        "y" : -200.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "AppleWeedEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__AppleWeedEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u67F0\u8349\u6548\u679C",
+          "en" : "Appleweed Effect",
+          "ja" : "\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u67F0\u8349\u6548\u679C",
+        "en" : "Status Stage: Weak Appleweed Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "AppleWeedEffect",
+        "type" : "GameStat",
+        "icon" : "GameStat__AppleWeedEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 48.0,
+        "name" : {
+          "zh" : "\u67F0\u8349\u6548\u679C",
+          "en" : "Appleweed Effect",
+          "ja" : "\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u67F0\u8349\u6548\u679C",
+        "en" : "Status Stage: Strong Appleweed Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 75.0,
+        "y" : 75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FirerootEffect",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u706B\u6839",
+          "en" : "Fireroot",
+          "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u706B\u917F\u6548\u679C",
+        "en" : "Status Stage: Mild Firebrew Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u708E\u30DD\u30FC\u30B7\u30E7\u30F3\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 75.0,
+        "y" : 75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FirerootEffect",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u706B\u6839",
+          "en" : "Fireroot",
+          "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u706B\u917F\u6548\u679C",
+        "en" : "Status Stage: Medium Firebrew Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u708E\u30DD\u30FC\u30B7\u30E7\u30F3\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 125.0,
+        "y" : 125.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FirerootEffect",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u706B\u6839",
+          "en" : "Fireroot",
+          "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u706B\u917F\u6548\u679C",
+        "en" : "Status Stage:  Strong Firebrew Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u708E\u30DD\u30FC\u30B7\u30E7\u30F3\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 200.0,
+        "y" : 200.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GarlicEffect",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u849C",
+          "en" : "Garlic",
+          "ja" : "\u30CB\u30F3\u30CB\u30AF"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u5927\u849C\u6548\u679C",
+        "en" : "Status Stage: Mild Garlic Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u30CB\u30F3\u30CB\u30AF\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GarlicEffect",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u849C",
+          "en" : "Garlic",
+          "ja" : "\u30CB\u30F3\u30CB\u30AF"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5927\u849C\u6548\u679C",
+        "en" : "Status Stage: Medium Garlic Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30CB\u30F3\u30CB\u30AF\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 75.0,
+        "y" : 75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GarlicEffect",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u849C",
+          "en" : "Garlic",
+          "ja" : "\u30CB\u30F3\u30CB\u30AF"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u5927\u849C\u6548\u679C",
+        "en" : "Status Stage: Strong Garlic Effect",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u30CB\u30F3\u30CB\u30AF\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Iron",
+        "type" : "GameStat",
+        "icon" : "GameStat__BloodLoss__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 336.0,
+        "name" : {
+          "zh" : "\u94C1\u5143\u7D20",
+          "en" : "Iron",
+          "ja" : "\u9244"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7F3A\u94C1",
+        "en" : "Status Stage: Low Iron",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9244\u5206\u4E0D\u8DB3"
+      },
+      "value"       : {
+        "x" : -150.0,
+        "y" : -150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Proteins",
+        "type" : "GameStat",
+        "icon" : "CardData__LQ_MilkCurdled__SpecialDurability3-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 336.0,
+        "name" : {
+          "zh" : "\u86CB\u767D\u8D28",
+          "en" : "Proteins",
+          "ja" : "\u30BF\u30F3\u30D1\u30AF\u8CEA"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u86CB\u767D",
+        "en" : "Status Stage: Low Proteins",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30B4\u30DF"
+      },
+      "value"       : {
+        "x" : -150.0,
+        "y" : -150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Vitamins",
+        "type" : "GameStat",
+        "icon" : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 336.0,
+        "name" : {
+          "zh" : "\u7EF4\u751F\u7D20",
+          "en" : "Vitamins",
+          "ja" : "\u30D3\u30BF\u30DF\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u7EF4\u751F\u7D20",
+        "en" : "Status Stage: Low Vitamins",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u306A\u3044\u30D3\u30BF\u30DF\u30F3"
+      },
+      "value"       : {
+        "x" : -100.0,
+        "y" : -100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F53\u91CD\u8FC7\u8F7B",
+        "en" : "Status Stage: Underweight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4F53\u91CD\u304C\u8EFD\u3044"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u7AEF\u8FC7\u7626",
+        "en" : "Status Stage: Severely Underweight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4F53\u91CD\u304C\u304B\u306A\u308A\u8EFD\u3044"
+      },
+      "value"       : {
+        "x" : -100.0,
+        "y" : -100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7626\u5F31",
+        "en" : "Status Stage: Emaciated",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30AC\u30EA\u30AC\u30EA"
+      },
+      "value"       : {
+        "x" : -150.0,
+        "y" : -150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6FD2\u4E34\u997F\u6B7B",
+        "en" : "Status Stage: On the Verge of Starvation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u98E2\u9913\u72B6\u614B\u306B\u306A\u308A\u305D\u3046"
+      },
+      "value"       : {
+        "x" : -200.0,
+        "y" : -200.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Fever",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fever__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u53D1\u70E7",
+          "en" : "Fever",
+          "ja" : "\u767A\u71B1"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u53D1\u70E7",
+        "en" : "Status Stage: Fever",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u767A\u71B1"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Fever",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fever__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u53D1\u70E7",
+          "en" : "Fever",
+          "ja" : "\u767A\u71B1"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u53D1\u70E7",
+        "en" : "Status Stage: Fever",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u767A\u71B1"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Fever",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fever__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u53D1\u70E7",
+          "en" : "Fever",
+          "ja" : "\u767A\u71B1"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u70E7",
+        "en" : "Status Stage: High Fever",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u71B1"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Fever",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fever__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1000.0,
+        "name" : {
+          "zh" : "\u53D1\u70E7",
+          "en" : "Fever",
+          "ja" : "\u767A\u71B1"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8D85\u9AD8\u70E7",
+        "en" : "Status Stage: Very High Fever",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3059\u3054\u3044\u9AD8\u71B1"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Parasites",
+        "type" : "GameStat",
+        "icon" : "GameStat__Parasites__Statuses-2-Icon",
+        "min"  : 0.0,
+        "max"  : 1500.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+          "en" : "Parasitic Gut Infection",
+          "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+        "en" : "Status Stage: Parasitic Gut Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : -25.0,
+        "y" : -25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Parasites",
+        "type" : "GameStat",
+        "icon" : "GameStat__Parasites__Statuses-2-Icon",
+        "min"  : 0.0,
+        "max"  : 1500.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+          "en" : "Parasitic Gut Infection",
+          "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+        "en" : "Status Stage: Parasitic Gut Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Parasites",
+        "type" : "GameStat",
+        "icon" : "GameStat__Parasites__Statuses-2-Icon",
+        "min"  : 0.0,
+        "max"  : 1500.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+          "en" : "Parasitic Gut Infection",
+          "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+        "en" : "Status Stage: Parasitic Gut Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : -75.0,
+        "y" : -75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SwampFeverInfectedRBCs",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fever__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100000.0,
+        "name" : {
+          "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+          "en" : "Swamp Fever Infected RBCs",
+          "ja" : "Swamp Fever Infected RBCs"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u53D1\u70E7",
+        "en" : "Status Stage: Fever",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u767A\u71B1"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SwampFeverInfectedRBCs",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fever__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100000.0,
+        "name" : {
+          "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+          "en" : "Swamp Fever Infected RBCs",
+          "ja" : "Swamp Fever Infected RBCs"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u53D1\u70E7",
+        "en" : "Status Stage: Fever",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u767A\u71B1"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SwampFeverInfectedRBCs",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fever__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100000.0,
+        "name" : {
+          "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+          "en" : "Swamp Fever Infected RBCs",
+          "ja" : "Swamp Fever Infected RBCs"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u70E7",
+        "en" : "Status Stage: High Fever",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u71B1"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SwampFeverInfectedRBCs",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fever__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100000.0,
+        "name" : {
+          "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+          "en" : "Swamp Fever Infected RBCs",
+          "ja" : "Swamp Fever Infected RBCs"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8D85\u9AD8\u70E7",
+        "en" : "Status Stage: Very High Fever",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u3059\u3054\u3044\u9AD8\u71B1"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SunlightExposure",
+        "type" : "GameStat",
+        "icon" : "GameStat__Derealization__FeedbackInfo-NegativeIcon",
+        "min"  : 0.0,
+        "max"  : 672.0,
+        "name" : {
+          "zh" : "\u9633\u5149\u8F90\u5C04",
+          "en" : "Sunlight Exposure",
+          "ja" : "\u65E5\u5149"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u65E5\u7167\u4E0D\u8DB3",
+        "en" : "Status Stage: Sunlight Deficiency",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u65E5\u5149\u4E0D\u8DB3"
+      },
+      "value"       : {
+        "x" : -100.0,
+        "y" : -100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Estrogen",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u96CC\u6FC0\u7D20",
+          "en" : "Estrogen",
+          "ja" : "\u5973\u6027\u30DB\u30EB\u30E2\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u96CC\u6FC0\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: Moderate Estrogen",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5973\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u4E2D\uFF09"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Estrogen",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u96CC\u6FC0\u7D20",
+          "en" : "Estrogen",
+          "ja" : "\u5973\u6027\u30DB\u30EB\u30E2\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u96CC\u6FC0\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: High Estrogen",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5973\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u9AD8\uFF09"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "AntibioticsEffect",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u6297\u751F\u7D20",
+          "en" : "Antibiotics",
+          "ja" : "\u6297\u751F\u7269\u8CEA"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u6297\u751F\u7D20\u5242\u91CF",
+        "en" : "Status Stage: Moderate Antibiotics Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9069\u91CF\u306E\u6297\u751F\u7269\u8CEA"
+      },
+      "value"       : {
+        "x" : 300.0,
+        "y" : 300.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "AntibioticsEffect",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u6297\u751F\u7D20",
+          "en" : "Antibiotics",
+          "ja" : "\u6297\u751F\u7269\u8CEA"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u6297\u751F\u7D20\u5242\u91CF",
+        "en" : "Status Stage: Strong Antibiotics Dose",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF\u306E\u6297\u751F\u7269\u8CEA"
+      },
+      "value"       : {
+        "x" : 600.0,
+        "y" : 600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_2_1_ImmuneSystemStrong",
+        "type" : "CharacterPerk",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "name" : {
+          "zh" : "\u5F3A\u514D\u75AB\u7CFB\u7EDF",
+          "en" : "Strong Immune System",
+          "ja" : "\u9AD8\u3044\u514D\u75AB\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_2_1_ImmuneSystemWeak",
+        "type" : "CharacterPerk",
+        "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+        "name" : {
+          "zh" : "\u5F31\u514D\u75AB\u7CFB\u7EDF",
+          "en" : "Weak Immune System",
+          "ja" : "\u4F4E\u3044\u514D\u75AB\u529B"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -100.0,
+        "y" : -100.0
+      }
+    }
+  ],
+  "_uuid"                   : "322eaed3c37a4cd4b8b088495db6a8ed"
+}

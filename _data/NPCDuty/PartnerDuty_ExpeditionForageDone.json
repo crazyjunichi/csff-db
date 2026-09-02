@@ -1,1 +1,57 @@
-{"DutyName":{"zh":"\u89C5\u98DF\u8FDC\u5F81\u5B8C\u6210","en":"Foraging Expedition Done","ja":"Foraging Expedition Done"},"DutySummary":{"zh":"Finishing foraging expedition.","en":"Finishing foraging expedition.","ja":"Finishing foraging expedition."},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"Partner_ExpeditionActiveForage","type":"NPCStat","name":{"zh":"\u8FDC\u5F81\u4E2D(\u89C5\u98DF)","en":"Partner_ExpeditionActiveForage","ja":"Partner_ExpeditionActiveForage"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"Expedition Forage Done","type":"StartDialogDutyAction","name":{"zh":"Expedition Forage Done","en":"Expedition Forage Done","ja":"Expedition Forage Done"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_ExpeditionForageDone","name":{"zh":"\u89C5\u98DF\u8FDC\u5F81\u5B8C\u6210","en":"Foraging Expedition Done","ja":"Foraging Expedition Done"},"_uuid":"22b6887790872f84a8fb31edeeddb693"}
+
+{
+  "DutyName" : {
+    "zh" : "\u89C5\u98DF\u8FDC\u5F81\u5B8C\u6210",
+    "en" : "Foraging Expedition Done",
+    "ja" : "Foraging Expedition Done"
+  },
+  "DutySummary" : {
+    "zh" : "Finishing foraging expedition.",
+    "en" : "Finishing foraging expedition.",
+    "ja" : "Finishing foraging expedition."
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "Partner_ExpeditionActiveForage",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8FDC\u5F81\u4E2D(\u89C5\u98DF)",
+            "en" : "Partner_ExpeditionActiveForage",
+            "ja" : "Partner_ExpeditionActiveForage"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Expedition Forage Done",
+      "type" : "StartDialogDutyAction",
+      "name" : {
+        "zh" : "Expedition Forage Done",
+        "en" : "Expedition Forage Done",
+        "ja" : "Expedition Forage Done"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_ExpeditionForageDone",
+  "name"                 : {
+    "zh" : "\u89C5\u98DF\u8FDC\u5F81\u5B8C\u6210",
+    "en" : "Foraging Expedition Done",
+    "ja" : "Foraging Expedition Done"
+  },
+  "_uuid"                : "22b6887790872f84a8fb31edeeddb693"
+}

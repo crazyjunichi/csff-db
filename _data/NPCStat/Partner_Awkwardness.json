@@ -1,1 +1,238 @@
-{"GameName":{"zh":"\u5C34\u5C2C","en":"Awkwardness","ja":"Awkwardness"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1000.0},"DefaultRate":-10.0,"StatScalingToModifiers":[{"InterpolatedValue":{"InputStat":{"key":"Skill_Socials","type":"GameStat","icon":"52649902b67c6c1a","min":0.0,"max":150.0,"name":{"zh":"\u4EBA\u60C5\u7EC3\u8FBE","en":"Socials","ja":"\u793E\u4EA4"}},"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":2.0,"y":0.5},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"NPCStatScalingToModifiers":[{"InterpolatedValue":{"InputStat":{"key":"Partner_Affection","type":"NPCStat","name":{"zh":"\u597D\u611F","en":"Partner_Affection","ja":"Partner_Affection"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":20000.0},"OutputValueRange":{"x":4.0,"y":0.75},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}},{"InterpolatedValue":{"InputStat":{"key":"Partner_Infatuation","type":"NPCStat","name":{"zh":"\u8FF7\u604B","en":"Partner_Infatuation","ja":"Partner_Infatuation"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1000.0,"y":10000.0},"OutputValueRange":{"x":1.0,"y":0.75},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}},{"InterpolatedValue":{"InputStat":{"key":"Partner_Infatuation","type":"NPCStat","name":{"zh":"\u8FF7\u604B","en":"Partner_Infatuation","ja":"Partner_Infatuation"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":10001.0,"y":20000.0},"OutputValueRange":{"x":0.75,"y":1.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"Statuses":[{"GameName":{"zh":"\u611F\u5230\u5341\u5206\u5C34\u5C2C\u3002","en":"Feels very awkward.","ja":"Feels very awkward."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":750,"m_Y":1000},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_AttractionToPlayer","type":"NPCStat","name":{"zh":"\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B","en":"Partner_AttractionToPlayer","ja":"Partner_AttractionToPlayer"}},"ValueChange":{"MaxValue":-40.0,"FloatValue":-40.0,"Active":true}}]},{"GameName":{"zh":"\u611F\u5230\u5C34\u5C2C\u3002","en":"Feels awkward.","ja":"Feels awkward."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":250,"m_Y":749},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_AttractionToPlayer","type":"NPCStat","name":{"zh":"\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B","en":"Partner_AttractionToPlayer","ja":"Partner_AttractionToPlayer"}},"ValueChange":{"MaxValue":-20.0,"FloatValue":-20.0,"Active":true}}]},{"GameName":{"zh":"\u611F\u5230\u6709\u70B9\u5C34\u5C2C\u3002","en":"Feels a bit awkward.","ja":"Feels a bit awkward."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":100,"m_Y":249},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_AttractionToPlayer","type":"NPCStat","name":{"zh":"\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B","en":"Partner_AttractionToPlayer","ja":"Partner_AttractionToPlayer"}},"ValueChange":{"MaxValue":-10.0,"FloatValue":-10.0,"Active":true}}]}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"UsesNovelty":true,"NoveltyCooldownDuration":4,"StalenessMultiplier":2.0,"MaxStalenessStack":10,"type":"NPCStat","key":"Partner_Awkwardness","name":{"zh":"\u5C34\u5C2C","en":"Partner_Awkwardness","ja":"Partner_Awkwardness"},"_uuid":"dbbea32b43e0d4748ba0bba5737c9310"}
+
+{
+  "GameName" : {
+    "zh" : "\u5C34\u5C2C",
+    "en" : "Awkwardness",
+    "ja" : "Awkwardness"
+  },
+  "DefaultStartingValue" : 0.0,
+  "DefaultMinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 1000.0
+  },
+  "DefaultRate"          : -10.0,
+  "StatScalingToModifiers" : [
+    {
+      "InterpolatedValue" : {
+        "InputStat" : {
+          "key" : "Skill_Socials",
+          "type" : "GameStat",
+          "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+          "min"  : 0.0,
+          "max"  : 150.0,
+          "name" : {
+            "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+            "en" : "Socials",
+            "ja" : "\u793E\u4EA4"
+          }
+        },
+        "Value"     : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : 2.0,
+            "y" : 0.5
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "NPCStatScalingToModifiers" : [
+    {
+      "InterpolatedValue" : {
+        "InputStat" : {
+          "key" : "Partner_Affection",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u597D\u611F",
+            "en" : "Partner_Affection",
+            "ja" : "Partner_Affection"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 20000.0
+          },
+          "OutputValueRange" : {
+            "x" : 4.0,
+            "y" : 0.75
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "InterpolatedValue" : {
+        "InputStat" : {
+          "key" : "Partner_Infatuation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8FF7\u604B",
+            "en" : "Partner_Infatuation",
+            "ja" : "Partner_Infatuation"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 1000.0,
+            "y" : 10000.0
+          },
+          "OutputValueRange" : {
+            "x" : 1.0,
+            "y" : 0.75
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "InterpolatedValue" : {
+        "InputStat" : {
+          "key" : "Partner_Infatuation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8FF7\u604B",
+            "en" : "Partner_Infatuation",
+            "ja" : "Partner_Infatuation"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 10001.0,
+            "y" : 20000.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.75,
+            "y" : 1.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "Statuses"                  : [
+    {
+      "GameName" : {
+        "zh" : "\u611F\u5230\u5341\u5206\u5C34\u5C2C\u3002",
+        "en" : "Feels very awkward.",
+        "ja" : "Feels very awkward."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 750,
+        "m_Y" : 1000
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_AttractionToPlayer",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+              "en" : "Partner_AttractionToPlayer",
+              "ja" : "Partner_AttractionToPlayer"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -40.0,
+            "FloatValue" : -40.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u611F\u5230\u5C34\u5C2C\u3002",
+        "en" : "Feels awkward.",
+        "ja" : "Feels awkward."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 250,
+        "m_Y" : 749
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_AttractionToPlayer",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+              "en" : "Partner_AttractionToPlayer",
+              "ja" : "Partner_AttractionToPlayer"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -20.0,
+            "FloatValue" : -20.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u611F\u5230\u6709\u70B9\u5C34\u5C2C\u3002",
+        "en" : "Feels a bit awkward.",
+        "ja" : "Feels a bit awkward."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 100,
+        "m_Y" : 249
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_AttractionToPlayer",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+              "en" : "Partner_AttractionToPlayer",
+              "ja" : "Partner_AttractionToPlayer"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -10.0,
+            "FloatValue" : -10.0,
+            "Active"     : true
+          }
+        }
+      ]
+    }
+  ],
+  "HidingOptions"             : 0,
+  "TextDisplay"               : 0,
+  "NumberPrecision"           : 0,
+  "UsesNovelty"               : true,
+  "NoveltyCooldownDuration"   : 4,
+  "StalenessMultiplier"       : 2.0,
+  "MaxStalenessStack"         : 10,
+  "type"                      : "NPCStat",
+  "key"                       : "Partner_Awkwardness",
+  "name"                      : {
+    "zh" : "\u5C34\u5C2C",
+    "en" : "Partner_Awkwardness",
+    "ja" : "Partner_Awkwardness"
+  },
+  "_uuid"                     : "dbbea32b43e0d4748ba0bba5737c9310"
+}

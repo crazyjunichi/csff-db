@@ -1,1 +1,83 @@
-{"DutyName":{"zh":"\u6536\u83B7\u6CBC\u94C1","en":"Harvest","ja":"Harvest"},"DutySummary":{"zh":"Harvesting bog iron.","en":"Harvesting bog iron.","ja":"Harvesting bog iron."},"DutyTags":[{"key":"DutyTag_Methodical","type":"NPCDutyTag","name":{"zh":"\u6709\u6761\u4E0D\u7D0A\u7684","en":"Methodical","ja":"Methodical"}}],"MaxPerformPerDay":0,"DutyExecutionOptions":0,"ActionSequence":[{"key":"Start Duty Harvest Bog Iron","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Start Duty Harvest Bog Iron","en":"Start Duty Harvest Bog Iron","ja":"Start Duty Harvest Bog Iron"}},{"key":"Reduce Favour","type":"ChangeNPCStatDutyAction","name":{"zh":"Reduce Favour","en":"Reduce Favour","ja":"Reduce Favour"}},{"key":"Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Complete","en":"Complete","ja":"Complete"}},{"key":"Harvest Bog Iron by Hand","type":"AffectItemsDutyAction","name":{"zh":"Harvest Bog Iron by Hand","en":"Harvest Bog Iron by Hand","ja":"Harvest Bog Iron by Hand"}},{"key":"Reduce Favour and Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Reduce Favour and Complete","en":"Reduce Favour and Complete","ja":"Reduce Favour and Complete"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_HarvestBogIron","name":{"zh":"\u6536\u83B7\u6CBC\u94C1","en":"Harvest","ja":"Harvest"},"_uuid":"9ca1a9b656cc62b46b09e0da7d851ba8"}
+
+{
+  "DutyName" : {
+    "zh" : "\u6536\u83B7\u6CBC\u94C1",
+    "en" : "Harvest",
+    "ja" : "Harvest"
+  },
+  "DutySummary" : {
+    "zh" : "Harvesting bog iron.",
+    "en" : "Harvesting bog iron.",
+    "ja" : "Harvesting bog iron."
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Methodical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u6709\u6761\u4E0D\u7D0A\u7684",
+        "en" : "Methodical",
+        "ja" : "Methodical"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Start Duty Harvest Bog Iron",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Start Duty Harvest Bog Iron",
+        "en" : "Start Duty Harvest Bog Iron",
+        "ja" : "Start Duty Harvest Bog Iron"
+      }
+    },
+    {
+      "key" : "Reduce Favour",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour",
+        "en" : "Reduce Favour",
+        "ja" : "Reduce Favour"
+      }
+    },
+    {
+      "key" : "Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Complete",
+        "en" : "Complete",
+        "ja" : "Complete"
+      }
+    },
+    {
+      "key" : "Harvest Bog Iron by Hand",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Harvest Bog Iron by Hand",
+        "en" : "Harvest Bog Iron by Hand",
+        "ja" : "Harvest Bog Iron by Hand"
+      }
+    },
+    {
+      "key" : "Reduce Favour and Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour and Complete",
+        "en" : "Reduce Favour and Complete",
+        "ja" : "Reduce Favour and Complete"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_HarvestBogIron",
+  "name"                 : {
+    "zh" : "\u6536\u83B7\u6CBC\u94C1",
+    "en" : "Harvest",
+    "ja" : "Harvest"
+  },
+  "_uuid"                : "9ca1a9b656cc62b46b09e0da7d851ba8"
+}

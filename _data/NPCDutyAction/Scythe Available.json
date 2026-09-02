@@ -1,1 +1,31 @@
-{"Conditions":{"PlayerUsesCard":0,"RequiredCardsInInventory":[{"key":"ToolOrWeapon_Scythe_Metal","type":"CardData","CardType":0,"icon":"c87fbd6beac17efa","name":{"zh":"\u91D1\u5C5E\u5927\u9570\u5200","en":"Metal Scythe","ja":"\u91D1\u5C5E\u88FD\u306E\u5927\u938C"}}]},"OnFalse":{"Outcome":1,"MoveToStep":6},"key":"Scythe Available","type":"NPCDutyAction","name":{"zh":"Scythe Available","en":"Scythe Available","ja":"Scythe Available"},"actionType":"TakeSimpleDecisionDutyAction"}
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsInInventory" : [
+      {
+        "key" : "ToolOrWeapon_Scythe_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Scythe_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5927\u9570\u5200",
+          "en" : "Metal Scythe",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u5927\u938C"
+        }
+      }
+    ]
+  },
+  "OnFalse"    : {
+    "Outcome" : 1,
+    "MoveToStep" : 6
+  },
+  "key"        : "Scythe Available",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "Scythe Available",
+    "en" : "Scythe Available",
+    "ja" : "Scythe Available"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

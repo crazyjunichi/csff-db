@@ -1,1 +1,72 @@
-{"DutyName":{"zh":"\u9003\u8DD1","en":"Wolf Flee","ja":"Wolf Flee"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentMorale","type":"NPCStat","name":{"zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"}},"ConditionRange":{"x":0.0,"y":50.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"RememberWhenInterrupted":{"IntValue":0,"Active":true},"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfFleeMove","type":"MoveDutyAction","name":{"zh":"WolfFleeMove","en":"WolfFleeMove","ja":"WolfFleeMove"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Wolf_Flee","name":{"zh":"\u9003\u8DD1","en":"Wolf Flee","ja":"Wolf Flee"},"_uuid":"1c52a5314f5e6df458ddc4ac6a3e7c94"}
+
+{
+  "DutyName" : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Wolf Flee",
+    "ja" : "Wolf Flee"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentMorale",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6597\u5FD7",
+            "en" : "AgentMorale",
+            "ja" : "AgentMorale"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 50.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "RememberWhenInterrupted" : {
+    "IntValue" : 0,
+    "Active"   : true
+  },
+  "DutyExecutionOptions"    : 0,
+  "ActionSequence"          : [
+    {
+      "key" : "WolfFleeMove",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "WolfFleeMove",
+        "en" : "WolfFleeMove",
+        "ja" : "WolfFleeMove"
+      }
+    }
+  ],
+  "GiveUpOptions"           : 0,
+  "GiveUpTicks"             : 0,
+  "type"                    : "NPCDuty",
+  "key"                     : "AgentDuty_Wolf_Flee",
+  "name"                    : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Wolf Flee",
+    "ja" : "Wolf Flee"
+  },
+  "_uuid"                   : "1c52a5314f5e6df458ddc4ac6a3e7c94"
+}

@@ -1,1 +1,60 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"Campfire","type":"CardData","CardType":2,"icon":"9c22fc20ce801165","name":{"zh":"\u8425\u706B","en":"Campfire","ja":"\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"}}}}],"SearchPriority":0,"OwnershipPriority":0,"DutyPriority":2},"AffectType":1,"ItemModification":{"ModType":3,"TransformToLiquidQuantity":0.0,"LiquidEffectScaling":0,"SpoilageChange":{"x":100.0,"y":100.0}},"SimpleAffectDuration":0,"ActionToPerform":{"ActionType":1,"ActionTagFilter":[{"key":"RefuelAction","type":"ActionTag","name":{"zh":"\u6DFB\u71C3\u6599\u52A8\u4F5C","en":"RefuelAction","ja":"RefuelAction"}}],"GivenCardSelectionMethod":0,"ActionDroppedCards":0},"key":"EatHerbi","type":"NPCDutyAction","name":{"zh":"EatHerbi","en":"EatHerbi","ja":"EatHerbi"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Campfire",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Bp_Campfire__CardImage",
+            "name"     : {
+              "zh" : "\u8425\u706B",
+              "en" : "Campfire",
+              "ja" : "\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"
+            }
+          }
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2
+  },
+  "AffectType"    : 1,
+  "ItemModification" : {
+    "ModType" : 3,
+    "TransformToLiquidQuantity" : 0.0,
+    "LiquidEffectScaling"       : 0,
+    "SpoilageChange"            : {
+      "x" : 100.0,
+      "y" : 100.0
+    }
+  },
+  "SimpleAffectDuration" : 0,
+  "ActionToPerform"      : {
+    "ActionType" : 1,
+    "ActionTagFilter" : [
+      {
+        "key" : "RefuelAction",
+        "type" : "ActionTag",
+        "name" : {
+          "zh" : "\u6DFB\u71C3\u6599\u52A8\u4F5C",
+          "en" : "RefuelAction",
+          "ja" : "RefuelAction"
+        }
+      }
+    ],
+    "GivenCardSelectionMethod" : 0,
+    "ActionDroppedCards"       : 0
+  },
+  "key"                  : "EatHerbi",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "EatHerbi",
+    "en" : "EatHerbi",
+    "ja" : "EatHerbi"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

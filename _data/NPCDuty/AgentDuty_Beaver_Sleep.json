@@ -1,1 +1,88 @@
-{"DutyName":{"zh":"\u7761\u89C9","en":"Beaver Sleep","ja":"Beaver Sleep"},"ValidTimesOfDay":[{"TimeType":0,"CompareType":0,"StartValue":10,"EndValue":18}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_SpiritWorld","type":"CardTag","count":3,"name":{"zh":"\u7CBE\u9B44\u754C","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentMorale","type":"NPCStat","name":{"zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"}},"ConditionRange":{"x":200.0,"y":200.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"BeaverSleep","type":"ChangeNPCStatDutyAction","name":{"zh":"BeaverSleep","en":"BeaverSleep","ja":"BeaverSleep"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Beaver_Sleep","name":{"zh":"\u7761\u89C9","en":"Beaver Sleep","ja":"Beaver Sleep"},"_uuid":"877c4236ca3de3843980f801653c9031"}
+
+{
+  "DutyName" : {
+    "zh" : "\u7761\u89C9",
+    "en" : "Beaver Sleep",
+    "ja" : "Beaver Sleep"
+  },
+  "ValidTimesOfDay" : [
+    {
+      "TimeType" : 0,
+      "CompareType" : 0,
+      "StartValue"  : 10,
+      "EndValue"    : 18
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_SpiritWorld",
+        "type" : "CardTag",
+        "count" : 3,
+        "name"  : {
+          "zh" : "\u7CBE\u9B44\u754C",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentMorale",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6597\u5FD7",
+            "en" : "AgentMorale",
+            "ja" : "AgentMorale"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "BeaverSleep",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "BeaverSleep",
+        "en" : "BeaverSleep",
+        "ja" : "BeaverSleep"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Beaver_Sleep",
+  "name"                 : {
+    "zh" : "\u7761\u89C9",
+    "en" : "Beaver Sleep",
+    "ja" : "Beaver Sleep"
+  },
+  "_uuid"                : "877c4236ca3de3843980f801653c9031"
+}

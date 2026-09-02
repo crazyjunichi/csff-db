@@ -1,1 +1,146 @@
-{"DutyName":{"zh":"\u6536\u83B7\u8C4C\u8C46","en":"Harvest","ja":"Harvest"},"DutySummary":{"zh":"Harvesting peas.","en":"Harvesting peas.","ja":"Harvesting peas."},"DutyTags":[{"key":"DutyTag_Methodical","type":"NPCDutyTag","name":{"zh":"\u6709\u6761\u4E0D\u7D0A\u7684","en":"Methodical","ja":"Methodical"}},{"key":"DutyTag_Physical","type":"NPCDutyTag","name":{"zh":"\u4F53\u529B","en":"Physical","ja":"Physical"}}],"MaxPerformPerDay":0,"DutyExecutionOptions":0,"ActionSequence":[{"key":"Start Duty Harvest Peas","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Start Duty Harvest Peas","en":"Start Duty Harvest Peas","ja":"Start Duty Harvest Peas"}},{"key":"Reduce Favour","type":"ChangeNPCStatDutyAction","name":{"zh":"Reduce Favour","en":"Reduce Favour","ja":"Reduce Favour"}},{"key":"Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Complete","en":"Complete","ja":"Complete"}},{"key":"Scythe Available","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Scythe Available","en":"Scythe Available","ja":"Scythe Available"}},{"key":"Harvest Peas with Scythe","type":"AffectItemsDutyAction","name":{"zh":"Harvest Peas with Scythe","en":"Harvest Peas with Scythe","ja":"Harvest Peas with Scythe"}},{"key":"Reduce Favour and Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Reduce Favour and Complete","en":"Reduce Favour and Complete","ja":"Reduce Favour and Complete"}},{"key":"Sickle Available","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Sickle Available","en":"Sickle Available","ja":"Sickle Available"}},{"key":"Harvest Peas with Sickle","type":"AffectItemsDutyAction","name":{"zh":"Harvest Peas with Sickle","en":"Harvest Peas with Sickle","ja":"Harvest Peas with Sickle"}},{"key":"Reduce Favour and Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Reduce Favour and Complete","en":"Reduce Favour and Complete","ja":"Reduce Favour and Complete"}},{"key":"Harvest Peas by Hand","type":"AffectItemsDutyAction","name":{"zh":"Harvest Peas by Hand","en":"Harvest Peas by Hand","ja":"Harvest Peas by Hand"}},{"key":"Reduce Favour and Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Reduce Favour and Complete","en":"Reduce Favour and Complete","ja":"Reduce Favour and Complete"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_HarvestPeas","name":{"zh":"\u6536\u83B7\u8C4C\u8C46","en":"Harvest","ja":"Harvest"},"_uuid":"af7a2e0cfaeaa844ea474a3bad1a0f5c"}
+
+{
+  "DutyName" : {
+    "zh" : "\u6536\u83B7\u8C4C\u8C46",
+    "en" : "Harvest",
+    "ja" : "Harvest"
+  },
+  "DutySummary" : {
+    "zh" : "Harvesting peas.",
+    "en" : "Harvesting peas.",
+    "ja" : "Harvesting peas."
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Methodical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u6709\u6761\u4E0D\u7D0A\u7684",
+        "en" : "Methodical",
+        "ja" : "Methodical"
+      }
+    },
+    {
+      "key" : "DutyTag_Physical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u4F53\u529B",
+        "en" : "Physical",
+        "ja" : "Physical"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Start Duty Harvest Peas",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Start Duty Harvest Peas",
+        "en" : "Start Duty Harvest Peas",
+        "ja" : "Start Duty Harvest Peas"
+      }
+    },
+    {
+      "key" : "Reduce Favour",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour",
+        "en" : "Reduce Favour",
+        "ja" : "Reduce Favour"
+      }
+    },
+    {
+      "key" : "Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Complete",
+        "en" : "Complete",
+        "ja" : "Complete"
+      }
+    },
+    {
+      "key" : "Scythe Available",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Scythe Available",
+        "en" : "Scythe Available",
+        "ja" : "Scythe Available"
+      }
+    },
+    {
+      "key" : "Harvest Peas with Scythe",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Harvest Peas with Scythe",
+        "en" : "Harvest Peas with Scythe",
+        "ja" : "Harvest Peas with Scythe"
+      }
+    },
+    {
+      "key" : "Reduce Favour and Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour and Complete",
+        "en" : "Reduce Favour and Complete",
+        "ja" : "Reduce Favour and Complete"
+      }
+    },
+    {
+      "key" : "Sickle Available",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Sickle Available",
+        "en" : "Sickle Available",
+        "ja" : "Sickle Available"
+      }
+    },
+    {
+      "key" : "Harvest Peas with Sickle",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Harvest Peas with Sickle",
+        "en" : "Harvest Peas with Sickle",
+        "ja" : "Harvest Peas with Sickle"
+      }
+    },
+    {
+      "key" : "Reduce Favour and Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour and Complete",
+        "en" : "Reduce Favour and Complete",
+        "ja" : "Reduce Favour and Complete"
+      }
+    },
+    {
+      "key" : "Harvest Peas by Hand",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Harvest Peas by Hand",
+        "en" : "Harvest Peas by Hand",
+        "ja" : "Harvest Peas by Hand"
+      }
+    },
+    {
+      "key" : "Reduce Favour and Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour and Complete",
+        "en" : "Reduce Favour and Complete",
+        "ja" : "Reduce Favour and Complete"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_HarvestPeas",
+  "name"                 : {
+    "zh" : "\u6536\u83B7\u8C4C\u8C46",
+    "en" : "Harvest",
+    "ja" : "Harvest"
+  },
+  "_uuid"                : "af7a2e0cfaeaa844ea474a3bad1a0f5c"
+}

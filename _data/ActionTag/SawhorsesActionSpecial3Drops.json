@@ -1,1 +1,92 @@
-{"key":"SawhorsesActionSpecial3Drops","type":"ActionTag","name":{"zh":"\u952F\u6728\u67B6\u52A8\u4F5C-\u7279\u6B8A3\u4EA7\u51FA","en":"SawhorsesActionSpecial3Drops","ja":"SawhorsesActionSpecial3Drops"},"_modifiers":[{"source":{"key":"SawhorsesCraftingBonus","type":"GameStat","icon":"e16aadf94681c0f9","min":0.0,"max":1.0,"name":{"zh":"\u952F\u6728\u67B6\u5236\u4F5C\u52A0\u6210","en":"Sawhorses Crafting Bonus","ja":"Sawhorses Crafting Bonus"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A-1 duration, +5 quality  in Special 3 for drops, +15 temporary Woodworking","en":"Status Stage: -1 duration, +5 quality  in Special 3 for drops, +15 temporary Woodworking","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A-1 duration, +5 quality  in Special 3 for drops, +15 temporary Woodworking"},"modifier":{"AppliesTo":[{"key":"SawhorsesActionSpecial3Drops","type":"ActionTag","name":{"zh":"\u952F\u6728\u67B6\u52A8\u4F5C-\u7279\u6B8A3\u4EA7\u51FA","en":"SawhorsesActionSpecial3Drops","ja":"SawhorsesActionSpecial3Drops"}}],"DurationModifier":-1,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":2.0,"y":2.0}}],"DropsDurabilities":{"Special3Change":{"x":5.0,"y":5.0}},"AddedTemporaryStatModifiers":[{"Stat":{"key":"Skill_Woodworking","type":"GameStat","icon":"c88673b89542557c","min":0.0,"max":150.0,"name":{"zh":"\u6728\u5DE5","en":"Woodworking","ja":"\u6728\u5DE5\u306E\u30B9\u30AD\u30EB"}},"ValueModifier":{"x":15.0,"y":15.0}}],"FadeToBlack":0}}]}
+
+{
+  "key" : "SawhorsesActionSpecial3Drops",
+  "type" : "ActionTag",
+  "name" : {
+    "zh" : "\u952F\u6728\u67B6\u52A8\u4F5C-\u7279\u6B8A3\u4EA7\u51FA",
+    "en" : "SawhorsesActionSpecial3Drops",
+    "ja" : "SawhorsesActionSpecial3Drops"
+  },
+  "_modifiers" : [
+    {
+      "source" : {
+        "key" : "SawhorsesCraftingBonus",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1.0,
+        "name" : {
+          "zh" : "\u952F\u6728\u67B6\u5236\u4F5C\u52A0\u6210",
+          "en" : "Sawhorses Crafting Bonus",
+          "ja" : "Sawhorses Crafting Bonus"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A-1 duration, +5 quality  in Special 3 for drops, +15 temporary Woodworking",
+        "en" : "Status Stage: -1 duration, +5 quality  in Special 3 for drops, +15 temporary Woodworking",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A-1 duration, +5 quality  in Special 3 for drops, +15 temporary Woodworking"
+      },
+      "modifier"    : {
+        "AppliesTo" : [
+          {
+            "key" : "SawhorsesActionSpecial3Drops",
+            "type" : "ActionTag",
+            "name" : {
+              "zh" : "\u952F\u6728\u67B6\u52A8\u4F5C-\u7279\u6B8A3\u4EA7\u51FA",
+              "en" : "SawhorsesActionSpecial3Drops",
+              "ja" : "SawhorsesActionSpecial3Drops"
+            }
+          }
+        ],
+        "DurationModifier" : -1,
+        "AddedStatModifiers" : [
+          {
+            "Stat" : {
+              "key" : "Stamina",
+              "type" : "GameStat",
+              "icon" : "GameStat__Stamina__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 32.0,
+              "name" : {
+                "zh" : "\u8010\u529B",
+                "en" : "Stamina",
+                "ja" : "\u30B9\u30BF\u30DF\u30CA"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 2.0,
+              "y" : 2.0
+            }
+          }
+        ],
+        "DropsDurabilities"  : {
+          "Special3Change" : {
+            "x" : 5.0,
+            "y" : 5.0
+          }
+        },
+        "AddedTemporaryStatModifiers" : [
+          {
+            "Stat" : {
+              "key" : "Skill_Woodworking",
+              "type" : "GameStat",
+              "icon" : "NPCCharacterPerk__PartnerPerk_KnowledgeWoodworker__PerkIcon",
+              "min"  : 0.0,
+              "max"  : 150.0,
+              "name" : {
+                "zh" : "\u6728\u5DE5",
+                "en" : "Woodworking",
+                "ja" : "\u6728\u5DE5\u306E\u30B9\u30AD\u30EB"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 15.0,
+              "y" : 15.0
+            }
+          }
+        ],
+        "FadeToBlack"                 : 0
+      }
+    }
+  ]
+}

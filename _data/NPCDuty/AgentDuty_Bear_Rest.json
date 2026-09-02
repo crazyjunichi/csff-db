@@ -1,1 +1,68 @@
-{"DutyName":{"zh":"\u4F11\u606F","en":"Bear Rest","ja":"Bear Rest"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentStamina","type":"NPCStat","name":{"zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"}},"ConditionRange":{"x":0.0,"y":10.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"BearRest","type":"ChangeNPCStatDutyAction","name":{"zh":"BearRest","en":"BearRest","ja":"BearRest"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Bear_Rest","name":{"zh":"\u4F11\u606F","en":"Bear Rest","ja":"Bear Rest"},"_uuid":"88a44efade185514c9be6d20c8e7855c"}
+
+{
+  "DutyName" : {
+    "zh" : "\u4F11\u606F",
+    "en" : "Bear Rest",
+    "ja" : "Bear Rest"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentStamina",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8010\u529B",
+            "en" : "AgentStamina",
+            "ja" : "AgentStamina"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 10.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "BearRest",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "BearRest",
+        "en" : "BearRest",
+        "ja" : "BearRest"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Bear_Rest",
+  "name"                 : {
+    "zh" : "\u4F11\u606F",
+    "en" : "Bear Rest",
+    "ja" : "Bear Rest"
+  },
+  "_uuid"                : "88a44efade185514c9be6d20c8e7855c"
+}

@@ -1,1 +1,64 @@
-{"DutyName":{"zh":"\u4F11\u606F","en":"Wolf Pack Rest","ja":"Wolf Pack Rest"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentStamina","type":"NPCStat","name":{"zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"}}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfPackRest","type":"ChangeNPCStatDutyAction","name":{"zh":"WolfPackRest","en":"WolfPackRest","ja":"WolfPackRest"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_WolfPack_Rest","name":{"zh":"\u4F11\u606F","en":"Wolf Pack Rest","ja":"Wolf Pack Rest"},"_uuid":"88025896016a82c45951eb374a8c25e3"}
+
+{
+  "DutyName" : {
+    "zh" : "\u4F11\u606F",
+    "en" : "Wolf Pack Rest",
+    "ja" : "Wolf Pack Rest"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentStamina",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8010\u529B",
+            "en" : "AgentStamina",
+            "ja" : "AgentStamina"
+          }
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "WolfPackRest",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WolfPackRest",
+        "en" : "WolfPackRest",
+        "ja" : "WolfPackRest"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_WolfPack_Rest",
+  "name"                 : {
+    "zh" : "\u4F11\u606F",
+    "en" : "Wolf Pack Rest",
+    "ja" : "Wolf Pack Rest"
+  },
+  "_uuid"                : "88025896016a82c45951eb374a8c25e3"
+}

@@ -1,1 +1,149 @@
-{"SceneLines":[{"Line":{"zh":"\u4F60\u63A5\u8FD1\u6708\u4E4B\u91CE\u517D\u3002","en":"You approach the Moontouched. ","ja":"\u3042\u306A\u305F\u306F\u300C\u6708\u306B\u89E6\u308C\u3089\u308C\u3057\u8005\u300D\u306B\u8FD1\u3065\u304F\u3002"},"OverrideSceneImage":{"FileName":"c3d023298476720f"},"ShowContinueButton":0,"PossibleAnswers":[{"Answer":{"zh":"\u4E0D\u7BA1\u5B83\u3002","en":"Leave it alone. ","ja":"\u653E\u3063\u3066\u304A\u304F"},"NewNextLine":{"NextStep":2}},{"Answer":{"zh":"\u653B\u51FB","en":"Attack","ja":"\u653B\u6483"},"NewNextLine":{"NextStep":2},"ActionToPerform":{"StatModifications":[{"Stat":{"key":"AwarenessTempBonus","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":1000.0,"name":{"zh":"\u611F\u77E5\u4E34\u65F6\u52A0\u6210","en":"Awareness Temp Bonus","ja":"Awareness Temp Bonus"}},"ValueModifier":{"x":1000.0,"y":1000.0}}],"StartCombatEncounter":{"key":"Combat_EncounterMoontouched","type":"Encounter","icon":"c3d023298476720f","name":{"zh":"\u6708\u4E4B\u91CE\u517D","en":"Moontouched","ja":"\u6708\u89E6\u308C"}},"SkipEncounterEvent":true,"OverrideEncounterNPC":true,"EncounterNPC":{"key":"Agent_Moontouched","type":"NPCAgent","icon":"c3d023298476720f","name":{"zh":"\u6708\u4E4B\u91CE\u517D","en":"Moontouched","ja":"\u6708\u89E6\u308C"}},"Ticks":0,"Miniticks":0}},{"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"AlteredMindstate","type":"GameStat","icon":"b263b06e2851c14a","min":0.0,"max":300.0,"name":{"zh":"\u7CBE\u795E\u5931\u5E38","en":"Altered Mindstate","ja":"\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"}},"TriggerRange":{"x":100.0,"y":1000000000.0}}]},"Answer":{"zh":"\u4EA4\u8C08","en":"Talk","ja":"\u8A71\u3059"},"NewNextLine":{"NextStep":1,"NextScene":{"key":"Dialogue_AgentMoontouchedTalk","type":"DialogScene","firstLine":{"zh":"\u4E00\u53EA\u767D\u72FC\u7ACB\u5728\u94F6\u8272\u6708\u5149\u4E4B\u4E0B\u3002\n\n\u5B83\u6B63\u76EF\u7740\u4F60\u3002","en":"A white wolf stands under the silver moonlight.\n\nIt's staring at you.","ja":"\u767D\u3044\u30AA\u30AA\u30AB\u30DF\u304C\u9280\u8272\u306E\u6708\u5149\u306E\u4E0B\u306B\u7ACB\u3063\u3066\u3044\u308B\u3002\n\n\u3053\u3061\u3089\u3092\u898B\u3064\u3081\u3066\u3044\u308B\u3002"}}},"ActionToPerform":{"EncounterNPC":{"key":"Agent_Moontouched","type":"NPCAgent","icon":"c3d023298476720f","name":{"zh":"\u6708\u4E4B\u91CE\u517D","en":"Moontouched","ja":"\u6708\u89E6\u308C"}},"Ticks":0,"Miniticks":0}}],"key":"MoontouchedHunt","type":"dialog"}],"key":"Dialogue_AgentMoontouchedAproach","type":"DialogScene","name":{"zh":"Dialogue_AgentMoontouchedAproach","en":"Dialogue_AgentMoontouchedAproach","ja":"Dialogue_AgentMoontouchedAproach"}}
+
+{
+  "SceneLines" : [
+    {
+      "Line" : {
+        "zh" : "\u4F60\u63A5\u8FD1\u6708\u4E4B\u91CE\u517D\u3002",
+        "en" : "You approach the Moontouched. ",
+        "ja" : "\u3042\u306A\u305F\u306F\u300C\u6708\u306B\u89E6\u308C\u3089\u308C\u3057\u8005\u300D\u306B\u8FD1\u3065\u304F\u3002"
+      },
+      "OverrideSceneImage" : {
+        "FileName" : "NPCAgent__Agent_Moontouched__AgentImage"
+      },
+      "ShowContinueButton" : 0,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "\u4E0D\u7BA1\u5B83\u3002",
+            "en" : "Leave it alone. ",
+            "ja" : "\u653E\u3063\u3066\u304A\u304F"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "\u653B\u51FB",
+            "en" : "Attack",
+            "ja" : "\u653B\u6483"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          },
+          "ActionToPerform" : {
+            "StatModifications" : [
+              {
+                "Stat" : {
+                  "key" : "AwarenessTempBonus",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 1000.0,
+                  "name" : {
+                    "zh" : "\u611F\u77E5\u4E34\u65F6\u52A0\u6210",
+                    "en" : "Awareness Temp Bonus",
+                    "ja" : "Awareness Temp Bonus"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : 1000.0,
+                  "y" : 1000.0
+                }
+              }
+            ],
+            "StartCombatEncounter" : {
+              "key" : "Combat_EncounterMoontouched",
+              "type" : "Encounter",
+              "icon" : "NPCAgent__Agent_Moontouched__AgentImage",
+              "name" : {
+                "zh" : "\u6708\u4E4B\u91CE\u517D",
+                "en" : "Moontouched",
+                "ja" : "\u6708\u89E6\u308C"
+              }
+            },
+            "SkipEncounterEvent"   : true,
+            "OverrideEncounterNPC" : true,
+            "EncounterNPC"         : {
+              "key" : "Agent_Moontouched",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Moontouched__AgentImage",
+              "name" : {
+                "zh" : "\u6708\u4E4B\u91CE\u517D",
+                "en" : "Moontouched",
+                "ja" : "\u6708\u89E6\u308C"
+              }
+            },
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        },
+        {
+          "Conditions" : {
+            "PlayerUsesCard" : 0,
+            "RequiredStatValues" : [
+              {
+                "Stat" : {
+                  "key" : "AlteredMindstate",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 300.0,
+                  "name" : {
+                    "zh" : "\u7CBE\u795E\u5931\u5E38",
+                    "en" : "Altered Mindstate",
+                    "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+                  }
+                },
+                "TriggerRange" : {
+                  "x" : 100.0,
+                  "y" : 1000000000.0
+                }
+              }
+            ]
+          },
+          "Answer"     : {
+            "zh" : "\u4EA4\u8C08",
+            "en" : "Talk",
+            "ja" : "\u8A71\u3059"
+          },
+          "NewNextLine" : {
+            "NextStep" : 1,
+            "NextScene" : {
+              "key" : "Dialogue_AgentMoontouchedTalk",
+              "type" : "DialogScene",
+              "firstLine" : {
+                "zh" : "\u4E00\u53EA\u767D\u72FC\u7ACB\u5728\u94F6\u8272\u6708\u5149\u4E4B\u4E0B\u3002\n\n\u5B83\u6B63\u76EF\u7740\u4F60\u3002",
+                "en" : "A white wolf stands under the silver moonlight.\n\nIt's staring at you.",
+                "ja" : "\u767D\u3044\u30AA\u30AA\u30AB\u30DF\u304C\u9280\u8272\u306E\u6708\u5149\u306E\u4E0B\u306B\u7ACB\u3063\u3066\u3044\u308B\u3002\n\n\u3053\u3061\u3089\u3092\u898B\u3064\u3081\u3066\u3044\u308B\u3002"
+              }
+            }
+          },
+          "ActionToPerform" : {
+            "EncounterNPC" : {
+              "key" : "Agent_Moontouched",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Moontouched__AgentImage",
+              "name" : {
+                "zh" : "\u6708\u4E4B\u91CE\u517D",
+                "en" : "Moontouched",
+                "ja" : "\u6708\u89E6\u308C"
+              }
+            },
+            "Ticks"        : 0,
+            "Miniticks"    : 0
+          }
+        }
+      ],
+      "key"                : "MoontouchedHunt",
+      "type"               : "dialog"
+    }
+  ],
+  "key"        : "Dialogue_AgentMoontouchedAproach",
+  "type"       : "DialogScene",
+  "name"       : {
+    "zh" : "Dialogue_AgentMoontouchedAproach",
+    "en" : "Dialogue_AgentMoontouchedAproach",
+    "ja" : "Dialogue_AgentMoontouchedAproach"
+  }
+}

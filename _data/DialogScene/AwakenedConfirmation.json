@@ -1,1 +1,152 @@
-{"SceneBackground":{"FileName":"63ad3072dc5472bb"},"SceneLines":[{"Line":{"zh":"\u4F60\u51C6\u5907\u597D\u7741\u5F00\u773C\u775B\u4E86\u5417\uFF1F","en":"Are you ready to open your eyes?","ja":"\u76EE\u3092\u958B\u3051\u308B\u899A\u609F\u306F\u3067\u304D\u3066\u3044\u308B\u304B\uFF1F"},"ShowContinueButton":0,"PossibleAnswers":[{"Answer":{"zh":"Yes","en":"Yes","ja":"Yes"},"NewNextLine":{"NextStep":0,"NextLine":{"key":"time to finally wake up","type":"DialogLine","name":{"zh":"\u90A3\u4E48\uFF0C\u662F\u65F6\u5019\u7EC8\u4E8E\u9192\u6765\u4E86\u3002\n\n\n\u6211\u5DF2\u7ECF\u88AB\u5524\u9192\u4E86\uFF0C\u4F60\u4E5F\u4E00\u6837\u3002","en":"Then, it is time to finally wake up.\n\n\nI have been awakened, and so have you.","ja":"\u306A\u3089\u3070\u3001\u3064\u3044\u306B\u76EE\u899A\u3081\u308B\u6642\u3060\u3002\n\n\n\u79C1\u304C\u76EE\u899A\u3081\u305F\u3088\u3046\u306B\u3001\u304A\u524D\u3082\u307E\u305F\u76EE\u899A\u3081\u308B\u3002"}}}},{"Answer":{"zh":"\u5426","en":"No","ja":"\u3044\u3044\u3048"},"NewNextLine":{"NextStep":0,"NextLine":{"key":"we shall remain asleep","type":"DialogLine","name":{"zh":"\u90A3\u4E48\u6211\u4EEC\u5C31\u7EE7\u7EED\u6C89\u7761\u3002\n\n\n\u76F4\u5230\u65F6\u673A\u6210\u719F\u3002","en":"Then we shall remain asleep.\n\n\nUntil the time is right.","ja":"\u306A\u3089\u3070\u3001\u6211\u3089\u306F\u7720\u308A\u7D9A\u3051\u3088\u3046\u3002\n\n\n\u305D\u306E\u6642\u304C\u8A2A\u308C\u308B\u307E\u3067\u3002"}}}}],"key":"are you ready to open your yes","type":"dialog"},{"Line":{"zh":"\u90A3\u4E48\uFF0C\u662F\u65F6\u5019\u7EC8\u4E8E\u9192\u6765\u4E86\u3002\n\n\n\u6211\u5DF2\u7ECF\u88AB\u5524\u9192\u4E86\uFF0C\u4F60\u4E5F\u4E00\u6837\u3002","en":"Then, it is time to finally wake up.\n\n\nI have been awakened, and so have you.","ja":"\u306A\u3089\u3070\u3001\u3064\u3044\u306B\u76EE\u899A\u3081\u308B\u6642\u3060\u3002\n\n\n\u79C1\u304C\u76EE\u899A\u3081\u305F\u3088\u3046\u306B\u3001\u304A\u524D\u3082\u307E\u305F\u76EE\u899A\u3081\u308B\u3002"},"NextStep":{"NextStep":2},"ShowContinueButton":0,"PossibleAnswers":[{"Answer":{"zh":"\u7741\u5F00\u4F60\u7684\u773C\u775B","en":"Open your eyes","ja":"\u76EE\u3092\u958B\u3051\u308B"},"NewNextLine":{"NextStep":2},"ActionToPerform":{"DroppedCards":[{"DroppedCard":{"key":"Spirit_AwakenedSoul","type":"CardData","CardType":0,"icon":"aeb9573c09919d21","name":{"zh":"\u89C9\u9192\u4E4B\u9B42","en":"Awakened Soul","ja":"\u899A\u9192\u3057\u305F\u9B42"}},"Quantity":{"m_X":1,"m_Y":1},"TransferRules":{"Spoilage":0,"Usage":0,"Fuel":0,"Progress":0,"Special1":0,"Special2":0,"Special3":0,"Special4":0,"SpoilageValue":0.0,"UsageValue":0.0,"FuelValue":0.0,"ProgressValue":0.0,"Special1Value":0.0,"Special2Value":0.0,"Special3Value":0.0,"Special4Value":0.0,"SpoilageFrom":1,"UsageFrom":1,"FuelFrom":1,"ProgressFrom":1,"Special1From":1,"Special2From":1,"Special3From":1,"Special4From":1}}],"Ticks":0,"Miniticks":0}}],"key":"time to finally wake up","type":"dialog"},{"Line":{"zh":"\u90A3\u4E48\u6211\u4EEC\u5C31\u7EE7\u7EED\u6C89\u7761\u3002\n\n\n\u76F4\u5230\u65F6\u673A\u6210\u719F\u3002","en":"Then we shall remain asleep.\n\n\nUntil the time is right.","ja":"\u306A\u3089\u3070\u3001\u6211\u3089\u306F\u7720\u308A\u7D9A\u3051\u3088\u3046\u3002\n\n\n\u305D\u306E\u6642\u304C\u8A2A\u308C\u308B\u307E\u3067\u3002"},"NextStep":{"NextStep":2},"ShowContinueButton":0,"key":"we shall remain asleep","type":"dialog"}],"key":"AwakenedConfirmation","type":"DialogScene","name":{"zh":"AwakenedConfirmation","en":"AwakenedConfirmation","ja":"AwakenedConfirmation"}}
+
+{
+  "SceneBackground" : {
+    "FileName" : "DialogScene__AwakenedConfirmation__SceneBackground"
+  },
+  "SceneLines"      : [
+    {
+      "Line" : {
+        "zh" : "\u4F60\u51C6\u5907\u597D\u7741\u5F00\u773C\u775B\u4E86\u5417\uFF1F",
+        "en" : "Are you ready to open your eyes?",
+        "ja" : "\u76EE\u3092\u958B\u3051\u308B\u899A\u609F\u306F\u3067\u304D\u3066\u3044\u308B\u304B\uFF1F"
+      },
+      "ShowContinueButton" : 0,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "Yes",
+            "en" : "Yes",
+            "ja" : "Yes"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "time to finally wake up",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "\u90A3\u4E48\uFF0C\u662F\u65F6\u5019\u7EC8\u4E8E\u9192\u6765\u4E86\u3002\n\n\n\u6211\u5DF2\u7ECF\u88AB\u5524\u9192\u4E86\uFF0C\u4F60\u4E5F\u4E00\u6837\u3002",
+                "en" : "Then, it is time to finally wake up.\n\n\nI have been awakened, and so have you.",
+                "ja" : "\u306A\u3089\u3070\u3001\u3064\u3044\u306B\u76EE\u899A\u3081\u308B\u6642\u3060\u3002\n\n\n\u79C1\u304C\u76EE\u899A\u3081\u305F\u3088\u3046\u306B\u3001\u304A\u524D\u3082\u307E\u305F\u76EE\u899A\u3081\u308B\u3002"
+              }
+            }
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "\u5426",
+            "en" : "No",
+            "ja" : "\u3044\u3044\u3048"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "we shall remain asleep",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "\u90A3\u4E48\u6211\u4EEC\u5C31\u7EE7\u7EED\u6C89\u7761\u3002\n\n\n\u76F4\u5230\u65F6\u673A\u6210\u719F\u3002",
+                "en" : "Then we shall remain asleep.\n\n\nUntil the time is right.",
+                "ja" : "\u306A\u3089\u3070\u3001\u6211\u3089\u306F\u7720\u308A\u7D9A\u3051\u3088\u3046\u3002\n\n\n\u305D\u306E\u6642\u304C\u8A2A\u308C\u308B\u307E\u3067\u3002"
+              }
+            }
+          }
+        }
+      ],
+      "key"                : "are you ready to open your yes",
+      "type"               : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "\u90A3\u4E48\uFF0C\u662F\u65F6\u5019\u7EC8\u4E8E\u9192\u6765\u4E86\u3002\n\n\n\u6211\u5DF2\u7ECF\u88AB\u5524\u9192\u4E86\uFF0C\u4F60\u4E5F\u4E00\u6837\u3002",
+        "en" : "Then, it is time to finally wake up.\n\n\nI have been awakened, and so have you.",
+        "ja" : "\u306A\u3089\u3070\u3001\u3064\u3044\u306B\u76EE\u899A\u3081\u308B\u6642\u3060\u3002\n\n\n\u79C1\u304C\u76EE\u899A\u3081\u305F\u3088\u3046\u306B\u3001\u304A\u524D\u3082\u307E\u305F\u76EE\u899A\u3081\u308B\u3002"
+      },
+      "NextStep" : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 0,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "\u7741\u5F00\u4F60\u7684\u773C\u775B",
+            "en" : "Open your eyes",
+            "ja" : "\u76EE\u3092\u958B\u3051\u308B"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          },
+          "ActionToPerform" : {
+            "DroppedCards" : [
+              {
+                "DroppedCard" : {
+                  "key" : "Spirit_AwakenedSoul",
+                  "type" : "CardData",
+                  "CardType" : 0,
+                  "icon"     : "CardData__Event_GodExperience1a__CardImage",
+                  "name"     : {
+                    "zh" : "\u89C9\u9192\u4E4B\u9B42",
+                    "en" : "Awakened Soul",
+                    "ja" : "\u899A\u9192\u3057\u305F\u9B42"
+                  }
+                },
+                "Quantity"    : {
+                  "m_X" : 1,
+                  "m_Y" : 1
+                },
+                "TransferRules" : {
+                  "Spoilage" : 0,
+                  "Usage"    : 0,
+                  "Fuel"     : 0,
+                  "Progress" : 0,
+                  "Special1" : 0,
+                  "Special2" : 0,
+                  "Special3" : 0,
+                  "Special4" : 0,
+                  "SpoilageValue" : 0.0,
+                  "UsageValue"    : 0.0,
+                  "FuelValue"     : 0.0,
+                  "ProgressValue" : 0.0,
+                  "Special1Value" : 0.0,
+                  "Special2Value" : 0.0,
+                  "Special3Value" : 0.0,
+                  "Special4Value" : 0.0,
+                  "SpoilageFrom"  : 1,
+                  "UsageFrom"     : 1,
+                  "FuelFrom"      : 1,
+                  "ProgressFrom"  : 1,
+                  "Special1From"  : 1,
+                  "Special2From"  : 1,
+                  "Special3From"  : 1,
+                  "Special4From"  : 1
+                }
+              }
+            ],
+            "Ticks"        : 0,
+            "Miniticks"    : 0
+          }
+        }
+      ],
+      "key"                : "time to finally wake up",
+      "type"               : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "\u90A3\u4E48\u6211\u4EEC\u5C31\u7EE7\u7EED\u6C89\u7761\u3002\n\n\n\u76F4\u5230\u65F6\u673A\u6210\u719F\u3002",
+        "en" : "Then we shall remain asleep.\n\n\nUntil the time is right.",
+        "ja" : "\u306A\u3089\u3070\u3001\u6211\u3089\u306F\u7720\u308A\u7D9A\u3051\u3088\u3046\u3002\n\n\n\u305D\u306E\u6642\u304C\u8A2A\u308C\u308B\u307E\u3067\u3002"
+      },
+      "NextStep" : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 0,
+      "key"                : "we shall remain asleep",
+      "type"               : "dialog"
+    }
+  ],
+  "key"             : "AwakenedConfirmation",
+  "type"            : "DialogScene",
+  "name"            : {
+    "zh" : "AwakenedConfirmation",
+    "en" : "AwakenedConfirmation",
+    "ja" : "AwakenedConfirmation"
+  }
+}

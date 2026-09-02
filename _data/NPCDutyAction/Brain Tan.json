@@ -1,1 +1,72 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"tag_Tannable","type":"CardTag","count":9,"name":{"zh":"\u53EF\u97A3\u5236","en":"Tannable","ja":"Tannable"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":2,"DebugItemSelection":true},"AffectType":1,"SimpleAffectDuration":0,"ActionToPerform":{"ActionType":1,"GivenCardSelectionMethod":0,"GivenCardSelection":{"ItemPool":[{"Target":{"Target":{"key":"MeatBrainMush","type":"CardData","CardType":0,"icon":"555452066fd4fb50","name":{"zh":"\u8111\u6D46","en":"Brain Mush","ja":"\u8133\u306E\u7DF4\u308A\u7269"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":1,"DebugItemSelection":true},"ActionDroppedCards":0,"DebugActionSelection":true},"key":"Brain Tan","type":"NPCDutyAction","name":{"zh":"Brain Tan","en":"Brain Tan","ja":"Brain Tan"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "tag_Tannable",
+            "type" : "CardTag",
+            "count" : 9,
+            "name"  : {
+              "zh" : "\u53EF\u97A3\u5236",
+              "en" : "Tannable",
+              "ja" : "Tannable"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 2,
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 1,
+  "SimpleAffectDuration" : 0,
+  "ActionToPerform"      : {
+    "ActionType" : 1,
+    "GivenCardSelectionMethod" : 0,
+    "GivenCardSelection"       : {
+      "ItemPool" : [
+        {
+          "Target" : {
+            "Target" : {
+              "key" : "MeatBrainMush",
+              "type" : "CardData",
+              "CardType" : 0,
+              "icon"     : "CardData__MeatBrainMush__CardImage",
+              "name"     : {
+                "zh" : "\u8111\u6D46",
+                "en" : "Brain Mush",
+                "ja" : "\u8133\u306E\u7DF4\u308A\u7269"
+              }
+            }
+          },
+          "Quantity" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "SearchPriority" : 0,
+      "OwnershipPriority" : 1,
+      "DutyPriority"      : 1,
+      "DebugItemSelection" : true
+    },
+    "ActionDroppedCards"       : 0,
+    "DebugActionSelection"     : true
+  },
+  "key"                  : "Brain Tan",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Brain Tan",
+    "en" : "Brain Tan",
+    "ja" : "Brain Tan"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

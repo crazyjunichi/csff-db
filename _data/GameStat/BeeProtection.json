@@ -1,1 +1,178 @@
-{"GameName":{"zh":"\u871C\u8702\u9632\u62A4","en":"Bee Protection","ja":"Bee Protection"},"Description":{"zh":"Protects you from bee stings.","en":"Protects you from bee stings.","ja":"Protects you from bee stings."},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":10.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":0.3868,"g":0.0566,"b":0.0566,"a":0.0},"DefaultStatusIcon":{"FileName":"19132615e1de00bb"},"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"BeeProtection","icon":"19132615e1de00bb","name":{"zh":"\u871C\u8702\u9632\u62A4","en":"Bee Protection","ja":"Bee Protection"},"min":0.0,"max":10.0,"_modifierValues":[{"source":{"key":"BeeSuit","type":"CardData","CardType":0,"name":{"zh":"Bee Suit","en":"Bee Suit","ja":"Bee Suit"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":10.0,"y":10.0}}],"_requires":[{"source":{"key":"BeeSkepSwarming","type":"CardData","CardType":2,"icon":"94edbd65a608db51","name":{"zh":"Swarming Bee Skep","en":"Swarming Bee Skep","ja":"Swarming Bee Skep"}},"description":{"zh":"\u52A8\u4F5C\uFF1ATrap Bees","en":"Action: Trap Bees","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATrap Bees"},"value":{"x":6.0,"y":10.0}},{"source":{"key":"BeeSkepSwarming","type":"CardData","CardType":2,"icon":"94edbd65a608db51","name":{"zh":"Swarming Bee Skep","en":"Swarming Bee Skep","ja":"Swarming Bee Skep"}},"description":{"zh":"\u52A8\u4F5C\uFF1ATrap Bees","en":"Action: Trap Bees","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATrap Bees"}},{"source":{"key":"Event_BeesSwarming","type":"CardData","CardType":3,"icon":"9396b2d3a3a6cd5e","name":{"zh":"A Bee Swarm!","en":"A Bee Swarm!","ja":"A Bee Swarm!"}},"description":{"zh":"\u52A8\u4F5C\uFF1AMy clothes protected me!","en":"Action: My clothes protected me!","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMy clothes protected me!"},"value":{"x":7.0,"y":10.0}},{"source":{"key":"Event_BeesSwarming","type":"CardData","CardType":3,"icon":"9396b2d3a3a6cd5e","name":{"zh":"A Bee Swarm!","en":"A Bee Swarm!","ja":"A Bee Swarm!"}},"description":{"zh":"\u52A8\u4F5C\uFF1AMy clothes partially protected me!","en":"Action: My clothes partially protected me!","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMy clothes partially protected me!"},"value":{"x":3.0,"y":6.9}},{"source":{"key":"Event_BeesSwarming","type":"CardData","CardType":3,"icon":"9396b2d3a3a6cd5e","name":{"zh":"A Bee Swarm!","en":"A Bee Swarm!","ja":"A Bee Swarm!"}},"description":{"zh":"\u52A8\u4F5C\uFF1ANot the Bees!","en":"Action: Not the Bees!","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANot the Bees!"},"value":{"x":0.0,"y":2.9}}],"_uuid":"67688e04061106d4ba055ac0ae40e283"}
+
+{
+  "GameName" : {
+    "zh" : "\u871C\u8702\u9632\u62A4",
+    "en" : "Bee Protection",
+    "ja" : "Bee Protection"
+  },
+  "Description" : {
+    "zh" : "Protects you from bee stings.",
+    "en" : "Protects you from bee stings.",
+    "ja" : "Protects you from bee stings."
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 10.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.3868,
+    "g" : 0.0566,
+    "b" : 0.0566,
+    "a" : 0.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "GameStat__BeeProtection__DefaultStatusIcon"
+  },
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "BeeProtection",
+  "icon"                    : "GameStat__BeeProtection__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u871C\u8702\u9632\u62A4",
+    "en" : "Bee Protection",
+    "ja" : "Bee Protection"
+  },
+  "min"                     : 0.0,
+  "max"                     : 10.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "BeeSuit",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Bee Suit",
+          "en" : "Bee Suit",
+          "ja" : "Bee Suit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "BeeSkepSwarming",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BeeSkepSwarming__CardImage",
+        "name"     : {
+          "zh" : "Swarming Bee Skep",
+          "en" : "Swarming Bee Skep",
+          "ja" : "Swarming Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATrap Bees",
+        "en" : "Action: Trap Bees",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATrap Bees"
+      },
+      "value"       : {
+        "x" : 6.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BeeSkepSwarming",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BeeSkepSwarming__CardImage",
+        "name"     : {
+          "zh" : "Swarming Bee Skep",
+          "en" : "Swarming Bee Skep",
+          "ja" : "Swarming Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATrap Bees",
+        "en" : "Action: Trap Bees",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATrap Bees"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_BeesSwarming",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_BeesSwarming__CardImage",
+        "name"     : {
+          "zh" : "A Bee Swarm!",
+          "en" : "A Bee Swarm!",
+          "ja" : "A Bee Swarm!"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AMy clothes protected me!",
+        "en" : "Action: My clothes protected me!",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMy clothes protected me!"
+      },
+      "value"       : {
+        "x" : 7.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_BeesSwarming",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_BeesSwarming__CardImage",
+        "name"     : {
+          "zh" : "A Bee Swarm!",
+          "en" : "A Bee Swarm!",
+          "ja" : "A Bee Swarm!"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AMy clothes partially protected me!",
+        "en" : "Action: My clothes partially protected me!",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMy clothes partially protected me!"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 6.9
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_BeesSwarming",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_BeesSwarming__CardImage",
+        "name"     : {
+          "zh" : "A Bee Swarm!",
+          "en" : "A Bee Swarm!",
+          "ja" : "A Bee Swarm!"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ANot the Bees!",
+        "en" : "Action: Not the Bees!",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANot the Bees!"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 2.9
+      }
+    }
+  ],
+  "_uuid"                   : "67688e04061106d4ba055ac0ae40e283"
+}

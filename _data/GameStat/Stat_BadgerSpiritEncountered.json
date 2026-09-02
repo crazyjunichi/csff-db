@@ -1,1 +1,140 @@
-{"GameName":{"zh":"\u737E\u7075\u906D\u9047","en":"BadgerSpiritEncountered","ja":"BadgerSpiritEncountered"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"Stat_BadgerSpiritEncountered","name":{"zh":"\u737E\u7075\u906D\u9047","en":"BadgerSpiritEncountered","ja":"BadgerSpiritEncountered"},"min":0.0,"max":1.0,"_modifierValues":[{"source":{"key":"Event_BadgerSpiritSummoning","type":"CardData","CardType":3,"icon":"61328b25391d1762","name":{"zh":"\u53EC\u5524\u4EEA\u5F0F","en":"Summoning Ritual","ja":"\u53EC\u559A\u306E\u5100\u5F0F"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5FFD\u7565","en":"Action: Ignore","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7121\u8996\u3059\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Event_BadgerSpiritSummoningGranted","type":"CardData","CardType":3,"icon":"61328b25391d1762","name":{"zh":"\u53EC\u5524\u4EEA\u5F0F","en":"Summoning Ritual","ja":"\u53EC\u559A\u306E\u5100\u5F0F"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u7EE7\u7EED","en":"Action: Continue","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D9A\u3051\u308B"},"value":{"x":1.0,"y":1.0}}],"_triggers":[{"source":{"key":"Tgr_BadgerSpiritEncounteredInsightBonus","type":"SelfTriggeredAction","name":{"zh":"Tgr_BadgerSpiritEncounteredInsightBonus","en":"Tgr_BadgerSpiritEncounteredInsightBonus","ja":"Tgr_BadgerSpiritEncounteredInsightBonus"}},"description":{"zh":"Tgr_BadgerSpiritEncounteredInsightBonus","en":"Tgr_BadgerSpiritEncounteredInsightBonus","ja":"Tgr_BadgerSpiritEncounteredInsightBonus"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_BoarSpiritEncounteredInsightBonus","type":"SelfTriggeredAction","name":{"zh":"Tgr_BoarSpiritEncounteredInsightBonus","en":"Tgr_BoarSpiritEncounteredInsightBonus","ja":"Tgr_BoarSpiritEncounteredInsightBonus"}},"description":{"zh":"Tgr_BoarSpiritEncounteredInsightBonus","en":"Tgr_BoarSpiritEncounteredInsightBonus","ja":"Tgr_BoarSpiritEncounteredInsightBonus"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_DeerSpiritEncounteredInsightBonus","type":"SelfTriggeredAction","name":{"zh":"Tgr_DeerSpiritEncounteredInsightBonus","en":"Tgr_DeerSpiritEncounteredInsightBonus","ja":"Tgr_DeerSpiritEncounteredInsightBonus"}},"description":{"zh":"Tgr_DeerSpiritEncounteredInsightBonus","en":"Tgr_DeerSpiritEncounteredInsightBonus","ja":"Tgr_DeerSpiritEncounteredInsightBonus"},"value":{"x":1.0,"y":1.0}}],"_uuid":"6385790a120ebeb4dab1bd079a08b340"}
+
+{
+  "GameName" : {
+    "zh" : "\u737E\u7075\u906D\u9047",
+    "en" : "BadgerSpiritEncountered",
+    "ja" : "BadgerSpiritEncountered"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Stat_BadgerSpiritEncountered",
+  "name"                    : {
+    "zh" : "\u737E\u7075\u906D\u9047",
+    "en" : "BadgerSpiritEncountered",
+    "ja" : "BadgerSpiritEncountered"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Event_BadgerSpiritSummoning",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "NPCAgent__Agent_Badger1__AgentImage",
+        "name"     : {
+          "zh" : "\u53EC\u5524\u4EEA\u5F0F",
+          "en" : "Summoning Ritual",
+          "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5FFD\u7565",
+        "en" : "Action: Ignore",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7121\u8996\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_BadgerSpiritSummoningGranted",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "NPCAgent__Agent_Badger1__AgentImage",
+        "name"     : {
+          "zh" : "\u53EC\u5524\u4EEA\u5F0F",
+          "en" : "Summoning Ritual",
+          "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7EE7\u7EED",
+        "en" : "Action: Continue",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D9A\u3051\u308B"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_BadgerSpiritEncounteredInsightBonus",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_BadgerSpiritEncounteredInsightBonus",
+          "en" : "Tgr_BadgerSpiritEncounteredInsightBonus",
+          "ja" : "Tgr_BadgerSpiritEncounteredInsightBonus"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_BadgerSpiritEncounteredInsightBonus",
+        "en" : "Tgr_BadgerSpiritEncounteredInsightBonus",
+        "ja" : "Tgr_BadgerSpiritEncounteredInsightBonus"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_BoarSpiritEncounteredInsightBonus",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_BoarSpiritEncounteredInsightBonus",
+          "en" : "Tgr_BoarSpiritEncounteredInsightBonus",
+          "ja" : "Tgr_BoarSpiritEncounteredInsightBonus"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_BoarSpiritEncounteredInsightBonus",
+        "en" : "Tgr_BoarSpiritEncounteredInsightBonus",
+        "ja" : "Tgr_BoarSpiritEncounteredInsightBonus"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_DeerSpiritEncounteredInsightBonus",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_DeerSpiritEncounteredInsightBonus",
+          "en" : "Tgr_DeerSpiritEncounteredInsightBonus",
+          "ja" : "Tgr_DeerSpiritEncounteredInsightBonus"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_DeerSpiritEncounteredInsightBonus",
+        "en" : "Tgr_DeerSpiritEncounteredInsightBonus",
+        "ja" : "Tgr_DeerSpiritEncounteredInsightBonus"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_uuid"                   : "6385790a120ebeb4dab1bd079a08b340"
+}

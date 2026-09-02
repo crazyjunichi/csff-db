@@ -1,1 +1,119 @@
-{"DutyName":{"zh":"\u6536\u83B7\u9A74\u8E44\u8349","en":"Harvest","ja":"Harvest"},"DutySummary":{"zh":"Harvesting kingcup.","en":"Harvesting kingcup.","ja":"Harvesting kingcup."},"DutyTags":[{"key":"DutyTag_Methodical","type":"NPCDutyTag","name":{"zh":"\u6709\u6761\u4E0D\u7D0A\u7684","en":"Methodical","ja":"Methodical"}},{"key":"DutyTag_Physical","type":"NPCDutyTag","name":{"zh":"\u4F53\u529B","en":"Physical","ja":"Physical"}}],"MaxPerformPerDay":0,"DutyExecutionOptions":0,"ActionSequence":[{"key":"Start Duty Harvest Kingcup","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Start Duty Harvest Kingcup","en":"Start Duty Harvest Kingcup","ja":"Start Duty Harvest Kingcup"}},{"key":"Reduce Favour","type":"ChangeNPCStatDutyAction","name":{"zh":"Reduce Favour","en":"Reduce Favour","ja":"Reduce Favour"}},{"key":"Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Complete","en":"Complete","ja":"Complete"}},{"key":"Sickle Available","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Sickle Available","en":"Sickle Available","ja":"Sickle Available"}},{"key":"Harvest Kingcup with Sickle","type":"AffectItemsDutyAction","name":{"zh":"Harvest Kingcup with Sickle","en":"Harvest Kingcup with Sickle","ja":"Harvest Kingcup with Sickle"}},{"key":"Reduce Favour and Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Reduce Favour and Complete","en":"Reduce Favour and Complete","ja":"Reduce Favour and Complete"}},{"key":"Harvest Kingcup by Hand","type":"AffectItemsDutyAction","name":{"zh":"Harvest Kingcup by Hand","en":"Harvest Kingcup by Hand","ja":"Harvest Kingcup by Hand"}},{"key":"Reduce Favour and Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Reduce Favour and Complete","en":"Reduce Favour and Complete","ja":"Reduce Favour and Complete"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_HarvestKingcup","name":{"zh":"\u6536\u83B7\u9A74\u8E44\u8349","en":"Harvest","ja":"Harvest"},"_uuid":"5148269da1515ee47b3204d93433802a"}
+
+{
+  "DutyName" : {
+    "zh" : "\u6536\u83B7\u9A74\u8E44\u8349",
+    "en" : "Harvest",
+    "ja" : "Harvest"
+  },
+  "DutySummary" : {
+    "zh" : "Harvesting kingcup.",
+    "en" : "Harvesting kingcup.",
+    "ja" : "Harvesting kingcup."
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Methodical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u6709\u6761\u4E0D\u7D0A\u7684",
+        "en" : "Methodical",
+        "ja" : "Methodical"
+      }
+    },
+    {
+      "key" : "DutyTag_Physical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u4F53\u529B",
+        "en" : "Physical",
+        "ja" : "Physical"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Start Duty Harvest Kingcup",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Start Duty Harvest Kingcup",
+        "en" : "Start Duty Harvest Kingcup",
+        "ja" : "Start Duty Harvest Kingcup"
+      }
+    },
+    {
+      "key" : "Reduce Favour",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour",
+        "en" : "Reduce Favour",
+        "ja" : "Reduce Favour"
+      }
+    },
+    {
+      "key" : "Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Complete",
+        "en" : "Complete",
+        "ja" : "Complete"
+      }
+    },
+    {
+      "key" : "Sickle Available",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Sickle Available",
+        "en" : "Sickle Available",
+        "ja" : "Sickle Available"
+      }
+    },
+    {
+      "key" : "Harvest Kingcup with Sickle",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Harvest Kingcup with Sickle",
+        "en" : "Harvest Kingcup with Sickle",
+        "ja" : "Harvest Kingcup with Sickle"
+      }
+    },
+    {
+      "key" : "Reduce Favour and Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour and Complete",
+        "en" : "Reduce Favour and Complete",
+        "ja" : "Reduce Favour and Complete"
+      }
+    },
+    {
+      "key" : "Harvest Kingcup by Hand",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Harvest Kingcup by Hand",
+        "en" : "Harvest Kingcup by Hand",
+        "ja" : "Harvest Kingcup by Hand"
+      }
+    },
+    {
+      "key" : "Reduce Favour and Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour and Complete",
+        "en" : "Reduce Favour and Complete",
+        "ja" : "Reduce Favour and Complete"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_HarvestKingcup",
+  "name"                 : {
+    "zh" : "\u6536\u83B7\u9A74\u8E44\u8349",
+    "en" : "Harvest",
+    "ja" : "Harvest"
+  },
+  "_uuid"                : "5148269da1515ee47b3204d93433802a"
+}

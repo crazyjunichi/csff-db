@@ -1,1 +1,185 @@
-{"EncounterTitle":{"zh":"Boar Encounter","en":"Boar Encounter","ja":"Boar Encounter"},"EnemyName":{"zh":"the boar","en":"the boar","ja":"the boar"},"EnemyStealth":{"x":1000.0,"y":1000.0},"EnemyBodyTemplate":{"key":"TestBodyTemplate","type":"BodyTemplate","name":{"zh":"TestBodyTemplate","en":"TestBodyTemplate","ja":"TestBodyTemplate"}},"MeleeSkill":{"StartingValue":{"x":1.0,"y":10.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":0},"EnemyActions":[{"ActionLog":{"LogText":{"zh":"The boar charges at you","en":"The boar charges at you","ja":"The boar charges at you"}},"SuccessLog":{"LogText":{"zh":"It slams into your body...","en":"It slams into your body...","ja":"It slams into your body..."}},"FailureLog":{"LogText":{"zh":"You dodge its charge...","en":"You dodge its charge...","ja":"You dodge its charge..."}},"RequiredDistance":0,"RequiredWrestlingState":0,"RequiresAmbushState":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"BaseWeight":10,"DistanceWeightModifier":5,"CloseRangeWeightModifier":0,"EnemyHiddenWeightModifier":5,"PlayerHiddenWeightModifier":5,"WrestlingWeightModifier":0,"NOTWrestlingWeightModifier":0,"SelfVulnerableWeightModifier":0,"SelfNOTVulnerableWeightModifier":0,"OpponentVulnerableWeightModifier":0,"OpponentNOTVulnerableWeightModifier":0,"ValuesWeightModifiers":{"WeightPerMeleeSkill":{"Active":true,"DurabilityRange":{"x":0.0,"y":10.0},"InterpWeightRange":{"m_X":0,"m_Y":10},"WhenOutOfRange":1}},"ActionRange":0,"Reach":10.0,"PreClashDistanceChange":0,"BaseClashValue":5.0,"EnemyValuesClashModifier":{"EnemyMeleeSkillMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":5.0},"OutputValueRange":{"x":0.0,"y":5.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}},"EncounterResult":0},{"ActionLog":{"LogText":{"zh":"The boar tries to bite you","en":"The boar tries to bite you","ja":"The boar tries to bite you"}},"SuccessLog":{"LogText":{"zh":"Its teeth sink into your flesh...","en":"Its teeth sink into your flesh...","ja":"Its teeth sink into your flesh..."}},"FailureLog":{"LogText":{"zh":"Its jaw snaps at empty air as you narrowly dodge...","en":"Its jaw snaps at empty air as you narrowly dodge...","ja":"Its jaw snaps at empty air as you narrowly dodge..."}},"RequiredDistance":0,"RequiredWrestlingState":0,"RequiresAmbushState":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"BaseWeight":5,"DistanceWeightModifier":-5,"CloseRangeWeightModifier":0,"EnemyHiddenWeightModifier":5,"PlayerHiddenWeightModifier":5,"WrestlingWeightModifier":0,"NOTWrestlingWeightModifier":0,"SelfVulnerableWeightModifier":0,"SelfNOTVulnerableWeightModifier":0,"OpponentVulnerableWeightModifier":0,"OpponentNOTVulnerableWeightModifier":0,"ValuesWeightModifiers":{"WeightPerMeleeSkill":{"Active":true,"DurabilityRange":{"x":0.0,"y":10.0},"InterpWeightRange":{"m_X":0,"m_Y":10},"WhenOutOfRange":1}},"ActionRange":0,"Reach":10.0,"PreClashDistanceChange":0,"BaseClashValue":0.0,"EncounterResult":0}],"EnemyGettingCloseLog":{"LogText":{"zh":"The boar is running towards you...","en":"The boar is running towards you...","ja":"The boar is running towards you..."}},"type":"Encounter","key":"TestEncounter","name":{"zh":"Boar Encounter","en":"Boar Encounter","ja":"Boar Encounter"},"_uuid":"f3062279df475844ca0acb700fdf3327"}
+
+{
+  "EncounterTitle" : {
+    "zh" : "Boar Encounter",
+    "en" : "Boar Encounter",
+    "ja" : "Boar Encounter"
+  },
+  "EnemyName"      : {
+    "zh" : "the boar",
+    "en" : "the boar",
+    "ja" : "the boar"
+  },
+  "EnemyStealth"   : {
+    "x" : 1000.0,
+    "y" : 1000.0
+  },
+  "EnemyBodyTemplate" : {
+    "key" : "TestBodyTemplate",
+    "type" : "BodyTemplate",
+    "name" : {
+      "zh" : "TestBodyTemplate",
+      "en" : "TestBodyTemplate",
+      "ja" : "TestBodyTemplate"
+    }
+  },
+  "MeleeSkill"        : {
+    "StartingValue" : {
+      "x" : 1.0,
+      "y" : 10.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 0
+  },
+  "EnemyActions"      : [
+    {
+      "ActionLog" : {
+        "LogText" : {
+          "zh" : "The boar charges at you",
+          "en" : "The boar charges at you",
+          "ja" : "The boar charges at you"
+        }
+      },
+      "SuccessLog" : {
+        "LogText" : {
+          "zh" : "It slams into your body...",
+          "en" : "It slams into your body...",
+          "ja" : "It slams into your body..."
+        }
+      },
+      "FailureLog" : {
+        "LogText" : {
+          "zh" : "You dodge its charge...",
+          "en" : "You dodge its charge...",
+          "ja" : "You dodge its charge..."
+        }
+      },
+      "RequiredDistance" : 0,
+      "RequiredWrestlingState" : 0,
+      "RequiresAmbushState"    : 0,
+      "RequiredSelfVulnerableState" : 0,
+      "RequiredOpponentVulnerableState" : 0,
+      "BaseWeight"                      : 10,
+      "DistanceWeightModifier"          : 5,
+      "CloseRangeWeightModifier"        : 0,
+      "EnemyHiddenWeightModifier"       : 5,
+      "PlayerHiddenWeightModifier"      : 5,
+      "WrestlingWeightModifier"         : 0,
+      "NOTWrestlingWeightModifier"      : 0,
+      "SelfVulnerableWeightModifier"    : 0,
+      "SelfNOTVulnerableWeightModifier" : 0,
+      "OpponentVulnerableWeightModifier" : 0,
+      "OpponentNOTVulnerableWeightModifier" : 0,
+      "ValuesWeightModifiers"               : {
+        "WeightPerMeleeSkill" : {
+          "Active" : true,
+          "DurabilityRange" : {
+            "x" : 0.0,
+            "y" : 10.0
+          },
+          "InterpWeightRange" : {
+            "m_X" : 0,
+            "m_Y" : 10
+          },
+          "WhenOutOfRange"    : 1
+        }
+      },
+      "ActionRange"                         : 0,
+      "Reach"                               : 10.0,
+      "PreClashDistanceChange"              : 0,
+      "BaseClashValue"                      : 5.0,
+      "EnemyValuesClashModifier"            : {
+        "EnemyMeleeSkillMod" : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 5.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 5.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "EncounterResult"                     : 0
+    },
+    {
+      "ActionLog" : {
+        "LogText" : {
+          "zh" : "The boar tries to bite you",
+          "en" : "The boar tries to bite you",
+          "ja" : "The boar tries to bite you"
+        }
+      },
+      "SuccessLog" : {
+        "LogText" : {
+          "zh" : "Its teeth sink into your flesh...",
+          "en" : "Its teeth sink into your flesh...",
+          "ja" : "Its teeth sink into your flesh..."
+        }
+      },
+      "FailureLog" : {
+        "LogText" : {
+          "zh" : "Its jaw snaps at empty air as you narrowly dodge...",
+          "en" : "Its jaw snaps at empty air as you narrowly dodge...",
+          "ja" : "Its jaw snaps at empty air as you narrowly dodge..."
+        }
+      },
+      "RequiredDistance" : 0,
+      "RequiredWrestlingState" : 0,
+      "RequiresAmbushState"    : 0,
+      "RequiredSelfVulnerableState" : 0,
+      "RequiredOpponentVulnerableState" : 0,
+      "BaseWeight"                      : 5,
+      "DistanceWeightModifier"          : -5,
+      "CloseRangeWeightModifier"        : 0,
+      "EnemyHiddenWeightModifier"       : 5,
+      "PlayerHiddenWeightModifier"      : 5,
+      "WrestlingWeightModifier"         : 0,
+      "NOTWrestlingWeightModifier"      : 0,
+      "SelfVulnerableWeightModifier"    : 0,
+      "SelfNOTVulnerableWeightModifier" : 0,
+      "OpponentVulnerableWeightModifier" : 0,
+      "OpponentNOTVulnerableWeightModifier" : 0,
+      "ValuesWeightModifiers"               : {
+        "WeightPerMeleeSkill" : {
+          "Active" : true,
+          "DurabilityRange" : {
+            "x" : 0.0,
+            "y" : 10.0
+          },
+          "InterpWeightRange" : {
+            "m_X" : 0,
+            "m_Y" : 10
+          },
+          "WhenOutOfRange"    : 1
+        }
+      },
+      "ActionRange"                         : 0,
+      "Reach"                               : 10.0,
+      "PreClashDistanceChange"              : 0,
+      "BaseClashValue"                      : 0.0,
+      "EncounterResult"                     : 0
+    }
+  ],
+  "EnemyGettingCloseLog" : {
+    "LogText" : {
+      "zh" : "The boar is running towards you...",
+      "en" : "The boar is running towards you...",
+      "ja" : "The boar is running towards you..."
+    }
+  },
+  "type"                 : "Encounter",
+  "key"                  : "TestEncounter",
+  "name"                 : {
+    "zh" : "Boar Encounter",
+    "en" : "Boar Encounter",
+    "ja" : "Boar Encounter"
+  },
+  "_uuid"                : "f3062279df475844ca0acb700fdf3327"
+}

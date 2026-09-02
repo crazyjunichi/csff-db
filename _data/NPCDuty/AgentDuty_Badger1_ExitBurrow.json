@@ -1,1 +1,112 @@
-{"DutyName":{"zh":"\u79BB\u5F00\u5DE2\u7A74","en":"Badger Exit Burrow","ja":"Badger Exit Burrow"},"ValidTimesOfDay":[{"TimeType":0,"CompareType":0,"StartValue":20,"EndValue":5}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_SpiritWorld","type":"CardTag","count":3,"name":{"zh":"\u7CBE\u9B44\u754C","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Winter","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u51AC\u5B63","en":"Winter Counter","ja":"Winter Counter"}}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentMorale","type":"NPCStat","name":{"zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"}},"ConditionRange":{"x":200.0,"y":200.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"ExitBadger1Burrow","type":"MoveDutyAction","name":{"zh":"ExitBadger1Burrow","en":"ExitBadger1Burrow","ja":"ExitBadger1Burrow"}},{"key":"RepairBadger1Burrow_Exit","type":"AffectItemsDutyAction","name":{"zh":"RepairBadger1Burrow_Exit","en":"RepairBadger1Burrow_Exit","ja":"RepairBadger1Burrow_Exit"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Badger1_ExitBurrow","name":{"zh":"\u79BB\u5F00\u5DE2\u7A74","en":"Badger Exit Burrow","ja":"Badger Exit Burrow"},"_uuid":"d499624564ad07041ace4b3db60ea3eb"}
+
+{
+  "DutyName" : {
+    "zh" : "\u79BB\u5F00\u5DE2\u7A74",
+    "en" : "Badger Exit Burrow",
+    "ja" : "Badger Exit Burrow"
+  },
+  "ValidTimesOfDay" : [
+    {
+      "TimeType" : 0,
+      "CompareType" : 0,
+      "StartValue"  : 20,
+      "EndValue"    : 5
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_SpiritWorld",
+        "type" : "CardTag",
+        "count" : 3,
+        "name"  : {
+          "zh" : "\u7CBE\u9B44\u754C",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredStatValues"      : [
+      {
+        "Stat" : {
+          "key" : "SeasonCounter_Winter",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 2880.0,
+          "name" : {
+            "zh" : "\u51AC\u5B63",
+            "en" : "Winter Counter",
+            "ja" : "Winter Counter"
+          }
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentMorale",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6597\u5FD7",
+            "en" : "AgentMorale",
+            "ja" : "AgentMorale"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "ExitBadger1Burrow",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "ExitBadger1Burrow",
+        "en" : "ExitBadger1Burrow",
+        "ja" : "ExitBadger1Burrow"
+      }
+    },
+    {
+      "key" : "RepairBadger1Burrow_Exit",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "RepairBadger1Burrow_Exit",
+        "en" : "RepairBadger1Burrow_Exit",
+        "ja" : "RepairBadger1Burrow_Exit"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Badger1_ExitBurrow",
+  "name"                 : {
+    "zh" : "\u79BB\u5F00\u5DE2\u7A74",
+    "en" : "Badger Exit Burrow",
+    "ja" : "Badger Exit Burrow"
+  },
+  "_uuid"                : "d499624564ad07041ace4b3db60ea3eb"
+}

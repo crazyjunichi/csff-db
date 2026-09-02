@@ -1,1 +1,69 @@
-{"NotificationSettings":{"Frequency":2,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"BlueprintsFullUnlock":[{"key":"Bp_AwakeningRitual","type":"CardData","CardType":7,"icon":"9f58ec6ab37330d9","name":{"zh":"\u5524\u9192\u4EEA\u5F0F","en":"Awakening Ritual","ja":"\u899A\u9192\u306E\u5100\u5F0F"}}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"StatsObjectives":[{"StatCondition":{"Stat":{"key":"VoidInsight","type":"GameStat","icon":"3e355a2ebcd28297","min":0.0,"max":1.0,"name":{"zh":"\u865A\u7A7A\u6D1E\u5BDF","en":"Void Insight","ja":"Void Insight"}},"TriggerRange":{"x":1.0,"y":1.0}},"ObjectiveName":"1","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":2,"type":"Objective","key":"AwakeningRitual_DisplayConditions","name":{"zh":"AwakeningRitual_DisplayConditions","en":"AwakeningRitual_DisplayConditions","ja":"AwakeningRitual_DisplayConditions"},"_uuid":"51dc6241cf2aed54aa2d5e5d00f3dc96"}
+
+{
+  "NotificationSettings" : {
+    "Frequency" : 2,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "BlueprintsFullUnlock" : [
+        {
+          "key" : "Bp_AwakeningRitual",
+          "type" : "CardData",
+          "CardType" : 7,
+          "icon"     : "CardData__Bp_AwakeningRitual__CardImage",
+          "name"     : {
+            "zh" : "\u5524\u9192\u4EEA\u5F0F",
+            "en" : "Awakening Ritual",
+            "ja" : "\u899A\u9192\u306E\u5100\u5F0F"
+          }
+        }
+      ],
+      "FadeToBlack"          : 0,
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "StatsObjectives"      : [
+    {
+      "StatCondition" : {
+        "Stat" : {
+          "key" : "VoidInsight",
+          "type" : "GameStat",
+          "icon" : "GameStat__BloodSpilled__FeedbackInfo-Icon",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u865A\u7A7A\u6D1E\u5BDF",
+            "en" : "Void Insight",
+            "ja" : "Void Insight"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      "ObjectiveName" : "1",
+      "CompletionWeight" : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 2,
+  "type"                        : "Objective",
+  "key"                         : "AwakeningRitual_DisplayConditions",
+  "name"                        : {
+    "zh" : "AwakeningRitual_DisplayConditions",
+    "en" : "AwakeningRitual_DisplayConditions",
+    "ja" : "AwakeningRitual_DisplayConditions"
+  },
+  "_uuid"                       : "51dc6241cf2aed54aa2d5e5d00f3dc96"
+}

@@ -1,1 +1,89 @@
-{"DutyName":{"zh":"\u6D88\u5931\u81F3\u7A7A\u6D1E\u754C","en":"Hollow - move to hollow world if its day, if at the despawn area and morale is maxed","ja":"Hollow - move to hollow world if its day, if at the despawn area and morale is maxed"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_HollowDespawnArea","type":"CardTag","count":2,"name":{"zh":"\u865A\u7A7A\u6D88\u5931\u533A","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentMorale","type":"NPCStat","name":{"zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"}},"ConditionRange":{"x":100.0,"y":100.0}}],"RequiredInGameTimes":[{"TimeType":0,"CompareType":0,"StartValue":4,"EndValue":21}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":0,"ActionSequence":[{"key":"MoveToHollowWorld","type":"MoveDutyAction","name":{"zh":"MoveToHollowWorld","en":"MoveToHollowWorld","ja":"MoveToHollowWorld"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Hollow_DespawnToHollowWorld","name":{"zh":"\u6D88\u5931\u81F3\u7A7A\u6D1E\u754C","en":"Hollow - move to hollow world if its day, if at the despawn area and morale is maxed","ja":"Hollow - move to hollow world if its day, if at the despawn area and morale is maxed"},"_uuid":"405c96e0feb74404a819612868731d46"}
+
+{
+  "DutyName" : {
+    "zh" : "\u6D88\u5931\u81F3\u7A7A\u6D1E\u754C",
+    "en" : "Hollow - move to hollow world if its day, if at the despawn area and morale is maxed",
+    "ja" : "Hollow - move to hollow world if its day, if at the despawn area and morale is maxed"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_HollowDespawnArea",
+        "type" : "CardTag",
+        "count" : 2,
+        "name"  : {
+          "zh" : "\u865A\u7A7A\u6D88\u5931\u533A",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentMorale",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6597\u5FD7",
+            "en" : "AgentMorale",
+            "ja" : "AgentMorale"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 100.0,
+          "y" : 100.0
+        }
+      }
+    ],
+    "RequiredInGameTimes"     : [
+      {
+        "TimeType" : 0,
+        "CompareType" : 0,
+        "StartValue"  : 4,
+        "EndValue"    : 21
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "MoveToHollowWorld",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "MoveToHollowWorld",
+        "en" : "MoveToHollowWorld",
+        "ja" : "MoveToHollowWorld"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Hollow_DespawnToHollowWorld",
+  "name"                             : {
+    "zh" : "\u6D88\u5931\u81F3\u7A7A\u6D1E\u754C",
+    "en" : "Hollow - move to hollow world if its day, if at the despawn area and morale is maxed",
+    "ja" : "Hollow - move to hollow world if its day, if at the despawn area and morale is maxed"
+  },
+  "_uuid"                            : "405c96e0feb74404a819612868731d46"
+}

@@ -1,1 +1,159 @@
-{"Actions":[{"RepeatOptions":2,"ActionCooldown":0,"PlayerUsesCardCondition":0,"StatChangeTrigger":[{"Stat":{"key":"VesicalPressure","type":"GameStat","icon":"a54a31d68326e10c","min":0.0,"max":48.0,"name":{"zh":"\u8180\u80F1\u538B\u529B","en":"Vesical Pressure","ja":"\u8180\u80F1\u5727"}},"TriggerRange":{"x":48.0,"y":48.0}}],"ActionName":{"zh":"\u4F60\u5C3F\u88E4\u5B50\u4E86","en":"You Peed Yourself","ja":"\u304A\u6F0F\u3089\u3057\u3057\u3066\u3057\u307E\u3063\u305F"},"DaytimeCost":0,"UseMiniTicks":0,"StatModifications":[{"Stat":{"key":"VesicalPressure","type":"GameStat","icon":"a54a31d68326e10c","min":0.0,"max":48.0,"name":{"zh":"\u8180\u80F1\u538B\u529B","en":"Vesical Pressure","ja":"\u8180\u80F1\u5727"}},"ValueModifier":{"x":-48.0,"y":-48.0}},{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"ValueModifier":{"x":-25.0,"y":-25.0}},{"Stat":{"key":"Filth","type":"GameStat","icon":"b3e9523180795fd1","min":0.0,"max":500.0,"name":{"zh":"\u6C61\u57A2","en":"Filth","ja":"\u6C5A\u308C"}},"ValueModifier":{"x":100.0,"y":100.0}}],"ExtraDurabilityModifications":[{"AffectedTags":[{"key":"tag_EnvIndoors","type":"CardTag","count":50,"name":{"zh":"\u5BA4\u5185","en":"Indoors","ja":"\u5C4B\u5185"}}],"AppliesTo":0,"SpoilageChange":{"x":200.0,"y":200.0},"CardChanges":0,"RandomlyAffectedCards":0.0,"RandomAmountType":0},{"AffectedTags":[{"key":"tag_OuterLegs","type":"CardTag","count":8,"name":{"zh":"\u817F\u90E8\uFF08\u5916\u5C42\uFF09","en":"Legs (Outer)","ja":"\u811A\uFF08\u5916\u5074\uFF09"}},{"key":"tag_InnerLegs","type":"CardTag","count":9,"name":{"zh":"\u817F\u90E8\uFF08\u5185\u5C42\uFF09","en":"Legs (Inner)","ja":"\u811A\uFF08\u5185\u5074\uFF09"}}],"AppliesTo":1,"FuelChange":{"x":12.0,"y":12.0},"CardChanges":0,"RandomlyAffectedCards":0.0,"RandomAmountType":0}],"RoomDirection":0,"ExitDirection":0}],"type":"SelfTriggeredAction","key":"Tgr_Pee","name":{"zh":"Tgr_Pee","en":"Tgr_Pee","ja":"Tgr_Pee"},"_uuid":"2d821fbba6efa654db5d530f40fe1d90"}
+
+{
+  "Actions" : [
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "VesicalPressure",
+            "type" : "GameStat",
+            "icon" : "CardData__BearCoat__Progress-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 48.0,
+            "name" : {
+              "zh" : "\u8180\u80F1\u538B\u529B",
+              "en" : "Vesical Pressure",
+              "ja" : "\u8180\u80F1\u5727"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 48.0,
+            "y" : 48.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "\u4F60\u5C3F\u88E4\u5B50\u4E86",
+        "en" : "You Peed Yourself",
+        "ja" : "\u304A\u6F0F\u3089\u3057\u3057\u3066\u3057\u307E\u3063\u305F"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "VesicalPressure",
+            "type" : "GameStat",
+            "icon" : "CardData__BearCoat__Progress-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 48.0,
+            "name" : {
+              "zh" : "\u8180\u80F1\u538B\u529B",
+              "en" : "Vesical Pressure",
+              "ja" : "\u8180\u80F1\u5727"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -48.0,
+            "y" : -48.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Gratification",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+            "min"  : -100.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6EE1\u8DB3\u611F",
+              "en" : "Gratification",
+              "ja" : "\u6E80\u8DB3\u611F"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -25.0,
+            "y" : -25.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Filth",
+            "type" : "GameStat",
+            "icon" : "GameStat__Bruising__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 500.0,
+            "name" : {
+              "zh" : "\u6C61\u57A2",
+              "en" : "Filth",
+              "ja" : "\u6C5A\u308C"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        }
+      ],
+      "ExtraDurabilityModifications" : [
+        {
+          "AffectedTags" : [
+            {
+              "key" : "tag_EnvIndoors",
+              "type" : "CardTag",
+              "count" : 50,
+              "name"  : {
+                "zh" : "\u5BA4\u5185",
+                "en" : "Indoors",
+                "ja" : "\u5C4B\u5185"
+              }
+            }
+          ],
+          "AppliesTo"    : 0,
+          "SpoilageChange" : {
+            "x" : 200.0,
+            "y" : 200.0
+          },
+          "CardChanges"    : 0,
+          "RandomlyAffectedCards" : 0.0,
+          "RandomAmountType"      : 0
+        },
+        {
+          "AffectedTags" : [
+            {
+              "key" : "tag_OuterLegs",
+              "type" : "CardTag",
+              "count" : 8,
+              "name"  : {
+                "zh" : "\u817F\u90E8\uFF08\u5916\u5C42\uFF09",
+                "en" : "Legs (Outer)",
+                "ja" : "\u811A\uFF08\u5916\u5074\uFF09"
+              }
+            },
+            {
+              "key" : "tag_InnerLegs",
+              "type" : "CardTag",
+              "count" : 9,
+              "name"  : {
+                "zh" : "\u817F\u90E8\uFF08\u5185\u5C42\uFF09",
+                "en" : "Legs (Inner)",
+                "ja" : "\u811A\uFF08\u5185\u5074\uFF09"
+              }
+            }
+          ],
+          "AppliesTo"    : 1,
+          "FuelChange"   : {
+            "x" : 12.0,
+            "y" : 12.0
+          },
+          "CardChanges"  : 0,
+          "RandomlyAffectedCards" : 0.0,
+          "RandomAmountType"      : 0
+        }
+      ],
+      "RoomDirection"                : 0,
+      "ExitDirection"                : 0
+    }
+  ],
+  "type"    : "SelfTriggeredAction",
+  "key"     : "Tgr_Pee",
+  "name"    : {
+    "zh" : "Tgr_Pee",
+    "en" : "Tgr_Pee",
+    "ja" : "Tgr_Pee"
+  },
+  "_uuid"   : "2d821fbba6efa654db5d530f40fe1d90"
+}

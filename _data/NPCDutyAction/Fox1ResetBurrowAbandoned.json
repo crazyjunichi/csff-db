@@ -1,1 +1,44 @@
-{"OverrideModifiersTarget":{"TargetAgent":{"Target":{"key":"Agent_Fox1","type":"NPCAgent","icon":"7ced32767d69a664","name":{"zh":"\u72D0\u72F8","en":"Fox","ja":"\u30AD\u30C4\u30CD"}}},"Method":0},"NPCStatModifiers":[{"TargetStat":{"key":"AgentBurrowAbandoned","type":"NPCStat","name":{"zh":"\u9057\u5F03\u6D1E\u7A74","en":"AgentBurrowAbandoned","ja":"AgentBurrowAbandoned"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"key":"Fox1ResetBurrowAbandoned","type":"NPCDutyAction","name":{"zh":"Fox1ResetBurrowAbandoned","en":"Fox1ResetBurrowAbandoned","ja":"Fox1ResetBurrowAbandoned"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "OverrideModifiersTarget" : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "Agent_Fox1",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Fox1__AgentImage",
+        "name" : {
+          "zh" : "\u72D0\u72F8",
+          "en" : "Fox",
+          "ja" : "\u30AD\u30C4\u30CD"
+        }
+      }
+    },
+    "Method"      : 0
+  },
+  "NPCStatModifiers"        : [
+    {
+      "TargetStat" : {
+        "key" : "AgentBurrowAbandoned",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u9057\u5F03\u6D1E\u7A74",
+          "en" : "AgentBurrowAbandoned",
+          "ja" : "AgentBurrowAbandoned"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    }
+  ],
+  "key"                     : "Fox1ResetBurrowAbandoned",
+  "type"                    : "NPCDutyAction",
+  "name"                    : {
+    "zh" : "Fox1ResetBurrowAbandoned",
+    "en" : "Fox1ResetBurrowAbandoned",
+    "ja" : "Fox1ResetBurrowAbandoned"
+  },
+  "actionType"              : "ChangeNPCStatDutyAction"
+}

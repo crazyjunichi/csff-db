@@ -1,1 +1,156 @@
-{"key":"FellTreeAction","type":"ActionTag","name":{"zh":"\u4F10\u6811\u52A8\u4F5C","en":"FellTreeAction","ja":"FellTreeAction"},"_actions":[{"source":{"key":"TreeLargeAlder","type":"CardData","CardType":2,"icon":"c4377c42a44e4b41","name":{"zh":"\u6864\u6728","en":"Alder Tree","ja":"Alder Tree"}},"text":"\u780D\u6811","time":2.0},{"source":{"key":"TreeLargeBirch","type":"CardData","CardType":2,"icon":"398ac348e6a73386","name":{"zh":"\u767D\u6866\u6811","en":"Birch Tree","ja":"\u30B7\u30E9\u30AB\u30D0\u306E\u6728"}},"text":"\u780D\u6811","time":2.0},{"source":{"key":"TreeLargeOak","type":"CardData","CardType":2,"icon":"7d5f8b8b673177bb","name":{"zh":"\u6A61\u6811","en":"Oak Tree","ja":"\u30AA\u30FC\u30AF\u306E\u6728"}},"text":"\u780D\u6811","time":2.0},{"source":{"key":"TreeLargePine","type":"CardData","CardType":2,"icon":"b50e1b8bc043409e","name":{"zh":"\u677E\u6811","en":"Pine Tree","ja":"\u677E\u306E\u6728"}},"text":"\u780D\u6811","time":2.0},{"source":{"key":"TreeLargeWillow","type":"CardData","CardType":2,"icon":"5bdf6b60e5db8584","name":{"zh":"\u67F3\u6811","en":"Willow Tree","ja":"\u30E4\u30CA\u30AE\u306E\u6728"}},"text":"\u780D\u6811","time":2.0}],"count":5,"templateCard":{"UsageDurability":{"Active":true,"MaxValue":10000.0,"durabilityKey":"UsageDurability","CardStatName":{"zh":"\u9999\u6C14","en":"Fragrance","ja":"Fragrance"}},"FuelCapacity":{"Active":true,"MaxValue":10000.0,"durabilityKey":"FuelCapacity","CardStatName":{"zh":"\u71C3\u6599","en":"Fuel","ja":"Fuel"}},"Progress":{"Active":true,"MaxValue":75.0,"durabilityKey":"Progress","CardStatName":{"zh":"\u780D\u5012\u8FDB\u7A0B","en":"Cut","ja":"Cut"},"OverrideIcon":{"FileName":"fab8dcfcbb89f81d"}},"SpecialDurability1":{"Active":true,"MaxValue":1.0,"durabilityKey":"SpecialDurability1","CardStatName":{"zh":"\u5DF2\u6807\u8BB0","en":"Marked","ja":"Marked"}},"SpecialDurability2":{"Active":true,"MaxValue":60.0,"durabilityKey":"SpecialDurability2","CardStatName":{"zh":"\u54C1\u8D28","en":"Quality","ja":"Quality"},"OverrideIcon":{"FileName":"571094bb27864b60"}},"SpecialDurability4":{"Active":true,"MaxValue":10000.0,"durabilityKey":"SpecialDurability4","CardStatName":{"zh":"ID","en":"ID","ja":"ID"}}}}
+
+{
+  "key" : "FellTreeAction",
+  "type" : "ActionTag",
+  "name" : {
+    "zh" : "\u4F10\u6811\u52A8\u4F5C",
+    "en" : "FellTreeAction",
+    "ja" : "FellTreeAction"
+  },
+  "_actions" : [
+    {
+      "source" : {
+        "key" : "TreeLargeAlder",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__TreeLargeAlder__CardImage",
+        "name"     : {
+          "zh" : "\u6864\u6728",
+          "en" : "Alder Tree",
+          "ja" : "Alder Tree"
+        }
+      },
+      "text"   : "\u780D\u6811",
+      "time"   : 2.0
+    },
+    {
+      "source" : {
+        "key" : "TreeLargeBirch",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__TreeLargeBirch__CardImage",
+        "name"     : {
+          "zh" : "\u767D\u6866\u6811",
+          "en" : "Birch Tree",
+          "ja" : "\u30B7\u30E9\u30AB\u30D0\u306E\u6728"
+        }
+      },
+      "text"   : "\u780D\u6811",
+      "time"   : 2.0
+    },
+    {
+      "source" : {
+        "key" : "TreeLargeOak",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__StickLong__SpecialDurability4-OverrideIcon",
+        "name"     : {
+          "zh" : "\u6A61\u6811",
+          "en" : "Oak Tree",
+          "ja" : "\u30AA\u30FC\u30AF\u306E\u6728"
+        }
+      },
+      "text"   : "\u780D\u6811",
+      "time"   : 2.0
+    },
+    {
+      "source" : {
+        "key" : "TreeLargePine",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__TreeLargePine__CardImage",
+        "name"     : {
+          "zh" : "\u677E\u6811",
+          "en" : "Pine Tree",
+          "ja" : "\u677E\u306E\u6728"
+        }
+      },
+      "text"   : "\u780D\u6811",
+      "time"   : 2.0
+    },
+    {
+      "source" : {
+        "key" : "TreeLargeWillow",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Event_WillowSpiritBlessingGranted__CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6811",
+          "en" : "Willow Tree",
+          "ja" : "\u30E4\u30CA\u30AE\u306E\u6728"
+        }
+      },
+      "text"   : "\u780D\u6811",
+      "time"   : 2.0
+    }
+  ],
+  "count"    : 5,
+  "templateCard" : {
+    "UsageDurability" : {
+      "Active" : true,
+      "MaxValue" : 10000.0,
+      "durabilityKey" : "UsageDurability",
+      "CardStatName"  : {
+        "zh" : "\u9999\u6C14",
+        "en" : "Fragrance",
+        "ja" : "Fragrance"
+      }
+    },
+    "FuelCapacity"    : {
+      "Active" : true,
+      "MaxValue" : 10000.0,
+      "durabilityKey" : "FuelCapacity",
+      "CardStatName"  : {
+        "zh" : "\u71C3\u6599",
+        "en" : "Fuel",
+        "ja" : "Fuel"
+      }
+    },
+    "Progress"        : {
+      "Active" : true,
+      "MaxValue" : 75.0,
+      "durabilityKey" : "Progress",
+      "CardStatName"  : {
+        "zh" : "\u780D\u5012\u8FDB\u7A0B",
+        "en" : "Cut",
+        "ja" : "Cut"
+      },
+      "OverrideIcon"  : {
+        "FileName" : "CardData__BarkSandals__UsageDurability-OverrideIcon"
+      }
+    },
+    "SpecialDurability1" : {
+      "Active" : true,
+      "MaxValue" : 1.0,
+      "durabilityKey" : "SpecialDurability1",
+      "CardStatName"  : {
+        "zh" : "\u5DF2\u6807\u8BB0",
+        "en" : "Marked",
+        "ja" : "Marked"
+      }
+    },
+    "SpecialDurability2" : {
+      "Active" : true,
+      "MaxValue" : 60.0,
+      "durabilityKey" : "SpecialDurability2",
+      "CardStatName"  : {
+        "zh" : "\u54C1\u8D28",
+        "en" : "Quality",
+        "ja" : "Quality"
+      },
+      "OverrideIcon"  : {
+        "FileName" : "CardData__AcornDoughRaw__SpecialDurability2-OverrideIcon"
+      }
+    },
+    "SpecialDurability4" : {
+      "Active" : true,
+      "MaxValue" : 10000.0,
+      "durabilityKey" : "SpecialDurability4",
+      "CardStatName"  : {
+        "zh" : "ID",
+        "en" : "ID",
+        "ja" : "ID"
+      }
+    }
+  }
+}

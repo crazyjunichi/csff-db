@@ -1,1 +1,127 @@
-{"key":"ShavingActionSpecial3Receiving","type":"ActionTag","name":{"zh":"\u522E\u524A\u52A8\u4F5C-\u7279\u6B8A3\u63A5\u6536","en":"ShavingActionSpecial3Receiving","ja":"ShavingActionSpecial3Receiving"},"_modifiers":[{"source":{"key":"ToolOrWeapon_Drawknife_Metal","type":"CardData","CardType":0,"icon":"3500d103af3862f9","name":{"zh":"\u91D1\u5C5E\u62C9\u5200","en":"Metal Drawknife","ja":"\u91D1\u5C5E\u88FD\u306E\u30C9\u30ED\u30FC\u30CA\u30A4\u30D5"}},"description":{"zh":"\u5361\u724C\u80FD\u529B","en":"Card Ability","ja":"\u30AB\u30FC\u30C9\u80FD\u529B"},"modifier":{"AppliesTo":[{"key":"ShavingActionSpecial3Receiving","type":"ActionTag","name":{"zh":"\u522E\u524A\u52A8\u4F5C-\u7279\u6B8A3\u63A5\u6536","en":"ShavingActionSpecial3Receiving","ja":"ShavingActionSpecial3Receiving"}}],"DurationModifier":-1,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":2.0,"y":2.0}}],"ReceivingDurabilities":{"Special3Change":{"x":5.0,"y":5.0}},"AddedTemporaryStatModifiers":[{"Stat":{"key":"Skill_Woodworking","type":"GameStat","icon":"c88673b89542557c","min":0.0,"max":150.0,"name":{"zh":"\u6728\u5DE5","en":"Woodworking","ja":"\u6728\u5DE5\u306E\u30B9\u30AD\u30EB"}},"ValueModifier":{"x":15.0,"y":15.0}},{"Stat":{"key":"Skill_Leatherworking","type":"GameStat","icon":"4d4eb5730e4c8c07","min":0.0,"max":150.0,"name":{"zh":"\u5236\u9769","en":"Leatherworking","ja":"\u9769\u52A0\u5DE5\u306E\u30B9\u30AD\u30EB"}},"ValueModifier":{"x":15.0,"y":15.0}},{"Stat":{"key":"ShavingAid","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1.0,"name":{"zh":"\u522E\u76AE\u8F85\u52A9","en":"Shaving Aid","ja":"Shaving Aid"}},"ValueModifier":{"x":1.0,"y":1.0}}],"FadeToBlack":0}}]}
+
+{
+  "key" : "ShavingActionSpecial3Receiving",
+  "type" : "ActionTag",
+  "name" : {
+    "zh" : "\u522E\u524A\u52A8\u4F5C-\u7279\u6B8A3\u63A5\u6536",
+    "en" : "ShavingActionSpecial3Receiving",
+    "ja" : "ShavingActionSpecial3Receiving"
+  },
+  "_modifiers" : [
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_Drawknife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Drawknife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u62C9\u5200",
+          "en" : "Metal Drawknife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u30C9\u30ED\u30FC\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u5361\u724C\u80FD\u529B",
+        "en" : "Card Ability",
+        "ja" : "\u30AB\u30FC\u30C9\u80FD\u529B"
+      },
+      "modifier"    : {
+        "AppliesTo" : [
+          {
+            "key" : "ShavingActionSpecial3Receiving",
+            "type" : "ActionTag",
+            "name" : {
+              "zh" : "\u522E\u524A\u52A8\u4F5C-\u7279\u6B8A3\u63A5\u6536",
+              "en" : "ShavingActionSpecial3Receiving",
+              "ja" : "ShavingActionSpecial3Receiving"
+            }
+          }
+        ],
+        "DurationModifier" : -1,
+        "AddedStatModifiers" : [
+          {
+            "Stat" : {
+              "key" : "Stamina",
+              "type" : "GameStat",
+              "icon" : "GameStat__Stamina__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 32.0,
+              "name" : {
+                "zh" : "\u8010\u529B",
+                "en" : "Stamina",
+                "ja" : "\u30B9\u30BF\u30DF\u30CA"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 2.0,
+              "y" : 2.0
+            }
+          }
+        ],
+        "ReceivingDurabilities" : {
+          "Special3Change" : {
+            "x" : 5.0,
+            "y" : 5.0
+          }
+        },
+        "AddedTemporaryStatModifiers" : [
+          {
+            "Stat" : {
+              "key" : "Skill_Woodworking",
+              "type" : "GameStat",
+              "icon" : "NPCCharacterPerk__PartnerPerk_KnowledgeWoodworker__PerkIcon",
+              "min"  : 0.0,
+              "max"  : 150.0,
+              "name" : {
+                "zh" : "\u6728\u5DE5",
+                "en" : "Woodworking",
+                "ja" : "\u6728\u5DE5\u306E\u30B9\u30AD\u30EB"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 15.0,
+              "y" : 15.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Skill_Leatherworking",
+              "type" : "GameStat",
+              "icon" : "CardData__Bp_LeatherTunic__CardImage",
+              "min"  : 0.0,
+              "max"  : 150.0,
+              "name" : {
+                "zh" : "\u5236\u9769",
+                "en" : "Leatherworking",
+                "ja" : "\u9769\u52A0\u5DE5\u306E\u30B9\u30AD\u30EB"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 15.0,
+              "y" : 15.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "ShavingAid",
+              "type" : "GameStat",
+              "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u522E\u76AE\u8F85\u52A9",
+                "en" : "Shaving Aid",
+                "ja" : "Shaving Aid"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "FadeToBlack"                 : 0
+      }
+    }
+  ]
+}

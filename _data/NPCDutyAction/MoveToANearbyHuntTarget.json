@@ -1,1 +1,119 @@
-{"MovementType":0,"MoveDestination":4,"DestinationSelection":2,"MoveToEnvironments":[{"key":"Env_River_ThicketAlder_ClayBanks_","type":"CardData","CardType":4,"name":{"zh":"\u9ECF\u571F\u6CB3\u5CB8","en":"Clay Banks","ja":"Clay Banks"}},{"key":"Env_GroveAlder_RottenWoods","type":"CardData","CardType":4,"icon":"5724d27100516c91","name":{"zh":"\u8150\u673D\u68EE\u6797","en":"Rotten Woods","ja":"Rotten Woods"}},{"key":"Env_River_ThicketOak_RiverConfluence","type":"CardData","CardType":4,"name":{"zh":"\u6CB3\u6D41\u4EA4\u6C47\u5904","en":"River Confluence","ja":"\u5DDD\u306E\u5408\u6D41\u70B9"}},{"key":"Env_ThicketOak_WhisperingThicket","type":"CardData","CardType":4,"name":{"zh":"\u7D6E\u8BED\u98CE\u6797","en":"Whispering Thicket","ja":"\u56C1\u304D\u306E\u5BC6\u6797"}},{"key":"Env_River_GrovePine_NorthernLakeBank","type":"CardData","CardType":4,"name":{"zh":"\u5317\u90E8\u6E56\u5CB8","en":"Northern Lake Bank","ja":"\u5317\u306E\u6E56\u7554"}},{"key":"Env_GrovePine_EasternWildWoods","type":"CardData","CardType":4,"name":{"zh":"\u4E1C\u90E8\u8352\u6797","en":"Eastern Wild Woods","ja":"\u6771\u306E\u8352\u68EE"}}],"MoveToTags":[{"key":"tag_HasForage","type":"CardTag","count":91,"name":{"zh":"\u6709\u89C5\u98DF\u7269","en":"Has Forage","ja":"Has Forage"}}],"MoveToItems":[{"Target":{"key":"tag_PartnerHuntingArea","type":"CardTag","count":6,"name":{"zh":"\u4F34\u4FA3\u72E9\u730E\u533A","en":"Partner Hunting Area","ja":"Partner Hunting Area"}}}],"OtherAgent":{"TargetAgent":{"Target":{"key":"AgentTag_PartnerHuntTarget","type":"NPCTag","name":{"zh":"\u4F34\u4FA3\u730E\u7269","en":"AgentTag_PartnerHuntTarget","ja":"AgentTag_PartnerHuntTarget"}}},"Method":0,"UsePathfinding":true},"CostRequirements":0,"key":"MoveToANearbyHuntTarget","type":"NPCDutyAction","name":{"zh":"MoveToANearbyHuntTarget","en":"MoveToANearbyHuntTarget","ja":"MoveToANearbyHuntTarget"},"actionType":"MoveDutyAction"}
+
+{
+  "MovementType" : 0,
+  "MoveDestination" : 4,
+  "DestinationSelection" : 2,
+  "MoveToEnvironments"   : [
+    {
+      "key" : "Env_River_ThicketAlder_ClayBanks_",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u9ECF\u571F\u6CB3\u5CB8",
+        "en" : "Clay Banks",
+        "ja" : "Clay Banks"
+      }
+    },
+    {
+      "key" : "Env_GroveAlder_RottenWoods",
+      "type" : "CardData",
+      "CardType" : 4,
+      "icon"     : "CardData__Env_GroveAlder_AlderGrove__CardImage",
+      "name"     : {
+        "zh" : "\u8150\u673D\u68EE\u6797",
+        "en" : "Rotten Woods",
+        "ja" : "Rotten Woods"
+      }
+    },
+    {
+      "key" : "Env_River_ThicketOak_RiverConfluence",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
+        "en" : "River Confluence",
+        "ja" : "\u5DDD\u306E\u5408\u6D41\u70B9"
+      }
+    },
+    {
+      "key" : "Env_ThicketOak_WhisperingThicket",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u7D6E\u8BED\u98CE\u6797",
+        "en" : "Whispering Thicket",
+        "ja" : "\u56C1\u304D\u306E\u5BC6\u6797"
+      }
+    },
+    {
+      "key" : "Env_River_GrovePine_NorthernLakeBank",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u5317\u90E8\u6E56\u5CB8",
+        "en" : "Northern Lake Bank",
+        "ja" : "\u5317\u306E\u6E56\u7554"
+      }
+    },
+    {
+      "key" : "Env_GrovePine_EasternWildWoods",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u4E1C\u90E8\u8352\u6797",
+        "en" : "Eastern Wild Woods",
+        "ja" : "\u6771\u306E\u8352\u68EE"
+      }
+    }
+  ],
+  "MoveToTags"           : [
+    {
+      "key" : "tag_HasForage",
+      "type" : "CardTag",
+      "count" : 91,
+      "name"  : {
+        "zh" : "\u6709\u89C5\u98DF\u7269",
+        "en" : "Has Forage",
+        "ja" : "Has Forage"
+      }
+    }
+  ],
+  "MoveToItems"          : [
+    {
+      "Target" : {
+        "key" : "tag_PartnerHuntingArea",
+        "type" : "CardTag",
+        "count" : 6,
+        "name"  : {
+          "zh" : "\u540C\u4F34\u72E9\u730E\u533A",
+          "en" : "Partner Hunting Area",
+          "ja" : "Partner Hunting Area"
+        }
+      }
+    }
+  ],
+  "OtherAgent"           : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "AgentTag_PartnerHuntTarget",
+        "type" : "NPCTag",
+        "name" : {
+          "zh" : "\u540C\u4F34\u730E\u7269",
+          "en" : "AgentTag_PartnerHuntTarget",
+          "ja" : "AgentTag_PartnerHuntTarget"
+        }
+      }
+    },
+    "Method"      : 0,
+    "UsePathfinding" : true
+  },
+  "CostRequirements"     : 0,
+  "key"                  : "MoveToANearbyHuntTarget",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "MoveToANearbyHuntTarget",
+    "en" : "MoveToANearbyHuntTarget",
+    "ja" : "MoveToANearbyHuntTarget"
+  },
+  "actionType"           : "MoveDutyAction"
+}

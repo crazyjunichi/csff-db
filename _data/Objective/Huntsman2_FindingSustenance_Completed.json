@@ -1,1 +1,142 @@
-{"ObjectiveDescription":{"zh":"\u5BFB\u627E\u98DF\u7269","en":"Finding Sustenance","ja":"\u7CE7\u3092\u5F97\u308B"},"NotificationSettings":{"Frequency":1,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"Completed","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Huntsman2_FindingSustenance_Completed_Event","type":"CardData","CardType":3,"icon":"caafdc12ce87b01f","name":{"zh":"\u5BFB\u627E\u98DF\u7269","en":"Finding Sustenance","ja":"\u7CE7\u3092\u5F97\u308B"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"NestedObjectives":[{"ObjectiveCondition":{"key":"Huntsman2_FindingSustenance_Obj1_RefuelTheFire","type":"Objective","name":{"zh":"\u7ED9\u706B\u6DFB\u67F4","en":"Refuel the Fire","ja":"\u706B\u306B\u71C3\u6599\u3092\u52A0\u3048\u308B"}},"ObjectiveName":"1","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_FindingSustenance_Obj2_DrinkWaterFromTheLake","type":"Objective","name":{"zh":"\u996E\u7528\u6E56\u6C34","en":"Drink Water from the Lake","ja":"\u6E56\u306E\u6C34\u3092\u98F2\u3080"}},"ObjectiveName":"2","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_FindingSustenance_Obj3_DigSomeCattailRoots","type":"Objective","name":{"zh":"\u6316\u4E9B\u9999\u84B2\u6839","en":"Dig some Cattail Roots","ja":"\u30AC\u30DE\u306E\u6839\u830E\u3092\u6398\u308B"}},"ObjectiveName":"3","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_FindingSustenance_Obj4_PeelAndCutSomeCattailRoots","type":"Objective","name":{"zh":"\u5265\u76AE\u5207\u788E\u9999\u84B2\u6839","en":"Peel & Cut the Cattail Roots","ja":"\u30AC\u30DE\u306E\u6839\u830E\u306E\u76AE\u3092\u5265\u3044\u3066\u5207\u308B"}},"ObjectiveName":"4","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_FindingSustenance_Obj5_RoastCattailRootsOnAFire","type":"Objective","name":{"zh":"\u5728\u706B\u4E0A\u70E4\u5236\u9999\u84B2\u6839","en":"Roast Cattail Roots on a Fire","ja":"\u30AC\u30DE\u306E\u6839\u830E\u3092\u706B\u3067\u713C\u304F"}},"ObjectiveName":"5","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_FindingSustenance_Obj6_EatSomeRoastedCattailRoots","type":"Objective","name":{"zh":"\u5403\u4E9B\u70E4\u719F\u7684\u9999\u84B2\u6839","en":"Eat some Roasted Cattail Roots","ja":"\u713C\u3044\u305F\u30AC\u30DE\u306E\u6839\u830E\u3092\u98DF\u3079\u308B"}},"ObjectiveName":"6","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":0,"type":"Objective","key":"Huntsman2_FindingSustenance_Completed","name":{"zh":"\u5BFB\u627E\u98DF\u7269","en":"Finding Sustenance","ja":"\u7CE7\u3092\u5F97\u308B"},"_uuid":"201403ec51559864ca001422fc398a19"}
+
+{
+  "ObjectiveDescription" : {
+    "zh" : "\u5BFB\u627E\u98DF\u7269",
+    "en" : "Finding Sustenance",
+    "ja" : "\u7CE7\u3092\u5F97\u308B"
+  },
+  "NotificationSettings" : {
+    "Frequency" : 1,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ProducedCards" : [
+        {
+          "CollectionName" : "Completed",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Huntsman2_FindingSustenance_Completed_Event",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "CardData__CattailRootFresh__CardImage",
+                "name"     : {
+                  "zh" : "\u5BFB\u627E\u98DF\u7269",
+                  "en" : "Finding Sustenance",
+                  "ja" : "\u7CE7\u3092\u5F97\u308B"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "FadeToBlack"   : 0,
+      "RoomDirection" : 0,
+      "ExitDirection" : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "NestedObjectives"     : [
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_FindingSustenance_Obj1_RefuelTheFire",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u7ED9\u706B\u6DFB\u67F4",
+          "en" : "Refuel the Fire",
+          "ja" : "\u706B\u306B\u71C3\u6599\u3092\u52A0\u3048\u308B"
+        }
+      },
+      "ObjectiveName"      : "1",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_FindingSustenance_Obj2_DrinkWaterFromTheLake",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u996E\u7528\u6E56\u6C34",
+          "en" : "Drink Water from the Lake",
+          "ja" : "\u6E56\u306E\u6C34\u3092\u98F2\u3080"
+        }
+      },
+      "ObjectiveName"      : "2",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_FindingSustenance_Obj3_DigSomeCattailRoots",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u6316\u4E9B\u9999\u84B2\u6839",
+          "en" : "Dig some Cattail Roots",
+          "ja" : "\u30AC\u30DE\u306E\u6839\u830E\u3092\u6398\u308B"
+        }
+      },
+      "ObjectiveName"      : "3",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_FindingSustenance_Obj4_PeelAndCutSomeCattailRoots",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u5265\u76AE\u5207\u788E\u9999\u84B2\u6839",
+          "en" : "Peel & Cut the Cattail Roots",
+          "ja" : "\u30AC\u30DE\u306E\u6839\u830E\u306E\u76AE\u3092\u5265\u3044\u3066\u5207\u308B"
+        }
+      },
+      "ObjectiveName"      : "4",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_FindingSustenance_Obj5_RoastCattailRootsOnAFire",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u5728\u706B\u4E0A\u70E4\u5236\u9999\u84B2\u6839",
+          "en" : "Roast Cattail Roots on a Fire",
+          "ja" : "\u30AC\u30DE\u306E\u6839\u830E\u3092\u706B\u3067\u713C\u304F"
+        }
+      },
+      "ObjectiveName"      : "5",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_FindingSustenance_Obj6_EatSomeRoastedCattailRoots",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u5403\u4E9B\u70E4\u719F\u7684\u9999\u84B2\u6839",
+          "en" : "Eat some Roasted Cattail Roots",
+          "ja" : "\u713C\u3044\u305F\u30AC\u30DE\u306E\u6839\u830E\u3092\u98DF\u3079\u308B"
+        }
+      },
+      "ObjectiveName"      : "6",
+      "CompletionWeight"   : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "Objective",
+  "key"                         : "Huntsman2_FindingSustenance_Completed",
+  "name"                        : {
+    "zh" : "\u5BFB\u627E\u98DF\u7269",
+    "en" : "Finding Sustenance",
+    "ja" : "\u7CE7\u3092\u5F97\u308B"
+  },
+  "_uuid"                       : "201403ec51559864ca001422fc398a19"
+}

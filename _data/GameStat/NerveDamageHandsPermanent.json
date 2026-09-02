@@ -1,1 +1,216 @@
-{"GameName":{"zh":"\u624B\u90E8\u795E\u7ECF\u635F\u4F24","en":"Hand Nerve Damage","ja":"\u624B\u306E\u795E\u7D4C\u640D\u50B7"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":2880.0},"BaseRatePerTick":-1.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"\u4FEE\u6B631","en":"Modifier 1","ja":"\u8ABF\u6574\uFF11"},"Icon":{"FileName":"4527cee819e69ce0"},"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnStats":[{"Stat":{"key":"DexterityPenalty","type":"GameStat","icon":"4527cee819e69ce0","min":0.0,"max":3.0,"name":{"zh":"\u7075\u5DE7\u60E9\u7F5A","en":"Dexterity Penalty","ja":"\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"}},"ValueModifier":{"x":1.0,"y":1.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4FEE\u6B632","en":"Modifier 2","ja":"\u8ABF\u6574\uFF12"},"ValueRange":{"m_X":2,"m_Y":2},"EffectsOnStats":[{"Stat":{"key":"DexterityPenalty","type":"GameStat","icon":"4527cee819e69ce0","min":0.0,"max":3.0,"name":{"zh":"\u7075\u5DE7\u60E9\u7F5A","en":"Dexterity Penalty","ja":"\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"}},"ValueModifier":{"x":2.0,"y":2.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4FEE\u6B633","en":"Modifier 3","ja":"\u8ABF\u6574\uFF13"},"ValueRange":{"m_X":3,"m_Y":3},"EffectsOnStats":[{"Stat":{"key":"DexterityPenalty","type":"GameStat","icon":"4527cee819e69ce0","min":0.0,"max":3.0,"name":{"zh":"\u7075\u5DE7\u60E9\u7F5A","en":"Dexterity Penalty","ja":"\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"}},"ValueModifier":{"x":3.0,"y":3.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u795E\u7ECF\u635F\u4F24","en":"Nerve Damage","ja":"\u795E\u7D4C\u640D\u50B7"},"Description":{"zh":"\u5728\u6211\u53D6\u4E0B\u6B62\u8840\u5E26\u540E\u5C31\u4F1A\u6162\u6162\u6062\u590D\u3002","en":"Should slowly heal when I remove the tourniquet.","ja":"\u6B62\u8840\u5E2F\u3092\u5916\u3057\u305F\u3089\u5C11\u3057\u305A\u3064\u56DE\u5FA9\u3059\u308B\u306F\u305A\u3002"},"Icon":{"FileName":"4527cee819e69ce0"},"ValueRange":{"m_X":1,"m_Y":2880},"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":4,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"NotEnoughText":{"zh":"\u8FD9\u79CD\u72B6\u6001\u4E0D\u80FD\u6500\u722C\u3002","en":"Can't climb in this state.","ja":"\u3053\u306E\u72B6\u614B\u3060\u3068\u767B\u308C\u306A\u3044\u3002"},"type":"GameStat","key":"NerveDamageHandsPermanent","icon":"4527cee819e69ce0","name":{"zh":"\u624B\u90E8\u795E\u7ECF\u635F\u4F24","en":"Hand Nerve Damage","ja":"\u624B\u306E\u795E\u7D4C\u640D\u50B7"},"min":0.0,"max":2880.0,"_modifierRates":[{"source":{"key":"NerveDamageHands","type":"GameStat","icon":"4527cee819e69ce0","min":0.0,"max":12.0,"name":{"zh":"\u624B\u90E8\u795E\u7ECF\u635F\u4F24","en":"Hand Nerve Damage","ja":"\u624B\u306E\u795E\u7D4C\u640D\u50B7"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u795E\u7ECF\u538B\u8FEB","en":"Status Stage: Nerve Pressure","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u795E\u7D4C\u5727\u8FEB"},"value":{"x":48.0,"y":48.0}}],"_uuid":"7ad1721d788900a4ea37c45b4a9f421d"}
+
+{
+  "GameName" : {
+    "zh" : "\u624B\u90E8\u795E\u7ECF\u635F\u4F24",
+    "en" : "Hand Nerve Damage",
+    "ja" : "\u624B\u306E\u795E\u7D4C\u640D\u50B7"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 2880.0
+  },
+  "BaseRatePerTick" : -1.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u4FEE\u6B631",
+        "en" : "Modifier 1",
+        "ja" : "\u8ABF\u6574\uFF11"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__CallousesHands__DefaultStatusIcon"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "DexterityPenalty",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesHands__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u7075\u5DE7\u60E9\u7F5A",
+              "en" : "Dexterity Penalty",
+              "ja" : "\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4FEE\u6B632",
+        "en" : "Modifier 2",
+        "ja" : "\u8ABF\u6574\uFF12"
+      },
+      "ValueRange" : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "DexterityPenalty",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesHands__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u7075\u5DE7\u60E9\u7F5A",
+              "en" : "Dexterity Penalty",
+              "ja" : "\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4FEE\u6B633",
+        "en" : "Modifier 3",
+        "ja" : "\u8ABF\u6574\uFF13"
+      },
+      "ValueRange" : {
+        "m_X" : 3,
+        "m_Y" : 3
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "DexterityPenalty",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesHands__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u7075\u5DE7\u60E9\u7F5A",
+              "en" : "Dexterity Penalty",
+              "ja" : "\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 3.0,
+            "y" : 3.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u795E\u7ECF\u635F\u4F24",
+        "en" : "Nerve Damage",
+        "ja" : "\u795E\u7D4C\u640D\u50B7"
+      },
+      "Description" : {
+        "zh" : "\u5728\u6211\u53D6\u4E0B\u6B62\u8840\u5E26\u540E\u5C31\u4F1A\u6162\u6162\u6062\u590D\u3002",
+        "en" : "Should slowly heal when I remove the tourniquet.",
+        "ja" : "\u6B62\u8840\u5E2F\u3092\u5916\u3057\u305F\u3089\u5C11\u3057\u305A\u3064\u56DE\u5FA9\u3059\u308B\u306F\u305A\u3002"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__CallousesHands__DefaultStatusIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 1,
+        "m_Y" : 2880
+      },
+      "NotifyPlayer" : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 4,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "NotEnoughText"           : {
+    "zh" : "\u8FD9\u79CD\u72B6\u6001\u4E0D\u80FD\u6500\u722C\u3002",
+    "en" : "Can't climb in this state.",
+    "ja" : "\u3053\u306E\u72B6\u614B\u3060\u3068\u767B\u308C\u306A\u3044\u3002"
+  },
+  "type"                    : "GameStat",
+  "key"                     : "NerveDamageHandsPermanent",
+  "icon"                    : "GameStat__CallousesHands__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u624B\u90E8\u795E\u7ECF\u635F\u4F24",
+    "en" : "Hand Nerve Damage",
+    "ja" : "\u624B\u306E\u795E\u7D4C\u640D\u50B7"
+  },
+  "min"                     : 0.0,
+  "max"                     : 2880.0,
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "NerveDamageHands",
+        "type" : "GameStat",
+        "icon" : "GameStat__CallousesHands__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 12.0,
+        "name" : {
+          "zh" : "\u624B\u90E8\u795E\u7ECF\u635F\u4F24",
+          "en" : "Hand Nerve Damage",
+          "ja" : "\u624B\u306E\u795E\u7D4C\u640D\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u795E\u7ECF\u538B\u8FEB",
+        "en" : "Status Stage: Nerve Pressure",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u795E\u7D4C\u5727\u8FEB"
+      },
+      "value"       : {
+        "x" : 48.0,
+        "y" : 48.0
+      }
+    }
+  ],
+  "_uuid"                   : "7ad1721d788900a4ea37c45b4a9f421d"
+}

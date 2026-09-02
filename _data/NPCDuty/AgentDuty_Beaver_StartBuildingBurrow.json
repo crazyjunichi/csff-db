@@ -1,1 +1,91 @@
-{"DutyName":{"zh":"\u5F00\u59CB\u5EFA\u7A9D","en":"Beaver Start Building Burrow","ja":"Beaver Start Building Burrow"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentHasHome","type":"NPCStat","name":{"zh":"\u6709\u6D1E\u7A74","en":"AgentHasHome","ja":"AgentHasHome"}}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"BeaverMoveRandomHabitat","type":"MoveDutyAction","name":{"zh":"BeaverMoveRandomHabitat","en":"BeaverMoveRandomHabitat","ja":"BeaverMoveRandomHabitat"}},{"key":"StartBuildingBurrow","type":"CreateItemDutyAction","name":{"zh":"StartBuildingBurrow","en":"StartBuildingBurrow","ja":"StartBuildingBurrow"}},{"key":"SetBeaverHome","type":"SetHomeDutyAction","name":{"zh":"SetBeaverHome","en":"SetBeaverHome","ja":"SetBeaverHome"}},{"key":"SetBeaverhasHome","type":"ChangeNPCStatDutyAction","name":{"zh":"SetBeaverhasHome","en":"SetBeaverhasHome","ja":"SetBeaverhasHome"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Beaver_StartBuildingBurrow","name":{"zh":"\u5F00\u59CB\u5EFA\u7A9D","en":"Beaver Start Building Burrow","ja":"Beaver Start Building Burrow"},"_uuid":"513ea3b485408ee4fa613fc2593f2741"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5F00\u59CB\u5EFA\u7A9D",
+    "en" : "Beaver Start Building Burrow",
+    "ja" : "Beaver Start Building Burrow"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentHasHome",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6709\u6D1E\u7A74",
+            "en" : "AgentHasHome",
+            "ja" : "AgentHasHome"
+          }
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "BeaverMoveRandomHabitat",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "BeaverMoveRandomHabitat",
+        "en" : "BeaverMoveRandomHabitat",
+        "ja" : "BeaverMoveRandomHabitat"
+      }
+    },
+    {
+      "key" : "StartBuildingBurrow",
+      "type" : "CreateItemDutyAction",
+      "name" : {
+        "zh" : "StartBuildingBurrow",
+        "en" : "StartBuildingBurrow",
+        "ja" : "StartBuildingBurrow"
+      }
+    },
+    {
+      "key" : "SetBeaverHome",
+      "type" : "SetHomeDutyAction",
+      "name" : {
+        "zh" : "SetBeaverHome",
+        "en" : "SetBeaverHome",
+        "ja" : "SetBeaverHome"
+      }
+    },
+    {
+      "key" : "SetBeaverhasHome",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "SetBeaverhasHome",
+        "en" : "SetBeaverhasHome",
+        "ja" : "SetBeaverhasHome"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Beaver_StartBuildingBurrow",
+  "name"                 : {
+    "zh" : "\u5F00\u59CB\u5EFA\u7A9D",
+    "en" : "Beaver Start Building Burrow",
+    "ja" : "Beaver Start Building Burrow"
+  },
+  "_uuid"                : "513ea3b485408ee4fa613fc2593f2741"
+}

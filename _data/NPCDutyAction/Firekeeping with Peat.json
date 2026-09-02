@@ -1,1 +1,78 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"tag_Fire","type":"CardTag","count":13,"name":{"zh":"\u706B","en":"Fire","ja":"\u706B"}},"RequiredDurabilities":{"FuelRange":{"x":0.0,"y":48.0}}}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":2},"AffectType":1,"SimpleAffectDuration":0,"ActionToPerform":{"ActionType":1,"ActionTagFilter":[{"key":"PartnerAction2","type":"ActionTag","name":{"zh":"\u4F19\u4F34\u52A8\u4F5C2","en":"PartnerAction2","ja":"PartnerAction2"}}],"GivenCardSelectionMethod":0,"GivenCardSelection":{"ItemPool":[{"Target":{"Target":{"key":"PeatTurfDry","type":"CardData","CardType":0,"icon":"44f4fa06275e4241","name":{"zh":"\u5E72\u6CE5\u7164\u5757","en":"Dry Peat Turf","ja":"Dry Peat Turf"}}}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":0},"ActionDroppedCards":0},"key":"Firekeeping with Peat","type":"NPCDutyAction","name":{"zh":"Firekeeping with Peat","en":"Firekeeping with Peat","ja":"Firekeeping with Peat"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "tag_Fire",
+            "type" : "CardTag",
+            "count" : 13,
+            "name"  : {
+              "zh" : "\u706B",
+              "en" : "Fire",
+              "ja" : "\u706B"
+            }
+          },
+          "RequiredDurabilities" : {
+            "FuelRange" : {
+              "x" : 0.0,
+              "y" : 48.0
+            }
+          }
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 2
+  },
+  "AffectType"    : 1,
+  "SimpleAffectDuration" : 0,
+  "ActionToPerform"      : {
+    "ActionType" : 1,
+    "ActionTagFilter" : [
+      {
+        "key" : "PartnerAction2",
+        "type" : "ActionTag",
+        "name" : {
+          "zh" : "\u4F19\u4F34\u52A8\u4F5C2",
+          "en" : "PartnerAction2",
+          "ja" : "PartnerAction2"
+        }
+      }
+    ],
+    "GivenCardSelectionMethod" : 0,
+    "GivenCardSelection"       : {
+      "ItemPool" : [
+        {
+          "Target" : {
+            "Target" : {
+              "key" : "PeatTurfDry",
+              "type" : "CardData",
+              "CardType" : 0,
+              "icon"     : "CardData__PeatTurfDry__CardImage",
+              "name"     : {
+                "zh" : "\u5E72\u6CE5\u7164\u5757",
+                "en" : "Dry Peat Turf",
+                "ja" : "Dry Peat Turf"
+              }
+            }
+          }
+        }
+      ],
+      "SearchPriority" : 0,
+      "OwnershipPriority" : 1,
+      "DutyPriority"      : 0
+    },
+    "ActionDroppedCards"       : 0
+  },
+  "key"                  : "Firekeeping with Peat",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Firekeeping with Peat",
+    "en" : "Firekeeping with Peat",
+    "ja" : "Firekeeping with Peat"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

@@ -1,1 +1,2632 @@
-{"GameName":{"zh":"\u6CBC\u6CFD\u6C34\u4F4D\u6D2A\u6C34\u72B6\u6001","en":"SwampWaterLevelFloodedStatus","ja":"SwampWaterLevelFloodedStatus"},"Description":{"zh":"Active on FloodedTravelingActions during shallow and deep waters ( swamp waters 1 and 2). Also used to check for other swamp water level effects such as leeches droping on some actions. ","en":"Active on FloodedTravelingActions during shallow and deep waters ( swamp waters 1 and 2). Also used to check for other swamp water level effects such as leeches droping on some actions. ","ja":"Active on FloodedTravelingActions during shallow and deep waters ( swamp waters 1 and 2). Also used to check for other swamp water level effects such as leeches droping on some actions. "},"IsRuntimeOnly":true,"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":2.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"BarColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"Shallow Water Traveling Penalty","en":"Shallow Water Traveling Penalty","ja":"Shallow Water Traveling Penalty"},"Description":{"zh":"Flooded Traveling Actions take 15 minutes longer","en":"Flooded Traveling Actions take 15 minutes longer","ja":"Flooded Traveling Actions take 15 minutes longer"},"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnActions":[{"AppliesTo":[{"key":"FloodedSwampTravelingAction","type":"ActionTag","name":{"zh":"\u6CDB\u6EE5\u6CBC\u6CFD\u79FB\u52A8\u52A8\u4F5C","en":"FloodedSwampTravelingAction","ja":"FloodedSwampTravelingAction"}}],"ActionAddedSuffix":{"zh":"\u6D45\u6C34\u57DF","en":"shallow waters","ja":"shallow waters"},"DurationModifier":1,"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"Deep Water Traveling Penalty","en":"Deep Water Traveling Penalty","ja":"Deep Water Traveling Penalty"},"Description":{"zh":"Flooded Traveling Actions take 15 minutes longer","en":"Flooded Traveling Actions take 15 minutes longer","ja":"Flooded Traveling Actions take 15 minutes longer"},"ValueRange":{"m_X":2,"m_Y":2},"EffectsOnActions":[{"AppliesTo":[{"key":"FloodedSwampTravelingAction","type":"ActionTag","name":{"zh":"\u6CDB\u6EE5\u6CBC\u6CFD\u79FB\u52A8\u52A8\u4F5C","en":"FloodedSwampTravelingAction","ja":"FloodedSwampTravelingAction"}}],"ActionAddedSuffix":{"zh":"\u6DF1\u6C34\u57DF","en":"deep waters","ja":"deep waters"},"DurationModifier":2,"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"SwampWaterLevelFloodedStatus","name":{"zh":"\u6CBC\u6CFD\u6C34\u4F4D\u6D2A\u6C34\u72B6\u6001","en":"SwampWaterLevelFloodedStatus","ja":"SwampWaterLevelFloodedStatus"},"min":0.0,"max":2.0,"_modifierValues":[{"source":{"key":"DamBeaverStable","type":"CardData","CardType":2,"icon":"c622d004cd20741b","name":{"zh":"\u6CB3\u72F8\u575D","en":"Beaver Dam","ja":"Beaver Dam"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u63D0\u5347\u6C34\u6DF9\u7B49\u7EA7","en":"Passive Effect: Increase Flooding Level","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIncrease Flooding Level"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"DamBeaverUnstable","type":"CardData","CardType":2,"icon":"c622d004cd20741b","name":{"zh":"\u4E0D\u7A33\u5B9A\u7684\u6CB3\u72F8\u575D","en":"Unstable Beaver Dam","ja":"Unstable Beaver Dam"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u63D0\u5347\u6C34\u6DF9\u7B49\u7EA7","en":"Passive Effect: Increase Flooding Level","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIncrease Flooding Level"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"SwampWaterLevel","type":"GameStat","icon":"63ff89fdd76a3bc3","min":0.0,"max":384.0,"name":{"zh":"\u6CBC\u6CFD\u6C34\u4F4D","en":"Swamp Water Level","ja":"Swamp Water Level"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6CBC\u6CFD\u6D45\u6C34","en":"Status Stage: Shallow Swamp Waters","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AShallow Swamp Waters"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"SwampWaterLevel","type":"GameStat","icon":"63ff89fdd76a3bc3","min":0.0,"max":384.0,"name":{"zh":"\u6CBC\u6CFD\u6C34\u4F4D","en":"Swamp Water Level","ja":"Swamp Water Level"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6CBC\u6CFD\u6DF1\u6C34","en":"Status Stage: Deep Swamp Waters","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ADeep Swamp Waters"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"WaterFrozen","type":"GameStat","min":0.0,"max":1344.0,"name":{"zh":"\u6C34\u9762\u51BB\u7ED3","en":"WaterFrozen","ja":"WaterFrozen"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1AFish Population Reduction, replacing flooded status to freezing status for the flooded paths","en":"Status Stage: Fish Population Reduction, replacing flooded status to freezing status for the flooded paths","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AFish Population Reduction, replacing flooded status to freezing status for the flooded paths"},"value":{"x":-100.0,"y":-100.0}}],"_requires":[{"source":{"key":"ClearingAlder_SwampHill","type":"CardData","CardType":8,"icon":"e192578c083446a7","name":{"zh":"\u6CBC\u6CFD\u5C71\u4E18","en":"Swamp Hill","ja":"Swamp Hill"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ClearingAlder_SwampHill","type":"CardData","CardType":8,"icon":"e192578c083446a7","name":{"zh":"\u6CBC\u6CFD\u5C71\u4E18","en":"Swamp Hill","ja":"Swamp Hill"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"ClearingAlder_SwampHill","type":"CardData","CardType":8,"icon":"e192578c083446a7","name":{"zh":"\u6CBC\u6CFD\u5C71\u4E18","en":"Swamp Hill","ja":"Swamp Hill"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ClearingAlder_SwampHill","type":"CardData","CardType":8,"icon":"e192578c083446a7","name":{"zh":"\u6CBC\u6CFD\u5C71\u4E18","en":"Swamp Hill","ja":"Swamp Hill"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"ClearingAlder_SwampHill","type":"CardData","CardType":8,"icon":"e192578c083446a7","name":{"zh":"\u6CBC\u6CFD\u5C71\u4E18","en":"Swamp Hill","ja":"Swamp Hill"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ClearingAlder_SwampHill","type":"CardData","CardType":8,"icon":"e192578c083446a7","name":{"zh":"\u6CBC\u6CFD\u5C71\u4E18","en":"Swamp Hill","ja":"Swamp Hill"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"ClearingAlder_SwampHill","type":"CardData","CardType":8,"icon":"e192578c083446a7","name":{"zh":"\u6CBC\u6CFD\u5C71\u4E18","en":"Swamp Hill","ja":"Swamp Hill"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"GroveAlder_AlderGrove","type":"CardData","CardType":8,"icon":"7fbfc91bd9d49132","name":{"zh":"\u6864\u6728\u6797\u5730","en":"Alder Grove","ja":"Alder Grove"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"GroveAlder_AlderGrove","type":"CardData","CardType":8,"icon":"7fbfc91bd9d49132","name":{"zh":"\u6864\u6728\u6797\u5730","en":"Alder Grove","ja":"Alder Grove"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"GroveAlder_AlderGrove","type":"CardData","CardType":8,"icon":"7fbfc91bd9d49132","name":{"zh":"\u6864\u6728\u6797\u5730","en":"Alder Grove","ja":"Alder Grove"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"GroveAlder_BleedingWoods","type":"CardData","CardType":8,"icon":"c8b4daff2dc091a7","name":{"zh":"\u6E17\u8840\u68EE\u6797","en":"Bleeding Woods","ja":"Bleeding Woods"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"GroveAlder_BleedingWoods","type":"CardData","CardType":8,"icon":"c8b4daff2dc091a7","name":{"zh":"\u6E17\u8840\u68EE\u6797","en":"Bleeding Woods","ja":"Bleeding Woods"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"GroveAlder_BleedingWoods","type":"CardData","CardType":8,"icon":"c8b4daff2dc091a7","name":{"zh":"\u6E17\u8840\u68EE\u6797","en":"Bleeding Woods","ja":"Bleeding Woods"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"GroveAlder_BleedingWoods","type":"CardData","CardType":8,"icon":"c8b4daff2dc091a7","name":{"zh":"\u6E17\u8840\u68EE\u6797","en":"Bleeding Woods","ja":"Bleeding Woods"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"GroveAlder_BleedingWoods","type":"CardData","CardType":8,"icon":"c8b4daff2dc091a7","name":{"zh":"\u6E17\u8840\u68EE\u6797","en":"Bleeding Woods","ja":"Bleeding Woods"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"GroveAlder_RottenWoods","type":"CardData","CardType":8,"icon":"7fbfc91bd9d49132","name":{"zh":"\u8150\u673D\u68EE\u6797","en":"Rotten Woods","ja":"Rotten Woods"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"GroveAlder_RottenWoods","type":"CardData","CardType":8,"icon":"7fbfc91bd9d49132","name":{"zh":"\u8150\u673D\u68EE\u6797","en":"Rotten Woods","ja":"Rotten Woods"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"GroveAlder_RottenWoods","type":"CardData","CardType":8,"icon":"7fbfc91bd9d49132","name":{"zh":"\u8150\u673D\u68EE\u6797","en":"Rotten Woods","ja":"Rotten Woods"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"GroveAlder_SleepyGrove","type":"CardData","CardType":8,"icon":"6d92b824d41d7e17","name":{"zh":"\u6C89\u7761\u6797\u5730","en":"Sleepy Grove","ja":"Sleepy Grove"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"GroveAlder_SleepyGrove","type":"CardData","CardType":8,"icon":"6d92b824d41d7e17","name":{"zh":"\u6C89\u7761\u6797\u5730","en":"Sleepy Grove","ja":"Sleepy Grove"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"GroveAlder_SleepyGrove","type":"CardData","CardType":8,"icon":"6d92b824d41d7e17","name":{"zh":"\u6C89\u7761\u6797\u5730","en":"Sleepy Grove","ja":"Sleepy Grove"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"GroveOak_MuddyGrove","type":"CardData","CardType":8,"icon":"666b62d603c395f0","name":{"zh":"\u6CE5\u6CDE\u6797\u5730","en":"Muddy Grove","ja":"\u6CE5\u3060\u3089\u3051\u306E\u6797"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5357"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"GroveOak_MuddyGrove","type":"CardData","CardType":8,"icon":"666b62d603c395f0","name":{"zh":"\u6CE5\u6CDE\u6797\u5730","en":"Muddy Grove","ja":"\u6CE5\u3060\u3089\u3051\u306E\u6797"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5357"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"GroveOak_MuddyGrove","type":"CardData","CardType":8,"icon":"666b62d603c395f0","name":{"zh":"\u6CE5\u6CDE\u6797\u5730","en":"Muddy Grove","ja":"\u6CE5\u3060\u3089\u3051\u306E\u6797"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_BlackMire","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u9ED1\u8272\u6CE5\u6CBC","en":"Black Mire","ja":"Black Mire"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_BlackMire","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u9ED1\u8272\u6CE5\u6CBC","en":"Black Mire","ja":"Black Mire"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_BlackMire","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u9ED1\u8272\u6CE5\u6CBC","en":"Black Mire","ja":"Black Mire"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_BlackMire","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u9ED1\u8272\u6CE5\u6CBC","en":"Black Mire","ja":"Black Mire"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_BlackMire","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u9ED1\u8272\u6CE5\u6CBC","en":"Black Mire","ja":"Black Mire"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_BlackMire","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u9ED1\u8272\u6CE5\u6CBC","en":"Black Mire","ja":"Black Mire"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_BlackMire","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u9ED1\u8272\u6CE5\u6CBC","en":"Black Mire","ja":"Black Mire"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_BoggyMeadows","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u6CDE\u8349\u573A","en":"Boggy Meadows","ja":"Boggy Meadows"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_BoggyMeadows","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u6CDE\u8349\u573A","en":"Boggy Meadows","ja":"Boggy Meadows"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_BoggyMeadows","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u6CDE\u8349\u573A","en":"Boggy Meadows","ja":"Boggy Meadows"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_BoggyMeadows","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u6CDE\u8349\u573A","en":"Boggy Meadows","ja":"Boggy Meadows"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_BoggyMeadows","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u6CDE\u8349\u573A","en":"Boggy Meadows","ja":"Boggy Meadows"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_BoggyMeadows","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u6CDE\u8349\u573A","en":"Boggy Meadows","ja":"Boggy Meadows"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_BoggyMeadows","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u6CDE\u8349\u573A","en":"Boggy Meadows","ja":"Boggy Meadows"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_FetidBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6076\u81ED\u6CBC\u6CFD","en":"Fetid Bog","ja":"Fetid Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_FetidBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6076\u81ED\u6CBC\u6CFD","en":"Fetid Bog","ja":"Fetid Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_FetidBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6076\u81ED\u6CBC\u6CFD","en":"Fetid Bog","ja":"Fetid Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_FetidBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6076\u81ED\u6CBC\u6CFD","en":"Fetid Bog","ja":"Fetid Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_FetidBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6076\u81ED\u6CBC\u6CFD","en":"Fetid Bog","ja":"Fetid Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_FetidBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6076\u81ED\u6CBC\u6CFD","en":"Fetid Bog","ja":"Fetid Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_FetidBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6076\u81ED\u6CBC\u6CFD","en":"Fetid Bog","ja":"Fetid Bog"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_MosquitoFlats","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u868A\u866B\u6D45\u6EE9","en":"Mosquito Flats","ja":"Mosquito Flats"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_MosquitoFlats","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u868A\u866B\u6D45\u6EE9","en":"Mosquito Flats","ja":"Mosquito Flats"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_MosquitoFlats","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u868A\u866B\u6D45\u6EE9","en":"Mosquito Flats","ja":"Mosquito Flats"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_MosquitoFlats","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u868A\u866B\u6D45\u6EE9","en":"Mosquito Flats","ja":"Mosquito Flats"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_MosquitoFlats","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u868A\u866B\u6D45\u6EE9","en":"Mosquito Flats","ja":"Mosquito Flats"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_MosquitoFlats","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u868A\u866B\u6D45\u6EE9","en":"Mosquito Flats","ja":"Mosquito Flats"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_MosquitoFlats","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u868A\u866B\u6D45\u6EE9","en":"Mosquito Flats","ja":"Mosquito Flats"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_PeatBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u70AD\u6CBC\u6CFD","en":"Peat Bog","ja":"Peat Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_PeatBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u70AD\u6CBC\u6CFD","en":"Peat Bog","ja":"Peat Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_PeatBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u70AD\u6CBC\u6CFD","en":"Peat Bog","ja":"Peat Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_PeatBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u70AD\u6CBC\u6CFD","en":"Peat Bog","ja":"Peat Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_PeatBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u70AD\u6CBC\u6CFD","en":"Peat Bog","ja":"Peat Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_PeatBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u70AD\u6CBC\u6CFD","en":"Peat Bog","ja":"Peat Bog"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_PeatBog","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u6CE5\u70AD\u6CBC\u6CFD","en":"Peat Bog","ja":"Peat Bog"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_RedMire","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u7EA2\u8272\u6CE5\u6CBC","en":"Red Mire","ja":"Red Mire"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_RedMire","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u7EA2\u8272\u6CE5\u6CBC","en":"Red Mire","ja":"Red Mire"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_RedMire","type":"CardData","CardType":8,"icon":"8621a722891e92f4","name":{"zh":"\u7EA2\u8272\u6CE5\u6CBC","en":"Red Mire","ja":"Red Mire"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_ReedPool","type":"CardData","CardType":8,"icon":"d9d0c3fccb06f91f","name":{"zh":"\u82A6\u82C7\u6C60\u5858","en":"Reed Pool","ja":"Reed Pool"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_ReedPool","type":"CardData","CardType":8,"icon":"d9d0c3fccb06f91f","name":{"zh":"\u82A6\u82C7\u6C60\u5858","en":"Reed Pool","ja":"Reed Pool"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_ReedPool","type":"CardData","CardType":8,"icon":"d9d0c3fccb06f91f","name":{"zh":"\u82A6\u82C7\u6C60\u5858","en":"Reed Pool","ja":"Reed Pool"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_ReedPool","type":"CardData","CardType":8,"icon":"d9d0c3fccb06f91f","name":{"zh":"\u82A6\u82C7\u6C60\u5858","en":"Reed Pool","ja":"Reed Pool"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_ReedPool","type":"CardData","CardType":8,"icon":"d9d0c3fccb06f91f","name":{"zh":"\u82A6\u82C7\u6C60\u5858","en":"Reed Pool","ja":"Reed Pool"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ClearingAlder_ReedPool","type":"CardData","CardType":8,"icon":"d9d0c3fccb06f91f","name":{"zh":"\u82A6\u82C7\u6C60\u5858","en":"Reed Pool","ja":"Reed Pool"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ClearingAlder_ReedPool","type":"CardData","CardType":8,"icon":"d9d0c3fccb06f91f","name":{"zh":"\u82A6\u82C7\u6C60\u5858","en":"Reed Pool","ja":"Reed Pool"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_GroveAlder_DuckPoint_","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u91CE\u9E2D\u5CAC\u89D2","en":"Duck Point","ja":"Duck Point"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_GroveAlder_DuckPoint_","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u91CE\u9E2D\u5CAC\u89D2","en":"Duck Point","ja":"Duck Point"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_GroveAlder_DuckPoint_","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u91CE\u9E2D\u5CAC\u89D2","en":"Duck Point","ja":"Duck Point"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_GroveAlder_DuckPoint_","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u91CE\u9E2D\u5CAC\u89D2","en":"Duck Point","ja":"Duck Point"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_GroveAlder_DuckPoint_","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u91CE\u9E2D\u5CAC\u89D2","en":"Duck Point","ja":"Duck Point"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_GroveAlder_FloodedGrove","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u6C34\u6D78\u6797\u5730","en":"Flooded Grove","ja":"\u6D78\u6C34\u3057\u305F\u6797"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5317"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_GroveAlder_FloodedGrove","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u6C34\u6D78\u6797\u5730","en":"Flooded Grove","ja":"\u6D78\u6C34\u3057\u305F\u6797"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5317"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_GroveAlder_FloodedGrove","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u6C34\u6D78\u6797\u5730","en":"Flooded Grove","ja":"\u6D78\u6C34\u3057\u305F\u6797"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_GroveAlder_FloodedGrove","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u6C34\u6D78\u6797\u5730","en":"Flooded Grove","ja":"\u6D78\u6C34\u3057\u305F\u6797"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_GroveAlder_FloodedGrove","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u6C34\u6D78\u6797\u5730","en":"Flooded Grove","ja":"\u6D78\u6C34\u3057\u305F\u6797"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_GroveAlder_WillowSwamp","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6728\u6CBC\u6CFD","en":"Willow Swamp","ja":"Willow Swamp"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_GroveAlder_WillowSwamp","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6728\u6CBC\u6CFD","en":"Willow Swamp","ja":"Willow Swamp"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_GroveAlder_WillowSwamp","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6728\u6CBC\u6CFD","en":"Willow Swamp","ja":"Willow Swamp"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_GroveAlder_WillowSwamp","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6728\u6CBC\u6CFD","en":"Willow Swamp","ja":"Willow Swamp"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_GroveAlder_WillowSwamp","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6728\u6CBC\u6CFD","en":"Willow Swamp","ja":"Willow Swamp"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_GroveAlder_WillowWays","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6797\u5C0F\u5F84","en":"Willow Ways","ja":"Willow Ways"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_GroveAlder_WillowWays","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6797\u5C0F\u5F84","en":"Willow Ways","ja":"Willow Ways"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_GroveAlder_WillowWays","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6797\u5C0F\u5F84","en":"Willow Ways","ja":"Willow Ways"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_GroveAlder_WillowWays","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6797\u5C0F\u5F84","en":"Willow Ways","ja":"Willow Ways"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_GroveAlder_WillowWays","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6797\u5C0F\u5F84","en":"Willow Ways","ja":"Willow Ways"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_GroveAlder_WillowWays","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6797\u5C0F\u5F84","en":"Willow Ways","ja":"Willow Ways"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_GroveAlder_WillowWays","type":"CardData","CardType":8,"icon":"e7c4be88026bfcd3","name":{"zh":"\u67F3\u6797\u5C0F\u5F84","en":"Willow Ways","ja":"Willow Ways"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_ThicketAlder_ClayBanks_","type":"CardData","CardType":8,"icon":"32df7c1e167718bc","name":{"zh":"\u9ECF\u571F\u6CB3\u5CB8","en":"Clay Banks","ja":"Clay Banks"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ThicketAlder_ClayBanks_","type":"CardData","CardType":8,"icon":"32df7c1e167718bc","name":{"zh":"\u9ECF\u571F\u6CB3\u5CB8","en":"Clay Banks","ja":"Clay Banks"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ThicketAlder_ClayBanks_","type":"CardData","CardType":8,"icon":"32df7c1e167718bc","name":{"zh":"\u9ECF\u571F\u6CB3\u5CB8","en":"Clay Banks","ja":"Clay Banks"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ThicketAlder_ClayBanks_","type":"CardData","CardType":8,"icon":"32df7c1e167718bc","name":{"zh":"\u9ECF\u571F\u6CB3\u5CB8","en":"Clay Banks","ja":"Clay Banks"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ThicketAlder_ClayBanks_","type":"CardData","CardType":8,"icon":"32df7c1e167718bc","name":{"zh":"\u9ECF\u571F\u6CB3\u5CB8","en":"Clay Banks","ja":"Clay Banks"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_ThicketAlder_HagSwamp","type":"CardData","CardType":8,"icon":"716203ddcef5fad4","name":{"zh":"\u8001\u5DEB\u6CBC\u6CFD","en":"Hag Swamp","ja":"Hag Swamp"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ThicketAlder_HagSwamp","type":"CardData","CardType":8,"icon":"716203ddcef5fad4","name":{"zh":"\u8001\u5DEB\u6CBC\u6CFD","en":"Hag Swamp","ja":"Hag Swamp"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5317\u65B9","en":"Action: North","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ThicketAlder_HagSwamp","type":"CardData","CardType":8,"icon":"716203ddcef5fad4","name":{"zh":"\u8001\u5DEB\u6CBC\u6CFD","en":"Hag Swamp","ja":"Hag Swamp"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ThicketAlder_HagSwamp","type":"CardData","CardType":8,"icon":"716203ddcef5fad4","name":{"zh":"\u8001\u5DEB\u6CBC\u6CFD","en":"Hag Swamp","ja":"Hag Swamp"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"River_ThicketAlder_HagSwamp","type":"CardData","CardType":8,"icon":"716203ddcef5fad4","name":{"zh":"\u8001\u5DEB\u6CBC\u6CFD","en":"Hag Swamp","ja":"Hag Swamp"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}},{"source":{"key":"River_ThicketOak_MuddyBank","type":"CardData","CardType":8,"icon":"c2baaed30124378f","name":{"zh":"\u6CE5\u6CDE\u6CB3\u5CB8","en":"Muddy Bank","ja":"\u6CE5\u3060\u3089\u3051\u306E\u5DDD\u5CB8"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"River_ThicketOak_MuddyBank","type":"CardData","CardType":8,"icon":"c2baaed30124378f","name":{"zh":"\u6CE5\u6CDE\u6CB3\u5CB8","en":"Muddy Bank","ja":"\u6CE5\u3060\u3089\u3051\u306E\u5DDD\u5CB8"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"ThicketAlder_HagWay","type":"CardData","CardType":8,"icon":"46f1c455056c75cc","name":{"zh":"\u8001\u5DEB\u5C0F\u5F84","en":"Hag Way","ja":"Hag Way"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ThicketAlder_HagWay","type":"CardData","CardType":8,"icon":"46f1c455056c75cc","name":{"zh":"\u8001\u5DEB\u5C0F\u5F84","en":"Hag Way","ja":"Hag Way"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5357\u65B9","en":"Action: South","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"ThicketAlder_HagWay","type":"CardData","CardType":8,"icon":"46f1c455056c75cc","name":{"zh":"\u8001\u5DEB\u5C0F\u5F84","en":"Hag Way","ja":"Hag Way"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ThicketAlder_HagWay","type":"CardData","CardType":8,"icon":"46f1c455056c75cc","name":{"zh":"\u8001\u5DEB\u5C0F\u5F84","en":"Hag Way","ja":"Hag Way"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"ThicketAlder_HagWay","type":"CardData","CardType":8,"icon":"46f1c455056c75cc","name":{"zh":"\u8001\u5DEB\u5C0F\u5F84","en":"Hag Way","ja":"Hag Way"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B","en":"Passive Effect: Flooded Path Mosquitos","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"},"value":{"x":1.0,"y":2.0}}],"_uuid":"8dab59031eaeb6b4f959161a9c152d2b"}
+
+{
+  "GameName" : {
+    "zh" : "\u6CBC\u6CFD\u6C34\u4F4D\u6D2A\u6C34\u72B6\u6001",
+    "en" : "SwampWaterLevelFloodedStatus",
+    "ja" : "SwampWaterLevelFloodedStatus"
+  },
+  "Description" : {
+    "zh" : "Active on FloodedTravelingActions during shallow and deep waters ( swamp waters 1 and 2). Also used to check for other swamp water level effects such as leeches droping on some actions. ",
+    "en" : "Active on FloodedTravelingActions during shallow and deep waters ( swamp waters 1 and 2). Also used to check for other swamp water level effects such as leeches droping on some actions. ",
+    "ja" : "Active on FloodedTravelingActions during shallow and deep waters ( swamp waters 1 and 2). Also used to check for other swamp water level effects such as leeches droping on some actions. "
+  },
+  "IsRuntimeOnly" : true,
+  "BaseValue"     : 0.0,
+  "MinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 2.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "BarColor"        : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "Shallow Water Traveling Penalty",
+        "en" : "Shallow Water Traveling Penalty",
+        "ja" : "Shallow Water Traveling Penalty"
+      },
+      "Description" : {
+        "zh" : "Flooded Traveling Actions take 15 minutes longer",
+        "en" : "Flooded Traveling Actions take 15 minutes longer",
+        "ja" : "Flooded Traveling Actions take 15 minutes longer"
+      },
+      "ValueRange"  : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "FloodedSwampTravelingAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u6CDB\u6EE5\u6CBC\u6CFD\u79FB\u52A8\u52A8\u4F5C",
+                "en" : "FloodedSwampTravelingAction",
+                "ja" : "FloodedSwampTravelingAction"
+              }
+            }
+          ],
+          "ActionAddedSuffix" : {
+            "zh" : "\u6D45\u6C34\u57DF",
+            "en" : "shallow waters",
+            "ja" : "shallow waters"
+          },
+          "DurationModifier"  : 1,
+          "FadeToBlack"       : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Deep Water Traveling Penalty",
+        "en" : "Deep Water Traveling Penalty",
+        "ja" : "Deep Water Traveling Penalty"
+      },
+      "Description" : {
+        "zh" : "Flooded Traveling Actions take 15 minutes longer",
+        "en" : "Flooded Traveling Actions take 15 minutes longer",
+        "ja" : "Flooded Traveling Actions take 15 minutes longer"
+      },
+      "ValueRange"  : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "FloodedSwampTravelingAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u6CDB\u6EE5\u6CBC\u6CFD\u79FB\u52A8\u52A8\u4F5C",
+                "en" : "FloodedSwampTravelingAction",
+                "ja" : "FloodedSwampTravelingAction"
+              }
+            }
+          ],
+          "ActionAddedSuffix" : {
+            "zh" : "\u6DF1\u6C34\u57DF",
+            "en" : "deep waters",
+            "ja" : "deep waters"
+          },
+          "DurationModifier"  : 2,
+          "FadeToBlack"       : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "SwampWaterLevelFloodedStatus",
+  "name"                    : {
+    "zh" : "\u6CBC\u6CFD\u6C34\u4F4D\u6D2A\u6C34\u72B6\u6001",
+    "en" : "SwampWaterLevelFloodedStatus",
+    "ja" : "SwampWaterLevelFloodedStatus"
+  },
+  "min"                     : 0.0,
+  "max"                     : 2.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "DamBeaverStable",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__DamBeaverHalfBuilt__CardImage",
+        "name"     : {
+          "zh" : "\u6CB3\u72F8\u575D",
+          "en" : "Beaver Dam",
+          "ja" : "Beaver Dam"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u63D0\u5347\u6C34\u6DF9\u7B49\u7EA7",
+        "en" : "Passive Effect: Increase Flooding Level",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIncrease Flooding Level"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "DamBeaverUnstable",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__DamBeaverHalfBuilt__CardImage",
+        "name"     : {
+          "zh" : "\u4E0D\u7A33\u5B9A\u7684\u6CB3\u72F8\u575D",
+          "en" : "Unstable Beaver Dam",
+          "ja" : "Unstable Beaver Dam"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u63D0\u5347\u6C34\u6DF9\u7B49\u7EA7",
+        "en" : "Passive Effect: Increase Flooding Level",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIncrease Flooding Level"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SwampWaterLevel",
+        "type" : "GameStat",
+        "icon" : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "min"  : 0.0,
+        "max"  : 384.0,
+        "name" : {
+          "zh" : "\u6CBC\u6CFD\u6C34\u4F4D",
+          "en" : "Swamp Water Level",
+          "ja" : "Swamp Water Level"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6CBC\u6CFD\u6D45\u6C34",
+        "en" : "Status Stage: Shallow Swamp Waters",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AShallow Swamp Waters"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SwampWaterLevel",
+        "type" : "GameStat",
+        "icon" : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "min"  : 0.0,
+        "max"  : 384.0,
+        "name" : {
+          "zh" : "\u6CBC\u6CFD\u6C34\u4F4D",
+          "en" : "Swamp Water Level",
+          "ja" : "Swamp Water Level"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6CBC\u6CFD\u6DF1\u6C34",
+        "en" : "Status Stage: Deep Swamp Waters",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ADeep Swamp Waters"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WaterFrozen",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 1344.0,
+        "name" : {
+          "zh" : "\u6C34\u9762\u51BB\u7ED3",
+          "en" : "WaterFrozen",
+          "ja" : "WaterFrozen"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AFish Population Reduction, replacing flooded status to freezing status for the flooded paths",
+        "en" : "Status Stage: Fish Population Reduction, replacing flooded status to freezing status for the flooded paths",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AFish Population Reduction, replacing flooded status to freezing status for the flooded paths"
+      },
+      "value"       : {
+        "x" : -100.0,
+        "y" : -100.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "ClearingAlder_SwampHill",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClayBarrow__CardImage",
+        "name"     : {
+          "zh" : "\u6CBC\u6CFD\u5C71\u4E18",
+          "en" : "Swamp Hill",
+          "ja" : "Swamp Hill"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingAlder_SwampHill",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClayBarrow__CardImage",
+        "name"     : {
+          "zh" : "\u6CBC\u6CFD\u5C71\u4E18",
+          "en" : "Swamp Hill",
+          "ja" : "Swamp Hill"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingAlder_SwampHill",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClayBarrow__CardImage",
+        "name"     : {
+          "zh" : "\u6CBC\u6CFD\u5C71\u4E18",
+          "en" : "Swamp Hill",
+          "ja" : "Swamp Hill"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingAlder_SwampHill",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClayBarrow__CardImage",
+        "name"     : {
+          "zh" : "\u6CBC\u6CFD\u5C71\u4E18",
+          "en" : "Swamp Hill",
+          "ja" : "Swamp Hill"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingAlder_SwampHill",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClayBarrow__CardImage",
+        "name"     : {
+          "zh" : "\u6CBC\u6CFD\u5C71\u4E18",
+          "en" : "Swamp Hill",
+          "ja" : "Swamp Hill"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingAlder_SwampHill",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClayBarrow__CardImage",
+        "name"     : {
+          "zh" : "\u6CBC\u6CFD\u5C71\u4E18",
+          "en" : "Swamp Hill",
+          "ja" : "Swamp Hill"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingAlder_SwampHill",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClayBarrow__CardImage",
+        "name"     : {
+          "zh" : "\u6CBC\u6CFD\u5C71\u4E18",
+          "en" : "Swamp Hill",
+          "ja" : "Swamp Hill"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_AlderGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_AlderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u6864\u6728\u6797\u5730",
+          "en" : "Alder Grove",
+          "ja" : "Alder Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_AlderGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_AlderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u6864\u6728\u6797\u5730",
+          "en" : "Alder Grove",
+          "ja" : "Alder Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_AlderGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_AlderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u6864\u6728\u6797\u5730",
+          "en" : "Alder Grove",
+          "ja" : "Alder Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_BleedingWoods",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_BleedingWoods__CardImage",
+        "name"     : {
+          "zh" : "\u6E17\u8840\u68EE\u6797",
+          "en" : "Bleeding Woods",
+          "ja" : "Bleeding Woods"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_BleedingWoods",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_BleedingWoods__CardImage",
+        "name"     : {
+          "zh" : "\u6E17\u8840\u68EE\u6797",
+          "en" : "Bleeding Woods",
+          "ja" : "Bleeding Woods"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_BleedingWoods",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_BleedingWoods__CardImage",
+        "name"     : {
+          "zh" : "\u6E17\u8840\u68EE\u6797",
+          "en" : "Bleeding Woods",
+          "ja" : "Bleeding Woods"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_BleedingWoods",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_BleedingWoods__CardImage",
+        "name"     : {
+          "zh" : "\u6E17\u8840\u68EE\u6797",
+          "en" : "Bleeding Woods",
+          "ja" : "Bleeding Woods"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_BleedingWoods",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_BleedingWoods__CardImage",
+        "name"     : {
+          "zh" : "\u6E17\u8840\u68EE\u6797",
+          "en" : "Bleeding Woods",
+          "ja" : "Bleeding Woods"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_RottenWoods",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_AlderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8150\u673D\u68EE\u6797",
+          "en" : "Rotten Woods",
+          "ja" : "Rotten Woods"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_RottenWoods",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_AlderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8150\u673D\u68EE\u6797",
+          "en" : "Rotten Woods",
+          "ja" : "Rotten Woods"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_RottenWoods",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_AlderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8150\u673D\u68EE\u6797",
+          "en" : "Rotten Woods",
+          "ja" : "Rotten Woods"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_SleepyGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_SleepyGrove__CardImage",
+        "name"     : {
+          "zh" : "\u6C89\u7761\u6797\u5730",
+          "en" : "Sleepy Grove",
+          "ja" : "Sleepy Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_SleepyGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_SleepyGrove__CardImage",
+        "name"     : {
+          "zh" : "\u6C89\u7761\u6797\u5730",
+          "en" : "Sleepy Grove",
+          "ja" : "Sleepy Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveAlder_SleepyGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveAlder_SleepyGrove__CardImage",
+        "name"     : {
+          "zh" : "\u6C89\u7761\u6797\u5730",
+          "en" : "Sleepy Grove",
+          "ja" : "Sleepy Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_MuddyGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_MossyGrove__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u6797\u5730",
+          "en" : "Muddy Grove",
+          "ja" : "\u6CE5\u3060\u3089\u3051\u306E\u6797"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5357"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_MuddyGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_MossyGrove__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u6797\u5730",
+          "en" : "Muddy Grove",
+          "ja" : "\u6CE5\u3060\u3089\u3051\u306E\u6797"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5357"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_MuddyGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_MossyGrove__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u6797\u5730",
+          "en" : "Muddy Grove",
+          "ja" : "\u6CE5\u3060\u3089\u3051\u306E\u6797"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BlackMire",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u8272\u6CE5\u6CBC",
+          "en" : "Black Mire",
+          "ja" : "Black Mire"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BlackMire",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u8272\u6CE5\u6CBC",
+          "en" : "Black Mire",
+          "ja" : "Black Mire"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BlackMire",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u8272\u6CE5\u6CBC",
+          "en" : "Black Mire",
+          "ja" : "Black Mire"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BlackMire",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u8272\u6CE5\u6CBC",
+          "en" : "Black Mire",
+          "ja" : "Black Mire"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BlackMire",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u8272\u6CE5\u6CBC",
+          "en" : "Black Mire",
+          "ja" : "Black Mire"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BlackMire",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u8272\u6CE5\u6CBC",
+          "en" : "Black Mire",
+          "ja" : "Black Mire"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BlackMire",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u9ED1\u8272\u6CE5\u6CBC",
+          "en" : "Black Mire",
+          "ja" : "Black Mire"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BoggyMeadows",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u8349\u573A",
+          "en" : "Boggy Meadows",
+          "ja" : "Boggy Meadows"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BoggyMeadows",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u8349\u573A",
+          "en" : "Boggy Meadows",
+          "ja" : "Boggy Meadows"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BoggyMeadows",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u8349\u573A",
+          "en" : "Boggy Meadows",
+          "ja" : "Boggy Meadows"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BoggyMeadows",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u8349\u573A",
+          "en" : "Boggy Meadows",
+          "ja" : "Boggy Meadows"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BoggyMeadows",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u8349\u573A",
+          "en" : "Boggy Meadows",
+          "ja" : "Boggy Meadows"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BoggyMeadows",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u8349\u573A",
+          "en" : "Boggy Meadows",
+          "ja" : "Boggy Meadows"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_BoggyMeadows",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u8349\u573A",
+          "en" : "Boggy Meadows",
+          "ja" : "Boggy Meadows"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_FetidBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6076\u81ED\u6CBC\u6CFD",
+          "en" : "Fetid Bog",
+          "ja" : "Fetid Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_FetidBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6076\u81ED\u6CBC\u6CFD",
+          "en" : "Fetid Bog",
+          "ja" : "Fetid Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_FetidBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6076\u81ED\u6CBC\u6CFD",
+          "en" : "Fetid Bog",
+          "ja" : "Fetid Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_FetidBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6076\u81ED\u6CBC\u6CFD",
+          "en" : "Fetid Bog",
+          "ja" : "Fetid Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_FetidBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6076\u81ED\u6CBC\u6CFD",
+          "en" : "Fetid Bog",
+          "ja" : "Fetid Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_FetidBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6076\u81ED\u6CBC\u6CFD",
+          "en" : "Fetid Bog",
+          "ja" : "Fetid Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_FetidBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6076\u81ED\u6CBC\u6CFD",
+          "en" : "Fetid Bog",
+          "ja" : "Fetid Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_MosquitoFlats",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u868A\u866B\u6D45\u6EE9",
+          "en" : "Mosquito Flats",
+          "ja" : "Mosquito Flats"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_MosquitoFlats",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u868A\u866B\u6D45\u6EE9",
+          "en" : "Mosquito Flats",
+          "ja" : "Mosquito Flats"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_MosquitoFlats",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u868A\u866B\u6D45\u6EE9",
+          "en" : "Mosquito Flats",
+          "ja" : "Mosquito Flats"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_MosquitoFlats",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u868A\u866B\u6D45\u6EE9",
+          "en" : "Mosquito Flats",
+          "ja" : "Mosquito Flats"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_MosquitoFlats",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u868A\u866B\u6D45\u6EE9",
+          "en" : "Mosquito Flats",
+          "ja" : "Mosquito Flats"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_MosquitoFlats",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u868A\u866B\u6D45\u6EE9",
+          "en" : "Mosquito Flats",
+          "ja" : "Mosquito Flats"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_MosquitoFlats",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u868A\u866B\u6D45\u6EE9",
+          "en" : "Mosquito Flats",
+          "ja" : "Mosquito Flats"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_PeatBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u70AD\u6CBC\u6CFD",
+          "en" : "Peat Bog",
+          "ja" : "Peat Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_PeatBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u70AD\u6CBC\u6CFD",
+          "en" : "Peat Bog",
+          "ja" : "Peat Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_PeatBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u70AD\u6CBC\u6CFD",
+          "en" : "Peat Bog",
+          "ja" : "Peat Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_PeatBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u70AD\u6CBC\u6CFD",
+          "en" : "Peat Bog",
+          "ja" : "Peat Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_PeatBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u70AD\u6CBC\u6CFD",
+          "en" : "Peat Bog",
+          "ja" : "Peat Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_PeatBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u70AD\u6CBC\u6CFD",
+          "en" : "Peat Bog",
+          "ja" : "Peat Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_PeatBog",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u70AD\u6CBC\u6CFD",
+          "en" : "Peat Bog",
+          "ja" : "Peat Bog"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_RedMire",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u7EA2\u8272\u6CE5\u6CBC",
+          "en" : "Red Mire",
+          "ja" : "Red Mire"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_RedMire",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u7EA2\u8272\u6CE5\u6CBC",
+          "en" : "Red Mire",
+          "ja" : "Red Mire"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_RedMire",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingAlder_BlackMire__CardImage",
+        "name"     : {
+          "zh" : "\u7EA2\u8272\u6CE5\u6CBC",
+          "en" : "Red Mire",
+          "ja" : "Red Mire"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_ReedPool",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ReedPatch__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u6C60\u5858",
+          "en" : "Reed Pool",
+          "ja" : "Reed Pool"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_ReedPool",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ReedPatch__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u6C60\u5858",
+          "en" : "Reed Pool",
+          "ja" : "Reed Pool"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_ReedPool",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ReedPatch__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u6C60\u5858",
+          "en" : "Reed Pool",
+          "ja" : "Reed Pool"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_ReedPool",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ReedPatch__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u6C60\u5858",
+          "en" : "Reed Pool",
+          "ja" : "Reed Pool"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_ReedPool",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ReedPatch__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u6C60\u5858",
+          "en" : "Reed Pool",
+          "ja" : "Reed Pool"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_ReedPool",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ReedPatch__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u6C60\u5858",
+          "en" : "Reed Pool",
+          "ja" : "Reed Pool"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingAlder_ReedPool",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ReedPatch__CardImage",
+        "name"     : {
+          "zh" : "\u82A6\u82C7\u6C60\u5858",
+          "en" : "Reed Pool",
+          "ja" : "Reed Pool"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_DuckPoint_",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u91CE\u9E2D\u5CAC\u89D2",
+          "en" : "Duck Point",
+          "ja" : "Duck Point"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_DuckPoint_",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u91CE\u9E2D\u5CAC\u89D2",
+          "en" : "Duck Point",
+          "ja" : "Duck Point"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_DuckPoint_",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u91CE\u9E2D\u5CAC\u89D2",
+          "en" : "Duck Point",
+          "ja" : "Duck Point"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_DuckPoint_",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u91CE\u9E2D\u5CAC\u89D2",
+          "en" : "Duck Point",
+          "ja" : "Duck Point"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_DuckPoint_",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u91CE\u9E2D\u5CAC\u89D2",
+          "en" : "Duck Point",
+          "ja" : "Duck Point"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_FloodedGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u6C34\u6D78\u6797\u5730",
+          "en" : "Flooded Grove",
+          "ja" : "\u6D78\u6C34\u3057\u305F\u6797"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5317"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_FloodedGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u6C34\u6D78\u6797\u5730",
+          "en" : "Flooded Grove",
+          "ja" : "\u6D78\u6C34\u3057\u305F\u6797"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5317"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_FloodedGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u6C34\u6D78\u6797\u5730",
+          "en" : "Flooded Grove",
+          "ja" : "\u6D78\u6C34\u3057\u305F\u6797"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_FloodedGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u6C34\u6D78\u6797\u5730",
+          "en" : "Flooded Grove",
+          "ja" : "\u6D78\u6C34\u3057\u305F\u6797"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_FloodedGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u6C34\u6D78\u6797\u5730",
+          "en" : "Flooded Grove",
+          "ja" : "\u6D78\u6C34\u3057\u305F\u6797"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowSwamp",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6728\u6CBC\u6CFD",
+          "en" : "Willow Swamp",
+          "ja" : "Willow Swamp"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowSwamp",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6728\u6CBC\u6CFD",
+          "en" : "Willow Swamp",
+          "ja" : "Willow Swamp"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowSwamp",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6728\u6CBC\u6CFD",
+          "en" : "Willow Swamp",
+          "ja" : "Willow Swamp"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowSwamp",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6728\u6CBC\u6CFD",
+          "en" : "Willow Swamp",
+          "ja" : "Willow Swamp"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowSwamp",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6728\u6CBC\u6CFD",
+          "en" : "Willow Swamp",
+          "ja" : "Willow Swamp"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowWays",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6797\u5C0F\u5F84",
+          "en" : "Willow Ways",
+          "ja" : "Willow Ways"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowWays",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6797\u5C0F\u5F84",
+          "en" : "Willow Ways",
+          "ja" : "Willow Ways"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowWays",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6797\u5C0F\u5F84",
+          "en" : "Willow Ways",
+          "ja" : "Willow Ways"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowWays",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6797\u5C0F\u5F84",
+          "en" : "Willow Ways",
+          "ja" : "Willow Ways"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowWays",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6797\u5C0F\u5F84",
+          "en" : "Willow Ways",
+          "ja" : "Willow Ways"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowWays",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6797\u5C0F\u5F84",
+          "en" : "Willow Ways",
+          "ja" : "Willow Ways"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GroveAlder_WillowWays",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GroveAlder_DuckPoint___CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6797\u5C0F\u5F84",
+          "en" : "Willow Ways",
+          "ja" : "Willow Ways"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketAlder_ClayBanks_",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_13_LakeStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u9ECF\u571F\u6CB3\u5CB8",
+          "en" : "Clay Banks",
+          "ja" : "Clay Banks"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketAlder_ClayBanks_",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_13_LakeStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u9ECF\u571F\u6CB3\u5CB8",
+          "en" : "Clay Banks",
+          "ja" : "Clay Banks"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketAlder_ClayBanks_",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_13_LakeStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u9ECF\u571F\u6CB3\u5CB8",
+          "en" : "Clay Banks",
+          "ja" : "Clay Banks"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketAlder_ClayBanks_",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_13_LakeStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u9ECF\u571F\u6CB3\u5CB8",
+          "en" : "Clay Banks",
+          "ja" : "Clay Banks"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketAlder_ClayBanks_",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_13_LakeStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u9ECF\u571F\u6CB3\u5CB8",
+          "en" : "Clay Banks",
+          "ja" : "Clay Banks"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketAlder_HagSwamp",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_26_SwampStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u6CBC\u6CFD",
+          "en" : "Hag Swamp",
+          "ja" : "Hag Swamp"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketAlder_HagSwamp",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_26_SwampStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u6CBC\u6CFD",
+          "en" : "Hag Swamp",
+          "ja" : "Hag Swamp"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5317\u65B9",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketAlder_HagSwamp",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_26_SwampStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u6CBC\u6CFD",
+          "en" : "Hag Swamp",
+          "ja" : "Hag Swamp"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketAlder_HagSwamp",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_26_SwampStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u6CBC\u6CFD",
+          "en" : "Hag Swamp",
+          "ja" : "Hag Swamp"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketAlder_HagSwamp",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_26_SwampStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u6CBC\u6CFD",
+          "en" : "Hag Swamp",
+          "ja" : "Hag Swamp"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketOak_MuddyBank",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
+          "en" : "Muddy Bank",
+          "ja" : "\u6CE5\u3060\u3089\u3051\u306E\u5DDD\u5CB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketOak_MuddyBank",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
+          "en" : "Muddy Bank",
+          "ja" : "\u6CE5\u3060\u3089\u3051\u306E\u5DDD\u5CB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ThicketAlder_HagWay",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ThicketAlder_AlderThicket__CardImage",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u5C0F\u5F84",
+          "en" : "Hag Way",
+          "ja" : "Hag Way"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ThicketAlder_HagWay",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ThicketAlder_AlderThicket__CardImage",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u5C0F\u5F84",
+          "en" : "Hag Way",
+          "ja" : "Hag Way"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5357\u65B9",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ThicketAlder_HagWay",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ThicketAlder_AlderThicket__CardImage",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u5C0F\u5F84",
+          "en" : "Hag Way",
+          "ja" : "Hag Way"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ThicketAlder_HagWay",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ThicketAlder_AlderThicket__CardImage",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u5C0F\u5F84",
+          "en" : "Hag Way",
+          "ja" : "Hag Way"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ThicketAlder_HagWay",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ThicketAlder_AlderThicket__CardImage",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u5C0F\u5F84",
+          "en" : "Hag Way",
+          "ja" : "Hag Way"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6C34\u6DF9\u8DEF\u5F84\u868A\u866B",
+        "en" : "Passive Effect: Flooded Path Mosquitos",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlooded Path Mosquitos"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2.0
+      }
+    }
+  ],
+  "_uuid"                   : "8dab59031eaeb6b4f959161a9c152d2b"
+}

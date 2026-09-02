@@ -1,1 +1,86 @@
-{"PathCosts":[{"Name":"ClimbActionForbiddenPath","Tags":[{"TagTarget":{"key":"ClimbAction","type":"ActionTag","name":{"zh":"\u6500\u722C\u52A8\u4F5C","en":"ClimbAction","ja":"ClimbAction"}}}],"ForbiddenPath":true,"AdditionalCost":0.0},{"Name":"HuntingFenceForbidenPath","Tags":[{"TagTarget":{"key":"tag_HuntingFences","type":"CardTag","count":0,"name":{"zh":"Hunting Fences","en":"Hunting Fences","ja":"Hunting Fences"}}}],"AdditionalCost":100000.0},{"Name":"ForbiddenPath","Tags":[{"TagTarget":{"key":"tag_ForbiddenPath","type":"CardTag","count":1,"name":{"zh":"\u7981\u6B62\u901A\u884C","en":"Hunting Fences","ja":"Hunting Fences"}}}],"ForbiddenPath":true,"AdditionalCost":100000.0},{"Name":"Door","Tags":[{"TagTarget":{"key":"tag_Door","type":"CardTag","count":3,"name":{"zh":"\u5B89\u5168\u7684","en":"Secure","ja":"Secure"}}}],"ForbiddenPath":true,"AdditionalCost":100000.0}],"type":"PathfindingWeights","key":"AnimalPathfinding","name":{"zh":"AnimalPathfinding","en":"AnimalPathfinding","ja":"AnimalPathfinding"}}
+
+{
+  "PathCosts" : [
+    {
+      "Name" : "ClimbActionForbiddenPath",
+      "Tags" : [
+        {
+          "TagTarget" : {
+            "key" : "ClimbAction",
+            "type" : "ActionTag",
+            "name" : {
+              "zh" : "\u6500\u722C\u52A8\u4F5C",
+              "en" : "ClimbAction",
+              "ja" : "ClimbAction"
+            }
+          }
+        }
+      ],
+      "ForbiddenPath" : true,
+      "AdditionalCost" : 0.0
+    },
+    {
+      "Name" : "HuntingFenceForbidenPath",
+      "Tags" : [
+        {
+          "TagTarget" : {
+            "key" : "tag_HuntingFences",
+            "type" : "CardTag",
+            "count" : 0,
+            "name"  : {
+              "zh" : "Hunting Fences",
+              "en" : "Hunting Fences",
+              "ja" : "Hunting Fences"
+            }
+          }
+        }
+      ],
+      "AdditionalCost" : 100000.0
+    },
+    {
+      "Name" : "ForbiddenPath",
+      "Tags" : [
+        {
+          "TagTarget" : {
+            "key" : "tag_ForbiddenPath",
+            "type" : "CardTag",
+            "count" : 1,
+            "name"  : {
+              "zh" : "\u7981\u6B62\u901A\u884C",
+              "en" : "Hunting Fences",
+              "ja" : "Hunting Fences"
+            }
+          }
+        }
+      ],
+      "ForbiddenPath" : true,
+      "AdditionalCost" : 100000.0
+    },
+    {
+      "Name" : "Door",
+      "Tags" : [
+        {
+          "TagTarget" : {
+            "key" : "tag_Door",
+            "type" : "CardTag",
+            "count" : 3,
+            "name"  : {
+              "zh" : "\u5B89\u5168\u7684",
+              "en" : "Secure",
+              "ja" : "Secure"
+            }
+          }
+        }
+      ],
+      "ForbiddenPath" : true,
+      "AdditionalCost" : 100000.0
+    }
+  ],
+  "type"      : "PathfindingWeights",
+  "key"       : "AnimalPathfinding",
+  "name"      : {
+    "zh" : "AnimalPathfinding",
+    "en" : "AnimalPathfinding",
+    "ja" : "AnimalPathfinding"
+  }
+}

@@ -1,1 +1,68 @@
-{"NotificationSettings":{"Frequency":2,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"BlueprintsFullUnlock":[{"key":"Bp_BearSpiritCalling","type":"CardData","CardType":7,"icon":"c7d16206b3ccb72f","name":{"zh":"\u547C\u5524\u718A\u7CBE\u9B44","en":"Bear Spirit Calling","ja":"\u718A\u306E\u7CBE\u970A\u53EC\u559A"}}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"StatsObjectives":[{"StatCondition":{"Stat":{"key":"Stat_BearSpiritBound","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u718A\u7075\u7ED1\u5B9A","en":"BearSpiritBound","ja":"BearSpiritBound"}},"TriggerRange":{"x":1.0,"y":1.0}},"ObjectiveName":"1","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":2,"type":"Objective","key":"SpiritCallingBear_DisplayConditions","name":{"zh":"SpiritCallingBear_DisplayConditions","en":"SpiritCallingBear_DisplayConditions","ja":"SpiritCallingBear_DisplayConditions"},"_uuid":"719990d59314c5241a191be3a61648d4"}
+
+{
+  "NotificationSettings" : {
+    "Frequency" : 2,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "BlueprintsFullUnlock" : [
+        {
+          "key" : "Bp_BearSpiritCalling",
+          "type" : "CardData",
+          "CardType" : 7,
+          "icon"     : "NPCAgent__Agent_Bear__AgentImage",
+          "name"     : {
+            "zh" : "\u547C\u5524\u718A\u7CBE\u9B44",
+            "en" : "Bear Spirit Calling",
+            "ja" : "\u718A\u306E\u7CBE\u970A\u53EC\u559A"
+          }
+        }
+      ],
+      "FadeToBlack"          : 0,
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "StatsObjectives"      : [
+    {
+      "StatCondition" : {
+        "Stat" : {
+          "key" : "Stat_BearSpiritBound",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u718A\u7075\u7ED1\u5B9A",
+            "en" : "BearSpiritBound",
+            "ja" : "BearSpiritBound"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      "ObjectiveName" : "1",
+      "CompletionWeight" : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 2,
+  "type"                        : "Objective",
+  "key"                         : "SpiritCallingBear_DisplayConditions",
+  "name"                        : {
+    "zh" : "SpiritCallingBear_DisplayConditions",
+    "en" : "SpiritCallingBear_DisplayConditions",
+    "ja" : "SpiritCallingBear_DisplayConditions"
+  },
+  "_uuid"                       : "719990d59314c5241a191be3a61648d4"
+}

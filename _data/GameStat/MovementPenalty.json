@@ -1,1 +1,1309 @@
-{"GameName":{"zh":"\u79FB\u52A8\u60E9\u7F5A","en":"Movement Penalty","ja":"\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3"},"Description":{"zh":"\u4F1A\u5BFC\u81F4\u817F\u90E8\u52A8\u4F5C\u9700\u8981\u6D88\u8017\u66F4\u591A\u8010\u529B\u5E76\u82B1\u8D39\u66F4\u591A\u65F6\u95F4\u3002\u52A8\u4F5C\u540C\u65F6\u5305\u62EC\u624B\u90E8\u548C\u817F\u90E8\u65F6\u4F1A\u4E0E\u7075\u5DE7\u60E9\u7F5A\u53E0\u52A0\u3002","en":"Causes actions involving your legs to require more stamina and take additional time. Can compound with dexterity penalties for actions that involve both hands and legs.","ja":"\u811A\u3092\u4F7F\u3046\u30A2\u30AF\u30B7\u30E7\u30F3\u306B\u5FC5\u8981\u306A\u30B9\u30BF\u30DF\u30CA\u306E\u91CF\u3068\u30A2\u30AF\u30B7\u30E7\u30F3\u306E\u6642\u9593\u306B\u5F71\u97FF\u3059\u308B\u3002\u624B\u3068\u811A\u306E\u4E21\u65B9\u3092\u4F7F\u3046\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3\u3068\u91CD\u306A\u308B\u3002"},"IsRuntimeOnly":true,"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":3.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"\u8F7B\u5FAE\u79FB\u52A8\u60E9\u7F5A","en":"Minor Movement Penalty","ja":"\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3\uFF08\u5C0F\uFF09"},"Description":{"zh":"\u817F\u90E8\u52A8\u4F5C\u4F1A\u6D88\u8017\u989D\u5916\u7684\u8010\u529B\u3002","en":"Leg Actions cost extra stamina.","ja":"\u811A\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u8FFD\u52A0\u3067\u30B9\u30BF\u30DF\u30CA\u3092\u6D88\u8CBB\u3059\u308B\u3002"},"Icon":{"FileName":"93bee4ca012bf59f"},"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnActions":[{"AppliesTo":[{"key":"LegAction","type":"ActionTag","name":{"zh":"\u817F\u90E8\u52A8\u4F5C","en":"LegAction","ja":"LegAction"}},{"key":"ClimbAction","type":"ActionTag","name":{"zh":"\u6500\u722C\u52A8\u4F5C","en":"ClimbAction","ja":"ClimbAction"}}],"DurationModifier":0,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":-4.0,"y":-4.0},"ApplyEachTick":true}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4E2D\u5EA6\u79FB\u52A8\u60E9\u7F5A","en":"Moderate Movement Penalty","ja":"\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3\uFF08\u4E2D\uFF09"},"Description":{"zh":"\u817F\u90E8\u52A8\u4F5C\u6D88\u8017\u989D\u5916\u8010\u529B\u5E76\u8017\u65F6\u66F4\u957F\u3002","en":"Leg Actions cost extra stamina and take longer.","ja":"\u811A\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u8FFD\u52A0\u3067\u30B9\u30BF\u30DF\u30CA\u3092\u6D88\u8CBB\u3057\u3001\u304B\u304B\u308B\u6642\u9593\u304C\u9577\u3044\u3002"},"Icon":{"FileName":"93bee4ca012bf59f"},"ValueRange":{"m_X":2,"m_Y":2},"EffectsOnActions":[{"AppliesTo":[{"key":"LegAction","type":"ActionTag","name":{"zh":"\u817F\u90E8\u52A8\u4F5C","en":"LegAction","ja":"LegAction"}},{"key":"ClimbAction","type":"ActionTag","name":{"zh":"\u6500\u722C\u52A8\u4F5C","en":"ClimbAction","ja":"ClimbAction"}}],"DurationModifier":1,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":-6.0,"y":-6.0},"ApplyEachTick":true}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":1,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u9AD8\u5EA6\u79FB\u52A8\u60E9\u7F5A","en":"Strong Movement Penalty","ja":"\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3\uFF08\u5927\uFF09"},"Description":{"zh":"\u817F\u90E8\u52A8\u4F5C\u6D88\u8017\u989D\u5916\u8010\u529B\u5E76\u663E\u8457\u589E\u52A0\u8017\u65F6\u3002","en":"Leg Actions cost extra stamina and take considerably longer.","ja":"\u811A\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u8FFD\u52A0\u3067\u30B9\u30BF\u30DF\u30CA\u3092\u6D88\u8CBB\u3057\u3001\u304B\u304B\u308B\u6642\u9593\u304C\u304B\u306A\u308A\u9577\u3044\u3002"},"Icon":{"FileName":"93bee4ca012bf59f"},"ValueRange":{"m_X":3,"m_Y":3},"EffectsOnActions":[{"AppliesTo":[{"key":"LegAction","type":"ActionTag","name":{"zh":"\u817F\u90E8\u52A8\u4F5C","en":"LegAction","ja":"LegAction"}},{"key":"ClimbAction","type":"ActionTag","name":{"zh":"\u6500\u722C\u52A8\u4F5C","en":"ClimbAction","ja":"ClimbAction"}}],"DurationModifier":2,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":-8.0,"y":-8.0},"ApplyEachTick":true}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":2,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"NotEnoughText":{"zh":"\u817F\u7684\u72B6\u6001\u4E0D\u80FD\u6500\u722C\u3002","en":"My Leg is not in shape for this action.","ja":"\u3053\u306E\u811A\u3067\u3053\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u3067\u304D\u306A\u3044\u3002"},"type":"GameStat","key":"MovementPenalty","icon":"93bee4ca012bf59f","name":{"zh":"\u79FB\u52A8\u60E9\u7F5A","en":"Movement Penalty","ja":"\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3"},"min":0.0,"max":3.0,"_modifierValues":[{"source":{"key":"Travois","type":"CardData","CardType":0,"icon":"423ece728a489dc3","name":{"zh":"\u65E7\u5F0F\u96EA\u6A47","en":"Travois","ja":"\u305D\u308A"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Penalty","en":"Passive Effect: Movement Penalty","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Penalty"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Sledge","type":"CardData","CardType":0,"icon":"84d7920f689192c0","name":{"zh":"\u96EA\u6A47","en":"Sledge","ja":"\u30BD\u30EA"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Penalty if no snow","en":"Passive Effect: Movement Penalty if no snow","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Penalty if no snow"},"value":{"x":3.0,"y":3.0}},{"source":{"key":"SnowShoes","type":"CardData","CardType":0,"icon":"d4622dde668cf88e","name":{"zh":"\u96EA\u9774","en":"Snow Shoes","ja":"\u96EA\u9774"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1ANegate Medium snow movement Penalty","en":"Passive Effect: Negate Medium snow movement Penalty","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ANegate Medium snow movement Penalty"},"value":{"x":-2.0,"y":-2.0}},{"source":{"key":"SnowShoes","type":"CardData","CardType":0,"icon":"d4622dde668cf88e","name":{"zh":"\u96EA\u9774","en":"Snow Shoes","ja":"\u96EA\u9774"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1ANegate Heavy snow movement Penalty","en":"Passive Effect: Negate Heavy snow movement Penalty","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ANegate Heavy snow movement Penalty"},"value":{"x":-3.0,"y":-3.0}},{"source":{"key":"Wheelbarrow","type":"CardData","CardType":0,"icon":"23d91639ecdc3d9e","name":{"zh":"\u624B\u63A8\u8F66","en":"Wheelbarrow","ja":"Wheelbarrow"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Penalty","en":"Passive Effect: Movement Penalty","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Penalty"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"W_LegFractureL","type":"CardData","CardType":0,"icon":"a1e1db1978bf2f1a","name":{"zh":"\u5DE6\u817F\u9AA8\u6298","en":"Leg Fracture","ja":"\u8DB3\u306E\u9AA8\u6298"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers Extreme","en":"Passive Effect: Movement Modifiers Extreme","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers Extreme"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"W_LegFractureL","type":"CardData","CardType":0,"icon":"a1e1db1978bf2f1a","name":{"zh":"\u5DE6\u817F\u9AA8\u6298","en":"Leg Fracture","ja":"\u8DB3\u306E\u9AA8\u6298"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers Severe","en":"Passive Effect: Movement Modifiers Severe","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers Severe"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"W_LegFractureL","type":"CardData","CardType":0,"icon":"a1e1db1978bf2f1a","name":{"zh":"\u5DE6\u817F\u9AA8\u6298","en":"Leg Fracture","ja":"\u8DB3\u306E\u9AA8\u6298"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers  Moderate","en":"Passive Effect: Movement Modifiers  Moderate","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers  Moderate"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"W_LegFractureR","type":"CardData","CardType":0,"icon":"a1e1db1978bf2f1a","name":{"zh":"\u53F3\u817F\u9AA8\u6298","en":"Leg Fracture","ja":"\u8DB3\u306E\u9AA8\u6298"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers Extreme","en":"Passive Effect: Movement Modifiers Extreme","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers Extreme"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"W_LegFractureR","type":"CardData","CardType":0,"icon":"a1e1db1978bf2f1a","name":{"zh":"\u53F3\u817F\u9AA8\u6298","en":"Leg Fracture","ja":"\u8DB3\u306E\u9AA8\u6298"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers Severe","en":"Passive Effect: Movement Modifiers Severe","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers Severe"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"W_LegFractureR","type":"CardData","CardType":0,"icon":"a1e1db1978bf2f1a","name":{"zh":"\u53F3\u817F\u9AA8\u6298","en":"Leg Fracture","ja":"\u8DB3\u306E\u9AA8\u6298"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers  Moderate","en":"Passive Effect: Movement Modifiers  Moderate","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers  Moderate"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"W_LegLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u6781\u91CD\uFF09","en":"Passive Effect: ModifierLeg, Extreme","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Extreme"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"W_LegLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u91CD\u5EA6\uFF09","en":"Passive Effect: ModifierLeg, Severe","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Severe"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"W_LegLacerationL","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u4E2D\u5EA6\uFF09","en":"Passive Effect: ModifierLeg, Moderate","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Moderate"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"W_LegLacerationLStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u6781\u91CD\uFF09","en":"Passive Effect: ModifierLeg, Extreme","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Extreme"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"W_LegLacerationLStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u91CD\u5EA6\uFF09","en":"Passive Effect: ModifierLeg, Severe","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Severe"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"W_LegLacerationLStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u4E2D\u5EA6\uFF09","en":"Passive Effect: ModifierLeg, Moderate","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Moderate"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"W_LegLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u6781\u91CD\uFF09","en":"Passive Effect: ModifierLeg, Extreme","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Extreme"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"W_LegLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u91CD\u5EA6\uFF09","en":"Passive Effect: ModifierLeg, Severe","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Severe"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"W_LegLacerationR","type":"CardData","CardType":0,"icon":"ea816bd11aaffa0c","name":{"zh":"\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u4E2D\u5EA6\uFF09","en":"Passive Effect: ModifierLeg, Moderate","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Moderate"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"W_LegLacerationRStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u6781\u91CD\uFF09","en":"Passive Effect: ModifierLeg, Extreme","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Extreme"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"W_LegLacerationRStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u91CD\u5EA6\uFF09","en":"Passive Effect: ModifierLeg, Severe","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Severe"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"W_LegLacerationRStitched","type":"CardData","CardType":0,"icon":"51073e222990de36","name":{"zh":"\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24","en":"Leg Laceration","ja":"\u811A\u306E\u5207\u308A\u50B7"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u4E2D\u5EA6\uFF09","en":"Passive Effect: ModifierLeg, Moderate","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Moderate"},"value":{"x":0.5,"y":0.5}},{"source":{"key":"W_LegSprainedL","type":"CardData","CardType":0,"icon":"2b4f2736a5367598","name":{"zh":"\u5DE6\u811A\u8E1D\u626D\u4F24","en":"Sprained Ankle","ja":"\u8DB3\u9996\u306E\u637B\u632B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers","en":"Passive Effect: Movement Modifiers","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"W_LegSprainedR","type":"CardData","CardType":0,"icon":"2b4f2736a5367598","name":{"zh":"\u53F3\u811A\u8E1D\u626D\u4F24","en":"Sprained Ankle","ja":"\u8DB3\u9996\u306E\u637B\u632B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers","en":"Passive Effect: Movement Modifiers","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"NerveDamageLegsPermanent","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":2880.0,"name":{"zh":"\u817F\u90E8\u795E\u7ECF\u635F\u4F24","en":"Leg Nerve Damage","ja":"\u811A\u306E\u795E\u7D4C\u640D\u50B7"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4FEE\u6B631","en":"Status Stage: Modifier 1","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4FEE\u98FE\u5B50\uFF11"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"NerveDamageLegsPermanent","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":2880.0,"name":{"zh":"\u817F\u90E8\u795E\u7ECF\u635F\u4F24","en":"Leg Nerve Damage","ja":"\u811A\u306E\u795E\u7D4C\u640D\u50B7"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4FEE\u6B632","en":"Status Stage: Modifier 2","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4FEE\u98FE\u5B50\uFF12"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"NerveDamageLegsPermanent","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":2880.0,"name":{"zh":"\u817F\u90E8\u795E\u7ECF\u635F\u4F24","en":"Leg Nerve Damage","ja":"\u811A\u306E\u795E\u7D4C\u640D\u50B7"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4FEE\u6B633","en":"Status Stage: Modifier 3","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4FEE\u98FE\u5B50\uFF13"},"value":{"x":3.0,"y":3.0}},{"source":{"key":"Pregnancy","type":"GameStat","icon":"4929d5184e887a0d","min":0.0,"max":8640.0,"name":{"zh":"\u6000\u5B55","en":"Pregnancy","ja":"\u598A\u5A20"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6000\u5B55\u672B\u671F","en":"Status Stage: Advaced Pregnancy","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u598A\u5A20\u7D42\u671F"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Pregnancy","type":"GameStat","icon":"4929d5184e887a0d","min":0.0,"max":8640.0,"name":{"zh":"\u6000\u5B55","en":"Pregnancy","ja":"\u598A\u5A20"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6000\u5B55\u672B\u671F","en":"Status Stage: Advaced Pregnancy","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u598A\u5A20\u7D42\u671F"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"AlteredMindstate","type":"GameStat","icon":"b263b06e2851c14a","min":0.0,"max":300.0,"name":{"zh":"\u7CBE\u795E\u5931\u5E38","en":"Altered Mindstate","ja":"\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5B8C\u5168\u7CBE\u795E\u5931\u5E38","en":"Status Stage: Deeply Altered Mindstate","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7CBE\u795E\u72B6\u614B\u304C\u3044\u3064\u3082\u3068\u304B\u306A\u308A\u9055\u3046"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"SleepDeprivationEffects","type":"GameStat","icon":"3d02d165232268dd","min":0.0,"max":4.0,"name":{"zh":"\u7761\u7720\u4E0D\u8DB3\u6548\u679C","en":"Sleep Deprivation","ja":"Sleep Deprivation"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5EA6\u7F3A\u4E4F\u7761\u7720","en":"Status Stage: Major Sleep Deprivation","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u7761\u7720\u4E0D\u8DB3"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"SleepDeprivationEffects","type":"GameStat","icon":"3d02d165232268dd","min":0.0,"max":4.0,"name":{"zh":"\u7761\u7720\u4E0D\u8DB3\u6548\u679C","en":"Sleep Deprivation","ja":"Sleep Deprivation"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u5EA6\u7F3A\u4E4F\u7761\u7720","en":"Status Stage: Serious Sleep Deprivation","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5371\u967A\u306A\u307B\u3069\u7761\u7720\u4E0D\u8DB3"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Encumbrance","type":"GameStat","icon":"a644f87b0f2627ac","min":0.0,"max":4000.0,"name":{"zh":"\u8D1F\u91CD","en":"Encumbrance","ja":"\u4F53\u5E79"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8D1F\u91CD\u9AD8","en":"Status Stage: Very Encumbered","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u91CD\u3044"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Encumbrance","type":"GameStat","icon":"a644f87b0f2627ac","min":0.0,"max":4000.0,"name":{"zh":"\u8D1F\u91CD","en":"Encumbrance","ja":"\u4F53\u5E79"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8D1F\u91CD\u6781\u9AD8","en":"Status Stage: Seriously Encumbered","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u76F8\u5F53\u91CD\u3044"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Encumbrance","type":"GameStat","icon":"a644f87b0f2627ac","min":0.0,"max":4000.0,"name":{"zh":"\u8D1F\u91CD","en":"Encumbrance","ja":"\u4F53\u5E79"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8D1F\u91CD\u8FC7\u9AD8\u65E0\u6CD5\u79FB\u52A8","en":"Status Stage: Too encumbered to move","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u304F\u3066\u52D5\u3051\u306A\u3044"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Confusion","type":"GameStat","icon":"130378a64dac99e1","min":0.0,"max":96.0,"name":{"zh":"\u8FF7\u4E71","en":"Confusion","ja":"\u6DF7\u4E71"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5EA6\u8FF7\u4E71","en":"Status Stage: Minor Confusion","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8EFD\u5EA6\u306E\u6DF7\u4E71"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Confusion","type":"GameStat","icon":"130378a64dac99e1","min":0.0,"max":96.0,"name":{"zh":"\u8FF7\u4E71","en":"Confusion","ja":"\u6DF7\u4E71"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u8FF7\u4E71","en":"Status Stage: Moderate Confusion","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u7A0B\u5EA6\u306E\u6DF7\u4E71"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Confusion","type":"GameStat","icon":"130378a64dac99e1","min":0.0,"max":96.0,"name":{"zh":"\u8FF7\u4E71","en":"Confusion","ja":"\u6DF7\u4E71"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u8FF7\u4E71","en":"Status Stage: Major Confusion","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u6DF7\u4E71"},"value":{"x":3.0,"y":3.0}},{"source":{"key":"WitchstonePoisoning","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u5DEB\u77F3\u4E2D\u6BD2","en":"Witchstone Poisoning","ja":"\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u4E2D\u6BD2"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u5DEB\u77F3\u4E2D\u6BD2","en":"Status Stage: Severe Witchstone Poisoning","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u4E2D\u6BD2"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"WitchstonePoisoning","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":100.0,"name":{"zh":"\u5DEB\u77F3\u4E2D\u6BD2","en":"Witchstone Poisoning","ja":"\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u4E2D\u6BD2"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E25\u91CD\u5DEB\u77F3\u4E2D\u6BD2","en":"Status Stage: Critical Witchstone Poisoning","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u81F4\u547D\u7684\u306A\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u4E2D\u6BD2"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"WolfsbaneToxicity","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":96.0,"name":{"zh":"\u4E4C\u5934\u4E2D\u6BD2","en":"Wolfsbane Poisoning","ja":"\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u4E4C\u5934\u4E2D\u6BD2","en":"Status Stage: Moderate Wolfsbane Poisoning","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"WolfsbaneToxicity","type":"GameStat","icon":"ea5f6252e106dbf0","min":0.0,"max":96.0,"name":{"zh":"\u4E4C\u5934\u4E2D\u6BD2","en":"Wolfsbane Poisoning","ja":"\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u4E4C\u5934\u4E2D\u6BD2","en":"Status Stage: Severe Wolfsbane Poisoning","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Weight","type":"GameStat","icon":"0e74d4105e8a3faa","min":293999.0,"max":1000000.0,"name":{"zh":"\u4F53\u91CD","en":"Weight","ja":"\u4F53\u91CD"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u7AEF\u80A5\u80D6","en":"Status Stage: Severely Obese","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u80A5\u6E80"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"SnowVisible","type":"GameStat","icon":"2307358107fe28e3","min":0.0,"max":480.0,"name":{"zh":"\u96EA","en":"Snow","ja":"\u96EA"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u96EA","en":"Status Stage: Moderate Snow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u96EA"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"SnowVisible","type":"GameStat","icon":"2307358107fe28e3","min":0.0,"max":480.0,"name":{"zh":"\u96EA","en":"Snow","ja":"\u96EA"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6DF1\u96EA","en":"Status Stage: Deep Snow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6DF1\u3044\u96EA"},"value":{"x":3.0,"y":3.0}}],"_uuid":"5326db2677ef1734c9298d881dcf0794"}
+
+{
+  "GameName" : {
+    "zh" : "\u79FB\u52A8\u60E9\u7F5A",
+    "en" : "Movement Penalty",
+    "ja" : "\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3"
+  },
+  "Description" : {
+    "zh" : "\u4F1A\u5BFC\u81F4\u817F\u90E8\u52A8\u4F5C\u9700\u8981\u6D88\u8017\u66F4\u591A\u8010\u529B\u5E76\u82B1\u8D39\u66F4\u591A\u65F6\u95F4\u3002\u52A8\u4F5C\u540C\u65F6\u5305\u62EC\u624B\u90E8\u548C\u817F\u90E8\u65F6\u4F1A\u4E0E\u7075\u5DE7\u60E9\u7F5A\u53E0\u52A0\u3002",
+    "en" : "Causes actions involving your legs to require more stamina and take additional time. Can compound with dexterity penalties for actions that involve both hands and legs.",
+    "ja" : "\u811A\u3092\u4F7F\u3046\u30A2\u30AF\u30B7\u30E7\u30F3\u306B\u5FC5\u8981\u306A\u30B9\u30BF\u30DF\u30CA\u306E\u91CF\u3068\u30A2\u30AF\u30B7\u30E7\u30F3\u306E\u6642\u9593\u306B\u5F71\u97FF\u3059\u308B\u3002\u624B\u3068\u811A\u306E\u4E21\u65B9\u3092\u4F7F\u3046\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3\u3068\u91CD\u306A\u308B\u3002"
+  },
+  "IsRuntimeOnly" : true,
+  "BaseValue"     : 0.0,
+  "MinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 3.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u8F7B\u5FAE\u79FB\u52A8\u60E9\u7F5A",
+        "en" : "Minor Movement Penalty",
+        "ja" : "\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3\uFF08\u5C0F\uFF09"
+      },
+      "Description" : {
+        "zh" : "\u817F\u90E8\u52A8\u4F5C\u4F1A\u6D88\u8017\u989D\u5916\u7684\u8010\u529B\u3002",
+        "en" : "Leg Actions cost extra stamina.",
+        "ja" : "\u811A\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u8FFD\u52A0\u3067\u30B9\u30BF\u30DF\u30CA\u3092\u6D88\u8CBB\u3059\u308B\u3002"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "LegAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u817F\u90E8\u52A8\u4F5C",
+                "en" : "LegAction",
+                "ja" : "LegAction"
+              }
+            },
+            {
+              "key" : "ClimbAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u6500\u722C\u52A8\u4F5C",
+                "en" : "ClimbAction",
+                "ja" : "ClimbAction"
+              }
+            }
+          ],
+          "DurationModifier" : 0,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : -4.0,
+                "y" : -4.0
+              },
+              "ApplyEachTick" : true
+            }
+          ],
+          "FadeToBlack"        : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4E2D\u5EA6\u79FB\u52A8\u60E9\u7F5A",
+        "en" : "Moderate Movement Penalty",
+        "ja" : "\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3\uFF08\u4E2D\uFF09"
+      },
+      "Description" : {
+        "zh" : "\u817F\u90E8\u52A8\u4F5C\u6D88\u8017\u989D\u5916\u8010\u529B\u5E76\u8017\u65F6\u66F4\u957F\u3002",
+        "en" : "Leg Actions cost extra stamina and take longer.",
+        "ja" : "\u811A\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u8FFD\u52A0\u3067\u30B9\u30BF\u30DF\u30CA\u3092\u6D88\u8CBB\u3057\u3001\u304B\u304B\u308B\u6642\u9593\u304C\u9577\u3044\u3002"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "LegAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u817F\u90E8\u52A8\u4F5C",
+                "en" : "LegAction",
+                "ja" : "LegAction"
+              }
+            },
+            {
+              "key" : "ClimbAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u6500\u722C\u52A8\u4F5C",
+                "en" : "ClimbAction",
+                "ja" : "ClimbAction"
+              }
+            }
+          ],
+          "DurationModifier" : 1,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : -6.0,
+                "y" : -6.0
+              },
+              "ApplyEachTick" : true
+            }
+          ],
+          "FadeToBlack"        : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 1,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u9AD8\u5EA6\u79FB\u52A8\u60E9\u7F5A",
+        "en" : "Strong Movement Penalty",
+        "ja" : "\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3\uFF08\u5927\uFF09"
+      },
+      "Description" : {
+        "zh" : "\u817F\u90E8\u52A8\u4F5C\u6D88\u8017\u989D\u5916\u8010\u529B\u5E76\u663E\u8457\u589E\u52A0\u8017\u65F6\u3002",
+        "en" : "Leg Actions cost extra stamina and take considerably longer.",
+        "ja" : "\u811A\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u8FFD\u52A0\u3067\u30B9\u30BF\u30DF\u30CA\u3092\u6D88\u8CBB\u3057\u3001\u304B\u304B\u308B\u6642\u9593\u304C\u304B\u306A\u308A\u9577\u3044\u3002"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 3,
+        "m_Y" : 3
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "LegAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u817F\u90E8\u52A8\u4F5C",
+                "en" : "LegAction",
+                "ja" : "LegAction"
+              }
+            },
+            {
+              "key" : "ClimbAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u6500\u722C\u52A8\u4F5C",
+                "en" : "ClimbAction",
+                "ja" : "ClimbAction"
+              }
+            }
+          ],
+          "DurationModifier" : 2,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : -8.0,
+                "y" : -8.0
+              },
+              "ApplyEachTick" : true
+            }
+          ],
+          "FadeToBlack"        : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 2,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "NotEnoughText"           : {
+    "zh" : "\u817F\u7684\u72B6\u6001\u4E0D\u80FD\u6500\u722C\u3002",
+    "en" : "My Leg is not in shape for this action.",
+    "ja" : "\u3053\u306E\u811A\u3067\u3053\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u3067\u304D\u306A\u3044\u3002"
+  },
+  "type"                    : "GameStat",
+  "key"                     : "MovementPenalty",
+  "icon"                    : "GameStat__CallousesFeet__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u79FB\u52A8\u60E9\u7F5A",
+    "en" : "Movement Penalty",
+    "ja" : "\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3"
+  },
+  "min"                     : 0.0,
+  "max"                     : 3.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Travois",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_Travois__CardImage",
+        "name"     : {
+          "zh" : "\u65E7\u5F0F\u96EA\u6A47",
+          "en" : "Travois",
+          "ja" : "\u305D\u308A"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Penalty",
+        "en" : "Passive Effect: Movement Penalty",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Penalty"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Sledge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_Sledge__CardImage",
+        "name"     : {
+          "zh" : "\u96EA\u6A47",
+          "en" : "Sledge",
+          "ja" : "\u30BD\u30EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Penalty if no snow",
+        "en" : "Passive Effect: Movement Penalty if no snow",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Penalty if no snow"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnowShoes",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_SnowShoes__CardImage",
+        "name"     : {
+          "zh" : "\u96EA\u9774",
+          "en" : "Snow Shoes",
+          "ja" : "\u96EA\u9774"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ANegate Medium snow movement Penalty",
+        "en" : "Passive Effect: Negate Medium snow movement Penalty",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ANegate Medium snow movement Penalty"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnowShoes",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_SnowShoes__CardImage",
+        "name"     : {
+          "zh" : "\u96EA\u9774",
+          "en" : "Snow Shoes",
+          "ja" : "\u96EA\u9774"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ANegate Heavy snow movement Penalty",
+        "en" : "Passive Effect: Negate Heavy snow movement Penalty",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ANegate Heavy snow movement Penalty"
+      },
+      "value"       : {
+        "x" : -3.0,
+        "y" : -3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Wheelbarrow",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_Wheelbarrow__CardImage",
+        "name"     : {
+          "zh" : "\u624B\u63A8\u8F66",
+          "en" : "Wheelbarrow",
+          "ja" : "Wheelbarrow"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Penalty",
+        "en" : "Passive Effect: Movement Penalty",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Penalty"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegFractureL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmFractureL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u817F\u9AA8\u6298",
+          "en" : "Leg Fracture",
+          "ja" : "\u8DB3\u306E\u9AA8\u6298"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers Extreme",
+        "en" : "Passive Effect: Movement Modifiers Extreme",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers Extreme"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegFractureL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmFractureL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u817F\u9AA8\u6298",
+          "en" : "Leg Fracture",
+          "ja" : "\u8DB3\u306E\u9AA8\u6298"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers Severe",
+        "en" : "Passive Effect: Movement Modifiers Severe",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers Severe"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegFractureL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmFractureL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u817F\u9AA8\u6298",
+          "en" : "Leg Fracture",
+          "ja" : "\u8DB3\u306E\u9AA8\u6298"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers  Moderate",
+        "en" : "Passive Effect: Movement Modifiers  Moderate",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers  Moderate"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegFractureR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmFractureL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u817F\u9AA8\u6298",
+          "en" : "Leg Fracture",
+          "ja" : "\u8DB3\u306E\u9AA8\u6298"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers Extreme",
+        "en" : "Passive Effect: Movement Modifiers Extreme",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers Extreme"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegFractureR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmFractureL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u817F\u9AA8\u6298",
+          "en" : "Leg Fracture",
+          "ja" : "\u8DB3\u306E\u9AA8\u6298"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers Severe",
+        "en" : "Passive Effect: Movement Modifiers Severe",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers Severe"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegFractureR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmFractureL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u817F\u9AA8\u6298",
+          "en" : "Leg Fracture",
+          "ja" : "\u8DB3\u306E\u9AA8\u6298"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers  Moderate",
+        "en" : "Passive Effect: Movement Modifiers  Moderate",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers  Moderate"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u6781\u91CD\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Extreme",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Extreme"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u91CD\u5EA6\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Severe",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Severe"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u4E2D\u5EA6\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Moderate",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Moderate"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationLStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u6781\u91CD\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Extreme",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Extreme"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationLStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u91CD\u5EA6\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Severe",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Severe"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationLStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u5DE6\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u4E2D\u5EA6\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Moderate",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Moderate"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u6781\u91CD\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Extreme",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Extreme"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u91CD\u5EA6\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Severe",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Severe"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u4E2D\u5EA6\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Moderate",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Moderate"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationRStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u6781\u91CD\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Extreme",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Extreme"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationRStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u91CD\u5EA6\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Severe",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Severe"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegLacerationRStitched",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmLacerationLStitched__CardImage",
+        "name"     : {
+          "zh" : "\u5DF2\u7F1D\u5408\u7684\u53F3\u817F\u6495\u88C2\u4F24",
+          "en" : "Leg Laceration",
+          "ja" : "\u811A\u306E\u5207\u308A\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u817F\u90E8\u4F24\u52BF\uFF08\u4E2D\u5EA6\uFF09",
+        "en" : "Passive Effect: ModifierLeg, Moderate",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AModifierLeg, Moderate"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegSprainedL",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmSprainedL__CardImage",
+        "name"     : {
+          "zh" : "\u5DE6\u811A\u8E1D\u626D\u4F24",
+          "en" : "Sprained Ankle",
+          "ja" : "\u8DB3\u9996\u306E\u637B\u632B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers",
+        "en" : "Passive Effect: Movement Modifiers",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_LegSprainedR",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_ArmSprainedL__CardImage",
+        "name"     : {
+          "zh" : "\u53F3\u811A\u8E1D\u626D\u4F24",
+          "en" : "Sprained Ankle",
+          "ja" : "\u8DB3\u9996\u306E\u637B\u632B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Modifiers",
+        "en" : "Passive Effect: Movement Modifiers",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Modifiers"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "NerveDamageLegsPermanent",
+        "type" : "GameStat",
+        "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 2880.0,
+        "name" : {
+          "zh" : "\u817F\u90E8\u795E\u7ECF\u635F\u4F24",
+          "en" : "Leg Nerve Damage",
+          "ja" : "\u811A\u306E\u795E\u7D4C\u640D\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4FEE\u6B631",
+        "en" : "Status Stage: Modifier 1",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4FEE\u98FE\u5B50\uFF11"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "NerveDamageLegsPermanent",
+        "type" : "GameStat",
+        "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 2880.0,
+        "name" : {
+          "zh" : "\u817F\u90E8\u795E\u7ECF\u635F\u4F24",
+          "en" : "Leg Nerve Damage",
+          "ja" : "\u811A\u306E\u795E\u7D4C\u640D\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4FEE\u6B632",
+        "en" : "Status Stage: Modifier 2",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4FEE\u98FE\u5B50\uFF12"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "NerveDamageLegsPermanent",
+        "type" : "GameStat",
+        "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 2880.0,
+        "name" : {
+          "zh" : "\u817F\u90E8\u795E\u7ECF\u635F\u4F24",
+          "en" : "Leg Nerve Damage",
+          "ja" : "\u811A\u306E\u795E\u7D4C\u640D\u50B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4FEE\u6B633",
+        "en" : "Status Stage: Modifier 3",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4FEE\u98FE\u5B50\uFF13"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pregnancy",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__SpecialDurability4-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 8640.0,
+        "name" : {
+          "zh" : "\u6000\u5B55",
+          "en" : "Pregnancy",
+          "ja" : "\u598A\u5A20"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6000\u5B55\u672B\u671F",
+        "en" : "Status Stage: Advaced Pregnancy",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u598A\u5A20\u7D42\u671F"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pregnancy",
+        "type" : "GameStat",
+        "icon" : "CardData__BoarFreeFemale__SpecialDurability4-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 8640.0,
+        "name" : {
+          "zh" : "\u6000\u5B55",
+          "en" : "Pregnancy",
+          "ja" : "\u598A\u5A20"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6000\u5B55\u672B\u671F",
+        "en" : "Status Stage: Advaced Pregnancy",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u598A\u5A20\u7D42\u671F"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "AlteredMindstate",
+        "type" : "GameStat",
+        "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u7CBE\u795E\u5931\u5E38",
+          "en" : "Altered Mindstate",
+          "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5B8C\u5168\u7CBE\u795E\u5931\u5E38",
+        "en" : "Status Stage: Deeply Altered Mindstate",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7CBE\u795E\u72B6\u614B\u304C\u3044\u3064\u3082\u3068\u304B\u306A\u308A\u9055\u3046"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SleepDeprivationEffects",
+        "type" : "GameStat",
+        "icon" : "GameStat__Eyesight__Statuses-0-Icon",
+        "min"  : 0.0,
+        "max"  : 4.0,
+        "name" : {
+          "zh" : "\u7761\u7720\u4E0D\u8DB3\u6548\u679C",
+          "en" : "Sleep Deprivation",
+          "ja" : "Sleep Deprivation"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5EA6\u7F3A\u4E4F\u7761\u7720",
+        "en" : "Status Stage: Major Sleep Deprivation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u7761\u7720\u4E0D\u8DB3"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SleepDeprivationEffects",
+        "type" : "GameStat",
+        "icon" : "GameStat__Eyesight__Statuses-0-Icon",
+        "min"  : 0.0,
+        "max"  : 4.0,
+        "name" : {
+          "zh" : "\u7761\u7720\u4E0D\u8DB3\u6548\u679C",
+          "en" : "Sleep Deprivation",
+          "ja" : "Sleep Deprivation"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u5EA6\u7F3A\u4E4F\u7761\u7720",
+        "en" : "Status Stage: Serious Sleep Deprivation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5371\u967A\u306A\u307B\u3069\u7761\u7720\u4E0D\u8DB3"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Encumbrance",
+        "type" : "GameStat",
+        "icon" : "CardData__Carcass_BearCarcass__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 4000.0,
+        "name" : {
+          "zh" : "\u8D1F\u91CD",
+          "en" : "Encumbrance",
+          "ja" : "\u4F53\u5E79"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8D1F\u91CD\u9AD8",
+        "en" : "Status Stage: Very Encumbered",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u91CD\u3044"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Encumbrance",
+        "type" : "GameStat",
+        "icon" : "CardData__Carcass_BearCarcass__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 4000.0,
+        "name" : {
+          "zh" : "\u8D1F\u91CD",
+          "en" : "Encumbrance",
+          "ja" : "\u4F53\u5E79"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8D1F\u91CD\u6781\u9AD8",
+        "en" : "Status Stage: Seriously Encumbered",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u76F8\u5F53\u91CD\u3044"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Encumbrance",
+        "type" : "GameStat",
+        "icon" : "CardData__Carcass_BearCarcass__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 4000.0,
+        "name" : {
+          "zh" : "\u8D1F\u91CD",
+          "en" : "Encumbrance",
+          "ja" : "\u4F53\u5E79"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8D1F\u91CD\u8FC7\u9AD8\u65E0\u6CD5\u79FB\u52A8",
+        "en" : "Status Stage: Too encumbered to move",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u304F\u3066\u52D5\u3051\u306A\u3044"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Confusion",
+        "type" : "GameStat",
+        "icon" : "GameStat__AlcoholEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u8FF7\u4E71",
+          "en" : "Confusion",
+          "ja" : "\u6DF7\u4E71"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8F7B\u5EA6\u8FF7\u4E71",
+        "en" : "Status Stage: Minor Confusion",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8EFD\u5EA6\u306E\u6DF7\u4E71"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Confusion",
+        "type" : "GameStat",
+        "icon" : "GameStat__AlcoholEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u8FF7\u4E71",
+          "en" : "Confusion",
+          "ja" : "\u6DF7\u4E71"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u8FF7\u4E71",
+        "en" : "Status Stage: Moderate Confusion",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u7A0B\u5EA6\u306E\u6DF7\u4E71"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Confusion",
+        "type" : "GameStat",
+        "icon" : "GameStat__AlcoholEffect__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u8FF7\u4E71",
+          "en" : "Confusion",
+          "ja" : "\u6DF7\u4E71"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u8FF7\u4E71",
+        "en" : "Status Stage: Major Confusion",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u6DF7\u4E71"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WitchstonePoisoning",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u5DEB\u77F3\u4E2D\u6BD2",
+          "en" : "Witchstone Poisoning",
+          "ja" : "\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u4E2D\u6BD2"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u5DEB\u77F3\u4E2D\u6BD2",
+        "en" : "Status Stage: Severe Witchstone Poisoning",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u4E2D\u6BD2"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WitchstonePoisoning",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u5DEB\u77F3\u4E2D\u6BD2",
+          "en" : "Witchstone Poisoning",
+          "ja" : "\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u4E2D\u6BD2"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E25\u91CD\u5DEB\u77F3\u4E2D\u6BD2",
+        "en" : "Status Stage: Critical Witchstone Poisoning",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u81F4\u547D\u7684\u306A\u30A6\u30A3\u30C3\u30C1\u30B9\u30C8\u30FC\u30F3\u4E2D\u6BD2"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WolfsbaneToxicity",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u4E4C\u5934\u4E2D\u6BD2",
+          "en" : "Wolfsbane Poisoning",
+          "ja" : "\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5EA6\u4E4C\u5934\u4E2D\u6BD2",
+        "en" : "Status Stage: Moderate Wolfsbane Poisoning",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WolfsbaneToxicity",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u4E4C\u5934\u4E2D\u6BD2",
+          "en" : "Wolfsbane Poisoning",
+          "ja" : "\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u91CD\u5EA6\u4E4C\u5934\u4E2D\u6BD2",
+        "en" : "Status Stage: Severe Wolfsbane Poisoning",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u91CD\u5EA6\u306E\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u7AEF\u80A5\u80D6",
+        "en" : "Status Stage: Severely Obese",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u80A5\u6E80"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnowVisible",
+        "type" : "GameStat",
+        "icon" : "CardData__Basket__SpecialDurability3-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 480.0,
+        "name" : {
+          "zh" : "\u96EA",
+          "en" : "Snow",
+          "ja" : "\u96EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u96EA",
+        "en" : "Status Stage: Moderate Snow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u96EA"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnowVisible",
+        "type" : "GameStat",
+        "icon" : "CardData__Basket__SpecialDurability3-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 480.0,
+        "name" : {
+          "zh" : "\u96EA",
+          "en" : "Snow",
+          "ja" : "\u96EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6DF1\u96EA",
+        "en" : "Status Stage: Deep Snow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6DF1\u3044\u96EA"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    }
+  ],
+  "_uuid"                   : "5326db2677ef1734c9298d881dcf0794"
+}

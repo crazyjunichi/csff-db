@@ -1,1 +1,72 @@
-{"DutyName":{"zh":"\u9003\u8DD1","en":"Badger Flee","ja":"Badger Flee"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentMorale","type":"NPCStat","name":{"zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"}},"ConditionRange":{"x":0.0,"y":99.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"RememberWhenInterrupted":{"IntValue":0,"Active":true},"DutyExecutionOptions":0,"ActionSequence":[{"key":"BadgerFlee","type":"MoveDutyAction","name":{"zh":"BadgerFlee","en":"BadgerFlee","ja":"BadgerFlee"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Badger_Flee","name":{"zh":"\u9003\u8DD1","en":"Badger Flee","ja":"Badger Flee"},"_uuid":"15dd26cfecc6dd841806e1832a6a30ae"}
+
+{
+  "DutyName" : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Badger Flee",
+    "ja" : "Badger Flee"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentMorale",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6597\u5FD7",
+            "en" : "AgentMorale",
+            "ja" : "AgentMorale"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 99.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "RememberWhenInterrupted" : {
+    "IntValue" : 0,
+    "Active"   : true
+  },
+  "DutyExecutionOptions"    : 0,
+  "ActionSequence"          : [
+    {
+      "key" : "BadgerFlee",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "BadgerFlee",
+        "en" : "BadgerFlee",
+        "ja" : "BadgerFlee"
+      }
+    }
+  ],
+  "GiveUpOptions"           : 0,
+  "GiveUpTicks"             : 0,
+  "type"                    : "NPCDuty",
+  "key"                     : "AgentDuty_Badger_Flee",
+  "name"                    : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Badger Flee",
+    "ja" : "Badger Flee"
+  },
+  "_uuid"                   : "15dd26cfecc6dd841806e1832a6a30ae"
+}

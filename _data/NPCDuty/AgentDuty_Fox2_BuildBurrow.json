@@ -1,1 +1,107 @@
-{"DutyName":{"zh":"\u5EFA\u7A9D","en":"Fox2 Build Burrow","ja":"Fox2 Build Burrow"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_BurrowArea2","type":"CardTag","count":5,"name":{"zh":"\u7A74\u5C45\u533A","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredCardsNOTOnBoard":[{"key":"BurrowFoxAbandoned2","type":"CardData","CardType":2,"icon":"08d7e879b2200363","name":{"zh":"\u5E9F\u5F03\u7684\u72D0\u72F8\u6D1E","en":"Abandoned Fox Burrow","ja":"\u6368\u3066\u3089\u308C\u305F\u30AD\u30C4\u30CD\u306E\u5DE3\u7A74"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentHasHome","type":"NPCStat","name":{"zh":"\u6709\u6D1E\u7A74","en":"AgentHasHome","ja":"AgentHasHome"}}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"CreateFox2BurrowCard","type":"CreateItemDutyAction","name":{"zh":"CreateFox2BurrowCard","en":"CreateFox2BurrowCard","ja":"CreateFox2BurrowCard"}},{"key":"SetFox2HomeBuild","type":"SetHomeDutyAction","name":{"zh":"SetFox2HomeBuild","en":"SetFox2HomeBuild","ja":"SetFox2HomeBuild"}},{"key":"SetFox2HomeFlag","type":"ChangeNPCStatDutyAction","name":{"zh":"SetFox2HomeFlag","en":"SetFox2HomeFlag","ja":"SetFox2HomeFlag"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Fox2_BuildBurrow","name":{"zh":"\u5EFA\u7A9D","en":"Fox2 Build Burrow","ja":"Fox2 Build Burrow"},"_uuid":"0b18bfeb42a646b4197f7bf19e84452d"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5EFA\u7A9D",
+    "en" : "Fox2 Build Burrow",
+    "ja" : "Fox2 Build Burrow"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_BurrowArea2",
+        "type" : "CardTag",
+        "count" : 5,
+        "name"  : {
+          "zh" : "\u7A74\u5C45\u533A",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredCardsNOTOnBoard" : [
+      {
+        "key" : "BurrowFoxAbandoned2",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_CharcoalMound__CardImage",
+        "name"     : {
+          "zh" : "\u5E9F\u5F03\u7684\u72D0\u72F8\u6D1E",
+          "en" : "Abandoned Fox Burrow",
+          "ja" : "\u6368\u3066\u3089\u308C\u305F\u30AD\u30C4\u30CD\u306E\u5DE3\u7A74"
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentHasHome",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6709\u6D1E\u7A74",
+            "en" : "AgentHasHome",
+            "ja" : "AgentHasHome"
+          }
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "CreateFox2BurrowCard",
+      "type" : "CreateItemDutyAction",
+      "name" : {
+        "zh" : "CreateFox2BurrowCard",
+        "en" : "CreateFox2BurrowCard",
+        "ja" : "CreateFox2BurrowCard"
+      }
+    },
+    {
+      "key" : "SetFox2HomeBuild",
+      "type" : "SetHomeDutyAction",
+      "name" : {
+        "zh" : "SetFox2HomeBuild",
+        "en" : "SetFox2HomeBuild",
+        "ja" : "SetFox2HomeBuild"
+      }
+    },
+    {
+      "key" : "SetFox2HomeFlag",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "SetFox2HomeFlag",
+        "en" : "SetFox2HomeFlag",
+        "ja" : "SetFox2HomeFlag"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Fox2_BuildBurrow",
+  "name"                 : {
+    "zh" : "\u5EFA\u7A9D",
+    "en" : "Fox2 Build Burrow",
+    "ja" : "Fox2 Build Burrow"
+  },
+  "_uuid"                : "0b18bfeb42a646b4197f7bf19e84452d"
+}

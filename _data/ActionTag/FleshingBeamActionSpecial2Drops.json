@@ -1,1 +1,66 @@
-{"key":"FleshingBeamActionSpecial2Drops","type":"ActionTag","name":{"zh":"\u53BB\u8089\u67B6\u52A8\u4F5C-\u7279\u6B8A2\u4EA7\u51FA","en":"FleshingBeamActionSpecial2Drops","ja":"FleshingBeamActionSpecial2Drops"},"_blueprintStepActions":[{"source":{"key":"Bp_Parchment","type":"CardData","CardType":7,"icon":"90a04efc3a952732","name":{"zh":"\u517D\u76AE\u7EB8","en":"Parchment","ja":"\u7F8A\u76AE\u7D19"}},"description":{"zh":"\u84DD\u56FE\u5236\u4F5C","en":"Blueprint","ja":"\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"}}],"_modifiers":[{"source":{"key":"FleshingBeamActionBonus","type":"GameStat","icon":"e16aadf94681c0f9","min":0.0,"max":1.0,"name":{"zh":"\u522E\u76AE\u6881\u52A0\u6210","en":"Fleshing Beam Shaving Bonus","ja":"Fleshing Beam Shaving Bonus"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u522E\u76AE\u6881","en":"Status Stage: Fleshing Beam","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8089\u524A\u304E\u53F0"},"modifier":{"AppliesTo":[{"key":"FleshingBeamActionSpecial2Drops","type":"ActionTag","name":{"zh":"\u53BB\u8089\u67B6\u52A8\u4F5C-\u7279\u6B8A2\u4EA7\u51FA","en":"FleshingBeamActionSpecial2Drops","ja":"FleshingBeamActionSpecial2Drops"}}],"DurationModifier":-1,"FadeToBlack":0}}]}
+
+{
+  "key" : "FleshingBeamActionSpecial2Drops",
+  "type" : "ActionTag",
+  "name" : {
+    "zh" : "\u53BB\u8089\u67B6\u52A8\u4F5C-\u7279\u6B8A2\u4EA7\u51FA",
+    "en" : "FleshingBeamActionSpecial2Drops",
+    "ja" : "FleshingBeamActionSpecial2Drops"
+  },
+  "_blueprintStepActions" : [
+    {
+      "source" : {
+        "key" : "Bp_Parchment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_Parchment__CardImage",
+        "name"     : {
+          "zh" : "\u517D\u76AE\u7EB8",
+          "en" : "Parchment",
+          "ja" : "\u7F8A\u76AE\u7D19"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    }
+  ],
+  "_modifiers"            : [
+    {
+      "source" : {
+        "key" : "FleshingBeamActionBonus",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 1.0,
+        "name" : {
+          "zh" : "\u522E\u76AE\u6881\u52A0\u6210",
+          "en" : "Fleshing Beam Shaving Bonus",
+          "ja" : "Fleshing Beam Shaving Bonus"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u522E\u76AE\u6881",
+        "en" : "Status Stage: Fleshing Beam",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8089\u524A\u304E\u53F0"
+      },
+      "modifier"    : {
+        "AppliesTo" : [
+          {
+            "key" : "FleshingBeamActionSpecial2Drops",
+            "type" : "ActionTag",
+            "name" : {
+              "zh" : "\u53BB\u8089\u67B6\u52A8\u4F5C-\u7279\u6B8A2\u4EA7\u51FA",
+              "en" : "FleshingBeamActionSpecial2Drops",
+              "ja" : "FleshingBeamActionSpecial2Drops"
+            }
+          }
+        ],
+        "DurationModifier" : -1,
+        "FadeToBlack"      : 0
+      }
+    }
+  ]
+}

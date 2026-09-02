@@ -1,1 +1,50 @@
-{"NPCStatModifiers":[{"TargetStat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"ValueChange":{"x":25.0,"y":25.0}},{"TargetStat":{"key":"AgentStamina","type":"NPCStat","name":{"zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"}},"UseAssociatedAgent":true,"ValueChange":{"x":25.0,"y":25.0}}],"ChangeOverTicks":{"IntValue":4,"Active":true},"RequiredForSelectingDuty":true,"key":"FoxSleep","type":"NPCDutyAction","name":{"zh":"FoxSleep","en":"FoxSleep","ja":"FoxSleep"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "NPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "AgentWakefulness",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u6E05\u9192",
+          "en" : "AgentWakefulness",
+          "ja" : "AgentWakefulness"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "TargetStat" : {
+        "key" : "AgentStamina",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "AgentStamina",
+          "ja" : "AgentStamina"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    }
+  ],
+  "ChangeOverTicks"  : {
+    "IntValue" : 4,
+    "Active"   : true
+  },
+  "RequiredForSelectingDuty" : true,
+  "key"                      : "FoxSleep",
+  "type"                     : "NPCDutyAction",
+  "name"                     : {
+    "zh" : "FoxSleep",
+    "en" : "FoxSleep",
+    "ja" : "FoxSleep"
+  },
+  "actionType"               : "ChangeNPCStatDutyAction"
+}

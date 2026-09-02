@@ -1,1 +1,116 @@
-{"ObjectiveDescription":{"zh":"\u91CE\u517D\u7CBE\u9B44","en":"Beast Spirits","ja":"\u7363\u306E\u9B42"},"NotificationSettings":{"Frequency":1,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"Completed","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"SpiritSpeaker_BeastSpirits_Completed_Event","type":"CardData","CardType":3,"icon":"e20a8a82f5c6719c","name":{"zh":"\u91CE\u517D\u7CBE\u9B44","en":"Beast Spirits","ja":"\u7363\u306E\u9B42"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"NestedObjectives":[{"ObjectiveCondition":{"key":"SpiritSpeaker_BeastSpirits_Obj1_SummonAFrogSpirit","type":"Objective","name":{"zh":"\u53EC\u5524\u9752\u86D9\u7CBE\u9B44","en":"Summon a Frog Spirit","ja":"\u30AB\u30A8\u30EB\u306E\u7CBE\u970A\u3092\u53EC\u559A\u3059\u308B"}},"ObjectiveName":"1","CompletionWeight":1},{"ObjectiveCondition":{"key":"SpiritSpeaker_BeastSpirits_Obj2_SummonASturgeonSpirit","type":"Objective","name":{"zh":"\u53EC\u5524\u9C9F\u9C7C\u7CBE\u9B44","en":"Summon a Sturgeon Spirit","ja":"\u30C1\u30E7\u30A6\u30B6\u30E1\u306E\u7CBE\u970A\u3092\u53EC\u559A\u3059\u308B"}},"ObjectiveName":"2","CompletionWeight":1},{"ObjectiveCondition":{"key":"SpiritSpeaker_BeastSpirits_Obj3_SummonABadgerSpirit","type":"Objective","name":{"zh":"\u53EC\u5524\u737E\u7CBE\u9B44","en":"Summon a Badger Spirit","ja":"\u30A2\u30CA\u30B0\u30DE\u306E\u7CBE\u970A\u3092\u53EC\u559A\u3059\u308B"}},"ObjectiveName":"3","CompletionWeight":1},{"ObjectiveCondition":{"key":"SpiritSpeaker_BeastSpirits_Obj4_SummonAWolfSpirit","type":"Objective","name":{"zh":"\u53EC\u5524\u72FC\u7CBE\u9B44","en":"Summon a Wolf Spirit","ja":"\u72FC\u306E\u7CBE\u970A\u3092\u53EC\u559A\u3059\u308B"}},"ObjectiveName":"4","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":0,"type":"Objective","key":"SpiritSpeaker_BeastSpirits_Completed","name":{"zh":"\u91CE\u517D\u7CBE\u9B44","en":"Beast Spirits","ja":"\u7363\u306E\u9B42"},"_uuid":"2e967f635b2cfe7418eca0ef700f712c"}
+
+{
+  "ObjectiveDescription" : {
+    "zh" : "\u91CE\u517D\u7CBE\u9B44",
+    "en" : "Beast Spirits",
+    "ja" : "\u7363\u306E\u9B42"
+  },
+  "NotificationSettings" : {
+    "Frequency" : 1,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ProducedCards" : [
+        {
+          "CollectionName" : "Completed",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "SpiritSpeaker_BeastSpirits_Completed_Event",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "NPCAgent__Agent_Wolf__AgentImage",
+                "name"     : {
+                  "zh" : "\u91CE\u517D\u7CBE\u9B44",
+                  "en" : "Beast Spirits",
+                  "ja" : "\u7363\u306E\u9B42"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "FadeToBlack"   : 0,
+      "RoomDirection" : 0,
+      "ExitDirection" : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "NestedObjectives"     : [
+    {
+      "ObjectiveCondition" : {
+        "key" : "SpiritSpeaker_BeastSpirits_Obj1_SummonAFrogSpirit",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u53EC\u5524\u9752\u86D9\u7CBE\u9B44",
+          "en" : "Summon a Frog Spirit",
+          "ja" : "\u30AB\u30A8\u30EB\u306E\u7CBE\u970A\u3092\u53EC\u559A\u3059\u308B"
+        }
+      },
+      "ObjectiveName"      : "1",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "SpiritSpeaker_BeastSpirits_Obj2_SummonASturgeonSpirit",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u53EC\u5524\u9C9F\u9C7C\u7CBE\u9B44",
+          "en" : "Summon a Sturgeon Spirit",
+          "ja" : "\u30C1\u30E7\u30A6\u30B6\u30E1\u306E\u7CBE\u970A\u3092\u53EC\u559A\u3059\u308B"
+        }
+      },
+      "ObjectiveName"      : "2",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "SpiritSpeaker_BeastSpirits_Obj3_SummonABadgerSpirit",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u53EC\u5524\u737E\u7CBE\u9B44",
+          "en" : "Summon a Badger Spirit",
+          "ja" : "\u30A2\u30CA\u30B0\u30DE\u306E\u7CBE\u970A\u3092\u53EC\u559A\u3059\u308B"
+        }
+      },
+      "ObjectiveName"      : "3",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "SpiritSpeaker_BeastSpirits_Obj4_SummonAWolfSpirit",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u53EC\u5524\u72FC\u7CBE\u9B44",
+          "en" : "Summon a Wolf Spirit",
+          "ja" : "\u72FC\u306E\u7CBE\u970A\u3092\u53EC\u559A\u3059\u308B"
+        }
+      },
+      "ObjectiveName"      : "4",
+      "CompletionWeight"   : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "Objective",
+  "key"                         : "SpiritSpeaker_BeastSpirits_Completed",
+  "name"                        : {
+    "zh" : "\u91CE\u517D\u7CBE\u9B44",
+    "en" : "Beast Spirits",
+    "ja" : "\u7363\u306E\u9B42"
+  },
+  "_uuid"                       : "2e967f635b2cfe7418eca0ef700f712c"
+}

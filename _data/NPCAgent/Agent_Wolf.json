@@ -1,1 +1,3325 @@
-{"AgentName":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"},"AgentDescription":{"zh":"\u4E00\u53EA\u7070\u72FC\u7F13\u6B65\u7A7F\u8D8A\u6811\u6797\u3002","en":"A grey wolf moves silently through the trees.","ja":"\u7070\u8272\u306E\u30AA\u30AA\u30AB\u30DF\u304C\u97F3\u3082\u306A\u304F\u6728\u3005\u306E\u9593\u3092\u9032\u3093\u3067\u3044\u304F\u3002"},"AgentImage":{"FileName":"e20a8a82f5c6719c"},"WeightCategory":{"key":"Medium","type":"AgentWeightCategory","name":{"zh":"\u4E0D\u8F7B\u4E0D\u91CD\u7684","en":"Medium","ja":"\u666E\u901A"}},"AgentTags":[{"key":"AgentTag_PartnerHuntTarget","type":"NPCTag","name":{"zh":"\u4F34\u4FA3\u730E\u7269","en":"AgentTag_PartnerHuntTarget","ja":"AgentTag_PartnerHuntTarget"}}],"Interactions":[{"ButtonName":{"zh":"\u63A5\u8FD1","en":"Approach","ja":"\u8FD1\u3065\u304F"},"ButtonType":0,"Dialog":{"key":"Dialogue_AgentWolf","type":"DialogScene","firstLine":{"zh":"\u4F60\u63A5\u8FD1\u4E86\u72FC\u3002","en":"You approach the Wolf. ","ja":"\u30AA\u30AA\u30AB\u30DF\u306B\u8FD1\u3065\u304F\u30FB\u30FB\u30FB"}},"DroppedEncounter":{"key":"Combat_EncounterWolf","type":"Encounter","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}}}],"DefaultTracks":{"Active":true,"TrackLifetime":{"m_X":32,"m_Y":32},"OverrideDefaultTracksCard":{"key":"DefaultTracksCard","type":"CardData","CardType":2,"icon":"259e64c61d5d1036","name":{"zh":"\u6709\u8E2A\u8FF9\uFF01","en":"Tracks!","ja":"\u8DB3\u8DE1\uFF01"}},"TracksDirection":0,"OverrideTrackDurabilities":0,"NPCStatsToTrackDurabilities":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"OutputDurability":32,"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]},"AmbientSoundRealRange":0.0,"AmbientSoundNodesRange":0,"AmbientSounds":[{"AddedRealRange":0.0,"AddedNodesRange":0,"InternalName":"Wolf"}],"AgentStats":[{"ModelStat":{"GameName":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. ","ja":"Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":2880.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRespawnCounter","zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"},"OverrideStartingValue":{"FloatValue":2880.0},"OverrideMinMaxValue":{"MaxValue":2880.0,"FloatValue":0.0},"OverrideMinMaxRate":{"MaxValue":0.0,"FloatValue":-10.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u5B58\u5728","en":"1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. ","ja":"1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentExists","zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":-3520.0},"OverrideRate":{"FloatValue":1.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8840\u91CF","en":"Agent Stamina","ja":"Agent Stamina"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentBlood","zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.17,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u996E\u6C34","en":"Agent Hydration","ja":"Agent Hydration"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentHydration","zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":-1.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9971\u98DF","en":"Agent Satiation","ja":"Agent Satiation"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentSatiation","zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"},"OverrideStartingValue":{"FloatValue":13.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":-0.0093,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6E05\u9192","en":"Agent Satiation","ja":"Agent Satiation"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentWakefulness","zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":-1.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6597\u5FD7","en":"Agent Morale","ja":"Agent Morale"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentMorale","zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":10.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8010\u529B","en":"Agent Stamina","ja":"Agent Stamina"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentStamina","zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6FC0\u6012","en":"Agent Eraged - used by Wolves and Wolf Packs, while value is greater than 0 they have a very high priority duty which makes them hunt and attack the player","ja":"Agent Eraged - used by Wolves and Wolf Packs, while value is greater than 0 they have a very high priority duty which makes them hunt and attack the player"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentEnraged","zh":"\u6FC0\u6012","en":"AgentEnraged","ja":"AgentEnraged"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":-1.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6BD2\u6297","en":"Agent Special1","ja":"Agent Special1"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentPoisonResistance","zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"},"OverrideStartingValue":{"FloatValue":40.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":40.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.4,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9677\u9631\u7C7B\u578B","en":"Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40","ja":"Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapType","zh":"\u9677\u9631\u7C7B\u578B","en":"AgentTrapType","ja":"AgentTrapType"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunning","zh":"\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunning","ja":"AgentTrapCunning"},"OverrideStartingValue":{"FloatValue":25.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":25.0,"FloatValue":25.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u5957\u7D22\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningSnare","zh":"\u5957\u7D22\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunningSnare","ja":"AgentTrapCunningSnare"},"OverrideStartingValue":{"FloatValue":10000.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":10000.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9677\u5751\u6280\u5DE7","en":"Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningPitTrap","zh":"\u9677\u5751\u6280\u5DE7","en":"AgentTrapCunningPitTrap","ja":"AgentTrapCunningPitTrap"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":0.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u539F\u6728\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningLogTrap","zh":"\u539F\u6728\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunningLogTrap","ja":"AgentTrapCunningLogTrap"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":0.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u843D\u77F3\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningDeadfall","zh":"\u843D\u77F3\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunningDeadfall","ja":"AgentTrapCunningDeadfall"},"OverrideStartingValue":{"FloatValue":10000.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":10000.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0}],"AgentActions":[{"ActionID":"teleport to primeval woods","ActionLocalizedName":{"zh":"HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1","en":"HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1","ja":"HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1"},"RepeatOptions":0,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"HOTFIX_REDUNDANT_13032026_patch","type":"GameStat","min":0.0,"max":3.0,"name":{"zh":"\u70ED\u4FEE\u590D_13032026","en":"HOTFIX_REDUNDANT_13032026_patch","ja":"HOTFIX_REDUNDANT_13032026_patch"}},"TriggerRange":{"x":0.0,"y":2.0}}]},"MoveToEnvironment":{"key":"Env_GroveOak_PrimevalWoods","type":"CardData","CardType":4,"icon":"e875f50321482054","name":{"zh":"\u539F\u521D\u68EE\u6797","en":"Primeval Woods","ja":"\u592A\u53E4\u306E\u68EE"}},"MoveTiming":1},{"ActionID":"If Agent Exist is 0 Go to Spirit World","ActionLocalizedName":{"zh":"If Agent Exist is 0 Go to Spirit World","en":"If Agent Exist is 0 Go to Spirit World","ja":"If Agent Exist is 0 Go to Spirit World"},"RepeatOptions":1,"CannotPerformWhileDoingOtherAction":true,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}}},{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"ConditionRange":{"x":100.0,"y":2880.0}}]},"StatModifications":[{"Stat":{"key":"Agent_WolfExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u72FC\u5B58\u5728","en":"Wolf Exists","ja":"Wolf Exists"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"Spawn into the World_1","ActionLocalizedName":{"zh":"Spawn into the World_1","en":"Spawn into the World_1","ja":"Spawn into the World_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}}},{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}}}]},"StatModifications":[{"Stat":{"key":"Agent_WolfExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u72FC\u5B58\u5728","en":"Wolf Exists","ja":"Wolf Exists"}},"ValueModifier":{"x":1.0,"y":1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":1.0,"y":1.0}},{"TargetStat":{"key":"AgentHydration","type":"NPCStat","name":{"zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}},{"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"ValueChange":{"x":50.0,"y":50.0}},{"TargetStat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}},{"TargetStat":{"key":"AgentTrapType","type":"NPCStat","name":{"zh":"\u9677\u9631\u7C7B\u578B","en":"AgentTrapType","ja":"AgentTrapType"}},"UseAssociatedAgent":true,"ValueChange":{"x":-100.0,"y":-100.0}}],"MoveToEnvironment":{"key":"Env_GroveOak_PrimevalWoods","type":"CardData","CardType":4,"icon":"e875f50321482054","name":{"zh":"\u539F\u521D\u68EE\u6797","en":"Primeval Woods","ja":"\u592A\u53E4\u306E\u68EE"}},"MoveTiming":0},{"ActionID":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World","ActionLocalizedName":{"zh":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World","en":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World","ja":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Agent_WolfExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u72FC\u5B58\u5728","en":"Wolf Exists","ja":"Wolf Exists"}}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, and go to Spirit World_1","ActionLocalizedName":{"zh":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, and go to Spirit World_1","en":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, and go to Spirit World_1","ja":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, and go to Spirit World_1"},"RepeatOptions":1,"CannotPerformWhileInCombat":true,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"ConditionRange":{"x":0.0,"y":6.0}},{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"StatModifications":[{"Stat":{"key":"Pop_Wolf","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u72FC\u79CD\u7FA4\u6570\u91CF","en":"Population Wolf","ja":"\u72FC\u306E\u6570"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}},{"Stat":{"key":"Agent_WolfExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u72FC\u5B58\u5728","en":"Wolf Exists","ja":"Wolf Exists"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"DroppedCards":[{"CollectionName":"1","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Carcass_WolfCarcass","type":"CardData","CardType":0,"icon":"279ede0c6bdbd7d2","name":{"zh":"\u72FC\u5C38\u4F53","en":"Wolf Carcass","ja":"\u72FC\u306E\u6B7B\u9AB8"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","ActionLocalizedName":{"zh":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","en":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","ja":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"TargetStat":{"key":"AgentPoisonResistance","type":"NPCStat","name":{"zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"}}}]},"StatModifications":[{"Stat":{"key":"Pop_Wolf","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u72FC\u79CD\u7FA4\u6570\u91CF","en":"Population Wolf","ja":"\u72FC\u306E\u6570"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}},{"Stat":{"key":"Agent_WolfExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u72FC\u5B58\u5728","en":"Wolf Exists","ja":"Wolf Exists"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"DroppedCards":[{"CollectionName":"1","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Carcass_WolfCarcass","type":"CardData","CardType":0,"icon":"279ede0c6bdbd7d2","name":{"zh":"\u72FC\u5C38\u4F53","en":"Wolf Carcass","ja":"\u72FC\u306E\u6B7B\u9AB8"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"Very large Population_1","ActionLocalizedName":{"zh":"Very large Population","en":"Very large Population","ja":"Very large Population"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Wolf","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u72FC\u79CD\u7FA4\u6570\u91CF","en":"Population Wolf","ja":"\u72FC\u306E\u6570"}},"TriggerRange":{"x":10001.0,"y":100000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.67,"y":-1.67}}],"MoveTiming":0},{"ActionID":"Large Population_1","ActionLocalizedName":{"zh":"Large Population","en":"Large Population","ja":"Large Population"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Wolf","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u72FC\u79CD\u7FA4\u6570\u91CF","en":"Population Wolf","ja":"\u72FC\u306E\u6570"}},"TriggerRange":{"x":6001.0,"y":10000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.125,"y":-1.125}}],"MoveTiming":0},{"ActionID":"Medium Population_1","ActionLocalizedName":{"zh":"Medium Population","en":"Medium Population","ja":"Medium Population"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Wolf","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u72FC\u79CD\u7FA4\u6570\u91CF","en":"Population Wolf","ja":"\u72FC\u306E\u6570"}},"TriggerRange":{"x":3001.0,"y":6000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-0.83,"y":-0.83}}],"MoveTiming":0},{"ActionID":"Small Population_1","ActionLocalizedName":{"zh":"Small Population","en":"Small Population","ja":"Small Population"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Wolf","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u72FC\u79CD\u7FA4\u6570\u91CF","en":"Population Wolf","ja":"\u72FC\u306E\u6570"}},"TriggerRange":{"x":2000.0,"y":3000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-0.42,"y":-0.42}}],"MoveTiming":0},{"ActionID":"Attack the Player_1","ActionLocalizedName":{"zh":"Attack the Player_1","en":"Attack the Player_1","ja":"Attack the Player_1"},"RepeatOptions":2,"CannotPerformWhileInCombat":true,"CannotPerformWhileInDialog":true,"Conditions":{"NotInBackground":true,"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"MoonBlessing","type":"GameStat","icon":"d502a50ed945d5fc","min":0.0,"max":288.0,"name":{"zh":"\u6708\u8D50\u798F","en":"Moon Blessing","ja":"\u6708\u306E\u52A0\u8B77"}},"TriggerRange":{"x":0.0,"y":1.0}},{"Stat":{"key":"Stat_Pk_5_6_WolfProtection","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u72FC\u7FA4\u4FDD\u62A4","en":"Stat_Pk_5_6_WolfProtection","ja":"Stat_Pk_5_6_WolfProtection"}}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":25.0}}]},"DroppedCards":[{"CollectionName":"Combat","CollectionWeight":0,"DroppedEncounter":{"key":"Combat_EncounterWolf","type":"Encounter","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"EncounterNPC":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}}}],"MoveToPlayerEnvironment":true,"MoveTiming":0,"TriggerHidingGroups":[{"key":"Hunting","type":"NPCHidingGroup","name":{"zh":"Hunting","en":"Hunting","ja":"Hunting"}}]},{"ActionID":"Enraged = Attack the Player_1","ActionLocalizedName":{"zh":"Enraged = Attack the Player_1","en":"Enraged = Attack the Player_1","ja":"Enraged = Attack the Player_1"},"RepeatOptions":2,"CannotPerformWhileInCombat":true,"CannotPerformWhileInDialog":true,"Conditions":{"NotInBackground":true,"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Stat_Pk_5_6_WolfProtection","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u72FC\u7FA4\u4FDD\u62A4","en":"Stat_Pk_5_6_WolfProtection","ja":"Stat_Pk_5_6_WolfProtection"}}},{"Stat":{"key":"MoonBlessing","type":"GameStat","icon":"d502a50ed945d5fc","min":0.0,"max":288.0,"name":{"zh":"\u6708\u8D50\u798F","en":"Moon Blessing","ja":"\u6708\u306E\u52A0\u8B77"}},"TriggerRange":{"x":0.0,"y":1.0}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentEnraged","type":"NPCStat","name":{"zh":"\u6FC0\u6012","en":"AgentEnraged","ja":"AgentEnraged"}},"ConditionRange":{"x":4.0,"y":100.0}}]},"DroppedCards":[{"CollectionName":"Combat","CollectionWeight":0,"DroppedEncounter":{"key":"Combat_EncounterWolf","type":"Encounter","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"EncounterNPC":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}}}],"MoveToPlayerEnvironment":true,"MoveTiming":0,"TriggerHidingGroups":[{"key":"Hunting","type":"NPCHidingGroup","name":{"zh":"Hunting","en":"Hunting","ja":"Hunting"}}]},{"ActionID":"Wolf Attraction = Attack the Player_1","ActionLocalizedName":{"zh":"Wolf Attraction = Attack the Player_1","en":"Wolf Attraction = Attack the Player_1","ja":"Wolf Attraction = Attack the Player_1"},"RepeatOptions":2,"CannotPerformWhileInCombat":true,"CannotPerformWhileInDialog":true,"Conditions":{"NotInBackground":true,"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Stat_Pk_5_7_WolfAttraction","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u72FC\u7FA4\u5438\u5F15","en":"Stat_Pk_7_WolfAttraction","ja":"Stat_Pk_7_WolfAttraction"}},"TriggerRange":{"x":1.0,"y":1.0}},{"Stat":{"key":"MoonBlessing","type":"GameStat","icon":"d502a50ed945d5fc","min":0.0,"max":288.0,"name":{"zh":"\u6708\u8D50\u798F","en":"Moon Blessing","ja":"\u6708\u306E\u52A0\u8B77"}},"TriggerRange":{"x":0.0,"y":1.0}}]},"DroppedCards":[{"CollectionName":"Combat","CollectionWeight":0,"DroppedEncounter":{"key":"Combat_EncounterWolf","type":"Encounter","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"EncounterNPC":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}}}],"MoveToPlayerEnvironment":true,"MoveTiming":0,"TriggerHidingGroups":[{"key":"Hunting","type":"NPCHidingGroup","name":{"zh":"Hunting","en":"Hunting","ja":"Hunting"}}]},{"ActionID":"Interact with a Trap","ActionLocalizedName":{"zh":"Interact with a Trap","en":"Interact with a Trap","ja":"Interact with a Trap"},"RepeatOptions":3,"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"DroppedCards":[{"CollectionName":"1","CollectionWeight":100,"DroppedCards":[{"DroppedCard":{"key":"Carcass_WolfCarcass","type":"CardData","CardType":0,"icon":"279ede0c6bdbd7d2","name":{"zh":"\u72FC\u5C38\u4F53","en":"Wolf Carcass","ja":"\u72FC\u306E\u6B7B\u9AB8"}},"Quantity":{"m_X":1,"m_Y":1}}],"StatModifications":[{"Stat":{"key":"Pop_Wolf","type":"GameStat","min":0.0,"max":15000.0,"name":{"zh":"\u72FC\u79CD\u7FA4\u6570\u91CF","en":"Population Wolf","ja":"\u72FC\u306E\u6570"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}}]}],"DropCardsInTriggerContainer":true,"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"Reset Agent Trap Type","ActionLocalizedName":{"zh":"Reset Agent Trap Type","en":"Reset Agent Trap Type","ja":"Reset Agent Trap Type"},"RepeatOptions":1,"NPCStatModifications":[{"TargetStat":{"key":"AgentTrapType","type":"NPCStat","name":{"zh":"\u9677\u9631\u7C7B\u578B","en":"AgentTrapType","ja":"AgentTrapType"}},"UseAssociatedAgent":true,"ValueChange":{"x":-100.0,"y":-100.0}}],"MoveTiming":0},{"ActionID":"Bleed","ActionLocalizedName":{"zh":"Bleed","en":"Bleed","ja":"Bleed"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"ConditionRange":{"x":0.0,"y":50.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"UseAssociatedAgent":true,"ValueChange":{"x":-5.0,"y":-5.0}}],"MoveTiming":0},{"ActionID":"Fall Asleep","ActionLocalizedName":{"zh":"Fall Asleep","en":"Fall Asleep","ja":"Fall Asleep"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentPoisonResistance","type":"NPCStat","name":{"zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"}},"ConditionRange":{"x":0.0,"y":20.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentPoisonResistance","type":"NPCStat","name":{"zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.65,"y":-1.65}}],"MoveTiming":0}],"AgentDuties":[{"TargetDuty":{"key":"AgentDuty_AllAnimals_WaitIfBleedingOut","type":"NPCDuty","name":{"zh":"\u7B49\u5F85\u6D41\u8840","en":"All Animals Wait if Bleeding Out","ja":"All Animals Wait if Bleeding Out"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1000000000}},{"TargetDuty":{"key":"AgentDuty_Wolf_GetAngryIfVeryHungry","type":"NPCDuty","name":{"zh":"\u6781\u997F\u65F6\u6FC0\u6012","en":"Wolf Get Angry If Very Hungry","ja":"Wolf Get Angry If Very Hungry"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":20000}},{"TargetDuty":{"key":"AgentDuty_Wolf_GetAngryIfNoCampfire","type":"NPCDuty","name":{"zh":"\u65E0\u7BDD\u706B\u65F6\u6FC0\u6012","en":"Wolf Get Angry","ja":"Wolf Get Angry"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":20000}},{"TargetDuty":{"key":"AgentDuty_Wolf_SeekPlayerEnraged","type":"NPCDuty","name":{"zh":"\u6124\u6012\u8FFD\u51FB\u73A9\u5BB6","en":"Wolf Seek Player Enraged","ja":"Wolf Seek Player Enraged"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":15000}},{"TargetDuty":{"key":"AgentDuty_Wolf_7DaysCave","type":"NPCDuty","name":{"zh":"7\u5929\u4E0D\u51FA\u6D1E","en":"Wolf 7 days Cave","ja":"Wolf 7 days Cave"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":10000}},{"TargetDuty":{"key":"AgentDuty_Wolf_Rest","type":"NPCDuty","name":{"zh":"\u4F11\u606F","en":"Wolf Rest","ja":"Wolf Rest"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":5000}},{"TargetDuty":{"key":"AgentDuty_Wolf_Flee","type":"NPCDuty","name":{"zh":"\u9003\u8DD1","en":"Wolf Flee","ja":"Wolf Flee"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":4000}},{"TargetDuty":{"key":"AgentDuty_Wolf_EatVeryLargeCarcass","type":"NPCDuty","name":{"zh":"\u98DF\u7528\u8D85\u5927\u5C38\u4F53","en":"Wolf Eat Carcass","ja":"Wolf Eat Carcass"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1450,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_EatLargeCarcass","type":"NPCDuty","name":{"zh":"\u98DF\u7528\u5927\u578B\u5C38\u4F53","en":"Wolf Eat Carcass","ja":"Wolf Eat Carcass"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1440,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_EatMediumCarcass","type":"NPCDuty","name":{"zh":"\u98DF\u7528\u4E2D\u578B\u5C38\u4F53","en":"Wolf Eat Carcass","ja":"Wolf Eat Carcass"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1430,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_EatSmallCarcass","type":"NPCDuty","name":{"zh":"\u98DF\u7528\u5C0F\u578B\u5C38\u4F53","en":"Wolf Eat Carcass","ja":"Wolf Eat Carcass"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1420,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_EatTinyCarcass","type":"NPCDuty","name":{"zh":"\u98DF\u7528\u5FAE\u5C0F\u5C38\u4F53","en":"Wolf Eat Carcass","ja":"Wolf Eat Carcass"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1410,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_EatCarniOmni","type":"NPCDuty","name":{"zh":"\u98DF\u7528\u6742\u98DF","en":"Wolf Eat Carni Omni","ja":"Wolf Eat Carni Omni"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1410,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_Sleep","type":"NPCDuty","name":{"zh":"\u7761\u89C9","en":"Wolf Sleep","ja":"Wolf Sleep"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1400,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_Drink","type":"NPCDuty","name":{"zh":"\u996E\u6C34","en":"Wolf Drink","ja":"Wolf Drink"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1400,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentHydration","type":"NPCStat","name":{"zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_SeekSleep","type":"NPCDuty","name":{"zh":"\u524D\u5F80\u4F11\u606F\u5730\u70B9","en":"Wolf Seek Sleep","ja":"Wolf Seek Sleep"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1300,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_SeekDrink","type":"NPCDuty","name":{"zh":"\u524D\u5F80\u6C34\u6E90","en":"Wolf Seek Drink","ja":"Wolf Seek Drink"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1300,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentHydration","type":"NPCStat","name":{"zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_AttackPrey","type":"NPCDuty","name":{"zh":"\u730E\u6355\u730E\u7269","en":"Wolf Attack prey","ja":"Wolf Attack prey"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1300,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":1250,"m_Y":0},"WhenOutOfRange":0}],"DistanceToOthersWeightModifiers":[{"Target":{"TargetAgent":{"Target":{"key":"AgentTag_WolfLonePrey","type":"NPCTag","name":{"zh":"\u72EC\u72FC\u730E\u7269","en":"AgentTag_WolfLonePrey","ja":"AgentTag_WolfLonePrey"}}},"Method":0,"UsePathfinding":true},"WhenOutOfRange":2}]}},{"TargetDuty":{"key":"AgentDuty_Predator_AttackSmallDomesticPrey","type":"NPCDuty","name":{"zh":"\u730E\u6355\u5C0F\u578B\u5BB6\u755C","en":"Predator Attack Small  Domestic Prey","ja":"Predator Attack Small  Domestic Prey"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1290,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":1250,"m_Y":0},"WhenOutOfRange":0}],"DistanceToItemWeightModifiers":[{"Item":{"Target":{"key":"tag_SmallDomesticPrey","type":"CardTag","count":6,"name":{"zh":"\u72FC\u7FA4\u5BB6\u755C\u730E\u7269\uFF08\u5371\u9669\uFF09","en":"tag_WolfPackDomesticPreyDangerous","ja":"Dev?"}}},"UsePathfinding":true,"WhenOutOfRange":2}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_SeekFoodSmellyMeat","type":"NPCDuty","name":{"zh":"\u5BFB\u627E\u8089\u98DF","en":"Wolf Seek Food Smelly Meat","ja":"Wolf Seek Food Smelly Meat"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1200,"DistanceToItemWeightModifiers":[{"Item":{"Target":{"key":"tag_SmellyMeat","type":"CardTag","count":69,"name":{"zh":"\u6709\u6C14\u5473\u7684\u8089","en":"Smelly Meat","ja":"Smelly Meat"}}},"UsePathfinding":true,"Containers":{"CanLookInContainers":true,"AllowedContainers":[{"Target":{"key":"SnareTrap","type":"CardData","CardType":2,"icon":"0e9fbf16c721852c","name":{"zh":"\u5957\u7D22\u9677\u9631","en":"Snare Trap","ja":"\u304F\u304F\u308A\u7F60"}}},{"Target":{"key":"Sledge","type":"CardData","CardType":0,"icon":"84d7920f689192c0","name":{"zh":"\u96EA\u6A47","en":"Sledge","ja":"\u30BD\u30EA"}}},{"Target":{"key":"Travois","type":"CardData","CardType":0,"icon":"423ece728a489dc3","name":{"zh":"\u65E7\u5F0F\u96EA\u6A47","en":"Travois","ja":"\u305D\u308A"}}}]},"DistanceRange":{"x":0.0,"y":10.0},"WhenOutOfRange":2}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_SeekCarcass","type":"NPCDuty","name":{"zh":"\u5BFB\u627E\u5C38\u4F53","en":"Wolf Seek Carcass","ja":"Wolf Seek Carcass"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1210,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}],"DistanceToItemWeightModifiers":[{"Item":{"Target":{"key":"tag_Carcass","type":"CardTag","count":42,"name":{"zh":"\u5C38\u4F53","en":"Carcass","ja":"Carcass"}}},"UsePathfinding":true,"DistanceRange":{"x":0.0,"y":1200.0},"InterpWeightRange":{"m_X":0,"m_Y":-1200},"WhenOutOfRange":1}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_SeekPrey","type":"NPCDuty","name":{"zh":"\u5BFB\u627E\u730E\u7269","en":"Wolf Seek Prey","ja":"Wolf Seek Prey"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1200,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":1250,"m_Y":0},"WhenOutOfRange":0}],"DistanceToOthersWeightModifiers":[{"Target":{"TargetAgent":{"Target":{"key":"AgentTag_WolfLonePrey","type":"NPCTag","name":{"zh":"\u72EC\u72FC\u730E\u7269","en":"AgentTag_WolfLonePrey","ja":"AgentTag_WolfLonePrey"}}},"Method":0,"UsePathfinding":true},"DistanceRange":{"x":0.0,"y":1200.0},"InterpWeightRange":{"m_X":0,"m_Y":-2400},"WhenOutOfRange":2}]}},{"TargetDuty":{"key":"AgentDuty_Predator_SeekSmallDomesticPrey","type":"NPCDuty","name":{"zh":"\u5BFB\u627E\u5C0F\u578B\u5BB6\u755C","en":"Predator Seek Small Domestic Prey","ja":"Predator Seek Small Domestic Prey"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1200,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":1250,"m_Y":0},"WhenOutOfRange":0}],"DistanceToItemWeightModifiers":[{"Item":{"Target":{"key":"tag_SmallDomesticPrey","type":"CardTag","count":6,"name":{"zh":"\u72FC\u7FA4\u5BB6\u755C\u730E\u7269\uFF08\u5371\u9669\uFF09","en":"tag_WolfPackDomesticPreyDangerous","ja":"Dev?"}}},"UsePathfinding":true,"DistanceRange":{"x":0.0,"y":1200.0},"InterpWeightRange":{"m_X":0,"m_Y":-2400},"WhenOutOfRange":2}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_SeekPlayer","type":"NPCDuty","name":{"zh":"\u5BFB\u627E\u73A9\u5BB6","en":"Wolf Seek Player","ja":"Wolf Seek Player"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1200,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":50.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}],"DistanceToOthersWeightModifiers":[{"Target":{"TargetPlayer":true,"TargetAgent":{"Target":{"key":"AgentTag_WolfLonePrey","type":"NPCTag","name":{"zh":"\u72EC\u72FC\u730E\u7269","en":"AgentTag_WolfLonePrey","ja":"AgentTag_WolfLonePrey"}}},"Method":0,"UsePathfinding":true},"DistanceRange":{"x":0.0,"y":1200.0},"InterpWeightRange":{"m_X":0,"m_Y":-2400},"WhenOutOfRange":2}]}},{"TargetDuty":{"key":"AgentDuty_Wolf_Wandering","type":"NPCDuty","name":{"zh":"\u95F2\u901B","en":"Wolf Wondering","ja":"Wolf Wondering"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1}}],"MaxCarryWeight":1.0,"CannotTrade":true,"DebugColor":{"r":0.5377,"g":0.5377,"b":0.5377,"a":1.0},"type":"NPCAgent","key":"Agent_Wolf","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"},"_uuid":"0cb137c5a8daaed47ba291779d8146f8"}
+
+{
+  "AgentName" : {
+    "zh" : "\u72FC",
+    "en" : "Wolf",
+    "ja" : "\u72FC"
+  },
+  "AgentDescription" : {
+    "zh" : "\u4E00\u53EA\u7070\u72FC\u7F13\u6B65\u7A7F\u8D8A\u6811\u6797\u3002",
+    "en" : "A grey wolf moves silently through the trees.",
+    "ja" : "\u7070\u8272\u306E\u30AA\u30AA\u30AB\u30DF\u304C\u97F3\u3082\u306A\u304F\u6728\u3005\u306E\u9593\u3092\u9032\u3093\u3067\u3044\u304F\u3002"
+  },
+  "AgentImage"       : {
+    "FileName" : "NPCAgent__Agent_Wolf__AgentImage"
+  },
+  "WeightCategory"   : {
+    "key" : "Medium",
+    "type" : "AgentWeightCategory",
+    "name" : {
+      "zh" : "\u4E0D\u8F7B\u4E0D\u91CD\u7684",
+      "en" : "Medium",
+      "ja" : "\u666E\u901A"
+    }
+  },
+  "AgentTags"        : [
+    {
+      "key" : "AgentTag_PartnerHuntTarget",
+      "type" : "NPCTag",
+      "name" : {
+        "zh" : "\u540C\u4F34\u730E\u7269",
+        "en" : "AgentTag_PartnerHuntTarget",
+        "ja" : "AgentTag_PartnerHuntTarget"
+      }
+    }
+  ],
+  "Interactions"     : [
+    {
+      "ButtonName" : {
+        "zh" : "\u63A5\u8FD1",
+        "en" : "Approach",
+        "ja" : "\u8FD1\u3065\u304F"
+      },
+      "ButtonType" : 0,
+      "Dialog"     : {
+        "key" : "Dialogue_AgentWolf",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u63A5\u8FD1\u4E86\u72FC\u3002",
+          "en" : "You approach the Wolf. ",
+          "ja" : "\u30AA\u30AA\u30AB\u30DF\u306B\u8FD1\u3065\u304F\u30FB\u30FB\u30FB"
+        }
+      },
+      "DroppedEncounter" : {
+        "key" : "Combat_EncounterWolf",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+        "name" : {
+          "zh" : "\u72FC",
+          "en" : "Wolf",
+          "ja" : "\u72FC"
+        }
+      }
+    }
+  ],
+  "DefaultTracks"    : {
+    "Active" : true,
+    "TrackLifetime" : {
+      "m_X" : 32,
+      "m_Y" : 32
+    },
+    "OverrideDefaultTracksCard" : {
+      "key" : "DefaultTracksCard",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__BeastTracksCardInvisible__CardImage",
+      "name"     : {
+        "zh" : "\u6709\u8E2A\u8FF9\uFF01",
+        "en" : "Tracks!",
+        "ja" : "\u8DB3\u8DE1\uFF01"
+      }
+    },
+    "TracksDirection"           : 0,
+    "OverrideTrackDurabilities" : 0,
+    "NPCStatsToTrackDurabilities" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBlood",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8840\u91CF",
+            "en" : "AgentBlood",
+            "ja" : "AgentBlood"
+          }
+        },
+        "OutputDurability"   : 32,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    ]
+  },
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 0,
+  "AmbientSounds"          : [
+    {
+      "AddedRealRange" : 0.0,
+      "AddedNodesRange" : 0,
+      "InternalName"    : "Wolf"
+    }
+  ],
+  "AgentStats"             : [
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+          "en" : "Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. ",
+          "ja" : "Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 2880.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRespawnCounter",
+        "zh"                      : "\u5237\u65B0\u5012\u8BA1\u65F6",
+        "en"                      : "AgentRespawnCounter",
+        "ja"                      : "AgentRespawnCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 2880.0
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 2880.0,
+        "FloatValue" : 0.0
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -10.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5B58\u5728",
+          "en" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. ",
+          "ja" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentExists",
+        "zh"                      : "\u5B58\u5728",
+        "en"                      : "AgentExists",
+        "ja"                      : "AgentExists"
+      },
+      "OverrideMinMaxValue" : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : -3520.0
+      },
+      "OverrideRate"        : {
+        "FloatValue" : 1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8840\u91CF",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentBlood",
+        "zh"                      : "\u8840\u91CF",
+        "en"                      : "AgentBlood",
+        "ja"                      : "AgentBlood"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.17,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u996E\u6C34",
+          "en" : "Agent Hydration",
+          "ja" : "Agent Hydration"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentHydration",
+        "zh"                      : "\u996E\u6C34",
+        "en"                      : "AgentHydration",
+        "ja"                      : "AgentHydration"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9971\u98DF",
+          "en" : "Agent Satiation",
+          "ja" : "Agent Satiation"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentSatiation",
+        "zh"                      : "\u9971\u98DF",
+        "en"                      : "AgentSatiation",
+        "ja"                      : "AgentSatiation"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 13.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -0.0093,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6E05\u9192",
+          "en" : "Agent Satiation",
+          "ja" : "Agent Satiation"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentWakefulness",
+        "zh"                      : "\u6E05\u9192",
+        "en"                      : "AgentWakefulness",
+        "ja"                      : "AgentWakefulness"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6597\u5FD7",
+          "en" : "Agent Morale",
+          "ja" : "Agent Morale"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentMorale",
+        "zh"                      : "\u6597\u5FD7",
+        "en"                      : "AgentMorale",
+        "ja"                      : "AgentMorale"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 10.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8010\u529B",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentStamina",
+        "zh"                      : "\u8010\u529B",
+        "en"                      : "AgentStamina",
+        "ja"                      : "AgentStamina"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6FC0\u6012",
+          "en" : "Agent Eraged - used by Wolves and Wolf Packs, while value is greater than 0 they have a very high priority duty which makes them hunt and attack the player",
+          "ja" : "Agent Eraged - used by Wolves and Wolf Packs, while value is greater than 0 they have a very high priority duty which makes them hunt and attack the player"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentEnraged",
+        "zh"                      : "\u6FC0\u6012",
+        "en"                      : "AgentEnraged",
+        "ja"                      : "AgentEnraged"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6BD2\u6297",
+          "en" : "Agent Special1",
+          "ja" : "Agent Special1"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentPoisonResistance",
+        "zh"                      : "\u6BD2\u6297",
+        "en"                      : "AgentPoisonResistance",
+        "ja"                      : "AgentPoisonResistance"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 40.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 40.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.4,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u7C7B\u578B",
+          "en" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40",
+          "ja" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapType",
+        "zh"                      : "\u9677\u9631\u7C7B\u578B",
+        "en"                      : "AgentTrapType",
+        "ja"                      : "AgentTrapType"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunning",
+        "zh"                      : "\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunning",
+        "ja"                      : "AgentTrapCunning"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 25.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 25.0,
+        "FloatValue" : 25.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningSnare",
+        "zh"                      : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningSnare",
+        "ja"                      : "AgentTrapCunningSnare"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u5751\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningPitTrap",
+        "zh"                      : "\u9677\u5751\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningPitTrap",
+        "ja"                      : "AgentTrapCunningPitTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningLogTrap",
+        "zh"                      : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningLogTrap",
+        "ja"                      : "AgentTrapCunningLogTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningDeadfall",
+        "zh"                      : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningDeadfall",
+        "ja"                      : "AgentTrapCunningDeadfall"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    }
+  ],
+  "AgentActions"           : [
+    {
+      "ActionID" : "teleport to primeval woods",
+      "ActionLocalizedName" : {
+        "zh" : "HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1",
+        "en" : "HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1",
+        "ja" : "HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1"
+      },
+      "RepeatOptions"       : 0,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "HOTFIX_REDUNDANT_13032026_patch",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 3.0,
+              "name" : {
+                "zh" : "\u70ED\u4FEE\u590D_13032026",
+                "en" : "HOTFIX_REDUNDANT_13032026_patch",
+                "ja" : "HOTFIX_REDUNDANT_13032026_patch"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 0.0,
+              "y" : 2.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_GroveOak_PrimevalWoods",
+        "type" : "CardData",
+        "CardType" : 4,
+        "icon"     : "CardData__Env_GroveOak_PrimevalWoods__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u521D\u68EE\u6797",
+          "en" : "Primeval Woods",
+          "ja" : "\u592A\u53E4\u306E\u68EE"
+        }
+      },
+      "MoveTiming"          : 1
+    },
+    {
+      "ActionID" : "If Agent Exist is 0 Go to Spirit World",
+      "ActionLocalizedName" : {
+        "zh" : "If Agent Exist is 0 Go to Spirit World",
+        "en" : "If Agent Exist is 0 Go to Spirit World",
+        "ja" : "If Agent Exist is 0 Go to Spirit World"
+      },
+      "RepeatOptions"       : 1,
+      "CannotPerformWhileDoingOtherAction" : true,
+      "Conditions"                         : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentRespawnCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+                "en" : "AgentRespawnCounter",
+                "ja" : "AgentRespawnCounter"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 100.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "StatModifications"                  : [
+        {
+          "Stat" : {
+            "key" : "Agent_WolfExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u72FC\u5B58\u5728",
+              "en" : "Wolf Exists",
+              "ja" : "Wolf Exists"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveToEnvironment"                  : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"                         : 1
+    },
+    {
+      "ActionID" : "Spawn into the World_1",
+      "ActionLocalizedName" : {
+        "zh" : "Spawn into the World_1",
+        "en" : "Spawn into the World_1",
+        "ja" : "Spawn into the World_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Wolf",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+              "name" : {
+                "zh" : "\u72FC",
+                "en" : "Wolf",
+                "ja" : "\u72FC"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentRespawnCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+                "en" : "AgentRespawnCounter",
+                "ja" : "AgentRespawnCounter"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Wolf",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+              "name" : {
+                "zh" : "\u72FC",
+                "en" : "Wolf",
+                "ja" : "\u72FC"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            }
+          }
+        ]
+      },
+      "StatModifications"   : [
+        {
+          "Stat" : {
+            "key" : "Agent_WolfExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u72FC\u5B58\u5728",
+              "en" : "Wolf Exists",
+              "ja" : "Wolf Exists"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentHydration",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u996E\u6C34",
+              "en" : "AgentHydration",
+              "ja" : "AgentHydration"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentSatiation",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9971\u98DF",
+              "en" : "AgentSatiation",
+              "ja" : "AgentSatiation"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 50.0,
+            "y" : 50.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentWakefulness",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u6E05\u9192",
+              "en" : "AgentWakefulness",
+              "ja" : "AgentWakefulness"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentTrapType",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9677\u9631\u7C7B\u578B",
+              "en" : "AgentTrapType",
+              "ja" : "AgentTrapType"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_GroveOak_PrimevalWoods",
+        "type" : "CardData",
+        "CardType" : 4,
+        "icon"     : "CardData__Env_GroveOak_PrimevalWoods__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u521D\u68EE\u6797",
+          "en" : "Primeval Woods",
+          "ja" : "\u592A\u53E4\u306E\u68EE"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World",
+      "ActionLocalizedName" : {
+        "zh" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World",
+        "en" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World",
+        "ja" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Agent_WolfExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u72FC\u5B58\u5728",
+                "en" : "Wolf Exists",
+                "ja" : "Wolf Exists"
+              }
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Wolf",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+              "name" : {
+                "zh" : "\u72FC",
+                "en" : "Wolf",
+                "ja" : "\u72FC"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, and go to Spirit World_1",
+      "ActionLocalizedName" : {
+        "zh" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, and go to Spirit World_1",
+        "en" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, and go to Spirit World_1",
+        "ja" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, and go to Spirit World_1"
+      },
+      "RepeatOptions"       : 1,
+      "CannotPerformWhileInCombat" : true,
+      "Conditions"                 : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Wolf",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+              "name" : {
+                "zh" : "\u72FC",
+                "en" : "Wolf",
+                "ja" : "\u72FC"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentBlood",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8840\u91CF",
+                "en" : "AgentBlood",
+                "ja" : "AgentBlood"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 0.0,
+              "y" : 6.0
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Wolf",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+              "name" : {
+                "zh" : "\u72FC",
+                "en" : "Wolf",
+                "ja" : "\u72FC"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "StatModifications"          : [
+        {
+          "Stat" : {
+            "key" : "Pop_Wolf",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 15000.0,
+            "name" : {
+              "zh" : "\u72FC\u79CD\u7FA4\u6570\u91CF",
+              "en" : "Population Wolf",
+              "ja" : "\u72FC\u306E\u6570"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1000.0,
+            "y" : -1000.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Agent_WolfExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u72FC\u5B58\u5728",
+              "en" : "Wolf Exists",
+              "ja" : "Wolf Exists"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NPCStatModifications"       : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "DroppedCards"               : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_WolfCarcass",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__BeastAffinity__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u72FC\u5C38\u4F53",
+                  "en" : "Wolf Carcass",
+                  "ja" : "\u72FC\u306E\u6B7B\u9AB8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "MoveToEnvironment"          : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"                 : 1
+    },
+    {
+      "ActionID" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+      "ActionLocalizedName" : {
+        "zh" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+        "en" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+        "ja" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Wolf",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+              "name" : {
+                "zh" : "\u72FC",
+                "en" : "Wolf",
+                "ja" : "\u72FC"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentPoisonResistance",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6BD2\u6297",
+                "en" : "AgentPoisonResistance",
+                "ja" : "AgentPoisonResistance"
+              }
+            }
+          }
+        ]
+      },
+      "StatModifications"   : [
+        {
+          "Stat" : {
+            "key" : "Pop_Wolf",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 15000.0,
+            "name" : {
+              "zh" : "\u72FC\u79CD\u7FA4\u6570\u91CF",
+              "en" : "Population Wolf",
+              "ja" : "\u72FC\u306E\u6570"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1000.0,
+            "y" : -1000.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Agent_WolfExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u72FC\u5B58\u5728",
+              "en" : "Wolf Exists",
+              "ja" : "Wolf Exists"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "DroppedCards"         : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_WolfCarcass",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__BeastAffinity__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u72FC\u5C38\u4F53",
+                  "en" : "Wolf Carcass",
+                  "ja" : "\u72FC\u306E\u6B7B\u9AB8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"           : 1
+    },
+    {
+      "ActionID" : "Very large Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Very large Population",
+        "en" : "Very large Population",
+        "ja" : "Very large Population"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Wolf",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u72FC\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Wolf",
+                "ja" : "\u72FC\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 10001.0,
+              "y" : 100000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.67,
+            "y" : -1.67
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Large Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Large Population",
+        "en" : "Large Population",
+        "ja" : "Large Population"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Wolf",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u72FC\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Wolf",
+                "ja" : "\u72FC\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 6001.0,
+              "y" : 10000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.125,
+            "y" : -1.125
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Medium Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Medium Population",
+        "en" : "Medium Population",
+        "ja" : "Medium Population"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Wolf",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u72FC\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Wolf",
+                "ja" : "\u72FC\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3001.0,
+              "y" : 6000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -0.83,
+            "y" : -0.83
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Small Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Small Population",
+        "en" : "Small Population",
+        "ja" : "Small Population"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Wolf",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 15000.0,
+              "name" : {
+                "zh" : "\u72FC\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Wolf",
+                "ja" : "\u72FC\u306E\u6570"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2000.0,
+              "y" : 3000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -0.42,
+            "y" : -0.42
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Attack the Player_1",
+      "ActionLocalizedName" : {
+        "zh" : "Attack the Player_1",
+        "en" : "Attack the Player_1",
+        "ja" : "Attack the Player_1"
+      },
+      "RepeatOptions"       : 2,
+      "CannotPerformWhileInCombat" : true,
+      "CannotPerformWhileInDialog" : true,
+      "Conditions"                 : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "MoonBlessing",
+              "type" : "GameStat",
+              "icon" : "GameStat__MoonAffinity__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 288.0,
+              "name" : {
+                "zh" : "\u6708\u8D50\u798F",
+                "en" : "Moon Blessing",
+                "ja" : "\u6708\u306E\u52A0\u8B77"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 0.0,
+              "y" : 1.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Stat_Pk_5_6_WolfProtection",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u72FC\u7FA4\u4FDD\u62A4",
+                "en" : "Stat_Pk_5_6_WolfProtection",
+                "ja" : "Stat_Pk_5_6_WolfProtection"
+              }
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 0.0,
+              "y" : 25.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"               : [
+        {
+          "CollectionName" : "Combat",
+          "CollectionWeight" : 0,
+          "DroppedEncounter" : {
+            "key" : "Combat_EncounterWolf",
+            "type" : "Encounter",
+            "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+            "name" : {
+              "zh" : "\u72FC",
+              "en" : "Wolf",
+              "ja" : "\u72FC"
+            }
+          },
+          "EncounterNPC"     : {
+            "key" : "Agent_Wolf",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+            "name" : {
+              "zh" : "\u72FC",
+              "en" : "Wolf",
+              "ja" : "\u72FC"
+            }
+          }
+        }
+      ],
+      "MoveToPlayerEnvironment"    : true,
+      "MoveTiming"                 : 0,
+      "TriggerHidingGroups"        : [
+        {
+          "key" : "Hunting",
+          "type" : "NPCHidingGroup",
+          "name" : {
+            "zh" : "Hunting",
+            "en" : "Hunting",
+            "ja" : "Hunting"
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Enraged = Attack the Player_1",
+      "ActionLocalizedName" : {
+        "zh" : "Enraged = Attack the Player_1",
+        "en" : "Enraged = Attack the Player_1",
+        "ja" : "Enraged = Attack the Player_1"
+      },
+      "RepeatOptions"       : 2,
+      "CannotPerformWhileInCombat" : true,
+      "CannotPerformWhileInDialog" : true,
+      "Conditions"                 : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Stat_Pk_5_6_WolfProtection",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u72FC\u7FA4\u4FDD\u62A4",
+                "en" : "Stat_Pk_5_6_WolfProtection",
+                "ja" : "Stat_Pk_5_6_WolfProtection"
+              }
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "MoonBlessing",
+              "type" : "GameStat",
+              "icon" : "GameStat__MoonAffinity__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 288.0,
+              "name" : {
+                "zh" : "\u6708\u8D50\u798F",
+                "en" : "Moon Blessing",
+                "ja" : "\u6708\u306E\u52A0\u8B77"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 0.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentEnraged",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6FC0\u6012",
+                "en" : "AgentEnraged",
+                "ja" : "AgentEnraged"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 4.0,
+              "y" : 100.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"               : [
+        {
+          "CollectionName" : "Combat",
+          "CollectionWeight" : 0,
+          "DroppedEncounter" : {
+            "key" : "Combat_EncounterWolf",
+            "type" : "Encounter",
+            "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+            "name" : {
+              "zh" : "\u72FC",
+              "en" : "Wolf",
+              "ja" : "\u72FC"
+            }
+          },
+          "EncounterNPC"     : {
+            "key" : "Agent_Wolf",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+            "name" : {
+              "zh" : "\u72FC",
+              "en" : "Wolf",
+              "ja" : "\u72FC"
+            }
+          }
+        }
+      ],
+      "MoveToPlayerEnvironment"    : true,
+      "MoveTiming"                 : 0,
+      "TriggerHidingGroups"        : [
+        {
+          "key" : "Hunting",
+          "type" : "NPCHidingGroup",
+          "name" : {
+            "zh" : "Hunting",
+            "en" : "Hunting",
+            "ja" : "Hunting"
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Wolf Attraction = Attack the Player_1",
+      "ActionLocalizedName" : {
+        "zh" : "Wolf Attraction = Attack the Player_1",
+        "en" : "Wolf Attraction = Attack the Player_1",
+        "ja" : "Wolf Attraction = Attack the Player_1"
+      },
+      "RepeatOptions"       : 2,
+      "CannotPerformWhileInCombat" : true,
+      "CannotPerformWhileInDialog" : true,
+      "Conditions"                 : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Stat_Pk_5_7_WolfAttraction",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u72FC\u7FA4\u5438\u5F15",
+                "en" : "Stat_Pk_7_WolfAttraction",
+                "ja" : "Stat_Pk_7_WolfAttraction"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "MoonBlessing",
+              "type" : "GameStat",
+              "icon" : "GameStat__MoonAffinity__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 288.0,
+              "name" : {
+                "zh" : "\u6708\u8D50\u798F",
+                "en" : "Moon Blessing",
+                "ja" : "\u6708\u306E\u52A0\u8B77"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 0.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"               : [
+        {
+          "CollectionName" : "Combat",
+          "CollectionWeight" : 0,
+          "DroppedEncounter" : {
+            "key" : "Combat_EncounterWolf",
+            "type" : "Encounter",
+            "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+            "name" : {
+              "zh" : "\u72FC",
+              "en" : "Wolf",
+              "ja" : "\u72FC"
+            }
+          },
+          "EncounterNPC"     : {
+            "key" : "Agent_Wolf",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+            "name" : {
+              "zh" : "\u72FC",
+              "en" : "Wolf",
+              "ja" : "\u72FC"
+            }
+          }
+        }
+      ],
+      "MoveToPlayerEnvironment"    : true,
+      "MoveTiming"                 : 0,
+      "TriggerHidingGroups"        : [
+        {
+          "key" : "Hunting",
+          "type" : "NPCHidingGroup",
+          "name" : {
+            "zh" : "Hunting",
+            "en" : "Hunting",
+            "ja" : "Hunting"
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Interact with a Trap",
+      "ActionLocalizedName" : {
+        "zh" : "Interact with a Trap",
+        "en" : "Interact with a Trap",
+        "ja" : "Interact with a Trap"
+      },
+      "RepeatOptions"       : 3,
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "DroppedCards"         : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 100,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_WolfCarcass",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__BeastAffinity__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u72FC\u5C38\u4F53",
+                  "en" : "Wolf Carcass",
+                  "ja" : "\u72FC\u306E\u6B7B\u9AB8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ],
+          "StatModifications" : [
+            {
+              "Stat" : {
+                "key" : "Pop_Wolf",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 15000.0,
+                "name" : {
+                  "zh" : "\u72FC\u79CD\u7FA4\u6570\u91CF",
+                  "en" : "Population Wolf",
+                  "ja" : "\u72FC\u306E\u6570"
+                }
+              },
+              "ValueModifier" : {
+                "x" : -1000.0,
+                "y" : -1000.0
+              }
+            }
+          ]
+        }
+      ],
+      "DropCardsInTriggerContainer" : true,
+      "MoveToEnvironment"           : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"                  : 1
+    },
+    {
+      "ActionID" : "Reset Agent Trap Type",
+      "ActionLocalizedName" : {
+        "zh" : "Reset Agent Trap Type",
+        "en" : "Reset Agent Trap Type",
+        "ja" : "Reset Agent Trap Type"
+      },
+      "RepeatOptions"       : 1,
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentTrapType",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9677\u9631\u7C7B\u578B",
+              "en" : "AgentTrapType",
+              "ja" : "AgentTrapType"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Bleed",
+      "ActionLocalizedName" : {
+        "zh" : "Bleed",
+        "en" : "Bleed",
+        "ja" : "Bleed"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentBlood",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8840\u91CF",
+                "en" : "AgentBlood",
+                "ja" : "AgentBlood"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 0.0,
+              "y" : 50.0
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentBlood",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8840\u91CF",
+              "en" : "AgentBlood",
+              "ja" : "AgentBlood"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -5.0,
+            "y" : -5.0
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Fall Asleep",
+      "ActionLocalizedName" : {
+        "zh" : "Fall Asleep",
+        "en" : "Fall Asleep",
+        "ja" : "Fall Asleep"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentPoisonResistance",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6BD2\u6297",
+                "en" : "AgentPoisonResistance",
+                "ja" : "AgentPoisonResistance"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 0.0,
+              "y" : 20.0
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentPoisonResistance",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u6BD2\u6297",
+              "en" : "AgentPoisonResistance",
+              "ja" : "AgentPoisonResistance"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.65,
+            "y" : -1.65
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    }
+  ],
+  "AgentDuties"            : [
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_AllAnimals_WaitIfBleedingOut",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u7B49\u5F85\u6D41\u8840",
+          "en" : "All Animals Wait if Bleeding Out",
+          "ja" : "All Animals Wait if Bleeding Out"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1000000000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_GetAngryIfVeryHungry",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u6781\u997F\u65F6\u6FC0\u6012",
+          "en" : "Wolf Get Angry If Very Hungry",
+          "ja" : "Wolf Get Angry If Very Hungry"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 20000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_GetAngryIfNoCampfire",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u65E0\u7BDD\u706B\u65F6\u6FC0\u6012",
+          "en" : "Wolf Get Angry",
+          "ja" : "Wolf Get Angry"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 20000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_SeekPlayerEnraged",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u6124\u6012\u8FFD\u51FB\u73A9\u5BB6",
+          "en" : "Wolf Seek Player Enraged",
+          "ja" : "Wolf Seek Player Enraged"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 15000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_7DaysCave",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "7\u5929\u4E0D\u51FA\u6D1E",
+          "en" : "Wolf 7 days Cave",
+          "ja" : "Wolf 7 days Cave"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 10000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_Rest",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u4F11\u606F",
+          "en" : "Wolf Rest",
+          "ja" : "Wolf Rest"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 5000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_Flee",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u9003\u8DD1",
+          "en" : "Wolf Flee",
+          "ja" : "Wolf Flee"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 4000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_EatVeryLargeCarcass",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u98DF\u7528\u8D85\u5927\u5C38\u4F53",
+          "en" : "Wolf Eat Carcass",
+          "ja" : "Wolf Eat Carcass"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1450,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_EatLargeCarcass",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u98DF\u7528\u5927\u578B\u5C38\u4F53",
+          "en" : "Wolf Eat Carcass",
+          "ja" : "Wolf Eat Carcass"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1440,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_EatMediumCarcass",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u98DF\u7528\u4E2D\u578B\u5C38\u4F53",
+          "en" : "Wolf Eat Carcass",
+          "ja" : "Wolf Eat Carcass"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1430,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_EatSmallCarcass",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u98DF\u7528\u5C0F\u578B\u5C38\u4F53",
+          "en" : "Wolf Eat Carcass",
+          "ja" : "Wolf Eat Carcass"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1420,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_EatTinyCarcass",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u98DF\u7528\u5FAE\u5C0F\u5C38\u4F53",
+          "en" : "Wolf Eat Carcass",
+          "ja" : "Wolf Eat Carcass"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1410,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_EatCarniOmni",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u98DF\u7528\u6742\u98DF",
+          "en" : "Wolf Eat Carni Omni",
+          "ja" : "Wolf Eat Carni Omni"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1410,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_Sleep",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u7761\u89C9",
+          "en" : "Wolf Sleep",
+          "ja" : "Wolf Sleep"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1400,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentWakefulness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6E05\u9192",
+                "en" : "AgentWakefulness",
+                "ja" : "AgentWakefulness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_Drink",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u996E\u6C34",
+          "en" : "Wolf Drink",
+          "ja" : "Wolf Drink"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1400,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentHydration",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u996E\u6C34",
+                "en" : "AgentHydration",
+                "ja" : "AgentHydration"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_SeekSleep",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u524D\u5F80\u4F11\u606F\u5730\u70B9",
+          "en" : "Wolf Seek Sleep",
+          "ja" : "Wolf Seek Sleep"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1300,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentWakefulness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6E05\u9192",
+                "en" : "AgentWakefulness",
+                "ja" : "AgentWakefulness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_SeekDrink",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u524D\u5F80\u6C34\u6E90",
+          "en" : "Wolf Seek Drink",
+          "ja" : "Wolf Seek Drink"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1300,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentHydration",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u996E\u6C34",
+                "en" : "AgentHydration",
+                "ja" : "AgentHydration"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_AttackPrey",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u730E\u6355\u730E\u7269",
+          "en" : "Wolf Attack prey",
+          "ja" : "Wolf Attack prey"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1300,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 1250,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ],
+        "DistanceToOthersWeightModifiers" : [
+          {
+            "Target" : {
+              "TargetAgent" : {
+                "Target" : {
+                  "key" : "AgentTag_WolfLonePrey",
+                  "type" : "NPCTag",
+                  "name" : {
+                    "zh" : "\u72EC\u72FC\u730E\u7269",
+                    "en" : "AgentTag_WolfLonePrey",
+                    "ja" : "AgentTag_WolfLonePrey"
+                  }
+                }
+              },
+              "Method"      : 0,
+              "UsePathfinding" : true
+            },
+            "WhenOutOfRange" : 2
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Predator_AttackSmallDomesticPrey",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u730E\u6355\u5C0F\u578B\u5BB6\u755C",
+          "en" : "Predator Attack Small  Domestic Prey",
+          "ja" : "Predator Attack Small  Domestic Prey"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1290,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 1250,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ],
+        "DistanceToItemWeightModifiers" : [
+          {
+            "Item" : {
+              "Target" : {
+                "key" : "tag_SmallDomesticPrey",
+                "type" : "CardTag",
+                "count" : 6,
+                "name"  : {
+                  "zh" : "\u72FC\u7FA4\u5BB6\u755C\u730E\u7269\uFF08\u5371\u9669\uFF09",
+                  "en" : "tag_WolfPackDomesticPreyDangerous",
+                  "ja" : "Dev?"
+                }
+              }
+            },
+            "UsePathfinding" : true,
+            "WhenOutOfRange" : 2
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_SeekFoodSmellyMeat",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u8089\u98DF",
+          "en" : "Wolf Seek Food Smelly Meat",
+          "ja" : "Wolf Seek Food Smelly Meat"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1200,
+        "DistanceToItemWeightModifiers" : [
+          {
+            "Item" : {
+              "Target" : {
+                "key" : "tag_SmellyMeat",
+                "type" : "CardTag",
+                "count" : 69,
+                "name"  : {
+                  "zh" : "\u6709\u6C14\u5473\u7684\u8089",
+                  "en" : "Smelly Meat",
+                  "ja" : "Smelly Meat"
+                }
+              }
+            },
+            "UsePathfinding" : true,
+            "Containers"     : {
+              "CanLookInContainers" : true,
+              "AllowedContainers"   : [
+                {
+                  "Target" : {
+                    "key" : "SnareTrap",
+                    "type" : "CardData",
+                    "CardType" : 2,
+                    "icon"     : "CardData__Bp_SnareTrap__CardImage",
+                    "name"     : {
+                      "zh" : "\u5957\u7D22\u9677\u9631",
+                      "en" : "Snare Trap",
+                      "ja" : "\u304F\u304F\u308A\u7F60"
+                    }
+                  }
+                },
+                {
+                  "Target" : {
+                    "key" : "Sledge",
+                    "type" : "CardData",
+                    "CardType" : 0,
+                    "icon"     : "CardData__Bp_Sledge__CardImage",
+                    "name"     : {
+                      "zh" : "\u96EA\u6A47",
+                      "en" : "Sledge",
+                      "ja" : "\u30BD\u30EA"
+                    }
+                  }
+                },
+                {
+                  "Target" : {
+                    "key" : "Travois",
+                    "type" : "CardData",
+                    "CardType" : 0,
+                    "icon"     : "CardData__Bp_Travois__CardImage",
+                    "name"     : {
+                      "zh" : "\u65E7\u5F0F\u96EA\u6A47",
+                      "en" : "Travois",
+                      "ja" : "\u305D\u308A"
+                    }
+                  }
+                }
+              ]
+            },
+            "DistanceRange"  : {
+              "x" : 0.0,
+              "y" : 10.0
+            },
+            "WhenOutOfRange" : 2
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_SeekCarcass",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u5C38\u4F53",
+          "en" : "Wolf Seek Carcass",
+          "ja" : "Wolf Seek Carcass"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1210,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ],
+        "DistanceToItemWeightModifiers" : [
+          {
+            "Item" : {
+              "Target" : {
+                "key" : "tag_Carcass",
+                "type" : "CardTag",
+                "count" : 42,
+                "name"  : {
+                  "zh" : "\u5C38\u4F53",
+                  "en" : "Carcass",
+                  "ja" : "Carcass"
+                }
+              }
+            },
+            "UsePathfinding" : true,
+            "DistanceRange"  : {
+              "x" : 0.0,
+              "y" : 1200.0
+            },
+            "InterpWeightRange" : {
+              "m_X" : 0,
+              "m_Y" : -1200
+            },
+            "WhenOutOfRange"    : 1
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_SeekPrey",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u730E\u7269",
+          "en" : "Wolf Seek Prey",
+          "ja" : "Wolf Seek Prey"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1200,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 1250,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ],
+        "DistanceToOthersWeightModifiers" : [
+          {
+            "Target" : {
+              "TargetAgent" : {
+                "Target" : {
+                  "key" : "AgentTag_WolfLonePrey",
+                  "type" : "NPCTag",
+                  "name" : {
+                    "zh" : "\u72EC\u72FC\u730E\u7269",
+                    "en" : "AgentTag_WolfLonePrey",
+                    "ja" : "AgentTag_WolfLonePrey"
+                  }
+                }
+              },
+              "Method"      : 0,
+              "UsePathfinding" : true
+            },
+            "DistanceRange" : {
+              "x" : 0.0,
+              "y" : 1200.0
+            },
+            "InterpWeightRange" : {
+              "m_X" : 0,
+              "m_Y" : -2400
+            },
+            "WhenOutOfRange"    : 2
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Predator_SeekSmallDomesticPrey",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u5C0F\u578B\u5BB6\u755C",
+          "en" : "Predator Seek Small Domestic Prey",
+          "ja" : "Predator Seek Small Domestic Prey"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1200,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 1250,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ],
+        "DistanceToItemWeightModifiers" : [
+          {
+            "Item" : {
+              "Target" : {
+                "key" : "tag_SmallDomesticPrey",
+                "type" : "CardTag",
+                "count" : 6,
+                "name"  : {
+                  "zh" : "\u72FC\u7FA4\u5BB6\u755C\u730E\u7269\uFF08\u5371\u9669\uFF09",
+                  "en" : "tag_WolfPackDomesticPreyDangerous",
+                  "ja" : "Dev?"
+                }
+              }
+            },
+            "UsePathfinding" : true,
+            "DistanceRange"  : {
+              "x" : 0.0,
+              "y" : 1200.0
+            },
+            "InterpWeightRange" : {
+              "m_X" : 0,
+              "m_Y" : -2400
+            },
+            "WhenOutOfRange"    : 2
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_SeekPlayer",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u73A9\u5BB6",
+          "en" : "Wolf Seek Player",
+          "ja" : "Wolf Seek Player"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1200,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 50.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ],
+        "DistanceToOthersWeightModifiers" : [
+          {
+            "Target" : {
+              "TargetPlayer" : true,
+              "TargetAgent"  : {
+                "Target" : {
+                  "key" : "AgentTag_WolfLonePrey",
+                  "type" : "NPCTag",
+                  "name" : {
+                    "zh" : "\u72EC\u72FC\u730E\u7269",
+                    "en" : "AgentTag_WolfLonePrey",
+                    "ja" : "AgentTag_WolfLonePrey"
+                  }
+                }
+              },
+              "Method"       : 0,
+              "UsePathfinding" : true
+            },
+            "DistanceRange" : {
+              "x" : 0.0,
+              "y" : 1200.0
+            },
+            "InterpWeightRange" : {
+              "m_X" : 0,
+              "m_Y" : -2400
+            },
+            "WhenOutOfRange"    : 2
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Wolf_Wandering",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u95F2\u901B",
+          "en" : "Wolf Wondering",
+          "ja" : "Wolf Wondering"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1
+      }
+    }
+  ],
+  "MaxCarryWeight"         : 1.0,
+  "CannotTrade"            : true,
+  "DebugColor"             : {
+    "r" : 0.5377,
+    "g" : 0.5377,
+    "b" : 0.5377,
+    "a" : 1.0
+  },
+  "type"                   : "NPCAgent",
+  "key"                    : "Agent_Wolf",
+  "icon"                   : "NPCAgent__Agent_Wolf__AgentImage",
+  "name"                   : {
+    "zh" : "\u72FC",
+    "en" : "Wolf",
+    "ja" : "\u72FC"
+  },
+  "_uuid"                  : "0cb137c5a8daaed47ba291779d8146f8"
+}

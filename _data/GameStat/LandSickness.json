@@ -1,1 +1,252 @@
-{"GameName":{"zh":"\u5185\u9646\u6050\u60E7\u75C7","en":"Land Sickness","ja":"\u9678\u9154\u3044"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":96.0},"BaseRatePerTick":-1.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":0.4207,"g":0.7804,"b":0.1922,"a":1.0},"BarHighlightColor":{"r":0.8899,"g":1.0,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"bb01cd932ee8e1bd"},"Statuses":[{"GameName":{"zh":"\u8F7B\u5EA6\u6076\u5FC3","en":"Mild Nausea","ja":"\u8EFD\u3044\u5410\u304D\u6C17"},"ValueRange":{"m_X":1,"m_Y":8},"EffectsOnStats":[{"Stat":{"key":"Nausea","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":24.0,"name":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"}},"RateModifier":{"x":0.5,"y":0.5}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"},"ValueRange":{"m_X":9,"m_Y":48},"EffectsOnStats":[{"Stat":{"key":"Nausea","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":24.0,"name":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"}},"RateModifier":{"x":1.0,"y":1.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u975E\u5E38\u6076\u5FC3","en":"Strong Nausea","ja":"\u3059\u3054\u3044\u5410\u304D\u6C17"},"ValueRange":{"m_X":49,"m_Y":96},"EffectsOnStats":[{"Stat":{"key":"Nausea","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":24.0,"name":{"zh":"\u6076\u5FC3","en":"Nausea","ja":"\u5410\u304D\u6C17"}},"RateModifier":{"x":1.5,"y":1.5}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"LandSickness","icon":"bb01cd932ee8e1bd","name":{"zh":"\u5185\u9646\u6050\u60E7\u75C7","en":"Land Sickness","ja":"\u9678\u9154\u3044"},"min":0.0,"max":96.0,"_modifierValues":[{"source":{"key":"Event_FluteTunes3","type":"CardData","CardType":3,"icon":"14df6ecbe5be68ab","name":{"zh":"\u7B2C3\u9875","en":"Page 3","ja":"\uFF13\u30DA\u30FC\u30B8"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6EAA\u6D41\u4E4B\u8C03","en":"Action: River Tune","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5DDD\u306E\u66F2"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"Event_FluteTunes3","type":"CardData","CardType":3,"icon":"14df6ecbe5be68ab","name":{"zh":"\u7B2C3\u9875","en":"Page 3","ja":"\uFF13\u30DA\u30FC\u30B8"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6EAA\u6D41\u4E4B\u8C03","en":"Action: River Tune","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5DDD\u306E\u66F2"},"value":{"x":-10.0,"y":-10.0}}],"_modifierRates":[{"source":{"key":"Env_Coop","type":"CardData","CardType":4,"icon":"c6af69c0faad2e48","name":{"zh":"\u7B3C\u5B50","en":"Coop","ja":"\u9CE5\u5C0F\u5C4B"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u9646\u5730\u4E0D\u9002\u4FEE\u6B63","en":"Passive Effect: Land Sickness Fix","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALand Sickness Fix"},"value":{"x":-8.0,"y":-8.0}},{"source":{"key":"Env_Enclosure","type":"CardData","CardType":4,"name":{"zh":"\u755C\u680F","en":"Enclosure","ja":"\u56F2\u3044"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u9646\u5730\u4E0D\u9002\u4FEE\u6B63","en":"Passive Effect: Land Sickness Fix","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALand Sickness Fix"},"value":{"x":-8.0,"y":-8.0}}],"_uuid":"0599791e692adea4cb8db7f05481c4d8"}
+
+{
+  "GameName" : {
+    "zh" : "\u5185\u9646\u6050\u60E7\u75C7",
+    "en" : "Land Sickness",
+    "ja" : "\u9678\u9154\u3044"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 96.0
+  },
+  "BaseRatePerTick" : -1.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.4207,
+    "g" : 0.7804,
+    "b" : 0.1922,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 0.8899,
+    "g" : 1.0,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "GameStat__LandSickness__DefaultStatusIcon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u8F7B\u5EA6\u6076\u5FC3",
+        "en" : "Mild Nausea",
+        "ja" : "\u8EFD\u3044\u5410\u304D\u6C17"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 8
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Nausea",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 24.0,
+            "name" : {
+              "zh" : "\u6076\u5FC3",
+              "en" : "Nausea",
+              "ja" : "\u5410\u304D\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6076\u5FC3",
+        "en" : "Nausea",
+        "ja" : "\u5410\u304D\u6C17"
+      },
+      "ValueRange" : {
+        "m_X" : 9,
+        "m_Y" : 48
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Nausea",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 24.0,
+            "name" : {
+              "zh" : "\u6076\u5FC3",
+              "en" : "Nausea",
+              "ja" : "\u5410\u304D\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u975E\u5E38\u6076\u5FC3",
+        "en" : "Strong Nausea",
+        "ja" : "\u3059\u3054\u3044\u5410\u304D\u6C17"
+      },
+      "ValueRange" : {
+        "m_X" : 49,
+        "m_Y" : 96
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Nausea",
+            "type" : "GameStat",
+            "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 24.0,
+            "name" : {
+              "zh" : "\u6076\u5FC3",
+              "en" : "Nausea",
+              "ja" : "\u5410\u304D\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.5,
+            "y" : 1.5
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "LandSickness",
+  "icon"                    : "GameStat__LandSickness__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u5185\u9646\u6050\u60E7\u75C7",
+    "en" : "Land Sickness",
+    "ja" : "\u9678\u9154\u3044"
+  },
+  "min"                     : 0.0,
+  "max"                     : 96.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Event_FluteTunes3",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Bp_FluteWooden__CardImage",
+        "name"     : {
+          "zh" : "\u7B2C3\u9875",
+          "en" : "Page 3",
+          "ja" : "\uFF13\u30DA\u30FC\u30B8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6EAA\u6D41\u4E4B\u8C03",
+        "en" : "Action: River Tune",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5DDD\u306E\u66F2"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_FluteTunes3",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Bp_FluteWooden__CardImage",
+        "name"     : {
+          "zh" : "\u7B2C3\u9875",
+          "en" : "Page 3",
+          "ja" : "\uFF13\u30DA\u30FC\u30B8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6EAA\u6D41\u4E4B\u8C03",
+        "en" : "Action: River Tune",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5DDD\u306E\u66F2"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "Env_Coop",
+        "type" : "CardData",
+        "CardType" : 4,
+        "icon"     : "CardData__Coop__CardImage",
+        "name"     : {
+          "zh" : "\u7B3C\u5B50",
+          "en" : "Coop",
+          "ja" : "\u9CE5\u5C0F\u5C4B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u9646\u5730\u4E0D\u9002\u4FEE\u6B63",
+        "en" : "Passive Effect: Land Sickness Fix",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALand Sickness Fix"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Env_Enclosure",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u755C\u680F",
+          "en" : "Enclosure",
+          "ja" : "\u56F2\u3044"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u9646\u5730\u4E0D\u9002\u4FEE\u6B63",
+        "en" : "Passive Effect: Land Sickness Fix",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALand Sickness Fix"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    }
+  ],
+  "_uuid"                   : "0599791e692adea4cb8db7f05481c4d8"
+}

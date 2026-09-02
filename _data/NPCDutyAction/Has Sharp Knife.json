@@ -1,1 +1,30 @@
-{"Conditions":{"PlayerUsesCard":0,"RequiredTagsInInventory":[{"key":"tag_CutterAdv","type":"CardTag","count":7,"name":{"zh":"\u950B\u5229\u5207\u5272\u5DE5\u5177","en":"Sharp Cutting Tool","ja":"Sharp Cutting Tool"}}]},"OnFalse":{"Outcome":3,"MoveToStep":0},"key":"Has Sharp Knife","type":"NPCDutyAction","name":{"zh":"Has Sharp Knife","en":"Has Sharp Knife","ja":"Has Sharp Knife"},"actionType":"TakeSimpleDecisionDutyAction"}
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredTagsInInventory" : [
+      {
+        "key" : "tag_CutterAdv",
+        "type" : "CardTag",
+        "count" : 7,
+        "name"  : {
+          "zh" : "\u950B\u5229\u5207\u5272\u5DE5\u5177",
+          "en" : "Sharp Cutting Tool",
+          "ja" : "Sharp Cutting Tool"
+        }
+      }
+    ]
+  },
+  "OnFalse"    : {
+    "Outcome" : 3,
+    "MoveToStep" : 0
+  },
+  "key"        : "Has Sharp Knife",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "Has Sharp Knife",
+    "en" : "Has Sharp Knife",
+    "ja" : "Has Sharp Knife"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

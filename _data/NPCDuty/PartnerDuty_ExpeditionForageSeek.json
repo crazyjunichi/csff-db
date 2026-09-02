@@ -1,1 +1,125 @@
-{"DutyName":{"zh":"\u89C5\u98DF\u8FDC\u5F81\u524D\u5F80","en":"Foraging Expedition Seek","ja":"Foraging Expedition Seek"},"DutySummary":{"zh":"Looking for a place to forage.","en":"Looking for a place to forage.","ja":"Looking for a place to forage."},"DutyTags":[{"key":"DutyTag_Methodical","type":"NPCDutyTag","name":{"zh":"\u6709\u6761\u4E0D\u7D0A\u7684","en":"Methodical","ja":"Methodical"}},{"key":"DutyTag_Nature","type":"NPCDutyTag","name":{"zh":"\u81EA\u7136","en":"Nature","ja":"Nature"}}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredTagsNOTOnBoard":[{"key":"tag_HasForage","type":"CardTag","count":91,"name":{"zh":"\u6709\u89C5\u98DF\u7269","en":"Has Forage","ja":"Has Forage"}}],"RequiredInventoryWeight":{"Active":true,"Range":{"x":0.0,"y":0.8},"UsePercentage":true},"RequiredStatValues":[{"Stat":{"key":"FishingMosquitosLightAmount","type":"GameStat","min":0.0,"max":100.0,"name":{"zh":"\u9493\u9C7C\u868A\u866B\u4EAE\u5EA6","en":"FishingMosquitosLightAmount","ja":"FishingMosquitosLightAmount"}},"TriggerRange":{"x":100.0,"y":100.0}}],"RequiredNPCStatValues":[{"TargetAgent":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}},"TargetStat":{"key":"Partner_ExpeditionActiveForage","type":"NPCStat","name":{"zh":"\u8FDC\u5F81\u4E2D(\u89C5\u98DF)","en":"Partner_ExpeditionActiveForage","ja":"Partner_ExpeditionActiveForage"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"MoveToLocationWhichHasForage","type":"MoveDutyAction","name":{"zh":"MoveToLocationWhichHasForage","en":"MoveToLocationWhichHasForage","ja":"MoveToLocationWhichHasForage"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_ExpeditionForageSeek","name":{"zh":"\u89C5\u98DF\u8FDC\u5F81\u524D\u5F80","en":"Foraging Expedition Seek","ja":"Foraging Expedition Seek"},"_uuid":"dd1f49d3c02ab7348828593dc7b1dec2"}
+
+{
+  "DutyName" : {
+    "zh" : "\u89C5\u98DF\u8FDC\u5F81\u524D\u5F80",
+    "en" : "Foraging Expedition Seek",
+    "ja" : "Foraging Expedition Seek"
+  },
+  "DutySummary" : {
+    "zh" : "Looking for a place to forage.",
+    "en" : "Looking for a place to forage.",
+    "ja" : "Looking for a place to forage."
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Methodical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u6709\u6761\u4E0D\u7D0A\u7684",
+        "en" : "Methodical",
+        "ja" : "Methodical"
+      }
+    },
+    {
+      "key" : "DutyTag_Nature",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u81EA\u7136",
+        "en" : "Nature",
+        "ja" : "Nature"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredTagsNOTOnBoard" : [
+      {
+        "key" : "tag_HasForage",
+        "type" : "CardTag",
+        "count" : 91,
+        "name"  : {
+          "zh" : "\u6709\u89C5\u98DF\u7269",
+          "en" : "Has Forage",
+          "ja" : "Has Forage"
+        }
+      }
+    ],
+    "RequiredInventoryWeight" : {
+      "Active" : true,
+      "Range"  : {
+        "x" : 0.0,
+        "y" : 0.8
+      },
+      "UsePercentage" : true
+    },
+    "RequiredStatValues"      : [
+      {
+        "Stat" : {
+          "key" : "FishingMosquitosLightAmount",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u9493\u9C7C\u868A\u866B\u4EAE\u5EA6",
+            "en" : "FishingMosquitosLightAmount",
+            "ja" : "FishingMosquitosLightAmount"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 100.0,
+          "y" : 100.0
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "TargetAgent" : {
+          "key" : "Agent_Partner",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_Partner__AgentImage",
+          "name" : {
+            "zh" : "\u540C\u4F34",
+            "en" : "Partner",
+            "ja" : "Partner"
+          }
+        },
+        "TargetStat"  : {
+          "key" : "Partner_ExpeditionActiveForage",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8FDC\u5F81\u4E2D(\u89C5\u98DF)",
+            "en" : "Partner_ExpeditionActiveForage",
+            "ja" : "Partner_ExpeditionActiveForage"
+          }
+        },
+        "ConditionRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "MoveToLocationWhichHasForage",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "MoveToLocationWhichHasForage",
+        "en" : "MoveToLocationWhichHasForage",
+        "ja" : "MoveToLocationWhichHasForage"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_ExpeditionForageSeek",
+  "name"                 : {
+    "zh" : "\u89C5\u98DF\u8FDC\u5F81\u524D\u5F80",
+    "en" : "Foraging Expedition Seek",
+    "ja" : "Foraging Expedition Seek"
+  },
+  "_uuid"                : "dd1f49d3c02ab7348828593dc7b1dec2"
+}

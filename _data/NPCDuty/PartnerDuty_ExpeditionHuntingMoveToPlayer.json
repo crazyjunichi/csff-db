@@ -1,1 +1,120 @@
-{"DutyName":{"zh":"\u72E9\u730E\u8FDC\u5F81\u8FD4\u56DE\u73A9\u5BB6","en":"Hunting Expedition Move to Player","ja":"Hunting Expedition Move to Player"},"DutySummary":{"zh":"Return to Player with a Carcass","en":"Return to Player with a Carcass","ja":"Return to Player with a Carcass"},"DutyTags":[{"key":"DutyTag_Methodical","type":"NPCDutyTag","name":{"zh":"\u6709\u6761\u4E0D\u7D0A\u7684","en":"Methodical","ja":"Methodical"}},{"key":"DutyTag_Nature","type":"NPCDutyTag","name":{"zh":"\u81EA\u7136","en":"Nature","ja":"Nature"}}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredInventoryWeight":{"Range":{"x":0.0,"y":0.8},"UsePercentage":true},"RequiredNPCStatValues":[{"TargetAgent":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}},"TargetStat":{"key":"Partner_ExpeditionActiveHunt","type":"NPCStat","name":{"zh":"\u8FDC\u5F81\u4E2D(\u72E9\u730E)","en":"Partner_ExpeditionActiveHunt","ja":"Partner_ExpeditionActiveHunt"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"Has a Carcass","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Has a Carcass","en":"Has a Carcass","ja":"Has a Carcass"}},{"key":"Cancel Duty","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Cancel Duty","en":"Cancel Duty","ja":"Cancel Duty"}},{"key":"MoveToAPlayer","type":"MoveDutyAction","name":{"zh":"MoveToAPlayer","en":"MoveToAPlayer","ja":"MoveToAPlayer"}},{"key":"ExpeditionDone","type":"StartDialogDutyAction","name":{"zh":"ExpeditionDone","en":"ExpeditionDone","ja":"ExpeditionDone"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_ExpeditionHuntingMoveToPlayer","name":{"zh":"\u72E9\u730E\u8FDC\u5F81\u8FD4\u56DE\u73A9\u5BB6","en":"Hunting Expedition Move to Player","ja":"Hunting Expedition Move to Player"},"_uuid":"243f2eef774c9ff49a78659ed4860b23"}
+
+{
+  "DutyName" : {
+    "zh" : "\u72E9\u730E\u8FDC\u5F81\u8FD4\u56DE\u73A9\u5BB6",
+    "en" : "Hunting Expedition Move to Player",
+    "ja" : "Hunting Expedition Move to Player"
+  },
+  "DutySummary" : {
+    "zh" : "Return to Player with a Carcass",
+    "en" : "Return to Player with a Carcass",
+    "ja" : "Return to Player with a Carcass"
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Methodical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u6709\u6761\u4E0D\u7D0A\u7684",
+        "en" : "Methodical",
+        "ja" : "Methodical"
+      }
+    },
+    {
+      "key" : "DutyTag_Nature",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u81EA\u7136",
+        "en" : "Nature",
+        "ja" : "Nature"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredInventoryWeight" : {
+      "Range" : {
+        "x" : 0.0,
+        "y" : 0.8
+      },
+      "UsePercentage" : true
+    },
+    "RequiredNPCStatValues"   : [
+      {
+        "TargetAgent" : {
+          "key" : "Agent_Partner",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_Partner__AgentImage",
+          "name" : {
+            "zh" : "\u540C\u4F34",
+            "en" : "Partner",
+            "ja" : "Partner"
+          }
+        },
+        "TargetStat"  : {
+          "key" : "Partner_ExpeditionActiveHunt",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8FDC\u5F81\u4E2D(\u72E9\u730E)",
+            "en" : "Partner_ExpeditionActiveHunt",
+            "ja" : "Partner_ExpeditionActiveHunt"
+          }
+        },
+        "ConditionRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Has a Carcass",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Has a Carcass",
+        "en" : "Has a Carcass",
+        "ja" : "Has a Carcass"
+      }
+    },
+    {
+      "key" : "Cancel Duty",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Cancel Duty",
+        "en" : "Cancel Duty",
+        "ja" : "Cancel Duty"
+      }
+    },
+    {
+      "key" : "MoveToAPlayer",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "MoveToAPlayer",
+        "en" : "MoveToAPlayer",
+        "ja" : "MoveToAPlayer"
+      }
+    },
+    {
+      "key" : "ExpeditionDone",
+      "type" : "StartDialogDutyAction",
+      "name" : {
+        "zh" : "ExpeditionDone",
+        "en" : "ExpeditionDone",
+        "ja" : "ExpeditionDone"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_ExpeditionHuntingMoveToPlayer",
+  "name"                 : {
+    "zh" : "\u72E9\u730E\u8FDC\u5F81\u8FD4\u56DE\u73A9\u5BB6",
+    "en" : "Hunting Expedition Move to Player",
+    "ja" : "Hunting Expedition Move to Player"
+  },
+  "_uuid"                : "243f2eef774c9ff49a78659ed4860b23"
+}

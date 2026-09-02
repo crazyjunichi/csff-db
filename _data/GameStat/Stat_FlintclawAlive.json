@@ -1,1 +1,259 @@
-{"GameName":{"zh":"\u71E7\u77F3\u722A\u5B58\u6D3B","en":"FlintclawAlive","ja":"FlintclawAlive"},"BaseValue":1.0,"MinMaxValue":{"x":0.0,"y":1.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"Stat_FlintclawAlive","name":{"zh":"\u71E7\u77F3\u722A\u5B58\u6D3B","en":"FlintclawAlive","ja":"FlintclawAlive"},"min":0.0,"max":1.0,"_modifierValues":[{"source":{"key":"Tgr_FlintclawRespawn","type":"SelfTriggeredAction","name":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"}},"description":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_FlintclawRespawn","type":"SelfTriggeredAction","name":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"}},"description":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_FlintclawRespawn","type":"SelfTriggeredAction","name":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"}},"description":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_FlintclawRespawn","type":"SelfTriggeredAction","name":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"}},"description":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Combat_EncounterFlintclaw","type":"Encounter","icon":"710efe63ce8e83be","name":{"zh":"\u71E7\u722A","en":"Flintclaw","ja":"\u30D5\u30EA\u30F3\u30C8\u30AF\u30ED\u30FC"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":-1.0,"y":-1.0}}],"_requires":[{"source":{"key":"Tgr_FlintclawFight","type":"SelfTriggeredAction","name":{"zh":"Tgr_FlintclawFight","en":"Tgr_FlintclawFight","ja":"Tgr_FlintclawFight"}},"description":{"zh":"Tgr_FlintclawFight","en":"Tgr_FlintclawFight","ja":"Tgr_FlintclawFight"},"value":{"x":1.0,"y":1.0}}],"_triggers":[{"source":{"key":"Tgr_FlintclawRespawn","type":"SelfTriggeredAction","name":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"}},"description":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_FlintclawRespawn","type":"SelfTriggeredAction","name":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"}},"description":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_FlintclawRespawn","type":"SelfTriggeredAction","name":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"}},"description":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_FlintclawRespawn","type":"SelfTriggeredAction","name":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"}},"description":{"zh":"Tgr_FlintclawRespawn","en":"Tgr_FlintclawRespawn","ja":"Tgr_FlintclawRespawn"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_FlintclawFight","type":"SelfTriggeredAction","name":{"zh":"Tgr_FlintclawFight","en":"Tgr_FlintclawFight","ja":"Tgr_FlintclawFight"}},"description":{"zh":"Tgr_FlintclawFight","en":"Tgr_FlintclawFight","ja":"Tgr_FlintclawFight"},"value":{"x":1.0,"y":1.0}}],"_uuid":"309cee65acda39c4882737030e6e5883"}
+
+{
+  "GameName" : {
+    "zh" : "\u71E7\u77F3\u722A\u5B58\u6D3B",
+    "en" : "FlintclawAlive",
+    "ja" : "FlintclawAlive"
+  },
+  "BaseValue" : 1.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Stat_FlintclawAlive",
+  "name"                    : {
+    "zh" : "\u71E7\u77F3\u722A\u5B58\u6D3B",
+    "en" : "FlintclawAlive",
+    "ja" : "FlintclawAlive"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Tgr_FlintclawRespawn",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_FlintclawRespawn",
+          "en" : "Tgr_FlintclawRespawn",
+          "ja" : "Tgr_FlintclawRespawn"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_FlintclawRespawn",
+        "en" : "Tgr_FlintclawRespawn",
+        "ja" : "Tgr_FlintclawRespawn"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_FlintclawRespawn",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_FlintclawRespawn",
+          "en" : "Tgr_FlintclawRespawn",
+          "ja" : "Tgr_FlintclawRespawn"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_FlintclawRespawn",
+        "en" : "Tgr_FlintclawRespawn",
+        "ja" : "Tgr_FlintclawRespawn"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_FlintclawRespawn",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_FlintclawRespawn",
+          "en" : "Tgr_FlintclawRespawn",
+          "ja" : "Tgr_FlintclawRespawn"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_FlintclawRespawn",
+        "en" : "Tgr_FlintclawRespawn",
+        "ja" : "Tgr_FlintclawRespawn"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_FlintclawRespawn",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_FlintclawRespawn",
+          "en" : "Tgr_FlintclawRespawn",
+          "ja" : "Tgr_FlintclawRespawn"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_FlintclawRespawn",
+        "en" : "Tgr_FlintclawRespawn",
+        "ja" : "Tgr_FlintclawRespawn"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterFlintclaw",
+        "type" : "Encounter",
+        "icon" : "CardData__Bp_FlintclawSpiritCalling__CardImage",
+        "name" : {
+          "zh" : "\u71E7\u722A",
+          "en" : "Flintclaw",
+          "ja" : "\u30D5\u30EA\u30F3\u30C8\u30AF\u30ED\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "Tgr_FlintclawFight",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_FlintclawFight",
+          "en" : "Tgr_FlintclawFight",
+          "ja" : "Tgr_FlintclawFight"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_FlintclawFight",
+        "en" : "Tgr_FlintclawFight",
+        "ja" : "Tgr_FlintclawFight"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_FlintclawRespawn",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_FlintclawRespawn",
+          "en" : "Tgr_FlintclawRespawn",
+          "ja" : "Tgr_FlintclawRespawn"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_FlintclawRespawn",
+        "en" : "Tgr_FlintclawRespawn",
+        "ja" : "Tgr_FlintclawRespawn"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_FlintclawRespawn",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_FlintclawRespawn",
+          "en" : "Tgr_FlintclawRespawn",
+          "ja" : "Tgr_FlintclawRespawn"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_FlintclawRespawn",
+        "en" : "Tgr_FlintclawRespawn",
+        "ja" : "Tgr_FlintclawRespawn"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_FlintclawRespawn",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_FlintclawRespawn",
+          "en" : "Tgr_FlintclawRespawn",
+          "ja" : "Tgr_FlintclawRespawn"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_FlintclawRespawn",
+        "en" : "Tgr_FlintclawRespawn",
+        "ja" : "Tgr_FlintclawRespawn"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_FlintclawRespawn",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_FlintclawRespawn",
+          "en" : "Tgr_FlintclawRespawn",
+          "ja" : "Tgr_FlintclawRespawn"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_FlintclawRespawn",
+        "en" : "Tgr_FlintclawRespawn",
+        "ja" : "Tgr_FlintclawRespawn"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_FlintclawFight",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_FlintclawFight",
+          "en" : "Tgr_FlintclawFight",
+          "ja" : "Tgr_FlintclawFight"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_FlintclawFight",
+        "en" : "Tgr_FlintclawFight",
+        "ja" : "Tgr_FlintclawFight"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_uuid"                   : "309cee65acda39c4882737030e6e5883"
+}

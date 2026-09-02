@@ -1,1 +1,167 @@
-{"GameName":{"zh":"\u6E29\u5EA6","en":"Temperature","ja":"\u6E29\u5EA6"},"BaseValue":0.0,"MinMaxValue":{"x":-80.0,"y":80.0},"BaseRatePerTick":0.0,"CompositeStats":[{"Stat":{"key":"TemperaturePerceived","type":"GameStat","icon":"4194726ee334e108","min":-80.0,"max":80.0,"name":{"zh":"\u4F53\u611F\u6E29\u5EA6","en":"Perceived Temperature","ja":"\u4F53\u611F\u6E29\u5EA6"}}}],"StatPriority":0,"Visibility":2,"CannotBeInspected":true,"BarColor":{"r":0.6353,"g":0.2046,"b":0.2179,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusName":{"zh":"\u6E29\u5EA6","en":"Temperature","ja":"\u6E29\u5EA6"},"DefaultStatusIcon":{"FileName":"4194726ee334e108"},"Statuses":[{"GameName":{"zh":"\u707C\u70ED","en":"Scorching Hot","ja":"\u707C\u71B1\u306E\u6691\u3055"},"Description":{"zh":"\u6709\u4E2D\u6691\u7684\u98CE\u9669\u3002","en":"At risk of heatstroke.","ja":"\u71B1\u4E2D\u75C7\u304C\u5371\u306A\u3044"},"Icon":{"FileName":"4194726ee334e108"},"ValueRange":{"m_X":60,"m_Y":80},"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":4,"RepeatAlertSounds":4,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u6781\u5EA6\u708E\u70ED","en":"Extremely Hot","ja":"\u71B1\u3059\u304E\u308B\uFF01"},"Icon":{"FileName":"4194726ee334e108"},"ValueRange":{"m_X":40,"m_Y":59},"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":3,"RepeatAlertSounds":2,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u5BD2\u51B7","en":"Freezing","ja":"\u5BD2\u3059\u304E\u308B"},"Description":{"zh":"\u6709\u51BB\u75AE\u7684\u98CE\u9669\u3002","en":"At risk of frostnip.","ja":"\u51CD\u7621\u306E\u5371\u967A\u6027\u304C\u3042\u308B"},"Icon":{"FileName":"1a3c2e99e572ec71"},"ValueRange":{"m_X":-20,"m_Y":-8},"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":3,"RepeatAlertSounds":2,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u6781\u5EA6\u5BD2\u51B7","en":"Extremely Freezing","ja":"\u6975\u5BD2"},"Description":{"zh":"\u6709\u51BB\u4F24\u7684\u98CE\u9669\u3002","en":"At risk of frostbite.","ja":"\u51CD\u50B7\u306E\u5371\u967A\u6027\u304C\u3042\u308B"},"Icon":{"FileName":"1a3c2e99e572ec71"},"ValueRange":{"m_X":-80,"m_Y":-21},"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":3,"RepeatAlertSounds":4,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"TemperatureAlert","icon":"4194726ee334e108","name":{"zh":"\u6E29\u5EA6","en":"Temperature","ja":"\u6E29\u5EA6"},"min":-80.0,"max":80.0,"_uuid":"97a754ff7da560049b6a1bda365b6792"}
+
+{
+  "GameName" : {
+    "zh" : "\u6E29\u5EA6",
+    "en" : "Temperature",
+    "ja" : "\u6E29\u5EA6"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : -80.0,
+    "y" : 80.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "CompositeStats"  : [
+    {
+      "Stat" : {
+        "key" : "TemperaturePerceived",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+        "min"  : -80.0,
+        "max"  : 80.0,
+        "name" : {
+          "zh" : "\u4F53\u611F\u6E29\u5EA6",
+          "en" : "Perceived Temperature",
+          "ja" : "\u4F53\u611F\u6E29\u5EA6"
+        }
+      }
+    }
+  ],
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "CannotBeInspected" : true,
+  "BarColor"          : {
+    "r" : 0.6353,
+    "g" : 0.2046,
+    "b" : 0.2179,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusName" : {
+    "zh" : "\u6E29\u5EA6",
+    "en" : "Temperature",
+    "ja" : "\u6E29\u5EA6"
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u707C\u70ED",
+        "en" : "Scorching Hot",
+        "ja" : "\u707C\u71B1\u306E\u6691\u3055"
+      },
+      "Description" : {
+        "zh" : "\u6709\u4E2D\u6691\u7684\u98CE\u9669\u3002",
+        "en" : "At risk of heatstroke.",
+        "ja" : "\u71B1\u4E2D\u75C7\u304C\u5371\u306A\u3044"
+      },
+      "Icon"        : {
+        "FileName" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 60,
+        "m_Y" : 80
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 4,
+      "RepeatAlertSounds"      : 4,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6781\u5EA6\u708E\u70ED",
+        "en" : "Extremely Hot",
+        "ja" : "\u71B1\u3059\u304E\u308B\uFF01"
+      },
+      "Icon"     : {
+        "FileName" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon"
+      },
+      "ValueRange" : {
+        "m_X" : 40,
+        "m_Y" : 59
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 3,
+      "RepeatAlertSounds"      : 2,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u5BD2\u51B7",
+        "en" : "Freezing",
+        "ja" : "\u5BD2\u3059\u304E\u308B"
+      },
+      "Description" : {
+        "zh" : "\u6709\u51BB\u75AE\u7684\u98CE\u9669\u3002",
+        "en" : "At risk of frostnip.",
+        "ja" : "\u51CD\u7621\u306E\u5371\u967A\u6027\u304C\u3042\u308B"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__BodyTemperature__Statuses-5-Icon"
+      },
+      "ValueRange"  : {
+        "m_X" : -20,
+        "m_Y" : -8
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 3,
+      "RepeatAlertSounds"      : 2,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6781\u5EA6\u5BD2\u51B7",
+        "en" : "Extremely Freezing",
+        "ja" : "\u6975\u5BD2"
+      },
+      "Description" : {
+        "zh" : "\u6709\u51BB\u4F24\u7684\u98CE\u9669\u3002",
+        "en" : "At risk of frostbite.",
+        "ja" : "\u51CD\u50B7\u306E\u5371\u967A\u6027\u304C\u3042\u308B"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__BodyTemperature__Statuses-5-Icon"
+      },
+      "ValueRange"  : {
+        "m_X" : -80,
+        "m_Y" : -21
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 3,
+      "RepeatAlertSounds"      : 4,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "TemperatureAlert",
+  "icon"                    : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+  "name"                    : {
+    "zh" : "\u6E29\u5EA6",
+    "en" : "Temperature",
+    "ja" : "\u6E29\u5EA6"
+  },
+  "min"                     : -80.0,
+  "max"                     : 80.0,
+  "_uuid"                   : "97a754ff7da560049b6a1bda365b6792"
+}

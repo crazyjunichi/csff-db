@@ -1,1 +1,67 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"Bp_Enclosure","type":"CardData","CardType":7,"icon":"e7113d910e70a938","name":{"zh":"\u755C\u680F","en":"Enclosure","ja":"\u67F5\u56F2\u3044"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":1,"OwnershipPriority":0,"DutyPriority":2,"Containers":{"CanLookInContainers":true},"DebugItemSelection":true},"AffectType":4,"SimpleAffectDuration":0,"BpIngredientsSelection":{"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":0,"Containers":{"CanLookInContainers":true,"NOTAllowedContainers":[{"Target":{"key":"Bp_Enclosure","type":"CardData","CardType":7,"icon":"e7113d910e70a938","name":{"zh":"\u755C\u680F","en":"Enclosure","ja":"\u67F5\u56F2\u3044"}}}]},"DebugItemSelection":true},"key":"Work on Bp_Enclosure (CardData)","type":"NPCDutyAction","name":{"zh":"Work on Bp_Enclosure (CardData)","en":"Work on Bp_Enclosure (CardData)","ja":"Work on Bp_Enclosure (CardData)"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Bp_Enclosure",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Bp_Enclosure__CardImage",
+            "name"     : {
+              "zh" : "\u755C\u680F",
+              "en" : "Enclosure",
+              "ja" : "\u67F5\u56F2\u3044"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Bp_Enclosure",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Bp_Enclosure__CardImage",
+            "name"     : {
+              "zh" : "\u755C\u680F",
+              "en" : "Enclosure",
+              "ja" : "\u67F5\u56F2\u3044"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Bp_Enclosure (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "Work on Bp_Enclosure (CardData)",
+    "en" : "Work on Bp_Enclosure (CardData)",
+    "ja" : "Work on Bp_Enclosure (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

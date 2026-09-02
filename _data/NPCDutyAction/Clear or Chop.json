@@ -1,1 +1,34 @@
-{"Conditions":{"PlayerUsesCard":0,"RequiredTagsInInventory":[{"key":"tag_Axe","type":"CardTag","count":6,"name":{"zh":"\u65A7\u5934","en":"Axe","ja":"\u65A7"}}]},"OnTrue":{"Outcome":1,"MoveToStep":6},"OnFalse":{"Outcome":0,"MoveToStep":2},"key":"Clear or Chop","type":"NPCDutyAction","name":{"zh":"Clear or Chop","en":"Clear or Chop","ja":"Clear or Chop"},"actionType":"TakeSimpleDecisionDutyAction"}
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredTagsInInventory" : [
+      {
+        "key" : "tag_Axe",
+        "type" : "CardTag",
+        "count" : 6,
+        "name"  : {
+          "zh" : "\u65A7\u5934",
+          "en" : "Axe",
+          "ja" : "\u65A7"
+        }
+      }
+    ]
+  },
+  "OnTrue"     : {
+    "Outcome" : 1,
+    "MoveToStep" : 6
+  },
+  "OnFalse"    : {
+    "Outcome" : 0,
+    "MoveToStep" : 2
+  },
+  "key"        : "Clear or Chop",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "Clear or Chop",
+    "en" : "Clear or Chop",
+    "ja" : "Clear or Chop"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

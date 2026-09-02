@@ -1,1 +1,72 @@
-{"DutyName":{"zh":"\u7761\u89C9","en":"Hare Sleep 1","ja":"Hare Sleep 1"},"ValidTimesOfDay":[{"TimeType":0,"CompareType":0,"StartValue":12,"EndValue":16}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_HidingArea","type":"CardTag","count":25,"name":{"zh":"\u85CF\u8EAB\u5904","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"HareSleep1","type":"ChangeNPCStatDutyAction","name":{"zh":"HareSleep1","en":"HareSleep1","ja":"HareSleep1"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Hare_Sleep1","name":{"zh":"\u7761\u89C9","en":"Hare Sleep 1","ja":"Hare Sleep 1"},"_uuid":"976ea3e88dcc2bf418991c34c6da6353"}
+
+{
+  "DutyName" : {
+    "zh" : "\u7761\u89C9",
+    "en" : "Hare Sleep 1",
+    "ja" : "Hare Sleep 1"
+  },
+  "ValidTimesOfDay" : [
+    {
+      "TimeType" : 0,
+      "CompareType" : 0,
+      "StartValue"  : 12,
+      "EndValue"    : 16
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_HidingArea",
+        "type" : "CardTag",
+        "count" : 25,
+        "name"  : {
+          "zh" : "\u85CF\u8EAB\u5904",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "HareSleep1",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "HareSleep1",
+        "en" : "HareSleep1",
+        "ja" : "HareSleep1"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Hare_Sleep1",
+  "name"                 : {
+    "zh" : "\u7761\u89C9",
+    "en" : "Hare Sleep 1",
+    "ja" : "Hare Sleep 1"
+  },
+  "_uuid"                : "976ea3e88dcc2bf418991c34c6da6353"
+}

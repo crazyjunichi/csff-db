@@ -1,1 +1,135 @@
-{"key":"MudDiggingAction","type":"ActionTag","name":{"zh":"\u6316\u6CE5\u52A8\u4F5C","en":"MudDiggingAction","ja":"MudDiggingAction"},"_actions":[{"source":{"key":"FrozenRiver","type":"CardData","CardType":2,"icon":"4addf2c7f30ab013","name":{"zh":"\u4E0A\u51BB\u7684\u6CB3\u6D41","en":"Frozen River","ja":"\u51CD\u3063\u305F\u5DDD"}},"text":"\u6316\u6CE5\u5DF4","time":1.0},{"source":{"key":"RiverBog","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"text":"\u6316\u6CE5\u5DF4","time":1.0},{"source":{"key":"RiverLake","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Lake","en":"River Lake","ja":"River Lake"}},"text":"\u6316\u6CE5\u5DF4","time":1.0},{"source":{"key":"RiverMarsh","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"text":"\u6316\u6CE5\u5DF4","time":1.0},{"source":{"key":"RiverMire","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"text":"\u6316\u6CE5\u5DF4","time":1.0}],"count":5,"templateCard":{"SpecialDurability1":{"Active":true,"MaxValue":10000.0,"durabilityKey":"SpecialDurability1","CardStatName":{"zh":"\u5E38\u89C1\u9C7C\u7C7B\u79CD\u7FA4","en":"Common Fish Population","ja":"\u30B3\u30E2\u30F3\u306A\u9B5A\u306E\u6570"}},"SpecialDurability2":{"Active":true,"MaxValue":3000.0,"durabilityKey":"SpecialDurability2","CardStatName":{"zh":"\u7F55\u89C1\u9C7C\u7C7B\u79CD\u7FA4\u6570\u91CF","en":"Uncommon Fish Population","ja":"\u30A2\u30F3\u30B3\u30E2\u30F3\u306A\u9B5A\u306E\u6570"}},"SpecialDurability3":{"Active":true,"MaxValue":1000.0,"durabilityKey":"SpecialDurability3","CardStatName":{"zh":"\u73CD\u7A00\u9C7C\u7C7B\u79CD\u7FA4\u6570\u91CF","en":"Rare Fish Population","ja":"\u30EC\u30A2\u306A\u9B5A\u306E\u6570"}},"SpecialDurability4":{"Active":true,"MaxValue":1000.0,"durabilityKey":"SpecialDurability4","CardStatName":{"zh":"\u6CB3\u6D41\u7C7B\u578B","en":"River Type","ja":"\u5DDD\u7A2E\u5225"}},"Progress":{"Active":true,"MaxValue":1.0,"durabilityKey":"Progress"}}}
+
+{
+  "key" : "MudDiggingAction",
+  "type" : "ActionTag",
+  "name" : {
+    "zh" : "\u6316\u6CE5\u52A8\u4F5C",
+    "en" : "MudDiggingAction",
+    "ja" : "MudDiggingAction"
+  },
+  "_actions" : [
+    {
+      "source" : {
+        "key" : "FrozenRiver",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__FrozenRiver__CardImage",
+        "name"     : {
+          "zh" : "\u4E0A\u51BB\u7684\u6CB3\u6D41",
+          "en" : "Frozen River",
+          "ja" : "\u51CD\u3063\u305F\u5DDD"
+        }
+      },
+      "text"   : "\u6316\u6CE5\u5DF4",
+      "time"   : 1.0
+    },
+    {
+      "source" : {
+        "key" : "RiverBog",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "text"   : "\u6316\u6CE5\u5DF4",
+      "time"   : 1.0
+    },
+    {
+      "source" : {
+        "key" : "RiverLake",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Lake",
+          "en" : "River Lake",
+          "ja" : "River Lake"
+        }
+      },
+      "text"   : "\u6316\u6CE5\u5DF4",
+      "time"   : 1.0
+    },
+    {
+      "source" : {
+        "key" : "RiverMarsh",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "text"   : "\u6316\u6CE5\u5DF4",
+      "time"   : 1.0
+    },
+    {
+      "source" : {
+        "key" : "RiverMire",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "text"   : "\u6316\u6CE5\u5DF4",
+      "time"   : 1.0
+    }
+  ],
+  "count"    : 5,
+  "templateCard" : {
+    "SpecialDurability1" : {
+      "Active" : true,
+      "MaxValue" : 10000.0,
+      "durabilityKey" : "SpecialDurability1",
+      "CardStatName"  : {
+        "zh" : "\u5E38\u89C1\u9C7C\u7C7B\u79CD\u7FA4",
+        "en" : "Common Fish Population",
+        "ja" : "\u30B3\u30E2\u30F3\u306A\u9B5A\u306E\u6570"
+      }
+    },
+    "SpecialDurability2" : {
+      "Active" : true,
+      "MaxValue" : 3000.0,
+      "durabilityKey" : "SpecialDurability2",
+      "CardStatName"  : {
+        "zh" : "\u7F55\u89C1\u9C7C\u7C7B\u79CD\u7FA4\u6570\u91CF",
+        "en" : "Uncommon Fish Population",
+        "ja" : "\u30A2\u30F3\u30B3\u30E2\u30F3\u306A\u9B5A\u306E\u6570"
+      }
+    },
+    "SpecialDurability3" : {
+      "Active" : true,
+      "MaxValue" : 1000.0,
+      "durabilityKey" : "SpecialDurability3",
+      "CardStatName"  : {
+        "zh" : "\u73CD\u7A00\u9C7C\u7C7B\u79CD\u7FA4\u6570\u91CF",
+        "en" : "Rare Fish Population",
+        "ja" : "\u30EC\u30A2\u306A\u9B5A\u306E\u6570"
+      }
+    },
+    "SpecialDurability4" : {
+      "Active" : true,
+      "MaxValue" : 1000.0,
+      "durabilityKey" : "SpecialDurability4",
+      "CardStatName"  : {
+        "zh" : "\u6CB3\u6D41\u7C7B\u578B",
+        "en" : "River Type",
+        "ja" : "\u5DDD\u7A2E\u5225"
+      }
+    },
+    "Progress"           : {
+      "Active" : true,
+      "MaxValue" : 1.0,
+      "durabilityKey" : "Progress"
+    }
+  }
+}

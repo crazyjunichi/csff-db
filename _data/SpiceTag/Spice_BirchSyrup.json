@@ -1,1 +1,214 @@
-{"SpiceName":{"zh":"\u767D\u6866\u7CD6\u6D46","en":"Birch Syrup","ja":"\u30B7\u30E9\u30AB\u30D0\u306E\u30B7\u30ED\u30C3\u30D7"},"AddedFlavours":[{"Flavour":{"key":"Sweet","type":"FlavourTag","name":{"zh":"\u751C\u5473","en":"Sweet","ja":"\u7518\u3044"}},"Intensity":1},{"Flavour":{"key":"Earthy","type":"FlavourTag","name":{"zh":"\u571F\u5473","en":"Earthy","ja":"\u7D20\u6734"}},"Intensity":0},{"Flavour":{"key":"Fruity","type":"FlavourTag","name":{"zh":"\u679C\u9999","en":"Fruity","ja":"\u30D5\u30EB\u30FC\u30C6\u30A3"}},"Intensity":2},{"Flavour":{"key":"Bitter","type":"FlavourTag","name":{"zh":"\u82E6\u5473","en":"Bitter","ja":"\u82E6\u3044"}},"Intensity":2}],"AddedStatModifiers":[{"Stat":{"key":"Calories_Stomach","type":"GameStat","icon":"5392c9b69c0e62e6","min":0.0,"max":200.0,"name":{"zh":"\u80C3\u90E8","en":"Stomach","ja":"\u304A\u8179"}},"ValueModifier":{"x":5.0,"y":5.0}},{"Stat":{"key":"SaturationSugar","type":"GameStat","icon":"1bcf74ba15622258","min":0.0,"max":288.0,"name":{"zh":"\u7CD6\u538C\u5026\u5EA6","en":"Sugar Saturation","ja":"\u7802\u7CD6\u306E\u98FD\u304D"}},"ValueModifier":{"x":9.0,"y":9.0}}],"type":"SpiceTag","key":"Spice_BirchSyrup","name":{"zh":"\u767D\u6866\u7CD6\u6D46","en":"Birch Syrup","ja":"\u30B7\u30E9\u30AB\u30D0\u306E\u30B7\u30ED\u30C3\u30D7"},"_sources":[{"source":{"key":"LQ_BillberrySyrup","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u8D8A\u6A58\u7CD6\u6D46","en":"Billberry Syrup","ja":"\u30D3\u30EB\u30D9\u30EA\u30FC\u306E\u30B7\u30ED\u30C3\u30D7"}},"description":{"zh":"\u81EA\u5E26\u8C03\u5473","en":"Default Spice","ja":"\u30C7\u30D5\u30A9\u30EB\u30C8\u30B9\u30D1\u30A4\u30B9"}},{"source":{"key":"LQ_BirchSyrup","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u767D\u6866\u7CD6\u6D46","en":"Birch Syrup","ja":"\u30B7\u30E9\u30AB\u30D0\u306E\u30B7\u30ED\u30C3\u30D7"}},"description":{"zh":"\u81EA\u5E26\u8C03\u5473","en":"Default Spice","ja":"\u30C7\u30D5\u30A9\u30EB\u30C8\u30B9\u30D1\u30A4\u30B9"}},{"source":{"key":"LQ_RyeSyrup","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u9ED1\u9EA6\u7CD6\u6D46","en":"Rye Syrup","ja":"\u30E9\u30A4\u9EA6\u30B7\u30ED\u30C3\u30D7"}},"description":{"zh":"\u81EA\u5E26\u8C03\u5473","en":"Default Spice","ja":"\u30C7\u30D5\u30A9\u30EB\u30C8\u30B9\u30D1\u30A4\u30B9"}},{"source":{"key":"LQ_SpringberrySyrup","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u6625\u8393\u7CD6\u6D46","en":"Springberry Syrup","ja":"\u30B9\u30D7\u30EA\u30F3\u30B0\u30D9\u30EA\u30FC\u30B7\u30ED\u30C3\u30D7"}},"description":{"zh":"\u81EA\u5E26\u8C03\u5473","en":"Default Spice","ja":"\u30C7\u30D5\u30A9\u30EB\u30C8\u30B9\u30D1\u30A4\u30B9"}},{"source":{"key":"LQ_WheatSyrup","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u5C0F\u9EA6\u7CD6\u6D46","en":"Wheat Syrup","ja":"\u5C0F\u9EA6\u30B7\u30ED\u30C3\u30D7"}},"description":{"zh":"\u81EA\u5E26\u8C03\u5473","en":"Default Spice","ja":"\u30C7\u30D5\u30A9\u30EB\u30C8\u30B9\u30D1\u30A4\u30B9"}},{"source":{"key":"LQ_BirchSyrup","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u767D\u6866\u7CD6\u6D46","en":"Birch Syrup","ja":"\u30B7\u30E9\u30AB\u30D0\u306E\u30B7\u30ED\u30C3\u30D7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6DFB\u52A0","en":"Action: Add","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5165\u308C\u308B"}}],"_uuid":"4a429542ce5019e479cebdb9115a55a3"}
+
+{
+  "SpiceName" : {
+    "zh" : "\u767D\u6866\u7CD6\u6D46",
+    "en" : "Birch Syrup",
+    "ja" : "\u30B7\u30E9\u30AB\u30D0\u306E\u30B7\u30ED\u30C3\u30D7"
+  },
+  "AddedFlavours" : [
+    {
+      "Flavour" : {
+        "key" : "Sweet",
+        "type" : "FlavourTag",
+        "name" : {
+          "zh" : "\u751C\u5473",
+          "en" : "Sweet",
+          "ja" : "\u7518\u3044"
+        }
+      },
+      "Intensity" : 1
+    },
+    {
+      "Flavour" : {
+        "key" : "Earthy",
+        "type" : "FlavourTag",
+        "name" : {
+          "zh" : "\u571F\u5473",
+          "en" : "Earthy",
+          "ja" : "\u7D20\u6734"
+        }
+      },
+      "Intensity" : 0
+    },
+    {
+      "Flavour" : {
+        "key" : "Fruity",
+        "type" : "FlavourTag",
+        "name" : {
+          "zh" : "\u679C\u9999",
+          "en" : "Fruity",
+          "ja" : "\u30D5\u30EB\u30FC\u30C6\u30A3"
+        }
+      },
+      "Intensity" : 2
+    },
+    {
+      "Flavour" : {
+        "key" : "Bitter",
+        "type" : "FlavourTag",
+        "name" : {
+          "zh" : "\u82E6\u5473",
+          "en" : "Bitter",
+          "ja" : "\u82E6\u3044"
+        }
+      },
+      "Intensity" : 2
+    }
+  ],
+  "AddedStatModifiers" : [
+    {
+      "Stat" : {
+        "key" : "Calories_Stomach",
+        "type" : "GameStat",
+        "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 200.0,
+        "name" : {
+          "zh" : "\u80C3\u90E8",
+          "en" : "Stomach",
+          "ja" : "\u304A\u8179"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "SaturationSugar",
+        "type" : "GameStat",
+        "icon" : "CardData__FairyweedPowder__CardImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u7CD6\u538C\u5026\u5EA6",
+          "en" : "Sugar Saturation",
+          "ja" : "\u7802\u7CD6\u306E\u98FD\u304D"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 9.0,
+        "y" : 9.0
+      }
+    }
+  ],
+  "type"               : "SpiceTag",
+  "key"                : "Spice_BirchSyrup",
+  "name"               : {
+    "zh" : "\u767D\u6866\u7CD6\u6D46",
+    "en" : "Birch Syrup",
+    "ja" : "\u30B7\u30E9\u30AB\u30D0\u306E\u30B7\u30ED\u30C3\u30D7"
+  },
+  "_sources"           : [
+    {
+      "source" : {
+        "key" : "LQ_BillberrySyrup",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u8D8A\u6A58\u7CD6\u6D46",
+          "en" : "Billberry Syrup",
+          "ja" : "\u30D3\u30EB\u30D9\u30EA\u30FC\u306E\u30B7\u30ED\u30C3\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u81EA\u5E26\u8C03\u5473",
+        "en" : "Default Spice",
+        "ja" : "\u30C7\u30D5\u30A9\u30EB\u30C8\u30B9\u30D1\u30A4\u30B9"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_BirchSyrup",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u767D\u6866\u7CD6\u6D46",
+          "en" : "Birch Syrup",
+          "ja" : "\u30B7\u30E9\u30AB\u30D0\u306E\u30B7\u30ED\u30C3\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u81EA\u5E26\u8C03\u5473",
+        "en" : "Default Spice",
+        "ja" : "\u30C7\u30D5\u30A9\u30EB\u30C8\u30B9\u30D1\u30A4\u30B9"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_RyeSyrup",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u9ED1\u9EA6\u7CD6\u6D46",
+          "en" : "Rye Syrup",
+          "ja" : "\u30E9\u30A4\u9EA6\u30B7\u30ED\u30C3\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u81EA\u5E26\u8C03\u5473",
+        "en" : "Default Spice",
+        "ja" : "\u30C7\u30D5\u30A9\u30EB\u30C8\u30B9\u30D1\u30A4\u30B9"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_SpringberrySyrup",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u6625\u8393\u7CD6\u6D46",
+          "en" : "Springberry Syrup",
+          "ja" : "\u30B9\u30D7\u30EA\u30F3\u30B0\u30D9\u30EA\u30FC\u30B7\u30ED\u30C3\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u81EA\u5E26\u8C03\u5473",
+        "en" : "Default Spice",
+        "ja" : "\u30C7\u30D5\u30A9\u30EB\u30C8\u30B9\u30D1\u30A4\u30B9"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_WheatSyrup",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u5C0F\u9EA6\u7CD6\u6D46",
+          "en" : "Wheat Syrup",
+          "ja" : "\u5C0F\u9EA6\u30B7\u30ED\u30C3\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u81EA\u5E26\u8C03\u5473",
+        "en" : "Default Spice",
+        "ja" : "\u30C7\u30D5\u30A9\u30EB\u30C8\u30B9\u30D1\u30A4\u30B9"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_BirchSyrup",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u767D\u6866\u7CD6\u6D46",
+          "en" : "Birch Syrup",
+          "ja" : "\u30B7\u30E9\u30AB\u30D0\u306E\u30B7\u30ED\u30C3\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6DFB\u52A0",
+        "en" : "Action: Add",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5165\u308C\u308B"
+      }
+    }
+  ],
+  "_uuid"              : "4a429542ce5019e479cebdb9115a55a3"
+}

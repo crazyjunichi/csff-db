@@ -1,1 +1,79 @@
-{"ObjectiveDescription":{"zh":"\u7761\u5728\u7A9D\u91CC","en":"Sheltered Sleep","ja":"\u5B89\u5FC3\u3057\u3066\u5BDD\u308B"},"NotificationSettings":{"Frequency":2,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u89E3\u9501","en":"Unlocked","ja":"\u30A2\u30F3\u30ED\u30C3\u30AF\u6E08\u307F"},"DaytimeCost":0,"UseMiniTicks":0,"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"CardsOnBoardObjectives":[{"Card":{"key":"ImprovisedShelter","type":"CardData","CardType":2,"icon":"9c01e51aff3d7a19","name":{"zh":"\u4E34\u65F6\u5E87\u62A4\u6240","en":"Improvised Shelter","ja":"\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC"}},"Quantity":1,"ObjectiveName":"1","CompletionWeight":1}],"StatsObjectives":[{"StatCondition":{"Stat":{"key":"IsNight","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u591C\u665A","en":"IsNight","ja":"\u591C\u3060"}},"TriggerRange":{"x":1.0,"y":1.0}},"ConstantlyChecking":true,"ObjectiveName":"2","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":2,"type":"Objective","key":"ShelteredSleep_DisplayConditions","name":{"zh":"\u7761\u5728\u7A9D\u91CC","en":"Sheltered Sleep","ja":"\u5B89\u5FC3\u3057\u3066\u5BDD\u308B"},"_uuid":"62e3611d3709eda4d92f09c26e8f8931"}
+
+{
+  "ObjectiveDescription" : {
+    "zh" : "\u7761\u5728\u7A9D\u91CC",
+    "en" : "Sheltered Sleep",
+    "ja" : "\u5B89\u5FC3\u3057\u3066\u5BDD\u308B"
+  },
+  "NotificationSettings" : {
+    "Frequency" : 2,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u89E3\u9501",
+        "en" : "Unlocked",
+        "ja" : "\u30A2\u30F3\u30ED\u30C3\u30AF\u6E08\u307F"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "FadeToBlack"  : 0,
+      "RoomDirection" : 0,
+      "ExitDirection" : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "CardsOnBoardObjectives" : [
+    {
+      "Card" : {
+        "key" : "ImprovisedShelter",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_ImprovisedShelter__CardImage",
+        "name"     : {
+          "zh" : "\u4E34\u65F6\u5E87\u62A4\u6240",
+          "en" : "Improvised Shelter",
+          "ja" : "\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC"
+        }
+      },
+      "Quantity" : 1,
+      "ObjectiveName" : "1",
+      "CompletionWeight" : 1
+    }
+  ],
+  "StatsObjectives"        : [
+    {
+      "StatCondition" : {
+        "Stat" : {
+          "key" : "IsNight",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u591C\u665A",
+            "en" : "IsNight",
+            "ja" : "\u591C\u3060"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      "ConstantlyChecking" : true,
+      "ObjectiveName"      : "2",
+      "CompletionWeight"   : 1
+    }
+  ],
+  "NotifyWhenNotChecked"   : true,
+  "CheckingNotificationDetails" : 2,
+  "type"                        : "Objective",
+  "key"                         : "ShelteredSleep_DisplayConditions",
+  "name"                        : {
+    "zh" : "\u7761\u5728\u7A9D\u91CC",
+    "en" : "Sheltered Sleep",
+    "ja" : "\u5B89\u5FC3\u3057\u3066\u5BDD\u308B"
+  },
+  "_uuid"                       : "62e3611d3709eda4d92f09c26e8f8931"
+}

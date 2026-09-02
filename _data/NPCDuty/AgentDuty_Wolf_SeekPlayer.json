@@ -1,1 +1,68 @@
-{"DutyName":{"zh":"\u5BFB\u627E\u73A9\u5BB6","en":"Wolf Seek Player","ja":"Wolf Seek Player"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":25.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfSeekPlayerMove","type":"MoveDutyAction","name":{"zh":"WolfSeekPlayerMove","en":"WolfSeekPlayerMove","ja":"WolfSeekPlayerMove"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Wolf_SeekPlayer","name":{"zh":"\u5BFB\u627E\u73A9\u5BB6","en":"Wolf Seek Player","ja":"Wolf Seek Player"},"_uuid":"7f3f53471c90ac04ba0056ff3e914930"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5BFB\u627E\u73A9\u5BB6",
+    "en" : "Wolf Seek Player",
+    "ja" : "Wolf Seek Player"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 25.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "WolfSeekPlayerMove",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "WolfSeekPlayerMove",
+        "en" : "WolfSeekPlayerMove",
+        "ja" : "WolfSeekPlayerMove"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Wolf_SeekPlayer",
+  "name"                 : {
+    "zh" : "\u5BFB\u627E\u73A9\u5BB6",
+    "en" : "Wolf Seek Player",
+    "ja" : "Wolf Seek Player"
+  },
+  "_uuid"                : "7f3f53471c90ac04ba0056ff3e914930"
+}

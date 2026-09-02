@@ -1,1 +1,158 @@
-{"GameName":{"zh":"\u80A9\u5BBD","en":"Shoulder Width","ja":"Shoulder Width"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":0.0,"Statuses":[{"GameName":{"zh":"\u6709\u8F83\u7A84\u7684\u80A9\u8180\u3002","en":"Has narrow shoulders.","ja":"Has narrow shoulders."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":0,"m_Y":20}},{"GameName":{"zh":"\u6709\u4E00\u822C\u5927\u5C0F\u7684\u80A9\u8180\u3002","en":"Has medium-sized shoulders.","ja":"Has medium-sized shoulders."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":21,"m_Y":60}},{"GameName":{"zh":"\u6709\u5BBD\u5E7F\u7684\u80A9\u8180\u3002","en":"Has broad shoulders.","ja":"Has broad shoulders."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":61,"m_Y":80},"EffectsOnStats":[{"Stat":{"key":"LikesMaleTraits","type":"GameStat","icon":"12ddd58e0e6a1a87","min":-200.0,"max":200.0,"name":{"zh":"\u6027\u53D6\u5411\u7537","en":"Likes Male Traits","ja":"Likes Male Traits"}},"ValueModifier":{"x":20.0,"y":20.0}},{"Stat":{"key":"DislikesMaleTraits","type":"GameStat","icon":"12ddd58e0e6a1a87","min":-200.0,"max":200.0,"name":{"zh":"\u538C\u6076\u7537\u6027","en":"Dislikes Male Traits","ja":"Dislikes Male Traits"}},"ValueModifier":{"x":20.0,"y":20.0}}]},{"GameName":{"zh":"\u6709\u5341\u5206\u5BBD\u5E7F\u7684\u80A9\u8180\u3002","en":"Has very broad shoulders.","ja":"Has very broad shoulders."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":81,"m_Y":100},"EffectsOnStats":[{"Stat":{"key":"LikesMaleTraits","type":"GameStat","icon":"12ddd58e0e6a1a87","min":-200.0,"max":200.0,"name":{"zh":"\u6027\u53D6\u5411\u7537","en":"Likes Male Traits","ja":"Likes Male Traits"}},"ValueModifier":{"x":40.0,"y":40.0}},{"Stat":{"key":"DislikesMaleTraits","type":"GameStat","icon":"12ddd58e0e6a1a87","min":-200.0,"max":200.0,"name":{"zh":"\u538C\u6076\u7537\u6027","en":"Dislikes Male Traits","ja":"Dislikes Male Traits"}},"ValueModifier":{"x":40.0,"y":40.0}}]}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"type":"NPCStat","key":"Partner_ShoulderWidth","name":{"zh":"\u80A9\u5BBD","en":"Partner_ShoulderWidth","ja":"Partner_ShoulderWidth"},"_uuid":"6c8ab2a3c73ee684eaeaeb806efb48aa"}
+
+{
+  "GameName" : {
+    "zh" : "\u80A9\u5BBD",
+    "en" : "Shoulder Width",
+    "ja" : "Shoulder Width"
+  },
+  "DefaultStartingValue" : 0.0,
+  "DefaultMinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 100.0
+  },
+  "DefaultRate"          : 0.0,
+  "Statuses"             : [
+    {
+      "GameName" : {
+        "zh" : "\u6709\u8F83\u7A84\u7684\u80A9\u8180\u3002",
+        "en" : "Has narrow shoulders.",
+        "ja" : "Has narrow shoulders."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 0,
+        "m_Y" : 20
+      }
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6709\u4E00\u822C\u5927\u5C0F\u7684\u80A9\u8180\u3002",
+        "en" : "Has medium-sized shoulders.",
+        "ja" : "Has medium-sized shoulders."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 21,
+        "m_Y" : 60
+      }
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6709\u5BBD\u5E7F\u7684\u80A9\u8180\u3002",
+        "en" : "Has broad shoulders.",
+        "ja" : "Has broad shoulders."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 61,
+        "m_Y" : 80
+      },
+      "EffectsOnStats"  : [
+        {
+          "Stat" : {
+            "key" : "LikesMaleTraits",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : -200.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u6027\u53D6\u5411\u7537",
+              "en" : "Likes Male Traits",
+              "ja" : "Likes Male Traits"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 20.0,
+            "y" : 20.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "DislikesMaleTraits",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : -200.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u538C\u6076\u7537\u6027",
+              "en" : "Dislikes Male Traits",
+              "ja" : "Dislikes Male Traits"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 20.0,
+            "y" : 20.0
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6709\u5341\u5206\u5BBD\u5E7F\u7684\u80A9\u8180\u3002",
+        "en" : "Has very broad shoulders.",
+        "ja" : "Has very broad shoulders."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 81,
+        "m_Y" : 100
+      },
+      "EffectsOnStats"  : [
+        {
+          "Stat" : {
+            "key" : "LikesMaleTraits",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : -200.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u6027\u53D6\u5411\u7537",
+              "en" : "Likes Male Traits",
+              "ja" : "Likes Male Traits"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 40.0,
+            "y" : 40.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "DislikesMaleTraits",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : -200.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u538C\u6076\u7537\u6027",
+              "en" : "Dislikes Male Traits",
+              "ja" : "Dislikes Male Traits"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 40.0,
+            "y" : 40.0
+          }
+        }
+      ]
+    }
+  ],
+  "HidingOptions"        : 0,
+  "TextDisplay"          : 0,
+  "NumberPrecision"      : 0,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "type"                    : "NPCStat",
+  "key"                     : "Partner_ShoulderWidth",
+  "name"                    : {
+    "zh" : "\u80A9\u5BBD",
+    "en" : "Partner_ShoulderWidth",
+    "ja" : "Partner_ShoulderWidth"
+  },
+  "_uuid"                   : "6c8ab2a3c73ee684eaeaeb806efb48aa"
+}

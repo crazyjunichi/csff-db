@@ -1,1 +1,142 @@
-{"ObjectiveDescription":{"zh":"\u72E9\u730E\u5927\u578B\u52A8\u7269","en":"Big Game Hunting","ja":"\u5927\u7269\u72E9\u308A"},"NotificationSettings":{"Frequency":1,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"Completed","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Huntsman2_BigGameHunting_Completed_Event","type":"CardData","CardType":3,"icon":"279ede0c6bdbd7d2","name":{"zh":"\u72E9\u730E\u5927\u578B\u52A8\u7269","en":"Big Game Hunting","ja":"\u5927\u7269\u72E9\u308A"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"NestedObjectives":[{"ObjectiveCondition":{"key":"Huntsman2_BigGameHunting_Obj1_MakeAFlintSpear","type":"Objective","name":{"zh":"\u5236\u4F5C\u71E7\u77F3\u957F\u77DB","en":"Make a Flint Spear","ja":"\u706B\u6253\u77F3\u306E\u69CD\u3092\u4F5C\u308B"}},"ObjectiveName":"1","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_BigGameHunting_Obj2_ResearchAndCraftAButcheringMat","type":"Objective","name":{"zh":"\u7814\u7A76\u5E76\u5236\u4F5C\u4E00\u4E2A\u5C60\u5BB0\u57AB","en":"Research & Craft a Butchering Mat","ja":"\u89E3\u4F53\u53F0\u3092\u7814\u7A76\u3057\u3066\u4F5C\u308B"}},"ObjectiveName":"2","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_BigGameHunting_Obj3_BuildALogTrapToCatchDeer","type":"Objective","name":{"zh":"\u5236\u4F5C\u539F\u6728\u9677\u9631\u6293\u9E7F","en":"Build a Log Trap to catch Deer","ja":"\u9E7F\u3092\u6355\u3089\u3048\u308B\u4E38\u592A\u7F60\u3092\u4F5C\u308B"}},"ObjectiveName":"3","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_BigGameHunting_Obj4_HuntAMediumOrLargerAnimal","type":"Objective","name":{"zh":"\u730E\u6740\u4E00\u5934\u4E2D\u5927\u578B\u52A8\u7269","en":"Hunt a Medium or Larger Animal","ja":"\u4E2D\u578B\u4EE5\u4E0A\u306E\u52D5\u7269\u3092\u72E9\u308B"}},"ObjectiveName":"4","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_BigGameHunting_Obj5_HarvestSomeBloodInAContainer","type":"Objective","name":{"zh":"\u5728\u5BB9\u5668\u4E2D\u6536\u96C6\u8840\u6DB2","en":"Harvest some Blood in a Container","ja":"\u5BB9\u5668\u306B\u8840\u3092\u63A1\u308B"}},"ObjectiveName":"5","CompletionWeight":1},{"ObjectiveCondition":{"key":"Huntsman2_BigGameHunting_Obj6_MakeSomeSausagesWithCleanedIntestines","type":"Objective","name":{"zh":"\u7528\u5E72\u51C0\u7684\u80A0\u5B50\u5236\u4F5C\u4E00\u4E9B\u9999\u80A0","en":"Make some Sausages with clean Intestines","ja":"\u6E05\u6F54\u306A\u8178\u3067\u30BD\u30FC\u30BB\u30FC\u30B8\u3092\u4F5C\u308B"}},"ObjectiveName":"6","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":0,"type":"Objective","key":"Huntsman2_BigGameHunting_Completed","name":{"zh":"\u72E9\u730E\u5927\u578B\u52A8\u7269","en":"Big Game Hunting","ja":"\u5927\u7269\u72E9\u308A"},"_uuid":"d5e76a53aeda10243907f4bc60e8cb91"}
+
+{
+  "ObjectiveDescription" : {
+    "zh" : "\u72E9\u730E\u5927\u578B\u52A8\u7269",
+    "en" : "Big Game Hunting",
+    "ja" : "\u5927\u7269\u72E9\u308A"
+  },
+  "NotificationSettings" : {
+    "Frequency" : 1,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ProducedCards" : [
+        {
+          "CollectionName" : "Completed",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Huntsman2_BigGameHunting_Completed_Event",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "GameStat__BeastAffinity__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u72E9\u730E\u5927\u578B\u52A8\u7269",
+                  "en" : "Big Game Hunting",
+                  "ja" : "\u5927\u7269\u72E9\u308A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "FadeToBlack"   : 0,
+      "RoomDirection" : 0,
+      "ExitDirection" : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "NestedObjectives"     : [
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_BigGameHunting_Obj1_MakeAFlintSpear",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u5236\u4F5C\u71E7\u77F3\u957F\u77DB",
+          "en" : "Make a Flint Spear",
+          "ja" : "\u706B\u6253\u77F3\u306E\u69CD\u3092\u4F5C\u308B"
+        }
+      },
+      "ObjectiveName"      : "1",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_BigGameHunting_Obj2_ResearchAndCraftAButcheringMat",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u7814\u7A76\u5E76\u5236\u4F5C\u4E00\u4E2A\u5C60\u5BB0\u57AB",
+          "en" : "Research & Craft a Butchering Mat",
+          "ja" : "\u89E3\u4F53\u53F0\u3092\u7814\u7A76\u3057\u3066\u4F5C\u308B"
+        }
+      },
+      "ObjectiveName"      : "2",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_BigGameHunting_Obj3_BuildALogTrapToCatchDeer",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u5236\u4F5C\u539F\u6728\u9677\u9631\u6293\u9E7F",
+          "en" : "Build a Log Trap to catch Deer",
+          "ja" : "\u9E7F\u3092\u6355\u3089\u3048\u308B\u4E38\u592A\u7F60\u3092\u4F5C\u308B"
+        }
+      },
+      "ObjectiveName"      : "3",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_BigGameHunting_Obj4_HuntAMediumOrLargerAnimal",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u730E\u6740\u4E00\u5934\u4E2D\u5927\u578B\u52A8\u7269",
+          "en" : "Hunt a Medium or Larger Animal",
+          "ja" : "\u4E2D\u578B\u4EE5\u4E0A\u306E\u52D5\u7269\u3092\u72E9\u308B"
+        }
+      },
+      "ObjectiveName"      : "4",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_BigGameHunting_Obj5_HarvestSomeBloodInAContainer",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u5728\u5BB9\u5668\u4E2D\u6536\u96C6\u8840\u6DB2",
+          "en" : "Harvest some Blood in a Container",
+          "ja" : "\u5BB9\u5668\u306B\u8840\u3092\u63A1\u308B"
+        }
+      },
+      "ObjectiveName"      : "5",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Huntsman2_BigGameHunting_Obj6_MakeSomeSausagesWithCleanedIntestines",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u7528\u5E72\u51C0\u7684\u80A0\u5B50\u5236\u4F5C\u4E00\u4E9B\u9999\u80A0",
+          "en" : "Make some Sausages with clean Intestines",
+          "ja" : "\u6E05\u6F54\u306A\u8178\u3067\u30BD\u30FC\u30BB\u30FC\u30B8\u3092\u4F5C\u308B"
+        }
+      },
+      "ObjectiveName"      : "6",
+      "CompletionWeight"   : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "Objective",
+  "key"                         : "Huntsman2_BigGameHunting_Completed",
+  "name"                        : {
+    "zh" : "\u72E9\u730E\u5927\u578B\u52A8\u7269",
+    "en" : "Big Game Hunting",
+    "ja" : "\u5927\u7269\u72E9\u308A"
+  },
+  "_uuid"                       : "d5e76a53aeda10243907f4bc60e8cb91"
+}

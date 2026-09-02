@@ -1,1 +1,50 @@
-{"NPCStatModifiers":[{"TargetStat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"ValueChange":{"x":6.0,"y":6.0}},{"TargetStat":{"key":"AgentStamina","type":"NPCStat","name":{"zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"}},"UseAssociatedAgent":true,"ValueChange":{"x":6.0,"y":6.0}}],"ChangeOverTicks":{"IntValue":1,"Active":true},"RequiredForSelectingDuty":true,"key":"HareSleep1","type":"NPCDutyAction","name":{"zh":"HareSleep1","en":"HareSleep1","ja":"HareSleep1"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "NPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "AgentWakefulness",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u6E05\u9192",
+          "en" : "AgentWakefulness",
+          "ja" : "AgentWakefulness"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 6.0,
+        "y" : 6.0
+      }
+    },
+    {
+      "TargetStat" : {
+        "key" : "AgentStamina",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "AgentStamina",
+          "ja" : "AgentStamina"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 6.0,
+        "y" : 6.0
+      }
+    }
+  ],
+  "ChangeOverTicks"  : {
+    "IntValue" : 1,
+    "Active"   : true
+  },
+  "RequiredForSelectingDuty" : true,
+  "key"                      : "HareSleep1",
+  "type"                     : "NPCDutyAction",
+  "name"                     : {
+    "zh" : "HareSleep1",
+    "en" : "HareSleep1",
+    "ja" : "HareSleep1"
+  },
+  "actionType"               : "ChangeNPCStatDutyAction"
+}

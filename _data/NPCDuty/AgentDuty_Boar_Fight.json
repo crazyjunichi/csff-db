@@ -1,1 +1,53 @@
-{"DutyName":{"zh":"\u6218\u6597","en":"Fight!","ja":"Fight!"},"MaxPerformPerDay":0,"DutyConditions":{"NotInBackground":true,"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":2,"ActionSequence":[{"key":"Fight player","type":"StartEncounterDutyAction","name":{"zh":"Fight player","en":"Fight player","ja":"Fight player"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Boar_Fight","name":{"zh":"\u6218\u6597","en":"Fight!","ja":"Fight!"},"_uuid":"5bef328a9bfd11544bd92262d77e5b56"}
+
+{
+  "DutyName" : {
+    "zh" : "\u6218\u6597",
+    "en" : "Fight!",
+    "ja" : "Fight!"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "NotInBackground" : true,
+    "PlayerUsesCard"  : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 2,
+  "ActionSequence"       : [
+    {
+      "key" : "Fight player",
+      "type" : "StartEncounterDutyAction",
+      "name" : {
+        "zh" : "Fight player",
+        "en" : "Fight player",
+        "ja" : "Fight player"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Boar_Fight",
+  "name"                 : {
+    "zh" : "\u6218\u6597",
+    "en" : "Fight!",
+    "ja" : "Fight!"
+  },
+  "_uuid"                : "5bef328a9bfd11544bd92262d77e5b56"
+}

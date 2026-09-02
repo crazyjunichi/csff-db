@@ -1,1 +1,51 @@
-{"MovementType":0,"MoveDestination":5,"DestinationSelection":0,"MoveToItems":[{"Target":{"key":"tag_HumanDrink","type":"CardTag","count":4,"name":{"zh":"\u4EBA\u7C7B\u996E\u6C34","en":"Human Drink","ja":"Human Drink"}}}],"Containers":{"CanLookInContainers":true},"CostRequirements":0,"MoveCosts":[{"TargetStat":{"key":"Partner_Weight","type":"NPCStat","name":{"zh":"\u4F53\u91CD","en":"Partner_Weight","ja":"Partner_Weight"}},"UseAssociatedAgent":true,"ValueChange":{"x":-43.0,"y":-43.0},"IgnoreNovelty":true}],"key":"Move to Water","type":"NPCDutyAction","name":{"zh":"Move to Water","en":"Move to Water","ja":"Move to Water"},"actionType":"MoveDutyAction"}
+
+{
+  "MovementType" : 0,
+  "MoveDestination" : 5,
+  "DestinationSelection" : 0,
+  "MoveToItems"          : [
+    {
+      "Target" : {
+        "key" : "tag_HumanDrink",
+        "type" : "CardTag",
+        "count" : 4,
+        "name"  : {
+          "zh" : "\u4EBA\u7C7B\u996E\u6C34",
+          "en" : "Human Drink",
+          "ja" : "Human Drink"
+        }
+      }
+    }
+  ],
+  "Containers"           : {
+    "CanLookInContainers" : true
+  },
+  "CostRequirements"     : 0,
+  "MoveCosts"            : [
+    {
+      "TargetStat" : {
+        "key" : "Partner_Weight",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Partner_Weight",
+          "ja" : "Partner_Weight"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : -43.0,
+        "y" : -43.0
+      },
+      "IgnoreNovelty"      : true
+    }
+  ],
+  "key"                  : "Move to Water",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Move to Water",
+    "en" : "Move to Water",
+    "ja" : "Move to Water"
+  },
+  "actionType"           : "MoveDutyAction"
+}

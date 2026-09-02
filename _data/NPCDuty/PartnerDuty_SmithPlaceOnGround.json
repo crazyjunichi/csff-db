@@ -1,1 +1,83 @@
-{"DutyName":{"zh":"\u953B\u9020\u653E\u7F6E\u5730\u9762","en":"Place on Ground","ja":"Place on Ground"},"DutySummary":{"zh":"Placing something on the ground.","en":"Placing something on the ground.","ja":"Placing something on the ground."},"DutyTags":[{"key":"DutyTag_Methodical","type":"NPCDutyTag","name":{"zh":"\u6709\u6761\u4E0D\u7D0A\u7684","en":"Methodical","ja":"Methodical"}},{"key":"DutyTag_Physical","type":"NPCDutyTag","name":{"zh":"\u4F53\u529B","en":"Physical","ja":"Physical"}},{"key":"DutyTag_Smith","type":"NPCDutyTag","name":{"zh":"\u953B\u9020","en":"Smith","ja":"Smith"}}],"MaxPerformPerDay":0,"DutyExecutionOptions":0,"ActionSequence":[{"key":"Smith","type":"AffectItemsDutyAction","name":{"zh":"Smith","en":"Smith","ja":"Smith"}},{"key":"Reduce favour","type":"ChangeNPCStatDutyAction","name":{"zh":"Reduce favour","en":"Reduce favour","ja":"Reduce favour"}},{"key":"Place on the Ground","type":"AffectItemsDutyAction","name":{"zh":"Place on the Ground","en":"Place on the Ground","ja":"Place on the Ground"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_SmithPlaceOnGround","name":{"zh":"\u953B\u9020\u653E\u7F6E\u5730\u9762","en":"Place on Ground","ja":"Place on Ground"},"_uuid":"46907493948f9d445aa6cad97c9756e6"}
+
+{
+  "DutyName" : {
+    "zh" : "\u953B\u9020\u653E\u7F6E\u5730\u9762",
+    "en" : "Place on Ground",
+    "ja" : "Place on Ground"
+  },
+  "DutySummary" : {
+    "zh" : "Placing something on the ground.",
+    "en" : "Placing something on the ground.",
+    "ja" : "Placing something on the ground."
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Methodical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u6709\u6761\u4E0D\u7D0A\u7684",
+        "en" : "Methodical",
+        "ja" : "Methodical"
+      }
+    },
+    {
+      "key" : "DutyTag_Physical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u4F53\u529B",
+        "en" : "Physical",
+        "ja" : "Physical"
+      }
+    },
+    {
+      "key" : "DutyTag_Smith",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u953B\u9020",
+        "en" : "Smith",
+        "ja" : "Smith"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Smith",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Smith",
+        "en" : "Smith",
+        "ja" : "Smith"
+      }
+    },
+    {
+      "key" : "Reduce favour",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Reduce favour",
+        "en" : "Reduce favour",
+        "ja" : "Reduce favour"
+      }
+    },
+    {
+      "key" : "Place on the Ground",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Place on the Ground",
+        "en" : "Place on the Ground",
+        "ja" : "Place on the Ground"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_SmithPlaceOnGround",
+  "name"                 : {
+    "zh" : "\u953B\u9020\u653E\u7F6E\u5730\u9762",
+    "en" : "Place on Ground",
+    "ja" : "Place on Ground"
+  },
+  "_uuid"                : "46907493948f9d445aa6cad97c9756e6"
+}

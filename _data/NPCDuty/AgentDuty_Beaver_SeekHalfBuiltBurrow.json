@@ -1,1 +1,65 @@
-{"DutyName":{"zh":"\u5BFB\u627E\u534A\u6210\u5DE2\u7A74","en":"Beaver Seek Half Built Burrow","ja":"Beaver Seek Half Built Burrow"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredCardsNOTOnBoard":[{"key":"LodgeBeaverHalfBuilt","type":"CardData","CardType":2,"icon":"c622d004cd20741b","name":{"zh":"\u534A\u6210\u578B\u6CB3\u72F8\u7A9D","en":"Half Built Beaver Lodge","ja":"Half Built Beaver Lodge"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"BeaverSeekHalfBuiltBurrow","type":"MoveDutyAction","name":{"zh":"BeaverSeekHalfBuiltBurrow","en":"BeaverSeekHalfBuiltBurrow","ja":"BeaverSeekHalfBuiltBurrow"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Beaver_SeekHalfBuiltBurrow","name":{"zh":"\u5BFB\u627E\u534A\u6210\u5DE2\u7A74","en":"Beaver Seek Half Built Burrow","ja":"Beaver Seek Half Built Burrow"},"_uuid":"0d95c6f42c5eceb4d99652635d9ededa"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5BFB\u627E\u534A\u6210\u5DE2\u7A74",
+    "en" : "Beaver Seek Half Built Burrow",
+    "ja" : "Beaver Seek Half Built Burrow"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsNOTOnBoard" : [
+      {
+        "key" : "LodgeBeaverHalfBuilt",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__DamBeaverHalfBuilt__CardImage",
+        "name"     : {
+          "zh" : "\u534A\u6210\u578B\u6CB3\u72F8\u7A9D",
+          "en" : "Half Built Beaver Lodge",
+          "ja" : "Half Built Beaver Lodge"
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "BeaverSeekHalfBuiltBurrow",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "BeaverSeekHalfBuiltBurrow",
+        "en" : "BeaverSeekHalfBuiltBurrow",
+        "ja" : "BeaverSeekHalfBuiltBurrow"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Beaver_SeekHalfBuiltBurrow",
+  "name"                 : {
+    "zh" : "\u5BFB\u627E\u534A\u6210\u5DE2\u7A74",
+    "en" : "Beaver Seek Half Built Burrow",
+    "ja" : "Beaver Seek Half Built Burrow"
+  },
+  "_uuid"                : "0d95c6f42c5eceb4d99652635d9ededa"
+}

@@ -1,1 +1,150 @@
-{"GameName":{"zh":"\u98DF\u6B32","en":"Agent Satiation","ja":"Agent Satiation"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":250.0},"DefaultRate":0.0,"Statuses":[{"GameName":{"zh":"\u98DF\u6B32\u4F4E","en":"Small","ja":"Small"},"Priority":0,"ValueRange":{"m_X":0,"m_Y":75},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Satiation","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u9971\u98DF","en":"Partner_Satiation","ja":"Partner_Satiation"}},"RateChange":{"MaxValue":-1.0,"FloatValue":-1.0,"Active":true}}]},{"GameName":{"zh":"\u98DF\u6B32\u5C1A\u53EF","en":"Medium","ja":"Medium"},"Priority":0,"ValueRange":{"m_X":76,"m_Y":125},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Satiation","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u9971\u98DF","en":"Partner_Satiation","ja":"Partner_Satiation"}},"RateChange":{"MaxValue":-1.5,"FloatValue":-1.5,"Active":true}}]},{"GameName":{"zh":"\u98DF\u6B32\u826F\u597D","en":"Large","ja":"Large"},"Priority":0,"ValueRange":{"m_X":126,"m_Y":200},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Satiation","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u9971\u98DF","en":"Partner_Satiation","ja":"Partner_Satiation"}},"RateChange":{"MaxValue":-2.0,"FloatValue":-2.0,"Active":true}}]},{"GameName":{"zh":"\u98DF\u6B32\u9AD8\u6DA8","en":"Huge","ja":"Huge"},"Priority":0,"ValueRange":{"m_X":201,"m_Y":250},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Satiation","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u9971\u98DF","en":"Partner_Satiation","ja":"Partner_Satiation"}},"RateChange":{"MaxValue":-3.0,"FloatValue":-3.0,"Active":true}}]}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"type":"NPCStat","key":"Partner_Appetite","name":{"zh":"\u98DF\u6B32","en":"Partner_Appetite","ja":"Partner_Appetite"},"_uuid":"35015746cc44a0e43ba3b53e308c0d58"}
+
+{
+  "GameName" : {
+    "zh" : "\u98DF\u6B32",
+    "en" : "Agent Satiation",
+    "ja" : "Agent Satiation"
+  },
+  "DefaultStartingValue" : 100.0,
+  "DefaultMinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 250.0
+  },
+  "DefaultRate"          : 0.0,
+  "Statuses"             : [
+    {
+      "GameName" : {
+        "zh" : "\u98DF\u6B32\u4F4E",
+        "en" : "Small",
+        "ja" : "Small"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 0,
+        "m_Y" : 75
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Satiation",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u540C\u4F34\u9971\u98DF",
+              "en" : "Partner_Satiation",
+              "ja" : "Partner_Satiation"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -1.0,
+            "FloatValue" : -1.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u98DF\u6B32\u5C1A\u53EF",
+        "en" : "Medium",
+        "ja" : "Medium"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 76,
+        "m_Y" : 125
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Satiation",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u540C\u4F34\u9971\u98DF",
+              "en" : "Partner_Satiation",
+              "ja" : "Partner_Satiation"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -1.5,
+            "FloatValue" : -1.5,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u98DF\u6B32\u826F\u597D",
+        "en" : "Large",
+        "ja" : "Large"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 126,
+        "m_Y" : 200
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Satiation",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u540C\u4F34\u9971\u98DF",
+              "en" : "Partner_Satiation",
+              "ja" : "Partner_Satiation"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -2.0,
+            "FloatValue" : -2.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u98DF\u6B32\u9AD8\u6DA8",
+        "en" : "Huge",
+        "ja" : "Huge"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 201,
+        "m_Y" : 250
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Satiation",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u540C\u4F34\u9971\u98DF",
+              "en" : "Partner_Satiation",
+              "ja" : "Partner_Satiation"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -3.0,
+            "FloatValue" : -3.0,
+            "Active"     : true
+          }
+        }
+      ]
+    }
+  ],
+  "HidingOptions"        : 0,
+  "TextDisplay"          : 0,
+  "NumberPrecision"      : 0,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "type"                    : "NPCStat",
+  "key"                     : "Partner_Appetite",
+  "name"                    : {
+    "zh" : "\u98DF\u6B32",
+    "en" : "Partner_Appetite",
+    "ja" : "Partner_Appetite"
+  },
+  "_uuid"                   : "35015746cc44a0e43ba3b53e308c0d58"
+}

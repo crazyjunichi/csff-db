@@ -1,1 +1,123 @@
-{"Line":{"zh":"\u4F60\u63A5\u8FD1\u4E86\u795E\u5723\u6A61\u6811\u3002\n\n\u4F60\u611F\u53D7\u5230\u4E86\u9762\u524D\u7684\u53E4\u8001\u5B58\u5728\u3002","en":"You approach the Sacred Oak.\n\nYou feel its ancient presence before you.","ja":"\u3042\u306A\u305F\u306F\u8056\u6A39\u30AA\u30FC\u30AF\u306E\u6728\u3078\u8FD1\u3065\u304F\u3002\n\n\u305D\u306E\u524D\u306B\u7ACB\u3064\u3060\u3051\u3067\u60A0\u4E45\u306E\u6C17\u914D\u304C\u808C\u3092\u64AB\u3067\u308B\u3002"},"OverrideSceneImage":{"FileName":"a579194321a1d644"},"ShowContinueButton":0,"PossibleAnswers":[{"Answer":{"zh":"\u79BB\u53BB","en":"Leave","ja":"\u51FA\u308B"},"NewNextLine":{"NextStep":2}},{"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Skill_Herbalism","type":"GameStat","icon":"dbd66ae4108b3861","min":0.0,"max":150.0,"name":{"zh":"\u836F\u8349\u5B66","en":"Herbalism","ja":"\u85AC\u8349\u5B66"}},"TriggerRange":{"x":50.0,"y":150.0}},{"Stat":{"key":"AlteredMindstate","type":"GameStat","icon":"b263b06e2851c14a","min":0.0,"max":300.0,"name":{"zh":"\u7CBE\u795E\u5931\u5E38","en":"Altered Mindstate","ja":"\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"}},"TriggerRange":{"x":150.0,"y":1000000000.0}},{"Stat":{"key":"EarthAffinity","type":"GameStat","icon":"dbd66ae4108b3861","min":0.0,"max":1000.0,"name":{"zh":"\u5927\u5730\u4EB2\u548C\u5EA6","en":"Earth Affinity","ja":"\u5730\u306E\u89AA\u548C\u6027"}},"TriggerRange":{"x":750.0,"y":1000000000.0}}]},"Answer":{"zh":"\u611F\u6069","en":"Give thanks","ja":"\u611F\u8B1D\u3092\u6367\u3052\u308B"},"NewNextLine":{"NextStep":0,"NextLine":{"key":"Insight","type":"DialogLine","name":{"zh":"\u795E\u5723\u6A61\u6811\u63A5\u7EB3\u4E86\u4F60\u7684\u8C22\u793C\u3002\n\n\u5B83\u589E\u957F\u4E86\u4F60\u7684\u7075\u89C6\u3002","en":"The Sacred Oak receives your thanks.\n\nIt grants you insight.","ja":"\u8056\u6A39\u30AA\u30FC\u30AF\u306E\u6728\u306F\u3042\u306A\u305F\u306E\u611F\u8B1D\u3092\u53D7\u3051\u5165\u308C\u308B\u3002\n\n\u9759\u304B\u306A\u5553\u793A\u3092\u6388\u3051\u3066\u304F\u308C\u305F\u3002"}}},"ActionToPerform":{"EncounterNPC":{"key":"Agent_Wolf","type":"NPCAgent","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC","en":"Wolf","ja":"\u72FC"}},"Ticks":0,"Miniticks":0}}],"type":"DialogLine","key":"SacredOakIntro","name":{"zh":"\u4F60\u63A5\u8FD1\u4E86\u795E\u5723\u6A61\u6811\u3002\n\n\u4F60\u611F\u53D7\u5230\u4E86\u9762\u524D\u7684\u53E4\u8001\u5B58\u5728\u3002","en":"You approach the Sacred Oak.\n\nYou feel its ancient presence before you.","ja":"\u3042\u306A\u305F\u306F\u8056\u6A39\u30AA\u30FC\u30AF\u306E\u6728\u3078\u8FD1\u3065\u304F\u3002\n\n\u305D\u306E\u524D\u306B\u7ACB\u3064\u3060\u3051\u3067\u60A0\u4E45\u306E\u6C17\u914D\u304C\u808C\u3092\u64AB\u3067\u308B\u3002"}}
+
+{
+  "Line" : {
+    "zh" : "\u4F60\u63A5\u8FD1\u4E86\u795E\u5723\u6A61\u6811\u3002\n\n\u4F60\u611F\u53D7\u5230\u4E86\u9762\u524D\u7684\u53E4\u8001\u5B58\u5728\u3002",
+    "en" : "You approach the Sacred Oak.\n\nYou feel its ancient presence before you.",
+    "ja" : "\u3042\u306A\u305F\u306F\u8056\u6A39\u30AA\u30FC\u30AF\u306E\u6728\u3078\u8FD1\u3065\u304F\u3002\n\n\u305D\u306E\u524D\u306B\u7ACB\u3064\u3060\u3051\u3067\u60A0\u4E45\u306E\u6C17\u914D\u304C\u808C\u3092\u64AB\u3067\u308B\u3002"
+  },
+  "OverrideSceneImage" : {
+    "FileName" : "CardData__GroveOak_SacredGrove__CardImage"
+  },
+  "ShowContinueButton" : 0,
+  "PossibleAnswers"    : [
+    {
+      "Answer" : {
+        "zh" : "\u79BB\u53BB",
+        "en" : "Leave",
+        "ja" : "\u51FA\u308B"
+      },
+      "NewNextLine" : {
+        "NextStep" : 2
+      }
+    },
+    {
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Skill_Herbalism",
+              "type" : "GameStat",
+              "icon" : "CardData__Caves_FmOvergrownTunnel__Progress-OverrideIcon",
+              "min"  : 0.0,
+              "max"  : 150.0,
+              "name" : {
+                "zh" : "\u836F\u8349\u5B66",
+                "en" : "Herbalism",
+                "ja" : "\u85AC\u8349\u5B66"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 50.0,
+              "y" : 150.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "AlteredMindstate",
+              "type" : "GameStat",
+              "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 300.0,
+              "name" : {
+                "zh" : "\u7CBE\u795E\u5931\u5E38",
+                "en" : "Altered Mindstate",
+                "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 150.0,
+              "y" : 1000000000.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "EarthAffinity",
+              "type" : "GameStat",
+              "icon" : "CardData__Caves_FmOvergrownTunnel__Progress-OverrideIcon",
+              "min"  : 0.0,
+              "max"  : 1000.0,
+              "name" : {
+                "zh" : "\u5927\u5730\u4EB2\u548C\u5EA6",
+                "en" : "Earth Affinity",
+                "ja" : "\u5730\u306E\u89AA\u548C\u6027"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 750.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "Answer"     : {
+        "zh" : "\u611F\u6069",
+        "en" : "Give thanks",
+        "ja" : "\u611F\u8B1D\u3092\u6367\u3052\u308B"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Insight",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "\u795E\u5723\u6A61\u6811\u63A5\u7EB3\u4E86\u4F60\u7684\u8C22\u793C\u3002\n\n\u5B83\u589E\u957F\u4E86\u4F60\u7684\u7075\u89C6\u3002",
+            "en" : "The Sacred Oak receives your thanks.\n\nIt grants you insight.",
+            "ja" : "\u8056\u6A39\u30AA\u30FC\u30AF\u306E\u6728\u306F\u3042\u306A\u305F\u306E\u611F\u8B1D\u3092\u53D7\u3051\u5165\u308C\u308B\u3002\n\n\u9759\u304B\u306A\u5553\u793A\u3092\u6388\u3051\u3066\u304F\u308C\u305F\u3002"
+          }
+        }
+      },
+      "ActionToPerform" : {
+        "EncounterNPC" : {
+          "key" : "Agent_Wolf",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+          "name" : {
+            "zh" : "\u72FC",
+            "en" : "Wolf",
+            "ja" : "\u72FC"
+          }
+        },
+        "Ticks"        : 0,
+        "Miniticks"    : 0
+      }
+    }
+  ],
+  "type"               : "DialogLine",
+  "key"                : "SacredOakIntro",
+  "name"               : {
+    "zh" : "\u4F60\u63A5\u8FD1\u4E86\u795E\u5723\u6A61\u6811\u3002\n\n\u4F60\u611F\u53D7\u5230\u4E86\u9762\u524D\u7684\u53E4\u8001\u5B58\u5728\u3002",
+    "en" : "You approach the Sacred Oak.\n\nYou feel its ancient presence before you.",
+    "ja" : "\u3042\u306A\u305F\u306F\u8056\u6A39\u30AA\u30FC\u30AF\u306E\u6728\u3078\u8FD1\u3065\u304F\u3002\n\n\u305D\u306E\u524D\u306B\u7ACB\u3064\u3060\u3051\u3067\u60A0\u4E45\u306E\u6C17\u914D\u304C\u808C\u3092\u64AB\u3067\u308B\u3002"
+  }
+}

@@ -1,1 +1,92 @@
-{"DutyName":{"zh":"\u8131\u7C92","en":"Thresh Sheaves","ja":"Thresh Sheaves"},"DutySummary":{"zh":"Threshing grain from sheaves. ","en":"Threshing grain from sheaves. ","ja":"Threshing grain from sheaves. "},"DutyTags":[{"key":"DutyTag_Physical","type":"NPCDutyTag","name":{"zh":"\u4F53\u529B","en":"Physical","ja":"Physical"}}],"MaxPerformPerDay":0,"DutyExecutionOptions":0,"ActionSequence":[{"key":"Has Thresher","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Has Thresher","en":"Has Thresher","ja":"Has Thresher"}},{"key":"Thresh with Thresher","type":"AffectItemsDutyAction","name":{"zh":"Thresh with Thresher","en":"Thresh with Thresher","ja":"Thresh with Thresher"}},{"key":"Reduce Favour","type":"ChangeNPCStatDutyAction","name":{"zh":"Reduce Favour","en":"Reduce Favour","ja":"Reduce Favour"}},{"key":"Complete Duty","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Complete Duty","en":"Complete Duty","ja":"Complete Duty"}},{"key":"Tresh with Hands","type":"AffectItemsDutyAction","name":{"zh":"Tresh with Hands","en":"Tresh with Hands","ja":"Tresh with Hands"}},{"key":"Reduce Favour","type":"ChangeNPCStatDutyAction","name":{"zh":"Reduce Favour","en":"Reduce Favour","ja":"Reduce Favour"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_ThreshWheatOrRye","name":{"zh":"\u8131\u7C92","en":"Thresh Sheaves","ja":"Thresh Sheaves"},"_uuid":"f9571b6a70d7b584e8db9bb72010047d"}
+
+{
+  "DutyName" : {
+    "zh" : "\u8131\u7C92",
+    "en" : "Thresh Sheaves",
+    "ja" : "Thresh Sheaves"
+  },
+  "DutySummary" : {
+    "zh" : "Threshing grain from sheaves. ",
+    "en" : "Threshing grain from sheaves. ",
+    "ja" : "Threshing grain from sheaves. "
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Physical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u4F53\u529B",
+        "en" : "Physical",
+        "ja" : "Physical"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Has Thresher",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Has Thresher",
+        "en" : "Has Thresher",
+        "ja" : "Has Thresher"
+      }
+    },
+    {
+      "key" : "Thresh with Thresher",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Thresh with Thresher",
+        "en" : "Thresh with Thresher",
+        "ja" : "Thresh with Thresher"
+      }
+    },
+    {
+      "key" : "Reduce Favour",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour",
+        "en" : "Reduce Favour",
+        "ja" : "Reduce Favour"
+      }
+    },
+    {
+      "key" : "Complete Duty",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Complete Duty",
+        "en" : "Complete Duty",
+        "ja" : "Complete Duty"
+      }
+    },
+    {
+      "key" : "Tresh with Hands",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Tresh with Hands",
+        "en" : "Tresh with Hands",
+        "ja" : "Tresh with Hands"
+      }
+    },
+    {
+      "key" : "Reduce Favour",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour",
+        "en" : "Reduce Favour",
+        "ja" : "Reduce Favour"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_ThreshWheatOrRye",
+  "name"                 : {
+    "zh" : "\u8131\u7C92",
+    "en" : "Thresh Sheaves",
+    "ja" : "Thresh Sheaves"
+  },
+  "_uuid"                : "f9571b6a70d7b584e8db9bb72010047d"
+}

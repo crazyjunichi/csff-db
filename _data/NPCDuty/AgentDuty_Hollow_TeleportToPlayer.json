@@ -1,1 +1,75 @@
-{"DutyName":{"zh":"\u4F20\u9001\u81F3\u73A9\u5BB6","en":"Hollow teleport to player","ja":"Hollow teleport to player"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironment":{"key":"Env_HollowWorld","type":"CardData","CardType":4,"name":{"zh":"HollowWorld","en":"HollowWorld","ja":"HollowWorld"}},"RequiredStatValues":[{"Stat":{"key":"RandomCounter7Ticks","type":"GameStat","min":0.0,"max":7.0,"name":{"zh":"\u968F\u673A7\u523B\u8BA1\u6570","en":"RandomCounter7Ticks","ja":"RandomCounter7Ticks"}},"TriggerRange":{"x":1.0,"y":1.0}}],"RequiredInGameTimes":[{"TimeType":0,"CompareType":0,"StartValue":22,"EndValue":4}]},"RememberWhenInterrupted":{"IntValue":0,"Active":true},"DutyExecutionOptions":0,"ActionSequence":[{"key":"TeleportToPlayer","type":"MoveDutyAction","name":{"zh":"TeleportToPlayer","en":"TeleportToPlayer","ja":"TeleportToPlayer"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Hollow_TeleportToPlayer","name":{"zh":"\u4F20\u9001\u81F3\u73A9\u5BB6","en":"Hollow teleport to player","ja":"Hollow teleport to player"},"_uuid":"147b08a6add7d6e418811dbba93660a3"}
+
+{
+  "DutyName" : {
+    "zh" : "\u4F20\u9001\u81F3\u73A9\u5BB6",
+    "en" : "Hollow teleport to player",
+    "ja" : "Hollow teleport to player"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_HollowWorld",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "HollowWorld",
+        "en" : "HollowWorld",
+        "ja" : "HollowWorld"
+      }
+    },
+    "RequiredStatValues"  : [
+      {
+        "Stat" : {
+          "key" : "RandomCounter7Ticks",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 7.0,
+          "name" : {
+            "zh" : "\u968F\u673A7\u523B\u8BA1\u6570",
+            "en" : "RandomCounter7Ticks",
+            "ja" : "RandomCounter7Ticks"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "RequiredInGameTimes" : [
+      {
+        "TimeType" : 0,
+        "CompareType" : 0,
+        "StartValue"  : 22,
+        "EndValue"    : 4
+      }
+    ]
+  },
+  "RememberWhenInterrupted" : {
+    "IntValue" : 0,
+    "Active"   : true
+  },
+  "DutyExecutionOptions"    : 0,
+  "ActionSequence"          : [
+    {
+      "key" : "TeleportToPlayer",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "TeleportToPlayer",
+        "en" : "TeleportToPlayer",
+        "ja" : "TeleportToPlayer"
+      }
+    }
+  ],
+  "GiveUpOptions"           : 0,
+  "GiveUpTicks"             : 0,
+  "type"                    : "NPCDuty",
+  "key"                     : "AgentDuty_Hollow_TeleportToPlayer",
+  "name"                    : {
+    "zh" : "\u4F20\u9001\u81F3\u73A9\u5BB6",
+    "en" : "Hollow teleport to player",
+    "ja" : "Hollow teleport to player"
+  },
+  "_uuid"                   : "147b08a6add7d6e418811dbba93660a3"
+}

@@ -1,1 +1,72 @@
-{"DutyName":{"zh":"\u7761\u89C9","en":"Boar2 Sleep","ja":"Boar2 Sleep"},"ValidTimesOfDay":[{"TimeType":0,"CompareType":0,"StartValue":6,"EndValue":20}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_BoarSleepingArea2","type":"CardTag","count":1,"name":{"zh":"\u91CE\u732A\u4F11\u7720\u533A2","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"Boar2Sleep","type":"ChangeNPCStatDutyAction","name":{"zh":"Boar2Sleep","en":"Boar2Sleep","ja":"Boar2Sleep"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Boar_Sleep2","name":{"zh":"\u7761\u89C9","en":"Boar2 Sleep","ja":"Boar2 Sleep"},"_uuid":"f8540bce45a113c489e4907b019b512f"}
+
+{
+  "DutyName" : {
+    "zh" : "\u7761\u89C9",
+    "en" : "Boar2 Sleep",
+    "ja" : "Boar2 Sleep"
+  },
+  "ValidTimesOfDay" : [
+    {
+      "TimeType" : 0,
+      "CompareType" : 0,
+      "StartValue"  : 6,
+      "EndValue"    : 20
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_BoarSleepingArea2",
+        "type" : "CardTag",
+        "count" : 1,
+        "name"  : {
+          "zh" : "\u91CE\u732A\u4F11\u7720\u533A2",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Boar2Sleep",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Boar2Sleep",
+        "en" : "Boar2Sleep",
+        "ja" : "Boar2Sleep"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Boar_Sleep2",
+  "name"                 : {
+    "zh" : "\u7761\u89C9",
+    "en" : "Boar2 Sleep",
+    "ja" : "Boar2 Sleep"
+  },
+  "_uuid"                : "f8540bce45a113c489e4907b019b512f"
+}

@@ -1,1 +1,305 @@
-{"GameName":{"zh":"\u88C5\u5907\u72EC\u8F6E\u8F66","en":"Wheelbarrow Equiped","ja":"Wheelbarrow Equiped"},"Description":{"zh":"Active when Wheelbarrow is equiped. Causes traveling actions on the path to be faster. This is done through RoadTravelingAidEast and other similar stats. ","en":"Active when Wheelbarrow is equiped. Causes traveling actions on the path to be faster. This is done through RoadTravelingAidEast and other similar stats. ","ja":"Active when Wheelbarrow is equiped. Causes traveling actions on the path to be faster. This is done through RoadTravelingAidEast and other similar stats. "},"IsRuntimeOnly":true,"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"BarColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"Uses less stamina when traveling to make it a bit better than travois","en":"Uses less stamina when traveling to make it a bit better than travois","ja":"Uses less stamina when traveling to make it a bit better than travois"},"Icon":{"FileName":"93bee4ca012bf59f"},"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnActions":[{"AppliesTo":[{"key":"TravelAction","type":"ActionTag","name":{"zh":"\u65C5\u884C\u52A8\u4F5C","en":"TravelAction","ja":"TravelAction"}}],"DurationModifier":0,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":-1.0,"y":-1.0},"ApplyEachTick":true}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"WheelbarrowEquiped","icon":"93bee4ca012bf59f","name":{"zh":"\u88C5\u5907\u72EC\u8F6E\u8F66","en":"Wheelbarrow Equiped","ja":"Wheelbarrow Equiped"},"min":0.0,"max":1.0,"_modifierValues":[{"source":{"key":"Wheelbarrow","type":"CardData","CardType":0,"icon":"23d91639ecdc3d9e","name":{"zh":"\u624B\u63A8\u8F66","en":"Wheelbarrow","ja":"Wheelbarrow"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1AMovement Penalty","en":"Passive Effect: Movement Penalty","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Penalty"},"value":{"x":1.0,"y":1.0}}],"_requires":[{"source":{"key":"RoadTravelingAidEast","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1.0,"name":{"zh":"\u4E1C\u65B9\u9053\u8DEF\u8F85\u52A9","en":"Road Traveling Aid East","ja":"Road Traveling Aid East"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid East No Wheelbarrow","en":"Status Stage: Road Traveling Aid East No Wheelbarrow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid East No Wheelbarrow"}},{"source":{"key":"RoadTravelingAidEast","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1.0,"name":{"zh":"\u4E1C\u65B9\u9053\u8DEF\u8F85\u52A9","en":"Road Traveling Aid East","ja":"Road Traveling Aid East"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid East Wheelbarrow","en":"Status Stage: Road Traveling Aid East Wheelbarrow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid East Wheelbarrow"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"RoadTravelingAidNorth","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1.0,"name":{"zh":"\u5317\u65B9\u9053\u8DEF\u8F85\u52A9","en":"Road Traveling Aid North","ja":"Road Traveling Aid North"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid North No Wheelbarrow","en":"Status Stage: Road Traveling Aid North No Wheelbarrow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid North No Wheelbarrow"}},{"source":{"key":"RoadTravelingAidNorth","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1.0,"name":{"zh":"\u5317\u65B9\u9053\u8DEF\u8F85\u52A9","en":"Road Traveling Aid North","ja":"Road Traveling Aid North"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid North Wheelbarrow","en":"Status Stage: Road Traveling Aid North Wheelbarrow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid North Wheelbarrow"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"RoadTravelingAidSouth","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1.0,"name":{"zh":"\u5357\u65B9\u9053\u8DEF\u8F85\u52A9","en":"Road Traveling Aid South","ja":"Road Traveling Aid South"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid South No Wheelbarrow","en":"Status Stage: Road Traveling Aid South No Wheelbarrow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid South No Wheelbarrow"}},{"source":{"key":"RoadTravelingAidSouth","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1.0,"name":{"zh":"\u5357\u65B9\u9053\u8DEF\u8F85\u52A9","en":"Road Traveling Aid South","ja":"Road Traveling Aid South"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid South Wheelbarrow","en":"Status Stage: Road Traveling Aid South Wheelbarrow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid South Wheelbarrow"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"RoadTravelingAidWest","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1.0,"name":{"zh":"\u897F\u65B9\u9053\u8DEF\u8F85\u52A9","en":"Road Traveling Aid West","ja":"Road Traveling Aid West"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid West No Wheelbarrow","en":"Status Stage: Road Traveling Aid West No Wheelbarrow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid West No Wheelbarrow"}},{"source":{"key":"RoadTravelingAidWest","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1.0,"name":{"zh":"\u897F\u65B9\u9053\u8DEF\u8F85\u52A9","en":"Road Traveling Aid West","ja":"Road Traveling Aid West"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid West Wheelbarrow","en":"Status Stage: Road Traveling Aid West Wheelbarrow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid West Wheelbarrow"},"value":{"x":1.0,"y":1.0}}],"_uuid":"53d18ca1ad7ebd54e970ed24b0dab73c"}
+
+{
+  "GameName" : {
+    "zh" : "\u88C5\u5907\u72EC\u8F6E\u8F66",
+    "en" : "Wheelbarrow Equiped",
+    "ja" : "Wheelbarrow Equiped"
+  },
+  "Description" : {
+    "zh" : "Active when Wheelbarrow is equiped. Causes traveling actions on the path to be faster. This is done through RoadTravelingAidEast and other similar stats. ",
+    "en" : "Active when Wheelbarrow is equiped. Causes traveling actions on the path to be faster. This is done through RoadTravelingAidEast and other similar stats. ",
+    "ja" : "Active when Wheelbarrow is equiped. Causes traveling actions on the path to be faster. This is done through RoadTravelingAidEast and other similar stats. "
+  },
+  "IsRuntimeOnly" : true,
+  "BaseValue"     : 0.0,
+  "MinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "BarColor"        : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "Uses less stamina when traveling to make it a bit better than travois",
+        "en" : "Uses less stamina when traveling to make it a bit better than travois",
+        "ja" : "Uses less stamina when traveling to make it a bit better than travois"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "TravelAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u65C5\u884C\u52A8\u4F5C",
+                "en" : "TravelAction",
+                "ja" : "TravelAction"
+              }
+            }
+          ],
+          "DurationModifier" : 0,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : -1.0,
+                "y" : -1.0
+              },
+              "ApplyEachTick" : true
+            }
+          ],
+          "FadeToBlack"        : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "WheelbarrowEquiped",
+  "icon"                    : "GameStat__CallousesFeet__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u88C5\u5907\u72EC\u8F6E\u8F66",
+    "en" : "Wheelbarrow Equiped",
+    "ja" : "Wheelbarrow Equiped"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Wheelbarrow",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_Wheelbarrow__CardImage",
+        "name"     : {
+          "zh" : "\u624B\u63A8\u8F66",
+          "en" : "Wheelbarrow",
+          "ja" : "Wheelbarrow"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMovement Penalty",
+        "en" : "Passive Effect: Movement Penalty",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMovement Penalty"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "RoadTravelingAidEast",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1.0,
+        "name" : {
+          "zh" : "\u4E1C\u65B9\u9053\u8DEF\u8F85\u52A9",
+          "en" : "Road Traveling Aid East",
+          "ja" : "Road Traveling Aid East"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid East No Wheelbarrow",
+        "en" : "Status Stage: Road Traveling Aid East No Wheelbarrow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid East No Wheelbarrow"
+      }
+    },
+    {
+      "source" : {
+        "key" : "RoadTravelingAidEast",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1.0,
+        "name" : {
+          "zh" : "\u4E1C\u65B9\u9053\u8DEF\u8F85\u52A9",
+          "en" : "Road Traveling Aid East",
+          "ja" : "Road Traveling Aid East"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid East Wheelbarrow",
+        "en" : "Status Stage: Road Traveling Aid East Wheelbarrow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid East Wheelbarrow"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RoadTravelingAidNorth",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1.0,
+        "name" : {
+          "zh" : "\u5317\u65B9\u9053\u8DEF\u8F85\u52A9",
+          "en" : "Road Traveling Aid North",
+          "ja" : "Road Traveling Aid North"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid North No Wheelbarrow",
+        "en" : "Status Stage: Road Traveling Aid North No Wheelbarrow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid North No Wheelbarrow"
+      }
+    },
+    {
+      "source" : {
+        "key" : "RoadTravelingAidNorth",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1.0,
+        "name" : {
+          "zh" : "\u5317\u65B9\u9053\u8DEF\u8F85\u52A9",
+          "en" : "Road Traveling Aid North",
+          "ja" : "Road Traveling Aid North"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid North Wheelbarrow",
+        "en" : "Status Stage: Road Traveling Aid North Wheelbarrow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid North Wheelbarrow"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RoadTravelingAidSouth",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1.0,
+        "name" : {
+          "zh" : "\u5357\u65B9\u9053\u8DEF\u8F85\u52A9",
+          "en" : "Road Traveling Aid South",
+          "ja" : "Road Traveling Aid South"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid South No Wheelbarrow",
+        "en" : "Status Stage: Road Traveling Aid South No Wheelbarrow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid South No Wheelbarrow"
+      }
+    },
+    {
+      "source" : {
+        "key" : "RoadTravelingAidSouth",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1.0,
+        "name" : {
+          "zh" : "\u5357\u65B9\u9053\u8DEF\u8F85\u52A9",
+          "en" : "Road Traveling Aid South",
+          "ja" : "Road Traveling Aid South"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid South Wheelbarrow",
+        "en" : "Status Stage: Road Traveling Aid South Wheelbarrow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid South Wheelbarrow"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RoadTravelingAidWest",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1.0,
+        "name" : {
+          "zh" : "\u897F\u65B9\u9053\u8DEF\u8F85\u52A9",
+          "en" : "Road Traveling Aid West",
+          "ja" : "Road Traveling Aid West"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid West No Wheelbarrow",
+        "en" : "Status Stage: Road Traveling Aid West No Wheelbarrow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid West No Wheelbarrow"
+      }
+    },
+    {
+      "source" : {
+        "key" : "RoadTravelingAidWest",
+        "type" : "GameStat",
+        "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 1.0,
+        "name" : {
+          "zh" : "\u897F\u65B9\u9053\u8DEF\u8F85\u52A9",
+          "en" : "Road Traveling Aid West",
+          "ja" : "Road Traveling Aid West"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ARoad Traveling Aid West Wheelbarrow",
+        "en" : "Status Stage: Road Traveling Aid West Wheelbarrow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ARoad Traveling Aid West Wheelbarrow"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_uuid"                   : "53d18ca1ad7ebd54e970ed24b0dab73c"
+}

@@ -1,1 +1,1379 @@
-{"GameName":{"zh":"\u7761\u7720\u4E0D\u8DB3\u6548\u679C","en":"Sleep Deprivation","ja":"Sleep Deprivation"},"Description":{"zh":"\u8FD9\u662F\u7761\u7720\u4E0D\u8DB3\u7684\u7ED3\u679C\u3002\u4F1A\u6539\u53D8\u4F60\u7684\u7CBE\u795E\u72B6\u6001\uFF0C\u589E\u52A0\u538B\u529B\uFF0C\u5E76\u8BA9\u4F60\u66F4\u5BB9\u6613\u611F\u5230\u56F0\u5026\u3002","en":"The result of not sleeping enough. Can alter your mindstate, increase your stress and make you sleepier faster.","ja":"\u7761\u7720\u6642\u9593\u304C\u8DB3\u308A\u306A\u3044\u7D50\u679C\u3002\u7CBE\u795E\u72B6\u614B\u3092\u5909\u3048\u3001\u30B9\u30C8\u30EC\u30B9\u304C\u5897\u3048\u308B\u3002\u7720\u304F\u306A\u308A\u3084\u3059\u304F\u306A\u308B\u3002"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":4.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":0.2687,"g":0.3145,"b":0.5755,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"3d02d165232268dd"},"Statuses":[{"GameName":{"zh":"\u8F7B\u5FAE\u7F3A\u4E4F\u7761\u7720","en":"Minor Sleep Deprivation","ja":"\u5C11\u3057\u7761\u7720\u4E0D\u8DB3"},"Icon":{"FileName":"3d02d165232268dd"},"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnStats":[{"Stat":{"key":"Comfort","type":"GameStat","icon":"fae8085c35285809","min":-100.0,"max":100.0,"name":{"zh":"\u8212\u9002\u5EA6","en":"Comfort","ja":"\u5FEB\u9069\u3055"}},"ValueModifier":{"x":-5.0,"y":-5.0}},{"Stat":{"key":"AlteredMindstate","type":"GameStat","icon":"b263b06e2851c14a","min":0.0,"max":300.0,"name":{"zh":"\u7CBE\u795E\u5931\u5E38","en":"Altered Mindstate","ja":"\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"}},"RateModifier":{"x":0.25,"y":0.25}},{"Stat":{"key":"Stress","type":"GameStat","icon":"43e350618ec951e0","min":0.0,"max":240.0,"name":{"zh":"\u538B\u529B","en":"Stress","ja":"\u30B9\u30C8\u30EC\u30B9"}},"RateModifier":{"x":0.25,"y":0.25}},{"Stat":{"key":"Wakefulness","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":96.0,"name":{"zh":"\u6E05\u9192\u5EA6","en":"Wakefulness","ja":"\u7720\u3055"}},"RateModifier":{"x":-0.25,"y":-0.25}},{"Stat":{"key":"Focus","type":"GameStat","icon":"e24ee2487879116d","min":0.0,"max":96.0,"name":{"zh":"\u4E13\u6CE8\u5EA6","en":"Focus","ja":"\u96C6\u4E2D\u529B"}},"RateModifier":{"x":-0.5,"y":-0.5}},{"Stat":{"key":"ImmuneSystem","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":325.0,"name":{"zh":"\u514D\u75AB\u7CFB\u7EDF","en":"Immune System","ja":"\u514D\u75AB\u7CFB"}},"ValueModifier":{"x":-25.0,"y":-25.0}},{"Stat":{"key":"Perception","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":150.0,"name":{"zh":"\u611F\u77E5","en":"Perception","ja":"\u77E5\u899A"}},"ValueModifier":{"x":-10.0,"y":-10.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u7F3A\u4E4F\u7761\u7720","en":"Sleep Deprivation","ja":"\u7761\u7720\u4E0D\u8DB3"},"Icon":{"FileName":"8ea6b24c794dc528"},"ValueRange":{"m_X":2,"m_Y":2},"EffectsOnStats":[{"Stat":{"key":"Comfort","type":"GameStat","icon":"fae8085c35285809","min":-100.0,"max":100.0,"name":{"zh":"\u8212\u9002\u5EA6","en":"Comfort","ja":"\u5FEB\u9069\u3055"}},"ValueModifier":{"x":-10.0,"y":-10.0}},{"Stat":{"key":"AlteredMindstate","type":"GameStat","icon":"b263b06e2851c14a","min":0.0,"max":300.0,"name":{"zh":"\u7CBE\u795E\u5931\u5E38","en":"Altered Mindstate","ja":"\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"}},"RateModifier":{"x":0.5,"y":0.5}},{"Stat":{"key":"Stress","type":"GameStat","icon":"43e350618ec951e0","min":0.0,"max":240.0,"name":{"zh":"\u538B\u529B","en":"Stress","ja":"\u30B9\u30C8\u30EC\u30B9"}},"RateModifier":{"x":0.5,"y":0.5}},{"Stat":{"key":"Wakefulness","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":96.0,"name":{"zh":"\u6E05\u9192\u5EA6","en":"Wakefulness","ja":"\u7720\u3055"}},"RateModifier":{"x":-0.5,"y":-0.5}},{"Stat":{"key":"Focus","type":"GameStat","icon":"e24ee2487879116d","min":0.0,"max":96.0,"name":{"zh":"\u4E13\u6CE8\u5EA6","en":"Focus","ja":"\u96C6\u4E2D\u529B"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"ImmuneSystem","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":325.0,"name":{"zh":"\u514D\u75AB\u7CFB\u7EDF","en":"Immune System","ja":"\u514D\u75AB\u7CFB"}},"ValueModifier":{"x":-50.0,"y":-50.0}},{"Stat":{"key":"DexterityPenalty","type":"GameStat","icon":"4527cee819e69ce0","min":0.0,"max":3.0,"name":{"zh":"\u7075\u5DE7\u60E9\u7F5A","en":"Dexterity Penalty","ja":"\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"}},"ValueModifier":{"x":1.0,"y":1.0}},{"Stat":{"key":"Perception","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":150.0,"name":{"zh":"\u611F\u77E5","en":"Perception","ja":"\u77E5\u899A"}},"ValueModifier":{"x":-20.0,"y":-20.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":1,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u9AD8\u5EA6\u7F3A\u4E4F\u7761\u7720","en":"Major Sleep Deprivation","ja":"\u304B\u306A\u308A\u7761\u7720\u4E0D\u8DB3"},"Icon":{"FileName":"8ea6b24c794dc528"},"ValueRange":{"m_X":3,"m_Y":3},"EffectsOnStats":[{"Stat":{"key":"Comfort","type":"GameStat","icon":"fae8085c35285809","min":-100.0,"max":100.0,"name":{"zh":"\u8212\u9002\u5EA6","en":"Comfort","ja":"\u5FEB\u9069\u3055"}},"ValueModifier":{"x":-20.0,"y":-20.0}},{"Stat":{"key":"AlteredMindstate","type":"GameStat","icon":"b263b06e2851c14a","min":0.0,"max":300.0,"name":{"zh":"\u7CBE\u795E\u5931\u5E38","en":"Altered Mindstate","ja":"\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"}},"RateModifier":{"x":1.0,"y":1.0}},{"Stat":{"key":"Stress","type":"GameStat","icon":"43e350618ec951e0","min":0.0,"max":240.0,"name":{"zh":"\u538B\u529B","en":"Stress","ja":"\u30B9\u30C8\u30EC\u30B9"}},"RateModifier":{"x":0.75,"y":0.75}},{"Stat":{"key":"Wakefulness","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":96.0,"name":{"zh":"\u6E05\u9192\u5EA6","en":"Wakefulness","ja":"\u7720\u3055"}},"RateModifier":{"x":-0.75,"y":-0.75}},{"Stat":{"key":"Focus","type":"GameStat","icon":"e24ee2487879116d","min":0.0,"max":96.0,"name":{"zh":"\u4E13\u6CE8\u5EA6","en":"Focus","ja":"\u96C6\u4E2D\u529B"}},"RateModifier":{"x":-2.0,"y":-2.0}},{"Stat":{"key":"ImmuneSystem","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":325.0,"name":{"zh":"\u514D\u75AB\u7CFB\u7EDF","en":"Immune System","ja":"\u514D\u75AB\u7CFB"}},"ValueModifier":{"x":-100.0,"y":-100.0}},{"Stat":{"key":"DexterityPenalty","type":"GameStat","icon":"4527cee819e69ce0","min":0.0,"max":3.0,"name":{"zh":"\u7075\u5DE7\u60E9\u7F5A","en":"Dexterity Penalty","ja":"\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"}},"ValueModifier":{"x":2.0,"y":2.0}},{"Stat":{"key":"MovementPenalty","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":3.0,"name":{"zh":"\u79FB\u52A8\u60E9\u7F5A","en":"Movement Penalty","ja":"\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3"}},"ValueModifier":{"x":1.0,"y":1.0}},{"Stat":{"key":"Perception","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":150.0,"name":{"zh":"\u611F\u77E5","en":"Perception","ja":"\u77E5\u899A"}},"ValueModifier":{"x":-40.0,"y":-40.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":2,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u6781\u5EA6\u7F3A\u4E4F\u7761\u7720","en":"Serious Sleep Deprivation","ja":"\u5371\u967A\u306A\u307B\u3069\u7761\u7720\u4E0D\u8DB3"},"Icon":{"FileName":"d33e383553ce391f"},"ValueRange":{"m_X":4,"m_Y":4},"EffectsOnStats":[{"Stat":{"key":"Comfort","type":"GameStat","icon":"fae8085c35285809","min":-100.0,"max":100.0,"name":{"zh":"\u8212\u9002\u5EA6","en":"Comfort","ja":"\u5FEB\u9069\u3055"}},"ValueModifier":{"x":-40.0,"y":-40.0}},{"Stat":{"key":"AlteredMindstate","type":"GameStat","icon":"b263b06e2851c14a","min":0.0,"max":300.0,"name":{"zh":"\u7CBE\u795E\u5931\u5E38","en":"Altered Mindstate","ja":"\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"}},"RateModifier":{"x":2.0,"y":2.0}},{"Stat":{"key":"Stress","type":"GameStat","icon":"43e350618ec951e0","min":0.0,"max":240.0,"name":{"zh":"\u538B\u529B","en":"Stress","ja":"\u30B9\u30C8\u30EC\u30B9"}},"RateModifier":{"x":1.0,"y":1.0}},{"Stat":{"key":"Wakefulness","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":96.0,"name":{"zh":"\u6E05\u9192\u5EA6","en":"Wakefulness","ja":"\u7720\u3055"}},"RateModifier":{"x":-1.0,"y":-1.0}},{"Stat":{"key":"Focus","type":"GameStat","icon":"e24ee2487879116d","min":0.0,"max":96.0,"name":{"zh":"\u4E13\u6CE8\u5EA6","en":"Focus","ja":"\u96C6\u4E2D\u529B"}},"RateModifier":{"x":-4.0,"y":-4.0}},{"Stat":{"key":"ImmuneSystem","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":325.0,"name":{"zh":"\u514D\u75AB\u7CFB\u7EDF","en":"Immune System","ja":"\u514D\u75AB\u7CFB"}},"ValueModifier":{"x":-200.0,"y":-200.0}},{"Stat":{"key":"DexterityPenalty","type":"GameStat","icon":"4527cee819e69ce0","min":0.0,"max":3.0,"name":{"zh":"\u7075\u5DE7\u60E9\u7F5A","en":"Dexterity Penalty","ja":"\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"}},"ValueModifier":{"x":3.0,"y":3.0}},{"Stat":{"key":"MovementPenalty","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":3.0,"name":{"zh":"\u79FB\u52A8\u60E9\u7F5A","en":"Movement Penalty","ja":"\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3"}},"ValueModifier":{"x":2.0,"y":2.0}},{"Stat":{"key":"Perception","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":150.0,"name":{"zh":"\u611F\u77E5","en":"Perception","ja":"\u77E5\u899A"}},"ValueModifier":{"x":-80.0,"y":-80.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":3,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"8ea6b24c794dc528"},"StepValue":10.0},"type":"GameStat","key":"SleepDeprivationEffects","icon":"3d02d165232268dd","name":{"zh":"\u7761\u7720\u4E0D\u8DB3\u6548\u679C","en":"Sleep Deprivation","ja":"Sleep Deprivation"},"min":0.0,"max":4.0,"_modifierValues":[{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":-1.0,"y":-1.0}}],"_requires":[{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":3.0,"y":3.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":3.0,"y":3.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":4.0,"y":4.0}}],"_triggers":[{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":3.0,"y":3.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":3.0,"y":3.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"Tgr_SleepDeprivationEffects","type":"SelfTriggeredAction","name":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"}},"description":{"zh":"Tgr_SleepDeprivationEffects","en":"Tgr_SleepDeprivationEffects","ja":"Tgr_SleepDeprivationEffects"},"value":{"x":4.0,"y":4.0}}],"_uuid":"ad6175450d9b75d4694f279a984ffd94"}
+
+{
+  "GameName" : {
+    "zh" : "\u7761\u7720\u4E0D\u8DB3\u6548\u679C",
+    "en" : "Sleep Deprivation",
+    "ja" : "Sleep Deprivation"
+  },
+  "Description" : {
+    "zh" : "\u8FD9\u662F\u7761\u7720\u4E0D\u8DB3\u7684\u7ED3\u679C\u3002\u4F1A\u6539\u53D8\u4F60\u7684\u7CBE\u795E\u72B6\u6001\uFF0C\u589E\u52A0\u538B\u529B\uFF0C\u5E76\u8BA9\u4F60\u66F4\u5BB9\u6613\u611F\u5230\u56F0\u5026\u3002",
+    "en" : "The result of not sleeping enough. Can alter your mindstate, increase your stress and make you sleepier faster.",
+    "ja" : "\u7761\u7720\u6642\u9593\u304C\u8DB3\u308A\u306A\u3044\u7D50\u679C\u3002\u7CBE\u795E\u72B6\u614B\u3092\u5909\u3048\u3001\u30B9\u30C8\u30EC\u30B9\u304C\u5897\u3048\u308B\u3002\u7720\u304F\u306A\u308A\u3084\u3059\u304F\u306A\u308B\u3002"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 4.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.2687,
+    "g" : 0.3145,
+    "b" : 0.5755,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "GameStat__Eyesight__Statuses-0-Icon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u8F7B\u5FAE\u7F3A\u4E4F\u7761\u7720",
+        "en" : "Minor Sleep Deprivation",
+        "ja" : "\u5C11\u3057\u7761\u7720\u4E0D\u8DB3"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__Eyesight__Statuses-0-Icon"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Comfort",
+            "type" : "GameStat",
+            "icon" : "CardData__Bp_FurCoat__CardImage",
+            "min"  : -100.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8212\u9002\u5EA6",
+              "en" : "Comfort",
+              "ja" : "\u5FEB\u9069\u3055"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "AlteredMindstate",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u7CBE\u795E\u5931\u5E38",
+              "en" : "Altered Mindstate",
+              "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.25,
+            "y" : 0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.25,
+            "y" : 0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Wakefulness",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u6E05\u9192\u5EA6",
+              "en" : "Wakefulness",
+              "ja" : "\u7720\u3055"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.25,
+            "y" : -0.25
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Focus",
+            "type" : "GameStat",
+            "icon" : "GameStat__Focus__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u4E13\u6CE8\u5EA6",
+              "en" : "Focus",
+              "ja" : "\u96C6\u4E2D\u529B"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.5,
+            "y" : -0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -25.0,
+            "y" : -25.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Perception",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 150.0,
+            "name" : {
+              "zh" : "\u611F\u77E5",
+              "en" : "Perception",
+              "ja" : "\u77E5\u899A"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u7F3A\u4E4F\u7761\u7720",
+        "en" : "Sleep Deprivation",
+        "ja" : "\u7761\u7720\u4E0D\u8DB3"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__Eyesight__Statuses-1-Icon"
+      },
+      "ValueRange" : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Comfort",
+            "type" : "GameStat",
+            "icon" : "CardData__Bp_FurCoat__CardImage",
+            "min"  : -100.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8212\u9002\u5EA6",
+              "en" : "Comfort",
+              "ja" : "\u5FEB\u9069\u3055"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "AlteredMindstate",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u7CBE\u795E\u5931\u5E38",
+              "en" : "Altered Mindstate",
+              "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Wakefulness",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u6E05\u9192\u5EA6",
+              "en" : "Wakefulness",
+              "ja" : "\u7720\u3055"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.5,
+            "y" : -0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Focus",
+            "type" : "GameStat",
+            "icon" : "GameStat__Focus__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u4E13\u6CE8\u5EA6",
+              "en" : "Focus",
+              "ja" : "\u96C6\u4E2D\u529B"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -50.0,
+            "y" : -50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "DexterityPenalty",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesHands__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u7075\u5DE7\u60E9\u7F5A",
+              "en" : "Dexterity Penalty",
+              "ja" : "\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Perception",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 150.0,
+            "name" : {
+              "zh" : "\u611F\u77E5",
+              "en" : "Perception",
+              "ja" : "\u77E5\u899A"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -20.0,
+            "y" : -20.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 1,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u9AD8\u5EA6\u7F3A\u4E4F\u7761\u7720",
+        "en" : "Major Sleep Deprivation",
+        "ja" : "\u304B\u306A\u308A\u7761\u7720\u4E0D\u8DB3"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__Eyesight__Statuses-1-Icon"
+      },
+      "ValueRange" : {
+        "m_X" : 3,
+        "m_Y" : 3
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Comfort",
+            "type" : "GameStat",
+            "icon" : "CardData__Bp_FurCoat__CardImage",
+            "min"  : -100.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8212\u9002\u5EA6",
+              "en" : "Comfort",
+              "ja" : "\u5FEB\u9069\u3055"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -20.0,
+            "y" : -20.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "AlteredMindstate",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u7CBE\u795E\u5931\u5E38",
+              "en" : "Altered Mindstate",
+              "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.75,
+            "y" : 0.75
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Wakefulness",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u6E05\u9192\u5EA6",
+              "en" : "Wakefulness",
+              "ja" : "\u7720\u3055"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.75,
+            "y" : -0.75
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Focus",
+            "type" : "GameStat",
+            "icon" : "GameStat__Focus__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u4E13\u6CE8\u5EA6",
+              "en" : "Focus",
+              "ja" : "\u96C6\u4E2D\u529B"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "DexterityPenalty",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesHands__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u7075\u5DE7\u60E9\u7F5A",
+              "en" : "Dexterity Penalty",
+              "ja" : "\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "MovementPenalty",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u79FB\u52A8\u60E9\u7F5A",
+              "en" : "Movement Penalty",
+              "ja" : "\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Perception",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 150.0,
+            "name" : {
+              "zh" : "\u611F\u77E5",
+              "en" : "Perception",
+              "ja" : "\u77E5\u899A"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -40.0,
+            "y" : -40.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 2,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6781\u5EA6\u7F3A\u4E4F\u7761\u7720",
+        "en" : "Serious Sleep Deprivation",
+        "ja" : "\u5371\u967A\u306A\u307B\u3069\u7761\u7720\u4E0D\u8DB3"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__EyeDamage__DefaultStatusIcon"
+      },
+      "ValueRange" : {
+        "m_X" : 4,
+        "m_Y" : 4
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Comfort",
+            "type" : "GameStat",
+            "icon" : "CardData__Bp_FurCoat__CardImage",
+            "min"  : -100.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8212\u9002\u5EA6",
+              "en" : "Comfort",
+              "ja" : "\u5FEB\u9069\u3055"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -40.0,
+            "y" : -40.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "AlteredMindstate",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u7CBE\u795E\u5931\u5E38",
+              "en" : "Altered Mindstate",
+              "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+            }
+          },
+          "RateModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Wakefulness",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u6E05\u9192\u5EA6",
+              "en" : "Wakefulness",
+              "ja" : "\u7720\u3055"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Focus",
+            "type" : "GameStat",
+            "icon" : "GameStat__Focus__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u4E13\u6CE8\u5EA6",
+              "en" : "Focus",
+              "ja" : "\u96C6\u4E2D\u529B"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -200.0,
+            "y" : -200.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "DexterityPenalty",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesHands__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u7075\u5DE7\u60E9\u7F5A",
+              "en" : "Dexterity Penalty",
+              "ja" : "\u5668\u7528\u3055\u30DA\u30CA\u30EB\u30C6\u30A3"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 3.0,
+            "y" : 3.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "MovementPenalty",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u79FB\u52A8\u60E9\u7F5A",
+              "en" : "Movement Penalty",
+              "ja" : "\u52D5\u304D\u30DA\u30CA\u30EB\u30C6\u30A3"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Perception",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 150.0,
+            "name" : {
+              "zh" : "\u611F\u77E5",
+              "en" : "Perception",
+              "ja" : "\u77E5\u899A"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -80.0,
+            "y" : -80.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 3,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "GameStat__Eyesight__Statuses-1-Icon"
+    },
+    "StepValue" : 10.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "SleepDeprivationEffects",
+  "icon"                    : "GameStat__Eyesight__Statuses-0-Icon",
+  "name"                    : {
+    "zh" : "\u7761\u7720\u4E0D\u8DB3\u6548\u679C",
+    "en" : "Sleep Deprivation",
+    "ja" : "Sleep Deprivation"
+  },
+  "min"                     : 0.0,
+  "max"                     : 4.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_SleepDeprivationEffects",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_SleepDeprivationEffects",
+          "en" : "Tgr_SleepDeprivationEffects",
+          "ja" : "Tgr_SleepDeprivationEffects"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_SleepDeprivationEffects",
+        "en" : "Tgr_SleepDeprivationEffects",
+        "ja" : "Tgr_SleepDeprivationEffects"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    }
+  ],
+  "_uuid"                   : "ad6175450d9b75d4694f279a984ffd94"
+}

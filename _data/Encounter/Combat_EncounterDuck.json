@@ -1,1 +1,564 @@
-{"EncounterTitle":{"zh":"\u9E2D\u5B50","en":"Duck","ja":"\u30AB\u30E2"},"EncounterImage":{"FileName":"7c0bb65ae134c5d1"},"EnemyName":{"zh":"\u9E2D\u5B50","en":"the duck","ja":"\u305D\u306E\u30AB\u30E2"},"EnemyCover":{"x":75.0,"y":75.0},"PlayerCover":{"x":75.0,"y":75.0},"EnemyAwareness":{"x":25.0,"y":75.0},"EnemySize":{"x":10.0,"y":10.0},"EnemyBodyTemplate":{"key":"Combat_ BTDuck","type":"BodyTemplate","name":{"zh":"Combat_ BTDuck","en":"Combat_ BTDuck","ja":"Combat_ BTDuck"}},"MeleeSkill":{"Name":"Melee Skill","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":0},"Blood":{"Name":"Blood","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":1},"Stamina":{"Name":"Stamina","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":0},"Morale":{"Name":"Morale","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":0},"Value4":{"Name":"PoisonResistance","StartingValue":{"x":12.0,"y":12.0},"LoadedFromNPCStat":{"key":"AgentPoisonResistance","type":"NPCStat","name":{"zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"}},"TriggerLoadStat":1,"MaxValue":12.0,"OnZeroEncounterResult":1},"EnemyActions":[{"ActionLog":{"LogText":{"zh":"\u9E2D\u5B50\u6CE8\u610F\u5230\u4E86\u4F60\u2026\u2026","en":"The Duck notices you...","ja":"\u30AB\u30E2\u304C\u3042\u306A\u305F\u306B\u6C17\u3065\u304F\u30FB\u30FB\u30FB"}},"SuccessLog":{"LogText":{"zh":"\u5B83\u8C28\u614E\u5730\u770B\u7740\u4F60\u2026\u2026","en":"It looks at you cautiously...","ja":"\u8B66\u6212\u3059\u308B\u3088\u3046\u306B\u3042\u306A\u305F\u3092\u898B\u3066\u3044\u308B\u30FB\u30FB\u30FB"}},"RequiredDistance":2,"RequiredWrestlingState":0,"RequiresAmbushState":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"BaseWeight":0,"DistanceWeightModifier":0,"CloseRangeWeightModifier":0,"EnemyHiddenWeightModifier":0,"PlayerHiddenWeightModifier":0,"WrestlingWeightModifier":0,"NOTWrestlingWeightModifier":0,"SelfVulnerableWeightModifier":0,"SelfNOTVulnerableWeightModifier":0,"OpponentVulnerableWeightModifier":0,"OpponentNOTVulnerableWeightModifier":0,"ValuesWeightModifiers":{"WeightPerMorale":{"Active":true,"DurabilityRange":{"x":1.0,"y":100.0},"InterpWeightRange":{"m_X":1,"m_Y":1},"WhenOutOfRange":0}},"ActionRange":1,"Reach":0.0,"PreClashDistanceChange":0,"CannotFailClash":true,"DoesNotAttack":true,"BaseClashValue":300.0,"ArmorDurabilityDamage":{"FloatValue":0.0,"Active":true},"EnemyValueChanges":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"StaminaApplies":0,"MoraleApplies":0,"MoraleModifier":{"x":-100.0,"y":-100.0},"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"EncounterResult":0},{"ActionLog":{"LogText":{"zh":"\u9E2D\u5B50\u60CA\u6050\u5730\u6251\u817E\u7FC5\u8180\uFF0C\u8BD5\u56FE\u9003\u8DD1\u2026\u2026","en":"The duck flaps its wings in panic and tries to escape...","ja":"\u30AB\u30E2\u306F\u614C\u3066\u3066\u7FBD\u3070\u305F\u304D\u3001\u9003\u3052\u51FA\u305D\u3046\u3068\u3059\u308B\u30FB\u30FB\u30FB"}},"SuccessLog":{"LogText":{"zh":"\u5B83\u5F00\u59CB\u9003\u8DD1\u2026\u2026","en":"It starts fleeing...","ja":"\u9003\u3052\u51FA\u3057\u59CB\u3081\u305F\u30FB\u30FB\u30FB"}},"RequiredDistance":0,"RequiredWrestlingState":0,"RequiresAmbushState":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"BaseWeight":0,"DistanceWeightModifier":0,"CloseRangeWeightModifier":0,"EnemyHiddenWeightModifier":0,"PlayerHiddenWeightModifier":0,"WrestlingWeightModifier":0,"NOTWrestlingWeightModifier":0,"SelfVulnerableWeightModifier":0,"SelfNOTVulnerableWeightModifier":0,"OpponentVulnerableWeightModifier":0,"OpponentNOTVulnerableWeightModifier":0,"ValuesWeightModifiers":{"WeightPerStamina":{"Active":true,"InterpWeightRange":{"m_X":1,"m_Y":1},"WhenOutOfRange":0},"WeightPerMorale":{"Active":true,"InterpWeightRange":{"m_X":1,"m_Y":1},"WhenOutOfRange":0}},"ActionRange":0,"Reach":0.0,"PreClashDistanceChange":1,"CannotFailClash":true,"DoesNotAttack":true,"IsEscapeAction":true,"BaseClashValue":450.0,"ArmorDurabilityDamage":{"FloatValue":0.0,"Active":true},"EnemyValueChanges":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"StaminaApplies":0,"StaminaModifier":{"x":50.0,"y":50.0},"MoraleApplies":0,"MoraleModifier":{"x":100.0,"y":100.0},"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"EncounterResult":2},{"ActionLog":{"LogText":{"zh":"\u9E2D\u5B50\u60CA\u6050\u5730\u6251\u817E\u7FC5\u8180\uFF0C\u8BD5\u56FE\u9003\u8DD1\u2026\u2026","en":"The duck flaps its wings in panic and tries to escape...","ja":"\u30AB\u30E2\u306F\u614C\u3066\u3066\u7FBD\u3070\u305F\u304D\u3001\u9003\u3052\u51FA\u305D\u3046\u3068\u3059\u308B\u30FB\u30FB\u30FB"}},"SuccessLog":{"LogText":{"zh":"\u5B83\u5F00\u59CB\u9003\u8DD1\u2026\u2026","en":"It starts fleeing...","ja":"\u9003\u3052\u51FA\u3057\u59CB\u3081\u305F\u30FB\u30FB\u30FB"}},"RequiredDistance":1,"RequiredWrestlingState":0,"RequiresAmbushState":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"BaseWeight":0,"DistanceWeightModifier":0,"CloseRangeWeightModifier":0,"EnemyHiddenWeightModifier":0,"PlayerHiddenWeightModifier":0,"WrestlingWeightModifier":0,"NOTWrestlingWeightModifier":0,"SelfVulnerableWeightModifier":0,"SelfNOTVulnerableWeightModifier":0,"OpponentVulnerableWeightModifier":0,"OpponentNOTVulnerableWeightModifier":0,"ValuesWeightModifiers":{"WeightPerStamina":{"Active":true,"InterpWeightRange":{"m_X":1,"m_Y":1},"WhenOutOfRange":0},"WeightPerMorale":{"Active":true,"InterpWeightRange":{"m_X":1,"m_Y":1},"WhenOutOfRange":0}},"ActionRange":1,"Reach":0.0,"PreClashDistanceChange":1,"CannotFailClash":true,"DoesNotAttack":true,"IsEscapeAction":true,"BaseClashValue":450.0,"ArmorDurabilityDamage":{"FloatValue":0.0,"Active":true},"EnemyValueChanges":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"StaminaApplies":0,"StaminaModifier":{"x":50.0,"y":50.0},"MoraleApplies":0,"MoraleModifier":{"x":100.0,"y":100.0},"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"EncounterResult":2}],"EnemyGettingCloseLog":{"LogText":{"zh":"\u9E2D\u5B50\u8D70\u8FD1\u4E86\u2026\u2026","en":"The duck moves in closer...","ja":"\u30AB\u30E2\u304C\u3055\u3089\u306B\u8FD1\u3065\u3044\u3066\u304F\u308B\u30FB\u30FB\u30FB"}},"OverrideEscapeActionName":{"zh":"\u64A4\u9000","en":"Retreat","ja":"\u5F15\u304D\u4E0B\u304C\u308B"},"OverrideEscapeActionLog":{"LogText":{"zh":"\u4F60\u653E\u8D70\u4E86\u9E2D\u5B50\u3002","en":"you leave the partridge be.","ja":"\u3042\u306A\u305F\u306F\u30E4\u30DE\u30A6\u30BA\u30E9\u3092\u305D\u306E\u307E\u307E\u306B\u3057\u3066\u7ACB\u3061\u53BB\u3063\u305F\u3002"}},"EnemyDefeatedEffects":{"ResultLog":{"LogText":{"zh":"\u9E2D\u5B50\u6B7B\u4E86\u3002","en":"The duck is dead.","ja":"\u30AB\u30E2\u306F\u606F\u7D76\u3048\u305F\u3002"}},"StatChanges":[{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"ValueModifier":{"x":10.0,"y":10.0}},{"Stat":{"key":"FoxUrge","type":"GameStat","icon":"7ced32767d69a664","min":0.0,"max":96.0,"name":{"zh":"\u72D0\u72F8\u672C\u80FD","en":"Fox Urge","ja":"\u30AD\u30C4\u30CD\u306E\u6B32\u6C42"}},"ValueModifier":{"x":-96.0,"y":-96.0}}],"NPCStatChanges":[{"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"UseAssociatedAgent":true,"ValueChange":{"x":-10000.0,"y":-10000.0}}],"AmmoRecovery":0,"MovePlayer":0,"MoveDuration":0,"MoveNPC":0,"SaveEncounterToNPC":true},"EnemyEscapedEffects":{"OnlyTriggerOnMainActions":true,"ResultLog":{"LogText":{"zh":"\u9E2D\u5B50\u6D88\u5931\u5728\u53F6\u4E1B\u4E2D\u2026\u2026","en":"The duck disappears into the foliage...","ja":"\u30AB\u30E2\u306F\u8302\u307F\u306E\u4E2D\u3078\u6D88\u3048\u3066\u3044\u3063\u305F\u30FB\u30FB\u30FB"}},"StatChanges":[{"Stat":{"key":"Agent_DuckExists1","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u9E2D\u5B501\u5B58\u5728","en":"Duck Exists","ja":"Duck Exists"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"NPCStatChanges":[{"TargetStat":{"key":"AgentCounter","type":"NPCStat","name":{"zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-10000.0,"y":-10000.0}},{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":480.0,"y":480.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"AmmoRecovery":0,"MovePlayer":0,"MoveDuration":0,"MoveNPC":2,"MoveNPCToSpecificEnvironment":[{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}}],"SaveEncounterToNPC":true},"PlayerEscapedEffects":{"ResultLog":{"LogText":{"zh":"\u4F60\u7EE7\u7EED\u524D\u884C\u2026\u2026","en":"You continue on your way...","ja":"\u3042\u306A\u305F\u306F\u305D\u306E\u307E\u307E\u5148\u3078\u9032\u3080\u30FB\u30FB\u30FB"}},"StatChanges":[{"ValueModifier":{"x":3.0,"y":3.0}}],"AmmoRecovery":3,"MovePlayer":0,"MoveDuration":0,"MoveNPC":0},"PlayerDemoralizedEffects":{"ResultLog":{"LogText":{"zh":"\u4F60\u9003\u79BB\u4E86\u9E2D\u5B50\uFF0C\u611F\u89C9\u6709\u70B9\u4E22\u4EBA\u2026\u2026","en":"You run away from the duck, feeling a bit humiliated...","ja":"\u3042\u306A\u305F\u306F\u5C11\u3057\u5C48\u8FB1\u3092\u611F\u3058\u306A\u304C\u3089\u30AB\u30E2\u304B\u3089\u9003\u3052\u51FA\u3057\u305F\u30FB\u30FB\u30FB"}},"AmmoRecovery":3,"MovePlayer":3,"MoveDuration":0,"MoveNPC":0},"type":"Encounter","key":"Combat_EncounterDuck","icon":"7c0bb65ae134c5d1","name":{"zh":"\u9E2D\u5B50","en":"Duck","ja":"\u30AB\u30E2"},"_uuid":"e774dab1421d04d458199c9973472c9f"}
+
+{
+  "EncounterTitle" : {
+    "zh" : "\u9E2D\u5B50",
+    "en" : "Duck",
+    "ja" : "\u30AB\u30E2"
+  },
+  "EncounterImage" : {
+    "FileName" : "NPCAgent__Agent_Duck1__AgentImage"
+  },
+  "EnemyName"      : {
+    "zh" : "\u9E2D\u5B50",
+    "en" : "the duck",
+    "ja" : "\u305D\u306E\u30AB\u30E2"
+  },
+  "EnemyCover"     : {
+    "x" : 75.0,
+    "y" : 75.0
+  },
+  "PlayerCover"    : {
+    "x" : 75.0,
+    "y" : 75.0
+  },
+  "EnemyAwareness" : {
+    "x" : 25.0,
+    "y" : 75.0
+  },
+  "EnemySize"      : {
+    "x" : 10.0,
+    "y" : 10.0
+  },
+  "EnemyBodyTemplate" : {
+    "key" : "Combat_ BTDuck",
+    "type" : "BodyTemplate",
+    "name" : {
+      "zh" : "Combat_ BTDuck",
+      "en" : "Combat_ BTDuck",
+      "ja" : "Combat_ BTDuck"
+    }
+  },
+  "MeleeSkill"        : {
+    "Name" : "Melee Skill",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 0
+  },
+  "Blood"             : {
+    "Name" : "Blood",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 1
+  },
+  "Stamina"           : {
+    "Name" : "Stamina",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 0
+  },
+  "Morale"            : {
+    "Name" : "Morale",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 0
+  },
+  "Value4"            : {
+    "Name" : "PoisonResistance",
+    "StartingValue" : {
+      "x" : 12.0,
+      "y" : 12.0
+    },
+    "LoadedFromNPCStat" : {
+      "key" : "AgentPoisonResistance",
+      "type" : "NPCStat",
+      "name" : {
+        "zh" : "\u6BD2\u6297",
+        "en" : "AgentPoisonResistance",
+        "ja" : "AgentPoisonResistance"
+      }
+    },
+    "TriggerLoadStat"   : 1,
+    "MaxValue"          : 12.0,
+    "OnZeroEncounterResult" : 1
+  },
+  "EnemyActions"      : [
+    {
+      "ActionLog" : {
+        "LogText" : {
+          "zh" : "\u9E2D\u5B50\u6CE8\u610F\u5230\u4E86\u4F60\u2026\u2026",
+          "en" : "The Duck notices you...",
+          "ja" : "\u30AB\u30E2\u304C\u3042\u306A\u305F\u306B\u6C17\u3065\u304F\u30FB\u30FB\u30FB"
+        }
+      },
+      "SuccessLog" : {
+        "LogText" : {
+          "zh" : "\u5B83\u8C28\u614E\u5730\u770B\u7740\u4F60\u2026\u2026",
+          "en" : "It looks at you cautiously...",
+          "ja" : "\u8B66\u6212\u3059\u308B\u3088\u3046\u306B\u3042\u306A\u305F\u3092\u898B\u3066\u3044\u308B\u30FB\u30FB\u30FB"
+        }
+      },
+      "RequiredDistance" : 2,
+      "RequiredWrestlingState" : 0,
+      "RequiresAmbushState"    : 0,
+      "RequiredSelfVulnerableState" : 0,
+      "RequiredOpponentVulnerableState" : 0,
+      "BaseWeight"                      : 0,
+      "DistanceWeightModifier"          : 0,
+      "CloseRangeWeightModifier"        : 0,
+      "EnemyHiddenWeightModifier"       : 0,
+      "PlayerHiddenWeightModifier"      : 0,
+      "WrestlingWeightModifier"         : 0,
+      "NOTWrestlingWeightModifier"      : 0,
+      "SelfVulnerableWeightModifier"    : 0,
+      "SelfNOTVulnerableWeightModifier" : 0,
+      "OpponentVulnerableWeightModifier" : 0,
+      "OpponentNOTVulnerableWeightModifier" : 0,
+      "ValuesWeightModifiers"               : {
+        "WeightPerMorale" : {
+          "Active" : true,
+          "DurabilityRange" : {
+            "x" : 1.0,
+            "y" : 100.0
+          },
+          "InterpWeightRange" : {
+            "m_X" : 1,
+            "m_Y" : 1
+          },
+          "WhenOutOfRange"    : 0
+        }
+      },
+      "ActionRange"                         : 1,
+      "Reach"                               : 0.0,
+      "PreClashDistanceChange"              : 0,
+      "CannotFailClash"                     : true,
+      "DoesNotAttack"                       : true,
+      "BaseClashValue"                      : 300.0,
+      "ArmorDurabilityDamage"               : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "EnemyValueChanges"                   : {
+        "MeleeApplies" : 0,
+        "RangedApplies" : 0,
+        "BloodApplies"  : 0,
+        "StaminaApplies" : 0,
+        "MoraleApplies"  : 0,
+        "MoraleModifier" : {
+          "x" : -100.0,
+          "y" : -100.0
+        },
+        "Value1Applies"  : 0,
+        "Value2Applies"  : 0,
+        "Value3Applies"  : 0,
+        "Value4Applies"  : 0
+      },
+      "EncounterResult"                     : 0
+    },
+    {
+      "ActionLog" : {
+        "LogText" : {
+          "zh" : "\u9E2D\u5B50\u60CA\u6050\u5730\u6251\u817E\u7FC5\u8180\uFF0C\u8BD5\u56FE\u9003\u8DD1\u2026\u2026",
+          "en" : "The duck flaps its wings in panic and tries to escape...",
+          "ja" : "\u30AB\u30E2\u306F\u614C\u3066\u3066\u7FBD\u3070\u305F\u304D\u3001\u9003\u3052\u51FA\u305D\u3046\u3068\u3059\u308B\u30FB\u30FB\u30FB"
+        }
+      },
+      "SuccessLog" : {
+        "LogText" : {
+          "zh" : "\u5B83\u5F00\u59CB\u9003\u8DD1\u2026\u2026",
+          "en" : "It starts fleeing...",
+          "ja" : "\u9003\u3052\u51FA\u3057\u59CB\u3081\u305F\u30FB\u30FB\u30FB"
+        }
+      },
+      "RequiredDistance" : 0,
+      "RequiredWrestlingState" : 0,
+      "RequiresAmbushState"    : 0,
+      "RequiredSelfVulnerableState" : 0,
+      "RequiredOpponentVulnerableState" : 0,
+      "BaseWeight"                      : 0,
+      "DistanceWeightModifier"          : 0,
+      "CloseRangeWeightModifier"        : 0,
+      "EnemyHiddenWeightModifier"       : 0,
+      "PlayerHiddenWeightModifier"      : 0,
+      "WrestlingWeightModifier"         : 0,
+      "NOTWrestlingWeightModifier"      : 0,
+      "SelfVulnerableWeightModifier"    : 0,
+      "SelfNOTVulnerableWeightModifier" : 0,
+      "OpponentVulnerableWeightModifier" : 0,
+      "OpponentNOTVulnerableWeightModifier" : 0,
+      "ValuesWeightModifiers"               : {
+        "WeightPerStamina" : {
+          "Active" : true,
+          "InterpWeightRange" : {
+            "m_X" : 1,
+            "m_Y" : 1
+          },
+          "WhenOutOfRange"    : 0
+        },
+        "WeightPerMorale"  : {
+          "Active" : true,
+          "InterpWeightRange" : {
+            "m_X" : 1,
+            "m_Y" : 1
+          },
+          "WhenOutOfRange"    : 0
+        }
+      },
+      "ActionRange"                         : 0,
+      "Reach"                               : 0.0,
+      "PreClashDistanceChange"              : 1,
+      "CannotFailClash"                     : true,
+      "DoesNotAttack"                       : true,
+      "IsEscapeAction"                      : true,
+      "BaseClashValue"                      : 450.0,
+      "ArmorDurabilityDamage"               : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "EnemyValueChanges"                   : {
+        "MeleeApplies" : 0,
+        "RangedApplies" : 0,
+        "BloodApplies"  : 0,
+        "StaminaApplies" : 0,
+        "StaminaModifier" : {
+          "x" : 50.0,
+          "y" : 50.0
+        },
+        "MoraleApplies"   : 0,
+        "MoraleModifier"  : {
+          "x" : 100.0,
+          "y" : 100.0
+        },
+        "Value1Applies"   : 0,
+        "Value2Applies"   : 0,
+        "Value3Applies"   : 0,
+        "Value4Applies"   : 0
+      },
+      "EncounterResult"                     : 2
+    },
+    {
+      "ActionLog" : {
+        "LogText" : {
+          "zh" : "\u9E2D\u5B50\u60CA\u6050\u5730\u6251\u817E\u7FC5\u8180\uFF0C\u8BD5\u56FE\u9003\u8DD1\u2026\u2026",
+          "en" : "The duck flaps its wings in panic and tries to escape...",
+          "ja" : "\u30AB\u30E2\u306F\u614C\u3066\u3066\u7FBD\u3070\u305F\u304D\u3001\u9003\u3052\u51FA\u305D\u3046\u3068\u3059\u308B\u30FB\u30FB\u30FB"
+        }
+      },
+      "SuccessLog" : {
+        "LogText" : {
+          "zh" : "\u5B83\u5F00\u59CB\u9003\u8DD1\u2026\u2026",
+          "en" : "It starts fleeing...",
+          "ja" : "\u9003\u3052\u51FA\u3057\u59CB\u3081\u305F\u30FB\u30FB\u30FB"
+        }
+      },
+      "RequiredDistance" : 1,
+      "RequiredWrestlingState" : 0,
+      "RequiresAmbushState"    : 0,
+      "RequiredSelfVulnerableState" : 0,
+      "RequiredOpponentVulnerableState" : 0,
+      "BaseWeight"                      : 0,
+      "DistanceWeightModifier"          : 0,
+      "CloseRangeWeightModifier"        : 0,
+      "EnemyHiddenWeightModifier"       : 0,
+      "PlayerHiddenWeightModifier"      : 0,
+      "WrestlingWeightModifier"         : 0,
+      "NOTWrestlingWeightModifier"      : 0,
+      "SelfVulnerableWeightModifier"    : 0,
+      "SelfNOTVulnerableWeightModifier" : 0,
+      "OpponentVulnerableWeightModifier" : 0,
+      "OpponentNOTVulnerableWeightModifier" : 0,
+      "ValuesWeightModifiers"               : {
+        "WeightPerStamina" : {
+          "Active" : true,
+          "InterpWeightRange" : {
+            "m_X" : 1,
+            "m_Y" : 1
+          },
+          "WhenOutOfRange"    : 0
+        },
+        "WeightPerMorale"  : {
+          "Active" : true,
+          "InterpWeightRange" : {
+            "m_X" : 1,
+            "m_Y" : 1
+          },
+          "WhenOutOfRange"    : 0
+        }
+      },
+      "ActionRange"                         : 1,
+      "Reach"                               : 0.0,
+      "PreClashDistanceChange"              : 1,
+      "CannotFailClash"                     : true,
+      "DoesNotAttack"                       : true,
+      "IsEscapeAction"                      : true,
+      "BaseClashValue"                      : 450.0,
+      "ArmorDurabilityDamage"               : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "EnemyValueChanges"                   : {
+        "MeleeApplies" : 0,
+        "RangedApplies" : 0,
+        "BloodApplies"  : 0,
+        "StaminaApplies" : 0,
+        "StaminaModifier" : {
+          "x" : 50.0,
+          "y" : 50.0
+        },
+        "MoraleApplies"   : 0,
+        "MoraleModifier"  : {
+          "x" : 100.0,
+          "y" : 100.0
+        },
+        "Value1Applies"   : 0,
+        "Value2Applies"   : 0,
+        "Value3Applies"   : 0,
+        "Value4Applies"   : 0
+      },
+      "EncounterResult"                     : 2
+    }
+  ],
+  "EnemyGettingCloseLog" : {
+    "LogText" : {
+      "zh" : "\u9E2D\u5B50\u8D70\u8FD1\u4E86\u2026\u2026",
+      "en" : "The duck moves in closer...",
+      "ja" : "\u30AB\u30E2\u304C\u3055\u3089\u306B\u8FD1\u3065\u3044\u3066\u304F\u308B\u30FB\u30FB\u30FB"
+    }
+  },
+  "OverrideEscapeActionName" : {
+    "zh" : "\u64A4\u9000",
+    "en" : "Retreat",
+    "ja" : "\u5F15\u304D\u4E0B\u304C\u308B"
+  },
+  "OverrideEscapeActionLog"  : {
+    "LogText" : {
+      "zh" : "\u4F60\u653E\u8D70\u4E86\u9E2D\u5B50\u3002",
+      "en" : "you leave the partridge be.",
+      "ja" : "\u3042\u306A\u305F\u306F\u30E4\u30DE\u30A6\u30BA\u30E9\u3092\u305D\u306E\u307E\u307E\u306B\u3057\u3066\u7ACB\u3061\u53BB\u3063\u305F\u3002"
+    }
+  },
+  "EnemyDefeatedEffects"     : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "\u9E2D\u5B50\u6B7B\u4E86\u3002",
+        "en" : "The duck is dead.",
+        "ja" : "\u30AB\u30E2\u306F\u606F\u7D76\u3048\u305F\u3002"
+      }
+    },
+    "StatChanges" : [
+      {
+        "Stat" : {
+          "key" : "Gratification",
+          "type" : "GameStat",
+          "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+          "min"  : -100.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u6EE1\u8DB3\u611F",
+            "en" : "Gratification",
+            "ja" : "\u6E80\u8DB3\u611F"
+          }
+        },
+        "ValueModifier" : {
+          "x" : 10.0,
+          "y" : 10.0
+        }
+      },
+      {
+        "Stat" : {
+          "key" : "FoxUrge",
+          "type" : "GameStat",
+          "icon" : "NPCAgent__Agent_Fox1__AgentImage",
+          "min"  : 0.0,
+          "max"  : 96.0,
+          "name" : {
+            "zh" : "\u72D0\u72F8\u672C\u80FD",
+            "en" : "Fox Urge",
+            "ja" : "\u30AD\u30C4\u30CD\u306E\u6B32\u6C42"
+          }
+        },
+        "ValueModifier" : {
+          "x" : -96.0,
+          "y" : -96.0
+        }
+      }
+    ],
+    "NPCStatChanges" : [
+      {
+        "TargetStat" : {
+          "key" : "AgentBlood",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8840\u91CF",
+            "en" : "AgentBlood",
+            "ja" : "AgentBlood"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : -10000.0,
+          "y" : -10000.0
+        }
+      }
+    ],
+    "AmmoRecovery"   : 0,
+    "MovePlayer"     : 0,
+    "MoveDuration"   : 0,
+    "MoveNPC"        : 0,
+    "SaveEncounterToNPC" : true
+  },
+  "EnemyEscapedEffects"      : {
+    "OnlyTriggerOnMainActions" : true,
+    "ResultLog"                : {
+      "LogText" : {
+        "zh" : "\u9E2D\u5B50\u6D88\u5931\u5728\u53F6\u4E1B\u4E2D\u2026\u2026",
+        "en" : "The duck disappears into the foliage...",
+        "ja" : "\u30AB\u30E2\u306F\u8302\u307F\u306E\u4E2D\u3078\u6D88\u3048\u3066\u3044\u3063\u305F\u30FB\u30FB\u30FB"
+      }
+    },
+    "StatChanges"              : [
+      {
+        "Stat" : {
+          "key" : "Agent_DuckExists1",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u9E2D\u5B501\u5B58\u5728",
+            "en" : "Duck Exists",
+            "ja" : "Duck Exists"
+          }
+        },
+        "ValueModifier" : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      }
+    ],
+    "NPCStatChanges"           : [
+      {
+        "TargetStat" : {
+          "key" : "AgentCounter",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8BA1\u6B65\u5668",
+            "en" : "AgentCounter",
+            "ja" : "AgentCounter"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : -10000.0,
+          "y" : -10000.0
+        }
+      },
+      {
+        "TargetStat" : {
+          "key" : "AgentRespawnCounter",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+            "en" : "AgentRespawnCounter",
+            "ja" : "AgentRespawnCounter"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : 480.0,
+          "y" : 480.0
+        }
+      },
+      {
+        "TargetStat" : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      }
+    ],
+    "AmmoRecovery"             : 0,
+    "MovePlayer"               : 0,
+    "MoveDuration"             : 0,
+    "MoveNPC"                  : 2,
+    "MoveNPCToSpecificEnvironment" : [
+      {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      }
+    ],
+    "SaveEncounterToNPC"           : true
+  },
+  "PlayerEscapedEffects"     : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "\u4F60\u7EE7\u7EED\u524D\u884C\u2026\u2026",
+        "en" : "You continue on your way...",
+        "ja" : "\u3042\u306A\u305F\u306F\u305D\u306E\u307E\u307E\u5148\u3078\u9032\u3080\u30FB\u30FB\u30FB"
+      }
+    },
+    "StatChanges" : [
+      {
+        "ValueModifier" : {
+          "x" : 3.0,
+          "y" : 3.0
+        }
+      }
+    ],
+    "AmmoRecovery" : 3,
+    "MovePlayer"   : 0,
+    "MoveDuration" : 0,
+    "MoveNPC"      : 0
+  },
+  "PlayerDemoralizedEffects" : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "\u4F60\u9003\u79BB\u4E86\u9E2D\u5B50\uFF0C\u611F\u89C9\u6709\u70B9\u4E22\u4EBA\u2026\u2026",
+        "en" : "You run away from the duck, feeling a bit humiliated...",
+        "ja" : "\u3042\u306A\u305F\u306F\u5C11\u3057\u5C48\u8FB1\u3092\u611F\u3058\u306A\u304C\u3089\u30AB\u30E2\u304B\u3089\u9003\u3052\u51FA\u3057\u305F\u30FB\u30FB\u30FB"
+      }
+    },
+    "AmmoRecovery" : 3,
+    "MovePlayer"   : 3,
+    "MoveDuration" : 0,
+    "MoveNPC"      : 0
+  },
+  "type"                     : "Encounter",
+  "key"                      : "Combat_EncounterDuck",
+  "icon"                     : "NPCAgent__Agent_Duck1__AgentImage",
+  "name"                     : {
+    "zh" : "\u9E2D\u5B50",
+    "en" : "Duck",
+    "ja" : "\u30AB\u30E2"
+  },
+  "_uuid"                    : "e774dab1421d04d458199c9973472c9f"
+}

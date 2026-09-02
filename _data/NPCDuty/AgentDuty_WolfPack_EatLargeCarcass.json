@@ -1,1 +1,90 @@
-{"DutyName":{"zh":"\u98DF\u7528\u5927\u578B\u5C38\u4F53","en":"Wolf Pack Eat Carcass","ja":"Wolf Pack Eat Carcass"},"MaxPerformPerDay":0,"DutyConditions":{"InBackground":true,"PlayerUsesCard":0,"RequiredTagsOnBoard":[{"key":"tag_CarcassLarge","type":"CardTag","count":18,"name":{"zh":"\u5927\u578B\u5C38\u4F53","en":"Large Carcass","ja":"Large Carcass"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":50.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfPackEatLargeCarcass","type":"AffectItemsDutyAction","name":{"zh":"WolfPackEatLargeCarcass","en":"WolfPackEatLargeCarcass","ja":"WolfPackEatLargeCarcass"}},{"key":"WolfPackEatLarge","type":"ChangeNPCStatDutyAction","name":{"zh":"WolfPackEatLarge","en":"WolfPackEatLarge","ja":"WolfPackEatLarge"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_WolfPack_EatLargeCarcass","name":{"zh":"\u98DF\u7528\u5927\u578B\u5C38\u4F53","en":"Wolf Pack Eat Carcass","ja":"Wolf Pack Eat Carcass"},"_uuid":"b7335fa5e806c614aa331bef37d7fbb5"}
+
+{
+  "DutyName" : {
+    "zh" : "\u98DF\u7528\u5927\u578B\u5C38\u4F53",
+    "en" : "Wolf Pack Eat Carcass",
+    "ja" : "Wolf Pack Eat Carcass"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "InBackground" : true,
+    "PlayerUsesCard" : 0,
+    "RequiredTagsOnBoard" : [
+      {
+        "key" : "tag_CarcassLarge",
+        "type" : "CardTag",
+        "count" : 18,
+        "name"  : {
+          "zh" : "\u5927\u578B\u5C38\u4F53",
+          "en" : "Large Carcass",
+          "ja" : "Large Carcass"
+        }
+      }
+    ],
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 50.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "WolfPackEatLargeCarcass",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "WolfPackEatLargeCarcass",
+        "en" : "WolfPackEatLargeCarcass",
+        "ja" : "WolfPackEatLargeCarcass"
+      }
+    },
+    {
+      "key" : "WolfPackEatLarge",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WolfPackEatLarge",
+        "en" : "WolfPackEatLarge",
+        "ja" : "WolfPackEatLarge"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_WolfPack_EatLargeCarcass",
+  "name"                 : {
+    "zh" : "\u98DF\u7528\u5927\u578B\u5C38\u4F53",
+    "en" : "Wolf Pack Eat Carcass",
+    "ja" : "Wolf Pack Eat Carcass"
+  },
+  "_uuid"                : "b7335fa5e806c614aa331bef37d7fbb5"
+}

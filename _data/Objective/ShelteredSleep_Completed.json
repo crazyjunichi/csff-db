@@ -1,1 +1,77 @@
-{"ObjectiveDescription":{"zh":"\u7761\u5728\u7A9D\u91CC","en":"Sheltered Sleep","ja":"\u5B89\u5FC3\u3057\u3066\u5BDD\u308B"},"NotificationSettings":{"Frequency":1,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"Completed","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"ShelteredSleep_Completed_Event","type":"CardData","CardType":3,"icon":"9c01e51aff3d7a19","name":{"zh":"\u7761\u5728\u7A9D\u91CC - \u5B8C\u6210","en":"Sheltered Sleep Complete","ja":"\u5B89\u5FC3\u3057\u3066\u5BDD\u308B\u3000\u5B8C\u4E86"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"NestedObjectives":[{"ObjectiveCondition":{"key":"ShelteredSleep_Obj1_SleepInTheImprovisedShelterDuringTheNight","type":"Objective","name":{"zh":"\u591C\u91CC\u5728\u4E34\u65F6\u5E87\u62A4\u6240\u7761\u89C9","en":"Sleep in The Improvised Shelter During the Night","ja":"\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC\u306E\u4E2D\u3067\u591C\u3092\u904E\u3054\u3059"}},"ObjectiveName":"1","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":0,"type":"Objective","key":"ShelteredSleep_Completed","name":{"zh":"\u7761\u5728\u7A9D\u91CC","en":"Sheltered Sleep","ja":"\u5B89\u5FC3\u3057\u3066\u5BDD\u308B"},"_uuid":"16f28da76313b394cb359aefdf510a9d"}
+
+{
+  "ObjectiveDescription" : {
+    "zh" : "\u7761\u5728\u7A9D\u91CC",
+    "en" : "Sheltered Sleep",
+    "ja" : "\u5B89\u5FC3\u3057\u3066\u5BDD\u308B"
+  },
+  "NotificationSettings" : {
+    "Frequency" : 1,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ProducedCards" : [
+        {
+          "CollectionName" : "Completed",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "ShelteredSleep_Completed_Event",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "CardData__Bp_ImprovisedShelter__CardImage",
+                "name"     : {
+                  "zh" : "\u7761\u5728\u7A9D\u91CC - \u5B8C\u6210",
+                  "en" : "Sheltered Sleep Complete",
+                  "ja" : "\u5B89\u5FC3\u3057\u3066\u5BDD\u308B\u3000\u5B8C\u4E86"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "FadeToBlack"   : 0,
+      "RoomDirection" : 0,
+      "ExitDirection" : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "NestedObjectives"     : [
+    {
+      "ObjectiveCondition" : {
+        "key" : "ShelteredSleep_Obj1_SleepInTheImprovisedShelterDuringTheNight",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u591C\u91CC\u5728\u4E34\u65F6\u5E87\u62A4\u6240\u7761\u89C9",
+          "en" : "Sleep in The Improvised Shelter During the Night",
+          "ja" : "\u624B\u4F5C\u308A\u30B7\u30A7\u30EB\u30BF\u30FC\u306E\u4E2D\u3067\u591C\u3092\u904E\u3054\u3059"
+        }
+      },
+      "ObjectiveName"      : "1",
+      "CompletionWeight"   : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "Objective",
+  "key"                         : "ShelteredSleep_Completed",
+  "name"                        : {
+    "zh" : "\u7761\u5728\u7A9D\u91CC",
+    "en" : "Sheltered Sleep",
+    "ja" : "\u5B89\u5FC3\u3057\u3066\u5BDD\u308B"
+  },
+  "_uuid"                       : "16f28da76313b394cb359aefdf510a9d"
+}

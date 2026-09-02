@@ -1,1 +1,150 @@
-{"GameName":{"zh":"\u53D1\u578B","en":"Hair Type","ja":"Hair Type"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":3.0},"DefaultRate":0.0,"Statuses":[{"GameName":{"zh":"\u6709\u76F4\u53D1\u3002","en":"Has straight hair.","ja":"Has straight hair."},"VisibleToPlayer":true,"Priority":0,"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_HairLength","type":"NPCStat","name":{"zh":"\u53D1\u957F","en":"Partner_HairLength","ja":"Partner_HairLength"}},"MaxValueChange":{"MaxValue":0.0,"FloatValue":0.0,"Active":true}}]},{"GameName":{"zh":"\u6709\u5927\u6CE2\u6D6A\u3002","en":"Has wavy hair.","ja":"Has wavy hair."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_HairLength","type":"NPCStat","name":{"zh":"\u53D1\u957F","en":"Partner_HairLength","ja":"Partner_HairLength"}},"MaxValueChange":{"MaxValue":-34560.0,"FloatValue":-34560.0,"Active":true}}]},{"GameName":{"zh":"\u6709\u5927\u5377\u53D1\u3002","en":"Has curly hair.","ja":"Has curly hair."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":2,"m_Y":2},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_HairLength","type":"NPCStat","name":{"zh":"\u53D1\u957F","en":"Partner_HairLength","ja":"Partner_HairLength"}},"MaxValueChange":{"MaxValue":-46080.0,"FloatValue":-46080.0,"Active":true}}]},{"GameName":{"zh":"\u6709\u7F8A\u6BDB\u5377\u3002","en":"Has kinky hair.","ja":"Has kinky hair."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":3,"m_Y":3},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_HairLength","type":"NPCStat","name":{"zh":"\u53D1\u957F","en":"Partner_HairLength","ja":"Partner_HairLength"}},"MaxValueChange":{"MaxValue":-46080.0,"FloatValue":-46080.0,"Active":true}}]}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"type":"NPCStat","key":"Partner_HairType","name":{"zh":"\u53D1\u578B","en":"Partner_HairType","ja":"Partner_HairType"},"_uuid":"49cba5700bd5fe64f9388418758c33e1"}
+
+{
+  "GameName" : {
+    "zh" : "\u53D1\u578B",
+    "en" : "Hair Type",
+    "ja" : "Hair Type"
+  },
+  "DefaultStartingValue" : 0.0,
+  "DefaultMinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 3.0
+  },
+  "DefaultRate"          : 0.0,
+  "Statuses"             : [
+    {
+      "GameName" : {
+        "zh" : "\u6709\u76F4\u53D1\u3002",
+        "en" : "Has straight hair.",
+        "ja" : "Has straight hair."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_HairLength",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u53D1\u957F",
+              "en" : "Partner_HairLength",
+              "ja" : "Partner_HairLength"
+            }
+          },
+          "MaxValueChange" : {
+            "MaxValue" : 0.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6709\u5927\u6CE2\u6D6A\u3002",
+        "en" : "Has wavy hair.",
+        "ja" : "Has wavy hair."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_HairLength",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u53D1\u957F",
+              "en" : "Partner_HairLength",
+              "ja" : "Partner_HairLength"
+            }
+          },
+          "MaxValueChange" : {
+            "MaxValue" : -34560.0,
+            "FloatValue" : -34560.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6709\u5927\u5377\u53D1\u3002",
+        "en" : "Has curly hair.",
+        "ja" : "Has curly hair."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_HairLength",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u53D1\u957F",
+              "en" : "Partner_HairLength",
+              "ja" : "Partner_HairLength"
+            }
+          },
+          "MaxValueChange" : {
+            "MaxValue" : -46080.0,
+            "FloatValue" : -46080.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6709\u7F8A\u6BDB\u5377\u3002",
+        "en" : "Has kinky hair.",
+        "ja" : "Has kinky hair."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 3,
+        "m_Y" : 3
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_HairLength",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u53D1\u957F",
+              "en" : "Partner_HairLength",
+              "ja" : "Partner_HairLength"
+            }
+          },
+          "MaxValueChange" : {
+            "MaxValue" : -46080.0,
+            "FloatValue" : -46080.0,
+            "Active"     : true
+          }
+        }
+      ]
+    }
+  ],
+  "HidingOptions"        : 0,
+  "TextDisplay"          : 0,
+  "NumberPrecision"      : 0,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "type"                    : "NPCStat",
+  "key"                     : "Partner_HairType",
+  "name"                    : {
+    "zh" : "\u53D1\u578B",
+    "en" : "Partner_HairType",
+    "ja" : "Partner_HairType"
+  },
+  "_uuid"                   : "49cba5700bd5fe64f9388418758c33e1"
+}

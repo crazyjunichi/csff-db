@@ -1,1 +1,78 @@
-{"DutyName":{"zh":"\u8349\u98DF\u6742\u98DF\u8FDB\u98DF","en":"Hare Feed Herbi Omni","ja":"Hare Feed Herbi Omni"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":95.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":2,"ActionSequence":[{"key":"HareFeedHerbiOmni","type":"ChangeNPCStatDutyAction","name":{"zh":"HareFeedHerbiOmni","en":"HareFeedHerbiOmni","ja":"HareFeedHerbiOmni"}},{"key":"HareDestroyFeedHerbiOmni","type":"AffectItemsDutyAction","name":{"zh":"HareDestroyFeedHerbiOmni","en":"HareDestroyFeedHerbiOmni","ja":"HareDestroyFeedHerbiOmni"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Hare_FeedHerbiOmni","name":{"zh":"\u8349\u98DF\u6742\u98DF\u8FDB\u98DF","en":"Hare Feed Herbi Omni","ja":"Hare Feed Herbi Omni"},"_uuid":"8e95c970355e8d84c9a8d84e54c08fe9"}
+
+{
+  "DutyName" : {
+    "zh" : "\u8349\u98DF\u6742\u98DF\u8FDB\u98DF",
+    "en" : "Hare Feed Herbi Omni",
+    "ja" : "Hare Feed Herbi Omni"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 95.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 2,
+  "ActionSequence"                   : [
+    {
+      "key" : "HareFeedHerbiOmni",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "HareFeedHerbiOmni",
+        "en" : "HareFeedHerbiOmni",
+        "ja" : "HareFeedHerbiOmni"
+      }
+    },
+    {
+      "key" : "HareDestroyFeedHerbiOmni",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "HareDestroyFeedHerbiOmni",
+        "en" : "HareDestroyFeedHerbiOmni",
+        "ja" : "HareDestroyFeedHerbiOmni"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Hare_FeedHerbiOmni",
+  "name"                             : {
+    "zh" : "\u8349\u98DF\u6742\u98DF\u8FDB\u98DF",
+    "en" : "Hare Feed Herbi Omni",
+    "ja" : "Hare Feed Herbi Omni"
+  },
+  "_uuid"                            : "8e95c970355e8d84c9a8d84e54c08fe9"
+}

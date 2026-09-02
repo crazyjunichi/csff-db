@@ -1,1 +1,406 @@
-{"GameName":{"zh":"\u7EF4\u751F\u7D20","en":"Vitamins","ja":"\u30D3\u30BF\u30DF\u30F3"},"Description":{"zh":"\u5BF9\u4F60\u7684\u514D\u75AB\u7CFB\u7EDF\u3001\u60C5\u7EEA\u548C\u8010\u529B\u6709\u76CA\u3002\u53EF\u901A\u8FC7\u5403\u852C\u83DC\u83B7\u5F97\u3002","en":"Helps your immune system, mood and stamina. Can be gained by eating vegetables.","ja":"\u514D\u75AB\u529B\u3001\u6C17\u5206\u3001\u30B9\u30BF\u30DF\u30CA\u3092\u6539\u5584\u3059\u308B\u3002\u91CE\u83DC\u3092\u98DF\u3079\u305F\u3089\u6442\u53D6\u3067\u304D\u308B\u3002"},"BaseValue":336.0,"MinMaxValue":{"x":0.0,"y":336.0},"BaseRatePerTick":-0.5,"StatPriority":100,"Visibility":0,"BarColor":{"r":0.2235,"g":0.4,"b":0.8706,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"544dd80cb4004856"},"Statuses":[{"GameName":{"zh":"\u4F4E\u7EF4\u751F\u7D20","en":"Low Vitamins","ja":"\u5C11\u306A\u3044\u30D3\u30BF\u30DF\u30F3"},"StatusLog":{"TicksToRegister":10},"Icon":{"FileName":"544dd80cb4004856"},"EffectsOnStats":[{"Stat":{"key":"ImmuneSystem","type":"GameStat","icon":"d47179c32ba52c4f","min":0.0,"max":325.0,"name":{"zh":"\u514D\u75AB\u7CFB\u7EDF","en":"Immune System","ja":"\u514D\u75AB\u7CFB"}},"ValueModifier":{"x":-100.0,"y":-100.0}},{"Stat":{"key":"Energy","type":"GameStat","icon":"5cc28f31113ec7cd","min":0.0,"max":96.0,"name":{"zh":"\u7CBE\u529B","en":"Energy","ja":"\u30A8\u30CD\u30EB\u30AE\u30FC"}},"MaxValueModifier":{"x":-30.0,"y":-30.0}},{"Stat":{"key":"Morale","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-350.0,"max":350.0,"name":{"zh":"\u60C5\u7EEA","en":"Morale","ja":"\u58EB\u6C17"}},"RateModifier":{"x":-0.4,"y":-0.4}}],"NotifyPlayer":3,"RepeatTextNotification":2,"AlertLevel":2,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"544dd80cb4004856"},"StepValue":10.0},"type":"GameStat","key":"Vitamins","icon":"544dd80cb4004856","name":{"zh":"\u7EF4\u751F\u7D20","en":"Vitamins","ja":"\u30D3\u30BF\u30DF\u30F3"},"min":0.0,"max":336.0,"_modifierValues":[{"source":{"key":"Spice_Fireroot","type":"SpiceTag","icon":"e47b0709091ca915","name":{"zh":"\u706B\u6839","en":"Fireroot","ja":"\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"}},"description":{"zh":"\u9999\u6599","en":"Spice","ja":"\u30B9\u30D1\u30A4\u30B9"},"value":{"x":12.0,"y":12.0}},{"source":{"key":"Spice_Frostleaf","type":"SpiceTag","icon":"ea2f2196ea700fb4","name":{"zh":"\u971C\u53F6","en":"Frostleaf","ja":"\u30D5\u30ED\u30B9\u30C8\u30EA\u30FC\u30D5"}},"description":{"zh":"\u9999\u6599","en":"Spice","ja":"\u30B9\u30D1\u30A4\u30B9"},"value":{"x":24.0,"y":24.0}},{"source":{"key":"Spice_GarlicDry","type":"SpiceTag","icon":"59a2314c435ebbc4","name":{"zh":"\u849C","en":"Garlic","ja":"\u30CB\u30F3\u30CB\u30AF"}},"description":{"zh":"\u9999\u6599","en":"Spice","ja":"\u30B9\u30D1\u30A4\u30B9"},"value":{"x":32.0,"y":32.0}},{"source":{"key":"Spice_WolfsbanePowder","type":"SpiceTag","icon":"df89ee453c01b631","name":{"zh":"\u4E4C\u5934","en":"Wolfsbane","ja":"\u30C8\u30EA\u30AB\u30D6\u30C8"}},"description":{"zh":"\u9999\u6599","en":"Spice","ja":"\u30B9\u30D1\u30A4\u30B9"},"value":{"x":12.0,"y":12.0}}],"_modifierRates":[{"source":{"key":"Vitamins_Stomach","type":"GameStat","icon":"5392c9b69c0e62e6","min":0.0,"max":200.0,"name":{"zh":"\u80C3\u4E2D\u7684\u7EF4\u751F\u7D20","en":"Stomach Vitamins","ja":"\u304A\u8179\u306E\u30D3\u30BF\u30DF\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6D88\u5316","en":"Status Stage: Digestion","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6D88\u5316"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Vitamins_Stomach","type":"GameStat","icon":"5392c9b69c0e62e6","min":0.0,"max":200.0,"name":{"zh":"\u80C3\u4E2D\u7684\u7EF4\u751F\u7D20","en":"Stomach Vitamins","ja":"\u304A\u8179\u306E\u30D3\u30BF\u30DF\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6D88\u5316","en":"Status Stage: Digestion","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6D88\u5316"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"Vitamins_Stomach","type":"GameStat","icon":"5392c9b69c0e62e6","min":0.0,"max":200.0,"name":{"zh":"\u80C3\u4E2D\u7684\u7EF4\u751F\u7D20","en":"Stomach Vitamins","ja":"\u304A\u8179\u306E\u30D3\u30BF\u30DF\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6D88\u5316","en":"Status Stage: Digestion","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6D88\u5316"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"Vitamins_Stomach","type":"GameStat","icon":"5392c9b69c0e62e6","min":0.0,"max":200.0,"name":{"zh":"\u80C3\u4E2D\u7684\u7EF4\u751F\u7D20","en":"Stomach Vitamins","ja":"\u304A\u8179\u306E\u30D3\u30BF\u30DF\u30F3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6D88\u5316","en":"Status Stage: Digestion","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6D88\u5316"},"value":{"x":20.0,"y":20.0}},{"source":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Status Stage: Parasitic Gut Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"},"value":{"x":-0.05,"y":-0.05}},{"source":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Status Stage: Parasitic Gut Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"},"value":{"x":-0.1,"y":-0.1}},{"source":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Status Stage: Parasitic Gut Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"},"value":{"x":-0.25,"y":-0.25}},{"source":{"key":"Parasites","type":"GameStat","icon":"8558da1fa3bc6b3a","min":0.0,"max":1500.0,"name":{"zh":"\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Parasitic Gut Infection","ja":"\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3","en":"Status Stage: Parasitic Gut Infection","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"},"value":{"x":-0.5,"y":-0.5}}],"_uuid":"ab094dcec6c8a0d4ca8b5f238a6cf86c"}
+
+{
+  "GameName" : {
+    "zh" : "\u7EF4\u751F\u7D20",
+    "en" : "Vitamins",
+    "ja" : "\u30D3\u30BF\u30DF\u30F3"
+  },
+  "Description" : {
+    "zh" : "\u5BF9\u4F60\u7684\u514D\u75AB\u7CFB\u7EDF\u3001\u60C5\u7EEA\u548C\u8010\u529B\u6709\u76CA\u3002\u53EF\u901A\u8FC7\u5403\u852C\u83DC\u83B7\u5F97\u3002",
+    "en" : "Helps your immune system, mood and stamina. Can be gained by eating vegetables.",
+    "ja" : "\u514D\u75AB\u529B\u3001\u6C17\u5206\u3001\u30B9\u30BF\u30DF\u30CA\u3092\u6539\u5584\u3059\u308B\u3002\u91CE\u83DC\u3092\u98DF\u3079\u305F\u3089\u6442\u53D6\u3067\u304D\u308B\u3002"
+  },
+  "BaseValue"   : 336.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 336.0
+  },
+  "BaseRatePerTick" : -0.5,
+  "StatPriority"    : 100,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.2235,
+    "g" : 0.4,
+    "b" : 0.8706,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u4F4E\u7EF4\u751F\u7D20",
+        "en" : "Low Vitamins",
+        "ja" : "\u5C11\u306A\u3044\u30D3\u30BF\u30DF\u30F3"
+      },
+      "StatusLog" : {
+        "TicksToRegister" : 10
+      },
+      "Icon"      : {
+        "FileName" : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon"
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Energy",
+            "type" : "GameStat",
+            "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 96.0,
+            "name" : {
+              "zh" : "\u7CBE\u529B",
+              "en" : "Energy",
+              "ja" : "\u30A8\u30CD\u30EB\u30AE\u30FC"
+            }
+          },
+          "MaxValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Morale",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+            "min"  : -350.0,
+            "max"  : 350.0,
+            "name" : {
+              "zh" : "\u60C5\u7EEA",
+              "en" : "Morale",
+              "ja" : "\u58EB\u6C17"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.4,
+            "y" : -0.4
+          }
+        }
+      ],
+      "NotifyPlayer"   : 3,
+      "RepeatTextNotification" : 2,
+      "AlertLevel"             : 2,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon"
+    },
+    "StepValue" : 10.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Vitamins",
+  "icon"                    : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon",
+  "name"                    : {
+    "zh" : "\u7EF4\u751F\u7D20",
+    "en" : "Vitamins",
+    "ja" : "\u30D3\u30BF\u30DF\u30F3"
+  },
+  "min"                     : 0.0,
+  "max"                     : 336.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Spice_Fireroot",
+        "type" : "SpiceTag",
+        "icon" : "CardData__FirerootPowder__CardImage",
+        "name" : {
+          "zh" : "\u706B\u6839",
+          "en" : "Fireroot",
+          "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u9999\u6599",
+        "en" : "Spice",
+        "ja" : "\u30B9\u30D1\u30A4\u30B9"
+      },
+      "value"       : {
+        "x" : 12.0,
+        "y" : 12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Spice_Frostleaf",
+        "type" : "SpiceTag",
+        "icon" : "CardData__FrostleafPowder__CardImage",
+        "name" : {
+          "zh" : "\u971C\u53F6",
+          "en" : "Frostleaf",
+          "ja" : "\u30D5\u30ED\u30B9\u30C8\u30EA\u30FC\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u9999\u6599",
+        "en" : "Spice",
+        "ja" : "\u30B9\u30D1\u30A4\u30B9"
+      },
+      "value"       : {
+        "x" : 24.0,
+        "y" : 24.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Spice_GarlicDry",
+        "type" : "SpiceTag",
+        "icon" : "CardData__Bonemeal__CardImage",
+        "name" : {
+          "zh" : "\u849C",
+          "en" : "Garlic",
+          "ja" : "\u30CB\u30F3\u30CB\u30AF"
+        }
+      },
+      "description" : {
+        "zh" : "\u9999\u6599",
+        "en" : "Spice",
+        "ja" : "\u30B9\u30D1\u30A4\u30B9"
+      },
+      "value"       : {
+        "x" : 32.0,
+        "y" : 32.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Spice_WolfsbanePowder",
+        "type" : "SpiceTag",
+        "icon" : "SpiceTag__Spice_WolfsbanePowder__CustomSpiceIcon",
+        "name" : {
+          "zh" : "\u4E4C\u5934",
+          "en" : "Wolfsbane",
+          "ja" : "\u30C8\u30EA\u30AB\u30D6\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u9999\u6599",
+        "en" : "Spice",
+        "ja" : "\u30B9\u30D1\u30A4\u30B9"
+      },
+      "value"       : {
+        "x" : 12.0,
+        "y" : 12.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "Vitamins_Stomach",
+        "type" : "GameStat",
+        "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 200.0,
+        "name" : {
+          "zh" : "\u80C3\u4E2D\u7684\u7EF4\u751F\u7D20",
+          "en" : "Stomach Vitamins",
+          "ja" : "\u304A\u8179\u306E\u30D3\u30BF\u30DF\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6D88\u5316",
+        "en" : "Status Stage: Digestion",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6D88\u5316"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Vitamins_Stomach",
+        "type" : "GameStat",
+        "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 200.0,
+        "name" : {
+          "zh" : "\u80C3\u4E2D\u7684\u7EF4\u751F\u7D20",
+          "en" : "Stomach Vitamins",
+          "ja" : "\u304A\u8179\u306E\u30D3\u30BF\u30DF\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6D88\u5316",
+        "en" : "Status Stage: Digestion",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6D88\u5316"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Vitamins_Stomach",
+        "type" : "GameStat",
+        "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 200.0,
+        "name" : {
+          "zh" : "\u80C3\u4E2D\u7684\u7EF4\u751F\u7D20",
+          "en" : "Stomach Vitamins",
+          "ja" : "\u304A\u8179\u306E\u30D3\u30BF\u30DF\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6D88\u5316",
+        "en" : "Status Stage: Digestion",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6D88\u5316"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Vitamins_Stomach",
+        "type" : "GameStat",
+        "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 200.0,
+        "name" : {
+          "zh" : "\u80C3\u4E2D\u7684\u7EF4\u751F\u7D20",
+          "en" : "Stomach Vitamins",
+          "ja" : "\u304A\u8179\u306E\u30D3\u30BF\u30DF\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6D88\u5316",
+        "en" : "Status Stage: Digestion",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6D88\u5316"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Parasites",
+        "type" : "GameStat",
+        "icon" : "GameStat__Parasites__Statuses-2-Icon",
+        "min"  : 0.0,
+        "max"  : 1500.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+          "en" : "Parasitic Gut Infection",
+          "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+        "en" : "Status Stage: Parasitic Gut Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : -0.05,
+        "y" : -0.05
+      }
+    },
+    {
+      "source" : {
+        "key" : "Parasites",
+        "type" : "GameStat",
+        "icon" : "GameStat__Parasites__Statuses-2-Icon",
+        "min"  : 0.0,
+        "max"  : 1500.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+          "en" : "Parasitic Gut Infection",
+          "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+        "en" : "Status Stage: Parasitic Gut Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : -0.1,
+        "y" : -0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "Parasites",
+        "type" : "GameStat",
+        "icon" : "GameStat__Parasites__Statuses-2-Icon",
+        "min"  : 0.0,
+        "max"  : 1500.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+          "en" : "Parasitic Gut Infection",
+          "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+        "en" : "Status Stage: Parasitic Gut Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : -0.25,
+        "y" : -0.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "Parasites",
+        "type" : "GameStat",
+        "icon" : "GameStat__Parasites__Statuses-2-Icon",
+        "min"  : 0.0,
+        "max"  : 1500.0,
+        "name" : {
+          "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+          "en" : "Parasitic Gut Infection",
+          "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
+        "en" : "Status Stage: Parasitic Gut Infection",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+      },
+      "value"       : {
+        "x" : -0.5,
+        "y" : -0.5
+      }
+    }
+  ],
+  "_uuid"                   : "ab094dcec6c8a0d4ca8b5f238a6cf86c"
+}

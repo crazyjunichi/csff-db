@@ -1,1 +1,142 @@
-{"ObjectiveDescription":{"zh":"\u519C\u5177","en":"Farming Tools","ja":"\u8FB2\u5177"},"NotificationSettings":{"Frequency":1,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"Completed","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Farmer_FarmingTools_Completed_Event","type":"CardData","CardType":3,"icon":"9ce652dfdffba972","name":{"zh":"\u519C\u5177","en":"Farming Tools","ja":"\u8FB2\u5177"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"NestedObjectives":[{"ObjectiveCondition":{"key":"Farmer_FarmingTools_Obj1_Garden","type":"Objective","name":{"zh":"\u83DC\u56ED","en":"Garden","ja":"\u30AC\u30FC\u30C7\u30F3"}},"ObjectiveName":"1","CompletionWeight":1},{"ObjectiveCondition":{"key":"Farmer_FarmingTools_Obj2_CompostBin","type":"Objective","name":{"zh":"\u5806\u80A5\u7BB1","en":"Compost Bin","ja":"\u5806\u80A5\u7BB1"}},"ObjectiveName":"2","CompletionWeight":1},{"ObjectiveCondition":{"key":"Farmer_FarmingTools_Obj3_Field","type":"Objective","name":{"zh":"\u8015\u5730","en":"Field","ja":"\u7551"}},"ObjectiveName":"3","CompletionWeight":1},{"ObjectiveCondition":{"key":"Farmer_FarmingTools_Obj4_Sickle","type":"Objective","name":{"zh":"\u9570\u5200","en":"Sickle","ja":"\u938C"}},"ObjectiveName":"4","CompletionWeight":1},{"ObjectiveCondition":{"key":"Farmer_FarmingTools_Obj5_Scythe","type":"Objective","name":{"zh":"\u5927\u9570\u5200","en":"Scythe","ja":"\u5927\u938C"}},"ObjectiveName":"5","CompletionWeight":1},{"ObjectiveCondition":{"key":"Farmer_FarmingTools_Obj6_MetalHoe","type":"Objective","name":{"zh":"\u91D1\u5C5E\u9504","en":"Metal Hoe","ja":"\u91D1\u5C5E\u88FD\u306E\u936C"}},"ObjectiveName":"6","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":0,"type":"Objective","key":"Farmer_FarmingTools_Completed","name":{"zh":"\u519C\u5177","en":"Farming Tools","ja":"\u8FB2\u5177"},"_uuid":"bed10c2c8d4f5834b982972e0ddef33c"}
+
+{
+  "ObjectiveDescription" : {
+    "zh" : "\u519C\u5177",
+    "en" : "Farming Tools",
+    "ja" : "\u8FB2\u5177"
+  },
+  "NotificationSettings" : {
+    "Frequency" : 1,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ProducedCards" : [
+        {
+          "CollectionName" : "Completed",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Farmer_FarmingTools_Completed_Event",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "CardData__Bp_ToolOrWeapon_Sickle_Metal__CardImage",
+                "name"     : {
+                  "zh" : "\u519C\u5177",
+                  "en" : "Farming Tools",
+                  "ja" : "\u8FB2\u5177"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "FadeToBlack"   : 0,
+      "RoomDirection" : 0,
+      "ExitDirection" : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "NestedObjectives"     : [
+    {
+      "ObjectiveCondition" : {
+        "key" : "Farmer_FarmingTools_Obj1_Garden",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u83DC\u56ED",
+          "en" : "Garden",
+          "ja" : "\u30AC\u30FC\u30C7\u30F3"
+        }
+      },
+      "ObjectiveName"      : "1",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Farmer_FarmingTools_Obj2_CompostBin",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u5806\u80A5\u7BB1",
+          "en" : "Compost Bin",
+          "ja" : "\u5806\u80A5\u7BB1"
+        }
+      },
+      "ObjectiveName"      : "2",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Farmer_FarmingTools_Obj3_Field",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u8015\u5730",
+          "en" : "Field",
+          "ja" : "\u7551"
+        }
+      },
+      "ObjectiveName"      : "3",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Farmer_FarmingTools_Obj4_Sickle",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u9570\u5200",
+          "en" : "Sickle",
+          "ja" : "\u938C"
+        }
+      },
+      "ObjectiveName"      : "4",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Farmer_FarmingTools_Obj5_Scythe",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u5927\u9570\u5200",
+          "en" : "Scythe",
+          "ja" : "\u5927\u938C"
+        }
+      },
+      "ObjectiveName"      : "5",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "Farmer_FarmingTools_Obj6_MetalHoe",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u91D1\u5C5E\u9504",
+          "en" : "Metal Hoe",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u936C"
+        }
+      },
+      "ObjectiveName"      : "6",
+      "CompletionWeight"   : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "Objective",
+  "key"                         : "Farmer_FarmingTools_Completed",
+  "name"                        : {
+    "zh" : "\u519C\u5177",
+    "en" : "Farming Tools",
+    "ja" : "\u8FB2\u5177"
+  },
+  "_uuid"                       : "bed10c2c8d4f5834b982972e0ddef33c"
+}

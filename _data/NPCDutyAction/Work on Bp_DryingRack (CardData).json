@@ -1,1 +1,67 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"Bp_DryingRack","type":"CardData","CardType":7,"icon":"4f64f6fa0ea32b72","name":{"zh":"\u667E\u6652\u67B6","en":"Drying Rack","ja":"\u7269\u5E72\u3057"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":1,"OwnershipPriority":0,"DutyPriority":2,"Containers":{"CanLookInContainers":true},"DebugItemSelection":true},"AffectType":4,"SimpleAffectDuration":0,"BpIngredientsSelection":{"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":0,"Containers":{"CanLookInContainers":true,"NOTAllowedContainers":[{"Target":{"key":"Bp_DryingRack","type":"CardData","CardType":7,"icon":"4f64f6fa0ea32b72","name":{"zh":"\u667E\u6652\u67B6","en":"Drying Rack","ja":"\u7269\u5E72\u3057"}}}]},"DebugItemSelection":true},"key":"Work on Bp_DryingRack (CardData)","type":"NPCDutyAction","name":{"zh":"Work on Bp_DryingRack (CardData)","en":"Work on Bp_DryingRack (CardData)","ja":"Work on Bp_DryingRack (CardData)"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Bp_DryingRack",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Bp_DryingRack__CardImage",
+            "name"     : {
+              "zh" : "\u667E\u6652\u67B6",
+              "en" : "Drying Rack",
+              "ja" : "\u7269\u5E72\u3057"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Bp_DryingRack",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Bp_DryingRack__CardImage",
+            "name"     : {
+              "zh" : "\u667E\u6652\u67B6",
+              "en" : "Drying Rack",
+              "ja" : "\u7269\u5E72\u3057"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Bp_DryingRack (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "Work on Bp_DryingRack (CardData)",
+    "en" : "Work on Bp_DryingRack (CardData)",
+    "ja" : "Work on Bp_DryingRack (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

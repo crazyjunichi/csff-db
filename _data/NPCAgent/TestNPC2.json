@@ -1,1 +1,220 @@
-{"AgentName":{"zh":"Test 2","en":"Test 2","ja":"Test 2"},"AgentImage":{"FileName":"c59a448ea61efdad"},"WeightCategory":{"key":"Heavy","type":"AgentWeightCategory","name":{"zh":"\u6C89\u7684","en":"Heavy","ja":"\u91CD\u3044"}},"Interactions":[{"ButtonName":{"zh":"Talk","en":"Talk","ja":"Talk"},"ButtonType":0}],"AmbientSoundRealRange":0.0,"AmbientSoundNodesRange":0,"AgentStats":[{"ModelStat":{"GameName":{"zh":"Blobbiness","en":"Blobbiness","ja":"Blobbiness"},"DefaultStartingValue":20.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"TestNPCStat","zh":"Blobbiness","en":"TestNPCStat","ja":"TestNPCStat"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0}],"AgentActions":[{"ActionID":"Fight","RepeatOptions":2,"Conditions":{"NotInBackground":true,"PlayerUsesCard":0},"DroppedCards":[{"CollectionName":"Event","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Combat_EncounterTest2Event","type":"CardData","CardType":3,"icon":"9dcc5383b66aa4b8","name":{"zh":"\u4F60\u770B\u5230\u4E86\u4E00\u53EA\u6BCD\u9E7F\uFF01","en":"You see Test 2","ja":"\u96CC\u9E7F\u304C\u3044\u305F\uFF01"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"MoveTiming":0,"TriggerHidingGroups":[{"key":"TestHunting","type":"NPCHidingGroup","name":{"zh":"TestHunting","en":"TestHunting","ja":"TestHunting"}}]}],"MaxCarryWeight":10000.0,"StartingInventory":[{"Item":{"key":"Ash","type":"CardData","CardType":0,"icon":"bebd38011265cc9c","name":{"zh":"\u7070\u70EC","en":"Ash","ja":"\u7070"}},"Quantity":{"m_X":10,"m_Y":50}},{"Quantity":{"m_X":1,"m_Y":1}}],"TradingModifiers":[{"ForTradingDirection":0,"TargetItems":[{"Target":{"key":"Ash","type":"CardData","CardType":0,"icon":"bebd38011265cc9c","name":{"zh":"\u7070\u70EC","en":"Ash","ja":"\u7070"}}}],"ModifierMode":0,"SimpleModifier":5.0},{"ForTradingDirection":0,"ModifierMode":0,"SimpleModifier":10.0},{"ForTradingDirection":0,"TargetItems":[{"Target":{"key":"tag_Feed","type":"CardTag","count":305,"name":{"zh":"\u5582/\u6DFB\u52A0","en":"Feed","ja":"\u990C"}}},{"Target":{"key":"tag_Fuel","type":"CardTag","count":23,"name":{"zh":"\u71C3\u6599","en":"Fuel","ja":"\u71C3\u6599"}}},{"Target":{"key":"tag_Cutter","type":"CardTag","count":11,"name":{"zh":"\u5207\u5272\u5DE5\u5177","en":"Cutter","ja":"Cutter"}}}],"ModifierMode":0,"SimpleModifier":1.0}],"DebugColor":{"r":1.0,"g":0.0,"b":0.0,"a":1.0},"type":"NPCAgent","key":"TestNPC2","icon":"c59a448ea61efdad","name":{"zh":"Test 2","en":"Test 2","ja":"Test 2"},"_uuid":"08423b9060a784d41a742b9e3d082718"}
+
+{
+  "AgentName" : {
+    "zh" : "Test 2",
+    "en" : "Test 2",
+    "ja" : "Test 2"
+  },
+  "AgentImage" : {
+    "FileName" : "NPCAgent__TestNPC2__AgentImage"
+  },
+  "WeightCategory" : {
+    "key" : "Heavy",
+    "type" : "AgentWeightCategory",
+    "name" : {
+      "zh" : "\u6C89\u7684",
+      "en" : "Heavy",
+      "ja" : "\u91CD\u3044"
+    }
+  },
+  "Interactions"   : [
+    {
+      "ButtonName" : {
+        "zh" : "Talk",
+        "en" : "Talk",
+        "ja" : "Talk"
+      },
+      "ButtonType" : 0
+    }
+  ],
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 0,
+  "AgentStats"             : [
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "Blobbiness",
+          "en" : "Blobbiness",
+          "ja" : "Blobbiness"
+        },
+        "DefaultStartingValue" : 20.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "TestNPCStat",
+        "zh"                      : "Blobbiness",
+        "en"                      : "TestNPCStat",
+        "ja"                      : "TestNPCStat"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    }
+  ],
+  "AgentActions"           : [
+    {
+      "ActionID" : "Fight",
+      "RepeatOptions" : 2,
+      "Conditions"    : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0
+      },
+      "DroppedCards"  : [
+        {
+          "CollectionName" : "Event",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Combat_EncounterTest2Event",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "NPCAgent__Agent_Doe__AgentImage",
+                "name"     : {
+                  "zh" : "\u4F60\u770B\u5230\u4E86\u4E00\u53EA\u6BCD\u9E7F\uFF01",
+                  "en" : "You see Test 2",
+                  "ja" : "\u96CC\u9E7F\u304C\u3044\u305F\uFF01"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "MoveTiming"    : 0,
+      "TriggerHidingGroups" : [
+        {
+          "key" : "TestHunting",
+          "type" : "NPCHidingGroup",
+          "name" : {
+            "zh" : "TestHunting",
+            "en" : "TestHunting",
+            "ja" : "TestHunting"
+          }
+        }
+      ]
+    }
+  ],
+  "MaxCarryWeight"         : 10000.0,
+  "StartingInventory"      : [
+    {
+      "Item" : {
+        "key" : "Ash",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Ash__CardImage",
+        "name"     : {
+          "zh" : "\u7070\u70EC",
+          "en" : "Ash",
+          "ja" : "\u7070"
+        }
+      },
+      "Quantity" : {
+        "m_X" : 10,
+        "m_Y" : 50
+      }
+    },
+    {
+      "Quantity" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      }
+    }
+  ],
+  "TradingModifiers"       : [
+    {
+      "ForTradingDirection" : 0,
+      "TargetItems"         : [
+        {
+          "Target" : {
+            "key" : "Ash",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "CardData__Ash__CardImage",
+            "name"     : {
+              "zh" : "\u7070\u70EC",
+              "en" : "Ash",
+              "ja" : "\u7070"
+            }
+          }
+        }
+      ],
+      "ModifierMode"        : 0,
+      "SimpleModifier"      : 5.0
+    },
+    {
+      "ForTradingDirection" : 0,
+      "ModifierMode"        : 0,
+      "SimpleModifier"      : 10.0
+    },
+    {
+      "ForTradingDirection" : 0,
+      "TargetItems"         : [
+        {
+          "Target" : {
+            "key" : "tag_Feed",
+            "type" : "CardTag",
+            "count" : 305,
+            "name"  : {
+              "zh" : "\u5582/\u6DFB\u52A0",
+              "en" : "Feed",
+              "ja" : "\u990C"
+            }
+          }
+        },
+        {
+          "Target" : {
+            "key" : "tag_Fuel",
+            "type" : "CardTag",
+            "count" : 23,
+            "name"  : {
+              "zh" : "\u71C3\u6599",
+              "en" : "Fuel",
+              "ja" : "\u71C3\u6599"
+            }
+          }
+        },
+        {
+          "Target" : {
+            "key" : "tag_Cutter",
+            "type" : "CardTag",
+            "count" : 11,
+            "name"  : {
+              "zh" : "\u5207\u5272\u5DE5\u5177",
+              "en" : "Cutter",
+              "ja" : "Cutter"
+            }
+          }
+        }
+      ],
+      "ModifierMode"        : 0,
+      "SimpleModifier"      : 1.0
+    }
+  ],
+  "DebugColor"             : {
+    "r" : 1.0,
+    "g" : 0.0,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "type"                   : "NPCAgent",
+  "key"                    : "TestNPC2",
+  "icon"                   : "NPCAgent__TestNPC2__AgentImage",
+  "name"                   : {
+    "zh" : "Test 2",
+    "en" : "Test 2",
+    "ja" : "Test 2"
+  },
+  "_uuid"                  : "08423b9060a784d41a742b9e3d082718"
+}

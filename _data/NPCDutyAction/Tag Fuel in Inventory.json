@@ -1,1 +1,30 @@
-{"Conditions":{"PlayerUsesCard":0,"RequiredTagsInInventory":[{"key":"tag_Fuel","type":"CardTag","count":23,"name":{"zh":"\u71C3\u6599","en":"Fuel","ja":"\u71C3\u6599"}}]},"OnFalse":{"Outcome":1,"MoveToStep":19},"key":"Tag Fuel in Inventory","type":"NPCDutyAction","name":{"zh":"Tag Fuel in Inventory","en":"Tag Fuel in Inventory","ja":"Tag Fuel in Inventory"},"actionType":"TakeSimpleDecisionDutyAction"}
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredTagsInInventory" : [
+      {
+        "key" : "tag_Fuel",
+        "type" : "CardTag",
+        "count" : 23,
+        "name"  : {
+          "zh" : "\u71C3\u6599",
+          "en" : "Fuel",
+          "ja" : "\u71C3\u6599"
+        }
+      }
+    ]
+  },
+  "OnFalse"    : {
+    "Outcome" : 1,
+    "MoveToStep" : 19
+  },
+  "key"        : "Tag Fuel in Inventory",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "Tag Fuel in Inventory",
+    "en" : "Tag Fuel in Inventory",
+    "ja" : "Tag Fuel in Inventory"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

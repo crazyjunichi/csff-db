@@ -1,1 +1,233 @@
-{"GameName":{"zh":"\u6027\u5668\u5B98","en":"Sexual Organs","ja":"Sexual Organs"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":2.0},"DefaultRate":0.0,"Statuses":[{"GameName":{"zh":"\u5973\u6027","en":"Female","ja":"Female"},"Priority":0,"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_LikesMaleTraits","type":"NPCStat","name":{"zh":"\u559C\u6B22\u7537\u6027\u7279\u5F81","en":"Partner_LikesMaleTraits","ja":"Partner_LikesMaleTraits"}},"ValueChange":{"MaxValue":0.0,"FloatValue":0.0,"Active":true}},{"TargetStat":{"key":"Partner_Estrogen","type":"NPCStat","name":{"zh":"\u96CC\u6FC0\u7D20","en":"Partner_Estrogen","ja":"Partner_Estrogen"}},"ValueChange":{"MaxValue":38.0,"FloatValue":38.0,"Active":true}},{"TargetStat":{"key":"Partner_HairFacialLength","type":"NPCStat","name":{"zh":"\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6","en":"Partner_HairFacialLength","ja":"Partner_HairFacialLength"}},"RateChange":{"MaxValue":-1.0,"FloatValue":-1.0,"Active":true},"MaxValueChange":{"MaxValue":-1343.0,"FloatValue":-1343.0,"Active":true}}]},{"GameName":{"zh":"\u7537\u6027","en":"Male","ja":"Male"},"Priority":0,"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_LikesFemaleTraits","type":"NPCStat","name":{"zh":"\u559C\u6B22\u5973\u6027\u7279\u5F81","en":"Partner_LikesFemaleTraits","ja":"Partner_LikesFemaleTraits"}},"ValueChange":{"MaxValue":0.0,"FloatValue":0.0,"Active":true}},{"TargetStat":{"key":"Partner_Testosterone","type":"NPCStat","name":{"zh":"\u777E\u916E","en":"Partner_Testosterone","ja":"Partner_Testosterone"}},"ValueChange":{"MaxValue":38.0,"FloatValue":38.0,"Active":true}},{"TargetStat":{"key":"Partner_VoiceRegister","type":"NPCStat","name":{"zh":"\u97F3\u57DF","en":"Partner_VoiceRegister","ja":"Partner_VoiceRegister"}},"ValueChange":{"MaxValue":70.0,"FloatValue":70.0,"Active":true}},{"TargetStat":{"key":"Partner_BreastSize","type":"NPCStat","name":{"zh":"\u80F8\u90E8\u5927\u5C0F","en":"Partner_BreastSize","ja":"Partner_BreastSize"}},"ValueChange":{"MaxValue":-20.0,"FloatValue":-20.0,"Active":true}}]},{"GameName":{"zh":"\u53CC\u6027","en":"Both","ja":"Both"},"Priority":0,"ValueRange":{"m_X":2,"m_Y":2},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Estrogen","type":"NPCStat","name":{"zh":"\u96CC\u6FC0\u7D20","en":"Partner_Estrogen","ja":"Partner_Estrogen"}},"ValueChange":{"MaxValue":38.0,"FloatValue":38.0,"Active":true}},{"TargetStat":{"key":"Partner_Testosterone","type":"NPCStat","name":{"zh":"\u777E\u916E","en":"Partner_Testosterone","ja":"Partner_Testosterone"}},"ValueChange":{"MaxValue":38.0,"FloatValue":38.0,"Active":true}},{"TargetStat":{"key":"Partner_VoiceRegister","type":"NPCStat","name":{"zh":"\u97F3\u57DF","en":"Partner_VoiceRegister","ja":"Partner_VoiceRegister"}},"ValueChange":{"MaxValue":70.0,"FloatValue":70.0,"Active":true}}]}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"type":"NPCStat","key":"Partner_SexualOrgans","name":{"zh":"\u6027\u5668\u5B98","en":"Partner_SexualOrgans","ja":"Partner_SexualOrgans"},"_uuid":"95303c7656c36c047ad1a0fed0221a7c"}
+
+{
+  "GameName" : {
+    "zh" : "\u6027\u5668\u5B98",
+    "en" : "Sexual Organs",
+    "ja" : "Sexual Organs"
+  },
+  "DefaultStartingValue" : 0.0,
+  "DefaultMinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 2.0
+  },
+  "DefaultRate"          : 0.0,
+  "Statuses"             : [
+    {
+      "GameName" : {
+        "zh" : "\u5973\u6027",
+        "en" : "Female",
+        "ja" : "Female"
+      },
+      "Priority" : 0,
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_LikesMaleTraits",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u559C\u6B22\u7537\u6027\u7279\u5F81",
+              "en" : "Partner_LikesMaleTraits",
+              "ja" : "Partner_LikesMaleTraits"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 0.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_Estrogen",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u96CC\u6FC0\u7D20",
+              "en" : "Partner_Estrogen",
+              "ja" : "Partner_Estrogen"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 38.0,
+            "FloatValue" : 38.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_HairFacialLength",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Partner_HairFacialLength",
+              "ja" : "Partner_HairFacialLength"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -1.0,
+            "FloatValue" : -1.0,
+            "Active"     : true
+          },
+          "MaxValueChange" : {
+            "MaxValue" : -1343.0,
+            "FloatValue" : -1343.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u7537\u6027",
+        "en" : "Male",
+        "ja" : "Male"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_LikesFemaleTraits",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u559C\u6B22\u5973\u6027\u7279\u5F81",
+              "en" : "Partner_LikesFemaleTraits",
+              "ja" : "Partner_LikesFemaleTraits"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 0.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_Testosterone",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u777E\u916E",
+              "en" : "Partner_Testosterone",
+              "ja" : "Partner_Testosterone"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 38.0,
+            "FloatValue" : 38.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_VoiceRegister",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u97F3\u57DF",
+              "en" : "Partner_VoiceRegister",
+              "ja" : "Partner_VoiceRegister"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 70.0,
+            "FloatValue" : 70.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_BreastSize",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Partner_BreastSize",
+              "ja" : "Partner_BreastSize"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -20.0,
+            "FloatValue" : -20.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u53CC\u6027",
+        "en" : "Both",
+        "ja" : "Both"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Estrogen",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u96CC\u6FC0\u7D20",
+              "en" : "Partner_Estrogen",
+              "ja" : "Partner_Estrogen"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 38.0,
+            "FloatValue" : 38.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_Testosterone",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u777E\u916E",
+              "en" : "Partner_Testosterone",
+              "ja" : "Partner_Testosterone"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 38.0,
+            "FloatValue" : 38.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_VoiceRegister",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u97F3\u57DF",
+              "en" : "Partner_VoiceRegister",
+              "ja" : "Partner_VoiceRegister"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 70.0,
+            "FloatValue" : 70.0,
+            "Active"     : true
+          }
+        }
+      ]
+    }
+  ],
+  "HidingOptions"        : 0,
+  "TextDisplay"          : 0,
+  "NumberPrecision"      : 0,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "type"                    : "NPCStat",
+  "key"                     : "Partner_SexualOrgans",
+  "name"                    : {
+    "zh" : "\u6027\u5668\u5B98",
+    "en" : "Partner_SexualOrgans",
+    "ja" : "Partner_SexualOrgans"
+  },
+  "_uuid"                   : "95303c7656c36c047ad1a0fed0221a7c"
+}

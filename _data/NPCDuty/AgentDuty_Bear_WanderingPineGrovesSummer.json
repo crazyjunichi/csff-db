@@ -1,1 +1,88 @@
-{"DutyName":{"zh":"\u590F\u5B63\u677E\u6811\u6797\u95F2\u901B","en":"Bear Wondering Pine Groves Summer","ja":"Bear Wondering Pine Groves Summer"},"ValidTimesOfDay":[{"TimeType":0,"CompareType":0,"StartValue":18,"EndValue":22}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Summer","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u590F\u5B63","en":"Summer Counter","ja":"Summer Counter"}},"TriggerRange":{"x":1.0,"y":2880.0}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"BearMoveWanderPineGrovesSummer","type":"MoveDutyAction","name":{"zh":"BearMoveWanderPineGrovesSummer","en":"BearMoveWanderPineGrovesSummer","ja":"BearMoveWanderPineGrovesSummer"}},{"key":"New WaitDutyAction","type":"WaitDutyAction","name":{"zh":"New WaitDutyAction","en":"New WaitDutyAction","ja":"New WaitDutyAction"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Bear_WanderingPineGrovesSummer","name":{"zh":"\u590F\u5B63\u677E\u6811\u6797\u95F2\u901B","en":"Bear Wondering Pine Groves Summer","ja":"Bear Wondering Pine Groves Summer"},"_uuid":"611d6dc351bfb3941819329850668555"}
+
+{
+  "DutyName" : {
+    "zh" : "\u590F\u5B63\u677E\u6811\u6797\u95F2\u901B",
+    "en" : "Bear Wondering Pine Groves Summer",
+    "ja" : "Bear Wondering Pine Groves Summer"
+  },
+  "ValidTimesOfDay" : [
+    {
+      "TimeType" : 0,
+      "CompareType" : 0,
+      "StartValue"  : 18,
+      "EndValue"    : 22
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredStatValues" : [
+      {
+        "Stat" : {
+          "key" : "SeasonCounter_Summer",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 2880.0,
+          "name" : {
+            "zh" : "\u590F\u5B63",
+            "en" : "Summer Counter",
+            "ja" : "Summer Counter"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 1.0,
+          "y" : 2880.0
+        }
+      }
+    ],
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "BearMoveWanderPineGrovesSummer",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "BearMoveWanderPineGrovesSummer",
+        "en" : "BearMoveWanderPineGrovesSummer",
+        "ja" : "BearMoveWanderPineGrovesSummer"
+      }
+    },
+    {
+      "key" : "New WaitDutyAction",
+      "type" : "WaitDutyAction",
+      "name" : {
+        "zh" : "New WaitDutyAction",
+        "en" : "New WaitDutyAction",
+        "ja" : "New WaitDutyAction"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Bear_WanderingPineGrovesSummer",
+  "name"                 : {
+    "zh" : "\u590F\u5B63\u677E\u6811\u6797\u95F2\u901B",
+    "en" : "Bear Wondering Pine Groves Summer",
+    "ja" : "Bear Wondering Pine Groves Summer"
+  },
+  "_uuid"                : "611d6dc351bfb3941819329850668555"
+}

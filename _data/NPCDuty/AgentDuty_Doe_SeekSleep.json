@@ -1,1 +1,88 @@
-{"DutyName":{"zh":"\u524D\u5F80\u4F11\u606F\u5730\u70B9","en":"Doe Seek Sleep","ja":"Doe Seek Sleep"},"ValidTimesOfDay":[{"TimeType":0,"CompareType":0,"StartValue":11,"EndValue":15}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNOTEnvironmentTags":[{"key":"tag_Env_ShelterArea","type":"CardTag","count":4,"name":{"zh":"\u907F\u96BE\u533A","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"ConditionRange":{"x":0.0,"y":75.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"DoeSeekSleepMove","type":"MoveDutyAction","name":{"zh":"DoeSeekSleepMove","en":"DoeSeekSleepMove","ja":"DoeSeekSleepMove"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Doe_SeekSleep","name":{"zh":"\u524D\u5F80\u4F11\u606F\u5730\u70B9","en":"Doe Seek Sleep","ja":"Doe Seek Sleep"},"_uuid":"24ebbf4e6be2a6d4ab3054abdf720044"}
+
+{
+  "DutyName" : {
+    "zh" : "\u524D\u5F80\u4F11\u606F\u5730\u70B9",
+    "en" : "Doe Seek Sleep",
+    "ja" : "Doe Seek Sleep"
+  },
+  "ValidTimesOfDay" : [
+    {
+      "TimeType" : 0,
+      "CompareType" : 0,
+      "StartValue"  : 11,
+      "EndValue"    : 15
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNOTEnvironmentTags" : [
+      {
+        "key" : "tag_Env_ShelterArea",
+        "type" : "CardTag",
+        "count" : 4,
+        "name"  : {
+          "zh" : "\u907F\u96BE\u533A",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"      : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentWakefulness",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6E05\u9192",
+            "en" : "AgentWakefulness",
+            "ja" : "AgentWakefulness"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 75.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "DoeSeekSleepMove",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "DoeSeekSleepMove",
+        "en" : "DoeSeekSleepMove",
+        "ja" : "DoeSeekSleepMove"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Doe_SeekSleep",
+  "name"                 : {
+    "zh" : "\u524D\u5F80\u4F11\u606F\u5730\u70B9",
+    "en" : "Doe Seek Sleep",
+    "ja" : "Doe Seek Sleep"
+  },
+  "_uuid"                : "24ebbf4e6be2a6d4ab3054abdf720044"
+}

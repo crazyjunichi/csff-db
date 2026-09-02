@@ -1,1 +1,89 @@
-{"DutyName":{"zh":"\u975E\u6EE1\u6708\u6D88\u5931","en":"Moontouched go primewalwoods to despawn2","ja":"Moontouched go primewalwoods to despawn2"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"MoonShape","type":"GameStat","min":1.0,"max":6.0,"name":{"zh":"\u6708\u5F62","en":"Moon Shape","ja":"Moon Shape"}},"TriggerRange":{"x":1.0,"y":3.0}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}],"RequiredInGameTimes":[{"TimeType":0,"CompareType":0,"StartValue":13,"EndValue":20}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":0,"ActionSequence":[{"key":"GoTPrimewallWoods","type":"MoveDutyAction","name":{"zh":"GoTPrimewallWoods","en":"GoTPrimewallWoods","ja":"GoTPrimewallWoods"}},{"key":"MoveToMoontouchedWorld","type":"MoveDutyAction","name":{"zh":"MoveToMoontouchedWorld","en":"MoveToMoontouchedWorld","ja":"MoveToMoontouchedWorld"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Moontouched_DespawnOutsideOfFullMoon2","name":{"zh":"\u975E\u6EE1\u6708\u6D88\u5931","en":"Moontouched go primewalwoods to despawn2","ja":"Moontouched go primewalwoods to despawn2"},"_uuid":"3c57b05569ea4d346a1606d96ea35e1d"}
+
+{
+  "DutyName" : {
+    "zh" : "\u975E\u6EE1\u6708\u6D88\u5931",
+    "en" : "Moontouched go primewalwoods to despawn2",
+    "ja" : "Moontouched go primewalwoods to despawn2"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredStatValues" : [
+      {
+        "Stat" : {
+          "key" : "MoonShape",
+          "type" : "GameStat",
+          "min"  : 1.0,
+          "max"  : 6.0,
+          "name" : {
+            "zh" : "\u6708\u5F62",
+            "en" : "Moon Shape",
+            "ja" : "Moon Shape"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 1.0,
+          "y" : 3.0
+        }
+      }
+    ],
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "RequiredInGameTimes"   : [
+      {
+        "TimeType" : 0,
+        "CompareType" : 0,
+        "StartValue"  : 13,
+        "EndValue"    : 20
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "GoTPrimewallWoods",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "GoTPrimewallWoods",
+        "en" : "GoTPrimewallWoods",
+        "ja" : "GoTPrimewallWoods"
+      }
+    },
+    {
+      "key" : "MoveToMoontouchedWorld",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "MoveToMoontouchedWorld",
+        "en" : "MoveToMoontouchedWorld",
+        "ja" : "MoveToMoontouchedWorld"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Moontouched_DespawnOutsideOfFullMoon2",
+  "name"                             : {
+    "zh" : "\u975E\u6EE1\u6708\u6D88\u5931",
+    "en" : "Moontouched go primewalwoods to despawn2",
+    "ja" : "Moontouched go primewalwoods to despawn2"
+  },
+  "_uuid"                            : "3c57b05569ea4d346a1606d96ea35e1d"
+}

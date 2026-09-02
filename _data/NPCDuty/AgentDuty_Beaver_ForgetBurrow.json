@@ -1,1 +1,108 @@
-{"DutyName":{"zh":"\u9057\u5FD8\u5DE2\u7A74","en":"Beaver Forget Burrow","ja":"Beaver Forget Burrow"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_BeaverHabbitat","type":"CardTag","count":5,"name":{"zh":"\u6CB3\u72F8\u6816\u606F\u5730","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentBurrowAbandoned","type":"NPCStat","name":{"zh":"\u9057\u5F03\u6D1E\u7A74","en":"AgentBurrowAbandoned","ja":"AgentBurrowAbandoned"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":0,"ActionSequence":[{"key":"BeaverResetBurrowAbandoned","type":"ChangeNPCStatDutyAction","name":{"zh":"BeaverResetBurrowAbandoned","en":"BeaverResetBurrowAbandoned","ja":"BeaverResetBurrowAbandoned"}},{"key":"BeaverRemoveHome","type":"SetHomeDutyAction","name":{"zh":"BeaverRemoveHome","en":"BeaverRemoveHome","ja":"BeaverRemoveHome"}},{"key":"BeaverRemoveHasHome","type":"ChangeNPCStatDutyAction","name":{"zh":"BeaverRemoveHasHome","en":"BeaverRemoveHasHome","ja":"BeaverRemoveHasHome"}},{"key":"New WaitDutyAction","type":"WaitDutyAction","name":{"zh":"New WaitDutyAction","en":"New WaitDutyAction","ja":"New WaitDutyAction"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Beaver_ForgetBurrow","name":{"zh":"\u9057\u5FD8\u5DE2\u7A74","en":"Beaver Forget Burrow","ja":"Beaver Forget Burrow"},"_uuid":"12928df64f7acf04ba141d9eb794b92a"}
+
+{
+  "DutyName" : {
+    "zh" : "\u9057\u5FD8\u5DE2\u7A74",
+    "en" : "Beaver Forget Burrow",
+    "ja" : "Beaver Forget Burrow"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_BeaverHabbitat",
+        "type" : "CardTag",
+        "count" : 5,
+        "name"  : {
+          "zh" : "\u6CB3\u72F8\u6816\u606F\u5730",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBurrowAbandoned",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9057\u5F03\u6D1E\u7A74",
+            "en" : "AgentBurrowAbandoned",
+            "ja" : "AgentBurrowAbandoned"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "BeaverResetBurrowAbandoned",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "BeaverResetBurrowAbandoned",
+        "en" : "BeaverResetBurrowAbandoned",
+        "ja" : "BeaverResetBurrowAbandoned"
+      }
+    },
+    {
+      "key" : "BeaverRemoveHome",
+      "type" : "SetHomeDutyAction",
+      "name" : {
+        "zh" : "BeaverRemoveHome",
+        "en" : "BeaverRemoveHome",
+        "ja" : "BeaverRemoveHome"
+      }
+    },
+    {
+      "key" : "BeaverRemoveHasHome",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "BeaverRemoveHasHome",
+        "en" : "BeaverRemoveHasHome",
+        "ja" : "BeaverRemoveHasHome"
+      }
+    },
+    {
+      "key" : "New WaitDutyAction",
+      "type" : "WaitDutyAction",
+      "name" : {
+        "zh" : "New WaitDutyAction",
+        "en" : "New WaitDutyAction",
+        "ja" : "New WaitDutyAction"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Beaver_ForgetBurrow",
+  "name"                             : {
+    "zh" : "\u9057\u5FD8\u5DE2\u7A74",
+    "en" : "Beaver Forget Burrow",
+    "ja" : "Beaver Forget Burrow"
+  },
+  "_uuid"                            : "12928df64f7acf04ba141d9eb794b92a"
+}

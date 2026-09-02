@@ -1,1 +1,76 @@
-{"Actions":[{"RepeatOptions":2,"ActionCooldown":0,"PlayerUsesCardCondition":0,"ActionName":{"zh":"A storm!!","en":"A storm!!","ja":"A storm!!"},"DaytimeCost":0,"UseMiniTicks":0,"RequiredStatValues":[{"Stat":{"key":"Sheltered","type":"GameStat","icon":"970da5f1f2e32aeb","min":0.0,"max":1.0,"name":{"zh":"\u906E\u853D","en":"Sheltered","ja":"\u4FDD\u8B77\u3055\u308C\u3066\u308B"}}}],"ProducedCards":[{"CollectionName":"Storm","CollectionWeight":1,"DroppedCards":[{"DroppedCard":{"key":"Event_Storm","type":"CardData","CardType":3,"icon":"2b129297386cc39f","name":{"zh":"The wind is too strong!","en":"The wind is too strong!","ja":"The wind is too strong!"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"StatModifications":[{"ValueModifier":{"x":-5.0,"y":-5.0}}],"RoomDirection":0,"ExitDirection":0}],"type":"SelfTriggeredAction","key":"Tgr_Storm","name":{"zh":"Tgr_Storm","en":"Tgr_Storm","ja":"Tgr_Storm"},"_uuid":"486536a0c47c3c249832e31d3156c448"}
+
+{
+  "Actions" : [
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "ActionName"              : {
+        "zh" : "A storm!!",
+        "en" : "A storm!!",
+        "ja" : "A storm!!"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredStatValues"      : [
+        {
+          "Stat" : {
+            "key" : "Sheltered",
+            "type" : "GameStat",
+            "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u906E\u853D",
+              "en" : "Sheltered",
+              "ja" : "\u4FDD\u8B77\u3055\u308C\u3066\u308B"
+            }
+          }
+        }
+      ],
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "Storm",
+          "CollectionWeight" : 1,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Event_Storm",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "CardData__Event_Storm__CardImage",
+                "name"     : {
+                  "zh" : "The wind is too strong!",
+                  "en" : "The wind is too strong!",
+                  "ja" : "The wind is too strong!"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "type"    : "SelfTriggeredAction",
+  "key"     : "Tgr_Storm",
+  "name"    : {
+    "zh" : "Tgr_Storm",
+    "en" : "Tgr_Storm",
+    "ja" : "Tgr_Storm"
+  },
+  "_uuid"   : "486536a0c47c3c249832e31d3156c448"
+}

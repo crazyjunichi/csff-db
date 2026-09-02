@@ -1,1 +1,216 @@
-{"GameName":{"zh":"\u5207\u56FE\u4FEE\u6B63","en":"Travel Modifier","ja":"\u30C8\u30E9\u30D9\u30EB\u8ABF\u6574"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":3.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"BarColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"\u5207\u56FE\u4FEE\u6B631","en":"Travel Modifier 1","ja":"\u30C8\u30E9\u30D9\u30EB\u8ABF\u6574\uFF11"},"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnActions":[{"AppliesTo":[{"key":"TravelAction","type":"ActionTag","name":{"zh":"\u65C5\u884C\u52A8\u4F5C","en":"TravelAction","ja":"TravelAction"}}],"DurationModifier":-1,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":2.0,"y":2.0},"ApplyEachTick":true}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u5207\u56FE\u4FEE\u6B632","en":"Travel Modifier 2","ja":"\u30C8\u30E9\u30D9\u30EB\u8ABF\u6574\uFF12"},"ValueRange":{"m_X":2,"m_Y":2},"EffectsOnActions":[{"AppliesTo":[{"key":"TravelAction","type":"ActionTag","name":{"zh":"\u65C5\u884C\u52A8\u4F5C","en":"TravelAction","ja":"TravelAction"}}],"DurationModifier":-2,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":4.0,"y":4.0},"ApplyEachTick":true}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u817F\u90E8\u5DE5\u4F5C\u4FEE\u6B633","en":"Leg Modifier 3","ja":"\u30C8\u30E9\u30D9\u30EB\u8ABF\u6574\uFF13"},"ValueRange":{"m_X":3,"m_Y":3},"EffectsOnActions":[{"AppliesTo":[{"key":"TravelAction","type":"ActionTag","name":{"zh":"\u65C5\u884C\u52A8\u4F5C","en":"TravelAction","ja":"TravelAction"}}],"DurationModifier":-3,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":8.0,"y":8.0},"ApplyEachTick":true}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"NotEnoughText":{"zh":"\u817F\u7684\u72B6\u6001\u4E0D\u80FD\u6500\u722C\u3002","en":"My Leg is not in shape for this action.","ja":"\u3053\u306E\u811A\u3067\u3053\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u3067\u304D\u306A\u3044\u3002"},"type":"GameStat","key":"ModifierTravel","name":{"zh":"\u5207\u56FE\u4FEE\u6B63","en":"Travel Modifier","ja":"\u30C8\u30E9\u30D9\u30EB\u8ABF\u6574"},"min":0.0,"max":3.0,"_uuid":"d34fbcaac4642ec4c9602df09f0df59f"}
+
+{
+  "GameName" : {
+    "zh" : "\u5207\u56FE\u4FEE\u6B63",
+    "en" : "Travel Modifier",
+    "ja" : "\u30C8\u30E9\u30D9\u30EB\u8ABF\u6574"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 3.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "BarColor"        : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u5207\u56FE\u4FEE\u6B631",
+        "en" : "Travel Modifier 1",
+        "ja" : "\u30C8\u30E9\u30D9\u30EB\u8ABF\u6574\uFF11"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "TravelAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u65C5\u884C\u52A8\u4F5C",
+                "en" : "TravelAction",
+                "ja" : "TravelAction"
+              }
+            }
+          ],
+          "DurationModifier" : -1,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 2.0,
+                "y" : 2.0
+              },
+              "ApplyEachTick" : true
+            }
+          ],
+          "FadeToBlack"        : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u5207\u56FE\u4FEE\u6B632",
+        "en" : "Travel Modifier 2",
+        "ja" : "\u30C8\u30E9\u30D9\u30EB\u8ABF\u6574\uFF12"
+      },
+      "ValueRange" : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "TravelAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u65C5\u884C\u52A8\u4F5C",
+                "en" : "TravelAction",
+                "ja" : "TravelAction"
+              }
+            }
+          ],
+          "DurationModifier" : -2,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 4.0,
+                "y" : 4.0
+              },
+              "ApplyEachTick" : true
+            }
+          ],
+          "FadeToBlack"        : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u817F\u90E8\u5DE5\u4F5C\u4FEE\u6B633",
+        "en" : "Leg Modifier 3",
+        "ja" : "\u30C8\u30E9\u30D9\u30EB\u8ABF\u6574\uFF13"
+      },
+      "ValueRange" : {
+        "m_X" : 3,
+        "m_Y" : 3
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "TravelAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u65C5\u884C\u52A8\u4F5C",
+                "en" : "TravelAction",
+                "ja" : "TravelAction"
+              }
+            }
+          ],
+          "DurationModifier" : -3,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 8.0,
+                "y" : 8.0
+              },
+              "ApplyEachTick" : true
+            }
+          ],
+          "FadeToBlack"        : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "NotEnoughText"           : {
+    "zh" : "\u817F\u7684\u72B6\u6001\u4E0D\u80FD\u6500\u722C\u3002",
+    "en" : "My Leg is not in shape for this action.",
+    "ja" : "\u3053\u306E\u811A\u3067\u3053\u306E\u30A2\u30AF\u30B7\u30E7\u30F3\u306F\u3067\u304D\u306A\u3044\u3002"
+  },
+  "type"                    : "GameStat",
+  "key"                     : "ModifierTravel",
+  "name"                    : {
+    "zh" : "\u5207\u56FE\u4FEE\u6B63",
+    "en" : "Travel Modifier",
+    "ja" : "\u30C8\u30E9\u30D9\u30EB\u8ABF\u6574"
+  },
+  "min"                     : 0.0,
+  "max"                     : 3.0,
+  "_uuid"                   : "d34fbcaac4642ec4c9602df09f0df59f"
+}

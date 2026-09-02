@@ -1,1 +1,54 @@
-{"OverrideModifiersTarget":{"TargetAgent":{"Target":{"key":"Agent_Beaver","type":"NPCAgent","icon":"72d2d639f1ebd7a0","name":{"zh":"\u6CB3\u72F8","en":"Beaver","ja":"Beaver"}}},"Method":0},"NPCStatModifiers":[{"TargetStat":{"key":"AgentBurrowAbandoned","type":"NPCStat","name":{"zh":"\u9057\u5F03\u6D1E\u7A74","en":"AgentBurrowAbandoned","ja":"AgentBurrowAbandoned"}},"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Beaver","type":"NPCAgent","icon":"72d2d639f1ebd7a0","name":{"zh":"\u6CB3\u72F8","en":"Beaver","ja":"Beaver"}},"ValueChange":{"x":-1.0,"y":-1.0}}],"key":"BeaverResetBurrowAbandoned","type":"NPCDutyAction","name":{"zh":"BeaverResetBurrowAbandoned","en":"BeaverResetBurrowAbandoned","ja":"BeaverResetBurrowAbandoned"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "OverrideModifiersTarget" : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "Agent_Beaver",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Beaver__AgentImage",
+        "name" : {
+          "zh" : "\u6CB3\u72F8",
+          "en" : "Beaver",
+          "ja" : "Beaver"
+        }
+      }
+    },
+    "Method"      : 0
+  },
+  "NPCStatModifiers"        : [
+    {
+      "TargetStat" : {
+        "key" : "AgentBurrowAbandoned",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u9057\u5F03\u6D1E\u7A74",
+          "en" : "AgentBurrowAbandoned",
+          "ja" : "AgentBurrowAbandoned"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "TargetAgent"        : {
+        "key" : "Agent_Beaver",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Beaver__AgentImage",
+        "name" : {
+          "zh" : "\u6CB3\u72F8",
+          "en" : "Beaver",
+          "ja" : "Beaver"
+        }
+      },
+      "ValueChange"        : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    }
+  ],
+  "key"                     : "BeaverResetBurrowAbandoned",
+  "type"                    : "NPCDutyAction",
+  "name"                    : {
+    "zh" : "BeaverResetBurrowAbandoned",
+    "en" : "BeaverResetBurrowAbandoned",
+    "ja" : "BeaverResetBurrowAbandoned"
+  },
+  "actionType"              : "ChangeNPCStatDutyAction"
+}

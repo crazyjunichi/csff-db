@@ -1,1 +1,103 @@
-{"ObjectiveDescription":{"zh":"\u6708\u4E4B\u68A6","en":"Moonlit Dreams","ja":"\u6708\u660E\u304B\u308A\u306E\u5922"},"NotificationSettings":{"Frequency":1,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"ProducedCards":[{"CollectionName":"Completed","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"MoonlitDreams_Completed_Event","type":"CardData","CardType":3,"icon":"d8678688837b857d","name":{"zh":"\u6708\u4E4B\u68A6 - \u5B8C\u6210","en":"Moonlit Dreams Complete","ja":"\u6708\u660E\u304B\u308A\u306E\u5922 \u5B8C\u4E86"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"NestedObjectives":[{"ObjectiveCondition":{"key":"MoonlitDreams_Obj1_FindTheMoonShrineToTheNorth","type":"Objective","name":{"zh":"\u53BB\u5317\u65B9\u627E\u5230\u6708\u4E4B\u796D\u575B","en":"Find the Moonshrine to the North","ja":"\u5317\u306B\u3042\u308B\u6708\u306E\u7960\u3092\u898B\u3064\u3051\u308B"}},"ObjectiveName":"1","CompletionWeight":1},{"ObjectiveCondition":{"key":"MoonlitDreams_Obj2_IncreaseYourMoonAffinity","type":"Objective","name":{"zh":"\u63D0\u5347\u4F60\u7684\u6708\u4EB2\u548C\u5EA6\uFF08\u901A\u8FC7\u66B4\u9732\u5728\u6708\u5149\u4E0B\u6216\u6708\u4E4B\u796D\u575B\uFF09","en":"Increase your Moon Affinity ( through moonlight & moonshrine exposure )","ja":"\u6708\u5149\u3084\u6708\u306E\u7960\u306B\u89E6\u308C\u3066\u6708\u306E\u89AA\u548C\u6027\u3092\u9AD8\u3081\u308B"}},"ObjectiveName":"2","CompletionWeight":1},{"ObjectiveCondition":{"key":"MoonlitDreams_Obj3_GetAMoonEnchantment","type":"Objective","name":{"zh":"\u83B7\u53D6\u6708\u9644\u9B54","en":"Get a Moon Enchantment","ja":"\u6708\u306E\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u3092\u5F97\u308B"}},"ObjectiveName":"3","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":0,"type":"Objective","key":"MoonlitDreams_Completed","name":{"zh":"\u6708\u4E4B\u68A6","en":"Moonlit Dreams","ja":"\u6708\u660E\u304B\u308A\u306E\u5922"},"_uuid":"254c4a937bacda54ca26adb1ab2e7a8c"}
+
+{
+  "ObjectiveDescription" : {
+    "zh" : "\u6708\u4E4B\u68A6",
+    "en" : "Moonlit Dreams",
+    "ja" : "\u6708\u660E\u304B\u308A\u306E\u5922"
+  },
+  "NotificationSettings" : {
+    "Frequency" : 1,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ProducedCards" : [
+        {
+          "CollectionName" : "Completed",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "MoonlitDreams_Completed_Event",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "CardData__Event_HuntsmanDreamVictory__CardImage",
+                "name"     : {
+                  "zh" : "\u6708\u4E4B\u68A6 - \u5B8C\u6210",
+                  "en" : "Moonlit Dreams Complete",
+                  "ja" : "\u6708\u660E\u304B\u308A\u306E\u5922 \u5B8C\u4E86"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "FadeToBlack"   : 0,
+      "RoomDirection" : 0,
+      "ExitDirection" : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "NestedObjectives"     : [
+    {
+      "ObjectiveCondition" : {
+        "key" : "MoonlitDreams_Obj1_FindTheMoonShrineToTheNorth",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u53BB\u5317\u65B9\u627E\u5230\u6708\u4E4B\u796D\u575B",
+          "en" : "Find the Moonshrine to the North",
+          "ja" : "\u5317\u306B\u3042\u308B\u6708\u306E\u7960\u3092\u898B\u3064\u3051\u308B"
+        }
+      },
+      "ObjectiveName"      : "1",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "MoonlitDreams_Obj2_IncreaseYourMoonAffinity",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u63D0\u5347\u4F60\u7684\u6708\u4EB2\u548C\u5EA6\uFF08\u901A\u8FC7\u66B4\u9732\u5728\u6708\u5149\u4E0B\u6216\u6708\u4E4B\u796D\u575B\uFF09",
+          "en" : "Increase your Moon Affinity ( through moonlight & moonshrine exposure )",
+          "ja" : "\u6708\u5149\u3084\u6708\u306E\u7960\u306B\u89E6\u308C\u3066\u6708\u306E\u89AA\u548C\u6027\u3092\u9AD8\u3081\u308B"
+        }
+      },
+      "ObjectiveName"      : "2",
+      "CompletionWeight"   : 1
+    },
+    {
+      "ObjectiveCondition" : {
+        "key" : "MoonlitDreams_Obj3_GetAMoonEnchantment",
+        "type" : "Objective",
+        "name" : {
+          "zh" : "\u83B7\u53D6\u6708\u9644\u9B54",
+          "en" : "Get a Moon Enchantment",
+          "ja" : "\u6708\u306E\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u3092\u5F97\u308B"
+        }
+      },
+      "ObjectiveName"      : "3",
+      "CompletionWeight"   : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "Objective",
+  "key"                         : "MoonlitDreams_Completed",
+  "name"                        : {
+    "zh" : "\u6708\u4E4B\u68A6",
+    "en" : "Moonlit Dreams",
+    "ja" : "\u6708\u660E\u304B\u308A\u306E\u5922"
+  },
+  "_uuid"                       : "254c4a937bacda54ca26adb1ab2e7a8c"
+}

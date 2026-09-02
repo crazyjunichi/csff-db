@@ -1,1 +1,80 @@
-{"DutyName":{"zh":"\u5BFB\u627E\u91CE\u5916\u98DF\u7269","en":"Stag Seek Food Nature","ja":"Stag Seek Food Nature"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNOTEnvironmentTags":[{"key":"tag_Env_GrazingArea","type":"CardTag","count":14,"name":{"zh":"\u7267\u8349\u533A","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":75.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"StagSeekFoodNatureMove","type":"MoveDutyAction","name":{"zh":"StagSeekFoodNatureMove","en":"StagSeekFoodNatureMove","ja":"StagSeekFoodNatureMove"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Stag_SeekFoodNature","name":{"zh":"\u5BFB\u627E\u91CE\u5916\u98DF\u7269","en":"Stag Seek Food Nature","ja":"Stag Seek Food Nature"},"_uuid":"dafde6653d531394cbed63902b538d3e"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5BFB\u627E\u91CE\u5916\u98DF\u7269",
+    "en" : "Stag Seek Food Nature",
+    "ja" : "Stag Seek Food Nature"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNOTEnvironmentTags" : [
+      {
+        "key" : "tag_Env_GrazingArea",
+        "type" : "CardTag",
+        "count" : 14,
+        "name"  : {
+          "zh" : "\u7267\u8349\u533A",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"      : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 75.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "StagSeekFoodNatureMove",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "StagSeekFoodNatureMove",
+        "en" : "StagSeekFoodNatureMove",
+        "ja" : "StagSeekFoodNatureMove"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Stag_SeekFoodNature",
+  "name"                 : {
+    "zh" : "\u5BFB\u627E\u91CE\u5916\u98DF\u7269",
+    "en" : "Stag Seek Food Nature",
+    "ja" : "Stag Seek Food Nature"
+  },
+  "_uuid"                : "dafde6653d531394cbed63902b538d3e"
+}

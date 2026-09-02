@@ -1,1 +1,151 @@
-{"Actions":[{"RepeatOptions":2,"ActionCooldown":0,"PlayerUsesCardCondition":0,"StatChangeTrigger":[{"Stat":{"key":"NOT_USED_FloodFlag_ShadyBank","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"FloodFlag_ShadyBank","en":"FloodFlag_ShadyBank","ja":"FloodFlag_ShadyBank"}},"TriggerRange":{"x":1.0,"y":1.0}}],"ActionName":{"zh":"Tgr_FloodDamage_ShadyBank","en":"Tgr_FloodDamage_ShadyBank","ja":"Tgr_FloodDamage_ShadyBank"},"DaytimeCost":0,"UseMiniTicks":0,"RequiredCardsOnBoard":[{"TriggerCard":{"key":"River_ThicketOak_ShadyBank","type":"CardData","CardType":8,"icon":"c3047e3ce3e79a6d","name":{"zh":"\u5E7D\u836B\u6CB3\u7554","en":"Shady Bank","ja":"\u8584\u6697\u3044\u5DDD\u5CB8"}}}],"ProducedCards":[{"CollectionName":"Nothing","CollectionWeight":0,"CardDropChanceModifiers":[{"TagOnBoard":{"key":"tag_Env_Levee","type":"CardTag","count":2,"name":{"zh":"\u5824\u575D\u533A","en":"Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ","ja":"Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "}},"LookInside":0,"MaxWeightPerCard":1,"MaxStack":0}],"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}]},{"CollectionName":"Flood Damage Event","CollectionWeight":1,"CardDropChanceModifiers":[{"TagOnBoard":{"key":"tag_Env_Levee","type":"CardTag","count":2,"name":{"zh":"\u5824\u575D\u533A","en":"Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ","ja":"Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "}},"LookInside":0,"MaxWeightPerCard":-1,"MaxStack":0}],"DroppedCards":[{"DroppedCard":{"key":"NOT_USED_Event_FloodDamageAreWasFlooded","type":"CardData","CardType":3,"icon":"c3047e3ce3e79a6d","name":{"zh":"\u6DF9\u6CA1\u5730\u533A","en":"Area was Flooded","ja":"\u5834\u6240\u304C\u6D78\u6C34\u3057\u305F\uFF01"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"StatModifications":[{"Stat":{"key":"NOT_USED_FloodFlag_ShadyBank","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"FloodFlag_ShadyBank","en":"FloodFlag_ShadyBank","ja":"FloodFlag_ShadyBank"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"RoomDirection":0,"ExitDirection":0}],"type":"SelfTriggeredAction","key":"NOT_USED_Tgr_FloodDamage_ShadyBank","name":{"zh":"NOT_USED_Tgr_FloodDamage_ShadyBank","en":"NOT_USED_Tgr_FloodDamage_ShadyBank","ja":"NOT_USED_Tgr_FloodDamage_ShadyBank"},"_uuid":"f12fc5d790c14724d904bf090b841ceb"}
+
+{
+  "Actions" : [
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "NOT_USED_FloodFlag_ShadyBank",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "FloodFlag_ShadyBank",
+              "en" : "FloodFlag_ShadyBank",
+              "ja" : "FloodFlag_ShadyBank"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Tgr_FloodDamage_ShadyBank",
+        "en" : "Tgr_FloodDamage_ShadyBank",
+        "ja" : "Tgr_FloodDamage_ShadyBank"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredCardsOnBoard"    : [
+        {
+          "TriggerCard" : {
+            "key" : "River_ThicketOak_ShadyBank",
+            "type" : "CardData",
+            "CardType" : 8,
+            "icon"     : "CardData__NOT_USED_Event_FloodDamageAreWasFlooded__CardImage",
+            "name"     : {
+              "zh" : "\u5E7D\u836B\u6CB3\u7554",
+              "en" : "Shady Bank",
+              "ja" : "\u8584\u6697\u3044\u5DDD\u5CB8"
+            }
+          }
+        }
+      ],
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "Nothing",
+          "CollectionWeight" : 0,
+          "CardDropChanceModifiers" : [
+            {
+              "TagOnBoard" : {
+                "key" : "tag_Env_Levee",
+                "type" : "CardTag",
+                "count" : 2,
+                "name"  : {
+                  "zh" : "\u5824\u575D\u533A",
+                  "en" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ",
+                  "ja" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "
+                }
+              },
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 1,
+              "MaxStack"         : 0
+            }
+          ],
+          "DroppedCards"            : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Flood Damage Event",
+          "CollectionWeight" : 1,
+          "CardDropChanceModifiers" : [
+            {
+              "TagOnBoard" : {
+                "key" : "tag_Env_Levee",
+                "type" : "CardTag",
+                "count" : 2,
+                "name"  : {
+                  "zh" : "\u5824\u575D\u533A",
+                  "en" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ",
+                  "ja" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "
+                }
+              },
+              "LookInside" : 0,
+              "MaxWeightPerCard" : -1,
+              "MaxStack"         : 0
+            }
+          ],
+          "DroppedCards"            : [
+            {
+              "DroppedCard" : {
+                "key" : "NOT_USED_Event_FloodDamageAreWasFlooded",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "CardData__NOT_USED_Event_FloodDamageAreWasFlooded__CardImage",
+                "name"     : {
+                  "zh" : "\u6DF9\u6CA1\u5730\u533A",
+                  "en" : "Area was Flooded",
+                  "ja" : "\u5834\u6240\u304C\u6D78\u6C34\u3057\u305F\uFF01"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "NOT_USED_FloodFlag_ShadyBank",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "FloodFlag_ShadyBank",
+              "en" : "FloodFlag_ShadyBank",
+              "ja" : "FloodFlag_ShadyBank"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "type"    : "SelfTriggeredAction",
+  "key"     : "NOT_USED_Tgr_FloodDamage_ShadyBank",
+  "name"    : {
+    "zh" : "NOT_USED_Tgr_FloodDamage_ShadyBank",
+    "en" : "NOT_USED_Tgr_FloodDamage_ShadyBank",
+    "ja" : "NOT_USED_Tgr_FloodDamage_ShadyBank"
+  },
+  "_uuid"   : "f12fc5d790c14724d904bf090b841ceb"
+}

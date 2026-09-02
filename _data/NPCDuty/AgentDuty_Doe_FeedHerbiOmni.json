@@ -1,1 +1,78 @@
-{"DutyName":{"zh":"\u8349\u98DF\u6742\u98DF\u8FDB\u98DF","en":"Stag Feed Herbi Omni","ja":"Stag Feed Herbi Omni"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":85.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":2,"ActionSequence":[{"key":"DoeFeedHerbiOmni","type":"ChangeNPCStatDutyAction","name":{"zh":"DoeFeedHerbiOmni","en":"DoeFeedHerbiOmni","ja":"DoeFeedHerbiOmni"}},{"key":"DoeDestroyFeedHerbiOmni","type":"AffectItemsDutyAction","name":{"zh":"DoeDestroyFeedHerbiOmni","en":"DoeDestroyFeedHerbiOmni","ja":"DoeDestroyFeedHerbiOmni"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Doe_FeedHerbiOmni","name":{"zh":"\u8349\u98DF\u6742\u98DF\u8FDB\u98DF","en":"Stag Feed Herbi Omni","ja":"Stag Feed Herbi Omni"},"_uuid":"6109039f956e2e140ba394f80aee8d71"}
+
+{
+  "DutyName" : {
+    "zh" : "\u8349\u98DF\u6742\u98DF\u8FDB\u98DF",
+    "en" : "Stag Feed Herbi Omni",
+    "ja" : "Stag Feed Herbi Omni"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 85.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 2,
+  "ActionSequence"                   : [
+    {
+      "key" : "DoeFeedHerbiOmni",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "DoeFeedHerbiOmni",
+        "en" : "DoeFeedHerbiOmni",
+        "ja" : "DoeFeedHerbiOmni"
+      }
+    },
+    {
+      "key" : "DoeDestroyFeedHerbiOmni",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "DoeDestroyFeedHerbiOmni",
+        "en" : "DoeDestroyFeedHerbiOmni",
+        "ja" : "DoeDestroyFeedHerbiOmni"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Doe_FeedHerbiOmni",
+  "name"                             : {
+    "zh" : "\u8349\u98DF\u6742\u98DF\u8FDB\u98DF",
+    "en" : "Stag Feed Herbi Omni",
+    "ja" : "Stag Feed Herbi Omni"
+  },
+  "_uuid"                            : "6109039f956e2e140ba394f80aee8d71"
+}

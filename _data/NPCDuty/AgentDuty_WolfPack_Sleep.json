@@ -1,1 +1,81 @@
-{"DutyName":{"zh":"\u7761\u89C9","en":"Wolf Pack Pack Sleep","ja":"Wolf Pack Pack Sleep"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_WolfCave","type":"CardTag","count":1,"name":{"zh":"\u72FC\u7A74\u533A","en":"Wolf Cave. Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Wolf Cave. Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"ConditionRange":{"x":0.0,"y":50.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfPackSleep","type":"ChangeNPCStatDutyAction","name":{"zh":"WolfPackSleep","en":"WolfPackSleep","ja":"WolfPackSleep"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_WolfPack_Sleep","name":{"zh":"\u7761\u89C9","en":"Wolf Pack Pack Sleep","ja":"Wolf Pack Pack Sleep"},"_uuid":"8a54cee5a8036274eb8b0ba0979f857a"}
+
+{
+  "DutyName" : {
+    "zh" : "\u7761\u89C9",
+    "en" : "Wolf Pack Pack Sleep",
+    "ja" : "Wolf Pack Pack Sleep"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_WolfCave",
+        "type" : "CardTag",
+        "count" : 1,
+        "name"  : {
+          "zh" : "\u72FC\u7A74\u533A",
+          "en" : "Wolf Cave. Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Wolf Cave. Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentWakefulness",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6E05\u9192",
+            "en" : "AgentWakefulness",
+            "ja" : "AgentWakefulness"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 50.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "WolfPackSleep",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WolfPackSleep",
+        "en" : "WolfPackSleep",
+        "ja" : "WolfPackSleep"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_WolfPack_Sleep",
+  "name"                             : {
+    "zh" : "\u7761\u89C9",
+    "en" : "Wolf Pack Pack Sleep",
+    "ja" : "Wolf Pack Pack Sleep"
+  },
+  "_uuid"                            : "8a54cee5a8036274eb8b0ba0979f857a"
+}

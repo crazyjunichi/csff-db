@@ -1,1 +1,263 @@
-{"GameName":{"zh":"\u88C5\u5907\u96EA\u6A47","en":"Sledge Equiped","ja":"Sledge Equiped"},"Description":{"zh":"Active when Sledge are equiped. Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. Has value of 1 if snow is moderate and value of 2 if snow is deep.","en":"Active when Sledge are equiped. Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. Has value of 1 if snow is moderate and value of 2 if snow is deep.","ja":"Active when Sledge are equiped. Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. Has value of 1 if snow is moderate and value of 2 if snow is deep."},"IsRuntimeOnly":true,"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":2.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"BarColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"Downhill Skiing Bonus Moderate Snow","en":"Downhill Skiing Bonus Moderate Snow","ja":"Downhill Skiing Bonus Moderate Snow"},"Description":{"zh":"Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate snow. ","en":"Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate snow. ","ja":"Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate snow. "},"Icon":{"FileName":"93bee4ca012bf59f"},"ValueRange":{"m_X":1,"m_Y":1},"EffectsOnActions":[{"AppliesTo":[{"key":"DownhillTravelingAction","type":"ActionTag","name":{"zh":"\u4E0B\u5761\u79FB\u52A8\u52A8\u4F5C","en":"DownhillTravelingAction","ja":"DownhillTravelingAction"}}],"DurationModifier":-2,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":3.0,"y":3.0},"ApplyEachTick":true},{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"ValueModifier":{"x":25.0,"y":25.0},"InstantModifier":true}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"Downhill Skiing Bonus Deep Snow","en":"Downhill Skiing Bonus Deep Snow","ja":"Downhill Skiing Bonus Deep Snow"},"Description":{"zh":"Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. ","en":"Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. ","ja":"Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. "},"Icon":{"FileName":"93bee4ca012bf59f"},"ValueRange":{"m_X":2,"m_Y":2},"EffectsOnActions":[{"AppliesTo":[{"key":"DownhillTravelingAction","type":"ActionTag","name":{"zh":"\u4E0B\u5761\u79FB\u52A8\u52A8\u4F5C","en":"DownhillTravelingAction","ja":"DownhillTravelingAction"}}],"DurationModifier":-3,"AddedStatModifiers":[{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":3.0,"y":3.0},"ApplyEachTick":true},{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"ValueModifier":{"x":25.0,"y":25.0},"InstantModifier":true}],"FadeToBlack":0}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"SledgeEquiped","icon":"93bee4ca012bf59f","name":{"zh":"\u88C5\u5907\u96EA\u6A47","en":"Sledge Equiped","ja":"Sledge Equiped"},"min":0.0,"max":2.0,"_modifierValues":[{"source":{"key":"Sledge","type":"CardData","CardType":0,"icon":"84d7920f689192c0","name":{"zh":"\u96EA\u6A47","en":"Sledge","ja":"\u30BD\u30EA"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1ASledge Equiped Moderate Snow","en":"Passive Effect: Sledge Equiped Moderate Snow","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASledge Equiped Moderate Snow"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Sledge","type":"CardData","CardType":0,"icon":"84d7920f689192c0","name":{"zh":"\u96EA\u6A47","en":"Sledge","ja":"\u30BD\u30EA"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1ASledge Equiped Deep Snow","en":"Passive Effect: Sledge Equiped Deep Snow","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASledge Equiped Deep Snow"},"value":{"x":2.0,"y":2.0}}],"_uuid":"67fdd23252ba9474c8757a05a3346c1e"}
+
+{
+  "GameName" : {
+    "zh" : "\u88C5\u5907\u96EA\u6A47",
+    "en" : "Sledge Equiped",
+    "ja" : "Sledge Equiped"
+  },
+  "Description" : {
+    "zh" : "Active when Sledge are equiped. Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. Has value of 1 if snow is moderate and value of 2 if snow is deep.",
+    "en" : "Active when Sledge are equiped. Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. Has value of 1 if snow is moderate and value of 2 if snow is deep.",
+    "ja" : "Active when Sledge are equiped. Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. Has value of 1 if snow is moderate and value of 2 if snow is deep."
+  },
+  "IsRuntimeOnly" : true,
+  "BaseValue"     : 0.0,
+  "MinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 2.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "BarColor"        : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "Downhill Skiing Bonus Moderate Snow",
+        "en" : "Downhill Skiing Bonus Moderate Snow",
+        "ja" : "Downhill Skiing Bonus Moderate Snow"
+      },
+      "Description" : {
+        "zh" : "Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate snow. ",
+        "en" : "Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate snow. ",
+        "ja" : "Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate snow. "
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "DownhillTravelingAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u4E0B\u5761\u79FB\u52A8\u52A8\u4F5C",
+                "en" : "DownhillTravelingAction",
+                "ja" : "DownhillTravelingAction"
+              }
+            }
+          ],
+          "DurationModifier" : -2,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 3.0,
+                "y" : 3.0
+              },
+              "ApplyEachTick" : true
+            },
+            {
+              "Stat" : {
+                "key" : "Gratification",
+                "type" : "GameStat",
+                "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                "min"  : -100.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u6EE1\u8DB3\u611F",
+                  "en" : "Gratification",
+                  "ja" : "\u6E80\u8DB3\u611F"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 25.0,
+                "y" : 25.0
+              },
+              "InstantModifier" : true
+            }
+          ],
+          "FadeToBlack"        : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Downhill Skiing Bonus Deep Snow",
+        "en" : "Downhill Skiing Bonus Deep Snow",
+        "ja" : "Downhill Skiing Bonus Deep Snow"
+      },
+      "Description" : {
+        "zh" : "Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. ",
+        "en" : "Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. ",
+        "ja" : "Causes actions tagged with downhill traveling to take less time and consume less stamina but only if there is moderate or higher snow. "
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
+      },
+      "ValueRange"  : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "DownhillTravelingAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u4E0B\u5761\u79FB\u52A8\u52A8\u4F5C",
+                "en" : "DownhillTravelingAction",
+                "ja" : "DownhillTravelingAction"
+              }
+            }
+          ],
+          "DurationModifier" : -3,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 3.0,
+                "y" : 3.0
+              },
+              "ApplyEachTick" : true
+            },
+            {
+              "Stat" : {
+                "key" : "Gratification",
+                "type" : "GameStat",
+                "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                "min"  : -100.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u6EE1\u8DB3\u611F",
+                  "en" : "Gratification",
+                  "ja" : "\u6E80\u8DB3\u611F"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 25.0,
+                "y" : 25.0
+              },
+              "InstantModifier" : true
+            }
+          ],
+          "FadeToBlack"        : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "SledgeEquiped",
+  "icon"                    : "GameStat__CallousesFeet__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u88C5\u5907\u96EA\u6A47",
+    "en" : "Sledge Equiped",
+    "ja" : "Sledge Equiped"
+  },
+  "min"                     : 0.0,
+  "max"                     : 2.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Sledge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_Sledge__CardImage",
+        "name"     : {
+          "zh" : "\u96EA\u6A47",
+          "en" : "Sledge",
+          "ja" : "\u30BD\u30EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ASledge Equiped Moderate Snow",
+        "en" : "Passive Effect: Sledge Equiped Moderate Snow",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASledge Equiped Moderate Snow"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Sledge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_Sledge__CardImage",
+        "name"     : {
+          "zh" : "\u96EA\u6A47",
+          "en" : "Sledge",
+          "ja" : "\u30BD\u30EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ASledge Equiped Deep Snow",
+        "en" : "Passive Effect: Sledge Equiped Deep Snow",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASledge Equiped Deep Snow"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    }
+  ],
+  "_uuid"                   : "67fdd23252ba9474c8757a05a3346c1e"
+}

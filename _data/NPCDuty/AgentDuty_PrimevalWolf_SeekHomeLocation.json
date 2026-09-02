@@ -1,1 +1,76 @@
-{"DutyName":{"zh":"\u5BFB\u627E\u5DE2\u7A74\u4F4D\u7F6E","en":"Primeval Wolf Seek Home Location","ja":"Primeval Wolf Seek Home Location"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNOTEnvironmentTags":[{"key":"tag_Env_PrimevalWolfHomeLocation","type":"CardTag","count":3,"name":{"zh":"\u539F\u59CB\u72FC\u5DE2\u7A74","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentHasHome","type":"NPCStat","name":{"zh":"\u6709\u6D1E\u7A74","en":"AgentHasHome","ja":"AgentHasHome"}}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"MoveToPrimevalWolfHOmeLocation","type":"MoveDutyAction","name":{"zh":"MoveToPrimevalWolfHOmeLocation","en":"MoveToPrimevalWolfHOmeLocation","ja":"MoveToPrimevalWolfHOmeLocation"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_PrimevalWolf_SeekHomeLocation","name":{"zh":"\u5BFB\u627E\u5DE2\u7A74\u4F4D\u7F6E","en":"Primeval Wolf Seek Home Location","ja":"Primeval Wolf Seek Home Location"},"_uuid":"87622d7e94ab15343baaaa592f25fdfb"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5BFB\u627E\u5DE2\u7A74\u4F4D\u7F6E",
+    "en" : "Primeval Wolf Seek Home Location",
+    "ja" : "Primeval Wolf Seek Home Location"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNOTEnvironmentTags" : [
+      {
+        "key" : "tag_Env_PrimevalWolfHomeLocation",
+        "type" : "CardTag",
+        "count" : 3,
+        "name"  : {
+          "zh" : "\u539F\u59CB\u72FC\u5DE2\u7A74",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"      : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentHasHome",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6709\u6D1E\u7A74",
+            "en" : "AgentHasHome",
+            "ja" : "AgentHasHome"
+          }
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "MoveToPrimevalWolfHOmeLocation",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "MoveToPrimevalWolfHOmeLocation",
+        "en" : "MoveToPrimevalWolfHOmeLocation",
+        "ja" : "MoveToPrimevalWolfHOmeLocation"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_PrimevalWolf_SeekHomeLocation",
+  "name"                 : {
+    "zh" : "\u5BFB\u627E\u5DE2\u7A74\u4F4D\u7F6E",
+    "en" : "Primeval Wolf Seek Home Location",
+    "ja" : "Primeval Wolf Seek Home Location"
+  },
+  "_uuid"                : "87622d7e94ab15343baaaa592f25fdfb"
+}

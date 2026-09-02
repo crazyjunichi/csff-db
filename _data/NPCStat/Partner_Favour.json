@@ -1,1 +1,230 @@
-{"GameName":{"zh":"\u597D\u610F","en":"Favour","ja":"Favour"},"DefaultStartingValue":1440.0,"DefaultMinMaxValue":{"x":0.0,"y":2880.0},"DefaultRate":1.0,"StatScalingToModifiers":[{"InterpolatedValue":{"InputStat":{"key":"Skill_Socials","type":"GameStat","icon":"52649902b67c6c1a","min":0.0,"max":150.0,"name":{"zh":"\u4EBA\u60C5\u7EC3\u8FBE","en":"Socials","ja":"\u793E\u4EA4"}},"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":1.0,"y":2.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"Statuses":[{"GameName":{"zh":"\u770B\u4E0A\u53BB\u5341\u5206\u5FC3\u6000\u611F\u6FC0\u3002","en":"Looks very grateful.","ja":"Looks very grateful."},"VisibleToPlayer":true,"ShowInMainTab":true,"Priority":0,"ValueRange":{"m_X":2401,"m_Y":2880},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Trust","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u4FE1\u4EFB","en":"Partner_Trust","ja":"Partner_Trust"}},"RateChange":{"MaxValue":0.25,"FloatValue":0.25,"Active":true}}]},{"GameName":{"zh":"\u770B\u4E0A\u53BB\u5FC3\u6000\u611F\u6FC0\u3002","en":"Looks grateful.","ja":"Looks grateful."},"VisibleToPlayer":true,"ShowInMainTab":true,"Priority":0,"ValueRange":{"m_X":1801,"m_Y":2400},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Trust","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u4FE1\u4EFB","en":"Partner_Trust","ja":"Partner_Trust"}},"RateChange":{"MaxValue":0.1,"FloatValue":0.1,"Active":true}}]},{"GameName":{"zh":"\u4E2D\u7ACB\u3002","en":"Neutral.","ja":"Neutral."},"Priority":0,"ValueRange":{"m_X":1001,"m_Y":1800}},{"GameName":{"zh":"\u770B\u4E0A\u53BB\u6709\u70B9\u4E0D\u6EE1\u3002","en":"Looks a bit resentful.","ja":"Looks a bit resentful."},"VisibleToPlayer":true,"ShowInMainTab":true,"Priority":0,"ValueRange":{"m_X":401,"m_Y":1000},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Trust","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u4FE1\u4EFB","en":"Partner_Trust","ja":"Partner_Trust"}},"RateChange":{"MaxValue":-0.25,"FloatValue":-0.25,"Active":true}}]},{"GameName":{"zh":"\u770B\u4E0A\u53BB\u4E0D\u6EE1\u3002","en":"Looks resentful.","ja":"Looks resentful."},"VisibleToPlayer":true,"ShowInMainTab":true,"Priority":0,"ValueRange":{"m_X":1,"m_Y":400},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Trust","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u4FE1\u4EFB","en":"Partner_Trust","ja":"Partner_Trust"}},"RateChange":{"MaxValue":-0.5,"FloatValue":-0.5,"Active":true}}]},{"GameName":{"zh":"\u770B\u4E0A\u53BB\u975E\u5E38\u4E0D\u6EE1\u3002","en":"Looks very resentful.","ja":"Looks very resentful."},"VisibleToPlayer":true,"ShowInMainTab":true,"Priority":0,"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Trust","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u4FE1\u4EFB","en":"Partner_Trust","ja":"Partner_Trust"}},"RateChange":{"MaxValue":-1.0,"FloatValue":-1.0,"Active":true}}]}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"UsesNovelty":true,"NoveltyCooldownDuration":4,"StalenessMultiplier":0.5,"MaxStalenessStack":10,"type":"NPCStat","key":"Partner_Favour","name":{"zh":"\u597D\u610F","en":"Partner_Favour","ja":"Partner_Favour"},"_uuid":"71112acd78ec9ec4d85fd49c57a6cfa0"}
+
+{
+  "GameName" : {
+    "zh" : "\u597D\u610F",
+    "en" : "Favour",
+    "ja" : "Favour"
+  },
+  "DefaultStartingValue" : 1440.0,
+  "DefaultMinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 2880.0
+  },
+  "DefaultRate"          : 1.0,
+  "StatScalingToModifiers" : [
+    {
+      "InterpolatedValue" : {
+        "InputStat" : {
+          "key" : "Skill_Socials",
+          "type" : "GameStat",
+          "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+          "min"  : 0.0,
+          "max"  : 150.0,
+          "name" : {
+            "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+            "en" : "Socials",
+            "ja" : "\u793E\u4EA4"
+          }
+        },
+        "Value"     : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : 1.0,
+            "y" : 2.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "Statuses"               : [
+    {
+      "GameName" : {
+        "zh" : "\u770B\u4E0A\u53BB\u5341\u5206\u5FC3\u6000\u611F\u6FC0\u3002",
+        "en" : "Looks very grateful.",
+        "ja" : "Looks very grateful."
+      },
+      "VisibleToPlayer" : true,
+      "ShowInMainTab"   : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 2401,
+        "m_Y" : 2880
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Trust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+              "en" : "Partner_Trust",
+              "ja" : "Partner_Trust"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 0.25,
+            "FloatValue" : 0.25,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u770B\u4E0A\u53BB\u5FC3\u6000\u611F\u6FC0\u3002",
+        "en" : "Looks grateful.",
+        "ja" : "Looks grateful."
+      },
+      "VisibleToPlayer" : true,
+      "ShowInMainTab"   : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 1801,
+        "m_Y" : 2400
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Trust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+              "en" : "Partner_Trust",
+              "ja" : "Partner_Trust"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 0.1,
+            "FloatValue" : 0.1,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4E2D\u7ACB\u3002",
+        "en" : "Neutral.",
+        "ja" : "Neutral."
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 1001,
+        "m_Y" : 1800
+      }
+    },
+    {
+      "GameName" : {
+        "zh" : "\u770B\u4E0A\u53BB\u6709\u70B9\u4E0D\u6EE1\u3002",
+        "en" : "Looks a bit resentful.",
+        "ja" : "Looks a bit resentful."
+      },
+      "VisibleToPlayer" : true,
+      "ShowInMainTab"   : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 401,
+        "m_Y" : 1000
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Trust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+              "en" : "Partner_Trust",
+              "ja" : "Partner_Trust"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -0.25,
+            "FloatValue" : -0.25,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u770B\u4E0A\u53BB\u4E0D\u6EE1\u3002",
+        "en" : "Looks resentful.",
+        "ja" : "Looks resentful."
+      },
+      "VisibleToPlayer" : true,
+      "ShowInMainTab"   : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 1,
+        "m_Y" : 400
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Trust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+              "en" : "Partner_Trust",
+              "ja" : "Partner_Trust"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -0.5,
+            "FloatValue" : -0.5,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u770B\u4E0A\u53BB\u975E\u5E38\u4E0D\u6EE1\u3002",
+        "en" : "Looks very resentful.",
+        "ja" : "Looks very resentful."
+      },
+      "VisibleToPlayer" : true,
+      "ShowInMainTab"   : true,
+      "Priority"        : 0,
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Trust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+              "en" : "Partner_Trust",
+              "ja" : "Partner_Trust"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -1.0,
+            "FloatValue" : -1.0,
+            "Active"     : true
+          }
+        }
+      ]
+    }
+  ],
+  "HidingOptions"          : 0,
+  "TextDisplay"            : 0,
+  "NumberPrecision"        : 0,
+  "UsesNovelty"            : true,
+  "NoveltyCooldownDuration" : 4,
+  "StalenessMultiplier"     : 0.5,
+  "MaxStalenessStack"       : 10,
+  "type"                    : "NPCStat",
+  "key"                     : "Partner_Favour",
+  "name"                    : {
+    "zh" : "\u597D\u610F",
+    "en" : "Partner_Favour",
+    "ja" : "Partner_Favour"
+  },
+  "_uuid"                   : "71112acd78ec9ec4d85fd49c57a6cfa0"
+}

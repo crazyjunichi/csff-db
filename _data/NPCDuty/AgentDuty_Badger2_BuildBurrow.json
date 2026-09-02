@@ -1,1 +1,107 @@
-{"DutyName":{"zh":"\u5EFA\u7A9D","en":"Badger Build Burrow","ja":"Badger Build Burrow"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_BurrowArea2","type":"CardTag","count":5,"name":{"zh":"\u7A74\u5C45\u533A","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredCardsNOTOnBoard":[{"key":"BurrowBadger2Abandoned","type":"CardData","CardType":2,"icon":"08d7e879b2200363","name":{"zh":"\u5E9F\u5F03\u7684\u737E\u6D1E","en":"Abandoned Badger Burrow","ja":"\u653E\u68C4\u3055\u308C\u305F\u30A2\u30CA\u30B0\u30DE\u306E\u5DE3\u7A74"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentHasHome","type":"NPCStat","name":{"zh":"\u6709\u6D1E\u7A74","en":"AgentHasHome","ja":"AgentHasHome"}}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"CreateBadger2BurrowCard","type":"CreateItemDutyAction","name":{"zh":"CreateBadger2BurrowCard","en":"CreateBadger2BurrowCard","ja":"CreateBadger2BurrowCard"}},{"key":"SetBadger2HomeBuild","type":"SetHomeDutyAction","name":{"zh":"SetBadger2HomeBuild","en":"SetBadger2HomeBuild","ja":"SetBadger2HomeBuild"}},{"key":"SetBadger2HomeFlag","type":"ChangeNPCStatDutyAction","name":{"zh":"SetBadger2HomeFlag","en":"SetBadger2HomeFlag","ja":"SetBadger2HomeFlag"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Badger2_BuildBurrow","name":{"zh":"\u5EFA\u7A9D","en":"Badger Build Burrow","ja":"Badger Build Burrow"},"_uuid":"ef40f0aca1704164bb11c9f8889baf92"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5EFA\u7A9D",
+    "en" : "Badger Build Burrow",
+    "ja" : "Badger Build Burrow"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_BurrowArea2",
+        "type" : "CardTag",
+        "count" : 5,
+        "name"  : {
+          "zh" : "\u7A74\u5C45\u533A",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredCardsNOTOnBoard" : [
+      {
+        "key" : "BurrowBadger2Abandoned",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_CharcoalMound__CardImage",
+        "name"     : {
+          "zh" : "\u5E9F\u5F03\u7684\u737E\u6D1E",
+          "en" : "Abandoned Badger Burrow",
+          "ja" : "\u653E\u68C4\u3055\u308C\u305F\u30A2\u30CA\u30B0\u30DE\u306E\u5DE3\u7A74"
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentHasHome",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6709\u6D1E\u7A74",
+            "en" : "AgentHasHome",
+            "ja" : "AgentHasHome"
+          }
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "CreateBadger2BurrowCard",
+      "type" : "CreateItemDutyAction",
+      "name" : {
+        "zh" : "CreateBadger2BurrowCard",
+        "en" : "CreateBadger2BurrowCard",
+        "ja" : "CreateBadger2BurrowCard"
+      }
+    },
+    {
+      "key" : "SetBadger2HomeBuild",
+      "type" : "SetHomeDutyAction",
+      "name" : {
+        "zh" : "SetBadger2HomeBuild",
+        "en" : "SetBadger2HomeBuild",
+        "ja" : "SetBadger2HomeBuild"
+      }
+    },
+    {
+      "key" : "SetBadger2HomeFlag",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "SetBadger2HomeFlag",
+        "en" : "SetBadger2HomeFlag",
+        "ja" : "SetBadger2HomeFlag"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Badger2_BuildBurrow",
+  "name"                 : {
+    "zh" : "\u5EFA\u7A9D",
+    "en" : "Badger Build Burrow",
+    "ja" : "Badger Build Burrow"
+  },
+  "_uuid"                : "ef40f0aca1704164bb11c9f8889baf92"
+}

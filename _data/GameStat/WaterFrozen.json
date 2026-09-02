@@ -1,1 +1,552 @@
-{"GameName":{"zh":"\u6C34\u9762\u51BB\u7ED3","en":"WaterFrozen","ja":"WaterFrozen"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1344.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"BarColor":{"r":0.8706,"g":0.4431,"b":0.4039,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"Fish Population Reduction, replacing flooded status to freezing status for the flooded paths","en":"Fish Population Reduction, replacing flooded status to freezing status for the flooded paths","ja":"Fish Population Reduction, replacing flooded status to freezing status for the flooded paths"},"ValueRange":{"m_X":673,"m_Y":1344},"EffectsOnStats":[{"Stat":{"key":"SwampWaterLevelFrozenStatus","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6CBC\u6CFD\u6C34\u4F4D\u51BB\u7ED3\u72B6\u6001","en":"SwampWaterLevelFrozenStatus","ja":"SwampWaterLevelFrozenStatus"}},"ValueModifier":{"x":1.0,"y":1.0}},{"Stat":{"key":"SwampWaterLevelFloodedStatus","type":"GameStat","min":0.0,"max":2.0,"name":{"zh":"\u6CBC\u6CFD\u6C34\u4F4D\u6D2A\u6C34\u72B6\u6001","en":"SwampWaterLevelFloodedStatus","ja":"SwampWaterLevelFloodedStatus"}},"ValueModifier":{"x":-100.0,"y":-100.0}},{"Stat":{"key":"Pop_Perch_Local","type":"GameStat","min":0.0,"max":100.0,"name":{"zh":"\u672C\u5730\u9C88\u9C7C\u79CD\u7FA4","en":"Pop_Perch_Local","ja":"Pop_Perch_Local"}},"ValueModifier":{"x":-10.0,"y":-10.0}},{"Stat":{"key":"Pop_Eel_Local","type":"GameStat","min":0.0,"max":100.0,"name":{"zh":"\u672C\u5730\u9CD7\u9C7C\u79CD\u7FA4","en":"Pop_Eel_Local","ja":"Pop_Eel_Local"}},"ValueModifier":{"x":-10.0,"y":-10.0}},{"Stat":{"key":"Pop_Pike_Local","type":"GameStat","min":0.0,"max":100.0,"name":{"zh":"\u672C\u5730\u68AD\u9C7C\u79CD\u7FA4","en":"Pop_Pike_Local","ja":"Pop_Pike_Local"}},"ValueModifier":{"x":-10.0,"y":-10.0}},{"Stat":{"key":"Pop_Trout_Local","type":"GameStat","min":0.0,"max":100.0,"name":{"zh":"\u672C\u5730\u9CDF\u9C7C\u79CD\u7FA4","en":"Pop_Trout_Local","ja":"Pop_Trout_Local"}},"ValueModifier":{"x":-50.0,"y":-50.0}},{"Stat":{"key":"Pop_Sturgeon_Local","type":"GameStat","min":0.0,"max":100.0,"name":{"zh":"\u672C\u5730\u9C9F\u9C7C\u79CD\u7FA4","en":"Pop_Sturgeon_Local","ja":"Pop_Sturgeon_Local"}},"ValueModifier":{"x":-100.0,"y":-100.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"WaterFrozen","name":{"zh":"\u6C34\u9762\u51BB\u7ED3","en":"WaterFrozen","ja":"WaterFrozen"},"min":0.0,"max":1344.0,"_modifierValues":[{"source":{"key":"WaterLevel","type":"GameStat","icon":"63ff89fdd76a3bc3","min":0.0,"max":7665.0,"name":{"zh":"\u6F5C\u5728\u6C34\u4F4D","en":"Water Level Invisible","ja":"\u6C34\u4F4D\u304C\u898B\u3048\u306A\u3044"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u6C34\u4F4D","en":"Status Stage: High Water Level","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u3044\u6C34\u4F4D"},"value":{"x":-1000.0,"y":-1000.0}},{"source":{"key":"WaterLevel","type":"GameStat","icon":"63ff89fdd76a3bc3","min":0.0,"max":7665.0,"name":{"zh":"\u6F5C\u5728\u6C34\u4F4D","en":"Water Level Invisible","ja":"\u6C34\u4F4D\u304C\u898B\u3048\u306A\u3044"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u7565\u5FAE\u6EA2\u51FA","en":"Status Stage: Moderate Overflow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6C34\u6EA2\u308C"},"value":{"x":-1000.0,"y":-1000.0}},{"source":{"key":"WaterLevel","type":"GameStat","icon":"63ff89fdd76a3bc3","min":0.0,"max":7665.0,"name":{"zh":"\u6F5C\u5728\u6C34\u4F4D","en":"Water Level Invisible","ja":"\u6C34\u4F4D\u304C\u898B\u3048\u306A\u3044"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5927\u6C34\u6F2B\u51FA","en":"Status Stage: High Overflow","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u591A\u3044\u6C34\u6EA2"},"value":{"x":-1000.0,"y":-1000.0}}],"_modifierRates":[{"source":{"key":"BaseTemperature","type":"GameStat","icon":"4194726ee334e108","min":-80.0,"max":80.0,"name":{"zh":"\u57FA\u7840\u6E29\u5EA6","en":"Base Temperature","ja":"Base Temperature"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1AWaterFrozen","en":"Status Stage: WaterFrozen","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWaterFrozen"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"BaseTemperature","type":"GameStat","icon":"4194726ee334e108","min":-80.0,"max":80.0,"name":{"zh":"\u57FA\u7840\u6E29\u5EA6","en":"Base Temperature","ja":"Base Temperature"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 1","en":"Status Stage: Melt Snow 1","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 1"},"value":{"x":-20.0,"y":-20.0}},{"source":{"key":"BaseTemperature","type":"GameStat","icon":"4194726ee334e108","min":-80.0,"max":80.0,"name":{"zh":"\u57FA\u7840\u6E29\u5EA6","en":"Base Temperature","ja":"Base Temperature"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 2","en":"Status Stage: Melt Snow 2","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 2"},"value":{"x":-40.0,"y":-40.0}},{"source":{"key":"BaseTemperature","type":"GameStat","icon":"4194726ee334e108","min":-80.0,"max":80.0,"name":{"zh":"\u57FA\u7840\u6E29\u5EA6","en":"Base Temperature","ja":"Base Temperature"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 3","en":"Status Stage: Melt Snow 3","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 3"},"value":{"x":-80.0,"y":-80.0}},{"source":{"key":"BaseTemperature","type":"GameStat","icon":"4194726ee334e108","min":-80.0,"max":80.0,"name":{"zh":"\u57FA\u7840\u6E29\u5EA6","en":"Base Temperature","ja":"Base Temperature"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 4","en":"Status Stage: Melt Snow 4","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 4"},"value":{"x":-160.0,"y":-160.0}},{"source":{"key":"BaseTemperature","type":"GameStat","icon":"4194726ee334e108","min":-80.0,"max":80.0,"name":{"zh":"\u57FA\u7840\u6E29\u5EA6","en":"Base Temperature","ja":"Base Temperature"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 5","en":"Status Stage: Melt Snow 5","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 5"},"value":{"x":-320.0,"y":-320.0}},{"source":{"key":"BaseTemperature","type":"GameStat","icon":"4194726ee334e108","min":-80.0,"max":80.0,"name":{"zh":"\u57FA\u7840\u6E29\u5EA6","en":"Base Temperature","ja":"Base Temperature"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 6","en":"Status Stage: Melt Snow 6","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 6"},"value":{"x":-640.0,"y":-640.0}}],"_requires":[{"source":{"key":"River_ClearingPine_NorthernLakeBank","type":"CardData","CardType":8,"icon":"4e7f0554d1a39b86","name":{"zh":"\u5317\u90E8\u6E56\u5CB8","en":"Northern Lake Bank","ja":"\u5317\u306E\u6E56\u7554"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5411\u4E1C\u6E38\u6CF3","en":"Action: Swim East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6771\u3078\u6CF3\u3050"},"value":{"x":0.0,"y":672.0}},{"source":{"key":"River_ClearingPine_NorthernLakeBank","type":"CardData","CardType":8,"icon":"4e7f0554d1a39b86","name":{"zh":"\u5317\u90E8\u6E56\u5CB8","en":"Northern Lake Bank","ja":"\u5317\u306E\u6E56\u7554"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u4E1C\u65B9","en":"Action: East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6771"},"value":{"x":673.0,"y":1000000000.0}},{"source":{"key":"River_GrovePine_LakeIsland","type":"CardData","CardType":8,"icon":"32df7c1e167718bc","name":{"zh":"\u6E56\u5FC3\u5C9B","en":"Lake Island","ja":"\u6E56\u5CF6"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5411\u897F\u6E38\u6CF3","en":"Action: Swim West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u897F\u3078\u6CF3\u3050"},"value":{"x":0.0,"y":672.0}},{"source":{"key":"River_GrovePine_LakeIsland","type":"CardData","CardType":8,"icon":"32df7c1e167718bc","name":{"zh":"\u6E56\u5FC3\u5C9B","en":"Lake Island","ja":"\u6E56\u5CF6"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u897F\u65B9","en":"Action: West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u897F"},"value":{"x":673.0,"y":1000000000.0}},{"source":{"key":"River_ThicketPine_SouthernRapids","type":"CardData","CardType":8,"icon":"38074b23642f42b5","name":{"zh":"\u5357\u90E8\u6E4D\u6D41","en":"Southern Rapids","ja":"\u5357\u306E\u6025\u6D41"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6F5C\u6C34","en":"Action: Dive","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98DB\u3073\u8FBC\u3080"},"value":{"x":0.0,"y":672.0}},{"source":{"key":"StreamInvisibleQEE","type":"CardData","CardType":13,"icon":"63ff89fdd76a3bc3","name":{"zh":"Invisible Stream","en":"Invisible Stream","ja":"Invisible Stream"}},"description":{"zh":"\u72B6\u6001\u89E6\u53D1","en":"Stats Change","ja":"\u72B6\u614B\u5909\u5316"},"value":{"x":0.0,"y":672.0}}],"_uuid":"12168210f9aa7cd4e971d1679155d4f6"}
+
+{
+  "GameName" : {
+    "zh" : "\u6C34\u9762\u51BB\u7ED3",
+    "en" : "WaterFrozen",
+    "ja" : "WaterFrozen"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 1344.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "BarColor"        : {
+    "r" : 0.8706,
+    "g" : 0.4431,
+    "b" : 0.4039,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "Fish Population Reduction, replacing flooded status to freezing status for the flooded paths",
+        "en" : "Fish Population Reduction, replacing flooded status to freezing status for the flooded paths",
+        "ja" : "Fish Population Reduction, replacing flooded status to freezing status for the flooded paths"
+      },
+      "ValueRange" : {
+        "m_X" : 673,
+        "m_Y" : 1344
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "SwampWaterLevelFrozenStatus",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u6C34\u4F4D\u51BB\u7ED3\u72B6\u6001",
+              "en" : "SwampWaterLevelFrozenStatus",
+              "ja" : "SwampWaterLevelFrozenStatus"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampWaterLevelFloodedStatus",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u6C34\u4F4D\u6D2A\u6C34\u72B6\u6001",
+              "en" : "SwampWaterLevelFloodedStatus",
+              "ja" : "SwampWaterLevelFloodedStatus"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Pop_Perch_Local",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u672C\u5730\u9C88\u9C7C\u79CD\u7FA4",
+              "en" : "Pop_Perch_Local",
+              "ja" : "Pop_Perch_Local"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Pop_Eel_Local",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u672C\u5730\u9CD7\u9C7C\u79CD\u7FA4",
+              "en" : "Pop_Eel_Local",
+              "ja" : "Pop_Eel_Local"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Pop_Pike_Local",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u672C\u5730\u68AD\u9C7C\u79CD\u7FA4",
+              "en" : "Pop_Pike_Local",
+              "ja" : "Pop_Pike_Local"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Pop_Trout_Local",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u672C\u5730\u9CDF\u9C7C\u79CD\u7FA4",
+              "en" : "Pop_Trout_Local",
+              "ja" : "Pop_Trout_Local"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -50.0,
+            "y" : -50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Pop_Sturgeon_Local",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u672C\u5730\u9C9F\u9C7C\u79CD\u7FA4",
+              "en" : "Pop_Sturgeon_Local",
+              "ja" : "Pop_Sturgeon_Local"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "WaterFrozen",
+  "name"                    : {
+    "zh" : "\u6C34\u9762\u51BB\u7ED3",
+    "en" : "WaterFrozen",
+    "ja" : "WaterFrozen"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1344.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "WaterLevel",
+        "type" : "GameStat",
+        "icon" : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "min"  : 0.0,
+        "max"  : 7665.0,
+        "name" : {
+          "zh" : "\u6F5C\u5728\u6C34\u4F4D",
+          "en" : "Water Level Invisible",
+          "ja" : "\u6C34\u4F4D\u304C\u898B\u3048\u306A\u3044"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u6C34\u4F4D",
+        "en" : "Status Stage: High Water Level",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9AD8\u3044\u6C34\u4F4D"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : -1000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WaterLevel",
+        "type" : "GameStat",
+        "icon" : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "min"  : 0.0,
+        "max"  : 7665.0,
+        "name" : {
+          "zh" : "\u6F5C\u5728\u6C34\u4F4D",
+          "en" : "Water Level Invisible",
+          "ja" : "\u6C34\u4F4D\u304C\u898B\u3048\u306A\u3044"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7565\u5FAE\u6EA2\u51FA",
+        "en" : "Status Stage: Moderate Overflow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6C34\u6EA2\u308C"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : -1000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WaterLevel",
+        "type" : "GameStat",
+        "icon" : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "min"  : 0.0,
+        "max"  : 7665.0,
+        "name" : {
+          "zh" : "\u6F5C\u5728\u6C34\u4F4D",
+          "en" : "Water Level Invisible",
+          "ja" : "\u6C34\u4F4D\u304C\u898B\u3048\u306A\u3044"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5927\u6C34\u6F2B\u51FA",
+        "en" : "Status Stage: High Overflow",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u591A\u3044\u6C34\u6EA2"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : -1000.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "BaseTemperature",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+        "min"  : -80.0,
+        "max"  : 80.0,
+        "name" : {
+          "zh" : "\u57FA\u7840\u6E29\u5EA6",
+          "en" : "Base Temperature",
+          "ja" : "Base Temperature"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AWaterFrozen",
+        "en" : "Status Stage: WaterFrozen",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWaterFrozen"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BaseTemperature",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+        "min"  : -80.0,
+        "max"  : 80.0,
+        "name" : {
+          "zh" : "\u57FA\u7840\u6E29\u5EA6",
+          "en" : "Base Temperature",
+          "ja" : "Base Temperature"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 1",
+        "en" : "Status Stage: Melt Snow 1",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 1"
+      },
+      "value"       : {
+        "x" : -20.0,
+        "y" : -20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BaseTemperature",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+        "min"  : -80.0,
+        "max"  : 80.0,
+        "name" : {
+          "zh" : "\u57FA\u7840\u6E29\u5EA6",
+          "en" : "Base Temperature",
+          "ja" : "Base Temperature"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 2",
+        "en" : "Status Stage: Melt Snow 2",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 2"
+      },
+      "value"       : {
+        "x" : -40.0,
+        "y" : -40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BaseTemperature",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+        "min"  : -80.0,
+        "max"  : 80.0,
+        "name" : {
+          "zh" : "\u57FA\u7840\u6E29\u5EA6",
+          "en" : "Base Temperature",
+          "ja" : "Base Temperature"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 3",
+        "en" : "Status Stage: Melt Snow 3",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 3"
+      },
+      "value"       : {
+        "x" : -80.0,
+        "y" : -80.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BaseTemperature",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+        "min"  : -80.0,
+        "max"  : 80.0,
+        "name" : {
+          "zh" : "\u57FA\u7840\u6E29\u5EA6",
+          "en" : "Base Temperature",
+          "ja" : "Base Temperature"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 4",
+        "en" : "Status Stage: Melt Snow 4",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 4"
+      },
+      "value"       : {
+        "x" : -160.0,
+        "y" : -160.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BaseTemperature",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+        "min"  : -80.0,
+        "max"  : 80.0,
+        "name" : {
+          "zh" : "\u57FA\u7840\u6E29\u5EA6",
+          "en" : "Base Temperature",
+          "ja" : "Base Temperature"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 5",
+        "en" : "Status Stage: Melt Snow 5",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 5"
+      },
+      "value"       : {
+        "x" : -320.0,
+        "y" : -320.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BaseTemperature",
+        "type" : "GameStat",
+        "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+        "min"  : -80.0,
+        "max"  : 80.0,
+        "name" : {
+          "zh" : "\u57FA\u7840\u6E29\u5EA6",
+          "en" : "Base Temperature",
+          "ja" : "Base Temperature"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMelt Snow 6",
+        "en" : "Status Stage: Melt Snow 6",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMelt Snow 6"
+      },
+      "value"       : {
+        "x" : -640.0,
+        "y" : -640.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "River_ClearingPine_NorthernLakeBank",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Event_HuntsmanStart__CardImage",
+        "name"     : {
+          "zh" : "\u5317\u90E8\u6E56\u5CB8",
+          "en" : "Northern Lake Bank",
+          "ja" : "\u5317\u306E\u6E56\u7554"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5411\u4E1C\u6E38\u6CF3",
+        "en" : "Action: Swim East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6771\u3078\u6CF3\u3050"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ClearingPine_NorthernLakeBank",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Event_HuntsmanStart__CardImage",
+        "name"     : {
+          "zh" : "\u5317\u90E8\u6E56\u5CB8",
+          "en" : "Northern Lake Bank",
+          "ja" : "\u5317\u306E\u6E56\u7554"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u4E1C\u65B9",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6771"
+      },
+      "value"       : {
+        "x" : 673.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GrovePine_LakeIsland",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_13_LakeStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u6E56\u5FC3\u5C9B",
+          "en" : "Lake Island",
+          "ja" : "\u6E56\u5CF6"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5411\u897F\u6E38\u6CF3",
+        "en" : "Action: Swim West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u897F\u3078\u6CF3\u3050"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GrovePine_LakeIsland",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_13_LakeStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u6E56\u5FC3\u5C9B",
+          "en" : "Lake Island",
+          "ja" : "\u6E56\u5CF6"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u897F"
+      },
+      "value"       : {
+        "x" : 673.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketPine_SouthernRapids",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GrovePine_NorthernRapids__CardImage",
+        "name"     : {
+          "zh" : "\u5357\u90E8\u6E4D\u6D41",
+          "en" : "Southern Rapids",
+          "ja" : "\u5357\u306E\u6025\u6D41"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6F5C\u6C34",
+        "en" : "Action: Dive",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98DB\u3073\u8FBC\u3080"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "StreamInvisibleQEE",
+        "type" : "CardData",
+        "CardType" : 13,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "Invisible Stream",
+          "en" : "Invisible Stream",
+          "ja" : "Invisible Stream"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u89E6\u53D1",
+        "en" : "Stats Change",
+        "ja" : "\u72B6\u614B\u5909\u5316"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 672.0
+      }
+    }
+  ],
+  "_uuid"                   : "12168210f9aa7cd4e971d1679155d4f6"
+}

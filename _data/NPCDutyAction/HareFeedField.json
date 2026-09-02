@@ -1,1 +1,50 @@
-{"NPCStatModifiers":[{"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}},{"TargetStat":{"key":"AgentStamina","type":"NPCStat","name":{"zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"}},"UseAssociatedAgent":true,"ValueChange":{"x":25.0,"y":25.0}}],"ChangeOverTicks":{"IntValue":2,"Active":true},"RequiredForSelectingDuty":true,"key":"HareFeedField","type":"NPCDutyAction","name":{"zh":"HareFeedField","en":"HareFeedField","ja":"HareFeedField"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "NPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "AgentSatiation",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u9971\u98DF",
+          "en" : "AgentSatiation",
+          "ja" : "AgentSatiation"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "TargetStat" : {
+        "key" : "AgentStamina",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "AgentStamina",
+          "ja" : "AgentStamina"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    }
+  ],
+  "ChangeOverTicks"  : {
+    "IntValue" : 2,
+    "Active"   : true
+  },
+  "RequiredForSelectingDuty" : true,
+  "key"                      : "HareFeedField",
+  "type"                     : "NPCDutyAction",
+  "name"                     : {
+    "zh" : "HareFeedField",
+    "en" : "HareFeedField",
+    "ja" : "HareFeedField"
+  },
+  "actionType"               : "ChangeNPCStatDutyAction"
+}

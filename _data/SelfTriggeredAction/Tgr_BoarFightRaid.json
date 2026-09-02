@@ -1,1 +1,228 @@
-{"Actions":[{"RepeatOptions":2,"ActionCooldown":0,"PlayerUsesCardCondition":0,"StatChangeTrigger":[{"Stat":{"key":"BoarRaidCounter","type":"GameStat","min":0.0,"max":192.0,"name":{"zh":"\u91CE\u732A\u88AD\u51FB\u6B21\u6570","en":"Boar Raid Counter","ja":"\u30A4\u30CE\u30B7\u30B7\u306E\u8972\u6483\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":192.0,"y":192.0}}],"ActionName":{"zh":"A Wild Boar!","en":"A Wild Boar!","ja":"A Wild Boar!"},"DaytimeCost":0,"UseMiniTicks":0,"RequiredCardsOnBoard":[{"TriggerCard":{"key":"Env_Enclosure","type":"CardData","CardType":4,"name":{"zh":"\u755C\u680F","en":"Enclosure","ja":"\u56F2\u3044"}},"Inverted":true},{"TriggerCard":{"key":"Imp_Door","type":"CardData","CardType":10,"icon":"f44e14d49cd011d1","name":{"zh":"\u95E8","en":"Door","ja":"\u30C9\u30A2"}},"Inverted":true}],"RequiredTagsOnBoard":[{"TriggerTag":{"key":"tag_Feed","type":"CardTag","count":305,"name":{"zh":"\u5582/\u6DFB\u52A0","en":"Feed","ja":"\u990C"}},"NotInHand":true},{"TriggerTag":{"key":"tag_BoarTerritory","type":"CardTag","count":0,"name":{"zh":"\u91CE\u732A\u7684\u9886\u5730","en":"Boar Territory","ja":"\u30A4\u30CE\u30B7\u30B7\u306E\u5DE3"}}}],"ProducedCards":[{"CollectionName":"Nothing","CollectionWeight":50,"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}]},{"CollectionName":"Wild Boar Raiding","CollectionWeight":0,"StatsDropChanceModifiers":[{"Stat":{"key":"FirstMonthCounter","type":"GameStat","min":0.0,"max":5760.0,"name":{"zh":"\u9996\u6708\u6B21\u6570","en":"First Month Counter","ja":"\uFF11\u304B\u6708\u76EE\u30AB\u30A6\u30F3\u30BF\u30FC"}},"StatRange":{"x":0.0,"y":5759.0},"InterpWeightRange":{"m_X":-1000,"m_Y":-1000},"WhenOutOfRange":0},{"Stat":{"key":"Pop_Boar","type":"GameStat","min":0.0,"max":12000.0,"name":{"zh":"\u91CE\u732A\u79CD\u7FA4\u6570\u91CF","en":"Population Boars","ja":"\u30A4\u30CE\u30B7\u30B7\u306E\u6570"}},"InterpWeightRange":{"m_X":-1000,"m_Y":-1000},"WhenOutOfRange":0},{"Stat":{"key":"Pop_Boar","type":"GameStat","min":0.0,"max":12000.0,"name":{"zh":"\u91CE\u732A\u79CD\u7FA4\u6570\u91CF","en":"Population Boars","ja":"\u30A4\u30CE\u30B7\u30B7\u306E\u6570"}},"StatRange":{"x":0.0,"y":14000.0},"InterpWeightRange":{"m_X":-250,"m_Y":0},"WhenOutOfRange":0}],"CardDropChanceModifiers":[{"TagOnBoard":{"key":"tag_Feed","type":"CardTag","count":305,"name":{"zh":"\u5582/\u6DFB\u52A0","en":"Feed","ja":"\u990C"}},"LookInside":0,"MaxWeightPerCard":10,"MaxStack":0}],"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}]}],"StatModifications":[{"Stat":{"key":"BoarRaidCounter","type":"GameStat","min":0.0,"max":192.0,"name":{"zh":"\u91CE\u732A\u88AD\u51FB\u6B21\u6570","en":"Boar Raid Counter","ja":"\u30A4\u30CE\u30B7\u30B7\u306E\u8972\u6483\u30AB\u30A6\u30F3\u30BF\u30FC"}},"ValueModifier":{"x":-192.0,"y":-192.0}}],"RoomDirection":0,"ExitDirection":0}],"type":"SelfTriggeredAction","key":"Tgr_BoarFightRaid","name":{"zh":"Tgr_BoarFightRaid","en":"Tgr_BoarFightRaid","ja":"Tgr_BoarFightRaid"},"_uuid":"c361ca0285ae20b41b6649518ab02aac"}
+
+{
+  "Actions" : [
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "BoarRaidCounter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u91CE\u732A\u88AD\u51FB\u6B21\u6570",
+              "en" : "Boar Raid Counter",
+              "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u8972\u6483\u30AB\u30A6\u30F3\u30BF\u30FC"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 192.0,
+            "y" : 192.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "A Wild Boar!",
+        "en" : "A Wild Boar!",
+        "ja" : "A Wild Boar!"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredCardsOnBoard"    : [
+        {
+          "TriggerCard" : {
+            "key" : "Env_Enclosure",
+            "type" : "CardData",
+            "CardType" : 4,
+            "name"     : {
+              "zh" : "\u755C\u680F",
+              "en" : "Enclosure",
+              "ja" : "\u56F2\u3044"
+            }
+          },
+          "Inverted"    : true
+        },
+        {
+          "TriggerCard" : {
+            "key" : "Imp_Door",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Imp_Door__CardImage",
+            "name"     : {
+              "zh" : "\u95E8",
+              "en" : "Door",
+              "ja" : "\u30C9\u30A2"
+            }
+          },
+          "Inverted"    : true
+        }
+      ],
+      "RequiredTagsOnBoard"     : [
+        {
+          "TriggerTag" : {
+            "key" : "tag_Feed",
+            "type" : "CardTag",
+            "count" : 305,
+            "name"  : {
+              "zh" : "\u5582/\u6DFB\u52A0",
+              "en" : "Feed",
+              "ja" : "\u990C"
+            }
+          },
+          "NotInHand"  : true
+        },
+        {
+          "TriggerTag" : {
+            "key" : "tag_BoarTerritory",
+            "type" : "CardTag",
+            "count" : 0,
+            "name"  : {
+              "zh" : "\u91CE\u732A\u7684\u9886\u5730",
+              "en" : "Boar Territory",
+              "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u5DE3"
+            }
+          }
+        }
+      ],
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "Nothing",
+          "CollectionWeight" : 50,
+          "DroppedCards"     : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Wild Boar Raiding",
+          "CollectionWeight" : 0,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "FirstMonthCounter",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 5760.0,
+                "name" : {
+                  "zh" : "\u9996\u6708\u6B21\u6570",
+                  "en" : "First Month Counter",
+                  "ja" : "\uFF11\u304B\u6708\u76EE\u30AB\u30A6\u30F3\u30BF\u30FC"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 5759.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : -1000,
+                "m_Y" : -1000
+              },
+              "WhenOutOfRange"    : 0
+            },
+            {
+              "Stat" : {
+                "key" : "Pop_Boar",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 12000.0,
+                "name" : {
+                  "zh" : "\u91CE\u732A\u79CD\u7FA4\u6570\u91CF",
+                  "en" : "Population Boars",
+                  "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u6570"
+                }
+              },
+              "InterpWeightRange" : {
+                "m_X" : -1000,
+                "m_Y" : -1000
+              },
+              "WhenOutOfRange"    : 0
+            },
+            {
+              "Stat" : {
+                "key" : "Pop_Boar",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 12000.0,
+                "name" : {
+                  "zh" : "\u91CE\u732A\u79CD\u7FA4\u6570\u91CF",
+                  "en" : "Population Boars",
+                  "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u6570"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 14000.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : -250,
+                "m_Y" : 0
+              },
+              "WhenOutOfRange"    : 0
+            }
+          ],
+          "CardDropChanceModifiers"  : [
+            {
+              "TagOnBoard" : {
+                "key" : "tag_Feed",
+                "type" : "CardTag",
+                "count" : 305,
+                "name"  : {
+                  "zh" : "\u5582/\u6DFB\u52A0",
+                  "en" : "Feed",
+                  "ja" : "\u990C"
+                }
+              },
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 10,
+              "MaxStack"         : 0
+            }
+          ],
+          "DroppedCards"             : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "BoarRaidCounter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u91CE\u732A\u88AD\u51FB\u6B21\u6570",
+              "en" : "Boar Raid Counter",
+              "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u8972\u6483\u30AB\u30A6\u30F3\u30BF\u30FC"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -192.0,
+            "y" : -192.0
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "type"    : "SelfTriggeredAction",
+  "key"     : "Tgr_BoarFightRaid",
+  "name"    : {
+    "zh" : "Tgr_BoarFightRaid",
+    "en" : "Tgr_BoarFightRaid",
+    "ja" : "Tgr_BoarFightRaid"
+  },
+  "_uuid"   : "c361ca0285ae20b41b6649518ab02aac"
+}

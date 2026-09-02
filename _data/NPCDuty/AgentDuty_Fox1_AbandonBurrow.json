@@ -1,1 +1,80 @@
-{"DutyName":{"zh":"\u9057\u5F03\u5DE2\u7A74","en":"Fox1 Abandon Burrow","ja":"Fox1 Abandon Burrow"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_SpiritWorld","type":"CardTag","count":3,"name":{"zh":"\u7CBE\u9B44\u754C","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentBurrowAbandoned","type":"NPCStat","name":{"zh":"\u9057\u5F03\u6D1E\u7A74","en":"AgentBurrowAbandoned","ja":"AgentBurrowAbandoned"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":2,"ActionSequence":[{"key":"AbandonFox1Burrow","type":"MoveDutyAction","name":{"zh":"AbandonFox1Burrow","en":"AbandonFox1Burrow","ja":"AbandonFox1Burrow"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Fox1_AbandonBurrow","name":{"zh":"\u9057\u5F03\u5DE2\u7A74","en":"Fox1 Abandon Burrow","ja":"Fox1 Abandon Burrow"},"_uuid":"3bfd941e1d88745468a82ced5b0dc8f7"}
+
+{
+  "DutyName" : {
+    "zh" : "\u9057\u5F03\u5DE2\u7A74",
+    "en" : "Fox1 Abandon Burrow",
+    "ja" : "Fox1 Abandon Burrow"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_SpiritWorld",
+        "type" : "CardTag",
+        "count" : 3,
+        "name"  : {
+          "zh" : "\u7CBE\u9B44\u754C",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBurrowAbandoned",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9057\u5F03\u6D1E\u7A74",
+            "en" : "AgentBurrowAbandoned",
+            "ja" : "AgentBurrowAbandoned"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 2,
+  "ActionSequence"       : [
+    {
+      "key" : "AbandonFox1Burrow",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "AbandonFox1Burrow",
+        "en" : "AbandonFox1Burrow",
+        "ja" : "AbandonFox1Burrow"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Fox1_AbandonBurrow",
+  "name"                 : {
+    "zh" : "\u9057\u5F03\u5DE2\u7A74",
+    "en" : "Fox1 Abandon Burrow",
+    "ja" : "Fox1 Abandon Burrow"
+  },
+  "_uuid"                : "3bfd941e1d88745468a82ced5b0dc8f7"
+}

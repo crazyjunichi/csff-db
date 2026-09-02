@@ -1,1 +1,77 @@
-{"DutyName":{"zh":"\u730E\u6355\u5371\u9669\u730E\u7269","en":"Wolf Pack Attack Dangerous Prey","ja":"Wolf Pack Attack Dangerous Prey"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":50.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfPackHurtDangerousPrey","type":"ChangeNPCStatDutyAction","name":{"zh":"WolfPackHurtDangerousPrey","en":"WolfPackHurtDangerousPrey","ja":"WolfPackHurtDangerousPrey"}},{"key":"WolfPackGetHurtByDangerousPrey","type":"ChangeNPCStatDutyAction","name":{"zh":"WolfPackGetHurtByDangerousPrey","en":"WolfPackGetHurtByDangerousPrey","ja":"WolfPackGetHurtByDangerousPrey"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_WolfPack_AttackDangerousPrey","name":{"zh":"\u730E\u6355\u5371\u9669\u730E\u7269","en":"Wolf Pack Attack Dangerous Prey","ja":"Wolf Pack Attack Dangerous Prey"},"_uuid":"2ef03fefbf56e0944b7eaf9d4eb7c211"}
+
+{
+  "DutyName" : {
+    "zh" : "\u730E\u6355\u5371\u9669\u730E\u7269",
+    "en" : "Wolf Pack Attack Dangerous Prey",
+    "ja" : "Wolf Pack Attack Dangerous Prey"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 50.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "WolfPackHurtDangerousPrey",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WolfPackHurtDangerousPrey",
+        "en" : "WolfPackHurtDangerousPrey",
+        "ja" : "WolfPackHurtDangerousPrey"
+      }
+    },
+    {
+      "key" : "WolfPackGetHurtByDangerousPrey",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WolfPackGetHurtByDangerousPrey",
+        "en" : "WolfPackGetHurtByDangerousPrey",
+        "ja" : "WolfPackGetHurtByDangerousPrey"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_WolfPack_AttackDangerousPrey",
+  "name"                 : {
+    "zh" : "\u730E\u6355\u5371\u9669\u730E\u7269",
+    "en" : "Wolf Pack Attack Dangerous Prey",
+    "ja" : "Wolf Pack Attack Dangerous Prey"
+  },
+  "_uuid"                : "2ef03fefbf56e0944b7eaf9d4eb7c211"
+}

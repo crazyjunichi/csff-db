@@ -1,1 +1,327 @@
-{"ActionName":{"zh":"\u6295\u63B7","en":"Throw","ja":"\u6295\u3052\u308B"},"ActionSuccessLog":{"LogText":{"zh":"\u4F60\u7529\u51FA\u4E86\u4F60\u7684{1}\uFF0C\u6210\u529F\u51FB\u4E2D\u4E86{0}\uFF01","en":"you throw your {1} and successfully hit {0}!","ja":"{1}\u3092{0}\u306B\u6295\u3052\u305F\uFF01"}},"ActionFailureLog":{"LogText":{"zh":"\u4F60\u7684{1}\u523A\u6B6A\u4E86\uFF0C\u6CA1\u6709\u51FB\u4E2D\u76EE\u6807......","en":"your {1} flies through the air and misses its target...","ja":"{1}\u304C\u5F53\u305F\u3089\u306A\u304B\u3063\u305F\u30FB\u30FB\u30FB"}},"MainHandUse":0,"OffHandUse":0,"BothHandsUse":0,"RequiredDistance":0,"RequiredWrestlingStateOverride":true,"RequiredWrestlingState":2,"RequiredAmbush":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"RequiredConditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Skill_KnifeFighting","type":"GameStat","icon":"48fce3f619d84116","min":0.0,"max":150.0,"name":{"zh":"\u5200\u672F","en":"Knife Fighting","ja":"\u30CA\u30A4\u30D5\u306E\u30B9\u30AD\u30EB"}},"TriggerRange":{"x":90.0,"y":150.0}}]},"ActionRangeOverride":true,"ActionRange":1,"ActionType":0,"AmmoNeededOverride":0,"Cooldown":0,"LimitedUses":0,"InitialClashValue":{"Value":{"x":25.0,"y":25.0},"Behavior":0},"ClashStatInfluencesOverride":1,"ClashStatInfluences":[{"Stat":{"key":"Skill_KnifeFighting","type":"GameStat","icon":"48fce3f619d84116","min":0.0,"max":150.0,"name":{"zh":"\u5200\u672F","en":"Knife Fighting","ja":"\u30CA\u30A4\u30D5\u306E\u30B9\u30AD\u30EB"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":0.0,"y":300.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"DamageTypeOverride":0,"InitialDamage":{"Value":{"x":50.0,"y":150.0},"Behavior":0},"WrestlingDamageBonus":{"Value":{"x":20.0,"y":80.0},"Behavior":0},"DamageStatInfluencesOverride":1,"DamageStatInfluences":[{"Stat":{"key":"Skill_KnifeFighting","type":"GameStat","icon":"48fce3f619d84116","min":0.0,"max":150.0,"name":{"zh":"\u5200\u672F","en":"Knife Fighting","ja":"\u30CA\u30A4\u30D5\u306E\u30B9\u30AD\u30EB"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":0.0,"y":37.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"DurabilityModifiersOverride":1,"DurabilityModifiers":[{"Durability":1,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":1000.0},"OutputValueRange":{"x":0.0,"y":500.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":100.0,"y":100.0},"OutputValueRange":{"x":1.0,"y":1.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":110.0,"y":110.0},"OutputValueRange":{"x":7.0,"y":7.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":120.0,"y":120.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":130.0,"y":130.0},"OutputValueRange":{"x":8.0,"y":8.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":140.0,"y":140.0},"OutputValueRange":{"x":1.0,"y":1.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},{"Durability":256,"Affects":1,"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":400.0,"y":400.0},"OutputValueRange":{"x":18.0,"y":18.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}}],"InHandsModifierOverride":0,"PreClashDistanceChange":0,"WeaponEquipStateChange":5,"ActionStatChanges":[{"Stat":{"key":"Skill_KnifeFighting","type":"GameStat","icon":"48fce3f619d84116","min":0.0,"max":150.0,"name":{"zh":"\u5200\u672F","en":"Knife Fighting","ja":"\u30CA\u30A4\u30D5\u306E\u30B9\u30AD\u30EB"}},"ValueModifier":{"x":1.0,"y":1.0}},{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":-0.1,"y":-0.1}}],"EncounterResult":0,"type":"WeaponMove","key":"KnifeThrow","name":{"zh":"\u6295\u63B7","en":"Throw","ja":"\u6295\u3052\u308B"}}
+
+{
+  "ActionName" : {
+    "zh" : "\u6295\u63B7",
+    "en" : "Throw",
+    "ja" : "\u6295\u3052\u308B"
+  },
+  "ActionSuccessLog" : {
+    "LogText" : {
+      "zh" : "\u4F60\u7529\u51FA\u4E86\u4F60\u7684{1}\uFF0C\u6210\u529F\u51FB\u4E2D\u4E86{0}\uFF01",
+      "en" : "you throw your {1} and successfully hit {0}!",
+      "ja" : "{1}\u3092{0}\u306B\u6295\u3052\u305F\uFF01"
+    }
+  },
+  "ActionFailureLog" : {
+    "LogText" : {
+      "zh" : "\u4F60\u7684{1}\u523A\u6B6A\u4E86\uFF0C\u6CA1\u6709\u51FB\u4E2D\u76EE\u6807......",
+      "en" : "your {1} flies through the air and misses its target...",
+      "ja" : "{1}\u304C\u5F53\u305F\u3089\u306A\u304B\u3063\u305F\u30FB\u30FB\u30FB"
+    }
+  },
+  "MainHandUse"      : 0,
+  "OffHandUse"       : 0,
+  "BothHandsUse"     : 0,
+  "RequiredDistance" : 0,
+  "RequiredWrestlingStateOverride" : true,
+  "RequiredWrestlingState"         : 2,
+  "RequiredAmbush"                 : 0,
+  "RequiredSelfVulnerableState"    : 0,
+  "RequiredOpponentVulnerableState" : 0,
+  "RequiredConditions"              : {
+    "PlayerUsesCard" : 0,
+    "RequiredStatValues" : [
+      {
+        "Stat" : {
+          "key" : "Skill_KnifeFighting",
+          "type" : "GameStat",
+          "icon" : "CardData__Axe_Flint__SpecialDurability1-OverrideIcon",
+          "min"  : 0.0,
+          "max"  : 150.0,
+          "name" : {
+            "zh" : "\u5200\u672F",
+            "en" : "Knife Fighting",
+            "ja" : "\u30CA\u30A4\u30D5\u306E\u30B9\u30AD\u30EB"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 90.0,
+          "y" : 150.0
+        }
+      }
+    ]
+  },
+  "ActionRangeOverride"             : true,
+  "ActionRange"                     : 1,
+  "ActionType"                      : 0,
+  "AmmoNeededOverride"              : 0,
+  "Cooldown"                        : 0,
+  "LimitedUses"                     : 0,
+  "InitialClashValue"               : {
+    "Value" : {
+      "x" : 25.0,
+      "y" : 25.0
+    },
+    "Behavior" : 0
+  },
+  "ClashStatInfluencesOverride"     : 1,
+  "ClashStatInfluences"             : [
+    {
+      "Stat" : {
+        "key" : "Skill_KnifeFighting",
+        "type" : "GameStat",
+        "icon" : "CardData__Axe_Flint__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 150.0,
+        "name" : {
+          "zh" : "\u5200\u672F",
+          "en" : "Knife Fighting",
+          "ja" : "\u30CA\u30A4\u30D5\u306E\u30B9\u30AD\u30EB"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 300.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "DamageTypeOverride"              : 0,
+  "InitialDamage"                   : {
+    "Value" : {
+      "x" : 50.0,
+      "y" : 150.0
+    },
+    "Behavior" : 0
+  },
+  "WrestlingDamageBonus"            : {
+    "Value" : {
+      "x" : 20.0,
+      "y" : 80.0
+    },
+    "Behavior" : 0
+  },
+  "DamageStatInfluencesOverride"    : 1,
+  "DamageStatInfluences"            : [
+    {
+      "Stat" : {
+        "key" : "Skill_KnifeFighting",
+        "type" : "GameStat",
+        "icon" : "CardData__Axe_Flint__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 150.0,
+        "name" : {
+          "zh" : "\u5200\u672F",
+          "en" : "Knife Fighting",
+          "ja" : "\u30CA\u30A4\u30D5\u306E\u30B9\u30AD\u30EB"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 37.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "DurabilityModifiersOverride"     : 1,
+  "DurabilityModifiers"             : [
+    {
+      "Durability" : 1,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 1000.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 500.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 100.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 110.0,
+            "y" : 110.0
+          },
+          "OutputValueRange" : {
+            "x" : 7.0,
+            "y" : 7.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 120.0,
+            "y" : 120.0
+          },
+          "WhenOutOfRange"  : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 130.0,
+            "y" : 130.0
+          },
+          "OutputValueRange" : {
+            "x" : 8.0,
+            "y" : 8.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 140.0,
+            "y" : 140.0
+          },
+          "OutputValueRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Durability" : 256,
+      "Affects"    : 1,
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 400.0,
+            "y" : 400.0
+          },
+          "OutputValueRange" : {
+            "x" : 18.0,
+            "y" : 18.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "InHandsModifierOverride"         : 0,
+  "PreClashDistanceChange"          : 0,
+  "WeaponEquipStateChange"          : 5,
+  "ActionStatChanges"               : [
+    {
+      "Stat" : {
+        "key" : "Skill_KnifeFighting",
+        "type" : "GameStat",
+        "icon" : "CardData__Axe_Flint__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 150.0,
+        "name" : {
+          "zh" : "\u5200\u672F",
+          "en" : "Knife Fighting",
+          "ja" : "\u30CA\u30A4\u30D5\u306E\u30B9\u30AD\u30EB"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "Stamina",
+        "type" : "GameStat",
+        "icon" : "GameStat__Stamina__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 32.0,
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "Stamina",
+          "ja" : "\u30B9\u30BF\u30DF\u30CA"
+        }
+      },
+      "ValueModifier" : {
+        "x" : -0.1,
+        "y" : -0.1
+      }
+    }
+  ],
+  "EncounterResult"                 : 0,
+  "type"                            : "WeaponMove",
+  "key"                             : "KnifeThrow",
+  "name"                            : {
+    "zh" : "\u6295\u63B7",
+    "en" : "Throw",
+    "ja" : "\u6295\u3052\u308B"
+  }
+}

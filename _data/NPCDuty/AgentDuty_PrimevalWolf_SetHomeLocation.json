@@ -1,1 +1,85 @@
-{"DutyName":{"zh":"\u8BBE\u7F6E\u5DE2\u7A74\u4F4D\u7F6E","en":"Primeval Wolf Set Home Location","ja":"Primeval Wolf Set Home Location"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredEnvironmentTags":[{"key":"tag_Env_PrimevalWolfHomeLocation","type":"CardTag","count":3,"name":{"zh":"\u539F\u59CB\u72FC\u5DE2\u7A74","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentHasHome","type":"NPCStat","name":{"zh":"\u6709\u6D1E\u7A74","en":"AgentHasHome","ja":"AgentHasHome"}}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"SetPrimevalWolfHomeFlag","type":"SetHomeDutyAction","name":{"zh":"SetPrimevalWolfHomeFlag","en":"SetPrimevalWolfHomeFlag","ja":"SetPrimevalWolfHomeFlag"}},{"key":"SetPrimevalWolfHomeFlag","type":"ChangeNPCStatDutyAction","name":{"zh":"SetPrimevalWolfHomeFlag","en":"SetPrimevalWolfHomeFlag","ja":"SetPrimevalWolfHomeFlag"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_PrimevalWolf_SetHomeLocation","name":{"zh":"\u8BBE\u7F6E\u5DE2\u7A74\u4F4D\u7F6E","en":"Primeval Wolf Set Home Location","ja":"Primeval Wolf Set Home Location"},"_uuid":"0eae70533d3f62b4e9d48364445cba51"}
+
+{
+  "DutyName" : {
+    "zh" : "\u8BBE\u7F6E\u5DE2\u7A74\u4F4D\u7F6E",
+    "en" : "Primeval Wolf Set Home Location",
+    "ja" : "Primeval Wolf Set Home Location"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_PrimevalWolfHomeLocation",
+        "type" : "CardTag",
+        "count" : 3,
+        "name"  : {
+          "zh" : "\u539F\u59CB\u72FC\u5DE2\u7A74",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentHasHome",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6709\u6D1E\u7A74",
+            "en" : "AgentHasHome",
+            "ja" : "AgentHasHome"
+          }
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "SetPrimevalWolfHomeFlag",
+      "type" : "SetHomeDutyAction",
+      "name" : {
+        "zh" : "SetPrimevalWolfHomeFlag",
+        "en" : "SetPrimevalWolfHomeFlag",
+        "ja" : "SetPrimevalWolfHomeFlag"
+      }
+    },
+    {
+      "key" : "SetPrimevalWolfHomeFlag",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "SetPrimevalWolfHomeFlag",
+        "en" : "SetPrimevalWolfHomeFlag",
+        "ja" : "SetPrimevalWolfHomeFlag"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_PrimevalWolf_SetHomeLocation",
+  "name"                 : {
+    "zh" : "\u8BBE\u7F6E\u5DE2\u7A74\u4F4D\u7F6E",
+    "en" : "Primeval Wolf Set Home Location",
+    "ja" : "Primeval Wolf Set Home Location"
+  },
+  "_uuid"                : "0eae70533d3f62b4e9d48364445cba51"
+}

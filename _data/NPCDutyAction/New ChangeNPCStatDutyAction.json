@@ -1,1 +1,48 @@
-{"OverrideModifiersTarget":{"TargetAgent":{"Target":{"key":"Agent_ForestBeast","type":"NPCAgent","icon":"36a826319f4d3b95","name":{"zh":"\u68EE\u6797\u731B\u517D","en":"Forest Beast","ja":"\u68EE\u306E\u7363"}}},"Method":0},"NPCStatModifiers":[{"TargetStat":{"key":"AgentDistracted","type":"NPCStat","name":{"zh":"\u5206\u5FC3","en":"AgentDistracted","ja":"AgentDistracted"}},"UseAssociatedAgent":true,"ValueChange":{"x":-100.0,"y":-100.0}}],"ChangeOverTicks":{"IntValue":1,"Active":true},"key":"New ChangeNPCStatDutyAction","type":"NPCDutyAction","name":{"zh":"New ChangeNPCStatDutyAction","en":"New ChangeNPCStatDutyAction","ja":"New ChangeNPCStatDutyAction"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "OverrideModifiersTarget" : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "Agent_ForestBeast",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_ForestBeast__AgentImage",
+        "name" : {
+          "zh" : "\u68EE\u6797\u731B\u517D",
+          "en" : "Forest Beast",
+          "ja" : "\u68EE\u306E\u7363"
+        }
+      }
+    },
+    "Method"      : 0
+  },
+  "NPCStatModifiers"        : [
+    {
+      "TargetStat" : {
+        "key" : "AgentDistracted",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u5206\u5FC3",
+          "en" : "AgentDistracted",
+          "ja" : "AgentDistracted"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : -100.0,
+        "y" : -100.0
+      }
+    }
+  ],
+  "ChangeOverTicks"         : {
+    "IntValue" : 1,
+    "Active"   : true
+  },
+  "key"                     : "New ChangeNPCStatDutyAction",
+  "type"                    : "NPCDutyAction",
+  "name"                    : {
+    "zh" : "New ChangeNPCStatDutyAction",
+    "en" : "New ChangeNPCStatDutyAction",
+    "ja" : "New ChangeNPCStatDutyAction"
+  },
+  "actionType"              : "ChangeNPCStatDutyAction"
+}

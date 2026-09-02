@@ -1,1 +1,48 @@
-{"MovementType":0,"MoveDestination":3,"DestinationSelection":2,"MoveToTags":[{"key":"tag_Env_BoarHidingArea2","type":"CardTag","count":3,"name":{"zh":"\u91CE\u732A\u85CF\u8EAB\u59042","en":"Used for Agent Duties. Has to be on an Enviroment Card. ","ja":"Used for Agent Duties. Has to be on an Enviroment Card. "}}],"IgnoreCurrentLocation":true,"LeaveTracks":true,"CostRequirements":2,"MoveCosts":[{"TargetStat":{"key":"AgentStamina","type":"NPCStat","name":{"zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"}},"UseAssociatedAgent":true,"ValueChange":{"x":-35.0,"y":-35.0}}],"RequiredForSelectingDuty":true,"key":"BoarFleeMove","type":"NPCDutyAction","name":{"zh":"BoarFleeMove","en":"BoarFleeMove","ja":"BoarFleeMove"},"actionType":"MoveDutyAction"}
+
+{
+  "MovementType" : 0,
+  "MoveDestination" : 3,
+  "DestinationSelection" : 2,
+  "MoveToTags"           : [
+    {
+      "key" : "tag_Env_BoarHidingArea2",
+      "type" : "CardTag",
+      "count" : 3,
+      "name"  : {
+        "zh" : "\u91CE\u732A\u85CF\u8EAB\u59042",
+        "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+        "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+      }
+    }
+  ],
+  "IgnoreCurrentLocation" : true,
+  "LeaveTracks"           : true,
+  "CostRequirements"      : 2,
+  "MoveCosts"             : [
+    {
+      "TargetStat" : {
+        "key" : "AgentStamina",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "AgentStamina",
+          "ja" : "AgentStamina"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : -35.0,
+        "y" : -35.0
+      }
+    }
+  ],
+  "RequiredForSelectingDuty" : true,
+  "key"                      : "BoarFleeMove",
+  "type"                     : "NPCDutyAction",
+  "name"                     : {
+    "zh" : "BoarFleeMove",
+    "en" : "BoarFleeMove",
+    "ja" : "BoarFleeMove"
+  },
+  "actionType"               : "MoveDutyAction"
+}

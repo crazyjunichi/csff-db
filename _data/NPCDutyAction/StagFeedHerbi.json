@@ -1,1 +1,50 @@
-{"NPCStatModifiers":[{"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"ValueChange":{"x":10.0,"y":10.0}},{"TargetStat":{"key":"AgentStamina","type":"NPCStat","name":{"zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"}},"UseAssociatedAgent":true,"ValueChange":{"x":25.0,"y":25.0}}],"ChangeOverTicks":{"IntValue":1,"Active":true},"RequiredForSelectingDuty":true,"key":"StagFeedHerbi","type":"NPCDutyAction","name":{"zh":"StagFeedHerbi","en":"StagFeedHerbi","ja":"StagFeedHerbi"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "NPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "AgentSatiation",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u9971\u98DF",
+          "en" : "AgentSatiation",
+          "ja" : "AgentSatiation"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "TargetStat" : {
+        "key" : "AgentStamina",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "AgentStamina",
+          "ja" : "AgentStamina"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    }
+  ],
+  "ChangeOverTicks"  : {
+    "IntValue" : 1,
+    "Active"   : true
+  },
+  "RequiredForSelectingDuty" : true,
+  "key"                      : "StagFeedHerbi",
+  "type"                     : "NPCDutyAction",
+  "name"                     : {
+    "zh" : "StagFeedHerbi",
+    "en" : "StagFeedHerbi",
+    "ja" : "StagFeedHerbi"
+  },
+  "actionType"               : "ChangeNPCStatDutyAction"
+}

@@ -1,1 +1,64 @@
-{"OverrideModifiersTarget":{"TargetAgent":{"Target":{"key":"Agent_Bear","type":"NPCAgent","icon":"c7d16206b3ccb72f","name":{"zh":"\u718A","en":"Bear","ja":"\u30AF\u30DE"}}},"Method":0,"UsePathfinding":true},"NPCStatModifiers":[{"TargetStat":{"key":"AgentHydration","type":"NPCStat","name":{"zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}},{"TargetStat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}}],"ChangeOverTicks":{"IntValue":1},"key":"BearDrinkAndSleep","type":"NPCDutyAction","name":{"zh":"BearDrinkAndSleep","en":"BearDrinkAndSleep","ja":"BearDrinkAndSleep"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "OverrideModifiersTarget" : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "Agent_Bear",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Bear__AgentImage",
+        "name" : {
+          "zh" : "\u718A",
+          "en" : "Bear",
+          "ja" : "\u30AF\u30DE"
+        }
+      }
+    },
+    "Method"      : 0,
+    "UsePathfinding" : true
+  },
+  "NPCStatModifiers"        : [
+    {
+      "TargetStat" : {
+        "key" : "AgentHydration",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u996E\u6C34",
+          "en" : "AgentHydration",
+          "ja" : "AgentHydration"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "TargetStat" : {
+        "key" : "AgentWakefulness",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u6E05\u9192",
+          "en" : "AgentWakefulness",
+          "ja" : "AgentWakefulness"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    }
+  ],
+  "ChangeOverTicks"         : {
+    "IntValue" : 1
+  },
+  "key"                     : "BearDrinkAndSleep",
+  "type"                    : "NPCDutyAction",
+  "name"                    : {
+    "zh" : "BearDrinkAndSleep",
+    "en" : "BearDrinkAndSleep",
+    "ja" : "BearDrinkAndSleep"
+  },
+  "actionType"              : "ChangeNPCStatDutyAction"
+}

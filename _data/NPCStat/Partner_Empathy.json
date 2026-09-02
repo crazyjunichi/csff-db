@@ -1,1 +1,150 @@
-{"GameName":{"zh":"\u540C\u7406\u5FC3","en":"Empathy","ja":"Empathy"},"DefaultStartingValue":50.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":0.0,"Statuses":[{"GameName":{"zh":"\u975E\u5E38\u4F4E","en":"Very Low","ja":"Very Low"},"Priority":0,"ValueRange":{"m_X":0,"m_Y":24},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_LikesNurturingTasks","type":"NPCStat","name":{"zh":"\u559C\u6B22\u7167\u6599\u4EFB\u52A1","en":"Partner_LikesNurturingTasks","ja":"Partner_LikesNurturingTasks"}},"ValueChange":{"MaxValue":-100.0,"FloatValue":-100.0,"Active":true}}]},{"GameName":{"zh":"\u4F4E","en":"Low","ja":"Low"},"Priority":0,"ValueRange":{"m_X":25,"m_Y":49},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_LikesNurturingTasks","type":"NPCStat","name":{"zh":"\u559C\u6B22\u7167\u6599\u4EFB\u52A1","en":"Partner_LikesNurturingTasks","ja":"Partner_LikesNurturingTasks"}},"ValueChange":{"MaxValue":-50.0,"FloatValue":-50.0,"Active":true}}]},{"GameName":{"zh":"\u9AD8","en":"High","ja":"High"},"Priority":0,"ValueRange":{"m_X":51,"m_Y":75},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_LikesNurturingTasks","type":"NPCStat","name":{"zh":"\u559C\u6B22\u7167\u6599\u4EFB\u52A1","en":"Partner_LikesNurturingTasks","ja":"Partner_LikesNurturingTasks"}},"ValueChange":{"MaxValue":50.0,"FloatValue":50.0,"Active":true}}]},{"GameName":{"zh":"\u975E\u5E38\u9AD8","en":"Very High","ja":"Very High"},"Priority":0,"ValueRange":{"m_X":76,"m_Y":100},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_LikesNurturingTasks","type":"NPCStat","name":{"zh":"\u559C\u6B22\u7167\u6599\u4EFB\u52A1","en":"Partner_LikesNurturingTasks","ja":"Partner_LikesNurturingTasks"}},"ValueChange":{"MaxValue":100.0,"FloatValue":100.0,"Active":true}}]}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"type":"NPCStat","key":"Partner_Empathy","name":{"zh":"\u540C\u7406\u5FC3","en":"Partner_Empathy","ja":"Partner_Empathy"},"_uuid":"1c18e2b167350884cbd82ceba51e8107"}
+
+{
+  "GameName" : {
+    "zh" : "\u540C\u7406\u5FC3",
+    "en" : "Empathy",
+    "ja" : "Empathy"
+  },
+  "DefaultStartingValue" : 50.0,
+  "DefaultMinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 100.0
+  },
+  "DefaultRate"          : 0.0,
+  "Statuses"             : [
+    {
+      "GameName" : {
+        "zh" : "\u975E\u5E38\u4F4E",
+        "en" : "Very Low",
+        "ja" : "Very Low"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 0,
+        "m_Y" : 24
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_LikesNurturingTasks",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u559C\u6B22\u7167\u6599\u4EFB\u52A1",
+              "en" : "Partner_LikesNurturingTasks",
+              "ja" : "Partner_LikesNurturingTasks"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -100.0,
+            "FloatValue" : -100.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4F4E",
+        "en" : "Low",
+        "ja" : "Low"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 25,
+        "m_Y" : 49
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_LikesNurturingTasks",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u559C\u6B22\u7167\u6599\u4EFB\u52A1",
+              "en" : "Partner_LikesNurturingTasks",
+              "ja" : "Partner_LikesNurturingTasks"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -50.0,
+            "FloatValue" : -50.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u9AD8",
+        "en" : "High",
+        "ja" : "High"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 51,
+        "m_Y" : 75
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_LikesNurturingTasks",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u559C\u6B22\u7167\u6599\u4EFB\u52A1",
+              "en" : "Partner_LikesNurturingTasks",
+              "ja" : "Partner_LikesNurturingTasks"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 50.0,
+            "FloatValue" : 50.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u975E\u5E38\u9AD8",
+        "en" : "Very High",
+        "ja" : "Very High"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 76,
+        "m_Y" : 100
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_LikesNurturingTasks",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u559C\u6B22\u7167\u6599\u4EFB\u52A1",
+              "en" : "Partner_LikesNurturingTasks",
+              "ja" : "Partner_LikesNurturingTasks"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 100.0,
+            "FloatValue" : 100.0,
+            "Active"     : true
+          }
+        }
+      ]
+    }
+  ],
+  "HidingOptions"        : 0,
+  "TextDisplay"          : 0,
+  "NumberPrecision"      : 0,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "type"                    : "NPCStat",
+  "key"                     : "Partner_Empathy",
+  "name"                    : {
+    "zh" : "\u540C\u7406\u5FC3",
+    "en" : "Partner_Empathy",
+    "ja" : "Partner_Empathy"
+  },
+  "_uuid"                   : "1c18e2b167350884cbd82ceba51e8107"
+}

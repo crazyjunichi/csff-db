@@ -1,1 +1,53 @@
-{"OverrideModifiersTarget":{"TargetAgent":{"Target":{"key":"Agent_Beaver","type":"NPCAgent","icon":"72d2d639f1ebd7a0","name":{"zh":"\u6CB3\u72F8","en":"Beaver","ja":"Beaver"}}},"Method":0},"NPCStatModifiers":[{"TargetStat":{"key":"AgentHasHome","type":"NPCStat","name":{"zh":"\u6709\u6D1E\u7A74","en":"AgentHasHome","ja":"AgentHasHome"}},"TargetAgent":{"key":"Agent_Beaver","type":"NPCAgent","icon":"72d2d639f1ebd7a0","name":{"zh":"\u6CB3\u72F8","en":"Beaver","ja":"Beaver"}},"ValueChange":{"x":1.0,"y":1.0}}],"key":"SetBeaverhasHome","type":"NPCDutyAction","name":{"zh":"SetBeaverhasHome","en":"SetBeaverhasHome","ja":"SetBeaverhasHome"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "OverrideModifiersTarget" : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "Agent_Beaver",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Beaver__AgentImage",
+        "name" : {
+          "zh" : "\u6CB3\u72F8",
+          "en" : "Beaver",
+          "ja" : "Beaver"
+        }
+      }
+    },
+    "Method"      : 0
+  },
+  "NPCStatModifiers"        : [
+    {
+      "TargetStat" : {
+        "key" : "AgentHasHome",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u6709\u6D1E\u7A74",
+          "en" : "AgentHasHome",
+          "ja" : "AgentHasHome"
+        }
+      },
+      "TargetAgent" : {
+        "key" : "Agent_Beaver",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Beaver__AgentImage",
+        "name" : {
+          "zh" : "\u6CB3\u72F8",
+          "en" : "Beaver",
+          "ja" : "Beaver"
+        }
+      },
+      "ValueChange" : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "key"                     : "SetBeaverhasHome",
+  "type"                    : "NPCDutyAction",
+  "name"                    : {
+    "zh" : "SetBeaverhasHome",
+    "en" : "SetBeaverhasHome",
+    "ja" : "SetBeaverhasHome"
+  },
+  "actionType"              : "ChangeNPCStatDutyAction"
+}

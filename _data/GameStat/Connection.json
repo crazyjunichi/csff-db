@@ -1,1 +1,970 @@
-{"GameName":{"zh":"\u8054\u7ED3\u5EA6","en":"Connection","ja":"\u7D46"},"Description":{"zh":"\u5F71\u54CD\u5E78\u798F\u5EA6\u3002\n\n\u53EF\u4EE5\u901A\u8FC7\u4E0E\u4ED6\u4EBA\u4E92\u52A8\u6765\u589E\u52A0\u3002","en":"Affects wellbeing.\n\nCan be increased by interacting with others.","ja":"\u5E78\u798F\u5EA6\u306B\u5F71\u97FF\u3092\u4E0E\u3048\u308B\u3002\n\n\u4ED6\u8005\u3068\u4EA4\u6D41\u3059\u308B\u3053\u3068\u3067\u4E0A\u6607\u3059\u308B\u3002"},"BaseValue":0.0,"MinMaxValue":{"x":-100.0,"y":100.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":0,"VisibleValueRange":{"x":-100.0,"y":100.0},"BarColor":{"r":0.4528,"g":0.4528,"b":0.4528,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"DefaultStatusIcon":{"FileName":"1771895abd68a02f"},"Statuses":[{"GameName":{"zh":"\u5B8C\u7F8E\u8054\u7ED3","en":"Great Connection","ja":"\u5F37\u3044\u7D46"},"ValueRange":{"m_X":76,"m_Y":100},"EffectsOnStats":[{"Stat":{"key":"Wellbeing","type":"GameStat","icon":"c540e0c47d34f942","min":0.0,"max":3456.0,"name":{"zh":"\u5E78\u798F\u5EA6","en":"Wellbeing","ja":"\u5E78\u798F\u5EA6"}},"RateModifier":{"x":2.0,"y":2.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u826F\u597D\u8054\u7ED3","en":"Good Connection","ja":"\u826F\u3044\u7D46"},"ValueRange":{"m_X":51,"m_Y":75},"EffectsOnStats":[{"Stat":{"key":"Wellbeing","type":"GameStat","icon":"c540e0c47d34f942","min":0.0,"max":3456.0,"name":{"zh":"\u5E78\u798F\u5EA6","en":"Wellbeing","ja":"\u5E78\u798F\u5EA6"}},"RateModifier":{"x":1.0,"y":1.0}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u7CDF\u7CD5\u8054\u7ED3","en":"Bad Connection","ja":"\u60AA\u3044\u7D46"},"Icon":{"FileName":"1771895abd68a02f"},"ValueRange":{"m_X":-49,"m_Y":-1},"EffectsOnStats":[{"Stat":{"key":"Wellbeing","type":"GameStat","icon":"c540e0c47d34f942","min":0.0,"max":3456.0,"name":{"zh":"\u5E78\u798F\u5EA6","en":"Wellbeing","ja":"\u5E78\u798F\u5EA6"}},"RateModifier":{"x":-1.0,"y":-1.0}}],"NotifyPlayer":3,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u4F4E\u8054\u7ED3","en":"Poor Connection","ja":"\u5E0C\u8584\u306A\u7D46"},"Icon":{"FileName":"1771895abd68a02f"},"ValueRange":{"m_X":-75,"m_Y":-50},"EffectsOnStats":[{"Stat":{"key":"Wellbeing","type":"GameStat","icon":"c540e0c47d34f942","min":0.0,"max":3456.0,"name":{"zh":"\u5E78\u798F\u5EA6","en":"Wellbeing","ja":"\u5E78\u798F\u5EA6"}},"RateModifier":{"x":-2.0,"y":-2.0}}],"NotifyPlayer":3,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":2,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u6700\u4F4E\u8054\u7ED3","en":"Horrible Connection","ja":"\u6700\u60AA\u306E\u7D46"},"Icon":{"FileName":"1771895abd68a02f"},"ValueRange":{"m_X":-100,"m_Y":-76},"EffectsOnStats":[{"Stat":{"key":"Wellbeing","type":"GameStat","icon":"c540e0c47d34f942","min":0.0,"max":3456.0,"name":{"zh":"\u5E78\u798F\u5EA6","en":"Wellbeing","ja":"\u5E78\u798F\u5EA6"}},"RateModifier":{"x":-3.0,"y":-3.0}}],"NotifyPlayer":3,"RepeatTextNotification":0,"AlertLevel":0,"RepeatAlertSounds":2,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":96,"StalenessMultiplier":0.5,"MaxStalenessStack":4,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"1771895abd68a02f"},"StepValue":50.0},"type":"GameStat","key":"Connection","icon":"1771895abd68a02f","name":{"zh":"\u8054\u7ED3\u5EA6","en":"Connection","ja":"\u7D46"},"min":-100.0,"max":100.0,"_modifierValues":[{"source":{"key":"PartnerDialog_ExpressAffection","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u4E86\u7231\u610F\u3002","en":"Your partner approaches you and expresses affection.","ja":"Your partner approaches you and expresses affection."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":24.0,"y":24.0}},{"source":{"key":"PartnerDialog_ExpressAttraction","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u4E86\u597D\u611F\u3002","en":"Your partner approaches you and expresses attraction.","ja":"Your partner approaches you and expresses attraction."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":24.0,"y":24.0}},{"source":{"key":"PartnerDialog_ExpressGratitude","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u4E86\u611F\u6FC0\u3002","en":"Your partner approaches you and expresses gratitude.","ja":"Your partner approaches you and expresses gratitude."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":24.0,"y":24.0}},{"source":{"key":"PartnerDialog_ExpressNeedAttention","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u9700\u8981\u5173\u6CE8\u3002","en":"Your partner approaches you and expresses the need for attention.","ja":"Your partner approaches you and expresses the need for attention."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":12.0,"y":12.0}},{"source":{"key":"PartnerDialog_ExpressNeedFood","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u6025\u5207\u9700\u8981\u98DF\u7269\u3002","en":"Your partner approaches you and expresses the urgent need for food.","ja":"Your partner approaches you and expresses the urgent need for food."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":12.0,"y":12.0}},{"source":{"key":"PartnerDialog_ExpressNeedTrust","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u6025\u5207\u9700\u8981\u4FE1\u4EFB\u3002","en":"Your partner approaches you and expresses the urgent need for trust.","ja":"Your partner approaches you and expresses the urgent need for trust."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":12.0,"y":12.0}},{"source":{"key":"PartnerDialog_ExpressNeedWarmth","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u6025\u5207\u9700\u8981\u4FDD\u6696\u3002","en":"Your partner approaches you and expresses the urgent need for warmth.","ja":"Your partner approaches you and expresses the urgent need for warmth."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":12.0,"y":12.0}},{"source":{"key":"PartnerDialog_ExpressUltimatum","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u5931\u53BB\u4E86\u5BF9\u4F60\u7684\u6240\u6709\u4FE1\u4EFB\u5E76\u53EF\u80FD\u6253\u7B97\u79BB\u5F00\u4F60\u3002","en":"Your partner has lost all trust in you and now approaches with the intention of leaving you.","ja":"Your partner has lost all trust in you and now approaches with the intention of leaving you."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":12.0,"y":12.0}},{"source":{"key":"PartnerDialog_ExpressUltimatum","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u5931\u53BB\u4E86\u5BF9\u4F60\u7684\u6240\u6709\u4FE1\u4EFB\u5E76\u53EF\u80FD\u6253\u7B97\u79BB\u5F00\u4F60\u3002","en":"Your partner has lost all trust in you and now approaches with the intention of leaving you.","ja":"Your partner has lost all trust in you and now approaches with the intention of leaving you."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":96.0,"y":96.0}},{"source":{"key":"PartnerDialog_ExpressUltimatum","type":"DialogScene","firstLine":{"zh":"\u4F60\u7684\u540C\u4F34\u5931\u53BB\u4E86\u5BF9\u4F60\u7684\u6240\u6709\u4FE1\u4EFB\u5E76\u53EF\u80FD\u6253\u7B97\u79BB\u5F00\u4F60\u3002","en":"Your partner has lost all trust in you and now approaches with the intention of leaving you.","ja":"Your partner has lost all trust in you and now approaches with the intention of leaving you."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-40.0,"y":-40.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":40.0,"y":40.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-40.0,"y":-40.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-10.0,"y":-10.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":5.0,"y":5.0}},{"source":{"key":"PartnerDialog_Expression","type":"DialogScene","firstLine":{"zh":"Your partner listens.","en":"Your partner listens.","ja":"Your partner listens."}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":-5.0,"y":-5.0}},{"source":{"key":"TraderTalkAnimal","type":"DialogScene","firstLine":{"zh":"\u4ED6\u8F7B\u8F7B\u70B9\u4E86\u70B9\u5934\u3002","en":"He gives a small nod.","ja":"\u5F7C\u306F\u5C0F\u3055\u304F\u3046\u306A\u305A\u3044\u305F\u3002"}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":1000000.0,"y":1000000.0}},{"source":{"key":"TraderTalkGeneral","type":"DialogScene","firstLine":{"zh":"\u90A3\u4E2A\u7537\u4EBA\u5411\u4F60\u5FAE\u7B11\u3002","en":"The man smiles at you.","ja":"\u7537\u306F\u3042\u306A\u305F\u306B\u5FAE\u7B11\u3080\u3002"}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":1000000.0,"y":1000000.0}},{"source":{"key":"TraderTalkMetal","type":"DialogScene","firstLine":{"zh":"\u4ED6\u4EE5\u6C89\u7A33\u7684\u76EE\u5149\u5411\u4F60\u81F4\u610F\u3002","en":"He greets you with a steady gaze.","ja":"\u5F7C\u306F\u843D\u3061\u7740\u3044\u305F\u773C\u5DEE\u3057\u3067\u3042\u306A\u305F\u3092\u8FCE\u3048\u305F\u3002"}},"description":{"zh":"\u5BF9\u8BDD","en":"Dialog","ja":"\u30C0\u30A4\u30A2\u30ED\u30B0"},"value":{"x":1000000.0,"y":1000000.0}}],"_modifierRates":[{"source":{"key":"Loneliness","type":"GameStat","icon":"55aa9bdd01ba38d7","min":0.0,"max":4880.0,"name":{"zh":"\u5B64\u72EC\u611F","en":"Loneliness","ja":"\u5B64\u72EC\u3055"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5B64\u72EC","en":"Status Stage: Lonely","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5BC2\u3057\u3055"},"value":{"x":-0.033,"y":-0.033}},{"source":{"key":"Loneliness","type":"GameStat","icon":"55aa9bdd01ba38d7","min":0.0,"max":4880.0,"name":{"zh":"\u5B64\u72EC\u611F","en":"Loneliness","ja":"\u5B64\u72EC\u3055"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5B64\u72EC","en":"Status Stage: Lonely","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5BC2\u3057\u3044"},"value":{"x":-0.066,"y":-0.066}},{"source":{"key":"Loneliness","type":"GameStat","icon":"55aa9bdd01ba38d7","min":0.0,"max":4880.0,"name":{"zh":"\u5B64\u72EC\u611F","en":"Loneliness","ja":"\u5B64\u72EC\u3055"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5B64\u72EC","en":"Status Stage: Lonely","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7D50\u69CB\u5BC2\u3057\u3044"},"value":{"x":-0.1,"y":-0.1}}],"_uuid":"461cb6065a003324ea2868def2d118c6"}
+
+{
+  "GameName" : {
+    "zh" : "\u8054\u7ED3\u5EA6",
+    "en" : "Connection",
+    "ja" : "\u7D46"
+  },
+  "Description" : {
+    "zh" : "\u5F71\u54CD\u5E78\u798F\u5EA6\u3002\n\n\u53EF\u4EE5\u901A\u8FC7\u4E0E\u4ED6\u4EBA\u4E92\u52A8\u6765\u589E\u52A0\u3002",
+    "en" : "Affects wellbeing.\n\nCan be increased by interacting with others.",
+    "ja" : "\u5E78\u798F\u5EA6\u306B\u5F71\u97FF\u3092\u4E0E\u3048\u308B\u3002\n\n\u4ED6\u8005\u3068\u4EA4\u6D41\u3059\u308B\u3053\u3068\u3067\u4E0A\u6607\u3059\u308B\u3002"
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : -100.0,
+    "y" : 100.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "VisibleValueRange" : {
+    "x" : -100.0,
+    "y" : 100.0
+  },
+  "BarColor"          : {
+    "r" : 0.4528,
+    "g" : 0.4528,
+    "b" : 0.4528,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "NPCAgent__Agent_TraderGeneral__AgentImage"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u5B8C\u7F8E\u8054\u7ED3",
+        "en" : "Great Connection",
+        "ja" : "\u5F37\u3044\u7D46"
+      },
+      "ValueRange" : {
+        "m_X" : 76,
+        "m_Y" : 100
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Wellbeing",
+            "type" : "GameStat",
+            "icon" : "GameStat__Gratification__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 3456.0,
+            "name" : {
+              "zh" : "\u5E78\u798F\u5EA6",
+              "en" : "Wellbeing",
+              "ja" : "\u5E78\u798F\u5EA6"
+            }
+          },
+          "RateModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u826F\u597D\u8054\u7ED3",
+        "en" : "Good Connection",
+        "ja" : "\u826F\u3044\u7D46"
+      },
+      "ValueRange" : {
+        "m_X" : 51,
+        "m_Y" : 75
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Wellbeing",
+            "type" : "GameStat",
+            "icon" : "GameStat__Gratification__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 3456.0,
+            "name" : {
+              "zh" : "\u5E78\u798F\u5EA6",
+              "en" : "Wellbeing",
+              "ja" : "\u5E78\u798F\u5EA6"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u7CDF\u7CD5\u8054\u7ED3",
+        "en" : "Bad Connection",
+        "ja" : "\u60AA\u3044\u7D46"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_TraderGeneral__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : -49,
+        "m_Y" : -1
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Wellbeing",
+            "type" : "GameStat",
+            "icon" : "GameStat__Gratification__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 3456.0,
+            "name" : {
+              "zh" : "\u5E78\u798F\u5EA6",
+              "en" : "Wellbeing",
+              "ja" : "\u5E78\u798F\u5EA6"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 3,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u4F4E\u8054\u7ED3",
+        "en" : "Poor Connection",
+        "ja" : "\u5E0C\u8584\u306A\u7D46"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_TraderGeneral__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : -75,
+        "m_Y" : -50
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Wellbeing",
+            "type" : "GameStat",
+            "icon" : "GameStat__Gratification__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 3456.0,
+            "name" : {
+              "zh" : "\u5E78\u798F\u5EA6",
+              "en" : "Wellbeing",
+              "ja" : "\u5E78\u798F\u5EA6"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 3,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 2,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6700\u4F4E\u8054\u7ED3",
+        "en" : "Horrible Connection",
+        "ja" : "\u6700\u60AA\u306E\u7D46"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_TraderGeneral__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : -100,
+        "m_Y" : -76
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Wellbeing",
+            "type" : "GameStat",
+            "icon" : "GameStat__Gratification__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 3456.0,
+            "name" : {
+              "zh" : "\u5E78\u798F\u5EA6",
+              "en" : "Wellbeing",
+              "ja" : "\u5E78\u798F\u5EA6"
+            }
+          },
+          "RateModifier" : {
+            "x" : -3.0,
+            "y" : -3.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 3,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 2,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 96,
+  "StalenessMultiplier"     : 0.5,
+  "MaxStalenessStack"       : 4,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "NPCAgent__Agent_TraderGeneral__AgentImage"
+    },
+    "StepValue" : 50.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Connection",
+  "icon"                    : "NPCAgent__Agent_TraderGeneral__AgentImage",
+  "name"                    : {
+    "zh" : "\u8054\u7ED3\u5EA6",
+    "en" : "Connection",
+    "ja" : "\u7D46"
+  },
+  "min"                     : -100.0,
+  "max"                     : 100.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressAffection",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u4E86\u7231\u610F\u3002",
+          "en" : "Your partner approaches you and expresses affection.",
+          "ja" : "Your partner approaches you and expresses affection."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 24.0,
+        "y" : 24.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressAttraction",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u4E86\u597D\u611F\u3002",
+          "en" : "Your partner approaches you and expresses attraction.",
+          "ja" : "Your partner approaches you and expresses attraction."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 24.0,
+        "y" : 24.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressGratitude",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u4E86\u611F\u6FC0\u3002",
+          "en" : "Your partner approaches you and expresses gratitude.",
+          "ja" : "Your partner approaches you and expresses gratitude."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 24.0,
+        "y" : 24.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressNeedAttention",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u9700\u8981\u5173\u6CE8\u3002",
+          "en" : "Your partner approaches you and expresses the need for attention.",
+          "ja" : "Your partner approaches you and expresses the need for attention."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 12.0,
+        "y" : 12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressNeedFood",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u6025\u5207\u9700\u8981\u98DF\u7269\u3002",
+          "en" : "Your partner approaches you and expresses the urgent need for food.",
+          "ja" : "Your partner approaches you and expresses the urgent need for food."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 12.0,
+        "y" : 12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressNeedTrust",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u6025\u5207\u9700\u8981\u4FE1\u4EFB\u3002",
+          "en" : "Your partner approaches you and expresses the urgent need for trust.",
+          "ja" : "Your partner approaches you and expresses the urgent need for trust."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 12.0,
+        "y" : 12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressNeedWarmth",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u9760\u8FD1\u4F60\u5E76\u8868\u8FBE\u6025\u5207\u9700\u8981\u4FDD\u6696\u3002",
+          "en" : "Your partner approaches you and expresses the urgent need for warmth.",
+          "ja" : "Your partner approaches you and expresses the urgent need for warmth."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 12.0,
+        "y" : 12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressUltimatum",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u5931\u53BB\u4E86\u5BF9\u4F60\u7684\u6240\u6709\u4FE1\u4EFB\u5E76\u53EF\u80FD\u6253\u7B97\u79BB\u5F00\u4F60\u3002",
+          "en" : "Your partner has lost all trust in you and now approaches with the intention of leaving you.",
+          "ja" : "Your partner has lost all trust in you and now approaches with the intention of leaving you."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 12.0,
+        "y" : 12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressUltimatum",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u5931\u53BB\u4E86\u5BF9\u4F60\u7684\u6240\u6709\u4FE1\u4EFB\u5E76\u53EF\u80FD\u6253\u7B97\u79BB\u5F00\u4F60\u3002",
+          "en" : "Your partner has lost all trust in you and now approaches with the intention of leaving you.",
+          "ja" : "Your partner has lost all trust in you and now approaches with the intention of leaving you."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 96.0,
+        "y" : 96.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressUltimatum",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4F60\u7684\u540C\u4F34\u5931\u53BB\u4E86\u5BF9\u4F60\u7684\u6240\u6709\u4FE1\u4EFB\u5E76\u53EF\u80FD\u6253\u7B97\u79BB\u5F00\u4F60\u3002",
+          "en" : "Your partner has lost all trust in you and now approaches with the intention of leaving you.",
+          "ja" : "Your partner has lost all trust in you and now approaches with the intention of leaving you."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -40.0,
+        "y" : -40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 40.0,
+        "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -40.0,
+        "y" : -40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TraderTalkAnimal",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4ED6\u8F7B\u8F7B\u70B9\u4E86\u70B9\u5934\u3002",
+          "en" : "He gives a small nod.",
+          "ja" : "\u5F7C\u306F\u5C0F\u3055\u304F\u3046\u306A\u305A\u3044\u305F\u3002"
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 1000000.0,
+        "y" : 1000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TraderTalkGeneral",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u90A3\u4E2A\u7537\u4EBA\u5411\u4F60\u5FAE\u7B11\u3002",
+          "en" : "The man smiles at you.",
+          "ja" : "\u7537\u306F\u3042\u306A\u305F\u306B\u5FAE\u7B11\u3080\u3002"
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 1000000.0,
+        "y" : 1000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TraderTalkMetal",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u4ED6\u4EE5\u6C89\u7A33\u7684\u76EE\u5149\u5411\u4F60\u81F4\u610F\u3002",
+          "en" : "He greets you with a steady gaze.",
+          "ja" : "\u5F7C\u306F\u843D\u3061\u7740\u3044\u305F\u773C\u5DEE\u3057\u3067\u3042\u306A\u305F\u3092\u8FCE\u3048\u305F\u3002"
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 1000000.0,
+        "y" : 1000000.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "Loneliness",
+        "type" : "GameStat",
+        "icon" : "GameStat__Grief__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 4880.0,
+        "name" : {
+          "zh" : "\u5B64\u72EC\u611F",
+          "en" : "Loneliness",
+          "ja" : "\u5B64\u72EC\u3055"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5B64\u72EC",
+        "en" : "Status Stage: Lonely",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5BC2\u3057\u3055"
+      },
+      "value"       : {
+        "x" : -0.033,
+        "y" : -0.033
+      }
+    },
+    {
+      "source" : {
+        "key" : "Loneliness",
+        "type" : "GameStat",
+        "icon" : "GameStat__Grief__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 4880.0,
+        "name" : {
+          "zh" : "\u5B64\u72EC\u611F",
+          "en" : "Loneliness",
+          "ja" : "\u5B64\u72EC\u3055"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5B64\u72EC",
+        "en" : "Status Stage: Lonely",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5BC2\u3057\u3044"
+      },
+      "value"       : {
+        "x" : -0.066,
+        "y" : -0.066
+      }
+    },
+    {
+      "source" : {
+        "key" : "Loneliness",
+        "type" : "GameStat",
+        "icon" : "GameStat__Grief__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 4880.0,
+        "name" : {
+          "zh" : "\u5B64\u72EC\u611F",
+          "en" : "Loneliness",
+          "ja" : "\u5B64\u72EC\u3055"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5B64\u72EC",
+        "en" : "Status Stage: Lonely",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7D50\u69CB\u5BC2\u3057\u3044"
+      },
+      "value"       : {
+        "x" : -0.1,
+        "y" : -0.1
+      }
+    }
+  ],
+  "_uuid"                   : "461cb6065a003324ea2868def2d118c6"
+}

@@ -1,1 +1,2352 @@
-{"CardName":{"zh":"\u9175\u6BCD","en":"Dough Yeast","ja":"\u751F\u5730\u306E\u9175\u6BCD"},"CardType":0,"ObjectWeight":100.0,"WeightReductionWhenEquipped":0.0,"TradingValue":0.0,"CardTags":[{"key":"tag_WaterContainer","type":"CardTag","count":30,"name":{"zh":"\u50A8\u6C34\u5BB9\u5668","en":"Water Container","ja":"\u6C34\u306E\u5BB9\u5668"}},{"key":"tag_Clay","type":"CardTag","count":48,"name":{"zh":"\u7C98\u571F","en":"Clay","ja":"\u7C98\u571F"}},{"key":"tag_Cookable","type":"CardTag","count":131,"name":{"zh":"\u53EF\u70F9\u996A\u7684","en":"Cookable","ja":"\u6599\u7406\u3067\u304D\u308B"}},{"key":"tag_ContainerSealed","type":"CardTag","count":28,"name":{"zh":"\u5BC6\u5C01\u5BB9\u5668","en":"Sealed Container","ja":"\u585E\u3044\u3060\u5BB9\u5668"}},{"key":"tag_Spillable","type":"CardTag","count":26,"name":{"zh":"\u53EF\u6CFC\u6E85\u7684","en":"Spillable","ja":"\u3053\u307C\u308C\u6CE8\u610F"}},{"key":"tag_Pretty","type":"CardTag","count":36,"name":{"zh":"\u7F8E\u4E3D\u7684/\u597D\u770B\u7684","en":"Pretty","ja":"\u7DBA\u9E97"}}],"MapStructureType":0,"FlavourFadeRate":0.0,"AlwaysUpdate":true,"CanBeTrashed":true,"SpoilageTime":{"CardStatName":{"zh":"\u8425\u517B","en":"Nutrition","ja":"\u6804\u990A"},"RandomStartingOffset":0.0,"MaxValue":96.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"Active":true,"durabilityKey":"SpoilageTime","_rateModifications":[{"source":{"key":"ClayBowl","type":"CardData","CardType":0,"icon":"faa235ff3217d5dd","name":{"zh":"\u9676\u7897","en":"Clay Bowl","ja":"\u7C98\u571F\u306E\u30DC\u30A6\u30EB"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"ClayBowl","type":"CardData","CardType":0,"icon":"faa235ff3217d5dd","name":{"zh":"\u9676\u7897","en":"Clay Bowl","ja":"\u7C98\u571F\u306E\u30DC\u30A6\u30EB"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u7528\u53EF\u70F9\u716E\u6DB2\u4F53\u70F9\u996A","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"ClayCauldron","type":"CardData","CardType":0,"icon":"d3f03661826e2a7d","name":{"zh":"\u7C98\u571F\u5927\u9505","en":"Clay Cauldron","ja":"\u7C98\u571F\u306E\u934B"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"ClayCauldron","type":"CardData","CardType":0,"icon":"d3f03661826e2a7d","name":{"zh":"\u7C98\u571F\u5927\u9505","en":"Clay Cauldron","ja":"\u7C98\u571F\u306E\u934B"}},"description":{"zh":"\u8F6C\u5316\uFF1ACook in Cookable Liquid","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"CookingPot","type":"CardData","CardType":0,"icon":"c9f1b0846fe846a1","name":{"zh":"\u70F9\u996A\u9505","en":"Cooking Pot","ja":"\u6599\u7406\u30DD\u30C3\u30C8"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"CookingPot","type":"CardData","CardType":0,"icon":"c9f1b0846fe846a1","name":{"zh":"\u70F9\u996A\u9505","en":"Cooking Pot","ja":"\u6599\u7406\u30DD\u30C3\u30C8"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u5728\u53EF\u70F9\u716E\u6DB2\u4F53\u4E2D\u70F9\u716E","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"Campfire","type":"CardData","CardType":2,"icon":"9c22fc20ce801165","name":{"zh":"\u8425\u706B","en":"Campfire","ja":"\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"}},"description":{"zh":"\u8F6C\u5316\uFF1ACook Cookables","en":"Action: Cook Cookables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"FirePit","type":"CardData","CardType":2,"icon":"17483cb3a2621f4a","name":{"zh":"\u706B\u5751","en":"Fire Pit","ja":"Fire Pit"}},"description":{"zh":"\u8F6C\u5316\uFF1ACook Cookables","en":"Action: Cook Cookables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"Fireplace","type":"CardData","CardType":2,"icon":"dcd43a4a3cb174d1","name":{"zh":"\u58C1\u7089","en":"Fireplace","ja":"\u6696\u7089"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u751F\u98DF","en":"Action: Cook raw things","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u751F\u3082\u306E\u3092\u713C\u304F"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"Oven","type":"CardData","CardType":2,"icon":"4e90ce9655385dfa","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5","en":"Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"OvenExtinguished","type":"CardData","CardType":2,"icon":"30502019b19874cb","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5","en":"Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"},"value":{"x":-1.625,"y":-1.625}},{"source":{"key":"ClayPotCoolerOn","type":"CardData","CardType":2,"name":{"zh":"Clay Pot Cooler","en":"Clay Pot Cooler","ja":"Clay Pot Cooler"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u9C9C","en":"Passive Effect\uFF1APreserve","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1APreserve"},"value":{"x":0.5,"y":0.5}}]},"UsageDurability":{"CardStatName":{"zh":"\u5269\u4F59\u9175\u6BCD","en":"Yeast Usage","ja":"\u9175\u6BCD\u306E\u6D88\u8CBB"},"RandomStartingOffset":0.0,"MaxValue":4.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"HasActionOnZero":true,"OnZeroNotification":0,"OnZero":{"DaytimeCost":0,"UseMiniTicks":0,"ReceivingCardChanges":{"ModType":2,"TransformInto":{"key":"DoughStarter","type":"CardData","CardType":0,"name":{"zh":"\u9175\u79CD","en":"Dough Starter","ja":"\u5143\u7A2E"}},"TransformToLiquidQuantity":0.0,"TransferSpoilage":true,"TransferFuel":true,"TransferCharges":true,"LiquidEffectScaling":0},"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0},"OnFullNotification":0,"FloatValue":1.0,"Active":true,"durabilityKey":"UsageDurability","_valueModifications":[{"source":{"key":"GoatEnclosureLactating","type":"CardData","CardType":1,"name":{"zh":"Lactating Goat","en":"Lactating Goat","ja":"Lactating Goat"}},"description":{"zh":"\u52A8\u4F5C\uFF1AMilk","en":"Action: Milk","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMilk"},"value":{"x":-1.0,"y":-1.0}}],"_rateModifications":[{"source":{"key":"Oven","type":"CardData","CardType":2,"icon":"4e90ce9655385dfa","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5","en":"Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"},"value":{"x":4.0,"y":4.0}},{"source":{"key":"OvenExtinguished","type":"CardData","CardType":2,"icon":"30502019b19874cb","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5","en":"Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"},"value":{"x":4.0,"y":4.0}}]},"FuelCapacity":{"CardStatName":{"zh":"\u6E7F\u5EA6","en":"Hydration","ja":"\u6C34\u5206"},"RandomStartingOffset":0.0,"MaxValue":96.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OverrideIcon":{"FileName":"8a0b2380a00ec718"},"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"Active":true,"durabilityKey":"FuelCapacity","_rateModifications":[{"source":{"key":"ClayBowl","type":"CardData","CardType":0,"icon":"faa235ff3217d5dd","name":{"zh":"\u9676\u7897","en":"Clay Bowl","ja":"\u7C98\u571F\u306E\u30DC\u30A6\u30EB"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"ClayBowl","type":"CardData","CardType":0,"icon":"faa235ff3217d5dd","name":{"zh":"\u9676\u7897","en":"Clay Bowl","ja":"\u7C98\u571F\u306E\u30DC\u30A6\u30EB"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u7528\u53EF\u70F9\u716E\u6DB2\u4F53\u70F9\u996A","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"ClayCauldron","type":"CardData","CardType":0,"icon":"d3f03661826e2a7d","name":{"zh":"\u7C98\u571F\u5927\u9505","en":"Clay Cauldron","ja":"\u7C98\u571F\u306E\u934B"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"ClayCauldron","type":"CardData","CardType":0,"icon":"d3f03661826e2a7d","name":{"zh":"\u7C98\u571F\u5927\u9505","en":"Clay Cauldron","ja":"\u7C98\u571F\u306E\u934B"}},"description":{"zh":"\u8F6C\u5316\uFF1ACook in Cookable Liquid","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"CookingPot","type":"CardData","CardType":0,"icon":"c9f1b0846fe846a1","name":{"zh":"\u70F9\u996A\u9505","en":"Cooking Pot","ja":"\u6599\u7406\u30DD\u30C3\u30C8"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"CookingPot","type":"CardData","CardType":0,"icon":"c9f1b0846fe846a1","name":{"zh":"\u70F9\u996A\u9505","en":"Cooking Pot","ja":"\u6599\u7406\u30DD\u30C3\u30C8"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u5728\u53EF\u70F9\u716E\u6DB2\u4F53\u4E2D\u70F9\u716E","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"Campfire","type":"CardData","CardType":2,"icon":"9c22fc20ce801165","name":{"zh":"\u8425\u706B","en":"Campfire","ja":"\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"}},"description":{"zh":"\u8F6C\u5316\uFF1ACook Cookables","en":"Action: Cook Cookables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"Campfire","type":"CardData","CardType":2,"icon":"9c22fc20ce801165","name":{"zh":"\u8425\u706B","en":"Campfire","ja":"\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"}},"description":{"zh":"\u8F6C\u5316\uFF1AHeat up Cooking and Water Containers and Heatables","en":"Action: Heat up Cooking and Water Containers and Heatables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHeat up Cooking and Water Containers and Heatables"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"FirePit","type":"CardData","CardType":2,"icon":"17483cb3a2621f4a","name":{"zh":"\u706B\u5751","en":"Fire Pit","ja":"Fire Pit"}},"description":{"zh":"\u8F6C\u5316\uFF1ACook Cookables","en":"Action: Cook Cookables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"FirePit","type":"CardData","CardType":2,"icon":"17483cb3a2621f4a","name":{"zh":"\u706B\u5751","en":"Fire Pit","ja":"Fire Pit"}},"description":{"zh":"\u8F6C\u5316\uFF1AHeat up Cooking and Water Containers and Heatables","en":"Action: Heat up Cooking and Water Containers and Heatables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHeat up Cooking and Water Containers and Heatables"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"Fireplace","type":"CardData","CardType":2,"icon":"dcd43a4a3cb174d1","name":{"zh":"\u58C1\u7089","en":"Fireplace","ja":"\u6696\u7089"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u751F\u98DF","en":"Action: Cook raw things","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u751F\u3082\u306E\u3092\u713C\u304F"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"Fireplace","type":"CardData","CardType":2,"icon":"dcd43a4a3cb174d1","name":{"zh":"\u58C1\u7089","en":"Fireplace","ja":"\u6696\u7089"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u52A0\u70ED\u70F9\u996A\u5668\u5177\u3001\u6C34\u5BB9\u5668\u548C\u5176\u4ED6\u53EF\u52A0\u70ED\u7269\u54C1","en":"Action: Heat up Cooking and Water Containers and Heatables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6E29\u3081\u3089\u308C\u308B\u7269\u3001\u6599\u7406\u5BB9\u5668\u3001\u6C34\u5BB9\u5668\u3092\u6E29\u3081\u308B"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"Hearth","type":"CardData","CardType":2,"name":{"zh":"\u706B\u7089","en":"Hearth","ja":"\u7089\u8FBA"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"HearthAwakened","type":"CardData","CardType":2,"name":{"zh":"\u71C3\u70E7\u7684\u706B\u7089","en":"Awakened Hearth","ja":"\u518D\u71C3\u3057\u305F\u6696\u7089"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"Oven","type":"CardData","CardType":2,"icon":"4e90ce9655385dfa","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5","en":"Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"Oven","type":"CardData","CardType":2,"icon":"4e90ce9655385dfa","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u52A0\u70ED\u70F9\u996A\u5BB9\u5668\u3001\u6C34\u5BB9\u5668\u548C\u5176\u4ED6\u53EF\u52A0\u70ED\u7269\u54C1","en":"Action: Cooking Temp: Heats up Cooking and Water Containers and Heatables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u6E29\u3081\u3089\u308C\u308B\u7269\u3001\u6599\u7406\u5BB9\u5668\u3001\u6C34\u5BB9\u5668\u3092\u6E29\u3081\u308B"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"OvenExtinguished","type":"CardData","CardType":2,"icon":"30502019b19874cb","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5","en":"Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"},"value":{"x":200.0,"y":200.0}},{"source":{"key":"OvenExtinguished","type":"CardData","CardType":2,"icon":"30502019b19874cb","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u52A0\u70ED\u70F9\u996A\u5BB9\u5668\u3001\u6C34\u5BB9\u5668\u548C\u5176\u4ED6\u53EF\u52A0\u70ED\u7269\u54C1","en":"Action: Cooking Temp: Heats up Cooking and Water Containers and Heatables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u6E29\u3081\u3089\u308C\u308B\u7269\u3001\u6599\u7406\u5BB9\u5668\u3001\u6C34\u5BB9\u5668\u3092\u6E29\u3081\u308B"},"value":{"x":200.0,"y":200.0}}]},"Progress":{"CardStatName":{"zh":"\u53D1\u9175\u5EA6","en":"Yeast Growth","ja":"\u9175\u6BCD\u306E\u5897\u52A0"},"RandomStartingOffset":0.0,"MaxValue":96.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"HasActionOnFull":true,"OnFullNotification":0,"OnFull":{"DaytimeCost":0,"UseMiniTicks":0,"ReceivingCardChanges":{"ModType":1,"TransformInto":{"key":"NOT_USED_DoughStarterYeast","type":"CardData","CardType":0,"name":{"zh":"\u9175\u6BCD","en":"Dough Yeast","ja":"\u751F\u5730\u306E\u9175\u6BCD"}},"TransformToLiquidQuantity":0.0,"TransferSpoilage":true,"TransferFuel":true,"LiquidEffectScaling":0,"UsageChange":{"x":1.0,"y":1.0},"ChargesChange":{"x":-96.0,"y":-96.0}},"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0},"FloatValue":0.0,"Active":true,"durabilityKey":"Progress"},"LiquidEvaporationRate":1.0,"SpecialDurability1":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability1","_rateModifications":[{"source":{"key":"ClayBowl","type":"CardData","CardType":0,"icon":"faa235ff3217d5dd","name":{"zh":"\u9676\u7897","en":"Clay Bowl","ja":"\u7C98\u571F\u306E\u30DC\u30A6\u30EB"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ClayBowl","type":"CardData","CardType":0,"icon":"faa235ff3217d5dd","name":{"zh":"\u9676\u7897","en":"Clay Bowl","ja":"\u7C98\u571F\u306E\u30DC\u30A6\u30EB"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u7528\u53EF\u70F9\u716E\u6DB2\u4F53\u70F9\u996A","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ClayCauldron","type":"CardData","CardType":0,"icon":"d3f03661826e2a7d","name":{"zh":"\u7C98\u571F\u5927\u9505","en":"Clay Cauldron","ja":"\u7C98\u571F\u306E\u934B"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ClayCauldron","type":"CardData","CardType":0,"icon":"d3f03661826e2a7d","name":{"zh":"\u7C98\u571F\u5927\u9505","en":"Clay Cauldron","ja":"\u7C98\u571F\u306E\u934B"}},"description":{"zh":"\u8F6C\u5316\uFF1ACook in Cookable Liquid","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"CookingPot","type":"CardData","CardType":0,"icon":"c9f1b0846fe846a1","name":{"zh":"\u70F9\u996A\u9505","en":"Cooking Pot","ja":"\u6599\u7406\u30DD\u30C3\u30C8"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"CookingPot","type":"CardData","CardType":0,"icon":"c9f1b0846fe846a1","name":{"zh":"\u70F9\u996A\u9505","en":"Cooking Pot","ja":"\u6599\u7406\u30DD\u30C3\u30C8"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u5728\u53EF\u70F9\u716E\u6DB2\u4F53\u4E2D\u70F9\u716E","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Campfire","type":"CardData","CardType":2,"icon":"9c22fc20ce801165","name":{"zh":"\u8425\u706B","en":"Campfire","ja":"\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"}},"description":{"zh":"\u8F6C\u5316\uFF1ACook Cookables","en":"Action: Cook Cookables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"FirePit","type":"CardData","CardType":2,"icon":"17483cb3a2621f4a","name":{"zh":"\u706B\u5751","en":"Fire Pit","ja":"Fire Pit"}},"description":{"zh":"\u8F6C\u5316\uFF1ACook Cookables","en":"Action: Cook Cookables","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Fireplace","type":"CardData","CardType":2,"icon":"dcd43a4a3cb174d1","name":{"zh":"\u58C1\u7089","en":"Fireplace","ja":"\u6696\u7089"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u751F\u98DF","en":"Action: Cook raw things","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u751F\u3082\u306E\u3092\u713C\u304F"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Hearth","type":"CardData","CardType":2,"name":{"zh":"\u706B\u7089","en":"Hearth","ja":"\u7089\u8FBA"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"HearthAwakened","type":"CardData","CardType":2,"name":{"zh":"\u71C3\u70E7\u7684\u706B\u7089","en":"Awakened Hearth","ja":"\u518D\u71C3\u3057\u305F\u6696\u7089"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Oven","type":"CardData","CardType":2,"icon":"4e90ce9655385dfa","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5","en":"Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"OvenExtinguished","type":"CardData","CardType":2,"icon":"30502019b19874cb","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5","en":"Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"},"value":{"x":1.0,"y":1.0}}]},"SpecialDurability2":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability2","_rateModifications":[{"source":{"key":"ClayBowl","type":"CardData","CardType":0,"icon":"faa235ff3217d5dd","name":{"zh":"\u9676\u7897","en":"Clay Bowl","ja":"\u7C98\u571F\u306E\u30DC\u30A6\u30EB"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ClayBowl","type":"CardData","CardType":0,"icon":"faa235ff3217d5dd","name":{"zh":"\u9676\u7897","en":"Clay Bowl","ja":"\u7C98\u571F\u306E\u30DC\u30A6\u30EB"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u7528\u53EF\u70F9\u716E\u6DB2\u4F53\u70F9\u996A","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"ClayCauldron","type":"CardData","CardType":0,"icon":"d3f03661826e2a7d","name":{"zh":"\u7C98\u571F\u5927\u9505","en":"Clay Cauldron","ja":"\u7C98\u571F\u306E\u934B"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"ClayCauldron","type":"CardData","CardType":0,"icon":"d3f03661826e2a7d","name":{"zh":"\u7C98\u571F\u5927\u9505","en":"Clay Cauldron","ja":"\u7C98\u571F\u306E\u934B"}},"description":{"zh":"\u8F6C\u5316\uFF1ACook in Cookable Liquid","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"CookingPot","type":"CardData","CardType":0,"icon":"c9f1b0846fe846a1","name":{"zh":"\u70F9\u996A\u9505","en":"Cooking Pot","ja":"\u6599\u7406\u30DD\u30C3\u30C8"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"CookingPot","type":"CardData","CardType":0,"icon":"c9f1b0846fe846a1","name":{"zh":"\u70F9\u996A\u9505","en":"Cooking Pot","ja":"\u6599\u7406\u30DD\u30C3\u30C8"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u5728\u53EF\u70F9\u716E\u6DB2\u4F53\u4E2D\u70F9\u716E","en":"Action: Cook in Cookable Liquid","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Oven","type":"CardData","CardType":2,"icon":"4e90ce9655385dfa","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5","en":"Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"},"value":{"x":10.0,"y":10.0}},{"source":{"key":"OvenExtinguished","type":"CardData","CardType":2,"icon":"30502019b19874cb","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5","en":"Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"},"value":{"x":10.0,"y":10.0}}]},"SpecialDurability3":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability3","_rateModifications":[{"source":{"key":"Hearth","type":"CardData","CardType":2,"name":{"zh":"\u706B\u7089","en":"Hearth","ja":"\u7089\u8FBA"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"HearthAwakened","type":"CardData","CardType":2,"name":{"zh":"\u71C3\u70E7\u7684\u706B\u7089","en":"Awakened Hearth","ja":"\u518D\u71C3\u3057\u305F\u6696\u7089"}},"description":{"zh":"\u8F6C\u5316\uFF1A\u70F9\u996A","en":"Action: Cook","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"},"value":{"x":1.0,"y":1.0}}]},"SpecialDurability4":{"RandomStartingOffset":0.0,"MaxValue":0.0,"RatePerDaytimePoint":0.0,"ExtraRateWhenEquipped":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"OnZeroNotification":0,"OnFullNotification":0,"FloatValue":0.0,"durabilityKey":"SpecialDurability4"},"CardInteractions":[{"GivenCardChanges":{"ModType":0,"TransformToLiquidQuantity":0.0,"ModifyLiquid":true,"LiquidEffectScaling":1,"LiquidQuantityChange":{"x":-300.0,"y":-300.0}},"CompatibleCards":{"TriggerTags":[{"key":"tag_WaterFresh","type":"CardTag","count":8,"name":{"zh":"\u6DE1\u6C34","en":"Fresh Water","ja":"\u7DBA\u9E97\u306A\u6C34"}}]},"ActionName":{"zh":"\u52A0\u6C34","en":"Fill with Water","ja":"\u6C34\u3067\u3044\u3063\u3071\u3044\u306B\u3059\u308B"},"DaytimeCost":0,"UseMiniTicks":0,"ReceivingCardChanges":{"ModType":1,"TransformInto":{"key":"ClayPotCoolerOn","type":"CardData","CardType":2,"name":{"zh":"Clay Pot Cooler","en":"Clay Pot Cooler","ja":"Clay Pot Cooler"}},"TransformToLiquidQuantity":0.0,"TransferInventory":true,"ModifyDurability":true,"LiquidEffectScaling":0,"FuelChange":{"x":96.0,"y":96.0}},"RoomDirection":0,"ExitDirection":0},{"GivenCardChanges":{"ModType":3,"TransformToLiquidQuantity":0.0,"LiquidEffectScaling":1},"ActionName":{"zh":"\u52A0\u9762","en":"Fill with Flour","ja":"\u7C89\u3067\u3044\u3063\u3071\u3044\u306B\u3059\u308B"},"DaytimeCost":0,"UseMiniTicks":0,"ReceivingCardChanges":{"ModType":1,"TransformInto":{"key":"ClayPotCoolerOn","type":"CardData","CardType":2,"name":{"zh":"Clay Pot Cooler","en":"Clay Pot Cooler","ja":"Clay Pot Cooler"}},"TransformToLiquidQuantity":0.0,"TransferInventory":true,"ModifyDurability":true,"LiquidEffectScaling":0,"SpoilageChange":{"x":96.0,"y":96.0}},"RoomDirection":0,"ExitDirection":0}],"PassiveEffects":[{"EffectName":"Generate Yeast","Conditions":{"PlayerUsesCard":0,"ReceivingRequiredDurabilityRanges":{"SpoilageRange":{"x":1.0,"y":96.0},"FuelRange":{"x":1.0,"y":96.0}}},"OnBoardEffectCap":0,"SpoilageRateModifier":{"FloatValue":-1.0,"Active":true},"FuelRateModifier":{"FloatValue":-1.0,"Active":true},"ConsumableChargesModifier":{"FloatValue":1.0,"Active":true},"LiquidRateModifier":0.0,"WeightCapacityModifier":0.0,"_EffectNameI18n":{"zh":"\u4EA7\u751F\u9175\u6BCD","en":"Generate Yeast","ja":"Generate Yeast"}}],"MaxLiquidCapacity":150.0,"MinQuantityLeftAfterATransfer":0.0,"OpenOnTab":0,"MaxWeightCapacity":0.0,"ContentWeightReduction":0.0,"UnlockNotifications":0,"BlueprintUnlockTicksCost":0.0,"ResearchedNotification":0,"BuildingDaytimeCost":0,"BuildingMiniTicks":0,"DeconstructDaytimeCost":0,"DeconstructMiniTicks":0,"RoadDirection":0,"MainHandUse":0,"OffHandUse":0,"BothHandsUse":0,"RequiredDistance":0,"RequiredWrestlingState":0,"RequiredAmbush":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"ActionRange":0,"AmmoUsageCost":0.0,"WeaponReach":0.0,"PlayerAddedCover":0.0,"EnemyAddedCover":0.0,"PlayerAddedStealth":0.0,"EnemyAddedStealth":0.0,"type":"CardData","key":"NOT_USED_DoughStarterYeast","name":{"zh":"\u9175\u6BCD","en":"Dough Yeast","ja":"\u751F\u5730\u306E\u9175\u6BCD"},"_gotFrom":[{"source":{"key":"DoughStarter","type":"CardData","CardType":0,"name":{"zh":"\u9175\u79CD","en":"Dough Starter","ja":"\u5143\u7A2E"}},"description":{"zh":"\u53D1\u9175\u5EA6 \u8FBE\u5230\u6700\u5927","en":"Yeast Growth Full","ja":"\u9175\u6BCD\u306E\u5897\u52A0 \u30D5\u30EB"}}],"_useFor":[{"source":{"key":"Puddle","type":"CardData","CardType":2,"name":{"zh":"\u5E72\u6DB8\u7684\u5C0F\u6C34\u5858","en":"Dry Puddle","ja":"\u4E7E\u71E5\u3057\u305F\u6C34\u6E9C\u3081"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u9632\u868A","en":"Action: Mosquito Protection","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u866B\u3088\u3051"}},{"source":{"key":"StreamBed","type":"CardData","CardType":2,"name":{"zh":"\u6CB3\u6D41","en":"Stream","ja":"\u5C0F\u5DDD"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u9632\u868A","en":"Action: Mosquito Protection","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u866B\u3088\u3051"}},{"source":{"key":"DogFriend","type":"CardData","CardType":0,"name":{"zh":"Dog Friend","en":"Dog Friend","ja":"Dog Friend"}},"description":{"zh":"\u52A8\u4F5C\uFF1AGive Water","en":"Action: Give Water","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"}},{"source":{"key":"GoatEnclosureFemale","type":"CardData","CardType":1,"name":{"zh":"Goat","en":"Goat","ja":"Goat"}},"description":{"zh":"\u52A8\u4F5C\uFF1AGive Water","en":"Action: Give Water","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"}},{"source":{"key":"GoatEnclosureKid","type":"CardData","CardType":1,"name":{"zh":"Juvenile Goat","en":"Juvenile Goat","ja":"Juvenile Goat"}},"description":{"zh":"\u52A8\u4F5C\uFF1AGive Water","en":"Action: Give Water","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"}},{"source":{"key":"GoatEnclosureLactating","type":"CardData","CardType":1,"name":{"zh":"Lactating Goat","en":"Lactating Goat","ja":"Lactating Goat"}},"description":{"zh":"\u52A8\u4F5C\uFF1AGive Water","en":"Action: Give Water","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"}},{"source":{"key":"GoatEnclosureLactating","type":"CardData","CardType":1,"name":{"zh":"Lactating Goat","en":"Lactating Goat","ja":"Lactating Goat"}},"description":{"zh":"\u52A8\u4F5C\uFF1AMilk","en":"Action: Milk","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMilk"}},{"source":{"key":"GoatEnclosureMale","type":"CardData","CardType":1,"name":{"zh":"Male Goat","en":"Male Goat","ja":"Male Goat"}},"description":{"zh":"\u52A8\u4F5C\uFF1AGive Water","en":"Action: Give Water","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"}},{"source":{"key":"GoatTiedFemale","type":"CardData","CardType":0,"name":{"zh":"Goat","en":"Goat","ja":"Goat"}},"description":{"zh":"\u52A8\u4F5C\uFF1AGive Water","en":"Action: Give Water","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"}},{"source":{"key":"GoatTiedFemaleLactating","type":"CardData","CardType":0,"name":{"zh":"Lactating Goat","en":"Lactating Goat","ja":"Lactating Goat"}},"description":{"zh":"\u52A8\u4F5C\uFF1AGive Water","en":"Action: Give Water","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"}},{"source":{"key":"GoatTiedKid","type":"CardData","CardType":0,"name":{"zh":"Juvenile Goat","en":"Juvenile Goat","ja":"Juvenile Goat"}},"description":{"zh":"\u52A8\u4F5C\uFF1AGive Water","en":"Action: Give Water","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"}},{"source":{"key":"GoatTiedMale","type":"CardData","CardType":0,"name":{"zh":"Male Goat","en":"Male Goat","ja":"Male Goat"}},"description":{"zh":"\u52A8\u4F5C\uFF1AGive Water","en":"Action: Give Water","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"}},{"source":{"key":"BeeSkep","type":"CardData","CardType":2,"icon":"4e8253da5362845f","name":{"zh":"Bee Skep","en":"Bee Skep","ja":"Bee Skep"}},"description":{"zh":"\u52A8\u4F5C\uFF1AFeed","en":"Action: Feed","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed"}},{"source":{"key":"BeeSkepSwarming","type":"CardData","CardType":2,"icon":"94edbd65a608db51","name":{"zh":"Swarming Bee Skep","en":"Swarming Bee Skep","ja":"Swarming Bee Skep"}},"description":{"zh":"\u52A8\u4F5C\uFF1AFeed","en":"Action: Feed","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed"}},{"source":{"key":"WaterReservoirIrrigating","type":"CardData","CardType":2,"name":{"zh":"Reservoir (irrigating)","en":"Reservoir (irrigating)","ja":"Reservoir (irrigating)"}},"description":{"zh":"\u52A8\u4F5C\uFF1AMosquito Protection","en":"Action: Mosquito Protection","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMosquito Protection"}}],"_containers":[{"key":"SapTap","type":"CardData","CardType":2,"icon":"127e41bbeca8a3cd","name":{"zh":"\u6811\u6C41\u91C7\u96C6\u70B9","en":"Sap Tap","ja":"\u6A39\u6DB2\u63A1\u53D6\u5668"}},{"key":"Carcass_BearCarcassBleeding","type":"CardData","CardType":0,"icon":"372137ebb0d053fe","name":{"zh":"\u653E\u5B8C\u8840\u7684\u718A\u5C38","en":"Bled Bear Carcass","ja":"\u653E\u8840\u6E08\u307F\u306E\u718A\u306E\u6B7B\u9AB8"}},{"key":"Carcass_BoarCarcassBleeding","type":"CardData","CardType":0,"icon":"44c3e4512da56b3d","name":{"zh":"\u653E\u5B8C\u8840\u7684\u91CE\u732A\u5C38\u4F53","en":"Bled Boar Carcass","ja":"\u653E\u8840\u6E08\u307F\u306E\u30A4\u30CE\u30B7\u30B7\u306E\u6B7B\u9AB8"}},{"key":"Carcass_CowCalfCarcassBleeding","type":"CardData","CardType":0,"icon":"b1958c4a77d7e3da","name":{"zh":"\u653E\u5B8C\u8840\u7684\u5C0F\u725B\u5C38\u4F53","en":"Bled Calf Carcass","ja":"\u8840\u629C\u304D\u6E08\u307F\u306E\u5B50\u725B\u306E\u679D\u8089"}},{"key":"Carcass_CowCarcassBleeding","type":"CardData","CardType":0,"icon":"fe0707cc476fa27a","name":{"zh":"\u653E\u5B8C\u8840\u7684\u725B\u5C38\u4F53","en":"Bled Cow Carcass","ja":"\u8840\u629C\u304D\u6E08\u307F\u306E\u725B\u306E\u679D\u8089"}},{"key":"Carcass_DoeCarcassBleeding","type":"CardData","CardType":0,"icon":"ad695f53ae7569fb","name":{"zh":"\u653E\u5B8C\u8840\u7684\u6BCD\u9E7F\u5C38\u4F53","en":"Bled Doe Carcass","ja":"\u653E\u8840\u6E08\u307F\u306E\u96CC\u9E7F\u306E\u6B7B\u9AB8"}},{"key":"Carcass_ForestBeastCarcassBleeding","type":"CardData","CardType":0,"icon":"87fb1b342b6115eb","name":{"zh":"\u653E\u5B8C\u8840\u7684\u68EE\u6797\u731B\u517D\u5C38\u4F53","en":"Bled Forest Beast Carcass","ja":"\u653E\u8840\u6E08\u307F\u306E\u68EE\u7363\u306E\u6B7B\u9AB8"}},{"key":"Carcass_HollowCarcassBleeding","type":"CardData","CardType":0,"icon":"ad695f53ae7569fb","name":{"zh":"\u653E\u5B8C\u8840\u7684\u7A7A\u58F3\u5C38\u4F53","en":"Bled Hollow Carcass","ja":"Bled Hollow Carcass"}},{"key":"Carcass_MoontouchedCarcassBleeding","type":"CardData","CardType":0,"icon":"8e06cee592c49b4c","name":{"zh":"\u653E\u5B8C\u8840\u7684\u6708\u517D\u5C38\u4F53","en":"Bled Moontouched Carcass","ja":"\u8840\u629C\u304D\u6E08\u307F\u306E\u6708\u89E6\u308C\u306E\u6B7B\u9AB8"}},{"key":"Carcass_PrimevalCarcasssBleeding","type":"CardData","CardType":0,"icon":"eb1a0239b29345af","name":{"zh":"\u653E\u5B8C\u8840\u7684\u539F\u521D\u72FC\u5C38","en":"Bled Primeval Wolf Carcass","ja":"\u8840\u629C\u304D\u6E08\u307F\u306E\u592A\u53E4\u30AA\u30AA\u30AB\u30DF\u306E\u679D\u8089"}},{"key":"Carcass_StagCarcassBleeding","type":"CardData","CardType":0,"icon":"35205ec0ae25c435","name":{"zh":"\u653E\u5B8C\u8840\u7684\u516C\u9E7F\u5C38\u4F53","en":"Bled Stag Carcass","ja":"\u653E\u8840\u6E08\u307F\u306E\u7261\u9E7F\u306E\u6B7B\u9AB8"}},{"key":"Carcass_WolfCarcassBleeding","type":"CardData","CardType":0,"icon":"279ede0c6bdbd7d2","name":{"zh":"\u653E\u5B8C\u8840\u7684\u72FC\u5C38","en":"Bled Wolf Carcass","ja":"\u653E\u8840\u6E08\u307F\u306E\u72FC\u306E\u6B7B\u9AB8"}},{"key":"ClayBowl","type":"CardData","CardType":0,"icon":"faa235ff3217d5dd","name":{"zh":"\u9676\u7897","en":"Clay Bowl","ja":"\u7C98\u571F\u306E\u30DC\u30A6\u30EB"}},{"key":"ClayCauldron","type":"CardData","CardType":0,"icon":"d3f03661826e2a7d","name":{"zh":"\u7C98\u571F\u5927\u9505","en":"Clay Cauldron","ja":"\u7C98\u571F\u306E\u934B"}},{"key":"CookingPot","type":"CardData","CardType":0,"icon":"c9f1b0846fe846a1","name":{"zh":"\u70F9\u996A\u9505","en":"Cooking Pot","ja":"\u6599\u7406\u30DD\u30C3\u30C8"}},{"key":"Campfire","type":"CardData","CardType":2,"icon":"9c22fc20ce801165","name":{"zh":"\u8425\u706B","en":"Campfire","ja":"\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"}},{"key":"CampfireExtinguished","type":"CardData","CardType":2,"icon":"0c129107ffabd102","name":{"zh":"\u8425\u706B","en":"Campfire","ja":"\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"}},{"key":"FirePit","type":"CardData","CardType":2,"icon":"17483cb3a2621f4a","name":{"zh":"\u706B\u5751","en":"Fire Pit","ja":"Fire Pit"}},{"key":"FirePitExtinguished","type":"CardData","CardType":2,"icon":"21ebed60604d932e","name":{"zh":"\u706B\u5751","en":"Fire Pit","ja":"Fire Pit"}},{"key":"Fireplace","type":"CardData","CardType":2,"icon":"dcd43a4a3cb174d1","name":{"zh":"\u58C1\u7089","en":"Fireplace","ja":"\u6696\u7089"}},{"key":"FireplaceExtinguished","type":"CardData","CardType":2,"icon":"13c0a5bd9206d72e","name":{"zh":"\u58C1\u7089","en":"Fireplace","ja":"\u6696\u7089"}},{"key":"FurnaceExtinguished","type":"CardData","CardType":2,"icon":"019799c5fdc1468c","name":{"zh":"\u7194\u7089","en":"Furnace","ja":"\u6EB6\u9271\u7089"}},{"key":"Hearth","type":"CardData","CardType":2,"name":{"zh":"\u706B\u7089","en":"Hearth","ja":"\u7089\u8FBA"}},{"key":"HearthAwakened","type":"CardData","CardType":2,"name":{"zh":"\u71C3\u70E7\u7684\u706B\u7089","en":"Awakened Hearth","ja":"\u518D\u71C3\u3057\u305F\u6696\u7089"}},{"key":"Kiln","type":"CardData","CardType":2,"icon":"4e90ce9655385dfa","name":{"zh":"\u7A91\u7089","en":"Kiln","ja":"\u7AAF"}},{"key":"KilnExtinguished","type":"CardData","CardType":2,"icon":"30502019b19874cb","name":{"zh":"\u7A91\u7089","en":"Kiln","ja":"\u7AAF"}},{"key":"NOT_USED_HearthAwakenedExtinguished","type":"CardData","CardType":2,"name":{"zh":"\u5524\u9192\u7684\u706B\u7089","en":"Awakened Hearth","ja":"\u706B\u3092\u3064\u3051\u306A\u304A\u3057\u305F\u7089\u8FBA"}},{"key":"NOT_USED_HearthExtinguished","type":"CardData","CardType":2,"name":{"zh":"\u706B\u7089","en":"Hearth","ja":"\u7089\u8FBA"}},{"key":"Oven","type":"CardData","CardType":2,"icon":"4e90ce9655385dfa","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},{"key":"OvenExtinguished","type":"CardData","CardType":2,"icon":"30502019b19874cb","name":{"zh":"\u70E4\u7BB1","en":"Oven","ja":"\u30AA\u30FC\u30D6\u30F3"}},{"key":"ClayPotCoolerOff","type":"CardData","CardType":2,"name":{"zh":"Clay Pot Cooler","en":"Clay Pot Cooler","ja":"Clay Pot Cooler"}},{"key":"ClayPotCoolerOn","type":"CardData","CardType":2,"name":{"zh":"Clay Pot Cooler","en":"Clay Pot Cooler","ja":"Clay Pot Cooler"}},{"key":"AlembicOff","type":"CardData","CardType":2,"name":{"zh":"Alembic","en":"Alembic","ja":"Alembic"}},{"key":"AlembicOn","type":"CardData","CardType":2,"name":{"zh":"Alembic","en":"Alembic","ja":"Alembic"}},{"key":"NOT_USED_FishTrapDeployed","type":"CardData","CardType":2,"name":{"zh":"Fish Trap","en":"Fish Trap","ja":"Fish Trap"}},{"key":"SolarStill","type":"CardData","CardType":2,"name":{"zh":"Solar Still","en":"Solar Still","ja":"Solar Still"}},{"key":"WaterFilter","type":"CardData","CardType":2,"name":{"zh":"Water Filter","en":"Water Filter","ja":"Water Filter"}}],"_uuid":"b660074d4d913254ba3e95c28f7a8519"}
+
+{
+  "CardName" : {
+    "zh" : "\u9175\u6BCD",
+    "en" : "Dough Yeast",
+    "ja" : "\u751F\u5730\u306E\u9175\u6BCD"
+  },
+  "CardType" : 0,
+  "ObjectWeight" : 100.0,
+  "WeightReductionWhenEquipped" : 0.0,
+  "TradingValue"                : 0.0,
+  "CardTags"                    : [
+    {
+      "key" : "tag_WaterContainer",
+      "type" : "CardTag",
+      "count" : 30,
+      "name"  : {
+        "zh" : "\u50A8\u6C34\u5BB9\u5668",
+        "en" : "Water Container",
+        "ja" : "\u6C34\u306E\u5BB9\u5668"
+      }
+    },
+    {
+      "key" : "tag_Clay",
+      "type" : "CardTag",
+      "count" : 48,
+      "name"  : {
+        "zh" : "\u7C98\u571F",
+        "en" : "Clay",
+        "ja" : "\u7C98\u571F"
+      }
+    },
+    {
+      "key" : "tag_Cookable",
+      "type" : "CardTag",
+      "count" : 131,
+      "name"  : {
+        "zh" : "\u53EF\u70F9\u996A\u7684",
+        "en" : "Cookable",
+        "ja" : "\u6599\u7406\u3067\u304D\u308B"
+      }
+    },
+    {
+      "key" : "tag_ContainerSealed",
+      "type" : "CardTag",
+      "count" : 28,
+      "name"  : {
+        "zh" : "\u5BC6\u5C01\u5BB9\u5668",
+        "en" : "Sealed Container",
+        "ja" : "\u585E\u3044\u3060\u5BB9\u5668"
+      }
+    },
+    {
+      "key" : "tag_Spillable",
+      "type" : "CardTag",
+      "count" : 26,
+      "name"  : {
+        "zh" : "\u53EF\u6CFC\u6E85\u7684",
+        "en" : "Spillable",
+        "ja" : "\u3053\u307C\u308C\u6CE8\u610F"
+      }
+    },
+    {
+      "key" : "tag_Pretty",
+      "type" : "CardTag",
+      "count" : 36,
+      "name"  : {
+        "zh" : "\u7F8E\u4E3D\u7684/\u597D\u770B\u7684",
+        "en" : "Pretty",
+        "ja" : "\u7DBA\u9E97"
+      }
+    }
+  ],
+  "MapStructureType"            : 0,
+  "FlavourFadeRate"             : 0.0,
+  "AlwaysUpdate"                : true,
+  "CanBeTrashed"                : true,
+  "SpoilageTime"                : {
+    "CardStatName" : {
+      "zh" : "\u8425\u517B",
+      "en" : "Nutrition",
+      "ja" : "\u6804\u990A"
+    },
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 96.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "Active"                : true,
+    "durabilityKey"         : "SpoilageTime",
+    "_rateModifications"    : [
+      {
+        "source" : {
+          "key" : "ClayBowl",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
+          "name"     : {
+            "zh" : "\u9676\u7897",
+            "en" : "Clay Bowl",
+            "ja" : "\u7C98\u571F\u306E\u30DC\u30A6\u30EB"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayBowl",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
+          "name"     : {
+            "zh" : "\u9676\u7897",
+            "en" : "Clay Bowl",
+            "ja" : "\u7C98\u571F\u306E\u30DC\u30A6\u30EB"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u7528\u53EF\u70F9\u716E\u6DB2\u4F53\u70F9\u996A",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayCauldron",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_ClayCauldron__CardImage",
+          "name"     : {
+            "zh" : "\u7C98\u571F\u5927\u9505",
+            "en" : "Clay Cauldron",
+            "ja" : "\u7C98\u571F\u306E\u934B"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayCauldron",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_ClayCauldron__CardImage",
+          "name"     : {
+            "zh" : "\u7C98\u571F\u5927\u9505",
+            "en" : "Clay Cauldron",
+            "ja" : "\u7C98\u571F\u306E\u934B"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1ACook in Cookable Liquid",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "CookingPot",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_CookingPot__CardImage",
+          "name"     : {
+            "zh" : "\u70F9\u996A\u9505",
+            "en" : "Cooking Pot",
+            "ja" : "\u6599\u7406\u30DD\u30C3\u30C8"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "CookingPot",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_CookingPot__CardImage",
+          "name"     : {
+            "zh" : "\u70F9\u996A\u9505",
+            "en" : "Cooking Pot",
+            "ja" : "\u6599\u7406\u30DD\u30C3\u30C8"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u5728\u53EF\u70F9\u716E\u6DB2\u4F53\u4E2D\u70F9\u716E",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "Campfire",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Campfire__CardImage",
+          "name"     : {
+            "zh" : "\u8425\u706B",
+            "en" : "Campfire",
+            "ja" : "\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1ACook Cookables",
+          "en" : "Action: Cook Cookables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "FirePit",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Firepit___CardImage",
+          "name"     : {
+            "zh" : "\u706B\u5751",
+            "en" : "Fire Pit",
+            "ja" : "Fire Pit"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1ACook Cookables",
+          "en" : "Action: Cook Cookables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "Fireplace",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Fireplace__CardImage",
+          "name"     : {
+            "zh" : "\u58C1\u7089",
+            "en" : "Fireplace",
+            "ja" : "\u6696\u7089"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u751F\u98DF",
+          "en" : "Action: Cook raw things",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u751F\u3082\u306E\u3092\u713C\u304F"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "Oven",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Kiln__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5",
+          "en" : "Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "OvenExtinguished",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KilnExtinguished__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5",
+          "en" : "Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"
+        },
+        "value"       : {
+          "x" : -1.625,
+          "y" : -1.625
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayPotCoolerOn",
+          "type" : "CardData",
+          "CardType" : 2,
+          "name"     : {
+            "zh" : "Clay Pot Cooler",
+            "en" : "Clay Pot Cooler",
+            "ja" : "Clay Pot Cooler"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4FDD\u9C9C",
+          "en" : "Passive Effect\uFF1APreserve",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1APreserve"
+        },
+        "value"       : {
+          "x" : 0.5,
+          "y" : 0.5
+        }
+      }
+    ]
+  },
+  "UsageDurability"             : {
+    "CardStatName" : {
+      "zh" : "\u5269\u4F59\u9175\u6BCD",
+      "en" : "Yeast Usage",
+      "ja" : "\u9175\u6BCD\u306E\u6D88\u8CBB"
+    },
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 4.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "HasActionOnZero"       : true,
+    "OnZeroNotification"    : 0,
+    "OnZero"                : {
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ReceivingCardChanges" : {
+        "ModType" : 2,
+        "TransformInto" : {
+          "key" : "DoughStarter",
+          "type" : "CardData",
+          "CardType" : 0,
+          "name"     : {
+            "zh" : "\u9175\u79CD",
+            "en" : "Dough Starter",
+            "ja" : "\u5143\u7A2E"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "TransferSpoilage"          : true,
+        "TransferFuel"              : true,
+        "TransferCharges"           : true,
+        "LiquidEffectScaling"       : 0
+      },
+      "FadeToBlack"          : 0,
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    },
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 1.0,
+    "Active"                : true,
+    "durabilityKey"         : "UsageDurability",
+    "_valueModifications"   : [
+      {
+        "source" : {
+          "key" : "GoatEnclosureLactating",
+          "type" : "CardData",
+          "CardType" : 1,
+          "name"     : {
+            "zh" : "Lactating Goat",
+            "en" : "Lactating Goat",
+            "ja" : "Lactating Goat"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1AMilk",
+          "en" : "Action: Milk",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMilk"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      }
+    ],
+    "_rateModifications"    : [
+      {
+        "source" : {
+          "key" : "Oven",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Kiln__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5",
+          "en" : "Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"
+        },
+        "value"       : {
+          "x" : 4.0,
+          "y" : 4.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "OvenExtinguished",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KilnExtinguished__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5",
+          "en" : "Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"
+        },
+        "value"       : {
+          "x" : 4.0,
+          "y" : 4.0
+        }
+      }
+    ]
+  },
+  "FuelCapacity"                : {
+    "CardStatName" : {
+      "zh" : "\u6E7F\u5EA6",
+      "en" : "Hydration",
+      "ja" : "\u6C34\u5206"
+    },
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 96.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OverrideIcon"          : {
+      "FileName" : "CardData__AlembicOff__UsageDurability-OverrideIcon"
+    },
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "Active"                : true,
+    "durabilityKey"         : "FuelCapacity",
+    "_rateModifications"    : [
+      {
+        "source" : {
+          "key" : "ClayBowl",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
+          "name"     : {
+            "zh" : "\u9676\u7897",
+            "en" : "Clay Bowl",
+            "ja" : "\u7C98\u571F\u306E\u30DC\u30A6\u30EB"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayBowl",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
+          "name"     : {
+            "zh" : "\u9676\u7897",
+            "en" : "Clay Bowl",
+            "ja" : "\u7C98\u571F\u306E\u30DC\u30A6\u30EB"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u7528\u53EF\u70F9\u716E\u6DB2\u4F53\u70F9\u996A",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayCauldron",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_ClayCauldron__CardImage",
+          "name"     : {
+            "zh" : "\u7C98\u571F\u5927\u9505",
+            "en" : "Clay Cauldron",
+            "ja" : "\u7C98\u571F\u306E\u934B"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayCauldron",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_ClayCauldron__CardImage",
+          "name"     : {
+            "zh" : "\u7C98\u571F\u5927\u9505",
+            "en" : "Clay Cauldron",
+            "ja" : "\u7C98\u571F\u306E\u934B"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1ACook in Cookable Liquid",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CookingPot",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_CookingPot__CardImage",
+          "name"     : {
+            "zh" : "\u70F9\u996A\u9505",
+            "en" : "Cooking Pot",
+            "ja" : "\u6599\u7406\u30DD\u30C3\u30C8"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CookingPot",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_CookingPot__CardImage",
+          "name"     : {
+            "zh" : "\u70F9\u996A\u9505",
+            "en" : "Cooking Pot",
+            "ja" : "\u6599\u7406\u30DD\u30C3\u30C8"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u5728\u53EF\u70F9\u716E\u6DB2\u4F53\u4E2D\u70F9\u716E",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Campfire",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Campfire__CardImage",
+          "name"     : {
+            "zh" : "\u8425\u706B",
+            "en" : "Campfire",
+            "ja" : "\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1ACook Cookables",
+          "en" : "Action: Cook Cookables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Campfire",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Campfire__CardImage",
+          "name"     : {
+            "zh" : "\u8425\u706B",
+            "en" : "Campfire",
+            "ja" : "\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1AHeat up Cooking and Water Containers and Heatables",
+          "en" : "Action: Heat up Cooking and Water Containers and Heatables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHeat up Cooking and Water Containers and Heatables"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "FirePit",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Firepit___CardImage",
+          "name"     : {
+            "zh" : "\u706B\u5751",
+            "en" : "Fire Pit",
+            "ja" : "Fire Pit"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1ACook Cookables",
+          "en" : "Action: Cook Cookables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "FirePit",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Firepit___CardImage",
+          "name"     : {
+            "zh" : "\u706B\u5751",
+            "en" : "Fire Pit",
+            "ja" : "Fire Pit"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1AHeat up Cooking and Water Containers and Heatables",
+          "en" : "Action: Heat up Cooking and Water Containers and Heatables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHeat up Cooking and Water Containers and Heatables"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Fireplace",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Fireplace__CardImage",
+          "name"     : {
+            "zh" : "\u58C1\u7089",
+            "en" : "Fireplace",
+            "ja" : "\u6696\u7089"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u751F\u98DF",
+          "en" : "Action: Cook raw things",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u751F\u3082\u306E\u3092\u713C\u304F"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Fireplace",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Fireplace__CardImage",
+          "name"     : {
+            "zh" : "\u58C1\u7089",
+            "en" : "Fireplace",
+            "ja" : "\u6696\u7089"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u52A0\u70ED\u70F9\u996A\u5668\u5177\u3001\u6C34\u5BB9\u5668\u548C\u5176\u4ED6\u53EF\u52A0\u70ED\u7269\u54C1",
+          "en" : "Action: Heat up Cooking and Water Containers and Heatables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6E29\u3081\u3089\u308C\u308B\u7269\u3001\u6599\u7406\u5BB9\u5668\u3001\u6C34\u5BB9\u5668\u3092\u6E29\u3081\u308B"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Hearth",
+          "type" : "CardData",
+          "CardType" : 2,
+          "name"     : {
+            "zh" : "\u706B\u7089",
+            "en" : "Hearth",
+            "ja" : "\u7089\u8FBA"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "HearthAwakened",
+          "type" : "CardData",
+          "CardType" : 2,
+          "name"     : {
+            "zh" : "\u71C3\u70E7\u7684\u706B\u7089",
+            "en" : "Awakened Hearth",
+            "ja" : "\u518D\u71C3\u3057\u305F\u6696\u7089"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Oven",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Kiln__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5",
+          "en" : "Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Oven",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Kiln__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u52A0\u70ED\u70F9\u996A\u5BB9\u5668\u3001\u6C34\u5BB9\u5668\u548C\u5176\u4ED6\u53EF\u52A0\u70ED\u7269\u54C1",
+          "en" : "Action: Cooking Temp: Heats up Cooking and Water Containers and Heatables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u6E29\u3081\u3089\u308C\u308B\u7269\u3001\u6599\u7406\u5BB9\u5668\u3001\u6C34\u5BB9\u5668\u3092\u6E29\u3081\u308B"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "OvenExtinguished",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KilnExtinguished__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5",
+          "en" : "Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "OvenExtinguished",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KilnExtinguished__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u52A0\u70ED\u70F9\u996A\u5BB9\u5668\u3001\u6C34\u5BB9\u5668\u548C\u5176\u4ED6\u53EF\u52A0\u70ED\u7269\u54C1",
+          "en" : "Action: Cooking Temp: Heats up Cooking and Water Containers and Heatables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u6E29\u3081\u3089\u308C\u308B\u7269\u3001\u6599\u7406\u5BB9\u5668\u3001\u6C34\u5BB9\u5668\u3092\u6E29\u3081\u308B"
+        },
+        "value"       : {
+          "x" : 200.0,
+          "y" : 200.0
+        }
+      }
+    ]
+  },
+  "Progress"                    : {
+    "CardStatName" : {
+      "zh" : "\u53D1\u9175\u5EA6",
+      "en" : "Yeast Growth",
+      "ja" : "\u9175\u6BCD\u306E\u5897\u52A0"
+    },
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 96.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "HasActionOnFull"       : true,
+    "OnFullNotification"    : 0,
+    "OnFull"                : {
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ReceivingCardChanges" : {
+        "ModType" : 1,
+        "TransformInto" : {
+          "key" : "NOT_USED_DoughStarterYeast",
+          "type" : "CardData",
+          "CardType" : 0,
+          "name"     : {
+            "zh" : "\u9175\u6BCD",
+            "en" : "Dough Yeast",
+            "ja" : "\u751F\u5730\u306E\u9175\u6BCD"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "TransferSpoilage"          : true,
+        "TransferFuel"              : true,
+        "LiquidEffectScaling"       : 0,
+        "UsageChange"               : {
+          "x" : 1.0,
+          "y" : 1.0
+        },
+        "ChargesChange"             : {
+          "x" : -96.0,
+          "y" : -96.0
+        }
+      },
+      "FadeToBlack"          : 0,
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    },
+    "FloatValue"            : 0.0,
+    "Active"                : true,
+    "durabilityKey"         : "Progress"
+  },
+  "LiquidEvaporationRate"       : 1.0,
+  "SpecialDurability1"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability1",
+    "_rateModifications"    : [
+      {
+        "source" : {
+          "key" : "ClayBowl",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
+          "name"     : {
+            "zh" : "\u9676\u7897",
+            "en" : "Clay Bowl",
+            "ja" : "\u7C98\u571F\u306E\u30DC\u30A6\u30EB"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayBowl",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
+          "name"     : {
+            "zh" : "\u9676\u7897",
+            "en" : "Clay Bowl",
+            "ja" : "\u7C98\u571F\u306E\u30DC\u30A6\u30EB"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u7528\u53EF\u70F9\u716E\u6DB2\u4F53\u70F9\u996A",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayCauldron",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_ClayCauldron__CardImage",
+          "name"     : {
+            "zh" : "\u7C98\u571F\u5927\u9505",
+            "en" : "Clay Cauldron",
+            "ja" : "\u7C98\u571F\u306E\u934B"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayCauldron",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_ClayCauldron__CardImage",
+          "name"     : {
+            "zh" : "\u7C98\u571F\u5927\u9505",
+            "en" : "Clay Cauldron",
+            "ja" : "\u7C98\u571F\u306E\u934B"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1ACook in Cookable Liquid",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CookingPot",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_CookingPot__CardImage",
+          "name"     : {
+            "zh" : "\u70F9\u996A\u9505",
+            "en" : "Cooking Pot",
+            "ja" : "\u6599\u7406\u30DD\u30C3\u30C8"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CookingPot",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_CookingPot__CardImage",
+          "name"     : {
+            "zh" : "\u70F9\u996A\u9505",
+            "en" : "Cooking Pot",
+            "ja" : "\u6599\u7406\u30DD\u30C3\u30C8"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u5728\u53EF\u70F9\u716E\u6DB2\u4F53\u4E2D\u70F9\u716E",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Campfire",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Campfire__CardImage",
+          "name"     : {
+            "zh" : "\u8425\u706B",
+            "en" : "Campfire",
+            "ja" : "\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1ACook Cookables",
+          "en" : "Action: Cook Cookables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "FirePit",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Firepit___CardImage",
+          "name"     : {
+            "zh" : "\u706B\u5751",
+            "en" : "Fire Pit",
+            "ja" : "Fire Pit"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1ACook Cookables",
+          "en" : "Action: Cook Cookables",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook Cookables"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Fireplace",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Fireplace__CardImage",
+          "name"     : {
+            "zh" : "\u58C1\u7089",
+            "en" : "Fireplace",
+            "ja" : "\u6696\u7089"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u751F\u98DF",
+          "en" : "Action: Cook raw things",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u751F\u3082\u306E\u3092\u713C\u304F"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Hearth",
+          "type" : "CardData",
+          "CardType" : 2,
+          "name"     : {
+            "zh" : "\u706B\u7089",
+            "en" : "Hearth",
+            "ja" : "\u7089\u8FBA"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "HearthAwakened",
+          "type" : "CardData",
+          "CardType" : 2,
+          "name"     : {
+            "zh" : "\u71C3\u70E7\u7684\u706B\u7089",
+            "en" : "Awakened Hearth",
+            "ja" : "\u518D\u71C3\u3057\u305F\u6696\u7089"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Oven",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Kiln__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5",
+          "en" : "Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "OvenExtinguished",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KilnExtinguished__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5",
+          "en" : "Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "SpecialDurability2"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability2",
+    "_rateModifications"    : [
+      {
+        "source" : {
+          "key" : "ClayBowl",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
+          "name"     : {
+            "zh" : "\u9676\u7897",
+            "en" : "Clay Bowl",
+            "ja" : "\u7C98\u571F\u306E\u30DC\u30A6\u30EB"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayBowl",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
+          "name"     : {
+            "zh" : "\u9676\u7897",
+            "en" : "Clay Bowl",
+            "ja" : "\u7C98\u571F\u306E\u30DC\u30A6\u30EB"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u7528\u53EF\u70F9\u716E\u6DB2\u4F53\u70F9\u996A",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayCauldron",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_ClayCauldron__CardImage",
+          "name"     : {
+            "zh" : "\u7C98\u571F\u5927\u9505",
+            "en" : "Clay Cauldron",
+            "ja" : "\u7C98\u571F\u306E\u934B"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook"
+        },
+        "value"       : {
+          "x" : 2.0,
+          "y" : 2.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ClayCauldron",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_ClayCauldron__CardImage",
+          "name"     : {
+            "zh" : "\u7C98\u571F\u5927\u9505",
+            "en" : "Clay Cauldron",
+            "ja" : "\u7C98\u571F\u306E\u934B"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1ACook in Cookable Liquid",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CookingPot",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_CookingPot__CardImage",
+          "name"     : {
+            "zh" : "\u70F9\u996A\u9505",
+            "en" : "Cooking Pot",
+            "ja" : "\u6599\u7406\u30DD\u30C3\u30C8"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 2.0,
+          "y" : 2.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CookingPot",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Bp_CookingPot__CardImage",
+          "name"     : {
+            "zh" : "\u70F9\u996A\u9505",
+            "en" : "Cooking Pot",
+            "ja" : "\u6599\u7406\u30DD\u30C3\u30C8"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u5728\u53EF\u70F9\u716E\u6DB2\u4F53\u4E2D\u70F9\u716E",
+          "en" : "Action: Cook in Cookable Liquid",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACook in Cookable Liquid"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Oven",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_Kiln__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5",
+          "en" : "Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"
+        },
+        "value"       : {
+          "x" : 10.0,
+          "y" : 10.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "OvenExtinguished",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KilnExtinguished__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A\u6E29\u5EA6\uFF1A\u70F9\u996A\uFF08\u751F\u9C9C\u98DF\u7269\uFF09\u548C\u5E72\u71E5",
+          "en" : "Action: Cooking Temp: Cook ( Fresh, Raw, etc. ) and Dry",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u52A0\u71B1\u6E29\u5EA6\uFF1A\u713C\u3044\u3066\uFF08\u65B0\u9BAE\u3001\u751F\u306A\u3069\uFF09\u3001\u4E7E\u71E5\u3055\u305B\u308B"
+        },
+        "value"       : {
+          "x" : 10.0,
+          "y" : 10.0
+        }
+      }
+    ]
+  },
+  "SpecialDurability3"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability3",
+    "_rateModifications"    : [
+      {
+        "source" : {
+          "key" : "Hearth",
+          "type" : "CardData",
+          "CardType" : 2,
+          "name"     : {
+            "zh" : "\u706B\u7089",
+            "en" : "Hearth",
+            "ja" : "\u7089\u8FBA"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "HearthAwakened",
+          "type" : "CardData",
+          "CardType" : 2,
+          "name"     : {
+            "zh" : "\u71C3\u70E7\u7684\u706B\u7089",
+            "en" : "Awakened Hearth",
+            "ja" : "\u518D\u71C3\u3057\u305F\u6696\u7089"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u70F9\u996A",
+          "en" : "Action: Cook",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6599\u7406\u3059\u308B"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "SpecialDurability4"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability4"
+  },
+  "CardInteractions"            : [
+    {
+      "GivenCardChanges" : {
+        "ModType" : 0,
+        "TransformToLiquidQuantity" : 0.0,
+        "ModifyLiquid"              : true,
+        "LiquidEffectScaling"       : 1,
+        "LiquidQuantityChange"      : {
+          "x" : -300.0,
+          "y" : -300.0
+        }
+      },
+      "CompatibleCards"  : {
+        "TriggerTags" : [
+          {
+            "key" : "tag_WaterFresh",
+            "type" : "CardTag",
+            "count" : 8,
+            "name"  : {
+              "zh" : "\u6DE1\u6C34",
+              "en" : "Fresh Water",
+              "ja" : "\u7DBA\u9E97\u306A\u6C34"
+            }
+          }
+        ]
+      },
+      "ActionName"       : {
+        "zh" : "\u52A0\u6C34",
+        "en" : "Fill with Water",
+        "ja" : "\u6C34\u3067\u3044\u3063\u3071\u3044\u306B\u3059\u308B"
+      },
+      "DaytimeCost"      : 0,
+      "UseMiniTicks"     : 0,
+      "ReceivingCardChanges" : {
+        "ModType" : 1,
+        "TransformInto" : {
+          "key" : "ClayPotCoolerOn",
+          "type" : "CardData",
+          "CardType" : 2,
+          "name"     : {
+            "zh" : "Clay Pot Cooler",
+            "en" : "Clay Pot Cooler",
+            "ja" : "Clay Pot Cooler"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "TransferInventory"         : true,
+        "ModifyDurability"          : true,
+        "LiquidEffectScaling"       : 0,
+        "FuelChange"                : {
+          "x" : 96.0,
+          "y" : 96.0
+        }
+      },
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    },
+    {
+      "GivenCardChanges" : {
+        "ModType" : 3,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 1
+      },
+      "ActionName"       : {
+        "zh" : "\u52A0\u9762",
+        "en" : "Fill with Flour",
+        "ja" : "\u7C89\u3067\u3044\u3063\u3071\u3044\u306B\u3059\u308B"
+      },
+      "DaytimeCost"      : 0,
+      "UseMiniTicks"     : 0,
+      "ReceivingCardChanges" : {
+        "ModType" : 1,
+        "TransformInto" : {
+          "key" : "ClayPotCoolerOn",
+          "type" : "CardData",
+          "CardType" : 2,
+          "name"     : {
+            "zh" : "Clay Pot Cooler",
+            "en" : "Clay Pot Cooler",
+            "ja" : "Clay Pot Cooler"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "TransferInventory"         : true,
+        "ModifyDurability"          : true,
+        "LiquidEffectScaling"       : 0,
+        "SpoilageChange"            : {
+          "x" : 96.0,
+          "y" : 96.0
+        }
+      },
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    }
+  ],
+  "PassiveEffects"              : [
+    {
+      "EffectName" : "Generate Yeast",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "ReceivingRequiredDurabilityRanges" : {
+          "SpoilageRange" : {
+            "x" : 1.0,
+            "y" : 96.0
+          },
+          "FuelRange"     : {
+            "x" : 1.0,
+            "y" : 96.0
+          }
+        }
+      },
+      "OnBoardEffectCap" : 0,
+      "SpoilageRateModifier" : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "FuelRateModifier"     : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "ConsumableChargesModifier" : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier"        : 0.0,
+      "WeightCapacityModifier"    : 0.0,
+      "_EffectNameI18n"           : {
+        "zh" : "\u4EA7\u751F\u9175\u6BCD",
+        "en" : "Generate Yeast",
+        "ja" : "Generate Yeast"
+      }
+    }
+  ],
+  "MaxLiquidCapacity"           : 150.0,
+  "MinQuantityLeftAfterATransfer" : 0.0,
+  "OpenOnTab"                     : 0,
+  "MaxWeightCapacity"             : 0.0,
+  "ContentWeightReduction"        : 0.0,
+  "UnlockNotifications"           : 0,
+  "BlueprintUnlockTicksCost"      : 0.0,
+  "ResearchedNotification"        : 0,
+  "BuildingDaytimeCost"           : 0,
+  "BuildingMiniTicks"             : 0,
+  "DeconstructDaytimeCost"        : 0,
+  "DeconstructMiniTicks"          : 0,
+  "RoadDirection"                 : 0,
+  "MainHandUse"                   : 0,
+  "OffHandUse"                    : 0,
+  "BothHandsUse"                  : 0,
+  "RequiredDistance"              : 0,
+  "RequiredWrestlingState"        : 0,
+  "RequiredAmbush"                : 0,
+  "RequiredSelfVulnerableState"   : 0,
+  "RequiredOpponentVulnerableState" : 0,
+  "ActionRange"                     : 0,
+  "AmmoUsageCost"                   : 0.0,
+  "WeaponReach"                     : 0.0,
+  "PlayerAddedCover"                : 0.0,
+  "EnemyAddedCover"                 : 0.0,
+  "PlayerAddedStealth"              : 0.0,
+  "EnemyAddedStealth"               : 0.0,
+  "type"                            : "CardData",
+  "key"                             : "NOT_USED_DoughStarterYeast",
+  "name"                            : {
+    "zh" : "\u9175\u6BCD",
+    "en" : "Dough Yeast",
+    "ja" : "\u751F\u5730\u306E\u9175\u6BCD"
+  },
+  "_gotFrom"                        : [
+    {
+      "source" : {
+        "key" : "DoughStarter",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "\u9175\u79CD",
+          "en" : "Dough Starter",
+          "ja" : "\u5143\u7A2E"
+        }
+      },
+      "description" : {
+        "zh" : "\u53D1\u9175\u5EA6 \u8FBE\u5230\u6700\u5927",
+        "en" : "Yeast Growth Full",
+        "ja" : "\u9175\u6BCD\u306E\u5897\u52A0 \u30D5\u30EB"
+      }
+    }
+  ],
+  "_useFor"                         : [
+    {
+      "source" : {
+        "key" : "Puddle",
+        "type" : "CardData",
+        "CardType" : 2,
+        "name"     : {
+          "zh" : "\u5E72\u6DB8\u7684\u5C0F\u6C34\u5858",
+          "en" : "Dry Puddle",
+          "ja" : "\u4E7E\u71E5\u3057\u305F\u6C34\u6E9C\u3081"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u9632\u868A",
+        "en" : "Action: Mosquito Protection",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u866B\u3088\u3051"
+      }
+    },
+    {
+      "source" : {
+        "key" : "StreamBed",
+        "type" : "CardData",
+        "CardType" : 2,
+        "name"     : {
+          "zh" : "\u6CB3\u6D41",
+          "en" : "Stream",
+          "ja" : "\u5C0F\u5DDD"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u9632\u868A",
+        "en" : "Action: Mosquito Protection",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u866B\u3088\u3051"
+      }
+    },
+    {
+      "source" : {
+        "key" : "DogFriend",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Dog Friend",
+          "en" : "Dog Friend",
+          "ja" : "Dog Friend"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AGive Water",
+        "en" : "Action: Give Water",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"
+      }
+    },
+    {
+      "source" : {
+        "key" : "GoatEnclosureFemale",
+        "type" : "CardData",
+        "CardType" : 1,
+        "name"     : {
+          "zh" : "Goat",
+          "en" : "Goat",
+          "ja" : "Goat"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AGive Water",
+        "en" : "Action: Give Water",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"
+      }
+    },
+    {
+      "source" : {
+        "key" : "GoatEnclosureKid",
+        "type" : "CardData",
+        "CardType" : 1,
+        "name"     : {
+          "zh" : "Juvenile Goat",
+          "en" : "Juvenile Goat",
+          "ja" : "Juvenile Goat"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AGive Water",
+        "en" : "Action: Give Water",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"
+      }
+    },
+    {
+      "source" : {
+        "key" : "GoatEnclosureLactating",
+        "type" : "CardData",
+        "CardType" : 1,
+        "name"     : {
+          "zh" : "Lactating Goat",
+          "en" : "Lactating Goat",
+          "ja" : "Lactating Goat"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AGive Water",
+        "en" : "Action: Give Water",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"
+      }
+    },
+    {
+      "source" : {
+        "key" : "GoatEnclosureLactating",
+        "type" : "CardData",
+        "CardType" : 1,
+        "name"     : {
+          "zh" : "Lactating Goat",
+          "en" : "Lactating Goat",
+          "ja" : "Lactating Goat"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AMilk",
+        "en" : "Action: Milk",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMilk"
+      }
+    },
+    {
+      "source" : {
+        "key" : "GoatEnclosureMale",
+        "type" : "CardData",
+        "CardType" : 1,
+        "name"     : {
+          "zh" : "Male Goat",
+          "en" : "Male Goat",
+          "ja" : "Male Goat"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AGive Water",
+        "en" : "Action: Give Water",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"
+      }
+    },
+    {
+      "source" : {
+        "key" : "GoatTiedFemale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Goat",
+          "en" : "Goat",
+          "ja" : "Goat"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AGive Water",
+        "en" : "Action: Give Water",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"
+      }
+    },
+    {
+      "source" : {
+        "key" : "GoatTiedFemaleLactating",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Lactating Goat",
+          "en" : "Lactating Goat",
+          "ja" : "Lactating Goat"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AGive Water",
+        "en" : "Action: Give Water",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"
+      }
+    },
+    {
+      "source" : {
+        "key" : "GoatTiedKid",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Juvenile Goat",
+          "en" : "Juvenile Goat",
+          "ja" : "Juvenile Goat"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AGive Water",
+        "en" : "Action: Give Water",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"
+      }
+    },
+    {
+      "source" : {
+        "key" : "GoatTiedMale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Male Goat",
+          "en" : "Male Goat",
+          "ja" : "Male Goat"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AGive Water",
+        "en" : "Action: Give Water",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AGive Water"
+      }
+    },
+    {
+      "source" : {
+        "key" : "BeeSkep",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AFeed",
+        "en" : "Action: Feed",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed"
+      }
+    },
+    {
+      "source" : {
+        "key" : "BeeSkepSwarming",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BeeSkepSwarming__CardImage",
+        "name"     : {
+          "zh" : "Swarming Bee Skep",
+          "en" : "Swarming Bee Skep",
+          "ja" : "Swarming Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AFeed",
+        "en" : "Action: Feed",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed"
+      }
+    },
+    {
+      "source" : {
+        "key" : "WaterReservoirIrrigating",
+        "type" : "CardData",
+        "CardType" : 2,
+        "name"     : {
+          "zh" : "Reservoir (irrigating)",
+          "en" : "Reservoir (irrigating)",
+          "ja" : "Reservoir (irrigating)"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AMosquito Protection",
+        "en" : "Action: Mosquito Protection",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMosquito Protection"
+      }
+    }
+  ],
+  "_containers"                     : [
+    {
+      "key" : "SapTap",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__SapTap__CardImage",
+      "name"     : {
+        "zh" : "\u6811\u6C41\u91C7\u96C6\u70B9",
+        "en" : "Sap Tap",
+        "ja" : "\u6A39\u6DB2\u63A1\u53D6\u5668"
+      }
+    },
+    {
+      "key" : "Carcass_BearCarcassBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Carcass_BearCarcass__CardImage",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u718A\u5C38",
+        "en" : "Bled Bear Carcass",
+        "ja" : "\u653E\u8840\u6E08\u307F\u306E\u718A\u306E\u6B7B\u9AB8"
+      }
+    },
+    {
+      "key" : "Carcass_BoarCarcassBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__BoarTiedFemale__CardImage",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u91CE\u732A\u5C38\u4F53",
+        "en" : "Bled Boar Carcass",
+        "ja" : "\u653E\u8840\u6E08\u307F\u306E\u30A4\u30CE\u30B7\u30B7\u306E\u6B7B\u9AB8"
+      }
+    },
+    {
+      "key" : "Carcass_CowCalfCarcassBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Carcass_CowCalfCarcass__CardImage",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u5C0F\u725B\u5C38\u4F53",
+        "en" : "Bled Calf Carcass",
+        "ja" : "\u8840\u629C\u304D\u6E08\u307F\u306E\u5B50\u725B\u306E\u679D\u8089"
+      }
+    },
+    {
+      "key" : "Carcass_CowCarcassBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Carcass_CowCarcass__CardImage",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u725B\u5C38\u4F53",
+        "en" : "Bled Cow Carcass",
+        "ja" : "\u8840\u629C\u304D\u6E08\u307F\u306E\u725B\u306E\u679D\u8089"
+      }
+    },
+    {
+      "key" : "Carcass_DoeCarcassBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Carcass_DoeCarcass__CardImage",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u6BCD\u9E7F\u5C38\u4F53",
+        "en" : "Bled Doe Carcass",
+        "ja" : "\u653E\u8840\u6E08\u307F\u306E\u96CC\u9E7F\u306E\u6B7B\u9AB8"
+      }
+    },
+    {
+      "key" : "Carcass_ForestBeastCarcassBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Carcass_ForestBeastCarcass__CardImage",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u68EE\u6797\u731B\u517D\u5C38\u4F53",
+        "en" : "Bled Forest Beast Carcass",
+        "ja" : "\u653E\u8840\u6E08\u307F\u306E\u68EE\u7363\u306E\u6B7B\u9AB8"
+      }
+    },
+    {
+      "key" : "Carcass_HollowCarcassBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Carcass_DoeCarcass__CardImage",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u7A7A\u58F3\u5C38\u4F53",
+        "en" : "Bled Hollow Carcass",
+        "ja" : "Bled Hollow Carcass"
+      }
+    },
+    {
+      "key" : "Carcass_MoontouchedCarcassBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Carcass_MoontouchedCarcass__CardImage",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u6708\u517D\u5C38\u4F53",
+        "en" : "Bled Moontouched Carcass",
+        "ja" : "\u8840\u629C\u304D\u6E08\u307F\u306E\u6708\u89E6\u308C\u306E\u6B7B\u9AB8"
+      }
+    },
+    {
+      "key" : "Carcass_PrimevalCarcasssBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Carcass_PrimevalCarcass__CardImage",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u539F\u521D\u72FC\u5C38",
+        "en" : "Bled Primeval Wolf Carcass",
+        "ja" : "\u8840\u629C\u304D\u6E08\u307F\u306E\u592A\u53E4\u30AA\u30AA\u30AB\u30DF\u306E\u679D\u8089"
+      }
+    },
+    {
+      "key" : "Carcass_StagCarcassBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Carcass_StagCarcass__CardImage",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u516C\u9E7F\u5C38\u4F53",
+        "en" : "Bled Stag Carcass",
+        "ja" : "\u653E\u8840\u6E08\u307F\u306E\u7261\u9E7F\u306E\u6B7B\u9AB8"
+      }
+    },
+    {
+      "key" : "Carcass_WolfCarcassBleeding",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "GameStat__BeastAffinity__DefaultStatusIcon",
+      "name"     : {
+        "zh" : "\u653E\u5B8C\u8840\u7684\u72FC\u5C38",
+        "en" : "Bled Wolf Carcass",
+        "ja" : "\u653E\u8840\u6E08\u307F\u306E\u72FC\u306E\u6B7B\u9AB8"
+      }
+    },
+    {
+      "key" : "ClayBowl",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
+      "name"     : {
+        "zh" : "\u9676\u7897",
+        "en" : "Clay Bowl",
+        "ja" : "\u7C98\u571F\u306E\u30DC\u30A6\u30EB"
+      }
+    },
+    {
+      "key" : "ClayCauldron",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Bp_ClayCauldron__CardImage",
+      "name"     : {
+        "zh" : "\u7C98\u571F\u5927\u9505",
+        "en" : "Clay Cauldron",
+        "ja" : "\u7C98\u571F\u306E\u934B"
+      }
+    },
+    {
+      "key" : "CookingPot",
+      "type" : "CardData",
+      "CardType" : 0,
+      "icon"     : "CardData__Bp_CookingPot__CardImage",
+      "name"     : {
+        "zh" : "\u70F9\u996A\u9505",
+        "en" : "Cooking Pot",
+        "ja" : "\u6599\u7406\u30DD\u30C3\u30C8"
+      }
+    },
+    {
+      "key" : "Campfire",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__Bp_Campfire__CardImage",
+      "name"     : {
+        "zh" : "\u8425\u706B",
+        "en" : "Campfire",
+        "ja" : "\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"
+      }
+    },
+    {
+      "key" : "CampfireExtinguished",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__CampfireExtinguished__CardImage",
+      "name"     : {
+        "zh" : "\u8425\u706B",
+        "en" : "Campfire",
+        "ja" : "\u30AD\u30E3\u30F3\u30D7\u30D5\u30A1\u30A4\u30E4\u30FC"
+      }
+    },
+    {
+      "key" : "FirePit",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__Bp_Firepit___CardImage",
+      "name"     : {
+        "zh" : "\u706B\u5751",
+        "en" : "Fire Pit",
+        "ja" : "Fire Pit"
+      }
+    },
+    {
+      "key" : "FirePitExtinguished",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__FirePitExtinguished__CardImage",
+      "name"     : {
+        "zh" : "\u706B\u5751",
+        "en" : "Fire Pit",
+        "ja" : "Fire Pit"
+      }
+    },
+    {
+      "key" : "Fireplace",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__Fireplace__CardImage",
+      "name"     : {
+        "zh" : "\u58C1\u7089",
+        "en" : "Fireplace",
+        "ja" : "\u6696\u7089"
+      }
+    },
+    {
+      "key" : "FireplaceExtinguished",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__FireplaceExtinguished__CardImage",
+      "name"     : {
+        "zh" : "\u58C1\u7089",
+        "en" : "Fireplace",
+        "ja" : "\u6696\u7089"
+      }
+    },
+    {
+      "key" : "FurnaceExtinguished",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__FurnaceExtinguished__CardImage",
+      "name"     : {
+        "zh" : "\u7194\u7089",
+        "en" : "Furnace",
+        "ja" : "\u6EB6\u9271\u7089"
+      }
+    },
+    {
+      "key" : "Hearth",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "\u706B\u7089",
+        "en" : "Hearth",
+        "ja" : "\u7089\u8FBA"
+      }
+    },
+    {
+      "key" : "HearthAwakened",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "\u71C3\u70E7\u7684\u706B\u7089",
+        "en" : "Awakened Hearth",
+        "ja" : "\u518D\u71C3\u3057\u305F\u6696\u7089"
+      }
+    },
+    {
+      "key" : "Kiln",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__Bp_Kiln__CardImage",
+      "name"     : {
+        "zh" : "\u7A91\u7089",
+        "en" : "Kiln",
+        "ja" : "\u7AAF"
+      }
+    },
+    {
+      "key" : "KilnExtinguished",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__KilnExtinguished__CardImage",
+      "name"     : {
+        "zh" : "\u7A91\u7089",
+        "en" : "Kiln",
+        "ja" : "\u7AAF"
+      }
+    },
+    {
+      "key" : "NOT_USED_HearthAwakenedExtinguished",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "\u5524\u9192\u7684\u706B\u7089",
+        "en" : "Awakened Hearth",
+        "ja" : "\u706B\u3092\u3064\u3051\u306A\u304A\u3057\u305F\u7089\u8FBA"
+      }
+    },
+    {
+      "key" : "NOT_USED_HearthExtinguished",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "\u706B\u7089",
+        "en" : "Hearth",
+        "ja" : "\u7089\u8FBA"
+      }
+    },
+    {
+      "key" : "Oven",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__Bp_Kiln__CardImage",
+      "name"     : {
+        "zh" : "\u70E4\u7BB1",
+        "en" : "Oven",
+        "ja" : "\u30AA\u30FC\u30D6\u30F3"
+      }
+    },
+    {
+      "key" : "OvenExtinguished",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__KilnExtinguished__CardImage",
+      "name"     : {
+        "zh" : "\u70E4\u7BB1",
+        "en" : "Oven",
+        "ja" : "\u30AA\u30FC\u30D6\u30F3"
+      }
+    },
+    {
+      "key" : "ClayPotCoolerOff",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "Clay Pot Cooler",
+        "en" : "Clay Pot Cooler",
+        "ja" : "Clay Pot Cooler"
+      }
+    },
+    {
+      "key" : "ClayPotCoolerOn",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "Clay Pot Cooler",
+        "en" : "Clay Pot Cooler",
+        "ja" : "Clay Pot Cooler"
+      }
+    },
+    {
+      "key" : "AlembicOff",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "Alembic",
+        "en" : "Alembic",
+        "ja" : "Alembic"
+      }
+    },
+    {
+      "key" : "AlembicOn",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "Alembic",
+        "en" : "Alembic",
+        "ja" : "Alembic"
+      }
+    },
+    {
+      "key" : "NOT_USED_FishTrapDeployed",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "Fish Trap",
+        "en" : "Fish Trap",
+        "ja" : "Fish Trap"
+      }
+    },
+    {
+      "key" : "SolarStill",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "Solar Still",
+        "en" : "Solar Still",
+        "ja" : "Solar Still"
+      }
+    },
+    {
+      "key" : "WaterFilter",
+      "type" : "CardData",
+      "CardType" : 2,
+      "name"     : {
+        "zh" : "Water Filter",
+        "en" : "Water Filter",
+        "ja" : "Water Filter"
+      }
+    }
+  ],
+  "_uuid"                           : "b660074d4d913254ba3e95c28f7a8519"
+}

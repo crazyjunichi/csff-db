@@ -1,1 +1,946 @@
-{"GameName":{"zh":"\u6D82\u62B9\u4E86\u6CE5\u5DF4","en":"Mud Applied","ja":"\u6CE5\u3092\u5857\u3063\u305F"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":50.0},"BaseRatePerTick":-1.0,"StatPriority":0,"Visibility":0,"BarColor":{"r":0.4245,"g":0.0706,"b":0.0741,"a":1.0},"BarHighlightColor":{"r":0.7642,"g":0.3179,"b":0.1478,"a":1.0},"DefaultStatusIcon":{"FileName":"b3e9523180795fd1"},"Statuses":[{"GameName":{"zh":"\u6D82\u62B9\u4E86\u6CE5\u5DF4","en":"Mud Applied","ja":"\u6CE5\u3092\u5857\u3063\u305F"},"Icon":{"FileName":"b3e9523180795fd1"},"ValueRange":{"m_X":1,"m_Y":50},"EffectsOnStats":[{"Stat":{"key":"Profile","type":"GameStat","icon":"94edac44ebf01321","min":0.0,"max":150.0,"name":{"zh":"\u8F6E\u5ED3","en":"Profile","ja":"\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB"}},"ValueModifier":{"x":5.0,"y":5.0}},{"Stat":{"key":"Mosquitoes","type":"GameStat","icon":"afe6a725a93de94f","min":0.0,"max":6.0,"name":{"zh":"\u868A\u5B50","en":"Mosquitoes","ja":"\u868A"}},"ValueModifier":{"x":-0.5,"y":-0.5}}],"NotifyPlayer":0,"RepeatTextNotification":0,"AlertLevel":2,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"ShowActionEffects":true,"FeedbackInfo":{"StepValue":10.0},"type":"GameStat","key":"MudApplied","icon":"b3e9523180795fd1","name":{"zh":"\u6D82\u62B9\u4E86\u6CE5\u5DF4","en":"Mud Applied","ja":"\u6CE5\u3092\u5857\u3063\u305F"},"min":0.0,"max":50.0,"_modifierValues":[{"source":{"key":"River_ClearingPine_NorthernLakeBank","type":"CardData","CardType":8,"icon":"4e7f0554d1a39b86","name":{"zh":"\u5317\u90E8\u6E56\u5CB8","en":"Northern Lake Bank","ja":"\u5317\u306E\u6E56\u7554"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5411\u4E1C\u6E38\u6CF3","en":"Action: Swim East","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6771\u3078\u6CF3\u3050"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"River_GrovePine_LakeIsland","type":"CardData","CardType":8,"icon":"32df7c1e167718bc","name":{"zh":"\u6E56\u5FC3\u5C9B","en":"Lake Island","ja":"\u6E56\u5CF6"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5411\u897F\u6E38\u6CF3","en":"Action: Swim West","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u897F\u3078\u6CF3\u3050"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"River_ThicketPine_SouthernRapids","type":"CardData","CardType":8,"icon":"38074b23642f42b5","name":{"zh":"\u5357\u90E8\u6E4D\u6D41","en":"Southern Rapids","ja":"\u5357\u306E\u6025\u6D41"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6F5C\u6C34","en":"Action: Dive","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98DB\u3073\u8FBC\u3080"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"Path_GreenfallsFromWaterfallCave","type":"CardData","CardType":2,"icon":"b249c88e0e79701e","name":{"zh":"\u51FA\u53E3","en":"Exit","ja":"\u51FA\u53E3"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u6FA1","en":"Action: Take a Shower","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30B7\u30E3\u30EF\u30FC\u3092\u6D74\u3073\u308B"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"Path_WaterfallCavesFromGreenFallsHidden","type":"CardData","CardType":2,"icon":"b249c88e0e79701e","name":{"zh":"\u7011\u5E03","en":"Waterfall","ja":"\u6EDD"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u6FA1","en":"Action: Take a Shower","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30B7\u30E3\u30EF\u30FC\u3092\u6D74\u3073\u308B"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"Path_WaterfallCavesFromGreenFallVisible","type":"CardData","CardType":2,"icon":"b249c88e0e79701e","name":{"zh":"\u7011\u5E03","en":"Waterfall","ja":"\u6EDD"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u6FA1","en":"Action: Take a Shower","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30B7\u30E3\u30EF\u30FC\u3092\u6D74\u3073\u308B"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"MudPile","type":"CardData","CardType":0,"icon":"3ec2f66c6f52cb66","name":{"zh":"\u6CE5\u5806","en":"Mud Pile","ja":"\u6CE5\u306E\u5C71"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D82\u5230\u8EAB\u4E0A","en":"Action: Apply to Body","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u306B\u5857\u308B"},"value":{"x":50.0,"y":50.0}},{"source":{"key":"Soap","type":"CardData","CardType":0,"icon":"c740969b60b76f28","name":{"zh":"\u80A5\u7682","en":"Soap","ja":"\u77F3\u9E78"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"LQ_RenetAbsorber","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u6C34","en":"Water","ja":"\u6C34"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash Yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"LQ_RenetAbsorber","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u6C34","en":"Water","ja":"\u6C34"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash Yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-75.0,"y":-75.0}},{"source":{"key":"LQ_SacredWater","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u795E\u5723\u4E4B\u6C34","en":"Sacred Water","ja":"\u8056\u6C34"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash Yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"LQ_Water","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u6C34","en":"Water","ja":"\u6C34"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash Yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"LQ_Water","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u6C34","en":"Water","ja":"\u6C34"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash Yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-75.0,"y":-75.0}},{"source":{"key":"LQ_WaterRiver","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u6CB3\u6C34","en":"River Water","ja":"\u5DDD\u306E\u6C34"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash Yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"LQ_WaterUnsafe","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u4E0D\u5B89\u5168\u7684\u6C34","en":"Unsafe Water","ja":"\u5371\u967A\u306A\u6C34"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash Yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"HagPond","type":"CardData","CardType":2,"icon":"646c20c30c186e9b","name":{"zh":"\u8001\u5DEB\u6C60\u5858","en":"Hag Pond","ja":"Hag Pond"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E38\u6CF3","en":"Action: Swim","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASwim"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"HagPond","type":"CardData","CardType":2,"icon":"646c20c30c186e9b","name":{"zh":"\u8001\u5DEB\u6C60\u5858","en":"Hag Pond","ja":"Hag Pond"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWash yourself"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"IceHolePond","type":"CardData","CardType":2,"icon":"58ca4d6d62ab2c41","name":{"zh":"\u51B0\u6D1E","en":"Ice Hole","ja":"\u30A2\u30A4\u30B9\u30DB\u30FC\u30EB"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"IceHoleRiver","type":"CardData","CardType":2,"icon":"58ca4d6d62ab2c41","name":{"zh":"\u51B0\u6D1E","en":"Ice Hole","ja":"\u30A2\u30A4\u30B9\u30DB\u30FC\u30EB"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"Pond","type":"CardData","CardType":2,"icon":"c0db0f9df9fb63af","name":{"zh":"\u6C60\u5858","en":"Pond","ja":"\u6C60"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E38\u6CF3","en":"Action: Swim","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6CF3\u3050"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"Pond","type":"CardData","CardType":2,"icon":"c0db0f9df9fb63af","name":{"zh":"\u6C60\u5858","en":"Pond","ja":"\u6C60"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"River","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"\u6CB3\u6D41","en":"River","ja":"\u5DDD"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E38\u6CF3","en":"Action: Swim","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6CF3\u3050"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"River","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"\u6CB3\u6D41","en":"River","ja":"\u5DDD"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"RiverBog","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E38\u6CF3","en":"Action: Swim","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASwim"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"RiverBog","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWash yourself"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"RiverLake","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Lake","en":"River Lake","ja":"River Lake"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E38\u6CF3","en":"Action: Swim","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6CF3\u3050"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"RiverLake","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Lake","en":"River Lake","ja":"River Lake"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"RiverMarsh","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E38\u6CF3","en":"Action: Swim","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6CF3\u3050"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"RiverMarsh","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"RiverMire","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E38\u6CF3","en":"Action: Swim","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASwim"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"RiverMire","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWash yourself"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"RiverSwamp","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E38\u6CF3","en":"Action: Swim","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASwim"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"RiverSwamp","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"River Marsh","en":"River Marsh","ja":"River Marsh"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWash yourself"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"SpiritShrine_Bugs_MosquitoPond","type":"CardData","CardType":2,"icon":"3d2f315f746256e5","name":{"zh":"\u868A\u866B\u6C60\u5858","en":"Mosquito Pond","ja":"Mosquito Pond"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6E38\u6CF3","en":"Action: Swim","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASwim"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"SpiritShrine_Bugs_MosquitoPond","type":"CardData","CardType":2,"icon":"3d2f315f746256e5","name":{"zh":"\u868A\u866B\u6C60\u5858","en":"Mosquito Pond","ja":"Mosquito Pond"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWash yourself"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"StreamQEE","type":"CardData","CardType":2,"icon":"63ff89fdd76a3bc3","name":{"zh":"\u6EAA\u6D41","en":"Stream","ja":"\u5C0F\u5DDD"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"Shower","type":"CardData","CardType":2,"name":{"zh":"Shower","en":"Shower","ja":"Shower"}},"description":{"zh":"\u52A8\u4F5C\uFF1ATake a Shower","en":"Action: Take a Shower","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATake a Shower"},"value":{"x":-50.0,"y":-50.0}},{"source":{"key":"DEBUG_LQ_MagicWater","type":"CardData","CardType":9,"icon":"8a0b2380a00ec718","name":{"zh":"\u6C34","en":"Water","ja":"\u6C34"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1","en":"Action: Wash Yourself","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"},"value":{"x":-50.0,"y":-50.0}}],"_uuid":"cadd43716eaada54facd772f39eaa090"}
+
+{
+  "GameName" : {
+    "zh" : "\u6D82\u62B9\u4E86\u6CE5\u5DF4",
+    "en" : "Mud Applied",
+    "ja" : "\u6CE5\u3092\u5857\u3063\u305F"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 50.0
+  },
+  "BaseRatePerTick" : -1.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "BarColor"        : {
+    "r" : 0.4245,
+    "g" : 0.0706,
+    "b" : 0.0741,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 0.7642,
+    "g" : 0.3179,
+    "b" : 0.1478,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon" : {
+    "FileName" : "GameStat__Bruising__DefaultStatusIcon"
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u6D82\u62B9\u4E86\u6CE5\u5DF4",
+        "en" : "Mud Applied",
+        "ja" : "\u6CE5\u3092\u5857\u3063\u305F"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__Bruising__DefaultStatusIcon"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 50
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Profile",
+            "type" : "GameStat",
+            "icon" : "CardData__LeatherTunic__AlternateNames-0-Art-CardImage",
+            "min"  : 0.0,
+            "max"  : 150.0,
+            "name" : {
+              "zh" : "\u8F6E\u5ED3",
+              "en" : "Profile",
+              "ja" : "\u30D7\u30ED\u30D5\u30A3\u30FC\u30EB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 5.0,
+            "y" : 5.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Mosquitoes",
+            "type" : "GameStat",
+            "icon" : "GameStat__BugDamage__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u868A\u5B50",
+              "en" : "Mosquitoes",
+              "ja" : "\u868A"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -0.5,
+            "y" : -0.5
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 2,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "StepValue" : 10.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "MudApplied",
+  "icon"                    : "GameStat__Bruising__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u6D82\u62B9\u4E86\u6CE5\u5DF4",
+    "en" : "Mud Applied",
+    "ja" : "\u6CE5\u3092\u5857\u3063\u305F"
+  },
+  "min"                     : 0.0,
+  "max"                     : 50.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "River_ClearingPine_NorthernLakeBank",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__Event_HuntsmanStart__CardImage",
+        "name"     : {
+          "zh" : "\u5317\u90E8\u6E56\u5CB8",
+          "en" : "Northern Lake Bank",
+          "ja" : "\u5317\u306E\u6E56\u7554"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5411\u4E1C\u6E38\u6CF3",
+        "en" : "Action: Swim East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6771\u3078\u6CF3\u3050"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_GrovePine_LakeIsland",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CharacterPerk__Pk_5_13_LakeStart__PerkIcon",
+        "name"     : {
+          "zh" : "\u6E56\u5FC3\u5C9B",
+          "en" : "Lake Island",
+          "ja" : "\u6E56\u5CF6"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5411\u897F\u6E38\u6CF3",
+        "en" : "Action: Swim West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u897F\u3078\u6CF3\u3050"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River_ThicketPine_SouthernRapids",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__River_GrovePine_NorthernRapids__CardImage",
+        "name"     : {
+          "zh" : "\u5357\u90E8\u6E4D\u6D41",
+          "en" : "Southern Rapids",
+          "ja" : "\u5357\u306E\u6025\u6D41"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6F5C\u6C34",
+        "en" : "Action: Dive",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98DB\u3073\u8FBC\u3080"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_GreenfallsFromWaterfallCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Event_WaterfallCave__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u6FA1",
+        "en" : "Action: Take a Shower",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30B7\u30E3\u30EF\u30FC\u3092\u6D74\u3073\u308B"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_WaterfallCavesFromGreenFallsHidden",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Event_WaterfallCave__CardImage",
+        "name"     : {
+          "zh" : "\u7011\u5E03",
+          "en" : "Waterfall",
+          "ja" : "\u6EDD"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u6FA1",
+        "en" : "Action: Take a Shower",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30B7\u30E3\u30EF\u30FC\u3092\u6D74\u3073\u308B"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_WaterfallCavesFromGreenFallVisible",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Event_WaterfallCave__CardImage",
+        "name"     : {
+          "zh" : "\u7011\u5E03",
+          "en" : "Waterfall",
+          "ja" : "\u6EDD"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u6FA1",
+        "en" : "Action: Take a Shower",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30B7\u30E3\u30EF\u30FC\u3092\u6D74\u3073\u308B"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudPile",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__MudPile__CardImage",
+        "name"     : {
+          "zh" : "\u6CE5\u5806",
+          "en" : "Mud Pile",
+          "ja" : "\u6CE5\u306E\u5C71"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D82\u5230\u8EAB\u4E0A",
+        "en" : "Action: Apply to Body",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u306B\u5857\u308B"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Soap",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__AcornDoughRaw__CardImage",
+        "name"     : {
+          "zh" : "\u80A5\u7682",
+          "en" : "Soap",
+          "ja" : "\u77F3\u9E78"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_RenetAbsorber",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u6C34",
+          "en" : "Water",
+          "ja" : "\u6C34"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash Yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_RenetAbsorber",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u6C34",
+          "en" : "Water",
+          "ja" : "\u6C34"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash Yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -75.0,
+        "y" : -75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_SacredWater",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u795E\u5723\u4E4B\u6C34",
+          "en" : "Sacred Water",
+          "ja" : "\u8056\u6C34"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash Yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_Water",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u6C34",
+          "en" : "Water",
+          "ja" : "\u6C34"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash Yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_Water",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u6C34",
+          "en" : "Water",
+          "ja" : "\u6C34"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash Yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -75.0,
+        "y" : -75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_WaterRiver",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u6CB3\u6C34",
+          "en" : "River Water",
+          "ja" : "\u5DDD\u306E\u6C34"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash Yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_WaterUnsafe",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u4E0D\u5B89\u5168\u7684\u6C34",
+          "en" : "Unsafe Water",
+          "ja" : "\u5371\u967A\u306A\u6C34"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash Yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HagPond",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__HagPond__CardImage",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u6C60\u5858",
+          "en" : "Hag Pond",
+          "ja" : "Hag Pond"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E38\u6CF3",
+        "en" : "Action: Swim",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASwim"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "HagPond",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__HagPond__CardImage",
+        "name"     : {
+          "zh" : "\u8001\u5DEB\u6C60\u5858",
+          "en" : "Hag Pond",
+          "ja" : "Hag Pond"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWash yourself"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "IceHolePond",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__IceHolePond__CardImage",
+        "name"     : {
+          "zh" : "\u51B0\u6D1E",
+          "en" : "Ice Hole",
+          "ja" : "\u30A2\u30A4\u30B9\u30DB\u30FC\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "IceHoleRiver",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__IceHolePond__CardImage",
+        "name"     : {
+          "zh" : "\u51B0\u6D1E",
+          "en" : "Ice Hole",
+          "ja" : "\u30A2\u30A4\u30B9\u30DB\u30FC\u30EB"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pond",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_HummingWidowSpiritCalling__CardImage",
+        "name"     : {
+          "zh" : "\u6C60\u5858",
+          "en" : "Pond",
+          "ja" : "\u6C60"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E38\u6CF3",
+        "en" : "Action: Swim",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6CF3\u3050"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pond",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_HummingWidowSpiritCalling__CardImage",
+        "name"     : {
+          "zh" : "\u6C60\u5858",
+          "en" : "Pond",
+          "ja" : "\u6C60"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "\u6CB3\u6D41",
+          "en" : "River",
+          "ja" : "\u5DDD"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E38\u6CF3",
+        "en" : "Action: Swim",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6CF3\u3050"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "River",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "\u6CB3\u6D41",
+          "en" : "River",
+          "ja" : "\u5DDD"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiverBog",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E38\u6CF3",
+        "en" : "Action: Swim",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASwim"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiverBog",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWash yourself"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiverLake",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Lake",
+          "en" : "River Lake",
+          "ja" : "River Lake"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E38\u6CF3",
+        "en" : "Action: Swim",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6CF3\u3050"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiverLake",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Lake",
+          "en" : "River Lake",
+          "ja" : "River Lake"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiverMarsh",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E38\u6CF3",
+        "en" : "Action: Swim",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6CF3\u3050"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiverMarsh",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiverMire",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E38\u6CF3",
+        "en" : "Action: Swim",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASwim"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiverMire",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWash yourself"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiverSwamp",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E38\u6CF3",
+        "en" : "Action: Swim",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASwim"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "RiverSwamp",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "River Marsh",
+          "en" : "River Marsh",
+          "ja" : "River Marsh"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWash yourself"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpiritShrine_Bugs_MosquitoPond",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_HummingWidowEnchantment__CardImage",
+        "name"     : {
+          "zh" : "\u868A\u866B\u6C60\u5858",
+          "en" : "Mosquito Pond",
+          "ja" : "Mosquito Pond"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6E38\u6CF3",
+        "en" : "Action: Swim",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASwim"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpiritShrine_Bugs_MosquitoPond",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_HummingWidowEnchantment__CardImage",
+        "name"     : {
+          "zh" : "\u868A\u866B\u6C60\u5858",
+          "en" : "Mosquito Pond",
+          "ja" : "Mosquito Pond"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWash yourself"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "StreamQEE",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__NOT_USED_Event_FloodDamageFloodWaters__CardImage",
+        "name"     : {
+          "zh" : "\u6EAA\u6D41",
+          "en" : "Stream",
+          "ja" : "\u5C0F\u5DDD"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Shower",
+        "type" : "CardData",
+        "CardType" : 2,
+        "name"     : {
+          "zh" : "Shower",
+          "en" : "Shower",
+          "ja" : "Shower"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATake a Shower",
+        "en" : "Action: Take a Shower",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATake a Shower"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "DEBUG_LQ_MagicWater",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u6C34",
+          "en" : "Water",
+          "ja" : "\u6C34"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u6D17\u4E2A\u6FA1",
+        "en" : "Action: Wash Yourself",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u4F53\u3092\u6D17\u3046"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    }
+  ],
+  "_uuid"                   : "cadd43716eaada54facd772f39eaa090"
+}

@@ -1,1 +1,67 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"Bp_Basket","type":"CardData","CardType":7,"icon":"f19c8051c83dca72","name":{"zh":"\u7F16\u7EC7\u7BD3","en":"Basket","ja":"\u30AB\u30B4"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":1,"OwnershipPriority":0,"DutyPriority":2,"Containers":{"CanLookInContainers":true},"DebugItemSelection":true},"AffectType":4,"SimpleAffectDuration":0,"BpIngredientsSelection":{"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":0,"Containers":{"CanLookInContainers":true,"NOTAllowedContainers":[{"Target":{"key":"Bp_Basket","type":"CardData","CardType":7,"icon":"f19c8051c83dca72","name":{"zh":"\u7F16\u7EC7\u7BD3","en":"Basket","ja":"\u30AB\u30B4"}}}]},"DebugItemSelection":true},"key":"Work on Bp_Basket (CardData)","type":"NPCDutyAction","name":{"zh":"Work on Bp_Basket (CardData)","en":"Work on Bp_Basket (CardData)","ja":"Work on Bp_Basket (CardData)"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Bp_Basket",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Basket__CardImage",
+            "name"     : {
+              "zh" : "\u7F16\u7EC7\u7BD3",
+              "en" : "Basket",
+              "ja" : "\u30AB\u30B4"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Bp_Basket",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Basket__CardImage",
+            "name"     : {
+              "zh" : "\u7F16\u7EC7\u7BD3",
+              "en" : "Basket",
+              "ja" : "\u30AB\u30B4"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Bp_Basket (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "Work on Bp_Basket (CardData)",
+    "en" : "Work on Bp_Basket (CardData)",
+    "ja" : "Work on Bp_Basket (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

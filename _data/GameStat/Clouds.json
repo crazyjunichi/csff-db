@@ -1,1 +1,985 @@
-{"GameName":{"zh":"\u591A\u4E91","en":"Clouds","ja":"\u96F2"},"BaseValue":350.0,"MinMaxValue":{"x":0.0,"y":768.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":0,"DefaultStatusIcon":{"FileName":"de4eda51f409f779"},"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"Clouds","icon":"de4eda51f409f779","name":{"zh":"\u591A\u4E91","en":"Clouds","ja":"\u96F2"},"min":0.0,"max":768.0,"_modifierValues":[{"source":{"key":"Weather_0_Clear","type":"CardData","CardType":5,"icon":"9e16f6c08639ca27","name":{"zh":"\u6674\u6717","en":"Clear","ja":"\u30AF\u30EA\u30A2"}},"description":{"zh":"\u72B6\u6001\u89E6\u53D1","en":"Stats Change","ja":"\u72B6\u614B\u5909\u5316"},"value":{"x":-76.0,"y":0.0}},{"source":{"key":"Weather_0_Cloudy","type":"CardData","CardType":5,"icon":"c2c13ee415a73110","name":{"zh":"\u591A\u4E91","en":"Cloudy","ja":"\u66C7\u308A"}},"description":{"zh":"\u72B6\u6001\u89E6\u53D1","en":"Stats Change","ja":"\u72B6\u614B\u5909\u5316"},"value":{"x":-76.0,"y":0.0}},{"source":{"key":"Weather_4_HeavyRain","type":"CardData","CardType":5,"icon":"760a3f36f557ac73","name":{"zh":"\u5927\u96E8","en":"Heavy Rain","ja":"\u6FC0\u3057\u3044\u96E8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":0.0,"y":5.0}},{"source":{"key":"Pk_5_18_Everrain","type":"CharacterPerk","icon":"de4eda51f409f779","name":{"zh":"\u6C38\u96E8","en":"Everrain","ja":"\u30A8\u30D0\u30FC\u30EC\u30A4\u30F3"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":432.0,"y":432.0}},{"source":{"key":"Pk_5_20_Wetlands","type":"CharacterPerk","icon":"de4eda51f409f779","name":{"zh":"\u6F6E\u6E7F\u5730\u5E26","en":"Wetlands","ja":"\u6E7F\u5730"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":200.0,"y":200.0}}],"_modifierRates":[{"source":{"key":"Weather_1_Drizzle","type":"CardData","CardType":5,"icon":"760a3f36f557ac73","name":{"zh":"\u6BDB\u6BDB\u96E8","en":"Drizzle","ja":"\u5C0F\u96E8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":-1.0,"y":-1.0}},{"source":{"key":"Weather_2_LightRain","type":"CardData","CardType":5,"icon":"760a3f36f557ac73","name":{"zh":"\u5C0F\u96E8","en":"Light Rain","ja":"\u5F31\u96E8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":-2.0,"y":-2.0}},{"source":{"key":"Weather_2_LightSnow","type":"CardData","CardType":5,"icon":"760a3f36f557ac73","name":{"zh":"\u5C0F\u96EA","en":"Light Snow","ja":"\u8EFD\u3044\u96EA"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":-2.0,"y":-2.0}},{"source":{"key":"Weather_3_ModerateRain","type":"CardData","CardType":5,"icon":"760a3f36f557ac73","name":{"zh":"\u548C\u98CE\u7EC6\u96E8","en":"Moderate Rain","ja":"\u96E8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":-6.0,"y":-6.0}},{"source":{"key":"Weather_3_ModerateSnow","type":"CardData","CardType":5,"icon":"760a3f36f557ac73","name":{"zh":"\u4E2D\u96EA","en":"Moderate Snow","ja":"\u96EA"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":-6.0,"y":-6.0}},{"source":{"key":"Weather_4_HeavyRain","type":"CardData","CardType":5,"icon":"760a3f36f557ac73","name":{"zh":"\u5927\u96E8","en":"Heavy Rain","ja":"\u6FC0\u3057\u3044\u96E8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":-16.0,"y":-16.0}},{"source":{"key":"Weather_4_HeavySnow","type":"CardData","CardType":5,"icon":"760a3f36f557ac73","name":{"zh":"\u5927\u96EA","en":"Heavy Snow","ja":"\u6FC0\u3057\u3044\u96EA"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":-16.0,"y":-16.0}},{"source":{"key":"Weather_5_Blizzard","type":"CardData","CardType":5,"icon":"5d0474cab9356782","name":{"zh":"\u66B4\u98CE\u96EA","en":"Blizzard","ja":"\u5439\u96EA"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":-38.0,"y":-38.0}},{"source":{"key":"Weather_5_TorrentialRain","type":"CardData","CardType":5,"icon":"5d0474cab9356782","name":{"zh":"\u503E\u76C6\u5927\u96E8","en":"Torrential Rain","ja":"\u8C6A\u96E8"}},"description":{"zh":"\u88AB\u52A8\u6548\u679C","en":"Passive Effect","ja":"\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"},"value":{"x":-38.0,"y":-38.0}},{"source":{"key":"Humidity","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":384.0,"name":{"zh":"\u6E7F\u5EA6","en":"Humidity","ja":"\u6E7F\u5EA6"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6B63\u5E38","en":"Status Stage: Normal","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A"},"value":{"x":0.64,"y":0.64}},{"source":{"key":"Humidity","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":384.0,"name":{"zh":"\u6E7F\u5EA6","en":"Humidity","ja":"\u6E7F\u5EA6"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6F6E\u6E7F","en":"Status Stage: Humid","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u84B8\u3057\u6691\u3044"},"value":{"x":1.28,"y":1.28}},{"source":{"key":"Humidity","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":384.0,"name":{"zh":"\u6E7F\u5EA6","en":"Humidity","ja":"\u6E7F\u5EA6"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u975E\u5E38\u6F6E\u6E7F","en":"Status Stage: Very Humid","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u84B8\u3057\u6691\u3044"},"value":{"x":2.56,"y":2.56}},{"source":{"key":"WindEast","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u4E1C\u98CE","en":"East Wind","ja":"\u6771\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u4E1C\u98CE","en":"Status Stage: Weak East","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u6771\u98A8"},"value":{"x":-0.04,"y":-0.04}},{"source":{"key":"WindEast","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u4E1C\u98CE","en":"East Wind","ja":"\u6771\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u4E1C\u98CE","en":"Status Stage: Moderate East","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6771\u98A8"},"value":{"x":-0.08,"y":-0.08}},{"source":{"key":"WindEast","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u4E1C\u98CE","en":"East Wind","ja":"\u6771\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u4E1C\u98CE","en":"Status Stage: Strong East","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u6771\u98A8"},"value":{"x":-0.12,"y":-0.12}},{"source":{"key":"WindNorth","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u5317\u98CE","en":"North Wind","ja":"\u5317\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u5317\u98CE","en":"Status Stage: Weak North","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u5317\u98A8"},"value":{"x":-0.04,"y":-0.04}},{"source":{"key":"WindNorth","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u5317\u98CE","en":"North Wind","ja":"\u5317\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u5317\u98CE","en":"Status Stage: Moderate North","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5317\u98A8"},"value":{"x":-0.08,"y":-0.08}},{"source":{"key":"WindNorth","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u5317\u98CE","en":"North Wind","ja":"\u5317\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u5317\u98CE","en":"Status Stage: Strong North","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u5317\u98A8"},"value":{"x":-0.12,"y":-0.12}},{"source":{"key":"WindSouth","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u5357\u98CE","en":"South Wind","ja":"\u5357\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u5357\u98CE","en":"Status Stage: Weak South","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u5357\u98A8"},"value":{"x":0.08,"y":0.08}},{"source":{"key":"WindSouth","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u5357\u98CE","en":"South Wind","ja":"\u5357\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u5357\u98CE","en":"Status Stage: Strong South","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u5357\u98A8"},"value":{"x":-0.08,"y":-0.08}},{"source":{"key":"WindWest","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u897F\u98CE","en":"West Wind","ja":"\u897F\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u897F\u98CE","en":"Status Stage: Weak West","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u897F\u98A8"},"value":{"x":0.04,"y":0.04}},{"source":{"key":"WindWest","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u897F\u98CE","en":"West Wind","ja":"\u897F\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u897F\u98CE","en":"Status Stage: Moderate West","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u897F\u98A8"},"value":{"x":-0.04,"y":-0.04}},{"source":{"key":"WindWest","type":"GameStat","min":0.0,"max":400.0,"name":{"zh":"\u897F\u98CE","en":"West Wind","ja":"\u897F\u98A8"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u4E1C\u98CE","en":"Status Stage: Strong West","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u897F\u98A8"},"value":{"x":-0.12,"y":-0.12}},{"source":{"key":"WinterStormPackage","type":"GameStat","min":0.0,"max":97.0,"name":{"zh":"\u51AC\u5B63\u98CE\u66B4\u7EC4\u5408","en":"WinterStormPackage","ja":"WinterStormPackage"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6FC0\u6D3B","en":"Status Stage: Active","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30A2\u30AF\u30C6\u30A3\u30D6"},"value":{"x":10000000.0,"y":10000000.0}},{"source":{"key":"Pk_5_18_Everrain","type":"CharacterPerk","icon":"de4eda51f409f779","name":{"zh":"\u6C38\u96E8","en":"Everrain","ja":"\u30A8\u30D0\u30FC\u30EC\u30A4\u30F3"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":2.0,"y":2.0}},{"source":{"key":"Pk_5_19_Everdry","type":"CharacterPerk","icon":"e6b0fd300c6e188a","name":{"zh":"\u6C38\u65F1","en":"Everdry","ja":"\u30A8\u30D0\u30FC\u30C9\u30E9\u30A4"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":-10000.0,"y":-10000.0}},{"source":{"key":"Pk_5_20_Wetlands","type":"CharacterPerk","icon":"de4eda51f409f779","name":{"zh":"\u6F6E\u6E7F\u5730\u5E26","en":"Wetlands","ja":"\u6E7F\u5730"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":0.75,"y":0.75}},{"source":{"key":"Pk_5_21_Drylands","type":"CharacterPerk","icon":"e6b0fd300c6e188a","name":{"zh":"\u5E72\u71E5\u5730\u5E26","en":"Drylands","ja":"\u4E7E\u71E5\u5730"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":-0.5,"y":-0.5}}],"_requires":[{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":0.0,"y":745.0}},{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":0.0,"y":745.0}},{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":384.0,"y":745.0}},{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":432.0,"y":745.0}},{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":432.0,"y":745.0}},{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":480.0,"y":745.0}},{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":480.0,"y":745.0}},{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":529.0,"y":745.0}},{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":529.0,"y":745.0}},{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":577.0,"y":768.0}},{"source":{"key":"Tgr_Rainmaker","type":"SelfTriggeredAction","name":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"}},"description":{"zh":"Tgr_Rainmaker","en":"Tgr_Rainmaker","ja":"Tgr_Rainmaker"},"value":{"x":577.0,"y":768.0}}],"_uuid":"ab93837086c9d25469daee60e0f9d90e"}
+
+{
+  "GameName" : {
+    "zh" : "\u591A\u4E91",
+    "en" : "Clouds",
+    "ja" : "\u96F2"
+  },
+  "BaseValue" : 350.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 768.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 0,
+  "DefaultStatusIcon" : {
+    "FileName" : "GameStat__Clouds__DefaultStatusIcon"
+  },
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Clouds",
+  "icon"                    : "GameStat__Clouds__DefaultStatusIcon",
+  "name"                    : {
+    "zh" : "\u591A\u4E91",
+    "en" : "Clouds",
+    "ja" : "\u96F2"
+  },
+  "min"                     : 0.0,
+  "max"                     : 768.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Weather_0_Clear",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_0_Clear__CardImage",
+        "name"     : {
+          "zh" : "\u6674\u6717",
+          "en" : "Clear",
+          "ja" : "\u30AF\u30EA\u30A2"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u89E6\u53D1",
+        "en" : "Stats Change",
+        "ja" : "\u72B6\u614B\u5909\u5316"
+      },
+      "value"       : {
+        "x" : -76.0,
+        "y" : 0.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weather_0_Cloudy",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_0_Cloudy__CardImage",
+        "name"     : {
+          "zh" : "\u591A\u4E91",
+          "en" : "Cloudy",
+          "ja" : "\u66C7\u308A"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u89E6\u53D1",
+        "en" : "Stats Change",
+        "ja" : "\u72B6\u614B\u5909\u5316"
+      },
+      "value"       : {
+        "x" : -76.0,
+        "y" : 0.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weather_4_HeavyRain",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_1_Drizzle__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u96E8",
+          "en" : "Heavy Rain",
+          "ja" : "\u6FC0\u3057\u3044\u96E8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_18_Everrain",
+        "type" : "CharacterPerk",
+        "icon" : "GameStat__Clouds__DefaultStatusIcon",
+        "name" : {
+          "zh" : "\u6C38\u96E8",
+          "en" : "Everrain",
+          "ja" : "\u30A8\u30D0\u30FC\u30EC\u30A4\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 432.0,
+        "y" : 432.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_20_Wetlands",
+        "type" : "CharacterPerk",
+        "icon" : "GameStat__Clouds__DefaultStatusIcon",
+        "name" : {
+          "zh" : "\u6F6E\u6E7F\u5730\u5E26",
+          "en" : "Wetlands",
+          "ja" : "\u6E7F\u5730"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 200.0,
+        "y" : 200.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "Weather_1_Drizzle",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_1_Drizzle__CardImage",
+        "name"     : {
+          "zh" : "\u6BDB\u6BDB\u96E8",
+          "en" : "Drizzle",
+          "ja" : "\u5C0F\u96E8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weather_2_LightRain",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_1_Drizzle__CardImage",
+        "name"     : {
+          "zh" : "\u5C0F\u96E8",
+          "en" : "Light Rain",
+          "ja" : "\u5F31\u96E8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weather_2_LightSnow",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_1_Drizzle__CardImage",
+        "name"     : {
+          "zh" : "\u5C0F\u96EA",
+          "en" : "Light Snow",
+          "ja" : "\u8EFD\u3044\u96EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weather_3_ModerateRain",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_1_Drizzle__CardImage",
+        "name"     : {
+          "zh" : "\u548C\u98CE\u7EC6\u96E8",
+          "en" : "Moderate Rain",
+          "ja" : "\u96E8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -6.0,
+        "y" : -6.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weather_3_ModerateSnow",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_1_Drizzle__CardImage",
+        "name"     : {
+          "zh" : "\u4E2D\u96EA",
+          "en" : "Moderate Snow",
+          "ja" : "\u96EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -6.0,
+        "y" : -6.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weather_4_HeavyRain",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_1_Drizzle__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u96E8",
+          "en" : "Heavy Rain",
+          "ja" : "\u6FC0\u3057\u3044\u96E8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -16.0,
+        "y" : -16.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weather_4_HeavySnow",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_1_Drizzle__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u96EA",
+          "en" : "Heavy Snow",
+          "ja" : "\u6FC0\u3057\u3044\u96EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -16.0,
+        "y" : -16.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weather_5_Blizzard",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_5_Blizzard__CardImage",
+        "name"     : {
+          "zh" : "\u66B4\u98CE\u96EA",
+          "en" : "Blizzard",
+          "ja" : "\u5439\u96EA"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -38.0,
+        "y" : -38.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weather_5_TorrentialRain",
+        "type" : "CardData",
+        "CardType" : 5,
+        "icon"     : "CardData__Weather_5_Blizzard__CardImage",
+        "name"     : {
+          "zh" : "\u503E\u76C6\u5927\u96E8",
+          "en" : "Torrential Rain",
+          "ja" : "\u8C6A\u96E8"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : -38.0,
+        "y" : -38.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Humidity",
+        "type" : "GameStat",
+        "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 384.0,
+        "name" : {
+          "zh" : "\u6E7F\u5EA6",
+          "en" : "Humidity",
+          "ja" : "\u6E7F\u5EA6"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6B63\u5E38",
+        "en" : "Status Stage: Normal",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A"
+      },
+      "value"       : {
+        "x" : 0.64,
+        "y" : 0.64
+      }
+    },
+    {
+      "source" : {
+        "key" : "Humidity",
+        "type" : "GameStat",
+        "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 384.0,
+        "name" : {
+          "zh" : "\u6E7F\u5EA6",
+          "en" : "Humidity",
+          "ja" : "\u6E7F\u5EA6"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6F6E\u6E7F",
+        "en" : "Status Stage: Humid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u84B8\u3057\u6691\u3044"
+      },
+      "value"       : {
+        "x" : 1.28,
+        "y" : 1.28
+      }
+    },
+    {
+      "source" : {
+        "key" : "Humidity",
+        "type" : "GameStat",
+        "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 384.0,
+        "name" : {
+          "zh" : "\u6E7F\u5EA6",
+          "en" : "Humidity",
+          "ja" : "\u6E7F\u5EA6"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u975E\u5E38\u6F6E\u6E7F",
+        "en" : "Status Stage: Very Humid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u84B8\u3057\u6691\u3044"
+      },
+      "value"       : {
+        "x" : 2.56,
+        "y" : 2.56
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindEast",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u4E1C\u98CE",
+          "en" : "East Wind",
+          "ja" : "\u6771\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u4E1C\u98CE",
+        "en" : "Status Stage: Weak East",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u6771\u98A8"
+      },
+      "value"       : {
+        "x" : -0.04,
+        "y" : -0.04
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindEast",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u4E1C\u98CE",
+          "en" : "East Wind",
+          "ja" : "\u6771\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u4E1C\u98CE",
+        "en" : "Status Stage: Moderate East",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6771\u98A8"
+      },
+      "value"       : {
+        "x" : -0.08,
+        "y" : -0.08
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindEast",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u4E1C\u98CE",
+          "en" : "East Wind",
+          "ja" : "\u6771\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u4E1C\u98CE",
+        "en" : "Status Stage: Strong East",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u6771\u98A8"
+      },
+      "value"       : {
+        "x" : -0.12,
+        "y" : -0.12
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindNorth",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u5317\u98CE",
+          "en" : "North Wind",
+          "ja" : "\u5317\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u5317\u98CE",
+        "en" : "Status Stage: Weak North",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u5317\u98A8"
+      },
+      "value"       : {
+        "x" : -0.04,
+        "y" : -0.04
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindNorth",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u5317\u98CE",
+          "en" : "North Wind",
+          "ja" : "\u5317\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u5317\u98CE",
+        "en" : "Status Stage: Moderate North",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5317\u98A8"
+      },
+      "value"       : {
+        "x" : -0.08,
+        "y" : -0.08
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindNorth",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u5317\u98CE",
+          "en" : "North Wind",
+          "ja" : "\u5317\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u5317\u98CE",
+        "en" : "Status Stage: Strong North",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u5317\u98A8"
+      },
+      "value"       : {
+        "x" : -0.12,
+        "y" : -0.12
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindSouth",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u5357\u98CE",
+          "en" : "South Wind",
+          "ja" : "\u5357\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u5357\u98CE",
+        "en" : "Status Stage: Weak South",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u5357\u98A8"
+      },
+      "value"       : {
+        "x" : 0.08,
+        "y" : 0.08
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindSouth",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u5357\u98CE",
+          "en" : "South Wind",
+          "ja" : "\u5357\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u5357\u98CE",
+        "en" : "Status Stage: Strong South",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u5357\u98A8"
+      },
+      "value"       : {
+        "x" : -0.08,
+        "y" : -0.08
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindWest",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u897F\u98CE",
+          "en" : "West Wind",
+          "ja" : "\u897F\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u897F\u98CE",
+        "en" : "Status Stage: Weak West",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F31\u3044\u897F\u98A8"
+      },
+      "value"       : {
+        "x" : 0.04,
+        "y" : 0.04
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindWest",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u897F\u98CE",
+          "en" : "West Wind",
+          "ja" : "\u897F\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u897F\u98CE",
+        "en" : "Status Stage: Moderate West",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u897F\u98A8"
+      },
+      "value"       : {
+        "x" : -0.04,
+        "y" : -0.04
+      }
+    },
+    {
+      "source" : {
+        "key" : "WindWest",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 400.0,
+        "name" : {
+          "zh" : "\u897F\u98CE",
+          "en" : "West Wind",
+          "ja" : "\u897F\u98A8"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u4E1C\u98CE",
+        "en" : "Status Stage: Strong West",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u897F\u98A8"
+      },
+      "value"       : {
+        "x" : -0.12,
+        "y" : -0.12
+      }
+    },
+    {
+      "source" : {
+        "key" : "WinterStormPackage",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 97.0,
+        "name" : {
+          "zh" : "\u51AC\u5B63\u98CE\u66B4\u7EC4\u5408",
+          "en" : "WinterStormPackage",
+          "ja" : "WinterStormPackage"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6FC0\u6D3B",
+        "en" : "Status Stage: Active",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30A2\u30AF\u30C6\u30A3\u30D6"
+      },
+      "value"       : {
+        "x" : 10000000.0,
+        "y" : 10000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_18_Everrain",
+        "type" : "CharacterPerk",
+        "icon" : "GameStat__Clouds__DefaultStatusIcon",
+        "name" : {
+          "zh" : "\u6C38\u96E8",
+          "en" : "Everrain",
+          "ja" : "\u30A8\u30D0\u30FC\u30EC\u30A4\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_19_Everdry",
+        "type" : "CharacterPerk",
+        "icon" : "CharacterPerk__Pk_5_19_Everdry__PerkIcon",
+        "name" : {
+          "zh" : "\u6C38\u65F1",
+          "en" : "Everdry",
+          "ja" : "\u30A8\u30D0\u30FC\u30C9\u30E9\u30A4"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -10000.0,
+        "y" : -10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_20_Wetlands",
+        "type" : "CharacterPerk",
+        "icon" : "GameStat__Clouds__DefaultStatusIcon",
+        "name" : {
+          "zh" : "\u6F6E\u6E7F\u5730\u5E26",
+          "en" : "Wetlands",
+          "ja" : "\u6E7F\u5730"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 0.75,
+        "y" : 0.75
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_21_Drylands",
+        "type" : "CharacterPerk",
+        "icon" : "CharacterPerk__Pk_5_19_Everdry__PerkIcon",
+        "name" : {
+          "zh" : "\u5E72\u71E5\u5730\u5E26",
+          "en" : "Drylands",
+          "ja" : "\u4E7E\u71E5\u5730"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -0.5,
+        "y" : -0.5
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 745.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 745.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 384.0,
+        "y" : 745.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 432.0,
+        "y" : 745.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 432.0,
+        "y" : 745.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 480.0,
+        "y" : 745.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 480.0,
+        "y" : 745.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 529.0,
+        "y" : 745.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 529.0,
+        "y" : 745.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 577.0,
+        "y" : 768.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 577.0,
+        "y" : 768.0
+      }
+    }
+  ],
+  "_uuid"                   : "ab93837086c9d25469daee60e0f9d90e"
+}

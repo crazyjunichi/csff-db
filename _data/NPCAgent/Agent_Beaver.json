@@ -1,1 +1,2511 @@
-{"AgentName":{"zh":"\u6CB3\u72F8","en":"Beaver","ja":"Beaver"},"AgentImage":{"FileName":"72d2d639f1ebd7a0"},"WeightCategory":{"key":"Light","type":"AgentWeightCategory","name":{"zh":"\u8F7B\u7684","en":"Light","ja":"\u8EFD\u3044"}},"AgentTags":[{"key":"AgentTag_WolfLonePrey","type":"NPCTag","name":{"zh":"\u72EC\u72FC\u730E\u7269","en":"AgentTag_WolfLonePrey","ja":"AgentTag_WolfLonePrey"}},{"key":"AgentTag_PartnerHuntTarget","type":"NPCTag","name":{"zh":"\u4F34\u4FA3\u730E\u7269","en":"AgentTag_PartnerHuntTarget","ja":"AgentTag_PartnerHuntTarget"}}],"Interactions":[{"ButtonName":{"zh":"\u63A5\u8FD1","en":"Approach","ja":"Approach"},"ButtonType":1,"Dialog":{"key":"Dialogue_AgentBadger1","type":"DialogScene","name":{"zh":"\u737E","en":"Badger","ja":"\u30A2\u30CA\u30B0\u30DE"},"firstLine":{"zh":"\u4F60\u63A5\u8FD1\u737E","en":"You approach the Badger","ja":"\u30A2\u30CA\u30B0\u30DE\u306B\u8FD1\u3065\u304F"}},"DroppedEncounter":{"key":"Combat_EncounterBeaver","type":"Encounter","icon":"72d2d639f1ebd7a0","name":{"zh":"\u6CB3\u72F8","en":"Beaver","ja":"Beaver"}}}],"DefaultTracks":{"TrackLifetime":{"m_X":32,"m_Y":32},"OverrideDefaultTracksCard":{"key":"DefaultTracksCard","type":"CardData","CardType":2,"icon":"259e64c61d5d1036","name":{"zh":"\u6709\u8E2A\u8FF9\uFF01","en":"Tracks!","ja":"\u8DB3\u8DE1\uFF01"}},"TracksDirection":0,"OverrideTrackDurabilities":0,"NPCStatsToTrackDurabilities":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"OutputDurability":32,"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]},"AmbientSoundRealRange":0.0,"AmbientSoundNodesRange":1,"AmbientSounds":[{"DontPlayWhenInCombat":true,"AddedRealRange":0.0,"AddedNodesRange":0,"InternalName":"Beaver"}],"AgentStats":[{"ModelStat":{"GameName":{"zh":"\u9057\u5F03\u6D1E\u7A74","en":"Agent Has Home","ja":"Agent Has Home"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentBurrowAbandoned","zh":"\u9057\u5F03\u6D1E\u7A74","en":"AgentBurrowAbandoned","ja":"AgentBurrowAbandoned"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":1.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":0.0,"FloatValue":-10.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6709\u6D1E\u7A74","en":"Agent Has Home","ja":"Agent Has Home"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentHasHome","zh":"\u6709\u6D1E\u7A74","en":"AgentHasHome","ja":"AgentHasHome"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":1.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":0.0,"FloatValue":-10.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. ","ja":"Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":2880.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRespawnCounter","zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"},"OverrideStartingValue":{"FloatValue":336.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":2880.0,"FloatValue":0.0},"OverrideMinMaxRate":{"MaxValue":0.0,"FloatValue":-10.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u5B58\u5728","en":"1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. ","ja":"1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentExists","zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":-3520.0},"OverrideRate":{"FloatValue":1.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8840\u91CF","en":"Agent Stamina","ja":"Agent Stamina"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentBlood","zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.17,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9971\u98DF","en":"Agent Satiation","ja":"Agent Satiation"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentSatiation","zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":-1.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6E05\u9192","en":"Agent Satiation","ja":"Agent Satiation"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentWakefulness","zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"},"OverrideStartingValue":{"FloatValue":100.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":-1.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6597\u5FD7","en":"Agent Morale","ja":"Agent Morale"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentMorale","zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"},"OverrideStartingValue":{"FloatValue":200.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":200.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":10.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8010\u529B","en":"Agent Stamina","ja":"Agent Stamina"},"DefaultStartingValue":100.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentStamina","zh":"\u8010\u529B","en":"AgentStamina","ja":"AgentStamina"},"OverrideStartingValue":{"FloatValue":70.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":70.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u6BD2\u6297","en":"Agent Special1","ja":"Agent Special1"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentPoisonResistance","zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"},"OverrideStartingValue":{"FloatValue":24.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":24.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.4,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9677\u9631\u7C7B\u578B","en":"Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40","ja":"Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapType","zh":"\u9677\u9631\u7C7B\u578B","en":"AgentTrapType","ja":"AgentTrapType"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":100.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":100.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunning","zh":"\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunning","ja":"AgentTrapCunning"},"OverrideStartingValue":{"FloatValue":15.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":15.0,"FloatValue":15.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u5957\u7D22\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningSnare","zh":"\u5957\u7D22\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunningSnare","ja":"AgentTrapCunningSnare"},"OverrideStartingValue":{"FloatValue":10000.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":10000.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u9677\u5751\u6280\u5DE7","en":"Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningPitTrap","zh":"\u9677\u5751\u6280\u5DE7","en":"AgentTrapCunningPitTrap","ja":"AgentTrapCunningPitTrap"},"OverrideStartingValue":{"FloatValue":10000.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":10000.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u539F\u6728\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningLogTrap","zh":"\u539F\u6728\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunningLogTrap","ja":"AgentTrapCunningLogTrap"},"OverrideStartingValue":{"FloatValue":0.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":0.0,"FloatValue":0.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u843D\u77F3\u9677\u9631\u6280\u5DE7","en":"Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. ","ja":"Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. "},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":-10000.0,"y":10000.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrapCunningDeadfall","zh":"\u843D\u77F3\u9677\u9631\u6280\u5DE7","en":"AgentTrapCunningDeadfall","ja":"AgentTrapCunningDeadfall"},"OverrideStartingValue":{"FloatValue":10000.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":10000.0,"FloatValue":10000.0,"Active":true},"OverrideRate":{"FloatValue":0.0,"Active":true},"OverrideMinMaxRate":{"MaxValue":10.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0}],"AgentActions":[{"ActionID":"teleport to clay banks","ActionLocalizedName":{"zh":"HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1","en":"HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1","ja":"HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1"},"RepeatOptions":0,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"HOTFIX_REDUNDANT_13032026_patch","type":"GameStat","min":0.0,"max":3.0,"name":{"zh":"\u70ED\u4FEE\u590D_13032026","en":"HOTFIX_REDUNDANT_13032026_patch","ja":"HOTFIX_REDUNDANT_13032026_patch"}},"TriggerRange":{"x":0.0,"y":2.0}}]},"MoveToEnvironment":{"key":"Env_River_GroveAlder_DuckPoint_","type":"CardData","CardType":4,"name":{"zh":"\u91CE\u9E2D\u5CAC\u89D2","en":"Duck Point","ja":"Duck Point"}},"MoveTiming":1},{"ActionID":"If Agent Exist is 0 Go to Spirit World","ActionLocalizedName":{"zh":"If Agent Exist is 0 Go to Spirit World","en":"If Agent Exist is 0 Go to Spirit World","ja":"If Agent Exist is 0 Go to Spirit World"},"RepeatOptions":1,"CannotPerformWhileDoingOtherAction":true,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}}},{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"ConditionRange":{"x":100.0,"y":2880.0}}]},"StatModifications":[{"Stat":{"key":"Agent_BeaverExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6CB3\u72F8\u5B58\u5728","en":"Beaver Exists","ja":"Beaver Exists"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"Spawn into the World_1","ActionLocalizedName":{"zh":"Spawn into the World_1","en":"Spawn into the World_1","ja":"Spawn into the World_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}}},{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}}}]},"StatModifications":[{"Stat":{"key":"Agent_BeaverExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6CB3\u72F8\u5B58\u5728","en":"Beaver Exists","ja":"Beaver Exists"}},"ValueModifier":{"x":1.0,"y":1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentHasHome","type":"NPCStat","name":{"zh":"\u6709\u6D1E\u7A74","en":"AgentHasHome","ja":"AgentHasHome"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentBurrowAbandoned","type":"NPCStat","name":{"zh":"\u9057\u5F03\u6D1E\u7A74","en":"AgentBurrowAbandoned","ja":"AgentBurrowAbandoned"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":1.0,"y":1.0}},{"TargetStat":{"key":"AgentHydration","type":"NPCStat","name":{"zh":"\u996E\u6C34","en":"AgentHydration","ja":"AgentHydration"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}},{"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}},{"TargetStat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"ValueChange":{"x":100.0,"y":100.0}},{"TargetStat":{"key":"AgentTrapType","type":"NPCStat","name":{"zh":"\u9677\u9631\u7C7B\u578B","en":"AgentTrapType","ja":"AgentTrapType"}},"UseAssociatedAgent":true,"ValueChange":{"x":-100.0,"y":-100.0}}],"MoveToEnvironment":{"key":"Env_River_GroveAlder_DuckPoint_","type":"CardData","CardType":4,"name":{"zh":"\u91CE\u9E2D\u5CAC\u89D2","en":"Duck Point","ja":"Duck Point"}},"MoveTiming":0,"SetNPCHome":[{"TargetAgent":{"key":"Agent_Beaver","type":"NPCAgent","icon":"72d2d639f1ebd7a0","name":{"zh":"\u6CB3\u72F8","en":"Beaver","ja":"Beaver"}},"SetHome":3}]},{"ActionID":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World","ActionLocalizedName":{"zh":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World","en":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World","ja":"If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Agent_BeaverExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6CB3\u72F8\u5B58\u5728","en":"Beaver Exists","ja":"Beaver Exists"}}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass_1","ActionLocalizedName":{"zh":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","en":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","ja":"If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world"},"RepeatOptions":1,"CannotPerformWhileInCombat":true,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"ConditionRange":{"x":0.0,"y":6.0}},{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"StatModifications":[{"Stat":{"key":"Pop_Beaver","type":"GameStat","min":0.0,"max":10000.0,"name":{"zh":"\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF","en":"Population Beaver","ja":"Population Beaver"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}},{"Stat":{"key":"Agent_BeaverExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6CB3\u72F8\u5B58\u5728","en":"Beaver Exists","ja":"Beaver Exists"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"DroppedCards":[{"CollectionName":"1","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Carcass_BeaverCarcass","type":"CardData","CardType":0,"icon":"4f7ac800f78d2ac0","name":{"zh":"\u6CB3\u72F8\u5C38\u4F53","en":"Beaver Carcass","ja":"Beaver Carcass"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","ActionLocalizedName":{"zh":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","en":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world","ja":"If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetAgent":{"key":"Agent_Doe","type":"NPCAgent","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"TargetStat":{"key":"AgentPoisonResistance","type":"NPCStat","name":{"zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"}}}]},"StatModifications":[{"Stat":{"key":"Pop_Beaver","type":"GameStat","min":0.0,"max":10000.0,"name":{"zh":"\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF","en":"Population Beaver","ja":"Population Beaver"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}},{"Stat":{"key":"Agent_BeaverExists","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u6CB3\u72F8\u5B58\u5728","en":"Beaver Exists","ja":"Beaver Exists"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"DroppedCards":[{"CollectionName":"1","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Carcass_BeaverCarcass","type":"CardData","CardType":0,"icon":"4f7ac800f78d2ac0","name":{"zh":"\u6CB3\u72F8\u5C38\u4F53","en":"Beaver Carcass","ja":"Beaver Carcass"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"Very large Population_1","ActionLocalizedName":{"zh":"Very large Population_1","en":"Very large Population_1","ja":"Very large Population_1"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Beaver","type":"GameStat","min":0.0,"max":10000.0,"name":{"zh":"\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF","en":"Population Beaver","ja":"Population Beaver"}},"TriggerRange":{"x":8001.0,"y":100000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-3.5,"y":-3.5}}],"MoveTiming":0},{"ActionID":"Large Population_1","ActionLocalizedName":{"zh":"Large Population_1","en":"Large Population_1","ja":"Large Population_1"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Beaver","type":"GameStat","min":0.0,"max":10000.0,"name":{"zh":"\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF","en":"Population Beaver","ja":"Population Beaver"}},"TriggerRange":{"x":5001.0,"y":8000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-2.5,"y":-2.5}}],"MoveTiming":0},{"ActionID":"Medium Population_1","ActionLocalizedName":{"zh":"Medium Population_1","en":"Medium Population_1","ja":"Medium Population_1"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Beaver","type":"GameStat","min":0.0,"max":10000.0,"name":{"zh":"\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF","en":"Population Beaver","ja":"Population Beaver"}},"TriggerRange":{"x":3001.0,"y":5000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.75,"y":-1.75}}],"MoveTiming":0},{"ActionID":"Small Population_1","ActionLocalizedName":{"zh":"Small Population_1","en":"Small Population_1","ja":"Small Population_1"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Pop_Beaver","type":"GameStat","min":0.0,"max":10000.0,"name":{"zh":"\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF","en":"Population Beaver","ja":"Population Beaver"}},"TriggerRange":{"x":2000.0,"y":3000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":-0.875,"y":-0.875}}],"MoveTiming":0},{"ActionID":"Interact with a Trap","ActionLocalizedName":{"zh":"Interact with a Trap","en":"Interact with a Trap","ja":"Interact with a Trap"},"RepeatOptions":3,"NPCStatModifications":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"UseAssociatedAgent":true,"ValueChange":{"x":2880.0,"y":2880.0}},{"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"DroppedCards":[{"CollectionName":"1","CollectionWeight":100,"DroppedCards":[{"DroppedCard":{"key":"Carcass_BeaverCarcass","type":"CardData","CardType":0,"icon":"4f7ac800f78d2ac0","name":{"zh":"\u6CB3\u72F8\u5C38\u4F53","en":"Beaver Carcass","ja":"Beaver Carcass"}},"Quantity":{"m_X":1,"m_Y":1}}],"StatModifications":[{"Stat":{"key":"Pop_Badger","type":"GameStat","min":0.0,"max":10000.0,"name":{"zh":"\u737E\u79CD\u7FA4\u6570\u91CF","en":"Population Badger","ja":"\u30A2\u30CA\u30B0\u30DE\u306E\u6570"}},"ValueModifier":{"x":-1000.0,"y":-1000.0}}]}],"DropCardsInTriggerContainer":true,"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":1},{"ActionID":"Reset Agent Trap Type","ActionLocalizedName":{"zh":"Reset Agent Trap Type","en":"Reset Agent Trap Type","ja":"Reset Agent Trap Type"},"RepeatOptions":1,"NPCStatModifications":[{"TargetStat":{"key":"AgentTrapType","type":"NPCStat","name":{"zh":"\u9677\u9631\u7C7B\u578B","en":"AgentTrapType","ja":"AgentTrapType"}},"UseAssociatedAgent":true,"ValueChange":{"x":-100.0,"y":-100.0}}],"MoveTiming":0},{"ActionID":"Bleed","ActionLocalizedName":{"zh":"Bleed","en":"Bleed","ja":"Bleed"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"ConditionRange":{"x":0.0,"y":50.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"UseAssociatedAgent":true,"ValueChange":{"x":-5.0,"y":-5.0}}],"MoveTiming":0},{"ActionID":"Fall Asleep","ActionLocalizedName":{"zh":"Fall Asleep","en":"Fall Asleep","ja":"Fall Asleep"},"RepeatOptions":1,"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentPoisonResistance","type":"NPCStat","name":{"zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"}},"ConditionRange":{"x":0.0,"y":12.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentPoisonResistance","type":"NPCStat","name":{"zh":"\u6BD2\u6297","en":"AgentPoisonResistance","ja":"AgentPoisonResistance"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.15,"y":-1.15}}],"MoveTiming":0}],"AgentDuties":[{"TargetDuty":{"key":"AgentDuty_AllAnimals_WaitIfBleedingOut","type":"NPCDuty","name":{"zh":"\u7B49\u5F85\u6D41\u8840","en":"All Animals Wait if Bleeding Out","ja":"All Animals Wait if Bleeding Out"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1000000000}},{"TargetDuty":{"key":"AgentDuty_Beaver_Flee","type":"NPCDuty","name":{"zh":"\u9003\u8DD1","en":"Beaver Flee","ja":"Beaver Flee"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":100000}},{"TargetDuty":{"key":"AgentDuty_Beaver_ForgetBurrow","type":"NPCDuty","name":{"zh":"\u9057\u5FD8\u5DE2\u7A74","en":"Beaver Forget Burrow","ja":"Beaver Forget Burrow"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":80000}},{"TargetDuty":{"key":"AgentDuty_Beaver_AbandonBurrow","type":"NPCDuty","name":{"zh":"\u9057\u5F03\u5DE2\u7A74","en":"Beaver Abandon Burrow","ja":"Beaver Abandon Burrow"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":20000}},{"TargetDuty":{"key":"AgentDuty_Beaver_ExitBurrow","type":"NPCDuty","name":{"zh":"\u79BB\u5F00\u5DE2\u7A74","en":"Beaver Exit Burrow","ja":"Beaver Exit Burrow"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":10000}},{"TargetDuty":{"key":"AgentDuty_Beaver_Rest","type":"NPCDuty","name":{"zh":"\u4F11\u606F","en":"Beaver Rest","ja":"Beaver Rest"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":5000}},{"TargetDuty":{"key":"AgentDuty_Beaver_SeekHalfBuiltBurrow","type":"NPCDuty","name":{"zh":"\u5BFB\u627E\u534A\u6210\u5DE2\u7A74","en":"Beaver Seek Half Built Burrow","ja":"Beaver Seek Half Built Burrow"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":4000}},{"TargetDuty":{"key":"AgentDuty_Beaver_BuildHalfBuiltBurrow","type":"NPCDuty","name":{"zh":"\u7EE7\u7EED\u5EFA\u7A9D","en":"Beaver Build Half Built Burrow","ja":"Beaver Build Half Built Burrow"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":3000}},{"TargetDuty":{"key":"AgentDuty_Beaver_StartBuildingBurrow","type":"NPCDuty","name":{"zh":"\u5F00\u59CB\u5EFA\u7A9D","en":"Beaver Start Building Burrow","ja":"Beaver Start Building Burrow"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":2000}},{"TargetDuty":{"key":"AgentDuty_Beaver_RepairBurrow","type":"NPCDuty","name":{"zh":"\u4FEE\u8865\u5DE2\u7A74","en":"Beaver Repair Burrow","ja":"Beaver Repair Burrow"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1000}},{"TargetDuty":{"key":"AgentDuty_Beaver_EnterBurrowToSleep","type":"NPCDuty","name":{"zh":"\u8FDB\u5165\u5DE2\u7A74\u7761\u89C9","en":"Beaver Enter Burrow to Sleep","ja":"Beaver Enter Burrow to Sleep"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":200,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Beaver_Sleep","type":"NPCDuty","name":{"zh":"\u7761\u89C9","en":"Beaver Sleep","ja":"Beaver Sleep"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":200,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Beaver_SeekSleep","type":"NPCDuty","name":{"zh":"\u524D\u5F80\u4F11\u606F\u5730\u70B9","en":"Beaver Seek Sleep","ja":"Beaver Seek Sleep"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":100,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentWakefulness","type":"NPCStat","name":{"zh":"\u6E05\u9192","en":"AgentWakefulness","ja":"AgentWakefulness"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Beaver_FeedHerbi","type":"NPCDuty","name":{"zh":"\u8349\u98DF\u8FDB\u98DF","en":"Beaver Feed Herbi","ja":"Beaver Feed Herbi"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":400,"AgentStatsWeightModifiers":[{"Stat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"UseAssociatedAgent":true,"StatRange":{"x":0.0,"y":75.0},"InterpWeightRange":{"m_X":200,"m_Y":0},"WhenOutOfRange":0}]}},{"TargetDuty":{"key":"AgentDuty_Beaver_SeekUnstableDam","type":"NPCDuty","name":{"zh":"\u5BFB\u627E\u4E0D\u7A33\u6C34\u575D","en":"Beaver Seek Unstable Dam","ja":"Beaver Seek Unstable Dam"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":250}},{"TargetDuty":{"key":"AgentDuty_Beaver_RepairDam","type":"NPCDuty","name":{"zh":"\u4FEE\u8865\u6C34\u575D","en":"Beaver Repair Dam","ja":"Beaver Repair Dam"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":200}},{"TargetDuty":{"key":"AgentDuty_Beaver_SeekHalfBuiltDam","type":"NPCDuty","name":{"zh":"\u5BFB\u627E\u534A\u6210\u6C34\u575D","en":"Beaver Seek Half Built Dam","ja":"Beaver Seek Half Built Dam"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":150}},{"TargetDuty":{"key":"AgentDuty_Beaver_BuildDam","type":"NPCDuty","name":{"zh":"\u5EFA\u575D","en":"Beaver Build Dam","ja":"Beaver Build Dam"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":100}},{"TargetDuty":{"key":"AgentDuty_Beaver_StartBuildingDam","type":"NPCDuty","name":{"zh":"\u5F00\u59CB\u5EFA\u575D","en":"Beaver Start Building Dam","ja":"Beaver Start Building Dam"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":50}},{"TargetDuty":{"key":"AgentDuty_Beaver_Wandering","type":"NPCDuty","name":{"zh":"\u95F2\u901B","en":"Beaver Wondering","ja":"Beaver Wondering"}},"ActivatingMode":1,"PreferenceWeights":{"BaseWeight":1}}],"MaxCarryWeight":1.0,"CannotTrade":true,"DebugColor":{"r":0.2264,"g":0.2264,"b":0.2264,"a":1.0},"type":"NPCAgent","key":"Agent_Beaver","icon":"72d2d639f1ebd7a0","name":{"zh":"\u6CB3\u72F8","en":"Beaver","ja":"Beaver"},"_uuid":"55368cd6f6ee96c45959ff25a3438bfb"}
+
+{
+  "AgentName" : {
+    "zh" : "\u6CB3\u72F8",
+    "en" : "Beaver",
+    "ja" : "Beaver"
+  },
+  "AgentImage" : {
+    "FileName" : "NPCAgent__Agent_Beaver__AgentImage"
+  },
+  "WeightCategory" : {
+    "key" : "Light",
+    "type" : "AgentWeightCategory",
+    "name" : {
+      "zh" : "\u8F7B\u7684",
+      "en" : "Light",
+      "ja" : "\u8EFD\u3044"
+    }
+  },
+  "AgentTags"      : [
+    {
+      "key" : "AgentTag_WolfLonePrey",
+      "type" : "NPCTag",
+      "name" : {
+        "zh" : "\u72EC\u72FC\u730E\u7269",
+        "en" : "AgentTag_WolfLonePrey",
+        "ja" : "AgentTag_WolfLonePrey"
+      }
+    },
+    {
+      "key" : "AgentTag_PartnerHuntTarget",
+      "type" : "NPCTag",
+      "name" : {
+        "zh" : "\u540C\u4F34\u730E\u7269",
+        "en" : "AgentTag_PartnerHuntTarget",
+        "ja" : "AgentTag_PartnerHuntTarget"
+      }
+    }
+  ],
+  "Interactions"   : [
+    {
+      "ButtonName" : {
+        "zh" : "\u63A5\u8FD1",
+        "en" : "Approach",
+        "ja" : "Approach"
+      },
+      "ButtonType" : 1,
+      "Dialog"     : {
+        "key" : "Dialogue_AgentBadger1",
+        "type" : "DialogScene",
+        "name" : {
+          "zh" : "\u737E",
+          "en" : "Badger",
+          "ja" : "\u30A2\u30CA\u30B0\u30DE"
+        },
+        "firstLine" : {
+          "zh" : "\u4F60\u63A5\u8FD1\u737E",
+          "en" : "You approach the Badger",
+          "ja" : "\u30A2\u30CA\u30B0\u30DE\u306B\u8FD1\u3065\u304F"
+        }
+      },
+      "DroppedEncounter" : {
+        "key" : "Combat_EncounterBeaver",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Beaver__AgentImage",
+        "name" : {
+          "zh" : "\u6CB3\u72F8",
+          "en" : "Beaver",
+          "ja" : "Beaver"
+        }
+      }
+    }
+  ],
+  "DefaultTracks"  : {
+    "TrackLifetime" : {
+      "m_X" : 32,
+      "m_Y" : 32
+    },
+    "OverrideDefaultTracksCard" : {
+      "key" : "DefaultTracksCard",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__BeastTracksCardInvisible__CardImage",
+      "name"     : {
+        "zh" : "\u6709\u8E2A\u8FF9\uFF01",
+        "en" : "Tracks!",
+        "ja" : "\u8DB3\u8DE1\uFF01"
+      }
+    },
+    "TracksDirection"           : 0,
+    "OverrideTrackDurabilities" : 0,
+    "NPCStatsToTrackDurabilities" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBlood",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8840\u91CF",
+            "en" : "AgentBlood",
+            "ja" : "AgentBlood"
+          }
+        },
+        "OutputDurability"   : 32,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    ]
+  },
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 1,
+  "AmbientSounds"          : [
+    {
+      "DontPlayWhenInCombat" : true,
+      "AddedRealRange"       : 0.0,
+      "AddedNodesRange"      : 0,
+      "InternalName"         : "Beaver"
+    }
+  ],
+  "AgentStats"             : [
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9057\u5F03\u6D1E\u7A74",
+          "en" : "Agent Has Home",
+          "ja" : "Agent Has Home"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentBurrowAbandoned",
+        "zh"                      : "\u9057\u5F03\u6D1E\u7A74",
+        "en"                      : "AgentBurrowAbandoned",
+        "ja"                      : "AgentBurrowAbandoned"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 1.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -10.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6709\u6D1E\u7A74",
+          "en" : "Agent Has Home",
+          "ja" : "Agent Has Home"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentHasHome",
+        "zh"                      : "\u6709\u6D1E\u7A74",
+        "en"                      : "AgentHasHome",
+        "ja"                      : "AgentHasHome"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 1.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -10.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+          "en" : "Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. ",
+          "ja" : "Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 2880.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRespawnCounter",
+        "zh"                      : "\u5237\u65B0\u5012\u8BA1\u65F6",
+        "en"                      : "AgentRespawnCounter",
+        "ja"                      : "AgentRespawnCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 336.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 2880.0,
+        "FloatValue" : 0.0
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -10.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5B58\u5728",
+          "en" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. ",
+          "ja" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentExists",
+        "zh"                      : "\u5B58\u5728",
+        "en"                      : "AgentExists",
+        "ja"                      : "AgentExists"
+      },
+      "OverrideMinMaxValue" : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : -3520.0
+      },
+      "OverrideRate"        : {
+        "FloatValue" : 1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8840\u91CF",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentBlood",
+        "zh"                      : "\u8840\u91CF",
+        "en"                      : "AgentBlood",
+        "ja"                      : "AgentBlood"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.17,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9971\u98DF",
+          "en" : "Agent Satiation",
+          "ja" : "Agent Satiation"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentSatiation",
+        "zh"                      : "\u9971\u98DF",
+        "en"                      : "AgentSatiation",
+        "ja"                      : "AgentSatiation"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6E05\u9192",
+          "en" : "Agent Satiation",
+          "ja" : "Agent Satiation"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentWakefulness",
+        "zh"                      : "\u6E05\u9192",
+        "en"                      : "AgentWakefulness",
+        "ja"                      : "AgentWakefulness"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6597\u5FD7",
+          "en" : "Agent Morale",
+          "ja" : "Agent Morale"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentMorale",
+        "zh"                      : "\u6597\u5FD7",
+        "en"                      : "AgentMorale",
+        "ja"                      : "AgentMorale"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 200.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 200.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 10.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8010\u529B",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentStamina",
+        "zh"                      : "\u8010\u529B",
+        "en"                      : "AgentStamina",
+        "ja"                      : "AgentStamina"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 70.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 70.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6BD2\u6297",
+          "en" : "Agent Special1",
+          "ja" : "Agent Special1"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentPoisonResistance",
+        "zh"                      : "\u6BD2\u6297",
+        "en"                      : "AgentPoisonResistance",
+        "ja"                      : "AgentPoisonResistance"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 24.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 24.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.4,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u7C7B\u578B",
+          "en" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40",
+          "ja" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapType",
+        "zh"                      : "\u9677\u9631\u7C7B\u578B",
+        "en"                      : "AgentTrapType",
+        "ja"                      : "AgentTrapType"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunning",
+        "zh"                      : "\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunning",
+        "ja"                      : "AgentTrapCunning"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 15.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 15.0,
+        "FloatValue" : 15.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningSnare",
+        "zh"                      : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningSnare",
+        "ja"                      : "AgentTrapCunningSnare"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u5751\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningPitTrap",
+        "zh"                      : "\u9677\u5751\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningPitTrap",
+        "ja"                      : "AgentTrapCunningPitTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningLogTrap",
+        "zh"                      : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningLogTrap",
+        "ja"                      : "AgentTrapCunningLogTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningDeadfall",
+        "zh"                      : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningDeadfall",
+        "ja"                      : "AgentTrapCunningDeadfall"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    }
+  ],
+  "AgentActions"           : [
+    {
+      "ActionID" : "teleport to clay banks",
+      "ActionLocalizedName" : {
+        "zh" : "HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1",
+        "en" : "HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1",
+        "ja" : "HOTFIX_REDUNDANT_13032026_patch - fixing animals stuck in spirit world with animal exists set to 1"
+      },
+      "RepeatOptions"       : 0,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "HOTFIX_REDUNDANT_13032026_patch",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 3.0,
+              "name" : {
+                "zh" : "\u70ED\u4FEE\u590D_13032026",
+                "en" : "HOTFIX_REDUNDANT_13032026_patch",
+                "ja" : "HOTFIX_REDUNDANT_13032026_patch"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 0.0,
+              "y" : 2.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_River_GroveAlder_DuckPoint_",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u91CE\u9E2D\u5CAC\u89D2",
+          "en" : "Duck Point",
+          "ja" : "Duck Point"
+        }
+      },
+      "MoveTiming"          : 1
+    },
+    {
+      "ActionID" : "If Agent Exist is 0 Go to Spirit World",
+      "ActionLocalizedName" : {
+        "zh" : "If Agent Exist is 0 Go to Spirit World",
+        "en" : "If Agent Exist is 0 Go to Spirit World",
+        "ja" : "If Agent Exist is 0 Go to Spirit World"
+      },
+      "RepeatOptions"       : 1,
+      "CannotPerformWhileDoingOtherAction" : true,
+      "Conditions"                         : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentRespawnCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+                "en" : "AgentRespawnCounter",
+                "ja" : "AgentRespawnCounter"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 100.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "StatModifications"                  : [
+        {
+          "Stat" : {
+            "key" : "Agent_BeaverExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6CB3\u72F8\u5B58\u5728",
+              "en" : "Beaver Exists",
+              "ja" : "Beaver Exists"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveToEnvironment"                  : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"                         : 1
+    },
+    {
+      "ActionID" : "Spawn into the World_1",
+      "ActionLocalizedName" : {
+        "zh" : "Spawn into the World_1",
+        "en" : "Spawn into the World_1",
+        "ja" : "Spawn into the World_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentRespawnCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+                "en" : "AgentRespawnCounter",
+                "ja" : "AgentRespawnCounter"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            }
+          }
+        ]
+      },
+      "StatModifications"   : [
+        {
+          "Stat" : {
+            "key" : "Agent_BeaverExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6CB3\u72F8\u5B58\u5728",
+              "en" : "Beaver Exists",
+              "ja" : "Beaver Exists"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentHasHome",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u6709\u6D1E\u7A74",
+              "en" : "AgentHasHome",
+              "ja" : "AgentHasHome"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentBurrowAbandoned",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9057\u5F03\u6D1E\u7A74",
+              "en" : "AgentBurrowAbandoned",
+              "ja" : "AgentBurrowAbandoned"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentHydration",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u996E\u6C34",
+              "en" : "AgentHydration",
+              "ja" : "AgentHydration"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentSatiation",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9971\u98DF",
+              "en" : "AgentSatiation",
+              "ja" : "AgentSatiation"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentWakefulness",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u6E05\u9192",
+              "en" : "AgentWakefulness",
+              "ja" : "AgentWakefulness"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentTrapType",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9677\u9631\u7C7B\u578B",
+              "en" : "AgentTrapType",
+              "ja" : "AgentTrapType"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_River_GroveAlder_DuckPoint_",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u91CE\u9E2D\u5CAC\u89D2",
+          "en" : "Duck Point",
+          "ja" : "Duck Point"
+        }
+      },
+      "MoveTiming"           : 0,
+      "SetNPCHome"           : [
+        {
+          "TargetAgent" : {
+            "key" : "Agent_Beaver",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Beaver__AgentImage",
+            "name" : {
+              "zh" : "\u6CB3\u72F8",
+              "en" : "Beaver",
+              "ja" : "Beaver"
+            }
+          },
+          "SetHome"     : 3
+        }
+      ]
+    },
+    {
+      "ActionID" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World",
+      "ActionLocalizedName" : {
+        "zh" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World",
+        "en" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World",
+        "ja" : "If Agent Exists Stat is 0 ( happens when trapped for example ) die, reset, do NOT drop Carcass and go to Spirit World"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Agent_BeaverExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u6CB3\u72F8\u5B58\u5728",
+                "en" : "Beaver Exists",
+                "ja" : "Beaver Exists"
+              }
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass_1",
+      "ActionLocalizedName" : {
+        "zh" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+        "en" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+        "ja" : "If Blood is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world"
+      },
+      "RepeatOptions"       : 1,
+      "CannotPerformWhileInCombat" : true,
+      "Conditions"                 : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentBlood",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8840\u91CF",
+                "en" : "AgentBlood",
+                "ja" : "AgentBlood"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 0.0,
+              "y" : 6.0
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "StatModifications"          : [
+        {
+          "Stat" : {
+            "key" : "Pop_Beaver",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 10000.0,
+            "name" : {
+              "zh" : "\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF",
+              "en" : "Population Beaver",
+              "ja" : "Population Beaver"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1000.0,
+            "y" : -1000.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Agent_BeaverExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6CB3\u72F8\u5B58\u5728",
+              "en" : "Beaver Exists",
+              "ja" : "Beaver Exists"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NPCStatModifications"       : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "DroppedCards"               : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_BeaverCarcass",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Carcass_BeaverCarcass__CardImage",
+                "name"     : {
+                  "zh" : "\u6CB3\u72F8\u5C38\u4F53",
+                  "en" : "Beaver Carcass",
+                  "ja" : "Beaver Carcass"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "MoveToEnvironment"          : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"                 : 1
+    },
+    {
+      "ActionID" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+      "ActionLocalizedName" : {
+        "zh" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+        "en" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world",
+        "ja" : "If Poison Resistance is 0 ( from Predator or Player ) die, reset, drop carcass, move to spirit world"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetAgent"        : {
+              "key" : "Agent_Doe",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Doe__AgentImage",
+              "name" : {
+                "zh" : "\u6BCD\u9E7F",
+                "en" : "Doe",
+                "ja" : "\u96CC\u9E7F"
+              }
+            },
+            "TargetStat"         : {
+              "key" : "AgentPoisonResistance",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6BD2\u6297",
+                "en" : "AgentPoisonResistance",
+                "ja" : "AgentPoisonResistance"
+              }
+            }
+          }
+        ]
+      },
+      "StatModifications"   : [
+        {
+          "Stat" : {
+            "key" : "Pop_Beaver",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 10000.0,
+            "name" : {
+              "zh" : "\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF",
+              "en" : "Population Beaver",
+              "ja" : "Population Beaver"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1000.0,
+            "y" : -1000.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Agent_BeaverExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u6CB3\u72F8\u5B58\u5728",
+              "en" : "Beaver Exists",
+              "ja" : "Beaver Exists"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "DroppedCards"         : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_BeaverCarcass",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Carcass_BeaverCarcass__CardImage",
+                "name"     : {
+                  "zh" : "\u6CB3\u72F8\u5C38\u4F53",
+                  "en" : "Beaver Carcass",
+                  "ja" : "Beaver Carcass"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"           : 1
+    },
+    {
+      "ActionID" : "Very large Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Very large Population_1",
+        "en" : "Very large Population_1",
+        "ja" : "Very large Population_1"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Beaver",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 10000.0,
+              "name" : {
+                "zh" : "\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Beaver",
+                "ja" : "Population Beaver"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 8001.0,
+              "y" : 100000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -3.5,
+            "y" : -3.5
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Large Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Large Population_1",
+        "en" : "Large Population_1",
+        "ja" : "Large Population_1"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Beaver",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 10000.0,
+              "name" : {
+                "zh" : "\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Beaver",
+                "ja" : "Population Beaver"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 5001.0,
+              "y" : 8000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -2.5,
+            "y" : -2.5
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Medium Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Medium Population_1",
+        "en" : "Medium Population_1",
+        "ja" : "Medium Population_1"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Beaver",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 10000.0,
+              "name" : {
+                "zh" : "\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Beaver",
+                "ja" : "Population Beaver"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3001.0,
+              "y" : 5000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.75,
+            "y" : -1.75
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Small Population_1",
+      "ActionLocalizedName" : {
+        "zh" : "Small Population_1",
+        "en" : "Small Population_1",
+        "ja" : "Small Population_1"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Pop_Beaver",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 10000.0,
+              "name" : {
+                "zh" : "\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF",
+                "en" : "Population Beaver",
+                "ja" : "Population Beaver"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2000.0,
+              "y" : 3000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -0.875,
+            "y" : -0.875
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Interact with a Trap",
+      "ActionLocalizedName" : {
+        "zh" : "Interact with a Trap",
+        "en" : "Interact with a Trap",
+        "ja" : "Interact with a Trap"
+      },
+      "RepeatOptions"       : 3,
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 2880.0,
+            "y" : 2880.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentExists",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5B58\u5728",
+              "en" : "AgentExists",
+              "ja" : "AgentExists"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "DroppedCards"         : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 100,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_BeaverCarcass",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Carcass_BeaverCarcass__CardImage",
+                "name"     : {
+                  "zh" : "\u6CB3\u72F8\u5C38\u4F53",
+                  "en" : "Beaver Carcass",
+                  "ja" : "Beaver Carcass"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ],
+          "StatModifications" : [
+            {
+              "Stat" : {
+                "key" : "Pop_Badger",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 10000.0,
+                "name" : {
+                  "zh" : "\u737E\u79CD\u7FA4\u6570\u91CF",
+                  "en" : "Population Badger",
+                  "ja" : "\u30A2\u30CA\u30B0\u30DE\u306E\u6570"
+                }
+              },
+              "ValueModifier" : {
+                "x" : -1000.0,
+                "y" : -1000.0
+              }
+            }
+          ]
+        }
+      ],
+      "DropCardsInTriggerContainer" : true,
+      "MoveToEnvironment"           : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"                  : 1
+    },
+    {
+      "ActionID" : "Reset Agent Trap Type",
+      "ActionLocalizedName" : {
+        "zh" : "Reset Agent Trap Type",
+        "en" : "Reset Agent Trap Type",
+        "ja" : "Reset Agent Trap Type"
+      },
+      "RepeatOptions"       : 1,
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentTrapType",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u9677\u9631\u7C7B\u578B",
+              "en" : "AgentTrapType",
+              "ja" : "AgentTrapType"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Bleed",
+      "ActionLocalizedName" : {
+        "zh" : "Bleed",
+        "en" : "Bleed",
+        "ja" : "Bleed"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentBlood",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8840\u91CF",
+                "en" : "AgentBlood",
+                "ja" : "AgentBlood"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 0.0,
+              "y" : 50.0
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentBlood",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8840\u91CF",
+              "en" : "AgentBlood",
+              "ja" : "AgentBlood"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -5.0,
+            "y" : -5.0
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Fall Asleep",
+      "ActionLocalizedName" : {
+        "zh" : "Fall Asleep",
+        "en" : "Fall Asleep",
+        "ja" : "Fall Asleep"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentPoisonResistance",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6BD2\u6297",
+                "en" : "AgentPoisonResistance",
+                "ja" : "AgentPoisonResistance"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 0.0,
+              "y" : 12.0
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentPoisonResistance",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u6BD2\u6297",
+              "en" : "AgentPoisonResistance",
+              "ja" : "AgentPoisonResistance"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.15,
+            "y" : -1.15
+          }
+        }
+      ],
+      "MoveTiming"           : 0
+    }
+  ],
+  "AgentDuties"            : [
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_AllAnimals_WaitIfBleedingOut",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u7B49\u5F85\u6D41\u8840",
+          "en" : "All Animals Wait if Bleeding Out",
+          "ja" : "All Animals Wait if Bleeding Out"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1000000000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_Flee",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u9003\u8DD1",
+          "en" : "Beaver Flee",
+          "ja" : "Beaver Flee"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 100000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_ForgetBurrow",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u9057\u5FD8\u5DE2\u7A74",
+          "en" : "Beaver Forget Burrow",
+          "ja" : "Beaver Forget Burrow"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 80000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_AbandonBurrow",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u9057\u5F03\u5DE2\u7A74",
+          "en" : "Beaver Abandon Burrow",
+          "ja" : "Beaver Abandon Burrow"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 20000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_ExitBurrow",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u79BB\u5F00\u5DE2\u7A74",
+          "en" : "Beaver Exit Burrow",
+          "ja" : "Beaver Exit Burrow"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 10000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_Rest",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u4F11\u606F",
+          "en" : "Beaver Rest",
+          "ja" : "Beaver Rest"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 5000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_SeekHalfBuiltBurrow",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u534A\u6210\u5DE2\u7A74",
+          "en" : "Beaver Seek Half Built Burrow",
+          "ja" : "Beaver Seek Half Built Burrow"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 4000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_BuildHalfBuiltBurrow",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u7EE7\u7EED\u5EFA\u7A9D",
+          "en" : "Beaver Build Half Built Burrow",
+          "ja" : "Beaver Build Half Built Burrow"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 3000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_StartBuildingBurrow",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5F00\u59CB\u5EFA\u7A9D",
+          "en" : "Beaver Start Building Burrow",
+          "ja" : "Beaver Start Building Burrow"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 2000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_RepairBurrow",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u4FEE\u8865\u5DE2\u7A74",
+          "en" : "Beaver Repair Burrow",
+          "ja" : "Beaver Repair Burrow"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_EnterBurrowToSleep",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u8FDB\u5165\u5DE2\u7A74\u7761\u89C9",
+          "en" : "Beaver Enter Burrow to Sleep",
+          "ja" : "Beaver Enter Burrow to Sleep"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 200,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentWakefulness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6E05\u9192",
+                "en" : "AgentWakefulness",
+                "ja" : "AgentWakefulness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_Sleep",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u7761\u89C9",
+          "en" : "Beaver Sleep",
+          "ja" : "Beaver Sleep"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 200,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentWakefulness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6E05\u9192",
+                "en" : "AgentWakefulness",
+                "ja" : "AgentWakefulness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_SeekSleep",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u524D\u5F80\u4F11\u606F\u5730\u70B9",
+          "en" : "Beaver Seek Sleep",
+          "ja" : "Beaver Seek Sleep"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 100,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentWakefulness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6E05\u9192",
+                "en" : "AgentWakefulness",
+                "ja" : "AgentWakefulness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_FeedHerbi",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u8349\u98DF\u8FDB\u98DF",
+          "en" : "Beaver Feed Herbi",
+          "ja" : "Beaver Feed Herbi"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 400,
+        "AgentStatsWeightModifiers" : [
+          {
+            "Stat" : {
+              "key" : "AgentSatiation",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u9971\u98DF",
+                "en" : "AgentSatiation",
+                "ja" : "AgentSatiation"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "StatRange"          : {
+              "x" : 0.0,
+              "y" : 75.0
+            },
+            "InterpWeightRange"  : {
+              "m_X" : 200,
+              "m_Y" : 0
+            },
+            "WhenOutOfRange"     : 0
+          }
+        ]
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_SeekUnstableDam",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u4E0D\u7A33\u6C34\u575D",
+          "en" : "Beaver Seek Unstable Dam",
+          "ja" : "Beaver Seek Unstable Dam"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 250
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_RepairDam",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u4FEE\u8865\u6C34\u575D",
+          "en" : "Beaver Repair Dam",
+          "ja" : "Beaver Repair Dam"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 200
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_SeekHalfBuiltDam",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u534A\u6210\u6C34\u575D",
+          "en" : "Beaver Seek Half Built Dam",
+          "ja" : "Beaver Seek Half Built Dam"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 150
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_BuildDam",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5EFA\u575D",
+          "en" : "Beaver Build Dam",
+          "ja" : "Beaver Build Dam"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 100
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_StartBuildingDam",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5F00\u59CB\u5EFA\u575D",
+          "en" : "Beaver Start Building Dam",
+          "ja" : "Beaver Start Building Dam"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 50
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Beaver_Wandering",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u95F2\u901B",
+          "en" : "Beaver Wondering",
+          "ja" : "Beaver Wondering"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1
+      }
+    }
+  ],
+  "MaxCarryWeight"         : 1.0,
+  "CannotTrade"            : true,
+  "DebugColor"             : {
+    "r" : 0.2264,
+    "g" : 0.2264,
+    "b" : 0.2264,
+    "a" : 1.0
+  },
+  "type"                   : "NPCAgent",
+  "key"                    : "Agent_Beaver",
+  "icon"                   : "NPCAgent__Agent_Beaver__AgentImage",
+  "name"                   : {
+    "zh" : "\u6CB3\u72F8",
+    "en" : "Beaver",
+    "ja" : "Beaver"
+  },
+  "_uuid"                  : "55368cd6f6ee96c45959ff25a3438bfb"
+}

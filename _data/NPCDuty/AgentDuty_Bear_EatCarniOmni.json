@@ -1,1 +1,86 @@
-{"DutyName":{"zh":"\u98DF\u7528\u6742\u98DF","en":"Bear Eat Carni Omni","ja":"Bear Eat Carni Omni"},"ValidTimesOfDay":[{"TimeType":0,"CompareType":0,"StartValue":18,"EndValue":22}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":92.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":0,"ActionSequence":[{"key":"BearEatCarniOmni","type":"ChangeNPCStatDutyAction","name":{"zh":"BearEatCarniOmni","en":"BearEatCarniOmni","ja":"BearEatCarniOmni"}},{"key":"BearDestroyEatCarniOmni","type":"AffectItemsDutyAction","name":{"zh":"BearDestroyEatCarniOmni","en":"BearDestroyEatCarniOmni","ja":"BearDestroyEatCarniOmni"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Bear_EatCarniOmni","name":{"zh":"\u98DF\u7528\u6742\u98DF","en":"Bear Eat Carni Omni","ja":"Bear Eat Carni Omni"},"_uuid":"63920655805b0ea488bbdf82969f0779"}
+
+{
+  "DutyName" : {
+    "zh" : "\u98DF\u7528\u6742\u98DF",
+    "en" : "Bear Eat Carni Omni",
+    "ja" : "Bear Eat Carni Omni"
+  },
+  "ValidTimesOfDay" : [
+    {
+      "TimeType" : 0,
+      "CompareType" : 0,
+      "StartValue"  : 18,
+      "EndValue"    : 22
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 92.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "BearEatCarniOmni",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "BearEatCarniOmni",
+        "en" : "BearEatCarniOmni",
+        "ja" : "BearEatCarniOmni"
+      }
+    },
+    {
+      "key" : "BearDestroyEatCarniOmni",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "BearDestroyEatCarniOmni",
+        "en" : "BearDestroyEatCarniOmni",
+        "ja" : "BearDestroyEatCarniOmni"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Bear_EatCarniOmni",
+  "name"                             : {
+    "zh" : "\u98DF\u7528\u6742\u98DF",
+    "en" : "Bear Eat Carni Omni",
+    "ja" : "Bear Eat Carni Omni"
+  },
+  "_uuid"                            : "63920655805b0ea488bbdf82969f0779"
+}

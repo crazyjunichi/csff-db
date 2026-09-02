@@ -1,1 +1,70 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"FlaxFieldMature","type":"CardData","CardType":2,"icon":"bf6c8c774f0cd749","name":{"zh":"\u6210\u719F\u7684\u4E9A\u9EBB\u7530","en":"Mature Flax Field","ja":"\u6210\u719F\u3057\u305F\u4E9C\u9EBB\u7551"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":2},"AffectType":1,"SimpleAffectDuration":0,"ActionToPerform":{"ActionType":0,"GivenCardSelectionMethod":0,"GivenCardSelection":{"ItemPool":[{"Target":{"Target":{"key":"MeatBrainMush","type":"CardData","CardType":0,"icon":"555452066fd4fb50","name":{"zh":"\u8111\u6D46","en":"Brain Mush","ja":"\u8133\u306E\u7DF4\u308A\u7269"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":1},"ActionDroppedCards":0},"key":"Harvest Flax by Hand","type":"NPCDutyAction","name":{"zh":"Harvest Flax by Hand","en":"Harvest Flax by Hand","ja":"Harvest Flax by Hand"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "FlaxFieldMature",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Bp_FlaxField__CardImage",
+            "name"     : {
+              "zh" : "\u6210\u719F\u7684\u4E9A\u9EBB\u7530",
+              "en" : "Mature Flax Field",
+              "ja" : "\u6210\u719F\u3057\u305F\u4E9C\u9EBB\u7551"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 2
+  },
+  "AffectType"    : 1,
+  "SimpleAffectDuration" : 0,
+  "ActionToPerform"      : {
+    "ActionType" : 0,
+    "GivenCardSelectionMethod" : 0,
+    "GivenCardSelection"       : {
+      "ItemPool" : [
+        {
+          "Target" : {
+            "Target" : {
+              "key" : "MeatBrainMush",
+              "type" : "CardData",
+              "CardType" : 0,
+              "icon"     : "CardData__MeatBrainMush__CardImage",
+              "name"     : {
+                "zh" : "\u8111\u6D46",
+                "en" : "Brain Mush",
+                "ja" : "\u8133\u306E\u7DF4\u308A\u7269"
+              }
+            }
+          },
+          "Quantity" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "SearchPriority" : 0,
+      "OwnershipPriority" : 1,
+      "DutyPriority"      : 1
+    },
+    "ActionDroppedCards"       : 0
+  },
+  "key"                  : "Harvest Flax by Hand",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Harvest Flax by Hand",
+    "en" : "Harvest Flax by Hand",
+    "ja" : "Harvest Flax by Hand"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

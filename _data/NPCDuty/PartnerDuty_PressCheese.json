@@ -1,1 +1,83 @@
-{"DutyName":{"zh":"\u538B\u5236\u5976\u916A","en":"Press","ja":"Press"},"DutySummary":{"zh":"Pressing cheese.","en":"Pressing cheese.","ja":"Pressing cheese."},"DutyTags":[{"key":"DutyTag_Methodical","type":"NPCDutyTag","name":{"zh":"\u6709\u6761\u4E0D\u7D0A\u7684","en":"Methodical","ja":"Methodical"}}],"MaxPerformPerDay":0,"DutyExecutionOptions":0,"ActionSequence":[{"key":"Start Duty Press Cheese","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Start Duty Press Cheese","en":"Start Duty Press Cheese","ja":"Start Duty Press Cheese"}},{"key":"Reduce Favour","type":"ChangeNPCStatDutyAction","name":{"zh":"Reduce Favour","en":"Reduce Favour","ja":"Reduce Favour"}},{"key":"Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Complete","en":"Complete","ja":"Complete"}},{"key":"Press Cheese","type":"AffectItemsDutyAction","name":{"zh":"Press Cheese","en":"Press Cheese","ja":"Press Cheese"}},{"key":"Reduce Favour and Complete","type":"TakeSimpleDecisionDutyAction","name":{"zh":"Reduce Favour and Complete","en":"Reduce Favour and Complete","ja":"Reduce Favour and Complete"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_PressCheese","name":{"zh":"\u538B\u5236\u5976\u916A","en":"Press","ja":"Press"},"_uuid":"1335acad0b3252d4e845a2341288ac1b"}
+
+{
+  "DutyName" : {
+    "zh" : "\u538B\u5236\u5976\u916A",
+    "en" : "Press",
+    "ja" : "Press"
+  },
+  "DutySummary" : {
+    "zh" : "Pressing cheese.",
+    "en" : "Pressing cheese.",
+    "ja" : "Pressing cheese."
+  },
+  "DutyTags"    : [
+    {
+      "key" : "DutyTag_Methodical",
+      "type" : "NPCDutyTag",
+      "name" : {
+        "zh" : "\u6709\u6761\u4E0D\u7D0A\u7684",
+        "en" : "Methodical",
+        "ja" : "Methodical"
+      }
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Start Duty Press Cheese",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Start Duty Press Cheese",
+        "en" : "Start Duty Press Cheese",
+        "ja" : "Start Duty Press Cheese"
+      }
+    },
+    {
+      "key" : "Reduce Favour",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour",
+        "en" : "Reduce Favour",
+        "ja" : "Reduce Favour"
+      }
+    },
+    {
+      "key" : "Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Complete",
+        "en" : "Complete",
+        "ja" : "Complete"
+      }
+    },
+    {
+      "key" : "Press Cheese",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Press Cheese",
+        "en" : "Press Cheese",
+        "ja" : "Press Cheese"
+      }
+    },
+    {
+      "key" : "Reduce Favour and Complete",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Reduce Favour and Complete",
+        "en" : "Reduce Favour and Complete",
+        "ja" : "Reduce Favour and Complete"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_PressCheese",
+  "name"                 : {
+    "zh" : "\u538B\u5236\u5976\u916A",
+    "en" : "Press",
+    "ja" : "Press"
+  },
+  "_uuid"                : "1335acad0b3252d4e845a2341288ac1b"
+}

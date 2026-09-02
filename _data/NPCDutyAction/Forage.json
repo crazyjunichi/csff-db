@@ -1,1 +1,61 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"tag_WoodCutting","type":"CardTag","count":100,"name":{"zh":"\u5207\u524A\u6728\u6750","en":"Wood Cutting","ja":"\u6728\u5DE5"}}}}],"SearchPriority":0,"OwnershipPriority":0,"DutyPriority":2,"DebugItemSelection":true},"AffectType":1,"ItemModification":{"ModType":3,"TransformToLiquidQuantity":0.0,"LiquidEffectScaling":0,"SpoilageChange":{"x":100.0,"y":100.0}},"SimpleAffectDuration":0,"ActionToPerform":{"ActionType":0,"ActionTagFilter":[{"key":"ForageAction","type":"ActionTag","name":{"zh":"\u89C5\u98DF\u52A8\u4F5C","en":"ForageAction","ja":"ForageAction"}}],"GivenCardSelectionMethod":0,"ActionDroppedCards":0,"DebugActionSelection":true},"key":"Forage","type":"NPCDutyAction","name":{"zh":"Forage","en":"Forage","ja":"Forage"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "tag_WoodCutting",
+            "type" : "CardTag",
+            "count" : 100,
+            "name"  : {
+              "zh" : "\u5207\u524A\u6728\u6750",
+              "en" : "Wood Cutting",
+              "ja" : "\u6728\u5DE5"
+            }
+          }
+        }
+      }
+    ],
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 1,
+  "ItemModification" : {
+    "ModType" : 3,
+    "TransformToLiquidQuantity" : 0.0,
+    "LiquidEffectScaling"       : 0,
+    "SpoilageChange"            : {
+      "x" : 100.0,
+      "y" : 100.0
+    }
+  },
+  "SimpleAffectDuration" : 0,
+  "ActionToPerform"      : {
+    "ActionType" : 0,
+    "ActionTagFilter" : [
+      {
+        "key" : "ForageAction",
+        "type" : "ActionTag",
+        "name" : {
+          "zh" : "\u89C5\u98DF\u52A8\u4F5C",
+          "en" : "ForageAction",
+          "ja" : "ForageAction"
+        }
+      }
+    ],
+    "GivenCardSelectionMethod" : 0,
+    "ActionDroppedCards"       : 0,
+    "DebugActionSelection"     : true
+  },
+  "key"                  : "Forage",
+  "type"                 : "NPCDutyAction",
+  "name"                 : {
+    "zh" : "Forage",
+    "en" : "Forage",
+    "ja" : "Forage"
+  },
+  "actionType"           : "AffectItemsDutyAction"
+}

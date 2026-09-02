@@ -1,1 +1,78 @@
-{"DutyName":{"zh":"\u5543\u98DF\u519C\u7530","en":"Hare Feed Field","ja":"Hare Feed Field"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":95.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":2,"ActionSequence":[{"key":"HareFeedField","type":"ChangeNPCStatDutyAction","name":{"zh":"HareFeedField","en":"HareFeedField","ja":"HareFeedField"}},{"key":"HareDamageFeedField","type":"AffectItemsDutyAction","name":{"zh":"HareDamageFeedField","en":"HareDamageFeedField","ja":"HareDamageFeedField"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Hare_FeedField","name":{"zh":"\u5543\u98DF\u519C\u7530","en":"Hare Feed Field","ja":"Hare Feed Field"},"_uuid":"c8b1aba86f0f8df47959d839b31b9ae6"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5543\u98DF\u519C\u7530",
+    "en" : "Hare Feed Field",
+    "ja" : "Hare Feed Field"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 95.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 2,
+  "ActionSequence"                   : [
+    {
+      "key" : "HareFeedField",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "HareFeedField",
+        "en" : "HareFeedField",
+        "ja" : "HareFeedField"
+      }
+    },
+    {
+      "key" : "HareDamageFeedField",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "HareDamageFeedField",
+        "en" : "HareDamageFeedField",
+        "ja" : "HareDamageFeedField"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Hare_FeedField",
+  "name"                             : {
+    "zh" : "\u5543\u98DF\u519C\u7530",
+    "en" : "Hare Feed Field",
+    "ja" : "Hare Feed Field"
+  },
+  "_uuid"                            : "c8b1aba86f0f8df47959d839b31b9ae6"
+}

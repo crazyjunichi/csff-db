@@ -1,1 +1,151 @@
-{"Actions":[{"RepeatOptions":2,"ActionCooldown":0,"PlayerUsesCardCondition":0,"StatChangeTrigger":[{"Stat":{"key":"NOT_USED_FloodFlag_GreenFalls","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"FloodFlag_GreenFalls","en":"FloodFlag_GreenFalls","ja":"FloodFlag_GreenFalls"}},"TriggerRange":{"x":1.0,"y":1.0}}],"ActionName":{"zh":"Tgr_FloodDamage_GreenFalls","en":"Tgr_FloodDamage_GreenFalls","ja":"Tgr_FloodDamage_GreenFalls"},"DaytimeCost":0,"UseMiniTicks":0,"RequiredCardsOnBoard":[{"TriggerCard":{"key":"River_GroveOak_Greenfalls","type":"CardData","CardType":8,"icon":"a3c39cfa2506ec0d","name":{"zh":"\u7EFF\u8272\u7011\u5E03","en":"Greenfalls","ja":"\u30B0\u30EA\u30FC\u30F3\u30D5\u30A9\u30FC\u30EB\u30BA"}}}],"ProducedCards":[{"CollectionName":"Nothing","CollectionWeight":0,"CardDropChanceModifiers":[{"TagOnBoard":{"key":"tag_Env_Levee","type":"CardTag","count":2,"name":{"zh":"\u5824\u575D\u533A","en":"Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ","ja":"Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "}},"LookInside":0,"MaxWeightPerCard":1,"MaxStack":0}],"DroppedCards":[{"Quantity":{"m_X":1,"m_Y":1}}]},{"CollectionName":"Flood Damage Event","CollectionWeight":1,"CardDropChanceModifiers":[{"TagOnBoard":{"key":"tag_Env_Levee","type":"CardTag","count":2,"name":{"zh":"\u5824\u575D\u533A","en":"Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ","ja":"Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "}},"LookInside":0,"MaxWeightPerCard":-1,"MaxStack":0}],"DroppedCards":[{"DroppedCard":{"key":"NOT_USED_Event_FloodDamageAreWasFlooded","type":"CardData","CardType":3,"icon":"c3047e3ce3e79a6d","name":{"zh":"\u6DF9\u6CA1\u5730\u533A","en":"Area was Flooded","ja":"\u5834\u6240\u304C\u6D78\u6C34\u3057\u305F\uFF01"}},"Quantity":{"m_X":1,"m_Y":1}}]}],"StatModifications":[{"Stat":{"key":"NOT_USED_FloodFlag_GreenFalls","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"FloodFlag_GreenFalls","en":"FloodFlag_GreenFalls","ja":"FloodFlag_GreenFalls"}},"ValueModifier":{"x":-1.0,"y":-1.0}}],"RoomDirection":0,"ExitDirection":0}],"type":"SelfTriggeredAction","key":"NOT_USED_Tgr_FloodDamage_GreenFalls","name":{"zh":"NOT_USED_Tgr_FloodDamage_GreenFalls","en":"NOT_USED_Tgr_FloodDamage_GreenFalls","ja":"NOT_USED_Tgr_FloodDamage_GreenFalls"},"_uuid":"860ad75865d03aa43b4884f2826c9e07"}
+
+{
+  "Actions" : [
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "NOT_USED_FloodFlag_GreenFalls",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "FloodFlag_GreenFalls",
+              "en" : "FloodFlag_GreenFalls",
+              "ja" : "FloodFlag_GreenFalls"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Tgr_FloodDamage_GreenFalls",
+        "en" : "Tgr_FloodDamage_GreenFalls",
+        "ja" : "Tgr_FloodDamage_GreenFalls"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredCardsOnBoard"    : [
+        {
+          "TriggerCard" : {
+            "key" : "River_GroveOak_Greenfalls",
+            "type" : "CardData",
+            "CardType" : 8,
+            "icon"     : "CardData__River_GroveOak_Greenfalls__CardImage",
+            "name"     : {
+              "zh" : "\u7EFF\u8272\u7011\u5E03",
+              "en" : "Greenfalls",
+              "ja" : "\u30B0\u30EA\u30FC\u30F3\u30D5\u30A9\u30FC\u30EB\u30BA"
+            }
+          }
+        }
+      ],
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "Nothing",
+          "CollectionWeight" : 0,
+          "CardDropChanceModifiers" : [
+            {
+              "TagOnBoard" : {
+                "key" : "tag_Env_Levee",
+                "type" : "CardTag",
+                "count" : 2,
+                "name"  : {
+                  "zh" : "\u5824\u575D\u533A",
+                  "en" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ",
+                  "ja" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "
+                }
+              },
+              "LookInside" : 0,
+              "MaxWeightPerCard" : 1,
+              "MaxStack"         : 0
+            }
+          ],
+          "DroppedCards"            : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Flood Damage Event",
+          "CollectionWeight" : 1,
+          "CardDropChanceModifiers" : [
+            {
+              "TagOnBoard" : {
+                "key" : "tag_Env_Levee",
+                "type" : "CardTag",
+                "count" : 2,
+                "name"  : {
+                  "zh" : "\u5824\u575D\u533A",
+                  "en" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ",
+                  "ja" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "
+                }
+              },
+              "LookInside" : 0,
+              "MaxWeightPerCard" : -1,
+              "MaxStack"         : 0
+            }
+          ],
+          "DroppedCards"            : [
+            {
+              "DroppedCard" : {
+                "key" : "NOT_USED_Event_FloodDamageAreWasFlooded",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "CardData__NOT_USED_Event_FloodDamageAreWasFlooded__CardImage",
+                "name"     : {
+                  "zh" : "\u6DF9\u6CA1\u5730\u533A",
+                  "en" : "Area was Flooded",
+                  "ja" : "\u5834\u6240\u304C\u6D78\u6C34\u3057\u305F\uFF01"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "NOT_USED_FloodFlag_GreenFalls",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "FloodFlag_GreenFalls",
+              "en" : "FloodFlag_GreenFalls",
+              "ja" : "FloodFlag_GreenFalls"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "type"    : "SelfTriggeredAction",
+  "key"     : "NOT_USED_Tgr_FloodDamage_GreenFalls",
+  "name"    : {
+    "zh" : "NOT_USED_Tgr_FloodDamage_GreenFalls",
+    "en" : "NOT_USED_Tgr_FloodDamage_GreenFalls",
+    "ja" : "NOT_USED_Tgr_FloodDamage_GreenFalls"
+  },
+  "_uuid"   : "860ad75865d03aa43b4884f2826c9e07"
+}

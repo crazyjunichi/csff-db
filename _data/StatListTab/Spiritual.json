@@ -1,1 +1,224 @@
-{"TabName":{"zh":"\u7075\u89C6","en":"Spiritual","ja":"\u30B9\u30D4\u30EA\u30C1\u30E3\u30EB"},"Icon":{"FileName":"b263b06e2851c14a"},"ContainedStats":[{"key":"AlteredMindstate","type":"GameStat","icon":"b263b06e2851c14a","min":0.0,"max":300.0,"name":{"zh":"\u7CBE\u795E\u5931\u5E38","en":"Altered Mindstate","ja":"\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"}},{"key":"Will","type":"GameStat","icon":"5cc28f31113ec7cd","min":0.0,"max":100.0,"name":{"zh":"\u610F\u5FD7","en":"Will","ja":"\u610F\u5FD7"}},{"key":"Willpower","type":"GameStat","icon":"5cc28f31113ec7cd","min":0.0,"max":250.0,"name":{"zh":"\u610F\u5FD7\u529B","en":"Willpower","ja":"\u610F\u5FD7\u529B"}},{"key":"Flexibility","type":"GameStat","icon":"6456174d4ab93c9c","min":0.0,"max":100.0,"name":{"zh":"\u67D4\u97E7","en":"Flexibility","ja":"\u67D4\u8EDF\u6027"}},{"key":"MentalStructure","type":"GameStat","icon":"970da5f1f2e32aeb","min":0.0,"max":250.0,"name":{"zh":"\u4E16\u754C\u89C2","en":"Mental Structure","ja":"\u7CBE\u795E\u69CB\u9020"}},{"key":"BeastAffinity","type":"GameStat","icon":"279ede0c6bdbd7d2","min":0.0,"max":1000.0,"name":{"zh":"\u91CE\u517D\u4EB2\u548C\u5EA6","en":"Beast Affinity","ja":"\u7363\u306E\u89AA\u548C\u6027"}},{"key":"BirdAffinity","type":"GameStat","icon":"ecde740067147119","min":0.0,"max":1000.0,"name":{"zh":"\u79BD\u9E1F\u4EB2\u548C\u5EA6","en":"Bird Affinity","ja":"\u9CE5\u306E\u89AA\u548C\u6027"}},{"key":"BugAffinity","type":"GameStat","icon":"0b6a6ec873af24ed","min":0.0,"max":1000.0,"name":{"zh":"\u866B\u7C7B\u4EB2\u548C\u5EA6","en":"Bug Affinity","ja":"Bug Affinity"}},{"key":"EarthAffinity","type":"GameStat","icon":"dbd66ae4108b3861","min":0.0,"max":1000.0,"name":{"zh":"\u5927\u5730\u4EB2\u548C\u5EA6","en":"Earth Affinity","ja":"\u5730\u306E\u89AA\u548C\u6027"}},{"key":"FireAffinity","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":1000.0,"name":{"zh":"\u706B\u4EB2\u548C\u5EA6","en":"Fire Affinity","ja":"\u708E\u306E\u89AA\u548C\u6027"}},{"key":"FrostAffinity","type":"GameStat","icon":"2307358107fe28e3","min":0.0,"max":1000.0,"name":{"zh":"\u51B0\u971C\u4EB2\u548C\u5EA6","en":"Frost Affinity","ja":"\u6C37\u971C\u3068\u306E\u89AA\u548C\u6027"}},{"key":"WaterAffinity","type":"GameStat","icon":"27634ff8002b12e7","min":0.0,"max":1000.0,"name":{"zh":"\u6C34\u4EB2\u548C\u5EA6","en":"Water Affinity","ja":"\u6C34\u306E\u89AA\u548C\u6027"}},{"key":"FlintAffinity","type":"GameStat","icon":"ed490600b075becb","min":0.0,"max":1000.0,"name":{"zh":"\u71E7\u77F3\u4EB2\u548C\u5EA6","en":"Flint Affinity","ja":"\u706B\u6253\u3061\u306E\u89AA\u548C\u6027"}},{"key":"DarknessAffinity","type":"GameStat","icon":"63ad3072dc5472bb","min":0.0,"max":1000.0,"name":{"zh":"\u9ED1\u6697\u4EB2\u548C\u5EA6","en":"Darkness Affinity","ja":"\u95C7\u306E\u89AA\u548C\u6027"}},{"key":"FearAffinity","type":"GameStat","icon":"62f87002894df592","min":0.0,"max":1000.0,"name":{"zh":"\u6050\u60E7\u4EB2\u548C\u5EA6","en":"Fear Affinity","ja":"\u6050\u6016\u306E\u89AA\u548C\u6027"}},{"key":"WindAffinity","type":"GameStat","icon":"f184d49a1c223540","min":0.0,"max":1000.0,"name":{"zh":"\u98CE\u4EB2\u548C\u5EA6","en":"Wind Affinity","ja":"\u98A8\u306E\u89AA\u548C\u6027"}},{"key":"MoonAffinity","type":"GameStat","icon":"d502a50ed945d5fc","min":0.0,"max":1000.0,"name":{"zh":"\u6708\u4EB2\u548C\u5EA6","en":"Moon Affinity","ja":"\u6708\u3078\u306E\u89AA\u548C\u6027"}}],"type":"StatListTab","key":"Spiritual","name":{"zh":"\u7075\u89C6","en":"Spiritual","ja":"\u30B9\u30D4\u30EA\u30C1\u30E3\u30EB"}}
+
+{
+  "TabName" : {
+    "zh" : "\u7075\u89C6",
+    "en" : "Spiritual",
+    "ja" : "\u30B9\u30D4\u30EA\u30C1\u30E3\u30EB"
+  },
+  "Icon"    : {
+    "FileName" : "GameStat__AlteredMindstate__DefaultStatusIcon"
+  },
+  "ContainedStats" : [
+    {
+      "key" : "AlteredMindstate",
+      "type" : "GameStat",
+      "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 300.0,
+      "name" : {
+        "zh" : "\u7CBE\u795E\u5931\u5E38",
+        "en" : "Altered Mindstate",
+        "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+      }
+    },
+    {
+      "key" : "Will",
+      "type" : "GameStat",
+      "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 100.0,
+      "name" : {
+        "zh" : "\u610F\u5FD7",
+        "en" : "Will",
+        "ja" : "\u610F\u5FD7"
+      }
+    },
+    {
+      "key" : "Willpower",
+      "type" : "GameStat",
+      "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 250.0,
+      "name" : {
+        "zh" : "\u610F\u5FD7\u529B",
+        "en" : "Willpower",
+        "ja" : "\u610F\u5FD7\u529B"
+      }
+    },
+    {
+      "key" : "Flexibility",
+      "type" : "GameStat",
+      "icon" : "GameStat__DarkSense__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 100.0,
+      "name" : {
+        "zh" : "\u67D4\u97E7",
+        "en" : "Flexibility",
+        "ja" : "\u67D4\u8EDF\u6027"
+      }
+    },
+    {
+      "key" : "MentalStructure",
+      "type" : "GameStat",
+      "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+      "min"  : 0.0,
+      "max"  : 250.0,
+      "name" : {
+        "zh" : "\u4E16\u754C\u89C2",
+        "en" : "Mental Structure",
+        "ja" : "\u7CBE\u795E\u69CB\u9020"
+      }
+    },
+    {
+      "key" : "BeastAffinity",
+      "type" : "GameStat",
+      "icon" : "GameStat__BeastAffinity__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u91CE\u517D\u4EB2\u548C\u5EA6",
+        "en" : "Beast Affinity",
+        "ja" : "\u7363\u306E\u89AA\u548C\u6027"
+      }
+    },
+    {
+      "key" : "BirdAffinity",
+      "type" : "GameStat",
+      "icon" : "GameStat__BirdAffinity__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u79BD\u9E1F\u4EB2\u548C\u5EA6",
+        "en" : "Bird Affinity",
+        "ja" : "\u9CE5\u306E\u89AA\u548C\u6027"
+      }
+    },
+    {
+      "key" : "BugAffinity",
+      "type" : "GameStat",
+      "icon" : "GameStat__BugAffinity__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u866B\u7C7B\u4EB2\u548C\u5EA6",
+        "en" : "Bug Affinity",
+        "ja" : "Bug Affinity"
+      }
+    },
+    {
+      "key" : "EarthAffinity",
+      "type" : "GameStat",
+      "icon" : "CardData__Caves_FmOvergrownTunnel__Progress-OverrideIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u5927\u5730\u4EB2\u548C\u5EA6",
+        "en" : "Earth Affinity",
+        "ja" : "\u5730\u306E\u89AA\u548C\u6027"
+      }
+    },
+    {
+      "key" : "FireAffinity",
+      "type" : "GameStat",
+      "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u706B\u4EB2\u548C\u5EA6",
+        "en" : "Fire Affinity",
+        "ja" : "\u708E\u306E\u89AA\u548C\u6027"
+      }
+    },
+    {
+      "key" : "FrostAffinity",
+      "type" : "GameStat",
+      "icon" : "CardData__Basket__SpecialDurability3-OverrideIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u51B0\u971C\u4EB2\u548C\u5EA6",
+        "en" : "Frost Affinity",
+        "ja" : "\u6C37\u971C\u3068\u306E\u89AA\u548C\u6027"
+      }
+    },
+    {
+      "key" : "WaterAffinity",
+      "type" : "GameStat",
+      "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u6C34\u4EB2\u548C\u5EA6",
+        "en" : "Water Affinity",
+        "ja" : "\u6C34\u306E\u89AA\u548C\u6027"
+      }
+    },
+    {
+      "key" : "FlintAffinity",
+      "type" : "GameStat",
+      "icon" : "CardData__Bp_FlintBlessing__CardImage",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u71E7\u77F3\u4EB2\u548C\u5EA6",
+        "en" : "Flint Affinity",
+        "ja" : "\u706B\u6253\u3061\u306E\u89AA\u548C\u6027"
+      }
+    },
+    {
+      "key" : "DarknessAffinity",
+      "type" : "GameStat",
+      "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u9ED1\u6697\u4EB2\u548C\u5EA6",
+        "en" : "Darkness Affinity",
+        "ja" : "\u95C7\u306E\u89AA\u548C\u6027"
+      }
+    },
+    {
+      "key" : "FearAffinity",
+      "type" : "GameStat",
+      "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u6050\u60E7\u4EB2\u548C\u5EA6",
+        "en" : "Fear Affinity",
+        "ja" : "\u6050\u6016\u306E\u89AA\u548C\u6027"
+      }
+    },
+    {
+      "key" : "WindAffinity",
+      "type" : "GameStat",
+      "icon" : "GameStat__WindAffinity__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u98CE\u4EB2\u548C\u5EA6",
+        "en" : "Wind Affinity",
+        "ja" : "\u98A8\u306E\u89AA\u548C\u6027"
+      }
+    },
+    {
+      "key" : "MoonAffinity",
+      "type" : "GameStat",
+      "icon" : "GameStat__MoonAffinity__DefaultStatusIcon",
+      "min"  : 0.0,
+      "max"  : 1000.0,
+      "name" : {
+        "zh" : "\u6708\u4EB2\u548C\u5EA6",
+        "en" : "Moon Affinity",
+        "ja" : "\u6708\u3078\u306E\u89AA\u548C\u6027"
+      }
+    }
+  ],
+  "type"           : "StatListTab",
+  "key"            : "Spiritual",
+  "name"           : {
+    "zh" : "\u7075\u89C6",
+    "en" : "Spiritual",
+    "ja" : "\u30B9\u30D4\u30EA\u30C1\u30E3\u30EB"
+  }
+}

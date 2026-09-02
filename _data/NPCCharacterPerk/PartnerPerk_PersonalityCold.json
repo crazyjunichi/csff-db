@@ -1,1 +1,64 @@
-{"SunsCost":30,"MoonsCost":0,"StarsCost":0,"PerkName":{"zh":"\u51B7\u5CFB","en":"Cold","ja":"Cold"},"PerkDescription":{"zh":"\u66F4\u96BE\u7D2F\u8BA1\u5174\u81F4\uFF0C\u5E76\u66F4\u96BE\u5FC3\u6000\u611F\u6FC0\u3002","en":"Gains affection more slowly and finds it harder to be grateful.","ja":"Gains affection more slowly and finds it harder to be grateful."},"PerkIcon":{"FileName":"55aa9bdd01ba38d7"},"DisplayPriority":0.0,"PassiveNPCStatModifiers":[{"TargetStat":{"key":"Partner_Affection","type":"NPCStat","name":{"zh":"\u597D\u611F","en":"Partner_Affection","ja":"Partner_Affection"}},"RateChange":{"MaxValue":-0.5,"FloatValue":-0.5,"Active":true}},{"TargetStat":{"key":"Partner_Favour","type":"NPCStat","name":{"zh":"\u597D\u610F","en":"Partner_Favour","ja":"Partner_Favour"}},"RateChange":{"MaxValue":-0.25,"FloatValue":-0.25,"Active":true}}],"CheckingNotificationDetails":0,"type":"NPCCharacterPerk","key":"PartnerPerk_PersonalityCold","icon":"55aa9bdd01ba38d7","name":{"zh":"\u51B7\u5CFB","en":"Cold","ja":"Cold"},"_uuid":"080928d857abf434e852a56a2d948554"}
+
+{
+  "SunsCost" : 30,
+  "MoonsCost" : 0,
+  "StarsCost" : 0,
+  "PerkName"  : {
+    "zh" : "\u51B7\u5CFB",
+    "en" : "Cold",
+    "ja" : "Cold"
+  },
+  "PerkDescription" : {
+    "zh" : "\u66F4\u96BE\u7D2F\u8BA1\u5174\u81F4\uFF0C\u5E76\u66F4\u96BE\u5FC3\u6000\u611F\u6FC0\u3002",
+    "en" : "Gains affection more slowly and finds it harder to be grateful.",
+    "ja" : "Gains affection more slowly and finds it harder to be grateful."
+  },
+  "PerkIcon"        : {
+    "FileName" : "GameStat__Grief__DefaultStatusIcon"
+  },
+  "DisplayPriority" : 0.0,
+  "PassiveNPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "Partner_Affection",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u597D\u611F",
+          "en" : "Partner_Affection",
+          "ja" : "Partner_Affection"
+        }
+      },
+      "RateChange" : {
+        "MaxValue" : -0.5,
+        "FloatValue" : -0.5,
+        "Active"     : true
+      }
+    },
+    {
+      "TargetStat" : {
+        "key" : "Partner_Favour",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u597D\u610F",
+          "en" : "Partner_Favour",
+          "ja" : "Partner_Favour"
+        }
+      },
+      "RateChange" : {
+        "MaxValue" : -0.25,
+        "FloatValue" : -0.25,
+        "Active"     : true
+      }
+    }
+  ],
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "NPCCharacterPerk",
+  "key"                         : "PartnerPerk_PersonalityCold",
+  "icon"                        : "GameStat__Grief__DefaultStatusIcon",
+  "name"                        : {
+    "zh" : "\u51B7\u5CFB",
+    "en" : "Cold",
+    "ja" : "Cold"
+  },
+  "_uuid"                       : "080928d857abf434e852a56a2d948554"
+}

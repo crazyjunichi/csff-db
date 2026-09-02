@@ -1,1 +1,78 @@
-{"DutyName":{"zh":"\u5543\u98DF\u83DC\u56ED","en":"Hare Feed Garden","ja":"Hare Feed Garden"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":95.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":0,"ActionSequence":[{"key":"HareFeedGarden","type":"ChangeNPCStatDutyAction","name":{"zh":"HareFeedGarden","en":"HareFeedGarden","ja":"HareFeedGarden"}},{"key":"HareDamageFeedGarden","type":"AffectItemsDutyAction","name":{"zh":"HareDamageFeedGarden","en":"HareDamageFeedGarden","ja":"HareDamageFeedGarden"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Hare_FeedGarden","name":{"zh":"\u5543\u98DF\u83DC\u56ED","en":"Hare Feed Garden","ja":"Hare Feed Garden"},"_uuid":"5da464480834b72469e93e3eb368854b"}
+
+{
+  "DutyName" : {
+    "zh" : "\u5543\u98DF\u83DC\u56ED",
+    "en" : "Hare Feed Garden",
+    "ja" : "Hare Feed Garden"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 95.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "HareFeedGarden",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "HareFeedGarden",
+        "en" : "HareFeedGarden",
+        "ja" : "HareFeedGarden"
+      }
+    },
+    {
+      "key" : "HareDamageFeedGarden",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "HareDamageFeedGarden",
+        "en" : "HareDamageFeedGarden",
+        "ja" : "HareDamageFeedGarden"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Hare_FeedGarden",
+  "name"                             : {
+    "zh" : "\u5543\u98DF\u83DC\u56ED",
+    "en" : "Hare Feed Garden",
+    "ja" : "Hare Feed Garden"
+  },
+  "_uuid"                            : "5da464480834b72469e93e3eb368854b"
+}

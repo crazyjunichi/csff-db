@@ -1,1 +1,100 @@
-{"GameName":{"zh":"\u9ED1\u6697\u7075\u906D\u9047","en":"DarknessSpiritEncountered","ja":"DarknessSpiritEncountered"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1.0},"BaseRatePerTick":0.0,"StatPriority":0,"Visibility":2,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"StepValue":1.0},"type":"GameStat","key":"Stat_DarknessSpiritEncountered","name":{"zh":"\u9ED1\u6697\u7075\u906D\u9047","en":"DarknessSpiritEncountered","ja":"DarknessSpiritEncountered"},"min":0.0,"max":1.0,"_modifierValues":[{"source":{"key":"Event_DarknessSpiritAppeared","type":"CardData","CardType":3,"icon":"704c31110d689a8b","name":{"zh":"\u9ED1\u6697\u7CBE\u9B44","en":"Darkness Spirit","ja":"\u95C7\u306E\u7CBE\u970A"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5FFD\u7565","en":"Action: Ignore","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7121\u8996\u3059\u308B"},"value":{"x":1.0,"y":1.0}},{"source":{"key":"Event_DarknessSpiritAppeared","type":"CardData","CardType":3,"icon":"704c31110d689a8b","name":{"zh":"\u9ED1\u6697\u7CBE\u9B44","en":"Darkness Spirit","ja":"\u95C7\u306E\u7CBE\u970A"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u878D\u5408","en":"Action: Bind","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30D0\u30A4\u30F3\u30C9\u3059\u308B"},"value":{"x":1.0,"y":1.0}}],"_triggers":[{"source":{"key":"Tgr_DarknessSpiritBoundInsightBonus","type":"SelfTriggeredAction","name":{"zh":"Tgr_DarknessSpiritBoundInsightBonus","en":"Tgr_DarknessSpiritBoundInsightBonus","ja":"Tgr_DarknessSpiritBoundInsightBonus"}},"description":{"zh":"Tgr_DarknessSpiritBoundInsightBonus","en":"Tgr_DarknessSpiritBoundInsightBonus","ja":"Tgr_DarknessSpiritBoundInsightBonus"},"value":{"x":1.0,"y":1.0}}],"_uuid":"e70bb508e95efac478efa8b99f7d2930"}
+
+{
+  "GameName" : {
+    "zh" : "\u9ED1\u6697\u7075\u906D\u9047",
+    "en" : "DarknessSpiritEncountered",
+    "ja" : "DarknessSpiritEncountered"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Stat_DarknessSpiritEncountered",
+  "name"                    : {
+    "zh" : "\u9ED1\u6697\u7075\u906D\u9047",
+    "en" : "DarknessSpiritEncountered",
+    "ja" : "DarknessSpiritEncountered"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Event_DarknessSpiritAppeared",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "GameStat__Blindness__Statuses-0-Icon",
+        "name"     : {
+          "zh" : "\u9ED1\u6697\u7CBE\u9B44",
+          "en" : "Darkness Spirit",
+          "ja" : "\u95C7\u306E\u7CBE\u970A"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5FFD\u7565",
+        "en" : "Action: Ignore",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7121\u8996\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_DarknessSpiritAppeared",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "GameStat__Blindness__Statuses-0-Icon",
+        "name"     : {
+          "zh" : "\u9ED1\u6697\u7CBE\u9B44",
+          "en" : "Darkness Spirit",
+          "ja" : "\u95C7\u306E\u7CBE\u970A"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u878D\u5408",
+        "en" : "Action: Bind",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30D0\u30A4\u30F3\u30C9\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_DarknessSpiritBoundInsightBonus",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_DarknessSpiritBoundInsightBonus",
+          "en" : "Tgr_DarknessSpiritBoundInsightBonus",
+          "ja" : "Tgr_DarknessSpiritBoundInsightBonus"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_DarknessSpiritBoundInsightBonus",
+        "en" : "Tgr_DarknessSpiritBoundInsightBonus",
+        "ja" : "Tgr_DarknessSpiritBoundInsightBonus"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    }
+  ],
+  "_uuid"                   : "e70bb508e95efac478efa8b99f7d2930"
+}

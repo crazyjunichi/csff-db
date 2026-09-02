@@ -1,1 +1,68 @@
-{"SunsCost":15,"MoonsCost":0,"StarsCost":0,"PerkName":{"zh":"\u98DF\u6B32\u65FA\u76DB","en":"High Apetite","ja":"High Apetite"},"PerkDescription":{"zh":"\u589E\u52A0\u9965\u997F\u611F\u66F4\u5FEB\uFF0C\u8FDB\u98DF\u53D8\u5F97\u66F4\u5BB9\u6613\uFF0C\u56E0\u6B64\u66F4\u96BE\u51FA\u73B0\u8425\u517B\u4E0D\u826F\u7684\u60C5\u51B5\u3002","en":"Inceases hunger faster, making eating easier so it's harder to become malnourished.","ja":"Inceases hunger faster, making eating easier so it's harder to become malnourished."},"PerkIcon":{"FileName":"7a17661f0faba539"},"DisplayPriority":0.0,"PassiveNPCStatModifiers":[{"TargetStat":{"key":"Partner_Appetite","type":"NPCStat","name":{"zh":"\u98DF\u6B32","en":"Partner_Appetite","ja":"Partner_Appetite"}},"ValueChange":{"MaxValue":100.0,"FloatValue":100.0,"Active":true}},{"TargetStat":{"key":"Partner_Satiation","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u9971\u98DF","en":"Partner_Satiation","ja":"Partner_Satiation"}},"ValueChange":{"MaxValue":100.0,"FloatValue":100.0},"RateChange":{"MaxValue":-0.5,"FloatValue":-0.5,"Active":true}}],"CheckingNotificationDetails":0,"type":"NPCCharacterPerk","key":"PartnerPerk_HighAppetite","icon":"7a17661f0faba539","name":{"zh":"\u98DF\u6B32\u65FA\u76DB","en":"High Apetite","ja":"High Apetite"},"_uuid":"0e29424539ef2a54fa8243e90ef2dbd3"}
+
+{
+  "SunsCost" : 15,
+  "MoonsCost" : 0,
+  "StarsCost" : 0,
+  "PerkName"  : {
+    "zh" : "\u98DF\u6B32\u65FA\u76DB",
+    "en" : "High Apetite",
+    "ja" : "High Apetite"
+  },
+  "PerkDescription" : {
+    "zh" : "\u589E\u52A0\u9965\u997F\u611F\u66F4\u5FEB\uFF0C\u8FDB\u98DF\u53D8\u5F97\u66F4\u5BB9\u6613\uFF0C\u56E0\u6B64\u66F4\u96BE\u51FA\u73B0\u8425\u517B\u4E0D\u826F\u7684\u60C5\u51B5\u3002",
+    "en" : "Inceases hunger faster, making eating easier so it's harder to become malnourished.",
+    "ja" : "Inceases hunger faster, making eating easier so it's harder to become malnourished."
+  },
+  "PerkIcon"        : {
+    "FileName" : "GameStat__Appetite__DefaultStatusIcon"
+  },
+  "DisplayPriority" : 0.0,
+  "PassiveNPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "Partner_Appetite",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u98DF\u6B32",
+          "en" : "Partner_Appetite",
+          "ja" : "Partner_Appetite"
+        }
+      },
+      "ValueChange" : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 100.0,
+        "Active"     : true
+      }
+    },
+    {
+      "TargetStat" : {
+        "key" : "Partner_Satiation",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u540C\u4F34\u9971\u98DF",
+          "en" : "Partner_Satiation",
+          "ja" : "Partner_Satiation"
+        }
+      },
+      "ValueChange" : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 100.0
+      },
+      "RateChange"  : {
+        "MaxValue" : -0.5,
+        "FloatValue" : -0.5,
+        "Active"     : true
+      }
+    }
+  ],
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "NPCCharacterPerk",
+  "key"                         : "PartnerPerk_HighAppetite",
+  "icon"                        : "GameStat__Appetite__DefaultStatusIcon",
+  "name"                        : {
+    "zh" : "\u98DF\u6B32\u65FA\u76DB",
+    "en" : "High Apetite",
+    "ja" : "High Apetite"
+  },
+  "_uuid"                       : "0e29424539ef2a54fa8243e90ef2dbd3"
+}

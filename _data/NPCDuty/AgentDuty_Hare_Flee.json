@@ -1,1 +1,72 @@
-{"DutyName":{"zh":"\u9003\u8DD1","en":"Hare Flee","ja":"Hare Flee"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentMorale","type":"NPCStat","name":{"zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"}},"ConditionRange":{"x":0.0,"y":99.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"RememberWhenInterrupted":{"IntValue":0,"Active":true},"DutyExecutionOptions":0,"ActionSequence":[{"key":"HareFleeMove","type":"MoveDutyAction","name":{"zh":"HareFleeMove","en":"HareFleeMove","ja":"HareFleeMove"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Hare_Flee","name":{"zh":"\u9003\u8DD1","en":"Hare Flee","ja":"Hare Flee"},"_uuid":"30ce203453ec66a4196d6f1107ea89d0"}
+
+{
+  "DutyName" : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Hare Flee",
+    "ja" : "Hare Flee"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentMorale",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6597\u5FD7",
+            "en" : "AgentMorale",
+            "ja" : "AgentMorale"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 99.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "RememberWhenInterrupted" : {
+    "IntValue" : 0,
+    "Active"   : true
+  },
+  "DutyExecutionOptions"    : 0,
+  "ActionSequence"          : [
+    {
+      "key" : "HareFleeMove",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "HareFleeMove",
+        "en" : "HareFleeMove",
+        "ja" : "HareFleeMove"
+      }
+    }
+  ],
+  "GiveUpOptions"           : 0,
+  "GiveUpTicks"             : 0,
+  "type"                    : "NPCDuty",
+  "key"                     : "AgentDuty_Hare_Flee",
+  "name"                    : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Hare Flee",
+    "ja" : "Hare Flee"
+  },
+  "_uuid"                   : "30ce203453ec66a4196d6f1107ea89d0"
+}

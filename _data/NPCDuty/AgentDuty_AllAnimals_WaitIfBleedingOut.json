@@ -1,1 +1,68 @@
-{"DutyName":{"zh":"\u7B49\u5F85\u6D41\u8840","en":"All Animals Wait if Bleeding Out","ja":"All Animals Wait if Bleeding Out"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"ConditionRange":{"x":0.0,"y":6.0}}]},"DutyExecutionOptions":2,"ActionSequence":[{"key":"WaitIfBleedingOut","type":"WaitDutyAction","name":{"zh":"WaitIfBleedingOut","en":"WaitIfBleedingOut","ja":"WaitIfBleedingOut"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_AllAnimals_WaitIfBleedingOut","name":{"zh":"\u7B49\u5F85\u6D41\u8840","en":"All Animals Wait if Bleeding Out","ja":"All Animals Wait if Bleeding Out"},"_uuid":"18ae22b01b2ad314cb1b3aa8eda99539"}
+
+{
+  "DutyName" : {
+    "zh" : "\u7B49\u5F85\u6D41\u8840",
+    "en" : "All Animals Wait if Bleeding Out",
+    "ja" : "All Animals Wait if Bleeding Out"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBlood",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8840\u91CF",
+            "en" : "AgentBlood",
+            "ja" : "AgentBlood"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 6.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 2,
+  "ActionSequence"       : [
+    {
+      "key" : "WaitIfBleedingOut",
+      "type" : "WaitDutyAction",
+      "name" : {
+        "zh" : "WaitIfBleedingOut",
+        "en" : "WaitIfBleedingOut",
+        "ja" : "WaitIfBleedingOut"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_AllAnimals_WaitIfBleedingOut",
+  "name"                 : {
+    "zh" : "\u7B49\u5F85\u6D41\u8840",
+    "en" : "All Animals Wait if Bleeding Out",
+    "ja" : "All Animals Wait if Bleeding Out"
+  },
+  "_uuid"                : "18ae22b01b2ad314cb1b3aa8eda99539"
+}

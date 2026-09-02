@@ -1,1 +1,280 @@
-{"GameName":{"zh":"\u9633\u5149\u8FC7\u654F","en":"Sun Allergy","ja":"\u65E5\u5149\u30A2\u30EC\u30EB\u30AE\u30FC"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":1000.0},"BaseRatePerTick":-200.0,"StatPriority":0,"Visibility":2,"BarColor":{"r":0.8706,"g":0.4431,"b":0.4039,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"Statuses":[{"GameName":{"zh":"\u9633\u5149\u6652\u4F24","en":"Sun Damage","ja":"\u65E5\u5149\u30C0\u30E1\u30FC\u30B8"},"Description":{"zh":"\u6652\u4F24\u597D\u75DB\uFF01","en":"It burns!","ja":"\u3072\u308A\u3072\u308A\u3057\u3066\u75DB\u3044\uFF01"},"Icon":{"FileName":"407ff099a1450f38"},"ValueRange":{"m_X":100,"m_Y":500},"EffectsOnStats":[{"Stat":{"key":"Burns","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":1500.0,"name":{"zh":"\u70E7\u4F24","en":"Burns","ja":"\u706B\u50B7"}},"RateModifier":{"x":100.0,"y":100.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":3,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u91CD\u5EA6\u592A\u9633\u6652\u4F24","en":"Severe Sun Damage","ja":"\u3072\u3069\u3044\u65E5\u713C\u3051"},"Description":{"zh":"\u6652\u4F24\u597D\u75BC\uFF01\u8D85\u7EA7\u75BC\uFF01","en":"It burns! It burns!","ja":"\u713C\u3051\u904E\u304E\u3066\u75DB\u3044\uFF01\u75DB\u3044\uFF01\uFF01"},"Icon":{"FileName":"407ff099a1450f38"},"ValueRange":{"m_X":501,"m_Y":750},"EffectsOnStats":[{"Stat":{"key":"Burns","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":1500.0,"name":{"zh":"\u70E7\u4F24","en":"Burns","ja":"\u706B\u50B7"}},"RateModifier":{"x":150.0,"y":150.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":4,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0},{"GameName":{"zh":"\u6781\u5EA6\u592A\u9633\u6652\u4F24","en":"Extreme Sun Damage","ja":"\u6975\u5EA6\u306E\u65E5\u5149\u30C0\u30E1\u30FC\u30B8"},"Description":{"zh":"\u6652\u4F24\u597D\u75BC\uFF01\u8D85\u7EA7\u75BC\uFF01\u75DB\u6B7B\u6211\u4E86\uFF01","en":"It burns! It burns! It burns!","ja":"\u6691\u3044\uFF01\u75DB\u3044\uFF01\u75DB\u3044\uFF01\uFF01\uFF01"},"Icon":{"FileName":"407ff099a1450f38"},"ValueRange":{"m_X":751,"m_Y":1000},"EffectsOnStats":[{"Stat":{"key":"Burns","type":"GameStat","icon":"46ae976ee45d2eb4","min":0.0,"max":1500.0,"name":{"zh":"\u70E7\u4F24","en":"Burns","ja":"\u706B\u50B7"}},"RateModifier":{"x":200.0,"y":200.0}}],"NotifyPlayer":2,"RepeatTextNotification":0,"AlertLevel":4,"RepeatAlertSounds":0,"ActionsMaxTicks":0,"ConfidenceModifier":0.0}],"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"ShowActionEffects":true,"FeedbackInfo":{"Icon":{"FileName":"407ff099a1450f38"},"StepValue":1.0},"type":"GameStat","key":"SunAllergy","icon":"407ff099a1450f38","name":{"zh":"\u9633\u5149\u8FC7\u654F","en":"Sun Allergy","ja":"\u65E5\u5149\u30A2\u30EC\u30EB\u30AE\u30FC"},"min":0.0,"max":1000.0,"_modifierRates":[{"source":{"key":"SunExposure","type":"GameStat","icon":"840a7d224aeb1a26","min":0.0,"max":6.0,"name":{"zh":"\u9633\u5149\u8F90\u5C04","en":"Sun Exposure","ja":"\u65E5\u5149\u3078\u306E\u9732\u51FA"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u6CA1\u6709\u9633\u5149\u8F90\u5C04","en":"Status Stage: No Sun Exposure","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u65E5\u5149\u3078\u306E\u9732\u51FA\uFF1A\u306A\u3057"},"value":{"x":-200.0,"y":-200.0}},{"source":{"key":"SunExposure","type":"GameStat","icon":"840a7d224aeb1a26","min":0.0,"max":6.0,"name":{"zh":"\u9633\u5149\u8F90\u5C04","en":"Sun Exposure","ja":"\u65E5\u5149\u3078\u306E\u9732\u51FA"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u9633\u5149\u8F90\u5C04","en":"Status Stage: Weak Sun Exposure","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u65E5\u5149\u3078\u306E\u9732\u51FA\uFF1A\u8EFD\u5EA6"},"value":{"x":150.0,"y":150.0}},{"source":{"key":"SunExposure","type":"GameStat","icon":"840a7d224aeb1a26","min":0.0,"max":6.0,"name":{"zh":"\u9633\u5149\u8F90\u5C04","en":"Sun Exposure","ja":"\u65E5\u5149\u3078\u306E\u9732\u51FA"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u9633\u5149\u8F90\u5C04","en":"Status Stage: Moderate Sun Exposure","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u65E5\u5149\u3078\u306E\u9732\u51FA\uFF1A\u666E\u901A"},"value":{"x":175.0,"y":175.0}},{"source":{"key":"SunExposure","type":"GameStat","icon":"840a7d224aeb1a26","min":0.0,"max":6.0,"name":{"zh":"\u9633\u5149\u8F90\u5C04","en":"Sun Exposure","ja":"\u65E5\u5149\u3078\u306E\u9732\u51FA"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u9633\u5149\u8F90\u5C04","en":"Status Stage: Strong Sun Exposure","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u65E5\u5149\u3078\u306E\u9732\u51FA\uFF1A\u9AD8\u5EA6"},"value":{"x":200.0,"y":200.0}}],"_uuid":"c5789c18de91a6d4e9884ea4df2b6d30"}
+
+{
+  "GameName" : {
+    "zh" : "\u9633\u5149\u8FC7\u654F",
+    "en" : "Sun Allergy",
+    "ja" : "\u65E5\u5149\u30A2\u30EC\u30EB\u30AE\u30FC"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 1000.0
+  },
+  "BaseRatePerTick" : -200.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "BarColor"        : {
+    "r" : 0.8706,
+    "g" : 0.4431,
+    "b" : 0.4039,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "\u9633\u5149\u6652\u4F24",
+        "en" : "Sun Damage",
+        "ja" : "\u65E5\u5149\u30C0\u30E1\u30FC\u30B8"
+      },
+      "Description" : {
+        "zh" : "\u6652\u4F24\u597D\u75DB\uFF01",
+        "en" : "It burns!",
+        "ja" : "\u3072\u308A\u3072\u308A\u3057\u3066\u75DB\u3044\uFF01"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__SunAllergy__Statuses-0-Icon"
+      },
+      "ValueRange"  : {
+        "m_X" : 100,
+        "m_Y" : 500
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Burns",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u70E7\u4F24",
+              "en" : "Burns",
+              "ja" : "\u706B\u50B7"
+            }
+          },
+          "RateModifier" : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 3,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u91CD\u5EA6\u592A\u9633\u6652\u4F24",
+        "en" : "Severe Sun Damage",
+        "ja" : "\u3072\u3069\u3044\u65E5\u713C\u3051"
+      },
+      "Description" : {
+        "zh" : "\u6652\u4F24\u597D\u75BC\uFF01\u8D85\u7EA7\u75BC\uFF01",
+        "en" : "It burns! It burns!",
+        "ja" : "\u713C\u3051\u904E\u304E\u3066\u75DB\u3044\uFF01\u75DB\u3044\uFF01\uFF01"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__SunAllergy__Statuses-0-Icon"
+      },
+      "ValueRange"  : {
+        "m_X" : 501,
+        "m_Y" : 750
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Burns",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u70E7\u4F24",
+              "en" : "Burns",
+              "ja" : "\u706B\u50B7"
+            }
+          },
+          "RateModifier" : {
+            "x" : 150.0,
+            "y" : 150.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 4,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "\u6781\u5EA6\u592A\u9633\u6652\u4F24",
+        "en" : "Extreme Sun Damage",
+        "ja" : "\u6975\u5EA6\u306E\u65E5\u5149\u30C0\u30E1\u30FC\u30B8"
+      },
+      "Description" : {
+        "zh" : "\u6652\u4F24\u597D\u75BC\uFF01\u8D85\u7EA7\u75BC\uFF01\u75DB\u6B7B\u6211\u4E86\uFF01",
+        "en" : "It burns! It burns! It burns!",
+        "ja" : "\u6691\u3044\uFF01\u75DB\u3044\uFF01\u75DB\u3044\uFF01\uFF01\uFF01"
+      },
+      "Icon"        : {
+        "FileName" : "GameStat__SunAllergy__Statuses-0-Icon"
+      },
+      "ValueRange"  : {
+        "m_X" : 751,
+        "m_Y" : 1000
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Burns",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 1500.0,
+            "name" : {
+              "zh" : "\u70E7\u4F24",
+              "en" : "Burns",
+              "ja" : "\u706B\u50B7"
+            }
+          },
+          "RateModifier" : {
+            "x" : 200.0,
+            "y" : 200.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 2,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 4,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "ShowActionEffects"       : true,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "GameStat__SunAllergy__Statuses-0-Icon"
+    },
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "SunAllergy",
+  "icon"                    : "GameStat__SunAllergy__Statuses-0-Icon",
+  "name"                    : {
+    "zh" : "\u9633\u5149\u8FC7\u654F",
+    "en" : "Sun Allergy",
+    "ja" : "\u65E5\u5149\u30A2\u30EC\u30EB\u30AE\u30FC"
+  },
+  "min"                     : 0.0,
+  "max"                     : 1000.0,
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "SunExposure",
+        "type" : "GameStat",
+        "icon" : "GameStat__SunExposure__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 6.0,
+        "name" : {
+          "zh" : "\u9633\u5149\u8F90\u5C04",
+          "en" : "Sun Exposure",
+          "ja" : "\u65E5\u5149\u3078\u306E\u9732\u51FA"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6CA1\u6709\u9633\u5149\u8F90\u5C04",
+        "en" : "Status Stage: No Sun Exposure",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u65E5\u5149\u3078\u306E\u9732\u51FA\uFF1A\u306A\u3057"
+      },
+      "value"       : {
+        "x" : -200.0,
+        "y" : -200.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SunExposure",
+        "type" : "GameStat",
+        "icon" : "GameStat__SunExposure__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 6.0,
+        "name" : {
+          "zh" : "\u9633\u5149\u8F90\u5C04",
+          "en" : "Sun Exposure",
+          "ja" : "\u65E5\u5149\u3078\u306E\u9732\u51FA"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31\u9633\u5149\u8F90\u5C04",
+        "en" : "Status Stage: Weak Sun Exposure",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u65E5\u5149\u3078\u306E\u9732\u51FA\uFF1A\u8EFD\u5EA6"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SunExposure",
+        "type" : "GameStat",
+        "icon" : "GameStat__SunExposure__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 6.0,
+        "name" : {
+          "zh" : "\u9633\u5149\u8F90\u5C04",
+          "en" : "Sun Exposure",
+          "ja" : "\u65E5\u5149\u3078\u306E\u9732\u51FA"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u7B49\u9633\u5149\u8F90\u5C04",
+        "en" : "Status Stage: Moderate Sun Exposure",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u65E5\u5149\u3078\u306E\u9732\u51FA\uFF1A\u666E\u901A"
+      },
+      "value"       : {
+        "x" : 175.0,
+        "y" : 175.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SunExposure",
+        "type" : "GameStat",
+        "icon" : "GameStat__SunExposure__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 6.0,
+        "name" : {
+          "zh" : "\u9633\u5149\u8F90\u5C04",
+          "en" : "Sun Exposure",
+          "ja" : "\u65E5\u5149\u3078\u306E\u9732\u51FA"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F3A\u9633\u5149\u8F90\u5C04",
+        "en" : "Status Stage: Strong Sun Exposure",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u65E5\u5149\u3078\u306E\u9732\u51FA\uFF1A\u9AD8\u5EA6"
+      },
+      "value"       : {
+        "x" : 200.0,
+        "y" : 200.0
+      }
+    }
+  ],
+  "_uuid"                   : "c5789c18de91a6d4e9884ea4df2b6d30"
+}

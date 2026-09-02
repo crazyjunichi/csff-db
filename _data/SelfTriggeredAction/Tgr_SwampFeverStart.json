@@ -1,1 +1,189 @@
-{"Actions":[{"RepeatOptions":2,"ActionCooldown":0,"PlayerUsesCardCondition":0,"StatChangeTrigger":[{"Stat":{"key":"SwampFeverSporozoites","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":672.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u5B62\u5B50\u4F53","en":"Swamp Fever Sporozoites","ja":"Swamp Fever Sporozoites"}},"TriggerRange":{"x":672.0,"y":672.0}},{"Stat":{"key":"SwampFeverMerozoites","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":8.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u88C2\u6B96\u5B50","en":"Swamp Fever","ja":"Swamp Fever"}}}],"ActionName":{"zh":"New Sporozoid Infection ","en":"New Sporozoid Infection ","ja":"New Sporozoid Infection "},"DaytimeCost":0,"UseMiniTicks":0,"StatModifications":[{"Stat":{"key":"SwampFeverSporozoites","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":672.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u5B62\u5B50\u4F53","en":"Swamp Fever Sporozoites","ja":"Swamp Fever Sporozoites"}},"ValueModifier":{"x":-100000.0,"y":-100000.0}},{"Stat":{"key":"SwampFeverMerozoites","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":8.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u88C2\u6B96\u5B50","en":"Swamp Fever","ja":"Swamp Fever"}},"ValueModifier":{"x":1.0,"y":1.0}}],"RoomDirection":0,"ExitDirection":0},{"RepeatOptions":2,"ActionCooldown":0,"PlayerUsesCardCondition":0,"StatChangeTrigger":[{"Stat":{"key":"SwampFeverSporozoites","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":672.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u5B62\u5B50\u4F53","en":"Swamp Fever Sporozoites","ja":"Swamp Fever Sporozoites"}},"TriggerRange":{"x":672.0,"y":672.0}},{"Stat":{"key":"SwampFeverMerozoites","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":8.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u88C2\u6B96\u5B50","en":"Swamp Fever","ja":"Swamp Fever"}},"TriggerRange":{"x":1.0,"y":8.0}}],"ActionName":{"zh":"Existing Sporozoid Infection ","en":"Existing Sporozoid Infection ","ja":"Existing Sporozoid Infection "},"DaytimeCost":0,"UseMiniTicks":0,"StatModifications":[{"Stat":{"key":"SwampFeverSporozoites","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":672.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u5B62\u5B50\u4F53","en":"Swamp Fever Sporozoites","ja":"Swamp Fever Sporozoites"}},"ValueModifier":{"x":-100000.0,"y":-100000.0}},{"Stat":{"key":"SwampFeverInfectedRBCs","type":"GameStat","icon":"5780df68fc82bfb7","min":0.0,"max":100000.0,"name":{"zh":"\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE","en":"Swamp Fever Infected RBCs","ja":"Swamp Fever Infected RBCs"}},"ValueModifier":{"x":300.0,"y":300.0}}],"RoomDirection":0,"ExitDirection":0}],"type":"SelfTriggeredAction","key":"Tgr_SwampFeverStart","name":{"zh":"Tgr_SwampFeverStart","en":"Tgr_SwampFeverStart","ja":"Tgr_SwampFeverStart"},"_uuid":"16d5f0f058765a94bb1811e9adad2a23"}
+
+{
+  "Actions" : [
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SwampFeverSporozoites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 672.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u5B62\u5B50\u4F53",
+              "en" : "Swamp Fever Sporozoites",
+              "ja" : "Swamp Fever Sporozoites"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 672.0,
+            "y" : 672.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampFeverMerozoites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 8.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u88C2\u6B96\u5B50",
+              "en" : "Swamp Fever",
+              "ja" : "Swamp Fever"
+            }
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "New Sporozoid Infection ",
+        "en" : "New Sporozoid Infection ",
+        "ja" : "New Sporozoid Infection "
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "SwampFeverSporozoites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 672.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u5B62\u5B50\u4F53",
+              "en" : "Swamp Fever Sporozoites",
+              "ja" : "Swamp Fever Sporozoites"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -100000.0,
+            "y" : -100000.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampFeverMerozoites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 8.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u88C2\u6B96\u5B50",
+              "en" : "Swamp Fever",
+              "ja" : "Swamp Fever"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SwampFeverSporozoites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 672.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u5B62\u5B50\u4F53",
+              "en" : "Swamp Fever Sporozoites",
+              "ja" : "Swamp Fever Sporozoites"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 672.0,
+            "y" : 672.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampFeverMerozoites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 8.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u88C2\u6B96\u5B50",
+              "en" : "Swamp Fever",
+              "ja" : "Swamp Fever"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 8.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Existing Sporozoid Infection ",
+        "en" : "Existing Sporozoid Infection ",
+        "ja" : "Existing Sporozoid Infection "
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "SwampFeverSporozoites",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 672.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u5B62\u5B50\u4F53",
+              "en" : "Swamp Fever Sporozoites",
+              "ja" : "Swamp Fever Sporozoites"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -100000.0,
+            "y" : -100000.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "SwampFeverInfectedRBCs",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fever__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100000.0,
+            "name" : {
+              "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
+              "en" : "Swamp Fever Infected RBCs",
+              "ja" : "Swamp Fever Infected RBCs"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 300.0,
+            "y" : 300.0
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "type"    : "SelfTriggeredAction",
+  "key"     : "Tgr_SwampFeverStart",
+  "name"    : {
+    "zh" : "Tgr_SwampFeverStart",
+    "en" : "Tgr_SwampFeverStart",
+    "ja" : "Tgr_SwampFeverStart"
+  },
+  "_uuid"   : "16d5f0f058765a94bb1811e9adad2a23"
+}

@@ -1,1 +1,118 @@
-{"ActionName":{"zh":"\u731B\u51FB","en":"Bash","ja":"\u30D0\u30C3\u30B7\u30E5"},"MainHandUse":0,"OffHandUse":0,"BothHandsUse":0,"RequiredDistance":0,"RequiredWrestlingStateOverride":true,"RequiredWrestlingState":2,"RequiredAmbush":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"ActionRange":0,"ActionType":0,"AmmoNeededOverride":0,"Cooldown":0,"LimitedUses":0,"ClashPerEnemySize":{"FloatValue":-0.5},"ClashStatInfluencesOverride":1,"DamageTypeOverride":1,"DmgPerEnemySize":{"FloatValue":-0.5},"DamageStatInfluencesOverride":1,"DamageStatInfluences":[{"Stat":{"key":"Strength","type":"GameStat","icon":"a644f87b0f2627ac","min":0.0,"max":288.0,"name":{"zh":"\u529B\u91CF","en":"Strength","ja":"\u7B4B\u529B"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":288.0},"OutputValueRange":{"x":0.0,"y":50.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"DurabilityModifiersOverride":0,"InHandsModifierOverride":0,"PreClashDistanceChange":0,"OpponentVulnerableStateChange":{"Change":0,"PercentageChance":{"UseChance":true,"ChanceValue":0.5}},"WeaponEquipStateChange":0,"ActionStatChanges":[{"Stat":{"key":"Skill_ClubFighting","type":"GameStat","min":0.0,"max":150.0,"name":{"zh":"\u68CD\u672F","en":"ClubFighting","ja":"\u91D1\u68D2\u4F7F\u3044"}},"ValueModifier":{"x":1.0,"y":1.0}},{"Stat":{"key":"Stamina","type":"GameStat","icon":"a712984d490248f6","min":0.0,"max":32.0,"name":{"zh":"\u8010\u529B","en":"Stamina","ja":"\u30B9\u30BF\u30DF\u30CA"}},"ValueModifier":{"x":-0.2,"y":-0.2}}],"EncounterResult":0,"type":"WeaponMove","key":"TorchOff_Bash","name":{"zh":"\u731B\u51FB","en":"Bash","ja":"\u30D0\u30C3\u30B7\u30E5"}}
+
+{
+  "ActionName" : {
+    "zh" : "\u731B\u51FB",
+    "en" : "Bash",
+    "ja" : "\u30D0\u30C3\u30B7\u30E5"
+  },
+  "MainHandUse" : 0,
+  "OffHandUse"  : 0,
+  "BothHandsUse" : 0,
+  "RequiredDistance" : 0,
+  "RequiredWrestlingStateOverride" : true,
+  "RequiredWrestlingState"         : 2,
+  "RequiredAmbush"                 : 0,
+  "RequiredSelfVulnerableState"    : 0,
+  "RequiredOpponentVulnerableState" : 0,
+  "ActionRange"                     : 0,
+  "ActionType"                      : 0,
+  "AmmoNeededOverride"              : 0,
+  "Cooldown"                        : 0,
+  "LimitedUses"                     : 0,
+  "ClashPerEnemySize"               : {
+    "FloatValue" : -0.5
+  },
+  "ClashStatInfluencesOverride"     : 1,
+  "DamageTypeOverride"              : 1,
+  "DmgPerEnemySize"                 : {
+    "FloatValue" : -0.5
+  },
+  "DamageStatInfluencesOverride"    : 1,
+  "DamageStatInfluences"            : [
+    {
+      "Stat" : {
+        "key" : "Strength",
+        "type" : "GameStat",
+        "icon" : "CardData__Carcass_BearCarcass__SpecialDurability1-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u529B\u91CF",
+          "en" : "Strength",
+          "ja" : "\u7B4B\u529B"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 288.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 50.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "DurabilityModifiersOverride"     : 0,
+  "InHandsModifierOverride"         : 0,
+  "PreClashDistanceChange"          : 0,
+  "OpponentVulnerableStateChange"   : {
+    "Change" : 0,
+    "PercentageChance" : {
+      "UseChance" : true,
+      "ChanceValue" : 0.5
+    }
+  },
+  "WeaponEquipStateChange"          : 0,
+  "ActionStatChanges"               : [
+    {
+      "Stat" : {
+        "key" : "Skill_ClubFighting",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 150.0,
+        "name" : {
+          "zh" : "\u68CD\u672F",
+          "en" : "ClubFighting",
+          "ja" : "\u91D1\u68D2\u4F7F\u3044"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "Stamina",
+        "type" : "GameStat",
+        "icon" : "GameStat__Stamina__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 32.0,
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "Stamina",
+          "ja" : "\u30B9\u30BF\u30DF\u30CA"
+        }
+      },
+      "ValueModifier" : {
+        "x" : -0.2,
+        "y" : -0.2
+      }
+    }
+  ],
+  "EncounterResult"                 : 0,
+  "type"                            : "WeaponMove",
+  "key"                             : "TorchOff_Bash",
+  "name"                            : {
+    "zh" : "\u731B\u51FB",
+    "en" : "Bash",
+    "ja" : "\u30D0\u30C3\u30B7\u30E5"
+  }
+}

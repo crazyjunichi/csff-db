@@ -1,1 +1,35 @@
-{"Conditions":{"PlayerUsesCard":0,"RequiredCardsInInventory":[{"key":"Pickaxe","type":"CardData","CardType":0,"icon":"1f4afd43194bb5a2","name":{"zh":"\u9550","en":"Pickaxe","ja":"\u30C4\u30EB\u30CF\u30B7"}}]},"OnTrue":{"Outcome":0,"MoveToStep":3},"OnFalse":{"Outcome":1,"MoveToStep":6},"key":"Has Pickaxe","type":"NPCDutyAction","name":{"zh":"Has Pickaxe","en":"Has Pickaxe","ja":"Has Pickaxe"},"actionType":"TakeSimpleDecisionDutyAction"}
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsInInventory" : [
+      {
+        "key" : "Pickaxe",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Pickaxe_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u9550",
+          "en" : "Pickaxe",
+          "ja" : "\u30C4\u30EB\u30CF\u30B7"
+        }
+      }
+    ]
+  },
+  "OnTrue"     : {
+    "Outcome" : 0,
+    "MoveToStep" : 3
+  },
+  "OnFalse"    : {
+    "Outcome" : 1,
+    "MoveToStep" : 6
+  },
+  "key"        : "Has Pickaxe",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "Has Pickaxe",
+    "en" : "Has Pickaxe",
+    "ja" : "Has Pickaxe"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

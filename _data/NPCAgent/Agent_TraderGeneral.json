@@ -1,1 +1,3775 @@
-{"AgentName":{"zh":"\u5546\u4EBA","en":"Trader","ja":"\u5546\u4EBA"},"AgentDescription":{"zh":"\u4E00\u4F4D\u5E74\u8FC8\u7684\u65C5\u8005\u4E0E\u4ED6\u7684\u9AA1\u5B50\u4F19\u8BA1\u5728\u8FD9\u9732\u8425\u3002","en":"An old traveller and his mule companion are camping here. ","ja":"\u5E74\u53D6\u3063\u305F\u65C5\u4EBA\u3068\u5F7C\u306E\u30E9\u30D0\u304C\u3053\u3053\u3067\u30AD\u30E3\u30F3\u30D7\u3057\u3066\u308B\u3002"},"AgentImage":{"FileName":"1771895abd68a02f"},"Interactions":[{"ButtonName":{"zh":"\u63A5\u89E6","en":"Approach","ja":"\u8FD1\u3065\u304F"},"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"Agent_TraderGeneral","type":"NPCAgent","icon":"1771895abd68a02f","name":{"zh":"\u5546\u4EBA","en":"Trader","ja":"\u5546\u4EBA"}},"TargetStat":{"key":"SeenPlayerEver","type":"NPCStat","name":{"zh":"\u89C1\u8FC7\u73A9\u5BB6","en":"SeenPlayerEver","ja":"SeenPlayerEver"}}}]},"ButtonType":0,"Dialog":{"key":"TraderIntroGeneral","type":"DialogScene","firstLine":{"zh":"\u90A3\u4E2A\u7537\u4EBA\u89C1\u5230\u4F60\u4F3C\u4E4E\u5F88\u60CA\u8BB6\u3002","en":"The man seems surprised to see you.","ja":"\u7537\u306F\u3042\u306A\u305F\u306B\u4F1A\u3063\u3066\u9A5A\u3044\u305F\u3088\u3046\u3060\u3002 "}}},{"ButtonName":{"zh":"\u4EA4\u8C08","en":"Talk","ja":"\u8A71\u3059"},"Conditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"Agent_TraderGeneral","type":"NPCAgent","icon":"1771895abd68a02f","name":{"zh":"\u5546\u4EBA","en":"Trader","ja":"\u5546\u4EBA"}},"TargetStat":{"key":"SeenPlayerEver","type":"NPCStat","name":{"zh":"\u89C1\u8FC7\u73A9\u5BB6","en":"SeenPlayerEver","ja":"SeenPlayerEver"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"ButtonType":0,"Dialog":{"key":"TraderTalkGeneral","type":"DialogScene","firstLine":{"zh":"\u90A3\u4E2A\u7537\u4EBA\u5411\u4F60\u5FAE\u7B11\u3002","en":"The man smiles at you.","ja":"\u7537\u306F\u3042\u306A\u305F\u306B\u5FAE\u7B11\u3080\u3002"}}}],"AmbientSoundRealRange":0.0,"AmbientSoundNodesRange":0,"AgentStats":[{"ModelStat":{"GameName":{"zh":"\u5546\u4EBA\u53EF\u7528","en":"AgentTraderAvailable","ja":"AgentTraderAvailable"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTraderAvailable","zh":"\u5546\u4EBA\u53EF\u7528","en":"AgentTraderAvailable","ja":"AgentTraderAvailable"},"OverrideStartingValue":{"FloatValue":1.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":1.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8BA1\u6B65\u5668","en":"Agent Counter","ja":"Agent Counter"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":10000.0},"DefaultRate":1.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentCounter","zh":"\u8BA1\u6B65\u5668","en":"AgentCounter","ja":"AgentCounter"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u89C1\u8FC7\u73A9\u5BB6","en":"Seen Player Ever","ja":"Seen Player Ever"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"SeenPlayerEver","zh":"\u89C1\u8FC7\u73A9\u5BB6","en":"SeenPlayerEver","ja":"SeenPlayerEver"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u4ECA\u5929\u89C1\u8FC7\u73A9\u5BB6","en":"Seen Player Today","ja":"Seen Player Today"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":64.0},"DefaultRate":-1.0,"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"SeenPlayerToday","zh":"\u4ECA\u5929\u89C1\u8FC7\u73A9\u5BB6","en":"SeenPlayerToday","ja":"SeenPlayerToday"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u4FE1\u4EFB\u5EA6","en":"Agent Trust","ja":"Agent Trust"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":20000.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":20000.0},"StatScalingToModifiers":[{"InterpolatedValue":{"InputStat":{"key":"Empathy","type":"GameStat","icon":"9bfeb7135e9607fd","min":0.0,"max":100.0,"name":{"zh":"\u4FE1\u4EFB","en":"Empathy","ja":"Empathy"}},"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.9,"y":1.1},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}},{"InterpolatedValue":{"InputStat":{"key":"Skill_Socials","type":"GameStat","icon":"52649902b67c6c1a","min":0.0,"max":150.0,"name":{"zh":"\u4EBA\u60C5\u7EC3\u8FBE","en":"Socials","ja":"\u793E\u4EA4"}},"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":0.9,"y":1.1},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentTrust","zh":"\u4FE1\u4EFB\u5EA6","en":"AgentTrust","ja":"AgentTrust"},"OverrideStartingValue":{"FloatValue":250.0},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8BF7\u6C42\u94DC\u5200","en":"Agent Request Copper Knife","ja":"Agent Request Copper Knife"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRequestCopperKnife","zh":"\u8BF7\u6C42\u94DC\u5200","en":"AgentRequestCopperKnife","ja":"AgentRequestCopperKnife"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"Agent Request Food","ja":"Agent Request Food"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRequestFood","zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8BF7\u6C42\u706B\u9570","en":"Agent Request Iron Striker","ja":"Agent Request Iron Striker"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRequestIronStriker","zh":"\u8BF7\u6C42\u706B\u9570","en":"AgentRequestIronStriker","ja":"AgentRequestIronStriker"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8BF7\u6C42\u77F3\u81FC\u548C\u6775","en":"Agent Request Mortar and Pestle","ja":"Agent Request Mortar and Pestle"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRequestMortarAndPestle","zh":"\u8BF7\u6C42\u77F3\u81FC\u548C\u6775","en":"AgentRequestMortarAndPestle","ja":"AgentRequestMortarAndPestle"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8BF7\u6C42\u76D0","en":"Agent Request Salt","ja":"Agent Request Salt"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRequestSalt","zh":"\u8BF7\u6C42\u76D0","en":"AgentRequestSalt","ja":"AgentRequestSalt"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8BF7\u6C42\u9521","en":"Agent Request Tin","ja":"Agent Request Tin"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRequestTin","zh":"\u8BF7\u6C42\u9521","en":"AgentRequestTin","ja":"AgentRequestTin"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u8BF7\u6C42\u953B\u9020\u9524","en":"Agent Request Forge Hammer","ja":"Agent Request Forge Hammer"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentRequestForgeHammer","zh":"\u8BF7\u6C42\u953B\u9020\u9524","en":"AgentRequestForgeHammer","ja":"AgentRequestForgeHammer"},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u59D4\u6258\u53EF\u7528-\u94DC\u5757","en":"AgentCommisionAvailableCopperNuggets","ja":"AgentCommisionAvailableCopperNuggets"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentCommisionAvailableCopperNuggets","zh":"\u59D4\u6258\u53EF\u7528-\u94DC\u5757","en":"AgentCommisionAvailableCopperNuggets","ja":"AgentCommisionAvailableCopperNuggets"},"OverrideStartingValue":{"FloatValue":1.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":1.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0},{"ModelStat":{"GameName":{"zh":"\u59D4\u6258\u53EF\u7528-\u9E67\u9E2A\u86CB","en":"AgentCommisionAvailablePartridgeEggs","ja":"AgentCommisionAvailablePartridgeEggs"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":0.0,"y":1.0},"DefaultRate":0.0,"DefaultMinMaxRate":{"x":0.0,"y":1.0},"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"key":"AgentCommisionAvailablePartridgeEggs","zh":"\u59D4\u6258\u53EF\u7528-\u9E67\u9E2A\u86CB","en":"AgentCommisionAvailablePartridgeEggs","ja":"AgentCommisionAvailablePartridgeEggs"},"OverrideStartingValue":{"FloatValue":1.0,"Active":true},"OverrideMinMaxValue":{"MaxValue":1.0,"FloatValue":0.0,"Active":true},"StatAddedPercentageToModifiersOverride":0,"NPCStatAddedPercentageToModifiersOverride":0,"StatusesOverride":0}],"AgentActions":[{"ActionID":"Prepare salt or items request for arival at Green Glade Spring_1","ActionLocalizedName":{"zh":"Prepare salt or items request for arival at Green Glade Spring_1","en":"Prepare salt or items request for arival at Green Glade Spring_1","ja":"Prepare salt or items request for arival at Green Glade Spring_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Spring","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6625\u5B63","en":"Spring Counter","ja":"Spring Counter"}},"TriggerRange":{"x":1433.0,"y":1434.0}}]},"DroppedCards":[{"CollectionName":"Salt or items request","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Salt","type":"CardData","CardType":0,"icon":"1bcf74ba15622258","name":{"zh":"\u76D0","en":"Salt","ja":"\u5869"}},"Quantity":{"m_X":18,"m_Y":36},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestSalt","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u76D0","en":"AgentRequestSalt","ja":"AgentRequestSalt"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"StoneMortarAndPestle","type":"CardData","CardType":0,"icon":"6a2333b51da90999","name":{"zh":"\u77F3\u81FC\u548C\u77F3\u6775","en":"Stone Mortar and Pestle","ja":"\u77F3\u306E\u4E73\u9262\u3068\u4E73\u68D2"}},"Quantity":{"m_X":1,"m_Y":1},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestMortarAndPestle","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u77F3\u81FC\u548C\u6775","en":"AgentRequestMortarAndPestle","ja":"AgentRequestMortarAndPestle"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"Knife_CopperTrader","type":"CardData","CardType":0,"icon":"d684bada7c0a723f","name":{"zh":"Copper Knife Trader","en":"Copper Knife Trader","ja":"Copper Knife Trader"}},"Quantity":{"m_X":1,"m_Y":1},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestCopperKnife","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u94DC\u5200","en":"AgentRequestCopperKnife","ja":"AgentRequestCopperKnife"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"IronStriker","type":"CardData","CardType":0,"icon":"6a58f4ebf8051bb8","name":{"zh":"\u706B\u9570","en":"Iron Striker","ja":"\u9244\u88FD\u30B9\u30C8\u30E9\u30A4\u30AB\u30FC"}},"Quantity":{"m_X":1,"m_Y":1},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestIronStriker","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u706B\u9570","en":"AgentRequestIronStriker","ja":"AgentRequestIronStriker"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"ForgeHammer","type":"CardData","CardType":0,"icon":"0e02574060362401","name":{"zh":"\u953B\u9020\u9524","en":"Forge Hammer","ja":"\u935B\u51B6\u306E\u30CF\u30F3\u30DE\u30FC"}},"Quantity":{"m_X":1,"m_Y":1},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestForgeHammer","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u953B\u9020\u9524","en":"AgentRequestForgeHammer","ja":"AgentRequestForgeHammer"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"MetalNuggetTraderTin","type":"CardData","CardType":0,"icon":"543443456458eaf8","name":{"zh":"\u91D1\u5C5E\u5757","en":"Metal Nugget","ja":"\u91D1\u5C5E\u584A"}},"Quantity":{"m_X":1,"m_Y":3},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestTin","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u9521","en":"AgentRequestTin","ja":"AgentRequestTin"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}}],"DropCardsInsideInventory":true}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"Prepare food request for arival at Green Glade Spring_1","ActionLocalizedName":{"zh":"Prepare food request for arival at Green Glade Spring_1","en":"Prepare food request for arival at Green Glade Spring_1","ja":"Prepare food request for arival at Green Glade Spring_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Spring","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6625\u5B63","en":"Spring Counter","ja":"Spring Counter"}},"TriggerRange":{"x":1435.0,"y":1436.0}}]},"DroppedCards":[{"CollectionName":"Food request","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"RyeGrainsRaw","type":"CardData","CardType":0,"icon":"6289ae9aeb720ba2","name":{"zh":"\u9ED1\u9EA6\u7C92","en":"Rye Grains","ja":"\u30E9\u30A4\u9EA6"}},"Quantity":{"m_X":16,"m_Y":32},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"WheatGrainsRaw","type":"CardData","CardType":0,"icon":"afb5a869107904d4","name":{"zh":"\u5C0F\u9EA6\u7C92","en":"Wheat Grains","ja":"\u5C0F\u9EA6\u7C92"}},"Quantity":{"m_X":16,"m_Y":32},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"FlaxSeeds","type":"CardData","CardType":0,"icon":"6289ae9aeb720ba2","name":{"zh":"\u4E9A\u9EBB\u79CD\u5B50","en":"Flax Seeds","ja":"\u4E9C\u9EBB\u306E\u7A2E"}},"Quantity":{"m_X":16,"m_Y":32},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"MeatDried","type":"CardData","CardType":0,"icon":"9abd2c42e77805da","name":{"zh":"\u8089\u5E72","en":"Dried Meat","ja":"\u4E7E\u71E5\u3057\u305F\u8089"}},"Quantity":{"m_X":12,"m_Y":24},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"TurnrootDried","type":"CardData","CardType":0,"icon":"e8394373162f7a01","name":{"zh":"\u5E72\u7FFB\u6839","en":"Dried Turnroot","ja":"\u4E7E\u71E5\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8"}},"Quantity":{"m_X":12,"m_Y":24},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}}],"DropCardsInsideInventory":true}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"Prepare items for Arrive at Green Glade Spring_1","ActionLocalizedName":{"zh":"Prepare regular for arival at Green Glade Spring_1","en":"Prepare regular for arival at Green Glade Spring_1","ja":"Prepare regular for arival at Green Glade Spring_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Spring","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6625\u5B63","en":"Spring Counter","ja":"Spring Counter"}},"TriggerRange":{"x":1437.0,"y":1438.0}}]},"DroppedCards":[{"CollectionName":"Regular","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"PeasDried","type":"CardData","CardType":0,"icon":"2cb985ce6f362be7","name":{"zh":"\u5E72\u8C4C\u8C46","en":"Dried Peas","ja":"\u4E7E\u71E5\u3057\u305F\u30D4\u30FC\u30B9"}},"Quantity":{"m_X":8,"m_Y":16}},{"DroppedCard":{"key":"RyeGrainsRaw","type":"CardData","CardType":0,"icon":"6289ae9aeb720ba2","name":{"zh":"\u9ED1\u9EA6\u7C92","en":"Rye Grains","ja":"\u30E9\u30A4\u9EA6"}},"Quantity":{"m_X":8,"m_Y":16}},{"DroppedCard":{"key":"WheatGrainsRaw","type":"CardData","CardType":0,"icon":"afb5a869107904d4","name":{"zh":"\u5C0F\u9EA6\u7C92","en":"Wheat Grains","ja":"\u5C0F\u9EA6\u7C92"}},"Quantity":{"m_X":8,"m_Y":16}},{"DroppedCard":{"key":"FlaxSeeds","type":"CardData","CardType":0,"icon":"6289ae9aeb720ba2","name":{"zh":"\u4E9A\u9EBB\u79CD\u5B50","en":"Flax Seeds","ja":"\u4E9C\u9EBB\u306E\u7A2E"}},"Quantity":{"m_X":8,"m_Y":16}},{"DroppedCard":{"key":"Salt","type":"CardData","CardType":0,"icon":"1bcf74ba15622258","name":{"zh":"\u76D0","en":"Salt","ja":"\u5869"}},"Quantity":{"m_X":8,"m_Y":12}},{"DroppedCard":{"key":"PouchTrader","type":"CardData","CardType":0,"icon":"235e6d22fdb6eda7","name":{"zh":"\u888B\u5B50","en":"Pouch","ja":"\u5C0F\u888B"}},"Quantity":{"m_X":4,"m_Y":4}},{"DroppedCard":{"key":"MeatDried","type":"CardData","CardType":0,"icon":"9abd2c42e77805da","name":{"zh":"\u8089\u5E72","en":"Dried Meat","ja":"\u4E7E\u71E5\u3057\u305F\u8089"}},"Quantity":{"m_X":6,"m_Y":12}},{"DroppedCard":{"key":"TurnrootDried","type":"CardData","CardType":0,"icon":"e8394373162f7a01","name":{"zh":"\u5E72\u7FFB\u6839","en":"Dried Turnroot","ja":"\u4E7E\u71E5\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8"}},"Quantity":{"m_X":6,"m_Y":12}},{"DroppedCard":{"key":"MetalNuggetTraderTin","type":"CardData","CardType":0,"icon":"543443456458eaf8","name":{"zh":"\u91D1\u5C5E\u5757","en":"Metal Nugget","ja":"\u91D1\u5C5E\u584A"}},"Quantity":{"m_X":1,"m_Y":3}}],"DropCardsInsideInventory":true}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"Arrive at Green Glade Spring_1","ActionLocalizedName":{"zh":"Arrive at Green Glade Spring_1","en":"Arrive at Green Glade Spring_1","ja":"Arrive at Green Glade Spring_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Spring","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6625\u5B63","en":"Spring Counter","ja":"Spring Counter"}},"TriggerRange":{"x":1440.0,"y":1441.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":2880.0,"y":1000000000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRequestCopperKnife","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u94DC\u5200","en":"AgentRequestCopperKnife","ja":"AgentRequestCopperKnife"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestIronStriker","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u706B\u9570","en":"AgentRequestIronStriker","ja":"AgentRequestIronStriker"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestMortarAndPestle","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u77F3\u81FC\u548C\u6775","en":"AgentRequestMortarAndPestle","ja":"AgentRequestMortarAndPestle"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestSalt","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u76D0","en":"AgentRequestSalt","ja":"AgentRequestSalt"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestTin","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u9521","en":"AgentRequestTin","ja":"AgentRequestTin"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestForgeHammer","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u953B\u9020\u9524","en":"AgentRequestForgeHammer","ja":"AgentRequestForgeHammer"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"MoveToEnvironment":{"key":"Env_ClearingOak_GreenGlade","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u91CE\u7A7A\u5730","en":"Green Glade","ja":"\u7DD1\u306E\u5E83\u5834"}},"MoveTiming":0,"SpawnNPCS":[{"SpawnOption":1,"AgentModel":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}}}]},{"ActionID":"Arrive at Green Glade Spring_2","ActionLocalizedName":{"zh":"Arrive at Green Glade Spring_2","en":"Arrive at Green Glade Spring_2","ja":"Arrive at Green Glade Spring_2"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Spring","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6625\u5B63","en":"Spring Counter","ja":"Spring Counter"}},"TriggerRange":{"x":1536.0,"y":1537.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":2880.0,"y":1000000000.0}}]},"MoveToEnvironment":{"key":"Env_ClearingOak_GreenGlade","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u91CE\u7A7A\u5730","en":"Green Glade","ja":"\u7DD1\u306E\u5E83\u5834"}},"MoveTiming":0,"SpawnNPCS":[{"SpawnOption":1,"AgentModel":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}}}]},{"ActionID":"Arrive at Green Glade Spring_3","ActionLocalizedName":{"zh":"Arrive at Green Glade Spring_3","en":"Arrive at Green Glade Spring_3","ja":"Arrive at Green Glade Spring_3"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Spring","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6625\u5B63","en":"Spring Counter","ja":"Spring Counter"}},"TriggerRange":{"x":1632.0,"y":1633.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":2880.0,"y":1000000000.0}}]},"MoveToEnvironment":{"key":"Env_ClearingOak_GreenGlade","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u91CE\u7A7A\u5730","en":"Green Glade","ja":"\u7DD1\u306E\u5E83\u5834"}},"MoveTiming":0,"SpawnNPCS":[{"SpawnOption":1,"AgentModel":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}}}]},{"ActionID":"Arrive at Green Glade Spring_4","ActionLocalizedName":{"zh":"Arrive at Green Glade Spring_4","en":"Arrive at Green Glade Spring_4","ja":"Arrive at Green Glade Spring_4"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Spring","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6625\u5B63","en":"Spring Counter","ja":"Spring Counter"}},"TriggerRange":{"x":1728.0,"y":1729.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":2880.0,"y":1000000000.0}}]},"MoveToEnvironment":{"key":"Env_ClearingOak_GreenGlade","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u91CE\u7A7A\u5730","en":"Green Glade","ja":"\u7DD1\u306E\u5E83\u5834"}},"MoveTiming":0,"SpawnNPCS":[{"SpawnOption":1,"AgentModel":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}}}]},{"ActionID":"Depart from Green Glade Spring_1","ActionLocalizedName":{"zh":"Depart from Green Glade Spring_1","en":"Depart from Green Glade Spring_1","ja":"Depart from Green Glade Spring_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Spring","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u6625\u5B63","en":"Spring Counter","ja":"Spring Counter"}},"TriggerRange":{"x":2112.0,"y":2113.0}}]},"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"Prepare salt or items request for arival at Green Glade Autumn_1","ActionLocalizedName":{"zh":"Prepare salt or items request for arival at Green Glade Autumn_1","en":"Prepare salt or items request for arival at Green Glade Autumn_1","ja":"Prepare salt or items request for arival at Green Glade Autumn_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Autumn","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u79CB\u5B63","en":"Autumn Counter","ja":"Autumn Counter"}},"TriggerRange":{"x":1433.0,"y":1434.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":8640.0,"y":1000000000.0}}]},"DroppedCards":[{"CollectionName":"Salt or items request","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"Salt","type":"CardData","CardType":0,"icon":"1bcf74ba15622258","name":{"zh":"\u76D0","en":"Salt","ja":"\u5869"}},"Quantity":{"m_X":18,"m_Y":36},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestSalt","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u76D0","en":"AgentRequestSalt","ja":"AgentRequestSalt"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"StoneMortarAndPestle","type":"CardData","CardType":0,"icon":"6a2333b51da90999","name":{"zh":"\u77F3\u81FC\u548C\u77F3\u6775","en":"Stone Mortar and Pestle","ja":"\u77F3\u306E\u4E73\u9262\u3068\u4E73\u68D2"}},"Quantity":{"m_X":1,"m_Y":1},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestMortarAndPestle","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u77F3\u81FC\u548C\u6775","en":"AgentRequestMortarAndPestle","ja":"AgentRequestMortarAndPestle"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"Knife_CopperTrader","type":"CardData","CardType":0,"icon":"d684bada7c0a723f","name":{"zh":"Copper Knife Trader","en":"Copper Knife Trader","ja":"Copper Knife Trader"}},"Quantity":{"m_X":1,"m_Y":1},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestCopperKnife","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u94DC\u5200","en":"AgentRequestCopperKnife","ja":"AgentRequestCopperKnife"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"IronStriker","type":"CardData","CardType":0,"icon":"6a58f4ebf8051bb8","name":{"zh":"\u706B\u9570","en":"Iron Striker","ja":"\u9244\u88FD\u30B9\u30C8\u30E9\u30A4\u30AB\u30FC"}},"Quantity":{"m_X":1,"m_Y":1},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestIronStriker","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u706B\u9570","en":"AgentRequestIronStriker","ja":"AgentRequestIronStriker"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"ForgeHammer","type":"CardData","CardType":0,"icon":"0e02574060362401","name":{"zh":"\u953B\u9020\u9524","en":"Forge Hammer","ja":"\u935B\u51B6\u306E\u30CF\u30F3\u30DE\u30FC"}},"Quantity":{"m_X":1,"m_Y":1},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestForgeHammer","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u953B\u9020\u9524","en":"AgentRequestForgeHammer","ja":"AgentRequestForgeHammer"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"MetalNuggetTraderTin","type":"CardData","CardType":0,"icon":"543443456458eaf8","name":{"zh":"\u91D1\u5C5E\u5757","en":"Metal Nugget","ja":"\u91D1\u5C5E\u584A"}},"Quantity":{"m_X":1,"m_Y":3},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestTin","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u9521","en":"AgentRequestTin","ja":"AgentRequestTin"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}}],"DropCardsInsideInventory":true}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"Prepare food request for arival at Green Glade Autumn_1","ActionLocalizedName":{"zh":"Prepare food request for arival at Green Glade Autumn_1","en":"Prepare food request for arival at Green Glade Autumn_1","ja":"Prepare food request for arival at Green Glade Autumn_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Autumn","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u79CB\u5B63","en":"Autumn Counter","ja":"Autumn Counter"}},"TriggerRange":{"x":1435.0,"y":1436.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":8640.0,"y":1000000000.0}}]},"DroppedCards":[{"CollectionName":"Food request","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"RyeGrainsRaw","type":"CardData","CardType":0,"icon":"6289ae9aeb720ba2","name":{"zh":"\u9ED1\u9EA6\u7C92","en":"Rye Grains","ja":"\u30E9\u30A4\u9EA6"}},"Quantity":{"m_X":16,"m_Y":32},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"WheatGrainsRaw","type":"CardData","CardType":0,"icon":"afb5a869107904d4","name":{"zh":"\u5C0F\u9EA6\u7C92","en":"Wheat Grains","ja":"\u5C0F\u9EA6\u7C92"}},"Quantity":{"m_X":16,"m_Y":32},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"FlaxSeeds","type":"CardData","CardType":0,"icon":"6289ae9aeb720ba2","name":{"zh":"\u4E9A\u9EBB\u79CD\u5B50","en":"Flax Seeds","ja":"\u4E9C\u9EBB\u306E\u7A2E"}},"Quantity":{"m_X":16,"m_Y":32},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"MeatDried","type":"CardData","CardType":0,"icon":"9abd2c42e77805da","name":{"zh":"\u8089\u5E72","en":"Dried Meat","ja":"\u4E7E\u71E5\u3057\u305F\u8089"}},"Quantity":{"m_X":12,"m_Y":24},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}},{"DroppedCard":{"key":"TurnrootDried","type":"CardData","CardType":0,"icon":"e8394373162f7a01","name":{"zh":"\u5E72\u7FFB\u6839","en":"Dried Turnroot","ja":"\u4E7E\u71E5\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8"}},"Quantity":{"m_X":12,"m_Y":24},"DropChance":{"Active":true,"BaseDropChance":0.0,"NPCStatsModifiers":[{"InputStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":100.0,"y":100.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}}],"DropCardsInsideInventory":true}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"Prepare regular for arival at Green Glade Autumn_1","ActionLocalizedName":{"zh":"Prepare regular for arival at Green Glade Autumn_1","en":"Prepare regular for arival at Green Glade Autumn_1","ja":"Prepare regular for arival at Green Glade Autumn_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Autumn","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u79CB\u5B63","en":"Autumn Counter","ja":"Autumn Counter"}},"TriggerRange":{"x":1437.0,"y":1438.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":8640.0,"y":1000000000.0}}]},"DroppedCards":[{"CollectionName":"Regular","CollectionWeight":0,"DroppedCards":[{"DroppedCard":{"key":"PeasDried","type":"CardData","CardType":0,"icon":"2cb985ce6f362be7","name":{"zh":"\u5E72\u8C4C\u8C46","en":"Dried Peas","ja":"\u4E7E\u71E5\u3057\u305F\u30D4\u30FC\u30B9"}},"Quantity":{"m_X":8,"m_Y":16}},{"DroppedCard":{"key":"RyeGrainsRaw","type":"CardData","CardType":0,"icon":"6289ae9aeb720ba2","name":{"zh":"\u9ED1\u9EA6\u7C92","en":"Rye Grains","ja":"\u30E9\u30A4\u9EA6"}},"Quantity":{"m_X":8,"m_Y":16}},{"DroppedCard":{"key":"WheatGrainsRaw","type":"CardData","CardType":0,"icon":"afb5a869107904d4","name":{"zh":"\u5C0F\u9EA6\u7C92","en":"Wheat Grains","ja":"\u5C0F\u9EA6\u7C92"}},"Quantity":{"m_X":8,"m_Y":16}},{"DroppedCard":{"key":"FlaxSeeds","type":"CardData","CardType":0,"icon":"6289ae9aeb720ba2","name":{"zh":"\u4E9A\u9EBB\u79CD\u5B50","en":"Flax Seeds","ja":"\u4E9C\u9EBB\u306E\u7A2E"}},"Quantity":{"m_X":8,"m_Y":16}},{"DroppedCard":{"key":"Salt","type":"CardData","CardType":0,"icon":"1bcf74ba15622258","name":{"zh":"\u76D0","en":"Salt","ja":"\u5869"}},"Quantity":{"m_X":8,"m_Y":12}},{"DroppedCard":{"key":"PouchTrader","type":"CardData","CardType":0,"icon":"235e6d22fdb6eda7","name":{"zh":"\u888B\u5B50","en":"Pouch","ja":"\u5C0F\u888B"}},"Quantity":{"m_X":4,"m_Y":4}},{"DroppedCard":{"key":"MeatDried","type":"CardData","CardType":0,"icon":"9abd2c42e77805da","name":{"zh":"\u8089\u5E72","en":"Dried Meat","ja":"\u4E7E\u71E5\u3057\u305F\u8089"}},"Quantity":{"m_X":6,"m_Y":12}},{"DroppedCard":{"key":"TurnrootDried","type":"CardData","CardType":0,"icon":"e8394373162f7a01","name":{"zh":"\u5E72\u7FFB\u6839","en":"Dried Turnroot","ja":"\u4E7E\u71E5\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8"}},"Quantity":{"m_X":6,"m_Y":12}},{"DroppedCard":{"key":"MetalNuggetTraderTin","type":"CardData","CardType":0,"icon":"543443456458eaf8","name":{"zh":"\u91D1\u5C5E\u5757","en":"Metal Nugget","ja":"\u91D1\u5C5E\u584A"}},"Quantity":{"m_X":1,"m_Y":3}}],"DropCardsInsideInventory":true}],"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0},{"ActionID":"Arrive at Green Glade Autumn_1","ActionLocalizedName":{"zh":"Arrive at Green Glade Autumn_1","en":"Arrive at Green Glade Autumn_1","ja":"Arrive at Green Glade Autumn_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Autumn","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u79CB\u5B63","en":"Autumn Counter","ja":"Autumn Counter"}},"TriggerRange":{"x":1440.0,"y":1441.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":8640.0,"y":1000000000.0}}]},"NPCStatModifications":[{"TargetStat":{"key":"AgentRequestCopperKnife","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u94DC\u5200","en":"AgentRequestCopperKnife","ja":"AgentRequestCopperKnife"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestFood","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u98DF\u7269","en":"AgentRequestFood","ja":"AgentRequestFood"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestIronStriker","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u706B\u9570","en":"AgentRequestIronStriker","ja":"AgentRequestIronStriker"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestMortarAndPestle","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u77F3\u81FC\u548C\u6775","en":"AgentRequestMortarAndPestle","ja":"AgentRequestMortarAndPestle"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestSalt","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u76D0","en":"AgentRequestSalt","ja":"AgentRequestSalt"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestTin","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u9521","en":"AgentRequestTin","ja":"AgentRequestTin"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}},{"TargetStat":{"key":"AgentRequestForgeHammer","type":"NPCStat","name":{"zh":"\u8BF7\u6C42\u953B\u9020\u9524","en":"AgentRequestForgeHammer","ja":"AgentRequestForgeHammer"}},"UseAssociatedAgent":true,"ValueChange":{"x":-1.0,"y":-1.0}}],"MoveToEnvironment":{"key":"Env_ClearingOak_GreenGlade","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u91CE\u7A7A\u5730","en":"Green Glade","ja":"\u7DD1\u306E\u5E83\u5834"}},"MoveTiming":0,"SpawnNPCS":[{"SpawnOption":1,"AgentModel":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}}}]},{"ActionID":"Arrive at Green Glade Autumn_2","ActionLocalizedName":{"zh":"Arrive at Green Glade Autumn_2","en":"Arrive at Green Glade Autumn_2","ja":"Arrive at Green Glade Autumn_2"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Autumn","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u79CB\u5B63","en":"Autumn Counter","ja":"Autumn Counter"}},"TriggerRange":{"x":1536.0,"y":1537.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":8640.0,"y":1000000000.0}}]},"MoveToEnvironment":{"key":"Env_ClearingOak_GreenGlade","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u91CE\u7A7A\u5730","en":"Green Glade","ja":"\u7DD1\u306E\u5E83\u5834"}},"MoveTiming":0,"SpawnNPCS":[{"SpawnOption":1,"AgentModel":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}}}]},{"ActionID":"Arrive at Green Glade Autumn_3","ActionLocalizedName":{"zh":"Arrive at Green Glade Autumn_3","en":"Arrive at Green Glade Autumn_3","ja":"Arrive at Green Glade Autumn_3"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Autumn","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u79CB\u5B63","en":"Autumn Counter","ja":"Autumn Counter"}},"TriggerRange":{"x":1632.0,"y":1633.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":8640.0,"y":1000000000.0}}]},"MoveToEnvironment":{"key":"Env_ClearingOak_GreenGlade","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u91CE\u7A7A\u5730","en":"Green Glade","ja":"\u7DD1\u306E\u5E83\u5834"}},"MoveTiming":0,"SpawnNPCS":[{"SpawnOption":1,"AgentModel":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}}}]},{"ActionID":"Arrive at Green Glade Autumn_4","ActionLocalizedName":{"zh":"Arrive at Green Glade Autumn_4","en":"Arrive at Green Glade Autumn_4","ja":"Arrive at Green Glade Autumn_4"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Autumn","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u79CB\u5B63","en":"Autumn Counter","ja":"Autumn Counter"}},"TriggerRange":{"x":1728.0,"y":1729.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":8640.0,"y":1000000000.0}}]},"MoveToEnvironment":{"key":"Env_ClearingOak_GreenGlade","type":"CardData","CardType":4,"name":{"zh":"\u7EFF\u91CE\u7A7A\u5730","en":"Green Glade","ja":"\u7DD1\u306E\u5E83\u5834"}},"MoveTiming":0,"SpawnNPCS":[{"SpawnOption":1,"AgentModel":{"key":"Agent_Partner","type":"NPCAgent","icon":"ab346282cc1ebfc2","name":{"zh":"\u540C\u4F34","en":"Partner","ja":"Partner"}}}]},{"ActionID":"Depart at Green Glade Autumn_1","ActionLocalizedName":{"zh":"Depart at Green Glade Autumn_1","en":"Depart at Green Glade Autumn_1","ja":"Depart at Green Glade Autumn_1"},"RepeatOptions":2,"Conditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Autumn","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u79CB\u5B63","en":"Autumn Counter","ja":"Autumn Counter"}},"TriggerRange":{"x":2112.0,"y":2113.0}},{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":8640.0,"y":1000000000.0}}]},"MoveToEnvironment":{"key":"Env_SpiritWorld","type":"CardData","CardType":4,"name":{"zh":"SpiritWorld","en":"SpiritWorld","ja":"SpiritWorld"}},"MoveTiming":0}],"MaxCarryWeight":100000.0,"TradingConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"TargetAgent":{"key":"Agent_TraderGeneral","type":"NPCAgent","icon":"1771895abd68a02f","name":{"zh":"\u5546\u4EBA","en":"Trader","ja":"\u5546\u4EBA"}},"TargetStat":{"key":"SeenPlayerEver","type":"NPCStat","name":{"zh":"\u89C1\u8FC7\u73A9\u5BB6","en":"SeenPlayerEver","ja":"SeenPlayerEver"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"TradingModifiers":[{"ForTradingDirection":2,"ModifierMode":1,"SimpleModifier":1.0,"GlobalStatModifiers":[{"Stat":{"key":"Skill_Socials","type":"GameStat","icon":"52649902b67c6c1a","min":0.0,"max":150.0,"name":{"zh":"\u4EBA\u60C5\u7EC3\u8FBE","en":"Socials","ja":"\u793E\u4EA4"}},"Modifier":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":0.1,"y":0.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}},{"Stat":{"key":"Neoteny","type":"GameStat","icon":"12ddd58e0e6a1a87","min":0.0,"max":100.0,"name":{"zh":"\u5E7C\u6001\u5EF6\u7EED\u6027","en":"Neoteny","ja":"\u5E7C\u5F62\u6210\u719F"}},"Modifier":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.025,"y":0.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}},{"Stat":{"key":"FacialHarmony","type":"GameStat","icon":"9bfeb7135e9607fd","min":0.0,"max":100.0,"name":{"zh":"\u9762\u90E8\u5BF9\u79F0\u6027","en":"Facial Harmony","ja":"Facial Harmony"}},"Modifier":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.025,"y":0.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}},{"Stat":{"key":"FemaleTraits","type":"GameStat","icon":"12ddd58e0e6a1a87","min":-100.0,"max":200.0,"name":{"zh":"\u5973\u6027\u7279\u5F81","en":"Female Traits","ja":"\u5973\u6027\u306E\u7279\u5FB4"}},"Modifier":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.05,"y":0.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}},{"Stat":{"key":"Size","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":300.0,"name":{"zh":"\u5C3A\u5BF8","en":"Size","ja":"\u5927\u304D\u3055"}},"Modifier":{"Active":true,"InputValueRange":{"x":100.0,"y":50.0},"OutputValueRange":{"x":0.05,"y":0.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}],"NPCStatModifiers":[{"Stat":{"key":"AgentTrust","type":"NPCStat","name":{"zh":"\u4FE1\u4EFB\u5EA6","en":"AgentTrust","ja":"AgentTrust"}},"Modifier":{"Active":true,"InputValueRange":{"x":0.0,"y":20000.0},"OutputValueRange":{"x":0.25,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]},{"ForTradingDirection":1,"TargetItems":[{"Target":{"key":"tag_TraderInterestX4General","type":"CardTag","count":11,"name":{"zh":"\u5546\u4EBA\u5174\u8DA3\u00D74(\u901A\u7528)","en":"tag_GeneralTraderInterest","ja":"tag_GeneralTraderInterest"}}}],"ModifierMode":1,"SimpleModifier":4.0},{"ForTradingDirection":1,"TargetItems":[{"Target":{"key":"tag_TraderInterestX2General","type":"CardTag","count":0,"name":{"zh":"tag_GeneralTraderInterest","en":"tag_GeneralTraderInterest","ja":"tag_GeneralTraderInterest"}}}],"ModifierMode":1,"SimpleModifier":2.0},{"ForTradingDirection":1,"ModifierMode":1,"SimpleModifier":0.25},{"ForTradingDirection":1,"ModifierMode":1,"SimpleModifier":1.0,"GlobalStatModifiers":[{"Stat":{"key":"Skill_Socials","type":"GameStat","icon":"52649902b67c6c1a","min":0.0,"max":150.0,"name":{"zh":"\u4EBA\u60C5\u7EC3\u8FBE","en":"Socials","ja":"\u793E\u4EA4"}},"Modifier":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":0.0,"y":0.1},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}},{"Stat":{"key":"Neoteny","type":"GameStat","icon":"12ddd58e0e6a1a87","min":0.0,"max":100.0,"name":{"zh":"\u5E7C\u6001\u5EF6\u7EED\u6027","en":"Neoteny","ja":"\u5E7C\u5F62\u6210\u719F"}},"Modifier":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":0.025},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}},{"Stat":{"key":"FacialHarmony","type":"GameStat","icon":"9bfeb7135e9607fd","min":0.0,"max":100.0,"name":{"zh":"\u9762\u90E8\u5BF9\u79F0\u6027","en":"Facial Harmony","ja":"Facial Harmony"}},"Modifier":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":0.025},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}},{"Stat":{"key":"FemaleTraits","type":"GameStat","icon":"12ddd58e0e6a1a87","min":-100.0,"max":200.0,"name":{"zh":"\u5973\u6027\u7279\u5F81","en":"Female Traits","ja":"\u5973\u6027\u306E\u7279\u5FB4"}},"Modifier":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":0.05},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}},{"Stat":{"key":"Size","type":"GameStat","icon":"93bee4ca012bf59f","min":0.0,"max":300.0,"name":{"zh":"\u5C3A\u5BF8","en":"Size","ja":"\u5927\u304D\u3055"}},"Modifier":{"Active":true,"InputValueRange":{"x":100.0,"y":50.0},"OutputValueRange":{"x":0.0,"y":0.05},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}],"NPCStatModifiers":[{"Stat":{"key":"AgentTrust","type":"NPCStat","name":{"zh":"\u4FE1\u4EFB\u5EA6","en":"AgentTrust","ja":"AgentTrust"}},"Modifier":{"Active":true,"InputValueRange":{"x":0.0,"y":20000.0},"OutputValueRange":{"x":0.0,"y":0.25},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}]}],"ModifyNPCStatsPerTradeValue":[{"Type":0,"Modifier":{"TargetStat":{"key":"AgentTrust","type":"NPCStat","name":{"zh":"\u4FE1\u4EFB\u5EA6","en":"AgentTrust","ja":"AgentTrust"}},"UseAssociatedAgent":true,"ValueChange":{"x":1.0,"y":1.0}}},{"Type":2,"Modifier":{"TargetStat":{"key":"AgentTrust","type":"NPCStat","name":{"zh":"\u4FE1\u4EFB\u5EA6","en":"AgentTrust","ja":"AgentTrust"}},"UseAssociatedAgent":true,"ValueChange":{"x":0.15,"y":0.15}}}],"CommissionsBp":[{"key":"Bp_CommissionPartridgeEggs","type":"CardData","CardType":7,"icon":"96af10fa7b291e5c","name":{"zh":"15 Partridge Eggs","en":"15 Partridge Eggs","ja":"15 Partridge Eggs"}},{"key":"Bp_CommissionCopperNuggets","type":"CardData","CardType":7,"icon":"543443456458eaf8","name":{"zh":"5 Copper Nuggets","en":"5 Copper Nuggets","ja":"5 Copper Nuggets"}}],"DebugColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"type":"NPCAgent","key":"Agent_TraderGeneral","icon":"1771895abd68a02f","name":{"zh":"\u5546\u4EBA","en":"Trader","ja":"\u5546\u4EBA"},"_uuid":"56f116608ec0e6241903cb25b7901ba7"}
+
+{
+  "AgentName" : {
+    "zh" : "\u5546\u4EBA",
+    "en" : "Trader",
+    "ja" : "\u5546\u4EBA"
+  },
+  "AgentDescription" : {
+    "zh" : "\u4E00\u4F4D\u5E74\u8FC8\u7684\u65C5\u8005\u4E0E\u4ED6\u7684\u9AA1\u5B50\u4F19\u8BA1\u5728\u8FD9\u9732\u8425\u3002",
+    "en" : "An old traveller and his mule companion are camping here. ",
+    "ja" : "\u5E74\u53D6\u3063\u305F\u65C5\u4EBA\u3068\u5F7C\u306E\u30E9\u30D0\u304C\u3053\u3053\u3067\u30AD\u30E3\u30F3\u30D7\u3057\u3066\u308B\u3002"
+  },
+  "AgentImage"       : {
+    "FileName" : "NPCAgent__Agent_TraderGeneral__AgentImage"
+  },
+  "Interactions"     : [
+    {
+      "ButtonName" : {
+        "zh" : "\u63A5\u89E6",
+        "en" : "Approach",
+        "ja" : "\u8FD1\u3065\u304F"
+      },
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "Agent_TraderGeneral",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_TraderGeneral__AgentImage",
+              "name" : {
+                "zh" : "\u5546\u4EBA",
+                "en" : "Trader",
+                "ja" : "\u5546\u4EBA"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "SeenPlayerEver",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u89C1\u8FC7\u73A9\u5BB6",
+                "en" : "SeenPlayerEver",
+                "ja" : "SeenPlayerEver"
+              }
+            }
+          }
+        ]
+      },
+      "ButtonType" : 0,
+      "Dialog"     : {
+        "key" : "TraderIntroGeneral",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u90A3\u4E2A\u7537\u4EBA\u89C1\u5230\u4F60\u4F3C\u4E4E\u5F88\u60CA\u8BB6\u3002",
+          "en" : "The man seems surprised to see you.",
+          "ja" : "\u7537\u306F\u3042\u306A\u305F\u306B\u4F1A\u3063\u3066\u9A5A\u3044\u305F\u3088\u3046\u3060\u3002 "
+        }
+      }
+    },
+    {
+      "ButtonName" : {
+        "zh" : "\u4EA4\u8C08",
+        "en" : "Talk",
+        "ja" : "\u8A71\u3059"
+      },
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "Agent_TraderGeneral",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_TraderGeneral__AgentImage",
+              "name" : {
+                "zh" : "\u5546\u4EBA",
+                "en" : "Trader",
+                "ja" : "\u5546\u4EBA"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "SeenPlayerEver",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u89C1\u8FC7\u73A9\u5BB6",
+                "en" : "SeenPlayerEver",
+                "ja" : "SeenPlayerEver"
+              }
+            },
+            "ConditionRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "ButtonType" : 0,
+      "Dialog"     : {
+        "key" : "TraderTalkGeneral",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "\u90A3\u4E2A\u7537\u4EBA\u5411\u4F60\u5FAE\u7B11\u3002",
+          "en" : "The man smiles at you.",
+          "ja" : "\u7537\u306F\u3042\u306A\u305F\u306B\u5FAE\u7B11\u3080\u3002"
+        }
+      }
+    }
+  ],
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 0,
+  "AgentStats"             : [
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5546\u4EBA\u53EF\u7528",
+          "en" : "AgentTraderAvailable",
+          "ja" : "AgentTraderAvailable"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTraderAvailable",
+        "zh"                      : "\u5546\u4EBA\u53EF\u7528",
+        "en"                      : "AgentTraderAvailable",
+        "ja"                      : "AgentTraderAvailable"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 1.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BA1\u6B65\u5668",
+          "en" : "Agent Counter",
+          "ja" : "Agent Counter"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCounter",
+        "zh"                      : "\u8BA1\u6B65\u5668",
+        "en"                      : "AgentCounter",
+        "ja"                      : "AgentCounter"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u89C1\u8FC7\u73A9\u5BB6",
+          "en" : "Seen Player Ever",
+          "ja" : "Seen Player Ever"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "SeenPlayerEver",
+        "zh"                      : "\u89C1\u8FC7\u73A9\u5BB6",
+        "en"                      : "SeenPlayerEver",
+        "ja"                      : "SeenPlayerEver"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u4ECA\u5929\u89C1\u8FC7\u73A9\u5BB6",
+          "en" : "Seen Player Today",
+          "ja" : "Seen Player Today"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 64.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "SeenPlayerToday",
+        "zh"                      : "\u4ECA\u5929\u89C1\u8FC7\u73A9\u5BB6",
+        "en"                      : "SeenPlayerToday",
+        "ja"                      : "SeenPlayerToday"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u4FE1\u4EFB\u5EA6",
+          "en" : "Agent Trust",
+          "ja" : "Agent Trust"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 20000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 20000.0
+        },
+        "StatScalingToModifiers" : [
+          {
+            "InterpolatedValue" : {
+              "InputStat" : {
+                "key" : "Empathy",
+                "type" : "GameStat",
+                "icon" : "GameStat__Empathy__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u4FE1\u4EFB",
+                  "en" : "Empathy",
+                  "ja" : "Empathy"
+                }
+              },
+              "Value"     : {
+                "Active" : true,
+                "InputValueRange" : {
+                  "x" : 0.0,
+                  "y" : 100.0
+                },
+                "OutputValueRange" : {
+                  "x" : 0.9,
+                  "y" : 1.1
+                },
+                "WhenOutOfRange"   : 1,
+                "OutOfRangeCustomValue" : 0.0
+              }
+            }
+          },
+          {
+            "InterpolatedValue" : {
+              "InputStat" : {
+                "key" : "Skill_Socials",
+                "type" : "GameStat",
+                "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+                  "en" : "Socials",
+                  "ja" : "\u793E\u4EA4"
+                }
+              },
+              "Value"     : {
+                "Active" : true,
+                "InputValueRange" : {
+                  "x" : 0.0,
+                  "y" : 150.0
+                },
+                "OutputValueRange" : {
+                  "x" : 0.9,
+                  "y" : 1.1
+                },
+                "WhenOutOfRange"   : 1,
+                "OutOfRangeCustomValue" : 0.0
+              }
+            }
+          }
+        ],
+        "HidingOptions"          : 0,
+        "TextDisplay"            : 0,
+        "NumberPrecision"        : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrust",
+        "zh"                      : "\u4FE1\u4EFB\u5EA6",
+        "en"                      : "AgentTrust",
+        "ja"                      : "AgentTrust"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 250.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BF7\u6C42\u94DC\u5200",
+          "en" : "Agent Request Copper Knife",
+          "ja" : "Agent Request Copper Knife"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRequestCopperKnife",
+        "zh"                      : "\u8BF7\u6C42\u94DC\u5200",
+        "en"                      : "AgentRequestCopperKnife",
+        "ja"                      : "AgentRequestCopperKnife"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BF7\u6C42\u98DF\u7269",
+          "en" : "Agent Request Food",
+          "ja" : "Agent Request Food"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRequestFood",
+        "zh"                      : "\u8BF7\u6C42\u98DF\u7269",
+        "en"                      : "AgentRequestFood",
+        "ja"                      : "AgentRequestFood"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BF7\u6C42\u706B\u9570",
+          "en" : "Agent Request Iron Striker",
+          "ja" : "Agent Request Iron Striker"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRequestIronStriker",
+        "zh"                      : "\u8BF7\u6C42\u706B\u9570",
+        "en"                      : "AgentRequestIronStriker",
+        "ja"                      : "AgentRequestIronStriker"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BF7\u6C42\u77F3\u81FC\u548C\u6775",
+          "en" : "Agent Request Mortar and Pestle",
+          "ja" : "Agent Request Mortar and Pestle"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRequestMortarAndPestle",
+        "zh"                      : "\u8BF7\u6C42\u77F3\u81FC\u548C\u6775",
+        "en"                      : "AgentRequestMortarAndPestle",
+        "ja"                      : "AgentRequestMortarAndPestle"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BF7\u6C42\u76D0",
+          "en" : "Agent Request Salt",
+          "ja" : "Agent Request Salt"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRequestSalt",
+        "zh"                      : "\u8BF7\u6C42\u76D0",
+        "en"                      : "AgentRequestSalt",
+        "ja"                      : "AgentRequestSalt"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BF7\u6C42\u9521",
+          "en" : "Agent Request Tin",
+          "ja" : "Agent Request Tin"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRequestTin",
+        "zh"                      : "\u8BF7\u6C42\u9521",
+        "en"                      : "AgentRequestTin",
+        "ja"                      : "AgentRequestTin"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BF7\u6C42\u953B\u9020\u9524",
+          "en" : "Agent Request Forge Hammer",
+          "ja" : "Agent Request Forge Hammer"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRequestForgeHammer",
+        "zh"                      : "\u8BF7\u6C42\u953B\u9020\u9524",
+        "en"                      : "AgentRequestForgeHammer",
+        "ja"                      : "AgentRequestForgeHammer"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u59D4\u6258\u53EF\u7528-\u94DC\u5757",
+          "en" : "AgentCommisionAvailableCopperNuggets",
+          "ja" : "AgentCommisionAvailableCopperNuggets"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCommisionAvailableCopperNuggets",
+        "zh"                      : "\u59D4\u6258\u53EF\u7528-\u94DC\u5757",
+        "en"                      : "AgentCommisionAvailableCopperNuggets",
+        "ja"                      : "AgentCommisionAvailableCopperNuggets"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 1.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u59D4\u6258\u53EF\u7528-\u9E67\u9E2A\u86CB",
+          "en" : "AgentCommisionAvailablePartridgeEggs",
+          "ja" : "AgentCommisionAvailablePartridgeEggs"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCommisionAvailablePartridgeEggs",
+        "zh"                      : "\u59D4\u6258\u53EF\u7528-\u9E67\u9E2A\u86CB",
+        "en"                      : "AgentCommisionAvailablePartridgeEggs",
+        "ja"                      : "AgentCommisionAvailablePartridgeEggs"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 1.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    }
+  ],
+  "AgentActions"           : [
+    {
+      "ActionID" : "Prepare salt or items request for arival at Green Glade Spring_1",
+      "ActionLocalizedName" : {
+        "zh" : "Prepare salt or items request for arival at Green Glade Spring_1",
+        "en" : "Prepare salt or items request for arival at Green Glade Spring_1",
+        "ja" : "Prepare salt or items request for arival at Green Glade Spring_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1433.0,
+              "y" : 1434.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Salt or items request",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Salt",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FairyweedPowder__CardImage",
+                "name"     : {
+                  "zh" : "\u76D0",
+                  "en" : "Salt",
+                  "ja" : "\u5869"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 18,
+                "m_Y" : 36
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestSalt",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u76D0",
+                        "en" : "AgentRequestSalt",
+                        "ja" : "AgentRequestSalt"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "StoneMortarAndPestle",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__StoneMortarAndPestle__CardImage",
+                "name"     : {
+                  "zh" : "\u77F3\u81FC\u548C\u77F3\u6775",
+                  "en" : "Stone Mortar and Pestle",
+                  "ja" : "\u77F3\u306E\u4E73\u9262\u3068\u4E73\u68D2"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestMortarAndPestle",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u77F3\u81FC\u548C\u6775",
+                        "en" : "AgentRequestMortarAndPestle",
+                        "ja" : "AgentRequestMortarAndPestle"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Knife_CopperTrader",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_ToolOrWeapon_Knife_Metal__CardImage",
+                "name"     : {
+                  "zh" : "Copper Knife Trader",
+                  "en" : "Copper Knife Trader",
+                  "ja" : "Copper Knife Trader"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestCopperKnife",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u94DC\u5200",
+                        "en" : "AgentRequestCopperKnife",
+                        "ja" : "AgentRequestCopperKnife"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "IronStriker",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+                "name"     : {
+                  "zh" : "\u706B\u9570",
+                  "en" : "Iron Striker",
+                  "ja" : "\u9244\u88FD\u30B9\u30C8\u30E9\u30A4\u30AB\u30FC"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestIronStriker",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u706B\u9570",
+                        "en" : "AgentRequestIronStriker",
+                        "ja" : "AgentRequestIronStriker"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "ForgeHammer",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_ToolOrWeapon_Hammer_Metal__CardImage",
+                "name"     : {
+                  "zh" : "\u953B\u9020\u9524",
+                  "en" : "Forge Hammer",
+                  "ja" : "\u935B\u51B6\u306E\u30CF\u30F3\u30DE\u30FC"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestForgeHammer",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u953B\u9020\u9524",
+                        "en" : "AgentRequestForgeHammer",
+                        "ja" : "AgentRequestForgeHammer"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MetalNuggetTraderTin",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_CommissionCopperNuggets__CardImage",
+                "name"     : {
+                  "zh" : "\u91D1\u5C5E\u5757",
+                  "en" : "Metal Nugget",
+                  "ja" : "\u91D1\u5C5E\u584A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 3
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestTin",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u9521",
+                        "en" : "AgentRequestTin",
+                        "ja" : "AgentRequestTin"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Prepare food request for arival at Green Glade Spring_1",
+      "ActionLocalizedName" : {
+        "zh" : "Prepare food request for arival at Green Glade Spring_1",
+        "en" : "Prepare food request for arival at Green Glade Spring_1",
+        "ja" : "Prepare food request for arival at Green Glade Spring_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1435.0,
+              "y" : 1436.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Food request",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "RyeGrainsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FlaxSeeds__CardImage",
+                "name"     : {
+                  "zh" : "\u9ED1\u9EA6\u7C92",
+                  "en" : "Rye Grains",
+                  "ja" : "\u30E9\u30A4\u9EA6"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 16,
+                "m_Y" : 32
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestFood",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u98DF\u7269",
+                        "en" : "AgentRequestFood",
+                        "ja" : "AgentRequestFood"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "WheatGrainsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__LQ_WheatGrains__CardImage",
+                "name"     : {
+                  "zh" : "\u5C0F\u9EA6\u7C92",
+                  "en" : "Wheat Grains",
+                  "ja" : "\u5C0F\u9EA6\u7C92"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 16,
+                "m_Y" : 32
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestFood",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u98DF\u7269",
+                        "en" : "AgentRequestFood",
+                        "ja" : "AgentRequestFood"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "FlaxSeeds",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FlaxSeeds__CardImage",
+                "name"     : {
+                  "zh" : "\u4E9A\u9EBB\u79CD\u5B50",
+                  "en" : "Flax Seeds",
+                  "ja" : "\u4E9C\u9EBB\u306E\u7A2E"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 16,
+                "m_Y" : 32
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestFood",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u98DF\u7269",
+                        "en" : "AgentRequestFood",
+                        "ja" : "AgentRequestFood"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MeatDried",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__MeatBoiled__CardImage",
+                "name"     : {
+                  "zh" : "\u8089\u5E72",
+                  "en" : "Dried Meat",
+                  "ja" : "\u4E7E\u71E5\u3057\u305F\u8089"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 12,
+                "m_Y" : 24
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestFood",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u98DF\u7269",
+                        "en" : "AgentRequestFood",
+                        "ja" : "AgentRequestFood"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "TurnrootDried",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "NPCCharacterPerk__PartnerPerk_KnowledgeFarmer__PerkIcon",
+                "name"     : {
+                  "zh" : "\u5E72\u7FFB\u6839",
+                  "en" : "Dried Turnroot",
+                  "ja" : "\u4E7E\u71E5\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 12,
+                "m_Y" : 24
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestFood",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u98DF\u7269",
+                        "en" : "AgentRequestFood",
+                        "ja" : "AgentRequestFood"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Prepare items for Arrive at Green Glade Spring_1",
+      "ActionLocalizedName" : {
+        "zh" : "Prepare regular for arival at Green Glade Spring_1",
+        "en" : "Prepare regular for arival at Green Glade Spring_1",
+        "ja" : "Prepare regular for arival at Green Glade Spring_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1437.0,
+              "y" : 1438.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Regular",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "PeasDried",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__PeasDried__CardImage",
+                "name"     : {
+                  "zh" : "\u5E72\u8C4C\u8C46",
+                  "en" : "Dried Peas",
+                  "ja" : "\u4E7E\u71E5\u3057\u305F\u30D4\u30FC\u30B9"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 16
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "RyeGrainsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FlaxSeeds__CardImage",
+                "name"     : {
+                  "zh" : "\u9ED1\u9EA6\u7C92",
+                  "en" : "Rye Grains",
+                  "ja" : "\u30E9\u30A4\u9EA6"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 16
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "WheatGrainsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__LQ_WheatGrains__CardImage",
+                "name"     : {
+                  "zh" : "\u5C0F\u9EA6\u7C92",
+                  "en" : "Wheat Grains",
+                  "ja" : "\u5C0F\u9EA6\u7C92"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 16
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "FlaxSeeds",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FlaxSeeds__CardImage",
+                "name"     : {
+                  "zh" : "\u4E9A\u9EBB\u79CD\u5B50",
+                  "en" : "Flax Seeds",
+                  "ja" : "\u4E9C\u9EBB\u306E\u7A2E"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 16
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Salt",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FairyweedPowder__CardImage",
+                "name"     : {
+                  "zh" : "\u76D0",
+                  "en" : "Salt",
+                  "ja" : "\u5869"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 12
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "PouchTrader",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_Pouch__CardImage",
+                "name"     : {
+                  "zh" : "\u888B\u5B50",
+                  "en" : "Pouch",
+                  "ja" : "\u5C0F\u888B"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 4,
+                "m_Y" : 4
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MeatDried",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__MeatBoiled__CardImage",
+                "name"     : {
+                  "zh" : "\u8089\u5E72",
+                  "en" : "Dried Meat",
+                  "ja" : "\u4E7E\u71E5\u3057\u305F\u8089"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 6,
+                "m_Y" : 12
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "TurnrootDried",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "NPCCharacterPerk__PartnerPerk_KnowledgeFarmer__PerkIcon",
+                "name"     : {
+                  "zh" : "\u5E72\u7FFB\u6839",
+                  "en" : "Dried Turnroot",
+                  "ja" : "\u4E7E\u71E5\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 6,
+                "m_Y" : 12
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MetalNuggetTraderTin",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_CommissionCopperNuggets__CardImage",
+                "name"     : {
+                  "zh" : "\u91D1\u5C5E\u5757",
+                  "en" : "Metal Nugget",
+                  "ja" : "\u91D1\u5C5E\u584A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 3
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Arrive at Green Glade Spring_1",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Green Glade Spring_1",
+        "en" : "Arrive at Green Glade Spring_1",
+        "ja" : "Arrive at Green Glade Spring_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1440.0,
+              "y" : 1441.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2880.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestCopperKnife",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u94DC\u5200",
+              "en" : "AgentRequestCopperKnife",
+              "ja" : "AgentRequestCopperKnife"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestFood",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u98DF\u7269",
+              "en" : "AgentRequestFood",
+              "ja" : "AgentRequestFood"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestIronStriker",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u706B\u9570",
+              "en" : "AgentRequestIronStriker",
+              "ja" : "AgentRequestIronStriker"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestMortarAndPestle",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u77F3\u81FC\u548C\u6775",
+              "en" : "AgentRequestMortarAndPestle",
+              "ja" : "AgentRequestMortarAndPestle"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestSalt",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u76D0",
+              "en" : "AgentRequestSalt",
+              "ja" : "AgentRequestSalt"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestTin",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u9521",
+              "en" : "AgentRequestTin",
+              "ja" : "AgentRequestTin"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestForgeHammer",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u953B\u9020\u9524",
+              "en" : "AgentRequestForgeHammer",
+              "ja" : "AgentRequestForgeHammer"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ClearingOak_GreenGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+          "en" : "Green Glade",
+          "ja" : "\u7DD1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"           : 0,
+      "SpawnNPCS"            : [
+        {
+          "SpawnOption" : 1,
+          "AgentModel"  : {
+            "key" : "Agent_Partner",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Partner__AgentImage",
+            "name" : {
+              "zh" : "\u540C\u4F34",
+              "en" : "Partner",
+              "ja" : "Partner"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Arrive at Green Glade Spring_2",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Green Glade Spring_2",
+        "en" : "Arrive at Green Glade Spring_2",
+        "ja" : "Arrive at Green Glade Spring_2"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1536.0,
+              "y" : 1537.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2880.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ClearingOak_GreenGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+          "en" : "Green Glade",
+          "ja" : "\u7DD1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"          : 0,
+      "SpawnNPCS"           : [
+        {
+          "SpawnOption" : 1,
+          "AgentModel"  : {
+            "key" : "Agent_Partner",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Partner__AgentImage",
+            "name" : {
+              "zh" : "\u540C\u4F34",
+              "en" : "Partner",
+              "ja" : "Partner"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Arrive at Green Glade Spring_3",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Green Glade Spring_3",
+        "en" : "Arrive at Green Glade Spring_3",
+        "ja" : "Arrive at Green Glade Spring_3"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1632.0,
+              "y" : 1633.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2880.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ClearingOak_GreenGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+          "en" : "Green Glade",
+          "ja" : "\u7DD1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"          : 0,
+      "SpawnNPCS"           : [
+        {
+          "SpawnOption" : 1,
+          "AgentModel"  : {
+            "key" : "Agent_Partner",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Partner__AgentImage",
+            "name" : {
+              "zh" : "\u540C\u4F34",
+              "en" : "Partner",
+              "ja" : "Partner"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Arrive at Green Glade Spring_4",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Green Glade Spring_4",
+        "en" : "Arrive at Green Glade Spring_4",
+        "ja" : "Arrive at Green Glade Spring_4"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1728.0,
+              "y" : 1729.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2880.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ClearingOak_GreenGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+          "en" : "Green Glade",
+          "ja" : "\u7DD1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"          : 0,
+      "SpawnNPCS"           : [
+        {
+          "SpawnOption" : 1,
+          "AgentModel"  : {
+            "key" : "Agent_Partner",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Partner__AgentImage",
+            "name" : {
+              "zh" : "\u540C\u4F34",
+              "en" : "Partner",
+              "ja" : "Partner"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Depart from Green Glade Spring_1",
+      "ActionLocalizedName" : {
+        "zh" : "Depart from Green Glade Spring_1",
+        "en" : "Depart from Green Glade Spring_1",
+        "ja" : "Depart from Green Glade Spring_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2112.0,
+              "y" : 2113.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Prepare salt or items request for arival at Green Glade Autumn_1",
+      "ActionLocalizedName" : {
+        "zh" : "Prepare salt or items request for arival at Green Glade Autumn_1",
+        "en" : "Prepare salt or items request for arival at Green Glade Autumn_1",
+        "ja" : "Prepare salt or items request for arival at Green Glade Autumn_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1433.0,
+              "y" : 1434.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 8640.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Salt or items request",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Salt",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FairyweedPowder__CardImage",
+                "name"     : {
+                  "zh" : "\u76D0",
+                  "en" : "Salt",
+                  "ja" : "\u5869"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 18,
+                "m_Y" : 36
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestSalt",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u76D0",
+                        "en" : "AgentRequestSalt",
+                        "ja" : "AgentRequestSalt"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "StoneMortarAndPestle",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__StoneMortarAndPestle__CardImage",
+                "name"     : {
+                  "zh" : "\u77F3\u81FC\u548C\u77F3\u6775",
+                  "en" : "Stone Mortar and Pestle",
+                  "ja" : "\u77F3\u306E\u4E73\u9262\u3068\u4E73\u68D2"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestMortarAndPestle",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u77F3\u81FC\u548C\u6775",
+                        "en" : "AgentRequestMortarAndPestle",
+                        "ja" : "AgentRequestMortarAndPestle"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Knife_CopperTrader",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_ToolOrWeapon_Knife_Metal__CardImage",
+                "name"     : {
+                  "zh" : "Copper Knife Trader",
+                  "en" : "Copper Knife Trader",
+                  "ja" : "Copper Knife Trader"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestCopperKnife",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u94DC\u5200",
+                        "en" : "AgentRequestCopperKnife",
+                        "ja" : "AgentRequestCopperKnife"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "IronStriker",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+                "name"     : {
+                  "zh" : "\u706B\u9570",
+                  "en" : "Iron Striker",
+                  "ja" : "\u9244\u88FD\u30B9\u30C8\u30E9\u30A4\u30AB\u30FC"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestIronStriker",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u706B\u9570",
+                        "en" : "AgentRequestIronStriker",
+                        "ja" : "AgentRequestIronStriker"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "ForgeHammer",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_ToolOrWeapon_Hammer_Metal__CardImage",
+                "name"     : {
+                  "zh" : "\u953B\u9020\u9524",
+                  "en" : "Forge Hammer",
+                  "ja" : "\u935B\u51B6\u306E\u30CF\u30F3\u30DE\u30FC"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestForgeHammer",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u953B\u9020\u9524",
+                        "en" : "AgentRequestForgeHammer",
+                        "ja" : "AgentRequestForgeHammer"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MetalNuggetTraderTin",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_CommissionCopperNuggets__CardImage",
+                "name"     : {
+                  "zh" : "\u91D1\u5C5E\u5757",
+                  "en" : "Metal Nugget",
+                  "ja" : "\u91D1\u5C5E\u584A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 3
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestTin",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u9521",
+                        "en" : "AgentRequestTin",
+                        "ja" : "AgentRequestTin"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Prepare food request for arival at Green Glade Autumn_1",
+      "ActionLocalizedName" : {
+        "zh" : "Prepare food request for arival at Green Glade Autumn_1",
+        "en" : "Prepare food request for arival at Green Glade Autumn_1",
+        "ja" : "Prepare food request for arival at Green Glade Autumn_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1435.0,
+              "y" : 1436.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 8640.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Food request",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "RyeGrainsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FlaxSeeds__CardImage",
+                "name"     : {
+                  "zh" : "\u9ED1\u9EA6\u7C92",
+                  "en" : "Rye Grains",
+                  "ja" : "\u30E9\u30A4\u9EA6"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 16,
+                "m_Y" : 32
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestFood",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u98DF\u7269",
+                        "en" : "AgentRequestFood",
+                        "ja" : "AgentRequestFood"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "WheatGrainsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__LQ_WheatGrains__CardImage",
+                "name"     : {
+                  "zh" : "\u5C0F\u9EA6\u7C92",
+                  "en" : "Wheat Grains",
+                  "ja" : "\u5C0F\u9EA6\u7C92"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 16,
+                "m_Y" : 32
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestFood",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u98DF\u7269",
+                        "en" : "AgentRequestFood",
+                        "ja" : "AgentRequestFood"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "FlaxSeeds",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FlaxSeeds__CardImage",
+                "name"     : {
+                  "zh" : "\u4E9A\u9EBB\u79CD\u5B50",
+                  "en" : "Flax Seeds",
+                  "ja" : "\u4E9C\u9EBB\u306E\u7A2E"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 16,
+                "m_Y" : 32
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestFood",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u98DF\u7269",
+                        "en" : "AgentRequestFood",
+                        "ja" : "AgentRequestFood"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MeatDried",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__MeatBoiled__CardImage",
+                "name"     : {
+                  "zh" : "\u8089\u5E72",
+                  "en" : "Dried Meat",
+                  "ja" : "\u4E7E\u71E5\u3057\u305F\u8089"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 12,
+                "m_Y" : 24
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestFood",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u98DF\u7269",
+                        "en" : "AgentRequestFood",
+                        "ja" : "AgentRequestFood"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "TurnrootDried",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "NPCCharacterPerk__PartnerPerk_KnowledgeFarmer__PerkIcon",
+                "name"     : {
+                  "zh" : "\u5E72\u7FFB\u6839",
+                  "en" : "Dried Turnroot",
+                  "ja" : "\u4E7E\u71E5\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 12,
+                "m_Y" : 24
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentRequestFood",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u8BF7\u6C42\u98DF\u7269",
+                        "en" : "AgentRequestFood",
+                        "ja" : "AgentRequestFood"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 1.0,
+                        "y" : 1.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Prepare regular for arival at Green Glade Autumn_1",
+      "ActionLocalizedName" : {
+        "zh" : "Prepare regular for arival at Green Glade Autumn_1",
+        "en" : "Prepare regular for arival at Green Glade Autumn_1",
+        "ja" : "Prepare regular for arival at Green Glade Autumn_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1437.0,
+              "y" : 1438.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 8640.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Regular",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "PeasDried",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__PeasDried__CardImage",
+                "name"     : {
+                  "zh" : "\u5E72\u8C4C\u8C46",
+                  "en" : "Dried Peas",
+                  "ja" : "\u4E7E\u71E5\u3057\u305F\u30D4\u30FC\u30B9"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 16
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "RyeGrainsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FlaxSeeds__CardImage",
+                "name"     : {
+                  "zh" : "\u9ED1\u9EA6\u7C92",
+                  "en" : "Rye Grains",
+                  "ja" : "\u30E9\u30A4\u9EA6"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 16
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "WheatGrainsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__LQ_WheatGrains__CardImage",
+                "name"     : {
+                  "zh" : "\u5C0F\u9EA6\u7C92",
+                  "en" : "Wheat Grains",
+                  "ja" : "\u5C0F\u9EA6\u7C92"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 16
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "FlaxSeeds",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FlaxSeeds__CardImage",
+                "name"     : {
+                  "zh" : "\u4E9A\u9EBB\u79CD\u5B50",
+                  "en" : "Flax Seeds",
+                  "ja" : "\u4E9C\u9EBB\u306E\u7A2E"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 16
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Salt",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FairyweedPowder__CardImage",
+                "name"     : {
+                  "zh" : "\u76D0",
+                  "en" : "Salt",
+                  "ja" : "\u5869"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 12
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "PouchTrader",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_Pouch__CardImage",
+                "name"     : {
+                  "zh" : "\u888B\u5B50",
+                  "en" : "Pouch",
+                  "ja" : "\u5C0F\u888B"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 4,
+                "m_Y" : 4
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MeatDried",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__MeatBoiled__CardImage",
+                "name"     : {
+                  "zh" : "\u8089\u5E72",
+                  "en" : "Dried Meat",
+                  "ja" : "\u4E7E\u71E5\u3057\u305F\u8089"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 6,
+                "m_Y" : 12
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "TurnrootDried",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "NPCCharacterPerk__PartnerPerk_KnowledgeFarmer__PerkIcon",
+                "name"     : {
+                  "zh" : "\u5E72\u7FFB\u6839",
+                  "en" : "Dried Turnroot",
+                  "ja" : "\u4E7E\u71E5\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 6,
+                "m_Y" : 12
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MetalNuggetTraderTin",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_CommissionCopperNuggets__CardImage",
+                "name"     : {
+                  "zh" : "\u91D1\u5C5E\u5757",
+                  "en" : "Metal Nugget",
+                  "ja" : "\u91D1\u5C5E\u584A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 3
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Arrive at Green Glade Autumn_1",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Green Glade Autumn_1",
+        "en" : "Arrive at Green Glade Autumn_1",
+        "ja" : "Arrive at Green Glade Autumn_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1440.0,
+              "y" : 1441.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 8640.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestCopperKnife",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u94DC\u5200",
+              "en" : "AgentRequestCopperKnife",
+              "ja" : "AgentRequestCopperKnife"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestFood",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u98DF\u7269",
+              "en" : "AgentRequestFood",
+              "ja" : "AgentRequestFood"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestIronStriker",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u706B\u9570",
+              "en" : "AgentRequestIronStriker",
+              "ja" : "AgentRequestIronStriker"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestMortarAndPestle",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u77F3\u81FC\u548C\u6775",
+              "en" : "AgentRequestMortarAndPestle",
+              "ja" : "AgentRequestMortarAndPestle"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestSalt",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u76D0",
+              "en" : "AgentRequestSalt",
+              "ja" : "AgentRequestSalt"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestTin",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u9521",
+              "en" : "AgentRequestTin",
+              "ja" : "AgentRequestTin"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentRequestForgeHammer",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BF7\u6C42\u953B\u9020\u9524",
+              "en" : "AgentRequestForgeHammer",
+              "ja" : "AgentRequestForgeHammer"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ClearingOak_GreenGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+          "en" : "Green Glade",
+          "ja" : "\u7DD1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"           : 0,
+      "SpawnNPCS"            : [
+        {
+          "SpawnOption" : 1,
+          "AgentModel"  : {
+            "key" : "Agent_Partner",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Partner__AgentImage",
+            "name" : {
+              "zh" : "\u540C\u4F34",
+              "en" : "Partner",
+              "ja" : "Partner"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Arrive at Green Glade Autumn_2",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Green Glade Autumn_2",
+        "en" : "Arrive at Green Glade Autumn_2",
+        "ja" : "Arrive at Green Glade Autumn_2"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1536.0,
+              "y" : 1537.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 8640.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ClearingOak_GreenGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+          "en" : "Green Glade",
+          "ja" : "\u7DD1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"          : 0,
+      "SpawnNPCS"           : [
+        {
+          "SpawnOption" : 1,
+          "AgentModel"  : {
+            "key" : "Agent_Partner",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Partner__AgentImage",
+            "name" : {
+              "zh" : "\u540C\u4F34",
+              "en" : "Partner",
+              "ja" : "Partner"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Arrive at Green Glade Autumn_3",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Green Glade Autumn_3",
+        "en" : "Arrive at Green Glade Autumn_3",
+        "ja" : "Arrive at Green Glade Autumn_3"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1632.0,
+              "y" : 1633.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 8640.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ClearingOak_GreenGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+          "en" : "Green Glade",
+          "ja" : "\u7DD1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"          : 0,
+      "SpawnNPCS"           : [
+        {
+          "SpawnOption" : 1,
+          "AgentModel"  : {
+            "key" : "Agent_Partner",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Partner__AgentImage",
+            "name" : {
+              "zh" : "\u540C\u4F34",
+              "en" : "Partner",
+              "ja" : "Partner"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Arrive at Green Glade Autumn_4",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Green Glade Autumn_4",
+        "en" : "Arrive at Green Glade Autumn_4",
+        "ja" : "Arrive at Green Glade Autumn_4"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1728.0,
+              "y" : 1729.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 8640.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_ClearingOak_GreenGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+          "en" : "Green Glade",
+          "ja" : "\u7DD1\u306E\u5E83\u5834"
+        }
+      },
+      "MoveTiming"          : 0,
+      "SpawnNPCS"           : [
+        {
+          "SpawnOption" : 1,
+          "AgentModel"  : {
+            "key" : "Agent_Partner",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Partner__AgentImage",
+            "name" : {
+              "zh" : "\u540C\u4F34",
+              "en" : "Partner",
+              "ja" : "Partner"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "ActionID" : "Depart at Green Glade Autumn_1",
+      "ActionLocalizedName" : {
+        "zh" : "Depart at Green Glade Autumn_1",
+        "en" : "Depart at Green Glade Autumn_1",
+        "ja" : "Depart at Green Glade Autumn_1"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2112.0,
+              "y" : 2113.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Counter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1000000000.0,
+              "name" : {
+                "zh" : "\u8BA1\u6570\u5668",
+                "en" : "Counter",
+                "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 8640.0,
+              "y" : 1000000000.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    }
+  ],
+  "MaxCarryWeight"         : 100000.0,
+  "TradingConditions"      : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "TargetAgent" : {
+          "key" : "Agent_TraderGeneral",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_TraderGeneral__AgentImage",
+          "name" : {
+            "zh" : "\u5546\u4EBA",
+            "en" : "Trader",
+            "ja" : "\u5546\u4EBA"
+          }
+        },
+        "TargetStat"  : {
+          "key" : "SeenPlayerEver",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u89C1\u8FC7\u73A9\u5BB6",
+            "en" : "SeenPlayerEver",
+            "ja" : "SeenPlayerEver"
+          }
+        },
+        "ConditionRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "TradingModifiers"       : [
+    {
+      "ForTradingDirection" : 2,
+      "ModifierMode"        : 1,
+      "SimpleModifier"      : 1.0,
+      "GlobalStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "Skill_Socials",
+            "type" : "GameStat",
+            "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 150.0,
+            "name" : {
+              "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+              "en" : "Socials",
+              "ja" : "\u793E\u4EA4"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 150.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.1,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Neoteny",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5E7C\u6001\u5EF6\u7EED\u6027",
+              "en" : "Neoteny",
+              "ja" : "\u5E7C\u5F62\u6210\u719F"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.025,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FacialHarmony",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u5BF9\u79F0\u6027",
+              "en" : "Facial Harmony",
+              "ja" : "Facial Harmony"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.025,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FemaleTraits",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : -100.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u5973\u6027\u7279\u5F81",
+              "en" : "Female Traits",
+              "ja" : "\u5973\u6027\u306E\u7279\u5FB4"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.05,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Size",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u5C3A\u5BF8",
+              "en" : "Size",
+              "ja" : "\u5927\u304D\u3055"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 100.0,
+              "y" : 50.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.05,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      ],
+      "NPCStatModifiers"    : [
+        {
+          "Stat" : {
+            "key" : "AgentTrust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4FE1\u4EFB\u5EA6",
+              "en" : "AgentTrust",
+              "ja" : "AgentTrust"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 20000.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.25,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      ]
+    },
+    {
+      "ForTradingDirection" : 1,
+      "TargetItems"         : [
+        {
+          "Target" : {
+            "key" : "tag_TraderInterestX4General",
+            "type" : "CardTag",
+            "count" : 11,
+            "name"  : {
+              "zh" : "\u5546\u4EBA\u5174\u8DA3\u00D74(\u901A\u7528)",
+              "en" : "tag_GeneralTraderInterest",
+              "ja" : "tag_GeneralTraderInterest"
+            }
+          }
+        }
+      ],
+      "ModifierMode"        : 1,
+      "SimpleModifier"      : 4.0
+    },
+    {
+      "ForTradingDirection" : 1,
+      "TargetItems"         : [
+        {
+          "Target" : {
+            "key" : "tag_TraderInterestX2General",
+            "type" : "CardTag",
+            "count" : 0,
+            "name"  : {
+              "zh" : "tag_GeneralTraderInterest",
+              "en" : "tag_GeneralTraderInterest",
+              "ja" : "tag_GeneralTraderInterest"
+            }
+          }
+        }
+      ],
+      "ModifierMode"        : 1,
+      "SimpleModifier"      : 2.0
+    },
+    {
+      "ForTradingDirection" : 1,
+      "ModifierMode"        : 1,
+      "SimpleModifier"      : 0.25
+    },
+    {
+      "ForTradingDirection" : 1,
+      "ModifierMode"        : 1,
+      "SimpleModifier"      : 1.0,
+      "GlobalStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "Skill_Socials",
+            "type" : "GameStat",
+            "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 150.0,
+            "name" : {
+              "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+              "en" : "Socials",
+              "ja" : "\u793E\u4EA4"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 150.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.1
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Neoteny",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5E7C\u6001\u5EF6\u7EED\u6027",
+              "en" : "Neoteny",
+              "ja" : "\u5E7C\u5F62\u6210\u719F"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.025
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FacialHarmony",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u5BF9\u79F0\u6027",
+              "en" : "Facial Harmony",
+              "ja" : "Facial Harmony"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.025
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FemaleTraits",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : -100.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u5973\u6027\u7279\u5F81",
+              "en" : "Female Traits",
+              "ja" : "\u5973\u6027\u306E\u7279\u5FB4"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.05
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Size",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u5C3A\u5BF8",
+              "en" : "Size",
+              "ja" : "\u5927\u304D\u3055"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 100.0,
+              "y" : 50.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.05
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      ],
+      "NPCStatModifiers"    : [
+        {
+          "Stat" : {
+            "key" : "AgentTrust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4FE1\u4EFB\u5EA6",
+              "en" : "AgentTrust",
+              "ja" : "AgentTrust"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 20000.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.25
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "ModifyNPCStatsPerTradeValue" : [
+    {
+      "Type" : 0,
+      "Modifier" : {
+        "TargetStat" : {
+          "key" : "AgentTrust",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u4FE1\u4EFB\u5EA6",
+            "en" : "AgentTrust",
+            "ja" : "AgentTrust"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    },
+    {
+      "Type" : 2,
+      "Modifier" : {
+        "TargetStat" : {
+          "key" : "AgentTrust",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u4FE1\u4EFB\u5EA6",
+            "en" : "AgentTrust",
+            "ja" : "AgentTrust"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : 0.15,
+          "y" : 0.15
+        }
+      }
+    }
+  ],
+  "CommissionsBp"               : [
+    {
+      "key" : "Bp_CommissionPartridgeEggs",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "CardData__Bp_CommissionPartridgeEggs__CardImage",
+      "name"     : {
+        "zh" : "15 Partridge Eggs",
+        "en" : "15 Partridge Eggs",
+        "ja" : "15 Partridge Eggs"
+      }
+    },
+    {
+      "key" : "Bp_CommissionCopperNuggets",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "CardData__Bp_CommissionCopperNuggets__CardImage",
+      "name"     : {
+        "zh" : "5 Copper Nuggets",
+        "en" : "5 Copper Nuggets",
+        "ja" : "5 Copper Nuggets"
+      }
+    }
+  ],
+  "DebugColor"                  : {
+    "r" : 1.0,
+    "g" : 1.0,
+    "b" : 1.0,
+    "a" : 1.0
+  },
+  "type"                        : "NPCAgent",
+  "key"                         : "Agent_TraderGeneral",
+  "icon"                        : "NPCAgent__Agent_TraderGeneral__AgentImage",
+  "name"                        : {
+    "zh" : "\u5546\u4EBA",
+    "en" : "Trader",
+    "ja" : "\u5546\u4EBA"
+  },
+  "_uuid"                       : "56f116608ec0e6241903cb25b7901ba7"
+}

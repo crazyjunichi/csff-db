@@ -1,1 +1,848 @@
-{"GameName":{"zh":"\u98D9\u8840","en":"Blood Spilled","ja":"\u6D41\u3057\u305F\u8840"},"BaseValue":0.0,"MinMaxValue":{"x":0.0,"y":11520.0},"BaseRatePerTick":-2.0,"StatPriority":100,"Visibility":2,"BarColor":{"r":0.0745,"g":0.9098,"b":0.6118,"a":1.0},"BarHighlightColor":{"r":1.0,"g":0.7285,"b":0.0,"a":1.0},"NoveltyCooldownDuration":0,"StalenessMultiplier":0.0,"MaxStalenessStack":0,"FeedbackInfo":{"Icon":{"FileName":"3e355a2ebcd28297"},"NegativeIcon":{"FileName":"8bebd73fcbf117cf"},"StepValue":100.0},"type":"GameStat","key":"BloodSpilled","name":{"zh":"\u98D9\u8840","en":"Blood Spilled","ja":"\u6D41\u3057\u305F\u8840"},"min":0.0,"max":11520.0,"_modifierValues":[{"source":{"key":"BoarFreeFemale","type":"CardData","CardType":0,"icon":"2bfe5ccce4c3b4e5","name":{"zh":"\u6BCD\u732A","en":"Sow","ja":"\u96CC\u30A4\u30CE\u30B7\u30B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C60\u5BB0","en":"Action: Kill","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D5E\u3081\u308B"},"value":{"x":720.0,"y":720.0}},{"source":{"key":"BoarFreeMale","type":"CardData","CardType":0,"icon":"2bfe5ccce4c3b4e5","name":{"zh":"\u91CE\u732A","en":"Boar","ja":"\u30A4\u30CE\u30B7\u30B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C60\u5BB0","en":"Action: Kill","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D5E\u3081\u308B"},"value":{"x":720.0,"y":720.0}},{"source":{"key":"BoarFreePiglet","type":"CardData","CardType":0,"icon":"2cdb3a2dae1eb0a1","name":{"zh":"\u732A\u5D3D","en":"Piglet","ja":"\u5B50\u8C5A"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C60\u5BB0","en":"Action: Kill","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D5E\u3081\u308B"},"value":{"x":180.0,"y":180.0}},{"source":{"key":"BoarTiedFemale","type":"CardData","CardType":0,"icon":"44c3e4512da56b3d","name":{"zh":"\u7ED1\u8D77\u7684\u6BCD\u732A","en":"Tied up Sow","ja":"\u7E1B\u3063\u305F\u96CC\u30A4\u30CE\u30B7\u30B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C60\u5BB0","en":"Action: Kill","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D5E\u3081\u308B"},"value":{"x":720.0,"y":720.0}},{"source":{"key":"BoarTiedMale","type":"CardData","CardType":0,"icon":"44c3e4512da56b3d","name":{"zh":"\u7ED1\u8D77\u7684\u91CE\u732A","en":"Tied up Boar","ja":"\u7E1B\u3063\u305F\u30A4\u30CE\u30B7\u30B7"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C60\u5BB0","en":"Action: Kill","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D5E\u3081\u308B"},"value":{"x":720.0,"y":720.0}},{"source":{"key":"CowFreeCalf","type":"CardData","CardType":0,"icon":"ca6d0f0d65c8241d","name":{"zh":"\u5C0F\u725B","en":"Calf","ja":"\u5B50\u725B"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C60\u5BB0","en":"Action: Kill","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6BBA\u3059"},"value":{"x":180.0,"y":180.0}},{"source":{"key":"CowFreeFemale","type":"CardData","CardType":0,"icon":"269077064d50c78f","name":{"zh":"\u725B","en":"Cow","ja":"\u725B"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C60\u5BB0","en":"Action: Kill","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6BBA\u3059"},"value":{"x":720.0,"y":720.0}},{"source":{"key":"CowFreeMale","type":"CardData","CardType":0,"icon":"269077064d50c78f","name":{"zh":"\u516C\u725B","en":"Bull","ja":"\u30AA\u30B9\u725B"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C60\u5BB0","en":"Action: Kill","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6BBA\u3059"},"value":{"x":720.0,"y":720.0}},{"source":{"key":"Pk_5_25_StartingCattle_PregnantCow","type":"CardData","CardType":0,"icon":"2bfe5ccce4c3b4e5","name":{"zh":"\u725B","en":"Cow","ja":"\u725B"}},"description":{"zh":"\u52A8\u4F5C\uFF1A\u5C60\u5BB0","en":"Action: Kill","ja":"\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6BBA\u3059"},"value":{"x":720.0,"y":720.0}},{"source":{"key":"Pk_5_6_WolfProtection","type":"CharacterPerk","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC\u7FA4\u9632\u62A4","en":"Wolf Protection","ja":"\u30AA\u30AA\u30AB\u30DF\u9664\u3051"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":-20000.0,"y":-20000.0}},{"source":{"key":"Pk_5_7_WolfAttraction","type":"CharacterPerk","icon":"02df14dbd5a5240e","name":{"zh":"\u72FC\u7FA4\u5438\u5F15","en":"Wolf Attraction","ja":"\u30AA\u30AA\u30AB\u30DF\u306E\u8A98\u5F15"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":20000.0,"y":20000.0}},{"source":{"key":"Combat_EncounterBadger","type":"Encounter","icon":"61328b25391d1762","name":{"zh":"\u906D\u9047\u737E","en":"Badger Encounter","ja":"\u30A2\u30CA\u30B0\u30DE\u906D\u9047"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":672.0,"y":672.0}},{"source":{"key":"Combat_EncounterBear","type":"Encounter","icon":"c7d16206b3ccb72f","name":{"zh":"\u718A","en":"Bear","ja":"\u30AF\u30DE"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":2880.0,"y":2880.0}},{"source":{"key":"Combat_EncounterBeaver","type":"Encounter","icon":"72d2d639f1ebd7a0","name":{"zh":"\u6CB3\u72F8","en":"Beaver","ja":"Beaver"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":672.0,"y":672.0}},{"source":{"key":"Combat_EncounterBoar","type":"Encounter","icon":"486aa449b16e0d36","name":{"zh":"\u91CE\u732A","en":"Boar","ja":"\u30A4\u30CE\u30B7\u30B7"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":2880.0,"y":2880.0}},{"source":{"key":"Combat_EncounterDoe","type":"Encounter","icon":"9dcc5383b66aa4b8","name":{"zh":"\u6BCD\u9E7F","en":"Doe","ja":"\u96CC\u9E7F"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":2880.0,"y":2880.0}},{"source":{"key":"Combat_EncounterFlintclaw","type":"Encounter","icon":"710efe63ce8e83be","name":{"zh":"\u71E7\u722A","en":"Flintclaw","ja":"\u30D5\u30EA\u30F3\u30C8\u30AF\u30ED\u30FC"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":672.0,"y":672.0}},{"source":{"key":"Combat_EncounterFox","type":"Encounter","icon":"7ced32767d69a664","name":{"zh":"\u72D0\u72F8","en":"Fox","ja":"\u30AD\u30C4\u30CD"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":672.0,"y":672.0}},{"source":{"key":"Combat_EncounterHare","type":"Encounter","icon":"feba4d22279d6c70","name":{"zh":"\u91CE\u5154","en":"Hare","ja":"\u30CE\u30A6\u30B5\u30AE"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":672.0,"y":672.0}},{"source":{"key":"Combat_EncounterHollow","type":"Encounter","icon":"450cbae633304212","name":{"zh":"\u7A7A\u58F3","en":"Hollow","ja":"Hollow"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":2880.0,"y":2880.0}},{"source":{"key":"Combat_EncounterStag","type":"Encounter","icon":"62661eb3cd3427c7","name":{"zh":"\u516C\u9E7F","en":"Stag","ja":"\u96C4\u9E7F"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":2880.0,"y":2880.0}},{"source":{"key":"Combat_EncounterWolfPack","type":"Encounter","icon":"02df14dbd5a5240e","name":{"zh":"\u72FC\u7FA4","en":"Wolf Pack","ja":"\u72FC\u306E\u7FA4\u308C"}},"description":{"zh":"\u654C\u4EBA\u4F24\u53E3","en":"Enemy Wound","ja":"\u6575\u306E\u50B7"},"value":{"x":2880.0,"y":2880.0}},{"source":{"key":"OLD_NOT_USED_Combat_EncounterWolfPack","type":"Encounter","icon":"e20a8a82f5c6719c","name":{"zh":"Wolf Pack","en":"Wolf Pack","ja":"Wolf Pack"}},"description":{"zh":"\u906D\u9047\u6218\u7ED3\u679C","en":"Encounter Result","ja":"\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"},"value":{"x":2880.0,"y":2880.0}}],"_modifierRates":[{"source":{"key":"HOTFIX_REDUNDANT_07092025_patch","type":"GameStat","min":0.0,"max":3.0,"name":{"zh":"\u70ED\u4FEE\u590D_07092025","en":"HOTFIX_REDUNDANT_07092025_patch","ja":"HOTFIX_REDUNDANT_07092025_patch"}},"description":{"zh":"\u72B6\u6001\u9636\u6BB5\uFF1AReduces blood spilled to 0 but only for the first couple of ticks","en":"Status Stage: Reduces blood spilled to 0 but only for the first couple of ticks","ja":"\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AReduces blood spilled to 0 but only for the first couple of ticks"},"value":{"x":-100000.0,"y":-100000.0}},{"source":{"key":"Pk_5_6_WolfProtection","type":"CharacterPerk","icon":"e20a8a82f5c6719c","name":{"zh":"\u72FC\u7FA4\u9632\u62A4","en":"Wolf Protection","ja":"\u30AA\u30AA\u30AB\u30DF\u9664\u3051"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":-20000.0,"y":-20000.0}},{"source":{"key":"Pk_5_7_WolfAttraction","type":"CharacterPerk","icon":"02df14dbd5a5240e","name":{"zh":"\u72FC\u7FA4\u5438\u5F15","en":"Wolf Attraction","ja":"\u30AA\u30AA\u30AB\u30DF\u306E\u8A98\u5F15"}},"description":{"zh":"\u5929\u8D4B","en":"Perk","ja":"\u30D1\u30FC\u30AF"},"value":{"x":20000.0,"y":20000.0}}],"_requires":[{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":1.0,"y":2880.0}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":1.0,"y":2880.0}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":2881.0,"y":5760.0}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":2881.0,"y":5760.0}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":2881.0,"y":5760.0}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":5761.0,"y":8640.0}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":5761.0,"y":8640.0}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":5761.0,"y":8640.0}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":8641.0,"y":11520.0}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":8641.0,"y":11520.0}},{"source":{"key":"Tgr_PredatorTrigger","type":"SelfTriggeredAction","name":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"}},"description":{"zh":"Tgr_PredatorTrigger","en":"Tgr_PredatorTrigger","ja":"Tgr_PredatorTrigger"},"value":{"x":8641.0,"y":11520.0}}],"_uuid":"0413d3b4ffa70bb4999e3a93df937601"}
+
+{
+  "GameName" : {
+    "zh" : "\u98D9\u8840",
+    "en" : "Blood Spilled",
+    "ja" : "\u6D41\u3057\u305F\u8840"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 11520.0
+  },
+  "BaseRatePerTick" : -2.0,
+  "StatPriority"    : 100,
+  "Visibility"      : 2,
+  "BarColor"        : {
+    "r" : 0.0745,
+    "g" : 0.9098,
+    "b" : 0.6118,
+    "a" : 1.0
+  },
+  "BarHighlightColor" : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "Icon" : {
+      "FileName" : "GameStat__BloodSpilled__FeedbackInfo-Icon"
+    },
+    "NegativeIcon" : {
+      "FileName" : "GameStat__BloodSpilled__FeedbackInfo-NegativeIcon"
+    },
+    "StepValue"    : 100.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "BloodSpilled",
+  "name"                    : {
+    "zh" : "\u98D9\u8840",
+    "en" : "Blood Spilled",
+    "ja" : "\u6D41\u3057\u305F\u8840"
+  },
+  "min"                     : 0.0,
+  "max"                     : 11520.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "BoarFreeFemale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BoarFreeFemale__CardImage",
+        "name"     : {
+          "zh" : "\u6BCD\u732A",
+          "en" : "Sow",
+          "ja" : "\u96CC\u30A4\u30CE\u30B7\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C60\u5BB0",
+        "en" : "Action: Kill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D5E\u3081\u308B"
+      },
+      "value"       : {
+        "x" : 720.0,
+        "y" : 720.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BoarFreeMale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BoarFreeFemale__CardImage",
+        "name"     : {
+          "zh" : "\u91CE\u732A",
+          "en" : "Boar",
+          "ja" : "\u30A4\u30CE\u30B7\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C60\u5BB0",
+        "en" : "Action: Kill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D5E\u3081\u308B"
+      },
+      "value"       : {
+        "x" : 720.0,
+        "y" : 720.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BoarFreePiglet",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BoarFreePiglet__CardImage",
+        "name"     : {
+          "zh" : "\u732A\u5D3D",
+          "en" : "Piglet",
+          "ja" : "\u5B50\u8C5A"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C60\u5BB0",
+        "en" : "Action: Kill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D5E\u3081\u308B"
+      },
+      "value"       : {
+        "x" : 180.0,
+        "y" : 180.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BoarTiedFemale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BoarTiedFemale__CardImage",
+        "name"     : {
+          "zh" : "\u7ED1\u8D77\u7684\u6BCD\u732A",
+          "en" : "Tied up Sow",
+          "ja" : "\u7E1B\u3063\u305F\u96CC\u30A4\u30CE\u30B7\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C60\u5BB0",
+        "en" : "Action: Kill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D5E\u3081\u308B"
+      },
+      "value"       : {
+        "x" : 720.0,
+        "y" : 720.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BoarTiedMale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BoarTiedFemale__CardImage",
+        "name"     : {
+          "zh" : "\u7ED1\u8D77\u7684\u91CE\u732A",
+          "en" : "Tied up Boar",
+          "ja" : "\u7E1B\u3063\u305F\u30A4\u30CE\u30B7\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C60\u5BB0",
+        "en" : "Action: Kill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D5E\u3081\u308B"
+      },
+      "value"       : {
+        "x" : 720.0,
+        "y" : 720.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CowFreeCalf",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__CowFreeCalf__CardImage",
+        "name"     : {
+          "zh" : "\u5C0F\u725B",
+          "en" : "Calf",
+          "ja" : "\u5B50\u725B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C60\u5BB0",
+        "en" : "Action: Kill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6BBA\u3059"
+      },
+      "value"       : {
+        "x" : 180.0,
+        "y" : 180.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CowFreeFemale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__CowFreeFemale__CardImage",
+        "name"     : {
+          "zh" : "\u725B",
+          "en" : "Cow",
+          "ja" : "\u725B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C60\u5BB0",
+        "en" : "Action: Kill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6BBA\u3059"
+      },
+      "value"       : {
+        "x" : 720.0,
+        "y" : 720.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "CowFreeMale",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__CowFreeFemale__CardImage",
+        "name"     : {
+          "zh" : "\u516C\u725B",
+          "en" : "Bull",
+          "ja" : "\u30AA\u30B9\u725B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C60\u5BB0",
+        "en" : "Action: Kill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6BBA\u3059"
+      },
+      "value"       : {
+        "x" : 720.0,
+        "y" : 720.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_25_StartingCattle_PregnantCow",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BoarFreeFemale__CardImage",
+        "name"     : {
+          "zh" : "\u725B",
+          "en" : "Cow",
+          "ja" : "\u725B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u5C60\u5BB0",
+        "en" : "Action: Kill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6BBA\u3059"
+      },
+      "value"       : {
+        "x" : 720.0,
+        "y" : 720.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_6_WolfProtection",
+        "type" : "CharacterPerk",
+        "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+        "name" : {
+          "zh" : "\u72FC\u7FA4\u9632\u62A4",
+          "en" : "Wolf Protection",
+          "ja" : "\u30AA\u30AA\u30AB\u30DF\u9664\u3051"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -20000.0,
+        "y" : -20000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_7_WolfAttraction",
+        "type" : "CharacterPerk",
+        "icon" : "NPCAgent__Agent_WolfPack__AgentImage",
+        "name" : {
+          "zh" : "\u72FC\u7FA4\u5438\u5F15",
+          "en" : "Wolf Attraction",
+          "ja" : "\u30AA\u30AA\u30AB\u30DF\u306E\u8A98\u5F15"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 20000.0,
+        "y" : 20000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterBadger",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Badger1__AgentImage",
+        "name" : {
+          "zh" : "\u906D\u9047\u737E",
+          "en" : "Badger Encounter",
+          "ja" : "\u30A2\u30CA\u30B0\u30DE\u906D\u9047"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 672.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterBear",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Bear__AgentImage",
+        "name" : {
+          "zh" : "\u718A",
+          "en" : "Bear",
+          "ja" : "\u30AF\u30DE"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 2880.0,
+        "y" : 2880.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterBeaver",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Beaver__AgentImage",
+        "name" : {
+          "zh" : "\u6CB3\u72F8",
+          "en" : "Beaver",
+          "ja" : "Beaver"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 672.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterBoar",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Boar1__AgentImage",
+        "name" : {
+          "zh" : "\u91CE\u732A",
+          "en" : "Boar",
+          "ja" : "\u30A4\u30CE\u30B7\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 2880.0,
+        "y" : 2880.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterDoe",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Doe__AgentImage",
+        "name" : {
+          "zh" : "\u6BCD\u9E7F",
+          "en" : "Doe",
+          "ja" : "\u96CC\u9E7F"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 2880.0,
+        "y" : 2880.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterFlintclaw",
+        "type" : "Encounter",
+        "icon" : "CardData__Bp_FlintclawSpiritCalling__CardImage",
+        "name" : {
+          "zh" : "\u71E7\u722A",
+          "en" : "Flintclaw",
+          "ja" : "\u30D5\u30EA\u30F3\u30C8\u30AF\u30ED\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 672.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterFox",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Fox1__AgentImage",
+        "name" : {
+          "zh" : "\u72D0\u72F8",
+          "en" : "Fox",
+          "ja" : "\u30AD\u30C4\u30CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 672.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterHare",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Hare__AgentImage",
+        "name" : {
+          "zh" : "\u91CE\u5154",
+          "en" : "Hare",
+          "ja" : "\u30CE\u30A6\u30B5\u30AE"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 672.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterHollow",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Hollow__AgentImage",
+        "name" : {
+          "zh" : "\u7A7A\u58F3",
+          "en" : "Hollow",
+          "ja" : "Hollow"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 2880.0,
+        "y" : 2880.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterStag",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Stag__AgentImage",
+        "name" : {
+          "zh" : "\u516C\u9E7F",
+          "en" : "Stag",
+          "ja" : "\u96C4\u9E7F"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 2880.0,
+        "y" : 2880.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterWolfPack",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_WolfPack__AgentImage",
+        "name" : {
+          "zh" : "\u72FC\u7FA4",
+          "en" : "Wolf Pack",
+          "ja" : "\u72FC\u306E\u7FA4\u308C"
+        }
+      },
+      "description" : {
+        "zh" : "\u654C\u4EBA\u4F24\u53E3",
+        "en" : "Enemy Wound",
+        "ja" : "\u6575\u306E\u50B7"
+      },
+      "value"       : {
+        "x" : 2880.0,
+        "y" : 2880.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "OLD_NOT_USED_Combat_EncounterWolfPack",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+        "name" : {
+          "zh" : "Wolf Pack",
+          "en" : "Wolf Pack",
+          "ja" : "Wolf Pack"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 2880.0,
+        "y" : 2880.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "HOTFIX_REDUNDANT_07092025_patch",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 3.0,
+        "name" : {
+          "zh" : "\u70ED\u4FEE\u590D_07092025",
+          "en" : "HOTFIX_REDUNDANT_07092025_patch",
+          "ja" : "HOTFIX_REDUNDANT_07092025_patch"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AReduces blood spilled to 0 but only for the first couple of ticks",
+        "en" : "Status Stage: Reduces blood spilled to 0 but only for the first couple of ticks",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AReduces blood spilled to 0 but only for the first couple of ticks"
+      },
+      "value"       : {
+        "x" : -100000.0,
+        "y" : -100000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_6_WolfProtection",
+        "type" : "CharacterPerk",
+        "icon" : "NPCAgent__Agent_Wolf__AgentImage",
+        "name" : {
+          "zh" : "\u72FC\u7FA4\u9632\u62A4",
+          "en" : "Wolf Protection",
+          "ja" : "\u30AA\u30AA\u30AB\u30DF\u9664\u3051"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -20000.0,
+        "y" : -20000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_7_WolfAttraction",
+        "type" : "CharacterPerk",
+        "icon" : "NPCAgent__Agent_WolfPack__AgentImage",
+        "name" : {
+          "zh" : "\u72FC\u7FA4\u5438\u5F15",
+          "en" : "Wolf Attraction",
+          "ja" : "\u30AA\u30AA\u30AB\u30DF\u306E\u8A98\u5F15"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 20000.0,
+        "y" : 20000.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2880.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 2880.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 2881.0,
+        "y" : 5760.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 2881.0,
+        "y" : 5760.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 2881.0,
+        "y" : 5760.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 5761.0,
+        "y" : 8640.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 5761.0,
+        "y" : 8640.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 5761.0,
+        "y" : 8640.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 8641.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 8641.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_PredatorTrigger",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_PredatorTrigger",
+          "en" : "Tgr_PredatorTrigger",
+          "ja" : "Tgr_PredatorTrigger"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_PredatorTrigger",
+        "en" : "Tgr_PredatorTrigger",
+        "ja" : "Tgr_PredatorTrigger"
+      },
+      "value"       : {
+        "x" : 8641.0,
+        "y" : 11520.0
+      }
+    }
+  ],
+  "_uuid"                   : "0413d3b4ffa70bb4999e3a93df937601"
+}

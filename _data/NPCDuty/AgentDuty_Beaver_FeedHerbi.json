@@ -1,1 +1,78 @@
-{"DutyName":{"zh":"\u8349\u98DF\u8FDB\u98DF","en":"Beaver Feed Herbi","ja":"Beaver Feed Herbi"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentSatiation","type":"NPCStat","name":{"zh":"\u9971\u98DF","en":"AgentSatiation","ja":"AgentSatiation"}},"ConditionRange":{"x":0.0,"y":85.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DifferentConditionsWhenPerformed":true,"DutyExecutionOptions":2,"ActionSequence":[{"key":"BeaverFeedHerbi","type":"ChangeNPCStatDutyAction","name":{"zh":"BeaverFeedHerbi","en":"BeaverFeedHerbi","ja":"BeaverFeedHerbi"}},{"key":"BeaverDestroyFeedHerbi","type":"AffectItemsDutyAction","name":{"zh":"BeaverDestroyFeedHerbi","en":"BeaverDestroyFeedHerbi","ja":"BeaverDestroyFeedHerbi"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Beaver_FeedHerbi","name":{"zh":"\u8349\u98DF\u8FDB\u98DF","en":"Beaver Feed Herbi","ja":"Beaver Feed Herbi"},"_uuid":"6dfcdf9f492254f46bdfacf457fda992"}
+
+{
+  "DutyName" : {
+    "zh" : "\u8349\u98DF\u8FDB\u98DF",
+    "en" : "Beaver Feed Herbi",
+    "ja" : "Beaver Feed Herbi"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentSatiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u9971\u98DF",
+            "en" : "AgentSatiation",
+            "ja" : "AgentSatiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 85.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 2,
+  "ActionSequence"                   : [
+    {
+      "key" : "BeaverFeedHerbi",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "BeaverFeedHerbi",
+        "en" : "BeaverFeedHerbi",
+        "ja" : "BeaverFeedHerbi"
+      }
+    },
+    {
+      "key" : "BeaverDestroyFeedHerbi",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "BeaverDestroyFeedHerbi",
+        "en" : "BeaverDestroyFeedHerbi",
+        "ja" : "BeaverDestroyFeedHerbi"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Beaver_FeedHerbi",
+  "name"                             : {
+    "zh" : "\u8349\u98DF\u8FDB\u98DF",
+    "en" : "Beaver Feed Herbi",
+    "ja" : "Beaver Feed Herbi"
+  },
+  "_uuid"                            : "6dfcdf9f492254f46bdfacf457fda992"
+}

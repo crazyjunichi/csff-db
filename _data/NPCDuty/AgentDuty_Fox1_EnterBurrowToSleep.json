@@ -1,1 +1,91 @@
-{"DutyName":{"zh":"\u8FDB\u5165\u5DE2\u7A74\u7761\u89C9","en":"Fox1 Enter Burrow to Sleep","ja":"Fox1 Enter Burrow to Sleep"},"ValidTimesOfDay":[{"TimeType":0,"CompareType":0,"StartValue":6,"EndValue":20}],"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredCardsOnBoard":[{"key":"BurrowFox1","type":"CardData","CardType":2,"icon":"08d7e879b2200363","name":{"zh":"\u72D0\u72F8\u6D1E","en":"Fox Burrow","ja":"\u30AD\u30C4\u30CD\u306E\u5DE3\u7A74"}}],"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"RepairFox1Burrow_Sleep","type":"AffectItemsDutyAction","name":{"zh":"RepairFox1Burrow_Sleep","en":"RepairFox1Burrow_Sleep","ja":"RepairFox1Burrow_Sleep"}},{"key":"SetFox1Home","type":"SetHomeDutyAction","name":{"zh":"SetFox1Home","en":"SetFox1Home","ja":"SetFox1Home"}},{"key":"Fox1EnterBurrow","type":"MoveDutyAction","name":{"zh":"Fox1EnterBurrow","en":"Fox1EnterBurrow","ja":"Fox1EnterBurrow"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Fox1_EnterBurrowToSleep","name":{"zh":"\u8FDB\u5165\u5DE2\u7A74\u7761\u89C9","en":"Fox1 Enter Burrow to Sleep","ja":"Fox1 Enter Burrow to Sleep"},"_uuid":"cf8605fe4b8a1f7498abe8b5c7acea1f"}
+
+{
+  "DutyName" : {
+    "zh" : "\u8FDB\u5165\u5DE2\u7A74\u7761\u89C9",
+    "en" : "Fox1 Enter Burrow to Sleep",
+    "ja" : "Fox1 Enter Burrow to Sleep"
+  },
+  "ValidTimesOfDay" : [
+    {
+      "TimeType" : 0,
+      "CompareType" : 0,
+      "StartValue"  : 6,
+      "EndValue"    : 20
+    }
+  ],
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsOnBoard" : [
+      {
+        "key" : "BurrowFox1",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_CharcoalMound__CardImage",
+        "name"     : {
+          "zh" : "\u72D0\u72F8\u6D1E",
+          "en" : "Fox Burrow",
+          "ja" : "\u30AD\u30C4\u30CD\u306E\u5DE3\u7A74"
+        }
+      }
+    ],
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "RepairFox1Burrow_Sleep",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "RepairFox1Burrow_Sleep",
+        "en" : "RepairFox1Burrow_Sleep",
+        "ja" : "RepairFox1Burrow_Sleep"
+      }
+    },
+    {
+      "key" : "SetFox1Home",
+      "type" : "SetHomeDutyAction",
+      "name" : {
+        "zh" : "SetFox1Home",
+        "en" : "SetFox1Home",
+        "ja" : "SetFox1Home"
+      }
+    },
+    {
+      "key" : "Fox1EnterBurrow",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "Fox1EnterBurrow",
+        "en" : "Fox1EnterBurrow",
+        "ja" : "Fox1EnterBurrow"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Fox1_EnterBurrowToSleep",
+  "name"                 : {
+    "zh" : "\u8FDB\u5165\u5DE2\u7A74\u7761\u89C9",
+    "en" : "Fox1 Enter Burrow to Sleep",
+    "ja" : "Fox1 Enter Burrow to Sleep"
+  },
+  "_uuid"                : "cf8605fe4b8a1f7498abe8b5c7acea1f"
+}

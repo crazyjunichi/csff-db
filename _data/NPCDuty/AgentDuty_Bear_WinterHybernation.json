@@ -1,1 +1,62 @@
-{"DutyName":{"zh":"\u51AC\u7720","en":"Winter Hybernation","ja":"Winter Hybernation"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"SeasonCounter_Winter","type":"GameStat","min":0.0,"max":2880.0,"name":{"zh":"\u51AC\u5B63","en":"Winter Counter","ja":"Winter Counter"}},"TriggerRange":{"x":1.0,"y":2880.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"BearMoveToCaveHybernate","type":"MoveDutyAction","name":{"zh":"BearMoveToCaveHybernate","en":"BearMoveToCaveHybernate","ja":"BearMoveToCaveHybernate"}},{"key":"BearHybernate","type":"ChangeNPCStatDutyAction","name":{"zh":"BearHybernate","en":"BearHybernate","ja":"BearHybernate"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Bear_WinterHybernation","name":{"zh":"\u51AC\u7720","en":"Winter Hybernation","ja":"Winter Hybernation"},"_uuid":"add74ed537f2c744d97d133bc653cede"}
+
+{
+  "DutyName" : {
+    "zh" : "\u51AC\u7720",
+    "en" : "Winter Hybernation",
+    "ja" : "Winter Hybernation"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredStatValues" : [
+      {
+        "Stat" : {
+          "key" : "SeasonCounter_Winter",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 2880.0,
+          "name" : {
+            "zh" : "\u51AC\u5B63",
+            "en" : "Winter Counter",
+            "ja" : "Winter Counter"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 1.0,
+          "y" : 2880.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "BearMoveToCaveHybernate",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "BearMoveToCaveHybernate",
+        "en" : "BearMoveToCaveHybernate",
+        "ja" : "BearMoveToCaveHybernate"
+      }
+    },
+    {
+      "key" : "BearHybernate",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "BearHybernate",
+        "en" : "BearHybernate",
+        "ja" : "BearHybernate"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Bear_WinterHybernation",
+  "name"                 : {
+    "zh" : "\u51AC\u7720",
+    "en" : "Winter Hybernation",
+    "ja" : "Winter Hybernation"
+  },
+  "_uuid"                : "add74ed537f2c744d97d133bc653cede"
+}

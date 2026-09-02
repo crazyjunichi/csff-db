@@ -1,1 +1,260 @@
-{"GameName":{"zh":"\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B","en":"Attraction","ja":"Attraction"},"DefaultStartingValue":0.0,"DefaultMinMaxValue":{"x":-200.0,"y":200.0},"DefaultRate":0.0,"StatScalingToModifiers":[{"InterpolatedValue":{"InputStat":{"key":"Skill_Socials","type":"GameStat","icon":"52649902b67c6c1a","min":0.0,"max":150.0,"name":{"zh":"\u4EBA\u60C5\u7EC3\u8FBE","en":"Socials","ja":"\u793E\u4EA4"}},"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":150.0},"OutputValueRange":{"x":1.0,"y":2.0},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"NPCStatScalingToModifiers":[{"InterpolatedValue":{"InputStat":{"key":"Partner_Awkwardness","type":"NPCStat","name":{"zh":"\u5C34\u5C2C","en":"Partner_Awkwardness","ja":"Partner_Awkwardness"}},"UseAssociatedAgent":true,"Value":{"Active":true,"InputValueRange":{"x":0.0,"y":1000.0},"OutputValueRange":{"x":1.0,"y":0.25},"WhenOutOfRange":1,"OutOfRangeCustomValue":0.0}}}],"Statuses":[{"GameName":{"zh":"\u770B\u4E0A\u53BB\u5BF9\u4F60\u5F88\u611F\u5174\u8DA3\u3002","en":"Looks very attracted to you.","ja":"Looks very attracted to you."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":100,"m_Y":200},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Favour","type":"NPCStat","name":{"zh":"\u597D\u610F","en":"Partner_Favour","ja":"Partner_Favour"}},"RateChange":{"MaxValue":1.0,"FloatValue":1.0,"Active":true}},{"TargetStat":{"key":"Partner_Infatuation","type":"NPCStat","name":{"zh":"\u8FF7\u604B","en":"Partner_Infatuation","ja":"Partner_Infatuation"}},"RateChange":{"MaxValue":0.5,"FloatValue":0.5,"Active":true}}]},{"GameName":{"zh":"\u770B\u4E0A\u53BB\u5BF9\u4F60\u611F\u5174\u8DA3\u3002","en":"Looks attracted to you.","ja":"Looks attracted to you."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":40,"m_Y":99},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Favour","type":"NPCStat","name":{"zh":"\u597D\u610F","en":"Partner_Favour","ja":"Partner_Favour"}},"RateChange":{"MaxValue":0.5,"FloatValue":0.5,"Active":true}},{"TargetStat":{"key":"Partner_Infatuation","type":"NPCStat","name":{"zh":"\u8FF7\u604B","en":"Partner_Infatuation","ja":"Partner_Infatuation"}},"RateChange":{"MaxValue":0.25,"FloatValue":0.25,"Active":true}}]},{"GameName":{"zh":"\u770B\u4E0A\u53BB\u5BF9\u4F60\u4E0D\u662F\u5F88\u611F\u5174\u8DA3\u3002","en":"Doesn't look particularly attracted to you.","ja":"Doesn't look particularly attracted to you."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":-39,"m_Y":39}},{"GameName":{"zh":"\u770B\u4E0A\u53BB\u6CA1\u88AB\u4F60\u5438\u5F15\u3002","en":"Looks unnatracted to you.","ja":"Looks unnatracted to you."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":-99,"m_Y":-40},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Favour","type":"NPCStat","name":{"zh":"\u597D\u610F","en":"Partner_Favour","ja":"Partner_Favour"}},"RateChange":{"MaxValue":-0.5,"FloatValue":-0.5,"Active":true}}]},{"GameName":{"zh":"\u770B\u4E0A\u53BB\u5B8C\u5168\u6CA1\u88AB\u4F60\u5438\u5F15\u3002","en":"Looks very unnatracted to you.","ja":"Looks very unnatracted to you."},"VisibleToPlayer":true,"Priority":0,"ValueRange":{"m_X":-200,"m_Y":-100},"EffectsOnNPCStats":[{"TargetStat":{"key":"Partner_Favour","type":"NPCStat","name":{"zh":"\u597D\u610F","en":"Partner_Favour","ja":"Partner_Favour"}},"RateChange":{"MaxValue":-1.0,"FloatValue":-1.0,"Active":true}}]}],"HidingOptions":0,"TextDisplay":0,"NumberPrecision":0,"UsesNovelty":true,"NoveltyCooldownDuration":4,"StalenessMultiplier":0.5,"MaxStalenessStack":10,"type":"NPCStat","key":"Partner_AttractionToPlayer","name":{"zh":"\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B","en":"Partner_AttractionToPlayer","ja":"Partner_AttractionToPlayer"},"_uuid":"d46623c2dad03aa47ac5bcee1bbb0f61"}
+
+{
+  "GameName" : {
+    "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+    "en" : "Attraction",
+    "ja" : "Attraction"
+  },
+  "DefaultStartingValue" : 0.0,
+  "DefaultMinMaxValue"   : {
+    "x" : -200.0,
+    "y" : 200.0
+  },
+  "DefaultRate"          : 0.0,
+  "StatScalingToModifiers" : [
+    {
+      "InterpolatedValue" : {
+        "InputStat" : {
+          "key" : "Skill_Socials",
+          "type" : "GameStat",
+          "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+          "min"  : 0.0,
+          "max"  : 150.0,
+          "name" : {
+            "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+            "en" : "Socials",
+            "ja" : "\u793E\u4EA4"
+          }
+        },
+        "Value"     : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 150.0
+          },
+          "OutputValueRange" : {
+            "x" : 1.0,
+            "y" : 2.0
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "NPCStatScalingToModifiers" : [
+    {
+      "InterpolatedValue" : {
+        "InputStat" : {
+          "key" : "Partner_Awkwardness",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5C34\u5C2C",
+            "en" : "Partner_Awkwardness",
+            "ja" : "Partner_Awkwardness"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 1000.0
+          },
+          "OutputValueRange" : {
+            "x" : 1.0,
+            "y" : 0.25
+          },
+          "WhenOutOfRange"   : 1,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    }
+  ],
+  "Statuses"                  : [
+    {
+      "GameName" : {
+        "zh" : "\u770B\u4E0A\u53BB\u5BF9\u4F60\u5F88\u611F\u5174\u8DA3\u3002",
+        "en" : "Looks very attracted to you.",
+        "ja" : "Looks very attracted to you."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 100,
+        "m_Y" : 200
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Favour",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u597D\u610F",
+              "en" : "Partner_Favour",
+              "ja" : "Partner_Favour"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 1.0,
+            "FloatValue" : 1.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_Infatuation",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8FF7\u604B",
+              "en" : "Partner_Infatuation",
+              "ja" : "Partner_Infatuation"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 0.5,
+            "FloatValue" : 0.5,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u770B\u4E0A\u53BB\u5BF9\u4F60\u611F\u5174\u8DA3\u3002",
+        "en" : "Looks attracted to you.",
+        "ja" : "Looks attracted to you."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 40,
+        "m_Y" : 99
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Favour",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u597D\u610F",
+              "en" : "Partner_Favour",
+              "ja" : "Partner_Favour"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 0.5,
+            "FloatValue" : 0.5,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_Infatuation",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8FF7\u604B",
+              "en" : "Partner_Infatuation",
+              "ja" : "Partner_Infatuation"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 0.25,
+            "FloatValue" : 0.25,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u770B\u4E0A\u53BB\u5BF9\u4F60\u4E0D\u662F\u5F88\u611F\u5174\u8DA3\u3002",
+        "en" : "Doesn't look particularly attracted to you.",
+        "ja" : "Doesn't look particularly attracted to you."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : -39,
+        "m_Y" : 39
+      }
+    },
+    {
+      "GameName" : {
+        "zh" : "\u770B\u4E0A\u53BB\u6CA1\u88AB\u4F60\u5438\u5F15\u3002",
+        "en" : "Looks unnatracted to you.",
+        "ja" : "Looks unnatracted to you."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : -99,
+        "m_Y" : -40
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Favour",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u597D\u610F",
+              "en" : "Partner_Favour",
+              "ja" : "Partner_Favour"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -0.5,
+            "FloatValue" : -0.5,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "\u770B\u4E0A\u53BB\u5B8C\u5168\u6CA1\u88AB\u4F60\u5438\u5F15\u3002",
+        "en" : "Looks very unnatracted to you.",
+        "ja" : "Looks very unnatracted to you."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : -200,
+        "m_Y" : -100
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Favour",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u597D\u610F",
+              "en" : "Partner_Favour",
+              "ja" : "Partner_Favour"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -1.0,
+            "FloatValue" : -1.0,
+            "Active"     : true
+          }
+        }
+      ]
+    }
+  ],
+  "HidingOptions"             : 0,
+  "TextDisplay"               : 0,
+  "NumberPrecision"           : 0,
+  "UsesNovelty"               : true,
+  "NoveltyCooldownDuration"   : 4,
+  "StalenessMultiplier"       : 0.5,
+  "MaxStalenessStack"         : 10,
+  "type"                      : "NPCStat",
+  "key"                       : "Partner_AttractionToPlayer",
+  "name"                      : {
+    "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+    "en" : "Partner_AttractionToPlayer",
+    "ja" : "Partner_AttractionToPlayer"
+  },
+  "_uuid"                     : "d46623c2dad03aa47ac5bcee1bbb0f61"
+}

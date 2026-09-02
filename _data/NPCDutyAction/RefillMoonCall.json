@@ -1,1 +1,44 @@
-{"OverrideModifiersTarget":{"TargetAgent":{"Target":{"key":"Agent_Moontouched","type":"NPCAgent","icon":"c3d023298476720f","name":{"zh":"\u6708\u4E4B\u91CE\u517D","en":"Moontouched","ja":"\u6708\u89E6\u308C"}}},"Method":0},"NPCStatModifiers":[{"TargetStat":{"key":"AgentHomeCall","type":"NPCStat","name":{"zh":"\u5DE2\u7A74\u547C\u5524","en":"AgentHomeCall","ja":"AgentHomeCall"}},"UseAssociatedAgent":true,"ValueChange":{"x":8.0,"y":8.0}}],"key":"RefillMoonCall","type":"NPCDutyAction","name":{"zh":"RefillMoonCall","en":"RefillMoonCall","ja":"RefillMoonCall"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "OverrideModifiersTarget" : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "Agent_Moontouched",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Moontouched__AgentImage",
+        "name" : {
+          "zh" : "\u6708\u4E4B\u91CE\u517D",
+          "en" : "Moontouched",
+          "ja" : "\u6708\u89E6\u308C"
+        }
+      }
+    },
+    "Method"      : 0
+  },
+  "NPCStatModifiers"        : [
+    {
+      "TargetStat" : {
+        "key" : "AgentHomeCall",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u5DE2\u7A74\u547C\u5524",
+          "en" : "AgentHomeCall",
+          "ja" : "AgentHomeCall"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 8.0,
+        "y" : 8.0
+      }
+    }
+  ],
+  "key"                     : "RefillMoonCall",
+  "type"                    : "NPCDutyAction",
+  "name"                    : {
+    "zh" : "RefillMoonCall",
+    "en" : "RefillMoonCall",
+    "ja" : "RefillMoonCall"
+  },
+  "actionType"              : "ChangeNPCStatDutyAction"
+}

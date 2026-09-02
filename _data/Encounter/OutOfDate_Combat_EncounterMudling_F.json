@@ -1,1 +1,944 @@
-{"EncounterTitle":{"zh":"Mudling","en":"Mudling","ja":"Mudling"},"EnemyName":{"zh":"the mudling","en":"the mudling","ja":"the mudling"},"EnemyCover":{"x":75.0,"y":75.0},"PlayerCover":{"x":75.0,"y":75.0},"EnemyAwareness":{"x":25.0,"y":50.0},"EnemySize":{"x":50.0,"y":50.0},"EnemyBodyTemplate":{"key":"Combat_ BTMudling_F","type":"BodyTemplate","name":{"zh":"Combat_ BTMudling_F","en":"Combat_ BTMudling_F","ja":"Combat_ BTMudling_F"}},"MeleeSkill":{"Name":"Melee Skill","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":0},"Blood":{"Name":"Blood","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":1},"Stamina":{"Name":"Stamina","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":0},"Morale":{"Name":"Morale","StartingValue":{"x":100.0,"y":100.0},"TriggerLoadStat":0,"MaxValue":0.0,"OnZeroEncounterResult":0},"EnemyActions":[{"ActionLog":{"LogText":{"zh":"The mudling spits mud at you","en":"The mudling spits mud at you","ja":"The mudling spits mud at you"}},"SuccessLog":{"LogText":{"zh":"You fail to dodge the mud...","en":"You fail to dodge the mud...","ja":"You fail to dodge the mud..."},"ScreenShake":true},"FailureLog":{"LogText":{"zh":"You successfully avoid the mud!","en":"You successfully avoid the mud!","ja":"You successfully avoid the mud!"}},"RequiredDistance":2,"RequiredWrestlingState":0,"RequiresAmbushState":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"BaseWeight":1,"DistanceWeightModifier":0,"CloseRangeWeightModifier":0,"EnemyHiddenWeightModifier":0,"PlayerHiddenWeightModifier":0,"WrestlingWeightModifier":0,"NOTWrestlingWeightModifier":0,"SelfVulnerableWeightModifier":0,"SelfNOTVulnerableWeightModifier":0,"OpponentVulnerableWeightModifier":0,"OpponentNOTVulnerableWeightModifier":0,"CardsOnBoardWeightModifiers":[{"CardOnBoard":{"key":"W_MudlingSpit","type":"CardData","CardType":0,"name":{"zh":"\u6CE5\u6D46\u55B7\u5410","en":"Mudling Spit","ja":"\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"}},"LookInside":0,"MaxWeightPerCard":-1,"MaxStack":0}],"ValuesWeightModifiers":{"WeightPerStamina":{"DurabilityRange":{"x":0.0,"y":32.0},"InterpWeightRange":{"m_X":0,"m_Y":-1000},"WhenOutOfRange":0},"WeightPerMorale":{"Active":true,"InterpWeightRange":{"m_X":-1,"m_Y":-1},"WhenOutOfRange":0}},"ActionRange":1,"Reach":25.0,"PreClashDistanceChange":0,"BaseClashValue":0.0,"ClashStealthBonus":{"x":150.0,"y":150.0},"ClashVsEscapeModifier":{"x":-50.0,"y":-100.0},"EnemyValuesClashModifier":{"EnemyMeleeSkillMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":150.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyBloodMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-100.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyStaminaMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-50.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"EnemyWoundClashModifier":{"AllWoundModifier":{"InterpolatedAddedValue":{"InputValueRange":{"x":0.0,"y":18.0},"OutputValueRange":{"x":0.0,"y":-150.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"Damage":{"x":50.0,"y":100.0},"DamageTypes":[{"key":"DMG_Piercing","type":"DamageType","name":{"zh":"\u7A7F\u523A\u4F24","en":"Piercing","ja":"\u523A\u7A81"}}],"EnemyValuesDamageModifier":{"EnemyMeleeSkillMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":25.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyBloodMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-25.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyStaminaMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-25.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"EnemyWoundDamageModifier":{"AllWoundModifier":{"InterpolatedAddedValue":{"InputValueRange":{"x":0.0,"y":25.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"AddedPlayerLocationHitProbabilities":{"TorsoHitProbabilityModifier":0.0,"HeadHitProbabilityModifier":-1000.0,"LArmHitProbabilityModifier":0.0,"RArmHitProbabilityModifier":0.0,"LLegHitProbabilityModifier":0.0,"RLegHitProbabilityModifier":0.0},"EnemyValueChanges":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"StaminaApplies":0,"StaminaModifier":{"x":-15.0,"y":-15.0},"MoraleApplies":0,"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"PlayerWounds":{"UnharmedResults":[{"WoundLog":{"LogText":{"zh":"You got mud in your eyes!","en":"You got mud in your eyes!","ja":"You got mud in your eyes!"}},"DroppedCards":[{"key":"W_MudlingSpit","type":"CardData","CardType":0,"name":{"zh":"\u6CE5\u6D46\u55B7\u5410","en":"Mudling Spit","ja":"\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"}}],"WoundSelectionWeight":0.0,"EncounterResult":0}],"MinorWounds":[{"WoundLog":{"LogText":{"zh":"You got mud in your eyes!","en":"You got mud in your eyes!","ja":"You got mud in your eyes!"}},"DroppedCards":[{"key":"W_MudlingSpit","type":"CardData","CardType":0,"name":{"zh":"\u6CE5\u6D46\u55B7\u5410","en":"Mudling Spit","ja":"\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"}}],"WoundSelectionWeight":0.0,"EncounterResult":0}],"MediumWounds":[{"WoundLog":{"LogText":{"zh":"You got mud in your eyes!","en":"You got mud in your eyes!","ja":"You got mud in your eyes!"}},"DroppedCards":[{"key":"W_MudlingSpit","type":"CardData","CardType":0,"name":{"zh":"\u6CE5\u6D46\u55B7\u5410","en":"Mudling Spit","ja":"\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"}}],"WoundSelectionWeight":0.0,"EncounterResult":0}],"SeriousWounds":[{"WoundLog":{"LogText":{"zh":"You got mud in your eyes!","en":"You got mud in your eyes!","ja":"You got mud in your eyes!"}},"DroppedCards":[{"key":"W_MudlingSpit","type":"CardData","CardType":0,"name":{"zh":"\u6CE5\u6D46\u55B7\u5410","en":"Mudling Spit","ja":"\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"}}],"WoundSelectionWeight":0.0,"EncounterResult":0}]},"EncounterResult":0},{"ActionLog":{"LogText":{"zh":"The mudling tries to grab you!","en":"The mudling tries to grab you!","ja":"The mudling tries to grab you!"}},"SuccessLog":{"LogText":{"zh":"You fail to dodge the grab...","en":"You fail to dodge the grab...","ja":"You fail to dodge the grab..."},"ScreenShake":true},"FailureLog":{"LogText":{"zh":"You successfully get out of the way...","en":"You successfully get out of the way...","ja":"You successfully get out of the way..."}},"RequiredDistance":0,"RequiredWrestlingState":0,"RequiresAmbushState":0,"RequiredSelfVulnerableState":0,"RequiredOpponentVulnerableState":0,"BaseWeight":1,"DistanceWeightModifier":0,"CloseRangeWeightModifier":0,"EnemyHiddenWeightModifier":0,"PlayerHiddenWeightModifier":0,"WrestlingWeightModifier":0,"NOTWrestlingWeightModifier":0,"SelfVulnerableWeightModifier":0,"SelfNOTVulnerableWeightModifier":0,"OpponentVulnerableWeightModifier":0,"OpponentNOTVulnerableWeightModifier":0,"ValuesWeightModifiers":{"WeightPerStamina":{"DurabilityRange":{"x":0.0,"y":32.0},"InterpWeightRange":{"m_X":0,"m_Y":-1000},"WhenOutOfRange":0},"WeightPerMorale":{"Active":true,"InterpWeightRange":{"m_X":-1,"m_Y":-1},"WhenOutOfRange":0}},"ActionRange":0,"Reach":25.0,"PreClashDistanceChange":0,"BaseClashValue":0.0,"ClashStealthBonus":{"x":150.0,"y":150.0},"ClashVsEscapeModifier":{"x":-50.0,"y":-100.0},"EnemyValuesClashModifier":{"EnemyMeleeSkillMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":150.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyBloodMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-100.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyStaminaMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-50.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"EnemyWoundClashModifier":{"AllWoundModifier":{"InterpolatedAddedValue":{"InputValueRange":{"x":0.0,"y":18.0},"OutputValueRange":{"x":0.0,"y":-150.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"EnemyStatsClashModifiers":[{"Stat":{"key":"Eyesight","type":"GameStat","icon":"9141db5af714c084","min":0.0,"max":3.0,"name":{"zh":"\u89C6\u529B","en":"Eyesight","ja":"\u8996\u529B"}},"AddedValue":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":1.0,"y":1.0},"OutputValueRange":{"x":200.0,"y":200.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}}],"Damage":{"x":0.0,"y":50.0},"DamageTypes":[{"key":"DMG_Piercing","type":"DamageType","name":{"zh":"\u7A7F\u523A\u4F24","en":"Piercing","ja":"\u523A\u7A81"}}],"EnemyValuesDamageModifier":{"EnemyMeleeSkillMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":0.0,"y":25.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyBloodMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-25.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}},"EnemyStaminaMod":{"InterpolatedAddedValue":{"Active":true,"InputValueRange":{"x":0.0,"y":100.0},"OutputValueRange":{"x":-25.0,"y":0.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"EnemyWoundDamageModifier":{"AllWoundModifier":{"InterpolatedAddedValue":{"InputValueRange":{"x":0.0,"y":25.0},"WhenOutOfRange":0,"OutOfRangeCustomValue":0.0}}},"AddedPlayerLocationHitProbabilities":{"TorsoHitProbabilityModifier":0.0,"HeadHitProbabilityModifier":-1000.0,"LArmHitProbabilityModifier":0.0,"RArmHitProbabilityModifier":0.0,"LLegHitProbabilityModifier":0.0,"RLegHitProbabilityModifier":0.0},"EnemyValueChanges":{"MeleeApplies":0,"RangedApplies":0,"BloodApplies":0,"StaminaApplies":0,"StaminaModifier":{"x":-15.0,"y":-15.0},"MoraleApplies":0,"Value1Applies":0,"Value2Applies":0,"Value3Applies":0,"Value4Applies":0},"PlayerWounds":{"UnharmedResults":[{"WoundLog":{"LogText":{"zh":"Fortunately, the attack wasn't enough to hurt you.","en":"Fortunately, the attack wasn't enough to hurt you.","ja":"Fortunately, the attack wasn't enough to hurt you."}},"WoundSelectionWeight":0.0,"EncounterResult":0}],"MinorWounds":[{"WoundLog":{"LogText":{"zh":"The mudling attaches to you and sucks on your skin!","en":"The mudling attaches to you and sucks on your skin!","ja":"The mudling attaches to you and sucks on your skin!"}},"DroppedCards":[{"key":"W_Bruise","type":"CardData","CardType":0,"icon":"fc1071643fa7db92","name":{"zh":"\u6DE4\u9752","en":"Bruise","ja":"\u30A2\u30B6"}}],"StatChanges":[{"Stat":{"key":"CombatMorale","type":"GameStat","icon":"f13bd2faddd55828","min":0.0,"max":100.0,"name":{"zh":"\u58EB\u6C14","en":"Combat Morale","ja":"\u6226\u95D8\u58EB\u6C17"}},"ValueModifier":{"x":-20.0,"y":-20.0}}],"WoundSelectionWeight":0.0,"EncounterResult":0}],"MediumWounds":[{"WoundLog":{"LogText":{"zh":"The mudling attaches to you and sucks on your skin!","en":"The mudling attaches to you and sucks on your skin!","ja":"The mudling attaches to you and sucks on your skin!"}},"DroppedCards":[{"key":"W_Bruise","type":"CardData","CardType":0,"icon":"fc1071643fa7db92","name":{"zh":"\u6DE4\u9752","en":"Bruise","ja":"\u30A2\u30B6"}}],"StatChanges":[{"Stat":{"key":"CombatMorale","type":"GameStat","icon":"f13bd2faddd55828","min":0.0,"max":100.0,"name":{"zh":"\u58EB\u6C14","en":"Combat Morale","ja":"\u6226\u95D8\u58EB\u6C17"}},"ValueModifier":{"x":-20.0,"y":-20.0}}],"WoundSelectionWeight":0.0,"EncounterResult":0}],"SeriousWounds":[{"WoundLog":{"LogText":{"zh":"The mudling attaches to you and sucks on your skin!","en":"The mudling attaches to you and sucks on your skin!","ja":"The mudling attaches to you and sucks on your skin!"}},"DroppedCards":[{"key":"W_Bruise","type":"CardData","CardType":0,"icon":"fc1071643fa7db92","name":{"zh":"\u6DE4\u9752","en":"Bruise","ja":"\u30A2\u30B6"}}],"StatChanges":[{"Stat":{"key":"CombatMorale","type":"GameStat","icon":"f13bd2faddd55828","min":0.0,"max":100.0,"name":{"zh":"\u58EB\u6C14","en":"Combat Morale","ja":"\u6226\u95D8\u58EB\u6C17"}},"ValueModifier":{"x":-20.0,"y":-20.0}}],"WoundSelectionWeight":0.0,"EncounterResult":0}]},"EncounterResult":0}],"EnemyGettingCloseLog":{"LogText":{"zh":"The mudling gets in closer!","en":"The mudling gets in closer!","ja":"The mudling gets in closer!"}},"EnemyDefeatedEffects":{"ResultLog":{"LogText":{"zh":"The mudling is dead!","en":"The mudling is dead!","ja":"The mudling is dead!"}},"StatChanges":[{"Stat":{"key":"Gratification","type":"GameStat","icon":"0ae93e1e8885d9b3","min":-100.0,"max":100.0,"name":{"zh":"\u6EE1\u8DB3\u611F","en":"Gratification","ja":"\u6E80\u8DB3\u611F"}},"ValueModifier":{"x":20.0,"y":20.0}}],"AmmoRecovery":0,"MovePlayer":0,"MoveDuration":0,"MoveNPC":0},"EnemyEscapedEffects":{"ResultLog":{"LogText":{"zh":"The mudling runs away in the darkness...","en":"The mudling runs away in the darkness...","ja":"The mudling runs away in the darkness..."}},"AmmoRecovery":0,"MovePlayer":0,"MoveDuration":0,"MoveNPC":0},"PlayerEscapedEffects":{"ResultLog":{"LogText":{"zh":"You retreat and escape from the mudling...","en":"You retreat and escape from the mudling...","ja":"You retreat and escape from the mudling..."}},"TransferValuesToStats":[{"FromValue":2,"TransferType":2}],"AmmoRecovery":0,"MovePlayer":3,"MoveDuration":0,"MoveNPC":0},"PlayerDemoralizedEffects":{"ResultLog":{"LogText":{"zh":"You run away from the mudling...","en":"You run away from the mudling...","ja":"You run away from the mudling..."}},"AmmoRecovery":0,"MovePlayer":3,"MoveDuration":0,"MoveNPC":0},"type":"Encounter","key":"OutOfDate_Combat_EncounterMudling_F","name":{"zh":"Mudling","en":"Mudling","ja":"Mudling"},"_uuid":"90c57e771d90cb64aaec25d31c9f33f1"}
+
+{
+  "EncounterTitle" : {
+    "zh" : "Mudling",
+    "en" : "Mudling",
+    "ja" : "Mudling"
+  },
+  "EnemyName"      : {
+    "zh" : "the mudling",
+    "en" : "the mudling",
+    "ja" : "the mudling"
+  },
+  "EnemyCover"     : {
+    "x" : 75.0,
+    "y" : 75.0
+  },
+  "PlayerCover"    : {
+    "x" : 75.0,
+    "y" : 75.0
+  },
+  "EnemyAwareness" : {
+    "x" : 25.0,
+    "y" : 50.0
+  },
+  "EnemySize"      : {
+    "x" : 50.0,
+    "y" : 50.0
+  },
+  "EnemyBodyTemplate" : {
+    "key" : "Combat_ BTMudling_F",
+    "type" : "BodyTemplate",
+    "name" : {
+      "zh" : "Combat_ BTMudling_F",
+      "en" : "Combat_ BTMudling_F",
+      "ja" : "Combat_ BTMudling_F"
+    }
+  },
+  "MeleeSkill"        : {
+    "Name" : "Melee Skill",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 0
+  },
+  "Blood"             : {
+    "Name" : "Blood",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 1
+  },
+  "Stamina"           : {
+    "Name" : "Stamina",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 0
+  },
+  "Morale"            : {
+    "Name" : "Morale",
+    "StartingValue" : {
+      "x" : 100.0,
+      "y" : 100.0
+    },
+    "TriggerLoadStat" : 0,
+    "MaxValue"        : 0.0,
+    "OnZeroEncounterResult" : 0
+  },
+  "EnemyActions"      : [
+    {
+      "ActionLog" : {
+        "LogText" : {
+          "zh" : "The mudling spits mud at you",
+          "en" : "The mudling spits mud at you",
+          "ja" : "The mudling spits mud at you"
+        }
+      },
+      "SuccessLog" : {
+        "LogText" : {
+          "zh" : "You fail to dodge the mud...",
+          "en" : "You fail to dodge the mud...",
+          "ja" : "You fail to dodge the mud..."
+        },
+        "ScreenShake" : true
+      },
+      "FailureLog" : {
+        "LogText" : {
+          "zh" : "You successfully avoid the mud!",
+          "en" : "You successfully avoid the mud!",
+          "ja" : "You successfully avoid the mud!"
+        }
+      },
+      "RequiredDistance" : 2,
+      "RequiredWrestlingState" : 0,
+      "RequiresAmbushState"    : 0,
+      "RequiredSelfVulnerableState" : 0,
+      "RequiredOpponentVulnerableState" : 0,
+      "BaseWeight"                      : 1,
+      "DistanceWeightModifier"          : 0,
+      "CloseRangeWeightModifier"        : 0,
+      "EnemyHiddenWeightModifier"       : 0,
+      "PlayerHiddenWeightModifier"      : 0,
+      "WrestlingWeightModifier"         : 0,
+      "NOTWrestlingWeightModifier"      : 0,
+      "SelfVulnerableWeightModifier"    : 0,
+      "SelfNOTVulnerableWeightModifier" : 0,
+      "OpponentVulnerableWeightModifier" : 0,
+      "OpponentNOTVulnerableWeightModifier" : 0,
+      "CardsOnBoardWeightModifiers"         : [
+        {
+          "CardOnBoard" : {
+            "key" : "W_MudlingSpit",
+            "type" : "CardData",
+            "CardType" : 0,
+            "name"     : {
+              "zh" : "\u6CE5\u6D46\u55B7\u5410",
+              "en" : "Mudling Spit",
+              "ja" : "\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"
+            }
+          },
+          "LookInside"  : 0,
+          "MaxWeightPerCard" : -1,
+          "MaxStack"         : 0
+        }
+      ],
+      "ValuesWeightModifiers"               : {
+        "WeightPerStamina" : {
+          "DurabilityRange" : {
+            "x" : 0.0,
+            "y" : 32.0
+          },
+          "InterpWeightRange" : {
+            "m_X" : 0,
+            "m_Y" : -1000
+          },
+          "WhenOutOfRange"    : 0
+        },
+        "WeightPerMorale"  : {
+          "Active" : true,
+          "InterpWeightRange" : {
+            "m_X" : -1,
+            "m_Y" : -1
+          },
+          "WhenOutOfRange"    : 0
+        }
+      },
+      "ActionRange"                         : 1,
+      "Reach"                               : 25.0,
+      "PreClashDistanceChange"              : 0,
+      "BaseClashValue"                      : 0.0,
+      "ClashStealthBonus"                   : {
+        "x" : 150.0,
+        "y" : 150.0
+      },
+      "ClashVsEscapeModifier"               : {
+        "x" : -50.0,
+        "y" : -100.0
+      },
+      "EnemyValuesClashModifier"            : {
+        "EnemyMeleeSkillMod" : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 150.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyBloodMod"      : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -100.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyStaminaMod"    : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -50.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "EnemyWoundClashModifier"             : {
+        "AllWoundModifier" : {
+          "InterpolatedAddedValue" : {
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 18.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : -150.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "Damage"                              : {
+        "x" : 50.0,
+        "y" : 100.0
+      },
+      "DamageTypes"                         : [
+        {
+          "key" : "DMG_Piercing",
+          "type" : "DamageType",
+          "name" : {
+            "zh" : "\u7A7F\u523A\u4F24",
+            "en" : "Piercing",
+            "ja" : "\u523A\u7A81"
+          }
+        }
+      ],
+      "EnemyValuesDamageModifier"           : {
+        "EnemyMeleeSkillMod" : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 25.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyBloodMod"      : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -25.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyStaminaMod"    : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -25.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "EnemyWoundDamageModifier"            : {
+        "AllWoundModifier" : {
+          "InterpolatedAddedValue" : {
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 25.0
+            },
+            "WhenOutOfRange"  : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "AddedPlayerLocationHitProbabilities" : {
+        "TorsoHitProbabilityModifier" : 0.0,
+        "HeadHitProbabilityModifier"  : -1000.0,
+        "LArmHitProbabilityModifier"  : 0.0,
+        "RArmHitProbabilityModifier"  : 0.0,
+        "LLegHitProbabilityModifier"  : 0.0,
+        "RLegHitProbabilityModifier"  : 0.0
+      },
+      "EnemyValueChanges"                   : {
+        "MeleeApplies" : 0,
+        "RangedApplies" : 0,
+        "BloodApplies"  : 0,
+        "StaminaApplies" : 0,
+        "StaminaModifier" : {
+          "x" : -15.0,
+          "y" : -15.0
+        },
+        "MoraleApplies"   : 0,
+        "Value1Applies"   : 0,
+        "Value2Applies"   : 0,
+        "Value3Applies"   : 0,
+        "Value4Applies"   : 0
+      },
+      "PlayerWounds"                        : {
+        "UnharmedResults" : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "You got mud in your eyes!",
+                "en" : "You got mud in your eyes!",
+                "ja" : "You got mud in your eyes!"
+              }
+            },
+            "DroppedCards" : [
+              {
+                "key" : "W_MudlingSpit",
+                "type" : "CardData",
+                "CardType" : 0,
+                "name"     : {
+                  "zh" : "\u6CE5\u6D46\u55B7\u5410",
+                  "en" : "Mudling Spit",
+                  "ja" : "\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ],
+        "MinorWounds"     : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "You got mud in your eyes!",
+                "en" : "You got mud in your eyes!",
+                "ja" : "You got mud in your eyes!"
+              }
+            },
+            "DroppedCards" : [
+              {
+                "key" : "W_MudlingSpit",
+                "type" : "CardData",
+                "CardType" : 0,
+                "name"     : {
+                  "zh" : "\u6CE5\u6D46\u55B7\u5410",
+                  "en" : "Mudling Spit",
+                  "ja" : "\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ],
+        "MediumWounds"    : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "You got mud in your eyes!",
+                "en" : "You got mud in your eyes!",
+                "ja" : "You got mud in your eyes!"
+              }
+            },
+            "DroppedCards" : [
+              {
+                "key" : "W_MudlingSpit",
+                "type" : "CardData",
+                "CardType" : 0,
+                "name"     : {
+                  "zh" : "\u6CE5\u6D46\u55B7\u5410",
+                  "en" : "Mudling Spit",
+                  "ja" : "\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ],
+        "SeriousWounds"   : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "You got mud in your eyes!",
+                "en" : "You got mud in your eyes!",
+                "ja" : "You got mud in your eyes!"
+              }
+            },
+            "DroppedCards" : [
+              {
+                "key" : "W_MudlingSpit",
+                "type" : "CardData",
+                "CardType" : 0,
+                "name"     : {
+                  "zh" : "\u6CE5\u6D46\u55B7\u5410",
+                  "en" : "Mudling Spit",
+                  "ja" : "\u30C9\u30ED\u30CC\u30FC\u306E\u553E\u6DB2"
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ]
+      },
+      "EncounterResult"                     : 0
+    },
+    {
+      "ActionLog" : {
+        "LogText" : {
+          "zh" : "The mudling tries to grab you!",
+          "en" : "The mudling tries to grab you!",
+          "ja" : "The mudling tries to grab you!"
+        }
+      },
+      "SuccessLog" : {
+        "LogText" : {
+          "zh" : "You fail to dodge the grab...",
+          "en" : "You fail to dodge the grab...",
+          "ja" : "You fail to dodge the grab..."
+        },
+        "ScreenShake" : true
+      },
+      "FailureLog" : {
+        "LogText" : {
+          "zh" : "You successfully get out of the way...",
+          "en" : "You successfully get out of the way...",
+          "ja" : "You successfully get out of the way..."
+        }
+      },
+      "RequiredDistance" : 0,
+      "RequiredWrestlingState" : 0,
+      "RequiresAmbushState"    : 0,
+      "RequiredSelfVulnerableState" : 0,
+      "RequiredOpponentVulnerableState" : 0,
+      "BaseWeight"                      : 1,
+      "DistanceWeightModifier"          : 0,
+      "CloseRangeWeightModifier"        : 0,
+      "EnemyHiddenWeightModifier"       : 0,
+      "PlayerHiddenWeightModifier"      : 0,
+      "WrestlingWeightModifier"         : 0,
+      "NOTWrestlingWeightModifier"      : 0,
+      "SelfVulnerableWeightModifier"    : 0,
+      "SelfNOTVulnerableWeightModifier" : 0,
+      "OpponentVulnerableWeightModifier" : 0,
+      "OpponentNOTVulnerableWeightModifier" : 0,
+      "ValuesWeightModifiers"               : {
+        "WeightPerStamina" : {
+          "DurabilityRange" : {
+            "x" : 0.0,
+            "y" : 32.0
+          },
+          "InterpWeightRange" : {
+            "m_X" : 0,
+            "m_Y" : -1000
+          },
+          "WhenOutOfRange"    : 0
+        },
+        "WeightPerMorale"  : {
+          "Active" : true,
+          "InterpWeightRange" : {
+            "m_X" : -1,
+            "m_Y" : -1
+          },
+          "WhenOutOfRange"    : 0
+        }
+      },
+      "ActionRange"                         : 0,
+      "Reach"                               : 25.0,
+      "PreClashDistanceChange"              : 0,
+      "BaseClashValue"                      : 0.0,
+      "ClashStealthBonus"                   : {
+        "x" : 150.0,
+        "y" : 150.0
+      },
+      "ClashVsEscapeModifier"               : {
+        "x" : -50.0,
+        "y" : -100.0
+      },
+      "EnemyValuesClashModifier"            : {
+        "EnemyMeleeSkillMod" : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 150.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyBloodMod"      : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -100.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyStaminaMod"    : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -50.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "EnemyWoundClashModifier"             : {
+        "AllWoundModifier" : {
+          "InterpolatedAddedValue" : {
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 18.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : -150.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "EnemyStatsClashModifiers"            : [
+        {
+          "Stat" : {
+            "key" : "Eyesight",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u89C6\u529B",
+              "en" : "Eyesight",
+              "ja" : "\u8996\u529B"
+            }
+          },
+          "AddedValue" : {
+            "InterpolatedAddedValue" : {
+              "Active" : true,
+              "InputValueRange" : {
+                "x" : 1.0,
+                "y" : 1.0
+              },
+              "OutputValueRange" : {
+                "x" : 200.0,
+                "y" : 200.0
+              },
+              "WhenOutOfRange"   : 0,
+              "OutOfRangeCustomValue" : 0.0
+            }
+          }
+        }
+      ],
+      "Damage"                              : {
+        "x" : 0.0,
+        "y" : 50.0
+      },
+      "DamageTypes"                         : [
+        {
+          "key" : "DMG_Piercing",
+          "type" : "DamageType",
+          "name" : {
+            "zh" : "\u7A7F\u523A\u4F24",
+            "en" : "Piercing",
+            "ja" : "\u523A\u7A81"
+          }
+        }
+      ],
+      "EnemyValuesDamageModifier"           : {
+        "EnemyMeleeSkillMod" : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 25.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyBloodMod"      : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -25.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        "EnemyStaminaMod"    : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : -25.0,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "EnemyWoundDamageModifier"            : {
+        "AllWoundModifier" : {
+          "InterpolatedAddedValue" : {
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 25.0
+            },
+            "WhenOutOfRange"  : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      "AddedPlayerLocationHitProbabilities" : {
+        "TorsoHitProbabilityModifier" : 0.0,
+        "HeadHitProbabilityModifier"  : -1000.0,
+        "LArmHitProbabilityModifier"  : 0.0,
+        "RArmHitProbabilityModifier"  : 0.0,
+        "LLegHitProbabilityModifier"  : 0.0,
+        "RLegHitProbabilityModifier"  : 0.0
+      },
+      "EnemyValueChanges"                   : {
+        "MeleeApplies" : 0,
+        "RangedApplies" : 0,
+        "BloodApplies"  : 0,
+        "StaminaApplies" : 0,
+        "StaminaModifier" : {
+          "x" : -15.0,
+          "y" : -15.0
+        },
+        "MoraleApplies"   : 0,
+        "Value1Applies"   : 0,
+        "Value2Applies"   : 0,
+        "Value3Applies"   : 0,
+        "Value4Applies"   : 0
+      },
+      "PlayerWounds"                        : {
+        "UnharmedResults" : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "Fortunately, the attack wasn't enough to hurt you.",
+                "en" : "Fortunately, the attack wasn't enough to hurt you.",
+                "ja" : "Fortunately, the attack wasn't enough to hurt you."
+              }
+            },
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ],
+        "MinorWounds"     : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "The mudling attaches to you and sucks on your skin!",
+                "en" : "The mudling attaches to you and sucks on your skin!",
+                "ja" : "The mudling attaches to you and sucks on your skin!"
+              }
+            },
+            "DroppedCards" : [
+              {
+                "key" : "W_Bruise",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__W_Bruise__CardImage",
+                "name"     : {
+                  "zh" : "\u6DE4\u9752",
+                  "en" : "Bruise",
+                  "ja" : "\u30A2\u30B6"
+                }
+              }
+            ],
+            "StatChanges"  : [
+              {
+                "Stat" : {
+                  "key" : "CombatMorale",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Assertiveness__FeedbackInfo-Icon",
+                  "min"  : 0.0,
+                  "max"  : 100.0,
+                  "name" : {
+                    "zh" : "\u58EB\u6C14",
+                    "en" : "Combat Morale",
+                    "ja" : "\u6226\u95D8\u58EB\u6C17"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : -20.0,
+                  "y" : -20.0
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ],
+        "MediumWounds"    : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "The mudling attaches to you and sucks on your skin!",
+                "en" : "The mudling attaches to you and sucks on your skin!",
+                "ja" : "The mudling attaches to you and sucks on your skin!"
+              }
+            },
+            "DroppedCards" : [
+              {
+                "key" : "W_Bruise",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__W_Bruise__CardImage",
+                "name"     : {
+                  "zh" : "\u6DE4\u9752",
+                  "en" : "Bruise",
+                  "ja" : "\u30A2\u30B6"
+                }
+              }
+            ],
+            "StatChanges"  : [
+              {
+                "Stat" : {
+                  "key" : "CombatMorale",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Assertiveness__FeedbackInfo-Icon",
+                  "min"  : 0.0,
+                  "max"  : 100.0,
+                  "name" : {
+                    "zh" : "\u58EB\u6C14",
+                    "en" : "Combat Morale",
+                    "ja" : "\u6226\u95D8\u58EB\u6C17"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : -20.0,
+                  "y" : -20.0
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ],
+        "SeriousWounds"   : [
+          {
+            "WoundLog" : {
+              "LogText" : {
+                "zh" : "The mudling attaches to you and sucks on your skin!",
+                "en" : "The mudling attaches to you and sucks on your skin!",
+                "ja" : "The mudling attaches to you and sucks on your skin!"
+              }
+            },
+            "DroppedCards" : [
+              {
+                "key" : "W_Bruise",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__W_Bruise__CardImage",
+                "name"     : {
+                  "zh" : "\u6DE4\u9752",
+                  "en" : "Bruise",
+                  "ja" : "\u30A2\u30B6"
+                }
+              }
+            ],
+            "StatChanges"  : [
+              {
+                "Stat" : {
+                  "key" : "CombatMorale",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Assertiveness__FeedbackInfo-Icon",
+                  "min"  : 0.0,
+                  "max"  : 100.0,
+                  "name" : {
+                    "zh" : "\u58EB\u6C14",
+                    "en" : "Combat Morale",
+                    "ja" : "\u6226\u95D8\u58EB\u6C17"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : -20.0,
+                  "y" : -20.0
+                }
+              }
+            ],
+            "WoundSelectionWeight" : 0.0,
+            "EncounterResult"      : 0
+          }
+        ]
+      },
+      "EncounterResult"                     : 0
+    }
+  ],
+  "EnemyGettingCloseLog" : {
+    "LogText" : {
+      "zh" : "The mudling gets in closer!",
+      "en" : "The mudling gets in closer!",
+      "ja" : "The mudling gets in closer!"
+    }
+  },
+  "EnemyDefeatedEffects" : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "The mudling is dead!",
+        "en" : "The mudling is dead!",
+        "ja" : "The mudling is dead!"
+      }
+    },
+    "StatChanges" : [
+      {
+        "Stat" : {
+          "key" : "Gratification",
+          "type" : "GameStat",
+          "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+          "min"  : -100.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u6EE1\u8DB3\u611F",
+            "en" : "Gratification",
+            "ja" : "\u6E80\u8DB3\u611F"
+          }
+        },
+        "ValueModifier" : {
+          "x" : 20.0,
+          "y" : 20.0
+        }
+      }
+    ],
+    "AmmoRecovery" : 0,
+    "MovePlayer"   : 0,
+    "MoveDuration" : 0,
+    "MoveNPC"      : 0
+  },
+  "EnemyEscapedEffects"  : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "The mudling runs away in the darkness...",
+        "en" : "The mudling runs away in the darkness...",
+        "ja" : "The mudling runs away in the darkness..."
+      }
+    },
+    "AmmoRecovery" : 0,
+    "MovePlayer"   : 0,
+    "MoveDuration" : 0,
+    "MoveNPC"      : 0
+  },
+  "PlayerEscapedEffects" : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "You retreat and escape from the mudling...",
+        "en" : "You retreat and escape from the mudling...",
+        "ja" : "You retreat and escape from the mudling..."
+      }
+    },
+    "TransferValuesToStats" : [
+      {
+        "FromValue" : 2,
+        "TransferType" : 2
+      }
+    ],
+    "AmmoRecovery"          : 0,
+    "MovePlayer"            : 3,
+    "MoveDuration"          : 0,
+    "MoveNPC"               : 0
+  },
+  "PlayerDemoralizedEffects" : {
+    "ResultLog" : {
+      "LogText" : {
+        "zh" : "You run away from the mudling...",
+        "en" : "You run away from the mudling...",
+        "ja" : "You run away from the mudling..."
+      }
+    },
+    "AmmoRecovery" : 0,
+    "MovePlayer"   : 3,
+    "MoveDuration" : 0,
+    "MoveNPC"      : 0
+  },
+  "type"                     : "Encounter",
+  "key"                      : "OutOfDate_Combat_EncounterMudling_F",
+  "name"                     : {
+    "zh" : "Mudling",
+    "en" : "Mudling",
+    "ja" : "Mudling"
+  },
+  "_uuid"                    : "90c57e771d90cb64aaec25d31c9f33f1"
+}

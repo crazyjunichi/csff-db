@@ -1,1 +1,31 @@
-{"Conditions":{"PlayerUsesCard":0,"RequiredCardsOnBoard":[{"key":"PeatTurfDry","type":"CardData","CardType":0,"icon":"44f4fa06275e4241","name":{"zh":"\u5E72\u6CE5\u7164\u5757","en":"Dry Peat Turf","ja":"Dry Peat Turf"}}]},"OnTrue":{"Outcome":1,"MoveToStep":13},"key":"Peat on Board","type":"NPCDutyAction","name":{"zh":"Peat on Board","en":"Peat on Board","ja":"Peat on Board"},"actionType":"TakeSimpleDecisionDutyAction"}
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredCardsOnBoard" : [
+      {
+        "key" : "PeatTurfDry",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__PeatTurfDry__CardImage",
+        "name"     : {
+          "zh" : "\u5E72\u6CE5\u7164\u5757",
+          "en" : "Dry Peat Turf",
+          "ja" : "Dry Peat Turf"
+        }
+      }
+    ]
+  },
+  "OnTrue"     : {
+    "Outcome" : 1,
+    "MoveToStep" : 13
+  },
+  "key"        : "Peat on Board",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "Peat on Board",
+    "en" : "Peat on Board",
+    "ja" : "Peat on Board"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

@@ -1,1 +1,44 @@
-{"OverrideModifiersTarget":{"TargetAgent":{"Target":{"key":"Agent_WolfPack","type":"NPCAgent","icon":"02df14dbd5a5240e","name":{"zh":"\u72FC\u7FA4","en":"Wolf Pack","ja":"\u72FC\u306E\u7FA4\u308C"}}},"Method":0},"NPCStatModifiers":[{"TargetStat":{"key":"AgentBlood","type":"NPCStat","name":{"zh":"\u8840\u91CF","en":"AgentBlood","ja":"AgentBlood"}},"UseAssociatedAgent":true,"ValueChange":{"x":-35.0,"y":-45.0}}],"key":"WolfPackGetHurtByDangerousDomesticPrey","type":"NPCDutyAction","name":{"zh":"WolfPackGetHurtByDangerousDomesticPrey","en":"WolfPackGetHurtByDangerousDomesticPrey","ja":"WolfPackGetHurtByDangerousDomesticPrey"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "OverrideModifiersTarget" : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "Agent_WolfPack",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_WolfPack__AgentImage",
+        "name" : {
+          "zh" : "\u72FC\u7FA4",
+          "en" : "Wolf Pack",
+          "ja" : "\u72FC\u306E\u7FA4\u308C"
+        }
+      }
+    },
+    "Method"      : 0
+  },
+  "NPCStatModifiers"        : [
+    {
+      "TargetStat" : {
+        "key" : "AgentBlood",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u8840\u91CF",
+          "en" : "AgentBlood",
+          "ja" : "AgentBlood"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : -35.0,
+        "y" : -45.0
+      }
+    }
+  ],
+  "key"                     : "WolfPackGetHurtByDangerousDomesticPrey",
+  "type"                    : "NPCDutyAction",
+  "name"                    : {
+    "zh" : "WolfPackGetHurtByDangerousDomesticPrey",
+    "en" : "WolfPackGetHurtByDangerousDomesticPrey",
+    "ja" : "WolfPackGetHurtByDangerousDomesticPrey"
+  },
+  "actionType"              : "ChangeNPCStatDutyAction"
+}

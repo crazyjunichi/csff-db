@@ -1,1 +1,161 @@
-{"key":"BarkRemovingAction","type":"ActionTag","name":{"zh":"\u5265\u6811\u76AE\u52A8\u4F5C","en":"BarkRemovingAction","ja":"BarkRemovingAction"},"_actions":[{"source":{"key":"TreeLargeAlder","type":"CardData","CardType":2,"icon":"c4377c42a44e4b41","name":{"zh":"\u6864\u6728","en":"Alder Tree","ja":"Alder Tree"}},"text":"\u91C7\u96C6\u6811\u76AE","time":1.0},{"source":{"key":"TreeLargeOak","type":"CardData","CardType":2,"icon":"7d5f8b8b673177bb","name":{"zh":"\u6A61\u6811","en":"Oak Tree","ja":"\u30AA\u30FC\u30AF\u306E\u6728"}},"text":"\u91C7\u96C6\u6811\u76AE","time":1.0},{"source":{"key":"TreeLargeWillow","type":"CardData","CardType":2,"icon":"5bdf6b60e5db8584","name":{"zh":"\u67F3\u6811","en":"Willow Tree","ja":"\u30E4\u30CA\u30AE\u306E\u6728"}},"text":"\u91C7\u96C6\u6811\u76AE","time":1.0}],"count":3,"_modifiers":[{"source":{"key":"ToolOrWeapon_Drawknife_Metal","type":"CardData","CardType":0,"icon":"3500d103af3862f9","name":{"zh":"\u91D1\u5C5E\u62C9\u5200","en":"Metal Drawknife","ja":"\u91D1\u5C5E\u88FD\u306E\u30C9\u30ED\u30FC\u30CA\u30A4\u30D5"}},"description":{"zh":"\u5361\u724C\u80FD\u529B","en":"Card Ability","ja":"\u30AB\u30FC\u30C9\u80FD\u529B"},"modifier":{"AppliesTo":[{"key":"BarkRemovingAction","type":"ActionTag","name":{"zh":"\u5265\u6811\u76AE\u52A8\u4F5C","en":"BarkRemovingAction","ja":"BarkRemovingAction"}}],"DurationModifier":-1,"FadeToBlack":0}}],"templateCard":{"UsageDurability":{"Active":true,"MaxValue":10000.0,"durabilityKey":"UsageDurability","CardStatName":{"zh":"\u9999\u6C14","en":"Fragrance","ja":"Fragrance"}},"FuelCapacity":{"Active":true,"MaxValue":10000.0,"durabilityKey":"FuelCapacity","CardStatName":{"zh":"\u71C3\u6599","en":"Fuel","ja":"Fuel"}},"Progress":{"Active":true,"MaxValue":75.0,"durabilityKey":"Progress","CardStatName":{"zh":"\u780D\u5012\u8FDB\u7A0B","en":"Cut","ja":"Cut"},"OverrideIcon":{"FileName":"fab8dcfcbb89f81d"}},"SpecialDurability1":{"Active":true,"MaxValue":1.0,"durabilityKey":"SpecialDurability1","CardStatName":{"zh":"\u5DF2\u6807\u8BB0","en":"Marked","ja":"Marked"}},"SpecialDurability2":{"Active":true,"MaxValue":60.0,"durabilityKey":"SpecialDurability2","CardStatName":{"zh":"\u54C1\u8D28","en":"Quality","ja":"Quality"},"OverrideIcon":{"FileName":"571094bb27864b60"}},"SpecialDurability4":{"Active":true,"MaxValue":10000.0,"durabilityKey":"SpecialDurability4","CardStatName":{"zh":"ID","en":"ID","ja":"ID"}}}}
+
+{
+  "key" : "BarkRemovingAction",
+  "type" : "ActionTag",
+  "name" : {
+    "zh" : "\u5265\u6811\u76AE\u52A8\u4F5C",
+    "en" : "BarkRemovingAction",
+    "ja" : "BarkRemovingAction"
+  },
+  "_actions" : [
+    {
+      "source" : {
+        "key" : "TreeLargeAlder",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__TreeLargeAlder__CardImage",
+        "name"     : {
+          "zh" : "\u6864\u6728",
+          "en" : "Alder Tree",
+          "ja" : "Alder Tree"
+        }
+      },
+      "text"   : "\u91C7\u96C6\u6811\u76AE",
+      "time"   : 1.0
+    },
+    {
+      "source" : {
+        "key" : "TreeLargeOak",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__StickLong__SpecialDurability4-OverrideIcon",
+        "name"     : {
+          "zh" : "\u6A61\u6811",
+          "en" : "Oak Tree",
+          "ja" : "\u30AA\u30FC\u30AF\u306E\u6728"
+        }
+      },
+      "text"   : "\u91C7\u96C6\u6811\u76AE",
+      "time"   : 1.0
+    },
+    {
+      "source" : {
+        "key" : "TreeLargeWillow",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Event_WillowSpiritBlessingGranted__CardImage",
+        "name"     : {
+          "zh" : "\u67F3\u6811",
+          "en" : "Willow Tree",
+          "ja" : "\u30E4\u30CA\u30AE\u306E\u6728"
+        }
+      },
+      "text"   : "\u91C7\u96C6\u6811\u76AE",
+      "time"   : 1.0
+    }
+  ],
+  "count"    : 3,
+  "_modifiers" : [
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_Drawknife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Drawknife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u62C9\u5200",
+          "en" : "Metal Drawknife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u30C9\u30ED\u30FC\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u5361\u724C\u80FD\u529B",
+        "en" : "Card Ability",
+        "ja" : "\u30AB\u30FC\u30C9\u80FD\u529B"
+      },
+      "modifier"    : {
+        "AppliesTo" : [
+          {
+            "key" : "BarkRemovingAction",
+            "type" : "ActionTag",
+            "name" : {
+              "zh" : "\u5265\u6811\u76AE\u52A8\u4F5C",
+              "en" : "BarkRemovingAction",
+              "ja" : "BarkRemovingAction"
+            }
+          }
+        ],
+        "DurationModifier" : -1,
+        "FadeToBlack"      : 0
+      }
+    }
+  ],
+  "templateCard" : {
+    "UsageDurability" : {
+      "Active" : true,
+      "MaxValue" : 10000.0,
+      "durabilityKey" : "UsageDurability",
+      "CardStatName"  : {
+        "zh" : "\u9999\u6C14",
+        "en" : "Fragrance",
+        "ja" : "Fragrance"
+      }
+    },
+    "FuelCapacity"    : {
+      "Active" : true,
+      "MaxValue" : 10000.0,
+      "durabilityKey" : "FuelCapacity",
+      "CardStatName"  : {
+        "zh" : "\u71C3\u6599",
+        "en" : "Fuel",
+        "ja" : "Fuel"
+      }
+    },
+    "Progress"        : {
+      "Active" : true,
+      "MaxValue" : 75.0,
+      "durabilityKey" : "Progress",
+      "CardStatName"  : {
+        "zh" : "\u780D\u5012\u8FDB\u7A0B",
+        "en" : "Cut",
+        "ja" : "Cut"
+      },
+      "OverrideIcon"  : {
+        "FileName" : "CardData__BarkSandals__UsageDurability-OverrideIcon"
+      }
+    },
+    "SpecialDurability1" : {
+      "Active" : true,
+      "MaxValue" : 1.0,
+      "durabilityKey" : "SpecialDurability1",
+      "CardStatName"  : {
+        "zh" : "\u5DF2\u6807\u8BB0",
+        "en" : "Marked",
+        "ja" : "Marked"
+      }
+    },
+    "SpecialDurability2" : {
+      "Active" : true,
+      "MaxValue" : 60.0,
+      "durabilityKey" : "SpecialDurability2",
+      "CardStatName"  : {
+        "zh" : "\u54C1\u8D28",
+        "en" : "Quality",
+        "ja" : "Quality"
+      },
+      "OverrideIcon"  : {
+        "FileName" : "CardData__AcornDoughRaw__SpecialDurability2-OverrideIcon"
+      }
+    },
+    "SpecialDurability4" : {
+      "Active" : true,
+      "MaxValue" : 10000.0,
+      "durabilityKey" : "SpecialDurability4",
+      "CardStatName"  : {
+        "zh" : "ID",
+        "en" : "ID",
+        "ja" : "ID"
+      }
+    }
+  }
+}

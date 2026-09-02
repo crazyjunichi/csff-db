@@ -1,1 +1,57 @@
-{"DutyName":{"zh":"\u9493\u9C7C\u8FDC\u5F81\u5B8C\u6210","en":"Fishing Expedition Done","ja":"Fishing Expedition Done"},"DutySummary":{"zh":"Finishing fishing expedition.","en":"Finishing fishing expedition.","ja":"Finishing fishing expedition."},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"Partner_ExpeditionActiveFishing","type":"NPCStat","name":{"zh":"\u8FDC\u5F81\u4E2D(\u9493\u9C7C)","en":"Partner_ExpeditionActiveFishing","ja":"Partner_ExpeditionActiveFishing"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"Expedition Fishing Done","type":"StartDialogDutyAction","name":{"zh":"Expedition Fishing Done","en":"Expedition Fishing Done","ja":"Expedition Fishing Done"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"PartnerDuty_ExpeditionFishingDone","name":{"zh":"\u9493\u9C7C\u8FDC\u5F81\u5B8C\u6210","en":"Fishing Expedition Done","ja":"Fishing Expedition Done"},"_uuid":"2b4dbb6f30af97c4c9d441482c7b598a"}
+
+{
+  "DutyName" : {
+    "zh" : "\u9493\u9C7C\u8FDC\u5F81\u5B8C\u6210",
+    "en" : "Fishing Expedition Done",
+    "ja" : "Fishing Expedition Done"
+  },
+  "DutySummary" : {
+    "zh" : "Finishing fishing expedition.",
+    "en" : "Finishing fishing expedition.",
+    "ja" : "Finishing fishing expedition."
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "Partner_ExpeditionActiveFishing",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8FDC\u5F81\u4E2D(\u9493\u9C7C)",
+            "en" : "Partner_ExpeditionActiveFishing",
+            "ja" : "Partner_ExpeditionActiveFishing"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "Expedition Fishing Done",
+      "type" : "StartDialogDutyAction",
+      "name" : {
+        "zh" : "Expedition Fishing Done",
+        "en" : "Expedition Fishing Done",
+        "ja" : "Expedition Fishing Done"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "PartnerDuty_ExpeditionFishingDone",
+  "name"                 : {
+    "zh" : "\u9493\u9C7C\u8FDC\u5F81\u5B8C\u6210",
+    "en" : "Fishing Expedition Done",
+    "ja" : "Fishing Expedition Done"
+  },
+  "_uuid"                : "2b4dbb6f30af97c4c9d441482c7b598a"
+}

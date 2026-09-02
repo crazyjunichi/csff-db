@@ -1,1 +1,65 @@
-{"ItemSelection":{"ItemPool":[{"Target":{"Target":{"key":"Bp_Bedroll","type":"CardData","CardType":7,"name":{"zh":"\u7761\u888B","en":"Bedroll","ja":"\u5BDD\u888B"}}},"Quantity":{"x":1.0,"y":1.0}}],"SearchPriority":1,"OwnershipPriority":0,"DutyPriority":2,"Containers":{"CanLookInContainers":true},"DebugItemSelection":true},"AffectType":4,"SimpleAffectDuration":0,"BpIngredientsSelection":{"SearchPriority":0,"OwnershipPriority":1,"DutyPriority":0,"Containers":{"CanLookInContainers":true,"NOTAllowedContainers":[{"Target":{"key":"Bp_Bedroll","type":"CardData","CardType":7,"name":{"zh":"\u7761\u888B","en":"Bedroll","ja":"\u5BDD\u888B"}}}]},"DebugItemSelection":true},"key":"Work on Bp_Bedroll (CardData)","type":"NPCDutyAction","name":{"zh":"Work on Bp_Bedroll (CardData)","en":"Work on Bp_Bedroll (CardData)","ja":"Work on Bp_Bedroll (CardData)"},"actionType":"AffectItemsDutyAction"}
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Bp_Bedroll",
+            "type" : "CardData",
+            "CardType" : 7,
+            "name"     : {
+              "zh" : "\u7761\u888B",
+              "en" : "Bedroll",
+              "ja" : "\u5BDD\u888B"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Bp_Bedroll",
+            "type" : "CardData",
+            "CardType" : 7,
+            "name"     : {
+              "zh" : "\u7761\u888B",
+              "en" : "Bedroll",
+              "ja" : "\u5BDD\u888B"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Bp_Bedroll (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "Work on Bp_Bedroll (CardData)",
+    "en" : "Work on Bp_Bedroll (CardData)",
+    "ja" : "Work on Bp_Bedroll (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

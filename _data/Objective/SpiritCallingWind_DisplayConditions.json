@@ -1,1 +1,68 @@
-{"NotificationSettings":{"Frequency":2,"PercentThreshold":0.01},"OnCompleteActions":[{"ActionName":{"zh":"\u5B8C\u6210","en":"Completed","ja":"\u5B8C\u4E86"},"DaytimeCost":0,"UseMiniTicks":0,"BlueprintsFullUnlock":[{"key":"Bp_WindSpiritCalling","type":"CardData","CardType":7,"icon":"306f076b356ee22b","name":{"zh":"\u547C\u5524\u98CE\u7CBE\u9B44","en":"Wind Spirit Calling","ja":"\u98A8\u306E\u7CBE\u970A\u53EC\u559A"}}],"FadeToBlack":0,"RoomDirection":0,"ExitDirection":0}],"QuestBehavior":0,"StatsObjectives":[{"StatCondition":{"Stat":{"key":"Stat_WindSpiritBound","type":"GameStat","min":0.0,"max":1.0,"name":{"zh":"\u98CE\u7075\u7ED1\u5B9A","en":"WIndSpiritBound","ja":"WIndSpiritBound"}},"TriggerRange":{"x":1.0,"y":1.0}},"ObjectiveName":"1","CompletionWeight":1}],"NotifyWhenNotChecked":true,"CheckingNotificationDetails":2,"type":"Objective","key":"SpiritCallingWind_DisplayConditions","name":{"zh":"SpiritCallingWind_DisplayConditions","en":"SpiritCallingWind_DisplayConditions","ja":"SpiritCallingWind_DisplayConditions"},"_uuid":"22022404fcb07894dbc9af62b38f30db"}
+
+{
+  "NotificationSettings" : {
+    "Frequency" : 2,
+    "PercentThreshold" : 0.01
+  },
+  "OnCompleteActions"    : [
+    {
+      "ActionName" : {
+        "zh" : "\u5B8C\u6210",
+        "en" : "Completed",
+        "ja" : "\u5B8C\u4E86"
+      },
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "BlueprintsFullUnlock" : [
+        {
+          "key" : "Bp_WindSpiritCalling",
+          "type" : "CardData",
+          "CardType" : 7,
+          "icon"     : "CardData__Bp_WindBlessing__CardImage",
+          "name"     : {
+            "zh" : "\u547C\u5524\u98CE\u7CBE\u9B44",
+            "en" : "Wind Spirit Calling",
+            "ja" : "\u98A8\u306E\u7CBE\u970A\u53EC\u559A"
+          }
+        }
+      ],
+      "FadeToBlack"          : 0,
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    }
+  ],
+  "QuestBehavior"        : 0,
+  "StatsObjectives"      : [
+    {
+      "StatCondition" : {
+        "Stat" : {
+          "key" : "Stat_WindSpiritBound",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u98CE\u7075\u7ED1\u5B9A",
+            "en" : "WIndSpiritBound",
+            "ja" : "WIndSpiritBound"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      "ObjectiveName" : "1",
+      "CompletionWeight" : 1
+    }
+  ],
+  "NotifyWhenNotChecked" : true,
+  "CheckingNotificationDetails" : 2,
+  "type"                        : "Objective",
+  "key"                         : "SpiritCallingWind_DisplayConditions",
+  "name"                        : {
+    "zh" : "SpiritCallingWind_DisplayConditions",
+    "en" : "SpiritCallingWind_DisplayConditions",
+    "ja" : "SpiritCallingWind_DisplayConditions"
+  },
+  "_uuid"                       : "22022404fcb07894dbc9af62b38f30db"
+}

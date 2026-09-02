@@ -1,1 +1,54 @@
-{"OverrideModifiersTarget":{"TargetAgent":{"Target":{"key":"Agent_Hollow","type":"NPCAgent","icon":"450cbae633304212","name":{"zh":"\u7A7A\u58F3","en":"Hollow","ja":"Hollow"}}},"Method":0},"NPCStatModifiers":[{"TargetStat":{"key":"AgentRespawnCounter","type":"NPCStat","name":{"zh":"\u5237\u65B0\u5012\u8BA1\u65F6","en":"AgentRespawnCounter","ja":"AgentRespawnCounter"}},"TargetAgent":{"key":"Agent_Hollow","type":"NPCAgent","icon":"450cbae633304212","name":{"zh":"\u7A7A\u58F3","en":"Hollow","ja":"Hollow"}},"ValueChange":{"x":672.0,"y":672.0}}],"RequiredForSelectingDuty":true,"key":"SetAgentRespawnValueTo1Week","type":"NPCDutyAction","name":{"zh":"SetAgentRespawnValueTo1Week","en":"SetAgentRespawnValueTo1Week","ja":"SetAgentRespawnValueTo1Week"},"actionType":"ChangeNPCStatDutyAction"}
+
+{
+  "OverrideModifiersTarget" : {
+    "TargetAgent" : {
+      "Target" : {
+        "key" : "Agent_Hollow",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Hollow__AgentImage",
+        "name" : {
+          "zh" : "\u7A7A\u58F3",
+          "en" : "Hollow",
+          "ja" : "Hollow"
+        }
+      }
+    },
+    "Method"      : 0
+  },
+  "NPCStatModifiers"        : [
+    {
+      "TargetStat" : {
+        "key" : "AgentRespawnCounter",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+          "en" : "AgentRespawnCounter",
+          "ja" : "AgentRespawnCounter"
+        }
+      },
+      "TargetAgent" : {
+        "key" : "Agent_Hollow",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Hollow__AgentImage",
+        "name" : {
+          "zh" : "\u7A7A\u58F3",
+          "en" : "Hollow",
+          "ja" : "Hollow"
+        }
+      },
+      "ValueChange" : {
+        "x" : 672.0,
+        "y" : 672.0
+      }
+    }
+  ],
+  "RequiredForSelectingDuty" : true,
+  "key"                      : "SetAgentRespawnValueTo1Week",
+  "type"                     : "NPCDutyAction",
+  "name"                     : {
+    "zh" : "SetAgentRespawnValueTo1Week",
+    "en" : "SetAgentRespawnValueTo1Week",
+    "ja" : "SetAgentRespawnValueTo1Week"
+  },
+  "actionType"               : "ChangeNPCStatDutyAction"
+}

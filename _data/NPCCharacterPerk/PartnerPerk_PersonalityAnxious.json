@@ -1,1 +1,64 @@
-{"SunsCost":30,"MoonsCost":0,"StarsCost":0,"PerkName":{"zh":"\u7126\u8651","en":"Anxious","ja":"Anxious"},"PerkDescription":{"zh":"\u66F4\u5FEB\u5730\u7D2F\u8BA1\u538B\u529B\uFF0C\u5E76\u66F4\u96BE\u83B7\u5F97\u4FE1\u4EFB\u3002","en":"Gains stress more easily and has more difficulty trusting.","ja":"Gains stress more easily and has more difficulty trusting."},"PerkIcon":{"FileName":"55aa9bdd01ba38d7"},"DisplayPriority":0.0,"PassiveNPCStatModifiers":[{"TargetStat":{"key":"Partner_Stress","type":"NPCStat","name":{"zh":"\u538B\u529B","en":"Partner_Stress","ja":"Partner_Stress"}},"ValueChange":{"MaxValue":0.25,"FloatValue":0.25,"Active":true}},{"TargetStat":{"key":"Partner_Trust","type":"NPCStat","name":{"zh":"\u4F34\u4FA3\u4FE1\u4EFB","en":"Partner_Trust","ja":"Partner_Trust"}},"ValueChange":{"MaxValue":-0.25,"FloatValue":-0.25,"Active":true}}],"CheckingNotificationDetails":0,"type":"NPCCharacterPerk","key":"PartnerPerk_PersonalityAnxious","icon":"55aa9bdd01ba38d7","name":{"zh":"\u7126\u8651","en":"Anxious","ja":"Anxious"},"_uuid":"3308fd5093d42bf4cbdf267b9282b27f"}
+
+{
+  "SunsCost" : 30,
+  "MoonsCost" : 0,
+  "StarsCost" : 0,
+  "PerkName"  : {
+    "zh" : "\u7126\u8651",
+    "en" : "Anxious",
+    "ja" : "Anxious"
+  },
+  "PerkDescription" : {
+    "zh" : "\u66F4\u5FEB\u5730\u7D2F\u8BA1\u538B\u529B\uFF0C\u5E76\u66F4\u96BE\u83B7\u5F97\u4FE1\u4EFB\u3002",
+    "en" : "Gains stress more easily and has more difficulty trusting.",
+    "ja" : "Gains stress more easily and has more difficulty trusting."
+  },
+  "PerkIcon"        : {
+    "FileName" : "GameStat__Grief__DefaultStatusIcon"
+  },
+  "DisplayPriority" : 0.0,
+  "PassiveNPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "Partner_Stress",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u538B\u529B",
+          "en" : "Partner_Stress",
+          "ja" : "Partner_Stress"
+        }
+      },
+      "ValueChange" : {
+        "MaxValue" : 0.25,
+        "FloatValue" : 0.25,
+        "Active"     : true
+      }
+    },
+    {
+      "TargetStat" : {
+        "key" : "Partner_Trust",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+          "en" : "Partner_Trust",
+          "ja" : "Partner_Trust"
+        }
+      },
+      "ValueChange" : {
+        "MaxValue" : -0.25,
+        "FloatValue" : -0.25,
+        "Active"     : true
+      }
+    }
+  ],
+  "CheckingNotificationDetails" : 0,
+  "type"                        : "NPCCharacterPerk",
+  "key"                         : "PartnerPerk_PersonalityAnxious",
+  "icon"                        : "GameStat__Grief__DefaultStatusIcon",
+  "name"                        : {
+    "zh" : "\u7126\u8651",
+    "en" : "Anxious",
+    "ja" : "Anxious"
+  },
+  "_uuid"                       : "3308fd5093d42bf4cbdf267b9282b27f"
+}

@@ -1,1 +1,62 @@
-{"DutyName":{"zh":"7\u5929\u4E0D\u51FA\u6D1E","en":"Wolf Pack 7 days Cave","ja":"Wolf Pack 7 days Cave"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredStatValues":[{"Stat":{"key":"Counter","type":"GameStat","min":0.0,"max":1000000000.0,"name":{"zh":"\u8BA1\u6570\u5668","en":"Counter","ja":"\u30AB\u30A6\u30F3\u30BF\u30FC"}},"TriggerRange":{"x":0.0,"y":672.0}}]},"DutyExecutionOptions":0,"ActionSequence":[{"key":"WolfPackMoveToCave","type":"MoveDutyAction","name":{"zh":"WolfPackMoveToCave","en":"WolfPackMoveToCave","ja":"WolfPackMoveToCave"}},{"key":"WolfPackDrinkAndRest","type":"ChangeNPCStatDutyAction","name":{"zh":"WolfPackDrinkAndRest","en":"WolfPackDrinkAndRest","ja":"WolfPackDrinkAndRest"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_WolfPack_7DaysCave","name":{"zh":"7\u5929\u4E0D\u51FA\u6D1E","en":"Wolf Pack 7 days Cave","ja":"Wolf Pack 7 days Cave"},"_uuid":"443fcbaa31a48da4c879e8260ab8a226"}
+
+{
+  "DutyName" : {
+    "zh" : "7\u5929\u4E0D\u51FA\u6D1E",
+    "en" : "Wolf Pack 7 days Cave",
+    "ja" : "Wolf Pack 7 days Cave"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredStatValues" : [
+      {
+        "Stat" : {
+          "key" : "Counter",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1000000000.0,
+          "name" : {
+            "zh" : "\u8BA1\u6570\u5668",
+            "en" : "Counter",
+            "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 0.0,
+          "y" : 672.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "WolfPackMoveToCave",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "WolfPackMoveToCave",
+        "en" : "WolfPackMoveToCave",
+        "ja" : "WolfPackMoveToCave"
+      }
+    },
+    {
+      "key" : "WolfPackDrinkAndRest",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WolfPackDrinkAndRest",
+        "en" : "WolfPackDrinkAndRest",
+        "ja" : "WolfPackDrinkAndRest"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_WolfPack_7DaysCave",
+  "name"                 : {
+    "zh" : "7\u5929\u4E0D\u51FA\u6D1E",
+    "en" : "Wolf Pack 7 days Cave",
+    "ja" : "Wolf Pack 7 days Cave"
+  },
+  "_uuid"                : "443fcbaa31a48da4c879e8260ab8a226"
+}

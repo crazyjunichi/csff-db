@@ -1,1 +1,99 @@
-{"DutyName":{"zh":"\u9003\u8DD1","en":"Beaver Flee","ja":"Beaver Flee"},"MaxPerformPerDay":0,"DutyConditions":{"PlayerUsesCard":0,"RequiredNPCStatValues":[{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentMorale","type":"NPCStat","name":{"zh":"\u6597\u5FD7","en":"AgentMorale","ja":"AgentMorale"}},"ConditionRange":{"x":0.0,"y":99.0}},{"UseAssociatedAgent":true,"TargetStat":{"key":"AgentExists","type":"NPCStat","name":{"zh":"\u5B58\u5728","en":"AgentExists","ja":"AgentExists"}},"ConditionRange":{"x":1.0,"y":1.0}}]},"RememberWhenInterrupted":{"IntValue":0,"Active":true},"DutyExecutionOptions":0,"ActionSequence":[{"key":"BeaverFleeMove","type":"MoveDutyAction","name":{"zh":"BeaverFleeMove","en":"BeaverFleeMove","ja":"BeaverFleeMove"}},{"key":"HideInSpiritWorld","type":"MoveDutyAction","name":{"zh":"HideInSpiritWorld","en":"HideInSpiritWorld","ja":"HideInSpiritWorld"}},{"key":"RecoverMorale","type":"ChangeNPCStatDutyAction","name":{"zh":"RecoverMorale","en":"RecoverMorale","ja":"RecoverMorale"}},{"key":"ComeBackToForest","type":"MoveDutyAction","name":{"zh":"ComeBackToForest","en":"ComeBackToForest","ja":"ComeBackToForest"}}],"GiveUpOptions":0,"GiveUpTicks":0,"type":"NPCDuty","key":"AgentDuty_Beaver_Flee","name":{"zh":"\u9003\u8DD1","en":"Beaver Flee","ja":"Beaver Flee"},"_uuid":"71d170bfb03988c4d9314a6903190713"}
+
+{
+  "DutyName" : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Beaver Flee",
+    "ja" : "Beaver Flee"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentMorale",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u6597\u5FD7",
+            "en" : "AgentMorale",
+            "ja" : "AgentMorale"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 99.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "RememberWhenInterrupted" : {
+    "IntValue" : 0,
+    "Active"   : true
+  },
+  "DutyExecutionOptions"    : 0,
+  "ActionSequence"          : [
+    {
+      "key" : "BeaverFleeMove",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "BeaverFleeMove",
+        "en" : "BeaverFleeMove",
+        "ja" : "BeaverFleeMove"
+      }
+    },
+    {
+      "key" : "HideInSpiritWorld",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "HideInSpiritWorld",
+        "en" : "HideInSpiritWorld",
+        "ja" : "HideInSpiritWorld"
+      }
+    },
+    {
+      "key" : "RecoverMorale",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "RecoverMorale",
+        "en" : "RecoverMorale",
+        "ja" : "RecoverMorale"
+      }
+    },
+    {
+      "key" : "ComeBackToForest",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "ComeBackToForest",
+        "en" : "ComeBackToForest",
+        "ja" : "ComeBackToForest"
+      }
+    }
+  ],
+  "GiveUpOptions"           : 0,
+  "GiveUpTicks"             : 0,
+  "type"                    : "NPCDuty",
+  "key"                     : "AgentDuty_Beaver_Flee",
+  "name"                    : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Beaver Flee",
+    "ja" : "Beaver Flee"
+  },
+  "_uuid"                   : "71d170bfb03988c4d9314a6903190713"
+}
