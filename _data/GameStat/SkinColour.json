@@ -1,0 +1,204 @@
+
+{
+  "GameName" : {
+    "zh" : "\u80A4\u8272",
+    "en" : "Skin Colour",
+    "ja" : "Skin Colour"
+  },
+  "BaseValue" : 2.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 4.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 2000,
+  "Visibility"      : 2,
+  "VisibleInAppearanceTab" : true,
+  "CannotBeInspected"      : true,
+  "StatusesHaveNoBar"      : true,
+  "Statuses"               : [
+    {
+      "GameName" : {
+        "zh" : "Very Fair Skin",
+        "en" : "Very Fair Skin",
+        "ja" : "Very Fair Skin"
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Fair Skin",
+        "en" : "Fair Skin",
+        "ja" : "Fair Skin"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Medium-Toned Skin",
+        "en" : "Medium-Toned Skin",
+        "ja" : "Medium-Toned Skin"
+      },
+      "ValueRange" : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Dark Skin",
+        "en" : "Dark Skin",
+        "ja" : "Dark Skin"
+      },
+      "ValueRange" : {
+        "m_X" : 3,
+        "m_Y" : 3
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Very Dark Skin",
+        "en" : "Very Dark Skin",
+        "ja" : "Very Dark Skin"
+      },
+      "ValueRange" : {
+        "m_X" : 4,
+        "m_Y" : 4
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 96,
+  "StalenessMultiplier"     : 0.5,
+  "MaxStalenessStack"       : 2,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "SkinColour",
+  "name"                    : {
+    "zh" : "\u80A4\u8272",
+    "en" : "Skin Colour",
+    "ja" : "Skin Colour"
+  },
+  "min"                     : 0.0,
+  "max"                     : 4.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Pk_3_4_DarkSkin",
+        "type" : "CharacterPerk",
+        "icon" : "NPCCharacterPerk__PartnerPerk_SkinDark__PerkIcon",
+        "name" : {
+          "zh" : "\u6DF1\u8272\u76AE\u80A4",
+          "en" : "Dark Skin",
+          "ja" : "\u9ED2\u3044\u808C"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_3_4_LightSkin",
+        "type" : "CharacterPerk",
+        "icon" : "NPCCharacterPerk__PartnerPerk_SkinFair__PerkIcon",
+        "name" : {
+          "zh" : "\u6D45\u8272\u76AE\u80A4",
+          "en" : "Fair Skin",
+          "ja" : "\u767D\u3044\u808C"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_3_4_VeryDarkSkin",
+        "type" : "CharacterPerk",
+        "icon" : "NPCCharacterPerk__PartnerPerk_SkinVeryDark__PerkIcon",
+        "name" : {
+          "zh" : "\u76AE\u80A4\u9EDD\u9ED1",
+          "en" : "Very Dark Skin",
+          "ja" : "\u304B\u306A\u308A\u9ED2\u3044\u808C"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_3_4_VeryLightSkin",
+        "type" : "CharacterPerk",
+        "icon" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
+        "name" : {
+          "zh" : "\u76AE\u80A4\u767D\u7699",
+          "en" : "Very Fair Skin",
+          "ja" : "\u304B\u306A\u308A\u767D\u3044\u808C\u3002"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    }
+  ],
+  "_uuid"                   : "b9c98fb5983145e49c7672df7ba4ead2"
+}

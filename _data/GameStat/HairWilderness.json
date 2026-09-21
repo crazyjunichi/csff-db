@@ -1,0 +1,552 @@
+
+{
+  "GameName" : {
+    "zh" : "\u5934\u53D1\u84EC\u4E71",
+    "en" : "Hair Wilderness",
+    "ja" : "Hair Wilderness"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 100.0
+  },
+  "BaseRatePerTick" : 0.04,
+  "MinMaxRate"      : {
+    "x" : 0.0,
+    "y" : 0.2
+  },
+  "StatPriority"    : 1150,
+  "Visibility"      : 2,
+  "VisibleInAppearanceTab" : true,
+  "CannotBeInspected"      : true,
+  "StatusesHaveNoBar"      : true,
+  "Statuses"               : [
+    {
+      "ValueRange" : {
+        "m_X" : 0,
+        "m_Y" : 49
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Wild Hair",
+        "en" : "Wild Hair",
+        "ja" : "Wild Hair"
+      },
+      "Description" : {
+        "zh" : "Your hair has grown wild and tangled.",
+        "en" : "Your hair has grown wild and tangled.",
+        "ja" : "Your hair has grown wild and tangled."
+      },
+      "ValueRange"  : {
+        "m_X" : 50,
+        "m_Y" : 100
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 96,
+  "StalenessMultiplier"     : 0.5,
+  "MaxStalenessStack"       : 2,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "NotEnoughText"           : {
+    "zh" : "Your hair needs combing first.",
+    "en" : "Your hair needs combing first.",
+    "ja" : "Your hair needs combing first."
+  },
+  "TooMuchText"             : {
+    "zh" : "Your hair needs combing first.",
+    "en" : "Your hair needs combing first.",
+    "ja" : "Your hair needs combing first."
+  },
+  "type"                    : "GameStat",
+  "key"                     : "HairWilderness",
+  "name"                    : {
+    "zh" : "\u5934\u53D1\u84EC\u4E71",
+    "en" : "Hair Wilderness",
+    "ja" : "Hair Wilderness"
+  },
+  "min"                     : 0.0,
+  "max"                     : 100.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AComb Hair",
+        "en" : "Action: Comb Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AComb Hair"
+      },
+      "value"       : {
+        "x" : -100.0,
+        "y" : -100.0
+      }
+    }
+  ],
+  "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "Hairstyle",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 5.0,
+        "name" : {
+          "zh" : "\u53D1\u578B",
+          "en" : "Hairstyle",
+          "ja" : "Hairstyle"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AHair in a Bun",
+        "en" : "Status Stage: Hair in a Bun",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHair in a Bun"
+      },
+      "value"       : {
+        "x" : -0.04,
+        "y" : -0.04
+      }
+    },
+    {
+      "source" : {
+        "key" : "Hairstyle",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 5.0,
+        "name" : {
+          "zh" : "\u53D1\u578B",
+          "en" : "Hairstyle",
+          "ja" : "Hairstyle"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ABack Braid",
+        "en" : "Status Stage: Back Braid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ABack Braid"
+      },
+      "value"       : {
+        "x" : -0.05,
+        "y" : -0.05
+      }
+    },
+    {
+      "source" : {
+        "key" : "Hairstyle",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 5.0,
+        "name" : {
+          "zh" : "\u53D1\u578B",
+          "en" : "Hairstyle",
+          "ja" : "Hairstyle"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ABraided Bun",
+        "en" : "Status Stage: Braided Bun",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ABraided Bun"
+      },
+      "value"       : {
+        "x" : -0.06,
+        "y" : -0.06
+      }
+    },
+    {
+      "source" : {
+        "key" : "Hairstyle",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 5.0,
+        "name" : {
+          "zh" : "\u53D1\u578B",
+          "en" : "Hairstyle",
+          "ja" : "Hairstyle"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AClose Braids",
+        "en" : "Status Stage: Close Braids",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AClose Braids"
+      },
+      "value"       : {
+        "x" : -0.03,
+        "y" : -0.03
+      }
+    },
+    {
+      "source" : {
+        "key" : "HairLength",
+        "type" : "GameStat",
+        "icon" : "GameStat__Empathy__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 69120.0,
+        "name" : {
+          "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+          "en" : "Hair Length",
+          "ja" : "Hair Length"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u79C3\u5934",
+        "en" : "Status Stage: Bald",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ABald"
+      },
+      "value"       : {
+        "x" : -0.1,
+        "y" : -0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "HairLength",
+        "type" : "GameStat",
+        "icon" : "GameStat__Empathy__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 69120.0,
+        "name" : {
+          "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+          "en" : "Hair Length",
+          "ja" : "Hair Length"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9F50\u9888\u53D1",
+        "en" : "Status Stage: Neck-Length Hair",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ANeck-Length Hair"
+      },
+      "value"       : {
+        "x" : 0.01,
+        "y" : 0.01
+      }
+    },
+    {
+      "source" : {
+        "key" : "HairLength",
+        "type" : "GameStat",
+        "icon" : "GameStat__Empathy__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 69120.0,
+        "name" : {
+          "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+          "en" : "Hair Length",
+          "ja" : "Hair Length"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9F50\u80A9\u53D1",
+        "en" : "Status Stage: Shoulder-Length Hair",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AShoulder-Length Hair"
+      },
+      "value"       : {
+        "x" : 0.02,
+        "y" : 0.02
+      }
+    },
+    {
+      "source" : {
+        "key" : "HairLength",
+        "type" : "GameStat",
+        "icon" : "GameStat__Empathy__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 69120.0,
+        "name" : {
+          "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+          "en" : "Hair Length",
+          "ja" : "Hair Length"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u53CA\u80CC\u53D1",
+        "en" : "Status Stage: Back-Length Hair",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ABack-Length Hair"
+      },
+      "value"       : {
+        "x" : 0.03,
+        "y" : 0.03
+      }
+    },
+    {
+      "source" : {
+        "key" : "HairLength",
+        "type" : "GameStat",
+        "icon" : "GameStat__Empathy__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 69120.0,
+        "name" : {
+          "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+          "en" : "Hair Length",
+          "ja" : "Hair Length"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u53CA\u8170\u957F\u53D1",
+        "en" : "Status Stage: Waist-Length Hair",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWaist-Length Hair"
+      },
+      "value"       : {
+        "x" : 0.04,
+        "y" : 0.04
+      }
+    },
+    {
+      "source" : {
+        "key" : "HairLength",
+        "type" : "GameStat",
+        "icon" : "GameStat__Empathy__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 69120.0,
+        "name" : {
+          "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+          "en" : "Hair Length",
+          "ja" : "Hair Length"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9F50\u81C0\u53D1",
+        "en" : "Status Stage: Hip-Length Hair",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHip-Length Hair"
+      },
+      "value"       : {
+        "x" : 0.05,
+        "y" : 0.05
+      }
+    },
+    {
+      "source" : {
+        "key" : "HairType",
+        "type" : "GameStat",
+        "icon" : "GameStat__Empathy__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 3.0,
+        "name" : {
+          "zh" : "\u53D1\u578B",
+          "en" : "Hair Type",
+          "ja" : "Hair Type"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5927\u6CE2\u6D6A",
+        "en" : "Status Stage: Wavy",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWavy"
+      },
+      "value"       : {
+        "x" : 0.005,
+        "y" : 0.005
+      }
+    },
+    {
+      "source" : {
+        "key" : "HairType",
+        "type" : "GameStat",
+        "icon" : "GameStat__Empathy__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 3.0,
+        "name" : {
+          "zh" : "\u53D1\u578B",
+          "en" : "Hair Type",
+          "ja" : "Hair Type"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5927\u5377\u53D1",
+        "en" : "Status Stage: Curly",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ACurly"
+      },
+      "value"       : {
+        "x" : 0.01,
+        "y" : 0.01
+      }
+    },
+    {
+      "source" : {
+        "key" : "HairType",
+        "type" : "GameStat",
+        "icon" : "GameStat__Empathy__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 3.0,
+        "name" : {
+          "zh" : "\u53D1\u578B",
+          "en" : "Hair Type",
+          "ja" : "Hair Type"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C0F\u5377\u53D1",
+        "en" : "Status Stage: Kinky",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AKinky"
+      },
+      "value"       : {
+        "x" : 0.015,
+        "y" : 0.015
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABun",
+        "en" : "Action: Bun",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABun"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATemple Braids",
+        "en" : "Action: Temple Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATemple Braids"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATemple Braids",
+        "en" : "Action: Temple Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATemple Braids"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATemple Braids",
+        "en" : "Action: Temple Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATemple Braids"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABack Braid",
+        "en" : "Action: Back Braid",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABack Braid"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABraided Bun",
+        "en" : "Action: Braided Bun",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABraided Bun"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose Braids",
+        "en" : "Action: Close Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose Braids"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose Braids",
+        "en" : "Action: Close Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose Braids"
+      }
+    }
+  ],
+  "_uuid"                   : "31d9f820c8774ab5929e570b3816fa01"
+}

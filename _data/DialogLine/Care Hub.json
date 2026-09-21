@@ -914,6 +914,451 @@
           }
         }
       ]
+    },
+    {
+      "Answer" : {
+        "zh" : "Praise",
+        "en" : "Praise",
+        "ja" : "Praise"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Praise - Success",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "You express praise to your partner.\nThe reaction is positive.",
+            "en" : "You express praise to your partner.\nThe reaction is positive.",
+            "ja" : "You express praise to your partner.\nThe reaction is positive."
+          }
+        }
+      },
+      "UseWeightsForNextStep" : true,
+      "NextStepsWithWeights"  : [
+        {
+          "Line" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "Praise - Success",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "You express praise to your partner.\nThe reaction is positive.",
+                "en" : "You express praise to your partner.\nThe reaction is positive.",
+                "ja" : "You express praise to your partner.\nThe reaction is positive."
+              }
+            }
+          },
+          "Weights" : {
+            "BaseWeight" : 0,
+            "StatWeightModifiers" : [
+              {
+                "Stat" : {
+                  "key" : "Skill_Socials",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+                  "min"  : 0.0,
+                  "max"  : 150.0,
+                  "name" : {
+                    "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+                    "en" : "Socials",
+                    "ja" : "\u793E\u4EA4"
+                  }
+                },
+                "StatRange" : {
+                  "x" : 0.0,
+                  "y" : 150.0
+                },
+                "InterpWeightRange" : {
+                  "m_X" : 0,
+                  "m_Y" : 50
+                },
+                "WhenOutOfRange"    : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Assertiveness",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 100.0,
+                  "name" : {
+                    "zh" : "\u81EA\u4FE1",
+                    "en" : "Assertiveness",
+                    "ja" : "Assertiveness"
+                  }
+                },
+                "StatRange" : {
+                  "x" : 0.0,
+                  "y" : 100.0
+                },
+                "InterpWeightRange" : {
+                  "m_X" : 0,
+                  "m_Y" : 50
+                },
+                "WhenOutOfRange"    : 0
+              }
+            ],
+            "AgentStatsWeightModifiers" : [
+              {
+                "Stat" : {
+                  "key" : "Partner_Affection",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u597D\u611F",
+                    "en" : "Partner_Affection",
+                    "ja" : "Partner_Affection"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "StatRange"          : {
+                  "x" : 12000.0,
+                  "y" : 20000.0
+                },
+                "InterpWeightRange"  : {
+                  "m_X" : 0,
+                  "m_Y" : 200
+                },
+                "WhenOutOfRange"     : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Partner_Affection",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u597D\u611F",
+                    "en" : "Partner_Affection",
+                    "ja" : "Partner_Affection"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "StatRange"          : {
+                  "x" : 0.0,
+                  "y" : 8000.0
+                },
+                "InterpWeightRange"  : {
+                  "m_X" : -200,
+                  "m_Y" : 0
+                },
+                "WhenOutOfRange"     : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Partner_Trust",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+                    "en" : "Partner_Trust",
+                    "ja" : "Partner_Trust"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "StatRange"          : {
+                  "x" : 12000.0,
+                  "y" : 20000.0
+                },
+                "InterpWeightRange"  : {
+                  "m_X" : 0,
+                  "m_Y" : 100
+                },
+                "WhenOutOfRange"     : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Partner_Trust",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+                    "en" : "Partner_Trust",
+                    "ja" : "Partner_Trust"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "StatRange"          : {
+                  "x" : 0.0,
+                  "y" : 8000.0
+                },
+                "InterpWeightRange"  : {
+                  "m_X" : -100,
+                  "m_Y" : 0
+                },
+                "WhenOutOfRange"     : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Partner_AttractionToPlayer",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+                    "en" : "Partner_AttractionToPlayer",
+                    "ja" : "Partner_AttractionToPlayer"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "StatRange"          : {
+                  "x" : -200.0,
+                  "y" : 200.0
+                },
+                "InterpWeightRange"  : {
+                  "m_X" : -100,
+                  "m_Y" : 100
+                },
+                "WhenOutOfRange"     : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Partner_PerceivedAttractiveness",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u611F\u77E5\u9B45\u529B",
+                    "en" : "Partner_PerceivedAttractiveness",
+                    "ja" : "Partner_PerceivedAttractiveness"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "StatRange"          : {
+                  "x" : -200.0,
+                  "y" : 200.0
+                },
+                "InterpWeightRange"  : {
+                  "m_X" : 50,
+                  "m_Y" : -50
+                },
+                "WhenOutOfRange"     : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Partner_Awkwardness",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u5C34\u5C2C",
+                    "en" : "Partner_Awkwardness",
+                    "ja" : "Partner_Awkwardness"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "StatRange"          : {
+                  "x" : 0.0,
+                  "y" : 1000.0
+                },
+                "InterpWeightRange"  : {
+                  "m_X" : 0,
+                  "m_Y" : -200
+                },
+                "WhenOutOfRange"     : 0
+              }
+            ]
+          }
+        },
+        {
+          "Line" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "Praise - Failure",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "You express praise to your partner.\nThe reaction is negative.",
+                "en" : "You express praise to your partner.\nThe reaction is negative.",
+                "ja" : "You express praise to your partner.\nThe reaction is negative."
+              }
+            }
+          },
+          "Weights" : {
+            "BaseWeight" : 100
+          }
+        }
+      ]
+    },
+    {
+      "Answer" : {
+        "zh" : "Reassure",
+        "en" : "Reassure",
+        "ja" : "Reassure"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Reassure - Success",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "You express reassurance to your partner.\nThe reaction is positive.",
+            "en" : "You express reassurance to your partner.\nThe reaction is positive.",
+            "ja" : "You express reassurance to your partner.\nThe reaction is positive."
+          }
+        }
+      },
+      "UseWeightsForNextStep" : true,
+      "NextStepsWithWeights"  : [
+        {
+          "Line" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "Reassure - Success",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "You express reassurance to your partner.\nThe reaction is positive.",
+                "en" : "You express reassurance to your partner.\nThe reaction is positive.",
+                "ja" : "You express reassurance to your partner.\nThe reaction is positive."
+              }
+            }
+          },
+          "Weights" : {
+            "BaseWeight" : 0,
+            "StatWeightModifiers" : [
+              {
+                "Stat" : {
+                  "key" : "Skill_Socials",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+                  "min"  : 0.0,
+                  "max"  : 150.0,
+                  "name" : {
+                    "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+                    "en" : "Socials",
+                    "ja" : "\u793E\u4EA4"
+                  }
+                },
+                "StatRange" : {
+                  "x" : 0.0,
+                  "y" : 150.0
+                },
+                "InterpWeightRange" : {
+                  "m_X" : 0,
+                  "m_Y" : 50
+                },
+                "WhenOutOfRange"    : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Empathy",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Empathy__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 100.0,
+                  "name" : {
+                    "zh" : "\u4FE1\u4EFB",
+                    "en" : "Empathy",
+                    "ja" : "Empathy"
+                  }
+                },
+                "StatRange" : {
+                  "x" : 0.0,
+                  "y" : 100.0
+                },
+                "InterpWeightRange" : {
+                  "m_X" : -100,
+                  "m_Y" : 100
+                },
+                "WhenOutOfRange"    : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Focus",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__Focus__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 96.0,
+                  "name" : {
+                    "zh" : "\u4E13\u6CE8\u5EA6",
+                    "en" : "Focus",
+                    "ja" : "\u96C6\u4E2D\u529B"
+                  }
+                },
+                "StatRange" : {
+                  "x" : 0.0,
+                  "y" : 96.0
+                },
+                "InterpWeightRange" : {
+                  "m_X" : -100,
+                  "m_Y" : 100
+                },
+                "WhenOutOfRange"    : 0
+              }
+            ],
+            "AgentStatsWeightModifiers" : [
+              {
+                "Stat" : {
+                  "key" : "Partner_Empathy",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u540C\u7406\u5FC3",
+                    "en" : "Partner_Empathy",
+                    "ja" : "Partner_Empathy"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "StatRange"          : {
+                  "x" : 0.0,
+                  "y" : 100.0
+                },
+                "InterpWeightRange"  : {
+                  "m_X" : -50,
+                  "m_Y" : 50
+                },
+                "WhenOutOfRange"     : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Partner_Connection",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u7F81\u7ECA",
+                    "en" : "Partner_Connection",
+                    "ja" : "Partner_Connection"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "StatRange"          : {
+                  "x" : 90.0,
+                  "y" : 210.0
+                },
+                "InterpWeightRange"  : {
+                  "m_X" : 100,
+                  "m_Y" : 100
+                },
+                "WhenOutOfRange"     : 0
+              },
+              {
+                "Stat" : {
+                  "key" : "Partner_Connection",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u7F81\u7ECA",
+                    "en" : "Partner_Connection",
+                    "ja" : "Partner_Connection"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "StatRange"          : {
+                  "x" : 0.0,
+                  "y" : 89.0
+                },
+                "InterpWeightRange"  : {
+                  "m_X" : 50,
+                  "m_Y" : 50
+                },
+                "WhenOutOfRange"     : 0
+              }
+            ]
+          }
+        },
+        {
+          "Line" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "Reassure - Failure",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "You express reassurance to your partner.\nThe reaction is negative.",
+                "en" : "You express reassurance to your partner.\nThe reaction is negative.",
+                "ja" : "You express reassurance to your partner.\nThe reaction is negative."
+              }
+            }
+          },
+          "Weights" : {
+            "BaseWeight" : 100
+          }
+        }
+      ]
     }
   ],
   "type"               : "DialogLine",

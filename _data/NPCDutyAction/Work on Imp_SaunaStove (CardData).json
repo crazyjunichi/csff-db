@@ -1,0 +1,67 @@
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Imp_SaunaStove",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Imp_SaunaStove__CardImage",
+            "name"     : {
+              "zh" : "\u6851\u62FF\u7089",
+              "en" : "Sauna Stove",
+              "ja" : "\u30B5\u30A6\u30CA\u30B9\u30C8\u30FC\u30D6"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Imp_SaunaStove",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Imp_SaunaStove__CardImage",
+            "name"     : {
+              "zh" : "\u6851\u62FF\u7089",
+              "en" : "Sauna Stove",
+              "ja" : "\u30B5\u30A6\u30CA\u30B9\u30C8\u30FC\u30D6"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Imp_SaunaStove (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "\u65BD\u5DE5\uFF1A\u6851\u62FF\u7089",
+    "en" : "Work on Sauna Stove",
+    "ja" : "Work on Imp_SaunaStove (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

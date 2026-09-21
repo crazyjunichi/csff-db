@@ -1,16 +1,17 @@
 
 {
   "DutyName" : {
-    "zh" : "\u5C60\u5BB0\u4E2D\u578B\u52A8\u7269",
+    "zh" : "\u5C60\u5BB0",
     "en" : "Butcher",
     "ja" : "Butcher"
   },
   "DutySummary" : {
-    "zh" : "Butchering a medium animal.",
+    "zh" : "\u6B63\u5728\u5C60\u5BB0\u4E00\u53EA\u4E2D\u578B\u52A8\u7269\u3002",
     "en" : "Butchering a medium animal.",
     "ja" : "Butchering a medium animal."
   },
-  "DutyTags"    : [
+  "RequiresMarkedCard" : true,
+  "DutyTags"           : [
     {
       "key" : "DutyTag_Physical",
       "type" : "NPCDutyTag",
@@ -30,7 +31,7 @@
       }
     }
   ],
-  "MaxPerformPerDay" : 0,
+  "MaxPerformPerDay"   : 0,
   "DutyExecutionOptions" : 0,
   "ActionSequence"       : [
     {
@@ -57,7 +58,7 @@
   "type"                 : "NPCDuty",
   "key"                  : "PartnerDuty_ButcherMedium",
   "name"                 : {
-    "zh" : "\u5C60\u5BB0\u4E2D\u578B\u52A8\u7269",
+    "zh" : "\u5C60\u5BB0",
     "en" : "Butcher",
     "ja" : "Butcher"
   },

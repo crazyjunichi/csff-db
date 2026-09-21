@@ -46,7 +46,7 @@
     {
       "key" : "tag_Heatable",
       "type" : "CardTag",
-      "count" : 365,
+      "count" : 368,
       "name"  : {
         "zh" : "\u53EF\u52A0\u70ED\u7684",
         "en" : "Heatable",
@@ -116,7 +116,7 @@
     {
       "key" : "tag_HumanFood",
       "type" : "CardTag",
-      "count" : 181,
+      "count" : 179,
       "name"  : {
         "zh" : "\u4EBA\u7C7B\u98DF\u7269",
         "en" : "Human Food",
@@ -2808,7 +2808,7 @@
               "type" : "SpiceTag",
               "icon" : "CardData__JuniperberriesCrushed__CardImage",
               "name" : {
-                "zh" : "Juniper Berries",
+                "zh" : "\u675C\u677E\u5B50",
                 "en" : "Juniper Berries",
                 "ja" : "Juniper Berries"
               }
@@ -2968,6 +2968,78 @@
     }
   ],
   "_useFor"                         : [
+    {
+      "source" : {
+        "key" : "Bp_BoarBlessing",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Boar1__AgentImage",
+        "name"     : {
+          "zh" : "\u8D50\u798F",
+          "en" : "Blessing",
+          "ja" : "\u795D\u798F"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BoarEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Boar1__AgentImage",
+        "name"     : {
+          "zh" : "\u91CE\u732A\u9644\u9B54",
+          "en" : "Boar Enchantment",
+          "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BoarSpiritCalling",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Boar1__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u91CE\u732A\u7CBE\u9B44",
+          "en" : "Boar Spirit Calling",
+          "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u7CBE\u970A\u53EC\u559A"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BoarSummoning",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Boar1__AgentImage",
+        "name"     : {
+          "zh" : "\u53EC\u5524\u4EEA\u5F0F",
+          "en" : "Summoning Ritual",
+          "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
     {
       "source" : {
         "key" : "MudHutConstructionLocationEnclosure",
@@ -4305,6 +4377,78 @@
     }
   ],
   "_transformTo"                    : [
+    {
+      "source" : {
+        "key" : "Bp_BoarBlessing",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Boar1__AgentImage",
+        "name"     : {
+          "zh" : "\u8D50\u798F",
+          "en" : "Blessing",
+          "ja" : "\u795D\u798F"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BoarEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Boar1__AgentImage",
+        "name"     : {
+          "zh" : "\u91CE\u732A\u9644\u9B54",
+          "en" : "Boar Enchantment",
+          "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BoarSpiritCalling",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Boar1__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u91CE\u732A\u7CBE\u9B44",
+          "en" : "Boar Spirit Calling",
+          "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u7CBE\u970A\u53EC\u559A"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BoarSummoning",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Boar1__AgentImage",
+        "name"     : {
+          "zh" : "\u53EC\u5524\u4EEA\u5F0F",
+          "en" : "Summoning Ritual",
+          "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
     {
       "source" : {
         "key" : "CharredRemains",

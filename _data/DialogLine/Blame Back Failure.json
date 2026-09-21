@@ -1,0 +1,152 @@
+
+{
+  "Line" : {
+    "zh" : "You argue back, defending your position.\nYour arguments fail to land.",
+    "en" : "You argue back, defending your position.\nYour arguments fail to land.",
+    "ja" : "You argue back, defending your position.\nYour arguments fail to land."
+  },
+  "NextStep" : {
+    "NextStep" : 0,
+    "NextLine" : {
+      "key" : "Express Blame",
+      "type" : "DialogLine",
+      "name" : {
+        "zh" : "Your partner is angry and frustrated and is blaming you for it.",
+        "en" : "Your partner is angry and frustrated and is blaming you for it.",
+        "ja" : "Your partner is angry and frustrated and is blaming you for it."
+      }
+    }
+  },
+  "ShowContinueButton" : 1,
+  "ActionToPerform"    : {
+    "StatModifications" : [
+      {
+        "Stat" : {
+          "key" : "Stress",
+          "type" : "GameStat",
+          "icon" : "GameStat__Arousal__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 240.0,
+          "name" : {
+            "zh" : "\u538B\u529B",
+            "en" : "Stress",
+            "ja" : "\u30B9\u30C8\u30EC\u30B9"
+          }
+        },
+        "ValueModifier" : {
+          "x" : 10.0,
+          "y" : 10.0
+        }
+      },
+      {
+        "Stat" : {
+          "key" : "Morale",
+          "type" : "GameStat",
+          "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+          "min"  : -350.0,
+          "max"  : 350.0,
+          "name" : {
+            "zh" : "\u60C5\u7EEA",
+            "en" : "Morale",
+            "ja" : "\u58EB\u6C17"
+          }
+        },
+        "ValueModifier" : {
+          "x" : 5.0,
+          "y" : 5.0
+        }
+      }
+    ],
+    "NPCStatModifications" : [
+      {
+        "TargetStat" : {
+          "key" : "Partner_Trust",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+            "en" : "Partner_Trust",
+            "ja" : "Partner_Trust"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : -10.0,
+          "y" : -10.0
+        }
+      },
+      {
+        "TargetStat" : {
+          "key" : "Partner_Awkwardness",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5C34\u5C2C",
+            "en" : "Partner_Awkwardness",
+            "ja" : "Partner_Awkwardness"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : 40.0,
+          "y" : 40.0
+        }
+      },
+      {
+        "TargetStat" : {
+          "key" : "Partner_Connection",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u7F81\u7ECA",
+            "en" : "Partner_Connection",
+            "ja" : "Partner_Connection"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : -10.0,
+          "y" : -10.0
+        }
+      },
+      {
+        "TargetStat" : {
+          "key" : "Partner_DominanceCurrent",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+            "en" : "Partner_DominanceCurrent",
+            "ja" : "Partner_DominanceCurrent"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : 25.0,
+          "y" : 25.0
+        }
+      },
+      {
+        "TargetStat" : {
+          "key" : "Partner_Relationship",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5173\u7CFB\u5F3A\u5EA6",
+            "en" : "Partner_Relationship",
+            "ja" : "Partner_Relationship"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : -25.0,
+          "y" : -25.0
+        }
+      }
+    ],
+    "Ticks"                : 0,
+    "Miniticks"            : 0
+  },
+  "type"               : "DialogLine",
+  "key"                : "Blame Back Failure",
+  "name"               : {
+    "zh" : "You argue back, defending your position.\nYour arguments fail to land.",
+    "en" : "You argue back, defending your position.\nYour arguments fail to land.",
+    "ja" : "You argue back, defending your position.\nYour arguments fail to land."
+  }
+}

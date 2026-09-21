@@ -1,16 +1,17 @@
 
 {
   "DutyName" : {
-    "zh" : "\u6536\u83B7\u6CBC\u94C1",
+    "zh" : "\u6536\u83B7",
     "en" : "Harvest",
     "ja" : "Harvest"
   },
   "DutySummary" : {
-    "zh" : "Harvesting bog iron.",
+    "zh" : "\u91C7\u96C6\u6CBC\u94C1\u3002",
     "en" : "Harvesting bog iron.",
     "ja" : "Harvesting bog iron."
   },
-  "DutyTags"    : [
+  "RequiresMarkedCard" : true,
+  "DutyTags"           : [
     {
       "key" : "DutyTag_Methodical",
       "type" : "NPCDutyTag",
@@ -21,7 +22,7 @@
       }
     }
   ],
-  "MaxPerformPerDay" : 0,
+  "MaxPerformPerDay"   : 0,
   "DutyExecutionOptions" : 0,
   "ActionSequence"       : [
     {
@@ -75,7 +76,7 @@
   "type"                 : "NPCDuty",
   "key"                  : "PartnerDuty_HarvestBogIron",
   "name"                 : {
-    "zh" : "\u6536\u83B7\u6CBC\u94C1",
+    "zh" : "\u6536\u83B7",
     "en" : "Harvest",
     "ja" : "Harvest"
   },

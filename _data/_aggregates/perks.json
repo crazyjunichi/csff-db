@@ -1922,7 +1922,7 @@
         "ja" : "Increases facial harmony, improving general attractiveness."
       },
       "PerkIcon"        : {
-        "FileName" : "GameStat__FootDamage__Statuses-1-Icon"
+        "FileName" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 89.0,
@@ -1950,7 +1950,7 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_10_FineFeatures",
-      "icon"                        : "GameStat__FootDamage__Statuses-1-Icon",
+      "icon"                        : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
       "name"                        : {
         "zh" : "\u4E94\u5B98\u7CBE\u81F4",
         "en" : "Fine Features",
@@ -1972,7 +1972,7 @@
         "ja" : "Decreases facial harmony, worsening general attractiveness."
       },
       "PerkIcon"        : {
-        "FileName" : "GameStat__FootDamage__Statuses-1-Icon"
+        "FileName" : "GameStat__Gratification__Statuses-2-Icon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 89.0,
@@ -2000,11 +2000,1066 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_11_IrregularFeatures",
-      "icon"                        : "GameStat__FootDamage__Statuses-1-Icon",
+      "icon"                        : "GameStat__Gratification__Statuses-2-Icon",
       "name"                        : {
         "zh" : "\u4E94\u5B98\u7C97\u7CD9",
         "en" : "Irregular Features",
         "ja" : "Irregular Features"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u5927\u773C\u775B",
+        "en" : "Large Eyes",
+        "ja" : "Large Eyes"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with large eyes.",
+        "en" : "Makes you start with large eyes.",
+        "ja" : "Makes you start with large eyes."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 87.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_12_EyesLarge",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u5927\u773C\u775B",
+        "en" : "Large Eyes",
+        "ja" : "Large Eyes"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u7A84\u773C\u8DDD",
+        "en" : "Narrow-Set Eyes",
+        "ja" : "Narrow-Set Eyes"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with narrow-set eyes.",
+        "en" : "Makes you start with narrow-set eyes.",
+        "ja" : "Makes you start with narrow-set eyes."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 86.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_12_EyesNarrowSet",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u7A84\u773C\u8DDD",
+        "en" : "Narrow-Set Eyes",
+        "ja" : "Narrow-Set Eyes"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u5C0F\u773C\u775B",
+        "en" : "Small Eyes",
+        "ja" : "Small Eyes"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with small eyes.",
+        "en" : "Makes you start with small eyes.",
+        "ja" : "Makes you start with small eyes."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 87.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -100.0,
+            "y" : -100.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_12_EyesSmall",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u5C0F\u773C\u775B",
+        "en" : "Small Eyes",
+        "ja" : "Small Eyes"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u5BBD\u773C\u8DDD",
+        "en" : "Wide-Set Eyes",
+        "ja" : "Wide-Set Eyes"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with wide-set eyes.",
+        "en" : "Makes you start with wide-set eyes.",
+        "ja" : "Makes you start with wide-set eyes."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 86.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_12_EyesWideSet",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u5BBD\u773C\u8DDD",
+        "en" : "Wide-Set Eyes",
+        "ja" : "Wide-Set Eyes"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u4E0B\u5782\u9F3B",
+        "en" : "Downturned Nose",
+        "ja" : "Downturned Nose"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with a downturned nose.",
+        "en" : "Makes you start with a downturned nose.",
+        "ja" : "Makes you start with a downturned nose."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__Discomfort__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 84.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "NoseType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 23.0,
+            "name" : {
+              "zh" : "\u9F3B\u578B",
+              "en" : "Nose Type",
+              "ja" : "Nose Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_13_NoseDownturned",
+      "icon"                        : "GameStat__Discomfort__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u4E0B\u5782\u9F3B",
+        "en" : "Downturned Nose",
+        "ja" : "Downturned Nose"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u9E70\u94A9\u9F3B",
+        "en" : "Hooked Nose",
+        "ja" : "Hooked Nose"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with a hooked nose.",
+        "en" : "Makes you start with a hooked nose.",
+        "ja" : "Makes you start with a hooked nose."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__Discomfort__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 84.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "NoseType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 23.0,
+            "name" : {
+              "zh" : "\u9F3B\u578B",
+              "en" : "Nose Type",
+              "ja" : "Nose Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_13_NoseHooked",
+      "icon"                        : "GameStat__Discomfort__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u9E70\u94A9\u9F3B",
+        "en" : "Hooked Nose",
+        "ja" : "Hooked Nose"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u5927\u9F3B\u5B50",
+        "en" : "Large Nose",
+        "ja" : "Large Nose"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with a large nose.",
+        "en" : "Makes you start with a large nose.",
+        "ja" : "Makes you start with a large nose."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__Discomfort__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 85.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "NoseType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 23.0,
+            "name" : {
+              "zh" : "\u9F3B\u578B",
+              "en" : "Nose Type",
+              "ja" : "Nose Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_13_NoseLarge",
+      "icon"                        : "GameStat__Discomfort__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u5927\u9F3B\u5B50",
+        "en" : "Large Nose",
+        "ja" : "Large Nose"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u5C0F\u9F3B\u5B50",
+        "en" : "Small Nose",
+        "ja" : "Small Nose"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with a small nose.",
+        "en" : "Makes you start with a small nose.",
+        "ja" : "Makes you start with a small nose."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__Discomfort__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 85.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "NoseType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 23.0,
+            "name" : {
+              "zh" : "\u9F3B\u578B",
+              "en" : "Nose Type",
+              "ja" : "Nose Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_13_NoseSmall",
+      "icon"                        : "GameStat__Discomfort__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u5C0F\u9F3B\u5B50",
+        "en" : "Small Nose",
+        "ja" : "Small Nose"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u4E0A\u7FD8\u9F3B",
+        "en" : "Upturned Nose",
+        "ja" : "Upturned Nose"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with an upturned nose.",
+        "en" : "Makes you start with an upturned nose.",
+        "ja" : "Makes you start with an upturned nose."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__Discomfort__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 84.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "NoseType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 23.0,
+            "name" : {
+              "zh" : "\u9F3B\u578B",
+              "en" : "Nose Type",
+              "ja" : "Nose Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_13_NoseUpturned",
+      "icon"                        : "GameStat__Discomfort__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u4E0A\u7FD8\u9F3B",
+        "en" : "Upturned Nose",
+        "ja" : "Upturned Nose"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u96C0\u6591",
+        "en" : "Freckles",
+        "ja" : "Freckles"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with freckles.",
+        "en" : "Makes you start with freckles.",
+        "ja" : "Makes you start with freckles."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 90.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "Freckles",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u96C0\u6591",
+              "en" : "Freckles",
+              "ja" : "Freckles"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_14_Freckles",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
+      "name"                        : {
+        "zh" : "\u96C0\u6591",
+        "en" : "Freckles",
+        "ja" : "Freckles"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u5377\u53D1",
+        "en" : "Curly Hair",
+        "ja" : "Curly Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with curly hair.",
+        "en" : "Makes you start with curly hair.",
+        "ja" : "Makes you start with curly hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairCurly__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 83.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairType",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u53D1\u578B",
+              "en" : "Hair Type",
+              "ja" : "Hair Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_15_HairCurly",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairCurly__PerkIcon",
+      "name"                        : {
+        "zh" : "\u5377\u53D1",
+        "en" : "Curly Hair",
+        "ja" : "Curly Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u7206\u70B8\u5377",
+        "en" : "Kinky Hair",
+        "ja" : "Kinky Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with kinky hair.",
+        "en" : "Makes you start with kinky hair.",
+        "ja" : "Makes you start with kinky hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairKinky__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 83.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairType",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u53D1\u578B",
+              "en" : "Hair Type",
+              "ja" : "Hair Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 3.0,
+            "y" : 3.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_15_HairKinky",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairKinky__PerkIcon",
+      "name"                        : {
+        "zh" : "\u7206\u70B8\u5377",
+        "en" : "Kinky Hair",
+        "ja" : "Kinky Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u76F4\u53D1",
+        "en" : "Straight Hair",
+        "ja" : "Straight Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with straight hair.",
+        "en" : "Makes you start with straight hair.",
+        "ja" : "Makes you start with straight hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "CardData__Event_StyleHair__CardImage"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 83.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairType",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u53D1\u578B",
+              "en" : "Hair Type",
+              "ja" : "Hair Type"
+            }
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_15_HairStraight",
+      "icon"                        : "CardData__Event_StyleHair__CardImage",
+      "name"                        : {
+        "zh" : "\u76F4\u53D1",
+        "en" : "Straight Hair",
+        "ja" : "Straight Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u6CE2\u6D6A\u53D1",
+        "en" : "Wavy Hair",
+        "ja" : "Wavy Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with wavy hair.",
+        "en" : "Makes you start with wavy hair.",
+        "ja" : "Makes you start with wavy hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairWavy__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 83.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairType",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 3.0,
+            "name" : {
+              "zh" : "\u53D1\u578B",
+              "en" : "Hair Type",
+              "ja" : "Hair Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_15_HairWavy",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairWavy__PerkIcon",
+      "name"                        : {
+        "zh" : "\u6CE2\u6D6A\u53D1",
+        "en" : "Wavy Hair",
+        "ja" : "Wavy Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u957F\u53D1",
+        "en" : "Long Hair",
+        "ja" : "Long Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with long hair.",
+        "en" : "Makes you start with long hair.",
+        "ja" : "Makes you start with long hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "CardData__Event_StyleHair__CardImage"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 82.0,
+      "AddedStartingHours" : 0,
+      "StartingStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 34561.0,
+            "y" : 34561.0
+          }
+        }
+      ],
+      "StartUnlocked"         : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_16_HairLong",
+      "icon"                        : "CardData__Event_StyleHair__CardImage",
+      "name"                        : {
+        "zh" : "\u957F\u53D1",
+        "en" : "Long Hair",
+        "ja" : "Long Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u77ED\u53D1",
+        "en" : "Short Hair",
+        "ja" : "Short Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with short hair.",
+        "en" : "Makes you start with short hair.",
+        "ja" : "Makes you start with short hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "CardData__Event_StyleHair__CardImage"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 82.0,
+      "AddedStartingHours" : 0,
+      "StartingStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10848.0,
+            "y" : -10848.0
+          }
+        }
+      ],
+      "StartUnlocked"         : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_16_HairShort",
+      "icon"                        : "CardData__Event_StyleHair__CardImage",
+      "name"                        : {
+        "zh" : "\u77ED\u53D1",
+        "en" : "Short Hair",
+        "ja" : "Short Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u53CA\u8170\u957F\u53D1",
+        "en" : "Very Long Hair",
+        "ja" : "Very Long Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with very long hair.",
+        "en" : "Makes you start with very long hair.",
+        "ja" : "Makes you start with very long hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "CardData__Event_StyleHair__CardImage"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 82.0,
+      "AddedStartingHours" : 0,
+      "StartingStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 57599.0,
+            "y" : 57599.0
+          }
+        }
+      ],
+      "StartUnlocked"         : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_16_HairVeryLong",
+      "icon"                        : "CardData__Event_StyleHair__CardImage",
+      "name"                        : {
+        "zh" : "\u53CA\u8170\u957F\u53D1",
+        "en" : "Very Long Hair",
+        "ja" : "Very Long Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u7EDC\u816E\u80E1",
+        "en" : "Full Beard",
+        "ja" : "Full Beard"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with a full beard.",
+        "en" : "Makes you start with a full beard.",
+        "ja" : "Makes you start with a full beard."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 81.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 5760.0,
+            "y" : 5760.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_17_BeardFull",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+      "name"                        : {
+        "zh" : "\u7EDC\u816E\u80E1",
+        "en" : "Full Beard",
+        "ja" : "Full Beard"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u957F\u80E1\u987B",
+        "en" : "Long Beard",
+        "ja" : "Long Beard"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with a long beard.",
+        "en" : "Makes you start with a long beard.",
+        "ja" : "Makes you start with a long beard."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 81.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 34561.0,
+            "y" : 34561.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_17_BeardLong",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+      "name"                        : {
+        "zh" : "\u957F\u80E1\u987B",
+        "en" : "Long Beard",
+        "ja" : "Long Beard"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u4E30\u6EE1\u80F8\u56F4",
+        "en" : "Fuller Bust",
+        "ja" : "Fuller Bust"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with a fuller bust.",
+        "en" : "Makes you start with a fuller bust.",
+        "ja" : "Makes you start with a fuller bust."
+      },
+      "PerkIcon"        : {
+        "FileName" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 80.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 20.0,
+            "y" : 20.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_18_BustFuller",
+      "icon"                        : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+      "name"                        : {
+        "zh" : "\u4E30\u6EE1\u80F8\u56F4",
+        "en" : "Fuller Bust",
+        "ja" : "Fuller Bust"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u5A07\u5C0F\u80F8\u56F4",
+        "en" : "Smaller Bust",
+        "ja" : "Smaller Bust"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with a smaller bust.",
+        "en" : "Makes you start with a smaller bust.",
+        "ja" : "Makes you start with a smaller bust."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 80.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -20.0,
+            "y" : -20.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_18_BustSmaller",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+      "name"                        : {
+        "zh" : "\u5A07\u5C0F\u80F8\u56F4",
+        "en" : "Smaller Bust",
+        "ja" : "Smaller Bust"
       }
     },
     {
@@ -2022,7 +3077,7 @@
         "ja" : "\u30EA\u30FC\u30C1\u304C\u77ED\u304F\u306A\u308B\u3002\u3060\u304C\u30B9\u30C6\u30EB\u30B9\u80FD\u529B\u304C\u4E0A\u304C\u308A\u3001\u5FC5\u8981\u306A\u30AB\u30ED\u30EA\u30FC\u304C\u5C11\u306A\u304F\u306A\u308B\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
+        "FileName" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 94.0,
@@ -2051,7 +3106,7 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_1_Short",
-      "icon"                        : "GameStat__CallousesFeet__DefaultStatusIcon",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
       "name"                        : {
         "zh" : "\u8EAB\u6750\u77EE\u5C0F",
         "en" : "Short Stature",
@@ -2073,7 +3128,7 @@
         "ja" : "\u30EA\u30FC\u30C1\u304C\u9577\u304F\u306A\u308B\u3002\u3060\u304C\u30B9\u30C6\u30EB\u30B9\u80FD\u529B\u304C\u843D\u3061\u3001\u5FC5\u8981\u306A\u30AB\u30ED\u30EA\u30FC\u304C\u591A\u304F\u306A\u308B\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
+        "FileName" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 93.0,
@@ -2102,7 +3157,7 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_1_Tall",
-      "icon"                        : "GameStat__CallousesFeet__DefaultStatusIcon",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
       "name"                        : {
         "zh" : "\u8EAB\u6750\u9AD8\u5927",
         "en" : "Tall Stature",
@@ -2124,7 +3179,7 @@
         "ja" : "\u30EA\u30FC\u30C1\u304C\u304B\u306A\u308A\u77ED\u304F\u306A\u308B\u3002\u3060\u304C\u30B9\u30C6\u30EB\u30B9\u80FD\u529B\u304C\u4E0A\u304C\u308A\u3001\u5FC5\u8981\u306A\u30AB\u30ED\u30EA\u30FC\u304C\u5C11\u306A\u304F\u306A\u308B\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
+        "FileName" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 94.0,
@@ -2152,7 +3207,7 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_1_VeryShort",
-      "icon"                        : "GameStat__CallousesFeet__DefaultStatusIcon",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
       "name"                        : {
         "zh" : "\u4F8F\u5112\u8840\u7EDF",
         "en" : "Very Short Stature",
@@ -2174,7 +3229,7 @@
         "ja" : "\u30EA\u30FC\u30C1\u304C\u304B\u306A\u308A\u9577\u304F\u306A\u308B\u3002\u3060\u304C\u30B9\u30C6\u30EB\u30B9\u80FD\u529B\u304C\u843D\u3061\u3001\u5FC5\u8981\u306A\u30AB\u30ED\u30EA\u30FC\u304C\u591A\u304F\u306A\u308B\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
+        "FileName" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 93.0,
@@ -2202,7 +3257,7 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_1_VeryTall",
-      "icon"                        : "GameStat__CallousesFeet__DefaultStatusIcon",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
       "name"                        : {
         "zh" : "\u5DE8\u4EBA\u8840\u7EDF",
         "en" : "Very Tall Stature",
@@ -2215,7 +3270,7 @@
       "StarsCost" : 0,
       "PerkName"  : {
         "zh" : "\u975E\u5E38\u7626\u5F31",
-        "en" : "Very Low Weight",
+        "en" : "Dangerously Low Weight",
         "ja" : "\u75E9\u305B\u904E\u304E"
       },
       "PerkDescription" : {
@@ -2255,7 +3310,7 @@
       "icon"                        : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
       "name"                        : {
         "zh" : "\u975E\u5E38\u7626\u5F31",
-        "en" : "Very Low Weight",
+        "en" : "Dangerously Low Weight",
         "ja" : "\u75E9\u305B\u904E\u304E"
       }
     },
@@ -2264,8 +3319,59 @@
       "MoonsCost" : 0,
       "StarsCost" : 0,
       "PerkName"  : {
+        "zh" : "\u4F4E\u4F53\u91CD",
+        "en" : "Low Weight",
+        "ja" : "Low Weight"
+      },
+      "PerkDescription" : {
+        "zh" : "Reduces your body weight, lowering fat reserves and slightly impairing your immune system and thermal insulation.",
+        "en" : "Reduces your body weight, lowering fat reserves and slightly impairing your immune system and thermal insulation.",
+        "ja" : "Reduces your body weight, lowering fat reserves and slightly impairing your immune system and thermal insulation."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 91.0,
+      "AddedStartingHours" : 0,
+      "StartingStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "Weight",
+            "type" : "GameStat",
+            "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+            "min"  : 293999.0,
+            "max"  : 1000000.0,
+            "name" : {
+              "zh" : "\u4F53\u91CD",
+              "en" : "Weight",
+              "ja" : "\u4F53\u91CD"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -42000.0,
+            "y" : -42000.0
+          }
+        }
+      ],
+      "StartUnlocked"         : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_2_LowWeight",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+      "name"                        : {
+        "zh" : "\u4F4E\u4F53\u91CD",
+        "en" : "Low Weight",
+        "ja" : "Low Weight"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
         "zh" : "\u8D85\u91CD",
-        "en" : "Very High Weight",
+        "en" : "High Weight",
         "ja" : "\u80A5\u6E80"
       },
       "PerkDescription" : {
@@ -2306,7 +3412,7 @@
       "icon"                        : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
       "name"                        : {
         "zh" : "\u8D85\u91CD",
-        "en" : "Very High Weight",
+        "en" : "High Weight",
         "ja" : "\u80A5\u6E80"
       }
     },
@@ -2316,7 +3422,7 @@
       "StarsCost" : 0,
       "PerkName"  : {
         "zh" : "\u8FC7\u91CD",
-        "en" : "High Weight",
+        "en" : "Moderately High Weight",
         "ja" : "\u307D\u3063\u3061\u3083\u308A"
       },
       "PerkDescription" : {
@@ -2357,7 +3463,7 @@
       "icon"                        : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
       "name"                        : {
         "zh" : "\u8FC7\u91CD",
-        "en" : "High Weight",
+        "en" : "Moderately High Weight",
         "ja" : "\u307D\u3063\u3061\u3083\u308A"
       }
     },
@@ -2366,8 +3472,59 @@
       "MoonsCost" : 0,
       "StarsCost" : 0,
       "PerkName"  : {
+        "zh" : "\u7565\u9AD8\u4F53\u91CD",
+        "en" : "Slightly High Weight",
+        "ja" : "Slightly High Weight"
+      },
+      "PerkDescription" : {
+        "zh" : "Increases your body weight, slightly boosting fat reserves and insulation while reducing your stamina by a small amount.",
+        "en" : "Increases your body weight, slightly boosting fat reserves and insulation while reducing your stamina by a small amount.",
+        "ja" : "Increases your body weight, slightly boosting fat reserves and insulation while reducing your stamina by a small amount."
+      },
+      "PerkIcon"        : {
+        "FileName" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 91.0,
+      "AddedStartingHours" : 0,
+      "StartingStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "Weight",
+            "type" : "GameStat",
+            "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+            "min"  : 293999.0,
+            "max"  : 1000000.0,
+            "name" : {
+              "zh" : "\u4F53\u91CD",
+              "en" : "Weight",
+              "ja" : "\u4F53\u91CD"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 45500.0,
+            "y" : 45500.0
+          }
+        }
+      ],
+      "StartUnlocked"         : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_2_SlightlyHighWeight",
+      "icon"                        : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+      "name"                        : {
+        "zh" : "\u7565\u9AD8\u4F53\u91CD",
+        "en" : "Slightly High Weight",
+        "ja" : "Slightly High Weight"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
         "zh" : "\u4F53\u91CD\u8FC7\u8F7B",
-        "en" : "Low Weight",
+        "en" : "Very Low Weight",
         "ja" : "\u4F53\u91CD\u304C\u8EFD\u3044"
       },
       "PerkDescription" : {
@@ -2408,8 +3565,59 @@
       "icon"                        : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
       "name"                        : {
         "zh" : "\u4F53\u91CD\u8FC7\u8F7B",
-        "en" : "Low Weight",
+        "en" : "Very Low Weight",
         "ja" : "\u4F53\u91CD\u304C\u8EFD\u3044"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u9AD8\u4F53\u91CD",
+        "en" : "Very High Weight",
+        "ja" : "Very High Weight"
+      },
+      "PerkDescription" : {
+        "zh" : "Greatly increases your body weight, boosting fat reserves and insulation while reducing stamina and mobility.",
+        "en" : "Greatly increases your body weight, boosting fat reserves and insulation while reducing stamina and mobility.",
+        "ja" : "Greatly increases your body weight, boosting fat reserves and insulation while reducing stamina and mobility."
+      },
+      "PerkIcon"        : {
+        "FileName" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 91.0,
+      "AddedStartingHours" : 0,
+      "StartingStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "Weight",
+            "type" : "GameStat",
+            "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+            "min"  : 293999.0,
+            "max"  : 1000000.0,
+            "name" : {
+              "zh" : "\u4F53\u91CD",
+              "en" : "Weight",
+              "ja" : "\u4F53\u91CD"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 472500.0,
+            "y" : 472500.0
+          }
+        }
+      ],
+      "StartUnlocked"         : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_2_VeryHighWeight",
+      "icon"                        : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+      "name"                        : {
+        "zh" : "\u9AD8\u4F53\u91CD",
+        "en" : "Very High Weight",
+        "ja" : "Very High Weight"
       }
     },
     {
@@ -2575,11 +3783,11 @@
       },
       "PerkDescription" : {
         "zh" : "\u5728\u591A\u4E91\u7B49\u5929\u6C14\u4E0B\u66F4\u96BE\u83B7\u5F97\u9633\u5149\uFF0C\u4F46\u4F1A\u8BA9\u4F60\u66F4\u4E0D\u5BB9\u6613\u6652\u4F24\u3002",
-        "en" : "Makes it harder to get sunlight in conditions like cloudy weather, but makes you less susceptible to sun damage.",
+        "en" : "Makes you start with dark skin. It is harder to get sunlight in conditions like cloudy weather, but you are less susceptible to sun damage.",
         "ja" : "\u66C7\u308A\u3060\u3068\u65E5\u5149\u306E\u5F71\u97FF\u3092\u53D7\u3051\u306B\u304F\u304F\u306A\u308B\u3002\u65E5\u5149\u30C0\u30E1\u30FC\u30B8\u306B\u5F37\u3044\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon"
+        "FileName" : "NPCCharacterPerk__PartnerPerk_SkinDark__PerkIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 89.0,
@@ -2589,7 +3797,7 @@
           "Stat" : {
             "key" : "Tanning",
             "type" : "GameStat",
-            "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+            "icon" : "GameStat__Tanning__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 1000.0,
             "name" : {
@@ -2627,7 +3835,7 @@
           "Stat" : {
             "key" : "Tanning",
             "type" : "GameStat",
-            "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+            "icon" : "GameStat__Tanning__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 1000.0,
             "name" : {
@@ -2640,13 +3848,30 @@
             "x" : 0.25,
             "y" : 0.25
           }
+        },
+        {
+          "Stat" : {
+            "key" : "SkinColour",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 4.0,
+            "name" : {
+              "zh" : "\u80A4\u8272",
+              "en" : "Skin Colour",
+              "ja" : "Skin Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
         }
       ],
       "StartUnlocked"         : true,
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_4_DarkSkin",
-      "icon"                        : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_SkinDark__PerkIcon",
       "name"                        : {
         "zh" : "\u6DF1\u8272\u76AE\u80A4",
         "en" : "Dark Skin",
@@ -2659,16 +3884,16 @@
       "StarsCost" : 0,
       "PerkName"  : {
         "zh" : "\u6D45\u8272\u76AE\u80A4",
-        "en" : "Light Skin",
+        "en" : "Fair Skin",
         "ja" : "\u767D\u3044\u808C"
       },
       "PerkDescription" : {
         "zh" : "\u5728\u591A\u4E91\u7B49\u5929\u6C14\u4E0B\u66F4\u80FD\u83B7\u5F97\u9633\u5149\uFF0C\u4F46\u4F1A\u8BA9\u4F60\u66F4\u5BB9\u6613\u6652\u4F24\u3002",
-        "en" : "Makes it easier to get sunlight in cloudy weather, but makes you more susceptible to sun damage.",
+        "en" : "Makes you start with fair skin. It is easier to get sunlight in cloudy weather, but you are more susceptible to sun damage.",
         "ja" : "\u66C7\u308A\u3067\u3082\u65E5\u5149\u306E\u5F71\u97FF\u3092\u53D7\u3051\u3084\u3059\u304F\u306A\u308B\u3002\u65E5\u5149\u30C0\u30E1\u30FC\u30B8\u306B\u5F31\u3044\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon"
+        "FileName" : "NPCCharacterPerk__PartnerPerk_SkinFair__PerkIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 89.0,
@@ -2696,7 +3921,7 @@
           "Stat" : {
             "key" : "Tanning",
             "type" : "GameStat",
-            "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+            "icon" : "GameStat__Tanning__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 1000.0,
             "name" : {
@@ -2709,17 +3934,80 @@
             "x" : -0.5,
             "y" : -0.5
           }
+        },
+        {
+          "Stat" : {
+            "key" : "SkinColour",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 4.0,
+            "name" : {
+              "zh" : "\u80A4\u8272",
+              "en" : "Skin Colour",
+              "ja" : "Skin Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
         }
       ],
       "StartUnlocked"        : true,
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_4_LightSkin",
-      "icon"                        : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_SkinFair__PerkIcon",
       "name"                        : {
         "zh" : "\u6D45\u8272\u76AE\u80A4",
-        "en" : "Light Skin",
+        "en" : "Fair Skin",
         "ja" : "\u767D\u3044\u808C"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u4E2D\u7B49\u80A4\u8272",
+        "en" : "Medium Skin",
+        "ja" : "Medium Skin"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with medium-toned skin.",
+        "en" : "Makes you start with medium-toned skin.",
+        "ja" : "Makes you start with medium-toned skin."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_SkinMedium__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 90.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "SkinColour",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 4.0,
+            "name" : {
+              "zh" : "\u80A4\u8272",
+              "en" : "Skin Colour",
+              "ja" : "Skin Colour"
+            }
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_4_MediumSkin",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_SkinMedium__PerkIcon",
+      "name"                        : {
+        "zh" : "\u4E2D\u7B49\u80A4\u8272",
+        "en" : "Medium Skin",
+        "ja" : "Medium Skin"
       }
     },
     {
@@ -2733,11 +4021,11 @@
       },
       "PerkDescription" : {
         "zh" : "\u5728\u591A\u4E91\u7B49\u5929\u6C14\u4E0B\u6781\u5176\u96BE\u83B7\u5F97\u9633\u5149\uFF0C\u4F46\u4F1A\u8BA9\u4F60\u51E0\u4E4E\u4E0D\u4F1A\u6652\u4F24\u3002",
-        "en" : "Makes it significantly harder to get sunlight in cloudy weather, but makes you considerably less susceptible to sun damage.",
+        "en" : "Makes you start with very dark skin. It is significantly harder to get sunlight in cloudy weather, but you are considerably less susceptible to sun damage.",
         "ja" : "\u66C7\u308A\u3060\u3068\u65E5\u5149\u306E\u5F71\u97FF\u3092\u304B\u306A\u308A\u53D7\u3051\u306B\u304F\u304F\u306A\u308B\u3002\u65E5\u5149\u30C0\u30E1\u30FC\u30B8\u306B\u76F8\u5F53\u5F37\u304F\u306A\u308B\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon"
+        "FileName" : "NPCCharacterPerk__PartnerPerk_SkinVeryDark__PerkIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 89.0,
@@ -2747,7 +4035,7 @@
           "Stat" : {
             "key" : "Tanning",
             "type" : "GameStat",
-            "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+            "icon" : "GameStat__Tanning__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 1000.0,
             "name" : {
@@ -2785,7 +4073,7 @@
           "Stat" : {
             "key" : "Tanning",
             "type" : "GameStat",
-            "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+            "icon" : "GameStat__Tanning__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 1000.0,
             "name" : {
@@ -2798,13 +4086,30 @@
             "x" : 3.0,
             "y" : 3.0
           }
+        },
+        {
+          "Stat" : {
+            "key" : "SkinColour",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 4.0,
+            "name" : {
+              "zh" : "\u80A4\u8272",
+              "en" : "Skin Colour",
+              "ja" : "Skin Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
         }
       ],
       "StartUnlocked"         : true,
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_4_VeryDarkSkin",
-      "icon"                        : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_SkinVeryDark__PerkIcon",
       "name"                        : {
         "zh" : "\u76AE\u80A4\u9EDD\u9ED1",
         "en" : "Very Dark Skin",
@@ -2817,16 +4122,16 @@
       "StarsCost" : 0,
       "PerkName"  : {
         "zh" : "\u76AE\u80A4\u767D\u7699",
-        "en" : "Very Light Skin",
+        "en" : "Very Fair Skin",
         "ja" : "\u304B\u306A\u308A\u767D\u3044\u808C\u3002"
       },
       "PerkDescription" : {
         "zh" : "\u5728\u591A\u4E91\u7B49\u5929\u6C14\u4E0B\u6781\u6613\u83B7\u5F97\u9633\u5149\uFF0C\u4F46\u4F1A\u8BA9\u4F60\u975E\u5E38\u5BB9\u6613\u6652\u4F24\u3002",
-        "en" : "Makes it significantly easier to get sunlight in cloudy weather, but makes you considerably more susceptible to sun damage.",
+        "en" : "Makes you start with very fair skin. It is significantly easier to get sunlight in cloudy weather, but you are considerably more susceptible to sun damage.",
         "ja" : "\u66C7\u308A\u3067\u3082\u65E5\u5149\u306E\u5F71\u97FF\u3092\u304B\u306A\u308A\u53D7\u3051\u3084\u3059\u304F\u306A\u308B\u3002\u65E5\u5149\u30C0\u30E1\u30FC\u30B8\u306B\u304B\u306A\u308A\u5F31\u3044\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon"
+        "FileName" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 89.0,
@@ -2854,7 +4159,7 @@
           "Stat" : {
             "key" : "Tanning",
             "type" : "GameStat",
-            "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+            "icon" : "GameStat__Tanning__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 1000.0,
             "name" : {
@@ -2867,16 +4172,33 @@
             "x" : -3.0,
             "y" : -3.0
           }
+        },
+        {
+          "Stat" : {
+            "key" : "SkinColour",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 4.0,
+            "name" : {
+              "zh" : "\u80A4\u8272",
+              "en" : "Skin Colour",
+              "ja" : "Skin Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
         }
       ],
       "StartUnlocked"        : true,
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_4_VeryLightSkin",
-      "icon"                        : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
       "name"                        : {
         "zh" : "\u76AE\u80A4\u767D\u7699",
-        "en" : "Very Light Skin",
+        "en" : "Very Fair Skin",
         "ja" : "\u304B\u306A\u308A\u767D\u3044\u808C\u3002"
       }
     },
@@ -2886,16 +4208,16 @@
       "StarsCost" : 0,
       "PerkName"  : {
         "zh" : "\u6DF1\u8272\u5934\u53D1",
-        "en" : "Dark Hair",
+        "en" : "Black Hair",
         "ja" : "\u9ED2\u3044\u9AEA"
       },
       "PerkDescription" : {
         "zh" : "\u5728\u591A\u4E91\u7B49\u5929\u6C14\u4E0B\u7A0D\u96BE\u83B7\u5F97\u9633\u5149\uFF0C\u4F46\u4F1A\u8BA9\u4F60\u66F4\u4E0D\u5BB9\u6613\u6652\u4F24\u3002",
-        "en" : "Makes it slightly harder to get sunlight in cloudy weather, but makes you less susceptible to sun damage.",
+        "en" : "Makes you start with black hair. It is slightly harder to get sunlight in cloudy weather, but you are less susceptible to sun damage.",
         "ja" : "\u66C7\u308A\u3060\u3068\u5C11\u3057\u65E5\u5149\u306E\u5F71\u97FF\u3092\u53D7\u3051\u306B\u304F\u304F\u306A\u308B\u3002\u65E5\u5149\u30C0\u30E1\u30FC\u30B8\u306B\u5F37\u3044\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon"
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourBlack__PerkIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 89.0,
@@ -2936,16 +4258,33 @@
             "x" : -0.25,
             "y" : -0.25
           }
+        },
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
         }
       ],
       "StartUnlocked"        : true,
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_5_DarkHair",
-      "icon"                        : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourBlack__PerkIcon",
       "name"                        : {
         "zh" : "\u6DF1\u8272\u5934\u53D1",
-        "en" : "Dark Hair",
+        "en" : "Black Hair",
         "ja" : "\u9ED2\u3044\u9AEA"
       }
     },
@@ -2954,17 +4293,513 @@
       "MoonsCost" : 0,
       "StarsCost" : 0,
       "PerkName"  : {
+        "zh" : "\u8D64\u8910\u8272\u5934\u53D1",
+        "en" : "Auburn Hair",
+        "ja" : "Auburn Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with auburn hair.",
+        "en" : "Makes you start with auburn hair.",
+        "ja" : "Makes you start with auburn hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourAuburn__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 89.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_5_HairAuburn",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourAuburn__PerkIcon",
+      "name"                        : {
+        "zh" : "\u8D64\u8910\u8272\u5934\u53D1",
+        "en" : "Auburn Hair",
+        "ja" : "Auburn Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u68D5\u8272\u5934\u53D1",
+        "en" : "Brown Hair",
+        "ja" : "Brown Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with brown hair.",
+        "en" : "Makes you start with brown hair.",
+        "ja" : "Makes you start with brown hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 89.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_5_HairBrown",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+      "name"                        : {
+        "zh" : "\u68D5\u8272\u5934\u53D1",
+        "en" : "Brown Hair",
+        "ja" : "Brown Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u6DF1\u68D5\u8272\u5934\u53D1",
+        "en" : "Dark Brown Hair",
+        "ja" : "Dark Brown Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with dark brown hair.",
+        "en" : "Makes you start with dark brown hair.",
+        "ja" : "Makes you start with dark brown hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourDarkBrown__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 89.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_5_HairDarkBrown",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourDarkBrown__PerkIcon",
+      "name"                        : {
+        "zh" : "\u6DF1\u68D5\u8272\u5934\u53D1",
+        "en" : "Dark Brown Hair",
+        "ja" : "Dark Brown Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u59DC\u9EC4\u8272\u5934\u53D1",
+        "en" : "Ginger Hair",
+        "ja" : "Ginger Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with ginger hair.",
+        "en" : "Makes you start with ginger hair.",
+        "ja" : "Makes you start with ginger hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourGinger__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 89.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_5_HairGinger",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourGinger__PerkIcon",
+      "name"                        : {
+        "zh" : "\u59DC\u9EC4\u8272\u5934\u53D1",
+        "en" : "Ginger Hair",
+        "ja" : "Ginger Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u7070\u8272\u5934\u53D1",
+        "en" : "Grey Hair",
+        "ja" : "Grey Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with grey hair.",
+        "en" : "Makes you start with grey hair.",
+        "ja" : "Makes you start with grey hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourGrey__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 89.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 3.0,
+            "y" : 3.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_5_HairGrey",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourGrey__PerkIcon",
+      "name"                        : {
+        "zh" : "\u7070\u8272\u5934\u53D1",
+        "en" : "Grey Hair",
+        "ja" : "Grey Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u6D45\u91D1\u8272\u5934\u53D1",
+        "en" : "Light Blonde Hair",
+        "ja" : "Light Blonde Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with light blonde hair.",
+        "en" : "Makes you start with light blonde hair.",
+        "ja" : "Makes you start with light blonde hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourLightBlonde__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 89.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_5_HairLightBlonde",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourLightBlonde__PerkIcon",
+      "name"                        : {
+        "zh" : "\u6D45\u91D1\u8272\u5934\u53D1",
+        "en" : "Light Blonde Hair",
+        "ja" : "Light Blonde Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u6D45\u68D5\u8272\u5934\u53D1",
+        "en" : "Light Brown Hair",
+        "ja" : "Light Brown Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with light brown hair.",
+        "en" : "Makes you start with light brown hair.",
+        "ja" : "Makes you start with light brown hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourLightBrown__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 89.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_5_HairLightBrown",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourLightBrown__PerkIcon",
+      "name"                        : {
+        "zh" : "\u6D45\u68D5\u8272\u5934\u53D1",
+        "en" : "Light Brown Hair",
+        "ja" : "Light Brown Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u94C2\u91D1\u8272\u5934\u53D1",
+        "en" : "Platinum Blonde Hair",
+        "ja" : "Platinum Blonde Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with platinum blonde hair.",
+        "en" : "Makes you start with platinum blonde hair.",
+        "ja" : "Makes you start with platinum blonde hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourPlatinumBlonde__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 89.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -7.0,
+            "y" : -7.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_5_HairPlatinumBlonde",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourPlatinumBlonde__PerkIcon",
+      "name"                        : {
+        "zh" : "\u94C2\u91D1\u8272\u5934\u53D1",
+        "en" : "Platinum Blonde Hair",
+        "ja" : "Platinum Blonde Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u8349\u8393\u91D1\u8272\u5934\u53D1",
+        "en" : "Strawberry Blonde Hair",
+        "ja" : "Strawberry Blonde Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with strawberry blonde hair.",
+        "en" : "Makes you start with strawberry blonde hair.",
+        "ja" : "Makes you start with strawberry blonde hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourStrawberryBlonde__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 89.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -6.0,
+            "y" : -6.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_5_HairStrawberryBlonde",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourStrawberryBlonde__PerkIcon",
+      "name"                        : {
+        "zh" : "\u8349\u8393\u91D1\u8272\u5934\u53D1",
+        "en" : "Strawberry Blonde Hair",
+        "ja" : "Strawberry Blonde Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u767D\u8272\u5934\u53D1",
+        "en" : "White Hair",
+        "ja" : "White Hair"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with white hair.",
+        "en" : "Makes you start with white hair.",
+        "ja" : "Makes you start with white hair."
+      },
+      "PerkIcon"        : {
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourWhite__PerkIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 89.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -17.0,
+            "y" : -17.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_5_HairWhite",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourWhite__PerkIcon",
+      "name"                        : {
+        "zh" : "\u767D\u8272\u5934\u53D1",
+        "en" : "White Hair",
+        "ja" : "White Hair"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
         "zh" : "\u6D45\u8272\u5934\u53D1",
-        "en" : "Light Hair",
+        "en" : "Blonde Hair",
         "ja" : "\u660E\u308B\u3044\u9AEA"
       },
       "PerkDescription" : {
         "zh" : "\u5728\u591A\u4E91\u7B49\u5929\u6C14\u4E0B\u7A0D\u6613\u83B7\u5F97\u9633\u5149\uFF0C\u4F46\u4F1A\u8BA9\u4F60\u66F4\u5BB9\u6613\u6652\u4F24\u3002",
-        "en" : "Makes it slightly easier to get sunlight in cloudy weather, but makes you more susceptible to sun damage.",
+        "en" : "Makes you start with blonde hair. It is slightly easier to get sunlight in cloudy weather, but you are more susceptible to sun damage.",
         "ja" : "\u66C7\u308A\u3067\u3082\u5C11\u3057\u65E5\u5149\u306E\u5F71\u97FF\u3092\u53D7\u3051\u3084\u3059\u304F\u306A\u308B\u3002\u65E5\u5149\u30C0\u30E1\u30FC\u30B8\u306B\u5F31\u3044\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon"
+        "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourBlonde__PerkIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 89.0,
@@ -3001,16 +4836,33 @@
               "ja" : "\u65E5\u713C\u3051"
             }
           }
+        },
+        {
+          "Stat" : {
+            "key" : "HairColour",
+            "type" : "GameStat",
+            "min"  : -10.0,
+            "max"  : 10.0,
+            "name" : {
+              "zh" : "\u53D1\u8272",
+              "en" : "Hair Colour",
+              "ja" : "Hair Colour"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -3.0,
+            "y" : -3.0
+          }
         }
       ],
       "StartUnlocked"        : true,
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_5_LightHair",
-      "icon"                        : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourBlonde__PerkIcon",
       "name"                        : {
         "zh" : "\u6D45\u8272\u5934\u53D1",
-        "en" : "Light Hair",
+        "en" : "Blonde Hair",
         "ja" : "\u660E\u308B\u3044\u9AEA"
       }
     },
@@ -3020,28 +4872,47 @@
       "StarsCost" : 0,
       "PerkName"  : {
         "zh" : "\u6DF1\u8272\u773C\u775B",
-        "en" : "Dark Eyes",
+        "en" : "Dark Brown Eyes",
         "ja" : "\u9ED2\u3044\u76EE"
       },
       "PerkDescription" : {
         "zh" : "\u5728\u660E\u4EAE\u7684\u5149\u7EBF\u73AF\u5883\u4E2D\u63D0\u9AD8\u4F60\u7684\u89C6\u529B\u3002",
-        "en" : "Improves your sight in bright light environments.",
+        "en" : "Makes you start with dark brown eyes and improves your sight in bright light environments.",
         "ja" : "\u660E\u308B\u3044\u74B0\u5883\u3060\u3068\u8996\u529B\u304C\u826F\u304F\u306A\u308B\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon"
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 89.0,
       "AddedStartingHours" : 0,
-      "StartUnlocked"      : true,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_6_DarkEyes",
-      "icon"                        : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
       "name"                        : {
         "zh" : "\u6DF1\u8272\u773C\u775B",
-        "en" : "Dark Eyes",
+        "en" : "Dark Brown Eyes",
         "ja" : "\u9ED2\u3044\u76EE"
       }
     },
@@ -3050,17 +4921,263 @@
       "MoonsCost" : 0,
       "StarsCost" : 0,
       "PerkName"  : {
+        "zh" : "\u84DD\u8272\u773C\u775B",
+        "en" : "Blue Eyes",
+        "ja" : "Blue Eyes"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with blue eyes.",
+        "en" : "Makes you start with blue eyes.",
+        "ja" : "Makes you start with blue eyes."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 88.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -3.0,
+            "y" : -3.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_6_EyesBlue",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u84DD\u8272\u773C\u775B",
+        "en" : "Blue Eyes",
+        "ja" : "Blue Eyes"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u68D5\u8272\u773C\u775B",
+        "en" : "Brown Eyes",
+        "ja" : "Brown Eyes"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with brown eyes.",
+        "en" : "Makes you start with brown eyes.",
+        "ja" : "Makes you start with brown eyes."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 88.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_6_EyesBrown",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u68D5\u8272\u773C\u775B",
+        "en" : "Brown Eyes",
+        "ja" : "Brown Eyes"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u7EFF\u8272\u773C\u775B",
+        "en" : "Green Eyes",
+        "ja" : "Green Eyes"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with green eyes.",
+        "en" : "Makes you start with green eyes.",
+        "ja" : "Makes you start with green eyes."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 88.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_6_EyesGreen",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u7EFF\u8272\u773C\u775B",
+        "en" : "Green Eyes",
+        "ja" : "Green Eyes"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u7070\u8272\u773C\u775B",
+        "en" : "Grey Eyes",
+        "ja" : "Grey Eyes"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with grey eyes.",
+        "en" : "Makes you start with grey eyes.",
+        "ja" : "Makes you start with grey eyes."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 88.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_6_EyesGrey",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u7070\u8272\u773C\u775B",
+        "en" : "Grey Eyes",
+        "ja" : "Grey Eyes"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
+        "zh" : "\u6DE1\u8910\u8272\u773C\u775B",
+        "en" : "Hazel Eyes",
+        "ja" : "Hazel Eyes"
+      },
+      "PerkDescription" : {
+        "zh" : "Makes you start with hazel eyes.",
+        "en" : "Makes you start with hazel eyes.",
+        "ja" : "Makes you start with hazel eyes."
+      },
+      "PerkIcon"        : {
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
+      },
+      "DifficultyRating" : 0,
+      "DisplayPriority"  : 88.0,
+      "AddedStartingHours" : 0,
+      "PassiveStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "StartUnlocked"        : true,
+      "CheckingNotificationDetails" : 0,
+      "type"                        : "CharacterPerk",
+      "key"                         : "Pk_3_6_EyesHazel",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name"                        : {
+        "zh" : "\u6DE1\u8910\u8272\u773C\u775B",
+        "en" : "Hazel Eyes",
+        "ja" : "Hazel Eyes"
+      }
+    },
+    {
+      "SunsCost" : 0,
+      "MoonsCost" : 0,
+      "StarsCost" : 0,
+      "PerkName"  : {
         "zh" : "\u6D45\u8272\u773C\u775B",
-        "en" : "Light Eyes",
+        "en" : "Light Blue Eyes",
         "ja" : "\u660E\u308B\u3044\u76EE"
       },
       "PerkDescription" : {
         "zh" : "\u5728\u660F\u6697\u7684\u5149\u7EBF\u73AF\u5883\u4E2D\u63D0\u9AD8\u4F60\u7684\u89C6\u529B\u3002",
-        "en" : "Improves your sight in low light conditions.",
+        "en" : "Makes you start with light blue eyes and improves your sight in low light conditions.",
         "ja" : "\u6697\u3044\u74B0\u5883\u3060\u3068\u8996\u529B\u304C\u826F\u304F\u306A\u308B\u3002\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon"
+        "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 89.0,
@@ -3079,16 +5196,33 @@
               "ja" : "\u5149"
             }
           }
+        },
+        {
+          "Stat" : {
+            "key" : "EyeType",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 227.0,
+            "name" : {
+              "zh" : "\u773C\u578B",
+              "en" : "Eye Type",
+              "ja" : "Eye Type"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
         }
       ],
       "StartUnlocked"        : true,
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_3_6_LightEyes",
-      "icon"                        : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+      "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
       "name"                        : {
         "zh" : "\u6D45\u8272\u773C\u775B",
-        "en" : "Light Eyes",
+        "en" : "Light Blue Eyes",
         "ja" : "\u660E\u308B\u3044\u76EE"
       }
     },
@@ -3774,7 +5908,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -3824,7 +5958,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -4018,7 +6152,7 @@
         "ja" : "\u6016\u3044\u30A2\u30AF\u30B7\u30E7\u30F3\u3068\u9577\u3044\u6226\u95D8\u304C\u82E6\u624B\u3060\u304C\u3001\u30B5\u30D7\u30E9\u30A4\u30BA\u306B\u306F\u5F37\u3044\u3002"
       },
       "PerkIcon"        : {
-        "FileName" : "GameStat__BeastUrge__DefaultStatusIcon"
+        "FileName" : "GameStat__Arousal__DefaultStatusIcon"
       },
       "DifficultyRating" : 0,
       "DisplayPriority"  : 79.0,
@@ -4066,7 +6200,7 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "CharacterPerk",
       "key"                         : "Pk_4_4_Fainthearted",
-      "icon"                        : "GameStat__BeastUrge__DefaultStatusIcon",
+      "icon"                        : "GameStat__Arousal__DefaultStatusIcon",
       "name"                        : {
         "zh" : "\u80C6\u5C0F",
         "en" : "Fainthearted",
@@ -8487,7 +10621,7 @@
             "key" : "PartnerPreset_ManBuilder",
             "type" : "NPCAgentAndPerksPreset",
             "name" : {
-              "zh" : "\u4F9B\u517B\u8005",
+              "zh" : "\u624B\u827A\u4EBA",
               "en" : "The Builder",
               "ja" : "The Builder"
             }
@@ -10883,7 +13017,7 @@
           "key" : "Bp_MetalBar",
           "type" : "CardData",
           "CardType" : 7,
-          "icon"     : "CardData__Bp_MetalBar__CardImage",
+          "icon"     : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
           "name"     : {
             "zh" : "\u91D1\u5C5E\u952D",
             "en" : "Metal Bar",
@@ -11639,7 +13773,7 @@
         {
           "key" : "Pk_4_4_Fainthearted",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+          "icon" : "GameStat__Arousal__DefaultStatusIcon",
           "name" : {
             "zh" : "\u80C6\u5C0F",
             "en" : "Fainthearted",
@@ -11653,6 +13787,42 @@
         "zh" : "\u80C6\u8BC6",
         "en" : "Brave Fainthearted",
         "ja" : "Brave Fainthearted"
+      }
+    },
+    {
+      "GroupName" : {
+        "zh" : "\u80F8\u56F4",
+        "en" : "Bust",
+        "ja" : "Bust"
+      },
+      "PerksList" : [
+        {
+          "key" : "Pk_3_18_BustFuller",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+          "name" : {
+            "zh" : "\u4E30\u6EE1\u80F8\u56F4",
+            "en" : "Fuller Bust",
+            "ja" : "Fuller Bust"
+          }
+        },
+        {
+          "key" : "Pk_3_18_BustSmaller",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+          "name" : {
+            "zh" : "\u5A07\u5C0F\u80F8\u56F4",
+            "en" : "Smaller Bust",
+            "ja" : "Smaller Bust"
+          }
+        }
+      ],
+      "type"      : "PerkGroup",
+      "key"       : "Pkg_Bust",
+      "name"      : {
+        "zh" : "\u80F8\u56F4",
+        "en" : "Bust",
+        "ja" : "Bust"
       }
     },
     {
@@ -11874,27 +14044,77 @@
     {
       "GroupName" : {
         "zh" : "\u77B3\u8272",
-        "en" : "Eyes",
-        "ja" : "Eyes"
+        "en" : "Eye Colour",
+        "ja" : "Eye Colour"
       },
       "PerksList" : [
         {
+          "key" : "Pk_3_6_EyesBrown",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u68D5\u8272\u773C\u775B",
+            "en" : "Brown Eyes",
+            "ja" : "Brown Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_6_EyesGrey",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u7070\u8272\u773C\u775B",
+            "en" : "Grey Eyes",
+            "ja" : "Grey Eyes"
+          }
+        },
+        {
           "key" : "Pk_3_6_LightEyes",
           "type" : "CharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
           "name" : {
             "zh" : "\u6D45\u8272\u773C\u775B",
-            "en" : "Light Eyes",
+            "en" : "Light Blue Eyes",
             "ja" : "\u660E\u308B\u3044\u76EE"
+          }
+        },
+        {
+          "key" : "Pk_3_6_EyesBlue",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u84DD\u8272\u773C\u775B",
+            "en" : "Blue Eyes",
+            "ja" : "Blue Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_6_EyesGreen",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u7EFF\u8272\u773C\u775B",
+            "en" : "Green Eyes",
+            "ja" : "Green Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_6_EyesHazel",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u6DE1\u8910\u8272\u773C\u775B",
+            "en" : "Hazel Eyes",
+            "ja" : "Hazel Eyes"
           }
         },
         {
           "key" : "Pk_3_6_DarkEyes",
           "type" : "CharacterPerk",
-          "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
           "name" : {
             "zh" : "\u6DF1\u8272\u773C\u775B",
-            "en" : "Dark Eyes",
+            "en" : "Dark Brown Eyes",
             "ja" : "\u9ED2\u3044\u76EE"
           }
         }
@@ -11903,8 +14123,116 @@
       "key"       : "Pkg_EyeColour",
       "name"      : {
         "zh" : "\u77B3\u8272",
-        "en" : "Eyes",
-        "ja" : "Eyes"
+        "en" : "Eye Colour",
+        "ja" : "Eye Colour"
+      }
+    },
+    {
+      "GroupName" : {
+        "zh" : "\u773C\u8DDD",
+        "en" : "Eye Distance",
+        "ja" : "Eye Distance"
+      },
+      "PerksList" : [
+        {
+          "key" : "Pk_3_12_EyesWideSet",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u5BBD\u773C\u8DDD",
+            "en" : "Wide-Set Eyes",
+            "ja" : "Wide-Set Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_12_EyesNarrowSet",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u7A84\u773C\u8DDD",
+            "en" : "Narrow-Set Eyes",
+            "ja" : "Narrow-Set Eyes"
+          }
+        }
+      ],
+      "type"      : "PerkGroup",
+      "key"       : "Pkg_EyeDistance",
+      "name"      : {
+        "zh" : "\u773C\u8DDD",
+        "en" : "Eye Distance",
+        "ja" : "Eye Distance"
+      }
+    },
+    {
+      "GroupName" : {
+        "zh" : "\u773C\u775B\u5927\u5C0F",
+        "en" : "Eye Size",
+        "ja" : "Eye Size"
+      },
+      "PerksList" : [
+        {
+          "key" : "Pk_3_12_EyesLarge",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u5927\u773C\u775B",
+            "en" : "Large Eyes",
+            "ja" : "Large Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_12_EyesSmall",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u5C0F\u773C\u775B",
+            "en" : "Small Eyes",
+            "ja" : "Small Eyes"
+          }
+        }
+      ],
+      "type"      : "PerkGroup",
+      "key"       : "Pkg_EyeSize",
+      "name"      : {
+        "zh" : "\u773C\u775B\u5927\u5C0F",
+        "en" : "Eye Size",
+        "ja" : "Eye Size"
+      }
+    },
+    {
+      "GroupName" : {
+        "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+        "en" : "Facial Hair Length",
+        "ja" : "Facial Hair Length"
+      },
+      "PerksList" : [
+        {
+          "key" : "Pk_3_17_BeardFull",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u7EDC\u816E\u80E1",
+            "en" : "Full Beard",
+            "ja" : "Full Beard"
+          }
+        },
+        {
+          "key" : "Pk_3_17_BeardLong",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u957F\u80E1\u987B",
+            "en" : "Long Beard",
+            "ja" : "Long Beard"
+          }
+        }
+      ],
+      "type"      : "PerkGroup",
+      "key"       : "Pkg_FacialHairLength",
+      "name"      : {
+        "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+        "en" : "Facial Hair Length",
+        "ja" : "Facial Hair Length"
       }
     },
     {
@@ -11953,7 +14281,7 @@
         {
           "key" : "Pk_3_10_FineFeatures",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__FootDamage__Statuses-1-Icon",
+          "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
           "name" : {
             "zh" : "\u4E94\u5B98\u7CBE\u81F4",
             "en" : "Fine Features",
@@ -11963,7 +14291,7 @@
         {
           "key" : "Pk_3_11_IrregularFeatures",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__FootDamage__Statuses-1-Icon",
+          "icon" : "GameStat__Gratification__Statuses-2-Icon",
           "name" : {
             "zh" : "\u4E94\u5B98\u7C97\u7CD9",
             "en" : "Irregular Features",
@@ -12054,28 +14382,128 @@
     {
       "GroupName" : {
         "zh" : "\u53D1\u8272",
-        "en" : "Hair",
-        "ja" : "Hair"
+        "en" : "Hair Colour",
+        "ja" : "Hair Colour"
       },
       "PerksList" : [
         {
+          "key" : "Pk_3_5_HairBrown",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u68D5\u8272\u5934\u53D1",
+            "en" : "Brown Hair",
+            "ja" : "Brown Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairWhite",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourWhite__PerkIcon",
+          "name" : {
+            "zh" : "\u767D\u8272\u5934\u53D1",
+            "en" : "White Hair",
+            "ja" : "White Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairPlatinumBlonde",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourPlatinumBlonde__PerkIcon",
+          "name" : {
+            "zh" : "\u94C2\u91D1\u8272\u5934\u53D1",
+            "en" : "Platinum Blonde Hair",
+            "ja" : "Platinum Blonde Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairStrawberryBlonde",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourStrawberryBlonde__PerkIcon",
+          "name" : {
+            "zh" : "\u8349\u8393\u91D1\u8272\u5934\u53D1",
+            "en" : "Strawberry Blonde Hair",
+            "ja" : "Strawberry Blonde Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairLightBlonde",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourLightBlonde__PerkIcon",
+          "name" : {
+            "zh" : "\u6D45\u91D1\u8272\u5934\u53D1",
+            "en" : "Light Blonde Hair",
+            "ja" : "Light Blonde Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairGinger",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourGinger__PerkIcon",
+          "name" : {
+            "zh" : "\u59DC\u9EC4\u8272\u5934\u53D1",
+            "en" : "Ginger Hair",
+            "ja" : "Ginger Hair"
+          }
+        },
+        {
           "key" : "Pk_3_5_LightHair",
           "type" : "CharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBlonde__PerkIcon",
           "name" : {
             "zh" : "\u6D45\u8272\u5934\u53D1",
-            "en" : "Light Hair",
+            "en" : "Blonde Hair",
             "ja" : "\u660E\u308B\u3044\u9AEA"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairAuburn",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourAuburn__PerkIcon",
+          "name" : {
+            "zh" : "\u8D64\u8910\u8272\u5934\u53D1",
+            "en" : "Auburn Hair",
+            "ja" : "Auburn Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairLightBrown",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourLightBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u6D45\u68D5\u8272\u5934\u53D1",
+            "en" : "Light Brown Hair",
+            "ja" : "Light Brown Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairDarkBrown",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourDarkBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u6DF1\u68D5\u8272\u5934\u53D1",
+            "en" : "Dark Brown Hair",
+            "ja" : "Dark Brown Hair"
           }
         },
         {
           "key" : "Pk_3_5_DarkHair",
           "type" : "CharacterPerk",
-          "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBlack__PerkIcon",
           "name" : {
             "zh" : "\u6DF1\u8272\u5934\u53D1",
-            "en" : "Dark Hair",
+            "en" : "Black Hair",
             "ja" : "\u9ED2\u3044\u9AEA"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairGrey",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourGrey__PerkIcon",
+          "name" : {
+            "zh" : "\u7070\u8272\u5934\u53D1",
+            "en" : "Grey Hair",
+            "ja" : "Grey Hair"
           }
         }
       ],
@@ -12083,8 +14511,110 @@
       "key"       : "Pkg_Hair",
       "name"      : {
         "zh" : "\u53D1\u8272",
-        "en" : "Hair",
-        "ja" : "Hair"
+        "en" : "Hair Colour",
+        "ja" : "Hair Colour"
+      }
+    },
+    {
+      "GroupName" : {
+        "zh" : "\u53D1\u957F",
+        "en" : "Hair Length",
+        "ja" : "Hair Length"
+      },
+      "PerksList" : [
+        {
+          "key" : "Pk_3_16_HairShort",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__Event_StyleHair__CardImage",
+          "name" : {
+            "zh" : "\u77ED\u53D1",
+            "en" : "Short Hair",
+            "ja" : "Short Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_16_HairLong",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__Event_StyleHair__CardImage",
+          "name" : {
+            "zh" : "\u957F\u53D1",
+            "en" : "Long Hair",
+            "ja" : "Long Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_16_HairVeryLong",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__Event_StyleHair__CardImage",
+          "name" : {
+            "zh" : "\u53CA\u8170\u957F\u53D1",
+            "en" : "Very Long Hair",
+            "ja" : "Very Long Hair"
+          }
+        }
+      ],
+      "type"      : "PerkGroup",
+      "key"       : "Pkg_HairLength",
+      "name"      : {
+        "zh" : "\u53D1\u957F",
+        "en" : "Hair Length",
+        "ja" : "Hair Length"
+      }
+    },
+    {
+      "GroupName" : {
+        "zh" : "\u53D1\u578B",
+        "en" : "Hair Type",
+        "ja" : "Hair Type"
+      },
+      "PerksList" : [
+        {
+          "key" : "Pk_3_15_HairStraight",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__Event_StyleHair__CardImage",
+          "name" : {
+            "zh" : "\u76F4\u53D1",
+            "en" : "Straight Hair",
+            "ja" : "Straight Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_15_HairWavy",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairWavy__PerkIcon",
+          "name" : {
+            "zh" : "\u6CE2\u6D6A\u53D1",
+            "en" : "Wavy Hair",
+            "ja" : "Wavy Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_15_HairCurly",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairCurly__PerkIcon",
+          "name" : {
+            "zh" : "\u5377\u53D1",
+            "en" : "Curly Hair",
+            "ja" : "Curly Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_15_HairKinky",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairKinky__PerkIcon",
+          "name" : {
+            "zh" : "\u7206\u70B8\u5377",
+            "en" : "Kinky Hair",
+            "ja" : "Kinky Hair"
+          }
+        }
+      ],
+      "type"      : "PerkGroup",
+      "key"       : "Pkg_HairType",
+      "name"      : {
+        "zh" : "\u53D1\u578B",
+        "en" : "Hair Type",
+        "ja" : "Hair Type"
       }
     },
     {
@@ -12097,7 +14627,7 @@
         {
           "key" : "Pk_3_1_VeryShort",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
           "name" : {
             "zh" : "\u4F8F\u5112\u8840\u7EDF",
             "en" : "Very Short Stature",
@@ -12107,7 +14637,7 @@
         {
           "key" : "Pk_3_1_Short",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
           "name" : {
             "zh" : "\u8EAB\u6750\u77EE\u5C0F",
             "en" : "Short Stature",
@@ -12117,7 +14647,7 @@
         {
           "key" : "Pk_3_1_Tall",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
           "name" : {
             "zh" : "\u8EAB\u6750\u9AD8\u5927",
             "en" : "Tall Stature",
@@ -12127,7 +14657,7 @@
         {
           "key" : "Pk_3_1_VeryTall",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
           "name" : {
             "zh" : "\u5DE8\u4EBA\u8840\u7EDF",
             "en" : "Very Tall Stature",
@@ -12321,6 +14851,88 @@
         "zh" : "\u5FC3\u6001",
         "en" : "Mood",
         "ja" : "Mood"
+      }
+    },
+    {
+      "GroupName" : {
+        "zh" : "\u9F3B\u5B50\u5927\u5C0F",
+        "en" : "Nose Size",
+        "ja" : "Nose Size"
+      },
+      "PerksList" : [
+        {
+          "key" : "Pk_3_13_NoseLarge",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u5927\u9F3B\u5B50",
+            "en" : "Large Nose",
+            "ja" : "Large Nose"
+          }
+        },
+        {
+          "key" : "Pk_3_13_NoseSmall",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u5C0F\u9F3B\u5B50",
+            "en" : "Small Nose",
+            "ja" : "Small Nose"
+          }
+        }
+      ],
+      "type"      : "PerkGroup",
+      "key"       : "Pkg_NoseSize",
+      "name"      : {
+        "zh" : "\u9F3B\u5B50\u5927\u5C0F",
+        "en" : "Nose Size",
+        "ja" : "Nose Size"
+      }
+    },
+    {
+      "GroupName" : {
+        "zh" : "\u9F3B\u578B",
+        "en" : "Nose Type",
+        "ja" : "Nose Type"
+      },
+      "PerksList" : [
+        {
+          "key" : "Pk_3_13_NoseUpturned",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u4E0A\u7FD8\u9F3B",
+            "en" : "Upturned Nose",
+            "ja" : "Upturned Nose"
+          }
+        },
+        {
+          "key" : "Pk_3_13_NoseDownturned",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u4E0B\u5782\u9F3B",
+            "en" : "Downturned Nose",
+            "ja" : "Downturned Nose"
+          }
+        },
+        {
+          "key" : "Pk_3_13_NoseHooked",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u9E70\u94A9\u9F3B",
+            "en" : "Hooked Nose",
+            "ja" : "Hooked Nose"
+          }
+        }
+      ],
+      "type"      : "PerkGroup",
+      "key"       : "Pkg_NoseType",
+      "name"      : {
+        "zh" : "\u9F3B\u578B",
+        "en" : "Nose Type",
+        "ja" : "Nose Type"
       }
     },
     {
@@ -12586,34 +15198,44 @@
     {
       "GroupName" : {
         "zh" : "\u80A4\u8272",
-        "en" : "Skin",
-        "ja" : "Skin"
+        "en" : "Skin Colour",
+        "ja" : "Skin Colour"
       },
       "PerksList" : [
         {
+          "key" : "Pk_3_4_MediumSkin",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_SkinMedium__PerkIcon",
+          "name" : {
+            "zh" : "\u4E2D\u7B49\u80A4\u8272",
+            "en" : "Medium Skin",
+            "ja" : "Medium Skin"
+          }
+        },
+        {
           "key" : "Pk_3_4_VeryLightSkin",
           "type" : "CharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
           "name" : {
             "zh" : "\u76AE\u80A4\u767D\u7699",
-            "en" : "Very Light Skin",
+            "en" : "Very Fair Skin",
             "ja" : "\u304B\u306A\u308A\u767D\u3044\u808C\u3002"
           }
         },
         {
           "key" : "Pk_3_4_LightSkin",
           "type" : "CharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_SkinFair__PerkIcon",
           "name" : {
             "zh" : "\u6D45\u8272\u76AE\u80A4",
-            "en" : "Light Skin",
+            "en" : "Fair Skin",
             "ja" : "\u767D\u3044\u808C"
           }
         },
         {
           "key" : "Pk_3_4_DarkSkin",
           "type" : "CharacterPerk",
-          "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_SkinDark__PerkIcon",
           "name" : {
             "zh" : "\u6DF1\u8272\u76AE\u80A4",
             "en" : "Dark Skin",
@@ -12623,7 +15245,7 @@
         {
           "key" : "Pk_3_4_VeryDarkSkin",
           "type" : "CharacterPerk",
-          "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_SkinVeryDark__PerkIcon",
           "name" : {
             "zh" : "\u76AE\u80A4\u9EDD\u9ED1",
             "en" : "Very Dark Skin",
@@ -12635,8 +15257,8 @@
       "key"       : "Pkg_Skin",
       "name"      : {
         "zh" : "\u80A4\u8272",
-        "en" : "Skin",
-        "ja" : "Skin"
+        "en" : "Skin Colour",
+        "ja" : "Skin Colour"
       }
     },
     {
@@ -12857,33 +15479,13 @@
       },
       "PerksList" : [
         {
-          "key" : "Pk_3_2_Emaciated",
-          "type" : "CharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
-          "name" : {
-            "zh" : "\u975E\u5E38\u7626\u5F31",
-            "en" : "Very Low Weight",
-            "ja" : "\u75E9\u305B\u904E\u304E"
-          }
-        },
-        {
-          "key" : "Pk_3_2_Underweight",
-          "type" : "CharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
-          "name" : {
-            "zh" : "\u4F53\u91CD\u8FC7\u8F7B",
-            "en" : "Low Weight",
-            "ja" : "\u4F53\u91CD\u304C\u8EFD\u3044"
-          }
-        },
-        {
-          "key" : "Pk_3_2_Overweight",
+          "key" : "Pk_3_2_VeryHighWeight",
           "type" : "CharacterPerk",
           "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
           "name" : {
-            "zh" : "\u8FC7\u91CD",
-            "en" : "High Weight",
-            "ja" : "\u307D\u3063\u3061\u3083\u308A"
+            "zh" : "\u9AD8\u4F53\u91CD",
+            "en" : "Very High Weight",
+            "ja" : "Very High Weight"
           }
         },
         {
@@ -12892,8 +15494,58 @@
           "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
           "name" : {
             "zh" : "\u8D85\u91CD",
-            "en" : "Very High Weight",
+            "en" : "High Weight",
             "ja" : "\u80A5\u6E80"
+          }
+        },
+        {
+          "key" : "Pk_3_2_Overweight",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+          "name" : {
+            "zh" : "\u8FC7\u91CD",
+            "en" : "Moderately High Weight",
+            "ja" : "\u307D\u3063\u3061\u3083\u308A"
+          }
+        },
+        {
+          "key" : "Pk_3_2_SlightlyHighWeight",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+          "name" : {
+            "zh" : "\u7565\u9AD8\u4F53\u91CD",
+            "en" : "Slightly High Weight",
+            "ja" : "Slightly High Weight"
+          }
+        },
+        {
+          "key" : "Pk_3_2_LowWeight",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+          "name" : {
+            "zh" : "\u4F4E\u4F53\u91CD",
+            "en" : "Low Weight",
+            "ja" : "Low Weight"
+          }
+        },
+        {
+          "key" : "Pk_3_2_Underweight",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+          "name" : {
+            "zh" : "\u4F53\u91CD\u8FC7\u8F7B",
+            "en" : "Very Low Weight",
+            "ja" : "\u4F53\u91CD\u304C\u8EFD\u3044"
+          }
+        },
+        {
+          "key" : "Pk_3_2_Emaciated",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+          "name" : {
+            "zh" : "\u975E\u5E38\u7626\u5F31",
+            "en" : "Dangerously Low Weight",
+            "ja" : "\u75E9\u305B\u904E\u304E"
           }
         }
       ],
@@ -13035,7 +15687,7 @@
         {
           "key" : "Pk_3_1_VeryTall",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
           "name" : {
             "zh" : "\u5DE8\u4EBA\u8840\u7EDF",
             "en" : "Very Tall Stature",
@@ -13045,7 +15697,7 @@
         {
           "key" : "Pk_3_1_Tall",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
           "name" : {
             "zh" : "\u8EAB\u6750\u9AD8\u5927",
             "en" : "Tall Stature",
@@ -13055,7 +15707,7 @@
         {
           "key" : "Pk_3_1_Short",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
           "name" : {
             "zh" : "\u8EAB\u6750\u77EE\u5C0F",
             "en" : "Short Stature",
@@ -13065,11 +15717,21 @@
         {
           "key" : "Pk_3_1_VeryShort",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
           "name" : {
             "zh" : "\u4F8F\u5112\u8840\u7EDF",
             "en" : "Very Short Stature",
             "ja" : "\u304B\u306A\u308A\u4F4E\u8EAB\u9577"
+          }
+        },
+        {
+          "key" : "Pk_3_2_VeryHighWeight",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+          "name" : {
+            "zh" : "\u9AD8\u4F53\u91CD",
+            "en" : "Very High Weight",
+            "ja" : "Very High Weight"
           }
         },
         {
@@ -13078,7 +15740,7 @@
           "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
           "name" : {
             "zh" : "\u8D85\u91CD",
-            "en" : "Very High Weight",
+            "en" : "High Weight",
             "ja" : "\u80A5\u6E80"
           }
         },
@@ -13088,8 +15750,28 @@
           "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
           "name" : {
             "zh" : "\u8FC7\u91CD",
-            "en" : "High Weight",
+            "en" : "Moderately High Weight",
             "ja" : "\u307D\u3063\u3061\u3083\u308A"
+          }
+        },
+        {
+          "key" : "Pk_3_2_SlightlyHighWeight",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+          "name" : {
+            "zh" : "\u7565\u9AD8\u4F53\u91CD",
+            "en" : "Slightly High Weight",
+            "ja" : "Slightly High Weight"
+          }
+        },
+        {
+          "key" : "Pk_3_2_LowWeight",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+          "name" : {
+            "zh" : "\u4F4E\u4F53\u91CD",
+            "en" : "Low Weight",
+            "ja" : "Low Weight"
           }
         },
         {
@@ -13098,7 +15780,7 @@
           "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
           "name" : {
             "zh" : "\u4F53\u91CD\u8FC7\u8F7B",
-            "en" : "Low Weight",
+            "en" : "Very Low Weight",
             "ja" : "\u4F53\u91CD\u304C\u8EFD\u3044"
           }
         },
@@ -13108,7 +15790,7 @@
           "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
           "name" : {
             "zh" : "\u975E\u5E38\u7626\u5F31",
-            "en" : "Very Low Weight",
+            "en" : "Dangerously Low Weight",
             "ja" : "\u75E9\u305B\u904E\u304E"
           }
         },
@@ -13143,29 +15825,69 @@
           }
         },
         {
+          "key" : "Pk_3_18_BustFuller",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+          "name" : {
+            "zh" : "\u4E30\u6EE1\u80F8\u56F4",
+            "en" : "Fuller Bust",
+            "ja" : "Fuller Bust"
+          }
+        },
+        {
+          "key" : "Pk_3_18_BustSmaller",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+          "name" : {
+            "zh" : "\u5A07\u5C0F\u80F8\u56F4",
+            "en" : "Smaller Bust",
+            "ja" : "Smaller Bust"
+          }
+        },
+        {
+          "key" : "Pk_3_14_Freckles",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
+          "name" : {
+            "zh" : "\u96C0\u6591",
+            "en" : "Freckles",
+            "ja" : "Freckles"
+          }
+        },
+        {
           "key" : "Pk_3_4_VeryLightSkin",
           "type" : "CharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
           "name" : {
             "zh" : "\u76AE\u80A4\u767D\u7699",
-            "en" : "Very Light Skin",
+            "en" : "Very Fair Skin",
             "ja" : "\u304B\u306A\u308A\u767D\u3044\u808C\u3002"
           }
         },
         {
           "key" : "Pk_3_4_LightSkin",
           "type" : "CharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_SkinFair__PerkIcon",
           "name" : {
             "zh" : "\u6D45\u8272\u76AE\u80A4",
-            "en" : "Light Skin",
+            "en" : "Fair Skin",
             "ja" : "\u767D\u3044\u808C"
+          }
+        },
+        {
+          "key" : "Pk_3_4_MediumSkin",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_SkinMedium__PerkIcon",
+          "name" : {
+            "zh" : "\u4E2D\u7B49\u80A4\u8272",
+            "en" : "Medium Skin",
+            "ja" : "Medium Skin"
           }
         },
         {
           "key" : "Pk_3_4_DarkSkin",
           "type" : "CharacterPerk",
-          "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_SkinDark__PerkIcon",
           "name" : {
             "zh" : "\u6DF1\u8272\u76AE\u80A4",
             "en" : "Dark Skin",
@@ -13175,7 +15897,7 @@
         {
           "key" : "Pk_3_4_VeryDarkSkin",
           "type" : "CharacterPerk",
-          "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+          "icon" : "NPCCharacterPerk__PartnerPerk_SkinVeryDark__PerkIcon",
           "name" : {
             "zh" : "\u76AE\u80A4\u9EDD\u9ED1",
             "en" : "Very Dark Skin",
@@ -13183,43 +15905,393 @@
           }
         },
         {
-          "key" : "Pk_3_5_LightHair",
+          "key" : "Pk_3_10_FineFeatures",
           "type" : "CharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+          "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
           "name" : {
-            "zh" : "\u6D45\u8272\u5934\u53D1",
-            "en" : "Light Hair",
-            "ja" : "\u660E\u308B\u3044\u9AEA"
+            "zh" : "\u4E94\u5B98\u7CBE\u81F4",
+            "en" : "Fine Features",
+            "ja" : "Fine Features"
           }
         },
         {
-          "key" : "Pk_3_5_DarkHair",
+          "key" : "Pk_3_11_IrregularFeatures",
           "type" : "CharacterPerk",
-          "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+          "icon" : "GameStat__Gratification__Statuses-2-Icon",
           "name" : {
-            "zh" : "\u6DF1\u8272\u5934\u53D1",
-            "en" : "Dark Hair",
-            "ja" : "\u9ED2\u3044\u9AEA"
+            "zh" : "\u4E94\u5B98\u7C97\u7CD9",
+            "en" : "Irregular Features",
+            "ja" : "Irregular Features"
+          }
+        },
+        {
+          "key" : "Pk_3_13_NoseLarge",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u5927\u9F3B\u5B50",
+            "en" : "Large Nose",
+            "ja" : "Large Nose"
+          }
+        },
+        {
+          "key" : "Pk_3_13_NoseSmall",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u5C0F\u9F3B\u5B50",
+            "en" : "Small Nose",
+            "ja" : "Small Nose"
+          }
+        },
+        {
+          "key" : "Pk_3_13_NoseUpturned",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u4E0A\u7FD8\u9F3B",
+            "en" : "Upturned Nose",
+            "ja" : "Upturned Nose"
+          }
+        },
+        {
+          "key" : "Pk_3_13_NoseDownturned",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u4E0B\u5782\u9F3B",
+            "en" : "Downturned Nose",
+            "ja" : "Downturned Nose"
+          }
+        },
+        {
+          "key" : "Pk_3_13_NoseHooked",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u9E70\u94A9\u9F3B",
+            "en" : "Hooked Nose",
+            "ja" : "Hooked Nose"
+          }
+        },
+        {
+          "key" : "Pk_3_12_EyesLarge",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u5927\u773C\u775B",
+            "en" : "Large Eyes",
+            "ja" : "Large Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_12_EyesSmall",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u5C0F\u773C\u775B",
+            "en" : "Small Eyes",
+            "ja" : "Small Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_12_EyesWideSet",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u5BBD\u773C\u8DDD",
+            "en" : "Wide-Set Eyes",
+            "ja" : "Wide-Set Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_12_EyesNarrowSet",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u7A84\u773C\u8DDD",
+            "en" : "Narrow-Set Eyes",
+            "ja" : "Narrow-Set Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_6_EyesGrey",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u7070\u8272\u773C\u775B",
+            "en" : "Grey Eyes",
+            "ja" : "Grey Eyes"
           }
         },
         {
           "key" : "Pk_3_6_LightEyes",
           "type" : "CharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
           "name" : {
             "zh" : "\u6D45\u8272\u773C\u775B",
-            "en" : "Light Eyes",
+            "en" : "Light Blue Eyes",
             "ja" : "\u660E\u308B\u3044\u76EE"
+          }
+        },
+        {
+          "key" : "Pk_3_6_EyesBlue",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u84DD\u8272\u773C\u775B",
+            "en" : "Blue Eyes",
+            "ja" : "Blue Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_6_EyesGreen",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u7EFF\u8272\u773C\u775B",
+            "en" : "Green Eyes",
+            "ja" : "Green Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_6_EyesHazel",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u6DE1\u8910\u8272\u773C\u775B",
+            "en" : "Hazel Eyes",
+            "ja" : "Hazel Eyes"
+          }
+        },
+        {
+          "key" : "Pk_3_6_EyesBrown",
+          "type" : "CharacterPerk",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+          "name" : {
+            "zh" : "\u68D5\u8272\u773C\u775B",
+            "en" : "Brown Eyes",
+            "ja" : "Brown Eyes"
           }
         },
         {
           "key" : "Pk_3_6_DarkEyes",
           "type" : "CharacterPerk",
-          "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+          "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
           "name" : {
             "zh" : "\u6DF1\u8272\u773C\u775B",
-            "en" : "Dark Eyes",
+            "en" : "Dark Brown Eyes",
             "ja" : "\u9ED2\u3044\u76EE"
+          }
+        },
+        {
+          "key" : "Pk_3_17_BeardFull",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u7EDC\u816E\u80E1",
+            "en" : "Full Beard",
+            "ja" : "Full Beard"
+          }
+        },
+        {
+          "key" : "Pk_3_17_BeardLong",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u957F\u80E1\u987B",
+            "en" : "Long Beard",
+            "ja" : "Long Beard"
+          }
+        },
+        {
+          "key" : "Pk_3_16_HairShort",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__Event_StyleHair__CardImage",
+          "name" : {
+            "zh" : "\u77ED\u53D1",
+            "en" : "Short Hair",
+            "ja" : "Short Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_16_HairLong",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__Event_StyleHair__CardImage",
+          "name" : {
+            "zh" : "\u957F\u53D1",
+            "en" : "Long Hair",
+            "ja" : "Long Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_16_HairVeryLong",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__Event_StyleHair__CardImage",
+          "name" : {
+            "zh" : "\u53CA\u8170\u957F\u53D1",
+            "en" : "Very Long Hair",
+            "ja" : "Very Long Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_15_HairStraight",
+          "type" : "CharacterPerk",
+          "icon" : "CardData__Event_StyleHair__CardImage",
+          "name" : {
+            "zh" : "\u76F4\u53D1",
+            "en" : "Straight Hair",
+            "ja" : "Straight Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_15_HairWavy",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairWavy__PerkIcon",
+          "name" : {
+            "zh" : "\u6CE2\u6D6A\u53D1",
+            "en" : "Wavy Hair",
+            "ja" : "Wavy Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_15_HairCurly",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairCurly__PerkIcon",
+          "name" : {
+            "zh" : "\u5377\u53D1",
+            "en" : "Curly Hair",
+            "ja" : "Curly Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_15_HairKinky",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairKinky__PerkIcon",
+          "name" : {
+            "zh" : "\u7206\u70B8\u5377",
+            "en" : "Kinky Hair",
+            "ja" : "Kinky Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairWhite",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourWhite__PerkIcon",
+          "name" : {
+            "zh" : "\u767D\u8272\u5934\u53D1",
+            "en" : "White Hair",
+            "ja" : "White Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairPlatinumBlonde",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourPlatinumBlonde__PerkIcon",
+          "name" : {
+            "zh" : "\u94C2\u91D1\u8272\u5934\u53D1",
+            "en" : "Platinum Blonde Hair",
+            "ja" : "Platinum Blonde Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairStrawberryBlonde",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourStrawberryBlonde__PerkIcon",
+          "name" : {
+            "zh" : "\u8349\u8393\u91D1\u8272\u5934\u53D1",
+            "en" : "Strawberry Blonde Hair",
+            "ja" : "Strawberry Blonde Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairLightBlonde",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourLightBlonde__PerkIcon",
+          "name" : {
+            "zh" : "\u6D45\u91D1\u8272\u5934\u53D1",
+            "en" : "Light Blonde Hair",
+            "ja" : "Light Blonde Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairGinger",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourGinger__PerkIcon",
+          "name" : {
+            "zh" : "\u59DC\u9EC4\u8272\u5934\u53D1",
+            "en" : "Ginger Hair",
+            "ja" : "Ginger Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_LightHair",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBlonde__PerkIcon",
+          "name" : {
+            "zh" : "\u6D45\u8272\u5934\u53D1",
+            "en" : "Blonde Hair",
+            "ja" : "\u660E\u308B\u3044\u9AEA"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairAuburn",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourAuburn__PerkIcon",
+          "name" : {
+            "zh" : "\u8D64\u8910\u8272\u5934\u53D1",
+            "en" : "Auburn Hair",
+            "ja" : "Auburn Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairLightBrown",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourLightBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u6D45\u68D5\u8272\u5934\u53D1",
+            "en" : "Light Brown Hair",
+            "ja" : "Light Brown Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairBrown",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u68D5\u8272\u5934\u53D1",
+            "en" : "Brown Hair",
+            "ja" : "Brown Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairDarkBrown",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourDarkBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u6DF1\u68D5\u8272\u5934\u53D1",
+            "en" : "Dark Brown Hair",
+            "ja" : "Dark Brown Hair"
+          }
+        },
+        {
+          "key" : "Pk_3_5_DarkHair",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBlack__PerkIcon",
+          "name" : {
+            "zh" : "\u6DF1\u8272\u5934\u53D1",
+            "en" : "Black Hair",
+            "ja" : "\u9ED2\u3044\u9AEA"
+          }
+        },
+        {
+          "key" : "Pk_3_5_HairGrey",
+          "type" : "CharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourGrey__PerkIcon",
+          "name" : {
+            "zh" : "\u7070\u8272\u5934\u53D1",
+            "en" : "Grey Hair",
+            "ja" : "Grey Hair"
           }
         },
         {
@@ -13250,26 +16322,6 @@
             "zh" : "\u8001\u8327",
             "en" : "Callouses",
             "ja" : "\u305F\u3053"
-          }
-        },
-        {
-          "key" : "Pk_3_10_FineFeatures",
-          "type" : "CharacterPerk",
-          "icon" : "GameStat__FootDamage__Statuses-1-Icon",
-          "name" : {
-            "zh" : "\u4E94\u5B98\u7CBE\u81F4",
-            "en" : "Fine Features",
-            "ja" : "Fine Features"
-          }
-        },
-        {
-          "key" : "Pk_3_11_IrregularFeatures",
-          "type" : "CharacterPerk",
-          "icon" : "GameStat__FootDamage__Statuses-1-Icon",
-          "name" : {
-            "zh" : "\u4E94\u5B98\u7C97\u7CD9",
-            "en" : "Irregular Features",
-            "ja" : "Irregular Features"
           }
         }
       ],
@@ -13384,7 +16436,7 @@
         {
           "key" : "Pk_4_4_Fainthearted",
           "type" : "CharacterPerk",
-          "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+          "icon" : "GameStat__Arousal__DefaultStatusIcon",
           "name" : {
             "zh" : "\u80C6\u5C0F",
             "en" : "Fainthearted",

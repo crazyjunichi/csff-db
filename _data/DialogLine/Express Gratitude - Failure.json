@@ -114,6 +114,22 @@
     "NPCStatModifications" : [
       {
         "TargetStat" : {
+          "key" : "Partner_DominanceCurrent",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+            "en" : "Partner_DominanceCurrent",
+            "ja" : "Partner_DominanceCurrent"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : 25.0,
+          "y" : 25.0
+        }
+      },
+      {
+        "TargetStat" : {
           "key" : "Partner_Trust",
           "type" : "NPCStat",
           "name" : {

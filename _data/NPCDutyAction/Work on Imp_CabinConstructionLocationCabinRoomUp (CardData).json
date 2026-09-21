@@ -1,0 +1,67 @@
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Imp_CabinConstructionLocationCabinRoomUp",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__CabinConstructionLocationCabinRoom__CardImage",
+            "name"     : {
+              "zh" : "\u65B0\u6728\u8D28\u623F\u95F4\uFF08\u4E0A\uFF09",
+              "en" : "New Cabin Room (Up)",
+              "ja" : "\u5C0F\u5C4B\u90E8\u5C4B\u3092\u5897\u8A2D\uFF08\u4E0A\uFF09"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Imp_CabinConstructionLocationCabinRoomUp",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__CabinConstructionLocationCabinRoom__CardImage",
+            "name"     : {
+              "zh" : "\u65B0\u6728\u8D28\u623F\u95F4\uFF08\u4E0A\uFF09",
+              "en" : "New Cabin Room (Up)",
+              "ja" : "\u5C0F\u5C4B\u90E8\u5C4B\u3092\u5897\u8A2D\uFF08\u4E0A\uFF09"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Imp_CabinConstructionLocationCabinRoomUp (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "\u65BD\u5DE5\uFF1A\u65B0\u6728\u8D28\u623F\u95F4\uFF08\u4E0A\uFF09",
+    "en" : "Work on New Cabin Room (Up)",
+    "ja" : "Work on Imp_CabinConstructionLocationCabinRoomUp (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

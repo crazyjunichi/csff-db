@@ -11,23 +11,24 @@
     "y" : 300.0
   },
   "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
+  "StatPriority"    : 1000,
   "Visibility"      : 2,
-  "CannotBeInspected" : true,
-  "BarColor"          : {
+  "VisibleInAppearanceTab" : true,
+  "CannotBeInspected"      : true,
+  "BarColor"               : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"      : {
     "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"               : [
     {
       "GameName" : {
         "zh" : "\u8D85\u5927",
-        "en" : "Very Large",
+        "en" : "Has a very tall stature.",
         "ja" : "\u5DE8\u5927"
       },
       "ValueRange" : {
@@ -35,6 +36,57 @@
         "m_Y" : 1000
       },
       "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "HandSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2.0,
+            "name" : {
+              "zh" : "\u624B\u7684\u5927\u5C0F",
+              "en" : "Hand Size",
+              "ja" : "Hand Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FeetSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2.0,
+            "name" : {
+              "zh" : "\u811A\u7801",
+              "en" : "Feet Size",
+              "ja" : "Feet Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "VoiceRegister",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u97F3\u57DF",
+              "en" : "Voice Register",
+              "ja" : "Voice Register"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 20.0,
+            "y" : 20.0
+          }
+        },
         {
           "Stat" : {
             "key" : "Weight",
@@ -90,7 +142,25 @@
           }
         }
       ],
-      "NotifyPlayer"   : 0,
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceCurrent",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+              "en" : "Partner_DominanceCurrent",
+              "ja" : "Partner_DominanceCurrent"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -0.25,
+            "FloatValue" : -0.25,
+            "Active"     : true
+          }
+        }
+      ],
+      "NotifyPlayer"      : 0,
       "RepeatTextNotification" : 0,
       "AlertLevel"             : 0,
       "RepeatAlertSounds"      : 0,
@@ -100,7 +170,7 @@
     {
       "GameName" : {
         "zh" : "\u5927",
-        "en" : "Large",
+        "en" : "Has a tall stature.",
         "ja" : "\u5927\u304D\u3044"
       },
       "ValueRange" : {
@@ -108,6 +178,23 @@
         "m_Y" : 84
       },
       "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "VoiceRegister",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u97F3\u57DF",
+              "en" : "Voice Register",
+              "ja" : "Voice Register"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
         {
           "Stat" : {
             "key" : "Weight",
@@ -163,7 +250,42 @@
           }
         }
       ],
-      "NotifyPlayer"   : 0,
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceCurrent",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+              "en" : "Partner_DominanceCurrent",
+              "ja" : "Partner_DominanceCurrent"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 0.1,
+            "FloatValue" : 0.1,
+            "Active"     : true
+          }
+        }
+      ],
+      "NotifyPlayer"      : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Has a medium stature.",
+        "en" : "Has a medium stature.",
+        "ja" : "Has a medium stature."
+      },
+      "ValueRange" : {
+        "m_X" : 65,
+        "m_Y" : 74
+      },
+      "NotifyPlayer" : 0,
       "RepeatTextNotification" : 0,
       "AlertLevel"             : 0,
       "RepeatAlertSounds"      : 0,
@@ -173,14 +295,65 @@
     {
       "GameName" : {
         "zh" : "\u5C0F",
-        "en" : "Small",
+        "en" : "Has a short stature.",
         "ja" : "\u5C0F\u3055\u3044"
       },
       "ValueRange" : {
-        "m_X" : 55,
+        "m_X" : 45,
         "m_Y" : 64
       },
       "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "HandSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2.0,
+            "name" : {
+              "zh" : "\u624B\u7684\u5927\u5C0F",
+              "en" : "Hand Size",
+              "ja" : "Hand Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FeetSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2.0,
+            "name" : {
+              "zh" : "\u811A\u7801",
+              "en" : "Feet Size",
+              "ja" : "Feet Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "VoiceRegister",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u97F3\u57DF",
+              "en" : "Voice Register",
+              "ja" : "Voice Register"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
         {
           "Stat" : {
             "key" : "Weight",
@@ -236,7 +409,25 @@
           }
         }
       ],
-      "NotifyPlayer"   : 0,
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceCurrent",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+              "en" : "Partner_DominanceCurrent",
+              "ja" : "Partner_DominanceCurrent"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -0.1,
+            "FloatValue" : -0.1,
+            "Active"     : true
+          }
+        }
+      ],
+      "NotifyPlayer"      : 0,
       "RepeatTextNotification" : 0,
       "AlertLevel"             : 0,
       "RepeatAlertSounds"      : 0,
@@ -246,14 +437,65 @@
     {
       "GameName" : {
         "zh" : "\u7279\u522B\u5C0F",
-        "en" : "Very Small",
+        "en" : "Has a very short stature.",
         "ja" : "\u304B\u306A\u308A\u5C0F\u3055\u3044"
       },
       "ValueRange" : {
         "m_X" : 0,
-        "m_Y" : 54
+        "m_Y" : 44
       },
       "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "HandSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2.0,
+            "name" : {
+              "zh" : "\u624B\u7684\u5927\u5C0F",
+              "en" : "Hand Size",
+              "ja" : "Hand Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FeetSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2.0,
+            "name" : {
+              "zh" : "\u811A\u7801",
+              "en" : "Feet Size",
+              "ja" : "Feet Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "VoiceRegister",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u97F3\u57DF",
+              "en" : "Voice Register",
+              "ja" : "Voice Register"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -20.0,
+            "y" : -20.0
+          }
+        },
         {
           "Stat" : {
             "key" : "Weight",
@@ -309,7 +551,25 @@
           }
         }
       ],
-      "NotifyPlayer"   : 0,
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceCurrent",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+              "en" : "Partner_DominanceCurrent",
+              "ja" : "Partner_DominanceCurrent"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -0.25,
+            "FloatValue" : -0.25,
+            "Active"     : true
+          }
+        }
+      ],
+      "NotifyPlayer"      : 0,
       "RepeatTextNotification" : 0,
       "AlertLevel"             : 0,
       "RepeatAlertSounds"      : 0,
@@ -384,7 +644,7 @@
       "source" : {
         "key" : "Pk_3_1_Short",
         "type" : "CharacterPerk",
-        "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+        "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
         "name" : {
           "zh" : "\u8EAB\u6750\u77EE\u5C0F",
           "en" : "Short Stature",
@@ -405,7 +665,7 @@
       "source" : {
         "key" : "Pk_3_1_Tall",
         "type" : "CharacterPerk",
-        "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+        "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
         "name" : {
           "zh" : "\u8EAB\u6750\u9AD8\u5927",
           "en" : "Tall Stature",
@@ -426,7 +686,7 @@
       "source" : {
         "key" : "Pk_3_1_VeryShort",
         "type" : "CharacterPerk",
-        "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+        "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
         "name" : {
           "zh" : "\u4F8F\u5112\u8840\u7EDF",
           "en" : "Very Short Stature",
@@ -447,7 +707,7 @@
       "source" : {
         "key" : "Pk_3_1_VeryTall",
         "type" : "CharacterPerk",
-        "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+        "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
         "name" : {
           "zh" : "\u5DE8\u4EBA\u8840\u7EDF",
           "en" : "Very Tall Stature",

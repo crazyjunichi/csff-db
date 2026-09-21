@@ -2,10 +2,15 @@
 {
   "GameName" : {
     "zh" : "\u7A7A\u58F3\u5316\u7B49\u7EA7",
-    "en" : "Hollowness Level",
-    "ja" : "Hollowness Level"
+    "en" : "Hollowness",
+    "ja" : "Hollowness"
   },
-  "BaseValue" : 0.0,
+  "Description" : {
+    "zh" : "Increases when killing animals and not paying your respects by releasing their spirits.\n\nIncreases nightmares and void affinity but reduces most other affinities considerably making it a lot harder to do magic.",
+    "en" : "Increases when killing animals and not paying your respects by releasing their spirits.\n\nIncreases nightmares and void affinity but reduces most other affinities considerably making it a lot harder to do magic.",
+    "ja" : "Increases when killing animals and not paying your respects by releasing their spirits.\n\nIncreases nightmares and void affinity but reduces most other affinities considerably making it a lot harder to do magic."
+  },
+  "BaseValue"   : 0.0,
   "MinMaxValue" : {
     "x" : 0.0,
     "y" : 11520.0
@@ -30,8 +35,11 @@
     {
       "GameName" : {
         "zh" : "\u4E2D\u7EA7",
-        "en" : "Intermediate",
-        "ja" : "Intermediate"
+        "en" : "Hollowness",
+        "ja" : "Hollowness"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__BloodSpilled__FeedbackInfo-Icon"
       },
       "ValueRange" : {
         "m_X" : 672,
@@ -66,8 +74,11 @@
     {
       "GameName" : {
         "zh" : "\u9AD8",
-        "en" : "High",
-        "ja" : "High"
+        "en" : "Overwhelming Hollowness",
+        "ja" : "Overwhelming Hollowness"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__BloodSpilled__FeedbackInfo-Icon"
       },
       "ValueRange" : {
         "m_X" : 5372,
@@ -108,10 +119,11 @@
   },
   "type"                    : "GameStat",
   "key"                     : "HollownessLevel",
+  "icon"                    : "GameStat__BloodSpilled__FeedbackInfo-Icon",
   "name"                    : {
     "zh" : "\u7A7A\u58F3\u5316\u7B49\u7EA7",
-    "en" : "Hollowness Level",
-    "ja" : "Hollowness Level"
+    "en" : "Hollowness",
+    "ja" : "Hollowness"
   },
   "min"                     : 0.0,
   "max"                     : 11520.0,
@@ -123,7 +135,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "\u6C34\u716E\u80BF\u7624",
+          "zh" : "\u6C34\u716E\u8089\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -607,7 +619,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "\u751F\u80BF\u7624",
+          "zh" : "\u5947\u5F02\u8089\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -629,7 +641,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "\u70F9\u5236\u80BF\u7624",
+          "zh" : "\u719F\u8089\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -651,7 +663,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "\u80BF\u7624\u5E72",
+          "zh" : "\u8089\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }

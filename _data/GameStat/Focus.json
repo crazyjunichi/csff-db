@@ -66,7 +66,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -124,7 +124,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -182,7 +182,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -258,7 +258,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -1167,7 +1167,7 @@
         "key" : "Bp_MetalBar",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_MetalBar__CardImage",
+        "icon"     : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
         "name"     : {
           "zh" : "\u91D1\u5C5E\u952D",
           "en" : "Metal Bar",
@@ -1695,7 +1695,7 @@
         "key" : "Bp_RemakeIronBar",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_MetalBar__CardImage",
+        "icon"     : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
         "name"     : {
           "zh" : "\u91CD\u5236\u94C1\u952D",
           "en" : "Remake Iron Bar",
@@ -2044,6 +2044,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_Smithed_BlankRynd",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+        "name"     : {
+          "zh" : "\u953B\u9020\u78E8\u82AF\u94C1",
+          "en" : "Forged Rynd",
+          "ja" : "Forged Rynd"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_Smithed_BlankScytheBlade",
         "type" : "CardData",
         "CardType" : 7,
@@ -2179,7 +2201,7 @@
         "key" : "Bp_SplitIntoIronBars",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_MetalBar__CardImage",
+        "icon"     : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
         "name"     : {
           "zh" : "\u5206\u5272\u6210\u94C1\u952D",
           "en" : "Split into Iron Bars",
@@ -4757,7 +4779,7 @@
         "name"     : {
           "zh" : "\u7EBF\u56E2",
           "en" : "Yarn",
-          "ja" : "\u6BDB\u7CF8"
+          "ja" : "Yarn"
         }
       },
       "description" : {
@@ -4868,6 +4890,28 @@
           "zh" : "\u7C98\u571F",
           "en" : "Clay",
           "ja" : "\u7C98\u571F"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ClickMill",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClickMill__CardImage",
+        "name"     : {
+          "zh" : "\u68D8\u8F6E\u78E8",
+          "en" : "Click Mill",
+          "ja" : "Click Mill"
         }
       },
       "description" : {
@@ -37417,7 +37461,7 @@
         "icon"     : "CardData__Event_WaterfallCave__CardImage",
         "name"     : {
           "zh" : "\u51FA\u53E3",
-          "en" : "Exit",
+          "en" : "Exit (Open)",
           "ja" : "\u51FA\u53E3"
         }
       },
@@ -44016,7 +44060,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "\u6C34\u716E\u80BF\u7624",
+          "zh" : "\u6C34\u716E\u8089\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -48680,7 +48724,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "\u751F\u80BF\u7624",
+          "zh" : "\u5947\u5F02\u8089\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -51188,7 +51232,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "\u70F9\u5236\u80BF\u7624",
+          "zh" : "\u719F\u8089\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -51210,7 +51254,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "\u80BF\u7624\u5E72",
+          "zh" : "\u8089\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -52141,6 +52185,28 @@
       },
       "description" : {
         "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
+        "en" : "Action: Smith",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Blank_MetalRynd",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u78E8\u82AF\u94C1\u576F",
+          "en" : "Metal Rynd",
+          "ja" : "Metal Rynd"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASmith",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -53417,6 +53483,28 @@
       },
       "description" : {
         "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
+        "en" : "Action: Smith",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Shape_MetalRynd",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u78E8\u82AF\u94C1\u5F62\u6A21",
+          "en" : "Metal Rynd Shape",
+          "ja" : "Metal Rynd Shape"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASmith",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -65263,7 +65351,7 @@
         "type" : "SpiceTag",
         "icon" : "CardData__JuniperberriesCrushed__CardImage",
         "name" : {
-          "zh" : "Juniper Berries",
+          "zh" : "\u675C\u677E\u5B50",
           "en" : "Juniper Berries",
           "ja" : "Juniper Berries"
         }
@@ -65305,7 +65393,7 @@
         "type" : "SpiceTag",
         "icon" : "CardData__JuniperberriesCrushed__CardImage",
         "name" : {
-          "zh" : "Roasted Juniper Berries",
+          "zh" : "\u70E4\u675C\u677E\u5B50",
           "en" : "Roasted Juniper Berries",
           "ja" : "Roasted Juniper Berries"
         }
@@ -65358,6 +65446,46 @@
       "value"       : {
         "x" : 16.0,
         "y" : 16.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_Expression",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner listens.",
+          "en" : "Your partner listens.",
+          "ja" : "Your partner listens."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
       }
     },
     {
@@ -65534,6 +65662,52 @@
       "value"       : {
         "x" : -0.75,
         "y" : -0.75
+      }
+    },
+    {
+      "source" : {
+        "key" : "Arousal",
+        "type" : "GameStat",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u6027\u5524\u8D77",
+          "en" : "Arousal",
+          "ja" : "Arousal"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A",
+        "en" : "Status Stage: ",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A"
+      },
+      "value"       : {
+        "x" : -0.25,
+        "y" : -0.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "Arousal",
+        "type" : "GameStat",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u6027\u5524\u8D77",
+          "en" : "Arousal",
+          "ja" : "Arousal"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAroused",
+        "en" : "Status Stage: Aroused",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAroused"
+      },
+      "value"       : {
+        "x" : -0.5,
+        "y" : -0.5
       }
     },
     {

@@ -1,0 +1,67 @@
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Imp_MudHutConstructionLocationEnclosureDown",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Bp_Cellar__CardImage",
+            "name"     : {
+              "zh" : "\u65B0\u755C\u680F\uFF08\u4E0B\uFF09",
+              "en" : "New Enclosure (Down)",
+              "ja" : "\u56F2\u3044\u3092\u5897\u8A2D\uFF08\u4E0B\uFF09"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Imp_MudHutConstructionLocationEnclosureDown",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Bp_Cellar__CardImage",
+            "name"     : {
+              "zh" : "\u65B0\u755C\u680F\uFF08\u4E0B\uFF09",
+              "en" : "New Enclosure (Down)",
+              "ja" : "\u56F2\u3044\u3092\u5897\u8A2D\uFF08\u4E0B\uFF09"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Imp_MudHutConstructionLocationEnclosureDown (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "\u65BD\u5DE5\uFF1A\u65B0\u755C\u680F\uFF08\u4E0B\uFF09",
+    "en" : "Work on New Enclosure (Down)",
+    "ja" : "Work on Imp_MudHutConstructionLocationEnclosureDown (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

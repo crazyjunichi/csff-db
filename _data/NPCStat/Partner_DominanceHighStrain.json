@@ -1,0 +1,216 @@
+
+{
+  "GameName" : {
+    "zh" : "\u652F\u914D\u6B32\u9AD8\u538B",
+    "en" : "High Dominance Strain",
+    "ja" : "High Dominance Strain"
+  },
+  "DefaultStartingValue" : 0.0,
+  "DefaultMinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 150.0
+  },
+  "DefaultRate"          : 0.0,
+  "Statuses"             : [
+    {
+      "GameName" : {
+        "zh" : "Feels slightly uneasy with responsibilities.",
+        "en" : "Feels slightly uneasy with responsibilities.",
+        "ja" : "Feels slightly uneasy with responsibilities."
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 0,
+        "m_Y" : 24
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Stress",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Partner_Stress",
+              "ja" : "Partner_Stress"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 0.1,
+            "FloatValue" : 0.1,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_Relationship",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5173\u7CFB\u5F3A\u5EA6",
+              "en" : "Partner_Relationship",
+              "ja" : "Partner_Relationship"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -0.1,
+            "FloatValue" : -0.1,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "Feels uncomfortable with responsibilities.",
+        "en" : "Feels uncomfortable with responsibilities.",
+        "ja" : "Feels uncomfortable with responsibilities."
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 25,
+        "m_Y" : 74
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Stress",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Partner_Stress",
+              "ja" : "Partner_Stress"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 0.25,
+            "FloatValue" : 0.25,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_Relationship",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5173\u7CFB\u5F3A\u5EA6",
+              "en" : "Partner_Relationship",
+              "ja" : "Partner_Relationship"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -0.25,
+            "FloatValue" : -0.25,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "Feels burdened by responsibility.",
+        "en" : "Feels burdened by responsibility.",
+        "ja" : "Feels burdened by responsibility."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 75,
+        "m_Y" : 99
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Stress",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Partner_Stress",
+              "ja" : "Partner_Stress"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 0.5,
+            "FloatValue" : 0.5,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_Relationship",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5173\u7CFB\u5F3A\u5EA6",
+              "en" : "Partner_Relationship",
+              "ja" : "Partner_Relationship"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -0.5,
+            "FloatValue" : -0.5,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "Feels overwhelmed by responsibility.",
+        "en" : "Feels overwhelmed by responsibility.",
+        "ja" : "Feels overwhelmed by responsibility."
+      },
+      "VisibleToPlayer" : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 100,
+        "m_Y" : 150
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Stress",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Partner_Stress",
+              "ja" : "Partner_Stress"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 1.0,
+            "FloatValue" : 1.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_Relationship",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5173\u7CFB\u5F3A\u5EA6",
+              "en" : "Partner_Relationship",
+              "ja" : "Partner_Relationship"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -1.0,
+            "FloatValue" : -1.0,
+            "Active"     : true
+          }
+        }
+      ]
+    }
+  ],
+  "HidingOptions"        : 0,
+  "TextDisplay"          : 0,
+  "NumberPrecision"      : 0,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "type"                    : "NPCStat",
+  "key"                     : "Partner_DominanceHighStrain",
+  "name"                    : {
+    "zh" : "\u652F\u914D\u6B32\u9AD8\u538B",
+    "en" : "Partner_DominanceHighStrain",
+    "ja" : "Partner_DominanceHighStrain"
+  },
+  "_uuid"                   : "902c654c6244524418b8bae943c52638"
+}

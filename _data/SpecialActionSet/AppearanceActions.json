@@ -1,0 +1,51 @@
+
+{
+  "Actions" : [
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Style Hair",
+        "en" : "Style Hair",
+        "ja" : "Style Hair"
+      },
+      "ActionDescription"       : {
+        "zh" : "Choose how to style or comb your hair.",
+        "en" : "Choose how to style or comb your hair.",
+        "ja" : "Choose how to style or comb your hair."
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 2,
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "Hair Styling Menu",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Event_StyleHair",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "CardData__Event_StyleHair__CardImage",
+                "name"     : {
+                  "zh" : "\u53D1\u578B\u6253\u7406",
+                  "en" : "Hair Styling",
+                  "ja" : "Hair Styling"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "type"    : "SpecialActionSet",
+  "key"     : "AppearanceActions"
+}

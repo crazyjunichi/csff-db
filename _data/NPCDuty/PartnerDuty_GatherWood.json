@@ -6,11 +6,12 @@
     "ja" : "Gather Wood"
   },
   "DutySummary" : {
-    "zh" : "Gathering wood.",
+    "zh" : "\u6536\u96C6\u6728\u6750\u3002",
     "en" : "Gathering wood.",
     "ja" : "Gathering wood."
   },
-  "DutyTags"    : [
+  "RequiresMarkedCard" : true,
+  "DutyTags"           : [
     {
       "key" : "DutyTag_Methodical",
       "type" : "NPCDutyTag",
@@ -30,8 +31,8 @@
       }
     }
   ],
-  "MaxPerformPerDay" : 0,
-  "DutyConditions"   : {
+  "MaxPerformPerDay"   : 0,
+  "DutyConditions"     : {
     "PlayerUsesCard" : 0,
     "RequiredEnvironmentTags" : [
       {

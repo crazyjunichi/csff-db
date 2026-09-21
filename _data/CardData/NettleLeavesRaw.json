@@ -11,9 +11,9 @@
     "ja" : "\u523A\u6BDB\u304C\u305F\u304F\u3055\u3093\u751F\u3048\u3066\u308B\u3002\u8339\u3067\u305F\u3089\u5B89\u5FC3\u3057\u3066\u89E6\u308C\u308B\u3002"
   },
   "CardHelpSection" : {
-    "zh" : "<b>\u4EA7\u5730\uFF1A</b>\u6A61\u6811\u533A\u57DF\u7684\u6CB3\u5CB8\u548C\u6797\u9699\u3002\n\n<b>\u9700\u6C42\uFF1A</b>\u4EFB\u610F\u9178\u5EA6\u3001\u6E7F\u5EA6\u3001\u517B\u5206\u3002\n\n<b>\u6548\u679C\uFF1A</b>\u98DF\u7269\u3002",
+    "zh" : "<b>\u4EA7\u5730\uFF1A</b>\u6A61\u6811\u533A\u57DF\u7684\u6CB3\u5CB8\u548C\u6797\u9699\u3002\n\n<b>\u9700\u6C42\uFF1A</b>\u4F4E\u9178\u5EA6\u3001\u4E2D\u6E7F\u5EA6\u3001\u4E2D\u9AD8\u517B\u5206\u3002\n\n<b>\u6548\u679C\uFF1A</b>\u98DF\u7269\u3002",
     "en" : "<b>Found:</b> Oaken Clearings and Oaken River Banks.\n\n<b>Growth Needs:</b> Low Acidity, Mid Hydration and Mid to High Nutrients.\n\n<b>Benefits:</b> Food. ",
-    "ja" : "<b>\u767A\u898B\u5834\u6240\uFF1A</b> \u5168\u3066\u306E\u5834\u6240\u3002\n\n<b>\u6210\u9577\u306B\u5FC5\u8981 \uFF1A</b> \u9178\u5EA6\uFF08\u306A\u3093\u3067\u3082\uFF09\u3001\u6C34\u5206\u3001\uFF08\u306A\u3093\u3067\u3082\uFF09\u3001\u6804\u990A\uFF08\u306A\u3093\u3067\u3082\uFF09\u3002\n\n<b>\u30E1\u30EA\u30C3\u30C8\uFF1A</b> \u98DF\u3079\u7269\u3002"
+    "ja" : "<b>Found:</b> Oaken Clearings and Oaken River Banks.\n\n<b>Growth Needs:</b> Low Acidity, Mid Hydration and Mid to High Nutrients.\n\n<b>Benefits:</b> Food. "
   },
   "CardImage"       : {
     "FileName" : "CardData__KingcupBoiled__CardImage"
@@ -56,7 +56,7 @@
     {
       "key" : "tag_Heatable",
       "type" : "CardTag",
-      "count" : 365,
+      "count" : 368,
       "name"  : {
         "zh" : "\u53EF\u52A0\u70ED\u7684",
         "en" : "Heatable",
@@ -126,7 +126,7 @@
     {
       "key" : "tag_HumanFood",
       "type" : "CardTag",
-      "count" : 181,
+      "count" : 179,
       "name"  : {
         "zh" : "\u4EBA\u7C7B\u98DF\u7269",
         "en" : "Human Food",
@@ -2773,6 +2773,28 @@
           "x" : 1.0,
           "y" : 1.0
         }
+      },
+      {
+        "source" : {
+          "key" : "ClickMill",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_ClickMill__CardImage",
+          "name"     : {
+            "zh" : "\u68D8\u8F6E\u78E8",
+            "en" : "Click Mill",
+            "ja" : "Click Mill"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AMill",
+          "en" : "Passive Effect\uFF1AMill",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMill"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
       }
     ]
   },
@@ -3628,7 +3650,7 @@
               "type" : "SpiceTag",
               "icon" : "CardData__JuniperberriesCrushed__CardImage",
               "name" : {
-                "zh" : "Juniper Berries",
+                "zh" : "\u675C\u677E\u5B50",
                 "en" : "Juniper Berries",
                 "ja" : "Juniper Berries"
               }
@@ -5637,6 +5659,17 @@
         "zh" : "\u5957\u7D22\u9677\u9631",
         "en" : "Snare Trap",
         "ja" : "\u304F\u304F\u308A\u7F60"
+      }
+    },
+    {
+      "key" : "ClickMill",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__Bp_ClickMill__CardImage",
+      "name"     : {
+        "zh" : "\u68D8\u8F6E\u78E8",
+        "en" : "Click Mill",
+        "ja" : "Click Mill"
       }
     },
     {

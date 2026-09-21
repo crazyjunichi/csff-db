@@ -23,7 +23,7 @@
       "Priority"        : 0,
       "ValueRange"      : {
         "m_X" : 231,
-        "m_Y" : 330
+        "m_Y" : 300
       },
       "EffectsOnNPCStats" : [
         {
@@ -227,6 +227,54 @@
           "RateChange" : {
             "MaxValue" : -0.25,
             "FloatValue" : -0.25,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "Looks sick from eating too much.",
+        "en" : "Looks sick from eating too much.",
+        "ja" : "Looks sick from eating too much."
+      },
+      "VisibleToPlayer" : true,
+      "ShowInMainTab"   : true,
+      "Priority"        : 0,
+      "ValueRange"      : {
+        "m_X" : 301,
+        "m_Y" : 330
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_Wellbeing",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5E78\u798F\u611F",
+              "en" : "Partner_Wellbeing",
+              "ja" : "Partner_Wellbeing"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : -0.1,
+            "FloatValue" : -0.1,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_Appetite",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u98DF\u6B32",
+              "en" : "Partner_Appetite",
+              "ja" : "Partner_Appetite"
+            }
+          },
+          "RateChange" : {
+            "MaxValue" : 0.5,
+            "FloatValue" : 0.5,
             "Active"     : true
           }
         }

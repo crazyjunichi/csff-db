@@ -1,0 +1,652 @@
+
+{
+  "GameName" : {
+    "zh" : "\u624B\u81C2\u7C97\u7EC6",
+    "en" : "Arm Size",
+    "ja" : "Arm Size"
+  },
+  "BaseValue" : 50.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 100.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 700,
+  "Visibility"      : 2,
+  "VisibleInAppearanceTab" : true,
+  "CannotBeInspected"      : true,
+  "StatusesHaveNoBar"      : true,
+  "Statuses"               : [
+    {
+      "GameName" : {
+        "zh" : "Very Slim Arms",
+        "en" : "Very Slim Arms",
+        "ja" : "Very Slim Arms"
+      },
+      "ValueRange" : {
+        "m_X" : 0,
+        "m_Y" : 19
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Slim Arms",
+        "en" : "Slim Arms",
+        "ja" : "Slim Arms"
+      },
+      "ValueRange" : {
+        "m_X" : 20,
+        "m_Y" : 39
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Medium-Sized Arms",
+        "en" : "Medium-Sized Arms",
+        "ja" : "Medium-Sized Arms"
+      },
+      "ValueRange" : {
+        "m_X" : 40,
+        "m_Y" : 59
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Full Arms",
+        "en" : "Full Arms",
+        "ja" : "Full Arms"
+      },
+      "ValueRange" : {
+        "m_X" : 60,
+        "m_Y" : 79
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Very Full Arms",
+        "en" : "Very Full Arms",
+        "ja" : "Very Full Arms"
+      },
+      "ValueRange" : {
+        "m_X" : 80,
+        "m_Y" : 100
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 96,
+  "StalenessMultiplier"     : 0.5,
+  "MaxStalenessStack"       : 2,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "ArmSize",
+  "name"                    : {
+    "zh" : "\u624B\u81C2\u7C97\u7EC6",
+    "en" : "Arm Size",
+    "ja" : "Arm Size"
+  },
+  "min"                     : 0.0,
+  "max"                     : 100.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAndroid Emaciated",
+        "en" : "Status Stage: Android Emaciated",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAndroid Emaciated"
+      },
+      "value"       : {
+        "x" : -30.0,
+        "y" : -30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMixed Emaciated",
+        "en" : "Status Stage: Mixed Emaciated",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMixed Emaciated"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGynecoid Emaciated",
+        "en" : "Status Stage: Gynecoid Emaciated",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGynecoid Emaciated"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAndroid Very Thin",
+        "en" : "Status Stage: Android Very Thin",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAndroid Very Thin"
+      },
+      "value"       : {
+        "x" : -30.0,
+        "y" : -30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMixed Very Thin",
+        "en" : "Status Stage: Mixed Very Thin",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMixed Very Thin"
+      },
+      "value"       : {
+        "x" : -30.0,
+        "y" : -30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGynecoid Very Thin",
+        "en" : "Status Stage: Gynecoid Very Thin",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGynecoid Very Thin"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAndroid Thin",
+        "en" : "Status Stage: Android Thin",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAndroid Thin"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMixed Thin",
+        "en" : "Status Stage: Mixed Thin",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMixed Thin"
+      },
+      "value"       : {
+        "x" : -30.0,
+        "y" : -30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGynecoid Thin",
+        "en" : "Status Stage: Gynecoid Thin",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGynecoid Thin"
+      },
+      "value"       : {
+        "x" : -30.0,
+        "y" : -30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAndroid Average",
+        "en" : "Status Stage: Android Average",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAndroid Average"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMixed Average",
+        "en" : "Status Stage: Mixed Average",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMixed Average"
+      },
+      "value"       : {
+        "x" : -30.0,
+        "y" : -30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGynecoid Average",
+        "en" : "Status Stage: Gynecoid Average",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGynecoid Average"
+      },
+      "value"       : {
+        "x" : -30.0,
+        "y" : -30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAndroid Well-Fed",
+        "en" : "Status Stage: Android Well-Fed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAndroid Well-Fed"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMixed Well-Fed",
+        "en" : "Status Stage: Mixed Well-Fed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMixed Well-Fed"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGynecoid Well-Fed",
+        "en" : "Status Stage: Gynecoid Well-Fed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGynecoid Well-Fed"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAndroid Bit Fat",
+        "en" : "Status Stage: Android Bit Fat",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAndroid Bit Fat"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMixed Bit Fat",
+        "en" : "Status Stage: Mixed Bit Fat",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMixed Bit Fat"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGynecoid Bit Fat",
+        "en" : "Status Stage: Gynecoid Bit Fat",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGynecoid Bit Fat"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAndroid Fat",
+        "en" : "Status Stage: Android Fat",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAndroid Fat"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMixed Fat",
+        "en" : "Status Stage: Mixed Fat",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMixed Fat"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGynecoid Fat",
+        "en" : "Status Stage: Gynecoid Fat",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGynecoid Fat"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAndroid Very Fat",
+        "en" : "Status Stage: Android Very Fat",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAndroid Very Fat"
+      },
+      "value"       : {
+        "x" : 30.0,
+        "y" : 30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMixed Very Fat",
+        "en" : "Status Stage: Mixed Very Fat",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMixed Very Fat"
+      },
+      "value"       : {
+        "x" : 30.0,
+        "y" : 30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FatDistribution",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u8102\u80AA\u5206\u5E03",
+          "en" : "Fat Distribution",
+          "ja" : "Fat Distribution"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGynecoid Very Fat",
+        "en" : "Status Stage: Gynecoid Very Fat",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGynecoid Very Fat"
+      },
+      "value"       : {
+        "x" : 30.0,
+        "y" : 30.0
+      }
+    }
+  ],
+  "_uuid"                   : "e1450820115944f69da8f95eec2288b0"
+}

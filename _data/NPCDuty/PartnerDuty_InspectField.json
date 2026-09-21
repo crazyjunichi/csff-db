@@ -1,16 +1,17 @@
 
 {
   "DutyName" : {
-    "zh" : "\u68C0\u67E5\u8015\u5730",
+    "zh" : "\u68C0\u67E5",
     "en" : "Inspect",
     "ja" : "Inspect"
   },
   "DutySummary" : {
-    "zh" : "Inspecting a field.",
+    "zh" : "\u68C0\u67E5\u519C\u7530\u3002",
     "en" : "Inspecting a field.",
     "ja" : "Inspecting a field."
   },
-  "DutyTags"    : [
+  "RequiresMarkedCard" : true,
+  "DutyTags"           : [
     {
       "key" : "DutyTag_Methodical",
       "type" : "NPCDutyTag",
@@ -30,7 +31,7 @@
       }
     }
   ],
-  "MaxPerformPerDay" : 0,
+  "MaxPerformPerDay"   : 0,
   "DutyExecutionOptions" : 0,
   "ActionSequence"       : [
     {
@@ -57,7 +58,7 @@
   "type"                 : "NPCDuty",
   "key"                  : "PartnerDuty_InspectField",
   "name"                 : {
-    "zh" : "\u68C0\u67E5\u8015\u5730",
+    "zh" : "\u68C0\u67E5",
     "en" : "Inspect",
     "ja" : "Inspect"
   },

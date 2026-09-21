@@ -1,0 +1,1938 @@
+
+{
+  "GameName" : {
+    "zh" : "\u8102\u80AA\u5206\u5E03",
+    "en" : "Fat Distribution",
+    "ja" : "Fat Distribution"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 300.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "CannotBeInspected" : true,
+  "StatusesHaveNoBar" : true,
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "Android Emaciated",
+        "en" : "Android Emaciated",
+        "ja" : "Android Emaciated"
+      },
+      "ValueRange" : {
+        "m_X" : 0,
+        "m_Y" : 10
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -50.0,
+            "y" : -50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Mixed Emaciated",
+        "en" : "Mixed Emaciated",
+        "ja" : "Mixed Emaciated"
+      },
+      "ValueRange" : {
+        "m_X" : 100,
+        "m_Y" : 110
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -50.0,
+            "y" : -50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -50.0,
+            "y" : -50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Gynecoid Emaciated",
+        "en" : "Gynecoid Emaciated",
+        "ja" : "Gynecoid Emaciated"
+      },
+      "ValueRange" : {
+        "m_X" : 200,
+        "m_Y" : 210
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -50.0,
+            "y" : -50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Android Very Thin",
+        "en" : "Android Very Thin",
+        "ja" : "Android Very Thin"
+      },
+      "ValueRange" : {
+        "m_X" : 11,
+        "m_Y" : 20
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -50.0,
+            "y" : -50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Mixed Very Thin",
+        "en" : "Mixed Very Thin",
+        "ja" : "Mixed Very Thin"
+      },
+      "ValueRange" : {
+        "m_X" : 111,
+        "m_Y" : 120
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Gynecoid Very Thin",
+        "en" : "Gynecoid Very Thin",
+        "ja" : "Gynecoid Very Thin"
+      },
+      "ValueRange" : {
+        "m_X" : 211,
+        "m_Y" : 220
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -50.0,
+            "y" : -50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Android Thin",
+        "en" : "Android Thin",
+        "ja" : "Android Thin"
+      },
+      "ValueRange" : {
+        "m_X" : 21,
+        "m_Y" : 30
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Mixed Thin",
+        "en" : "Mixed Thin",
+        "ja" : "Mixed Thin"
+      },
+      "ValueRange" : {
+        "m_X" : 121,
+        "m_Y" : 130
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Gynecoid Thin",
+        "en" : "Gynecoid Thin",
+        "ja" : "Gynecoid Thin"
+      },
+      "ValueRange" : {
+        "m_X" : 221,
+        "m_Y" : 230
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Android Average",
+        "en" : "Android Average",
+        "ja" : "Android Average"
+      },
+      "ValueRange" : {
+        "m_X" : 31,
+        "m_Y" : 40
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Mixed Average",
+        "en" : "Mixed Average",
+        "ja" : "Mixed Average"
+      },
+      "ValueRange" : {
+        "m_X" : 131,
+        "m_Y" : 140
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Gynecoid Average",
+        "en" : "Gynecoid Average",
+        "ja" : "Gynecoid Average"
+      },
+      "ValueRange" : {
+        "m_X" : 231,
+        "m_Y" : 240
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Android Well-Fed",
+        "en" : "Android Well-Fed",
+        "ja" : "Android Well-Fed"
+      },
+      "ValueRange" : {
+        "m_X" : 41,
+        "m_Y" : 50
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -30.0,
+            "y" : -30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 25.0,
+            "y" : 25.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Mixed Well-Fed",
+        "en" : "Mixed Well-Fed",
+        "ja" : "Mixed Well-Fed"
+      },
+      "ValueRange" : {
+        "m_X" : 141,
+        "m_Y" : 150
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 25.0,
+            "y" : 25.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Gynecoid Well-Fed",
+        "en" : "Gynecoid Well-Fed",
+        "ja" : "Gynecoid Well-Fed"
+      },
+      "ValueRange" : {
+        "m_X" : 241,
+        "m_Y" : 250
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Android Bit Fat",
+        "en" : "Android Bit Fat",
+        "ja" : "Android Bit Fat"
+      },
+      "ValueRange" : {
+        "m_X" : 51,
+        "m_Y" : 60
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 50.0,
+            "y" : 50.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Mixed Bit Fat",
+        "en" : "Mixed Bit Fat",
+        "ja" : "Mixed Bit Fat"
+      },
+      "ValueRange" : {
+        "m_X" : 151,
+        "m_Y" : 160
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 25.0,
+            "y" : 25.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Gynecoid Bit Fat",
+        "en" : "Gynecoid Bit Fat",
+        "ja" : "Gynecoid Bit Fat"
+      },
+      "ValueRange" : {
+        "m_X" : 251,
+        "m_Y" : 260
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Android Fat",
+        "en" : "Android Fat",
+        "ja" : "Android Fat"
+      },
+      "ValueRange" : {
+        "m_X" : 61,
+        "m_Y" : 70
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 75.0,
+            "y" : 75.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Mixed Fat",
+        "en" : "Mixed Fat",
+        "ja" : "Mixed Fat"
+      },
+      "ValueRange" : {
+        "m_X" : 161,
+        "m_Y" : 170
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 50.0,
+            "y" : 50.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Gynecoid Fat",
+        "en" : "Gynecoid Fat",
+        "ja" : "Gynecoid Fat"
+      },
+      "ValueRange" : {
+        "m_X" : 261,
+        "m_Y" : 270
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 30.0,
+            "y" : 30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 25.0,
+            "y" : 25.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Android Very Fat",
+        "en" : "Android Very Fat",
+        "ja" : "Android Very Fat"
+      },
+      "ValueRange" : {
+        "m_X" : 71,
+        "m_Y" : 80
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 30.0,
+            "y" : 30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Mixed Very Fat",
+        "en" : "Mixed Very Fat",
+        "ja" : "Mixed Very Fat"
+      },
+      "ValueRange" : {
+        "m_X" : 171,
+        "m_Y" : 180
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 30.0,
+            "y" : 30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 75.0,
+            "y" : 75.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Gynecoid Very Fat",
+        "en" : "Gynecoid Very Fat",
+        "ja" : "Gynecoid Very Fat"
+      },
+      "ValueRange" : {
+        "m_X" : 271,
+        "m_Y" : 280
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "ThighSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5927\u817F\u7C97\u7EC6",
+              "en" : "Thigh Size",
+              "ja" : "Thigh Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 30.0,
+            "y" : 30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ArmSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u624B\u81C2\u7C97\u7EC6",
+              "en" : "Arm Size",
+              "ja" : "Arm Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 30.0,
+            "y" : 30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "StomachSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u8179\u90E8\u5927\u5C0F",
+              "en" : "Stomach Size",
+              "ja" : "Stomach Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 96,
+  "StalenessMultiplier"     : 0.5,
+  "MaxStalenessStack"       : 2,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "FatDistribution",
+  "name"                    : {
+    "zh" : "\u8102\u80AA\u5206\u5E03",
+    "en" : "Fat Distribution",
+    "ja" : "Fat Distribution"
+  },
+  "min"                     : 0.0,
+  "max"                     : 300.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u7AEF\u80A5\u80D6",
+        "en" : "Status Stage: Severely Obese",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u80A5\u6E80"
+      },
+      "value"       : {
+        "x" : 71.0,
+        "y" : 71.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80A5\u80D6",
+        "en" : "Status Stage: Obese",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u80A5\u6E80"
+      },
+      "value"       : {
+        "x" : 61.0,
+        "y" : 61.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8D85\u91CD",
+        "en" : "Status Stage: Overweight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u307D\u3063\u3061\u3083\u308A"
+      },
+      "value"       : {
+        "x" : 51.0,
+        "y" : 51.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F53\u91CD\u6B63\u5E38",
+        "en" : "Status Stage: Normal Weight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6A19\u6E96\u4F53\u91CD"
+      },
+      "value"       : {
+        "x" : 41.0,
+        "y" : 41.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F53\u91CD\u6B63\u5E38",
+        "en" : "Status Stage: Normal Weight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6A19\u6E96\u4F53\u91CD"
+      },
+      "value"       : {
+        "x" : 31.0,
+        "y" : 31.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F53\u91CD\u6B63\u5E38",
+        "en" : "Status Stage: Normal Weight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6A19\u6E96\u4F53\u91CD"
+      },
+      "value"       : {
+        "x" : 21.0,
+        "y" : 21.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F53\u91CD\u8FC7\u8F7B",
+        "en" : "Status Stage: Underweight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4F53\u91CD\u304C\u8EFD\u3044"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 11.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u7AEF\u8FC7\u7626",
+        "en" : "Status Stage: Severely Underweight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4F53\u91CD\u304C\u304B\u306A\u308A\u8EFD\u3044"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 11.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7626\u5F31",
+        "en" : "Status Stage: Emaciated",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30AC\u30EA\u30AC\u30EA"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6FD2\u4E34\u997F\u6B7B",
+        "en" : "Status Stage: On the Verge of Starvation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u98E2\u9913\u72B6\u614B\u306B\u306A\u308A\u305D\u3046"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Estrogen",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u96CC\u6FC0\u7D20",
+          "en" : "Estrogen",
+          "ja" : "\u5973\u6027\u30DB\u30EB\u30E2\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u96CC\u6FC0\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: Moderate Estrogen",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5973\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u4E2D\uFF09"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Estrogen",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u96CC\u6FC0\u7D20",
+          "en" : "Estrogen",
+          "ja" : "\u5973\u6027\u30DB\u30EB\u30E2\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u96CC\u6FC0\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: High Estrogen",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5973\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u9AD8\uFF09"
+      },
+      "value"       : {
+        "x" : 200.0,
+        "y" : 200.0
+      }
+    }
+  ],
+  "_uuid"                   : "3a00ca3a5f494252a413bb79df262399"
+}

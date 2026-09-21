@@ -6,22 +6,66 @@
     "ja" : "Return Home"
   },
   "DutySummary" : {
-    "zh" : "Returning home.",
+    "zh" : "\u56DE\u5BB6\u3002",
     "en" : "Returning home.",
     "ja" : "Returning home."
   },
   "MaxPerformPerDay" : 0,
   "DutyConditions"   : {
     "PlayerUsesCard" : 0,
-    "RequiredNPCAtHome" : [
+    "RequiredNPCActiveDuties" : [
       {
-        "HasAHome" : 1,
-        "IsAtHome" : 2
+        "UseAssociatedAgent" : true,
+        "Duty"               : {
+          "key" : "PartnerDuty_Follow",
+          "type" : "NPCDuty",
+          "name" : {
+            "zh" : "\u8DDF\u968F",
+            "en" : "Follow",
+            "ja" : "Follow"
+          }
+        }
       }
     ]
   },
   "DutyExecutionOptions" : 0,
   "ActionSequence"       : [
+    {
+      "key" : "Workplace and time check",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Workplace and time check",
+        "en" : "Workplace and time check",
+        "ja" : "Workplace and time check"
+      }
+    },
+    {
+      "key" : "Am I at workplace",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Am I at workplace",
+        "en" : "Am I at workplace",
+        "ja" : "Am I at workplace"
+      }
+    },
+    {
+      "key" : "Move towards Workplace",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "Move towards Workplace",
+        "en" : "Move towards Workplace",
+        "ja" : "Move towards Workplace"
+      }
+    },
+    {
+      "key" : "Complete Duty",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Complete Duty",
+        "en" : "Complete Duty",
+        "ja" : "Complete Duty"
+      }
+    },
     {
       "key" : "Should I go home",
       "type" : "TakeSimpleDecisionDutyAction",

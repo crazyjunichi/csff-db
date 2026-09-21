@@ -31,7 +31,7 @@
     "a" : 1.0
   },
   "DefaultStatusIcon" : {
-    "FileName" : "GameStat__BeastUrge__DefaultStatusIcon"
+    "FileName" : "GameStat__Arousal__DefaultStatusIcon"
   },
   "Statuses"          : [
     {
@@ -78,7 +78,7 @@
         "ja" : "\u7DCA\u5F35\u3057\u3066\u308B"
       },
       "Icon"     : {
-        "FileName" : "GameStat__BeastUrge__DefaultStatusIcon"
+        "FileName" : "GameStat__Arousal__DefaultStatusIcon"
       },
       "ValueRange" : {
         "m_X" : 97,
@@ -154,7 +154,7 @@
         "ja" : "\u30B9\u30C8\u30EC\u30B9\u3092\u611F\u3058\u3066\u308B"
       },
       "Icon"     : {
-        "FileName" : "GameStat__BeastUrge__DefaultStatusIcon"
+        "FileName" : "GameStat__Arousal__DefaultStatusIcon"
       },
       "ValueRange" : {
         "m_X" : 145,
@@ -219,7 +219,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -316,7 +316,7 @@
               "Stat" : {
                 "key" : "Stress",
                 "type" : "GameStat",
-                "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+                "icon" : "GameStat__Arousal__DefaultStatusIcon",
                 "min"  : 0.0,
                 "max"  : 240.0,
                 "name" : {
@@ -383,7 +383,7 @@
         "ja" : "\u975E\u5E38\u306B\u30B9\u30C8\u30EC\u30B9\u3092\u611F\u3058\u3066\u308B"
       },
       "Icon"     : {
-        "FileName" : "GameStat__BeastUrge__DefaultStatusIcon"
+        "FileName" : "GameStat__Arousal__DefaultStatusIcon"
       },
       "ValueRange" : {
         "m_X" : 193,
@@ -448,7 +448,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -545,7 +545,7 @@
               "Stat" : {
                 "key" : "Stress",
                 "type" : "GameStat",
-                "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+                "icon" : "GameStat__Arousal__DefaultStatusIcon",
                 "min"  : 0.0,
                 "max"  : 240.0,
                 "name" : {
@@ -613,13 +613,13 @@
   "ShowActionEffects"       : true,
   "FeedbackInfo"            : {
     "Icon" : {
-      "FileName" : "GameStat__BeastUrge__DefaultStatusIcon"
+      "FileName" : "GameStat__Arousal__DefaultStatusIcon"
     },
     "StepValue" : 100.0
   },
   "type"                    : "GameStat",
   "key"                     : "Stress",
-  "icon"                    : "GameStat__BeastUrge__DefaultStatusIcon",
+  "icon"                    : "GameStat__Arousal__DefaultStatusIcon",
   "name"                    : {
     "zh" : "\u538B\u529B",
     "en" : "Stress",
@@ -18951,6 +18951,28 @@
     },
     {
       "source" : {
+        "key" : "Blank_MetalRynd",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u78E8\u82AF\u94C1\u576F",
+          "en" : "Metal Rynd",
+          "ja" : "Metal Rynd"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "en" : "Action: Smith",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Blank_MetalScytheBlade",
         "type" : "CardData",
         "CardType" : 0,
@@ -19887,6 +19909,28 @@
       },
       "description" : {
         "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
+        "en" : "Action: Smith",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Shape_MetalRynd",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u78E8\u82AF\u94C1\u5F62\u6A21",
+          "en" : "Metal Rynd Shape",
+          "ja" : "Metal Rynd Shape"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASmith",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -26427,7 +26471,7 @@
       "source" : {
         "key" : "Stress",
         "type" : "GameStat",
-        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 240.0,
         "name" : {
@@ -26450,7 +26494,7 @@
       "source" : {
         "key" : "Stress",
         "type" : "GameStat",
-        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 240.0,
         "name" : {
@@ -26834,7 +26878,7 @@
         "type" : "SpiceTag",
         "icon" : "CardData__JuniperberriesCrushed__CardImage",
         "name" : {
-          "zh" : "Juniper Berries",
+          "zh" : "\u675C\u677E\u5B50",
           "en" : "Juniper Berries",
           "ja" : "Juniper Berries"
         }
@@ -26855,7 +26899,7 @@
         "type" : "SpiceTag",
         "icon" : "CardData__JuniperberriesCrushed__CardImage",
         "name" : {
-          "zh" : "Roasted Juniper Berries",
+          "zh" : "\u70E4\u675C\u677E\u5B50",
           "en" : "Roasted Juniper Berries",
           "ja" : "Roasted Juniper Berries"
         }
@@ -26868,6 +26912,66 @@
       "value"       : {
         "x" : -10.0,
         "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressBlame",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner is angry and frustrated and is blaming you for it.",
+          "en" : "Your partner is angry and frustrated and is blaming you for it.",
+          "ja" : "Your partner is angry and frustrated and is blaming you for it."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressBlame",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner is angry and frustrated and is blaming you for it.",
+          "en" : "Your partner is angry and frustrated and is blaming you for it.",
+          "ja" : "Your partner is angry and frustrated and is blaming you for it."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "PartnerDialog_ExpressBlame",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "Your partner is angry and frustrated and is blaming you for it.",
+          "en" : "Your partner is angry and frustrated and is blaming you for it.",
+          "ja" : "Your partner is angry and frustrated and is blaming you for it."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
       }
     },
     {
@@ -28539,7 +28643,7 @@
       "source" : {
         "key" : "BeastUrge",
         "type" : "GameStat",
-        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 96.0,
         "name" : {
@@ -28562,7 +28666,7 @@
       "source" : {
         "key" : "BeastUrge",
         "type" : "GameStat",
-        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 96.0,
         "name" : {
@@ -29595,6 +29699,75 @@
     },
     {
       "source" : {
+        "key" : "Arousal",
+        "type" : "GameStat",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u6027\u5524\u8D77",
+          "en" : "Arousal",
+          "ja" : "Arousal"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A",
+        "en" : "Status Stage: ",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "Arousal",
+        "type" : "GameStat",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u6027\u5524\u8D77",
+          "en" : "Arousal",
+          "ja" : "Arousal"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A",
+        "en" : "Status Stage: ",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A"
+      },
+      "value"       : {
+        "x" : 0.25,
+        "y" : 0.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "Arousal",
+        "type" : "GameStat",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u6027\u5524\u8D77",
+          "en" : "Arousal",
+          "ja" : "Arousal"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAroused",
+        "en" : "Status Stage: Aroused",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAroused"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
         "key" : "CabinFever",
         "type" : "GameStat",
         "icon" : "GameStat__CabinFever__DefaultStatusIcon",
@@ -30264,7 +30437,7 @@
       "source" : {
         "key" : "Stress",
         "type" : "GameStat",
-        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 240.0,
         "name" : {
@@ -30287,7 +30460,7 @@
       "source" : {
         "key" : "Stress",
         "type" : "GameStat",
-        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 240.0,
         "name" : {
@@ -31109,6 +31282,29 @@
       "value"       : {
         "x" : 2.0,
         "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "FemaleCycle",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : -1.0,
+        "max"  : 2880.0,
+        "name" : {
+          "zh" : "\u5973\u6027\u751F\u7406\u5468\u671F",
+          "en" : "Female Cycle",
+          "ja" : "Female Cycle"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMenstruation",
+        "en" : "Status Stage: Menstruation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMenstruation"
+      },
+      "value"       : {
+        "x" : 0.25,
+        "y" : 0.25
       }
     },
     {

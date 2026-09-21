@@ -1209,6 +1209,22 @@
             "FloatValue" : -50.0,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_StressEatingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B\u6027\u8FDB\u98DF\u503E\u5411",
+              "en" : "Partner_StressEatingTendency",
+              "ja" : "Partner_StressEatingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 10.0,
+            "FloatValue" : 10.0,
+            "Active"     : true
+          }
         }
       ],
       "CheckingNotificationDetails" : 0,
@@ -1528,8 +1544,8 @@
             }
           },
           "ValueChange" : {
-            "MaxValue" : 10.0,
-            "FloatValue" : 10.0,
+            "MaxValue" : 3.0,
+            "FloatValue" : 3.0,
             "Active"     : true
           }
         }
@@ -1927,7 +1943,7 @@
         "ja" : "Makes your partner start with long hair."
       },
       "PerkIcon"        : {
-        "FileName" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon"
+        "FileName" : "CardData__Event_StyleHair__CardImage"
       },
       "DisplayPriority" : 0.0,
       "StartingNPCStatModifiers" : [
@@ -1952,7 +1968,7 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "NPCCharacterPerk",
       "key"                         : "PartnerPerk_HairLong",
-      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+      "icon"                        : "CardData__Event_StyleHair__CardImage",
       "name"                        : {
         "zh" : "\u957F\u53D1",
         "en" : "Long Hair",
@@ -1974,7 +1990,7 @@
         "ja" : "Makes your partner start with short hair."
       },
       "PerkIcon"        : {
-        "FileName" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon"
+        "FileName" : "CardData__Event_StyleHair__CardImage"
       },
       "DisplayPriority" : 0.0,
       "StartingNPCStatModifiers" : [
@@ -1999,7 +2015,7 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "NPCCharacterPerk",
       "key"                         : "PartnerPerk_HairShort",
-      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+      "icon"                        : "CardData__Event_StyleHair__CardImage",
       "name"                        : {
         "zh" : "\u77ED\u53D1",
         "en" : "Short Hair",
@@ -2021,7 +2037,7 @@
         "ja" : "Makes your partner start with straight hair."
       },
       "PerkIcon"        : {
-        "FileName" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon"
+        "FileName" : "CardData__Event_StyleHair__CardImage"
       },
       "DisplayPriority" : 0.0,
       "PassiveNPCStatModifiers" : [
@@ -2046,7 +2062,7 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "NPCCharacterPerk",
       "key"                         : "PartnerPerk_HairStraight",
-      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+      "icon"                        : "CardData__Event_StyleHair__CardImage",
       "name"                        : {
         "zh" : "\u76F4\u53D1",
         "en" : "Straight Hair",
@@ -2068,7 +2084,7 @@
         "ja" : "Makes your partner start with very long hair."
       },
       "PerkIcon"        : {
-        "FileName" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon"
+        "FileName" : "CardData__Event_StyleHair__CardImage"
       },
       "DisplayPriority" : 0.0,
       "StartingNPCStatModifiers" : [
@@ -2092,7 +2108,7 @@
       "CheckingNotificationDetails" : 0,
       "type"                        : "NPCCharacterPerk",
       "key"                         : "PartnerPerk_HairVeryLong",
-      "icon"                        : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+      "icon"                        : "CardData__Event_StyleHair__CardImage",
       "name"                        : {
         "zh" : "\u957F\u53D1\u98D8\u98D8",
         "en" : "Very Long Hair",
@@ -2197,6 +2213,22 @@
           "RateChange"  : {
             "MaxValue" : -0.5,
             "FloatValue" : -0.5,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_StressEatingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B\u6027\u8FDB\u98DF\u503E\u5411",
+              "en" : "Partner_StressEatingTendency",
+              "ja" : "Partner_StressEatingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 20.0,
+            "FloatValue" : 20.0,
             "Active"     : true
           }
         }
@@ -2941,6 +2973,22 @@
             "FloatValue" : 100.0,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_AloneTimeTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u72EC\u5904\u503E\u5411",
+              "en" : "Partner_AloneTimeTendency",
+              "ja" : "Partner_AloneTimeTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 10.0,
+            "FloatValue" : 10.0,
+            "Active"     : true
+          }
         }
       ],
       "CheckingNotificationDetails" : 0,
@@ -3232,12 +3280,12 @@
       "MoonsCost" : 0,
       "StarsCost" : 0,
       "PerkName"  : {
-        "zh" : "Spiritual",
+        "zh" : "\u7075\u6027",
         "en" : "Spiritual",
         "ja" : "Spiritual"
       },
       "PerkDescription" : {
-        "zh" : "Likes performing spiritual tasks, such as releasing animal spirits. ",
+        "zh" : "\u559C\u6B22\u4ECE\u4E8B\u7075\u6027\u7C7B\u5DE5\u4F5C\uFF0C\u6BD4\u5982\u91CA\u653E\u52A8\u7269\u7CBE\u9B44\u3002",
         "en" : "Likes performing spiritual tasks, such as releasing animal spirits. ",
         "ja" : "Likes performing spiritual tasks, such as releasing animal spirits. "
       },
@@ -3261,6 +3309,22 @@
             "FloatValue" : 100.0,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_AloneTimeTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u72EC\u5904\u503E\u5411",
+              "en" : "Partner_AloneTimeTendency",
+              "ja" : "Partner_AloneTimeTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 10.0,
+            "FloatValue" : 10.0,
+            "Active"     : true
+          }
         }
       ],
       "CheckingNotificationDetails" : 0,
@@ -3268,7 +3332,7 @@
       "key"                         : "PartnerPerk_LikesSpiritual",
       "icon"                        : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
       "name"                        : {
-        "zh" : "Spiritual",
+        "zh" : "\u7075\u6027",
         "en" : "Spiritual",
         "ja" : "Spiritual"
       }
@@ -3325,6 +3389,22 @@
           "RateChange"  : {
             "MaxValue" : 0.0,
             "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_StressEatingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B\u6027\u8FDB\u98DF\u503E\u5411",
+              "en" : "Partner_StressEatingTendency",
+              "ja" : "Partner_StressEatingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -10.0,
+            "FloatValue" : -10.0,
             "Active"     : true
           }
         }
@@ -3867,6 +3947,22 @@
             "FloatValue" : 0.25,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_ArguingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4E89\u5435\u503E\u5411",
+              "en" : "Partner_ArguingTendency",
+              "ja" : "Partner_ArguingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -10.0,
+            "FloatValue" : -10.0,
+            "Active"     : true
+          }
         }
       ],
       "CheckingNotificationDetails" : 0,
@@ -3927,6 +4023,38 @@
           "ValueChange" : {
             "MaxValue" : -0.25,
             "FloatValue" : -0.25,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_ArguingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4E89\u5435\u503E\u5411",
+              "en" : "Partner_ArguingTendency",
+              "ja" : "Partner_ArguingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 20.0,
+            "FloatValue" : 20.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_StressEatingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B\u6027\u8FDB\u98DF\u503E\u5411",
+              "en" : "Partner_StressEatingTendency",
+              "ja" : "Partner_StressEatingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 20.0,
+            "FloatValue" : 20.0,
             "Active"     : true
           }
         }
@@ -4119,6 +4247,22 @@
             "FloatValue" : -1.0,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominancePreference",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u504F\u597D",
+              "en" : "Partner_DominancePreference",
+              "ja" : "Partner_DominancePreference"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 10.0,
+            "FloatValue" : 10.0,
+            "Active"     : true
+          }
         }
       ],
       "CheckingNotificationDetails" : 0,
@@ -4291,6 +4435,22 @@
             "FloatValue" : -0.125,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_ArguingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4E89\u5435\u503E\u5411",
+              "en" : "Partner_ArguingTendency",
+              "ja" : "Partner_ArguingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -10.0,
+            "FloatValue" : -10.0,
+            "Active"     : true
+          }
         }
       ],
       "CheckingNotificationDetails" : 0,
@@ -4353,6 +4513,22 @@
             "FloatValue" : -50.0,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_StressEatingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B\u6027\u8FDB\u98DF\u503E\u5411",
+              "en" : "Partner_StressEatingTendency",
+              "ja" : "Partner_StressEatingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -10.0,
+            "FloatValue" : -10.0,
+            "Active"     : true
+          }
         }
       ],
       "CheckingNotificationDetails" : 0,
@@ -4413,6 +4589,22 @@
           "RateChange" : {
             "MaxValue" : -0.5,
             "FloatValue" : -0.5,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_AloneTimeTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u72EC\u5904\u503E\u5411",
+              "en" : "Partner_AloneTimeTendency",
+              "ja" : "Partner_AloneTimeTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -10.0,
+            "FloatValue" : -10.0,
             "Active"     : true
           }
         }
@@ -4503,6 +4695,22 @@
           "RateChange"  : {
             "MaxValue" : -0.5,
             "FloatValue" : -0.5,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_ArguingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4E89\u5435\u503E\u5411",
+              "en" : "Partner_ArguingTendency",
+              "ja" : "Partner_ArguingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 10.0,
+            "FloatValue" : 10.0,
             "Active"     : true
           }
         }
@@ -4599,6 +4807,38 @@
             "FloatValue" : -50.0,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_ArguingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4E89\u5435\u503E\u5411",
+              "en" : "Partner_ArguingTendency",
+              "ja" : "Partner_ArguingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 20.0,
+            "FloatValue" : 20.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_StressEatingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B\u6027\u8FDB\u98DF\u503E\u5411",
+              "en" : "Partner_StressEatingTendency",
+              "ja" : "Partner_StressEatingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 20.0,
+            "FloatValue" : 20.0,
+            "Active"     : true
+          }
         }
       ],
       "CheckingNotificationDetails" : 0,
@@ -4643,6 +4883,38 @@
           "RateChange" : {
             "MaxValue" : 0.5,
             "FloatValue" : 0.5,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_AloneTimeTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u72EC\u5904\u503E\u5411",
+              "en" : "Partner_AloneTimeTendency",
+              "ja" : "Partner_AloneTimeTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 10.0,
+            "FloatValue" : 10.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominancePreference",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u504F\u597D",
+              "en" : "Partner_DominancePreference",
+              "ja" : "Partner_DominancePreference"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 25.0,
+            "FloatValue" : 25.0,
             "Active"     : true
           }
         }
@@ -4837,6 +5109,22 @@
             "FloatValue" : 0.5,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominancePreference",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u504F\u597D",
+              "en" : "Partner_DominancePreference",
+              "ja" : "Partner_DominancePreference"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -10.0,
+            "FloatValue" : -10.0,
+            "Active"     : true
+          }
         }
       ],
       "CheckingNotificationDetails" : 0,
@@ -4881,6 +5169,22 @@
           "RateChange" : {
             "MaxValue" : -0.5,
             "FloatValue" : -0.5,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominancePreference",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u504F\u597D",
+              "en" : "Partner_DominancePreference",
+              "ja" : "Partner_DominancePreference"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -25.0,
+            "FloatValue" : -25.0,
             "Active"     : true
           }
         }
@@ -4943,6 +5247,22 @@
           "RateChange" : {
             "MaxValue" : 0.5,
             "FloatValue" : 0.5,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_AloneTimeTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u72EC\u5904\u503E\u5411",
+              "en" : "Partner_AloneTimeTendency",
+              "ja" : "Partner_AloneTimeTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 20.0,
+            "FloatValue" : 20.0,
             "Active"     : true
           }
         }
@@ -5197,6 +5517,22 @@
             "FloatValue" : -50.0,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_AloneTimeTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u72EC\u5904\u503E\u5411",
+              "en" : "Partner_AloneTimeTendency",
+              "ja" : "Partner_AloneTimeTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 10.0,
+            "FloatValue" : 10.0,
+            "Active"     : true
+          }
         }
       ],
       "CheckingNotificationDetails" : 0,
@@ -5257,6 +5593,38 @@
           "ValueChange" : {
             "MaxValue" : -50.0,
             "FloatValue" : -50.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_ArguingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4E89\u5435\u503E\u5411",
+              "en" : "Partner_ArguingTendency",
+              "ja" : "Partner_ArguingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 10.0,
+            "FloatValue" : 10.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_StressEatingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B\u6027\u8FDB\u98DF\u503E\u5411",
+              "en" : "Partner_StressEatingTendency",
+              "ja" : "Partner_StressEatingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 10.0,
+            "FloatValue" : 10.0,
             "Active"     : true
           }
         }
@@ -5427,6 +5795,24 @@
         "FileName" : "GameStat__Grief__DefaultStatusIcon"
       },
       "DisplayPriority" : 0.0,
+      "PassiveNPCStatModifiers" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_StressEatingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u538B\u529B\u6027\u8FDB\u98DF\u503E\u5411",
+              "en" : "Partner_StressEatingTendency",
+              "ja" : "Partner_StressEatingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 10.0,
+            "FloatValue" : 10.0,
+            "Active"     : true
+          }
+        }
+      ],
       "CheckingNotificationDetails" : 0,
       "type"                        : "NPCCharacterPerk",
       "key"                         : "PartnerPerk_PersonalitySweetTooth",
@@ -5487,6 +5873,22 @@
           "ValueChange" : {
             "MaxValue" : 50.0,
             "FloatValue" : 50.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_ArguingTendency",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4E89\u5435\u503E\u5411",
+              "en" : "Partner_ArguingTendency",
+              "ja" : "Partner_ArguingTendency"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -20.0,
+            "FloatValue" : -20.0,
             "Active"     : true
           }
         }
@@ -6243,7 +6645,7 @@
       "MoonsCost" : 0,
       "StarsCost" : 0,
       "PerkName"  : {
-        "zh" : "Testeroo",
+        "zh" : "\u6D4B\u8BD5NPC\u7279\u8D28",
         "en" : "Testeroo",
         "ja" : "Testeroo"
       },
@@ -6327,7 +6729,7 @@
       "key"                         : "TestNPCPerk",
       "icon"                        : "GameStat__DarkSense__FeedbackInfo-Icon",
       "name"                        : {
-        "zh" : "Testeroo",
+        "zh" : "\u6D4B\u8BD5NPC\u7279\u8D28",
         "en" : "Testeroo",
         "ja" : "Testeroo"
       }
@@ -6890,7 +7292,7 @@
         {
           "key" : "PartnerPerk_HairShort",
           "type" : "NPCCharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+          "icon" : "CardData__Event_StyleHair__CardImage",
           "name" : {
             "zh" : "\u77ED\u53D1",
             "en" : "Short Hair",
@@ -6900,7 +7302,7 @@
         {
           "key" : "PartnerPerk_HairLong",
           "type" : "NPCCharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+          "icon" : "CardData__Event_StyleHair__CardImage",
           "name" : {
             "zh" : "\u957F\u53D1",
             "en" : "Long Hair",
@@ -6910,7 +7312,7 @@
         {
           "key" : "PartnerPerk_HairVeryLong",
           "type" : "NPCCharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+          "icon" : "CardData__Event_StyleHair__CardImage",
           "name" : {
             "zh" : "\u957F\u53D1\u98D8\u98D8",
             "en" : "Very Long Hair",
@@ -6936,7 +7338,7 @@
         {
           "key" : "PartnerPerk_HairStraight",
           "type" : "NPCCharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+          "icon" : "CardData__Event_StyleHair__CardImage",
           "name" : {
             "zh" : "\u76F4\u53D1",
             "en" : "Straight Hair",
@@ -8067,7 +8469,7 @@
         {
           "key" : "PartnerPerk_HairVeryLong",
           "type" : "NPCCharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+          "icon" : "CardData__Event_StyleHair__CardImage",
           "name" : {
             "zh" : "\u957F\u53D1\u98D8\u98D8",
             "en" : "Very Long Hair",
@@ -8077,7 +8479,7 @@
         {
           "key" : "PartnerPerk_HairLong",
           "type" : "NPCCharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+          "icon" : "CardData__Event_StyleHair__CardImage",
           "name" : {
             "zh" : "\u957F\u53D1",
             "en" : "Long Hair",
@@ -8087,7 +8489,7 @@
         {
           "key" : "PartnerPerk_HairShort",
           "type" : "NPCCharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+          "icon" : "CardData__Event_StyleHair__CardImage",
           "name" : {
             "zh" : "\u77ED\u53D1",
             "en" : "Short Hair",
@@ -8097,7 +8499,7 @@
         {
           "key" : "PartnerPerk_HairStraight",
           "type" : "NPCCharacterPerk",
-          "icon" : "NPCCharacterPerk__PartnerPerk_HairLong__PerkIcon",
+          "icon" : "CardData__Event_StyleHair__CardImage",
           "name" : {
             "zh" : "\u76F4\u53D1",
             "en" : "Straight Hair",
@@ -8205,6 +8607,16 @@
           }
         },
         {
+          "key" : "PartnerPerk_HairColourLightBrown",
+          "type" : "NPCCharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourLightBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u6D45\u68D5\u8272\u5934\u53D1",
+            "en" : "Light Brown Hair",
+            "ja" : "Light Brown Hair"
+          }
+        },
+        {
           "key" : "PartnerPerk_HairColourBrown",
           "type" : "NPCCharacterPerk",
           "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
@@ -8212,6 +8624,16 @@
             "zh" : "\u68D5\u8272\u5934\u53D1",
             "en" : "Brown Hair",
             "ja" : "Brown Hair"
+          }
+        },
+        {
+          "key" : "PartnerPerk_HairColourDarkBrown",
+          "type" : "NPCCharacterPerk",
+          "icon" : "NPCCharacterPerk__PartnerPerk_HairColourDarkBrown__PerkIcon",
+          "name" : {
+            "zh" : "\u6DF1\u68D5\u8272\u5934\u53D1",
+            "en" : "Dark Brown Hair",
+            "ja" : "Dark Brown Hair"
           }
         },
         {
@@ -8608,7 +9030,7 @@
           "type" : "NPCCharacterPerk",
           "icon" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
           "name" : {
-            "zh" : "Spiritual",
+            "zh" : "\u7075\u6027",
             "en" : "Spiritual",
             "ja" : "Spiritual"
           }

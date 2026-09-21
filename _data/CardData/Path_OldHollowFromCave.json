@@ -2,20 +2,36 @@
 {
   "CardName" : {
     "zh" : "\u51FA\u53E3",
-    "en" : "Exit",
+    "en" : "Exit (Open)",
     "ja" : "\u51FA\u53E3"
   },
   "CanBeRenamed" : true,
-  "CardImage"    : {
+  "AlternateNames" : [
+    {
+      "Conditions" : {
+        "ProgressRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      "Name"       : {
+        "zh" : "Exit (Closed)",
+        "en" : "Exit (Closed)",
+        "ja" : "Exit (Closed)"
+      }
+    }
+  ],
+  "CardImage"      : {
     "FileName" : "CardData__Env_DeathCrack_EntranceTunnel__CardImage"
   },
-  "CardType"     : 2,
-  "ObjectWeight" : 1000.0,
+  "CardType"       : 2,
+  "ObjectWeight"   : 1000.0,
   "WeightReductionWhenEquipped" : 0.0,
   "TradingValue"                : 0.0,
   "MapStructureType"            : 0,
   "FlavourFadeRate"             : 0.0,
   "UniqueOnBoard"               : true,
+  "AlwaysUpdate"                : true,
   "CanBeTrashed"                : true,
   "CanDragItemsToTravel"        : true,
   "SpoilageTime"                : {
@@ -59,16 +75,63 @@
   },
   "Progress"                    : {
     "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 0.0,
+    "MaxValue"             : 1.0,
     "RatePerDaytimePoint"  : 0.0,
     "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 0,
+    "HidingOptions"         : 2,
     "TextDisplay"           : 0,
     "NumberPrecision"       : 0,
     "OnZeroNotification"    : 0,
     "OnFullNotification"    : 0,
     "FloatValue"            : 0.0,
-    "durabilityKey"         : "Progress"
+    "Active"                : true,
+    "durabilityKey"         : "Progress",
+    "_valueModifications"   : [
+      {
+        "source" : {
+          "key" : "Path_OldHollowFromCave",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+          "name"     : {
+            "zh" : "\u51FA\u53E3",
+            "en" : "Exit (Open)",
+            "ja" : "\u51FA\u53E3"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1AClose",
+          "en" : "Action: Close",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Path_OldHollowFromCave",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+          "name"     : {
+            "zh" : "\u51FA\u53E3",
+            "en" : "Exit (Open)",
+            "ja" : "\u51FA\u53E3"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1AOpen",
+          "en" : "Action: Open",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AOpen"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      }
+    ]
   },
   "LiquidEvaporationRate"       : 0.0,
   "SpecialDurability1"          : {
@@ -161,6 +224,303 @@
       ],
       "RoomDirection"           : 0,
       "ExitDirection"           : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Close",
+        "en" : "Close",
+        "ja" : "Close"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredCardsOnBoard"    : [
+        {
+          "TriggerCard" : {
+            "key" : "Imp_Door",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Imp_Door__CardImage",
+            "name"     : {
+              "zh" : "\u95E8",
+              "en" : "Door",
+              "ja" : "\u30C9\u30A2"
+            }
+          }
+        }
+      ],
+      "RequiredReceivingDurabilities" : {
+        "RequiredProgressPercent" : {
+          "MaxValue" : 0.0,
+          "FloatValue" : 0.0,
+          "Active"     : true
+        },
+        "RequiredLiquidQuantity"  : 0.0,
+        "HideActionIfNotMet"      : true
+      },
+      "ReceivingCardChanges"          : {
+        "ModType" : 1,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0,
+        "ChargesChange"             : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      "RoomDirection"                 : 0,
+      "ExitDirection"                 : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Open",
+        "en" : "Open",
+        "ja" : "Open"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredCardsOnBoard"    : [
+        {
+          "TriggerCard" : {
+            "key" : "Imp_Door",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Imp_Door__CardImage",
+            "name"     : {
+              "zh" : "\u95E8",
+              "en" : "Door",
+              "ja" : "\u30C9\u30A2"
+            }
+          }
+        }
+      ],
+      "RequiredReceivingDurabilities" : {
+        "RequiredProgressPercent" : {
+          "MaxValue" : 1.0,
+          "FloatValue" : 1.0,
+          "Active"     : true
+        },
+        "RequiredLiquidQuantity"  : 0.0
+      },
+      "HideIfConditionsNotMet"        : true,
+      "ReceivingCardChanges"          : {
+        "ModType" : 1,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0,
+        "ChargesChange"             : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      "RoomDirection"                 : 0,
+      "ExitDirection"                 : 0
+    }
+  ],
+  "PassiveEffects"              : [
+    {
+      "EffectName" : "Closed Door - Insulation",
+      "OnlyOnBaseActions" : true,
+      "Conditions"        : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "RequiredCardsOnBoard" : [
+          {
+            "key" : "Imp_Door",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Imp_Door__CardImage",
+            "name"     : {
+              "zh" : "\u95E8",
+              "en" : "Door",
+              "ja" : "\u30C9\u30A2"
+            }
+          }
+        ],
+        "ReceivingRequiredDurabilityRanges" : {
+          "ProgressRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      },
+      "StatModifiers"     : [
+        {
+          "Stat" : {
+            "key" : "TemperaturePerceived",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+            "min"  : -80.0,
+            "max"  : 80.0,
+            "name" : {
+              "zh" : "\u4F53\u611F\u6E29\u5EA6",
+              "en" : "Perceived Temperature",
+              "ja" : "\u4F53\u611F\u6E29\u5EA6"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 4.0,
+            "y" : 4.0
+          }
+        }
+      ],
+      "OnBoardEffectCap"  : 0,
+      "LiquidRateModifier" : 0.0,
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Closed Door - Insulation",
+        "en" : "Closed Door - Insulation",
+        "ja" : "Closed Door - Insulation"
+      }
+    },
+    {
+      "EffectName" : "DoorClosedPathfinding",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredCardsOnBoard" : [
+          {
+            "key" : "Imp_Door",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Imp_Door__CardImage",
+            "name"     : {
+              "zh" : "\u95E8",
+              "en" : "Door",
+              "ja" : "\u30C9\u30A2"
+            }
+          }
+        ],
+        "ReceivingRequiredDurabilityRanges" : {
+          "ProgressRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      },
+      "OnBoardEffectCap" : 0,
+      "LiquidRateModifier" : 0.0,
+      "WeightCapacityModifier" : 0.0,
+      "GrantedPathfindingTags" : [
+        {
+          "key" : "tag_Door",
+          "type" : "CardTag",
+          "count" : 2,
+          "name"  : {
+            "zh" : "\u5B89\u5168\u7684",
+            "en" : "Secure",
+            "ja" : "Secure"
+          }
+        }
+      ],
+      "_EffectNameI18n"        : {
+        "zh" : "DoorClosedPathfinding",
+        "en" : "DoorClosedPathfinding",
+        "ja" : "DoorClosedPathfinding"
+      }
+    }
+  ],
+  "RemotePassiveEffects"        : [
+    {
+      "AppliesTo" : [
+        {
+          "Target" : {
+            "key" : "Caves_CaveOldHollow",
+            "type" : "CardData",
+            "CardType" : 8,
+            "icon"     : "CardData__Caves_BearCave__CardImage",
+            "name"     : {
+              "zh" : "\u5DE8\u5927\u6D1E\u7A74",
+              "en" : "Great Cave",
+              "ja" : "\u5927\u6D1E\u7A9F"
+            }
+          }
+        }
+      ],
+      "Effect"    : {
+        "EffectName" : "Open Door - Reduce Mold",
+        "Conditions" : {
+          "PlayerUsesCard" : 0,
+          "ReceivingRequiredDurabilityRanges" : {
+            "ProgressRange" : {
+              "x" : 0.0,
+              "y" : 0.1
+            }
+          }
+        },
+        "OnBoardEffectCap" : 0,
+        "UsageRateModifier" : {
+          "FloatValue" : -1.0,
+          "Active"     : true
+        },
+        "LiquidRateModifier" : 0.0,
+        "WeightCapacityModifier" : 0.0,
+        "_EffectNameI18n"        : {
+          "zh" : "Open Door - Reduce Mold",
+          "en" : "Open Door - Reduce Mold",
+          "ja" : "Open Door - Reduce Mold"
+        }
+      }
+    },
+    {
+      "AppliesTo" : [
+        {
+          "Target" : {
+            "key" : "DryingRack",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Bp_DryingRack__CardImage",
+            "name"     : {
+              "zh" : "\u667E\u6652\u67B6",
+              "en" : "Drying Rack",
+              "ja" : "\u7269\u5E72\u3057"
+            }
+          }
+        },
+        {
+          "Target" : {
+            "key" : "Caves_CaveOldHollow",
+            "type" : "CardData",
+            "CardType" : 8,
+            "icon"     : "CardData__Caves_BearCave__CardImage",
+            "name"     : {
+              "zh" : "\u5DE8\u5927\u6D1E\u7A74",
+              "en" : "Great Cave",
+              "ja" : "\u5927\u6D1E\u7A9F"
+            }
+          }
+        }
+      ],
+      "Effect"    : {
+        "EffectName" : "Open Door - Vent Smoke and Steam",
+        "Conditions" : {
+          "PlayerUsesCard" : 0,
+          "ReceivingRequiredDurabilityRanges" : {
+            "ProgressRange" : {
+              "x" : 0.0,
+              "y" : 0.1
+            }
+          }
+        },
+        "OnBoardEffectCap" : 0,
+        "Special3RateModifier" : {
+          "FloatValue" : -400.0,
+          "Active"     : true
+        },
+        "Special4RateModifier" : {
+          "FloatValue" : -2.0,
+          "Active"     : true
+        },
+        "LiquidRateModifier"   : 0.0,
+        "WeightCapacityModifier" : 0.0,
+        "_EffectNameI18n"        : {
+          "zh" : "Open Door - Vent Smoke and Steam",
+          "en" : "Open Door - Vent Smoke and Steam",
+          "ja" : "Open Door - Vent Smoke and Steam"
+        }
+      }
     }
   ],
   "MaxLiquidCapacity"           : 0.0,
@@ -196,7 +556,7 @@
   "icon"                            : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
   "name"                            : {
     "zh" : "\u51FA\u53E3",
-    "en" : "Exit",
+    "en" : "Exit (Open)",
     "ja" : "\u51FA\u53E3"
   },
   "_transformTo"                    : [

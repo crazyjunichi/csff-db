@@ -1,0 +1,128 @@
+
+{
+  "DutyName" : {
+    "zh" : "\u72EC\u5904",
+    "en" : "Alone Time",
+    "ja" : "Alone Time"
+  },
+  "DutySummary" : {
+    "zh" : "Taking some time alone.",
+    "en" : "Taking some time alone.",
+    "ja" : "Taking some time alone."
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "Partner_Stress",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u538B\u529B",
+            "en" : "Partner_Stress",
+            "ja" : "Partner_Stress"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 97.0,
+          "y" : 240.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "Partner_AloneTimeDuration",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u72EC\u5904\u65F6\u957F",
+            "en" : "Partner_AloneTimeDuration",
+            "ja" : "Partner_AloneTimeDuration"
+          }
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "RememberWhenInterrupted"          : {
+    "IntValue" : 96,
+    "Active"   : true
+  },
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "Start Alone Time",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Start Alone Time",
+        "en" : "Start Alone Time",
+        "ja" : "Start Alone Time"
+      }
+    },
+    {
+      "key" : "Has Alone Time Ended",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Has Alone Time Ended",
+        "en" : "Has Alone Time Ended",
+        "ja" : "Has Alone Time Ended"
+      }
+    },
+    {
+      "key" : "Is Player Here",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Is Player Here",
+        "en" : "Is Player Here",
+        "ja" : "Is Player Here"
+      }
+    },
+    {
+      "key" : "Move Away From Player",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "Move Away From Player",
+        "en" : "Move Away From Player",
+        "ja" : "Move Away From Player"
+      }
+    },
+    {
+      "key" : "Wait Before Checking Distance",
+      "type" : "WaitDutyAction",
+      "name" : {
+        "zh" : "Wait Before Checking Distance",
+        "en" : "Wait Before Checking Distance",
+        "ja" : "Wait Before Checking Distance"
+      }
+    },
+    {
+      "key" : "Continue Alone Time",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "Continue Alone Time",
+        "en" : "Continue Alone Time",
+        "ja" : "Continue Alone Time"
+      }
+    },
+    {
+      "key" : "Relieve Stress",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Relieve Stress",
+        "en" : "Relieve Stress",
+        "ja" : "Relieve Stress"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 2,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "PartnerDuty_AloneTime",
+  "name"                             : {
+    "zh" : "\u72EC\u5904",
+    "en" : "Alone Time",
+    "ja" : "Alone Time"
+  },
+  "_uuid"                            : "f2b69c413e7d48a59c0f163dbe8247a1"
+}

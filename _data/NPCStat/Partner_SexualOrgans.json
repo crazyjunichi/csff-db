@@ -22,6 +22,22 @@
       "EffectsOnNPCStats" : [
         {
           "TargetStat" : {
+            "key" : "Partner_FemaleCycle",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5973\u6027\u751F\u7406\u5468\u671F",
+              "en" : "Partner_FemaleCycle",
+              "ja" : "Partner_FemaleCycle"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 1.0,
+            "FloatValue" : 1.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
             "key" : "Partner_LikesMaleTraits",
             "type" : "NPCStat",
             "name" : {
@@ -65,11 +81,6 @@
           "RateChange" : {
             "MaxValue" : -1.0,
             "FloatValue" : -1.0,
-            "Active"     : true
-          },
-          "MaxValueChange" : {
-            "MaxValue" : -1343.0,
-            "FloatValue" : -1343.0,
             "Active"     : true
           }
         }
@@ -150,6 +161,22 @@
             "FloatValue" : -20.0,
             "Active"     : true
           }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominancePreference",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u504F\u597D",
+              "en" : "Partner_DominancePreference",
+              "ja" : "Partner_DominancePreference"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 15.0,
+            "FloatValue" : 15.0,
+            "Active"     : true
+          }
         }
       ]
     },
@@ -165,6 +192,22 @@
         "m_Y" : 2
       },
       "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_FemaleCycle",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5973\u6027\u751F\u7406\u5468\u671F",
+              "en" : "Partner_FemaleCycle",
+              "ja" : "Partner_FemaleCycle"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 1.0,
+            "FloatValue" : 1.0,
+            "Active"     : true
+          }
+        },
         {
           "TargetStat" : {
             "key" : "Partner_Estrogen",
@@ -210,6 +253,22 @@
           "ValueChange" : {
             "MaxValue" : 70.0,
             "FloatValue" : 70.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominancePreference",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u504F\u597D",
+              "en" : "Partner_DominancePreference",
+              "ja" : "Partner_DominancePreference"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 15.0,
+            "FloatValue" : 15.0,
             "Active"     : true
           }
         }

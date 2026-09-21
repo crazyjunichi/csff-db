@@ -30,7 +30,7 @@
         {
           "key" : "Stress",
           "type" : "GameStat",
-          "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+          "icon" : "GameStat__Arousal__DefaultStatusIcon",
           "min"  : 0.0,
           "max"  : 240.0,
           "name" : {
@@ -2208,7 +2208,7 @@
         {
           "key" : "BeastUrge",
           "type" : "GameStat",
-          "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+          "icon" : "GameStat__Arousal__DefaultStatusIcon",
           "min"  : 0.0,
           "max"  : 96.0,
           "name" : {
@@ -3354,6 +3354,17 @@
           }
         },
         {
+          "key" : "ArmSize",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u624B\u81C2\u7C97\u7EC6",
+            "en" : "Arm Size",
+            "ja" : "Arm Size"
+          }
+        },
+        {
           "key" : "ArmorBlessing",
           "type" : "GameStat",
           "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
@@ -3363,6 +3374,23 @@
             "zh" : "\u62A4\u7532\u8D50\u798F",
             "en" : "ArmorBlessing",
             "ja" : "\u9632\u8B77\u306E\u52A0\u8B77"
+          }
+        },
+        {
+          "key" : "Arousal",
+          "type" : "GameStat",
+          "icon" : "GameStat__Arousal__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 96.0,
+          "name" : {
+            "zh" : "\u6027\u5524\u8D77",
+            "en" : "Arousal",
+            "ja" : "Arousal"
+          },
+          "Description" : {
+            "zh" : "Increases your stress, lowers your focus and makes other look more attractive. Can be reduced by relaxing or meditating, or by sharing intimacy with partners.",
+            "en" : "Increases your stress, lowers your focus and makes other look more attractive. Can be reduced by relaxing or meditating, or by sharing intimacy with partners.",
+            "ja" : "Increases your stress, lowers your focus and makes other look more attractive. Can be reduced by relaxing or meditating, or by sharing intimacy with partners."
           }
         },
         {
@@ -3591,6 +3619,17 @@
             "zh" : "\u6CBC\u6CFD\u9999\u6728\u9632\u868A",
             "en" : "Bog Myrtle Mosquito Protection",
             "ja" : "Bog Myrtle Mosquito Protection"
+          }
+        },
+        {
+          "key" : "BreastSize",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 200.0,
+          "name" : {
+            "zh" : "\u80F8\u90E8\u5927\u5C0F",
+            "en" : "Breast Size",
+            "ja" : "Breast Size"
           }
         },
         {
@@ -4256,6 +4295,17 @@
           }
         },
         {
+          "key" : "EyeType",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 227.0,
+          "name" : {
+            "zh" : "\u773C\u578B",
+            "en" : "Eye Type",
+            "ja" : "Eye Type"
+          }
+        },
+        {
           "key" : "FacialHarmony",
           "type" : "GameStat",
           "icon" : "GameStat__Empathy__DefaultStatusIcon",
@@ -4265,6 +4315,17 @@
             "zh" : "\u9762\u90E8\u5BF9\u79F0\u6027",
             "en" : "Facial Harmony",
             "ja" : "Facial Harmony"
+          }
+        },
+        {
+          "key" : "FatDistribution",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 300.0,
+          "name" : {
+            "zh" : "\u8102\u80AA\u5206\u5E03",
+            "en" : "Fat Distribution",
+            "ja" : "Fat Distribution"
           }
         },
         {
@@ -4282,6 +4343,34 @@
             "zh" : "\u8BA9\u4F60\u5728\u67D0\u4E9B\u60C5\u51B5\u4E0B\u9003\u8DD1\u6216\u5931\u53BB\u63A7\u5236\uFF0C\u4F1A\u963B\u6B62\u4F60\u6267\u884C\u67D0\u4E9B\u884C\u52A8\u3002\u5F71\u54CD\u4F1A\u968F\u7740\u65F6\u95F4\u7684\u63A8\u79FB\u800C\u9010\u6E10\u964D\u4F4E\u3002",
             "en" : "Makes you run away or lose control in certain situations and can stop you from performing some actions. Goes down over time.",
             "ja" : "\u72B6\u6CC1\u306B\u3088\u3063\u3066\u9003\u3052\u305F\u308A\u66B4\u8D70\u3057\u305F\u308A\u3059\u308B\u304D\u3063\u304B\u3051\u306B\u306A\u308B\u3002\u6642\u9593\u304C\u7D4C\u3064\u3068\u6E1B\u308B\u3002"
+          }
+        },
+        {
+          "key" : "FeetSize",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 2.0,
+          "name" : {
+            "zh" : "\u811A\u7801",
+            "en" : "Feet Size",
+            "ja" : "Feet Size"
+          }
+        },
+        {
+          "key" : "FemaleCycle",
+          "type" : "GameStat",
+          "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+          "min"  : -1.0,
+          "max"  : 2880.0,
+          "name" : {
+            "zh" : "\u5973\u6027\u751F\u7406\u5468\u671F",
+            "en" : "Female Cycle",
+            "ja" : "Female Cycle"
+          },
+          "Description" : {
+            "zh" : "Determines when you are fertile.",
+            "en" : "Determines when you are fertile.",
+            "ja" : "Determines when you are fertile."
           }
         },
         {
@@ -4536,6 +4625,17 @@
             "zh" : "\u68EE\u6797\u91CE\u517D\u8FFD\u8E2A\u8BA1\u6570",
             "en" : "ForestBeastGoToPlayerCounter",
             "ja" : "ForestBeastGoToPlayerCounter"
+          }
+        },
+        {
+          "key" : "Freckles",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u96C0\u6591",
+            "en" : "Freckles",
+            "ja" : "Freckles"
           }
         },
         {
@@ -4909,11 +5009,22 @@
           }
         },
         {
+          "key" : "HairColour",
+          "type" : "GameStat",
+          "min"  : -10.0,
+          "max"  : 10.0,
+          "name" : {
+            "zh" : "\u53D1\u8272",
+            "en" : "Hair Colour",
+            "ja" : "Hair Colour"
+          }
+        },
+        {
           "key" : "HairFacialLength",
           "type" : "GameStat",
           "icon" : "GameStat__Empathy__DefaultStatusIcon",
           "min"  : 0.0,
-          "max"  : 69120.0,
+          "max"  : 192.0,
           "name" : {
             "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
             "en" : "Facial Hair Length",
@@ -4945,6 +5056,39 @@
           }
         },
         {
+          "key" : "HairWilderness",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u5934\u53D1\u84EC\u4E71",
+            "en" : "Hair Wilderness",
+            "ja" : "Hair Wilderness"
+          }
+        },
+        {
+          "key" : "Hairstyle",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 5.0,
+          "name" : {
+            "zh" : "\u53D1\u578B",
+            "en" : "Hairstyle",
+            "ja" : "Hairstyle"
+          }
+        },
+        {
+          "key" : "HairstyleDuration",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u53D1\u578B\u4FDD\u6301\u65F6\u95F4",
+            "en" : "Hairstyle Duration",
+            "ja" : "Hairstyle Duration"
+          }
+        },
+        {
           "key" : "HandProtection",
           "type" : "GameStat",
           "icon" : "CardData__Bp_LeatherShoes__CardImage",
@@ -4959,6 +5103,17 @@
             "zh" : "\u4FDD\u62A4\u4F60\u7684\u624B\u514D\u53D7\u4E0D\u540C\u7C7B\u578B\u7684\u4F24\u5BB3\u3002",
             "en" : "Protects your hands from different types of damage.",
             "ja" : "\u3055\u307E\u3056\u307E\u306A\u7A2E\u985E\u306E\u640D\u50B7\u304B\u3089\u624B\u3092\u5B88\u308B\u3002"
+          }
+        },
+        {
+          "key" : "HandSize",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 2.0,
+          "name" : {
+            "zh" : "\u624B\u7684\u5927\u5C0F",
+            "en" : "Hand Size",
+            "ja" : "Hand Size"
           }
         },
         {
@@ -4995,14 +5150,31 @@
           }
         },
         {
+          "key" : "HipWidth",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 200.0,
+          "name" : {
+            "zh" : "\u81C0\u5BBD",
+            "en" : "Hip Width",
+            "ja" : "Hip Width"
+          }
+        },
+        {
           "key" : "HollownessLevel",
           "type" : "GameStat",
+          "icon" : "GameStat__BloodSpilled__FeedbackInfo-Icon",
           "min"  : 0.0,
           "max"  : 11520.0,
           "name" : {
             "zh" : "\u7A7A\u58F3\u5316\u7B49\u7EA7",
-            "en" : "Hollowness Level",
-            "ja" : "Hollowness Level"
+            "en" : "Hollowness",
+            "ja" : "Hollowness"
+          },
+          "Description" : {
+            "zh" : "Increases when killing animals and not paying your respects by releasing their spirits.\n\nIncreases nightmares and void affinity but reduces most other affinities considerably making it a lot harder to do magic.",
+            "en" : "Increases when killing animals and not paying your respects by releasing their spirits.\n\nIncreases nightmares and void affinity but reduces most other affinities considerably making it a lot harder to do magic.",
+            "ja" : "Increases when killing animals and not paying your respects by releasing their spirits.\n\nIncreases nightmares and void affinity but reduces most other affinities considerably making it a lot harder to do magic."
           }
         },
         {
@@ -5375,6 +5547,17 @@
           }
         },
         {
+          "key" : "JawSize",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 2.0,
+          "name" : {
+            "zh" : "\u4E0B\u989A\u5927\u5C0F",
+            "en" : "Jaw Size",
+            "ja" : "Jaw Size"
+          }
+        },
+        {
           "key" : "JuniperEffect",
           "type" : "GameStat",
           "icon" : "GameStat__AppleWeedEffect__DefaultStatusIcon",
@@ -5520,32 +5703,15 @@
           }
         },
         {
-          "key" : "Lungrot",
+          "key" : "LungRot",
           "type" : "GameStat",
-          "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+          "icon" : "GameStat__LungCapacity__DefaultStatusIcon",
           "min"  : 0.0,
-          "max"  : 1500.0,
+          "max"  : 2880.0,
           "name" : {
-            "zh" : "\u80BA\u8150\u75C5",
-            "en" : "Lungrot",
-            "ja" : "\u80BA\u81BF\u760D"
-          }
-        },
-        {
-          "key" : "LungrotSpores",
-          "type" : "GameStat",
-          "icon" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
-          "min"  : 0.0,
-          "max"  : 500.0,
-          "name" : {
-            "zh" : "\u80BA\u8150\u75C5\u5B62\u5B50",
-            "en" : "Lungrot Spores",
-            "ja" : "\u80BA\u81BF\u760D\u306E\u80DE\u5B50"
-          },
-          "Description" : {
-            "zh" : "\u80BA\u8150\u83CC\u7684\u5B62\u5B50\u3002\u4F1A\u5BFC\u81F4\u547C\u5438\u9053\u611F\u67D3\u3002",
-            "en" : "Spores from the lungrot fungus. Can lead to respiratory infections.",
-            "ja" : "\u80BA\u81BF\u760D\u306B\u3088\u3063\u3066\u767A\u751F\u3059\u308B\u80DE\u5B50\u3002\u767A\u751F\u3057\u305F\u3089\u547C\u5438\u5668\u611F\u67D3\u306B\u306A\u308B\u53EF\u80FD\u6027\u304C\u3042\u308B\u3002"
+            "zh" : "Lung Rot",
+            "en" : "Lung Rot",
+            "ja" : "Lung Rot"
           }
         },
         {
@@ -5956,7 +6122,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_FloodedGrove",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u6CDB\u6EE5\u6797\u5730",
             "en" : "FloodFlag_FloodedGrove",
             "ja" : "FloodFlag_FloodedGrove"
           }
@@ -5967,7 +6133,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_GreenFalls",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u7EFF\u7011",
             "en" : "FloodFlag_GreenFalls",
             "ja" : "FloodFlag_GreenFalls"
           }
@@ -5978,7 +6144,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_HeatherMarshes",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u77F3\u6960\u6CBC\u6CFD",
             "en" : "FloodFlag_HeatherMarshes",
             "ja" : "FloodFlag_HeatherMarshes"
           }
@@ -5989,7 +6155,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_LakeIsland",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u6E56\u5C9B",
             "en" : "FloodFlag_LakeIsland",
             "ja" : "FloodFlag_LakeIsland"
           }
@@ -6000,7 +6166,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_MossyBank",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u82D4\u85D3\u5CB8",
             "en" : "FloodFlag_MossyBank",
             "ja" : "FloodFlag_MossyBank"
           }
@@ -6011,7 +6177,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_MuddyBank",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u6CE5\u5CB8",
             "en" : "FloodFlag_MuddyBank",
             "ja" : "FloodFlag_MuddyBank"
           }
@@ -6022,7 +6188,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_NorthernLakeBank",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u5317\u6E56\u5CB8",
             "en" : "FloodFlag_NorthernLakeBank",
             "ja" : "FloodFlag_NorthernLakeBank"
           }
@@ -6033,7 +6199,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_NorthernRapids",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u5317\u6025\u6D41",
             "en" : "FloodFlag_NorthernRapids",
             "ja" : "FloodFlag_NorthernRapids"
           }
@@ -6044,7 +6210,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_RiverClearing",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u6CB3\u7554\u7A7A\u5730",
             "en" : "FloodFlag_RiverClearing",
             "ja" : "FloodFlag_RiverClearing"
           }
@@ -6055,7 +6221,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_RiverConfluence",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u6CB3\u6D41\u4EA4\u6C47\u5904",
             "en" : "FloodFlag_RiverConfluence",
             "ja" : "FloodFlag_RiverConfluence"
           }
@@ -6066,7 +6232,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_NorthernRapids",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u6CB3\u6D41\u9698\u53E3",
             "en" : "FloodFlag_NorthernRapids",
             "ja" : "FloodFlag_NorthernRapids"
           }
@@ -6077,7 +6243,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_RockyBank",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u5CA9\u77F3\u5CB8",
             "en" : "FloodFlag_RockyBank",
             "ja" : "FloodFlag_RockyBank"
           }
@@ -6088,7 +6254,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_ShadyBank",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u836B\u853D\u5CB8",
             "en" : "FloodFlag_ShadyBank",
             "ja" : "FloodFlag_ShadyBank"
           }
@@ -6099,7 +6265,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_SouthernLakeBank",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u5357\u6E56\u5CB8",
             "en" : "FloodFlag_SouthernLakeBank",
             "ja" : "FloodFlag_SouthernLakeBank"
           }
@@ -6110,7 +6276,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_SouthernRapids",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u5357\u6025\u6D41",
             "en" : "FloodFlag_SouthernRapids",
             "ja" : "FloodFlag_SouthernRapids"
           }
@@ -6121,7 +6287,7 @@
           "min"  : 0.0,
           "max"  : 1.0,
           "name" : {
-            "zh" : "FloodFlag_GreenFalls",
+            "zh" : "\u6D2A\u6CDB\u6807\u8BB0-\u7011\u5E03\u6D1E\u7A74",
             "en" : "FloodFlag_GreenFalls",
             "ja" : "FloodFlag_GreenFalls"
           }
@@ -6283,6 +6449,17 @@
           }
         },
         {
+          "key" : "NoseType",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 23.0,
+          "name" : {
+            "zh" : "\u9F3B\u578B",
+            "en" : "Nose Type",
+            "ja" : "Nose Type"
+          }
+        },
+        {
           "key" : "Not_Used_Workplace",
           "type" : "GameStat",
           "icon" : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon",
@@ -6333,6 +6510,17 @@
           }
         },
         {
+          "key" : "Ornamentation",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u88C5\u9970",
+            "en" : "Ornamentation",
+            "ja" : "Ornamentation"
+          }
+        },
+        {
           "key" : "Over",
           "type" : "GameStat",
           "icon" : "GameStat__DarkSense__DefaultStatusIcon",
@@ -6366,6 +6554,17 @@
             "zh" : "\u7070\u5C71\u9E51\u7167\u6599",
             "en" : "Partridge Care",
             "ja" : "\u30E4\u30DE\u30A6\u30BA\u30E9\u306E\u4E16\u8A71"
+          }
+        },
+        {
+          "key" : "PerceivedAttractiveness",
+          "type" : "GameStat",
+          "min"  : -200.0,
+          "max"  : 200.0,
+          "name" : {
+            "zh" : "\u611F\u77E5\u9B45\u529B",
+            "en" : "Perceived Attractiveness",
+            "ja" : "Perceived Attractiveness"
           }
         },
         {
@@ -6840,6 +7039,17 @@
           }
         },
         {
+          "key" : "ShoulderWidth",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u80A9\u5BBD",
+            "en" : "Shoulder Width",
+            "ja" : "Shoulder Width"
+          }
+        },
+        {
           "key" : "Size",
           "type" : "GameStat",
           "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
@@ -6983,6 +7193,17 @@
             "zh" : "\u663E\u793A\u4F60\u6E38\u6CF3\u7684\u719F\u7EC3\u5EA6\u3002\u589E\u52A0\u6E38\u5230\u8FDC\u5904\u548C\u6F5C\u6C34\u65F6\u627E\u5230\u597D\u4E1C\u897F\u7684\u51E0\u7387\u3002",
             "en" : "Shows how good you are at swimming. Increases your chances of reaching difficult places and finding good things when diving ",
             "ja" : "\u6CF3\u3050\u4E0A\u624B\u3055\u3092\u793A\u3059\u3002\u30C0\u30A4\u30D3\u30F3\u30B0\u4E2D\u3001\u73CD\u3057\u3044\u7269\u3092\u898B\u3064\u3051\u308B\u78BA\u7387\u304C\u4E0A\u304C\u308A\u3001\u305F\u3069\u308A\u7740\u304F\u306E\u304C\u96E3\u3057\u3044\u5834\u6240\u306B\u884C\u3051\u308B\u3088\u3046\u306B\u306A\u308B\u3002"
+          }
+        },
+        {
+          "key" : "SkinColour",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 4.0,
+          "name" : {
+            "zh" : "\u80A4\u8272",
+            "en" : "Skin Colour",
+            "ja" : "Skin Colour"
           }
         },
         {
@@ -8010,6 +8231,17 @@
           }
         },
         {
+          "key" : "StomachSize",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u8179\u90E8\u5927\u5C0F",
+            "en" : "Stomach Size",
+            "ja" : "Stomach Size"
+          }
+        },
+        {
           "key" : "Stomachache",
           "type" : "GameStat",
           "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
@@ -8252,7 +8484,7 @@
         {
           "key" : "Tanning",
           "type" : "GameStat",
-          "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+          "icon" : "GameStat__Tanning__DefaultStatusIcon",
           "min"  : 0.0,
           "max"  : 1000.0,
           "name" : {
@@ -8313,7 +8545,7 @@
           "min"  : -5.0,
           "max"  : 10.0,
           "name" : {
-            "zh" : "TestClothing",
+            "zh" : "\u6D4B\u8BD5\u8863\u7269\u5C5E\u6027",
             "en" : "TestClothing",
             "ja" : "TestClothing"
           }
@@ -8324,7 +8556,7 @@
           "min"  : 0.0,
           "max"  : 50.0,
           "name" : {
-            "zh" : "Transfer A",
+            "zh" : "\u6D4B\u8BD5\u8F6C\u79FB\u5C5E\u6027A",
             "en" : "Transfer A",
             "ja" : "Transfer A"
           }
@@ -8335,7 +8567,7 @@
           "min"  : 0.0,
           "max"  : 50.0,
           "name" : {
-            "zh" : "Transfer B",
+            "zh" : "\u6D4B\u8BD5\u8F6C\u79FB\u5C5E\u6027B",
             "en" : "Transfer B",
             "ja" : "Transfer B"
           }
@@ -8346,7 +8578,7 @@
           "min"  : 0.0,
           "max"  : 50.0,
           "name" : {
-            "zh" : "Transfer C",
+            "zh" : "\u6D4B\u8BD5\u8F6C\u79FB\u5C5E\u6027C",
             "en" : "Transfer C",
             "ja" : "Transfer C"
           }
@@ -8388,6 +8620,17 @@
             "zh" : "\u89E3\u51BB\u56E0\u5B50",
             "en" : "Thawing Factor",
             "ja" : "Thawing Factor"
+          }
+        },
+        {
+          "key" : "ThighSize",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 100.0,
+          "name" : {
+            "zh" : "\u5927\u817F\u7C97\u7EC6",
+            "en" : "Thigh Size",
+            "ja" : "Thigh Size"
           }
         },
         {
@@ -8529,6 +8772,17 @@
             "zh" : "\u5728\u8FD9\u91CC\u7684\u98DF\u7269\u4F1A\u9010\u6E10\u8F6C\u5316\u4E3A\u7EF4\u751F\u7D20\u3002\u80C3\u91CC\u8FD8\u6709\u98DF\u7269\u65F6\u5C3D\u91CF\u4E0D\u8981\u5455\u5410\u3002",
             "en" : "Food here will be gradually transferred into vitamins. Try not to vomit while there's food in your stomach.",
             "ja" : "\u3053\u3053\u306E\u98DF\u3079\u7269\u306F\u30D3\u30BF\u30DF\u30F3\u3068\u3057\u3066\u5438\u53CE\u3055\u308C\u308B\u3002\u304A\u8179\u306E\u4E2D\u306B\u98DF\u3079\u7269\u304C\u3042\u308B\u6642\u306F\u306A\u308B\u3079\u304F\u5410\u304F\u306E\u3092\u907F\u3051\u3088\u3046\u3002"
+          }
+        },
+        {
+          "key" : "VoiceRegister",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 200.0,
+          "name" : {
+            "zh" : "\u97F3\u57DF",
+            "en" : "Voice Register",
+            "ja" : "Voice Register"
           }
         },
         {
@@ -8928,6 +9182,38 @@
             "zh" : "\u9020\u98CE\u8BA1\u6570",
             "en" : "Windmaker",
             "ja" : "Windmaker"
+          }
+        },
+        {
+          "key" : "WinterLevel",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 6.0,
+          "name" : {
+            "zh" : "\u51AC\u5B63\u7B49\u7EA7",
+            "en" : "Winter Level",
+            "ja" : "Winter Level"
+          },
+          "Description" : {
+            "zh" : "Tracks how many winters have begun and caps at level 6.",
+            "en" : "Tracks how many winters have begun and caps at level 6.",
+            "ja" : "Tracks how many winters have begun and caps at level 6."
+          }
+        },
+        {
+          "key" : "WinterLevelMemory",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 6.0,
+          "name" : {
+            "zh" : "\u51AC\u5B63\u7B49\u7EA7\u8BB0\u5FC6",
+            "en" : "Winter Level Memory",
+            "ja" : "Winter Level Memory"
+          },
+          "Description" : {
+            "zh" : "Remembers winter progression while the active Winter Level resets outside winter.",
+            "en" : "Remembers winter progression while the active Winter Level resets outside winter.",
+            "ja" : "Remembers winter progression while the active Winter Level resets outside winter."
           }
         },
         {

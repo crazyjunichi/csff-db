@@ -1,0 +1,67 @@
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Bp_Smithed_BlankRynd",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+            "name"     : {
+              "zh" : "\u953B\u9020\u78E8\u82AF\u94C1",
+              "en" : "Forged Rynd",
+              "ja" : "Forged Rynd"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Bp_Smithed_BlankRynd",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+            "name"     : {
+              "zh" : "\u953B\u9020\u78E8\u82AF\u94C1",
+              "en" : "Forged Rynd",
+              "ja" : "Forged Rynd"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Bp_Smithed_BlankRynd (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "\u5236\u4F5C\uFF1AForged Rynd",
+    "en" : "Work on Forged Rynd",
+    "ja" : "Work on Bp_Smithed_BlankRynd (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

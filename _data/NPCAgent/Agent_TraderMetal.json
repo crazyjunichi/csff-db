@@ -408,6 +408,47 @@
       "StatAddedPercentageToModifiersOverride" : 0,
       "NPCStatAddedPercentageToModifiersOverride" : 0,
       "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u59D4\u6258\u53EF\u7528-\u78E8\u574A\u77E5\u8BC6",
+          "en" : "AgentCommissionAvailableMillKnowledge",
+          "ja" : "AgentCommissionAvailableMillKnowledge"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCommissionAvailableMillKnowledge",
+        "zh"                      : "\u59D4\u6258\u53EF\u7528-\u78E8\u574A\u77E5\u8BC6",
+        "en"                      : "AgentCommissionAvailableMillKnowledge",
+        "ja"                      : "AgentCommissionAvailableMillKnowledge"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 1.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
     }
   ],
   "AgentActions"           : [
@@ -2216,7 +2257,7 @@
           "Target" : {
             "key" : "tag_TraderInterestX2Metal",
             "type" : "CardTag",
-            "count" : 90,
+            "count" : 93,
             "name"  : {
               "zh" : "\u5546\u4EBA\u5174\u8DA3\u00D72(\u91D1\u5C5E)",
               "en" : "tag_MetalTraderInterest",
@@ -2439,6 +2480,19 @@
           "x" : 0.15,
           "y" : 0.15
         }
+      }
+    }
+  ],
+  "CommissionsBp"               : [
+    {
+      "key" : "Bp_CommissionCopperBarMillKnowledge",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
+      "name"     : {
+        "zh" : "1\u4E2A\u94DC\u952D",
+        "en" : "1 Copper Bar",
+        "ja" : "1 Copper Bar"
       }
     }
   ],

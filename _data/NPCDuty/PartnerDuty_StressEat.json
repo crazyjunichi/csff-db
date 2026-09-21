@@ -1,0 +1,83 @@
+
+{
+  "DutyName" : {
+    "zh" : "\u538B\u529B\u8FDB\u98DF",
+    "en" : "Stress Eating",
+    "ja" : "Stress Eating"
+  },
+  "DutySummary" : {
+    "zh" : "Eating due to stress.",
+    "en" : "Eating due to stress.",
+    "ja" : "Eating due to stress."
+  },
+  "CanPerformWhileInDialog" : true,
+  "MaxPerformPerDay"        : 0,
+  "DutyConditions"          : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "Partner_Stress",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u538B\u529B",
+            "en" : "Partner_Stress",
+            "ja" : "Partner_Stress"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 97.0,
+          "y" : 240.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "Partner_Satiation",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u540C\u4F34\u9971\u98DF",
+            "en" : "Partner_Satiation",
+            "ja" : "Partner_Satiation"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 329.99
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions"    : 0,
+  "ActionSequence"          : [
+    {
+      "key" : "Stress Eat Food",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "Stress Eat Food",
+        "en" : "Stress Eat Food",
+        "ja" : "Stress Eat Food"
+      }
+    },
+    {
+      "key" : "Relieve Stress From Eating",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "Relieve Stress From Eating",
+        "en" : "Relieve Stress From Eating",
+        "ja" : "Relieve Stress From Eating"
+      }
+    }
+  ],
+  "GiveUpOptions"           : 0,
+  "GiveUpTicks"             : 0,
+  "type"                    : "NPCDuty",
+  "key"                     : "PartnerDuty_StressEat",
+  "name"                    : {
+    "zh" : "\u538B\u529B\u8FDB\u98DF",
+    "en" : "Stress Eating",
+    "ja" : "Stress Eating"
+  },
+  "_uuid"                   : "6630ed3de34f46a68b5719fd9f3065ec"
+}

@@ -1,16 +1,17 @@
 
 {
   "DutyName" : {
-    "zh" : "\u6536\u83B7\u5E1A\u77F3\u5357",
+    "zh" : "\u6536\u83B7",
     "en" : "Harvest",
     "ja" : "Harvest"
   },
   "DutySummary" : {
-    "zh" : "Harvesting heather.",
+    "zh" : "\u6536\u5272\u5E1A\u77F3\u5357\u3002",
     "en" : "Harvesting heather.",
     "ja" : "Harvesting heather."
   },
-  "DutyTags"    : [
+  "RequiresMarkedCard" : true,
+  "DutyTags"           : [
     {
       "key" : "DutyTag_Methodical",
       "type" : "NPCDutyTag",
@@ -30,7 +31,7 @@
       }
     }
   ],
-  "MaxPerformPerDay" : 0,
+  "MaxPerformPerDay"   : 0,
   "DutyExecutionOptions" : 0,
   "ActionSequence"       : [
     {
@@ -165,7 +166,7 @@
   "type"                 : "NPCDuty",
   "key"                  : "PartnerDuty_HarvestHeather",
   "name"                 : {
-    "zh" : "\u6536\u83B7\u5E1A\u77F3\u5357",
+    "zh" : "\u6536\u83B7",
     "en" : "Harvest",
     "ja" : "Harvest"
   },

@@ -2,21 +2,7 @@
 {
   "Conditions" : {
     "PlayerUsesCard" : 0,
-    "RequiredNPCActiveDuties" : [
-      {
-        "UseAssociatedAgent" : true,
-        "Duty"               : {
-          "key" : "PartnerDuty_Follow",
-          "type" : "NPCDuty",
-          "name" : {
-            "zh" : "\u8DDF\u968F",
-            "en" : "Follow",
-            "ja" : "Follow"
-          }
-        }
-      }
-    ],
-    "RequiredNPCAtHome"       : [
+    "RequiredNPCAtHome" : [
       {
         "HasAHome" : 1,
         "IsAtHome" : 2
@@ -24,13 +10,13 @@
     ]
   },
   "OnFalse"    : {
-    "Outcome" : 2,
+    "Outcome" : 3,
     "MoveToStep" : 0
   },
   "key"        : "Should I go home",
   "type"       : "NPCDutyAction",
   "name"       : {
-    "zh" : "Should I go home",
+    "zh" : "\u662F\u5426\u8BE5\u56DE\u5BB6",
     "en" : "Should I go home",
     "ja" : "Should I go home"
   },

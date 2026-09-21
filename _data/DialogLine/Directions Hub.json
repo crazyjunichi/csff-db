@@ -170,7 +170,7 @@
     },
     {
       "Answer" : {
-        "zh" : "Complex Tasks",
+        "zh" : "\u590D\u6742\u7684\u4EFB\u52A1",
         "en" : "Complex Tasks",
         "ja" : "Complex Tasks"
       },
@@ -180,7 +180,7 @@
           "key" : "Expeditions Hub",
           "type" : "DialogLine",
           "name" : {
-            "zh" : "Your partner listens attentively.",
+            "zh" : "\u4F60\u7684\u540C\u4F34\u6B63\u8BA4\u771F\u7684\u503E\u542C\u3002",
             "en" : "Your partner listens attentively.",
             "ja" : "Your partner listens attentively."
           }
@@ -214,6 +214,82 @@
         ],
         "Ticks"      : 0,
         "Miniticks"  : 0
+      }
+    },
+    {
+      "Answer" : {
+        "zh" : "Mark place as workplace",
+        "en" : "Mark place as workplace",
+        "ja" : "Mark place as workplace"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Directions Hub",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "\u4F60\u7684\u540C\u4F34\u6B63\u542C\u7740\u5462\u3002",
+            "en" : "Your partner listens.",
+            "ja" : "Your partner listens."
+          }
+        }
+      },
+      "ActionToPerform" : {
+        "NPCSetSpecialLocation" : [
+          {
+            "Location" : {
+              "LocationUID" : 1
+            },
+            "UseAssociatedAgent" : true,
+            "SetLocation"        : 0
+          }
+        ],
+        "Ticks"                 : 0,
+        "Miniticks"             : 0
+      }
+    },
+    {
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCAtSpecialLocation" : [
+          {
+            "Location" : {
+              "LocationUID" : 1
+            },
+            "HasLocation" : 1,
+            "IsAtLocation" : 0
+          }
+        ]
+      },
+      "Answer"     : {
+        "zh" : "Clear Workplace",
+        "en" : "Clear Workplace",
+        "ja" : "Clear Workplace"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Directions Hub",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "\u4F60\u7684\u540C\u4F34\u6B63\u542C\u7740\u5462\u3002",
+            "en" : "Your partner listens.",
+            "ja" : "Your partner listens."
+          }
+        }
+      },
+      "ActionToPerform" : {
+        "NPCSetSpecialLocation" : [
+          {
+            "Location" : {
+              "LocationUID" : 1
+            },
+            "UseAssociatedAgent" : true,
+            "SetLocation"        : 3
+          }
+        ],
+        "Ticks"                 : 0,
+        "Miniticks"             : 0
       }
     }
   ],

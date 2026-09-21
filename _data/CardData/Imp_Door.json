@@ -27,16 +27,6 @@
         "en" : "Secure",
         "ja" : "\u5B89\u5168"
       }
-    },
-    {
-      "key" : "tag_Door",
-      "type" : "CardTag",
-      "count" : 3,
-      "name"  : {
-        "zh" : "\u5B89\u5168\u7684",
-        "en" : "Secure",
-        "ja" : "Secure"
-      }
     }
   ],
   "MapStructureType"            : 0,
@@ -176,7 +166,108 @@
       "OnlyWhenNOTInBG" : true,
       "Conditions"      : {
         "NotInBackground" : true,
-        "PlayerUsesCard"  : 0
+        "PlayerUsesCard"  : 0,
+        "RequiredCardsNOTOnBoard" : [
+          {
+            "key" : "Path_FangvaleFromWolfCave",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+            "name"     : {
+              "zh" : "\u51FA\u53E3",
+              "en" : "Exit (Open)",
+              "ja" : "\u51FA\u53E3"
+            }
+          },
+          {
+            "key" : "Path_GreenfallsFromWaterfallCave",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Event_WaterfallCave__CardImage",
+            "name"     : {
+              "zh" : "\u51FA\u53E3",
+              "en" : "Exit (Open)",
+              "ja" : "\u51FA\u53E3"
+            }
+          },
+          {
+            "key" : "Path_OldHollowFromCave",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+            "name"     : {
+              "zh" : "\u51FA\u53E3",
+              "en" : "Exit (Open)",
+              "ja" : "\u51FA\u53E3"
+            }
+          },
+          {
+            "key" : "Path_PineSlopesFromCave",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+            "name"     : {
+              "zh" : "\u51FA\u53E3",
+              "en" : "Exit (Open)",
+              "ja" : "\u51FA\u53E3"
+            }
+          },
+          {
+            "key" : "Path_RiverPassFromCave",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+            "name"     : {
+              "zh" : "\u51FA\u53E3",
+              "en" : "Exit (Open)",
+              "ja" : "\u51FA\u53E3"
+            }
+          },
+          {
+            "key" : "Path_RockyPinesFromBearCave",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+            "name"     : {
+              "zh" : "\u51FA\u53E3",
+              "en" : "Exit (Open)",
+              "ja" : "\u51FA\u53E3"
+            }
+          },
+          {
+            "key" : "Path_ShadyThicketFromCave",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+            "name"     : {
+              "zh" : "\u51FA\u53E3",
+              "en" : "Exit (Open)",
+              "ja" : "\u51FA\u53E3"
+            }
+          },
+          {
+            "key" : "Path_StillHollowFromCave",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+            "name"     : {
+              "zh" : "\u51FA\u53E3",
+              "en" : "Exit (Open)",
+              "ja" : "\u51FA\u53E3"
+            }
+          },
+          {
+            "key" : "MudHutConstructionDoorExitMain",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "ConstructionCardGroup__Group_Exits__GroupImage",
+            "name"     : {
+              "zh" : "\u51FA\u53E3",
+              "en" : "Exit (Open)",
+              "ja" : "\u51FA\u308B"
+            }
+          }
+        ]
       },
       "StatModifiers"   : [
         {
@@ -260,6 +351,75 @@
       "NotifyWhenNotMet" : true
     }
   ],
+  "BpCanBeDoneByDuty"                  : true,
+  "BpDutySetup"                        : {
+    "OnCompleteCosts" : [
+      {
+        "TargetStat" : {
+          "key" : "Partner_Favour",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u597D\u610F",
+            "en" : "Partner_Favour",
+            "ja" : "Partner_Favour"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : -200.0,
+          "y" : -200.0
+        },
+        "IgnoreNovelty"      : true
+      }
+    ],
+    "AddedPreferenceWeights" : {
+      "BaseWeight" : 0,
+      "AgentStatsWeightModifiers" : [
+        {
+          "Stat" : {
+            "key" : "Partner_LikesPhysicalTasks",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u559C\u6B22\u4F53\u529B\u4EFB\u52A1",
+              "en" : "Partner_LikesPhysicalTasks",
+              "ja" : "Partner_LikesPhysicalTasks"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "StatRange"          : {
+            "x" : -200.0,
+            "y" : 200.0
+          },
+          "InterpWeightRange"  : {
+            "m_X" : 0,
+            "m_Y" : 20
+          },
+          "WhenOutOfRange"     : 1
+        },
+        {
+          "Stat" : {
+            "key" : "Partner_LikesMethodicalTasks",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u559C\u6B22\u6761\u7406\u4EFB\u52A1",
+              "en" : "Partner_LikesMethodicalTasks",
+              "ja" : "Partner_LikesMethodicalTasks"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "StatRange"          : {
+            "x" : -200.0,
+            "y" : 200.0
+          },
+          "InterpWeightRange"  : {
+            "m_X" : 0,
+            "m_Y" : 20
+          },
+          "WhenOutOfRange"     : 1
+        }
+      ]
+    }
+  },
   "BlueprintStages"                    : [
     {
       "RequiredElements" : [
@@ -422,7 +582,7 @@
       "Stat" : {
         "key" : "Stress",
         "type" : "GameStat",
-        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 240.0,
         "name" : {
@@ -482,6 +642,654 @@
     }
   ],
   "_useFor"                            : [
+    {
+      "source" : {
+        "key" : "MudHutConstructionDoorExitMain",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "ConstructionCardGroup__Group_Exits__GroupImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u308B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose",
+        "en" : "Action: Close",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose"
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionDoorExitMain",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "ConstructionCardGroup__Group_Exits__GroupImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u308B"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AOpen",
+        "en" : "Action: Open",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AOpen"
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionDoorExitMain",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "ConstructionCardGroup__Group_Exits__GroupImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u308B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AClosed Door - Insulation",
+        "en" : "Passive Effect: Closed Door - Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AClosed Door - Insulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "MudHutConstructionDoorExitMain",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "ConstructionCardGroup__Group_Exits__GroupImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u308B"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ADoorClosedPathfinding",
+        "en" : "Passive Effect: DoorClosedPathfinding",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoorClosedPathfinding"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_FangvaleFromWolfCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose",
+        "en" : "Action: Close",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_FangvaleFromWolfCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AOpen",
+        "en" : "Action: Open",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AOpen"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_FangvaleFromWolfCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AClosed Door - Insulation",
+        "en" : "Passive Effect: Closed Door - Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AClosed Door - Insulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_FangvaleFromWolfCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ADoorClosedPathfinding",
+        "en" : "Passive Effect: DoorClosedPathfinding",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoorClosedPathfinding"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_GreenfallsFromWaterfallCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Event_WaterfallCave__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose",
+        "en" : "Action: Close",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_GreenfallsFromWaterfallCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Event_WaterfallCave__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AOpen",
+        "en" : "Action: Open",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AOpen"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_GreenfallsFromWaterfallCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Event_WaterfallCave__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AClosed Door - Insulation",
+        "en" : "Passive Effect: Closed Door - Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AClosed Door - Insulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_GreenfallsFromWaterfallCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Event_WaterfallCave__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ADoorClosedPathfinding",
+        "en" : "Passive Effect: DoorClosedPathfinding",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoorClosedPathfinding"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_OldHollowFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose",
+        "en" : "Action: Close",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_OldHollowFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AOpen",
+        "en" : "Action: Open",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AOpen"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_OldHollowFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AClosed Door - Insulation",
+        "en" : "Passive Effect: Closed Door - Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AClosed Door - Insulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_OldHollowFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ADoorClosedPathfinding",
+        "en" : "Passive Effect: DoorClosedPathfinding",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoorClosedPathfinding"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_PineSlopesFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose",
+        "en" : "Action: Close",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_PineSlopesFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AOpen",
+        "en" : "Action: Open",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AOpen"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_PineSlopesFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AClosed Door - Insulation",
+        "en" : "Passive Effect: Closed Door - Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AClosed Door - Insulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_PineSlopesFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ADoorClosedPathfinding",
+        "en" : "Passive Effect: DoorClosedPathfinding",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoorClosedPathfinding"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_RiverPassFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose",
+        "en" : "Action: Close",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_RiverPassFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AOpen",
+        "en" : "Action: Open",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AOpen"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_RiverPassFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AClosed Door - Insulation",
+        "en" : "Passive Effect: Closed Door - Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AClosed Door - Insulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_RiverPassFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ADoorClosedPathfinding",
+        "en" : "Passive Effect: DoorClosedPathfinding",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoorClosedPathfinding"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_RockyPinesFromBearCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose",
+        "en" : "Action: Close",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_RockyPinesFromBearCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AOpen",
+        "en" : "Action: Open",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AOpen"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_RockyPinesFromBearCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AClosed Door - Insulation",
+        "en" : "Passive Effect: Closed Door - Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AClosed Door - Insulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_RockyPinesFromBearCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ADoorClosedPathfinding",
+        "en" : "Passive Effect: DoorClosedPathfinding",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoorClosedPathfinding"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_ShadyThicketFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose",
+        "en" : "Action: Close",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_ShadyThicketFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AOpen",
+        "en" : "Action: Open",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AOpen"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_ShadyThicketFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AClosed Door - Insulation",
+        "en" : "Passive Effect: Closed Door - Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AClosed Door - Insulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_ShadyThicketFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ADoorClosedPathfinding",
+        "en" : "Passive Effect: DoorClosedPathfinding",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoorClosedPathfinding"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_StillHollowFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose",
+        "en" : "Action: Close",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_StillHollowFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AOpen",
+        "en" : "Action: Open",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AOpen"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_StillHollowFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AClosed Door - Insulation",
+        "en" : "Passive Effect: Closed Door - Insulation",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AClosed Door - Insulation"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Path_StillHollowFromCave",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
+        "name"     : {
+          "zh" : "\u51FA\u53E3",
+          "en" : "Exit (Open)",
+          "ja" : "\u51FA\u53E3"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ADoorClosedPathfinding",
+        "en" : "Passive Effect: DoorClosedPathfinding",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoorClosedPathfinding"
+      }
+    },
     {
       "source" : {
         "key" : "BoarFreeFemale",

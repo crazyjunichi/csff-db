@@ -12,7 +12,7 @@
     {
       "key" : "Pk_3_1_VeryTall",
       "type" : "CharacterPerk",
-      "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+      "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
       "name" : {
         "zh" : "\u5DE8\u4EBA\u8840\u7EDF",
         "en" : "Very Tall Stature",
@@ -22,7 +22,7 @@
     {
       "key" : "Pk_3_1_Tall",
       "type" : "CharacterPerk",
-      "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+      "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
       "name" : {
         "zh" : "\u8EAB\u6750\u9AD8\u5927",
         "en" : "Tall Stature",
@@ -32,7 +32,7 @@
     {
       "key" : "Pk_3_1_Short",
       "type" : "CharacterPerk",
-      "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+      "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
       "name" : {
         "zh" : "\u8EAB\u6750\u77EE\u5C0F",
         "en" : "Short Stature",
@@ -42,11 +42,21 @@
     {
       "key" : "Pk_3_1_VeryShort",
       "type" : "CharacterPerk",
-      "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+      "icon" : "NPCCharacterPerk__PartnerPerk_Short__PerkIcon",
       "name" : {
         "zh" : "\u4F8F\u5112\u8840\u7EDF",
         "en" : "Very Short Stature",
         "ja" : "\u304B\u306A\u308A\u4F4E\u8EAB\u9577"
+      }
+    },
+    {
+      "key" : "Pk_3_2_VeryHighWeight",
+      "type" : "CharacterPerk",
+      "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+      "name" : {
+        "zh" : "\u9AD8\u4F53\u91CD",
+        "en" : "Very High Weight",
+        "ja" : "Very High Weight"
       }
     },
     {
@@ -55,7 +65,7 @@
       "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
       "name" : {
         "zh" : "\u8D85\u91CD",
-        "en" : "Very High Weight",
+        "en" : "High Weight",
         "ja" : "\u80A5\u6E80"
       }
     },
@@ -65,8 +75,28 @@
       "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
       "name" : {
         "zh" : "\u8FC7\u91CD",
-        "en" : "High Weight",
+        "en" : "Moderately High Weight",
         "ja" : "\u307D\u3063\u3061\u3083\u308A"
+      }
+    },
+    {
+      "key" : "Pk_3_2_SlightlyHighWeight",
+      "type" : "CharacterPerk",
+      "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+      "name" : {
+        "zh" : "\u7565\u9AD8\u4F53\u91CD",
+        "en" : "Slightly High Weight",
+        "ja" : "Slightly High Weight"
+      }
+    },
+    {
+      "key" : "Pk_3_2_LowWeight",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+      "name" : {
+        "zh" : "\u4F4E\u4F53\u91CD",
+        "en" : "Low Weight",
+        "ja" : "Low Weight"
       }
     },
     {
@@ -75,7 +105,7 @@
       "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
       "name" : {
         "zh" : "\u4F53\u91CD\u8FC7\u8F7B",
-        "en" : "Low Weight",
+        "en" : "Very Low Weight",
         "ja" : "\u4F53\u91CD\u304C\u8EFD\u3044"
       }
     },
@@ -85,7 +115,7 @@
       "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
       "name" : {
         "zh" : "\u975E\u5E38\u7626\u5F31",
-        "en" : "Very Low Weight",
+        "en" : "Dangerously Low Weight",
         "ja" : "\u75E9\u305B\u904E\u304E"
       }
     },
@@ -120,29 +150,69 @@
       }
     },
     {
+      "key" : "Pk_3_18_BustFuller",
+      "type" : "CharacterPerk",
+      "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+      "name" : {
+        "zh" : "\u4E30\u6EE1\u80F8\u56F4",
+        "en" : "Fuller Bust",
+        "ja" : "Fuller Bust"
+      }
+    },
+    {
+      "key" : "Pk_3_18_BustSmaller",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+      "name" : {
+        "zh" : "\u5A07\u5C0F\u80F8\u56F4",
+        "en" : "Smaller Bust",
+        "ja" : "Smaller Bust"
+      }
+    },
+    {
+      "key" : "Pk_3_14_Freckles",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
+      "name" : {
+        "zh" : "\u96C0\u6591",
+        "en" : "Freckles",
+        "ja" : "Freckles"
+      }
+    },
+    {
       "key" : "Pk_3_4_VeryLightSkin",
       "type" : "CharacterPerk",
-      "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+      "icon" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
       "name" : {
         "zh" : "\u76AE\u80A4\u767D\u7699",
-        "en" : "Very Light Skin",
+        "en" : "Very Fair Skin",
         "ja" : "\u304B\u306A\u308A\u767D\u3044\u808C\u3002"
       }
     },
     {
       "key" : "Pk_3_4_LightSkin",
       "type" : "CharacterPerk",
-      "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+      "icon" : "NPCCharacterPerk__PartnerPerk_SkinFair__PerkIcon",
       "name" : {
         "zh" : "\u6D45\u8272\u76AE\u80A4",
-        "en" : "Light Skin",
+        "en" : "Fair Skin",
         "ja" : "\u767D\u3044\u808C"
+      }
+    },
+    {
+      "key" : "Pk_3_4_MediumSkin",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_SkinMedium__PerkIcon",
+      "name" : {
+        "zh" : "\u4E2D\u7B49\u80A4\u8272",
+        "en" : "Medium Skin",
+        "ja" : "Medium Skin"
       }
     },
     {
       "key" : "Pk_3_4_DarkSkin",
       "type" : "CharacterPerk",
-      "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+      "icon" : "NPCCharacterPerk__PartnerPerk_SkinDark__PerkIcon",
       "name" : {
         "zh" : "\u6DF1\u8272\u76AE\u80A4",
         "en" : "Dark Skin",
@@ -152,7 +222,7 @@
     {
       "key" : "Pk_3_4_VeryDarkSkin",
       "type" : "CharacterPerk",
-      "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+      "icon" : "NPCCharacterPerk__PartnerPerk_SkinVeryDark__PerkIcon",
       "name" : {
         "zh" : "\u76AE\u80A4\u9EDD\u9ED1",
         "en" : "Very Dark Skin",
@@ -160,43 +230,393 @@
       }
     },
     {
-      "key" : "Pk_3_5_LightHair",
+      "key" : "Pk_3_10_FineFeatures",
       "type" : "CharacterPerk",
-      "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+      "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
       "name" : {
-        "zh" : "\u6D45\u8272\u5934\u53D1",
-        "en" : "Light Hair",
-        "ja" : "\u660E\u308B\u3044\u9AEA"
+        "zh" : "\u4E94\u5B98\u7CBE\u81F4",
+        "en" : "Fine Features",
+        "ja" : "Fine Features"
       }
     },
     {
-      "key" : "Pk_3_5_DarkHair",
+      "key" : "Pk_3_11_IrregularFeatures",
       "type" : "CharacterPerk",
-      "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+      "icon" : "GameStat__Gratification__Statuses-2-Icon",
       "name" : {
-        "zh" : "\u6DF1\u8272\u5934\u53D1",
-        "en" : "Dark Hair",
-        "ja" : "\u9ED2\u3044\u9AEA"
+        "zh" : "\u4E94\u5B98\u7C97\u7CD9",
+        "en" : "Irregular Features",
+        "ja" : "Irregular Features"
+      }
+    },
+    {
+      "key" : "Pk_3_13_NoseLarge",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u5927\u9F3B\u5B50",
+        "en" : "Large Nose",
+        "ja" : "Large Nose"
+      }
+    },
+    {
+      "key" : "Pk_3_13_NoseSmall",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u5C0F\u9F3B\u5B50",
+        "en" : "Small Nose",
+        "ja" : "Small Nose"
+      }
+    },
+    {
+      "key" : "Pk_3_13_NoseUpturned",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u4E0A\u7FD8\u9F3B",
+        "en" : "Upturned Nose",
+        "ja" : "Upturned Nose"
+      }
+    },
+    {
+      "key" : "Pk_3_13_NoseDownturned",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u4E0B\u5782\u9F3B",
+        "en" : "Downturned Nose",
+        "ja" : "Downturned Nose"
+      }
+    },
+    {
+      "key" : "Pk_3_13_NoseHooked",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u9E70\u94A9\u9F3B",
+        "en" : "Hooked Nose",
+        "ja" : "Hooked Nose"
+      }
+    },
+    {
+      "key" : "Pk_3_12_EyesLarge",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u5927\u773C\u775B",
+        "en" : "Large Eyes",
+        "ja" : "Large Eyes"
+      }
+    },
+    {
+      "key" : "Pk_3_12_EyesSmall",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u5C0F\u773C\u775B",
+        "en" : "Small Eyes",
+        "ja" : "Small Eyes"
+      }
+    },
+    {
+      "key" : "Pk_3_12_EyesWideSet",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u5BBD\u773C\u8DDD",
+        "en" : "Wide-Set Eyes",
+        "ja" : "Wide-Set Eyes"
+      }
+    },
+    {
+      "key" : "Pk_3_12_EyesNarrowSet",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u7A84\u773C\u8DDD",
+        "en" : "Narrow-Set Eyes",
+        "ja" : "Narrow-Set Eyes"
+      }
+    },
+    {
+      "key" : "Pk_3_6_EyesGrey",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u7070\u8272\u773C\u775B",
+        "en" : "Grey Eyes",
+        "ja" : "Grey Eyes"
       }
     },
     {
       "key" : "Pk_3_6_LightEyes",
       "type" : "CharacterPerk",
-      "icon" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
       "name" : {
         "zh" : "\u6D45\u8272\u773C\u775B",
-        "en" : "Light Eyes",
+        "en" : "Light Blue Eyes",
         "ja" : "\u660E\u308B\u3044\u76EE"
+      }
+    },
+    {
+      "key" : "Pk_3_6_EyesBlue",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u84DD\u8272\u773C\u775B",
+        "en" : "Blue Eyes",
+        "ja" : "Blue Eyes"
+      }
+    },
+    {
+      "key" : "Pk_3_6_EyesGreen",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u7EFF\u8272\u773C\u775B",
+        "en" : "Green Eyes",
+        "ja" : "Green Eyes"
+      }
+    },
+    {
+      "key" : "Pk_3_6_EyesHazel",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u6DE1\u8910\u8272\u773C\u775B",
+        "en" : "Hazel Eyes",
+        "ja" : "Hazel Eyes"
+      }
+    },
+    {
+      "key" : "Pk_3_6_EyesBrown",
+      "type" : "CharacterPerk",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+      "name" : {
+        "zh" : "\u68D5\u8272\u773C\u775B",
+        "en" : "Brown Eyes",
+        "ja" : "Brown Eyes"
       }
     },
     {
       "key" : "Pk_3_6_DarkEyes",
       "type" : "CharacterPerk",
-      "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+      "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
       "name" : {
         "zh" : "\u6DF1\u8272\u773C\u775B",
-        "en" : "Dark Eyes",
+        "en" : "Dark Brown Eyes",
         "ja" : "\u9ED2\u3044\u76EE"
+      }
+    },
+    {
+      "key" : "Pk_3_17_BeardFull",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+      "name" : {
+        "zh" : "\u7EDC\u816E\u80E1",
+        "en" : "Full Beard",
+        "ja" : "Full Beard"
+      }
+    },
+    {
+      "key" : "Pk_3_17_BeardLong",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+      "name" : {
+        "zh" : "\u957F\u80E1\u987B",
+        "en" : "Long Beard",
+        "ja" : "Long Beard"
+      }
+    },
+    {
+      "key" : "Pk_3_16_HairShort",
+      "type" : "CharacterPerk",
+      "icon" : "CardData__Event_StyleHair__CardImage",
+      "name" : {
+        "zh" : "\u77ED\u53D1",
+        "en" : "Short Hair",
+        "ja" : "Short Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_16_HairLong",
+      "type" : "CharacterPerk",
+      "icon" : "CardData__Event_StyleHair__CardImage",
+      "name" : {
+        "zh" : "\u957F\u53D1",
+        "en" : "Long Hair",
+        "ja" : "Long Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_16_HairVeryLong",
+      "type" : "CharacterPerk",
+      "icon" : "CardData__Event_StyleHair__CardImage",
+      "name" : {
+        "zh" : "\u53CA\u8170\u957F\u53D1",
+        "en" : "Very Long Hair",
+        "ja" : "Very Long Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_15_HairStraight",
+      "type" : "CharacterPerk",
+      "icon" : "CardData__Event_StyleHair__CardImage",
+      "name" : {
+        "zh" : "\u76F4\u53D1",
+        "en" : "Straight Hair",
+        "ja" : "Straight Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_15_HairWavy",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairWavy__PerkIcon",
+      "name" : {
+        "zh" : "\u6CE2\u6D6A\u53D1",
+        "en" : "Wavy Hair",
+        "ja" : "Wavy Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_15_HairCurly",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairCurly__PerkIcon",
+      "name" : {
+        "zh" : "\u5377\u53D1",
+        "en" : "Curly Hair",
+        "ja" : "Curly Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_15_HairKinky",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairKinky__PerkIcon",
+      "name" : {
+        "zh" : "\u7206\u70B8\u5377",
+        "en" : "Kinky Hair",
+        "ja" : "Kinky Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_5_HairWhite",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourWhite__PerkIcon",
+      "name" : {
+        "zh" : "\u767D\u8272\u5934\u53D1",
+        "en" : "White Hair",
+        "ja" : "White Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_5_HairPlatinumBlonde",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourPlatinumBlonde__PerkIcon",
+      "name" : {
+        "zh" : "\u94C2\u91D1\u8272\u5934\u53D1",
+        "en" : "Platinum Blonde Hair",
+        "ja" : "Platinum Blonde Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_5_HairStrawberryBlonde",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourStrawberryBlonde__PerkIcon",
+      "name" : {
+        "zh" : "\u8349\u8393\u91D1\u8272\u5934\u53D1",
+        "en" : "Strawberry Blonde Hair",
+        "ja" : "Strawberry Blonde Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_5_HairLightBlonde",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourLightBlonde__PerkIcon",
+      "name" : {
+        "zh" : "\u6D45\u91D1\u8272\u5934\u53D1",
+        "en" : "Light Blonde Hair",
+        "ja" : "Light Blonde Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_5_HairGinger",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourGinger__PerkIcon",
+      "name" : {
+        "zh" : "\u59DC\u9EC4\u8272\u5934\u53D1",
+        "en" : "Ginger Hair",
+        "ja" : "Ginger Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_5_LightHair",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBlonde__PerkIcon",
+      "name" : {
+        "zh" : "\u6D45\u8272\u5934\u53D1",
+        "en" : "Blonde Hair",
+        "ja" : "\u660E\u308B\u3044\u9AEA"
+      }
+    },
+    {
+      "key" : "Pk_3_5_HairAuburn",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourAuburn__PerkIcon",
+      "name" : {
+        "zh" : "\u8D64\u8910\u8272\u5934\u53D1",
+        "en" : "Auburn Hair",
+        "ja" : "Auburn Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_5_HairLightBrown",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourLightBrown__PerkIcon",
+      "name" : {
+        "zh" : "\u6D45\u68D5\u8272\u5934\u53D1",
+        "en" : "Light Brown Hair",
+        "ja" : "Light Brown Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_5_HairBrown",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+      "name" : {
+        "zh" : "\u68D5\u8272\u5934\u53D1",
+        "en" : "Brown Hair",
+        "ja" : "Brown Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_5_HairDarkBrown",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourDarkBrown__PerkIcon",
+      "name" : {
+        "zh" : "\u6DF1\u68D5\u8272\u5934\u53D1",
+        "en" : "Dark Brown Hair",
+        "ja" : "Dark Brown Hair"
+      }
+    },
+    {
+      "key" : "Pk_3_5_DarkHair",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBlack__PerkIcon",
+      "name" : {
+        "zh" : "\u6DF1\u8272\u5934\u53D1",
+        "en" : "Black Hair",
+        "ja" : "\u9ED2\u3044\u9AEA"
+      }
+    },
+    {
+      "key" : "Pk_3_5_HairGrey",
+      "type" : "CharacterPerk",
+      "icon" : "NPCCharacterPerk__PartnerPerk_HairColourGrey__PerkIcon",
+      "name" : {
+        "zh" : "\u7070\u8272\u5934\u53D1",
+        "en" : "Grey Hair",
+        "ja" : "Grey Hair"
       }
     },
     {
@@ -227,26 +647,6 @@
         "zh" : "\u8001\u8327",
         "en" : "Callouses",
         "ja" : "\u305F\u3053"
-      }
-    },
-    {
-      "key" : "Pk_3_10_FineFeatures",
-      "type" : "CharacterPerk",
-      "icon" : "GameStat__FootDamage__Statuses-1-Icon",
-      "name" : {
-        "zh" : "\u4E94\u5B98\u7CBE\u81F4",
-        "en" : "Fine Features",
-        "ja" : "Fine Features"
-      }
-    },
-    {
-      "key" : "Pk_3_11_IrregularFeatures",
-      "type" : "CharacterPerk",
-      "icon" : "GameStat__FootDamage__Statuses-1-Icon",
-      "name" : {
-        "zh" : "\u4E94\u5B98\u7C97\u7CD9",
-        "en" : "Irregular Features",
-        "ja" : "Irregular Features"
       }
     }
   ],

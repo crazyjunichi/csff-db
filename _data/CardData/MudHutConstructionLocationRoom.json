@@ -1903,13 +1903,21 @@
     ]
   },
   "UsageDurability"             : {
+    "CardStatName" : {
+      "zh" : "Mould",
+      "en" : "Mould",
+      "ja" : "Mould"
+    },
     "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 0.0,
-    "RatePerDaytimePoint"  : 0.0,
+    "MaxValue"             : 25920.0,
+    "RatePerDaytimePoint"  : 1.0,
     "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 0,
+    "HidingOptions"         : 1,
     "TextDisplay"           : 0,
     "NumberPrecision"       : 0,
+    "OverrideIcon"          : {
+      "FileName" : "CardData__BogIronCrushed__CardImage"
+    },
     "OnZeroNotification"    : 0,
     "OnZero"                : {
       "DaytimeCost" : 0,
@@ -1925,7 +1933,122 @@
     },
     "OnFullNotification"    : 0,
     "FloatValue"            : 0.0,
-    "durabilityKey"         : "UsageDurability"
+    "Active"                : true,
+    "durabilityKey"         : "UsageDurability",
+    "_valueModifications"   : [
+      {
+        "source" : {
+          "key" : "MudHutConstructionLocationRoom",
+          "type" : "CardData",
+          "CardType" : 8,
+          "icon"     : "CardData__EnclosureExit__CardImage",
+          "name"     : {
+            "zh" : "\u623F\u95F4",
+            "en" : "Room",
+            "ja" : "\u90E8\u5C4B"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+          "en" : "Action: Clean",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97\u306B\u3059\u308B"
+        },
+        "value"       : {
+          "x" : -25.0,
+          "y" : -25.0
+        }
+      }
+    ],
+    "_rateModifications"    : [
+      {
+        "source" : {
+          "key" : "MudHutConstructionLocationRoom",
+          "type" : "CardData",
+          "CardType" : 8,
+          "icon"     : "CardData__EnclosureExit__CardImage",
+          "name"     : {
+            "zh" : "\u623F\u95F4",
+            "en" : "Room",
+            "ja" : "\u90E8\u5C4B"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u73A9\u5BB6\u5728\u573A +1\uFF08Increase Mould\uFF09",
+          "en" : "Passive Effect\uFF1APlayer Present - Increase Mould +1",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1APlayer Present - Increase Mould +1"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "MudHutConstructionLocationRoom",
+          "type" : "CardData",
+          "CardType" : 8,
+          "icon"     : "CardData__EnclosureExit__CardImage",
+          "name"     : {
+            "zh" : "\u623F\u95F4",
+            "en" : "Room",
+            "ja" : "\u90E8\u5C4B"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1APlayer Present and filth above 20% - Increase Mould +0.5",
+          "en" : "Passive Effect\uFF1APlayer Present and filth above 20% - Increase Mould +0.5",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1APlayer Present and filth above 20% - Increase Mould +0.5"
+        },
+        "value"       : {
+          "x" : 0.5,
+          "y" : 0.5
+        }
+      },
+      {
+        "source" : {
+          "key" : "MudHutConstructionLocationRoom",
+          "type" : "CardData",
+          "CardType" : 8,
+          "icon"     : "CardData__EnclosureExit__CardImage",
+          "name"     : {
+            "zh" : "\u623F\u95F4",
+            "en" : "Room",
+            "ja" : "\u90E8\u5C4B"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ASmoke 2+ = Reduce Mould by 9",
+          "en" : "Passive Effect\uFF1ASmoke 2+ = Reduce Mould by 9",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASmoke 2+ = Reduce Mould by 9"
+        },
+        "value"       : {
+          "x" : -9.0,
+          "y" : -9.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "MudHutConstructionLocationRoom",
+          "type" : "CardData",
+          "CardType" : 8,
+          "icon"     : "CardData__EnclosureExit__CardImage",
+          "name"     : {
+            "zh" : "\u623F\u95F4",
+            "en" : "Room",
+            "ja" : "\u90E8\u5C4B"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1APlastered Walls Reduce Mould by 0.15",
+          "en" : "Passive Effect\uFF1APlastered Walls Reduce Mould by 0.15",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1APlastered Walls Reduce Mould by 0.15"
+        },
+        "value"       : {
+          "x" : -0.15,
+          "y" : -0.15
+        }
+      }
+    ]
   },
   "FuelCapacity"                : {
     "RandomStartingOffset" : 0.0,
@@ -2422,7 +2545,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -2462,6 +2585,10 @@
         "SpoilageChange"            : {
           "x" : -250.0,
           "y" : -250.0
+        },
+        "UsageChange"               : {
+          "x" : -25.0,
+          "y" : -25.0
         },
         "StatInterpolatedDurabilityChanges" : [
           {
@@ -2638,7 +2765,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -2798,7 +2925,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -2958,7 +3085,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -2976,7 +3103,7 @@
           "Stat" : {
             "key" : "Stress",
             "type" : "GameStat",
-            "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 240.0,
             "name" : {
@@ -3481,27 +3608,7 @@
       "OnlyOnBaseActions" : true,
       "Conditions"        : {
         "NotInBackground" : true,
-        "PlayerUsesCard"  : 0,
-        "RequiredStatValues" : [
-          {
-            "Stat" : {
-              "key" : "BodyTemperature",
-              "type" : "GameStat",
-              "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
-              "min"  : -100.0,
-              "max"  : 200.0,
-              "name" : {
-                "zh" : "\u4F53\u6E29",
-                "en" : "Body Temperature",
-                "ja" : "\u4F53\u6E29"
-              }
-            },
-            "TriggerRange" : {
-              "x" : -100.0,
-              "y" : 85.0
-            }
-          }
-        ]
+        "PlayerUsesCard"  : 0
       },
       "StatModifiers"     : [
         {
@@ -3721,6 +3828,553 @@
         "zh" : "\u975E\u6CB3\u6D41\u5730\u70B9\u9690\u85CF\u6C34\u4F4D",
         "en" : "Hide Water Level outside River Locations",
         "ja" : "Hide Water Level outside River Locations"
+      }
+    },
+    {
+      "EffectName" : "Player Present - Increase Mould +1",
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0
+      },
+      "OnBoardEffectCap" : 0,
+      "UsageRateModifier" : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier" : 0.0,
+      "GeneratedLiquid"    : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "\u73A9\u5BB6\u5728\u573A +1\uFF08Increase Mould\uFF09",
+        "en" : "Player Present - Increase Mould +1",
+        "ja" : "Player Present - Increase Mould +1"
+      }
+    },
+    {
+      "EffectName" : "Player Present and filth above 20% - Increase Mould +0.5",
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "ReceivingRequiredDurabilityRanges" : {
+          "SpoilageRange" : {
+            "x" : 200.0,
+            "y" : 1000.0
+          }
+        }
+      },
+      "OnBoardEffectCap" : 0,
+      "UsageRateModifier" : {
+        "FloatValue" : 0.5,
+        "Active"     : true
+      },
+      "LiquidRateModifier" : 0.0,
+      "GeneratedLiquid"    : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Player Present and filth above 20% - Increase Mould +0.5",
+        "en" : "Player Present and filth above 20% - Increase Mould +0.5",
+        "ja" : "Player Present and filth above 20% - Increase Mould +0.5"
+      }
+    },
+    {
+      "EffectName" : "Smoke 2+ = Reduce Mould by 9",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "ReceivingRequiredDurabilityRanges" : {
+          "Special4Range" : {
+            "x" : 2.0,
+            "y" : 4.0
+          }
+        }
+      },
+      "OnBoardEffectCap" : 0,
+      "UsageRateModifier" : {
+        "FloatValue" : -9.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier" : 0.0,
+      "GeneratedLiquid"    : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Smoke 2+ = Reduce Mould by 9",
+        "en" : "Smoke 2+ = Reduce Mould by 9",
+        "ja" : "Smoke 2+ = Reduce Mould by 9"
+      }
+    },
+    {
+      "EffectName" : "Plastered Walls Reduce Mould by 0.15",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredCardsOnBoard" : [
+          {
+            "key" : "Imp_PlasteredWalls",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Imp_PlasteredWalls__CardImage",
+            "name"     : {
+              "zh" : "\u62B9\u7070\u5899",
+              "en" : "Plastered Walls",
+              "ja" : "\u5857\u308A\u58C1"
+            }
+          }
+        ]
+      },
+      "OnBoardEffectCap" : 0,
+      "UsageRateModifier" : {
+        "FloatValue" : -0.15,
+        "Active"     : true
+      },
+      "LiquidRateModifier" : 0.0,
+      "GeneratedLiquid"    : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Plastered Walls Reduce Mould by 0.15",
+        "en" : "Plastered Walls Reduce Mould by 0.15",
+        "ja" : "Plastered Walls Reduce Mould by 0.15"
+      }
+    },
+    {
+      "EffectName" : "Player Present - Mould Stage 1",
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "ReceivingRequiredDurabilityRanges" : {
+          "UsageRange" : {
+            "x" : 4320.0,
+            "y" : 8640.0
+          }
+        }
+      },
+      "StatModifiers"   : [
+        {
+          "Stat" : {
+            "key" : "Discomfort",
+            "type" : "GameStat",
+            "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 2500.0,
+            "name" : {
+              "zh" : "\u4E0D\u9002",
+              "en" : "Discomfort",
+              "ja" : "\u6DF1\u3044"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 125.0,
+            "y" : 125.0
+          }
+        }
+      ],
+      "OnBoardEffectCap" : 0,
+      "LiquidRateModifier" : 0.0,
+      "GeneratedLiquid"    : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "\u73A9\u5BB6\u5728\u573A 1\uFF08Mould Stage\uFF09",
+        "en" : "Player Present - Mould Stage 1",
+        "ja" : "Player Present - Mould Stage 1"
+      }
+    },
+    {
+      "EffectName" : "Player Present - Mould Stage 2",
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "ReceivingRequiredDurabilityRanges" : {
+          "UsageRange" : {
+            "x" : 8641.0,
+            "y" : 12960.0
+          }
+        }
+      },
+      "StatModifiers"   : [
+        {
+          "Stat" : {
+            "key" : "Discomfort",
+            "type" : "GameStat",
+            "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 2500.0,
+            "name" : {
+              "zh" : "\u4E0D\u9002",
+              "en" : "Discomfort",
+              "ja" : "\u6DF1\u3044"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 250.0,
+            "y" : 250.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "LungRot",
+            "type" : "GameStat",
+            "icon" : "GameStat__LungCapacity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "Lung Rot",
+              "en" : "Lung Rot",
+              "ja" : "Lung Rot"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.25,
+            "y" : 1.25
+          }
+        }
+      ],
+      "OnBoardEffectCap" : 0,
+      "LiquidRateModifier" : 0.0,
+      "GeneratedLiquid"    : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "\u73A9\u5BB6\u5728\u573A 2\uFF08Mould Stage\uFF09",
+        "en" : "Player Present - Mould Stage 2",
+        "ja" : "Player Present - Mould Stage 2"
+      }
+    },
+    {
+      "EffectName" : "Player Present - Mould Stage 3",
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "ReceivingRequiredDurabilityRanges" : {
+          "UsageRange" : {
+            "x" : 12961.0,
+            "y" : 17280.0
+          }
+        }
+      },
+      "StatModifiers"   : [
+        {
+          "Stat" : {
+            "key" : "Discomfort",
+            "type" : "GameStat",
+            "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 2500.0,
+            "name" : {
+              "zh" : "\u4E0D\u9002",
+              "en" : "Discomfort",
+              "ja" : "\u6DF1\u3044"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 375.0,
+            "y" : 375.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "LungRot",
+            "type" : "GameStat",
+            "icon" : "GameStat__LungCapacity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "Lung Rot",
+              "en" : "Lung Rot",
+              "ja" : "Lung Rot"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.5,
+            "y" : 1.5
+          }
+        }
+      ],
+      "OnBoardEffectCap" : 0,
+      "LiquidRateModifier" : 0.0,
+      "GeneratedLiquid"    : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "\u73A9\u5BB6\u5728\u573A 3\uFF08Mould Stage\uFF09",
+        "en" : "Player Present - Mould Stage 3",
+        "ja" : "Player Present - Mould Stage 3"
+      }
+    },
+    {
+      "EffectName" : "Player Present - Mould Stage 4",
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "ReceivingRequiredDurabilityRanges" : {
+          "UsageRange" : {
+            "x" : 17281.0,
+            "y" : 25920.0
+          }
+        }
+      },
+      "StatModifiers"   : [
+        {
+          "Stat" : {
+            "key" : "Discomfort",
+            "type" : "GameStat",
+            "icon" : "GameStat__Discomfort__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 2500.0,
+            "name" : {
+              "zh" : "\u4E0D\u9002",
+              "en" : "Discomfort",
+              "ja" : "\u6DF1\u3044"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 500.0,
+            "y" : 500.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "LungRot",
+            "type" : "GameStat",
+            "icon" : "GameStat__LungCapacity__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "Lung Rot",
+              "en" : "Lung Rot",
+              "ja" : "Lung Rot"
+            }
+          },
+          "RateModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        }
+      ],
+      "OnBoardEffectCap" : 0,
+      "LiquidRateModifier" : 0.0,
+      "GeneratedLiquid"    : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "\u73A9\u5BB6\u5728\u573A 4\uFF08Mould Stage\uFF09",
+        "en" : "Player Present - Mould Stage 4",
+        "ja" : "Player Present - Mould Stage 4"
       }
     }
   ],
@@ -4105,6 +4759,24 @@
           "zh" : "\u843D\u77F3\u9677\u9631",
           "en" : "Deadfall Trap",
           "ja" : "\u843D\u77F3\u30C8\u30E9\u30C3\u30D7"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ClickMill",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClickMill__CardImage",
+        "name"     : {
+          "zh" : "\u68D8\u8F6E\u78E8",
+          "en" : "Click Mill",
+          "ja" : "Click Mill"
         }
       },
       "description" : {

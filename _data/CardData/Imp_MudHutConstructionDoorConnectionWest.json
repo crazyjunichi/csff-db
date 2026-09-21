@@ -152,6 +152,7 @@
   "TradingValue"                : 0.0,
   "MapStructureType"            : 0,
   "FlavourFadeRate"             : 0.0,
+  "AlwaysUpdate"                : true,
   "CanBeTrashed"                : true,
   "SpoilageTime"                : {
     "RandomStartingOffset" : 0.0,
@@ -363,6 +364,75 @@
       "NotifyWhenNotMet" : true
     }
   ],
+  "BpCanBeDoneByDuty"             : true,
+  "BpDutySetup"                   : {
+    "OnCompleteCosts" : [
+      {
+        "TargetStat" : {
+          "key" : "Partner_Favour",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u597D\u610F",
+            "en" : "Partner_Favour",
+            "ja" : "Partner_Favour"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : -25.0,
+          "y" : -25.0
+        },
+        "IgnoreNovelty"      : true
+      }
+    ],
+    "AddedPreferenceWeights" : {
+      "BaseWeight" : 0,
+      "AgentStatsWeightModifiers" : [
+        {
+          "Stat" : {
+            "key" : "Partner_LikesPhysicalTasks",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u559C\u6B22\u4F53\u529B\u4EFB\u52A1",
+              "en" : "Partner_LikesPhysicalTasks",
+              "ja" : "Partner_LikesPhysicalTasks"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "StatRange"          : {
+            "x" : -200.0,
+            "y" : 200.0
+          },
+          "InterpWeightRange"  : {
+            "m_X" : 0,
+            "m_Y" : 20
+          },
+          "WhenOutOfRange"     : 1
+        },
+        {
+          "Stat" : {
+            "key" : "Partner_LikesMethodicalTasks",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u559C\u6B22\u6761\u7406\u4EFB\u52A1",
+              "en" : "Partner_LikesMethodicalTasks",
+              "ja" : "Partner_LikesMethodicalTasks"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "StatRange"          : {
+            "x" : -200.0,
+            "y" : 200.0
+          },
+          "InterpWeightRange"  : {
+            "m_X" : 0,
+            "m_Y" : 20
+          },
+          "WhenOutOfRange"     : 1
+        }
+      ]
+    }
+  },
   "BlueprintStages"               : [
     {
       "RequiredElements" : [
@@ -482,7 +552,7 @@
       "Stat" : {
         "key" : "Stress",
         "type" : "GameStat",
-        "icon" : "GameStat__BeastUrge__DefaultStatusIcon",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 240.0,
         "name" : {

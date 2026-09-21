@@ -1,0 +1,36 @@
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "Partner_AloneTimeDuration",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u72EC\u5904\u65F6\u957F",
+            "en" : "Partner_AloneTimeDuration",
+            "ja" : "Partner_AloneTimeDuration"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "OnTrue"     : {
+    "Outcome" : 1,
+    "MoveToStep" : 6
+  },
+  "key"        : "Has Alone Time Ended",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "\u72EC\u5904\u65F6\u95F4\u662F\u5426\u7ED3\u675F",
+    "en" : "Has Alone Time Ended",
+    "ja" : "Has Alone Time Ended"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

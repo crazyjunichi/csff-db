@@ -1,16 +1,17 @@
 
 {
   "DutyName" : {
-    "zh" : "\u6536\u83B7\u677E\u6811\u6839",
+    "zh" : "\u6536\u83B7",
     "en" : "Harvest",
     "ja" : "Harvest"
   },
   "DutySummary" : {
-    "zh" : "Harvesting pine roots.",
+    "zh" : "\u6316\u53D6\u677E\u6839\u3002",
     "en" : "Harvesting pine roots.",
     "ja" : "Harvesting pine roots."
   },
-  "DutyTags"    : [
+  "RequiresMarkedCard" : true,
+  "DutyTags"           : [
     {
       "key" : "DutyTag_Methodical",
       "type" : "NPCDutyTag",
@@ -30,7 +31,7 @@
       }
     }
   ],
-  "MaxPerformPerDay" : 0,
+  "MaxPerformPerDay"   : 0,
   "DutyExecutionOptions" : 0,
   "ActionSequence"       : [
     {
@@ -57,7 +58,7 @@
   "type"                 : "NPCDuty",
   "key"                  : "PartnerDuty_HarvestPineRoots",
   "name"                 : {
-    "zh" : "\u6536\u83B7\u677E\u6811\u6839",
+    "zh" : "\u6536\u83B7",
     "en" : "Harvest",
     "ja" : "Harvest"
   },

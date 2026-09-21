@@ -1,0 +1,562 @@
+
+{
+  "GameName" : {
+    "zh" : "\u51AC\u5B63\u7B49\u7EA7",
+    "en" : "Winter Level",
+    "ja" : "Winter Level"
+  },
+  "Description" : {
+    "zh" : "Tracks how many winters have begun and caps at level 6.",
+    "en" : "Tracks how many winters have begun and caps at level 6.",
+    "ja" : "Tracks how many winters have begun and caps at level 6."
+  },
+  "BaseValue"   : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 6.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 0,
+  "Visibility"      : 2,
+  "CannotBeInspected" : true,
+  "StatusesHaveNoBar" : true,
+  "Statuses"          : [
+    {
+      "GameName" : {
+        "zh" : "Winter Level 0 (0 C)",
+        "en" : "Winter Level 0 (0 C)",
+        "ja" : "Winter Level 0 (0 C)"
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Winter Level 1 (0 C)",
+        "en" : "Winter Level 1 (0 C)",
+        "ja" : "Winter Level 1 (0 C)"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Winter Level 2 (-3 C)",
+        "en" : "Winter Level 2 (-3 C)",
+        "ja" : "Winter Level 2 (-3 C)"
+      },
+      "ValueRange" : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "BaseTemperature",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+            "min"  : -80.0,
+            "max"  : 80.0,
+            "name" : {
+              "zh" : "\u57FA\u7840\u6E29\u5EA6",
+              "en" : "Base Temperature",
+              "ja" : "Base Temperature"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -3.0,
+            "y" : -3.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Winter Level 3 (-6 C)",
+        "en" : "Winter Level 3 (-6 C)",
+        "ja" : "Winter Level 3 (-6 C)"
+      },
+      "ValueRange" : {
+        "m_X" : 3,
+        "m_Y" : 3
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "BaseTemperature",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+            "min"  : -80.0,
+            "max"  : 80.0,
+            "name" : {
+              "zh" : "\u57FA\u7840\u6E29\u5EA6",
+              "en" : "Base Temperature",
+              "ja" : "Base Temperature"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -6.0,
+            "y" : -6.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Winter Level 4 (-9 C)",
+        "en" : "Winter Level 4 (-9 C)",
+        "ja" : "Winter Level 4 (-9 C)"
+      },
+      "ValueRange" : {
+        "m_X" : 4,
+        "m_Y" : 4
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "BaseTemperature",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+            "min"  : -80.0,
+            "max"  : 80.0,
+            "name" : {
+              "zh" : "\u57FA\u7840\u6E29\u5EA6",
+              "en" : "Base Temperature",
+              "ja" : "Base Temperature"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -9.0,
+            "y" : -9.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Winter Level 5 (-12 C)",
+        "en" : "Winter Level 5 (-12 C)",
+        "ja" : "Winter Level 5 (-12 C)"
+      },
+      "ValueRange" : {
+        "m_X" : 5,
+        "m_Y" : 5
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "BaseTemperature",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+            "min"  : -80.0,
+            "max"  : 80.0,
+            "name" : {
+              "zh" : "\u57FA\u7840\u6E29\u5EA6",
+              "en" : "Base Temperature",
+              "ja" : "Base Temperature"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -12.0,
+            "y" : -12.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Winter Level 6 (-15 C)",
+        "en" : "Winter Level 6 (-15 C)",
+        "ja" : "Winter Level 6 (-15 C)"
+      },
+      "ValueRange" : {
+        "m_X" : 6,
+        "m_Y" : 6
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "BaseTemperature",
+            "type" : "GameStat",
+            "icon" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+            "min"  : -80.0,
+            "max"  : 80.0,
+            "name" : {
+              "zh" : "\u57FA\u7840\u6E29\u5EA6",
+              "en" : "Base Temperature",
+              "ja" : "Base Temperature"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -15.0,
+            "y" : -15.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "WinterLevel",
+  "name"                    : {
+    "zh" : "\u51AC\u5B63\u7B49\u7EA7",
+    "en" : "Winter Level",
+    "ja" : "Winter Level"
+  },
+  "min"                     : 0.0,
+  "max"                     : 6.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 6.0,
+        "y" : 6.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 6.0,
+        "y" : 6.0
+      }
+    }
+  ],
+  "_requires"               : [
+    {
+      "source" : {
+        "key" : "Tgr_Rainmaker",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_Rainmaker",
+          "en" : "Tgr_Rainmaker",
+          "ja" : "Tgr_Rainmaker"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_Rainmaker",
+        "en" : "Tgr_Rainmaker",
+        "ja" : "Tgr_Rainmaker"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 6.0
+      }
+    }
+  ],
+  "_triggers"               : [
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 6.0,
+        "y" : 6.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WinterStart",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WinterStart",
+          "en" : "Tgr_WinterStart",
+          "ja" : "Tgr_WinterStart"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WinterStart",
+        "en" : "Tgr_WinterStart",
+        "ja" : "Tgr_WinterStart"
+      },
+      "value"       : {
+        "x" : 6.0,
+        "y" : 6.0
+      }
+    }
+  ],
+  "_uuid"                   : "bf6b6707eb7843e4820b2b42f8eeabae"
+}

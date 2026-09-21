@@ -1,16 +1,17 @@
 
 {
   "DutyName" : {
-    "zh" : "\u6536\u83B7\u8368\u9EBB",
+    "zh" : "\u6536\u83B7",
     "en" : "Harvest",
     "ja" : "Harvest"
   },
   "DutySummary" : {
-    "zh" : "Harvesting nettle.",
+    "zh" : "\u6536\u5272\u8368\u9EBB\u3002",
     "en" : "Harvesting nettle.",
     "ja" : "Harvesting nettle."
   },
-  "DutyTags"    : [
+  "RequiresMarkedCard" : true,
+  "DutyTags"           : [
     {
       "key" : "DutyTag_Methodical",
       "type" : "NPCDutyTag",
@@ -30,7 +31,7 @@
       }
     }
   ],
-  "MaxPerformPerDay" : 0,
+  "MaxPerformPerDay"   : 0,
   "DutyExecutionOptions" : 0,
   "ActionSequence"       : [
     {
@@ -111,7 +112,7 @@
   "type"                 : "NPCDuty",
   "key"                  : "PartnerDuty_HarvestNettle",
   "name"                 : {
-    "zh" : "\u6536\u83B7\u8368\u9EBB",
+    "zh" : "\u6536\u83B7",
     "en" : "Harvest",
     "ja" : "Harvest"
   },

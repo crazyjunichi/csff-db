@@ -16,23 +16,24 @@
     "y" : 1000000.0
   },
   "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
+  "StatPriority"    : 900,
   "Visibility"      : 0,
-  "CannotBeInspected" : true,
-  "VisibleValueRange" : {
+  "VisibleInAppearanceTab" : true,
+  "CannotBeInspected"      : true,
+  "VisibleValueRange"      : {
     "x" : 294000.0,
     "y" : 503999.0
   },
-  "BarColor"          : {
+  "BarColor"               : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"      : {
     "FileName" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon"
   },
-  "Statuses"          : [
+  "Statuses"               : [
     {
       "GameName" : {
         "zh" : "\u6781\u7AEF\u80A5\u80D6",
@@ -47,6 +48,57 @@
         "m_Y" : 1000000
       },
       "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "HipWidth",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u81C0\u5BBD",
+              "en" : "Hip Width",
+              "ja" : "Hip Width"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 25.0,
+            "y" : 25.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 25.0,
+            "y" : 25.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FatDistribution",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u8102\u80AA\u5206\u5E03",
+              "en" : "Fat Distribution",
+              "ja" : "Fat Distribution"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 71.0,
+            "y" : 71.0
+          }
+        },
         {
           "Stat" : {
             "key" : "Energy",
@@ -179,6 +231,57 @@
       "EffectsOnStats" : [
         {
           "Stat" : {
+            "key" : "HipWidth",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u81C0\u5BBD",
+              "en" : "Hip Width",
+              "ja" : "Hip Width"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 20.0,
+            "y" : 20.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 15.0,
+            "y" : 15.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FatDistribution",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u8102\u80AA\u5206\u5E03",
+              "en" : "Fat Distribution",
+              "ja" : "Fat Distribution"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 61.0,
+            "y" : 61.0
+          }
+        },
+        {
+          "Stat" : {
             "key" : "Energy",
             "type" : "GameStat",
             "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
@@ -291,6 +394,57 @@
       "EffectsOnStats" : [
         {
           "Stat" : {
+            "key" : "HipWidth",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u81C0\u5BBD",
+              "en" : "Hip Width",
+              "ja" : "Hip Width"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 15.0,
+            "y" : 15.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FatDistribution",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u8102\u80AA\u5206\u5E03",
+              "en" : "Fat Distribution",
+              "ja" : "Fat Distribution"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 51.0,
+            "y" : 51.0
+          }
+        },
+        {
+          "Stat" : {
             "key" : "Weight",
             "type" : "GameStat",
             "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
@@ -385,6 +539,57 @@
       "EffectsOnStats" : [
         {
           "Stat" : {
+            "key" : "HipWidth",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u81C0\u5BBD",
+              "en" : "Hip Width",
+              "ja" : "Hip Width"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 5.0,
+            "y" : 5.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FatDistribution",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u8102\u80AA\u5206\u5E03",
+              "en" : "Fat Distribution",
+              "ja" : "Fat Distribution"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 41.0,
+            "y" : 41.0
+          }
+        },
+        {
+          "Stat" : {
             "key" : "Weight",
             "type" : "GameStat",
             "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
@@ -461,6 +666,23 @@
       "EffectsOnStats" : [
         {
           "Stat" : {
+            "key" : "FatDistribution",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u8102\u80AA\u5206\u5E03",
+              "en" : "Fat Distribution",
+              "ja" : "Fat Distribution"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 31.0,
+            "y" : 31.0
+          }
+        },
+        {
+          "Stat" : {
             "key" : "Weight",
             "type" : "GameStat",
             "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
@@ -517,6 +739,40 @@
         "m_Y" : 419999
       },
       "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FatDistribution",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u8102\u80AA\u5206\u5E03",
+              "en" : "Fat Distribution",
+              "ja" : "Fat Distribution"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 21.0,
+            "y" : 21.0
+          }
+        },
         {
           "Stat" : {
             "key" : "Weight",
@@ -593,6 +849,40 @@
         "m_Y" : 377999
       },
       "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FatDistribution",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u8102\u80AA\u5206\u5E03",
+              "en" : "Fat Distribution",
+              "ja" : "Fat Distribution"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 11.0,
+            "y" : 11.0
+          }
+        },
         {
           "Stat" : {
             "key" : "Appetite",
@@ -705,6 +995,40 @@
         "m_Y" : 360499
       },
       "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -10.0,
+            "y" : -10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FatDistribution",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u8102\u80AA\u5206\u5E03",
+              "en" : "Fat Distribution",
+              "ja" : "Fat Distribution"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 11.0,
+            "y" : 11.0
+          }
+        },
         {
           "Stat" : {
             "key" : "Wakefulness",
@@ -835,6 +1159,40 @@
         "m_Y" : 342999
       },
       "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -20.0,
+            "y" : -20.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FatDistribution",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u8102\u80AA\u5206\u5E03",
+              "en" : "Fat Distribution",
+              "ja" : "Fat Distribution"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
         {
           "Stat" : {
             "key" : "Weight",
@@ -981,6 +1339,40 @@
       "EffectsOnStats" : [
         {
           "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -20.0,
+            "y" : -20.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FatDistribution",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u8102\u80AA\u5206\u5E03",
+              "en" : "Fat Distribution",
+              "ja" : "Fat Distribution"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
             "key" : "Energy",
             "type" : "GameStat",
             "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
@@ -1113,7 +1505,26 @@
         "m_X" : 293999,
         "m_Y" : 293999
       },
-      "NotifyPlayer" : 3,
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "BreastSize",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "en" : "Breast Size",
+              "ja" : "Breast Size"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -20.0,
+            "y" : -20.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 3,
       "RepeatTextNotification" : 0,
       "AlertLevel"             : 5,
       "RepeatAlertSounds"      : 0,
@@ -1980,7 +2391,7 @@
         "key" : "Bp_MetalBar",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_MetalBar__CardImage",
+        "icon"     : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
         "name"     : {
           "zh" : "\u91D1\u5C5E\u952D",
           "en" : "Metal Bar",
@@ -2134,7 +2545,7 @@
         "key" : "Bp_RemakeIronBar",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_MetalBar__CardImage",
+        "icon"     : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
         "name"     : {
           "zh" : "\u91CD\u5236\u94C1\u952D",
           "en" : "Remake Iron Bar",
@@ -2483,6 +2894,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_Smithed_BlankRynd",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+        "name"     : {
+          "zh" : "\u953B\u9020\u78E8\u82AF\u94C1",
+          "en" : "Forged Rynd",
+          "ja" : "Forged Rynd"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -183.0,
+        "y" : -183.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_Smithed_BlankScytheBlade",
         "type" : "CardData",
         "CardType" : 7,
@@ -2618,7 +3051,7 @@
         "key" : "Bp_SplitIntoIronBars",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_MetalBar__CardImage",
+        "icon"     : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
         "name"     : {
           "zh" : "\u5206\u5272\u6210\u94C1\u952D",
           "en" : "Split into Iron Bars",
@@ -5043,6 +5476,28 @@
           "zh" : "\u7C98\u571F",
           "en" : "Clay",
           "ja" : "\u7C98\u571F"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -43.0,
+        "y" : -43.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ClickMill",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClickMill__CardImage",
+        "name"     : {
+          "zh" : "\u68D8\u8F6E\u78E8",
+          "en" : "Click Mill",
+          "ja" : "Click Mill"
         }
       },
       "description" : {
@@ -37086,7 +37541,7 @@
         "icon"     : "CardData__Event_WaterfallCave__CardImage",
         "name"     : {
           "zh" : "\u51FA\u53E3",
-          "en" : "Exit",
+          "en" : "Exit (Open)",
           "ja" : "\u51FA\u53E3"
         }
       },
@@ -44912,6 +45367,28 @@
     },
     {
       "source" : {
+        "key" : "Blank_MetalRynd",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u78E8\u82AF\u94C1\u576F",
+          "en" : "Metal Rynd",
+          "ja" : "Metal Rynd"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "en" : "Action: Smith",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
+      },
+      "value"       : {
+        "x" : -183.0,
+        "y" : -183.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Blank_MetalScytheBlade",
         "type" : "CardData",
         "CardType" : 0,
@@ -46156,6 +46633,28 @@
       },
       "description" : {
         "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
+        "en" : "Action: Smith",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
+      },
+      "value"       : {
+        "x" : -183.0,
+        "y" : -183.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Shape_MetalRynd",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u78E8\u82AF\u94C1\u5F62\u6A21",
+          "en" : "Metal Rynd Shape",
+          "ja" : "Metal Rynd Shape"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASmith",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -52048,7 +52547,7 @@
         "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
         "name" : {
           "zh" : "\u975E\u5E38\u7626\u5F31",
-          "en" : "Very Low Weight",
+          "en" : "Dangerously Low Weight",
           "ja" : "\u75E9\u305B\u904E\u304E"
         }
       },
@@ -52064,12 +52563,33 @@
     },
     {
       "source" : {
+        "key" : "Pk_3_2_LowWeight",
+        "type" : "CharacterPerk",
+        "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+        "name" : {
+          "zh" : "\u4F4E\u4F53\u91CD",
+          "en" : "Low Weight",
+          "ja" : "Low Weight"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -42000.0,
+        "y" : -42000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Pk_3_2_Obese",
         "type" : "CharacterPerk",
         "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
         "name" : {
           "zh" : "\u8D85\u91CD",
-          "en" : "Very High Weight",
+          "en" : "High Weight",
           "ja" : "\u80A5\u6E80"
         }
       },
@@ -52090,7 +52610,7 @@
         "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
         "name" : {
           "zh" : "\u8FC7\u91CD",
-          "en" : "High Weight",
+          "en" : "Moderately High Weight",
           "ja" : "\u307D\u3063\u3061\u3083\u308A"
         }
       },
@@ -52106,12 +52626,33 @@
     },
     {
       "source" : {
+        "key" : "Pk_3_2_SlightlyHighWeight",
+        "type" : "CharacterPerk",
+        "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+        "name" : {
+          "zh" : "\u7565\u9AD8\u4F53\u91CD",
+          "en" : "Slightly High Weight",
+          "ja" : "Slightly High Weight"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 45500.0,
+        "y" : 45500.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Pk_3_2_Underweight",
         "type" : "CharacterPerk",
         "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
         "name" : {
           "zh" : "\u4F53\u91CD\u8FC7\u8F7B",
-          "en" : "Low Weight",
+          "en" : "Very Low Weight",
           "ja" : "\u4F53\u91CD\u304C\u8EFD\u3044"
         }
       },
@@ -52123,6 +52664,27 @@
       "value"       : {
         "x" : -80501.0,
         "y" : -80501.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_3_2_VeryHighWeight",
+        "type" : "CharacterPerk",
+        "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+        "name" : {
+          "zh" : "\u9AD8\u4F53\u91CD",
+          "en" : "Very High Weight",
+          "ja" : "Very High Weight"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 472500.0,
+        "y" : 472500.0
       }
     },
     {
@@ -54082,7 +54644,7 @@
       },
       "description" : {
         "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8D85\u5927",
-        "en" : "Status Stage: Very Large",
+        "en" : "Status Stage: Has a very tall stature.",
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5DE8\u5927"
       },
       "value"       : {
@@ -54105,7 +54667,7 @@
       },
       "description" : {
         "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5927",
-        "en" : "Status Stage: Large",
+        "en" : "Status Stage: Has a tall stature.",
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u304D\u3044"
       },
       "value"       : {
@@ -54128,7 +54690,7 @@
       },
       "description" : {
         "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C0F",
-        "en" : "Status Stage: Small",
+        "en" : "Status Stage: Has a short stature.",
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C0F\u3055\u3044"
       },
       "value"       : {
@@ -54151,7 +54713,7 @@
       },
       "description" : {
         "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7279\u522B\u5C0F",
-        "en" : "Status Stage: Very Small",
+        "en" : "Status Stage: Has a very short stature.",
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u5C0F\u3055\u3044"
       },
       "value"       : {

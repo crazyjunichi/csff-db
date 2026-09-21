@@ -6,11 +6,12 @@
     "ja" : "Dig Mud"
   },
   "DutySummary" : {
-    "zh" : "Digging mud.",
+    "zh" : "\u6316\u6CE5\u3002",
     "en" : "Digging mud.",
     "ja" : "Digging mud."
   },
-  "DutyTags"    : [
+  "RequiresMarkedCard" : true,
+  "DutyTags"           : [
     {
       "key" : "DutyTag_Physical",
       "type" : "NPCDutyTag",
@@ -21,8 +22,8 @@
       }
     }
   ],
-  "MaxPerformPerDay" : 0,
-  "DutyConditions"   : {
+  "MaxPerformPerDay"   : 0,
+  "DutyConditions"     : {
     "PlayerUsesCard" : 0,
     "RequiredTagsOnBoard" : [
       {

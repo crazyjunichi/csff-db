@@ -1,0 +1,644 @@
+
+{
+  "CardName" : {
+    "zh" : "\u68D8\u8F6E\u78E8",
+    "en" : "Click Mill",
+    "ja" : "Click Mill"
+  },
+  "CardImage" : {
+    "FileName" : "CardData__Bp_ClickMill__CardImage"
+  },
+  "CardType"  : 2,
+  "ObjectWeight" : 2500.0,
+  "WeightReductionWhenEquipped" : 0.0,
+  "TradingValue"                : 0.0,
+  "CardTags"                    : [
+    {
+      "key" : "tag_NotSafeFromBears",
+      "type" : "CardTag",
+      "count" : 42,
+      "name"  : {
+        "zh" : "\u4E0D\u5B89\u5168(\u718A)",
+        "en" : "Used for containers that the bear can eat from",
+        "ja" : "Used for containers that the bear can eat from"
+      }
+    }
+  ],
+  "MapStructureType"            : 0,
+  "FlavourFadeRate"             : 0.0,
+  "UsesOwnershipSystem"         : true,
+  "AlwaysUpdate"                : true,
+  "CannotBeTrashed"             : true,
+  "CanBeTrashed"                : true,
+  "ToggleablePiling"            : true,
+  "SpoilageTime"                : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 450.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 2,
+    "NumberPrecision"       : 0,
+    "OverrideIcon"          : {
+      "FileName" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon"
+    },
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpoilageTime"
+  },
+  "UsageDurability"             : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "HasActionOnFull"       : true,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "UsageDurability"
+  },
+  "FuelCapacity"                : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 96.0,
+    "RatePerDaytimePoint"  : -1.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OverrideIcon"          : {
+      "FileName" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon"
+    },
+    "HasActionOnZero"       : true,
+    "OnZeroNotification"    : 0,
+    "OnZero"                : {
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ProducedCards" : [
+        {
+          "CollectionWeight" : 1,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Ash",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Ash__CardImage",
+                "name"     : {
+                  "zh" : "\u7070\u70EC",
+                  "en" : "Ash",
+                  "ja" : "\u7070"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "ReceivingCardChanges" : {
+        "ModType" : 2,
+        "TransformInto" : {
+          "key" : "OvenExtinguished",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KilnExtinguished__CardImage",
+          "name"     : {
+            "zh" : "\u70E4\u7BB1",
+            "en" : "Oven",
+            "ja" : "\u30AA\u30FC\u30D6\u30F3"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "TransferSpoilage"          : true,
+        "TransferFuel"              : true,
+        "TransferInventory"         : true,
+        "LiquidEffectScaling"       : 0
+      },
+      "FadeToBlack"          : 0,
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    },
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "FuelCapacity"
+  },
+  "Progress"                    : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 4.0,
+    "RatePerDaytimePoint"  : 1.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 2,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "HasActionOnFull"       : true,
+    "OnFullNotification"    : 2,
+    "OnFull"                : {
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "StatModifications" : [
+        {
+          "Stat" : {
+            "key" : "QuernMillingBonus",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 76800.0,
+            "name" : {
+              "zh" : "\u77F3\u78E8\u7814\u78E8\u52A0\u6210",
+              "en" : "Quern Milling Bonus",
+              "ja" : "Quern Milling Bonus"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -76800.0,
+            "y" : -76800.0
+          },
+          "InstantModifier" : true
+        }
+      ],
+      "ReceivingCardChanges" : {
+        "ModType" : 1,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0,
+        "ChargesChange"             : {
+          "x" : -4.0,
+          "y" : -4.0
+        }
+      },
+      "FadeToBlack"          : 0,
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    },
+    "FloatValue"            : 0.0,
+    "Active"                : true,
+    "durabilityKey"         : "Progress"
+  },
+  "LiquidEvaporationRate"       : 0.0,
+  "SpecialDurability1"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability1"
+  },
+  "SpecialDurability2"          : {
+    "CardStatName" : {
+      "zh" : "\u54C1\u8D28",
+      "en" : "Quality",
+      "ja" : "Quality"
+    },
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 100.0,
+    "RatePerDaytimePoint"  : 0.0625,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 1,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OverrideIcon"          : {
+      "FileName" : "CardData__AcornDoughRaw__SpecialDurability2-OverrideIcon"
+    },
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "Active"                : true,
+    "durabilityKey"         : "SpecialDurability2",
+    "_valueModifications"   : [
+      {
+        "source" : {
+          "key" : "RotaryQuern",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__RotaryQuern__CardImage",
+          "name"     : {
+            "zh" : "\u77F3\u78E8",
+            "en" : "Rotary Quern",
+            "ja" : "\u56DE\u8EE2\u5F0F\u81FC"
+          }
+        },
+        "description" : {
+          "zh" : "\u84DD\u56FE\u6750\u6599",
+          "en" : "Blueprint Material",
+          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u6750\u6599"
+        },
+        "value"       : {
+          "x" : 0.0,
+          "y" : 100.0
+        }
+      }
+    ]
+  },
+  "SpecialDurability3"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability3"
+  },
+  "SpecialDurability4"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability4"
+  },
+  "OnStatsChangeActions"        : [
+    {
+      "RepeatOptions" : 0,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "Counter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1000000000.0,
+            "name" : {
+              "zh" : "\u8BA1\u6570\u5668",
+              "en" : "Counter",
+              "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 0.0,
+            "y" : 1000000000.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Mill",
+        "en" : "Mill",
+        "ja" : "Mill"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredReceivingDurabilities" : {
+        "RequiredProgressPercent" : {
+          "MaxValue" : 0.5,
+          "FloatValue" : 0.5,
+          "Active"     : true
+        },
+        "RequiredLiquidQuantity"  : 0.0
+      },
+      "StatModifications"             : [
+        {
+          "Stat" : {
+            "key" : "QuernMillingBonus",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 76800.0,
+            "name" : {
+              "zh" : "\u77F3\u78E8\u7814\u78E8\u52A0\u6210",
+              "en" : "Quern Milling Bonus",
+              "ja" : "Quern Milling Bonus"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -76800.0,
+            "y" : -76800.0
+          },
+          "InstantModifier" : true
+        }
+      ],
+      "InterpolatedStatModifications" : [
+        {
+          "InputDurability" : 64,
+          "OutputStat"      : {
+            "key" : "QuernMillingBonus",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 76800.0,
+            "name" : {
+              "zh" : "\u77F3\u78E8\u7814\u78E8\u52A0\u6210",
+              "en" : "Quern Milling Bonus",
+              "ja" : "Quern Milling Bonus"
+            }
+          },
+          "Value"           : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 20000.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      ],
+      "ReceivingCardChanges"          : {
+        "ModType" : 1,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "RoomDirection"                 : 0,
+      "ExitDirection"                 : 0
+    }
+  ],
+  "DismantleActions"            : [
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Dismantle",
+        "en" : "Dismantle",
+        "ja" : "Dismantle"
+      },
+      "ConfirmPopup"            : true,
+      "DaytimeCost"             : 8,
+      "UseMiniTicks"            : 0,
+      "ActionTags"              : [
+        {
+          "key" : "HandAction",
+          "type" : "ActionTag",
+          "name" : {
+            "zh" : "\u624B\u90E8\u52A8\u4F5C",
+            "en" : "HandAction",
+            "ja" : "HandAction"
+          }
+        }
+      ],
+      "ProducedCards"           : [
+        {
+          "CollectionWeight" : 0,
+          "DropSavedBpIngredients" : true,
+          "DroppedIfNoBpIngredient" : [
+            {
+              "DroppedCard" : {
+                "key" : "ToolOrWeapon_Rynd_Metal",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+                "name"     : {
+                  "zh" : "\u94C1\u5236\u78E8\u82AF\u94C1",
+                  "en" : "Iron Rynd",
+                  "ja" : "Iron Rynd"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "StickLong",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__RoadTravelingAidEast__Statuses-0-Icon",
+                "name"     : {
+                  "zh" : "\u957F\u6728\u68CD",
+                  "en" : "Long Stick",
+                  "ja" : "\u9577\u3044\u68D2"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 5,
+                "m_Y" : 5
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Plank",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_Planks__CardImage",
+                "name"     : {
+                  "zh" : "\u6728\u677F",
+                  "en" : "Wooden Plank",
+                  "ja" : "\u6728\u306E\u677F"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 25,
+                "m_Y" : 25
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "StoneSmall",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__Skill_RockThrowing__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u77F3\u5934",
+                  "en" : "Stone",
+                  "ja" : "\u77F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 36,
+                "m_Y" : 36
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Clay",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_Clay__CardImage",
+                "name"     : {
+                  "zh" : "\u7C98\u571F",
+                  "en" : "Clay",
+                  "ja" : "\u7C98\u571F"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 18,
+                "m_Y" : 18
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "RotaryQuern",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__RotaryQuern__CardImage",
+                "name"     : {
+                  "zh" : "\u77F3\u78E8",
+                  "en" : "Rotary Quern",
+                  "ja" : "\u56DE\u8EE2\u5F0F\u81FC"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Twine",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Twine__CardImage",
+                "name"     : {
+                  "zh" : "\u7EC6\u7EBF",
+                  "en" : "Twine",
+                  "ja" : "\u7D10"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 8,
+                "m_Y" : 8
+              }
+            }
+          ],
+          "IgnoreEnvironmentQuantityLimits" : true
+        }
+      ],
+      "ReceivingCardChanges"    : {
+        "ModType" : 3,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "MaxLiquidCapacity"           : 0.0,
+  "MinQuantityLeftAfterATransfer" : 0.0,
+  "OpenOnTab"                     : 0,
+  "MaxWeightCapacity"             : 1200.0,
+  "ContentWeightReduction"        : 0.0,
+  "InventoryFilter"               : {
+    "TagFilters" : [
+      {
+        "Tag" : {
+          "key" : "tag_Millable",
+          "type" : "CardTag",
+          "count" : 41,
+          "name"  : {
+            "zh" : "\u53EF\u78E8\u788E",
+            "en" : "Quality",
+            "ja" : "Quality"
+          }
+        }
+      }
+    ]
+  },
+  "CookingConditions"             : {
+    "ExtraSpoilageRate" : 0.0,
+    "ExtraUsageRate"    : 0.0,
+    "ExtraFuelRate"     : 0.0,
+    "ExtraProgressRate" : 0.0,
+    "ExtraSpecial1Rate" : 0.0,
+    "ExtraSpecial2Rate" : 0.0,
+    "ExtraSpecial3Rate" : 0.0,
+    "ExtraSpecial4Rate" : 0.0,
+    "CookingPausedNotification" : {
+      "zh" : "Not Hot Enough",
+      "en" : "Not Hot Enough",
+      "ja" : "Not Hot Enough"
+    }
+  },
+  "UseContainerForEffectConditions" : true,
+  "EffectsToInventoryContent"       : [
+    {
+      "EffectName" : "Mill",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "ReceivingRequiredDurabilityRanges" : {
+          "ProgressRange" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        }
+      },
+      "OnBoardEffectCap" : 1,
+      "ConsumableChargesModifier" : {
+        "FloatValue" : 1.0
+      },
+      "Special3RateModifier"      : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier"        : 0.0,
+      "WeightCapacityModifier"    : 0.0,
+      "_EffectNameI18n"           : {
+        "zh" : "Mill",
+        "en" : "Mill",
+        "ja" : "Mill"
+      }
+    }
+  ],
+  "UnlockNotifications"             : 0,
+  "BlueprintUnlockTicksCost"        : 0.0,
+  "ResearchedNotification"          : 0,
+  "BuildingDaytimeCost"             : 0,
+  "BuildingMiniTicks"               : 0,
+  "DeconstructDaytimeCost"          : 0,
+  "DeconstructMiniTicks"            : 0,
+  "RoadDirection"                   : 0,
+  "MainHandUse"                     : 0,
+  "OffHandUse"                      : 0,
+  "BothHandsUse"                    : 0,
+  "RequiredDistance"                : 0,
+  "RequiredWrestlingState"          : 0,
+  "RequiredAmbush"                  : 0,
+  "RequiredSelfVulnerableState"     : 0,
+  "RequiredOpponentVulnerableState" : 0,
+  "ActionRange"                     : 0,
+  "AmmoUsageCost"                   : 0.0,
+  "WeaponReach"                     : 0.0,
+  "PlayerAddedCover"                : 0.0,
+  "EnemyAddedCover"                 : 0.0,
+  "PlayerAddedStealth"              : 0.0,
+  "EnemyAddedStealth"               : 0.0,
+  "type"                            : "CardData",
+  "key"                             : "ClickMill",
+  "icon"                            : "CardData__Bp_ClickMill__CardImage",
+  "name"                            : {
+    "zh" : "\u68D8\u8F6E\u78E8",
+    "en" : "Click Mill",
+    "ja" : "Click Mill"
+  },
+  "_gotFrom"                        : [
+    {
+      "source" : {
+        "key" : "Bp_ClickMill",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClickMill__CardImage",
+        "name"     : {
+          "zh" : "\u68D8\u8F6E\u78E8",
+          "en" : "Click Mill",
+          "ja" : "Click Mill"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    }
+  ],
+  "_uuid"                           : "0dd087db170537c4481a0834ab347296"
+}

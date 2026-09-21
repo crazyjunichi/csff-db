@@ -1,0 +1,30 @@
+
+{
+  "NPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "Partner_Stress",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u538B\u529B",
+          "en" : "Partner_Stress",
+          "ja" : "Partner_Stress"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : -10.0,
+        "y" : -10.0
+      },
+      "IgnoreNovelty"      : true
+    }
+  ],
+  "key"              : "Relieve Stress From Eating",
+  "type"             : "NPCDutyAction",
+  "name"             : {
+    "zh" : "\u901A\u8FC7\u8FDB\u98DF\u7F13\u89E3\u538B\u529B",
+    "en" : "Relieve Stress From Eating",
+    "ja" : "Relieve Stress From Eating"
+  },
+  "actionType"       : "ChangeNPCStatDutyAction"
+}

@@ -52,6 +52,591 @@
       ],
       "RoomDirection"           : 0,
       "ExitDirection"           : 0
+    },
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SeasonCounter_Winter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63",
+              "en" : "Winter Counter",
+              "ja" : "Winter Counter"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Activate Winter Level 1 From Memory 0",
+        "en" : "Activate Winter Level 1 From Memory 0",
+        "ja" : "Activate Winter Level 1 From Memory 0"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredStatValues"      : [
+        {
+          "Stat" : {
+            "key" : "WinterLevelMemory",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7\u8BB0\u5FC6",
+              "en" : "Winter Level Memory",
+              "ja" : "Winter Level Memory"
+            }
+          }
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "WinterLevel",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7",
+              "en" : "Winter Level",
+              "ja" : "Winter Level"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          },
+          "CannotModifyBeyond" : {
+            "MaxValue" : 6.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SeasonCounter_Winter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63",
+              "en" : "Winter Counter",
+              "ja" : "Winter Counter"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Activate Winter Level 2 From Memory 1",
+        "en" : "Activate Winter Level 2 From Memory 1",
+        "ja" : "Activate Winter Level 2 From Memory 1"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredStatValues"      : [
+        {
+          "Stat" : {
+            "key" : "WinterLevelMemory",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7\u8BB0\u5FC6",
+              "en" : "Winter Level Memory",
+              "ja" : "Winter Level Memory"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "WinterLevel",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7",
+              "en" : "Winter Level",
+              "ja" : "Winter Level"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          },
+          "CannotModifyBeyond" : {
+            "MaxValue" : 6.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SeasonCounter_Winter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63",
+              "en" : "Winter Counter",
+              "ja" : "Winter Counter"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Activate Winter Level 3 From Memory 2",
+        "en" : "Activate Winter Level 3 From Memory 2",
+        "ja" : "Activate Winter Level 3 From Memory 2"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredStatValues"      : [
+        {
+          "Stat" : {
+            "key" : "WinterLevelMemory",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7\u8BB0\u5FC6",
+              "en" : "Winter Level Memory",
+              "ja" : "Winter Level Memory"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "WinterLevel",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7",
+              "en" : "Winter Level",
+              "ja" : "Winter Level"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 3.0,
+            "y" : 3.0
+          },
+          "CannotModifyBeyond" : {
+            "MaxValue" : 6.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SeasonCounter_Winter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63",
+              "en" : "Winter Counter",
+              "ja" : "Winter Counter"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Activate Winter Level 4 From Memory 3",
+        "en" : "Activate Winter Level 4 From Memory 3",
+        "ja" : "Activate Winter Level 4 From Memory 3"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredStatValues"      : [
+        {
+          "Stat" : {
+            "key" : "WinterLevelMemory",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7\u8BB0\u5FC6",
+              "en" : "Winter Level Memory",
+              "ja" : "Winter Level Memory"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 3.0,
+            "y" : 3.0
+          }
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "WinterLevel",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7",
+              "en" : "Winter Level",
+              "ja" : "Winter Level"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 4.0,
+            "y" : 4.0
+          },
+          "CannotModifyBeyond" : {
+            "MaxValue" : 6.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SeasonCounter_Winter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63",
+              "en" : "Winter Counter",
+              "ja" : "Winter Counter"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Activate Winter Level 5 From Memory 4",
+        "en" : "Activate Winter Level 5 From Memory 4",
+        "ja" : "Activate Winter Level 5 From Memory 4"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredStatValues"      : [
+        {
+          "Stat" : {
+            "key" : "WinterLevelMemory",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7\u8BB0\u5FC6",
+              "en" : "Winter Level Memory",
+              "ja" : "Winter Level Memory"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 4.0,
+            "y" : 4.0
+          }
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "WinterLevel",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7",
+              "en" : "Winter Level",
+              "ja" : "Winter Level"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 5.0,
+            "y" : 5.0
+          },
+          "CannotModifyBeyond" : {
+            "MaxValue" : 6.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SeasonCounter_Winter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63",
+              "en" : "Winter Counter",
+              "ja" : "Winter Counter"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Activate Winter Level 6 From Memory 5",
+        "en" : "Activate Winter Level 6 From Memory 5",
+        "ja" : "Activate Winter Level 6 From Memory 5"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredStatValues"      : [
+        {
+          "Stat" : {
+            "key" : "WinterLevelMemory",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7\u8BB0\u5FC6",
+              "en" : "Winter Level Memory",
+              "ja" : "Winter Level Memory"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 5.0,
+            "y" : 5.0
+          }
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "WinterLevel",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7",
+              "en" : "Winter Level",
+              "ja" : "Winter Level"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 6.0,
+            "y" : 6.0
+          },
+          "CannotModifyBeyond" : {
+            "MaxValue" : 6.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SeasonCounter_Winter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63",
+              "en" : "Winter Counter",
+              "ja" : "Winter Counter"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Activate Winter Level 6 From Memory 6",
+        "en" : "Activate Winter Level 6 From Memory 6",
+        "ja" : "Activate Winter Level 6 From Memory 6"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "RequiredStatValues"      : [
+        {
+          "Stat" : {
+            "key" : "WinterLevelMemory",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7\u8BB0\u5FC6",
+              "en" : "Winter Level Memory",
+              "ja" : "Winter Level Memory"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 6.0,
+            "y" : 6.0
+          }
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "WinterLevel",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7",
+              "en" : "Winter Level",
+              "ja" : "Winter Level"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 6.0,
+            "y" : 6.0
+          },
+          "CannotModifyBeyond" : {
+            "MaxValue" : 6.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "RepeatOptions" : 2,
+      "ActionCooldown" : 0,
+      "PlayerUsesCardCondition" : 0,
+      "StatChangeTrigger"       : [
+        {
+          "Stat" : {
+            "key" : "SeasonCounter_Winter",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 2880.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63",
+              "en" : "Winter Counter",
+              "ja" : "Winter Counter"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        }
+      ],
+      "ActionName"              : {
+        "zh" : "Advance Winter Level Memory",
+        "en" : "Advance Winter Level Memory",
+        "ja" : "Advance Winter Level Memory"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "WinterLevelMemory",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 6.0,
+            "name" : {
+              "zh" : "\u51AC\u5B63\u7B49\u7EA7\u8BB0\u5FC6",
+              "en" : "Winter Level Memory",
+              "ja" : "Winter Level Memory"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          },
+          "CannotModifyBeyond" : {
+            "MaxValue" : 6.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
     }
   ],
   "type"    : "SelfTriggeredAction",

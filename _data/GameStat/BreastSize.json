@@ -1,0 +1,524 @@
+
+{
+  "GameName" : {
+    "zh" : "\u80F8\u90E8\u5927\u5C0F",
+    "en" : "Breast Size",
+    "ja" : "Breast Size"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 200.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "StatPriority"    : 500,
+  "Visibility"      : 2,
+  "VisibleInAppearanceTab" : true,
+  "CannotBeInspected"      : true,
+  "StatusesHaveNoBar"      : true,
+  "Statuses"               : [
+    {
+      "GameName" : {
+        "zh" : "Flat Chest",
+        "en" : "Flat Chest",
+        "ja" : "Flat Chest"
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Minimal Breasts",
+        "en" : "Minimal Breasts",
+        "ja" : "Minimal Breasts"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 20
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Small Breasts",
+        "en" : "Small Breasts",
+        "ja" : "Small Breasts"
+      },
+      "ValueRange" : {
+        "m_X" : 21,
+        "m_Y" : 40
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Medium-Sized Breasts",
+        "en" : "Medium-Sized Breasts",
+        "ja" : "Medium-Sized Breasts"
+      },
+      "ValueRange" : {
+        "m_X" : 41,
+        "m_Y" : 60
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Large Breasts",
+        "en" : "Large Breasts",
+        "ja" : "Large Breasts"
+      },
+      "ValueRange" : {
+        "m_X" : 61,
+        "m_Y" : 80
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Very Large Breasts",
+        "en" : "Very Large Breasts",
+        "ja" : "Very Large Breasts"
+      },
+      "ValueRange" : {
+        "m_X" : 81,
+        "m_Y" : 200
+      },
+      "NotifyPlayer" : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 96,
+  "StalenessMultiplier"     : 0.5,
+  "MaxStalenessStack"       : 2,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "BreastSize",
+  "name"                    : {
+    "zh" : "\u80F8\u90E8\u5927\u5C0F",
+    "en" : "Breast Size",
+    "ja" : "Breast Size"
+  },
+  "min"                     : 0.0,
+  "max"                     : 200.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u7AEF\u80A5\u80D6",
+        "en" : "Status Stage: Severely Obese",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u80A5\u6E80"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u80A5\u80D6",
+        "en" : "Status Stage: Obese",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u80A5\u6E80"
+      },
+      "value"       : {
+        "x" : 15.0,
+        "y" : 15.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8D85\u91CD",
+        "en" : "Status Stage: Overweight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u307D\u3063\u3061\u3083\u308A"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F53\u91CD\u6B63\u5E38",
+        "en" : "Status Stage: Normal Weight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6A19\u6E96\u4F53\u91CD"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F53\u91CD\u6B63\u5E38",
+        "en" : "Status Stage: Normal Weight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6A19\u6E96\u4F53\u91CD"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F53\u91CD\u8FC7\u8F7B",
+        "en" : "Status Stage: Underweight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4F53\u91CD\u304C\u8EFD\u3044"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6781\u7AEF\u8FC7\u7626",
+        "en" : "Status Stage: Severely Underweight",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4F53\u91CD\u304C\u304B\u306A\u308A\u8EFD\u3044"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7626\u5F31",
+        "en" : "Status Stage: Emaciated",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30AC\u30EA\u30AC\u30EA"
+      },
+      "value"       : {
+        "x" : -20.0,
+        "y" : -20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6FD2\u4E34\u997F\u6B7B",
+        "en" : "Status Stage: On the Verge of Starvation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u98E2\u9913\u72B6\u614B\u306B\u306A\u308A\u305D\u3046"
+      },
+      "value"       : {
+        "x" : -20.0,
+        "y" : -20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Weight",
+        "type" : "GameStat",
+        "icon" : "NPCPerkTabGroup__NPCPkTab1_Body__Icon",
+        "min"  : 293999.0,
+        "max"  : 1000000.0,
+        "name" : {
+          "zh" : "\u4F53\u91CD",
+          "en" : "Weight",
+          "ja" : "\u4F53\u91CD"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6B7B\u4E8E\u9965\u997F",
+        "en" : "Status Stage: Dead of Starvation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u98E2\u9913\u3067\u6B7B\u3093\u3060\u3002"
+      },
+      "value"       : {
+        "x" : -20.0,
+        "y" : -20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Estrogen",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u96CC\u6FC0\u7D20",
+          "en" : "Estrogen",
+          "ja" : "\u5973\u6027\u30DB\u30EB\u30E2\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u96CC\u6FC0\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: Low Estrogen",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5973\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u4F4E\uFF09"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Estrogen",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u96CC\u6FC0\u7D20",
+          "en" : "Estrogen",
+          "ja" : "\u5973\u6027\u30DB\u30EB\u30E2\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u96CC\u6FC0\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: Moderate Estrogen",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5973\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u4E2D\uFF09"
+      },
+      "value"       : {
+        "x" : 40.0,
+        "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Estrogen",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u96CC\u6FC0\u7D20",
+          "en" : "Estrogen",
+          "ja" : "\u5973\u6027\u30DB\u30EB\u30E2\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u96CC\u6FC0\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: High Estrogen",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5973\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u9AD8\uFF09"
+      },
+      "value"       : {
+        "x" : 60.0,
+        "y" : 60.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Testosterone",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u96C4\u6FC0\u7D20",
+          "en" : "Testosterone",
+          "ja" : "\u7537\u6027\u30DB\u30EB\u30E2\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u96C4\u6FC0\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: Moderate Testosterone",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7537\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u4E2D\uFF09"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Testosterone",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u96C4\u6FC0\u7D20",
+          "en" : "Testosterone",
+          "ja" : "\u7537\u6027\u30DB\u30EB\u30E2\u30F3"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u96C4\u6FC0\u7D20\u6C34\u5E73",
+        "en" : "Status Stage: High Testosterone",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7537\u6027\u30DB\u30EB\u30E2\u30F3\uFF08\u9AD8\uFF09"
+      },
+      "value"       : {
+        "x" : -20.0,
+        "y" : -20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_3_18_BustFuller",
+        "type" : "CharacterPerk",
+        "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
+        "name" : {
+          "zh" : "\u4E30\u6EE1\u80F8\u56F4",
+          "en" : "Fuller Bust",
+          "ja" : "Fuller Bust"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_3_18_BustSmaller",
+        "type" : "CharacterPerk",
+        "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
+        "name" : {
+          "zh" : "\u5A07\u5C0F\u80F8\u56F4",
+          "en" : "Smaller Bust",
+          "ja" : "Smaller Bust"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : -20.0,
+        "y" : -20.0
+      }
+    }
+  ],
+  "_uuid"                   : "58229a017df84e628607c56e297d7af3"
+}

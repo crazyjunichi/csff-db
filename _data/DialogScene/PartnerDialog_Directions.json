@@ -172,7 +172,7 @@
         },
         {
           "Answer" : {
-            "zh" : "Complex Tasks",
+            "zh" : "\u590D\u6742\u7684\u4EFB\u52A1",
             "en" : "Complex Tasks",
             "ja" : "Complex Tasks"
           },
@@ -182,7 +182,7 @@
               "key" : "Expeditions Hub",
               "type" : "DialogLine",
               "name" : {
-                "zh" : "Your partner listens attentively.",
+                "zh" : "\u4F60\u7684\u540C\u4F34\u6B63\u8BA4\u771F\u7684\u503E\u542C\u3002",
                 "en" : "Your partner listens attentively.",
                 "ja" : "Your partner listens attentively."
               }
@@ -217,6 +217,82 @@
             "Ticks"      : 0,
             "Miniticks"  : 0
           }
+        },
+        {
+          "Answer" : {
+            "zh" : "Mark place as workplace",
+            "en" : "Mark place as workplace",
+            "ja" : "Mark place as workplace"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "Directions Hub",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "\u4F60\u7684\u540C\u4F34\u6B63\u542C\u7740\u5462\u3002",
+                "en" : "Your partner listens.",
+                "ja" : "Your partner listens."
+              }
+            }
+          },
+          "ActionToPerform" : {
+            "NPCSetSpecialLocation" : [
+              {
+                "Location" : {
+                  "LocationUID" : 1
+                },
+                "UseAssociatedAgent" : true,
+                "SetLocation"        : 0
+              }
+            ],
+            "Ticks"                 : 0,
+            "Miniticks"             : 0
+          }
+        },
+        {
+          "Conditions" : {
+            "PlayerUsesCard" : 0,
+            "RequiredNPCAtSpecialLocation" : [
+              {
+                "Location" : {
+                  "LocationUID" : 1
+                },
+                "HasLocation" : 1,
+                "IsAtLocation" : 0
+              }
+            ]
+          },
+          "Answer"     : {
+            "zh" : "Clear Workplace",
+            "en" : "Clear Workplace",
+            "ja" : "Clear Workplace"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "Directions Hub",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "\u4F60\u7684\u540C\u4F34\u6B63\u542C\u7740\u5462\u3002",
+                "en" : "Your partner listens.",
+                "ja" : "Your partner listens."
+              }
+            }
+          },
+          "ActionToPerform" : {
+            "NPCSetSpecialLocation" : [
+              {
+                "Location" : {
+                  "LocationUID" : 1
+                },
+                "UseAssociatedAgent" : true,
+                "SetLocation"        : 3
+              }
+            ],
+            "Ticks"                 : 0,
+            "Miniticks"             : 0
+          }
         }
       ],
       "key"                : "Directions Hub",
@@ -224,7 +300,7 @@
     },
     {
       "Line" : {
-        "zh" : "Your partner listens attentively.",
+        "zh" : "\u4F60\u7684\u540C\u4F34\u6B63\u8BA4\u771F\u7684\u503E\u542C\u3002",
         "en" : "Your partner listens attentively.",
         "ja" : "Your partner listens attentively."
       },
@@ -232,7 +308,7 @@
       "PossibleAnswers"    : [
         {
           "Answer" : {
-            "zh" : "Back",
+            "zh" : "\u8FD4\u56DE",
             "en" : "Back",
             "ja" : "Back"
           },
@@ -268,7 +344,7 @@
             ]
           },
           "Answer"     : {
-            "zh" : "Go Foraging",
+            "zh" : "\u53BB\u89C5\u98DF",
             "en" : "Go Foraging",
             "ja" : "Go Foraging"
           },
@@ -278,7 +354,7 @@
               "key" : "Foraging Go!",
               "type" : "DialogLine",
               "name" : {
-                "zh" : "Your partner prepares to go foraging and promises to return once enough food has been found or before it gets dark.",
+                "zh" : "\u4F60\u7684\u4F19\u4F34\u51C6\u5907\u53BB\u89C5\u98DF\uFF0C\u627F\u8BFA\u4E00\u65E6\u627E\u5230\u8DB3\u591F\u7684\u98DF\u7269\u6216\u5728\u5929\u9ED1\u524D\u5C31\u4F1A\u56DE\u6765\u3002",
                 "en" : "Your partner prepares to go foraging and promises to return once enough food has been found or before it gets dark.",
                 "ja" : "Your partner prepares to go foraging and promises to return once enough food has been found or before it gets dark."
               }
@@ -342,7 +418,7 @@
             ]
           },
           "Answer"     : {
-            "zh" : "Go Fishing",
+            "zh" : "\u53BB\u9493\u9C7C",
             "en" : "Go Fishing",
             "ja" : "Go Fishing"
           },
@@ -352,7 +428,7 @@
               "key" : "Fishing Go!",
               "type" : "DialogLine",
               "name" : {
-                "zh" : "Your partner prepares to go fishing and promises to return once enough fish has been found or before it gets dark.",
+                "zh" : "\u4F60\u7684\u4F19\u4F34\u51C6\u5907\u53BB\u9493\u9C7C\uFF0C\u627F\u8BFA\u4E00\u65E6\u9493\u5230\u8DB3\u591F\u7684\u9C7C\u6216\u5728\u5929\u9ED1\u524D\u5C31\u4F1A\u56DE\u6765\u3002",
                 "en" : "Your partner prepares to go fishing and promises to return once enough fish has been found or before it gets dark.",
                 "ja" : "Your partner prepares to go fishing and promises to return once enough fish has been found or before it gets dark."
               }
@@ -416,7 +492,7 @@
             ]
           },
           "Answer"     : {
-            "zh" : "Go Hunting",
+            "zh" : "\u53BB\u72E9\u730E",
             "en" : "Go Hunting",
             "ja" : "Go Hunting"
           },
@@ -426,7 +502,7 @@
               "key" : "Hunting Go!",
               "type" : "DialogLine",
               "name" : {
-                "zh" : "Your partner prepares to go hunting and promises to return once something has been caught or before it gets dark.",
+                "zh" : "\u4F60\u7684\u540C\u4F34\u51C6\u5907\u51FA\u95E8\u72E9\u730E\uFF0C\u7B54\u5E94\u6253\u5230\u730E\u7269\u540E\u5C31\u56DE\u6765\uFF0C\u6700\u665A\u5929\u9ED1\u524D\u8FD4\u56DE\u3002",
                 "en" : "Your partner prepares to go hunting and promises to return once something has been caught or before it gets dark.",
                 "ja" : "Your partner prepares to go hunting and promises to return once something has been caught or before it gets dark."
               }
@@ -494,7 +570,7 @@
             ]
           },
           "Answer"     : {
-            "zh" : "Cancel Expeditions",
+            "zh" : "\u53D6\u6D88\u63A2\u9669",
             "en" : "Cancel Expeditions",
             "ja" : "Cancel Expeditions"
           },
@@ -504,7 +580,7 @@
               "key" : "Cancel Expeditions",
               "type" : "DialogLine",
               "name" : {
-                "zh" : "Your partner cancels all expeditions and complex tasks.",
+                "zh" : "\u4F60\u7684\u4F19\u4F34\u53D6\u6D88\u4E86\u6240\u6709\u63A2\u9669\u548C\u590D\u6742\u4EFB\u52A1\u3002",
                 "en" : "Your partner cancels all expeditions and complex tasks.",
                 "ja" : "Your partner cancels all expeditions and complex tasks."
               }
@@ -587,7 +663,7 @@
     },
     {
       "Line" : {
-        "zh" : "Your partner prepares to go foraging and promises to return once enough food has been found or before it gets dark.",
+        "zh" : "\u4F60\u7684\u4F19\u4F34\u51C6\u5907\u53BB\u89C5\u98DF\uFF0C\u627F\u8BFA\u4E00\u65E6\u627E\u5230\u8DB3\u591F\u7684\u98DF\u7269\u6216\u5728\u5929\u9ED1\u524D\u5C31\u4F1A\u56DE\u6765\u3002",
         "en" : "Your partner prepares to go foraging and promises to return once enough food has been found or before it gets dark.",
         "ja" : "Your partner prepares to go foraging and promises to return once enough food has been found or before it gets dark."
       },
@@ -595,7 +671,7 @@
       "PossibleAnswers"    : [
         {
           "Answer" : {
-            "zh" : "Continue",
+            "zh" : "\u7EE7\u7EED",
             "en" : "Continue",
             "ja" : "Continue"
           },
@@ -611,7 +687,7 @@
     },
     {
       "Line" : {
-        "zh" : "Your partner prepares to go fishing and promises to return once enough fish has been found or before it gets dark.",
+        "zh" : "\u4F60\u7684\u4F19\u4F34\u51C6\u5907\u53BB\u9493\u9C7C\uFF0C\u627F\u8BFA\u4E00\u65E6\u9493\u5230\u8DB3\u591F\u7684\u9C7C\u6216\u5728\u5929\u9ED1\u524D\u5C31\u4F1A\u56DE\u6765\u3002",
         "en" : "Your partner prepares to go fishing and promises to return once enough fish has been found or before it gets dark.",
         "ja" : "Your partner prepares to go fishing and promises to return once enough fish has been found or before it gets dark."
       },
@@ -624,7 +700,7 @@
       "PossibleAnswers"    : [
         {
           "Answer" : {
-            "zh" : "Continue",
+            "zh" : "\u7EE7\u7EED",
             "en" : "Continue",
             "ja" : "Continue"
           }
@@ -635,7 +711,7 @@
     },
     {
       "Line" : {
-        "zh" : "Your partner cancels all expeditions and complex tasks.",
+        "zh" : "\u4F60\u7684\u4F19\u4F34\u53D6\u6D88\u4E86\u6240\u6709\u63A2\u9669\u548C\u590D\u6742\u4EFB\u52A1\u3002",
         "en" : "Your partner cancels all expeditions and complex tasks.",
         "ja" : "Your partner cancels all expeditions and complex tasks."
       },
@@ -643,7 +719,7 @@
       "PossibleAnswers"    : [
         {
           "Answer" : {
-            "zh" : "Continue",
+            "zh" : "\u7EE7\u7EED",
             "en" : "Continue",
             "ja" : "Continue"
           }
@@ -654,7 +730,7 @@
     },
     {
       "Line" : {
-        "zh" : "Your partner prepares to go hunting and promises to return once something has been caught or before it gets dark.",
+        "zh" : "\u4F60\u7684\u540C\u4F34\u51C6\u5907\u51FA\u95E8\u72E9\u730E\uFF0C\u7B54\u5E94\u6253\u5230\u730E\u7269\u540E\u5C31\u56DE\u6765\uFF0C\u6700\u665A\u5929\u9ED1\u524D\u8FD4\u56DE\u3002",
         "en" : "Your partner prepares to go hunting and promises to return once something has been caught or before it gets dark.",
         "ja" : "Your partner prepares to go hunting and promises to return once something has been caught or before it gets dark."
       },
@@ -667,7 +743,7 @@
       "PossibleAnswers"    : [
         {
           "Answer" : {
-            "zh" : "Continue",
+            "zh" : "\u7EE7\u7EED",
             "en" : "Continue",
             "ja" : "Continue"
           }
@@ -713,7 +789,7 @@
                   "key" : "PartnerDuty_NettleFiber",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u63D0\u53D6\u8368\u9EBB\u7EA4\u7EF4",
+                    "zh" : "\u5904\u7406",
                     "en" : "Process",
                     "ja" : "Process"
                   }
@@ -747,7 +823,7 @@
                   "key" : "PartnerDuty_NettleFiber",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u63D0\u53D6\u8368\u9EBB\u7EA4\u7EF4",
+                    "zh" : "\u5904\u7406",
                     "en" : "Process",
                     "ja" : "Process"
                   }
@@ -759,7 +835,7 @@
                   "key" : "PartnerDuty_PoundSinew",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u6376\u6253\u808C\u8171",
+                    "zh" : "\u6376\u6253",
                     "en" : "Pound",
                     "ja" : "Pound"
                   }
@@ -783,7 +859,7 @@
                   "key" : "PartnerDuty_GutFish",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u5256\u9C7C",
+                    "zh" : "\u5256",
                     "en" : "Gut",
                     "ja" : "Gut"
                   }
@@ -828,7 +904,7 @@
                   "key" : "PartnerDuty_NettleFiber",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u63D0\u53D6\u8368\u9EBB\u7EA4\u7EF4",
+                    "zh" : "\u5904\u7406",
                     "en" : "Process",
                     "ja" : "Process"
                   }
@@ -861,7 +937,7 @@
                   "key" : "PartnerDuty_NettleFiber",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u63D0\u53D6\u8368\u9EBB\u7EA4\u7EF4",
+                    "zh" : "\u5904\u7406",
                     "en" : "Process",
                     "ja" : "Process"
                   }
@@ -874,7 +950,7 @@
                   "key" : "PartnerDuty_PoundSinew",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u6376\u6253\u808C\u8171",
+                    "zh" : "\u6376\u6253",
                     "en" : "Pound",
                     "ja" : "Pound"
                   }
@@ -887,7 +963,7 @@
                   "key" : "PartnerDuty_GutFish",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u5256\u9C7C",
+                    "zh" : "\u5256",
                     "en" : "Gut",
                     "ja" : "Gut"
                   }
@@ -1006,7 +1082,7 @@
                   "key" : "PartnerDuty_GrindWithHammeringTool",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u7528\u9524\u51FB\u5DE5\u5177\u7814\u78E8",
+                    "zh" : "\u7814\u78E8",
                     "en" : "Grind",
                     "ja" : "Grind"
                   }
@@ -1018,7 +1094,7 @@
                   "key" : "PartnerDuty_GrindWithMortarAndPestle",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u7528\u81FC\u548C\u6775\u7814\u78E8",
+                    "zh" : "\u7814\u78E8",
                     "en" : "Grind",
                     "ja" : "Grind"
                   }
@@ -1054,7 +1130,7 @@
                   "key" : "PartnerDuty_MakeFilling",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u7EDE\u8089",
+                    "zh" : "\u5236\u9985",
                     "en" : "Make Filling",
                     "ja" : "Make Filling"
                   }
@@ -1066,7 +1142,7 @@
                   "key" : "PartnerDuty_MakeTwineFromPineRoots",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u7528\u677E\u6811\u6839\u5236\u7EBF",
+                    "zh" : "\u7528\u677E\u6811\u6839\u7F16\u7EBF",
                     "en" : "Make Cord from Pine Roots",
                     "ja" : "Make Cord from Pine Roots"
                   }
@@ -1078,7 +1154,7 @@
                   "key" : "PartnerDuty_MinceMeat",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u7EDE\u8089",
+                    "zh" : "\u5241\u8089",
                     "en" : "Mince",
                     "ja" : "Mince"
                   }
@@ -1090,7 +1166,7 @@
                   "key" : "PartnerDuty_PressCheese",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u538B\u5236\u5976\u916A",
+                    "zh" : "\u538B\u5236",
                     "en" : "Press",
                     "ja" : "Press"
                   }
@@ -1102,7 +1178,7 @@
                   "key" : "PartnerDuty_SinewCord",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u5236\u4F5C\u808C\u8171\u7EF3",
+                    "zh" : "\u5236\u4F5C\u7EC6\u7EBF",
                     "en" : "Make Cord",
                     "ja" : "Make Cord"
                   }
@@ -1182,7 +1258,7 @@
                   "key" : "PartnerDuty_GrindWithHammeringTool",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u7528\u9524\u51FB\u5DE5\u5177\u7814\u78E8",
+                    "zh" : "\u7814\u78E8",
                     "en" : "Grind",
                     "ja" : "Grind"
                   }
@@ -1195,7 +1271,7 @@
                   "key" : "PartnerDuty_GrindWithMortarAndPestle",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u7528\u81FC\u548C\u6775\u7814\u78E8",
+                    "zh" : "\u7814\u78E8",
                     "en" : "Grind",
                     "ja" : "Grind"
                   }
@@ -1234,7 +1310,7 @@
                   "key" : "PartnerDuty_MakeFilling",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u7EDE\u8089",
+                    "zh" : "\u5236\u9985",
                     "en" : "Make Filling",
                     "ja" : "Make Filling"
                   }
@@ -1247,7 +1323,7 @@
                   "key" : "PartnerDuty_MakeTwineFromPineRoots",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u7528\u677E\u6811\u6839\u5236\u7EBF",
+                    "zh" : "\u7528\u677E\u6811\u6839\u7F16\u7EBF",
                     "en" : "Make Cord from Pine Roots",
                     "ja" : "Make Cord from Pine Roots"
                   }
@@ -1260,7 +1336,7 @@
                   "key" : "PartnerDuty_MinceMeat",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u7EDE\u8089",
+                    "zh" : "\u5241\u8089",
                     "en" : "Mince",
                     "ja" : "Mince"
                   }
@@ -1273,7 +1349,7 @@
                   "key" : "PartnerDuty_PressCheese",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u538B\u5236\u5976\u916A",
+                    "zh" : "\u538B\u5236",
                     "en" : "Press",
                     "ja" : "Press"
                   }
@@ -1286,7 +1362,7 @@
                   "key" : "PartnerDuty_SinewCord",
                   "type" : "NPCDuty",
                   "name" : {
-                    "zh" : "\u5236\u4F5C\u808C\u8171\u7EF3",
+                    "zh" : "\u5236\u4F5C\u7EC6\u7EBF",
                     "en" : "Make Cord",
                     "ja" : "Make Cord"
                   }

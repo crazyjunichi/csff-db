@@ -1,0 +1,67 @@
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Imp_FirePlace",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Fireplace__CardImage",
+            "name"     : {
+              "zh" : "\u58C1\u7089",
+              "en" : "Fireplace",
+              "ja" : "\u7089\u8FBA"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Imp_FirePlace",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Fireplace__CardImage",
+            "name"     : {
+              "zh" : "\u58C1\u7089",
+              "en" : "Fireplace",
+              "ja" : "\u7089\u8FBA"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Imp_FirePlace (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "\u65BD\u5DE5\uFF1A\u58C1\u7089",
+    "en" : "Work on Fireplace",
+    "ja" : "Work on Imp_FirePlace (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

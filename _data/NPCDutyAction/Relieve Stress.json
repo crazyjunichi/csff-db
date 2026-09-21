@@ -1,0 +1,30 @@
+
+{
+  "NPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "Partner_Stress",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u538B\u529B",
+          "en" : "Partner_Stress",
+          "ja" : "Partner_Stress"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : -144.0,
+        "y" : -144.0
+      },
+      "IgnoreNovelty"      : true
+    }
+  ],
+  "key"              : "Relieve Stress",
+  "type"             : "NPCDutyAction",
+  "name"             : {
+    "zh" : "\u7F13\u89E3\u538B\u529B",
+    "en" : "Relieve Stress",
+    "ja" : "Relieve Stress"
+  },
+  "actionType"       : "ChangeNPCStatDutyAction"
+}

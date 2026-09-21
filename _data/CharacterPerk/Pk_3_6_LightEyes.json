@@ -5,16 +5,16 @@
   "StarsCost" : 0,
   "PerkName"  : {
     "zh" : "\u6D45\u8272\u773C\u775B",
-    "en" : "Light Eyes",
+    "en" : "Light Blue Eyes",
     "ja" : "\u660E\u308B\u3044\u76EE"
   },
   "PerkDescription" : {
     "zh" : "\u5728\u660F\u6697\u7684\u5149\u7EBF\u73AF\u5883\u4E2D\u63D0\u9AD8\u4F60\u7684\u89C6\u529B\u3002",
-    "en" : "Improves your sight in low light conditions.",
+    "en" : "Makes you start with light blue eyes and improves your sight in low light conditions.",
     "ja" : "\u6697\u3044\u74B0\u5883\u3060\u3068\u8996\u529B\u304C\u826F\u304F\u306A\u308B\u3002\u3002"
   },
   "PerkIcon"        : {
-    "FileName" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon"
+    "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
   },
   "DifficultyRating" : 0,
   "DisplayPriority"  : 89.0,
@@ -33,16 +33,33 @@
           "ja" : "\u5149"
         }
       }
+    },
+    {
+      "Stat" : {
+        "key" : "EyeType",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 227.0,
+        "name" : {
+          "zh" : "\u773C\u578B",
+          "en" : "Eye Type",
+          "ja" : "Eye Type"
+        }
+      },
+      "ValueModifier" : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
     }
   ],
   "StartUnlocked"        : true,
   "CheckingNotificationDetails" : 0,
   "type"                        : "CharacterPerk",
   "key"                         : "Pk_3_6_LightEyes",
-  "icon"                        : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+  "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
   "name"                        : {
     "zh" : "\u6D45\u8272\u773C\u775B",
-    "en" : "Light Eyes",
+    "en" : "Light Blue Eyes",
     "ja" : "\u660E\u308B\u3044\u76EE"
   },
   "_uuid"                       : "1f711dddf0d18a44a853a9ea83a993fb"

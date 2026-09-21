@@ -1,0 +1,27 @@
+
+{
+  "Conditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCAtSpecialLocation" : [
+      {
+        "Location" : {
+          "LocationUID" : 1
+        },
+        "HasLocation" : 0,
+        "IsAtLocation" : 1
+      }
+    ]
+  },
+  "OnTrue"     : {
+    "Outcome" : 3,
+    "MoveToStep" : 0
+  },
+  "key"        : "Am I at workplace",
+  "type"       : "NPCDutyAction",
+  "name"       : {
+    "zh" : "\u662F\u5426\u5728\u5DE5\u4F5C\u70B9",
+    "en" : "Am I at workplace",
+    "ja" : "Am I at workplace"
+  },
+  "actionType" : "TakeSimpleDecisionDutyAction"
+}

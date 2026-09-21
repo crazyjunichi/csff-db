@@ -5,16 +5,16 @@
   "StarsCost" : 0,
   "PerkName"  : {
     "zh" : "\u6D45\u8272\u5934\u53D1",
-    "en" : "Light Hair",
+    "en" : "Blonde Hair",
     "ja" : "\u660E\u308B\u3044\u9AEA"
   },
   "PerkDescription" : {
     "zh" : "\u5728\u591A\u4E91\u7B49\u5929\u6C14\u4E0B\u7A0D\u6613\u83B7\u5F97\u9633\u5149\uFF0C\u4F46\u4F1A\u8BA9\u4F60\u66F4\u5BB9\u6613\u6652\u4F24\u3002",
-    "en" : "Makes it slightly easier to get sunlight in cloudy weather, but makes you more susceptible to sun damage.",
+    "en" : "Makes you start with blonde hair. It is slightly easier to get sunlight in cloudy weather, but you are more susceptible to sun damage.",
     "ja" : "\u66C7\u308A\u3067\u3082\u5C11\u3057\u65E5\u5149\u306E\u5F71\u97FF\u3092\u53D7\u3051\u3084\u3059\u304F\u306A\u308B\u3002\u65E5\u5149\u30C0\u30E1\u30FC\u30B8\u306B\u5F31\u3044\u3002"
   },
   "PerkIcon"        : {
-    "FileName" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon"
+    "FileName" : "NPCCharacterPerk__PartnerPerk_HairColourBlonde__PerkIcon"
   },
   "DifficultyRating" : 0,
   "DisplayPriority"  : 89.0,
@@ -51,16 +51,33 @@
           "ja" : "\u65E5\u713C\u3051"
         }
       }
+    },
+    {
+      "Stat" : {
+        "key" : "HairColour",
+        "type" : "GameStat",
+        "min"  : -10.0,
+        "max"  : 10.0,
+        "name" : {
+          "zh" : "\u53D1\u8272",
+          "en" : "Hair Colour",
+          "ja" : "Hair Colour"
+        }
+      },
+      "ValueModifier" : {
+        "x" : -3.0,
+        "y" : -3.0
+      }
     }
   ],
   "StartUnlocked"        : true,
   "CheckingNotificationDetails" : 0,
   "type"                        : "CharacterPerk",
   "key"                         : "Pk_3_5_LightHair",
-  "icon"                        : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+  "icon"                        : "NPCCharacterPerk__PartnerPerk_HairColourBlonde__PerkIcon",
   "name"                        : {
     "zh" : "\u6D45\u8272\u5934\u53D1",
-    "en" : "Light Hair",
+    "en" : "Blonde Hair",
     "ja" : "\u660E\u308B\u3044\u9AEA"
   },
   "_uuid"                       : "320aba5e4b62f8e46ac6a4ad82ab47c4"

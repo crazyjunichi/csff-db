@@ -5,31 +5,32 @@
     "en" : "Facial Hair Length",
     "ja" : "Facial Hair Length"
   },
-  "BaseValue" : 673.0,
+  "BaseValue" : 0.0,
   "MinMaxValue" : {
     "x" : 0.0,
-    "y" : 69120.0
+    "y" : 192.0
   },
   "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
+  "StatPriority"    : 1400,
   "Visibility"      : 0,
   "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "VisibleInAppearanceTab" : true,
+  "BarColor"               : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"      : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"      : {
     "FileName" : "GameStat__Empathy__DefaultStatusIcon"
   },
-  "Statuses"              : [
+  "Statuses"               : [
     {
       "ValueRange" : {
         "m_X" : 0,
@@ -209,8 +210,75 @@
     "ja" : "Facial Hair Length"
   },
   "min"                     : 0.0,
-  "max"                     : 69120.0,
+  "max"                     : 192.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Pk_3_17_BeardFull",
+        "type" : "CharacterPerk",
+        "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+        "name" : {
+          "zh" : "\u7EDC\u816E\u80E1",
+          "en" : "Full Beard",
+          "ja" : "Full Beard"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 5760.0,
+        "y" : 5760.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_3_17_BeardLong",
+        "type" : "CharacterPerk",
+        "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBrown__PerkIcon",
+        "name" : {
+          "zh" : "\u957F\u80E1\u987B",
+          "en" : "Long Beard",
+          "ja" : "Long Beard"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B",
+        "en" : "Perk",
+        "ja" : "\u30D1\u30FC\u30AF"
+      },
+      "value"       : {
+        "x" : 34561.0,
+        "y" : 34561.0
+      }
+    }
+  ],
   "_modifierRates"          : [
+    {
+      "source" : {
+        "key" : "SexualOrgans",
+        "type" : "GameStat",
+        "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 2.0,
+        "name" : {
+          "zh" : "\u6027\u5668\u5B98",
+          "en" : "Sexual Organs",
+          "ja" : "Sexual Organs"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5973\u6027",
+        "en" : "Status Stage: Female",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AFemale"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
     {
       "source" : {
         "key" : "Testosterone",

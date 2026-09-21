@@ -1,0 +1,67 @@
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Imp_PathNorthEast",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Imp_HuntingFencesEast__CardImage",
+            "name"     : {
+              "zh" : "\u4E1C\u5317\u65B9\u9053\u8DEF",
+              "en" : "Path Northeast",
+              "ja" : "\u5317\u6771\u3078\u306E\u9053"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Imp_PathNorthEast",
+            "type" : "CardData",
+            "CardType" : 10,
+            "icon"     : "CardData__Imp_HuntingFencesEast__CardImage",
+            "name"     : {
+              "zh" : "\u4E1C\u5317\u65B9\u9053\u8DEF",
+              "en" : "Path Northeast",
+              "ja" : "\u5317\u6771\u3078\u306E\u9053"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Imp_PathNorthEast (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "\u65BD\u5DE5\uFF1A\u4E1C\u5317\u65B9\u9053\u8DEF",
+    "en" : "Work on Path Northeast",
+    "ja" : "Work on Imp_PathNorthEast (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

@@ -1,0 +1,1340 @@
+
+{
+  "GameName" : {
+    "zh" : "\u53D1\u578B",
+    "en" : "Hairstyle",
+    "ja" : "Hairstyle"
+  },
+  "BaseValue" : 0.0,
+  "MinMaxValue" : {
+    "x" : 0.0,
+    "y" : 5.0
+  },
+  "BaseRatePerTick" : 0.0,
+  "Transfers"       : [
+    {
+      "TransferID" : "HairstyleExpiry",
+      "OtherStat"  : {
+        "key" : "HairstyleDuration",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53D1\u578B\u4FDD\u6301\u65F6\u95F4",
+          "en" : "Hairstyle Duration",
+          "ja" : "Hairstyle Duration"
+        }
+      },
+      "Priority"   : 0,
+      "TransferPerTick" : 5.0,
+      "ThisStatValueCondition" : {
+        "MaxValue" : 5.0,
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "OtherStatValueCondition" : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      }
+    }
+  ],
+  "StatPriority"    : 1160,
+  "Visibility"      : 2,
+  "VisibleInAppearanceTab" : true,
+  "CannotBeInspected"      : true,
+  "StatusesHaveNoBar"      : true,
+  "Statuses"               : [
+    {
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "HairstyleDuration",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53D1\u578B\u4FDD\u6301\u65F6\u95F4",
+              "en" : "Hairstyle Duration",
+              "ja" : "Hairstyle Duration"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Hair in a Bun",
+        "en" : "Hair in a Bun",
+        "ja" : "Hair in a Bun"
+      },
+      "ValueRange" : {
+        "m_X" : 1,
+        "m_Y" : 1
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "HairWilderness",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5934\u53D1\u84EC\u4E71",
+              "en" : "Hair Wilderness",
+              "ja" : "Hair Wilderness"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.04,
+            "y" : -0.04
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Temple Braids",
+        "en" : "Temple Braids",
+        "ja" : "Temple Braids"
+      },
+      "ValueRange" : {
+        "m_X" : 2,
+        "m_Y" : 2
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Ornamentation",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u88C5\u9970",
+              "en" : "Ornamentation",
+              "ja" : "Ornamentation"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Back Braid",
+        "en" : "Back Braid",
+        "ja" : "Back Braid"
+      },
+      "ValueRange" : {
+        "m_X" : 3,
+        "m_Y" : 3
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "HairWilderness",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5934\u53D1\u84EC\u4E71",
+              "en" : "Hair Wilderness",
+              "ja" : "Hair Wilderness"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.05,
+            "y" : -0.05
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "Ornamentation",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u88C5\u9970",
+              "en" : "Ornamentation",
+              "ja" : "Ornamentation"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Braided Bun",
+        "en" : "Braided Bun",
+        "ja" : "Braided Bun"
+      },
+      "ValueRange" : {
+        "m_X" : 4,
+        "m_Y" : 4
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "HairWilderness",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5934\u53D1\u84EC\u4E71",
+              "en" : "Hair Wilderness",
+              "ja" : "Hair Wilderness"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.06,
+            "y" : -0.06
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "Ornamentation",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u88C5\u9970",
+              "en" : "Ornamentation",
+              "ja" : "Ornamentation"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 3.0,
+            "y" : 3.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Close Braids",
+        "en" : "Close Braids",
+        "ja" : "Close Braids"
+      },
+      "ValueRange" : {
+        "m_X" : 5,
+        "m_Y" : 5
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "HairWilderness",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5934\u53D1\u84EC\u4E71",
+              "en" : "Hair Wilderness",
+              "ja" : "Hair Wilderness"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.03,
+            "y" : -0.03
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "Ornamentation",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u88C5\u9970",
+              "en" : "Ornamentation",
+              "ja" : "Ornamentation"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration" : 96,
+  "StalenessMultiplier"     : 0.5,
+  "MaxStalenessStack"       : 2,
+  "FeedbackInfo"            : {
+    "StepValue" : 1.0
+  },
+  "type"                    : "GameStat",
+  "key"                     : "Hairstyle",
+  "name"                    : {
+    "zh" : "\u53D1\u578B",
+    "en" : "Hairstyle",
+    "ja" : "Hairstyle"
+  },
+  "min"                     : 0.0,
+  "max"                     : 5.0,
+  "_modifierValues"         : [
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABun",
+        "en" : "Action: Bun",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABun"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABun",
+        "en" : "Action: Bun",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABun"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATemple Braids",
+        "en" : "Action: Temple Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATemple Braids"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATemple Braids",
+        "en" : "Action: Temple Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATemple Braids"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATemple Braids",
+        "en" : "Action: Temple Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATemple Braids"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATemple Braids",
+        "en" : "Action: Temple Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATemple Braids"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATemple Braids",
+        "en" : "Action: Temple Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATemple Braids"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATemple Braids",
+        "en" : "Action: Temple Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATemple Braids"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABack Braid",
+        "en" : "Action: Back Braid",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABack Braid"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABack Braid",
+        "en" : "Action: Back Braid",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABack Braid"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABraided Bun",
+        "en" : "Action: Braided Bun",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABraided Bun"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABraided Bun",
+        "en" : "Action: Braided Bun",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABraided Bun"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose Braids",
+        "en" : "Action: Close Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose Braids"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose Braids",
+        "en" : "Action: Close Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose Braids"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose Braids",
+        "en" : "Action: Close Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose Braids"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_StyleHair",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Event_StyleHair__CardImage",
+        "name"     : {
+          "zh" : "\u53D1\u578B\u6253\u7406",
+          "en" : "Hair Styling",
+          "ja" : "Hair Styling"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClose Braids",
+        "en" : "Action: Close Braids",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClose Braids"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Flint",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Axe_Flint__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u71E7\u77F3\u5200",
+          "en" : "Flint Knife",
+          "ja" : "\u706B\u6253\u77F3\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Flint",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Axe_Flint__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u71E7\u77F3\u5200",
+          "en" : "Flint Knife",
+          "ja" : "\u706B\u6253\u77F3\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Flint",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Axe_Flint__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u71E7\u77F3\u5200",
+          "en" : "Flint Knife",
+          "ja" : "\u706B\u6253\u77F3\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Flint",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Axe_Flint__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u71E7\u77F3\u5200",
+          "en" : "Flint Knife",
+          "ja" : "\u706B\u6253\u77F3\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Flint",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Axe_Flint__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u71E7\u77F3\u5200",
+          "en" : "Flint Knife",
+          "ja" : "\u706B\u6253\u77F3\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Flint",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Axe_Flint__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u71E7\u77F3\u5200",
+          "en" : "Flint Knife",
+          "ja" : "\u706B\u6253\u77F3\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_ButcheringKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_ButcheringKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5C60\u5BB0\u5200",
+          "en" : "Metal Butchering Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u89E3\u4F53\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_ButcheringKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_ButcheringKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5C60\u5BB0\u5200",
+          "en" : "Metal Butchering Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u89E3\u4F53\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_ButcheringKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_ButcheringKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5C60\u5BB0\u5200",
+          "en" : "Metal Butchering Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u89E3\u4F53\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_ButcheringKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_ButcheringKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5C60\u5BB0\u5200",
+          "en" : "Metal Butchering Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u89E3\u4F53\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_ButcheringKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_ButcheringKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5C60\u5BB0\u5200",
+          "en" : "Metal Butchering Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u89E3\u4F53\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_ButcheringKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_ButcheringKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5C60\u5BB0\u5200",
+          "en" : "Metal Butchering Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u89E3\u4F53\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_Knife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Knife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5200",
+          "en" : "Metal Knife",
+          "ja" : "\u91D1\u5C5E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_Knife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Knife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5200",
+          "en" : "Metal Knife",
+          "ja" : "\u91D1\u5C5E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_Knife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Knife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5200",
+          "en" : "Metal Knife",
+          "ja" : "\u91D1\u5C5E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_Knife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Knife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5200",
+          "en" : "Metal Knife",
+          "ja" : "\u91D1\u5C5E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_Knife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Knife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5200",
+          "en" : "Metal Knife",
+          "ja" : "\u91D1\u5C5E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_Knife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_Knife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5200",
+          "en" : "Metal Knife",
+          "ja" : "\u91D1\u5C5E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_SkinningKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_SkinningKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5265\u76AE\u5200",
+          "en" : "Metal Skinning Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u76AE\u5265\u304E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_SkinningKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_SkinningKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5265\u76AE\u5200",
+          "en" : "Metal Skinning Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u76AE\u5265\u304E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_SkinningKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_SkinningKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5265\u76AE\u5200",
+          "en" : "Metal Skinning Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u76AE\u5265\u304E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_SkinningKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_SkinningKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5265\u76AE\u5200",
+          "en" : "Metal Skinning Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u76AE\u5265\u304E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_SkinningKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_SkinningKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5265\u76AE\u5200",
+          "en" : "Metal Skinning Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u76AE\u5265\u304E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ToolOrWeapon_SkinningKnife_Metal",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_ToolOrWeapon_SkinningKnife_Metal__CardImage",
+        "name"     : {
+          "zh" : "\u91D1\u5C5E\u5265\u76AE\u5200",
+          "en" : "Metal Skinning Knife",
+          "ja" : "\u91D1\u5C5E\u88FD\u306E\u76AE\u5265\u304E\u30CA\u30A4\u30D5"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Obsidian",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Obsidian Knife",
+          "en" : "Obsidian Knife",
+          "ja" : "Obsidian Knife"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Obsidian",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Obsidian Knife",
+          "en" : "Obsidian Knife",
+          "ja" : "Obsidian Knife"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Obsidian",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Obsidian Knife",
+          "en" : "Obsidian Knife",
+          "ja" : "Obsidian Knife"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Obsidian",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Obsidian Knife",
+          "en" : "Obsidian Knife",
+          "ja" : "Obsidian Knife"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Obsidian",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Obsidian Knife",
+          "en" : "Obsidian Knife",
+          "ja" : "Obsidian Knife"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Knife_Obsidian",
+        "type" : "CardData",
+        "CardType" : 0,
+        "name"     : {
+          "zh" : "Obsidian Knife",
+          "en" : "Obsidian Knife",
+          "ja" : "Obsidian Knife"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut Hair",
+        "en" : "Action: Cut Hair",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut Hair"
+      },
+      "value"       : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    }
+  ],
+  "_uuid"                   : "62f4a1990e8d4cdbbd9fa69c4fbde021"
+}

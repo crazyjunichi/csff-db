@@ -1,0 +1,904 @@
+
+{
+  "SceneLines" : [
+    {
+      "Line" : {
+        "zh" : "Your partner is angry and frustrated and is blaming you for it.",
+        "en" : "Your partner is angry and frustrated and is blaming you for it.",
+        "ja" : "Your partner is angry and frustrated and is blaming you for it."
+      },
+      "ShowContinueButton" : 0,
+      "ActionToPerform"    : {
+        "StatModifications" : [
+          {
+            "Stat" : {
+              "key" : "Connection",
+              "type" : "GameStat",
+              "icon" : "NPCAgent__Agent_TraderGeneral__AgentImage",
+              "min"  : -100.0,
+              "max"  : 100.0,
+              "name" : {
+                "zh" : "\u8054\u7ED3\u5EA6",
+                "en" : "Connection",
+                "ja" : "\u7D46"
+              }
+            },
+            "ValueModifier" : {
+              "x" : -12.0,
+              "y" : -12.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Loneliness",
+              "type" : "GameStat",
+              "icon" : "GameStat__Grief__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 4880.0,
+              "name" : {
+                "zh" : "\u5B64\u72EC\u611F",
+                "en" : "Loneliness",
+                "ja" : "\u5B64\u72EC\u3055"
+              }
+            },
+            "ValueModifier" : {
+              "x" : -10.0,
+              "y" : -10.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Isolation",
+              "type" : "GameStat",
+              "icon" : "DialogScene__AwakenedConfirmation__SceneBackground",
+              "min"  : 0.0,
+              "max"  : 11520.0,
+              "name" : {
+                "zh" : "\u5B64\u7ACB\u5EA6",
+                "en" : "Isolation",
+                "ja" : "\u5B64\u72EC\u611F"
+              }
+            },
+            "ValueModifier" : {
+              "x" : -12.0,
+              "y" : -12.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Morale",
+              "type" : "GameStat",
+              "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+              "min"  : -350.0,
+              "max"  : 350.0,
+              "name" : {
+                "zh" : "\u60C5\u7EEA",
+                "en" : "Morale",
+                "ja" : "\u58EB\u6C17"
+              }
+            },
+            "ValueModifier" : {
+              "x" : -5.0,
+              "y" : -5.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Stress",
+              "type" : "GameStat",
+              "icon" : "GameStat__Arousal__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 240.0,
+              "name" : {
+                "zh" : "\u538B\u529B",
+                "en" : "Stress",
+                "ja" : "\u30B9\u30C8\u30EC\u30B9"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 10.0,
+              "y" : 10.0
+            }
+          }
+        ],
+        "NPCStatModifications" : [
+          {
+            "TargetStat" : {
+              "key" : "Partner_Trust",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+                "en" : "Partner_Trust",
+                "ja" : "Partner_Trust"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -10.0,
+              "y" : -10.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_Awkwardness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5C34\u5C2C",
+                "en" : "Partner_Awkwardness",
+                "ja" : "Partner_Awkwardness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : 40.0,
+              "y" : 40.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_Connection",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u7F81\u7ECA",
+                "en" : "Partner_Connection",
+                "ja" : "Partner_Connection"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -20.0,
+              "y" : -20.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_DialogCooldown",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5BF9\u8BDD\u51B7\u5374",
+                "en" : "Partner_DialogCooldown",
+                "ja" : "Partner_DialogCooldown"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : 48.0,
+              "y" : 48.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_Stress",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u538B\u529B",
+                "en" : "Partner_Stress",
+                "ja" : "Partner_Stress"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -48.0,
+              "y" : -48.0
+            },
+            "IgnoreNovelty"      : true
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_DominanceCurrent",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+                "en" : "Partner_DominanceCurrent",
+                "ja" : "Partner_DominanceCurrent"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : 10.0,
+              "y" : 10.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_Relationship",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5173\u7CFB\u5F3A\u5EA6",
+                "en" : "Partner_Relationship",
+                "ja" : "Partner_Relationship"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -25.0,
+              "y" : -25.0
+            }
+          }
+        ],
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      },
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "Accept\nblame",
+            "en" : "Accept\nblame",
+            "ja" : "Accept\nblame"
+          },
+          "NewNextLine" : {
+            "NextStep" : 1,
+            "NextScene" : {
+              "key" : "PartnerDialog_Expression",
+              "type" : "DialogScene",
+              "firstLine" : {
+                "zh" : "Your partner listens.",
+                "en" : "Your partner listens.",
+                "ja" : "Your partner listens."
+              }
+            },
+            "DontClearHistory" : true
+          },
+          "ActionToPerform" : {
+            "StatModifications" : [
+              {
+                "Stat" : {
+                  "key" : "Connection",
+                  "type" : "GameStat",
+                  "icon" : "NPCAgent__Agent_TraderGeneral__AgentImage",
+                  "min"  : -100.0,
+                  "max"  : 100.0,
+                  "name" : {
+                    "zh" : "\u8054\u7ED3\u5EA6",
+                    "en" : "Connection",
+                    "ja" : "\u7D46"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : -10.0,
+                  "y" : -10.0
+                }
+              },
+              {
+                "Stat" : {
+                  "key" : "Morale",
+                  "type" : "GameStat",
+                  "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                  "min"  : -350.0,
+                  "max"  : 350.0,
+                  "name" : {
+                    "zh" : "\u60C5\u7EEA",
+                    "en" : "Morale",
+                    "ja" : "\u58EB\u6C17"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : -5.0,
+                  "y" : -5.0
+                }
+              }
+            ],
+            "NPCStatModifications" : [
+              {
+                "TargetStat" : {
+                  "key" : "Partner_DominanceCurrent",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+                    "en" : "Partner_DominanceCurrent",
+                    "ja" : "Partner_DominanceCurrent"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "ValueChange"        : {
+                  "x" : 25.0,
+                  "y" : 25.0
+                }
+              }
+            ],
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "Blame\nBack",
+            "en" : "Blame\nBack",
+            "ja" : "Blame\nBack"
+          },
+          "NewNextLine" : {
+            "NextStep" : 1,
+            "NextScene" : {
+              "key" : "PartnerDialog_Expression",
+              "type" : "DialogScene",
+              "firstLine" : {
+                "zh" : "Your partner listens.",
+                "en" : "Your partner listens.",
+                "ja" : "Your partner listens."
+              }
+            },
+            "DontClearHistory" : true
+          },
+          "UseWeightsForNextStep" : true,
+          "NextStepsWithWeights"  : [
+            {
+              "Line" : {
+                "NextStep" : 0,
+                "NextLine" : {
+                  "key" : "Blame Back Success",
+                  "type" : "DialogLine",
+                  "name" : {
+                    "zh" : "You argue back, defending your position.\nYour partner loses the upper hand.",
+                    "en" : "You argue back, defending your position.\nYour partner loses the upper hand.",
+                    "ja" : "You argue back, defending your position.\nYour partner loses the upper hand."
+                  }
+                }
+              },
+              "Weights" : {
+                "BaseWeight" : 0,
+                "StatWeightModifiers" : [
+                  {
+                    "Stat" : {
+                      "key" : "Skill_Socials",
+                      "type" : "GameStat",
+                      "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+                      "min"  : 0.0,
+                      "max"  : 150.0,
+                      "name" : {
+                        "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+                        "en" : "Socials",
+                        "ja" : "\u793E\u4EA4"
+                      }
+                    },
+                    "StatRange" : {
+                      "x" : 0.0,
+                      "y" : 150.0
+                    },
+                    "InterpWeightRange" : {
+                      "m_X" : 0,
+                      "m_Y" : 50
+                    },
+                    "WhenOutOfRange"    : 0
+                  },
+                  {
+                    "Stat" : {
+                      "key" : "Assertiveness",
+                      "type" : "GameStat",
+                      "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
+                      "min"  : 0.0,
+                      "max"  : 100.0,
+                      "name" : {
+                        "zh" : "\u81EA\u4FE1",
+                        "en" : "Assertiveness",
+                        "ja" : "Assertiveness"
+                      }
+                    },
+                    "StatRange" : {
+                      "x" : 0.0,
+                      "y" : 100.0
+                    },
+                    "InterpWeightRange" : {
+                      "m_X" : 0,
+                      "m_Y" : 50
+                    },
+                    "WhenOutOfRange"    : 0
+                  }
+                ],
+                "AgentStatsWeightModifiers" : [
+                  {
+                    "Stat" : {
+                      "key" : "Partner_DominanceCurrent",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+                        "en" : "Partner_DominanceCurrent",
+                        "ja" : "Partner_DominanceCurrent"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "StatRange"          : {
+                      "x" : 0.0,
+                      "y" : 100.0
+                    },
+                    "InterpWeightRange"  : {
+                      "m_X" : 0,
+                      "m_Y" : -200
+                    },
+                    "WhenOutOfRange"     : 0
+                  },
+                  {
+                    "Stat" : {
+                      "key" : "Partner_Assertiveness",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u81EA\u4FE1",
+                        "en" : "Partner_Assertiveness",
+                        "ja" : "Partner_Assertiveness"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "StatRange"          : {
+                      "x" : 0.0,
+                      "y" : 100.0
+                    },
+                    "InterpWeightRange"  : {
+                      "m_X" : 0,
+                      "m_Y" : -100
+                    },
+                    "WhenOutOfRange"     : 0
+                  },
+                  {
+                    "Stat" : {
+                      "key" : "Partner_Trust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+                        "en" : "Partner_Trust",
+                        "ja" : "Partner_Trust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "StatRange"          : {
+                      "x" : 12000.0,
+                      "y" : 20000.0
+                    },
+                    "InterpWeightRange"  : {
+                      "m_X" : 0,
+                      "m_Y" : 50
+                    },
+                    "WhenOutOfRange"     : 0
+                  },
+                  {
+                    "Stat" : {
+                      "key" : "Partner_Trust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+                        "en" : "Partner_Trust",
+                        "ja" : "Partner_Trust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "StatRange"          : {
+                      "x" : 0.0,
+                      "y" : 8000.0
+                    },
+                    "InterpWeightRange"  : {
+                      "m_X" : -100,
+                      "m_Y" : 0
+                    },
+                    "WhenOutOfRange"     : 0
+                  },
+                  {
+                    "Stat" : {
+                      "key" : "Partner_AttractionToPlayer",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u5BF9\u73A9\u5BB6\u5438\u5F15\u529B",
+                        "en" : "Partner_AttractionToPlayer",
+                        "ja" : "Partner_AttractionToPlayer"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "StatRange"          : {
+                      "x" : -200.0,
+                      "y" : 200.0
+                    },
+                    "InterpWeightRange"  : {
+                      "m_X" : -50,
+                      "m_Y" : 50
+                    },
+                    "WhenOutOfRange"     : 0
+                  },
+                  {
+                    "Stat" : {
+                      "key" : "Partner_PerceivedAttractiveness",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u611F\u77E5\u9B45\u529B",
+                        "en" : "Partner_PerceivedAttractiveness",
+                        "ja" : "Partner_PerceivedAttractiveness"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "StatRange"          : {
+                      "x" : -200.0,
+                      "y" : 200.0
+                    },
+                    "InterpWeightRange"  : {
+                      "m_X" : 50,
+                      "m_Y" : -50
+                    },
+                    "WhenOutOfRange"     : 0
+                  },
+                  {
+                    "Stat" : {
+                      "key" : "Partner_Awkwardness",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u5C34\u5C2C",
+                        "en" : "Partner_Awkwardness",
+                        "ja" : "Partner_Awkwardness"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "StatRange"          : {
+                      "x" : 0.0,
+                      "y" : 1000.0
+                    },
+                    "InterpWeightRange"  : {
+                      "m_X" : 0,
+                      "m_Y" : -200
+                    },
+                    "WhenOutOfRange"     : 0
+                  }
+                ]
+              }
+            },
+            {
+              "Line" : {
+                "NextStep" : 0,
+                "NextLine" : {
+                  "key" : "Blame Back Failure",
+                  "type" : "DialogLine",
+                  "name" : {
+                    "zh" : "You argue back, defending your position.\nYour arguments fail to land.",
+                    "en" : "You argue back, defending your position.\nYour arguments fail to land.",
+                    "ja" : "You argue back, defending your position.\nYour arguments fail to land."
+                  }
+                }
+              },
+              "Weights" : {
+                "BaseWeight" : 100
+              }
+            }
+          ]
+        },
+        {
+          "Answer" : {
+            "zh" : "Ignore",
+            "en" : "Ignore",
+            "ja" : "Ignore"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2,
+            "NextScene" : {
+              "key" : "PartnerDialog_Expression",
+              "type" : "DialogScene",
+              "firstLine" : {
+                "zh" : "Your partner listens.",
+                "en" : "Your partner listens.",
+                "ja" : "Your partner listens."
+              }
+            },
+            "DontClearHistory" : true
+          },
+          "ActionToPerform" : {
+            "NPCStatModifications" : [
+              {
+                "TargetStat" : {
+                  "key" : "Partner_Stress",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u538B\u529B",
+                    "en" : "Partner_Stress",
+                    "ja" : "Partner_Stress"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "ValueChange"        : {
+                  "x" : 10.0,
+                  "y" : 10.0
+                }
+              },
+              {
+                "TargetStat" : {
+                  "key" : "Partner_Relationship",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u5173\u7CFB\u5F3A\u5EA6",
+                    "en" : "Partner_Relationship",
+                    "ja" : "Partner_Relationship"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "ValueChange"        : {
+                  "x" : -10.0,
+                  "y" : -10.0
+                }
+              }
+            ],
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        }
+      ],
+      "key"                : "Express Blame",
+      "type"               : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "You argue back, defending your position.\nYour partner loses the upper hand.",
+        "en" : "You argue back, defending your position.\nYour partner loses the upper hand.",
+        "ja" : "You argue back, defending your position.\nYour partner loses the upper hand."
+      },
+      "NextStep" : {
+        "NextStep" : 1,
+        "NextScene" : {
+          "key" : "PartnerDialog_Expression",
+          "type" : "DialogScene",
+          "firstLine" : {
+            "zh" : "Your partner listens.",
+            "en" : "Your partner listens.",
+            "ja" : "Your partner listens."
+          }
+        },
+        "DontClearHistory" : true
+      },
+      "ShowContinueButton" : 1,
+      "ActionToPerform"    : {
+        "StatModifications" : [
+          {
+            "Stat" : {
+              "key" : "Stress",
+              "type" : "GameStat",
+              "icon" : "GameStat__Arousal__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 240.0,
+              "name" : {
+                "zh" : "\u538B\u529B",
+                "en" : "Stress",
+                "ja" : "\u30B9\u30C8\u30EC\u30B9"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 10.0,
+              "y" : 10.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Morale",
+              "type" : "GameStat",
+              "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+              "min"  : -350.0,
+              "max"  : 350.0,
+              "name" : {
+                "zh" : "\u60C5\u7EEA",
+                "en" : "Morale",
+                "ja" : "\u58EB\u6C17"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 5.0,
+              "y" : 5.0
+            }
+          }
+        ],
+        "NPCStatModifications" : [
+          {
+            "TargetStat" : {
+              "key" : "Partner_Trust",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+                "en" : "Partner_Trust",
+                "ja" : "Partner_Trust"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -10.0,
+              "y" : -10.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_Awkwardness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5C34\u5C2C",
+                "en" : "Partner_Awkwardness",
+                "ja" : "Partner_Awkwardness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : 10.0,
+              "y" : 10.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_Connection",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u7F81\u7ECA",
+                "en" : "Partner_Connection",
+                "ja" : "Partner_Connection"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -10.0,
+              "y" : -10.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_DominanceCurrent",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+                "en" : "Partner_DominanceCurrent",
+                "ja" : "Partner_DominanceCurrent"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -25.0,
+              "y" : -25.0
+            }
+          }
+        ],
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      },
+      "key"                : "Blame Back Success",
+      "type"               : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "You argue back, defending your position.\nYour arguments fail to land.",
+        "en" : "You argue back, defending your position.\nYour arguments fail to land.",
+        "ja" : "You argue back, defending your position.\nYour arguments fail to land."
+      },
+      "NextStep" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "Express Blame",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "Your partner is angry and frustrated and is blaming you for it.",
+            "en" : "Your partner is angry and frustrated and is blaming you for it.",
+            "ja" : "Your partner is angry and frustrated and is blaming you for it."
+          }
+        }
+      },
+      "ShowContinueButton" : 1,
+      "ActionToPerform"    : {
+        "StatModifications" : [
+          {
+            "Stat" : {
+              "key" : "Stress",
+              "type" : "GameStat",
+              "icon" : "GameStat__Arousal__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 240.0,
+              "name" : {
+                "zh" : "\u538B\u529B",
+                "en" : "Stress",
+                "ja" : "\u30B9\u30C8\u30EC\u30B9"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 10.0,
+              "y" : 10.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Morale",
+              "type" : "GameStat",
+              "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+              "min"  : -350.0,
+              "max"  : 350.0,
+              "name" : {
+                "zh" : "\u60C5\u7EEA",
+                "en" : "Morale",
+                "ja" : "\u58EB\u6C17"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 5.0,
+              "y" : 5.0
+            }
+          }
+        ],
+        "NPCStatModifications" : [
+          {
+            "TargetStat" : {
+              "key" : "Partner_Trust",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u540C\u4F34\u4FE1\u4EFB",
+                "en" : "Partner_Trust",
+                "ja" : "Partner_Trust"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -10.0,
+              "y" : -10.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_Awkwardness",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5C34\u5C2C",
+                "en" : "Partner_Awkwardness",
+                "ja" : "Partner_Awkwardness"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : 40.0,
+              "y" : 40.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_Connection",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u7F81\u7ECA",
+                "en" : "Partner_Connection",
+                "ja" : "Partner_Connection"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -10.0,
+              "y" : -10.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_DominanceCurrent",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5F53\u524D\u652F\u914D\u6B32",
+                "en" : "Partner_DominanceCurrent",
+                "ja" : "Partner_DominanceCurrent"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : 25.0,
+              "y" : 25.0
+            }
+          },
+          {
+            "TargetStat" : {
+              "key" : "Partner_Relationship",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5173\u7CFB\u5F3A\u5EA6",
+                "en" : "Partner_Relationship",
+                "ja" : "Partner_Relationship"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -25.0,
+              "y" : -25.0
+            }
+          }
+        ],
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      },
+      "key"                : "Blame Back Failure",
+      "type"               : "dialog"
+    }
+  ],
+  "key"        : "PartnerDialog_ExpressBlame",
+  "type"       : "DialogScene",
+  "name"       : {
+    "zh" : "PartnerDialog_ExpressBlame",
+    "en" : "PartnerDialog_ExpressBlame",
+    "ja" : "PartnerDialog_ExpressBlame"
+  }
+}

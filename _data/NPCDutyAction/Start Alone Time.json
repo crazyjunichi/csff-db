@@ -1,0 +1,30 @@
+
+{
+  "NPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "Partner_AloneTimeDuration",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u72EC\u5904\u65F6\u957F",
+          "en" : "Partner_AloneTimeDuration",
+          "ja" : "Partner_AloneTimeDuration"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 9.0,
+        "y" : 9.0
+      },
+      "IgnoreNovelty"      : true
+    }
+  ],
+  "key"              : "Start Alone Time",
+  "type"             : "NPCDutyAction",
+  "name"             : {
+    "zh" : "\u5F00\u59CB\u72EC\u5904\u65F6\u95F4",
+    "en" : "Start Alone Time",
+    "ja" : "Start Alone Time"
+  },
+  "actionType"       : "ChangeNPCStatDutyAction"
+}

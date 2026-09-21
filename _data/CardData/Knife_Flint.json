@@ -999,6 +999,28 @@
       },
       {
         "source" : {
+          "key" : "Bp_ClickMill",
+          "type" : "CardData",
+          "CardType" : 7,
+          "icon"     : "CardData__Bp_ClickMill__CardImage",
+          "name"     : {
+            "zh" : "\u68D8\u8F6E\u78E8",
+            "en" : "Click Mill",
+            "ja" : "Click Mill"
+          }
+        },
+        "description" : {
+          "zh" : "\u84DD\u56FE\u5236\u4F5C",
+          "en" : "Blueprint",
+          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
           "key" : "Bp_DryingRack",
           "type" : "CardData",
           "CardType" : 7,
@@ -6197,6 +6219,28 @@
         "value"       : {
           "x" : -0.1,
           "y" : -0.1
+        }
+      },
+      {
+        "source" : {
+          "key" : "Bp_ClickMill",
+          "type" : "CardData",
+          "CardType" : 7,
+          "icon"     : "CardData__Bp_ClickMill__CardImage",
+          "name"     : {
+            "zh" : "\u68D8\u8F6E\u78E8",
+            "en" : "Click Mill",
+            "ja" : "Click Mill"
+          }
+        },
+        "description" : {
+          "zh" : "\u84DD\u56FE\u5236\u4F5C",
+          "en" : "Blueprint",
+          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
         }
       },
       {
@@ -13040,6 +13084,792 @@
       "ExitDirection"                 : 0
     }
   ],
+  "DismantleActions"            : [
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "DontCloseInspectionWindow" : true,
+      "VisibilityWithInventory"   : 0,
+      "ActionName"                : {
+        "zh" : "Cut Hair",
+        "en" : "Cut Hair",
+        "ja" : "Cut Hair"
+      },
+      "ActionDescription"         : {
+        "zh" : "Cut off your remaining short hair.",
+        "en" : "Cut off your remaining short hair.",
+        "ja" : "Cut off your remaining short hair."
+      },
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "RequiredStatValues"        : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 673.0,
+            "y" : 11520.0
+          },
+          "HideAllWhenNotMet" : true
+        }
+      ],
+      "InstantStatModifications"  : true,
+      "StatModifications"         : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -69120.0,
+            "y" : -69120.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "Hairstyle",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 5.0,
+            "name" : {
+              "zh" : "\u53D1\u578B",
+              "en" : "Hairstyle",
+              "ja" : "Hairstyle"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairstyleDuration",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53D1\u578B\u4FDD\u6301\u65F6\u95F4",
+              "en" : "Hairstyle Duration",
+              "ja" : "Hairstyle Duration"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -288.0,
+            "y" : -288.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "RoomDirection"             : 0,
+      "ExitDirection"             : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "DontCloseInspectionWindow" : true,
+      "VisibilityWithInventory"   : 0,
+      "ActionName"                : {
+        "zh" : "Cut Hair",
+        "en" : "Cut Hair",
+        "ja" : "Cut Hair"
+      },
+      "ActionDescription"         : {
+        "zh" : "Cut your hair down to short length.",
+        "en" : "Cut your hair down to short length.",
+        "ja" : "Cut your hair down to short length."
+      },
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "RequiredStatValues"        : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 11521.0,
+            "y" : 23040.0
+          },
+          "HideAllWhenNotMet" : true
+        }
+      ],
+      "InstantStatModifications"  : true,
+      "StatModifications"         : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : 673.0,
+            "y" : 673.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -69120.0,
+            "y" : -69120.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : -673.0,
+            "y" : -673.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "Hairstyle",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 5.0,
+            "name" : {
+              "zh" : "\u53D1\u578B",
+              "en" : "Hairstyle",
+              "ja" : "Hairstyle"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairstyleDuration",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53D1\u578B\u4FDD\u6301\u65F6\u95F4",
+              "en" : "Hairstyle Duration",
+              "ja" : "Hairstyle Duration"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -288.0,
+            "y" : -288.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "RoomDirection"             : 0,
+      "ExitDirection"             : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "DontCloseInspectionWindow" : true,
+      "VisibilityWithInventory"   : 0,
+      "ActionName"                : {
+        "zh" : "Cut Hair",
+        "en" : "Cut Hair",
+        "ja" : "Cut Hair"
+      },
+      "ActionDescription"         : {
+        "zh" : "Cut your hair down to neck length.",
+        "en" : "Cut your hair down to neck length.",
+        "ja" : "Cut your hair down to neck length."
+      },
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "RequiredStatValues"        : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 23041.0,
+            "y" : 34560.0
+          },
+          "HideAllWhenNotMet" : true
+        }
+      ],
+      "InstantStatModifications"  : true,
+      "StatModifications"         : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : 11521.0,
+            "y" : 11521.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -69120.0,
+            "y" : -69120.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : -11521.0,
+            "y" : -11521.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "Hairstyle",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 5.0,
+            "name" : {
+              "zh" : "\u53D1\u578B",
+              "en" : "Hairstyle",
+              "ja" : "Hairstyle"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairstyleDuration",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53D1\u578B\u4FDD\u6301\u65F6\u95F4",
+              "en" : "Hairstyle Duration",
+              "ja" : "Hairstyle Duration"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -288.0,
+            "y" : -288.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "RoomDirection"             : 0,
+      "ExitDirection"             : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "DontCloseInspectionWindow" : true,
+      "VisibilityWithInventory"   : 0,
+      "ActionName"                : {
+        "zh" : "Cut Hair",
+        "en" : "Cut Hair",
+        "ja" : "Cut Hair"
+      },
+      "ActionDescription"         : {
+        "zh" : "Cut your hair down to shoulder length.",
+        "en" : "Cut your hair down to shoulder length.",
+        "ja" : "Cut your hair down to shoulder length."
+      },
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "RequiredStatValues"        : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 34561.0,
+            "y" : 46080.0
+          },
+          "HideAllWhenNotMet" : true
+        }
+      ],
+      "InstantStatModifications"  : true,
+      "StatModifications"         : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : 23041.0,
+            "y" : 23041.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -69120.0,
+            "y" : -69120.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : -23041.0,
+            "y" : -23041.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "Hairstyle",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 5.0,
+            "name" : {
+              "zh" : "\u53D1\u578B",
+              "en" : "Hairstyle",
+              "ja" : "Hairstyle"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairstyleDuration",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53D1\u578B\u4FDD\u6301\u65F6\u95F4",
+              "en" : "Hairstyle Duration",
+              "ja" : "Hairstyle Duration"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -288.0,
+            "y" : -288.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "RoomDirection"             : 0,
+      "ExitDirection"             : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "DontCloseInspectionWindow" : true,
+      "VisibilityWithInventory"   : 0,
+      "ActionName"                : {
+        "zh" : "Cut Hair",
+        "en" : "Cut Hair",
+        "ja" : "Cut Hair"
+      },
+      "ActionDescription"         : {
+        "zh" : "Cut your hair down to back length.",
+        "en" : "Cut your hair down to back length.",
+        "ja" : "Cut your hair down to back length."
+      },
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "RequiredStatValues"        : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 46081.0,
+            "y" : 69119.0
+          },
+          "HideAllWhenNotMet" : true
+        }
+      ],
+      "InstantStatModifications"  : true,
+      "StatModifications"         : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : 34561.0,
+            "y" : 34561.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -69120.0,
+            "y" : -69120.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : -34561.0,
+            "y" : -34561.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "Hairstyle",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 5.0,
+            "name" : {
+              "zh" : "\u53D1\u578B",
+              "en" : "Hairstyle",
+              "ja" : "Hairstyle"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairstyleDuration",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53D1\u578B\u4FDD\u6301\u65F6\u95F4",
+              "en" : "Hairstyle Duration",
+              "ja" : "Hairstyle Duration"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -288.0,
+            "y" : -288.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "RoomDirection"             : 0,
+      "ExitDirection"             : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "DontCloseInspectionWindow" : true,
+      "VisibilityWithInventory"   : 0,
+      "ActionName"                : {
+        "zh" : "Cut Hair",
+        "en" : "Cut Hair",
+        "ja" : "Cut Hair"
+      },
+      "ActionDescription"         : {
+        "zh" : "Cut your hair down to waist length.",
+        "en" : "Cut your hair down to waist length.",
+        "ja" : "Cut your hair down to waist length."
+      },
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "RequiredStatValues"        : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 69120.0,
+            "y" : 69120.0
+          },
+          "HideAllWhenNotMet" : true
+        }
+      ],
+      "InstantStatModifications"  : true,
+      "StatModifications"         : [
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : 46081.0,
+            "y" : 46081.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -69120.0,
+            "y" : -69120.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 69120.0,
+            "name" : {
+              "zh" : "\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Hair Length",
+              "ja" : "Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : -46081.0,
+            "y" : -46081.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "Hairstyle",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 5.0,
+            "name" : {
+              "zh" : "\u53D1\u578B",
+              "en" : "Hairstyle",
+              "ja" : "Hairstyle"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -5.0,
+            "y" : -5.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairstyleDuration",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53D1\u578B\u4FDD\u6301\u65F6\u95F4",
+              "en" : "Hairstyle Duration",
+              "ja" : "Hairstyle Duration"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -288.0,
+            "y" : -288.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "RoomDirection"             : 0,
+      "ExitDirection"             : 0
+    }
+  ],
   "PassiveEffects"              : [
     {
       "EffectName" : "Minimum Sharpness of 21",
@@ -14199,6 +15029,24 @@
           "zh" : "\u6728\u5C51",
           "en" : "Wood Shavings",
           "ja" : "\u6728\u306E\u524A\u308A\u304F\u305A"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_ClickMill",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__Bp_ClickMill__CardImage",
+        "name"     : {
+          "zh" : "\u68D8\u8F6E\u78E8",
+          "en" : "Click Mill",
+          "ja" : "Click Mill"
         }
       },
       "description" : {

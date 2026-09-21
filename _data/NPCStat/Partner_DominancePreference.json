@@ -1,0 +1,260 @@
+
+{
+  "GameName" : {
+    "zh" : "\u652F\u914D\u504F\u597D",
+    "en" : "Dominance Preference",
+    "ja" : "Dominance Preference"
+  },
+  "DefaultStartingValue" : 0.0,
+  "DefaultMinMaxValue"   : {
+    "x" : 0.0,
+    "y" : 100.0
+  },
+  "DefaultRate"          : 0.0,
+  "Statuses"             : [
+    {
+      "GameName" : {
+        "zh" : "Very Low Dominance",
+        "en" : "Very Low Dominance",
+        "ja" : "Very Low Dominance"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 0,
+        "m_Y" : 9
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceLowStrain",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u6B32\u4F4E\u538B",
+              "en" : "Partner_DominanceLowStrain",
+              "ja" : "Partner_DominanceLowStrain"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -100.0,
+            "FloatValue" : -100.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceHighStrain",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u6B32\u9AD8\u538B",
+              "en" : "Partner_DominanceHighStrain",
+              "ja" : "Partner_DominanceHighStrain"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 0.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "Low Dominance",
+        "en" : "Low Dominance",
+        "ja" : "Low Dominance"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 10,
+        "m_Y" : 24
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceLowStrain",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u6B32\u4F4E\u538B",
+              "en" : "Partner_DominanceLowStrain",
+              "ja" : "Partner_DominanceLowStrain"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -75.0,
+            "FloatValue" : -75.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceHighStrain",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u6B32\u9AD8\u538B",
+              "en" : "Partner_DominanceHighStrain",
+              "ja" : "Partner_DominanceHighStrain"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -25.0,
+            "FloatValue" : -25.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "Moderate Dominance",
+        "en" : "Moderate Dominance",
+        "ja" : "Moderate Dominance"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 25,
+        "m_Y" : 74
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceLowStrain",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u6B32\u4F4E\u538B",
+              "en" : "Partner_DominanceLowStrain",
+              "ja" : "Partner_DominanceLowStrain"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -50.0,
+            "FloatValue" : -50.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceHighStrain",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u6B32\u9AD8\u538B",
+              "en" : "Partner_DominanceHighStrain",
+              "ja" : "Partner_DominanceHighStrain"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -50.0,
+            "FloatValue" : -50.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "High Dominance",
+        "en" : "High Dominance",
+        "ja" : "High Dominance"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 75,
+        "m_Y" : 89
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceLowStrain",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u6B32\u4F4E\u538B",
+              "en" : "Partner_DominanceLowStrain",
+              "ja" : "Partner_DominanceLowStrain"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -25.0,
+            "FloatValue" : -25.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceHighStrain",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u6B32\u9AD8\u538B",
+              "en" : "Partner_DominanceHighStrain",
+              "ja" : "Partner_DominanceHighStrain"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -75.0,
+            "FloatValue" : -75.0,
+            "Active"     : true
+          }
+        }
+      ]
+    },
+    {
+      "GameName" : {
+        "zh" : "Very High Dominance",
+        "en" : "Very High Dominance",
+        "ja" : "Very High Dominance"
+      },
+      "Priority" : 0,
+      "ValueRange" : {
+        "m_X" : 90,
+        "m_Y" : 100
+      },
+      "EffectsOnNPCStats" : [
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceLowStrain",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u6B32\u4F4E\u538B",
+              "en" : "Partner_DominanceLowStrain",
+              "ja" : "Partner_DominanceLowStrain"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : 0.0,
+            "FloatValue" : 0.0,
+            "Active"     : true
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "Partner_DominanceHighStrain",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u652F\u914D\u6B32\u9AD8\u538B",
+              "en" : "Partner_DominanceHighStrain",
+              "ja" : "Partner_DominanceHighStrain"
+            }
+          },
+          "ValueChange" : {
+            "MaxValue" : -100.0,
+            "FloatValue" : -100.0,
+            "Active"     : true
+          }
+        }
+      ]
+    }
+  ],
+  "HidingOptions"        : 0,
+  "TextDisplay"          : 0,
+  "NumberPrecision"      : 0,
+  "NoveltyCooldownDuration" : 0,
+  "StalenessMultiplier"     : 0.0,
+  "MaxStalenessStack"       : 0,
+  "type"                    : "NPCStat",
+  "key"                     : "Partner_DominancePreference",
+  "name"                    : {
+    "zh" : "\u652F\u914D\u504F\u597D",
+    "en" : "Partner_DominancePreference",
+    "ja" : "Partner_DominancePreference"
+  },
+  "_uuid"                   : "351b031559c42ff4cac9fb2df1e1216d"
+}

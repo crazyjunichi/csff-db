@@ -1,0 +1,67 @@
+
+{
+  "ItemSelection" : {
+    "ItemPool" : [
+      {
+        "Target" : {
+          "Target" : {
+            "key" : "Bp_ClickMill",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Bp_ClickMill__CardImage",
+            "name"     : {
+              "zh" : "\u68D8\u8F6E\u78E8",
+              "en" : "Click Mill",
+              "ja" : "Click Mill"
+            }
+          }
+        },
+        "Quantity" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "SearchPriority" : 1,
+    "OwnershipPriority" : 0,
+    "DutyPriority"      : 2,
+    "Containers"        : {
+      "CanLookInContainers" : true
+    },
+    "DebugItemSelection" : true
+  },
+  "AffectType"    : 4,
+  "SimpleAffectDuration" : 0,
+  "BpIngredientsSelection" : {
+    "SearchPriority" : 0,
+    "OwnershipPriority" : 1,
+    "DutyPriority"      : 0,
+    "Containers"        : {
+      "CanLookInContainers" : true,
+      "NOTAllowedContainers" : [
+        {
+          "Target" : {
+            "key" : "Bp_ClickMill",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "CardData__Bp_ClickMill__CardImage",
+            "name"     : {
+              "zh" : "\u68D8\u8F6E\u78E8",
+              "en" : "Click Mill",
+              "ja" : "Click Mill"
+            }
+          }
+        }
+      ]
+    },
+    "DebugItemSelection" : true
+  },
+  "key"                    : "Work on Bp_ClickMill (CardData)",
+  "type"                   : "NPCDutyAction",
+  "name"                   : {
+    "zh" : "\u5236\u4F5C\uFF1AClick Mill",
+    "en" : "Work on Click Mill",
+    "ja" : "Work on Bp_ClickMill (CardData)"
+  },
+  "actionType"             : "AffectItemsDutyAction"
+}

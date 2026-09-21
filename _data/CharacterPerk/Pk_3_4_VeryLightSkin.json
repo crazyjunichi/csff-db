@@ -5,16 +5,16 @@
   "StarsCost" : 0,
   "PerkName"  : {
     "zh" : "\u76AE\u80A4\u767D\u7699",
-    "en" : "Very Light Skin",
+    "en" : "Very Fair Skin",
     "ja" : "\u304B\u306A\u308A\u767D\u3044\u808C\u3002"
   },
   "PerkDescription" : {
     "zh" : "\u5728\u591A\u4E91\u7B49\u5929\u6C14\u4E0B\u6781\u6613\u83B7\u5F97\u9633\u5149\uFF0C\u4F46\u4F1A\u8BA9\u4F60\u975E\u5E38\u5BB9\u6613\u6652\u4F24\u3002",
-    "en" : "Makes it significantly easier to get sunlight in cloudy weather, but makes you considerably more susceptible to sun damage.",
+    "en" : "Makes you start with very fair skin. It is significantly easier to get sunlight in cloudy weather, but you are considerably more susceptible to sun damage.",
     "ja" : "\u66C7\u308A\u3067\u3082\u65E5\u5149\u306E\u5F71\u97FF\u3092\u304B\u306A\u308A\u53D7\u3051\u3084\u3059\u304F\u306A\u308B\u3002\u65E5\u5149\u30C0\u30E1\u30FC\u30B8\u306B\u304B\u306A\u308A\u5F31\u3044\u3002"
   },
   "PerkIcon"        : {
-    "FileName" : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon"
+    "FileName" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon"
   },
   "DifficultyRating" : 0,
   "DisplayPriority"  : 89.0,
@@ -42,7 +42,7 @@
       "Stat" : {
         "key" : "Tanning",
         "type" : "GameStat",
-        "icon" : "CharacterPerk__Pk_3_4_DarkSkin__PerkIcon",
+        "icon" : "GameStat__Tanning__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 1000.0,
         "name" : {
@@ -55,16 +55,33 @@
         "x" : -3.0,
         "y" : -3.0
       }
+    },
+    {
+      "Stat" : {
+        "key" : "SkinColour",
+        "type" : "GameStat",
+        "min"  : 0.0,
+        "max"  : 4.0,
+        "name" : {
+          "zh" : "\u80A4\u8272",
+          "en" : "Skin Colour",
+          "ja" : "Skin Colour"
+        }
+      },
+      "ValueModifier" : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
     }
   ],
   "StartUnlocked"        : true,
   "CheckingNotificationDetails" : 0,
   "type"                        : "CharacterPerk",
   "key"                         : "Pk_3_4_VeryLightSkin",
-  "icon"                        : "NPCCharacterPerk__PartnerPerk_BeardFull__PerkIcon",
+  "icon"                        : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
   "name"                        : {
     "zh" : "\u76AE\u80A4\u767D\u7699",
-    "en" : "Very Light Skin",
+    "en" : "Very Fair Skin",
     "ja" : "\u304B\u306A\u308A\u767D\u3044\u808C\u3002"
   },
   "_uuid"                       : "3b7a5139a767cbb42ad37525429cf0d5"

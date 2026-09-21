@@ -11,35 +11,55 @@
     "y" : 100.0
   },
   "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
+  "StatPriority"    : 1800,
   "Visibility"      : 0,
   "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "VisibleInAppearanceTab" : true,
+  "BarColor"               : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"      : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"      : {
     "FileName" : "GameStat__Empathy__DefaultStatusIcon"
   },
-  "Statuses"              : [
+  "Statuses"               : [
     {
       "GameName" : {
         "zh" : "\u4E94\u5B98\u6B6A\u659C",
-        "en" : "Asymmetric",
-        "ja" : "Asymmetric"
+        "en" : "Asymmetric Face",
+        "ja" : "Asymmetric Face"
       },
       "ValueRange" : {
         "m_X" : 0,
         "m_Y" : 24
       },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "PerceivedAttractiveness",
+            "type" : "GameStat",
+            "min"  : -200.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u611F\u77E5\u9B45\u529B",
+              "en" : "Perceived Attractiveness",
+              "ja" : "Perceived Attractiveness"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -40.0,
+            "y" : -40.0
+          }
+        }
+      ],
       "EffectsOnNPCStats" : [
         {
           "TargetStat" : {
@@ -68,13 +88,32 @@
     {
       "GameName" : {
         "zh" : "\u4E94\u5B98\u5931\u8C03",
-        "en" : "Uneven",
-        "ja" : "Uneven"
+        "en" : "Uneven Face",
+        "ja" : "Uneven Face"
       },
       "ValueRange" : {
         "m_X" : 25,
         "m_Y" : 49
       },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "PerceivedAttractiveness",
+            "type" : "GameStat",
+            "min"  : -200.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u611F\u77E5\u9B45\u529B",
+              "en" : "Perceived Attractiveness",
+              "ja" : "Perceived Attractiveness"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -20.0,
+            "y" : -20.0
+          }
+        }
+      ],
       "EffectsOnNPCStats" : [
         {
           "TargetStat" : {
@@ -103,13 +142,32 @@
     {
       "GameName" : {
         "zh" : "\u4E94\u5B98\u7AEF\u6B63",
-        "en" : "Harmonious",
-        "ja" : "Harmonious"
+        "en" : "Harmonious Face",
+        "ja" : "Harmonious Face"
       },
       "ValueRange" : {
         "m_X" : 50,
         "m_Y" : 75
       },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "PerceivedAttractiveness",
+            "type" : "GameStat",
+            "min"  : -200.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u611F\u77E5\u9B45\u529B",
+              "en" : "Perceived Attractiveness",
+              "ja" : "Perceived Attractiveness"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 20.0,
+            "y" : 20.0
+          }
+        }
+      ],
       "EffectsOnNPCStats" : [
         {
           "TargetStat" : {
@@ -138,13 +196,32 @@
     {
       "GameName" : {
         "zh" : "\u4E94\u5B98\u6D51\u7136\u5929\u6210",
-        "en" : "Very Harmonious",
-        "ja" : "Very Harmonious"
+        "en" : "Very Harmonious Face",
+        "ja" : "Very Harmonious Face"
       },
       "ValueRange" : {
         "m_X" : 76,
         "m_Y" : 100
       },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "PerceivedAttractiveness",
+            "type" : "GameStat",
+            "min"  : -200.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u611F\u77E5\u9B45\u529B",
+              "en" : "Perceived Attractiveness",
+              "ja" : "Perceived Attractiveness"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 40.0,
+            "y" : 40.0
+          }
+        }
+      ],
       "EffectsOnNPCStats" : [
         {
           "TargetStat" : {
@@ -241,7 +318,7 @@
       "source" : {
         "key" : "Pk_3_10_FineFeatures",
         "type" : "CharacterPerk",
-        "icon" : "GameStat__FootDamage__Statuses-1-Icon",
+        "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
         "name" : {
           "zh" : "\u4E94\u5B98\u7CBE\u81F4",
           "en" : "Fine Features",
@@ -262,7 +339,7 @@
       "source" : {
         "key" : "Pk_3_11_IrregularFeatures",
         "type" : "CharacterPerk",
-        "icon" : "GameStat__FootDamage__Statuses-1-Icon",
+        "icon" : "GameStat__Gratification__Statuses-2-Icon",
         "name" : {
           "zh" : "\u4E94\u5B98\u7C97\u7CD9",
           "en" : "Irregular Features",
