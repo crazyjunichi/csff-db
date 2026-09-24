@@ -182,7 +182,7 @@
     {
       "key" : "HOTFIX_tag_canthavenettle",
       "type" : "CardTag",
-      "count" : 50,
+      "count" : 49,
       "name"  : {
         "zh" : "\u4E0D\u53EF\u6709\u8368\u9EBB",
         "en" : "HOTFIX_tag_canthavenettle",
@@ -2588,24 +2588,25 @@
       ],
       "ActionName"              : {
         "zh" : "\u521B\u9020\u5927\u6811",
-        "en" : "Create Large Tree",
+        "en" : "Create Pine Tree",
         "ja" : "\u5927\u6728\u3092\u751F\u3084\u3059"
       },
       "DaytimeCost"             : 0,
       "UseMiniTicks"            : 0,
-      "RequiredTagsOnBoard"     : [
+      "RequiredCardsOnBoard"    : [
         {
-          "TriggerTag" : {
-            "key" : "tag_LargeTree",
-            "type" : "CardTag",
-            "count" : 7,
-            "name"  : {
-              "zh" : "\u5927\u6811",
-              "en" : "Large Tree",
-              "ja" : "\u5927\u304D\u306A\u6728"
+          "TriggerCard" : {
+            "key" : "TreeLargePine",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__TreeLargePine__CardImage",
+            "name"     : {
+              "zh" : "\u677E\u6811",
+              "en" : "Pine Tree",
+              "ja" : "\u677E\u306E\u6728"
             }
           },
-          "Inverted"   : true
+          "Inverted"    : true
         }
       ],
       "RequiredReceivingDurabilities" : {

@@ -328,12 +328,28 @@
         }
       },
       "base" : 50.0,
-      "variants" : [
+      "percentSlots" : [
         {
-          "min" : 50.0,
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 192.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 12.5,
           "max" : 50.0,
           "bonusMin" : 0.0,
-          "bonusMax" : 0.0
+          "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
         }
       ]
     },
@@ -470,12 +486,28 @@
         }
       },
       "base" : 30.0,
-      "variants" : [
+      "percentSlots" : [
         {
-          "min" : 30.0,
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 192.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 7.5,
           "max" : 30.0,
           "bonusMin" : 0.0,
-          "bonusMax" : 0.0
+          "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
         }
       ]
     },
@@ -566,12 +598,28 @@
         }
       },
       "base" : 50.0,
-      "variants" : [
+      "percentSlots" : [
         {
-          "min" : 50.0,
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 192.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 12.5,
           "max" : 50.0,
           "bonusMin" : 0.0,
-          "bonusMax" : 0.0
+          "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
         }
       ]
     },
@@ -588,12 +636,28 @@
         }
       },
       "base" : 50.0,
-      "variants" : [
+      "percentSlots" : [
         {
-          "min" : 50.0,
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 192.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 12.5,
           "max" : 50.0,
           "bonusMin" : 0.0,
-          "bonusMax" : 0.0
+          "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
         }
       ]
     },
@@ -610,12 +674,28 @@
         }
       },
       "base" : 30.0,
-      "variants" : [
+      "percentSlots" : [
         {
-          "min" : 30.0,
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 192.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 7.5,
           "max" : 30.0,
           "bonusMin" : 0.0,
-          "bonusMax" : 0.0
+          "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
         }
       ]
     },
@@ -1192,12 +1272,28 @@
         }
       },
       "base" : 10.0,
-      "variants" : [
+      "percentSlots" : [
         {
-          "min" : 10.0,
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 96.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 2.5,
           "max" : 10.0,
           "bonusMin" : 0.0,
-          "bonusMax" : 0.0
+          "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
         }
       ]
     },
@@ -1599,6 +1695,50 @@
     },
     {
       "link" : {
+        "key" : "CheeseAged",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__CheeseAged__CardImage",
+        "name"     : {
+          "zh" : "\u9648\u5E74\u5976\u916A",
+          "en" : "Aged Cheese",
+          "ja" : "\u719F\u6210\u30C1\u30FC\u30BA"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u8CEA"
+          },
+          "max"  : 96.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 0.0,
+          "max" : 500.0,
+          "bonusMin" : 0.0,
+          "bonusMax" : 500.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "interests"    : [
+        {
+          "trader" : "Agent_TraderAnimal",
+          "mult"   : 2.0
+        }
+      ]
+    },
+    {
+      "link" : {
         "key" : "CheeseAgedWedge",
         "type" : "CardData",
         "CardType" : 0,
@@ -1626,6 +1766,50 @@
           "max" : 125.0,
           "bonusMin" : 0.0,
           "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "interests"    : [
+        {
+          "trader" : "Agent_TraderAnimal",
+          "mult"   : 2.0
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "CheeseFirm",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__CheeseFirm__CardImage",
+        "name"     : {
+          "zh" : "\u786C\u8D28\u5976\u916A",
+          "en" : "Firm Cheese",
+          "ja" : "\u3057\u3063\u304B\u308A\u3068\u3057\u305F\u30C1\u30FC\u30BA"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u8CEA"
+          },
+          "max"  : 96.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 0.0,
+          "max" : 200.0,
+          "bonusMin" : 0.0,
+          "bonusMax" : 200.0,
           "pct"      : [
             [
               0.0,
@@ -1687,6 +1871,50 @@
     },
     {
       "link" : {
+        "key" : "CheeseHardCut",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__CheeseHardCut__CardImage",
+        "name"     : {
+          "zh" : "\u7279\u786C\u5976\u916A",
+          "en" : "Hard Cheese",
+          "ja" : "\u786C\u3044\u30C1\u30FC\u30BA"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u8CEA"
+          },
+          "max"  : 96.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 0.0,
+          "max" : 250.0,
+          "bonusMin" : 0.0,
+          "bonusMax" : 250.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "interests"    : [
+        {
+          "trader" : "Agent_TraderAnimal",
+          "mult"   : 2.0
+        }
+      ]
+    },
+    {
+      "link" : {
         "key" : "CheeseHardWedge",
         "type" : "CardData",
         "CardType" : 0,
@@ -1714,6 +1942,94 @@
           "max" : 62.5,
           "bonusMin" : 0.0,
           "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "interests"    : [
+        {
+          "trader" : "Agent_TraderAnimal",
+          "mult"   : 2.0
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "CheeseHardWhole",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__CheeseHardCut__CardImage",
+        "name"     : {
+          "zh" : "\u7279\u786C\u5976\u916A",
+          "en" : "Hard Cheese",
+          "ja" : "\u786C\u3044\u30C1\u30FC\u30BA"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u8CEA"
+          },
+          "max"  : 96.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 0.0,
+          "max" : 250.0,
+          "bonusMin" : 0.0,
+          "bonusMax" : 250.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "interests"    : [
+        {
+          "trader" : "Agent_TraderAnimal",
+          "mult"   : 2.0
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "CheeseSoft",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_CheeseSoft__CardImage",
+        "name"     : {
+          "zh" : "\u8F6F\u5976\u916A",
+          "en" : "Soft Cheese",
+          "ja" : "\u30BD\u30D5\u30C8\u30C1\u30FC\u30BA"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u8CEA"
+          },
+          "max"  : 96.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 0.0,
+          "max" : 150.0,
+          "bonusMin" : 0.0,
+          "bonusMax" : 150.0,
           "pct"      : [
             [
               0.0,
@@ -2128,12 +2444,28 @@
         }
       },
       "base" : 30.0,
-      "variants" : [
+      "percentSlots" : [
         {
-          "min" : 30.0,
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 144.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 7.5,
           "max" : 30.0,
           "bonusMin" : 0.0,
-          "bonusMax" : 0.0
+          "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
         }
       ]
     },
@@ -2562,6 +2894,44 @@
         {
           "min" : 7.5,
           "max" : 30.0,
+          "bonusMin" : 0.0,
+          "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "FlyAgaricDried",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__AgaricEffect__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "\u5E72\u6BD2\u8747\u4F1E",
+          "en" : "Dry Fly Agaric",
+          "ja" : "\u4E7E\u71E5\u3057\u305F\u30D9\u30CB\u30C6\u30F3\u30B0\u30BF\u30B1"
+        }
+      },
+      "base" : 18.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 144.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 4.5,
+          "max" : 18.0,
           "bonusMin" : 0.0,
           "bonusMax" : 0.0,
           "pct"      : [
@@ -3190,12 +3560,28 @@
         }
       },
       "base" : 30.0,
-      "variants" : [
+      "percentSlots" : [
         {
-          "min" : 30.0,
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 144.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 7.5,
           "max" : 30.0,
           "bonusMin" : 0.0,
-          "bonusMax" : 0.0
+          "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
         }
       ]
     },
@@ -3206,7 +3592,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "\u8089\u7624\u5E72",
+          "zh" : "Dried Growth",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -3294,12 +3680,28 @@
         }
       },
       "base" : 30.0,
-      "variants" : [
+      "percentSlots" : [
         {
-          "min" : 30.0,
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 144.0
+        }
+      ],
+      "variants"     : [
+        {
+          "min" : 7.5,
           "max" : 30.0,
           "bonusMin" : 0.0,
-          "bonusMax" : 0.0
+          "bonusMax" : 0.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
         }
       ]
     },
@@ -9963,7 +10365,7 @@
           "ja" : "Iron Striker"
         }
       },
-      "base" : 1000.0,
+      "base" : 2250.0,
       "percentSlots" : [
         {
           "name" : {
@@ -9976,8 +10378,8 @@
       ],
       "variants"     : [
         {
-          "min" : 250.0,
-          "max" : 52750.0,
+          "min" : 562.5,
+          "max" : 54000.0,
           "bonusMin" : 0.0,
           "bonusMax" : 51750.0,
           "pct"      : [
@@ -10001,7 +10403,7 @@
           "ja" : "Iron Striker"
         }
       },
-      "base" : 2000.0,
+      "base" : 2250.0,
       "percentSlots" : [
         {
           "name" : {
@@ -10014,8 +10416,8 @@
       ],
       "variants"     : [
         {
-          "min" : 500.0,
-          "max" : 53750.0,
+          "min" : 562.5,
+          "max" : 54000.0,
           "bonusMin" : 0.0,
           "bonusMax" : 51750.0,
           "pct"      : [
@@ -10568,6 +10970,1921 @@
               1.0
             ]
           ]
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "OLD_FurCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BearCoat__SpecialDurability1-OverrideIcon",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u6BDB\u76AE",
+          "en" : "Cured Pelt",
+          "ja" : "\u52A0\u5DE5\u3057\u305F\u30DA\u30EB\u30C8"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 50.0
+        }
+      ],
+      "variants"     : [
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u6BDB\u76AE\u788E\u6599",
+            "en" : "Cured Pelt Scraps",
+            "ja" : "\u52A0\u5DE5\u3057\u305F\u307A\u30EB\u30C8\u306E\u5207\u308C\u7AEF"
+          },
+          "min"  : 87.5,
+          "max"  : 350.0,
+          "bonusMin" : 350.0,
+          "bonusMax" : 350.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u677E\u9F20\u76AE",
+            "en" : "Cured Squirrel Pelt",
+            "ja" : "\u52A0\u5DE5\u3057\u305F\u30EA\u30B9\u307A\u30EB\u30C8"
+          },
+          "min"  : 87.5,
+          "max"  : 350.0,
+          "bonusMin" : 350.0,
+          "bonusMax" : 350.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u97A3\u5236\u6BDB\u76AE",
+            "en" : "Small Cured Pelt",
+            "ja" : "\u5C0F\u3055\u306A\u52A0\u5DE5\u3057\u305F\u307A\u30EB\u30C8"
+          },
+          "min"  : 175.0,
+          "max"  : 700.0,
+          "bonusMin" : 700.0,
+          "bonusMax" : 700.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u7F1D\u8865\u97A3\u5236\u6BDB\u76AE",
+            "en" : "Small Patched Cured Pelt",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5C0F\u3055\u306A\u306A\u3081\u3057\u307A\u30EB\u30C8"
+          },
+          "min"  : 175.0,
+          "max"  : 700.0,
+          "bonusMin" : 700.0,
+          "bonusMax" : 700.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u72D0\u72F8\u76AE",
+            "en" : "Cured Fox Pelt",
+            "ja" : "\u52A0\u5DE5\u3057\u305F\u30AD\u30C4\u30CD\u307A\u30EB\u30C8"
+          },
+          "min"  : 175.0,
+          "max"  : 700.0,
+          "bonusMin" : 700.0,
+          "bonusMax" : 700.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u91CE\u5154\u6BDB\u76AE",
+            "en" : "Cured Hare Pelt",
+            "ja" : "\u52A0\u5DE5\u3057\u305F\u30CE\u30A6\u30B5\u30AE\u307A\u30EB\u30C8"
+          },
+          "min"  : 175.0,
+          "max"  : 700.0,
+          "bonusMin" : 700.0,
+          "bonusMax" : 700.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u97A3\u5236\u6BDB\u76AE",
+            "en" : "Medium Cured Pelt",
+            "ja" : "\u4E2D\u578B\u306E\u52A0\u5DE5\u3057\u305F\u307A\u30EB\u30C8"
+          },
+          "min"  : 350.0,
+          "max"  : 1400.0,
+          "bonusMin" : 1400.0,
+          "bonusMax" : 1400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u7F1D\u8865\u97A3\u5236\u6BDB\u76AE",
+            "en" : "Medium Patched Cured Pelt",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u4E2D\u578B\u306E\u52A0\u5DE5\u3057\u305F\u307A\u30EB\u30C8"
+          },
+          "min"  : 350.0,
+          "max"  : 1400.0,
+          "bonusMin" : 1400.0,
+          "bonusMax" : 1400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u72FC\u76AE",
+            "en" : "Cured Wolf Pelt",
+            "ja" : "\u52A0\u5DE5\u3057\u305F\u30AA\u30AA\u30AB\u30DF\u307A\u30EB\u30C8"
+          },
+          "min"  : 350.0,
+          "max"  : 1400.0,
+          "bonusMin" : 1400.0,
+          "bonusMax" : 1400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u97A3\u5236\u6BDB\u76AE",
+            "en" : "Large Cured Pelt",
+            "ja" : "\u5927\u578B\u306E\u52A0\u5DE5\u3057\u305F\u307A\u30EB\u30C8"
+          },
+          "min"  : 700.0,
+          "max"  : 2800.0,
+          "bonusMin" : 2800.0,
+          "bonusMax" : 2800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u7F1D\u8865\u97A3\u5236\u6BDB\u76AE",
+            "en" : "Large Patched Cured Pelt",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5927\u578B\u306E\u52A0\u5DE5\u3057\u305F\u307A\u30EB\u30C8"
+          },
+          "min"  : 700.0,
+          "max"  : 2800.0,
+          "bonusMin" : 2800.0,
+          "bonusMax" : 2800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u97A3\u5236\u6BDB\u76AE",
+            "en" : "Very Large Cured Pelt",
+            "ja" : "\u7279\u5927\u306E\u52A0\u5DE5\u3057\u305F\u307A\u30EB\u30C8"
+          },
+          "min"  : 1400.0,
+          "max"  : 5600.0,
+          "bonusMin" : 5600.0,
+          "bonusMax" : 5600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u7F1D\u8865\u97A3\u5236\u6BDB\u76AE",
+            "en" : "Very Large Patched Cured Pelt",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u7279\u5927\u306E\u52A0\u5DE5\u3057\u305F\u307A\u30EB\u30C8"
+          },
+          "min"  : 1400.0,
+          "max"  : 5600.0,
+          "bonusMin" : 5600.0,
+          "bonusMax" : 5600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u718A\u76AE",
+            "en" : "Cured Bear Pelt",
+            "ja" : "\u52A0\u5DE5\u3057\u305F\u30AF\u30DE\u307A\u30EB\u30C8"
+          },
+          "min"  : 1400.0,
+          "max"  : 5600.0,
+          "bonusMin" : 5600.0,
+          "bonusMax" : 5600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "OLD_FurLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_FurLeather__CardImage",
+        "name"     : {
+          "zh" : "\u6BDB\u76AE",
+          "en" : "Pelt",
+          "ja" : "\u30DA\u30EB\u30C8"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 50.0
+        }
+      ],
+      "variants"     : [
+        {
+          "name" : {
+            "zh" : "\u6BDB\u76AE\u788E\u6599",
+            "en" : "Pelt Scraps",
+            "ja" : "\u307A\u30EB\u30C8\u306E\u5207\u308C\u7AEF"
+          },
+          "min"  : 187.5,
+          "max"  : 750.0,
+          "bonusMin" : 750.0,
+          "bonusMax" : 750.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u677E\u9F20\u76AE",
+            "en" : "Squirrel Pelt",
+            "ja" : "\u30EA\u30B9\u307A\u30EB\u30C8"
+          },
+          "min"  : 187.5,
+          "max"  : 750.0,
+          "bonusMin" : 750.0,
+          "bonusMax" : 750.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u6BDB\u76AE",
+            "en" : "Small Pelt",
+            "ja" : "\u5C0F\u3055\u306A\u307A\u30EB\u30C8"
+          },
+          "min"  : 375.0,
+          "max"  : 1500.0,
+          "bonusMin" : 1500.0,
+          "bonusMax" : 1500.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u7F1D\u8865\u6BDB\u76AE",
+            "en" : "Small Patched Pelt",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5C0F\u3055\u306A\u307A\u30EB\u30C8"
+          },
+          "min"  : 375.0,
+          "max"  : 1500.0,
+          "bonusMin" : 1500.0,
+          "bonusMax" : 1500.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u72D0\u72F8\u76AE",
+            "en" : "Fox Pelt",
+            "ja" : "\u30AD\u30C4\u30CD\u307A\u30EB\u30C8"
+          },
+          "min"  : 375.0,
+          "max"  : 1500.0,
+          "bonusMin" : 1500.0,
+          "bonusMax" : 1500.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u91CE\u5154\u6BDB\u76AE",
+            "en" : "Hare Pelt",
+            "ja" : "\u30CE\u30A6\u30B5\u30AE\u307A\u30EB\u30C8"
+          },
+          "min"  : 375.0,
+          "max"  : 1500.0,
+          "bonusMin" : 1500.0,
+          "bonusMax" : 1500.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u6BDB\u76AE",
+            "en" : "Medium Pelt",
+            "ja" : "\u4E2D\u578B\u306E\u307A\u30EB\u30C8"
+          },
+          "min"  : 750.0,
+          "max"  : 3000.0,
+          "bonusMin" : 3000.0,
+          "bonusMax" : 3000.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u7F1D\u8865\u6BDB\u76AE",
+            "en" : "Medium Patched Pelt",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u4E2D\u578B\u306E\u307A\u30EB\u30C8"
+          },
+          "min"  : 750.0,
+          "max"  : 3000.0,
+          "bonusMin" : 3000.0,
+          "bonusMax" : 3000.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u72FC\u76AE",
+            "en" : "Wolf Pelt",
+            "ja" : "\u30AA\u30AA\u30AB\u30DF\u307A\u30EB\u30C8"
+          },
+          "min"  : 750.0,
+          "max"  : 3000.0,
+          "bonusMin" : 3000.0,
+          "bonusMax" : 3000.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u6BDB\u76AE",
+            "en" : "Large Pelt",
+            "ja" : "\u5927\u578B\u306E\u307A\u30EB\u30C8"
+          },
+          "min"  : 1500.0,
+          "max"  : 6000.0,
+          "bonusMin" : 6000.0,
+          "bonusMax" : 6000.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u7F1D\u8865\u6BDB\u76AE",
+            "en" : "Large Patched Pelt",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5927\u578B\u306E\u307A\u30EB\u30C8"
+          },
+          "min"  : 1500.0,
+          "max"  : 6000.0,
+          "bonusMin" : 6000.0,
+          "bonusMax" : 6000.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u6BDB\u76AE",
+            "en" : "Very Large Pelt",
+            "ja" : "\u5927\u578B\u306E\u307A\u30EB\u30C8"
+          },
+          "min"  : 3000.0,
+          "max"  : 12000.0,
+          "bonusMin" : 12000.0,
+          "bonusMax" : 12000.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u7F1D\u8865\u6BDB\u76AE",
+            "en" : "Very Large Patched Pelt",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u7279\u5927\u306E\u307A\u30EB\u30C8"
+          },
+          "min"  : 3000.0,
+          "max"  : 12000.0,
+          "bonusMin" : 12000.0,
+          "bonusMax" : 12000.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u718A\u76AE",
+            "en" : "Bear Pelt",
+            "ja" : "\u30AF\u30DE\u307A\u30EB\u30C8"
+          },
+          "min"  : 3000.0,
+          "max"  : 12000.0,
+          "bonusMin" : 12000.0,
+          "bonusMax" : 12000.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "OLD_SkinCured",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__CardImage",
+        "name"     : {
+          "zh" : "\u97A3\u5236\u517D\u76AE",
+          "en" : "Cured Skin",
+          "ja" : "\u76AE\u9769"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 50.0
+        }
+      ],
+      "variants"     : [
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u517D\u76AE\u788E\u6599",
+            "en" : "Cured Skin Scraps",
+            "ja" : "\u52A0\u5DE5\u6E08\u307F\u76AE\u306E\u5207\u308C\u7AEF"
+          },
+          "min"  : 50.0,
+          "max"  : 200.0,
+          "bonusMin" : 200.0,
+          "bonusMax" : 200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u97A3\u5236\u517D\u76AE",
+            "en" : "Small Cured Skin",
+            "ja" : "\u5C0F\u3055\u306A\u52A0\u5DE5\u6E08\u307F\u76AE"
+          },
+          "min"  : 100.0,
+          "max"  : 400.0,
+          "bonusMin" : 400.0,
+          "bonusMax" : 400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u7F1D\u8865\u97A3\u5236\u517D\u76AE",
+            "en" : "Small Patched Cured Skin",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5C0F\u3055\u306A\u52A0\u5DE5\u6E08\u307F\u76AE"
+          },
+          "min"  : 100.0,
+          "max"  : 400.0,
+          "bonusMin" : 400.0,
+          "bonusMax" : 400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u737E\u76AE",
+            "en" : "Cured Badger Skin",
+            "ja" : "\u52A0\u5DE5\u6E08\u307F\u30A2\u30CA\u30B0\u30DE\u76AE"
+          },
+          "min"  : 100.0,
+          "max"  : 400.0,
+          "bonusMin" : 400.0,
+          "bonusMax" : 400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u97A3\u5236\u517D\u76AE",
+            "en" : "Medium Cured Skin",
+            "ja" : "\u4E2D\u578B\u306E\u52A0\u5DE5\u6E08\u307F\u76AE"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u7F1D\u8865\u97A3\u5236\u517D\u76AE",
+            "en" : "Medium Patched Cured Skin",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u4E2D\u578B\u306E\u52A0\u5DE5\u6E08\u307F\u76AE"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u97A3\u5236\u517D\u76AE",
+            "en" : "Large Cured Skin",
+            "ja" : "\u5927\u578B\u306E\u52A0\u5DE5\u6E08\u307F\u76AE"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u7F1D\u8865\u97A3\u5236\u517D\u76AE",
+            "en" : "Large Patched Cured Skin",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5927\u578B\u306E\u52A0\u5DE5\u6E08\u307F\u76AE"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u91CE\u732A\u76AE",
+            "en" : "Cured Boar Skin",
+            "ja" : "\u52A0\u5DE5\u6E08\u307F\u30A4\u30CE\u30B7\u30B7\u76AE"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u6BCD\u9E7F\u76AE",
+            "en" : "Cured Doe Skin",
+            "ja" : "\u52A0\u5DE5\u6E08\u307F\u30E1\u30B9\u30B8\u30AB\u76AE"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u97A3\u5236\u516C\u9E7F\u76AE",
+            "en" : "Cured Stag Skin",
+            "ja" : "\u52A0\u5DE5\u6E08\u307F\u30AA\u30B9\u30B8\u30AB\u76AE"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u97A3\u5236\u517D\u76AE",
+            "en" : "Very Large Cured Skin",
+            "ja" : "\u7279\u5927\u306E\u52A0\u5DE5\u6E08\u307F\u76AE"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u7F1D\u8865\u97A3\u5236\u517D\u76AE",
+            "en" : "Very Large Patched Cured Skin",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u7279\u5927\u306E\u52A0\u5DE5\u6E08\u307F\u76AE"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "OLD_SkinLeather",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u76AE\u9769",
+          "en" : "Leather",
+          "ja" : "\u9769"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u30AF\u30AA\u30EA\u30C6\u30A3"
+          },
+          "max"  : 50.0
+        }
+      ],
+      "variants"     : [
+        {
+          "name" : {
+            "zh" : "\u76AE\u9769\u788E\u6599",
+            "en" : "Leather Scraps",
+            "ja" : "\u9769\u306E\u6B8B\u308A\u7269"
+          },
+          "min"  : 100.0,
+          "max"  : 400.0,
+          "bonusMin" : 400.0,
+          "bonusMax" : 400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u76AE\u9769",
+            "en" : "Small Leather",
+            "ja" : "\u5C0F\u578B\u306E\u9769"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Small Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5C0F\u578B\u306E\u9769"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u737E\u76AE\u9769",
+            "en" : "Badger Leather",
+            "ja" : "\u30A2\u30CA\u30B0\u30DE\u9769"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u76AE\u9769",
+            "en" : "Medium Leather",
+            "ja" : "\u4E2D\u578B\u306E\u9769"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Medium Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u4E2D\u578B\u306E\u9769"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u76AE\u9769",
+            "en" : "Large Leather",
+            "ja" : "\u5927\u578B\u306E\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Large Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5927\u578B\u306E\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u91CE\u732A\u76AE\u9769",
+            "en" : "Boar Leather",
+            "ja" : "\u30A4\u30CE\u30B7\u30B7\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u6BCD\u9E7F\u76AE\u9769",
+            "en" : "Doe Leather",
+            "ja" : "\u30E1\u30B9\u30B8\u30AB\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u516C\u9E7F\u76AE\u9769",
+            "en" : "Stag Leather",
+            "ja" : "\u30AA\u30B9\u30B8\u30AB\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u76AE\u9769",
+            "en" : "Very Large Leather",
+            "ja" : "\u7279\u5927\u306E\u9769"
+          },
+          "min"  : 1600.0,
+          "max"  : 6400.0,
+          "bonusMin" : 6400.0,
+          "bonusMax" : 6400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Very Large Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u7279\u5927\u306E\u9769"
+          },
+          "min"  : 1600.0,
+          "max"  : 6400.0,
+          "bonusMin" : 6400.0,
+          "bonusMax" : 6400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "SkinLeatherLarge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_PatchedLeatherLarge__CardImage",
+        "name"     : {
+          "zh" : "\u5927\u5757\u76AE\u9769",
+          "en" : "Large Leather",
+          "ja" : "\u5927\u578B\u306E\u9769"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u6BDB\u76AE",
+            "en" : "Fur",
+            "ja" : "\u6BDB\u76AE"
+          },
+          "max"  : 100.0
+        },
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u8CEA"
+          },
+          "max"  : 50.0
+        }
+      ],
+      "variants"     : [
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u76AE\u9769",
+            "en" : "Large Leather",
+            "ja" : "\u5927\u578B\u306E\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 2384.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              0.490000009536743
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u76AE\u9769",
+            "en" : "Large Leather",
+            "ja" : "\u5927\u578B\u306E\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Large Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5927\u578B\u306E\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 2384.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              0.490000009536743
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5927\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Large Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5927\u578B\u306E\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u91CE\u732A\u76AE\u9769",
+            "en" : "Boar Leather",
+            "ja" : "\u30A4\u30CE\u30B7\u30B7\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u6BCD\u9E7F\u76AE\u9769",
+            "en" : "Doe Leather",
+            "ja" : "\u30E1\u30B9\u30B8\u30AB\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u516C\u9E7F\u76AE\u9769",
+            "en" : "Stag Leather",
+            "ja" : "\u30AA\u30B9\u30B8\u30AB\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u725B\u76AE\u9769",
+            "en" : "Calf Leather",
+            "ja" : "\u5B50\u725B\u9769"
+          },
+          "min"  : 800.0,
+          "max"  : 3200.0,
+          "bonusMin" : 3200.0,
+          "bonusMax" : 3200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "interests"    : [
+        {
+          "trader" : "Agent_TraderGeneral",
+          "mult"   : 4.0
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "SkinLeatherMedium",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_PatchedLeatherMedium__CardImage",
+        "name"     : {
+          "zh" : "\u4E2D\u5757\u76AE\u9769",
+          "en" : "Medium Leather",
+          "ja" : "\u4E2D\u578B\u306E\u9769"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u6BDB\u76AE",
+            "en" : "Fur",
+            "ja" : "\u6BDB\u76AE"
+          },
+          "max"  : 100.0
+        },
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u8CEA"
+          },
+          "max"  : 50.0
+        }
+      ],
+      "variants"     : [
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u76AE\u9769",
+            "en" : "Medium Leather",
+            "ja" : "\u4E2D\u578B\u306E\u9769"
+          },
+          "min"  : 400.0,
+          "max"  : 1192.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              0.490000009536743
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u76AE\u9769",
+            "en" : "Medium Leather",
+            "ja" : "\u4E2D\u578B\u306E\u9769"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Medium Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u4E2D\u578B\u306E\u9769"
+          },
+          "min"  : 400.0,
+          "max"  : 1192.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              0.490000009536743
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u4E2D\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Medium Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u4E2D\u578B\u306E\u9769"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u72FC\u76AE\u9769",
+            "en" : "Wolf Leather",
+            "ja" : "\u30AA\u30AA\u30AB\u30DF\u306E\u9769"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u6708\u89E6\u76AE\u9769",
+            "en" : "Moontouched Leather",
+            "ja" : "\u6708\u89E6\u308C\u306E\u9769"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u539F\u521D\u72FC\u76AE\u9769",
+            "en" : "Primeval Wolf Leather",
+            "ja" : "\u592A\u53E4\u72FC\u306E\u9769"
+          },
+          "min"  : 400.0,
+          "max"  : 1600.0,
+          "bonusMin" : 1600.0,
+          "bonusMax" : 1600.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "interests"    : [
+        {
+          "trader" : "Agent_TraderGeneral",
+          "mult"   : 4.0
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "SkinLeatherScraps",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardTabGroup__GpTag_LeatherScraps__CustomBpCyclingImages-0",
+        "name"     : {
+          "zh" : "\u76AE\u9769\u788E\u6599",
+          "en" : "Leather Scraps",
+          "ja" : "\u9769\u306E\u6B8B\u308A\u7269"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u6BDB\u76AE",
+            "en" : "Fur",
+            "ja" : "\u6BDB\u76AE"
+          },
+          "max"  : 100.0
+        },
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u8CEA"
+          },
+          "max"  : 50.0
+        }
+      ],
+      "variants"     : [
+        {
+          "name" : {
+            "zh" : "\u76AE\u9769\u788E\u6599",
+            "en" : "Leather Scraps",
+            "ja" : "\u9769\u306E\u6B8B\u308A\u7269"
+          },
+          "min"  : 50.0,
+          "max"  : 149.0,
+          "bonusMin" : 200.0,
+          "bonusMax" : 200.0,
+          "pct"      : [
+            [
+              0.0,
+              0.490000009536743
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u76AE\u9769\u788E\u6599",
+            "en" : "Leather Scraps",
+            "ja" : "\u9769\u306E\u6B8B\u308A\u7269"
+          },
+          "min"  : 50.0,
+          "max"  : 200.0,
+          "bonusMin" : 200.0,
+          "bonusMax" : 200.0,
+          "pct"      : [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u677E\u9F20\u76AE\u9769",
+            "en" : "Squirrel Leather",
+            "ja" : "\u30EA\u30B9\u9769"
+          },
+          "min"  : 50.0,
+          "max"  : 200.0,
+          "bonusMin" : 200.0,
+          "bonusMax" : 200.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "interests"    : [
+        {
+          "trader" : "Agent_TraderGeneral",
+          "mult"   : 4.0
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "SkinLeatherSmall",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bp_PatchedLeatherSmall__CardImage",
+        "name"     : {
+          "zh" : "\u5C0F\u5757\u76AE\u9769",
+          "en" : "Small Leather",
+          "ja" : "\u5C0F\u578B\u306E\u9769"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u6BDB\u76AE",
+            "en" : "Fur",
+            "ja" : "\u6BDB\u76AE"
+          },
+          "max"  : 100.0
+        },
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u8CEA"
+          },
+          "max"  : 50.0
+        }
+      ],
+      "variants"     : [
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u76AE\u9769",
+            "en" : "Small Leather",
+            "ja" : "\u5C0F\u578B\u306E\u9769"
+          },
+          "min"  : 200.0,
+          "max"  : 596.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              0.490000009536743
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u76AE\u9769",
+            "en" : "Small Leather",
+            "ja" : "\u5C0F\u578B\u306E\u9769"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Small Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5C0F\u578B\u306E\u9769"
+          },
+          "min"  : 200.0,
+          "max"  : 596.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              0.490000009536743
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u5C0F\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Small Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u5C0F\u578B\u306E\u9769"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u72D0\u76AE\u9769",
+            "en" : "Fox Leather",
+            "ja" : "\u30AD\u30C4\u30CD\u9769"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u737E\u76AE\u9769",
+            "en" : "Badger Leather",
+            "ja" : "\u30A2\u30CA\u30B0\u30DE\u9769"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u91CE\u5154\u76AE\u9769",
+            "en" : "Hare Leather",
+            "ja" : "\u30CE\u30A6\u30B5\u30AE\u9769"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u6CB3\u72F8\u76AE\u9769",
+            "en" : "Beaver Leather",
+            "ja" : "Beaver Leather"
+          },
+          "min"  : 200.0,
+          "max"  : 800.0,
+          "bonusMin" : 800.0,
+          "bonusMax" : 800.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "interests"    : [
+        {
+          "trader" : "Agent_TraderGeneral",
+          "mult"   : 4.0
+        }
+      ]
+    },
+    {
+      "link" : {
+        "key" : "SkinLeatherVeryLarge",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__OLD_SkinCured__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u7279\u5927\u5757\u76AE\u9769",
+          "en" : "Very Large Leather",
+          "ja" : "\u7279\u5927\u306E\u9769"
+        }
+      },
+      "base" : 0.0,
+      "percentSlots" : [
+        {
+          "name" : {
+            "zh" : "\u6BDB\u76AE",
+            "en" : "Fur",
+            "ja" : "\u6BDB\u76AE"
+          },
+          "max"  : 100.0
+        },
+        {
+          "name" : {
+            "zh" : "\u54C1\u8D28",
+            "en" : "Quality",
+            "ja" : "\u8CEA"
+          },
+          "max"  : 50.0
+        }
+      ],
+      "variants"     : [
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u76AE\u9769",
+            "en" : "Very Large Leather",
+            "ja" : "\u7279\u5927\u306E\u9769"
+          },
+          "min"  : 1600.0,
+          "max"  : 4768.0,
+          "bonusMin" : 6400.0,
+          "bonusMax" : 6400.0,
+          "pct"      : [
+            [
+              0.0,
+              0.490000009536743
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u76AE\u9769",
+            "en" : "Very Large Leather",
+            "ja" : "\u7279\u5927\u306E\u9769"
+          },
+          "min"  : 1600.0,
+          "max"  : 6400.0,
+          "bonusMin" : 6400.0,
+          "bonusMax" : 6400.0,
+          "pct"      : [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Very Large Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u7279\u5927\u306E\u9769"
+          },
+          "min"  : 1600.0,
+          "max"  : 4768.0,
+          "bonusMin" : 6400.0,
+          "bonusMax" : 6400.0,
+          "pct"      : [
+            [
+              0.0,
+              0.490000009536743
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u7279\u5927\u5757\u7F1D\u8865\u76AE\u9769",
+            "en" : "Very Large Patched Leather",
+            "ja" : "\u7D99\u304E\u5F53\u3066\u3055\u308C\u305F\u7279\u5927\u306E\u9769"
+          },
+          "min"  : 1600.0,
+          "max"  : 6400.0,
+          "bonusMin" : 6400.0,
+          "bonusMax" : 6400.0,
+          "pct"      : [
+            [
+              0.5,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u718A\u76AE\u9769",
+            "en" : "Bear Leather",
+            "ja" : "\u30AF\u30DE\u9769"
+          },
+          "min"  : 1600.0,
+          "max"  : 6400.0,
+          "bonusMin" : 6400.0,
+          "bonusMax" : 6400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u68EE\u6797\u731B\u517D\u76AE\u9769",
+            "en" : "Forest Beast Leather",
+            "ja" : "\u68EE\u7363\u306E\u9769"
+          },
+          "min"  : 1600.0,
+          "max"  : 6400.0,
+          "bonusMin" : 6400.0,
+          "bonusMax" : 6400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name" : {
+            "zh" : "\u725B\u76AE\u9769",
+            "en" : "Cow Leather",
+            "ja" : "\u725B\u306E\u76AE"
+          },
+          "min"  : 1600.0,
+          "max"  : 6400.0,
+          "bonusMin" : 6400.0,
+          "bonusMax" : 6400.0,
+          "pct"      : [
+            [
+              0.0,
+              1.0
+            ],
+            [
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "interests"    : [
+        {
+          "trader" : "Agent_TraderGeneral",
+          "mult"   : 4.0
         }
       ]
     },
@@ -11601,10 +13918,10 @@
             "en" : "Blunt Iron Handsaw",
             "ja" : "Blunt Iron Handsaw"
           },
-          "min"  : 5250.0,
-          "max"  : 21000.0,
-          "bonusMin" : 18000.0,
-          "bonusMax" : 18000.0,
+          "min"  : 3000.0,
+          "max"  : 12000.0,
+          "bonusMin" : 9000.0,
+          "bonusMax" : 9000.0,
           "pct"      : [
             [
               0.0,
@@ -13377,7 +15694,7 @@
           "ja" : "Metal Handsaw"
         }
       },
-      "base" : 6000.0,
+      "base" : 3000.0,
       "percentSlots" : [
         {
           "name" : {
@@ -13395,10 +15712,10 @@
             "en" : "Iron Handsaw",
             "ja" : "Iron Handsaw"
           },
-          "min"  : 6000.0,
-          "max"  : 24000.0,
-          "bonusMin" : 18000.0,
-          "bonusMax" : 18000.0,
+          "min"  : 3000.0,
+          "max"  : 12000.0,
+          "bonusMin" : 9000.0,
+          "bonusMax" : 9000.0,
           "pct"      : [
             [
               0.0,

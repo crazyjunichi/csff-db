@@ -6831,19 +6831,20 @@
         }
       ],
       "TargetSelection" : 0,
-      "TargetConditions" : {
+      "InvertTargetScore" : true,
+      "TargetConditions"  : {
         "Special3Range" : {
           "x" : 1.0,
           "y" : 10000.0
         }
       },
-      "SelfConditions"   : {
+      "SelfConditions"    : {
         "SpoilageRange" : {
           "x" : 0.0,
           "y" : 13.5
         }
       },
-      "Transfer"         : {
+      "Transfer"          : {
         "TakeFrom" : 2,
         "SendTo"   : 2,
         "TransferDirection" : 0,

@@ -11831,7 +11831,7 @@
     "Bp_Smithed_BlankHuntingSpearHead (CardData)"         : 3,
     "Bp_Smithed_BlankMeatHook (CardData)"                 : 3,
     "Bp_Smithed_BlankPickaxeHead (CardData)"              : 3,
-    "Bp_Smithed_BlankRynd (CardData)"                     : 2,
+    "Bp_Smithed_BlankRynd (CardData)"                     : 3,
     "Bp_Smithed_BlankScytheBlade (CardData)"              : 3,
     "Bp_Smithed_BlankShovelHead (CardData)"               : 3,
     "Bp_Smithed_BlankSickleBlade (CardData)"              : 3,
@@ -19149,7 +19149,7 @@
       "type" : "NPCCharacterPerk",
       "icon" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
       "name" : {
-        "zh" : "\u7075\u6027",
+        "zh" : "Spiritual",
         "en" : "Spiritual",
         "ja" : "Spiritual"
       }
@@ -21876,18 +21876,45 @@
   ],
   "NextEnvironment"                                  : {
     "MainEnvCard" : {
-      "key" : "Env_River_ClearingOak_RiverClearing",
+      "key" : "Env_MudHutConstructionStartingPointEnclosure",
       "type" : "CardData",
       "CardType" : 4,
       "name"     : {
-        "zh" : "\u6CB3\u7554\u6797\u9699",
-        "en" : "River Clearing",
-        "ja" : "\u5DDD\u6CBF\u3044\u306E\u5E73\u5730"
+        "zh" : "\u755C\u680F",
+        "en" : "Enclosure",
+        "ja" : "\u56F2\u3044"
       }
     }
   },
   "CurrentEnvironment"                               : {
     "MainEnvCard" : {
+      "key" : "Env_MudHutConstructionStartingPointEnclosure",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u755C\u680F",
+        "en" : "Enclosure",
+        "ja" : "\u56F2\u3044"
+      }
+    },
+    "ParentEnvs"  : [
+      {
+        "PrevEnvCard" : {
+          "key" : "Env_River_ClearingOak_RiverClearing",
+          "type" : "CardData",
+          "CardType" : 4,
+          "name"     : {
+            "zh" : "\u6CB3\u7554\u6797\u9699",
+            "en" : "River Clearing",
+            "ja" : "\u5DDD\u6CBF\u3044\u306E\u5E73\u5730"
+          }
+        },
+        "TravelIndex" : 0
+      }
+    ]
+  },
+  "PreviousEnvironment"                              : {
+    "MainEnvCard" : {
       "key" : "Env_River_ClearingOak_RiverClearing",
       "type" : "CardData",
       "CardType" : 4,
@@ -21895,18 +21922,6 @@
         "zh" : "\u6CB3\u7554\u6797\u9699",
         "en" : "River Clearing",
         "ja" : "\u5DDD\u6CBF\u3044\u306E\u5E73\u5730"
-      }
-    }
-  },
-  "PreviousEnvironment"                              : {
-    "MainEnvCard" : {
-      "key" : "Env_River_ClearingAlder_ReedPool",
-      "type" : "CardData",
-      "CardType" : 4,
-      "name"     : {
-        "zh" : "\u82A6\u82C7\u6C60\u5858",
-        "en" : "Reed Pool",
-        "ja" : "Reed Pool"
       }
     }
   },
@@ -21921,24 +21936,24 @@
   },
   "EnvironmentsData"                                 : {
     "EnvDictKey" : {
-      "DictionaryKey" : "5a51045d28a3ffc4a9a5802bd5fb2e6c",
+      "DictionaryKey" : "b2b3c63ab86619d4ba3345d9dedad388_2b19b942a09fdd148a43798e942a74eb",
       "LastUpdatedTick" : 72,
       "AllRegularCards" : [
         {
-          "CardID" : "f3f2b86a944815e42a673138a6db2220(Path_CaveFromStillHollow)",
-          "EnvironmentKey" : "5a51045d28a3ffc4a9a5802bd5fb2e6c(Env_ClearingPine_StillHollow)",
+          "CardID" : "0f6b726dde02d674097e37527789858f(MudHutConstructionDoorExitMain)",
+          "EnvironmentKey" : "b2b3c63ab86619d4ba3345d9dedad388(Env_MudHutConstructionStartingPointEnclosure)_2b19b942a09fdd148a43798e942a74eb(Env_River_ClearingOak_RiverClearing)",
           "PrevEnvTravelIndex" : 0,
           "SlotInformation"    : {
             "SlotType" : 2,
-            "SlotIndex" : -1
+            "SlotIndex" : 0
           },
           "CreatedOnTick"      : 72,
-          "CreatedInSaveDataTick" : -1,
+          "CreatedInSaveDataTick" : 72,
           "NotYetCreated"         : true,
           "IsTravelCard"          : true,
           "TravelCardIndex"       : 0,
-          "CurrentWeight"         : 1000.0,
-          "ActiveDurabilities"    : -1,
+          "CurrentWeight"         : 0.0,
+          "ActiveDurabilities"    : 8,
           "Spoilage"              : 0.0,
           "Usage"                 : 0.0,
           "Fuel"                  : 0.0,
@@ -21951,109 +21966,33 @@
           "CombatState"           : 0
         },
         {
-          "CardID" : "41fbf7771da1b9f4ea13af0bc1ea4341(TreeLargePine)",
-          "EnvironmentKey" : "5a51045d28a3ffc4a9a5802bd5fb2e6c(Env_ClearingPine_StillHollow)",
-          "PrevEnvTravelIndex" : 0,
-          "SlotInformation"    : {
-            "SlotType" : 2,
-            "SlotIndex" : 2
-          },
-          "CreatedOnTick"      : 72,
-          "CreatedInSaveDataTick" : -1,
-          "NotYetCreated"         : true,
-          "TravelCardIndex"       : 0,
-          "CurrentWeight"         : 0.0,
-          "ActiveDurabilities"    : 366,
-          "Spoilage"              : 0.0,
-          "Usage"                 : 14.0,
-          "Fuel"                  : 21.0,
-          "ConsumableCharges"     : 50.0,
-          "LiquidQuantity"        : 0.0,
-          "Special1"              : 0.0,
-          "Special2"              : 48.0,
-          "Special3"              : 0.0,
-          "Special4"              : 2.0,
-          "CombatState"           : 0
-        },
-        {
-          "CardID" : "e8287a79ea2ea4245b4a83ce727c4c9d(TreeLargeBirch)",
-          "EnvironmentKey" : "5a51045d28a3ffc4a9a5802bd5fb2e6c(Env_ClearingPine_StillHollow)",
-          "PrevEnvTravelIndex" : 0,
-          "SlotInformation"    : {
-            "SlotType" : 2,
-            "SlotIndex" : 3
-          },
-          "CreatedOnTick"      : 72,
-          "CreatedInSaveDataTick" : -1,
-          "NotYetCreated"         : true,
-          "TravelCardIndex"       : 0,
-          "CurrentWeight"         : 0.0,
-          "ActiveDurabilities"    : 334,
-          "Spoilage"              : 0.0,
-          "Usage"                 : 21.0,
-          "Fuel"                  : 28.0,
-          "ConsumableCharges"     : 75.0,
-          "LiquidQuantity"        : 0.0,
-          "Special1"              : 0.0,
-          "Special2"              : 72.0,
-          "Special3"              : 0.0,
-          "Special4"              : 3.0,
-          "CombatState"           : 0
-        },
-        {
-          "CardID" : "27cdcd9c74d2c0548bba4b5d43d37b9e(TreeSmallPine)",
-          "EnvironmentKey" : "5a51045d28a3ffc4a9a5802bd5fb2e6c(Env_ClearingPine_StillHollow)",
-          "PrevEnvTravelIndex" : 0,
-          "SlotInformation"    : {
-            "SlotType" : 2,
-            "SlotIndex" : 4
-          },
-          "CreatedOnTick"      : 72,
-          "CreatedInSaveDataTick" : -1,
-          "NotYetCreated"         : true,
-          "TravelCardIndex"       : 0,
-          "CurrentWeight"         : 0.0,
-          "ActiveDurabilities"    : 320,
-          "Spoilage"              : 0.0,
-          "Usage"                 : 0.0,
-          "Fuel"                  : 0.0,
-          "ConsumableCharges"     : 0.0,
-          "LiquidQuantity"        : 0.0,
-          "Special1"              : 0.0,
-          "Special2"              : 48.0,
-          "Special3"              : 0.0,
-          "Special4"              : 2.0,
-          "CombatState"           : 0
-        },
-        {
-          "CardID" : "258c8da1f1c1a2e4881fdf676762505f(ClearingPine_StillHollow)",
-          "EnvironmentKey" : "5a51045d28a3ffc4a9a5802bd5fb2e6c(Env_ClearingPine_StillHollow)",
+          "CardID" : "4c52c0b3a852b5341a9fc9d68529ebac(MudHutConstructionStartingPointEnclosure)",
+          "EnvironmentKey" : "b2b3c63ab86619d4ba3345d9dedad388(Env_MudHutConstructionStartingPointEnclosure)_2b19b942a09fdd148a43798e942a74eb(Env_River_ClearingOak_RiverClearing)",
           "PrevEnvTravelIndex" : 0,
           "SlotInformation"    : {
             "SlotType" : 11,
-            "SlotIndex" : -1
+            "SlotIndex" : 0
           },
           "CreatedOnTick"      : 72,
-          "CreatedInSaveDataTick" : -1,
+          "CreatedInSaveDataTick" : 72,
           "NotYetCreated"         : true,
-          "IsTravelCard"          : true,
           "TravelCardIndex"       : 0,
-          "CurrentWeight"         : 500000.0,
-          "ActiveDurabilities"    : 480,
+          "CurrentWeight"         : 40000.0,
+          "ActiveDurabilities"    : 193,
           "Spoilage"              : 0.0,
           "Usage"                 : 0.0,
           "Fuel"                  : 0.0,
           "ConsumableCharges"     : 0.0,
           "LiquidQuantity"        : 0.0,
-          "Special1"              : 115200.0,
+          "Special1"              : 0.0,
           "Special2"              : 1440.0,
-          "Special3"              : 360.0,
-          "Special4"              : 5760.0,
+          "Special3"              : 620.0,
+          "Special4"              : 0.0,
           "CombatState"           : 0
         }
       ],
-      "CurrentWeight"   : 501000.0,
-      "CurrentMaxWeight" : 1000000.0,
+      "CurrentWeight"   : 40000.0,
+      "CurrentMaxWeight" : 100000.0,
       "LocalCounterValues" : [
         {
           "ModelID" : "fbfa8ad2d24b8c64f9c2fd763cc59183(StormLocalCounter)",
@@ -22062,6 +22001,24 @@
       ]
     }
   },
+  "InstancedEnvironmentMaps"                         : [
+    {
+      "Rooms" : [
+        {
+          "ExitDirection" : {
+            "x" : 0,
+            "y" : 0,
+            "z" : -1,
+            "w" : 0
+          },
+          "Finished"      : true,
+          "EnvKey"        : "b2b3c63ab86619d4ba3345d9dedad388_2b19b942a09fdd148a43798e942a74eb"
+        }
+      ],
+      "RootEnvKey" : "2b19b942a09fdd148a43798e942a74eb",
+      "StartingEnvKey" : "b2b3c63ab86619d4ba3345d9dedad388_2b19b942a09fdd148a43798e942a74eb"
+    }
+  ],
   "LiquidCheatContainers"                            : [
     {
       "key" : "ClayBowl",

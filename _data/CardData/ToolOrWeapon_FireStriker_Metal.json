@@ -16,7 +16,7 @@
   "CardType"        : 0,
   "ObjectWeight"    : 100.0,
   "WeightReductionWhenEquipped" : 0.0,
-  "TradingValue"                : 2000.0,
+  "TradingValue"                : 2250.0,
   "CardTags"                    : [
     {
       "key" : "tag_Heatable",
@@ -192,6 +192,72 @@
     "Active"                : true,
     "durabilityKey"         : "FuelCapacity",
     "_rateModifications"    : [
+      {
+        "source" : {
+          "key" : "ToolOrWeapon_FireStriker_Metal",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+          "name"     : {
+            "zh" : "\u706B\u9570",
+            "en" : "Iron Striker",
+            "ja" : "Iron Striker"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5FEB\u901F\u51B7\u5374\uFF08\u94C1\uFF1A\u4E0D\u5728\u53EF\u627F\u53D7 1000\u00B0 \u4EE5\u4E0A\u7684\u5BB9\u5668\u4E2D\uFF09",
+          "en" : "Passive Effect\uFF1ACool Down Fast ( Iron, not in Container capable of 1000+ temp )",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACool Down Fast ( Iron, not in Container capable of 1000+ temp )"
+        },
+        "value"       : {
+          "x" : -300.0,
+          "y" : -300.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ToolOrWeapon_FireStriker_Metal",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+          "name"     : {
+            "zh" : "\u706B\u9570",
+            "en" : "Iron Striker",
+            "ja" : "Iron Striker"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5FEB\u901F\u51B7\u5374\uFF08\u94C1\uFF1A1000\u00B0 \u7EA7\u5BB9\u5668\u5DF2\u964D\u81F3 1000\u00B0 \u4EE5\u4E0B\uFF09",
+          "en" : "Passive Effect\uFF1ACool Down Fast ( Iron, 1000+ Temp Container bellow 1000 )",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACool Down Fast ( Iron, 1000+ Temp Container bellow 1000 )"
+        },
+        "value"       : {
+          "x" : -300.0,
+          "y" : -300.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ToolOrWeapon_FireStriker_Metal",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+          "name"     : {
+            "zh" : "\u706B\u9570",
+            "en" : "Iron Striker",
+            "ja" : "Iron Striker"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7F13\u6162\u51B7\u5374\uFF08\u59CB\u7EC8\uFF09",
+          "en" : "Passive Effect\uFF1ACool Down Slow ( Always )",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ACool Down Slow ( Always )"
+        },
+        "value"       : {
+          "x" : -100.0,
+          "y" : -100.0
+        }
+      },
       {
         "source" : {
           "key" : "Bloomery",
@@ -590,8 +656,8 @@
     "OnFull"                : {
       "ActionDescription" : {
         "zh" : "\u51FF\u5203\u7194\u70BC\u5B8C\u6210\uFF01",
-        "en" : "Chisel Blade smelted!",
-        "ja" : "Chisel Blade smelted!"
+        "en" : "Fire Striker smelted!",
+        "ja" : "Fire Striker smelted!"
       },
       "DaytimeCost"       : 0,
       "UseMiniTicks"      : 0,
@@ -676,6 +742,72 @@
     "Active"                : true,
     "durabilityKey"         : "Progress",
     "_rateModifications"    : [
+      {
+        "source" : {
+          "key" : "ToolOrWeapon_FireStriker_Metal",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+          "name"     : {
+            "zh" : "\u706B\u9570",
+            "en" : "Iron Striker",
+            "ja" : "Iron Striker"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4E2D\u65AD\u7194\u70BC\uFF08\u94C1\uFF09",
+          "en" : "Passive Effect\uFF1ALose Smelting ( Iron )",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALose Smelting ( Iron )"
+        },
+        "value"       : {
+          "x" : -10.0,
+          "y" : -10.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ToolOrWeapon_FireStriker_Metal",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+          "name"     : {
+            "zh" : "\u706B\u9570",
+            "en" : "Iron Striker",
+            "ja" : "Iron Striker"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u8131\u79BB\u7194\u70BC\u5BB9\u5668\u5219\u4E2D\u65AD\u7194\u70BC\uFF08\u59CB\u7EC8\uFF09",
+          "en" : "Passive Effect\uFF1ALose Smelting if not in smelting container ( Always )",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALose Smelting if not in smelting container ( Always )"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "ToolOrWeapon_FireStriker_Metal",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Blank_MetalFireStriker__AlternateNames-0-Art-CardImage",
+          "name"     : {
+            "zh" : "\u706B\u9570",
+            "en" : "Iron Striker",
+            "ja" : "Iron Striker"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4E2D\u65AD\u7194\u70BC\u00B7\u5BB9\u5668\u6E29\u5EA6\u4F4E\u4E8E 1100\uFF08\u59CB\u7EC8\uFF09",
+          "en" : "Passive Effect\uFF1ALose Smelting if smelting container bellow 1100 ( Always )",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALose Smelting if smelting container bellow 1100 ( Always )"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
       {
         "source" : {
           "key" : "Bloomery",
@@ -1207,6 +1339,227 @@
       "ExitDirection"                 : 0
     }
   ],
+  "PassiveEffects"              : [
+    {
+      "EffectName" : "Cool Down Fast ( Iron, not in Container capable of 1000+ temp )",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNOTContainerTags" : [
+          {
+            "key" : "tag_TemperatureOver1000Container",
+            "type" : "CardTag",
+            "count" : 3,
+            "name"  : {
+              "zh" : "\u9AD8\u6E29\u5BB9\u5668(>1000\u00B0)",
+              "en" : "Smelting Container",
+              "ja" : "Smelting Container"
+            }
+          }
+        ],
+        "ReceivingRequiredDurabilityRanges" : {
+          "Special4Range" : {
+            "x" : 200.0,
+            "y" : 200.0
+          }
+        }
+      },
+      "OnBoardEffectCap" : 0,
+      "FuelRateModifier" : {
+        "FloatValue" : -300.0,
+        "Active"     : true
+      },
+      "ConsumableChargesModifier" : {
+        "FloatValue" : -1.0
+      },
+      "Special1RateModifier"      : {
+        "FloatValue" : -1.0
+      },
+      "Special4RateModifier"      : {
+        "FloatValue" : -1.0
+      },
+      "LiquidRateModifier"        : 0.0,
+      "WeightCapacityModifier"    : 0.0,
+      "_EffectNameI18n"           : {
+        "zh" : "\u5FEB\u901F\u51B7\u5374\uFF08\u94C1\uFF1A\u4E0D\u5728\u53EF\u627F\u53D7 1000\u00B0 \u4EE5\u4E0A\u7684\u5BB9\u5668\u4E2D\uFF09",
+        "en" : "Cool Down Fast ( Iron, not in Container capable of 1000+ temp )",
+        "ja" : "Cool Down Fast ( Iron, not in Container capable of 1000+ temp )"
+      }
+    },
+    {
+      "EffectName" : "Cool Down Fast ( Iron, 1000+ Temp Container bellow 1000 )",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredContainerTags" : [
+          {
+            "key" : "tag_TemperatureOver1000Container",
+            "type" : "CardTag",
+            "count" : 3,
+            "name"  : {
+              "zh" : "\u9AD8\u6E29\u5BB9\u5668(>1000\u00B0)",
+              "en" : "Smelting Container",
+              "ja" : "Smelting Container"
+            }
+          }
+        ],
+        "ReceivingRequiredDurabilityRanges" : {
+          "Special4Range" : {
+            "x" : 200.0,
+            "y" : 200.0
+          }
+        },
+        "ReceivingContainerRequiredDurabilityRanges" : {
+          "SpoilageRange" : {
+            "x" : 0.0,
+            "y" : 999.0
+          }
+        }
+      },
+      "OnBoardEffectCap" : 0,
+      "FuelRateModifier" : {
+        "FloatValue" : -300.0,
+        "Active"     : true
+      },
+      "ConsumableChargesModifier" : {
+        "FloatValue" : -1.0
+      },
+      "Special1RateModifier"      : {
+        "FloatValue" : -1.0
+      },
+      "Special4RateModifier"      : {
+        "FloatValue" : -1.0
+      },
+      "LiquidRateModifier"        : 0.0,
+      "WeightCapacityModifier"    : 0.0,
+      "_EffectNameI18n"           : {
+        "zh" : "\u5FEB\u901F\u51B7\u5374\uFF08\u94C1\uFF1A1000\u00B0 \u7EA7\u5BB9\u5668\u5DF2\u964D\u81F3 1000\u00B0 \u4EE5\u4E0B\uFF09",
+        "en" : "Cool Down Fast ( Iron, 1000+ Temp Container bellow 1000 )",
+        "ja" : "Cool Down Fast ( Iron, 1000+ Temp Container bellow 1000 )"
+      }
+    },
+    {
+      "EffectName" : "Cool Down Slow ( Always )",
+      "OnBoardEffectCap" : 0,
+      "FuelRateModifier" : {
+        "FloatValue" : -100.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier" : 0.0,
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "\u7F13\u6162\u51B7\u5374\uFF08\u59CB\u7EC8\uFF09",
+        "en" : "Cool Down Slow ( Always )",
+        "ja" : "Cool Down Slow ( Always )"
+      }
+    },
+    {
+      "EffectName" : "Lose Smelting ( Iron )",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "ReceivingRequiredDurabilityRanges" : {
+          "Special4Range" : {
+            "x" : 200.0,
+            "y" : 200.0
+          }
+        }
+      },
+      "OnBoardEffectCap" : 0,
+      "ConsumableChargesModifier" : {
+        "FloatValue" : -10.0,
+        "Active"     : true
+      },
+      "Special1RateModifier"      : {
+        "FloatValue" : -1.0
+      },
+      "Special4RateModifier"      : {
+        "FloatValue" : -1.0
+      },
+      "LiquidRateModifier"        : 0.0,
+      "WeightCapacityModifier"    : 0.0,
+      "_EffectNameI18n"           : {
+        "zh" : "\u4E2D\u65AD\u7194\u70BC\uFF08\u94C1\uFF09",
+        "en" : "Lose Smelting ( Iron )",
+        "ja" : "Lose Smelting ( Iron )"
+      }
+    },
+    {
+      "EffectName" : "Lose Smelting if not in smelting container ( Always )",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNOTContainerTags" : [
+          {
+            "key" : "tag_SmeltingContainer",
+            "type" : "CardTag",
+            "count" : 2,
+            "name"  : {
+              "zh" : "\u7194\u70BC\u5BB9\u5668",
+              "en" : "Smelting Container",
+              "ja" : "Smelting Container"
+            }
+          }
+        ]
+      },
+      "OnBoardEffectCap" : 0,
+      "ConsumableChargesModifier" : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "Special1RateModifier"      : {
+        "FloatValue" : -1.0
+      },
+      "Special4RateModifier"      : {
+        "FloatValue" : -1.0
+      },
+      "LiquidRateModifier"        : 0.0,
+      "WeightCapacityModifier"    : 0.0,
+      "_EffectNameI18n"           : {
+        "zh" : "\u8131\u79BB\u7194\u70BC\u5BB9\u5668\u5219\u4E2D\u65AD\u7194\u70BC\uFF08\u59CB\u7EC8\uFF09",
+        "en" : "Lose Smelting if not in smelting container ( Always )",
+        "ja" : "Lose Smelting if not in smelting container ( Always )"
+      }
+    },
+    {
+      "EffectName" : "Lose Smelting if smelting container bellow 1100 ( Always )",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredContainerTags" : [
+          {
+            "key" : "tag_SmeltingContainer",
+            "type" : "CardTag",
+            "count" : 2,
+            "name"  : {
+              "zh" : "\u7194\u70BC\u5BB9\u5668",
+              "en" : "Smelting Container",
+              "ja" : "Smelting Container"
+            }
+          }
+        ],
+        "ReceivingContainerRequiredDurabilityRanges" : {
+          "SpoilageRange" : {
+            "x" : 0.0,
+            "y" : 1099.0
+          }
+        }
+      },
+      "OnBoardEffectCap" : 0,
+      "ConsumableChargesModifier" : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "Special1RateModifier"      : {
+        "FloatValue" : -1.0
+      },
+      "Special4RateModifier"      : {
+        "FloatValue" : -1.0
+      },
+      "LiquidRateModifier"        : 0.0,
+      "WeightCapacityModifier"    : 0.0,
+      "_EffectNameI18n"           : {
+        "zh" : "\u4E2D\u65AD\u7194\u70BC\u00B7\u5BB9\u5668\u6E29\u5EA6\u4F4E\u4E8E 1100\uFF08\u59CB\u7EC8\uFF09",
+        "en" : "Lose Smelting if smelting container bellow 1100 ( Always )",
+        "ja" : "Lose Smelting if smelting container bellow 1100 ( Always )"
+      }
+    }
+  ],
   "MaxLiquidCapacity"           : 0.0,
   "MinQuantityLeftAfterATransfer" : 0.0,
   "OpenOnTab"                     : 0,
@@ -1244,8 +1597,8 @@
     "ja" : "Iron Striker"
   },
   "tradingValueRange"               : {
-    "x" : 2000.0,
-    "y" : 2000.0
+    "x" : 2250.0,
+    "y" : 2250.0
   },
   "_gotFrom"                        : [
     {

@@ -352,6 +352,7 @@
         },
         "TransformToLiquidQuantity" : 0.0,
         "TransferInventory"         : true,
+        "TransferSavedIngredients"  : true,
         "TransferLiquid"            : true,
         "LiquidEffectScaling"       : 0
       },
@@ -373,7 +374,8 @@
         {
           "CollectionName" : "Dismantle",
           "CollectionWeight" : 0,
-          "DroppedCards"     : [
+          "DropSavedBpIngredients" : true,
+          "DroppedIfNoBpIngredient" : [
             {
               "DroppedCard" : {
                 "key" : "Plank",
@@ -391,8 +393,7 @@
                 "m_Y" : 4
               }
             }
-          ],
-          "DropSavedBpIngredients" : true
+          ]
         }
       ],
       "ReceivingCardChanges"    : {
@@ -645,24 +646,6 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u91C7\u96C6",
         "en" : "Action: Pick Up",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u53D6\u308B"
-      }
-    },
-    {
-      "source" : {
-        "key" : "Plank",
-        "type" : "CardData",
-        "CardType" : 0,
-        "icon"     : "CardData__Bp_Planks__CardImage",
-        "name"     : {
-          "zh" : "\u6728\u677F",
-          "en" : "Wooden Plank",
-          "ja" : "\u6728\u306E\u677F"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u62C6\u89E3",
-        "en" : "Action: Dismantle",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u89E3\u4F53"
       }
     }
   ],

@@ -14014,6 +14014,54 @@
               }
             }
           ]
+        },
+        {
+          "PathCard" : {
+            "key" : "MudHutConstructionDoorEntranceMainEnclosure",
+            "type" : "CardData",
+            "CardType" : 2,
+            "icon"     : "CardData__Bp_Enclosure__CardImage",
+            "name"     : {
+              "zh" : "\u755C\u680F",
+              "en" : "Enclosure",
+              "ja" : "\u56F2\u3044"
+            }
+          },
+          "InitialPathCost" : 1.0,
+          "TravelDirection" : {
+            "x" : 0,
+            "y" : 0,
+            "z" : 0,
+            "w" : 1
+          },
+          "ConnectsTo"      : {
+            "MainEnvCard" : {
+              "key" : "Env_MudHutConstructionStartingPointEnclosure",
+              "type" : "CardData",
+              "CardType" : 4,
+              "name"     : {
+                "zh" : "\u755C\u680F",
+                "en" : "Enclosure",
+                "ja" : "\u56F2\u3044"
+              }
+            },
+            "ParentEnvs"  : [
+              {
+                "PrevEnvCard" : {
+                  "key" : "Env_River_ClearingOak_RiverClearing",
+                  "type" : "CardData",
+                  "CardType" : 4,
+                  "name"     : {
+                    "zh" : "\u6CB3\u7554\u6797\u9699",
+                    "en" : "River Clearing",
+                    "ja" : "\u5DDD\u6CBF\u3044\u306E\u5E73\u5730"
+                  }
+                },
+                "TravelIndex" : 0
+              }
+            ]
+          },
+          "ConditionsCount" : 0
         }
       ],
       "Icon"                  : {
