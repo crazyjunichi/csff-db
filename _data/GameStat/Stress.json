@@ -10,30 +10,31 @@
     "en" : "Lowers your morale and mental structure. Can also upset your stomach if it gets too high.",
     "ja" : "\u58EB\u6C17\u3068\u7CBE\u795E\u69CB\u9020\u3092\u4E0B\u3052\u308B\u3002\u9AD8\u3059\u304E\u308B\u3068\u80C3\u3092\u58CA\u3057\u3066\u3057\u307E\u3046\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 240.0
   },
-  "BaseRatePerTick" : -0.25,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -0.25,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Arousal__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u653E\u677E",
@@ -61,6 +62,24 @@
           "RateModifier" : {
             "x" : 1.0,
             "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
           }
         }
       ],
@@ -606,28 +625,28 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 48,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 48,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Arousal__DefaultStatusIcon"
     },
     "StepValue" : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stress",
-  "icon"                    : "GameStat__Arousal__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stress",
+  "icon"                        : "GameStat__Arousal__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u538B\u529B",
     "en" : "Stress",
     "ja" : "\u30B9\u30C8\u30EC\u30B9"
   },
-  "min"                     : 0.0,
-  "max"                     : 240.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 240.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_Enclosure",
@@ -682,6 +701,27 @@
           "zh" : "\u6846\u9F13",
           "en" : "Frame Drum",
           "ja" : "\u30D5\u30EC\u30FC\u30E0\u30C9\u30E9\u30E0"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Honey",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
         }
       },
       "description" : {
@@ -4104,6 +4144,94 @@
     },
     {
       "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ANorth",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AWest",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
         "key" : "ClearingPine_BadgerHillQEE",
         "type" : "CardData",
         "CardType" : 8,
@@ -7330,6 +7458,94 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u897F\u65B9",
         "en" : "Action: West",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u897F"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
       },
       "value"       : {
         "x" : -10.0,
@@ -10795,7 +11011,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -10817,7 +11033,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -10839,7 +11055,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -10861,7 +11077,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -10883,7 +11099,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -10905,7 +11121,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -12577,7 +12793,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -12599,7 +12815,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -12621,7 +12837,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -12643,7 +12859,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -12665,7 +12881,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -12687,7 +12903,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -12709,7 +12925,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -12731,7 +12947,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -12753,7 +12969,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -12775,7 +12991,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -12797,7 +13013,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -12819,7 +13035,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -18962,7 +19178,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -19930,7 +20146,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -20865,6 +21081,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AApply to Wound",
+        "en" : "Action: Apply to Wound",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AApply to Wound"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bloomery",
         "type" : "CardData",
         "CardType" : 2,
@@ -21385,50 +21623,6 @@
       "value"       : {
         "x" : -12.0,
         "y" : -12.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u53D6\u6696",
-        "en" : "Action: Warm Up",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6E29\u3081\u308B"
-      },
-      "value"       : {
-        "x" : -9.0,
-        "y" : -9.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u5728\u706B\u8FB9\u7B49\u5F85",
-        "en" : "Action: Wait by Fire",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u706B\u306E\u5074\u3067\u5F85\u3064"
-      },
-      "value"       : {
-        "x" : -5.0,
-        "y" : -5.0
       }
     },
     {
@@ -24699,6 +24893,72 @@
     },
     {
       "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
         "key" : "W_WolfBite",
         "type" : "CardData",
         "CardType" : 0,
@@ -25338,27 +25598,6 @@
     },
     {
       "source" : {
-        "key" : "Bp_Honey",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "Honey",
-          "en" : "Honey",
-          "ja" : "Honey"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      },
-      "value"       : {
-        "x" : -10.0,
-        "y" : -10.0
-      }
-    },
-    {
-      "source" : {
         "key" : "Bp_NiterBed",
         "type" : "CardData",
         "CardType" : 7,
@@ -25615,7 +25854,6 @@
         "key" : "Bp_WateringTrough",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_WateringTrough__CardImage",
         "name"     : {
           "zh" : "Watering Trough",
           "en" : "Watering Trough",
@@ -25637,7 +25875,6 @@
         "key" : "Bp_Well",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_Well__CardImage",
         "name"     : {
           "zh" : "Well",
           "en" : "Well",
@@ -25758,28 +25995,6 @@
       "value"       : {
         "x" : -10.0,
         "y" : -10.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeHoneycomb",
-        "type" : "CardData",
-        "CardType" : 0,
-        "icon"     : "CardData__BeeHoneycomb__CardImage",
-        "name"     : {
-          "zh" : "Honeycomb",
-          "en" : "Honeycomb",
-          "ja" : "Honeycomb"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1AEat",
-        "en" : "Action: Eat",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEat"
-      },
-      "value"       : {
-        "x" : -20.0,
-        "y" : -20.0
       }
     },
     {
@@ -26622,6 +26837,27 @@
     },
     {
       "source" : {
+        "key" : "Combat_EncounterCraftheart",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "Craft-Heart",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u9009\u9879",
+        "en" : "Encounter Option",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u9078\u629E"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Combat_EncounterDoe",
         "type" : "Encounter",
         "icon" : "NPCAgent__Agent_Doe__AgentImage",
@@ -26818,6 +27054,27 @@
           "zh" : "\u516C\u9E7F",
           "en" : "Stag",
           "ja" : "\u96C4\u9E7F"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u9009\u9879",
+        "en" : "Encounter Option",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u9078\u629E"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterWhiteStag",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+        "name" : {
+          "zh" : "Stag",
+          "en" : "Stag",
+          "ja" : "Stag"
         }
       },
       "description" : {
@@ -27135,7 +27392,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "CabinConstructionLocationCabinRoom",
@@ -28411,6 +28668,144 @@
     },
     {
       "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -0.5,
+        "y" : -0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -0.75,
+        "y" : -0.75
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -1.5,
+        "y" : -1.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
         "key" : "WillowBlessing",
         "type" : "GameStat",
         "icon" : "CardData__Event_WillowSpiritBlessingGranted__CardImage",
@@ -29469,6 +29864,52 @@
     },
     {
       "source" : {
+        "key" : "StalkerUrge",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005\u672C\u80FD",
+          "en" : "Stalker Urge",
+          "ja" : "Stalker Urge"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AStalker Urge",
+        "en" : "Status Stage: Stalker Urge",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AStalker Urge"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "StalkerUrge",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "min"  : 0.0,
+        "max"  : 96.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005\u672C\u80FD",
+          "en" : "Stalker Urge",
+          "ja" : "Stalker Urge"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AStalker Urge",
+        "en" : "Status Stage: Stalker Urge",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AStalker Urge"
+      },
+      "value"       : {
+        "x" : 0.75,
+        "y" : 0.75
+      }
+    },
+    {
+      "source" : {
         "key" : "WaterUrge",
         "type" : "GameStat",
         "icon" : "CardData__Bp_WaterBlessing__CardImage",
@@ -29699,13 +30140,82 @@
     },
     {
       "source" : {
+        "key" : "Paranoia",
+        "type" : "GameStat",
+        "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u504F\u6267",
+          "en" : "Paranoia",
+          "ja" : "Paranoia"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AMild Paranoia",
+        "en" : "Status Stage: Mild Paranoia",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AMild Paranoia"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "Paranoia",
+        "type" : "GameStat",
+        "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u504F\u6267",
+          "en" : "Paranoia",
+          "ja" : "Paranoia"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AHIgh Paranoia",
+        "en" : "Status Stage: HIgh Paranoia",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHIgh Paranoia"
+      },
+      "value"       : {
+        "x" : 0.75,
+        "y" : 0.75
+      }
+    },
+    {
+      "source" : {
+        "key" : "Paranoia",
+        "type" : "GameStat",
+        "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u504F\u6267",
+          "en" : "Paranoia",
+          "ja" : "Paranoia"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASevere Paranoia",
+        "en" : "Status Stage: Severe Paranoia",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASevere Paranoia"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Arousal",
         "type" : "GameStat",
         "icon" : "GameStat__Arousal__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 96.0,
         "name" : {
-          "zh" : "\u6027\u5524\u8D77",
+          "zh" : "\u6027\u594B",
           "en" : "Arousal",
           "ja" : "Arousal"
         }
@@ -29728,7 +30238,7 @@
         "min"  : 0.0,
         "max"  : 96.0,
         "name" : {
-          "zh" : "\u6027\u5524\u8D77",
+          "zh" : "\u6027\u594B",
           "en" : "Arousal",
           "ja" : "Arousal"
         }
@@ -29751,13 +30261,13 @@
         "min"  : 0.0,
         "max"  : 96.0,
         "name" : {
-          "zh" : "\u6027\u5524\u8D77",
+          "zh" : "\u6027\u594B",
           "en" : "Arousal",
           "ja" : "Arousal"
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAroused",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6027\u5174\u594B",
         "en" : "Status Stage: Aroused",
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAroused"
       },
@@ -31863,7 +32373,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Tgr_Nightmare",
@@ -31905,7 +32415,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_Anxiety",
@@ -31927,5 +32437,5 @@
       }
     }
   ],
-  "_uuid"                   : "3b79a4c6d7e151044a1c56fbbd401d78"
+  "_uuid"                       : "3b79a4c6d7e151044a1c56fbbd401d78"
 }

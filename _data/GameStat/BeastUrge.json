@@ -5,30 +5,31 @@
     "en" : "Beast Urge",
     "ja" : "\u7363\u306E\u6B32\u6C42"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Arousal__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u91CE\u517D\u672C\u80FD",
@@ -150,23 +151,50 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BeastUrge",
-  "icon"                    : "GameStat__Arousal__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BeastUrge",
+  "icon"                        : "GameStat__Arousal__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u91CE\u517D\u672C\u80FD",
     "en" : "Beast Urge",
     "ja" : "\u7363\u306E\u6B32\u6C42"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
+    {
+      "source" : {
+        "key" : "Dialogue_AgentGrimbardTalk",
+        "type" : "DialogScene",
+        "name" : {
+          "zh" : "Grimbard",
+          "en" : "Grimbard",
+          "ja" : "Grimbard"
+        },
+        "firstLine" : {
+          "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+          "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+          "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : -96.0,
+        "y" : -96.0
+      }
+    }
+  ],
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BeastUrge",
@@ -191,5 +219,5 @@
       }
     }
   ],
-  "_uuid"                   : "56b4adaa3284136459ad5feb479c5535"
+  "_uuid"                       : "56b4adaa3284136459ad5feb479c5535"
 }

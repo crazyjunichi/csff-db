@@ -5,30 +5,31 @@
     "en" : "Land Sickness",
     "ja" : "\u9678\u9154\u3044"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__LandSickness__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5EA6\u6076\u5FC3",
@@ -141,23 +142,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "LandSickness",
-  "icon"                    : "GameStat__LandSickness__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "LandSickness",
+  "icon"                        : "GameStat__LandSickness__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u5185\u9646\u6050\u60E7\u75C7",
     "en" : "Land Sickness",
     "ja" : "\u9678\u9154\u3044"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_FluteTunes3",
@@ -203,7 +204,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Env_Coop",
@@ -248,5 +249,5 @@
       }
     }
   ],
-  "_uuid"                   : "0599791e692adea4cb8db7f05481c4d8"
+  "_uuid"                       : "0599791e692adea4cb8db7f05481c4d8"
 }

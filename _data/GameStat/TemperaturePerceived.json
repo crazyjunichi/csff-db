@@ -10,13 +10,14 @@
     "en" : "The approximate temperature your body is perceiving. Can be increased by staying in more sheltered areas, by wearing more clothes and by warming up by a fire.",
     "ja" : "\u4F53\u304C\u611F\u3058\u308B\u5927\u307E\u304B\u306A\u6E29\u5EA6\u3002\u3053\u308C\u306F\u3001\u98A8\u96E8\u306B\u3055\u3089\u3055\u308C\u306A\u3044\u5834\u6240\u306B\u3044\u305F\u308A\u3001\u670D\u3092\u305F\u304F\u3055\u3093\u7740\u305F\u308A\u3001\u706B\u306E\u305D\u3070\u3067\u4F53\u3092\u6E29\u3081\u308B\u3053\u3068\u3067\u4E0A\u3052\u3089\u308C\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : -80.0,
     "y" : 80.0
   },
-  "BaseRatePerTick" : 0.0,
-  "CompositeStats"  : [
+  "BaseRatePerTick"             : 0.0,
+  "CompositeStats"              : [
     {
       "Stat" : {
         "key" : "BaseTemperature",
@@ -32,35 +33,35 @@
       }
     }
   ],
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "VisibleInDetailedList"       : true,
+  "BarColor"                    : {
     "r" : 0.6353,
     "g" : 0.2046,
     "b" : 0.2179,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusName"     : {
+  "DefaultStatusName"           : {
     "zh" : "\u4F53\u611F\u6E29\u5EA6",
     "en" : "Temperature",
     "ja" : "\u6E29\u5EA6"
   },
-  "DefaultStatusDescription" : {
+  "DefaultStatusDescription"    : {
     "zh" : "\u8FD8\u633A\u8212\u670D\u3002",
     "en" : "It's comfortable",
     "ja" : "\u5FEB\u9069\u306A\u6E29\u5EA6"
   },
-  "DefaultStatusIcon"        : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon"
   },
-  "Statuses"                 : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u707C\u70ED",
@@ -1370,23 +1371,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration"  : 0,
-  "StalenessMultiplier"      : 0.0,
-  "MaxStalenessStack"        : 0,
-  "FeedbackInfo"             : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                     : "GameStat",
-  "key"                      : "TemperaturePerceived",
-  "icon"                     : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
-  "name"                     : {
+  "type"                        : "GameStat",
+  "key"                         : "TemperaturePerceived",
+  "icon"                        : "CardData__AcornDoughRaw__FuelCapacity-OverrideIcon",
+  "name"                        : {
     "zh" : "\u4F53\u611F\u6E29\u5EA6",
     "en" : "Perceived Temperature",
     "ja" : "\u4F53\u611F\u6E29\u5EA6"
   },
-  "min"                      : -80.0,
-  "max"                      : 80.0,
-  "_modifierValues"          : [
+  "min"                         : -80.0,
+  "max"                         : 80.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "CabinConstructionLocationAttic",
@@ -1482,9 +1483,9 @@
         "CardType" : 2,
         "icon"     : "ConstructionCardGroup__Group_Exits__GroupImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u308B"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -1898,9 +1899,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -1920,9 +1921,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Event_WaterfallCave__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -1942,9 +1943,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -1964,9 +1965,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -1986,9 +1987,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -2008,9 +2009,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -2030,9 +2031,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -2052,9 +2053,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -4287,50 +4288,6 @@
     },
     {
       "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-        }
-      },
-      "description" : {
-        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4F53\u6E29",
-        "en" : "Passive Effect: Body Temp",
-        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ABody Temp"
-      },
-      "value"       : {
-        "x" : 5.0,
-        "y" : 5.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-        }
-      },
-      "description" : {
-        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5BA4\u5185\u6E29\u5EA6",
-        "en" : "Passive Effect: Indoors Temp",
-        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AIndoors Temp"
-      },
-      "value"       : {
-        "x" : 10.0,
-        "y" : 10.0
-      }
-    },
-    {
-      "source" : {
         "key" : "SpiritShrine_Fire_RitualPyre",
         "type" : "CardData",
         "CardType" : 2,
@@ -5129,5 +5086,5 @@
       }
     }
   ],
-  "_uuid"                    : "0d5ec8f104b2ba149b4bb2b536bc21a4"
+  "_uuid"                       : "0d5ec8f104b2ba149b4bb2b536bc21a4"
 }

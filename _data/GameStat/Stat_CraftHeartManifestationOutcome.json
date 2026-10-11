@@ -1,0 +1,150 @@
+
+{
+  "GameName" : {
+    "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u7ED3\u679C",
+    "en" : "Craft-Heart manifestation outcome",
+    "ja" : "Craft-Heart manifestation outcome"
+  },
+  "Description" : {
+    "zh" : "Internal result of Craft-Heart's weekly manifestation roll.",
+    "en" : "Internal result of Craft-Heart's weekly manifestation roll.",
+    "ja" : "Internal result of Craft-Heart's weekly manifestation roll."
+  },
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "CannotBeInspected"           : true,
+  "VisibleValueRange"           : {
+    "x" : 0.0,
+    "y" : 1.0
+  },
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
+    "StepValue" : 1.0
+  },
+  "type"                        : "GameStat",
+  "key"                         : "Stat_CraftHeartManifestationOutcome",
+  "name"                        : {
+    "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u7ED3\u679C",
+    "en" : "Craft-Heart manifestation outcome",
+    "ja" : "Craft-Heart manifestation outcome"
+  },
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
+    {
+      "source" : {
+        "key" : "SnareTrap",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_SnareTrap__CardImage",
+        "name"     : {
+          "zh" : "\u5957\u7D22\u9677\u9631",
+          "en" : "Snare Trap",
+          "ja" : "\u304F\u304F\u308A\u7F60"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnareTrap",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_SnareTrap__CardImage",
+        "name"     : {
+          "zh" : "\u5957\u7D22\u9677\u9631",
+          "en" : "Snare Trap",
+          "ja" : "\u304F\u304F\u308A\u7F60"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Agent_CraftHeart",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u52A8\u4F5C",
+        "en" : "NPC Action",
+        "ja" : "NPC\u30A2\u30AF\u30B7\u30E7\u30F3"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearManifestationOutcome",
+        "type" : "ChangeStatDutyAction",
+        "name" : {
+          "zh" : "ClearManifestationOutcome",
+          "en" : "ClearManifestationOutcome",
+          "ja" : "ClearManifestationOutcome"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u804C\u8D23",
+        "en" : "NPC Duty",
+        "ja" : "NPC\u8077\u52D9"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearCraftHeartCaptureOutcome",
+        "type" : "ChangeStatDutyAction",
+        "name" : {
+          "zh" : "ClearCraftHeartCaptureOutcome",
+          "en" : "ClearCraftHeartCaptureOutcome",
+          "ja" : "ClearCraftHeartCaptureOutcome"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u804C\u8D23",
+        "en" : "NPC Duty",
+        "ja" : "NPC\u8077\u52D9"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    }
+  ],
+  "_uuid"                       : "a4c19e73b6f24d5c8e027fa1439bd650"
+}

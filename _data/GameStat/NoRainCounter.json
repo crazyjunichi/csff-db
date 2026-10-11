@@ -10,35 +10,36 @@
     "en" : "Rain counter",
     "ja" : "\u96E8\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 10000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "StatusesHaveNoBar" : true,
-  "DefaultStatusIcon" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "StatusesHaveNoBar"           : true,
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__NoRainCounter__DefaultStatusIcon"
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "NoRainCounter",
-  "icon"                    : "GameStat__NoRainCounter__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "NoRainCounter",
+  "icon"                        : "GameStat__NoRainCounter__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u65E0\u96E8\u8BA1\u6570\u5668",
     "en" : "NoRain counter",
     "ja" : "\u96E8\u306A\u3044\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "min"                     : 0.0,
-  "max"                     : 10000.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 10000.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "RainValue",
@@ -63,5 +64,5 @@
       }
     }
   ],
-  "_uuid"                   : "e4398bcf423a3504d8665099da928c1b"
+  "_uuid"                       : "e4398bcf423a3504d8665099da928c1b"
 }

@@ -300,6 +300,35 @@
     },
     {
       "Stat" : {
+        "key" : "StalkerBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+          "en" : "Stalker Blessing",
+          "ja" : "Stalker Blessing"
+        }
+      },
+      "AddedValue" : {
+        "InterpolatedAddedValue" : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 288.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 96.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    },
+    {
+      "Stat" : {
         "key" : "AwarenessTempBonus",
         "type" : "GameStat",
         "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
@@ -918,6 +947,35 @@
             "zh" : "\u8FFD\u9010\u63F4\u52A9",
             "en" : "Chasing Aid",
             "ja" : "\u8FFD\u8DE1\u652F\u63F4"
+          }
+        },
+        "AddedValue" : {
+          "InterpolatedAddedValue" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 96.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 96.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      },
+      {
+        "Stat" : {
+          "key" : "StalkerBlessing",
+          "type" : "GameStat",
+          "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+            "en" : "Stalker Blessing",
+            "ja" : "Stalker Blessing"
           }
         },
         "AddedValue" : {

@@ -5,30 +5,31 @@
     "en" : "Sea Sickness",
     "ja" : "\u8239\u9154\u3044"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__SeaSickness__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5EA6\u6076\u5FC3",
@@ -195,23 +196,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "SeaSickness",
-  "icon"                    : "GameStat__SeaSickness__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "SeaSickness",
+  "icon"                        : "GameStat__SeaSickness__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6655\u8239",
     "en" : "Sea Sickness",
     "ja" : "\u8239\u9154\u3044"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_FluteTunes3",
@@ -257,7 +258,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "SeaAgitation",
@@ -461,5 +462,5 @@
       }
     }
   ],
-  "_uuid"                   : "071e6d0dfed0b834195915fb2a75036e"
+  "_uuid"                       : "071e6d0dfed0b834195915fb2a75036e"
 }

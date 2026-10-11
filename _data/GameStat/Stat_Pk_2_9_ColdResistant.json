@@ -10,15 +10,16 @@
     "en" : "Used To enable the cold resistant perk. ",
     "ja" : "Used To enable the cold resistant perk. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 11.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Insulation",
@@ -57,22 +58,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_Pk_2_9_ColdResistant",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_Pk_2_9_ColdResistant",
+  "name"                        : {
     "zh" : "\u8010\u5BD2",
     "en" : "Stat_Pk_2_9_ColdResistant",
     "ja" : "Stat_Pk_2_9_ColdResistant"
   },
-  "min"                     : 0.0,
-  "max"                     : 11.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 11.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "TemperaturePerceived",
@@ -463,7 +464,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Tgr_FrostnipFrostbiteCheck",
@@ -545,5 +546,5 @@
       }
     }
   ],
-  "_uuid"                   : "e17f5d71e9397374c80d74e13f9d2564"
+  "_uuid"                       : "e17f5d71e9397374c80d74e13f9d2564"
 }

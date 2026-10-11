@@ -5,20 +5,21 @@
     "en" : "Perceived Attractiveness",
     "ja" : "Perceived Attractiveness"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : -200.0,
     "y" : 200.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 2100,
-  "Visibility"      : 2,
-  "CannotBeInspected" : true,
-  "StatusesHaveNoBar" : true,
-  "Statuses"          : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 2100,
+  "Visibility"                  : 2,
+  "CannotBeInspected"           : true,
+  "StatusesHaveNoBar"           : true,
+  "Statuses"                    : [
     {
       "GameName" : {
-        "zh" : "Looks very unattractive to you.",
+        "zh" : "\u770B\u4E0A\u53BB\u5BF9\u4F60\u975E\u5E38\u7F3A\u4E4F\u5438\u5F15\u529B\u3002",
         "en" : "Looks very unattractive to you.",
         "ja" : "Looks very unattractive to you."
       },
@@ -35,7 +36,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Looks unattractive to you.",
+        "zh" : "\u770B\u4E0A\u53BB\u5BF9\u4F60\u7F3A\u4E4F\u5438\u5F15\u529B\u3002",
         "en" : "Looks unattractive to you.",
         "ja" : "Looks unattractive to you."
       },
@@ -52,7 +53,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Doesn't look particularly attractive to you.",
+        "zh" : "\u770B\u4E0A\u53BB\u4E0D\u600E\u4E48\u5438\u5F15\u4F60\u3002",
         "en" : "Doesn't look particularly attractive to you.",
         "ja" : "Doesn't look particularly attractive to you."
       },
@@ -69,7 +70,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Looks attractive to you.",
+        "zh" : "\u770B\u4E0A\u53BB\u5438\u5F15\u4F60\u3002",
         "en" : "Looks attractive to you.",
         "ja" : "Looks attractive to you."
       },
@@ -86,7 +87,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Looks very attractive to you.",
+        "zh" : "\u770B\u4E0A\u53BB\u5341\u5206\u5438\u5F15\u4F60\u3002",
         "en" : "Looks very attractive to you.",
         "ja" : "Looks very attractive to you."
       },
@@ -103,7 +104,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Looks extremely attractive to you.",
+        "zh" : "\u770B\u4E0A\u53BB\u5BF9\u4F60\u6781\u5177\u5438\u5F15\u529B\u3002",
         "en" : "Looks extremely attractive to you.",
         "ja" : "Looks extremely attractive to you."
       },
@@ -119,22 +120,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "PerceivedAttractiveness",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "PerceivedAttractiveness",
+  "name"                        : {
     "zh" : "\u611F\u77E5\u9B45\u529B",
     "en" : "Perceived Attractiveness",
     "ja" : "Perceived Attractiveness"
   },
-  "min"                     : -200.0,
-  "max"                     : 200.0,
-  "_modifierValues"         : [
+  "min"                         : -200.0,
+  "max"                         : 200.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "FacialHarmony",
@@ -228,5 +229,5 @@
       }
     }
   ],
-  "_uuid"                   : "2849ad79c8124a589f119801644fff64"
+  "_uuid"                       : "2849ad79c8124a589f119801644fff64"
 }

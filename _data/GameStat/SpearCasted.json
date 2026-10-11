@@ -10,42 +10,43 @@
     "en" : "Counter used to unlock the hunting spear recipe after you cast a normal spear. ",
     "ja" : "Counter used to unlock the hunting spear recipe after you cast a normal spear. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "SpearCasted",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "SpearCasted",
+  "name"                        : {
     "zh" : "\u94F8\u77DB",
     "en" : "SpearCasted",
     "ja" : "SpearCasted"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_Cast_BlankSpearHead",
@@ -69,5 +70,5 @@
       }
     }
   ],
-  "_uuid"                   : "1b3b38b9126927646a953d5296f84890"
+  "_uuid"                       : "1b3b38b9126927646a953d5296f84890"
 }

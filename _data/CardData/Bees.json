@@ -6,9 +6,9 @@
     "ja" : "Bees"
   },
   "CardDescription" : {
-    "zh" : "Bzzz....",
-    "en" : "Bzzz....",
-    "ja" : "Bzzz...."
+    "zh" : "Needed to start new colonies.",
+    "en" : "Needed to start new colonies.",
+    "ja" : "Needed to start new colonies."
   },
   "CardImage"       : {
     "FileName" : "CardData__Bees__CardImage"
@@ -249,14 +249,14 @@
       "CompatibleCards" : {
         "TriggerCards" : [
           {
-            "key" : "BeeSmokerOn",
+            "key" : "TorchOn",
             "type" : "CardData",
             "CardType" : 0,
-            "icon"     : "CardData__BeeSmokerOn__CardImage",
+            "icon"     : "CardData__Bp_Torch__CardImage",
             "name"     : {
-              "zh" : "Bee Smoker",
-              "en" : "Bee Smoker",
-              "ja" : "Bee Smoker"
+              "zh" : "\u70B9\u71C3\u7684\u706B\u70AC",
+              "en" : "Lit Torch",
+              "ja" : "\u305F\u3044\u307E\u3064"
             }
           }
         ]
@@ -323,7 +323,7 @@
         "key" : "Beehive",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__Beehive__CardImage",
+        "icon"     : "NPCAgent__Agent_Bee1__AgentImage",
         "name"     : {
           "zh" : "Beehive",
           "en" : "Beehive",
@@ -338,14 +338,14 @@
     },
     {
       "source" : {
-        "key" : "BeeSkepSwarming",
+        "key" : "BeeSkep",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__BeeSkepSwarming__CardImage",
+        "icon"     : "CardData__BeeSkep__CardImage",
         "name"     : {
-          "zh" : "Swarming Bee Skep",
-          "en" : "Swarming Bee Skep",
-          "ja" : "Swarming Bee Skep"
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
         }
       },
       "description" : {
@@ -356,6 +356,24 @@
     }
   ],
   "_useFor"                         : [
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
     {
       "source" : {
         "key" : "MudHutConstructionLocationEnclosure",
@@ -803,6 +821,24 @@
     }
   ],
   "_transformTo"                    : [
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
     {
       "source" : {
         "key" : "Bp_FeedBird",

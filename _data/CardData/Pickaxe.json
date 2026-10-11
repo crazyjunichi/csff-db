@@ -1692,6 +1692,27 @@
       },
       {
         "source" : {
+          "key" : "Bp_Honey",
+          "type" : "CardData",
+          "CardType" : 7,
+          "name"     : {
+            "zh" : "Honey",
+            "en" : "Honey",
+            "ja" : "Honey"
+          }
+        },
+        "description" : {
+          "zh" : "\u84DD\u56FE\u5236\u4F5C",
+          "en" : "Blueprint",
+          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
           "key" : "Bp_Knife_Flint",
           "type" : "CardData",
           "CardType" : 7,
@@ -3078,27 +3099,6 @@
       },
       {
         "source" : {
-          "key" : "Bp_Honey",
-          "type" : "CardData",
-          "CardType" : 7,
-          "name"     : {
-            "zh" : "Honey",
-            "en" : "Honey",
-            "ja" : "Honey"
-          }
-        },
-        "description" : {
-          "zh" : "\u84DD\u56FE\u5236\u4F5C",
-          "en" : "Blueprint",
-          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-        },
-        "value"       : {
-          "x" : -1.0,
-          "y" : -1.0
-        }
-      },
-      {
-        "source" : {
           "key" : "Bp_Vitriol",
           "type" : "CardData",
           "CardType" : 7,
@@ -3269,7 +3269,8 @@
   ],
   "ActionModifiers"             : [
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "PickaxeActionLenghty",
           "type" : "ActionTag",
@@ -3300,7 +3301,8 @@
       "FadeToBlack"        : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "PickaxeActionSpecial2Receiving",
           "type" : "ActionTag",
@@ -3331,7 +3333,8 @@
       "FadeToBlack"        : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "PickaxeActionSpecial3Receiving",
           "type" : "ActionTag",
@@ -3362,7 +3365,8 @@
       "FadeToBlack"        : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "PickaxeActionSpecial2Drops",
           "type" : "ActionTag",
@@ -3393,7 +3397,8 @@
       "FadeToBlack"        : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "PickaxeActionSpecial3Drops",
           "type" : "ActionTag",
@@ -3426,7 +3431,8 @@
   ],
   "UsedInBpActionModifiers"     : [
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "PickaxeActionSpecial2Drops",
           "type" : "ActionTag",
@@ -3457,7 +3463,8 @@
       "FadeToBlack"        : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "PickaxeActionSpecial3Drops",
           "type" : "ActionTag",
@@ -3883,6 +3890,23 @@
           "zh" : "\u7597\u4F24\u818F",
           "en" : "Healing Ointment",
           "ja" : "\u56DE\u5FA9\u30DA\u30FC\u30B9\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Honey",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
         }
       },
       "description" : {
@@ -5053,23 +5077,6 @@
           "zh" : "Copper Jar",
           "en" : "Copper Jar",
           "ja" : "Copper Jar"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      }
-    },
-    {
-      "source" : {
-        "key" : "Bp_Honey",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "Honey",
-          "en" : "Honey",
-          "ja" : "Honey"
         }
       },
       "description" : {

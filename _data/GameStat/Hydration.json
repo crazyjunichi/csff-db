@@ -10,40 +10,41 @@
     "en" : "Decreases if you're thirsty, recovers on its own if you're not. At low levels it can cause headaches and increase fatigue. Prolonged dehydration can lead to lowered blood pressure, altered mind states and eventual death.",
     "ja" : "\u5589\u304C\u4E7E\u3044\u305F\u3089\u6E1B\u308B\u3002\u4E7E\u3044\u3066\u306A\u3051\u308C\u3070\u52DD\u624B\u306B\u56DE\u5FA9\u3059\u308B\u3002\u4F4E\u3044\u3068\u982D\u75DB\u3068\u75B2\u52B4\u306E\u539F\u56E0\u306B\u306A\u308B\u3002\u9577\u6642\u9593\u8131\u6C34\u304C\u7D9A\u304F\u3068\u3001\u8840\u5727\u304C\u4E0B\u304C\u308A\u3001\u7CBE\u795E\u72B6\u614B\u304C\u5909\u308F\u308A\u3001\u6B7B\u306B\u81F3\u308B\u53EF\u80FD\u6027\u304C\u3042\u308B\u3002"
   },
-  "BaseValue"   : 192.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 192.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 192.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.2235,
     "g" : 0.4,
     "b" : 0.8706,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusName" : {
+  "DefaultStatusName"           : {
     "zh" : "\u4E0D\u6E34",
     "en" : "Not Thirsty",
     "ja" : "\u5589\u306F\u4E7E\u3044\u3066\u306A\u3044"
   },
-  "DefaultStatusDescription" : {
+  "DefaultStatusDescription"    : {
     "zh" : "\u73B0\u5728\u4E0D\u89C9\u5F97\u6E34\u3002",
     "en" : "Not feeling thirsty right now.",
     "ja" : "\u4ECA\u5589\u306F\u4E7E\u3044\u3066\u306A\u3044\u3002"
   },
-  "DefaultStatusIcon"        : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__CalmingFlow__DefaultStatusIcon"
   },
-  "Statuses"                 : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6C34\u5206\u5145\u8DB3",
@@ -398,27 +399,27 @@
       "ConfidenceModifier"      : 0.0
     }
   ],
-  "NoveltyCooldownDuration"  : 0,
-  "StalenessMultiplier"      : 0.0,
-  "MaxStalenessStack"        : 0,
-  "ShowActionEffects"        : true,
-  "FeedbackInfo"             : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__BearCoat__FuelCapacity-OverrideIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                     : "GameStat",
-  "key"                      : "Hydration",
-  "icon"                     : "GameStat__CalmingFlow__DefaultStatusIcon",
-  "name"                     : {
+  "type"                        : "GameStat",
+  "key"                         : "Hydration",
+  "icon"                        : "GameStat__CalmingFlow__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6C34\u5206",
     "en" : "Hydration ",
     "ja" : "\u6C34\u5206"
   },
-  "min"                      : 0.0,
-  "max"                      : 192.0,
-  "_modifierRates"           : [
+  "min"                         : 0.0,
+  "max"                         : 192.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "CabinConstructionLocationCabinRoom",
@@ -912,5 +913,5 @@
       }
     }
   ],
-  "_uuid"                    : "95ca7c21ffad5e647acc3d9cb5bfcde6"
+  "_uuid"                       : "95ca7c21ffad5e647acc3d9cb5bfcde6"
 }

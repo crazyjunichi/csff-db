@@ -75,6 +75,33 @@
     }
   },
   {
+    "key" : "Dialogue_AgentCraftHeartAproach",
+    "type" : "DialogScene",
+    "firstLine" : {
+      "zh" : "You approach the Craft-Heart.",
+      "en" : "You approach the Craft-Heart.",
+      "ja" : "You approach the Craft-Heart."
+    }
+  },
+  {
+    "key" : "Dialogue_AgentCraftHeartCaught",
+    "type" : "DialogScene",
+    "firstLine" : {
+      "zh" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead.",
+      "en" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead.",
+      "ja" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead."
+    }
+  },
+  {
+    "key" : "Dialogue_AgentCraftHeartTalk",
+    "type" : "DialogScene",
+    "firstLine" : {
+      "zh" : "The fox smiles at you.\n\nYou know he's taunting you.",
+      "en" : "The fox smiles at you.\n\nYou know he's taunting you.",
+      "ja" : "The fox smiles at you.\n\nYou know he's taunting you."
+    }
+  },
+  {
     "key" : "Dialogue_AgentDoe",
     "type" : "DialogScene",
     "name" : {
@@ -114,6 +141,20 @@
       "zh" : "\u4F60\u63A5\u8FD1\u72D0\u72F8",
       "en" : "You approach the Fox",
       "ja" : "\u30AD\u30C4\u30CD\u306B\u8FD1\u3065\u304F\u30FB\u30FB\u30FB"
+    }
+  },
+  {
+    "key" : "Dialogue_AgentGrimbardTalk",
+    "type" : "DialogScene",
+    "name" : {
+      "zh" : "Grimbard",
+      "en" : "Grimbard",
+      "ja" : "Grimbard"
+    },
+    "firstLine" : {
+      "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+      "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+      "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
     }
   },
   {
@@ -229,6 +270,15 @@
       "zh" : "\u4F60\u63A5\u8FD1\u4E86\u795E\u5723\u6A61\u6811\u3002\n\n\u4F60\u611F\u53D7\u5230\u4E86\u9762\u524D\u7684\u53E4\u8001\u5B58\u5728\u3002",
       "en" : "You approach the Sacred Oak.\n\nYou feel its ancient presence before you.",
       "ja" : "\u3042\u306A\u305F\u306F\u8056\u6A39\u30AA\u30FC\u30AF\u306E\u6728\u3078\u8FD1\u3065\u304F\u3002\n\n\u305D\u306E\u524D\u306B\u7ACB\u3064\u3060\u3051\u3067\u60A0\u4E45\u306E\u6C17\u914D\u304C\u808C\u3092\u64AB\u3067\u308B\u3002"
+    }
+  },
+  {
+    "key" : "Dialogue_Stalker",
+    "type" : "DialogScene",
+    "firstLine" : {
+      "zh" : "You approach the Stalker. ",
+      "en" : "You approach the Stalker. ",
+      "ja" : "You approach the Stalker. "
     }
   },
   {
@@ -376,7 +426,7 @@
     "key" : "PartnerDialog_ReportFishing",
     "type" : "DialogScene",
     "firstLine" : {
-      "zh" : "Your partner has returned from a fishing expedition.",
+      "zh" : "\u4F60\u7684\u540C\u4F34\u4ECE\u9493\u9C7C\u4EFB\u52A1\u4E2D\u5F52\u6765\u4E86\u3002",
       "en" : "Your partner has returned from a fishing expedition.",
       "ja" : "Your partner has returned from a fishing expedition."
     }
@@ -385,7 +435,7 @@
     "key" : "PartnerDialog_ReportForaging",
     "type" : "DialogScene",
     "firstLine" : {
-      "zh" : "Your partner has returned from a foraging expedition.",
+      "zh" : "\u4F60\u7684\u540C\u4F34\u4ECE\u91C7\u96C6\u4EFB\u52A1\u4E2D\u5F52\u6765\u4E86\u3002",
       "en" : "Your partner has returned from a foraging expedition.",
       "ja" : "Your partner has returned from a foraging expedition."
     }
@@ -394,7 +444,7 @@
     "key" : "PartnerDialog_ReportHunting",
     "type" : "DialogScene",
     "firstLine" : {
-      "zh" : "Your partner has returned from a hunting expedition.",
+      "zh" : "\u4F60\u7684\u4F19\u4F34\u4ECE\u72E9\u730E\u4EFB\u52A1\u4E2D\u5F52\u6765\u4E86\u3002",
       "en" : "Your partner has returned from a hunting expedition.",
       "ja" : "Your partner has returned from a hunting expedition."
     }
@@ -412,9 +462,9 @@
     "key" : "TraderIntroGeneral",
     "type" : "DialogScene",
     "firstLine" : {
-      "zh" : "\u90A3\u4E2A\u7537\u4EBA\u89C1\u5230\u4F60\u4F3C\u4E4E\u5F88\u60CA\u8BB6\u3002",
-      "en" : "The man seems surprised to see you.",
-      "ja" : "\u7537\u306F\u3042\u306A\u305F\u306B\u4F1A\u3063\u3066\u9A5A\u3044\u305F\u3088\u3046\u3060\u3002 "
+      "zh" : "A man approaches and greets you. He introduces himself as a travelling trader from a town far to the west.\nHe says he passes through the forest every spring and autumn, and thought he would stop by to introduce himself.\nHe will be setting up at the Green Glade, and invites you to visit if you have anything to trade.",
+      "en" : "A man approaches and greets you. He introduces himself as a travelling trader from a town far to the west.\nHe says he passes through the forest every spring and autumn, and thought he would stop by to introduce himself.\nHe will be setting up at the Green Glade, and invites you to visit if you have anything to trade.",
+      "ja" : "A man approaches and greets you. He introduces himself as a travelling trader from a town far to the west.\nHe says he passes through the forest every spring and autumn, and thought he would stop by to introduce himself.\nHe will be setting up at the Green Glade, and invites you to visit if you have anything to trade."
     }
   },
   {

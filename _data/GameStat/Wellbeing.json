@@ -10,34 +10,35 @@
     "en" : "How comforable and content you feel at the moment. Affects your morale and stress levels.",
     "ja" : "\u4ECA\u611F\u3058\u3066\u308B\u5FEB\u9069\u3055\u3068\u6E80\u8DB3\u5EA6\u3002\u58EB\u6C17\u3092\u30B9\u30C8\u30EC\u30B9\u3092\u5F71\u97FF\u3059\u308B\u3002"
   },
-  "BaseValue"   : 1728.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 1728.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 3456.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 1,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 1,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 3456.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Gratification__FeedbackInfo-Icon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5982\u6C90\u6625\u98CE",
@@ -271,27 +272,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Gratification__FeedbackInfo-Icon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Wellbeing",
-  "icon"                    : "GameStat__Gratification__FeedbackInfo-Icon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Wellbeing",
+  "icon"                        : "GameStat__Gratification__FeedbackInfo-Icon",
+  "name"                        : {
     "zh" : "\u5E78\u798F\u5EA6",
     "en" : "Wellbeing",
     "ja" : "\u5E78\u798F\u5EA6"
   },
-  "min"                     : 0.0,
-  "max"                     : 3456.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 3456.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "W_Leech",
@@ -315,7 +316,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Comfort",
@@ -915,5 +916,5 @@
       }
     }
   ],
-  "_uuid"                   : "04194353fd841a94ebff8b69af66c8d0"
+  "_uuid"                       : "04194353fd841a94ebff8b69af66c8d0"
 }

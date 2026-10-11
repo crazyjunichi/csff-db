@@ -10,18 +10,19 @@
     "en" : "A common disease affecting the nose and throat. Symptoms include a sore throat, nasal congestion and coughing fits.",
     "ja" : "\u9F3B\u3068\u5589\u306E\u75C5\u6C17\u3002\u75C7\u72B6\u306F\u306E\u3069\u306E\u75DB\u307F\u3001\u9F3B\u3065\u307E\u308A\u3001\u54B3\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "DefaultStatusIcon" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "ValueRange" : {
         "m_X" : 1,
@@ -333,23 +334,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Infection_UpperRespiratory",
-  "icon"                    : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Infection_UpperRespiratory",
+  "icon"                        : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+  "name"                        : {
     "zh" : "\u4E0A\u547C\u5438\u9053\u611F\u67D3",
     "en" : "Upper Respiratory Infection",
     "ja" : "\u4E0A\u6C17\u9053\u611F\u67D3"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "VDEBUG_HybernationSuit",
@@ -1107,5 +1108,5 @@
       }
     }
   ],
-  "_uuid"                   : "3407bfc804966194e9e369a7cce6d07d"
+  "_uuid"                       : "3407bfc804966194e9e369a7cce6d07d"
 }

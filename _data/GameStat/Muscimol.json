@@ -10,31 +10,32 @@
     "en" : "Alters your mind state and reduces wakefulness.",
     "ja" : "\u7CBE\u795E\u72B6\u614B\u3092\u5909\u5316\u3055\u305B\u3001\u899A\u9192\u5EA6\u3092\u4F4E\u4E0B\u3055\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Headache__DefaultStatusIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5C0F\u5242\u91CF\u8747\u8548\u9187",
@@ -152,24 +153,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Muscimol",
-  "icon"                    : "GameStat__Headache__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Muscimol",
+  "icon"                        : "GameStat__Headache__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u8747\u8548\u9187",
     "en" : "Muscimol",
     "ja" : "\u30E0\u30B7\u30E2\u30FC\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "FlyAgaricBoiled",
@@ -259,5 +260,5 @@
       }
     }
   ],
-  "_uuid"                   : "48db1f8a3c3e6eb43b001bc5ad041de8"
+  "_uuid"                       : "48db1f8a3c3e6eb43b001bc5ad041de8"
 }

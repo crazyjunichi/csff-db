@@ -10,31 +10,32 @@
     "en" : "Causes nausea, stress and confusion.",
     "ja" : "\u5410\u304D\u6C17\u3068\u30B9\u30C8\u30EC\u30B9\u3001\u6DF7\u4E71\u3092\u5F15\u304D\u8D77\u3053\u3059\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Headache__DefaultStatusIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u9D5D\u818F\u8548\u80FA\u9178\u5242\u91CF",
@@ -188,24 +189,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "IbotenicAcid",
-  "icon"                    : "GameStat__Headache__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "IbotenicAcid",
+  "icon"                        : "GameStat__Headache__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u9D5D\u818F\u8548\u80FA\u9178",
     "en" : "Ibotenic Acid",
     "ja" : "\u30A4\u30DC\u30C6\u30F3\u9178"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "FlyAgaricBoiled",
@@ -295,5 +296,5 @@
       }
     }
   ],
-  "_uuid"                   : "415271a0df1ddaa4ca4a26c32e7f19e4"
+  "_uuid"                       : "415271a0df1ddaa4ca4a26c32e7f19e4"
 }

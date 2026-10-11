@@ -5,30 +5,31 @@
     "en" : "FrostSpiritBound",
     "ja" : "FrostSpiritBound"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_FrostSpiritBound",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_FrostSpiritBound",
+  "name"                        : {
     "zh" : "\u971C\u7075\u7ED1\u5B9A",
     "en" : "FrostSpiritBound",
     "ja" : "FrostSpiritBound"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_FrostSpiritSummoningGranted",
@@ -52,7 +53,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_FrostSpiritCalling",
@@ -76,7 +77,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_FrostSpiritBoundInsightBonus",
@@ -98,5 +99,5 @@
       }
     }
   ],
-  "_uuid"                   : "7a70abd449dc6f242bd2c154a2cb742c"
+  "_uuid"                       : "7a70abd449dc6f242bd2c154a2cb742c"
 }

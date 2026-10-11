@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Protects you from mosquitos, leeches or swamp fever and increases your blood pressure.",
     "ja" : "A spirit blessing. Protects you from mosquitos, leeches or swamp fever and increases your blood pressure."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BloodLoss__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
@@ -735,27 +736,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BloodLoss__DefaultStatusIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HummingWidowBlessing",
-  "icon"                    : "GameStat__BloodLoss__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HummingWidowBlessing",
+  "icon"                        : "GameStat__BloodLoss__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u55E1\u9E23\u5BE1\u5987\u8D50\u798F",
     "en" : "Humming Widow Blessing",
     "ja" : "Humming Widow Blessing"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_HummingWidowSpiritBlessingGranted",
@@ -801,7 +802,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LQ_SpiritHummingWidow",
@@ -963,5 +964,5 @@
       }
     }
   ],
-  "_uuid"                   : "9f20e46a39040c743aaec3c3502657a1"
+  "_uuid"                       : "9f20e46a39040c743aaec3c3502657a1"
 }

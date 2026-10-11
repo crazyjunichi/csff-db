@@ -5,31 +5,32 @@
     "en" : "Pottery Bonus",
     "ja" : "\u9676\u5668\u30DC\u30FC\u30CA\u30B9"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 2,
-  "StatusesHaveNoBar" : true,
-  "BarColor"          : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 2,
+  "StatusesHaveNoBar"           : true,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__PotteryBonus__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5DE5\u4F5C\u533A",
@@ -221,27 +222,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__FleshingBeamActionBonus__FeedbackInfo-Icon"
     },
     "StepValue" : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "PotteryBonus",
-  "icon"                    : "GameStat__PotteryBonus__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "PotteryBonus",
+  "icon"                        : "GameStat__PotteryBonus__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u9676\u827A\u52A0\u6210",
     "en" : "Pottery Bonus",
     "ja" : "\u9676\u5668\u30DC\u30FC\u30CA\u30B9"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "PotteryWheelActionBonus",
@@ -335,5 +336,5 @@
       }
     }
   ],
-  "_uuid"                   : "24ceb054a856dee4498d8332b8695e74"
+  "_uuid"                       : "24ceb054a856dee4498d8332b8695e74"
 }

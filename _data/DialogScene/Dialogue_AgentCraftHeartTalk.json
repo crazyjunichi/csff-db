@@ -1,0 +1,245 @@
+
+{
+  "SceneImage" : {
+    "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+  },
+  "SceneLines" : [
+    {
+      "StartingPoint" : true,
+      "Line"          : {
+        "zh" : "The fox smiles at you.\n\nYou know he's taunting you.",
+        "en" : "The fox smiles at you.\n\nYou know he's taunting you.",
+        "ja" : "The fox smiles at you.\n\nYou know he's taunting you."
+      },
+      "OverrideSceneImage" : {
+        "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+      },
+      "NextStep"           : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 2,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "What do you want?",
+            "en" : "What do you want?",
+            "ja" : "What do you want?"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "MockingPraise",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "The fox keeps smiling.\n\nHe seems to be... praising your trapping skills.\n\nHe's clearly mocking you.",
+                "en" : "The fox keeps smiling.\n\nHe seems to be... praising your trapping skills.\n\nHe's clearly mocking you.",
+                "ja" : "The fox keeps smiling.\n\nHe seems to be... praising your trapping skills.\n\nHe's clearly mocking you."
+              }
+            }
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "Come here you!",
+            "en" : "Come here you!",
+            "ja" : "Come here you!"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "InvitationToChase",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+                "en" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+                "ja" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him."
+              }
+            }
+          }
+        }
+      ],
+      "key"                : "TauntingSmile",
+      "type"               : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "The fox keeps smiling.\n\nHe seems to be... praising your trapping skills.\n\nHe's clearly mocking you.",
+        "en" : "The fox keeps smiling.\n\nHe seems to be... praising your trapping skills.\n\nHe's clearly mocking you.",
+        "ja" : "The fox keeps smiling.\n\nHe seems to be... praising your trapping skills.\n\nHe's clearly mocking you."
+      },
+      "OverrideSceneImage" : {
+        "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+      },
+      "NextStep"           : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 2,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "Stay away from my traps!",
+            "en" : "Stay away from my traps!",
+            "ja" : "Stay away from my traps!"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "InvitationToChase",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+                "en" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+                "ja" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him."
+              }
+            }
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "Come here you!",
+            "en" : "Come here you!",
+            "ja" : "Come here you!"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "InvitationToChase",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+                "en" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+                "ja" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him."
+              }
+            }
+          }
+        }
+      ],
+      "key"                : "MockingPraise",
+      "type"               : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+        "en" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+        "ja" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him."
+      },
+      "OverrideSceneImage" : {
+        "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+      },
+      "NextStep"           : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 2,
+      "ActionToPerform"    : {
+        "NPCStatModifications" : [
+          {
+            "TargetStat" : {
+              "key" : "AgentCraftHeartFleeMode",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+                "en" : "AgentCraftHeartFleeMode",
+                "ja" : "AgentCraftHeartFleeMode"
+              }
+            },
+            "TargetAgent" : {
+              "key" : "Agent_CraftHeart",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+              "name" : {
+                "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+                "en" : "Craft-Heart",
+                "ja" : "Craft-Heart"
+              }
+            },
+            "ValueChange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      },
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "Go after him!",
+            "en" : "Go after him!",
+            "ja" : "Go after him!"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          },
+          "ActionToPerform" : {
+            "StartCombatEncounter" : {
+              "key" : "Combat_EncounterCraftheart",
+              "type" : "Encounter",
+              "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+              "name" : {
+                "zh" : "Craft-Heart",
+                "en" : "Craft-Heart",
+                "ja" : "Craft-Heart"
+              }
+            },
+            "SkipEncounterEvent"   : true,
+            "OverrideEncounterNPC" : true,
+            "EncounterNPC"         : {
+              "key" : "Agent_CraftHeart",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+              "name" : {
+                "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+                "en" : "Craft-Heart",
+                "ja" : "Craft-Heart"
+              }
+            },
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "Ignore him.",
+            "en" : "Ignore him.",
+            "ja" : "Ignore him."
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          },
+          "ActionToPerform" : {
+            "NPCStatModifications" : [
+              {
+                "TargetStat" : {
+                  "key" : "AgentCraftHeartFleeMode",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+                    "en" : "AgentCraftHeartFleeMode",
+                    "ja" : "AgentCraftHeartFleeMode"
+                  }
+                },
+                "UseAssociatedAgent" : true,
+                "ValueChange"        : {
+                  "x" : 1.0,
+                  "y" : 1.0
+                }
+              }
+            ],
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        }
+      ],
+      "key"                : "InvitationToChase",
+      "type"               : "dialog"
+    }
+  ],
+  "key"        : "Dialogue_AgentCraftHeartTalk",
+  "type"       : "DialogScene",
+  "name"       : {
+    "zh" : "Dialogue_AgentCraftHeartTalk",
+    "en" : "Dialogue_AgentCraftHeartTalk",
+    "ja" : "Dialogue_AgentCraftHeartTalk"
+  }
+}

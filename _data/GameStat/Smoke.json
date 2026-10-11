@@ -10,30 +10,31 @@
     "en" : "Lowers wellbeing.",
     "ja" : "\u5E78\u798F\u5EA6\u3092\u4E0B\u3052\u308B"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 20.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__AmbientSmoke__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5FAE\u70DF\u96FE\u66B4\u9732",
@@ -195,27 +196,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AppleWeedEffect__DefaultStatusIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Smoke",
-  "icon"                    : "GameStat__AmbientSmoke__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Smoke",
+  "icon"                        : "GameStat__AmbientSmoke__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u70DF\u96FE",
     "en" : "Smoke",
     "ja" : "\u7159"
   },
-  "min"                     : 0.0,
-  "max"                     : 20.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 20.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "CabinConstructionLocationCabinRoom",
@@ -987,5 +988,5 @@
       }
     }
   ],
-  "_uuid"                   : "f07ec56b84b5e3940af40179948e6244"
+  "_uuid"                       : "f07ec56b84b5e3940af40179948e6244"
 }

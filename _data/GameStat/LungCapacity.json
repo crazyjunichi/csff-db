@@ -10,30 +10,31 @@
     "en" : "Reduced by lung damage and some diseases. Causes pain and reduces stamina and wellbeing.",
     "ja" : "\u80BA\u306E\u30C0\u30E1\u30FC\u30B8\u3068\u4E00\u90E8\u306E\u75C5\u6C17\u3067\u843D\u3061\u308B\u3002\u75DB\u307F\u306E\u539F\u56E0\u306B\u306A\u308A\u3001\u30B9\u30BF\u30DF\u30CA\u3092\u4E0B\u3052\u3001\u5065\u5EB7\u72B6\u614B\u3092\u60AA\u304F\u3059\u308B\u3002"
   },
-  "BaseValue"   : 1000.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 1000.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.9451,
     "g" : 0.5176,
     "b" : 0.3765,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__LungCapacity__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u80BA\u5BB9\u91CF\u51CF\u5C11",
@@ -299,27 +300,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__LungCapacity__DefaultStatusIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "LungCapacity",
-  "icon"                    : "GameStat__LungCapacity__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "LungCapacity",
+  "icon"                        : "GameStat__LungCapacity__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u80BA\u5BB9\u91CF",
     "en" : "Lung Capacity",
     "ja" : "\u80BA\u6D3B\u91CF"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Infection_LowerRespiratory",
@@ -413,5 +414,5 @@
       }
     }
   ],
-  "_uuid"                   : "ef1499c3d5f2b3641ba0c960a4490088"
+  "_uuid"                       : "ef1499c3d5f2b3641ba0c960a4490088"
 }

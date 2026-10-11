@@ -10,30 +10,31 @@
     "en" : "It decreases with repetitive tasks and increases with varied activities or leisure. Has a direct effect on your wellbeing and stress levels.",
     "ja" : "\u540C\u3058\u4F5C\u696D\u3092\u9023\u7D9A\u3067\u884C\u3046\u3068\u4E0B\u304C\u308A\u3001\u3044\u308D\u3093\u306A\u4F5C\u696D\u3092\u884C\u3046\u3001\u3082\u3057\u304F\u306F\u4F11\u3093\u3060\u3089\u4E0A\u304C\u308B\u3002\u5E78\u798F\u5EA6\u3068\u30B9\u30C8\u30EC\u30B9\u306B\u76F4\u63A5\u95A2\u4FC2\u3059\u308B\u3002"
   },
-  "BaseValue"   : 48.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 48.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -2.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -2.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.1882,
     "g" : 0.2275,
     "b" : 0.6157,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Focus__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5FC3\u4E0D\u5728\u7109",
@@ -299,33 +300,33 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 16,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 16,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Focus__DefaultStatusIcon"
     },
     "StepValue" : 100.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u4E13\u6CE8\u5EA6\u4E0D\u591F\u3002",
     "en" : "Not enough focus.",
     "ja" : "\u96C6\u4E2D\u529B\u304C\u8DB3\u308A\u306A\u3044\u3002"
   },
-  "type"                    : "GameStat",
-  "key"                     : "Focus",
-  "icon"                    : "GameStat__Focus__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Focus",
+  "icon"                        : "GameStat__Focus__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u4E13\u6CE8\u5EA6",
     "en" : "Focus",
     "ja" : "\u96C6\u4E2D\u529B"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "DamBeaverHalfBuilt",
@@ -2448,6 +2449,50 @@
           "zh" : "\u718A\u76AE\u5927\u8863",
           "en" : "Bear Coat",
           "ja" : "\u30AF\u30DE\u306E\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BeeSkepEmpty",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Empty Skep",
+          "en" : "Empty Skep",
+          "ja" : "Empty Skep"
         }
       },
       "description" : {
@@ -5677,33 +5722,11 @@
         "key" : "Bp_SimpleBow",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
           "ja" : "\u7C21\u5358\u306A\u5F13"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      },
-      "value"       : {
-        "x" : 2.0,
-        "y" : 2.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Bp_Smokehouse",
-        "type" : "CardData",
-        "CardType" : 7,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u71FB\u88FD\u5C0F\u5C4B"
         }
       },
       "description" : {
@@ -6557,7 +6580,6 @@
         "key" : "Bp_ArrowBone",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__ArrowBone__CardImage",
         "name"     : {
           "zh" : "\u9AA8\u7BAD",
           "en" : "Bone Arrows",
@@ -6643,7 +6665,7 @@
         "key" : "Bp_ButterChunk",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_ButterChunk__CardImage",
+        "icon"     : "CardData__Beeswax__CardImage",
         "name"     : {
           "zh" : "\u9EC4\u6CB9\u5757",
           "en" : "Butter Chunk",
@@ -6684,31 +6706,10 @@
     },
     {
       "source" : {
-        "key" : "Bp_DoughStarter",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "\u9175\u79CD",
-          "en" : "Dough Starter",
-          "ja" : "\u5143\u7A2E"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      },
-      "value"       : {
-        "x" : 2.0,
-        "y" : 2.0
-      }
-    },
-    {
-      "source" : {
         "key" : "Bp_Fatchunk",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_ButterChunk__CardImage",
+        "icon"     : "CardData__Beeswax__CardImage",
         "name"     : {
           "zh" : "\u8102\u80AA\u5757",
           "en" : "Fat Chunk",
@@ -7059,6 +7060,50 @@
           "zh" : "\u96EA\u68DA",
           "en" : "Snow Shelter",
           "ja" : "\u96EA\u30B7\u30A7\u30EB\u30BF\u30FC"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "Summoning Ritual",
+          "en" : "Summoning Ritual",
+          "ja" : "Summoning Ritual"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -72.0,
+        "y" : -72.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "Summoning Ritual",
+          "en" : "Summoning Ritual",
+          "ja" : "Summoning Ritual"
         }
       },
       "description" : {
@@ -7579,6 +7624,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_CraftHeartSpiritCalling_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit Calling",
+          "ja" : "Craft-Heart Spirit Calling"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -72.0,
+        "y" : -72.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_CurseGrove",
         "type" : "CardData",
         "CardType" : 7,
@@ -7729,6 +7796,28 @@
       "value"       : {
         "x" : 2.0,
         "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_DuckEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u9644\u9B54",
+          "en" : "Duck Enchantment",
+          "ja" : "Duck Enchantment"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -72.0,
+        "y" : -72.0
       }
     },
     {
@@ -8929,6 +9018,28 @@
           "zh" : "\u677E\u9F20\u9644\u9B54",
           "en" : "Squirrel Enchantment",
           "ja" : "\u30EA\u30B9\u306E\u52A0\u8B77"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -72.0,
+        "y" : -72.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_StalkerSpiritCalling",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit Calling",
+          "ja" : "Stalker Spirit Calling"
         }
       },
       "description" : {
@@ -12367,6 +12478,248 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u94F2\u96EA",
         "en" : "Action: Shovel Snow",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u96EA\u3092\u63BB\u304F"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AForage",
+        "en" : "Action: Forage",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AForage"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ANorth",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AWest",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
       },
       "value"       : {
         "x" : 2.0,
@@ -19305,6 +19658,248 @@
     },
     {
       "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AForage",
+        "en" : "Action: Forage",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AForage"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
         "key" : "GrovePine_CrowPines",
         "type" : "CardData",
         "CardType" : 8,
@@ -26788,7 +27383,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -26810,7 +27405,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -26832,7 +27427,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -26854,7 +27449,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -26876,7 +27471,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -26898,7 +27493,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -26920,7 +27515,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -26942,7 +27537,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -26964,7 +27559,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -26986,7 +27581,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -27008,7 +27603,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -27030,7 +27625,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -27052,7 +27647,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -31034,7 +31629,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31056,7 +31651,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31078,7 +31673,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31100,7 +31695,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31122,7 +31717,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31144,7 +31739,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31166,7 +31761,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31188,7 +31783,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31210,7 +31805,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31232,7 +31827,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31254,7 +31849,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31276,7 +31871,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31298,7 +31893,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -31320,7 +31915,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31342,7 +31937,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31364,7 +31959,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31386,7 +31981,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31408,7 +32003,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31430,7 +32025,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31452,7 +32047,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31474,7 +32069,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31496,7 +32091,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31518,7 +32113,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31540,7 +32135,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31562,7 +32157,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -31584,7 +32179,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -37460,9 +38055,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Event_WaterfallCave__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -44060,7 +44655,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -45056,6 +45651,50 @@
         }
       },
       "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ARelease the Spirit",
+        "en" : "Action: Release the Spirit",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ARelease the Spirit"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Carcass_DuckCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E2D\u5B50",
+          "en" : "Dead Duck",
+          "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : -48.0,
+        "y" : -48.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Carcass_DuckCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E2D\u5B50",
+          "en" : "Dead Duck",
+          "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+        }
+      },
+      "description" : {
         "zh" : "\u52A8\u4F5C\uFF1A\u5207\u5F00",
         "en" : "Action: Cut Open",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5207\u308A\u958B\u304F"
@@ -45202,7 +45841,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -45224,7 +45863,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -45246,7 +45885,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -46610,7 +47249,7 @@
         "key" : "FatChunk",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Bp_ButterChunk__CardImage",
+        "icon"     : "CardData__Beeswax__CardImage",
         "name"     : {
           "zh" : "\u8102\u80AA\u5757",
           "en" : "Fat Chunk",
@@ -48724,7 +49363,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -51232,7 +51871,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -51254,7 +51893,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -52206,7 +52845,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -53504,7 +54143,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -56111,6 +56750,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AApply to Wound",
+        "en" : "Action: Apply to Wound",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AApply to Wound"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_Milk",
         "type" : "CardData",
         "CardType" : 9,
@@ -56745,50 +57406,6 @@
       "value"       : {
         "x" : 16.0,
         "y" : 16.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u53D6\u6696",
-        "en" : "Action: Warm Up",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6E29\u3081\u308B"
-      },
-      "value"       : {
-        "x" : 7.0,
-        "y" : 7.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u5728\u706B\u8FB9\u7B49\u5F85",
-        "en" : "Action: Wait by Fire",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u706B\u306E\u5074\u3067\u5F85\u3064"
-      },
-      "value"       : {
-        "x" : 2.0,
-        "y" : 2.0
       }
     },
     {
@@ -58323,50 +58940,6 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u6D17\u6577\u6599",
         "en" : "Action: Wash the Dressing",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5305\u5E2F\u3092\u6D17\u3046"
-      },
-      "value"       : {
-        "x" : 2.0,
-        "y" : 2.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
-      },
-      "value"       : {
-        "x" : 2.0,
-        "y" : 2.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
       },
       "value"       : {
         "x" : 2.0,
@@ -62225,6 +62798,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : -48.0,
+        "y" : -48.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritDarkness",
         "type" : "CardData",
         "CardType" : 9,
@@ -62547,6 +63142,28 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u8D50\u798F",
         "en" : "Action: Blessing",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u795D\u798F"
+      },
+      "value"       : {
+        "x" : -48.0,
+        "y" : -48.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_SpiritStalker",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit",
+          "ja" : "Stalker Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
       },
       "value"       : {
         "x" : -48.0,
@@ -64268,6 +64885,72 @@
     },
     {
       "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
         "key" : "W_WolfBite",
         "type" : "CardData",
         "CardType" : 0,
@@ -65123,6 +65806,144 @@
     },
     {
       "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 6.0,
+        "y" : 6.0
+      }
+    },
+    {
+      "source" : {
         "key" : "SwimmingAid",
         "type" : "GameStat",
         "icon" : "GameStat__Skill_Swimming__DefaultStatusIcon",
@@ -65529,7 +66350,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "ReedsDry",
@@ -65672,7 +66493,7 @@
         "min"  : 0.0,
         "max"  : 96.0,
         "name" : {
-          "zh" : "\u6027\u5524\u8D77",
+          "zh" : "\u6027\u594B",
           "en" : "Arousal",
           "ja" : "Arousal"
         }
@@ -65695,13 +66516,13 @@
         "min"  : 0.0,
         "max"  : 96.0,
         "name" : {
-          "zh" : "\u6027\u5524\u8D77",
+          "zh" : "\u6027\u594B",
           "en" : "Arousal",
           "ja" : "Arousal"
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AAroused",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u6027\u5174\u594B",
         "en" : "Status Stage: Aroused",
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AAroused"
       },
@@ -66259,7 +67080,29 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
+    {
+      "source" : {
+        "key" : "Bp_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "Summoning Ritual",
+          "en" : "Summoning Ritual",
+          "ja" : "Summoning Ritual"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 72.0,
+        "y" : 1000000000.0
+      }
+    },
     {
       "source" : {
         "key" : "Bp_Appeasement",
@@ -66592,6 +67435,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_CraftHeartSpiritCalling_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit Calling",
+          "ja" : "Craft-Heart Spirit Calling"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 72.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_CurseGrove",
         "type" : "CardData",
         "CardType" : 7,
@@ -66666,6 +67531,28 @@
           "zh" : "\u53EC\u5524\u4EEA\u5F0F",
           "en" : "Summoning Ritual",
           "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 72.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_DuckEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u9644\u9B54",
+          "en" : "Duck Enchantment",
+          "ja" : "Duck Enchantment"
         }
       },
       "description" : {
@@ -67560,6 +68447,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_StalkerSpiritCalling",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit Calling",
+          "ja" : "Stalker Spirit Calling"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 72.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_StoneFriendRitual",
         "type" : "CardData",
         "CardType" : 7,
@@ -67978,10 +68887,32 @@
     },
     {
       "source" : {
+        "key" : "Carcass_DuckCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E2D\u5B50",
+          "en" : "Dead Duck",
+          "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 48.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -68594,6 +69525,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 48.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritDarkness",
         "type" : "CardData",
         "CardType" : 9,
@@ -68924,6 +69877,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritStalker",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit",
+          "ja" : "Stalker Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 48.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritVoid",
         "type" : "CardData",
         "CardType" : 9,
@@ -69011,5 +69986,5 @@
       }
     }
   ],
-  "_uuid"                   : "4c5ed70723dc40e439720acab06e6af7"
+  "_uuid"                       : "4c5ed70723dc40e439720acab06e6af7"
 }

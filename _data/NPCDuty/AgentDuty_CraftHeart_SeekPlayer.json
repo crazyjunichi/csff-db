@@ -1,0 +1,65 @@
+
+{
+  "DutyName" : {
+    "zh" : "\u5BFB\u627E\u73A9\u5BB6",
+    "en" : "Craft-Heart seeks the player",
+    "ja" : "Craft-Heart seeks the player"
+  },
+  "DutySummary" : {
+    "zh" : "Craft-Heart seeks the player",
+    "en" : "Craft-Heart seeks the player",
+    "ja" : "Craft-Heart seeks the player"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyConditions"    : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_SpiritWorld",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "SpiritWorld",
+        "en" : "SpiritWorld",
+        "ja" : "SpiritWorld"
+      }
+    },
+    "InvertEnvironmentRequirement" : true,
+    "RequiredNPCStatValues"        : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentCraftHeartFleeMode",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+            "en" : "AgentCraftHeartFleeMode",
+            "ja" : "AgentCraftHeartFleeMode"
+          }
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "CraftHeartSeekPlayer",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "CraftHeartSeekPlayer",
+        "en" : "CraftHeartSeekPlayer",
+        "ja" : "CraftHeartSeekPlayer"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_CraftHeart_SeekPlayer",
+  "name"                 : {
+    "zh" : "\u5BFB\u627E\u73A9\u5BB6",
+    "en" : "Craft-Heart seeks the player",
+    "ja" : "Craft-Heart seeks the player"
+  },
+  "_uuid"                : "6cbb2e62b3784c87a71b665d331ccdb4"
+}

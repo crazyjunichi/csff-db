@@ -1,0 +1,73 @@
+
+{
+  "DutyName" : {
+    "zh" : "\u51FA\u73B0",
+    "en" : "Bee2 spawn next to clover patch",
+    "ja" : "Bee2 spawn next to clover patch"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_SpiritWorld",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "SpiritWorld",
+        "en" : "SpiritWorld",
+        "ja" : "SpiritWorld"
+      }
+    },
+    "RequiredStatValues"  : [
+      {
+        "Stat" : {
+          "key" : "SeasonCounter_Summer",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 2880.0,
+          "name" : {
+            "zh" : "\u590F\u5B63",
+            "en" : "Summer Counter",
+            "ja" : "Summer Counter"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 3.0,
+          "y" : 3.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 2,
+  "ActionSequence"                   : [
+    {
+      "key" : "Bee2SpawnNextToHeatherPatch",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "Bee2SpawnNextToHeatherPatch",
+        "en" : "Bee2SpawnNextToHeatherPatch",
+        "ja" : "Bee2SpawnNextToHeatherPatch"
+      }
+    },
+    {
+      "key" : "Bee2CreateBeeHive",
+      "type" : "CreateItemDutyAction",
+      "name" : {
+        "zh" : "Bee2CreateBeeHive",
+        "en" : "Bee2CreateBeeHive",
+        "ja" : "Bee2CreateBeeHive"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_Bee2_SpawnNextToCloverPatch",
+  "name"                             : {
+    "zh" : "\u51FA\u73B0",
+    "en" : "Bee2 spawn next to clover patch",
+    "ja" : "Bee2 spawn next to clover patch"
+  },
+  "_uuid"                            : "27aa475e38150a74aabf340d580525fc"
+}

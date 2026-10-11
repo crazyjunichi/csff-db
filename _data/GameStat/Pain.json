@@ -10,30 +10,31 @@
     "en" : "Lowers your morale and increases your stress.",
     "ja" : "\u58EB\u6C17\u3092\u4E0B\u3052\u3001\u30B9\u30C8\u30EC\u30B9\u3092\u5897\u3084\u3059\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 500.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.8314,
     "g" : 0.5794,
     "b" : 0.2444,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__ClothSmall__SpecialDurability3-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6709\u70B9\u75BC",
@@ -521,27 +522,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Pain__FeedbackInfo-Icon"
     },
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Pain",
-  "icon"                    : "CardData__ClothSmall__SpecialDurability3-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Pain",
+  "icon"                        : "CardData__ClothSmall__SpecialDurability3-OverrideIcon",
+  "name"                        : {
     "zh" : "\u75BC\u75DB",
     "en" : "Pain",
     "ja" : "\u75DB\u307F"
   },
-  "min"                     : 0.0,
-  "max"                     : 500.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 500.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Tourniquet",
@@ -1992,6 +1993,50 @@
       "value"       : {
         "x" : -100.0,
         "y" : -100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u75BC\u75DB",
+        "en" : "Passive Effect: Pain",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1APain"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u9547\u75DB\u56E0\u5B50",
+        "en" : "Passive Effect: Analgesic Factor",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AAnalgesic Factor"
+      },
+      "value"       : {
+        "x" : -20.0,
+        "y" : -20.0
       }
     },
     {
@@ -3763,7 +3808,7 @@
       "source" : {
         "key" : "BeeStings",
         "type" : "GameStat",
-        "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+        "icon" : "GameStat__BeeStings__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 192.0,
         "name" : {
@@ -3786,7 +3831,7 @@
       "source" : {
         "key" : "BeeStings",
         "type" : "GameStat",
-        "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+        "icon" : "GameStat__BeeStings__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 192.0,
         "name" : {
@@ -3809,7 +3854,7 @@
       "source" : {
         "key" : "BeeStings",
         "type" : "GameStat",
-        "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+        "icon" : "GameStat__BeeStings__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 192.0,
         "name" : {
@@ -3832,7 +3877,7 @@
       "source" : {
         "key" : "BeeStings",
         "type" : "GameStat",
-        "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+        "icon" : "GameStat__BeeStings__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 192.0,
         "name" : {
@@ -3894,5 +3939,5 @@
       }
     }
   ],
-  "_uuid"                   : "ec5f330267076884dbe9cfdd2fd8503b"
+  "_uuid"                       : "ec5f330267076884dbe9cfdd2fd8503b"
 }

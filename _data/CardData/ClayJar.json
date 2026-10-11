@@ -762,7 +762,7 @@
       "Target" : {
         "key" : "tag_SpiritLiquid",
         "type" : "CardTag",
-        "count" : 32,
+        "count" : 35,
         "name"  : {
           "zh" : "\u7CBE\u9B44\u6DB2\u4F53",
           "en" : "Spirit Liquid",
@@ -820,7 +820,7 @@
           "key" : "FatChunk",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__Bp_ButterChunk__CardImage",
+          "icon"     : "CardData__Beeswax__CardImage",
           "name"     : {
             "zh" : "\u8102\u80AA\u5757",
             "en" : "Fat Chunk",
@@ -860,7 +860,7 @@
         "Tag" : {
           "key" : "tag_Powder",
           "type" : "CardTag",
-          "count" : 33,
+          "count" : 34,
           "name"  : {
             "zh" : "\u7C89\u672B",
             "en" : "Powder",
@@ -1026,19 +1026,20 @@
   "_useFor"                         : [
     {
       "source" : {
-        "key" : "Bp_DoughStarter",
+        "key" : "BeeSkep",
         "type" : "CardData",
-        "CardType" : 7,
+        "CardType" : 2,
+        "icon"     : "CardData__BeeSkep__CardImage",
         "name"     : {
-          "zh" : "\u9175\u79CD",
-          "en" : "Dough Starter",
-          "ja" : "\u5143\u7A2E"
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
         }
       },
       "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+        "zh" : "\u52A8\u4F5C\uFF1AFeed",
+        "en" : "Action: Feed",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed"
       }
     },
     {
@@ -1074,23 +1075,6 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u53D8\u51B7",
         "en" : "Action: Chill",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u51B7\u5374"
-      }
-    },
-    {
-      "source" : {
-        "key" : "StreamBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "name"     : {
-          "zh" : "\u6CB3\u6D41",
-          "en" : "Stream",
-          "ja" : "\u5C0F\u5DDD"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u9632\u868A",
-        "en" : "Action: Mosquito Protection",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u866B\u3088\u3051"
       }
     },
     {
@@ -1265,42 +1249,6 @@
     },
     {
       "source" : {
-        "key" : "BeeSkep",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__BeeSkep__CardImage",
-        "name"     : {
-          "zh" : "Bee Skep",
-          "en" : "Bee Skep",
-          "ja" : "Bee Skep"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1AFeed",
-        "en" : "Action: Feed",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed"
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeSkepSwarming",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__BeeSkepSwarming__CardImage",
-        "name"     : {
-          "zh" : "Swarming Bee Skep",
-          "en" : "Swarming Bee Skep",
-          "ja" : "Swarming Bee Skep"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1AFeed",
-        "en" : "Action: Feed",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed"
-      }
-    },
-    {
-      "source" : {
         "key" : "WaterReservoirIrrigating",
         "type" : "CardData",
         "CardType" : 2,
@@ -1318,23 +1266,6 @@
     }
   ],
   "_transformTo"                    : [
-    {
-      "source" : {
-        "key" : "Bp_DoughStarter",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "\u9175\u79CD",
-          "en" : "Dough Starter",
-          "ja" : "\u5143\u7A2E"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      }
-    },
     {
       "source" : {
         "key" : "LQ_UrineFresh",

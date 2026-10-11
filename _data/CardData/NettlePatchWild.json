@@ -128,11 +128,6 @@
   },
   "LiquidEvaporationRate"       : 0.0,
   "SpecialDurability1"          : {
-    "CardStatName" : {
-      "zh" : "\u9971\u6EE1\u5EA6",
-      "en" : "Yield",
-      "ja" : "\u53CE\u91CF"
-    },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 5760.0,
     "RatePerDaytimePoint"  : 1.0,
@@ -147,32 +142,7 @@
     "OnZeroNotification"           : 0,
     "OnFullNotification"           : 0,
     "FloatValue"                   : 5760.0,
-    "Active"                       : true,
     "durabilityKey"                : "SpecialDurability1",
-    "_valueModifications"          : [
-      {
-        "source" : {
-          "key" : "NettlePatchWild",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__NettlePatchWild__CardImage",
-          "name"     : {
-            "zh" : "\u91CE\u751F\u8368\u9EBB",
-            "en" : "Nettle Patch",
-            "ja" : "\u30A4\u30E9\u30AF\u30B5\u306E\u30D1\u30C3\u30C1"
-          }
-        },
-        "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1A\u6536\u83B7",
-          "en" : "Action: Harvest",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u53CE\u7A6B"
-        },
-        "value"       : {
-          "x" : -288.0,
-          "y" : -288.0
-        }
-      }
-    ],
     "_rateModifications"           : [
       {
         "source" : {
@@ -291,32 +261,52 @@
     "durabilityKey"         : "SpecialDurability2"
   },
   "SpecialDurability3"          : {
-    "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 1.0,
-    "RatePerDaytimePoint"  : 0.0,
-    "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 2,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "OnZeroNotification"    : 0,
-    "HasActionOnFull"       : true,
-    "OnFullNotification"    : 0,
-    "OnFull"                : {
-      "DaytimeCost" : 0,
-      "UseMiniTicks" : 0,
-      "ReceivingCardChanges" : {
-        "ModType" : 3,
-        "TransformToLiquidQuantity" : 0.0,
-        "LiquidEffectScaling"       : 0
-      },
-      "FadeToBlack"          : 0,
-      "RoomDirection"        : 0,
-      "ExitDirection"        : 0
+    "CardStatName" : {
+      "zh" : "\u4EA7\u91CF",
+      "en" : "Yield",
+      "ja" : "Yield"
     },
-    "FloatValue"            : 0.0,
-    "Active"                : true,
-    "durabilityKey"         : "SpecialDurability3",
-    "_rateModifications"    : [
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 5760.0,
+    "RatePerDaytimePoint"  : 1.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "PauseRateWhenEnvWeightIsFull" : true,
+    "HidingOptions"                : 0,
+    "TextDisplay"                  : 0,
+    "NumberPrecision"              : 0,
+    "OverrideIcon"                 : {
+      "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
+    },
+    "OnZeroNotification"           : 0,
+    "OnFullNotification"           : 0,
+    "FloatValue"                   : 5760.0,
+    "Active"                       : true,
+    "durabilityKey"                : "SpecialDurability3",
+    "_valueModifications"          : [
+      {
+        "source" : {
+          "key" : "NettlePatchWild",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__NettlePatchWild__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u8368\u9EBB",
+            "en" : "Nettle Patch",
+            "ja" : "\u30A4\u30E9\u30AF\u30B5\u306E\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1A\u6536\u83B7",
+          "en" : "Action: Harvest",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u53CE\u7A6B"
+        },
+        "value"       : {
+          "x" : -288.0,
+          "y" : -288.0
+        }
+      }
+    ],
+    "_rateModifications"           : [
       {
         "source" : {
           "key" : "NettlePatchWild",
@@ -458,7 +448,7 @@
       },
       "RequiredReceivingDurabilities"          : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -610,7 +600,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -705,7 +695,7 @@
       },
       "RequiredReceivingDurabilities"          : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -875,7 +865,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -938,7 +928,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -1069,7 +1059,7 @@
         "TransformToLiquidQuantity" : 0.0,
         "TransferCharges"           : true,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -1114,7 +1104,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -1264,7 +1254,7 @@
         "TransformToLiquidQuantity" : 0.0,
         "TransferCharges"           : true,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -1430,7 +1420,7 @@
           {
             "key" : "HOTFIX_tag_canthavenettle",
             "type" : "CardTag",
-            "count" : 49,
+            "count" : 50,
             "name"  : {
               "zh" : "\u4E0D\u53EF\u6709\u8368\u9EBB",
               "en" : "HOTFIX_tag_canthavenettle",
@@ -1559,6 +1549,16 @@
         "zh" : "\u6797\u95F4\u65E7\u5730",
         "en" : "Old Glade",
         "ja" : "\u53E4\u304D\u7A7A\u304D\u5730"
+      }
+    },
+    {
+      "key" : "Env_ClearingOak_SacredGlade",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u795E\u5723\u7A7A\u5730",
+        "en" : "Sacred Glade",
+        "ja" : "Sacred Glade"
       }
     },
     {

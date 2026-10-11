@@ -10,14 +10,15 @@
     "en" : "Protects you against the effects of Hypothermia.",
     "ja" : "\u4F4E\u4F53\u6E29\u75C7\u3092\u9632\u3050\u3002"
   },
-  "BaseValue"   : 0.0,
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "DefaultStatusIcon" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__NOT_USED_InsulationCold__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "1\u7EA7",
@@ -188,23 +189,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "NOT_USED_InsulationCold",
-  "icon"                    : "GameStat__NOT_USED_InsulationCold__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "NOT_USED_InsulationCold",
+  "icon"                        : "GameStat__NOT_USED_InsulationCold__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u4FDD\u6E29",
     "en" : "Cold Insulation",
     "ja" : "\u4FDD\u51B7\u529B"
   },
-  "min"                     : 0.0,
-  "max"                     : 0.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 0.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "GasMaskRustic",
@@ -269,5 +270,5 @@
       }
     }
   ],
-  "_uuid"                   : "2efef4dd560df6348a5c8767136d1ffa"
+  "_uuid"                       : "2efef4dd560df6348a5c8767136d1ffa"
 }

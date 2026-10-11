@@ -96,7 +96,7 @@
       "key" : "PartnerDuty_GardenMediumAcidityNeutralize",
       "type" : "NPCDuty",
       "name" : {
-        "zh" : "\u83DC\u56ED\u4E2D\u548C(\u4E2D\u9178\u5EA6)",
+        "zh" : "\u8C03\u81F3\u4E2D\u7B49\u9178\u5EA6\uFF08\u4E2D\u548C\uFF09",
         "en" : "Medium Acidity(neutralize)",
         "ja" : "Medium Acidity(neutralize)"
       }
@@ -105,7 +105,7 @@
       "key" : "PartnerDuty_GardenMediumAcidityAcidify",
       "type" : "NPCDuty",
       "name" : {
-        "zh" : "\u83DC\u56ED\u9178\u5316(\u4E2D\u9178\u5EA6)",
+        "zh" : "\u8C03\u81F3\u4E2D\u7B49\u9178\u5EA6\uFF08\u9178\u5316\uFF09",
         "en" : "Medium Acidity(acidify)",
         "ja" : "Medium Acidity(acidify)"
       }
@@ -1377,7 +1377,15 @@
       "ExitDirection"        : 0
     },
     {
-      "GivenCardChanges" : {
+      "RequiredGivenDurabilities" : {
+        "RequiredProgressPercent" : {
+          "MaxValue" : 0.01,
+          "FloatValue" : 0.0,
+          "Active"     : true
+        },
+        "RequiredLiquidQuantity"  : 0.0
+      },
+      "GivenCardChanges"          : {
         "ModType" : 0,
         "TransformToLiquidQuantity" : 0.0,
         "ModifyLiquid"              : true,
@@ -1387,7 +1395,7 @@
           "y" : -300.0
         }
       },
-      "CompatibleCards"  : {
+      "CompatibleCards"           : {
         "TriggerTags" : [
           {
             "key" : "tag_WaterFresh",
@@ -1401,14 +1409,14 @@
           }
         ]
       },
-      "ActionName"       : {
+      "ActionName"                : {
         "zh" : "\u6C34\u4EFD\u503C",
         "en" : "Water",
         "ja" : "\u6C34"
       },
-      "DaytimeCost"      : 0,
-      "UseMiniTicks"     : 1,
-      "CompatibleNPCDuties" : [
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "CompatibleNPCDuties"       : [
         {
           "Target" : {
             "key" : "PartnerDuty_GardenHighHydration",
@@ -1432,7 +1440,14 @@
           }
         }
       ],
-      "ReceivingCardChanges" : {
+      "RequiredReceivingDurabilities" : {
+        "RequiredProgressPercent" : {
+          "MaxValue" : 0.1,
+          "FloatValue" : 0.0
+        },
+        "RequiredLiquidQuantity"  : 0.0
+      },
+      "ReceivingCardChanges"          : {
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "TransferFuel"              : true,
@@ -1446,8 +1461,8 @@
           "y" : 96.0
         }
       },
-      "RoomDirection"        : 0,
-      "ExitDirection"        : 0
+      "RoomDirection"                 : 0,
+      "ExitDirection"                 : 0
     },
     {
       "GivenCardChanges" : {
@@ -1616,7 +1631,7 @@
             "key" : "PartnerDuty_GardenMediumAcidityAcidify",
             "type" : "NPCDuty",
             "name" : {
-              "zh" : "\u83DC\u56ED\u9178\u5316(\u4E2D\u9178\u5EA6)",
+              "zh" : "\u8C03\u81F3\u4E2D\u7B49\u9178\u5EA6\uFF08\u9178\u5316\uFF09",
               "en" : "Medium Acidity(acidify)",
               "ja" : "Medium Acidity(acidify)"
             }
@@ -1648,7 +1663,7 @@
     },
     {
       "GivenCardChanges" : {
-        "ModType" : 3,
+        "ModType" : 0,
         "TransformToLiquidQuantity" : 0.0,
         "ModifyLiquid"              : true,
         "LiquidEffectScaling"       : 0,
@@ -1685,7 +1700,7 @@
             "key" : "PartnerDuty_GardenMediumAcidityAcidify",
             "type" : "NPCDuty",
             "name" : {
-              "zh" : "\u83DC\u56ED\u9178\u5316(\u4E2D\u9178\u5EA6)",
+              "zh" : "\u8C03\u81F3\u4E2D\u7B49\u9178\u5EA6\uFF08\u9178\u5316\uFF09",
               "en" : "Medium Acidity(acidify)",
               "ja" : "Medium Acidity(acidify)"
             }
@@ -1760,7 +1775,7 @@
             "key" : "PartnerDuty_GardenMediumAcidityAcidify",
             "type" : "NPCDuty",
             "name" : {
-              "zh" : "\u83DC\u56ED\u9178\u5316(\u4E2D\u9178\u5EA6)",
+              "zh" : "\u8C03\u81F3\u4E2D\u7B49\u9178\u5EA6\uFF08\u9178\u5316\uFF09",
               "en" : "Medium Acidity(acidify)",
               "ja" : "Medium Acidity(acidify)"
             }
@@ -1792,7 +1807,7 @@
     },
     {
       "GivenCardChanges" : {
-        "ModType" : 3,
+        "ModType" : 0,
         "TransformToLiquidQuantity" : 0.0,
         "ModifyLiquid"              : true,
         "LiquidEffectScaling"       : 0,
@@ -1829,7 +1844,7 @@
             "key" : "PartnerDuty_GardenMediumAcidityAcidify",
             "type" : "NPCDuty",
             "name" : {
-              "zh" : "\u83DC\u56ED\u9178\u5316(\u4E2D\u9178\u5EA6)",
+              "zh" : "\u8C03\u81F3\u4E2D\u7B49\u9178\u5EA6\uFF08\u9178\u5316\uFF09",
               "en" : "Medium Acidity(acidify)",
               "ja" : "Medium Acidity(acidify)"
             }
@@ -1926,7 +1941,7 @@
             "key" : "PartnerDuty_GardenMediumAcidityNeutralize",
             "type" : "NPCDuty",
             "name" : {
-              "zh" : "\u83DC\u56ED\u4E2D\u548C(\u4E2D\u9178\u5EA6)",
+              "zh" : "\u8C03\u81F3\u4E2D\u7B49\u9178\u5EA6\uFF08\u4E2D\u548C\uFF09",
               "en" : "Medium Acidity(neutralize)",
               "ja" : "Medium Acidity(neutralize)"
             }
@@ -2006,7 +2021,7 @@
             "key" : "PartnerDuty_GardenMediumAcidityNeutralize",
             "type" : "NPCDuty",
             "name" : {
-              "zh" : "\u83DC\u56ED\u4E2D\u548C(\u4E2D\u9178\u5EA6)",
+              "zh" : "\u8C03\u81F3\u4E2D\u7B49\u9178\u5EA6\uFF08\u4E2D\u548C\uFF09",
               "en" : "Medium Acidity(neutralize)",
               "ja" : "Medium Acidity(neutralize)"
             }
@@ -2528,7 +2543,7 @@
           {
             "key" : "tag_OpenSky",
             "type" : "CardTag",
-            "count" : 100,
+            "count" : 102,
             "name"  : {
               "zh" : "\u5F00\u9614\u7684\u5929\u7A7A",
               "en" : "Open Sky",
@@ -2666,7 +2681,7 @@
           {
             "key" : "tag_Inlands_Deciduous_ModerateAcidity",
             "type" : "CardTag",
-            "count" : 31,
+            "count" : 33,
             "name"  : {
               "zh" : "\u4E2D\u7B49\u9178\u5EA6",
               "en" : "Moderate Acidity",

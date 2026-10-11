@@ -10,41 +10,42 @@
     "en" : "Increases the quality of your flint crafts.",
     "ja" : "\u77F3\u5DE5\u306E\u30AF\u30AA\u30EA\u30C6\u30A3\u3092\u4E0A\u3052\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_FlintBlessing__CardImage"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Knapping",
-  "icon"                    : "CardData__Bp_FlintBlessing__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Knapping",
+  "icon"                        : "CardData__Bp_FlintBlessing__CardImage",
+  "name"                        : {
     "zh" : "\u77F3\u5DE5",
     "en" : "Knapping",
     "ja" : "\u77F3\u5DE5\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_FlintHoe",
@@ -378,7 +379,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_FlintMine",
@@ -402,5 +403,5 @@
       }
     }
   ],
-  "_uuid"                   : "9b4f4de406e0eed4cbc05f767a359dbf"
+  "_uuid"                       : "9b4f4de406e0eed4cbc05f767a359dbf"
 }

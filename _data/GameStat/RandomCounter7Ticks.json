@@ -10,15 +10,16 @@
     "en" : "Used for triggering things in random times inside a 7 lenght interval. Goes from 1 to 7 and repeats. its important that its value is not a divider of 96 otherwise it will have same values on same hours through the day. ",
     "ja" : "Used for triggering things in random times inside a 7 lenght interval. Goes from 1 to 7 and repeats. its important that its value is not a divider of 96 otherwise it will have same values on same hours through the day. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 7.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Reset when 7",
@@ -56,22 +57,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "RandomCounter7Ticks",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "RandomCounter7Ticks",
+  "name"                        : {
     "zh" : "\u968F\u673A7\u523B\u8BA1\u6570",
     "en" : "RandomCounter7Ticks",
     "ja" : "RandomCounter7Ticks"
   },
-  "min"                     : 0.0,
-  "max"                     : 7.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 7.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "RandomCounter7Ticks",
@@ -95,5 +96,5 @@
       }
     }
   ],
-  "_uuid"                   : "c0def3e0a81e21a44b594e770e3132eb"
+  "_uuid"                       : "c0def3e0a81e21a44b594e770e3132eb"
 }

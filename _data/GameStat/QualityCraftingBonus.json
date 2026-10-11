@@ -10,30 +10,31 @@
     "en" : "Used for adding usage, sharpness and other similar stats based on quality of the crafted tool made from copper and other similar materials which scale their durabilities based on their quality at the tool creation or sharpening time. ",
     "ja" : "Used for adding usage, sharpness and other similar stats based on quality of the crafted tool made from copper and other similar materials which scale their durabilities based on their quality at the tool creation or sharpening time. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "QualityCraftingBonus",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "QualityCraftingBonus",
+  "name"                        : {
     "zh" : "\u54C1\u8D28\u5236\u4F5C\u52A0\u6210",
     "en" : "Quality Bonus",
     "ja" : "Quality Bonus"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Blank_MetalArrowBroadhead",
@@ -2763,5 +2764,5 @@
       }
     }
   ],
-  "_uuid"                   : "662fb9a05df783f4ca42c3baf81a6fe6"
+  "_uuid"                       : "662fb9a05df783f4ca42c3baf81a6fe6"
 }

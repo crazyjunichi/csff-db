@@ -1809,6 +1809,29 @@
     },
     {
       "source" : {
+        "key" : "Paranoia",
+        "type" : "GameStat",
+        "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u504F\u6267",
+          "en" : "Paranoia",
+          "ja" : "Paranoia"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASevere Paranoia",
+        "en" : "Status Stage: Severe Paranoia",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASevere Paranoia"
+      },
+      "value"       : {
+        "x" : 1.5,
+        "y" : 1.5
+      }
+    },
+    {
+      "source" : {
         "key" : "Derealization",
         "type" : "GameStat",
         "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
@@ -2770,6 +2793,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "Summoning Ritual",
+          "en" : "Summoning Ritual",
+          "ja" : "Summoning Ritual"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_Appeasement",
         "type" : "CardData",
         "CardType" : 7,
@@ -3144,6 +3189,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_CraftHeartSpiritCalling_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit Calling",
+          "ja" : "Craft-Heart Spirit Calling"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_CurseGrove",
         "type" : "CardData",
         "CardType" : 7,
@@ -3249,6 +3316,28 @@
       },
       "value"       : {
         "x" : 150.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_DuckEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u9644\u9B54",
+          "en" : "Duck Enchantment",
+          "ja" : "Duck Enchantment"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 50.0,
         "y" : 1000000000.0
       }
     },
@@ -4244,6 +4333,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_StalkerSpiritCalling",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit Calling",
+          "ja" : "Stalker Spirit Calling"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_StoneFriendRitual",
         "type" : "CardData",
         "CardType" : 7,
@@ -4750,10 +4861,32 @@
     },
     {
       "source" : {
+        "key" : "Carcass_DuckCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E2D\u5B50",
+          "en" : "Dead Duck",
+          "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -6352,50 +6485,6 @@
     },
     {
       "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
-      },
-      "value"       : {
-        "x" : 51.0,
-        "y" : 300.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
-      },
-      "value"       : {
-        "x" : 51.0,
-        "y" : 300.0
-      }
-    },
-    {
-      "source" : {
         "key" : "Pond",
         "type" : "CardData",
         "CardType" : 2,
@@ -7056,6 +7145,94 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABestial Resilience",
+        "en" : "Action: Bestial Resilience",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABestial Resilience"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABless",
+        "en" : "Action: Bless",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABless"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6DB2\u4F53\u901F\u7387 -100\uFF08\u7CBE\u9B44\u4E13\u6CE8\uFF1A\u5FC3\u5883\u4F4E\u843D\u65F6\uFF09",
+        "en" : "Passive Effect: Liquid Rate -100 : tag_SpiritFocus - when low Mind State",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALiquid Rate -100 : tag_SpiritFocus - when low Mind State"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 49.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritDarkness",
         "type" : "CardData",
         "CardType" : 9,
@@ -7152,6 +7329,28 @@
           "zh" : "\u9E7F\u7CBE\u9B44",
           "en" : "Deer Spirit",
           "ja" : "\u9E7F\u306E\u7CBE\u970A"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6DB2\u4F53\u901F\u7387 -100\uFF08\u7CBE\u9B44\u4E13\u6CE8\uFF1A\u5FC3\u5883\u4F4E\u843D\u65F6\uFF09",
+        "en" : "Passive Effect: Liquid Rate -100 : tag_SpiritFocus - when low Mind State",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALiquid Rate -100 : tag_SpiritFocus - when low Mind State"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 49.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_SpiritDuck",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Duck1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u7CBE\u9B44",
+          "en" : "Duck Spirit",
+          "ja" : "Duck Spirit"
         }
       },
       "description" : {
@@ -8310,6 +8509,50 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritStalker",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit",
+          "ja" : "Stalker Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_SpiritStalker",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit",
+          "ja" : "Stalker Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6DB2\u4F53\u901F\u7387 -100\uFF08\u7CBE\u9B44\u4E13\u6CE8\uFF1A\u5FC3\u5883\u4F4E\u843D\u65F6\uFF09",
+        "en" : "Passive Effect: Liquid Rate -100 : tag_SpiritFocus - when low Mind State",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ALiquid Rate -100 : tag_SpiritFocus - when low Mind State"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 49.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritSturgeon",
         "type" : "CardData",
         "CardType" : 9,
@@ -8714,6 +8957,28 @@
           "zh" : "\u91CE\u732A\u7CBE\u9B44",
           "en" : "Boar Spirit",
           "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u7CBE\u970A"
+        }
+      },
+      "description" : {
+        "zh" : "\u6DB2\u4F53\u7ED9\u4E88",
+        "en" : "Give Liquid",
+        "ja" : "\u6DB2\u4F53\u4ED8\u4E0E"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Spirit_Craftheart",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
         }
       },
       "description" : {
@@ -9168,6 +9433,28 @@
     },
     {
       "source" : {
+        "key" : "Spirit_Stalker",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Spirit_Stalker__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit",
+          "ja" : "Stalker Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u6DB2\u4F53\u7ED9\u4E88",
+        "en" : "Give Liquid",
+        "ja" : "\u6DB2\u4F53\u4ED8\u4E0E"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Spirit_Sturgeon",
         "type" : "CardData",
         "CardType" : 0,
@@ -9358,6 +9645,68 @@
       "value"       : {
         "x" : 0.0,
         "y" : 240.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Agent_CraftHeart",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u52A8\u4F5C",
+        "en" : "NPC Action",
+        "ja" : "NPC\u30A2\u30AF\u30B7\u30E7\u30F3"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 300.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Agent_CraftHeart",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u52A8\u4F5C",
+        "en" : "NPC Action",
+        "ja" : "NPC\u30A2\u30AF\u30B7\u30E7\u30F3"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 300.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Dialogue_AgentCraftHeartAproach",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "You approach the Craft-Heart.",
+          "en" : "You approach the Craft-Heart.",
+          "ja" : "You approach the Craft-Heart."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD\u6761\u4EF6",
+        "en" : "Dialog Condition",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0\u6761\u4EF6"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 1000000000.0
       }
     },
     {

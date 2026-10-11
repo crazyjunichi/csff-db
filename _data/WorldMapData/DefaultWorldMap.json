@@ -31,9 +31,9 @@
             "CardType" : 2,
             "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
             "name"     : {
-              "zh" : "\u51FA\u53E3",
+              "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
               "en" : "Exit (Open)",
-              "ja" : "\u51FA\u53E3"
+              "ja" : "Exit (Open)"
             }
           },
           "InitialPathCost" : 1.0,
@@ -89,9 +89,9 @@
             "CardType" : 2,
             "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
             "name"     : {
-              "zh" : "\u51FA\u53E3",
+              "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
               "en" : "Exit (Open)",
-              "ja" : "\u51FA\u53E3"
+              "ja" : "Exit (Open)"
             }
           },
           "InitialPathCost" : 1.0,
@@ -147,9 +147,9 @@
             "CardType" : 2,
             "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
             "name"     : {
-              "zh" : "\u51FA\u53E3",
+              "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
               "en" : "Exit (Open)",
-              "ja" : "\u51FA\u53E3"
+              "ja" : "Exit (Open)"
             }
           },
           "InitialPathCost" : 1.0,
@@ -205,9 +205,9 @@
             "CardType" : 2,
             "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
             "name"     : {
-              "zh" : "\u51FA\u53E3",
+              "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
               "en" : "Exit (Open)",
-              "ja" : "\u51FA\u53E3"
+              "ja" : "Exit (Open)"
             }
           },
           "InitialPathCost" : 1.0,
@@ -263,9 +263,9 @@
             "CardType" : 2,
             "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
             "name"     : {
-              "zh" : "\u51FA\u53E3",
+              "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
               "en" : "Exit (Open)",
-              "ja" : "\u51FA\u53E3"
+              "ja" : "Exit (Open)"
             }
           },
           "InitialPathCost" : 1.0,
@@ -355,9 +355,9 @@
             "CardType" : 2,
             "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
             "name"     : {
-              "zh" : "\u51FA\u53E3",
+              "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
               "en" : "Exit (Open)",
-              "ja" : "\u51FA\u53E3"
+              "ja" : "Exit (Open)"
             }
           },
           "InitialPathCost" : 1.0,
@@ -1271,6 +1271,81 @@
     {
       "Environment" : {
         "MainEnvCard" : {
+          "key" : "Env_ClearingOak_SacredGlade",
+          "type" : "CardData",
+          "CardType" : 4,
+          "name"     : {
+            "zh" : "\u795E\u5723\u7A7A\u5730",
+            "en" : "Sacred Glade",
+            "ja" : "Sacred Glade"
+          }
+        }
+      },
+      "ConnectedEnvironments" : [
+        {
+          "PathCard" : {
+            "key" : "ClearingOak_SacredGlade",
+            "type" : "CardData",
+            "CardType" : 8,
+            "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+            "name"     : {
+              "zh" : "\u795E\u5723\u7A7A\u5730",
+              "en" : "Sacred Glade",
+              "ja" : "Sacred Glade"
+            }
+          },
+          "InitialPathCost" : 10.0,
+          "TravelDirection" : {
+            "x" : 0,
+            "y" : 0,
+            "z" : 1,
+            "w" : 0
+          },
+          "ConnectsTo"      : {
+            "MainEnvCard" : {
+              "key" : "Env_ThicketOak_LostWoods",
+              "type" : "CardData",
+              "CardType" : 4,
+              "name"     : {
+                "zh" : "\u8FF7\u6797\u5E7D\u5F84",
+                "en" : "Lost Woods",
+                "ja" : "\u8FF7\u3044\u306E\u68EE"
+              }
+            }
+          },
+          "ConditionsCount" : 0,
+          "TravelActionTags" : [
+            {
+              "key" : "LegAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u817F\u90E8\u52A8\u4F5C",
+                "en" : "LegAction",
+                "ja" : "LegAction"
+              }
+            },
+            {
+              "key" : "TravelAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u65C5\u884C\u52A8\u4F5C",
+                "en" : "TravelAction",
+                "ja" : "TravelAction"
+              }
+            }
+          ]
+        }
+      ],
+      "Coords"                : {
+        "x" : -60,
+        "y" : 0,
+        "z" : 10,
+        "w" : 0
+      }
+    },
+    {
+      "Environment" : {
+        "MainEnvCard" : {
           "key" : "Env_ClearingPine_BadgerHillQEE",
           "type" : "CardData",
           "CardType" : 4,
@@ -1449,7 +1524,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -1643,7 +1718,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-12-Icon"
       }
     },
     {
@@ -2080,7 +2155,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -2326,7 +2401,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -2510,7 +2585,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -2747,7 +2822,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -2985,7 +3060,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -8347,6 +8422,135 @@
     {
       "Environment" : {
         "MainEnvCard" : {
+          "key" : "Env_GroveOak_TrickstersGrove",
+          "type" : "CardData",
+          "CardType" : 4,
+          "name"     : {
+            "zh" : "\u8BE1\u672F\u6A61\u6797",
+            "en" : "Trickster's Grove",
+            "ja" : "Trickster's Grove"
+          }
+        }
+      },
+      "ConnectedEnvironments" : [
+        {
+          "PathCard" : {
+            "key" : "GroveOak_TrickstersGrove",
+            "type" : "CardData",
+            "CardType" : 8,
+            "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+            "name"     : {
+              "zh" : "\u8BE1\u672F\u6A61\u6797",
+              "en" : "Trickster's Grove",
+              "ja" : "Trickster's Grove"
+            }
+          },
+          "InitialPathCost" : 10.0,
+          "TravelDirection" : {
+            "x" : 1,
+            "y" : 0,
+            "z" : 0,
+            "w" : 0
+          },
+          "ConnectsTo"      : {
+            "MainEnvCard" : {
+              "key" : "Env_GroveOak_PrimevalWoods",
+              "type" : "CardData",
+              "CardType" : 4,
+              "icon"     : "CardData__Env_GroveOak_PrimevalWoods__CardImage",
+              "name"     : {
+                "zh" : "\u539F\u521D\u68EE\u6797",
+                "en" : "Primeval Woods",
+                "ja" : "\u592A\u53E4\u306E\u68EE"
+              }
+            }
+          },
+          "ConditionsCount" : 0,
+          "TravelActionTags" : [
+            {
+              "key" : "LegAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u817F\u90E8\u52A8\u4F5C",
+                "en" : "LegAction",
+                "ja" : "LegAction"
+              }
+            },
+            {
+              "key" : "TravelAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u65C5\u884C\u52A8\u4F5C",
+                "en" : "TravelAction",
+                "ja" : "TravelAction"
+              }
+            }
+          ]
+        },
+        {
+          "PathCard" : {
+            "key" : "GroveOak_TrickstersGrove",
+            "type" : "CardData",
+            "CardType" : 8,
+            "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+            "name"     : {
+              "zh" : "\u8BE1\u672F\u6A61\u6797",
+              "en" : "Trickster's Grove",
+              "ja" : "Trickster's Grove"
+            }
+          },
+          "InitialPathCost" : 10.0,
+          "TravelDirection" : {
+            "x" : 0,
+            "y" : 0,
+            "z" : -1,
+            "w" : 0
+          },
+          "ConnectsTo"      : {
+            "MainEnvCard" : {
+              "key" : "Env_ThicketOak_LostWoods",
+              "type" : "CardData",
+              "CardType" : 4,
+              "name"     : {
+                "zh" : "\u8FF7\u6797\u5E7D\u5F84",
+                "en" : "Lost Woods",
+                "ja" : "\u8FF7\u3044\u306E\u68EE"
+              }
+            }
+          },
+          "ConditionsCount" : 0,
+          "TravelActionTags" : [
+            {
+              "key" : "LegAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u817F\u90E8\u52A8\u4F5C",
+                "en" : "LegAction",
+                "ja" : "LegAction"
+              }
+            },
+            {
+              "key" : "TravelAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u65C5\u884C\u52A8\u4F5C",
+                "en" : "TravelAction",
+                "ja" : "TravelAction"
+              }
+            }
+          ]
+        }
+      ],
+      "Coords"                : {
+        "x" : -50,
+        "y" : 0,
+        "z" : 50,
+        "w" : 1
+      }
+    },
+    {
+      "Environment" : {
+        "MainEnvCard" : {
           "key" : "Env_GrovePine_CrowPinesQ",
           "type" : "CardData",
           "CardType" : 4,
@@ -8569,7 +8773,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -8762,7 +8966,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-12-Icon"
       }
     },
     {
@@ -9018,7 +9222,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -9282,7 +9486,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -9546,7 +9750,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -9730,7 +9934,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -9967,7 +10171,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -10195,7 +10399,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -10490,7 +10694,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -10737,7 +10941,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -10975,7 +11179,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-64-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-66-Icon"
       }
     },
     {
@@ -11394,7 +11598,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -11543,7 +11747,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -11674,7 +11878,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -11814,7 +12018,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -12052,7 +12256,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -12289,7 +12493,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -13249,7 +13453,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-12-Icon"
       }
     },
     {
@@ -13816,7 +14020,7 @@
             "key" : "River_ClearingOak_RiverClearing",
             "type" : "CardData",
             "CardType" : 8,
-            "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+            "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
             "name"     : {
               "zh" : "\u6CB3\u7554\u6797\u9699",
               "en" : "River Clearing",
@@ -13887,7 +14091,7 @@
             "key" : "River_ClearingOak_RiverClearing",
             "type" : "CardData",
             "CardType" : 8,
-            "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+            "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
             "name"     : {
               "zh" : "\u6CB3\u7554\u6797\u9699",
               "en" : "River Clearing",
@@ -13958,7 +14162,7 @@
             "key" : "River_ClearingOak_RiverClearing",
             "type" : "CardData",
             "CardType" : 8,
-            "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+            "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
             "name"     : {
               "zh" : "\u6CB3\u7554\u6797\u9699",
               "en" : "River Clearing",
@@ -14065,7 +14269,7 @@
         }
       ],
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -14205,7 +14409,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-82-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-84-Icon"
       }
     },
     {
@@ -14372,7 +14576,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -14530,7 +14734,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -14760,7 +14964,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -14998,7 +15202,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -15200,7 +15404,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-87-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-89-Icon"
       }
     },
     {
@@ -15429,7 +15633,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -15516,7 +15720,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-89-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-91-Icon"
       }
     },
     {
@@ -15718,7 +15922,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-82-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-84-Icon"
       }
     },
     {
@@ -15937,7 +16141,7 @@
         }
       ],
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -16119,7 +16323,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -16303,7 +16507,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -16567,7 +16771,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-82-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-84-Icon"
       }
     },
     {
@@ -16734,7 +16938,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -16884,7 +17088,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-12-Icon"
       }
     },
     {
@@ -16906,7 +17110,7 @@
             "key" : "River_ThicketOak_MuddyBank",
             "type" : "CardData",
             "CardType" : 8,
-            "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+            "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
             "name"     : {
               "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
               "en" : "Muddy Bank",
@@ -16977,7 +17181,7 @@
             "key" : "River_ThicketOak_MuddyBank",
             "type" : "CardData",
             "CardType" : 8,
-            "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+            "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
             "name"     : {
               "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
               "en" : "Muddy Bank",
@@ -17048,7 +17252,7 @@
             "key" : "River_ThicketOak_MuddyBank",
             "type" : "CardData",
             "CardType" : 8,
-            "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+            "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
             "name"     : {
               "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
               "en" : "Muddy Bank",
@@ -17113,7 +17317,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -17135,7 +17339,7 @@
             "key" : "River_ThicketOak_RiverConfluence",
             "type" : "CardData",
             "CardType" : 8,
-            "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+            "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
             "name"     : {
               "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
               "en" : "River Confluence",
@@ -17206,7 +17410,7 @@
             "key" : "River_ThicketOak_RiverConfluence",
             "type" : "CardData",
             "CardType" : 8,
-            "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+            "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
             "name"     : {
               "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
               "en" : "River Confluence",
@@ -17277,7 +17481,7 @@
             "key" : "River_ThicketOak_RiverConfluence",
             "type" : "CardData",
             "CardType" : 8,
-            "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+            "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
             "name"     : {
               "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
               "en" : "River Confluence",
@@ -17342,7 +17546,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -17571,7 +17775,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -17772,7 +17976,7 @@
         }
       ],
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-81-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-83-Icon"
       }
     },
     {
@@ -20058,7 +20262,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -20406,7 +20610,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -20609,7 +20813,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -20855,7 +21059,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -21092,7 +21296,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -21520,7 +21724,7 @@
         "w" : 0
       },
       "Icon"                  : {
-        "FileName" : "WorldMapData__DefaultWorldMap__Environments-10-Icon"
+        "FileName" : "WorldMapData__DefaultWorldMap__Environments-11-Icon"
       }
     },
     {
@@ -21544,9 +21748,9 @@
             "CardType" : 2,
             "icon"     : "CardData__Event_WaterfallCave__CardImage",
             "name"     : {
-              "zh" : "\u51FA\u53E3",
+              "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
               "en" : "Exit (Open)",
-              "ja" : "\u51FA\u53E3"
+              "ja" : "Exit (Open)"
             }
           },
           "InitialPathCost" : 1.0,
@@ -21599,9 +21803,9 @@
             "CardType" : 2,
             "icon"     : "CardData__Env_DeathCrack_EntranceTunnel__CardImage",
             "name"     : {
-              "zh" : "\u51FA\u53E3",
+              "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
               "en" : "Exit (Open)",
-              "ja" : "\u51FA\u53E3"
+              "ja" : "Exit (Open)"
             }
           },
           "InitialPathCost" : 1.0,

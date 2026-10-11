@@ -10,30 +10,31 @@
     "en" : "Raises your stress levels if not satisfied.\nCan be satisfied by being in areas with mosquitos, by eating leeches, blood sausages and blood curds or drinking blood. ",
     "ja" : "Raises your stress levels if not satisfied.\nCan be satisfied by being in areas with mosquitos, by eating leeches, blood sausages and blood curds or drinking blood. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BloodLoss__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u55E1\u9E23\u5BE1\u5987\u672C\u80FD",
@@ -155,23 +156,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HummingWidowUrge",
-  "icon"                    : "GameStat__BloodLoss__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HummingWidowUrge",
+  "icon"                        : "GameStat__BloodLoss__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u55E1\u9E23\u5BE1\u5987\u672C\u80FD",
     "en" : "Humming Widow Urge",
     "ja" : "Humming Widow Urge"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_HummingWidowEnchantment",
@@ -591,7 +592,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LQ_SpiritHummingWidow",
@@ -753,5 +754,5 @@
       }
     }
   ],
-  "_uuid"                   : "8196fef4e4c3bb94da61f09309f80724"
+  "_uuid"                       : "8196fef4e4c3bb94da61f09309f80724"
 }

@@ -136,7 +136,12 @@
   "PassiveEffects"              : [
     {
       "EffectName" : "Insulation Reduction",
-      "StatModifiers" : [
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0
+      },
+      "StatModifiers"   : [
         {
           "Stat" : {
             "key" : "TemperaturePerceived",
@@ -167,7 +172,12 @@
     },
     {
       "EffectName" : "Cabin Fever Reduction",
-      "StatModifiers" : [
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0
+      },
+      "StatModifiers"   : [
         {
           "Stat" : {
             "key" : "CabinFever",

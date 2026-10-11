@@ -10,30 +10,31 @@
     "en" : "Counter used to fulfill the Rest Objective: : ClickOnYourStaminaStatAndClickOnTheRestButton. Increased when you Rest trough the Stamina  Stat. ",
     "ja" : "Counter used to fulfill the Rest Objective: : ClickOnYourStaminaStatAndClickOnTheRestButton. Increased when you Rest trough the Stamina  Stat. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "ClickOnYourStaminaStatAndClickOnTheRestButton",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "ClickOnYourStaminaStatAndClickOnTheRestButton",
+  "name"                        : {
     "zh" : "\u70B9\u51FB\u4F53\u529B\u5E76\u4F11\u606F",
     "en" : "ClickOnYourStaminaStatAndClickOnTheRestButton",
     "ja" : "ClickOnYourStaminaStatAndClickOnTheRestButton"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Stamina",
@@ -58,5 +59,5 @@
       }
     }
   ],
-  "_uuid"                   : "ffe3fcf412e16dc4f9c72944f7cf9d7f"
+  "_uuid"                       : "ffe3fcf412e16dc4f9c72944f7cf9d7f"
 }

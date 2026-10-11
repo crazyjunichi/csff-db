@@ -6,31 +6,32 @@
     "ja" : "Dispel Swarms"
   },
   "IsRuntimeOnly" : true,
-  "BaseValue"     : 0.0,
-  "MinMaxValue"   : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "StatusesHaveNoBar" : true,
-  "BarColor"          : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "StatusesHaveNoBar"           : true,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BugRepellentApplied__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u9A71\u6563\u866B\u7FA4",
@@ -77,23 +78,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HummingWidowDispelSwarms",
-  "icon"                    : "GameStat__BugRepellentApplied__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HummingWidowDispelSwarms",
+  "icon"                        : "GameStat__BugRepellentApplied__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u9A71\u6563\u866B\u7FA4",
     "en" : "Dispel Swarms",
     "ja" : "Dispel Swarms"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "LQ_SpiritHummingWidow",
@@ -117,5 +118,5 @@
       }
     }
   ],
-  "_uuid"                   : "753eaa7eae3c1994aa637ffa931de069"
+  "_uuid"                       : "753eaa7eae3c1994aa637ffa931de069"
 }

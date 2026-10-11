@@ -6,10 +6,25 @@
     "ja" : "Bee Skep"
   },
   "CardDescription" : {
-    "zh" : "An artificial beehive. I should feed it sugar with water to help it grow.",
-    "en" : "An artificial beehive. I should feed it sugar with water to help it grow.",
-    "ja" : "An artificial beehive. I should feed it sugar with water to help it grow."
+    "zh" : "An artificial beehive. Should make sure it has enough honey or honeywater to help it grow.\n\nWill produce honey during spring and summer provided there are enough flowers in the area.",
+    "en" : "An artificial beehive. Should make sure it has enough honey or honeywater to help it grow.\n\nWill produce honey during spring and summer provided there are enough flowers in the area.",
+    "ja" : "An artificial beehive. Should make sure it has enough honey or honeywater to help it grow.\n\nWill produce honey during spring and summer provided there are enough flowers in the area."
   },
+  "AlternateNames"  : [
+    {
+      "Conditions" : {
+        "UsageRange" : {
+          "x" : 1344.0,
+          "y" : 1344.0
+        }
+      },
+      "Name"       : {
+        "zh" : "Swarming Bee Skep",
+        "en" : "Swarming Bee Skep",
+        "ja" : "Swarming Bee Skep"
+      }
+    }
+  ],
   "CardImage"       : {
     "FileName" : "CardData__BeeSkep__CardImage"
   },
@@ -19,6 +34,7 @@
   "TradingValue"                : 0.0,
   "MapStructureType"            : 0,
   "FlavourFadeRate"             : 0.0,
+  "AlwaysUpdate"                : true,
   "CanBeTrashed"                : true,
   "DoesNotPile"                 : true,
   "SpoilageTime"                : {
@@ -99,7 +115,7 @@
           "key" : "BeeSkepEmpty",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__BeeSkepEmpty__CardImage",
+          "icon"     : "CardData__BeeSkep__CardImage",
           "name"     : {
             "zh" : "Bee Skep",
             "en" : "Bee Skep",
@@ -113,7 +129,6 @@
       "RoomDirection"        : 0,
       "ExitDirection"        : 0
     },
-    "HasActionOnFull"       : true,
     "OnFullNotification"    : 1,
     "OnFull"                : {
       "ActionDescription" : {
@@ -126,10 +141,9 @@
       "ReceivingCardChanges" : {
         "ModType" : 2,
         "TransformInto" : {
-          "key" : "BeeSkepSwarming",
+          "key" : "NOT_USED_BeeSkepSwarming",
           "type" : "CardData",
           "CardType" : 2,
-          "icon"     : "CardData__BeeSkepSwarming__CardImage",
           "name"     : {
             "zh" : "Swarming Bee Skep",
             "en" : "Swarming Bee Skep",
@@ -150,6 +164,30 @@
     "FloatValue"            : 336.0,
     "Active"                : true,
     "durabilityKey"         : "UsageDurability",
+    "_valueModifications"   : [
+      {
+        "source" : {
+          "key" : "BeeSkep",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BeeSkep__CardImage",
+          "name"     : {
+            "zh" : "Bee Skep",
+            "en" : "Bee Skep",
+            "ja" : "Bee Skep"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1ATrap Bees",
+          "en" : "Action: Trap Bees",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATrap Bees"
+        },
+        "value"       : {
+          "x" : -672.0,
+          "y" : -672.0
+        }
+      }
+    ],
     "_rateModifications"    : [
       {
         "source" : {
@@ -250,15 +288,12 @@
       "ja" : "Honey"
     },
     "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 1000.0,
-    "RatePerDaytimePoint"  : 0.1,
+    "MaxValue"             : 2880.0,
+    "RatePerDaytimePoint"  : 0.0,
     "ExtraRateWhenEquipped" : 0.0,
     "HidingOptions"         : 0,
     "TextDisplay"           : 0,
     "NumberPrecision"       : 0,
-    "OverrideIcon"          : {
-      "FileName" : "CardData__BeeHoneycomb__CardImage"
-    },
     "OnZeroNotification"    : 0,
     "OnFullNotification"    : 0,
     "FloatValue"            : 0.0,
@@ -283,56 +318,12 @@
           "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHarvest"
         },
         "value"       : {
-          "x" : -500.0,
-          "y" : -500.0
+          "x" : -480.0,
+          "y" : -480.0
         }
       }
     ],
     "_rateModifications"    : [
-      {
-        "source" : {
-          "key" : "BeeSkep",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__BeeSkep__CardImage",
-          "name"     : {
-            "zh" : "Bee Skep",
-            "en" : "Bee Skep",
-            "ja" : "Bee Skep"
-          }
-        },
-        "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u4EA7\u871C",
-          "en" : "Passive Effect\uFF1AMake Honey",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AMake Honey"
-        },
-        "value"       : {
-          "x" : 0.1,
-          "y" : 0.1
-        }
-      },
-      {
-        "source" : {
-          "key" : "BeeSkep",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__BeeSkep__CardImage",
-          "name"     : {
-            "zh" : "Bee Skep",
-            "en" : "Bee Skep",
-            "ja" : "Bee Skep"
-          }
-        },
-        "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AHoney Enviromental Boost",
-          "en" : "Passive Effect\uFF1AHoney Enviromental Boost",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHoney Enviromental Boost"
-        },
-        "value"       : {
-          "x" : 0.5,
-          "y" : 0.5
-        }
-      },
       {
         "source" : {
           "key" : "BeeSkep",
@@ -351,30 +342,184 @@
           "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AEat Honey"
         },
         "value"       : {
-          "x" : -1.0,
-          "y" : -1.0
+          "x" : -0.05,
+          "y" : -0.05
         }
       },
       {
         "source" : {
-          "key" : "BeeSkep",
+          "key" : "CloverFieldMature",
           "type" : "CardData",
           "CardType" : 2,
-          "icon"     : "CardData__BeeSkep__CardImage",
+          "icon"     : "CardData__Bp_CloverField__CardImage",
           "name"     : {
-            "zh" : "Bee Skep",
-            "en" : "Bee Skep",
-            "ja" : "Bee Skep"
+            "zh" : "\u4E09\u53F6\u8349\u7530",
+            "en" : "Clover Field",
+            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u7551"
           }
         },
         "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u8702\u7FA4\u7ADE\u4E89",
-          "en" : "Passive Effect\uFF1AHive Competition",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHive Competition"
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
         },
         "value"       : {
-          "x" : -0.5,
-          "y" : -0.5
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "FlaxFieldMature",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_FlaxField__CardImage",
+          "name"     : {
+            "zh" : "\u6210\u719F\u7684\u4E9A\u9EBB\u7530",
+            "en" : "Mature Flax Field",
+            "ja" : "\u6210\u719F\u3057\u305F\u4E9C\u9EBB\u7551"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "HeatherFieldMature",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_BlessGrove__CardImage",
+          "name"     : {
+            "zh" : "\u6210\u719F\u7684\u5E1A\u77F3\u5357\u7530",
+            "en" : "Mature Heather Field",
+            "ja" : "\u6210\u9577\u3057\u305F\u30D8\u30B6\u30FC\u7551"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "TurnrootFieldMature",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BlessedGroveInvisible__CardImage",
+          "name"     : {
+            "zh" : "\u6210\u719F\u7684\u7FFB\u6839\u7530",
+            "en" : "Mature Turnroot Field",
+            "ja" : "\u6210\u9577\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8\u7551"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CloverPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_CloverField__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
+            "en" : "Clover Patch",
+            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "HeatherPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_BlessGrove__CardImage",
+          "name"     : {
+            "zh" : "\u5E1A\u77F3\u5357\u4E1B",
+            "en" : "Heather Patch",
+            "ja" : "\u30D8\u30B6\u30FC\u7551"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "KingcupPatchWild",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KingcupPatchWild__CardImage",
+          "name"     : {
+            "zh" : "\u9A74\u8E44\u8349\u4E1B",
+            "en" : "Kingcup Patch",
+            "ja" : "Kingcup Patch"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "WoodSorrelPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__WoodSorrelPatch__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u9162\u6D46\u8349",
+            "en" : "Wood Sorrel Patch",
+            "ja" : "\u30B9\u30A4\u30D0\u306E\u7FA4\u751F\u5730"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
         }
       }
     ]
@@ -437,10 +582,20 @@
       "CompatibleCards" : {
         "TriggerCards" : [
           {
+            "key" : "TorchOn",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "CardData__Bp_Torch__CardImage",
+            "name"     : {
+              "zh" : "\u70B9\u71C3\u7684\u706B\u70AC",
+              "en" : "Lit Torch",
+              "ja" : "\u305F\u3044\u307E\u3064"
+            }
+          },
+          {
             "key" : "BeeSmokerOn",
             "type" : "CardData",
             "CardType" : 0,
-            "icon"     : "CardData__BeeSmokerOn__CardImage",
             "name"     : {
               "zh" : "Bee Smoker",
               "en" : "Bee Smoker",
@@ -548,6 +703,309 @@
       },
       "RoomDirection"                 : 0,
       "ExitDirection"                 : 0
+    },
+    {
+      "RequiredGivenLiquidContent" : {
+        "RequiredLiquid" : {
+          "key" : "NOT_USED_LQ_SugarWater",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+          "name"     : {
+            "zh" : "Sugar Water",
+            "en" : "Sugar Water",
+            "ja" : "Sugar Water"
+          }
+        },
+        "RequiredQuantity" : {
+          "x" : 1.0,
+          "y" : 0.0
+        }
+      },
+      "GivenCardChanges"           : {
+        "ModType" : 0,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 1,
+        "LiquidQuantityChange"      : {
+          "x" : -300.0,
+          "y" : -300.0
+        }
+      },
+      "CompatibleCards"            : {
+        "TriggerCards" : [
+          {
+            "key" : "Basket",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "CardData__Basket__CardImage",
+            "name"     : {
+              "zh" : "\u7F16\u7EC7\u7BD3",
+              "en" : "Basket",
+              "ja" : "\u30AB\u30B4"
+            }
+          }
+        ]
+      },
+      "ActionName"                 : {
+        "zh" : "Trap Bees",
+        "en" : "Trap Bees",
+        "ja" : "Trap Bees"
+      },
+      "DaytimeCost"                : 1,
+      "UseMiniTicks"               : 0,
+      "RequiredReceivingDurabilities" : {
+        "RequiredSpoilagePercent" : {
+          "MaxValue" : 1.0,
+          "FloatValue" : 0.1,
+          "Active"     : true
+        },
+        "RequiredUsagePercent"    : {
+          "MaxValue" : 1.0,
+          "FloatValue" : 1.0,
+          "Active"     : true
+        },
+        "RequiredLiquidQuantity"  : 0.0,
+        "HideActionIfNotMet"      : true
+      },
+      "ProducedCards"                 : [
+        {
+          "CollectionName" : "Protected",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "QueenBee",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__BeeStings__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "Queen Bee",
+                  "en" : "Queen Bee",
+                  "ja" : "Queen Bee"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Bees",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bees__CardImage",
+                "name"     : {
+                  "zh" : "Bees",
+                  "en" : "Bees",
+                  "ja" : "Bees"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "ReceivingCardChanges"          : {
+        "ModType" : 1,
+        "TransformInto" : {
+          "key" : "BeeSkep",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BeeSkep__CardImage",
+          "name"     : {
+            "zh" : "Bee Skep",
+            "en" : "Bee Skep",
+            "ja" : "Bee Skep"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "TransferSpoilage"          : true,
+        "TransferUsage"             : true,
+        "TransferFuel"              : true,
+        "TransferCharges"           : true,
+        "ModifyDurability"          : true,
+        "LiquidEffectScaling"       : 0,
+        "UsageChange"               : {
+          "x" : -672.0,
+          "y" : -672.0
+        }
+      },
+      "RoomDirection"                 : 0,
+      "ExitDirection"                 : 0
+    },
+    {
+      "RequiredGivenLiquidContent" : {
+        "RequiredLiquid" : {
+          "key" : "NOT_USED_LQ_SugarWater",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+          "name"     : {
+            "zh" : "Sugar Water",
+            "en" : "Sugar Water",
+            "ja" : "Sugar Water"
+          }
+        },
+        "RequiredQuantity" : {
+          "x" : 1.0,
+          "y" : 0.0
+        }
+      },
+      "GivenCardChanges"           : {
+        "ModType" : 0,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 1,
+        "LiquidQuantityChange"      : {
+          "x" : -300.0,
+          "y" : -300.0
+        }
+      },
+      "CompatibleCards"            : {
+        "TriggerCards" : [
+          {
+            "key" : "Basket",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "CardData__Basket__CardImage",
+            "name"     : {
+              "zh" : "\u7F16\u7EC7\u7BD3",
+              "en" : "Basket",
+              "ja" : "\u30AB\u30B4"
+            }
+          }
+        ]
+      },
+      "ActionName"                 : {
+        "zh" : "Trap Bees",
+        "en" : "Trap Bees",
+        "ja" : "Trap Bees"
+      },
+      "DaytimeCost"                : 1,
+      "UseMiniTicks"               : 0,
+      "RequiredReceivingDurabilities" : {
+        "RequiredSpoilagePercent" : {
+          "MaxValue" : 0.75,
+          "FloatValue" : 0.0
+        },
+        "RequiredUsagePercent"    : {
+          "MaxValue" : 1.0,
+          "FloatValue" : 1.0,
+          "Active"     : true
+        },
+        "RequiredLiquidQuantity"  : 0.0,
+        "HideActionIfNotMet"      : true
+      },
+      "ProducedCards"                 : [
+        {
+          "CollectionName" : "Not Protected",
+          "CollectionWeight" : 0,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "BeeProtection",
+                "type" : "GameStat",
+                "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 10.0,
+                "name" : {
+                  "zh" : "\u871C\u8702\u9632\u62A4",
+                  "en" : "Bee Protection",
+                  "ja" : "Bee Protection"
+                }
+              },
+              "InterpWeightRange" : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "WhenOutOfRange"    : 2
+            }
+          ],
+          "DroppedCards"             : [
+            {
+              "DroppedCard" : {
+                "key" : "QueenBee",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__BeeStings__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "Queen Bee",
+                  "en" : "Queen Bee",
+                  "ja" : "Queen Bee"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Bees",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bees__CardImage",
+                "name"     : {
+                  "zh" : "Bees",
+                  "en" : "Bees",
+                  "ja" : "Bees"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Event_BeesSwarming",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "CardData__Bees__CardImage",
+                "name"     : {
+                  "zh" : "A Bee Swarm!",
+                  "en" : "A Bee Swarm!",
+                  "ja" : "A Bee Swarm!"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "ReceivingCardChanges"          : {
+        "ModType" : 1,
+        "TransformInto" : {
+          "key" : "BeeSkep",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BeeSkep__CardImage",
+          "name"     : {
+            "zh" : "Bee Skep",
+            "en" : "Bee Skep",
+            "ja" : "Bee Skep"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "TransferSpoilage"          : true,
+        "TransferUsage"             : true,
+        "TransferFuel"              : true,
+        "TransferCharges"           : true,
+        "ModifyDurability"          : true,
+        "LiquidEffectScaling"       : 0,
+        "UsageChange"               : {
+          "x" : -672.0,
+          "y" : -672.0
+        }
+      },
+      "RoomDirection"                 : 0,
+      "ExitDirection"                 : 0
     }
   ],
   "DismantleActions"            : [
@@ -595,7 +1053,7 @@
         },
         "RequiredProgressPercent" : {
           "MaxValue" : 1.0,
-          "FloatValue" : 0.5,
+          "FloatValue" : 0.2,
           "Active"     : true
         },
         "RequiredLiquidQuantity"  : 0.0,
@@ -628,7 +1086,7 @@
                 "key" : "Event_BeesSwarming",
                 "type" : "CardData",
                 "CardType" : 3,
-                "icon"     : "CardData__Event_BeesSwarming__CardImage",
+                "icon"     : "CardData__Bees__CardImage",
                 "name"     : {
                   "zh" : "A Bee Swarm!",
                   "en" : "A Bee Swarm!",
@@ -666,7 +1124,7 @@
           "Stat" : {
             "key" : "BeeStings",
             "type" : "GameStat",
-            "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+            "icon" : "GameStat__BeeStings__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 192.0,
             "name" : {
@@ -686,8 +1144,8 @@
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
         "ChargesChange"             : {
-          "x" : -500.0,
-          "y" : -500.0
+          "x" : -480.0,
+          "y" : -480.0
         }
       },
       "RoomDirection"                 : 0,
@@ -737,7 +1195,7 @@
         },
         "RequiredProgressPercent" : {
           "MaxValue" : 1.0,
-          "FloatValue" : 0.5,
+          "FloatValue" : 0.2,
           "Active"     : true
         },
         "RequiredLiquidQuantity"  : 0.0,
@@ -791,7 +1249,7 @@
           "Stat" : {
             "key" : "BeeStings",
             "type" : "GameStat",
-            "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+            "icon" : "GameStat__BeeStings__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 192.0,
             "name" : {
@@ -811,8 +1269,8 @@
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
         "ChargesChange"             : {
-          "x" : -500.0,
-          "y" : -500.0
+          "x" : -480.0,
+          "y" : -480.0
         }
       },
       "RoomDirection"                 : 0,
@@ -820,73 +1278,6 @@
     }
   ],
   "PassiveEffects"              : [
-    {
-      "EffectName" : "Make Honey",
-      "Conditions" : {
-        "PlayerUsesCard" : 0,
-        "RequiredTagsOnBoard" : [
-          {
-            "key" : "tag_Flower",
-            "type" : "CardTag",
-            "count" : 0,
-            "name"  : {
-              "zh" : "\u82B1",
-              "en" : "Flower",
-              "ja" : "\u82B1"
-            }
-          }
-        ]
-      },
-      "EffectStacksWithRequiredCards" : true,
-      "OnBoardEffectCap"              : 0,
-      "UsageRateModifier"             : {
-        "FloatValue" : -2.0
-      },
-      "ConsumableChargesModifier"     : {
-        "FloatValue" : 0.1,
-        "Active"     : true
-      },
-      "LiquidRateModifier"            : 0.0,
-      "WeightCapacityModifier"        : 0.0,
-      "_EffectNameI18n"               : {
-        "zh" : "\u4EA7\u871C",
-        "en" : "Make Honey",
-        "ja" : "Make Honey"
-      }
-    },
-    {
-      "EffectName" : "Honey Enviromental Boost",
-      "Conditions" : {
-        "PlayerUsesCard" : 0,
-        "RequiredTagsOnBoard" : [
-          {
-            "key" : "tag_EnvFertile",
-            "type" : "CardTag",
-            "count" : 0,
-            "name"  : {
-              "zh" : "\u80A5\u6C83\u73AF\u5883",
-              "en" : "Fertile Environment",
-              "ja" : "\u80A5\u6C83\u306A\u74B0\u5883"
-            }
-          }
-        ]
-      },
-      "OnBoardEffectCap" : 0,
-      "UsageRateModifier" : {
-        "FloatValue" : -2.0
-      },
-      "ConsumableChargesModifier" : {
-        "FloatValue" : 0.5,
-        "Active"     : true
-      },
-      "LiquidRateModifier"        : 0.0,
-      "WeightCapacityModifier"    : 0.0,
-      "_EffectNameI18n"           : {
-        "zh" : "Honey Enviromental Boost",
-        "en" : "Honey Enviromental Boost",
-        "ja" : "Honey Enviromental Boost"
-      }
-    },
     {
       "EffectName" : "Eat Honey",
       "Conditions" : {
@@ -903,7 +1294,7 @@
         "FloatValue" : -1.0
       },
       "ConsumableChargesModifier" : {
-        "FloatValue" : -1.0,
+        "FloatValue" : -0.05,
         "Active"     : true
       },
       "LiquidRateModifier"        : 0.0,
@@ -946,41 +1337,6 @@
       }
     },
     {
-      "EffectName" : "Hive Competition",
-      "Conditions" : {
-        "PlayerUsesCard" : 0,
-        "RequiredCardsOnBoard" : [
-          {
-            "key" : "BeeSkep",
-            "type" : "CardData",
-            "CardType" : 2,
-            "icon"     : "CardData__BeeSkep__CardImage",
-            "name"     : {
-              "zh" : "Bee Skep",
-              "en" : "Bee Skep",
-              "ja" : "Bee Skep"
-            }
-          }
-        ]
-      },
-      "EffectStacksWithRequiredCards" : true,
-      "OnBoardEffectCap"              : 0,
-      "UsageRateModifier"             : {
-        "FloatValue" : -2.0
-      },
-      "ConsumableChargesModifier"     : {
-        "FloatValue" : -0.5,
-        "Active"     : true
-      },
-      "LiquidRateModifier"            : 0.0,
-      "WeightCapacityModifier"        : 0.0,
-      "_EffectNameI18n"               : {
-        "zh" : "\u8702\u7FA4\u7ADE\u4E89",
-        "en" : "Hive Competition",
-        "ja" : "Hive Competition"
-      }
-    },
-    {
       "EffectName" : "Breed More",
       "Conditions" : {
         "PlayerUsesCard" : 0,
@@ -1010,6 +1366,53 @@
         "zh" : "\u7E41\u884D",
         "en" : "Breed More",
         "ja" : "Breed More"
+      }
+    }
+  ],
+  "DurabilityTransferEffects"   : [
+    {
+      "EffectName" : "Feed from Enviroment",
+      "Targets"    : [
+        {
+          "Target" : {
+            "key" : "tag_HasFlowersForBees",
+            "type" : "CardTag",
+            "count" : 8,
+            "name"  : {
+              "zh" : "\u6709\u82B1\u4F9B\u871C\u8702",
+              "en" : "Temper",
+              "ja" : "Temper"
+            }
+          }
+        }
+      ],
+      "TargetSelection" : 0,
+      "TargetConditions" : {
+        "Special1Range" : {
+          "x" : 5.0,
+          "y" : 5760.0
+        }
+      },
+      "Transfer"         : {
+        "TakeFrom" : 32,
+        "SendTo"   : 8,
+        "TransferDirection" : 0,
+        "TransferValue"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        },
+        "DifferentReceivedValue" : {
+          "MaxValue" : 0.33,
+          "FloatValue" : 0.33
+        },
+        "ApplyLiquidScalingTo"   : 0,
+        "ApplyDurabilityScalingTo" : 0
+      },
+      "NotificationText" : 0,
+      "_EffectNameI18n"  : {
+        "zh" : "\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+        "en" : "Feed from Enviroment",
+        "ja" : "Feed from Enviroment"
       }
     }
   ],
@@ -1052,47 +1455,9 @@
   "_gotFrom"                        : [
     {
       "source" : {
-        "key" : "BeeSkepSwarming",
+        "key" : "Bp_BeeSkep",
         "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__BeeSkepSwarming__CardImage",
-        "name"     : {
-          "zh" : "Swarming Bee Skep",
-          "en" : "Swarming Bee Skep",
-          "ja" : "Swarming Bee Skep"
-        }
-      },
-      "description" : {
-        "zh" : "\u7279\u6B8A1 \u964D\u4E3A\u96F6",
-        "en" : "Special1 Depleted",
-        "ja" : "\u7279\u6B8A1 \u30BC\u30ED"
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeSkepSwarming",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__BeeSkepSwarming__CardImage",
-        "name"     : {
-          "zh" : "Swarming Bee Skep",
-          "en" : "Swarming Bee Skep",
-          "ja" : "Swarming Bee Skep"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ATrap Bees",
-        "en" : "Action: Trap Bees",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATrap Bees"
-      }
-    }
-  ],
-  "_useFor"                         : [
-    {
-      "source" : {
-        "key" : "BeeSkep",
-        "type" : "CardData",
-        "CardType" : 2,
+        "CardType" : 7,
         "icon"     : "CardData__BeeSkep__CardImage",
         "name"     : {
           "zh" : "Bee Skep",
@@ -1101,9 +1466,9 @@
         }
       },
       "description" : {
-        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u8702\u7FA4\u7ADE\u4E89",
-        "en" : "Passive Effect: Hive Competition",
-        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHive Competition"
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
       }
     }
   ],
@@ -1113,7 +1478,7 @@
         "key" : "BeeSkepEmpty",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BeeSkepEmpty__CardImage",
+        "icon"     : "CardData__BeeSkep__CardImage",
         "name"     : {
           "zh" : "Bee Skep",
           "en" : "Bee Skep",
@@ -1124,24 +1489,6 @@
         "zh" : "Population \u964D\u4E3A\u96F6",
         "en" : "Population Depleted",
         "ja" : "Population \u30BC\u30ED"
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeSkepSwarming",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__BeeSkepSwarming__CardImage",
-        "name"     : {
-          "zh" : "Swarming Bee Skep",
-          "en" : "Swarming Bee Skep",
-          "ja" : "Swarming Bee Skep"
-        }
-      },
-      "description" : {
-        "zh" : "Population \u8FBE\u5230\u6700\u5927",
-        "en" : "Population Full",
-        "ja" : "Population \u30D5\u30EB"
       }
     },
     {
@@ -1167,7 +1514,7 @@
         "key" : "Event_BeesSwarming",
         "type" : "CardData",
         "CardType" : 3,
-        "icon"     : "CardData__Event_BeesSwarming__CardImage",
+        "icon"     : "CardData__Bees__CardImage",
         "name"     : {
           "zh" : "A Bee Swarm!",
           "en" : "A Bee Swarm!",
@@ -1178,6 +1525,60 @@
         "zh" : "\u52A8\u4F5C\uFF1AHarvest",
         "en" : "Action: Harvest",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHarvest"
+      }
+    },
+    {
+      "source" : {
+        "key" : "QueenBee",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "GameStat__BeeStings__DefaultStatusIcon",
+        "name"     : {
+          "zh" : "Queen Bee",
+          "en" : "Queen Bee",
+          "ja" : "Queen Bee"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATrap Bees",
+        "en" : "Action: Trap Bees",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATrap Bees"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bees",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Bees__CardImage",
+        "name"     : {
+          "zh" : "Bees",
+          "en" : "Bees",
+          "ja" : "Bees"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATrap Bees",
+        "en" : "Action: Trap Bees",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATrap Bees"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Event_BeesSwarming",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "CardData__Bees__CardImage",
+        "name"     : {
+          "zh" : "A Bee Swarm!",
+          "en" : "A Bee Swarm!",
+          "ja" : "A Bee Swarm!"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ATrap Bees",
+        "en" : "Action: Trap Bees",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATrap Bees"
       }
     }
   ],

@@ -67,7 +67,7 @@
     {
       "key" : "tag_Heatable",
       "type" : "CardTag",
-      "count" : 368,
+      "count" : 371,
       "name"  : {
         "zh" : "\u53EF\u52A0\u70ED\u7684",
         "en" : "Heatable",
@@ -741,7 +741,7 @@
     "OnFullNotification"    : 1,
     "OnFull"                : {
       "ActionDescription" : {
-        "zh" : "\u51FF\u5203\u7194\u70BC\u5B8C\u6210\uFF01",
+        "zh" : "Fire Striker smelted!",
         "en" : "Fire Striker smelted!",
         "ja" : "Fire Striker smelted!"
       },
@@ -1288,12 +1288,13 @@
           "Active"     : true
         }
       },
+      "LocksCardsForUse"                       : true,
       "StatModifications"                      : [
         {
           "Stat" : {
             "key" : "Skill_Smithing",
             "type" : "GameStat",
-            "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+            "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
             "min"  : 0.0,
             "max"  : 150.0,
             "name" : {
@@ -1452,7 +1453,7 @@
             "InputStat" : {
               "key" : "Skill_Smithing",
               "type" : "GameStat",
-              "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+              "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
               "min"  : 0.0,
               "max"  : 150.0,
               "name" : {

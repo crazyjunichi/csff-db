@@ -10,30 +10,31 @@
     "en" : "Raises your stress levels if not satisfied.\nCan be satisfied by being cold. ",
     "ja" : "\u6E80\u305F\u3055\u308C\u306A\u3044\u3068\u30B9\u30C8\u30EC\u30B9\u5024\u304C\u4E0A\u6607\u3059\u308B\u3002\n\u5BD2\u3055\u306B\u8EAB\u3092\u3055\u3089\u3059\u3053\u3068\u3067\u6E80\u305F\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_FrostEnchantment__CardImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u51B0\u971C\u672C\u80FD",
@@ -155,23 +156,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FrostUrge",
-  "icon"                    : "CardData__Bp_FrostEnchantment__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FrostUrge",
+  "icon"                        : "CardData__Bp_FrostEnchantment__CardImage",
+  "name"                        : {
     "zh" : "\u51B0\u971C\u672C\u80FD",
     "en" : "Frost Urge",
     "ja" : "\u6C37\u971C\u3078\u306E\u885D\u52D5"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_FrostEnchantment",
@@ -261,7 +262,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "SpiritShrine_Frost_FrostShrine",
@@ -376,5 +377,5 @@
       }
     }
   ],
-  "_uuid"                   : "021732ea51ab411438701199b556c553"
+  "_uuid"                       : "021732ea51ab411438701199b556c553"
 }

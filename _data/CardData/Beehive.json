@@ -11,7 +11,7 @@
     "ja" : "Should probably smoke it before attempting anything."
   },
   "CardImage"       : {
-    "FileName" : "CardData__Beehive__CardImage"
+    "FileName" : "NPCAgent__Agent_Bee1__AgentImage"
   },
   "CardType"        : 2,
   "ObjectWeight"    : 0.0,
@@ -20,6 +20,7 @@
   "MapStructureType"            : 0,
   "FlavourFadeRate"             : 0.0,
   "UniqueOnBoard"               : true,
+  "AlwaysUpdate"                : true,
   "CanBeTrashed"                : true,
   "DoesNotPile"                 : true,
   "SpoilageTime"                : {
@@ -49,7 +50,7 @@
           "key" : "Beehive",
           "type" : "CardData",
           "CardType" : 2,
-          "icon"     : "CardData__Beehive__CardImage",
+          "icon"     : "NPCAgent__Agent_Bee1__AgentImage",
           "name"     : {
             "zh" : "Beehive",
             "en" : "Beehive",
@@ -165,14 +166,14 @@
       "CompatibleCards" : {
         "TriggerCards" : [
           {
-            "key" : "BeeSmokerOn",
+            "key" : "TorchOn",
             "type" : "CardData",
             "CardType" : 0,
-            "icon"     : "CardData__BeeSmokerOn__CardImage",
+            "icon"     : "CardData__Bp_Torch__CardImage",
             "name"     : {
-              "zh" : "Bee Smoker",
-              "en" : "Bee Smoker",
-              "ja" : "Bee Smoker"
+              "zh" : "\u70B9\u71C3\u7684\u706B\u70AC",
+              "en" : "Lit Torch",
+              "ja" : "\u305F\u3044\u307E\u3064"
             }
           }
         ]
@@ -270,7 +271,7 @@
                 "key" : "Event_BeesSwarming",
                 "type" : "CardData",
                 "CardType" : 3,
-                "icon"     : "CardData__Event_BeesSwarming__CardImage",
+                "icon"     : "CardData__Bees__CardImage",
                 "name"     : {
                   "zh" : "A Bee Swarm!",
                   "en" : "A Bee Swarm!",
@@ -308,7 +309,7 @@
           "Stat" : {
             "key" : "BeeStings",
             "type" : "GameStat",
-            "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+            "icon" : "GameStat__BeeStings__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 192.0,
             "name" : {
@@ -403,7 +404,7 @@
                 "key" : "QueenBee",
                 "type" : "CardData",
                 "CardType" : 0,
-                "icon"     : "CardData__QueenBee__CardImage",
+                "icon"     : "GameStat__BeeStings__DefaultStatusIcon",
                 "name"     : {
                   "zh" : "Queen Bee",
                   "en" : "Queen Bee",
@@ -458,7 +459,7 @@
           "Stat" : {
             "key" : "BeeStings",
             "type" : "GameStat",
-            "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+            "icon" : "GameStat__BeeStings__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 192.0,
             "name" : {
@@ -512,12 +513,32 @@
   "EnemyAddedStealth"               : 0.0,
   "type"                            : "CardData",
   "key"                             : "Beehive",
-  "icon"                            : "CardData__Beehive__CardImage",
+  "icon"                            : "NPCAgent__Agent_Bee1__AgentImage",
   "name"                            : {
     "zh" : "Beehive",
     "en" : "Beehive",
     "ja" : "Beehive"
   },
+  "_useFor"                         : [
+    {
+      "source" : {
+        "key" : "Bp_BeeSkepEmpty",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Empty Skep",
+          "en" : "Empty Skep",
+          "ja" : "Empty Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      }
+    }
+  ],
   "_transformTo"                    : [
     {
       "source" : {
@@ -542,7 +563,7 @@
         "key" : "Event_BeesSwarming",
         "type" : "CardData",
         "CardType" : 3,
-        "icon"     : "CardData__Event_BeesSwarming__CardImage",
+        "icon"     : "CardData__Bees__CardImage",
         "name"     : {
           "zh" : "A Bee Swarm!",
           "en" : "A Bee Swarm!",
@@ -560,7 +581,7 @@
         "key" : "QueenBee",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__QueenBee__CardImage",
+        "icon"     : "GameStat__BeeStings__DefaultStatusIcon",
         "name"     : {
           "zh" : "Queen Bee",
           "en" : "Queen Bee",

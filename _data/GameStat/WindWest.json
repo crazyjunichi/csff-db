@@ -5,27 +5,28 @@
     "en" : "West Wind",
     "ja" : "\u897F\u98A8"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 400.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5F31\u897F\u98CE",
@@ -246,22 +247,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WindWest",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WindWest",
+  "name"                        : {
     "zh" : "\u897F\u98CE",
     "en" : "West Wind",
     "ja" : "\u897F\u98A8"
   },
-  "min"                     : 0.0,
-  "max"                     : 400.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 400.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "SeasonCounter_Autumn",
@@ -371,7 +372,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_Windmaker",
@@ -393,5 +394,5 @@
       }
     }
   ],
-  "_uuid"                   : "2bc646a8c6b6ae24db281bc40873ce65"
+  "_uuid"                       : "2bc646a8c6b6ae24db281bc40873ce65"
 }

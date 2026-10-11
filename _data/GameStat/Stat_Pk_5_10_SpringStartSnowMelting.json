@@ -10,15 +10,16 @@
     "en" : "Used to melt a bit of snow every tick for 2 weeks when playing with Spring start perk. ",
     "ja" : "Used to melt a bit of snow every tick for 2 weeks when playing with Spring start perk. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1344.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "Statuses"        : [
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Melt snow",
@@ -56,22 +57,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_Pk_5_10_SpringStartSnowMelting",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_Pk_5_10_SpringStartSnowMelting",
+  "name"                        : {
     "zh" : "\u6625\u5B63\u5F00\u59CB\u878D\u96EA",
     "en" : "Stat_Pk_5_10_SpringStartSnowMelting",
     "ja" : "Stat_Pk_5_10_SpringStartSnowMelting"
   },
-  "min"                     : 0.0,
-  "max"                     : 1344.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1344.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_5_10_SpringStart",
@@ -94,5 +95,5 @@
       }
     }
   ],
-  "_uuid"                   : "78074c9cae8c1e54b828940a4db692cb"
+  "_uuid"                       : "78074c9cae8c1e54b828940a4db692cb"
 }

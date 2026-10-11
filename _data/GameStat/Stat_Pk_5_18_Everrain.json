@@ -10,30 +10,31 @@
     "en" : "Used To enable the everrain perk, makes it so the trigger inside Tgr_Rainmaker for no rain never triggers. ",
     "ja" : "Used To enable the everrain perk, makes it so the trigger inside Tgr_Rainmaker for no rain never triggers. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_Pk_5_18_Everrain",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_Pk_5_18_Everrain",
+  "name"                        : {
     "zh" : "\u6C38\u6052\u4E4B\u96E8",
     "en" : "Stat_Pk_5_18_Everrain",
     "ja" : "Stat_Pk_5_18_Everrain"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_5_18_Everrain",
@@ -56,7 +57,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Tgr_Rainmaker",
@@ -90,5 +91,5 @@
       }
     }
   ],
-  "_uuid"                   : "100c9042f7bc62a44a9dfb65e6472d1d"
+  "_uuid"                       : "100c9042f7bc62a44a9dfb65e6472d1d"
 }

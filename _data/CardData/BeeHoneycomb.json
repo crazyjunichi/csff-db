@@ -60,6 +60,32 @@
     }
   ],
   "MapStructureType"            : 0,
+  "FlavourTags"                 : [
+    {
+      "Flavour" : {
+        "key" : "Sweet",
+        "type" : "FlavourTag",
+        "name" : {
+          "zh" : "\u751C\u5473",
+          "en" : "Sweet",
+          "ja" : "\u7518\u3044"
+        }
+      },
+      "Intensity" : 1
+    },
+    {
+      "Flavour" : {
+        "key" : "Floral",
+        "type" : "FlavourTag",
+        "name" : {
+          "zh" : "\u82B1\u9999",
+          "en" : "Floral",
+          "ja" : "\u30D5\u30ED\u30FC\u30E9\u30EB"
+        }
+      },
+      "Intensity" : 2
+    }
+  ],
   "FlavourFadeRate"             : 0.0,
   "CanBeTrashed"                : true,
   "SpoilageTime"                : {
@@ -88,30 +114,6 @@
     "FloatValue"            : 672.0,
     "Active"                : true,
     "durabilityKey"         : "SpoilageTime",
-    "_valueModifications"   : [
-      {
-        "source" : {
-          "key" : "BeeHoneycomb",
-          "type" : "CardData",
-          "CardType" : 0,
-          "icon"     : "CardData__BeeHoneycomb__CardImage",
-          "name"     : {
-            "zh" : "Honeycomb",
-            "en" : "Honeycomb",
-            "ja" : "Honeycomb"
-          }
-        },
-        "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1ASoak",
-          "en" : "Action: Soak",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASoak"
-        },
-        "value"       : {
-          "x" : -336.0,
-          "y" : -336.0
-        }
-      }
-    ],
     "_rateModifications"    : [
       {
         "source" : {
@@ -1330,7 +1332,7 @@
       },
       "CreatedLiquidInGivenCard"   : {
         "LiquidCard" : {
-          "key" : "NOT_USED_LQ_Honey",
+          "key" : "LQ_Honey",
           "type" : "CardData",
           "CardType" : 9,
           "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
@@ -1387,9 +1389,9 @@
           "CardType" : 0,
           "icon"     : "CardData__Beeswax__CardImage",
           "name"     : {
-            "zh" : "\u8702\u8721",
-            "en" : "Beeswax",
-            "ja" : "\u30DF\u30C4\u30ED\u30A6"
+            "zh" : "Wax",
+            "en" : "Wax",
+            "ja" : "Wax"
           }
         },
         "TransformToLiquidQuantity" : 0.0,
@@ -1397,88 +1399,6 @@
       },
       "RoomDirection"              : 0,
       "ExitDirection"              : 0
-    },
-    {
-      "RequiredGivenContainerTag" : [
-        {
-          "key" : "tag_ContainerBowl",
-          "type" : "CardTag",
-          "count" : 1,
-          "name"  : {
-            "zh" : "\u7897\u5BB9\u5668",
-            "en" : "Bowl Container",
-            "ja" : "\u30DC\u30A6\u30EB\u306E\u5BB9\u5668"
-          }
-        }
-      ],
-      "RequiredGivenDurabilities" : {
-        "RequiredLiquidQuantity" : 150.0
-      },
-      "GivenCardChanges"          : {
-        "ModType" : 2,
-        "TransformInto" : {
-          "key" : "NOT_USED_LQ_HoneyWater",
-          "type" : "CardData",
-          "CardType" : 9,
-          "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
-          "name"     : {
-            "zh" : "Honey Water",
-            "en" : "Honey Water",
-            "ja" : "Honey Water"
-          }
-        },
-        "TransformToLiquidQuantity" : 0.0,
-        "TransferLiquid"            : true,
-        "LiquidEffectScaling"       : 0
-      },
-      "CompatibleCards"           : {
-        "TriggerTags" : [
-          {
-            "key" : "tag_WaterFresh",
-            "type" : "CardTag",
-            "count" : 8,
-            "name"  : {
-              "zh" : "\u6DE1\u6C34",
-              "en" : "Fresh Water",
-              "ja" : "\u7DBA\u9E97\u306A\u6C34"
-            }
-          }
-        ]
-      },
-      "WorksBothWays"             : true,
-      "ActionName"                : {
-        "zh" : "Soak",
-        "en" : "Soak",
-        "ja" : "Soak"
-      },
-      "DaytimeCost"               : 1,
-      "UseMiniTicks"              : 0,
-      "RequiredReceivingLiquidContent" : {
-        "RequiredGroup" : {
-          "key" : "GpTag_WaterFresh",
-          "type" : "CardTabGroup",
-          "name" : {
-            "zh" : "\u6DE1\u6C34",
-            "en" : "Fresh Water",
-            "ja" : "\u5929\u7136\u6C34"
-          }
-        },
-        "RequiredQuantity" : {
-          "x" : 150.0,
-          "y" : 0.0
-        }
-      },
-      "ReceivingCardChanges"           : {
-        "ModType" : 1,
-        "TransformToLiquidQuantity" : 0.0,
-        "LiquidEffectScaling"       : 0,
-        "SpoilageChange"            : {
-          "x" : -336.0,
-          "y" : -336.0
-        }
-      },
-      "RoomDirection"                  : 0,
-      "ExitDirection"                  : 0
     }
   ],
   "DismantleActions"            : [
@@ -1516,74 +1436,20 @@
       "StatModifications"       : [
         {
           "Stat" : {
-            "key" : "Satiation",
-            "type" : "GameStat",
-            "icon" : "GameStat__Appetite__FeedbackInfo-Icon",
-            "min"  : 0.0,
-            "max"  : 330.0,
-            "name" : {
-              "zh" : "\u9971\u98DF\u5EA6",
-              "en" : "Satiation",
-              "ja" : "\u98FD\u304D"
-            }
-          },
-          "ValueModifier" : {
-            "x" : 30.0,
-            "y" : 30.0
-          }
-        },
-        {
-          "Stat" : {
-            "key" : "Fullness_Stomach",
+            "key" : "Calories_Stomach",
             "type" : "GameStat",
             "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
             "min"  : 0.0,
             "max"  : 200.0,
             "name" : {
-              "zh" : "\u80C3\u90E8\u9971\u80C0",
-              "en" : "Stomach Fullness",
-              "ja" : "\u304A\u8179\u306E\u6E80\u8179\u611F"
+              "zh" : "\u80C3\u90E8",
+              "en" : "Stomach",
+              "ja" : "\u304A\u8179"
             }
           },
           "ValueModifier" : {
-            "x" : 30.0,
-            "y" : 30.0
-          }
-        },
-        {
-          "Stat" : {
-            "key" : "Stress",
-            "type" : "GameStat",
-            "icon" : "GameStat__Arousal__DefaultStatusIcon",
-            "min"  : 0.0,
-            "max"  : 240.0,
-            "name" : {
-              "zh" : "\u538B\u529B",
-              "en" : "Stress",
-              "ja" : "\u30B9\u30C8\u30EC\u30B9"
-            }
-          },
-          "ValueModifier" : {
-            "x" : -20.0,
-            "y" : -20.0
-          }
-        },
-        {
-          "Stat" : {
-            "key" : "Morale",
-            "type" : "GameStat",
-            "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
-            "min"  : -350.0,
-            "max"  : 350.0,
-            "name" : {
-              "zh" : "\u60C5\u7EEA",
-              "en" : "Morale",
-              "ja" : "\u58EB\u6C17"
-            }
-          },
-          "ValueModifier" : {
-            "x" : 1.0,
-            "y" : 1.0
+            "x" : 168.0,
+            "y" : 168.0
           }
         },
         {
@@ -1600,8 +1466,44 @@
             }
           },
           "ValueModifier" : {
-            "x" : 200.0,
-            "y" : 200.0
+            "x" : 288.0,
+            "y" : 288.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Fullness_Stomach",
+            "type" : "GameStat",
+            "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u80C3\u90E8\u9971\u80C0",
+              "en" : "Stomach Fullness",
+              "ja" : "\u304A\u8179\u306E\u6E80\u8179\u611F"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 42.0,
+            "y" : 42.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Satiation",
+            "type" : "GameStat",
+            "icon" : "GameStat__Appetite__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 330.0,
+            "name" : {
+              "zh" : "\u9971\u98DF\u5EA6",
+              "en" : "Satiation",
+              "ja" : "\u98FD\u304D"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 12.0,
+            "y" : 12.0
           }
         },
         {
@@ -1674,7 +1576,7 @@
         "key" : "Beehive",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__Beehive__CardImage",
+        "icon"     : "NPCAgent__Agent_Bee1__AgentImage",
         "name"     : {
           "zh" : "Beehive",
           "en" : "Beehive",
@@ -1704,27 +1606,61 @@
         "en" : "Action: Harvest",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHarvest"
       }
-    },
-    {
-      "source" : {
-        "key" : "BeeSkepSwarming",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__BeeSkepSwarming__CardImage",
-        "name"     : {
-          "zh" : "Swarming Bee Skep",
-          "en" : "Swarming Bee Skep",
-          "ja" : "Swarming Bee Skep"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1AHarvest",
-        "en" : "Action: Harvest",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHarvest"
-      }
     }
   ],
   "_useFor"                         : [
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Honey",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Honey",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      }
+    },
     {
       "source" : {
         "key" : "MudHutConstructionLocationEnclosure",
@@ -2223,40 +2159,6 @@
     },
     {
       "source" : {
-        "key" : "Bp_Honey",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "Honey",
-          "en" : "Honey",
-          "ja" : "Honey"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      }
-    },
-    {
-      "source" : {
-        "key" : "Bp_Honey",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "Honey",
-          "en" : "Honey",
-          "ja" : "Honey"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u76EE\u6807",
-        "en" : "Blueprint Objective",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
-      }
-    },
-    {
-      "source" : {
         "key" : "BoarFeeder",
         "type" : "CardData",
         "CardType" : 2,
@@ -2363,6 +2265,24 @@
   "_transformTo"                    : [
     {
       "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_Honey",
         "type" : "CardData",
         "CardType" : 7,
@@ -2385,9 +2305,9 @@
         "CardType" : 0,
         "icon"     : "CardData__Beeswax__CardImage",
         "name"     : {
-          "zh" : "\u8702\u8721",
-          "en" : "Beeswax",
-          "ja" : "\u30DF\u30C4\u30ED\u30A6"
+          "zh" : "Wax",
+          "en" : "Wax",
+          "ja" : "Wax"
         }
       },
       "description" : {
@@ -2398,7 +2318,7 @@
     },
     {
       "source" : {
-        "key" : "NOT_USED_LQ_Honey",
+        "key" : "LQ_Honey",
         "type" : "CardData",
         "CardType" : 9,
         "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
@@ -2412,24 +2332,6 @@
         "zh" : "\u52A8\u4F5C\uFF1AExtract Honey",
         "en" : "Action: Extract Honey",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AExtract Honey"
-      }
-    },
-    {
-      "source" : {
-        "key" : "NOT_USED_LQ_HoneyWater",
-        "type" : "CardData",
-        "CardType" : 9,
-        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
-        "name"     : {
-          "zh" : "Honey Water",
-          "en" : "Honey Water",
-          "ja" : "Honey Water"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASoak",
-        "en" : "Action: Soak",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASoak"
       }
     }
   ],

@@ -1,0 +1,44 @@
+
+{
+  "StartingPoint" : true,
+  "Line"          : {
+    "zh" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead.",
+    "en" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead.",
+    "ja" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead."
+  },
+  "OverrideSceneImage" : {
+    "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+  },
+  "NextStep"           : {
+    "NextStep" : 2
+  },
+  "ShowContinueButton" : 2,
+  "PossibleAnswers"    : [
+    {
+      "Answer" : {
+        "zh" : "Come back!",
+        "en" : "Come back!",
+        "ja" : "Come back!"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "SincerePraise",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "He smiles at you.\n\nHe seems to be praising your trapping skills... and this time, he seems to mean it.",
+            "en" : "He smiles at you.\n\nHe seems to be praising your trapping skills... and this time, he seems to mean it.",
+            "ja" : "He smiles at you.\n\nHe seems to be praising your trapping skills... and this time, he seems to mean it."
+          }
+        }
+      }
+    }
+  ],
+  "type"               : "DialogLine",
+  "key"                : "PlayingDead",
+  "name"               : {
+    "zh" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead.",
+    "en" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead.",
+    "ja" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead."
+  }
+}

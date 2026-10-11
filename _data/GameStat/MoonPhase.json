@@ -5,28 +5,29 @@
     "en" : "Moon Phase",
     "ja" : "\u6708\u9F62"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 960.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "StatusesHaveNoBar" : true,
-  "BarColor"          : {
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "StatusesHaveNoBar"           : true,
+  "BarColor"                    : {
     "r" : 0.1616,
     "g" : 0.0198,
     "b" : 0.315,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "New Moon",
@@ -366,33 +367,33 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u6708\u76F8\u4E0D\u5BF9",
     "en" : "Wrong Moon Phase",
     "ja" : "\u6708\u76F8\u304C\u9055\u3046"
   },
-  "TooMuchText"             : {
+  "TooMuchText"                 : {
     "zh" : "\u6708\u76F8\u4E0D\u5BF9",
     "en" : "Wrong Moon Phase",
     "ja" : "\u6708\u76F8\u304C\u9055\u3046"
   },
-  "type"                    : "GameStat",
-  "key"                     : "MoonPhase",
-  "icon"                    : "GameStat__MoonAffinity__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MoonPhase",
+  "icon"                        : "GameStat__MoonAffinity__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6708\u76F8",
     "en" : "Moon Phase",
     "ja" : "\u6708\u9F62"
   },
-  "min"                     : 0.0,
-  "max"                     : 960.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 960.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Tgr_MoonPhaseReset",
@@ -454,7 +455,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_MoonPhaseReset",
@@ -496,5 +497,5 @@
       }
     }
   ],
-  "_uuid"                   : "ce3992a2cae94bf4795433f21284ce2c"
+  "_uuid"                       : "ce3992a2cae94bf4795433f21284ce2c"
 }

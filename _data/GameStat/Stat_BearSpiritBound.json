@@ -5,30 +5,31 @@
     "en" : "BearSpiritBound",
     "ja" : "BearSpiritBound"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_BearSpiritBound",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_BearSpiritBound",
+  "name"                        : {
     "zh" : "\u718A\u7075\u7ED1\u5B9A",
     "en" : "BearSpiritBound",
     "ja" : "BearSpiritBound"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_BearSpiritSummoningGranted",
@@ -52,7 +53,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_BearSpiritCalling",
@@ -76,5 +77,5 @@
       }
     }
   ],
-  "_uuid"                   : "077122726b200e14f86539e4274adae4"
+  "_uuid"                       : "077122726b200e14f86539e4274adae4"
 }

@@ -10,31 +10,32 @@
     "en" : "Nukes player perception in EncounterWindow and gives 1 confidence modifier when bigger than 1. ",
     "ja" : "Nukes player perception in EncounterWindow and gives 1 confidence modifier when bigger than 1. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 10000.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Overconfidence",
@@ -53,26 +54,26 @@
       "ConfidenceModifier"     : 1.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HagBargainFear",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HagBargainFear",
+  "name"                        : {
     "zh" : "\u5973\u5DEB\u4EA4\u6613\u6050\u60E7",
     "en" : "Hag Fear Bargain",
     "ja" : "Hag Fear Bargain"
   },
-  "min"                     : 0.0,
-  "max"                     : 10000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 10000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Spirit_HagBargainFear",
@@ -96,7 +97,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Spirit_HagBargainFear",
@@ -120,5 +121,5 @@
       }
     }
   ],
-  "_uuid"                   : "6e27b4ec064827b4394acf189f1ce2f7"
+  "_uuid"                       : "6e27b4ec064827b4394acf189f1ce2f7"
 }

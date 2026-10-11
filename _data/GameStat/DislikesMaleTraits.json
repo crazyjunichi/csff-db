@@ -1,32 +1,33 @@
 
 {
   "GameName" : {
-    "zh" : "\u538C\u6076\u7537\u6027",
+    "zh" : "\u538C\u6076\u7537\u6027\u7279\u8D28",
     "en" : "Dislikes Male Traits",
     "ja" : "Dislikes Male Traits"
   },
-  "BaseValue" : -200.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : -200.0,
+  "MinMaxValue"                 : {
     "x" : -200.0,
     "y" : 200.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 3200.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u975E\u5E38\u9AD8",
@@ -203,23 +204,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "DislikesMaleTraits",
-  "icon"                    : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
-  "name"                    : {
-    "zh" : "\u538C\u6076\u7537\u6027",
+  "type"                        : "GameStat",
+  "key"                         : "DislikesMaleTraits",
+  "icon"                        : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+  "name"                        : {
+    "zh" : "\u538C\u6076\u7537\u6027\u7279\u8D28",
     "en" : "Dislikes Male Traits",
     "ja" : "Dislikes Male Traits"
   },
-  "min"                     : -200.0,
-  "max"                     : 200.0,
-  "_modifierValues"         : [
+  "min"                         : -200.0,
+  "max"                         : 200.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Sexuality",
@@ -487,5 +488,5 @@
       }
     }
   ],
-  "_uuid"                   : "3244cb224d1e98748a0241c161046918"
+  "_uuid"                       : "3244cb224d1e98748a0241c161046918"
 }

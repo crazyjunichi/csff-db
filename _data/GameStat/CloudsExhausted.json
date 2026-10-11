@@ -5,34 +5,35 @@
     "en" : "Clouds Exhausted",
     "ja" : "Clouds Exhausted"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 10.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "DefaultStatusIcon" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Clouds__DefaultStatusIcon"
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "CloudsExhausted",
-  "icon"                    : "GameStat__Clouds__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "CloudsExhausted",
+  "icon"                        : "GameStat__Clouds__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u4E91\u5C42\u8017\u5C3D",
     "en" : "Clouds Exhausted",
     "ja" : "Clouds Exhausted"
   },
-  "min"                     : 0.0,
-  "max"                     : 10.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 10.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Weather_0_Clear",
@@ -276,7 +277,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Weather_0_Clear",
@@ -322,5 +323,5 @@
       }
     }
   ],
-  "_uuid"                   : "5745bdff032095e42b668034f30f7674"
+  "_uuid"                       : "5745bdff032095e42b668034f30f7674"
 }

@@ -327,6 +327,18 @@
             "en" : "Affects wellbeing.\n\nCan be increased by interacting with others.",
             "ja" : "\u5E78\u798F\u5EA6\u306B\u5F71\u97FF\u3092\u4E0E\u3048\u308B\u3002\n\n\u4ED6\u8005\u3068\u4EA4\u6D41\u3059\u308B\u3053\u3068\u3067\u4E0A\u6607\u3059\u308B\u3002"
           }
+        },
+        {
+          "key" : "Paranoia",
+          "type" : "GameStat",
+          "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 300.0,
+          "name" : {
+            "zh" : "\u504F\u6267",
+            "en" : "Paranoia",
+            "ja" : "Paranoia"
+          }
         }
       ]
     },
@@ -1039,9 +1051,9 @@
             "ja" : "\u80C3\u8178\u611F\u67D3"
           },
           "Description" : {
-            "zh" : "\u4E00\u79CD\u5E38\u89C1\u7684\u80A0\u9053\u75BE\u75C5\u3002\u75C7\u72B6\u5305\u62EC\u8179\u6CFB\u3001\u6076\u5FC3\u3001\u5455\u5410\u548C\u8179\u75DB\u3002",
-            "en" : "A common disease of the intestinal tracts. Symptoms include diarrhoea, nausea, vomiting  and abdominal pain.",
-            "ja" : "\u8178\u306E\u75C5\u6C17\u3002\u75C7\u72B6\u306F\u4E0B\u75E2\u3001\u5410\u304D\u6C17\u3001\u5614\u5410\u3001\u8179\u75DB\u3002"
+            "zh" : "A common disease of the intestinal tracts. Symptoms include diarrhoea, nausea, vomiting  and abdominal pain.\nCan be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support.",
+            "en" : "A common disease of the intestinal tracts. Symptoms include diarrhoea, nausea, vomiting  and abdominal pain.\nCan be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support.",
+            "ja" : "A common disease of the intestinal tracts. Symptoms include diarrhoea, nausea, vomiting  and abdominal pain.\nCan be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support."
           }
         },
         {
@@ -1756,7 +1768,7 @@
         {
           "key" : "Skill_Archery",
           "type" : "GameStat",
-          "icon" : "GameStat__Skill_Archery__DefaultStatusIcon",
+          "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
           "min"  : 0.0,
           "max"  : 150.0,
           "name" : {
@@ -1977,7 +1989,7 @@
         {
           "key" : "Skill_Smithing",
           "type" : "GameStat",
-          "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+          "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
           "min"  : 0.0,
           "max"  : 150.0,
           "name" : {
@@ -2439,6 +2451,23 @@
           }
         },
         {
+          "key" : "StalkerUrge",
+          "type" : "GameStat",
+          "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+          "min"  : 0.0,
+          "max"  : 96.0,
+          "name" : {
+            "zh" : "\u6F5C\u884C\u8005\u672C\u80FD",
+            "en" : "Stalker Urge",
+            "ja" : "Stalker Urge"
+          },
+          "Description" : {
+            "zh" : "Raises your stress levels if not satisfied.",
+            "en" : "Raises your stress levels if not satisfied.",
+            "ja" : "Raises your stress levels if not satisfied."
+          }
+        },
+        {
           "key" : "WaterUrge",
           "type" : "GameStat",
           "icon" : "CardData__Bp_WaterBlessing__CardImage",
@@ -2643,6 +2672,17 @@
           }
         },
         {
+          "key" : "Agent_GrimbardExists",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+            "en" : "Grimbard Exists",
+            "ja" : "Grimbard Exists"
+          }
+        },
+        {
           "key" : "Agent_HareExists",
           "type" : "GameStat",
           "min"  : 0.0,
@@ -2717,6 +2757,17 @@
             "zh" : "\u516C\u9E7F\u5B58\u5728",
             "en" : "Stag Exists",
             "ja" : "\u96C4\u9E7F\u304C\u5B58\u5728\u3059\u308B"
+          }
+        },
+        {
+          "key" : "Agent_WhiteStagExists",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u767D\u9E7F\u5B58\u5728",
+            "en" : "White Stag Exists",
+            "ja" : "White Stag Exists"
           }
         },
         {
@@ -3354,12 +3405,29 @@
           }
         },
         {
+          "key" : "ArcheryAid",
+          "type" : "GameStat",
+          "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u5C04\u7BAD\u63F4\u52A9",
+            "en" : "Archery Aid",
+            "ja" : "Archery Aid"
+          },
+          "Description" : {
+            "zh" : "A spirit blessing. Makes you better at archery.",
+            "en" : "A spirit blessing. Makes you better at archery.",
+            "ja" : "A spirit blessing. Makes you better at archery."
+          }
+        },
+        {
           "key" : "ArmSize",
           "type" : "GameStat",
           "min"  : 0.0,
           "max"  : 100.0,
           "name" : {
-            "zh" : "\u624B\u81C2\u7C97\u7EC6",
+            "zh" : "\u80F3\u818A\u5C3A\u5BF8",
             "en" : "Arm Size",
             "ja" : "Arm Size"
           }
@@ -3383,12 +3451,12 @@
           "min"  : 0.0,
           "max"  : 96.0,
           "name" : {
-            "zh" : "\u6027\u5524\u8D77",
+            "zh" : "\u6027\u594B",
             "en" : "Arousal",
             "ja" : "Arousal"
           },
           "Description" : {
-            "zh" : "Increases your stress, lowers your focus and makes other look more attractive. Can be reduced by relaxing or meditating, or by sharing intimacy with partners.",
+            "zh" : "\u589E\u52A0\u538B\u529B\uFF0C\u964D\u4F4E\u4E13\u6CE8\u5EA6\uFF0C\u5E76\u8BA9\u4F60\u89C9\u5F97\u5176\u4ED6\u4EBA\u66F4\u5177\u5438\u5F15\u529B\u3002\u53EF\u4EE5\u901A\u8FC7\u653E\u677E\u3001\u51A5\u60F3\u6216\u4E0E\u4F34\u4FA3\u4EB2\u5BC6\u4E92\u52A8\u6765\u7F13\u89E3\u3002",
             "en" : "Increases your stress, lowers your focus and makes other look more attractive. Can be reduced by relaxing or meditating, or by sharing intimacy with partners.",
             "ja" : "Increases your stress, lowers your focus and makes other look more attractive. Can be reduced by relaxing or meditating, or by sharing intimacy with partners."
           }
@@ -3521,7 +3589,7 @@
         {
           "key" : "BeeStings",
           "type" : "GameStat",
-          "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+          "icon" : "GameStat__BeeStings__DefaultStatusIcon",
           "min"  : 0.0,
           "max"  : 192.0,
           "name" : {
@@ -3627,7 +3695,7 @@
           "min"  : 0.0,
           "max"  : 200.0,
           "name" : {
-            "zh" : "\u80F8\u90E8\u5927\u5C0F",
+            "zh" : "\u80F8\u90E8\u5C3A\u5BF8",
             "en" : "Breast Size",
             "ja" : "Breast Size"
           }
@@ -4108,7 +4176,7 @@
           "min"  : -200.0,
           "max"  : 200.0,
           "name" : {
-            "zh" : "\u538C\u6076\u5973\u6027",
+            "zh" : "\u538C\u6076\u5973\u6027\u7279\u8D28",
             "en" : "Dislikes Female Traits",
             "ja" : "Dislikes Female Traits"
           }
@@ -4120,7 +4188,7 @@
           "min"  : -200.0,
           "max"  : 200.0,
           "name" : {
-            "zh" : "\u538C\u6076\u7537\u6027",
+            "zh" : "\u538C\u6076\u7537\u6027\u7279\u8D28",
             "en" : "Dislikes Male Traits",
             "ja" : "Dislikes Male Traits"
           }
@@ -4300,7 +4368,7 @@
           "min"  : 0.0,
           "max"  : 227.0,
           "name" : {
-            "zh" : "\u773C\u578B",
+            "zh" : "\u773C\u775B\u7C7B\u578B",
             "en" : "Eye Type",
             "ja" : "Eye Type"
           }
@@ -4800,6 +4868,23 @@
           }
         },
         {
+          "key" : "GrimbardsBlessing",
+          "type" : "GameStat",
+          "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+            "en" : "Grimbards Blessing",
+            "ja" : "Grimbards Blessing"
+          },
+          "Description" : {
+            "zh" : "A spirit blessing. Increases your resilience, courage and sanctuary, lowers your stress and helps with foraging.",
+            "en" : "A spirit blessing. Increases your resilience, courage and sanctuary, lowers your stress and helps with foraging.",
+            "ja" : "A spirit blessing. Increases your resilience, courage and sanctuary, lowers your stress and helps with foraging."
+          }
+        },
+        {
           "key" : "HOTFIX_REDUNDANT_05082025_patch",
           "type" : "GameStat",
           "min"  : 0.0,
@@ -5167,7 +5252,7 @@
           "min"  : 0.0,
           "max"  : 11520.0,
           "name" : {
-            "zh" : "\u7A7A\u58F3\u5316\u7B49\u7EA7",
+            "zh" : "\u7A7A\u58F3\u5316",
             "en" : "Hollowness",
             "ja" : "Hollowness"
           },
@@ -5634,7 +5719,7 @@
           "min"  : -200.0,
           "max"  : 200.0,
           "name" : {
-            "zh" : "\u6027\u53D6\u5411\u5973",
+            "zh" : "\u559C\u6B22\u5973\u6027\u7279\u8D28",
             "en" : "Likes Female Traits",
             "ja" : "Likes Female Traits"
           }
@@ -5646,7 +5731,7 @@
           "min"  : -200.0,
           "max"  : 200.0,
           "name" : {
-            "zh" : "\u6027\u53D6\u5411\u7537",
+            "zh" : "\u559C\u6B22\u7537\u6027\u7279\u8D28",
             "en" : "Likes Male Traits",
             "ja" : "Likes Male Traits"
           }
@@ -6542,6 +6627,11 @@
             "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
             "en" : "Parasitic Gut Infection",
             "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
+          },
+          "Description" : {
+            "zh" : "Can be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support.",
+            "en" : "Can be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support.",
+            "ja" : "Can be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support."
           }
         },
         {
@@ -7147,7 +7237,6 @@
         {
           "key" : "Skill_Metalworking",
           "type" : "GameStat",
-          "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
           "min"  : 0.0,
           "max"  : 150.0,
           "name" : {
@@ -7506,6 +7595,35 @@
           }
         },
         {
+          "key" : "SpearfightingAid",
+          "type" : "GameStat",
+          "icon" : "CharacterPerk__Pk_6_3_Spearfighter__PerkIcon",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u77DB\u6218\u63F4\u52A9",
+            "en" : "Spearfighting Aid",
+            "ja" : "Spearfighting Aid"
+          },
+          "Description" : {
+            "zh" : "A spirit blessing. Makes you better at fighting with spears.",
+            "en" : "A spirit blessing. Makes you better at fighting with spears.",
+            "ja" : "A spirit blessing. Makes you better at fighting with spears."
+          }
+        },
+        {
+          "key" : "SpearfishingAid",
+          "type" : "GameStat",
+          "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+            "en" : "Spearfishing Aid",
+            "ja" : "Spearfishing Aid"
+          }
+        },
+        {
           "key" : "SpiderLilyEffect",
           "type" : "GameStat",
           "icon" : "GameStat__SpiderLilyEffect__DefaultStatusIcon",
@@ -7537,6 +7655,23 @@
             "zh" : "\u7531\u8FC7\u591A\u7CBE\u9B44\u7684\u5B58\u5728\u6240\u4EA7\u751F\u3002\u964D\u4F4E\u4F60\u7684\u4E13\u6CE8\u5EA6\uFF0C\u524A\u5F31\u4F60\u53EF\u80FD\u62E5\u6709\u7684\u4EFB\u4F55\u9644\u9B54\u6548\u679C\u3002",
             "en" : "Produced by the presence of too many spirits. Reduces your focus and weakens any enchantments you may possess.",
             "ja" : "\u591A\u3059\u304E\u308B\u7CBE\u970A\u306E\u5B58\u5728\u306B\u3088\u3063\u3066\u751F\u3058\u308B\u3002\n\u96C6\u4E2D\u529B\u3092\u4F4E\u4E0B\u3055\u305B\u3001\u6240\u6301\u3057\u3066\u3044\u308B\u3042\u3089\u3086\u308B\u4ED8\u4E0E\u52B9\u679C\u3092\u5F31\u4F53\u5316\u3055\u305B\u308B\u3002"
+          }
+        },
+        {
+          "key" : "StalkerBlessing",
+          "type" : "GameStat",
+          "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+            "en" : "Stalker Blessing",
+            "ja" : "Stalker Blessing"
+          },
+          "Description" : {
+            "zh" : "A spirit blessing. Increases your alertness, chasing and tracking considerably, but also increases paranoia.",
+            "en" : "A spirit blessing. Increases your alertness, chasing and tracking considerably, but also increases paranoia.",
+            "ja" : "A spirit blessing. Increases your alertness, chasing and tracking considerably, but also increases paranoia."
           }
         },
         {
@@ -7642,6 +7777,33 @@
             "zh" : "\u91CE\u732A\u7075\u906D\u9047",
             "en" : "BoarSpiritEncountered",
             "ja" : "BoarSpiritEncountered"
+          }
+        },
+        {
+          "key" : "Stat_CraftHeartManifestationOutcome",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u7ED3\u679C",
+            "en" : "Craft-Heart manifestation outcome",
+            "ja" : "Craft-Heart manifestation outcome"
+          },
+          "Description" : {
+            "zh" : "Internal result of Craft-Heart's weekly manifestation roll.",
+            "en" : "Internal result of Craft-Heart's weekly manifestation roll.",
+            "ja" : "Internal result of Craft-Heart's weekly manifestation roll."
+          }
+        },
+        {
+          "key" : "Stat_CraftHeartSpiritBound",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44\u7ED1\u5B9A",
+            "en" : "Stat_CraftHeartSpiritBound",
+            "ja" : "Stat_CraftHeartSpiritBound"
           }
         },
         {
@@ -8236,7 +8398,7 @@
           "min"  : 0.0,
           "max"  : 100.0,
           "name" : {
-            "zh" : "\u8179\u90E8\u5927\u5C0F",
+            "zh" : "\u809A\u5B50\u5927\u5C0F",
             "en" : "Stomach Size",
             "ja" : "Stomach Size"
           }
@@ -8701,6 +8863,23 @@
           }
         },
         {
+          "key" : "TrappingAid",
+          "type" : "GameStat",
+          "icon" : "CardData__Bp_LogTrap__CardImage",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u9677\u9631\u63F4\u52A9",
+            "en" : "Trapping Aid",
+            "ja" : "Trapping Aid"
+          },
+          "Description" : {
+            "zh" : "Makes you better at trapping. ",
+            "en" : "Makes you better at trapping. ",
+            "ja" : "Makes you better at trapping. "
+          }
+        },
+        {
           "key" : "TravelStaminaPenalty",
           "type" : "GameStat",
           "icon" : "CardData__BarkSandals__CardImage",
@@ -8984,6 +9163,18 @@
           }
         },
         {
+          "key" : "WaterproofingAid",
+          "type" : "GameStat",
+          "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+          "min"  : 0.0,
+          "max"  : 288.0,
+          "name" : {
+            "zh" : "\u9632\u6C34\u63F4\u52A9",
+            "en" : "Waterproofing Aid",
+            "ja" : "Waterproofing Aid"
+          }
+        },
+        {
           "key" : "WaveCounter",
           "type" : "GameStat",
           "min"  : 0.0,
@@ -9065,6 +9256,23 @@
             "zh" : "Active when Wheelbarrow is equiped. Causes traveling actions on the path to be faster. This is done through RoadTravelingAidEast and other similar stats. ",
             "en" : "Active when Wheelbarrow is equiped. Causes traveling actions on the path to be faster. This is done through RoadTravelingAidEast and other similar stats. ",
             "ja" : "Active when Wheelbarrow is equiped. Causes traveling actions on the path to be faster. This is done through RoadTravelingAidEast and other similar stats. "
+          }
+        },
+        {
+          "key" : "WhiteStagBlessing",
+          "type" : "GameStat",
+          "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+          "min"  : 0.0,
+          "max"  : 11520.0,
+          "name" : {
+            "zh" : "\u767D\u9E7F\u8D50\u798F",
+            "en" : "White Stag Blessing",
+            "ja" : "White Stag Blessing"
+          },
+          "Description" : {
+            "zh" : "A spirit blessing. Helps you with chasing, tracking, ambushing and increeases your allertness. ",
+            "en" : "A spirit blessing. Helps you with chasing, tracking, ambushing and increeases your allertness. ",
+            "ja" : "A spirit blessing. Helps you with chasing, tracking, ambushing and increeases your allertness. "
           }
         },
         {

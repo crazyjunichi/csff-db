@@ -5,40 +5,41 @@
     "en" : "WestStoneMagic",
     "ja" : "WestStoneMagic"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 3.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u97E6\u77F3\u9B54\u529B\u4E0D\u591F",
     "en" : "Not Enough West Stone Magic",
     "ja" : "\u30A6\u30A8\u30B9\u30C8\u30B9\u30C8\u30FC\u30F3\u306E\u9B54\u529B\u304C\u8DB3\u308A\u306A\u3044"
   },
-  "TooMuchText"             : {
+  "TooMuchText"                 : {
     "zh" : "\u592A\u591A\u97E6\u77F3\u9B54\u529B\u4E86",
     "en" : "To Much West Stone Magic",
     "ja" : "\u30A6\u30A8\u30B9\u30C8\u30B9\u30C8\u30FC\u30F3\u306E\u9B54\u529B\u304C\u5F37\u3059\u304E\u308B"
   },
-  "type"                    : "GameStat",
-  "key"                     : "WestStoneMagic",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WestStoneMagic",
+  "name"                        : {
     "zh" : "\u97E6\u77F3\u9B54\u529B",
     "en" : "WestStoneMagic",
     "ja" : "WestStoneMagic"
   },
-  "min"                     : 0.0,
-  "max"                     : 3.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 3.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Dialogue_WestStone",
@@ -115,7 +116,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_StoneFriendRitual",
@@ -254,5 +255,5 @@
       }
     }
   ],
-  "_uuid"                   : "c5e1743a37141ea4e9574849fabb9204"
+  "_uuid"                       : "c5e1743a37141ea4e9574849fabb9204"
 }

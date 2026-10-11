@@ -10,30 +10,31 @@
     "en" : "Boosts wellbeing and urination but gives nausea on high doses.",
     "ja" : "\u5E78\u798F\u611F\u3068\u5229\u5C3F\u3092\u4FC3\u9032\u3059\u308B\u304C\u3001\u5927\u91CF\u6442\u53D6\u3067\u5410\u304D\u6C17\u3092\u50AC\u3059\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 48.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 3,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 3,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__WoodSorrelDry__CardImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5F31\u9162\u6D46\u8349\u6548\u679C",
@@ -169,27 +170,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AppleWeedEffect__DefaultStatusIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WoodSorrelEffect",
-  "icon"                    : "CardData__WoodSorrelDry__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WoodSorrelEffect",
+  "icon"                        : "CardData__WoodSorrelDry__CardImage",
+  "name"                        : {
     "zh" : "\u9162\u6D46\u8349\u6548\u679C",
     "en" : "Wood Sorrel Effect",
     "ja" : "\u30B9\u30A4\u30D0\u52B9\u679C"
   },
-  "min"                     : 0.0,
-  "max"                     : 48.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 48.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "WoodSorrelDry",
@@ -256,5 +257,5 @@
       }
     }
   ],
-  "_uuid"                   : "7c2892d0c65b4294fac838e0ba6bf9a5"
+  "_uuid"                       : "7c2892d0c65b4294fac838e0ba6bf9a5"
 }

@@ -10,18 +10,19 @@
     "en" : "An ailment that arises when bacteria enter the system in large numbers, often through infected wounds. Symptoms include fever and fatigue.\nIf left untreated it can lead to sepsis and death.",
     "ja" : "\u3070\u3044\u83CC\u304C\u4F53\u306B\u5165\u308B\u3068\u8D77\u308B\u72B6\u614B\u7570\u5E38\u3002\u50B7\u53E3\u304C\u611F\u67D3\u3059\u308B\u3068\u8D77\u308A\u3084\u3059\u3044\u3002\u75C7\u72B6\u306F\u767A\u71B1\u3068\u75B2\u52B4\u3002\n\u653E\u7F6E\u3059\u308B\u3068\u6557\u8840\u75C7\u306B\u306A\u308A\u3001\u6B7B\u306B\u81F3\u308B\u3053\u3068\u3082\u3042\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1800.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "DefaultStatusIcon" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "ValueRange" : {
         "m_X" : 1,
@@ -629,23 +630,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Infection_Systemic",
-  "icon"                    : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Infection_Systemic",
+  "icon"                        : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+  "name"                        : {
     "zh" : "\u5168\u8EAB\u611F\u67D3",
     "en" : "Systemic Infection",
     "ja" : "\u5168\u8EAB\u611F\u67D3"
   },
-  "min"                     : 0.0,
-  "max"                     : 1800.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 1800.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "W_Abrasion",
@@ -1110,6 +1111,28 @@
     },
     {
       "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u8113\u6BD2\u75C7",
+        "en" : "Passive Effect: Sepsis",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASepsis"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
         "key" : "W_WolfBite",
         "type" : "CardData",
         "CardType" : 0,
@@ -1359,5 +1382,5 @@
       }
     }
   ],
-  "_uuid"                   : "dc3cae53109fd5945b5279ec6291caae"
+  "_uuid"                       : "dc3cae53109fd5945b5279ec6291caae"
 }

@@ -10,28 +10,29 @@
     "en" : "Shows how good your eating place is. Gives you a bonus to eating.",
     "ja" : "\u98DF\u4E8B\u30A8\u30EA\u30A2\u306E\u8CEA\u3092\u793A\u3059\u3002\u98DF\u4E8B\u306B\u30DC\u30FC\u30CA\u30B9\u3092\u4E0E\u3048\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 2,
-  "StatusesHaveNoBar" : true,
-  "BarColor"          : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 2,
+  "StatusesHaveNoBar"           : true,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u9910\u5177",
@@ -140,26 +141,26 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__FleshingBeamActionBonus__FeedbackInfo-Icon"
     },
     "StepValue" : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Foodplace",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Foodplace",
+  "name"                        : {
     "zh" : "\u7528\u9910\u73AF\u5883",
     "en" : "Foodplace",
     "ja" : "\u98DF\u4E8B\u30A8\u30EA\u30A2"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "EatingUtensilsCopper",
@@ -203,5 +204,5 @@
       }
     }
   ],
-  "_uuid"                   : "71726f3bf938f3949a2a560be6e24a97"
+  "_uuid"                       : "71726f3bf938f3949a2a560be6e24a97"
 }

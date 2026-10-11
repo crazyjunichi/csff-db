@@ -204,13 +204,13 @@
     "<b>ENTERING STATUS</b> | High on \u81EA\u4FE1",
     "<b>LEAVING STATUS</b> | Moderate on \u81EA\u4FE1",
     "<b>ENTERING STATUS</b> | \u4E94\u5B98\u7AEF\u6B63 on \u9762\u90E8\u5BF9\u79F0\u6027",
-    "<b>ENTERING STATUS</b> | \u4E2D\u7ACB on \u538C\u6076\u5973\u6027",
-    "<b>LEAVING STATUS</b> | \u4E2D\u7ACB on \u538C\u6076\u5973\u6027",
-    "<b>ENTERING STATUS</b> | \u4E2D\u7ACB on \u6027\u53D6\u5411\u7537",
-    "<b>ENTERING STATUS</b> | \u6700\u4F4E on \u6027\u53D6\u5411\u7537",
-    "<b>LEAVING STATUS</b> | \u4E2D\u7ACB on \u6027\u53D6\u5411\u7537",
-    "<b>ENTERING STATUS</b> | \u4E2D\u7B49 on \u6027\u53D6\u5411\u7537",
-    "<b>LEAVING STATUS</b> | \u6700\u4F4E on \u6027\u53D6\u5411\u7537"
+    "<b>ENTERING STATUS</b> | \u4E2D\u7ACB on \u538C\u6076\u5973\u6027\u7279\u8D28",
+    "<b>LEAVING STATUS</b> | \u4E2D\u7ACB on \u538C\u6076\u5973\u6027\u7279\u8D28",
+    "<b>ENTERING STATUS</b> | \u4E2D\u7ACB on \u559C\u6B22\u7537\u6027\u7279\u8D28",
+    "<b>ENTERING STATUS</b> | \u6700\u4F4E on \u559C\u6B22\u7537\u6027\u7279\u8D28",
+    "<b>LEAVING STATUS</b> | \u4E2D\u7ACB on \u559C\u6B22\u7537\u6027\u7279\u8D28",
+    "<b>ENTERING STATUS</b> | \u4E2D\u7B49 on \u559C\u6B22\u7537\u6027\u7279\u8D28",
+    "<b>LEAVING STATUS</b> | \u6700\u4F4E on \u559C\u6B22\u7537\u6027\u7279\u8D28"
   ],
   "CurrentPlayerCharacter"                           : {
     "type" : "PlayerCharacter",
@@ -1714,6 +1714,28 @@
       }
     },
     {
+      "key" : "Bp_BeeSkep",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "CardData__BeeSkep__CardImage",
+      "name"     : {
+        "zh" : "Bee Skep",
+        "en" : "Bee Skep",
+        "ja" : "Bee Skep"
+      }
+    },
+    {
+      "key" : "Bp_BeeSkepEmpty",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "CardData__BeeSkep__CardImage",
+      "name"     : {
+        "zh" : "Empty Skep",
+        "en" : "Empty Skep",
+        "ja" : "Empty Skep"
+      }
+    },
+    {
       "key" : "Bp_BoarCoat",
       "type" : "CardData",
       "CardType" : 7,
@@ -2261,6 +2283,16 @@
         "zh" : "\u6CBB\u6108\u818F",
         "en" : "Healing Salve",
         "ja" : "\u56DE\u5FA9\u30D0\u30FC\u30E0"
+      }
+    },
+    {
+      "key" : "Bp_Honey",
+      "type" : "CardData",
+      "CardType" : 7,
+      "name"     : {
+        "zh" : "Honey",
+        "en" : "Honey",
+        "ja" : "Honey"
       }
     },
     {
@@ -3529,22 +3561,11 @@
       "key" : "Bp_SimpleBow",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_SimpleBow__CardImage",
+      "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
       "name"     : {
         "zh" : "\u7B80\u6613\u5F13",
         "en" : "Simple Bow",
         "ja" : "\u7C21\u5358\u306A\u5F13"
-      }
-    },
-    {
-      "key" : "Bp_Smokehouse",
-      "type" : "CardData",
-      "CardType" : 7,
-      "icon"     : "CardData__Bp_Kiln__CardImage",
-      "name"     : {
-        "zh" : "\u70DF\u718F\u5C4B",
-        "en" : "Smokehouse",
-        "ja" : "\u71FB\u88FD\u5C0F\u5C4B"
       }
     },
     {
@@ -3976,10 +3997,20 @@
       }
     },
     {
+      "key" : "NOT_USED_Bp_Smokehouse",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "CardData__Bp_Kiln__CardImage",
+      "name"     : {
+        "zh" : "\u70DF\u718F\u5C4B",
+        "en" : "Smokehouse",
+        "ja" : "\u71FB\u88FD\u5C0F\u5C4B"
+      }
+    },
+    {
       "key" : "Bp_ArrowBone",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__ArrowBone__CardImage",
       "name"     : {
         "zh" : "\u9AA8\u7BAD",
         "en" : "Bone Arrows",
@@ -4021,7 +4052,7 @@
       "key" : "Bp_ButterChunk",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_ButterChunk__CardImage",
+      "icon"     : "CardData__Beeswax__CardImage",
       "name"     : {
         "zh" : "\u9EC4\u6CB9\u5757",
         "en" : "Butter Chunk",
@@ -4040,20 +4071,10 @@
       }
     },
     {
-      "key" : "Bp_DoughStarter",
-      "type" : "CardData",
-      "CardType" : 7,
-      "name"     : {
-        "zh" : "\u9175\u79CD",
-        "en" : "Dough Starter",
-        "ja" : "\u5143\u7A2E"
-      }
-    },
-    {
       "key" : "Bp_Fatchunk",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_ButterChunk__CardImage",
+      "icon"     : "CardData__Beeswax__CardImage",
       "name"     : {
         "zh" : "\u8102\u80AA\u5757",
         "en" : "Fat Chunk",
@@ -4154,6 +4175,16 @@
         "zh" : "\u5C0F\u9EA6\u9762\u5305\u6761",
         "en" : "Wheat Bread Loaf",
         "ja" : "\u5C0F\u9EA6\u30D1\u30F3\u4E00\u65A4"
+      }
+    },
+    {
+      "key" : "NOT_USED_Bp_DoughStarter",
+      "type" : "CardData",
+      "CardType" : 7,
+      "name"     : {
+        "zh" : "\u9175\u79CD",
+        "en" : "Dough Starter",
+        "ja" : "\u5143\u7A2E"
       }
     },
     {
@@ -4403,6 +4434,17 @@
       }
     },
     {
+      "key" : "Bp_",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+      "name"     : {
+        "zh" : "Summoning Ritual",
+        "en" : "Summoning Ritual",
+        "ja" : "Summoning Ritual"
+      }
+    },
+    {
       "key" : "Bp_Appeasement",
       "type" : "CardData",
       "CardType" : 7,
@@ -4590,6 +4632,17 @@
       }
     },
     {
+      "key" : "Bp_CraftHeartSpiritCalling_",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+      "name"     : {
+        "zh" : "\u547C\u5524\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+        "en" : "Craft-Heart Spirit Calling",
+        "ja" : "Craft-Heart Spirit Calling"
+      }
+    },
+    {
       "key" : "Bp_CurseGrove",
       "type" : "CardData",
       "CardType" : 7,
@@ -4642,6 +4695,17 @@
         "zh" : "\u53EC\u5524\u4EEA\u5F0F",
         "en" : "Summoning Ritual",
         "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
+      }
+    },
+    {
+      "key" : "Bp_DuckEnchantment",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+      "name"     : {
+        "zh" : "\u9E2D\u9644\u9B54",
+        "en" : "Duck Enchantment",
+        "ja" : "Duck Enchantment"
       }
     },
     {
@@ -5140,6 +5204,17 @@
       }
     },
     {
+      "key" : "Bp_StalkerSpiritCalling",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+      "name"     : {
+        "zh" : "\u547C\u5524\u6F5C\u884C\u8005\u7CBE\u9B44",
+        "en" : "Stalker Spirit Calling",
+        "ja" : "Stalker Spirit Calling"
+      }
+    },
+    {
       "key" : "Bp_StoneFriendRitual",
       "type" : "CardData",
       "CardType" : 7,
@@ -5545,16 +5620,6 @@
       }
     },
     {
-      "key" : "Bp_Honey",
-      "type" : "CardData",
-      "CardType" : 7,
-      "name"     : {
-        "zh" : "Honey",
-        "en" : "Honey",
-        "ja" : "Honey"
-      }
-    },
-    {
       "key" : "Bp_NiterBed",
       "type" : "CardData",
       "CardType" : 7,
@@ -5679,7 +5744,6 @@
       "key" : "Bp_WateringTrough",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_WateringTrough__CardImage",
       "name"     : {
         "zh" : "Watering Trough",
         "en" : "Watering Trough",
@@ -5690,7 +5754,6 @@
       "key" : "Bp_Well",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_Well__CardImage",
       "name"     : {
         "zh" : "Well",
         "en" : "Well",
@@ -5719,32 +5782,9 @@
       }
     },
     {
-      "key" : "NOT_USED_Bp_BeeSkep",
-      "type" : "CardData",
-      "CardType" : 7,
-      "icon"     : "CardData__BeeSkepSwarming__CardImage",
-      "name"     : {
-        "zh" : "Bee Skep",
-        "en" : "Bee Skep",
-        "ja" : "Bee Skep"
-      }
-    },
-    {
-      "key" : "NOT_USED_Bp_BeeSkepEmpty",
-      "type" : "CardData",
-      "CardType" : 7,
-      "icon"     : "CardData__BeeSkepEmpty__CardImage",
-      "name"     : {
-        "zh" : "Empty Skep",
-        "en" : "Empty Skep",
-        "ja" : "Empty Skep"
-      }
-    },
-    {
       "key" : "NOT_USED_Bp_BeeSmoker",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__BeeSmokerOn__CardImage",
       "name"     : {
         "zh" : "Bee Smoker",
         "en" : "Bee Smoker",
@@ -5775,7 +5815,6 @@
       "key" : "NOT_USED_Bp_BowComposite",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__BowComposite__CardImage",
       "name"     : {
         "zh" : "Composite bow",
         "en" : "Composite bow",
@@ -5786,7 +5825,6 @@
       "key" : "NOT_USED_Bp_BowDrill",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__BowDrill__CardImage",
       "name"     : {
         "zh" : "Bow Drill",
         "en" : "Bow Drill",
@@ -6468,12 +6506,25 @@
         }
       }
     ],
+    "Bp_DuckEnchantment (CardData)"                       : [
+      {
+        "key" : "Carcass_DuckCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E2D\u5B50",
+          "en" : "Dead Duck",
+          "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+        }
+      }
+    ],
     "Bp_FoxEnchantment (CardData)"                        : [
       {
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -6486,7 +6537,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -8015,6 +8066,28 @@
         "ja" : "\u30AF\u30DE\u306E\u30B3\u30FC\u30C8"
       }
     },
+    "BeeSkep (CardData)"                                        : {
+      "key" : "Bp_BeeSkep",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "CardData__BeeSkep__CardImage",
+      "name"     : {
+        "zh" : "Bee Skep",
+        "en" : "Bee Skep",
+        "ja" : "Bee Skep"
+      }
+    },
+    "BeeSkepEmpty (CardData)"                                   : {
+      "key" : "Bp_BeeSkepEmpty",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "CardData__BeeSkep__CardImage",
+      "name"     : {
+        "zh" : "Empty Skep",
+        "en" : "Empty Skep",
+        "ja" : "Empty Skep"
+      }
+    },
     "BoarCoat (CardData)"                                       : {
       "key" : "Bp_BoarCoat",
       "type" : "CardData",
@@ -8530,6 +8603,26 @@
         "zh" : "\u6CBB\u6108\u818F",
         "en" : "Healing Salve",
         "ja" : "\u56DE\u5FA9\u30D0\u30FC\u30E0"
+      }
+    },
+    "LQ_Honey (CardData)"                                       : {
+      "key" : "Bp_Honey",
+      "type" : "CardData",
+      "CardType" : 7,
+      "name"     : {
+        "zh" : "Honey",
+        "en" : "Honey",
+        "ja" : "Honey"
+      }
+    },
+    "Beeswax (CardData)"                                        : {
+      "key" : "Bp_Honey",
+      "type" : "CardData",
+      "CardType" : 7,
+      "name"     : {
+        "zh" : "Honey",
+        "en" : "Honey",
+        "ja" : "Honey"
       }
     },
     "IceSkates (CardData)"                                      : {
@@ -9412,7 +9505,7 @@
         "ja" : "\u6CE5\u30EC\u30F3\u30AC"
       }
     },
-    "MushroomBed (CardData)"                                    : {
+    "NOT_USED_MushroomBed (CardData)"                           : {
       "key" : "Bp_MushroomBed",
       "type" : "CardData",
       "CardType" : 7,
@@ -9548,22 +9641,11 @@
       "key" : "Bp_SimpleBow",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_SimpleBow__CardImage",
+      "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
       "name"     : {
         "zh" : "\u7B80\u6613\u5F13",
         "en" : "Simple Bow",
         "ja" : "\u7C21\u5358\u306A\u5F13"
-      }
-    },
-    "NOT_USED_SmokehouseExtinguished (CardData)"                : {
-      "key" : "Bp_Smokehouse",
-      "type" : "CardData",
-      "CardType" : 7,
-      "icon"     : "CardData__Bp_Kiln__CardImage",
-      "name"     : {
-        "zh" : "\u70DF\u718F\u5C4B",
-        "en" : "Smokehouse",
-        "ja" : "\u71FB\u88FD\u5C0F\u5C4B"
       }
     },
     "SnowMan (CardData)"                                        : {
@@ -9962,11 +10044,21 @@
         "ja" : "\u4F5C\u696D\u53F0"
       }
     },
+    "NOT_USED_SmokehouseExtinguished (CardData)"                : {
+      "key" : "NOT_USED_Bp_Smokehouse",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "CardData__Bp_Kiln__CardImage",
+      "name"     : {
+        "zh" : "\u70DF\u718F\u5C4B",
+        "en" : "Smokehouse",
+        "ja" : "\u71FB\u88FD\u5C0F\u5C4B"
+      }
+    },
     "ArrowBone (CardData)"                                      : {
       "key" : "Bp_ArrowBone",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__ArrowBone__CardImage",
       "name"     : {
         "zh" : "\u9AA8\u7BAD",
         "en" : "Bone Arrows",
@@ -10019,7 +10111,7 @@
       "key" : "Bp_ButterChunk",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_ButterChunk__CardImage",
+      "icon"     : "CardData__Beeswax__CardImage",
       "name"     : {
         "zh" : "\u9EC4\u6CB9\u5757",
         "en" : "Butter Chunk",
@@ -10037,21 +10129,11 @@
         "ja" : "\u30BD\u30D5\u30C8\u30C1\u30FC\u30BA"
       }
     },
-    "DoughStarter (CardData)"                                   : {
-      "key" : "Bp_DoughStarter",
-      "type" : "CardData",
-      "CardType" : 7,
-      "name"     : {
-        "zh" : "\u9175\u79CD",
-        "en" : "Dough Starter",
-        "ja" : "\u5143\u7A2E"
-      }
-    },
     "FatChunk (CardData)"                                       : {
       "key" : "Bp_Fatchunk",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_ButterChunk__CardImage",
+      "icon"     : "CardData__Beeswax__CardImage",
       "name"     : {
         "zh" : "\u8102\u80AA\u5757",
         "en" : "Fat Chunk",
@@ -10142,6 +10224,16 @@
         "zh" : "\u5C0F\u9EA6\u9762\u5305\u6761",
         "en" : "Wheat Bread Loaf",
         "ja" : "\u5C0F\u9EA6\u30D1\u30F3\u4E00\u65A4"
+      }
+    },
+    "NOT_USED_DoughStarter (CardData)"                          : {
+      "key" : "NOT_USED_Bp_DoughStarter",
+      "type" : "CardData",
+      "CardType" : 7,
+      "name"     : {
+        "zh" : "\u9175\u79CD",
+        "en" : "Dough Starter",
+        "ja" : "\u5143\u7A2E"
       }
     },
     "NOT_USED_FurBlanket (CardData)"                            : {
@@ -10380,6 +10472,17 @@
         "ja" : "\u30C6\u30FC\u30D6\u30EB"
       }
     },
+    "Event_FoxSpiritSummoning (CardData)"                       : {
+      "key" : "Bp_",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+      "name"     : {
+        "zh" : "Summoning Ritual",
+        "en" : "Summoning Ritual",
+        "ja" : "Summoning Ritual"
+      }
+    },
     "Event_AwakeningRitualCompleted (CardData)"                 : {
       "key" : "Bp_AwakeningRitual",
       "type" : "CardData",
@@ -10556,6 +10659,17 @@
         "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
       }
     },
+    "Spirit_Craftheart (CardData)"                              : {
+      "key" : "Bp_CraftHeartSpiritCalling_",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+      "name"     : {
+        "zh" : "\u547C\u5524\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+        "en" : "Craft-Heart Spirit Calling",
+        "ja" : "Craft-Heart Spirit Calling"
+      }
+    },
     "CursedGroveInvisible (CardData)"                           : {
       "key" : "Bp_CurseGrove",
       "type" : "CardData",
@@ -10609,6 +10723,17 @@
         "zh" : "\u53EC\u5524\u4EEA\u5F0F",
         "en" : "Summoning Ritual",
         "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
+      }
+    },
+    "LQ_SpiritDuck (CardData)"                                  : {
+      "key" : "Bp_DuckEnchantment",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+      "name"     : {
+        "zh" : "\u9E2D\u9644\u9B54",
+        "en" : "Duck Enchantment",
+        "ja" : "Duck Enchantment"
       }
     },
     "Event_EarthSpiritBlessingGranted (CardData)"               : {
@@ -10763,17 +10888,6 @@
         "zh" : "\u547C\u5524\u72D0\u7CBE\u9B44",
         "en" : "Fox Spirit Calling",
         "ja" : "\u72D0\u306E\u7CBE\u970A\u53EC\u559A"
-      }
-    },
-    "Event_FoxSpiritSummoning (CardData)"                       : {
-      "key" : "Bp_FoxSummoning",
-      "type" : "CardData",
-      "CardType" : 7,
-      "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
-      "name"     : {
-        "zh" : "\u53EC\u5524\u4EEA\u5F0F",
-        "en" : "Summoning Ritual",
-        "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
       }
     },
     "LQ_SpiritFrog (CardData)"                                  : {
@@ -11082,6 +11196,17 @@
         "zh" : "\u677E\u9F20\u9644\u9B54",
         "en" : "Squirrel Enchantment",
         "ja" : "\u30EA\u30B9\u306E\u52A0\u8B77"
+      }
+    },
+    "Spirit_Stalker (CardData)"                                 : {
+      "key" : "Bp_StalkerSpiritCalling",
+      "type" : "CardData",
+      "CardType" : 7,
+      "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+      "name"     : {
+        "zh" : "\u547C\u5524\u6F5C\u884C\u8005\u7CBE\u9B44",
+        "en" : "Stalker Spirit Calling",
+        "ja" : "Stalker Spirit Calling"
       }
     },
     "StoneFriend (CardData)"                                    : {
@@ -11467,26 +11592,6 @@
         "ja" : "Goat Feeder"
       }
     },
-    "NOT_USED_LQ_Honey (CardData)"                              : {
-      "key" : "Bp_Honey",
-      "type" : "CardData",
-      "CardType" : 7,
-      "name"     : {
-        "zh" : "Honey",
-        "en" : "Honey",
-        "ja" : "Honey"
-      }
-    },
-    "Beeswax (CardData)"                                        : {
-      "key" : "Bp_Honey",
-      "type" : "CardData",
-      "CardType" : 7,
-      "name"     : {
-        "zh" : "Honey",
-        "en" : "Honey",
-        "ja" : "Honey"
-      }
-    },
     "NiterBed (CardData)"                                       : {
       "key" : "Bp_NiterBed",
       "type" : "CardData",
@@ -11612,7 +11717,6 @@
       "key" : "Bp_WateringTrough",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_WateringTrough__CardImage",
       "name"     : {
         "zh" : "Watering Trough",
         "en" : "Watering Trough",
@@ -11623,7 +11727,6 @@
       "key" : "Bp_Well",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_Well__CardImage",
       "name"     : {
         "zh" : "Well",
         "en" : "Well",
@@ -11634,7 +11737,6 @@
       "key" : "Bp_Well",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__Bp_Well__CardImage",
       "name"     : {
         "zh" : "Well",
         "en" : "Well",
@@ -11651,33 +11753,10 @@
         "ja" : "Alembic"
       }
     },
-    "BeeSkep (CardData)"                                        : {
-      "key" : "NOT_USED_Bp_BeeSkep",
-      "type" : "CardData",
-      "CardType" : 7,
-      "icon"     : "CardData__BeeSkepSwarming__CardImage",
-      "name"     : {
-        "zh" : "Bee Skep",
-        "en" : "Bee Skep",
-        "ja" : "Bee Skep"
-      }
-    },
-    "BeeSkepEmpty (CardData)"                                   : {
-      "key" : "NOT_USED_Bp_BeeSkepEmpty",
-      "type" : "CardData",
-      "CardType" : 7,
-      "icon"     : "CardData__BeeSkepEmpty__CardImage",
-      "name"     : {
-        "zh" : "Empty Skep",
-        "en" : "Empty Skep",
-        "ja" : "Empty Skep"
-      }
-    },
     "BeeSmokerUnfired (CardData)"                               : {
       "key" : "NOT_USED_Bp_BeeSmoker",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__BeeSmokerOn__CardImage",
       "name"     : {
         "zh" : "Bee Smoker",
         "en" : "Bee Smoker",
@@ -11708,7 +11787,6 @@
       "key" : "NOT_USED_Bp_BowComposite",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__BowComposite__CardImage",
       "name"     : {
         "zh" : "Composite bow",
         "en" : "Composite bow",
@@ -11719,7 +11797,6 @@
       "key" : "NOT_USED_Bp_BowDrill",
       "type" : "CardData",
       "CardType" : 7,
-      "icon"     : "CardData__BowDrill__CardImage",
       "name"     : {
         "zh" : "Bow Drill",
         "en" : "Bow Drill",
@@ -11850,6 +11927,8 @@
     "Bp_BarkSandals (CardData)"                           : 2,
     "Bp_Basket (CardData)"                                : 2,
     "Bp_BearCoat (CardData)"                              : 2,
+    "Bp_BeeSkep (CardData)"                               : 2,
+    "Bp_BeeSkepEmpty (CardData)"                          : 2,
     "Bp_BoarCoat (CardData)"                              : 2,
     "Bp_BoneHook (CardData)"                              : 2,
     "Bp_BoneNeedle (CardData)"                            : 2,
@@ -11900,6 +11979,7 @@
     "Bp_HandBasket (CardData)"                            : 2,
     "Bp_HealingOintment (CardData)"                       : 2,
     "Bp_HealingSalve (CardData)"                          : 2,
+    "Bp_Honey (CardData)"                                 : 2,
     "Bp_IceSkates (CardData)"                             : 2,
     "Bp_ImprovisedBed (CardData)"                         : 0,
     "Bp_Knife_Flint (CardData)"                           : 2,
@@ -12016,7 +12096,6 @@
     "Bp_Shelf (CardData)"                                 : 2,
     "Bp_Sieve (CardData)"                                 : 2,
     "Bp_SimpleBow (CardData)"                             : 2,
-    "Bp_Smokehouse (CardData)"                            : 2,
     "Bp_SnowMan (CardData)"                               : 2,
     "Bp_Spindle (CardData)"                               : 2,
     "Bp_SpinningWheel (CardData)"                         : 2,
@@ -12056,13 +12135,13 @@
     "Bp_WoodenShovel (CardData)"                          : 2,
     "Bp_Workbench (CardData)"                             : 2,
     "NOT_USED_Bp_BedRustic (CardData)"                    : 2,
+    "NOT_USED_Bp_Smokehouse (CardData)"                   : 2,
     "Bp_ArrowBone (CardData)"                             : 2,
     "Bp_Bedroll (CardData)"                               : 2,
     "Bp_BoneKnife (CardData)"                             : 2,
     "Bp_Butter (CardData)"                                : 2,
     "Bp_ButterChunk (CardData)"                           : 2,
     "Bp_CheeseSoft (CardData)"                            : 2,
-    "Bp_DoughStarter (CardData)"                          : 3,
     "Bp_Fatchunk (CardData)"                              : 2,
     "Bp_Fungicide (CardData)"                             : 3,
     "Bp_GreenwardPouch (CardData)"                        : 3,
@@ -12073,6 +12152,7 @@
     "Bp_Poridge (CardData)"                               : 3,
     "Bp_RyeBreadLoaf (CardData)"                          : 2,
     "Bp_WheatBreadLoaf (CardData)"                        : 2,
+    "NOT_USED_Bp_DoughStarter (CardData)"                 : 3,
     "NOT_USED_Bp_FurBlanket (CardData)"                   : 3,
     "NOT_USED_Bp_FurBoots (CardData)"                     : 2,
     "NOT_USED_Bp_FurHat (CardData)"                       : 3,
@@ -12097,6 +12177,7 @@
     "NOT_USED_Bp_Chair (CardData)"                        : 2,
     "NOT_USED_Bp_ChickenNestBox_OLD (CardData)"           : 3,
     "NOT_USED_Bp_Table (CardData)"                        : 2,
+    "Bp_ (CardData)"                                      : 3,
     "Bp_Appeasement (CardData)"                           : 3,
     "Bp_AwakeningRitual (CardData)"                       : 3,
     "Bp_BadgerBlessing (CardData)"                        : 3,
@@ -12114,11 +12195,13 @@
     "Bp_BoarEnchantment (CardData)"                       : 3,
     "Bp_BoarSpiritCalling (CardData)"                     : 3,
     "Bp_BoarSummoning (CardData)"                         : 3,
+    "Bp_CraftHeartSpiritCalling_ (CardData)"              : 3,
     "Bp_CurseGrove (CardData)"                            : 3,
     "Bp_DeerBlessing (CardData)"                          : 3,
     "Bp_DeerEnchantment (CardData)"                       : 3,
     "Bp_DeerSpiritCalling (CardData)"                     : 3,
     "Bp_DeerSummoning (CardData)"                         : 3,
+    "Bp_DuckEnchantment (CardData)"                       : 3,
     "Bp_EarthBlessing (CardData)"                         : 3,
     "Bp_EarthEnchantment (CardData)"                      : 3,
     "Bp_EarthSpiritCalling (CardData)"                    : 3,
@@ -12164,6 +12247,7 @@
     "Bp_PrimevalWolfSpiritCalling (CardData)"             : 3,
     "Bp_PrimevalWolfSummoning (CardData)"                 : 3,
     "Bp_SquirrelEnchantment (CardData)"                   : 3,
+    "Bp_StalkerSpiritCalling (CardData)"                  : 3,
     "Bp_StoneFriendRitual (CardData)"                     : 3,
     "Bp_SturgeonEnchantment (CardData)"                   : 3,
     "Bp_TroutEnchantment (CardData)"                      : 3,
@@ -12202,7 +12286,6 @@
     "Bp_GlazedVase (CardData)"                            : 2,
     "Bp_Glue (CardData)"                                  : 2,
     "Bp_GoatFeeder (CardData)"                            : 2,
-    "Bp_Honey (CardData)"                                 : 2,
     "Bp_NiterBed (CardData)"                              : 2,
     "Bp_ObsidianKnife (CardData)"                         : 2,
     "Bp_ObsidianSpear (CardData)"                         : 2,
@@ -12219,8 +12302,6 @@
     "Bp_Well (CardData)"                                  : 2,
     "Bp_Weston (CardData)"                                : 2,
     "NOT_USED_Bp_Alembic (CardData)"                      : 2,
-    "NOT_USED_Bp_BeeSkep (CardData)"                      : 2,
-    "NOT_USED_Bp_BeeSkepEmpty (CardData)"                 : 2,
     "NOT_USED_Bp_BeeSmoker (CardData)"                    : 2,
     "NOT_USED_Bp_BeeSuit (CardData)"                      : 2,
     "NOT_USED_Bp_BoarFeeder (CardData)"                   : 2,
@@ -13254,6 +13335,15 @@
       }
     },
     {
+      "key" : "Tgr_GrimbardAvailable",
+      "type" : "SelfTriggeredAction",
+      "name" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      }
+    },
+    {
       "key" : "Tgr_HagPondFear",
       "type" : "SelfTriggeredAction",
       "name" : {
@@ -13575,6 +13665,15 @@
         "zh" : "Tgr_VoidExperience",
         "en" : "Tgr_VoidExperience",
         "ja" : "Tgr_VoidExperience"
+      }
+    },
+    {
+      "key" : "Tgr_WhiteStagAvailable",
+      "type" : "SelfTriggeredAction",
+      "name" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
       }
     },
     {
@@ -17267,9 +17366,9 @@
       "type" : "CharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
       "name" : {
-        "zh" : "\u975E\u5E38\u7626\u5F31",
+        "zh" : "\u81F4\u547D\u6D88\u7626",
         "en" : "Dangerously Low Weight",
-        "ja" : "\u75E9\u305B\u904E\u304E"
+        "ja" : "Dangerously Low Weight"
       }
     },
     {
@@ -17287,9 +17386,9 @@
       "type" : "CharacterPerk",
       "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
       "name" : {
-        "zh" : "\u8D85\u91CD",
+        "zh" : "\u8FC7\u91CD",
         "en" : "High Weight",
-        "ja" : "\u80A5\u6E80"
+        "ja" : "High Weight"
       }
     },
     {
@@ -17297,9 +17396,9 @@
       "type" : "CharacterPerk",
       "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
       "name" : {
-        "zh" : "\u8FC7\u91CD",
+        "zh" : "\u4E2D\u7B49\u504F\u91CD",
         "en" : "Moderately High Weight",
-        "ja" : "\u307D\u3063\u3061\u3083\u308A"
+        "ja" : "Moderately High Weight"
       }
     },
     {
@@ -17307,7 +17406,7 @@
       "type" : "CharacterPerk",
       "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
       "name" : {
-        "zh" : "\u7565\u9AD8\u4F53\u91CD",
+        "zh" : "\u7565\u5FAE\u504F\u91CD",
         "en" : "Slightly High Weight",
         "ja" : "Slightly High Weight"
       }
@@ -17317,9 +17416,9 @@
       "type" : "CharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
       "name" : {
-        "zh" : "\u4F53\u91CD\u8FC7\u8F7B",
+        "zh" : "\u975E\u5E38\u7626\u5F31",
         "en" : "Very Low Weight",
-        "ja" : "\u4F53\u91CD\u304C\u8EFD\u3044"
+        "ja" : "Very Low Weight"
       }
     },
     {
@@ -17327,7 +17426,7 @@
       "type" : "CharacterPerk",
       "icon" : "CardData__DEBUG_LQ_MagicWater__SpecialDurability1-OverrideIcon",
       "name" : {
-        "zh" : "\u9AD8\u4F53\u91CD",
+        "zh" : "\u8D85\u91CD",
         "en" : "Very High Weight",
         "ja" : "Very High Weight"
       }
@@ -17377,9 +17476,9 @@
       "type" : "CharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_SkinFair__PerkIcon",
       "name" : {
-        "zh" : "\u6D45\u8272\u76AE\u80A4",
+        "zh" : "\u767D\u7699\u76AE\u80A4",
         "en" : "Fair Skin",
-        "ja" : "\u767D\u3044\u808C"
+        "ja" : "Fair Skin"
       }
     },
     {
@@ -17387,7 +17486,7 @@
       "type" : "CharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_SkinMedium__PerkIcon",
       "name" : {
-        "zh" : "\u4E2D\u7B49\u80A4\u8272",
+        "zh" : "\u81EA\u7136\u80A4\u8272",
         "en" : "Medium Skin",
         "ja" : "Medium Skin"
       }
@@ -17407,9 +17506,9 @@
       "type" : "CharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
       "name" : {
-        "zh" : "\u76AE\u80A4\u767D\u7699",
+        "zh" : "\u96EA\u767D\u76AE\u80A4",
         "en" : "Very Fair Skin",
-        "ja" : "\u304B\u306A\u308A\u767D\u3044\u808C\u3002"
+        "ja" : "Very Fair Skin"
       }
     },
     {
@@ -17417,9 +17516,9 @@
       "type" : "CharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBlack__PerkIcon",
       "name" : {
-        "zh" : "\u6DF1\u8272\u5934\u53D1",
+        "zh" : "\u9ED1\u53D1",
         "en" : "Black Hair",
-        "ja" : "\u9ED2\u3044\u9AEA"
+        "ja" : "Black Hair"
       }
     },
     {
@@ -17427,7 +17526,7 @@
       "type" : "CharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_HairColourAuburn__PerkIcon",
       "name" : {
-        "zh" : "\u8D64\u8910\u8272\u5934\u53D1",
+        "zh" : "\u7EA2\u68D5\u8272\u5934\u53D1",
         "en" : "Auburn Hair",
         "ja" : "Auburn Hair"
       }
@@ -17517,7 +17616,7 @@
       "type" : "CharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_HairColourWhite__PerkIcon",
       "name" : {
-        "zh" : "\u767D\u8272\u5934\u53D1",
+        "zh" : "\u767D\u53D1",
         "en" : "White Hair",
         "ja" : "White Hair"
       }
@@ -17527,9 +17626,9 @@
       "type" : "CharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBlonde__PerkIcon",
       "name" : {
-        "zh" : "\u6D45\u8272\u5934\u53D1",
+        "zh" : "\u91D1\u53D1",
         "en" : "Blonde Hair",
-        "ja" : "\u660E\u308B\u3044\u9AEA"
+        "ja" : "Blonde Hair"
       }
     },
     {
@@ -17537,9 +17636,9 @@
       "type" : "CharacterPerk",
       "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
       "name" : {
-        "zh" : "\u6DF1\u8272\u773C\u775B",
+        "zh" : "\u6DF1\u68D5\u8272\u773C\u775B",
         "en" : "Dark Brown Eyes",
-        "ja" : "\u9ED2\u3044\u76EE"
+        "ja" : "Dark Brown Eyes"
       }
     },
     {
@@ -17597,9 +17696,9 @@
       "type" : "CharacterPerk",
       "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
       "name" : {
-        "zh" : "\u6D45\u8272\u773C\u775B",
+        "zh" : "\u6D45\u84DD\u8272\u773C\u775B",
         "en" : "Light Blue Eyes",
-        "ja" : "\u660E\u308B\u3044\u76EE"
+        "ja" : "Light Blue Eyes"
       }
     },
     {
@@ -18005,7 +18104,7 @@
     {
       "key" : "Pk_5_1_3_HuntingGear",
       "type" : "CharacterPerk",
-      "icon" : "CardData__Bp_SimpleBow__CardImage",
+      "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
       "name" : {
         "zh" : "\u72E9\u730E\u88C5\u5907",
         "en" : "Hunting Gear",
@@ -18123,6 +18222,16 @@
       }
     },
     {
+      "key" : "Pk_5_26_RiverClearingStart",
+      "type" : "CharacterPerk",
+      "icon" : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
+      "name" : {
+        "zh" : "\u6CB3\u8FB9\u7A7A\u5730\u5F00\u5C40",
+        "en" : "River Clearing Start",
+        "ja" : "River Clearing Start"
+      }
+    },
+    {
       "key" : "Pk_5_26_SwampStart",
       "type" : "CharacterPerk",
       "icon" : "CharacterPerk__Pk_5_26_SwampStart__PerkIcon",
@@ -18137,7 +18246,7 @@
       "type" : "CharacterPerk",
       "icon" : "GlobalCharacterInfo__CharacterGlobalInfo__PlayerPortraitSprites-0-PortraitSprite",
       "name" : {
-        "zh" : "\u540C\u4F34\uFF1A\u624B\u827A\u4EBA",
+        "zh" : "\u540C\u4F34\uFF1A\u5EFA\u9020\u5E08",
         "en" : "Partner: The Builder",
         "ja" : "Partner: The Builder"
       }
@@ -18177,7 +18286,7 @@
       "type" : "CharacterPerk",
       "icon" : "GlobalCharacterInfo__CharacterGlobalInfo__PlayerPortraitSprites-0-PortraitSprite",
       "name" : {
-        "zh" : "\u540C\u4F34\uFF1A\u5BB6\u5EAD\u4E3B\u5987",
+        "zh" : "\u540C\u4F34\uFF1A\u4F9B\u517B\u8005",
         "en" : "Partner: The Nurturer",
         "ja" : "Partner: The Nurturer"
       }
@@ -18325,7 +18434,7 @@
     {
       "key" : "Pk_6_2_Archer",
       "type" : "CharacterPerk",
-      "icon" : "CardData__Bp_SimpleBow__CardImage",
+      "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
       "name" : {
         "zh" : "\u5F13\u7BAD\u624B",
         "en" : "Archer",
@@ -19089,7 +19198,7 @@
       "type" : "NPCCharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_HighEstrogen__PerkIcon",
       "name" : {
-        "zh" : "\u6027\u53D6\u5411\u5973",
+        "zh" : "\u559C\u6B22\u5973\u6027\u7279\u8D28",
         "en" : "Likes Female Traits",
         "ja" : "Likes Female Traits"
       }
@@ -19099,7 +19208,7 @@
       "type" : "NPCCharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_HighTestosterone__PerkIcon",
       "name" : {
-        "zh" : "\u6027\u53D6\u5411\u7537",
+        "zh" : "\u559C\u6B22\u7537\u6027\u7279\u8D28",
         "en" : "Likes Male Traits",
         "ja" : "Likes Male Traits"
       }
@@ -19149,7 +19258,7 @@
       "type" : "NPCCharacterPerk",
       "icon" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
       "name" : {
-        "zh" : "Spiritual",
+        "zh" : "\u7075\u6027",
         "en" : "Spiritual",
         "ja" : "Spiritual"
       }
@@ -19609,7 +19718,7 @@
       "type" : "NPCCharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
       "name" : {
-        "zh" : "\u81F4\u547D\u7684\u8FC7\u8F7B\u4F53\u91CD",
+        "zh" : "\u81F4\u547D\u6D88\u7626",
         "en" : "Dangerously Low Weight",
         "ja" : "Dangerously Low Weight"
       }

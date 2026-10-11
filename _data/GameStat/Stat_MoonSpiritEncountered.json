@@ -5,30 +5,31 @@
     "en" : "MoonSpiritEncountered",
     "ja" : "MoonSpiritEncountered"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_MoonSpiritEncountered",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_MoonSpiritEncountered",
+  "name"                        : {
     "zh" : "\u6708\u7075\u906D\u9047",
     "en" : "MoonSpiritEncountered",
     "ja" : "MoonSpiritEncountered"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_MoonSpiritSummoning",
@@ -74,7 +75,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_LesserEarthSpiritBoundInsightBonus",
@@ -96,5 +97,5 @@
       }
     }
   ],
-  "_uuid"                   : "58b220b31cf6ba444ae093ab97250c44"
+  "_uuid"                       : "58b220b31cf6ba444ae093ab97250c44"
 }

@@ -11,27 +11,28 @@
     "ja" : "Active on RiverFloodedTravelingActions when River Water level is very high unless levee is built. "
   },
   "IsRuntimeOnly" : true,
-  "BaseValue"     : 0.0,
-  "MinMaxValue"   : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Flooded River Traveling Penalty",
@@ -77,22 +78,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "RiverWaterLevelFloodedStatus",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "RiverWaterLevelFloodedStatus",
+  "name"                        : {
     "zh" : "\u6CB3\u6D41\u6C34\u4F4D\u6D2A\u6C34\u72B6\u6001",
     "en" : "RiverWaterLevelFloodedStatus",
     "ja" : "RiverWaterLevelFloodedStatus"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "WaterLevelVisible",
@@ -117,5 +118,5 @@
       }
     }
   ],
-  "_uuid"                   : "fb2ff9323419d1d4f81570bc4b2d65d0"
+  "_uuid"                       : "fb2ff9323419d1d4f81570bc4b2d65d0"
 }

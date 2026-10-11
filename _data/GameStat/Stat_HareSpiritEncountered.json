@@ -5,30 +5,31 @@
     "en" : "HareSpiritEncountered",
     "ja" : "HareSpiritEncountered"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_HareSpiritEncountered",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_HareSpiritEncountered",
+  "name"                        : {
     "zh" : "\u5154\u7075\u906D\u9047",
     "en" : "HareSpiritEncountered",
     "ja" : "HareSpiritEncountered"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_HareSpiritSummoning",
@@ -74,7 +75,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_HareSpiritEncounteredInsightBonus",
@@ -96,5 +97,5 @@
       }
     }
   ],
-  "_uuid"                   : "a9ba5d4203eee3f43b989386ae8f3a8c"
+  "_uuid"                       : "a9ba5d4203eee3f43b989386ae8f3a8c"
 }

@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Protects you from some of the negative effects of cold temperatures.",
     "ja" : "A spirit blessing. Protects you from some of the negative effects of cold temperatures."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Basket__SpecialDurability3-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u51B0\u971C\u8D50\u798F",
@@ -927,27 +928,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FrostBlessing",
-  "icon"                    : "CardData__Basket__SpecialDurability3-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FrostBlessing",
+  "icon"                        : "CardData__Basket__SpecialDurability3-OverrideIcon",
+  "name"                        : {
     "zh" : "\u51B0\u971C\u8D50\u798F",
     "en" : "Frost Blessing",
     "ja" : "\u6C37\u971C\u306E\u52A0\u8B77"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_FrostSpiritBlessingGranted",
@@ -993,7 +994,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LQ_SpiritFrost",
@@ -1155,7 +1156,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Tgr_FrostnipFrostbiteCheck",
@@ -1237,5 +1238,5 @@
       }
     }
   ],
-  "_uuid"                   : "0479b3ad8942ecf4e8766d6f55770512"
+  "_uuid"                       : "0479b3ad8942ecf4e8766d6f55770512"
 }

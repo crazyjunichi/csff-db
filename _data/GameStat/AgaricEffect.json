@@ -10,31 +10,32 @@
     "en" : "Alters your mind state and causes nausea.",
     "ja" : "\u7CBE\u795E\u72B6\u614B\u3092\u5909\u5316\u3055\u305B\u3001\u5410\u304D\u6C17\u3092\u5F15\u304D\u8D77\u3053\u3059\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 16.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__AgaricEffect__DefaultStatusIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u4F1E\u83CC\u5242\u91CF",
@@ -188,24 +189,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "AgaricEffect",
-  "icon"                    : "GameStat__AgaricEffect__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "AgaricEffect",
+  "icon"                        : "GameStat__AgaricEffect__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u4F1E\u83CC\u6548\u679C",
     "en" : "Agaric Effect",
     "ja" : "\u30D9\u30CB\u30C6\u30F3\u30B0\u30BF\u30B1\u306E\u52B9\u679C "
   },
-  "min"                     : 0.0,
-  "max"                     : 16.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 16.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "FlyAgaricCooked",
@@ -272,7 +273,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "AgaricEffect",
@@ -320,5 +321,5 @@
       }
     }
   ],
-  "_uuid"                   : "040af9148ca47844e8e1222850cc15dd"
+  "_uuid"                       : "040af9148ca47844e8e1222850cc15dd"
 }

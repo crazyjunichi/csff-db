@@ -1,0 +1,38 @@
+
+{
+  "NPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "AgentCounterSync",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u540C\u6B65\u8BA1\u6570\u5668",
+          "en" : "AgentCounterSync",
+          "ja" : "AgentCounterSync"
+        }
+      },
+      "TargetAgent" : {
+        "key" : "Agent_WhiteStag",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+        "name" : {
+          "zh" : "\u767D\u9E7F",
+          "en" : "White Stag",
+          "ja" : "White Stag"
+        }
+      },
+      "ValueChange" : {
+        "x" : -5.0,
+        "y" : -5.0
+      }
+    }
+  ],
+  "key"              : "WhiteStagMoveReset",
+  "type"             : "NPCDutyAction",
+  "name"             : {
+    "zh" : "WhiteStagMoveReset",
+    "en" : "WhiteStagMoveReset",
+    "ja" : "WhiteStagMoveReset"
+  },
+  "actionType"       : "ChangeNPCStatDutyAction"
+}

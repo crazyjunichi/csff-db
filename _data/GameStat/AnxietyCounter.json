@@ -5,30 +5,31 @@
     "en" : "Anxiety Counter",
     "ja" : "\u7DCA\u5F35\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "BaseValue" : 96.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 96.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "AnxietyCounter",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "AnxietyCounter",
+  "name"                        : {
     "zh" : "\u7126\u8651\u8BA1\u6570\u5668",
     "en" : "Anxiety Counter",
     "ja" : "\u7DCA\u5F35\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_AnxietyAttack",
@@ -72,7 +73,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_Anxiety",
@@ -110,5 +111,5 @@
       }
     }
   ],
-  "_uuid"                   : "dc669e68721974f489b65e30538d0559"
+  "_uuid"                       : "dc669e68721974f489b65e30538d0559"
 }

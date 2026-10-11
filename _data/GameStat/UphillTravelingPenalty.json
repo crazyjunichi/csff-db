@@ -11,27 +11,28 @@
     "ja" : "Always active. Uphill traveling actions consume more stamina. "
   },
   "IsRuntimeOnly" : true,
-  "BaseValue"     : 1.0,
-  "MinMaxValue"   : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 1.0,
+  "MinMaxValue"                 : {
     "x" : 1.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Uphill Movement Penalty",
@@ -101,21 +102,21 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "UphillTravelingPenalty",
-  "icon"                    : "GameStat__CallousesFeet__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "UphillTravelingPenalty",
+  "icon"                        : "GameStat__CallousesFeet__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u4E0A\u5761\u79FB\u52A8\u60E9\u7F5A",
     "en" : "Uphill Traveling Penalty",
     "ja" : "Uphill Traveling Penalty"
   },
-  "min"                     : 1.0,
-  "max"                     : 1.0,
-  "_uuid"                   : "f73456e7c317ba444893a528c1632e16"
+  "min"                         : 1.0,
+  "max"                         : 1.0,
+  "_uuid"                       : "f73456e7c317ba444893a528c1632e16"
 }

@@ -10,30 +10,31 @@
     "en" : "Reduces the amount of bugs around you (including mosquitoes).",
     "ja" : "\u8EAB\u306E\u56DE\u308A\u306E\u866B\uFF08\u868A\u3092\u542B\u3080\uFF09\u3092\u6E1B\u3089\u3059\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.6867,
     "g" : 0.4555,
     "b" : 0.8396,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.3568,
     "g" : 0.0,
     "b" : 1.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BugRepellentApplied__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u9A71\u866B",
@@ -195,27 +196,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BrimstoneGelProtection__Statuses-0-Icon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BugRepellentApplied",
-  "icon"                    : "GameStat__BugRepellentApplied__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BugRepellentApplied",
+  "icon"                        : "GameStat__BugRepellentApplied__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u9A71\u866B",
     "en" : "Bug Repellent",
     "ja" : "\u866B\u9664\u3051"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "LQ_RenetAbsorber",
@@ -478,5 +479,5 @@
       }
     }
   ],
-  "_uuid"                   : "86aa7108cd437d1459a8c67f14a4194b"
+  "_uuid"                       : "86aa7108cd437d1459a8c67f14a4194b"
 }

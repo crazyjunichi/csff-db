@@ -10,28 +10,29 @@
     "en" : "Food here will be gradually transferred into iron. Try not to vomit while there's food in your stomach.",
     "ja" : "\u3053\u3053\u306B\u3042\u308B\u98DF\u7269\u306F\u5F90\u3005\u306B\u9244\u5206\u3078\u5909\u63DB\u3055\u308C\u308B\u3002\u80C3\u306B\u98DF\u3079\u7269\u304C\u6B8B\u3063\u3066\u3044\u308B\u9593\u306F\u5410\u304B\u306A\u3044\u3088\u3046\u306B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 200.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 75.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Calories_Stomach__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6D88\u5316",
@@ -253,23 +254,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Iron_Stomach",
-  "icon"                    : "GameStat__Calories_Stomach__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Iron_Stomach",
+  "icon"                        : "GameStat__Calories_Stomach__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u94C1\u5143\u7D20",
     "en" : "Iron",
     "ja" : "\u9244"
   },
-  "min"                     : 0.0,
-  "max"                     : 200.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 200.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_Vomit",
@@ -783,7 +784,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -1509,7 +1510,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -2895,7 +2896,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -2917,7 +2918,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -3650,7 +3651,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Iron_Stomach",
@@ -3744,5 +3745,5 @@
       }
     }
   ],
-  "_uuid"                   : "f1d5fe40048674e408f56be22beaf6ae"
+  "_uuid"                       : "f1d5fe40048674e408f56be22beaf6ae"
 }

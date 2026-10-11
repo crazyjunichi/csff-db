@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Blesses your garden plants and your crop fields when you inspect them, making them stronger against pests and more resilient in general.",
     "ja" : "\u7CBE\u970A\u306E\u795D\u798F\u3002\u80B2\u3066\u3066\u3044\u308B\u4F5C\u7269\u306B\u795D\u798F\u3092\u4E0E\u3048\u308B\u3002\u5BB3\u7363\u306A\u3069\u306B\u5BFE\u3059\u308B\u8010\u6027\u304C\u3067\u304D\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4E30\u9976\u798F\u7949",
@@ -543,27 +544,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FertilityBoonXYZ",
-  "icon"                    : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FertilityBoonXYZ",
+  "icon"                        : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon",
+  "name"                        : {
     "zh" : "\u4E30\u9976\u798F\u7949",
     "en" : "Fertility Boon",
     "ja" : "\u547D\u306E\u6069\u6075"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_EarthSpiritBlessingGranted",
@@ -609,7 +610,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "SpiritShrine_Earth_SacredOak",
@@ -793,29 +794,5 @@
       }
     }
   ],
-  "_requires"               : [
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
-      },
-      "value"       : {
-        "x" : 1.0,
-        "y" : 96.0
-      }
-    }
-  ],
-  "_uuid"                   : "a3a18885af47bf8458293eaca1128c91"
+  "_uuid"                       : "a3a18885af47bf8458293eaca1128c91"
 }

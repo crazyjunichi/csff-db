@@ -181,6 +181,28 @@
     "_valueModifications"   : [
       {
         "source" : {
+          "key" : "LQ_SpiritCraftHeart",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name"     : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+            "en" : "Craft-Heart Spirit",
+            "ja" : "Craft-Heart Spirit"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1ABless",
+          "en" : "Action: Bless",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABless"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
           "key" : "LQ_SpiritFox",
           "type" : "CardData",
           "CardType" : 9,
@@ -430,6 +452,17 @@
   "InventoryFilter"               : {
     "AcceptedCards" : [
       {
+        "key" : "Carcass_Craftheart",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u5C38\u4F53",
+          "en" : "Craft-Heart Carcass",
+          "ja" : "Craft-Heart Carcass"
+        }
+      },
+      {
         "key" : "Carcass_DuckCarcass",
         "type" : "CardData",
         "CardType" : 0,
@@ -444,7 +477,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -600,6 +633,24 @@
         }
       },
       "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnareTrap",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_SnareTrap__CardImage",
+        "name"     : {
+          "zh" : "\u5957\u7D22\u9677\u9631",
+          "en" : "Snare Trap",
+          "ja" : "\u304F\u304F\u308A\u7F60"
+        }
+      },
+      "description" : {
         "zh" : "\u52A8\u4F5C\uFF1ATrap",
         "en" : "Action: Trap",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ATrap"
@@ -607,6 +658,24 @@
     }
   ],
   "_useFor"                         : [
+    {
+      "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABless",
+        "en" : "Action: Bless",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABless"
+      }
+    },
     {
       "source" : {
         "key" : "LQ_SpiritFox",

@@ -10,41 +10,63 @@
     "en" : "Shows how good you are at cooking. Unlocks new recipes as it gets higher.",
     "ja" : "\u6599\u7406\u306E\u4E0A\u624B\u3055\u3092\u793A\u3059\u3002\u5411\u4E0A\u3057\u305F\u3089\u3001\u65B0\u3057\u3044\u30EC\u30B7\u30D4\u3092\u30A2\u30F3\u30ED\u30C3\u30AF\u3059\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AcornDoughRaw__SpecialDurability1-OverrideIcon"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 12,
-  "StalenessMultiplier"     : 0.8,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 12,
+  "StalenessMultiplier"         : 0.8,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Cooking",
-  "icon"                    : "CardData__AcornDoughRaw__SpecialDurability1-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Cooking",
+  "icon"                        : "CardData__AcornDoughRaw__SpecialDurability1-OverrideIcon",
+  "name"                        : {
     "zh" : "\u70F9\u996A",
     "en" : "Cooking",
     "ja" : "\u6599\u7406\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
+    {
+      "source" : {
+        "key" : "Bp_Honey",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 0.25,
+        "y" : 0.25
+      }
+    },
     {
       "source" : {
         "key" : "Bp_Butter",
@@ -218,28 +240,7 @@
         "x" : 0.5,
         "y" : 0.5
       }
-    },
-    {
-      "source" : {
-        "key" : "Bp_Honey",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "Honey",
-          "en" : "Honey",
-          "ja" : "Honey"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      },
-      "value"       : {
-        "x" : 0.25,
-        "y" : 0.25
-      }
     }
   ],
-  "_uuid"                   : "93c4433b9c1640343b87576d355e53b4"
+  "_uuid"                       : "93c4433b9c1640343b87576d355e53b4"
 }

@@ -5,30 +5,31 @@
     "en" : "DeerSpiritBound",
     "ja" : "DeerSpiritBound"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_DeerSpiritBound",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_DeerSpiritBound",
+  "name"                        : {
     "zh" : "\u9E7F\u7075\u7ED1\u5B9A",
     "en" : "DeerSpiritBound",
     "ja" : "DeerSpiritBound"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_DeerSpiritSummoningGranted",
@@ -52,7 +53,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_DeerSpiritCalling",
@@ -76,5 +77,5 @@
       }
     }
   ],
-  "_uuid"                   : "e28defcc9c77077469ec4dccabb2b277"
+  "_uuid"                       : "e28defcc9c77077469ec4dccabb2b277"
 }

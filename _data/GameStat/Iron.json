@@ -10,30 +10,31 @@
     "en" : "Helps your immune system, mood and focus. Can be gained by eating meat and some plants (like nettle or rye).",
     "ja" : "\u514D\u75AB\u3001\u6C17\u5206\u3001\u96C6\u4E2D\u529B\u3092\u52A9\u3051\u308B\u3002\u8089\u3084\u4E00\u90E8\u306E\u690D\u7269\uFF08\u30A4\u30E9\u30AF\u30B5\u3084\u30E9\u30A4\u9EA6\u306A\u3069\uFF09\u3092\u98DF\u3079\u308B\u3053\u3068\u3067\u5F97\u3089\u308C\u308B\u3002"
   },
-  "BaseValue"   : 336.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 336.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 336.0
   },
-  "BaseRatePerTick" : -0.5,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -0.5,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.2235,
     "g" : 0.4,
     "b" : 0.8706,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BloodLoss__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u7F3A\u94C1",
@@ -110,27 +111,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Appetite__FeedbackInfo-Icon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Iron",
-  "icon"                    : "GameStat__BloodLoss__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Iron",
+  "icon"                        : "GameStat__BloodLoss__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u94C1\u5143\u7D20",
     "en" : "Iron",
     "ja" : "\u9244"
   },
-  "min"                     : 0.0,
-  "max"                     : 336.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 336.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Iron_Stomach",
@@ -224,5 +225,5 @@
       }
     }
   ],
-  "_uuid"                   : "fd28f119c85d9194ea8a5d596dc6f038"
+  "_uuid"                       : "fd28f119c85d9194ea8a5d596dc6f038"
 }

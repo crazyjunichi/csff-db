@@ -10,30 +10,31 @@
     "en" : "Raises your stress levels if not satisfied.\nCan be satisfied by interacting with water.",
     "ja" : "\u6B32\u3092\u6E80\u305F\u3059\u307E\u3067\u30B9\u30C8\u30EC\u30B9\u304C\u6E9C\u307E\u308B\u3002\n\u6C34\u306E\u8FD1\u304F\u3067\u6642\u9593\u3092\u904E\u3054\u3057\u305F\u3089\u6E80\u305F\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_WaterBlessing__CardImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6C34\u4E4B\u672C\u80FD",
@@ -155,23 +156,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WaterUrge",
-  "icon"                    : "CardData__Bp_WaterBlessing__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WaterUrge",
+  "icon"                        : "CardData__Bp_WaterBlessing__CardImage",
+  "name"                        : {
     "zh" : "\u6C34\u4E4B\u672C\u80FD",
     "en" : "Water Urge",
     "ja" : "\u6C34\u306E\u6B32\u6C42"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_PikeSpiritCalling",
@@ -1383,7 +1384,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Cave_WaterSpring",
@@ -1495,5 +1496,5 @@
       }
     }
   ],
-  "_uuid"                   : "a5ecd0cbbfb4c2a4a84657d2ab4e5334"
+  "_uuid"                       : "a5ecd0cbbfb4c2a4a84657d2ab4e5334"
 }

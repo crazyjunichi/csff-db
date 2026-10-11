@@ -10,31 +10,32 @@
     "en" : "Shows how good your workplace is. Gives you a bonus to crafting. Can be increased by placing chairs, tables and other equipment.",
     "ja" : "\u4F5C\u696D\u90E8\u5C4B\u306E\u8CEA\u3092\u793A\u3059\u3002\u30AF\u30E9\u30D5\u30C6\u30A3\u30F3\u30B0\u3092\u3057\u3084\u3059\u308B\u3002\u6905\u5B50\u3001\u30C6\u30FC\u30D6\u30EB\u306A\u3069\u3092\u7F6E\u304F\u3068\u3055\u3089\u306B\u4F5C\u696D\u304C\u697D\u306B\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 2,
-  "StatusesHaveNoBar" : true,
-  "BarColor"          : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 2,
+  "StatusesHaveNoBar"           : true,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5DE5\u4F5C\u533A",
@@ -300,27 +301,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__FleshingBeamActionBonus__FeedbackInfo-Icon"
     },
     "StepValue" : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Not_Used_Workplace",
-  "icon"                    : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Not_Used_Workplace",
+  "icon"                        : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon",
+  "name"                        : {
     "zh" : "\u5DE5\u4F5C\u533A",
     "en" : "Workplace",
     "ja" : "\u4F5C\u696D\u90E8\u5C4B"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "NOTUSED_ChairPlaced",
@@ -364,5 +365,5 @@
       }
     }
   ],
-  "_uuid"                   : "1ac19604fc083e9498ac770bba0e8fb7"
+  "_uuid"                       : "1ac19604fc083e9498ac770bba0e8fb7"
 }

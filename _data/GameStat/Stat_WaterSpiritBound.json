@@ -5,30 +5,31 @@
     "en" : "WaterSpiritBound",
     "ja" : "WaterSpiritBound"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_WaterSpiritBound",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_WaterSpiritBound",
+  "name"                        : {
     "zh" : "\u6C34\u7075\u7ED1\u5B9A",
     "en" : "WaterSpiritBound",
     "ja" : "WaterSpiritBound"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_WaterSpiritSummoningGranted",
@@ -52,7 +53,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_WaterSpiritCalling",
@@ -76,7 +77,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_LesserWaterSpiritBoundInsightBonus",
@@ -98,5 +99,5 @@
       }
     }
   ],
-  "_uuid"                   : "0a342572685ce204ea464db9fd4163d0"
+  "_uuid"                       : "0a342572685ce204ea464db9fd4163d0"
 }

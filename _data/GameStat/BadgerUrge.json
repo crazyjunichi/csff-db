@@ -10,30 +10,31 @@
     "en" : "Raises your stress levels if not satisfied.\nCan be satisfied by foraging, digging and spending time underground.",
     "ja" : "\u6B32\u3092\u6E80\u305F\u3059\u307E\u3067\u30B9\u30C8\u30EC\u30B9\u304C\u6E9C\u307E\u308B\u3002\n\u8CC7\u6E90\u96C6\u3081\u305F\u308A\u3001\u6398\u3063\u305F\u308A\u3001\u5730\u4E0B\u3067\u6642\u9593\u904E\u3054\u305B\u3070\u6B32\u3092\u6E80\u305F\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "NPCAgent__Agent_Badger1__AgentImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u737E\u4E4B\u672C\u80FD",
@@ -155,23 +156,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BadgerUrge",
-  "icon"                    : "NPCAgent__Agent_Badger1__AgentImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BadgerUrge",
+  "icon"                        : "NPCAgent__Agent_Badger1__AgentImage",
+  "name"                        : {
     "zh" : "\u737E\u4E4B\u672C\u80FD",
     "en" : "Badger Urge",
     "ja" : "\u30A2\u30CA\u30B0\u30DE\u306E\u6B32\u6C42"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_BadgerBlessing",
@@ -364,6 +365,28 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u89C5\u98DF",
         "en" : "Action: Forage",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u8CC7\u6E90\u3092\u96C6\u3081\u308B"
+      },
+      "value"       : {
+        "x" : -24.0,
+        "y" : -24.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AForage",
+        "en" : "Action: Forage",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AForage"
       },
       "value"       : {
         "x" : -24.0,
@@ -914,6 +937,28 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u89C5\u98DF",
         "en" : "Action: Forage",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u8CC7\u6E90\u3092\u96C6\u3081\u308B"
+      },
+      "value"       : {
+        "x" : -24.0,
+        "y" : -24.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AForage",
+        "en" : "Action: Forage",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AForage"
       },
       "value"       : {
         "x" : -24.0,
@@ -1497,7 +1542,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -1849,7 +1894,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -1871,7 +1916,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -3495,7 +3540,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Caves_BearCave",
@@ -4158,5 +4203,5 @@
       }
     }
   ],
-  "_uuid"                   : "70b2496dfc79f6a47959ff86b857be09"
+  "_uuid"                       : "70b2496dfc79f6a47959ff86b857be09"
 }

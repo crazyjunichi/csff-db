@@ -5,30 +5,31 @@
     "en" : "Mud Applied",
     "ja" : "\u6CE5\u3092\u5857\u3063\u305F"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 50.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4245,
     "g" : 0.0706,
     "b" : 0.0741,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.7642,
     "g" : 0.3179,
     "b" : 0.1478,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Bruising__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6D82\u62B9\u4E86\u6CE5\u5DF4",
@@ -88,24 +89,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "MudApplied",
-  "icon"                    : "GameStat__Bruising__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MudApplied",
+  "icon"                        : "GameStat__Bruising__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6D82\u62B9\u4E86\u6CE5\u5DF4",
     "en" : "Mud Applied",
     "ja" : "\u6CE5\u3092\u5857\u3063\u305F"
   },
-  "min"                     : 0.0,
-  "max"                     : 50.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 50.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "River_ClearingPine_NorthernLakeBank",
@@ -179,9 +180,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Event_WaterfallCave__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -942,5 +943,5 @@
       }
     }
   ],
-  "_uuid"                   : "cadd43716eaada54facd772f39eaa090"
+  "_uuid"                       : "cadd43716eaada54facd772f39eaa090"
 }

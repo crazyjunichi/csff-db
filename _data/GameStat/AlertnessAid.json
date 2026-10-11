@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Makes you harder to ambush.",
     "ja" : "\u7CBE\u970A\u306E\u795D\u798F\u3002\u5F85\u4F0F\u305B\u3055\u308C\u306B\u304F\u304F\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8B66\u89C9\u63F4\u52A9",
@@ -279,27 +280,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "AlertnessAid",
-  "icon"                    : "GameStat__AlertnessAid__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "AlertnessAid",
+  "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u8B66\u89C9\u63F4\u52A9",
     "en" : "Alertness Aid",
     "ja" : "\u899A\u9192\u88DC\u52A9\u85AC"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_DeerSpiritBlessingGranted",
@@ -453,9 +454,32 @@
         "x" : 288.0,
         "y" : 288.0
       }
+    },
+    {
+      "source" : {
+        "key" : "WhiteStagBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+        "min"  : 0.0,
+        "max"  : 11520.0,
+        "name" : {
+          "zh" : "\u767D\u9E7F\u8D50\u798F",
+          "en" : "White Stag Blessing",
+          "ja" : "White Stag Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AWhite Stag Blessing",
+        "en" : "Status Stage: White Stag Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWhite Stag Blessing"
+      },
+      "value"       : {
+        "x" : 288.0,
+        "y" : 288.0
+      }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "DeerCoat",
@@ -727,5 +751,5 @@
       }
     }
   ],
-  "_uuid"                   : "b58bd0faa3c03a84cad3256aeb91d808"
+  "_uuid"                       : "b58bd0faa3c03a84cad3256aeb91d808"
 }

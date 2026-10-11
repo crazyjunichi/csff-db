@@ -10,30 +10,31 @@
     "en" : "Alleviates inflamation and provides a mild numbing effect against pain.",
     "ja" : "\u708E\u75C7\u3068\u75DB\u307F\u3092\u548C\u3089\u3052\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0,
     "g" : 1.0,
     "b" : 0.9071,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.0,
     "g" : 1.0,
     "b" : 0.0994,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_SoothingOintment__CardImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5DF2\u6D82\u62B9\u971C\u53F6\u818F",
@@ -147,27 +148,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BrimstoneGelProtection__Statuses-0-Icon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FrostleafPasteEffect",
-  "icon"                    : "CardData__Bp_SoothingOintment__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FrostleafPasteEffect",
+  "icon"                        : "CardData__Bp_SoothingOintment__CardImage",
+  "name"                        : {
     "zh" : "\u971C\u53F6\u818F\u6548\u679C",
     "en" : "Frostleaf Paste Effect",
     "ja" : "\u30D5\u30ED\u30B9\u30C8\u30EA\u30FC\u30D5\u30DA\u30FC\u30B9\u30C8\u52B9\u679C"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "LQ_RenetAbsorber",
@@ -366,5 +367,5 @@
       }
     }
   ],
-  "_uuid"                   : "14daf95c38d7100459d9340eac55f85e"
+  "_uuid"                       : "14daf95c38d7100459d9340eac55f85e"
 }

@@ -10,17 +10,18 @@
     "en" : "Tracks how many winters have begun and caps at level 6.",
     "ja" : "Tracks how many winters have begun and caps at level 6."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 6.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "CannotBeInspected" : true,
-  "StatusesHaveNoBar" : true,
-  "Statuses"          : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "CannotBeInspected"           : true,
+  "StatusesHaveNoBar"           : true,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Winter Level 0 (0 C)",
@@ -237,22 +238,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WinterLevel",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WinterLevel",
+  "name"                        : {
     "zh" : "\u51AC\u5B63\u7B49\u7EA7",
     "en" : "Winter Level",
     "ja" : "Winter Level"
   },
-  "min"                     : 0.0,
-  "max"                     : 6.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 6.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Tgr_WinterStart",
@@ -394,7 +395,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Tgr_Rainmaker",
@@ -416,7 +417,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_WinterStart",
@@ -558,5 +559,5 @@
       }
     }
   ],
-  "_uuid"                   : "bf6b6707eb7843e4820b2b42f8eeabae"
+  "_uuid"                       : "bf6b6707eb7843e4820b2b42f8eeabae"
 }

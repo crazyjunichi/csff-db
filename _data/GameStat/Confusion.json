@@ -10,31 +10,32 @@
     "en" : "Makes it harder to perform actions.",
     "ja" : "\u884C\u52D5\u306E\u5B9F\u884C\u3092\u56F0\u96E3\u306B\u3059\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -2.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "BaseRatePerTick"             : -2.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__AlcoholEffect__DefaultStatusIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5EA6\u8FF7\u4E71",
@@ -210,24 +211,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Confusion",
-  "icon"                    : "GameStat__AlcoholEffect__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Confusion",
+  "icon"                        : "GameStat__AlcoholEffect__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u8FF7\u4E71",
     "en" : "Confusion",
     "ja" : "\u6DF7\u4E71"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "IbotenicAcid",
@@ -413,5 +414,5 @@
       }
     }
   ],
-  "_uuid"                   : "90d6a2d3285f7dd4bb4375f62827aec0"
+  "_uuid"                       : "90d6a2d3285f7dd4bb4375f62827aec0"
 }

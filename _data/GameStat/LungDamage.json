@@ -10,30 +10,31 @@
     "en" : "Caused by spending time in toxic areas and by some diseases. Causes pain and reduces stamina.",
     "ja" : "\u6709\u5BB3\u5730\u57DF\u3067\u6642\u9593\u3092\u904E\u3054\u3057\u305F\u308A\u3001\u4E00\u90E8\u306E\u75C5\u6C17\u306B\u304B\u304B\u3063\u305F\u308A\u3059\u308B\u3068\u8D77\u308B\u3002\u80BA\u304C\u75DB\u307F\u3001\u30B9\u30BF\u30DF\u30CA\u304C\u6E1B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.9451,
     "g" : 0.5176,
     "b" : 0.3765,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__LungCapacity__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5FAE\u80BA\u635F\u4F24",
@@ -263,27 +264,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__LungCapacity__DefaultStatusIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "LungDamage",
-  "icon"                    : "GameStat__LungCapacity__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "LungDamage",
+  "icon"                        : "GameStat__LungCapacity__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u80BA\u90E8\u4F24\u5BB3",
     "en" : "Lung Damage",
     "ja" : "\u80BA\u306E\u50B7"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LungRot",
@@ -377,5 +378,5 @@
       }
     }
   ],
-  "_uuid"                   : "23cd0a7d82df0744eb0de7f6e201aa8f"
+  "_uuid"                       : "23cd0a7d82df0744eb0de7f6e201aa8f"
 }

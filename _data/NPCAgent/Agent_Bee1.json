@@ -1,0 +1,122 @@
+
+{
+  "AgentName" : {
+    "zh" : "\u871C\u8702",
+    "en" : "Bee1",
+    "ja" : "Bee1"
+  },
+  "AgentImage" : {
+    "FileName" : "NPCAgent__Agent_Bee1__AgentImage"
+  },
+  "WeightCategory" : {
+    "key" : "Heavy",
+    "type" : "AgentWeightCategory",
+    "name" : {
+      "zh" : "\u6C89\u7684",
+      "en" : "Heavy",
+      "ja" : "\u91CD\u3044"
+    }
+  },
+  "HidingConditions" : {
+    "NotInBackground" : true,
+    "PlayerUsesCard"  : 0
+  },
+  "DefaultTracks"    : {
+    "TrackLifetime" : {
+      "m_X" : 32,
+      "m_Y" : 32
+    },
+    "OverrideDefaultTracksCard" : {
+      "key" : "DefaultTracksCard",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__BeastTracksCardInvisible__CardImage",
+      "name"     : {
+        "zh" : "\u6709\u8E2A\u8FF9\uFF01",
+        "en" : "Tracks!",
+        "ja" : "\u8DB3\u8DE1\uFF01"
+      }
+    },
+    "TracksDirection"           : 0,
+    "OverrideTrackDurabilities" : 0,
+    "NPCStatsToTrackDurabilities" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBlood",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8840\u91CF",
+            "en" : "AgentBlood",
+            "ja" : "AgentBlood"
+          }
+        },
+        "OutputDurability"   : 32,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    ]
+  },
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 1,
+  "AgentDuties"            : [
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Bee1_SpawnNextToHeatherPatch",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u51FA\u73B0",
+          "en" : "Bee1 spawn next to heather patch",
+          "ja" : "Bee1 spawn next to heather patch"
+        }
+      },
+      "ActivatingMode" : 2,
+      "PreferenceWeights" : {
+        "BaseWeight" : 10000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Bee1_GoToSpiritWorld",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "Bee1 go to Spirit World",
+          "en" : "Bee1 go to Spirit World",
+          "ja" : "Bee1 go to Spirit World"
+        }
+      },
+      "ActivatingMode" : 2,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1000
+      }
+    }
+  ],
+  "MaxCarryWeight"         : 1.0,
+  "CannotTrade"            : true,
+  "DebugColor"             : {
+    "r" : 0.0,
+    "g" : 1.0,
+    "b" : 0.6567,
+    "a" : 1.0
+  },
+  "type"                   : "NPCAgent",
+  "key"                    : "Agent_Bee1",
+  "icon"                   : "NPCAgent__Agent_Bee1__AgentImage",
+  "name"                   : {
+    "zh" : "\u871C\u8702",
+    "en" : "Bee1",
+    "ja" : "Bee1"
+  },
+  "_uuid"                  : "c7e9270c117592743be8d528edb829ea"
+}

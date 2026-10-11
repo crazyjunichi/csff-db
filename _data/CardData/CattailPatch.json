@@ -17,7 +17,7 @@
   "ObjectWeight"    : 0.0,
   "AddedWeightFromDurabilities" : [
     {
-      "InputDurability" : 32,
+      "InputDurability" : 128,
       "Value"           : {
         "Active" : true,
         "InputValueRange" : {
@@ -128,11 +128,6 @@
   },
   "LiquidEvaporationRate"       : 0.0,
   "SpecialDurability1"          : {
-    "CardStatName" : {
-      "zh" : "\u9971\u6EE1\u5EA6",
-      "en" : "Yield",
-      "ja" : "\u53CE\u7A6B\u91CF"
-    },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 5760.0,
     "RatePerDaytimePoint"  : 1.0,
@@ -147,54 +142,7 @@
     "OnZeroNotification"           : 0,
     "OnFullNotification"           : 0,
     "FloatValue"                   : 5760.0,
-    "Active"                       : true,
     "durabilityKey"                : "SpecialDurability1",
-    "_valueModifications"          : [
-      {
-        "source" : {
-          "key" : "CattailPatch",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__CattailPatch__CardImage",
-          "name"     : {
-            "zh" : "\u9999\u84B2\u4E1B",
-            "en" : "Cattail Patch",
-            "ja" : "\u30AC\u30DE\u306E\u7FA4\u751F\u5730"
-          }
-        },
-        "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1A\u6536\u83B7",
-          "en" : "Action: Harvest",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u53CE\u7A6B"
-        },
-        "value"       : {
-          "x" : -288.0,
-          "y" : -288.0
-        }
-      },
-      {
-        "source" : {
-          "key" : "CattailPatch",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__CattailPatch__CardImage",
-          "name"     : {
-            "zh" : "\u9999\u84B2\u4E1B",
-            "en" : "Cattail Patch",
-            "ja" : "\u30AC\u30DE\u306E\u7FA4\u751F\u5730"
-          }
-        },
-        "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
-          "en" : "Action: Clear",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u53D6\u308A\u9664\u304F"
-        },
-        "value"       : {
-          "x" : -5760.0,
-          "y" : -5760.0
-        }
-      }
-    ],
     "_rateModifications"           : [
       {
         "source" : {
@@ -256,17 +204,73 @@
     "durabilityKey"         : "SpecialDurability2"
   },
   "SpecialDurability3"          : {
+    "CardStatName" : {
+      "zh" : "\u4EA7\u91CF",
+      "en" : "Yield",
+      "ja" : "Yield"
+    },
     "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 0.0,
-    "RatePerDaytimePoint"  : 0.0,
+    "MaxValue"             : 5760.0,
+    "RatePerDaytimePoint"  : 1.0,
     "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 0,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "OnZeroNotification"    : 0,
-    "OnFullNotification"    : 0,
-    "FloatValue"            : 0.0,
-    "durabilityKey"         : "SpecialDurability3"
+    "PauseRateWhenEnvWeightIsFull" : true,
+    "HidingOptions"                : 0,
+    "TextDisplay"                  : 0,
+    "NumberPrecision"              : 0,
+    "OverrideIcon"                 : {
+      "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
+    },
+    "OnZeroNotification"           : 0,
+    "OnFullNotification"           : 0,
+    "FloatValue"                   : 5760.0,
+    "Active"                       : true,
+    "durabilityKey"                : "SpecialDurability3",
+    "_valueModifications"          : [
+      {
+        "source" : {
+          "key" : "CattailPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__CattailPatch__CardImage",
+          "name"     : {
+            "zh" : "\u9999\u84B2\u4E1B",
+            "en" : "Cattail Patch",
+            "ja" : "\u30AC\u30DE\u306E\u7FA4\u751F\u5730"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1A\u6536\u83B7",
+          "en" : "Action: Harvest",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u53CE\u7A6B"
+        },
+        "value"       : {
+          "x" : -288.0,
+          "y" : -288.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CattailPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__CattailPatch__CardImage",
+          "name"     : {
+            "zh" : "\u9999\u84B2\u4E1B",
+            "en" : "Cattail Patch",
+            "ja" : "\u30AC\u30DE\u306E\u7FA4\u751F\u5730"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
+          "en" : "Action: Clear",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u53D6\u308A\u9664\u304F"
+        },
+        "value"       : {
+          "x" : -5760.0,
+          "y" : -5760.0
+        }
+      }
+    ]
   },
   "SpecialDurability4"          : {
     "RandomStartingOffset" : 0.0,
@@ -374,7 +378,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -601,7 +605,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -701,7 +705,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -928,7 +932,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -1027,7 +1031,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -1254,7 +1258,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -1505,7 +1509,7 @@
         "TransferFuel"              : true,
         "TransferCharges"           : true,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -5760.0,
           "y" : -5760.0
         }
@@ -1573,7 +1577,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -1797,7 +1801,7 @@
         "TransformToLiquidQuantity" : 0.0,
         "TransferCharges"           : true,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }

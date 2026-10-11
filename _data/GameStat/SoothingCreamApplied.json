@@ -10,30 +10,31 @@
     "en" : "Alleviates inflamation, rashes and burns. Numbs pain and is ideal for treating foot and hand damage.",
     "ja" : "\u708E\u75C7\u3001\u767A\u75B9\u3001\u706B\u50B7\u3001\u624B\u8DB3\u306E\u50B7\u306B\u52B9\u304D\u3001\u75DB\u307F\u3092\u548C\u3089\u3052\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.6867,
     "g" : 0.4555,
     "b" : 0.8396,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.3568,
     "g" : 0.0,
     "b" : 1.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_SoothingOintment__CardImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5F31\u6548\u8212\u7F13\u6548\u679C",
@@ -295,32 +296,32 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BrimstoneGelProtection__Statuses-0-Icon"
     },
     "StepValue" : 10.0
   },
-  "TooMuchText"             : {
+  "TooMuchText"                 : {
     "zh" : "\u836F\u818F\u5DF2\u6D82\u62B9",
     "en" : "Ointment already applied",
     "ja" : "\u85AC\u306F\u3059\u3067\u306B\u5857\u3063\u3066\u3042\u308B"
   },
-  "type"                    : "GameStat",
-  "key"                     : "SoothingCreamApplied",
-  "icon"                    : "CardData__Bp_SoothingOintment__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "SoothingCreamApplied",
+  "icon"                        : "CardData__Bp_SoothingOintment__CardImage",
+  "name"                        : {
     "zh" : "\u8212\u7F13\u6548\u679C",
     "en" : "Soothing Effect",
     "ja" : "\u93AE\u75DB\u52B9\u679C"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "River_ClearingPine_NorthernLakeBank",
@@ -394,9 +395,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Event_WaterfallCave__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -1136,7 +1137,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "SoothingOintment",
@@ -1160,5 +1161,5 @@
       }
     }
   ],
-  "_uuid"                   : "48296aba51d95204fbc4f805056ac66a"
+  "_uuid"                       : "48296aba51d95204fbc4f805056ac66a"
 }

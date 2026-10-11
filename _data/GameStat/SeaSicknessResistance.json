@@ -5,30 +5,31 @@
     "en" : "Seamanship",
     "ja" : "\u6D77\u306E\u7537"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 128.0
   },
-  "BaseRatePerTick" : -0.15,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -0.15,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__SeaSickness__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6BEB\u65E0\u62B5\u6297\u529B",
@@ -211,23 +212,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "SeaSicknessResistance",
-  "icon"                    : "GameStat__SeaSickness__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "SeaSicknessResistance",
+  "icon"                        : "GameStat__SeaSickness__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u822A\u6D77\u6280\u672F",
     "en" : "Seamanship",
     "ja" : "\u6D77\u306E\u7537"
   },
-  "min"                     : 0.0,
-  "max"                     : 128.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 128.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "SeaSickness",
@@ -298,5 +299,5 @@
       }
     }
   ],
-  "_uuid"                   : "17c23b8ce57d08244b31777e1ef00a40"
+  "_uuid"                       : "17c23b8ce57d08244b31777e1ef00a40"
 }

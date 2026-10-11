@@ -5,15 +5,21 @@
     "en" : "Parasitic Gut Infection",
     "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "Description" : {
+    "zh" : "Can be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support.",
+    "en" : "Can be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support.",
+    "ja" : "Can be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support."
+  },
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1500.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
@@ -525,23 +531,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Parasites",
-  "icon"                    : "GameStat__Parasites__Statuses-2-Icon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Parasites",
+  "icon"                        : "GameStat__Parasites__Statuses-2-Icon",
+  "name"                        : {
     "zh" : "\u80C3\u80A0\u9053\u5BC4\u751F\u866B\u611F\u67D3",
     "en" : "Parasitic Gut Infection",
     "ja" : "\u8178\u306E\u5BC4\u751F\u866B\u611F\u67D3"
   },
-  "min"                     : 0.0,
-  "max"                     : 1500.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1500.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "RottenRemains",
@@ -1231,7 +1237,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -1730,7 +1736,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "VDEBUG_HybernationSuit",
@@ -2140,5 +2146,5 @@
       }
     }
   ],
-  "_uuid"                   : "3cca07dc92f73e44ea9e6ec72b77427b"
+  "_uuid"                       : "3cca07dc92f73e44ea9e6ec72b77427b"
 }

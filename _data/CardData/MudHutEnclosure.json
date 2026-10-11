@@ -58,7 +58,7 @@
     {
       "key" : "tag_WoodCutting",
       "type" : "CardTag",
-      "count" : 100,
+      "count" : 102,
       "name"  : {
         "zh" : "\u5207\u524A\u6728\u6750",
         "en" : "Wood Cutting",
@@ -68,7 +68,7 @@
     {
       "key" : "tag_TreesOvergrowthForage",
       "type" : "CardTag",
-      "count" : 98,
+      "count" : 100,
       "name"  : {
         "zh" : "\u6811\u6728\u3001\u6742\u8349\u548C\u8349\u6599",
         "en" : "Trees, Overgrowth and Forage",
@@ -88,7 +88,7 @@
     {
       "key" : "tag_OpenSky",
       "type" : "CardTag",
-      "count" : 100,
+      "count" : 102,
       "name"  : {
         "zh" : "\u5F00\u9614\u7684\u5929\u7A7A",
         "en" : "Open Sky",
@@ -960,6 +960,28 @@
       },
       {
         "source" : {
+          "key" : "Carcass_Craftheart",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Carcass_Craftheart__CardImage",
+          "name"     : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u5C38\u4F53",
+            "en" : "Craft-Heart Carcass",
+            "ja" : "Craft-Heart Carcass"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1ACut",
+          "en" : "Action: Cut",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut"
+        },
+        "value"       : {
+          "x" : 50.0,
+          "y" : 50.0
+        }
+      },
+      {
+        "source" : {
           "key" : "Carcass_DoeCarcassBleeding",
           "type" : "CardData",
           "CardType" : 0,
@@ -1227,7 +1249,7 @@
           "key" : "Carcass_FoxCarcass",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+          "icon"     : "CardData__Carcass_Craftheart__CardImage",
           "name"     : {
             "zh" : "\u72D0\u72F8\u5C38\u4F53",
             "en" : "Fox Carcass",
@@ -5611,7 +5633,7 @@
           {
             "key" : "NOT_USED_tag_FloodSafe",
             "type" : "CardTag",
-            "count" : 138,
+            "count" : 140,
             "name"  : {
               "zh" : "\u4E0D\u6015\u6D2A\u6C34",
               "en" : "Safe from Floods",
@@ -5747,7 +5769,6 @@
         "key" : "TEST_Imp_TrappingFences",
         "type" : "CardData",
         "CardType" : 10,
-        "icon"     : "CardData__TEST_Imp_TrappingFences__CardImage",
         "name"     : {
           "zh" : "\u9677\u9631\u6805\u680F",
           "en" : "Trapping Fences",
@@ -7338,6 +7359,42 @@
           "zh" : "\u51BB\u7ED3\u7684\u767D\u6866\u9152",
           "en" : "Frozen Birch Wine",
           "ja" : "\u51CD\u3063\u305F\u30AB\u30D0\u9152"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51BB\u7ED3",
+        "en" : "Passive Effect: Freeze",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFreeze"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyMead",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u8702\u871C\u9152",
+          "en" : "Mead",
+          "ja" : "Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51BB\u7ED3",
+        "en" : "Passive Effect: Freeze",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFreeze"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyMeadFrozen",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u51B0\u51BB\u8702\u871C\u9152",
+          "en" : "Frozen Mead",
+          "ja" : "Frozen Mead"
         }
       },
       "description" : {

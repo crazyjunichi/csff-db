@@ -10,30 +10,31 @@
     "en" : "Increases body temperature, boosts immune system, stamina and alertness.",
     "ja" : "\u4F53\u6E29\u3001\u514D\u75AB\u529B\u3001\u30B9\u30BF\u30DF\u30CA\u3001\u6CE8\u610F\u529B\u3092\u4E0A\u3052\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u706B\u917F\u6548\u679C",
@@ -425,27 +426,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__CattailRootBoiled__CardImage"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FirerootEffect",
-  "icon"                    : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FirerootEffect",
+  "icon"                        : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+  "name"                        : {
     "zh" : "\u706B\u6839",
     "en" : "Fireroot",
     "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "FirerootBoiled",
@@ -619,5 +620,5 @@
       }
     }
   ],
-  "_uuid"                   : "491d8412a34b95f4fade25d71457514d"
+  "_uuid"                       : "491d8412a34b95f4fade25d71457514d"
 }

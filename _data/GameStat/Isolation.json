@@ -10,30 +10,31 @@
     "en" : "Increases over time. Increases loneliness. ",
     "ja" : "\u6642\u9593\u7D4C\u904E\u3067\u5897\u52A0\u3059\u308B\u3002\u5B64\u72EC\u611F\u3092\u9AD8\u3081\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 11520.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.1882,
     "g" : 0.2275,
     "b" : 0.6157,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "DialogScene__AwakenedConfirmation__SceneBackground"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u5B64\u7ACB\u5EA6",
@@ -64,6 +65,24 @@
           "RateModifier" : {
             "x" : 2.5,
             "y" : 2.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.25,
+            "y" : 0.25
           }
         }
       ],
@@ -105,6 +124,24 @@
             "x" : 3.0,
             "y" : 3.0
           }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
         }
       ],
       "NotifyPlayer"   : 2,
@@ -145,6 +182,24 @@
             "x" : 3.5,
             "y" : 3.5
           }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
         }
       ],
       "NotifyPlayer"   : 2,
@@ -155,23 +210,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 48,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 48,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Isolation",
-  "icon"                    : "DialogScene__AwakenedConfirmation__SceneBackground",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Isolation",
+  "icon"                        : "DialogScene__AwakenedConfirmation__SceneBackground",
+  "name"                        : {
     "zh" : "\u5B64\u7ACB\u5EA6",
     "en" : "Isolation",
     "ja" : "\u5B64\u72EC\u611F"
   },
-  "min"                     : 0.0,
-  "max"                     : 11520.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 11520.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "PartnerDialog_ExpressAffection",
@@ -813,5 +868,5 @@
       }
     }
   ],
-  "_uuid"                   : "ad5665dcf2e21ed49a5817b1b7005b2e"
+  "_uuid"                       : "ad5665dcf2e21ed49a5817b1b7005b2e"
 }

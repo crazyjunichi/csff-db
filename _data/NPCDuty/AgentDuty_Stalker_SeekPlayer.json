@@ -1,0 +1,54 @@
+
+{
+  "DutyName" : {
+    "zh" : "\u5BFB\u627E\u73A9\u5BB6",
+    "en" : "Stalker Seek Player",
+    "ja" : "Stalker Seek Player"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredStatValues" : [
+      {
+        "Stat" : {
+          "key" : "Paranoia",
+          "type" : "GameStat",
+          "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 300.0,
+          "name" : {
+            "zh" : "\u504F\u6267",
+            "en" : "Paranoia",
+            "ja" : "Paranoia"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 101.0,
+          "y" : 300.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "StalkerSeekPlayerMove",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "StalkerSeekPlayerMove",
+        "en" : "StalkerSeekPlayerMove",
+        "ja" : "StalkerSeekPlayerMove"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Stalker_SeekPlayer",
+  "name"                 : {
+    "zh" : "\u5BFB\u627E\u73A9\u5BB6",
+    "en" : "Stalker Seek Player",
+    "ja" : "Stalker Seek Player"
+  },
+  "_uuid"                : "decb3e41dae5fcb44a8b0a640c2502b2"
+}

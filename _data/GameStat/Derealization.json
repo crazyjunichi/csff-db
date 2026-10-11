@@ -10,30 +10,31 @@
     "en" : "Increases when you lose belief in reality.",
     "ja" : "\u73FE\u5B9F\u3092\u4FE1\u3058\u306A\u304F\u306A\u308B\u6642\u306B\u4E0A\u304C\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__AmbushAid__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u73B0\u5B9E\u611F\u4E27\u5931",
@@ -314,11 +315,11 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AmbushAid__DefaultStatusIcon"
     },
@@ -327,22 +328,22 @@
     },
     "StepValue"    : 100.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u5931\u5B9E\u75C7\u4E0D\u591F",
     "en" : "Not enough Derealization",
     "ja" : "\u975E\u73FE\u5B9F\u5316\u304C\u8DB3\u308A\u306A\u3044"
   },
-  "type"                    : "GameStat",
-  "key"                     : "Derealization",
-  "icon"                    : "GameStat__AmbushAid__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Derealization",
+  "icon"                        : "GameStat__AmbushAid__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u5931\u5B9E\u75C7",
     "en" : "Derealization",
     "ja" : "\u975E\u73FE\u5B9F\u5316"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "TumourBoiled",
@@ -350,7 +351,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -372,7 +373,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -394,7 +395,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -416,7 +417,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -674,7 +675,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "VoidBlessing",
@@ -1086,7 +1087,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_VoidSpiritCalling",
@@ -1110,7 +1111,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_VoidExperience",
@@ -1132,5 +1133,5 @@
       }
     }
   ],
-  "_uuid"                   : "33f8fd9bbc4fe6245bd993cad8c52075"
+  "_uuid"                       : "33f8fd9bbc4fe6245bd993cad8c52075"
 }

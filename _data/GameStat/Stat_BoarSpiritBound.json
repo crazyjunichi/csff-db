@@ -5,30 +5,31 @@
     "en" : "BoarSpiritBound",
     "ja" : "BoarSpiritBound"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_BoarSpiritBound",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_BoarSpiritBound",
+  "name"                        : {
     "zh" : "\u91CE\u732A\u7075\u7ED1\u5B9A",
     "en" : "BoarSpiritBound",
     "ja" : "BoarSpiritBound"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_BoarSpiritSummoningGranted",
@@ -52,7 +53,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_BoarSpiritCalling",
@@ -76,5 +77,5 @@
       }
     }
   ],
-  "_uuid"                   : "201ebc70d5d62cd4d9945b5e9ebe1644"
+  "_uuid"                       : "201ebc70d5d62cd4d9945b5e9ebe1644"
 }

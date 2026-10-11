@@ -5,15 +5,16 @@
     "en" : "Population Bear",
     "ja" : "\u30AF\u30DE\u306E\u6570"
   },
-  "BaseValue" : 1000.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 1000.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u5BC6\u5EA6",
@@ -51,22 +52,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Pop_Bear",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Pop_Bear",
+  "name"                        : {
     "zh" : "\u718A\u79CD\u7FA4\u6570\u91CF",
     "en" : "Population Bear",
     "ja" : "\u30AF\u30DE\u306E\u6570"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Agent_Bear",
@@ -152,7 +153,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Pop_Bear",
@@ -197,5 +198,5 @@
       }
     }
   ],
-  "_uuid"                   : "1c2509d0ca187c04da0df38cf2ce2ca7"
+  "_uuid"                       : "1c2509d0ca187c04da0df38cf2ce2ca7"
 }

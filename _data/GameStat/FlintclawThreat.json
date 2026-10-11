@@ -5,42 +5,43 @@
     "en" : "FlintclawThreat",
     "ja" : "FlintclawThreat"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FlintclawThreat",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FlintclawThreat",
+  "name"                        : {
     "zh" : "\u71E7\u77F3\u722A\u5A01\u80C1",
     "en" : "FlintclawThreat",
     "ja" : "FlintclawThreat"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Caves_FmFlintclawsChamber",
@@ -64,7 +65,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_FlintclawFight",
@@ -86,5 +87,5 @@
       }
     }
   ],
-  "_uuid"                   : "1fc0009ee612e5a4283da646913a2207"
+  "_uuid"                       : "1fc0009ee612e5a4283da646913a2207"
 }

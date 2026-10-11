@@ -10,30 +10,31 @@
     "en" : "Counter used to fulfill the Poultry Farming Objective: Get the Trust of a Partridge Hen. Increased when PartridgeFemaleFree Reaches High Enough Happines to start growing an egg.",
     "ja" : "Counter used to fulfill the Poultry Farming Objective: Get the Trust of a Partridge Hen. Increased when PartridgeFemaleFree Reaches High Enough Happines to start growing an egg."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "GainTheTrustOfPartridgeHen",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "GainTheTrustOfPartridgeHen",
+  "name"                        : {
     "zh" : "\u83B7\u5F97\u9E67\u9E2A\u6BCD\u9E21\u4FE1\u4EFB",
     "en" : "Gain the Trust of Partridge Hen",
     "ja" : "Gain the Trust of Partridge Hen"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "ChickenFreeFemale",
@@ -123,5 +124,5 @@
       }
     }
   ],
-  "_uuid"                   : "863e64c2e510467449ecb07fff642a86"
+  "_uuid"                       : "863e64c2e510467449ecb07fff642a86"
 }

@@ -5,54 +5,75 @@
     "en" : "Awareness Temp Bonus",
     "ja" : "Awareness Temp Bonus"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : -1000.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : -1000.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "AwarenessTempBonus",
-  "icon"                    : "GameStat__AlertnessAid__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "AwarenessTempBonus",
+  "icon"                        : "GameStat__AlertnessAid__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u611F\u77E5\u4E34\u65F6\u52A0\u6210",
     "en" : "Awareness Temp Bonus",
     "ja" : "Awareness Temp Bonus"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
+    {
+      "source" : {
+        "key" : "Dialogue_AgentCraftHeartAproach",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "You approach the Craft-Heart.",
+          "en" : "You approach the Craft-Heart.",
+          "ja" : "You approach the Craft-Heart."
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 1000.0,
+        "y" : 1000.0
+      }
+    },
     {
       "source" : {
         "key" : "Dialogue_AgentMoontouchedAproach",
@@ -132,7 +153,27 @@
         "x" : 1000.0,
         "y" : 1000.0
       }
+    },
+    {
+      "source" : {
+        "key" : "Dialogue_Stalker",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "You approach the Stalker. ",
+          "en" : "You approach the Stalker. ",
+          "ja" : "You approach the Stalker. "
+        }
+      },
+      "description" : {
+        "zh" : "\u5BF9\u8BDD",
+        "en" : "Dialog",
+        "ja" : "\u30C0\u30A4\u30A2\u30ED\u30B0"
+      },
+      "value"       : {
+        "x" : 1000.0,
+        "y" : 1000.0
+      }
     }
   ],
-  "_uuid"                   : "23b23b9f7ebf32642a7e449fcd242dba"
+  "_uuid"                       : "23b23b9f7ebf32642a7e449fcd242dba"
 }

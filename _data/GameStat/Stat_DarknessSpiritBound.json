@@ -5,30 +5,31 @@
     "en" : "DarknessSpiritBound",
     "ja" : "DarknessSpiritBound"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_DarknessSpiritBound",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_DarknessSpiritBound",
+  "name"                        : {
     "zh" : "\u9ED1\u6697\u7075\u7ED1\u5B9A",
     "en" : "DarknessSpiritBound",
     "ja" : "DarknessSpiritBound"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_DarknessSpiritBound",
@@ -52,7 +53,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_DarknessSpiritEncounteredInsightBonus",
@@ -74,5 +75,5 @@
       }
     }
   ],
-  "_uuid"                   : "5fdf0f72ef4609946b48c7d607ac3f10"
+  "_uuid"                       : "5fdf0f72ef4609946b48c7d607ac3f10"
 }

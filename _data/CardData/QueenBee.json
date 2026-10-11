@@ -6,12 +6,12 @@
     "ja" : "Queen Bee"
   },
   "CardDescription" : {
-    "zh" : "Could start a new colony with this!",
-    "en" : "Could start a new colony with this!",
-    "ja" : "Could start a new colony with this!"
+    "zh" : "Needed for starting new colonies.",
+    "en" : "Needed for starting new colonies.",
+    "ja" : "Needed for starting new colonies."
   },
   "CardImage"       : {
-    "FileName" : "CardData__QueenBee__CardImage"
+    "FileName" : "GameStat__BeeStings__DefaultStatusIcon"
   },
   "CardType"        : 0,
   "ObjectWeight"    : 10.0,
@@ -193,7 +193,7 @@
   "EnemyAddedStealth"               : 0.0,
   "type"                            : "CardData",
   "key"                             : "QueenBee",
-  "icon"                            : "CardData__QueenBee__CardImage",
+  "icon"                            : "GameStat__BeeStings__DefaultStatusIcon",
   "name"                            : {
     "zh" : "Queen Bee",
     "en" : "Queen Bee",
@@ -205,7 +205,7 @@
         "key" : "Beehive",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__Beehive__CardImage",
+        "icon"     : "NPCAgent__Agent_Bee1__AgentImage",
         "name"     : {
           "zh" : "Beehive",
           "en" : "Beehive",
@@ -220,14 +220,14 @@
     },
     {
       "source" : {
-        "key" : "BeeSkepSwarming",
+        "key" : "BeeSkep",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__BeeSkepSwarming__CardImage",
+        "icon"     : "CardData__BeeSkep__CardImage",
         "name"     : {
-          "zh" : "Swarming Bee Skep",
-          "en" : "Swarming Bee Skep",
-          "ja" : "Swarming Bee Skep"
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
         }
       },
       "description" : {
@@ -237,7 +237,45 @@
       }
     }
   ],
+  "_useFor"                         : [
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    }
+  ],
   "_transformTo"                    : [
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
     {
       "source" : {
         "key" : "RottenRemains",

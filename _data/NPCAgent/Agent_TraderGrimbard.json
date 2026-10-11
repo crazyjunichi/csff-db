@@ -1,0 +1,2881 @@
+
+{
+  "AgentName" : {
+    "zh" : "\u795E\u79D8\u6D1E\u7A74",
+    "en" : "Mysterious Burrow",
+    "ja" : "Mysterious Burrow"
+  },
+  "AgentImage" : {
+    "FileName" : "NPCAgent__Agent_TraderGrimbard__AgentImage"
+  },
+  "Interactions" : [
+    {
+      "ButtonName" : {
+        "zh" : "Approach",
+        "en" : "Approach",
+        "ja" : "Approach"
+      },
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "AlteredMindstate",
+              "type" : "GameStat",
+              "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 300.0,
+              "name" : {
+                "zh" : "\u7CBE\u795E\u5931\u5E38",
+                "en" : "Altered Mindstate",
+                "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 50.0,
+              "y" : 1000000000.0
+            },
+            "HideAllWhenNotMet" : true
+          }
+        ]
+      },
+      "ButtonType" : 0,
+      "Dialog"     : {
+        "key" : "Dialogue_AgentGrimbardTalk",
+        "type" : "DialogScene",
+        "name" : {
+          "zh" : "Grimbard",
+          "en" : "Grimbard",
+          "ja" : "Grimbard"
+        },
+        "firstLine" : {
+          "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+          "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+          "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
+        }
+      }
+    }
+  ],
+  "DismantleActions" : [
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Destroy",
+        "en" : "Destroy",
+        "ja" : "Destroy"
+      },
+      "DaytimeCost"             : 4,
+      "UseMiniTicks"            : 0,
+      "ProducedCards"           : [
+        {
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Event_GrimbardLostTrust",
+                "type" : "CardData",
+                "CardType" : 3,
+                "icon"     : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+                "name"     : {
+                  "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7",
+                  "en" : "Grimbard",
+                  "ja" : "Grimbard"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "StatModifications"       : [
+        {
+          "Stat" : {
+            "key" : "Agent_GrimbardExists",
+            "type" : "GameStat",
+            "min"  : 0.0,
+            "max"  : 1.0,
+            "name" : {
+              "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+              "en" : "Grimbard Exists",
+              "ja" : "Grimbard Exists"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "NPCStatModifications"    : [
+        {
+          "TargetStat" : {
+            "key" : "AgentTrust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4FE1\u4EFB\u5EA6",
+              "en" : "AgentTrust",
+              "ja" : "AgentTrust"
+            }
+          },
+          "TargetAgent" : {
+            "key" : "Agent_TraderGrimbard",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+            "name" : {
+              "zh" : "\u795E\u79D8\u6D1E\u7A74",
+              "en" : "Mysterious Burrow",
+              "ja" : "Mysterious Burrow"
+            }
+          },
+          "ValueChange" : {
+            "x" : -20000.0,
+            "y" : -20000.0
+          }
+        }
+      ],
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    }
+  ],
+  "DragAndDropActions" : [
+    {
+      "GivenCardChanges" : {
+        "ModType" : 3,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "CompatibleCards"  : {
+        "TriggerTags" : [
+          {
+            "key" : "tag_FeedCarniOmniSmall",
+            "type" : "CardTag",
+            "count" : 10,
+            "name"  : {
+              "zh" : "\u5C0F\u578B\u8089\u98DF/\u6742\u98DF\u9972\u6599",
+              "en" : "Small Feed for Carnivores and Omnivores that is to small to catch interest of large animals. ",
+              "ja" : "Small Feed for Carnivores and Omnivores that is to small to catch interest of large animals. "
+            }
+          }
+        ]
+      },
+      "ActionName"       : {
+        "zh" : "Feed",
+        "en" : "Feed",
+        "ja" : "Feed"
+      },
+      "DaytimeCost"      : 0,
+      "UseMiniTicks"     : 0,
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentTrust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4FE1\u4EFB\u5EA6",
+              "en" : "AgentTrust",
+              "ja" : "AgentTrust"
+            }
+          },
+          "TargetAgent" : {
+            "key" : "Agent_TraderGrimbard",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+            "name" : {
+              "zh" : "\u795E\u79D8\u6D1E\u7A74",
+              "en" : "Mysterious Burrow",
+              "ja" : "Mysterious Burrow"
+            }
+          },
+          "ValueChange" : {
+            "x" : 20.0,
+            "y" : 20.0
+          }
+        }
+      ],
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    },
+    {
+      "GivenCardChanges" : {
+        "ModType" : 3,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "CompatibleCards"  : {
+        "TriggerTags" : [
+          {
+            "key" : "tag_FeedCarniOmni",
+            "type" : "CardTag",
+            "count" : 140,
+            "name"  : {
+              "zh" : "\u8089\u98DF/\u6742\u98DF\u9972\u6599",
+              "en" : "Feed for Carnivores and Omnivores",
+              "ja" : "Feed for Carnivores and Omnivores"
+            }
+          }
+        ]
+      },
+      "ActionName"       : {
+        "zh" : "Feed",
+        "en" : "Feed",
+        "ja" : "Feed"
+      },
+      "DaytimeCost"      : 0,
+      "UseMiniTicks"     : 0,
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentTrust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4FE1\u4EFB\u5EA6",
+              "en" : "AgentTrust",
+              "ja" : "AgentTrust"
+            }
+          },
+          "TargetAgent" : {
+            "key" : "Agent_TraderGrimbard",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+            "name" : {
+              "zh" : "\u795E\u79D8\u6D1E\u7A74",
+              "en" : "Mysterious Burrow",
+              "ja" : "Mysterious Burrow"
+            }
+          },
+          "ValueChange" : {
+            "x" : 80.0,
+            "y" : 80.0
+          }
+        }
+      ],
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    }
+  ],
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 0,
+  "AgentStats"             : [
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5546\u4EBA\u53EF\u7528",
+          "en" : "AgentTraderAvailable",
+          "ja" : "AgentTraderAvailable"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTraderAvailable",
+        "zh"                      : "\u5546\u4EBA\u53EF\u7528",
+        "en"                      : "AgentTraderAvailable",
+        "ja"                      : "AgentTraderAvailable"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 1.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BA1\u6B65\u5668",
+          "en" : "Agent Counter",
+          "ja" : "Agent Counter"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCounter",
+        "zh"                      : "\u8BA1\u6B65\u5668",
+        "en"                      : "AgentCounter",
+        "ja"                      : "AgentCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 11520.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u89C1\u8FC7\u73A9\u5BB6",
+          "en" : "Seen Player Ever",
+          "ja" : "Seen Player Ever"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "SeenPlayerEver",
+        "zh"                      : "\u89C1\u8FC7\u73A9\u5BB6",
+        "en"                      : "SeenPlayerEver",
+        "ja"                      : "SeenPlayerEver"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u4ECA\u5929\u89C1\u8FC7\u73A9\u5BB6",
+          "en" : "Seen Player Today",
+          "ja" : "Seen Player Today"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 64.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "SeenPlayerToday",
+        "zh"                      : "\u4ECA\u5929\u89C1\u8FC7\u73A9\u5BB6",
+        "en"                      : "SeenPlayerToday",
+        "ja"                      : "SeenPlayerToday"
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u4FE1\u4EFB\u5EA6",
+          "en" : "Agent Trust",
+          "ja" : "Agent Trust"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 20000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 20000.0
+        },
+        "StatScalingToModifiers" : [
+          {
+            "InterpolatedValue" : {
+              "InputStat" : {
+                "key" : "Empathy",
+                "type" : "GameStat",
+                "icon" : "GameStat__Empathy__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u4FE1\u4EFB",
+                  "en" : "Empathy",
+                  "ja" : "Empathy"
+                }
+              },
+              "Value"     : {
+                "Active" : true,
+                "InputValueRange" : {
+                  "x" : 0.0,
+                  "y" : 100.0
+                },
+                "OutputValueRange" : {
+                  "x" : 0.9,
+                  "y" : 1.1
+                },
+                "WhenOutOfRange"   : 1,
+                "OutOfRangeCustomValue" : 0.0
+              }
+            }
+          },
+          {
+            "InterpolatedValue" : {
+              "InputStat" : {
+                "key" : "Skill_Socials",
+                "type" : "GameStat",
+                "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+                  "en" : "Socials",
+                  "ja" : "\u793E\u4EA4"
+                }
+              },
+              "Value"     : {
+                "Active" : true,
+                "InputValueRange" : {
+                  "x" : 0.0,
+                  "y" : 150.0
+                },
+                "OutputValueRange" : {
+                  "x" : 0.9,
+                  "y" : 1.1
+                },
+                "WhenOutOfRange"   : 1,
+                "OutOfRangeCustomValue" : 0.0
+              }
+            }
+          }
+        ],
+        "HidingOptions"          : 0,
+        "TextDisplay"            : 0,
+        "NumberPrecision"        : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrust",
+        "zh"                      : "\u4FE1\u4EFB\u5EA6",
+        "en"                      : "AgentTrust",
+        "ja"                      : "AgentTrust"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 250.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u7CBE\u9B44",
+          "en" : "Agent Spirit",
+          "ja" : "Agent Spirit"
+        },
+        "DefaultStartingValue" : 288.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 288.0
+        },
+        "DefaultRate"          : 1.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentSpirit",
+        "zh"                      : "\u7CBE\u9B44",
+        "en"                      : "AgentSpirit",
+        "ja"                      : "AgentSpirit"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 2880.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 2880.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    }
+  ],
+  "AgentActions"           : [
+    {
+      "ActionID" : "Prepare regular for arival at Badger Hill Spring",
+      "ActionLocalizedName" : {
+        "zh" : "Prepare regular for arival at Badger Hill Spring",
+        "en" : "Prepare regular for arival at Badger Hill Spring",
+        "ja" : "Prepare regular for arival at Badger Hill Spring"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2.0,
+              "y" : 2.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_GrimbardExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+                "en" : "Grimbard Exists",
+                "ja" : "Grimbard Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentTraderAvailable",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5546\u4EBA\u53EF\u7528",
+                "en" : "AgentTraderAvailable",
+                "ja" : "AgentTraderAvailable"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Regular",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "BugsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__BugAffinity__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u866B\u5B50",
+                  "en" : "Bugs",
+                  "ja" : "\u6606\u866B"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MouseRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_MouseEnchantment__CardImage",
+                "name"     : {
+                  "zh" : "\u6B7B\u8001\u9F20",
+                  "en" : "Dead Mouse",
+                  "ja" : "\u6B7B\u3093\u3060\u30CD\u30BA\u30DF"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "AcornsPoisonRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__AcornsBlackEdibleRaw__CardImage",
+                "name"     : {
+                  "zh" : "\u751F\u6A61\u5B50",
+                  "en" : "Raw Acorns",
+                  "ja" : "\u751F\u306E\u3069\u3093\u3050\u308A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Flint",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_FlintBlessing__CardImage",
+                "name"     : {
+                  "zh" : "\u71E7\u77F3",
+                  "en" : "Flint",
+                  "ja" : "\u706B\u6253\u77F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "FirerootFresh",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FirerootFresh__CardImage",
+                "name"     : {
+                  "zh" : "\u706B\u6839",
+                  "en" : "Fireroot",
+                  "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "AcornsSpiritRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__AcornsBlackEdibleRaw__CardImage",
+                "name"     : {
+                  "zh" : "\u7075\u9B42\u6A61\u5B50",
+                  "en" : "Spirit Acorns",
+                  "ja" : "\u7CBE\u970A\u3069\u3093\u3050\u308A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 10000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Greenstone",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_GreenStone__CardImage",
+                "name"     : {
+                  "zh" : "\u7EFF\u77F3",
+                  "en" : "Greenstone",
+                  "ja" : "\u30B0\u30EA\u30FC\u30F3\u30B9\u30C8\u30FC\u30F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 10000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Prepare regular for arival at Badger Hill Summer",
+      "ActionLocalizedName" : {
+        "zh" : "Prepare regular for arival at Badger Hill Summer",
+        "en" : "Prepare regular for arival at Badger Hill Summer",
+        "ja" : "Prepare regular for arival at Badger Hill Summer"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Summer",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u590F\u5B63",
+                "en" : "Summer Counter",
+                "ja" : "Summer Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2.0,
+              "y" : 2.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_GrimbardExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+                "en" : "Grimbard Exists",
+                "ja" : "Grimbard Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentTraderAvailable",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5546\u4EBA\u53EF\u7528",
+                "en" : "AgentTraderAvailable",
+                "ja" : "AgentTraderAvailable"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Regular",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "BugsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__BugAffinity__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u866B\u5B50",
+                  "en" : "Bugs",
+                  "ja" : "\u6606\u866B"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MouseRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_MouseEnchantment__CardImage",
+                "name"     : {
+                  "zh" : "\u6B7B\u8001\u9F20",
+                  "en" : "Dead Mouse",
+                  "ja" : "\u6B7B\u3093\u3060\u30CD\u30BA\u30DF"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "AcornsPoisonRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__AcornsBlackEdibleRaw__CardImage",
+                "name"     : {
+                  "zh" : "\u751F\u6A61\u5B50",
+                  "en" : "Raw Acorns",
+                  "ja" : "\u751F\u306E\u3069\u3093\u3050\u308A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Flint",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_FlintBlessing__CardImage",
+                "name"     : {
+                  "zh" : "\u71E7\u77F3",
+                  "en" : "Flint",
+                  "ja" : "\u706B\u6253\u77F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "FirerootFresh",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FirerootFresh__CardImage",
+                "name"     : {
+                  "zh" : "\u706B\u6839",
+                  "en" : "Fireroot",
+                  "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "AcornsSpiritRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__AcornsBlackEdibleRaw__CardImage",
+                "name"     : {
+                  "zh" : "\u7075\u9B42\u6A61\u5B50",
+                  "en" : "Spirit Acorns",
+                  "ja" : "\u7CBE\u970A\u3069\u3093\u3050\u308A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 10000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Greenstone",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_GreenStone__CardImage",
+                "name"     : {
+                  "zh" : "\u7EFF\u77F3",
+                  "en" : "Greenstone",
+                  "ja" : "\u30B0\u30EA\u30FC\u30F3\u30B9\u30C8\u30FC\u30F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 10000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Prepare regular for arival at Badger Hill Autumn",
+      "ActionLocalizedName" : {
+        "zh" : "Prepare regular for arival at Badger Hill Autumn",
+        "en" : "Prepare regular for arival at Badger Hill Autumn",
+        "ja" : "Prepare regular for arival at Badger Hill Autumn"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2.0,
+              "y" : 2.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_GrimbardExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+                "en" : "Grimbard Exists",
+                "ja" : "Grimbard Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentTraderAvailable",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5546\u4EBA\u53EF\u7528",
+                "en" : "AgentTraderAvailable",
+                "ja" : "AgentTraderAvailable"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Regular",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "BugsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__BugAffinity__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u866B\u5B50",
+                  "en" : "Bugs",
+                  "ja" : "\u6606\u866B"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MouseRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_MouseEnchantment__CardImage",
+                "name"     : {
+                  "zh" : "\u6B7B\u8001\u9F20",
+                  "en" : "Dead Mouse",
+                  "ja" : "\u6B7B\u3093\u3060\u30CD\u30BA\u30DF"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "AcornsPoisonRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__AcornsBlackEdibleRaw__CardImage",
+                "name"     : {
+                  "zh" : "\u751F\u6A61\u5B50",
+                  "en" : "Raw Acorns",
+                  "ja" : "\u751F\u306E\u3069\u3093\u3050\u308A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Flint",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_FlintBlessing__CardImage",
+                "name"     : {
+                  "zh" : "\u71E7\u77F3",
+                  "en" : "Flint",
+                  "ja" : "\u706B\u6253\u77F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "FirerootFresh",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FirerootFresh__CardImage",
+                "name"     : {
+                  "zh" : "\u706B\u6839",
+                  "en" : "Fireroot",
+                  "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "AcornsSpiritRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__AcornsBlackEdibleRaw__CardImage",
+                "name"     : {
+                  "zh" : "\u7075\u9B42\u6A61\u5B50",
+                  "en" : "Spirit Acorns",
+                  "ja" : "\u7CBE\u970A\u3069\u3093\u3050\u308A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 10000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Greenstone",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_GreenStone__CardImage",
+                "name"     : {
+                  "zh" : "\u7EFF\u77F3",
+                  "en" : "Greenstone",
+                  "ja" : "\u30B0\u30EA\u30FC\u30F3\u30B9\u30C8\u30FC\u30F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 10000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Prepare regular for arival at Badger Hill Winter",
+      "ActionLocalizedName" : {
+        "zh" : "Prepare regular for arival at Badger Hill Winter",
+        "en" : "Prepare regular for arival at Badger Hill Winter",
+        "ja" : "Prepare regular for arival at Badger Hill Winter"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Winter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u51AC\u5B63",
+                "en" : "Winter Counter",
+                "ja" : "Winter Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 2.0,
+              "y" : 2.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_GrimbardExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+                "en" : "Grimbard Exists",
+                "ja" : "Grimbard Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentTraderAvailable",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5546\u4EBA\u53EF\u7528",
+                "en" : "AgentTraderAvailable",
+                "ja" : "AgentTraderAvailable"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"        : [
+        {
+          "CollectionName" : "Regular",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "BugsRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__BugAffinity__DefaultStatusIcon",
+                "name"     : {
+                  "zh" : "\u866B\u5B50",
+                  "en" : "Bugs",
+                  "ja" : "\u6606\u866B"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "MouseRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_MouseEnchantment__CardImage",
+                "name"     : {
+                  "zh" : "\u6B7B\u8001\u9F20",
+                  "en" : "Dead Mouse",
+                  "ja" : "\u6B7B\u3093\u3060\u30CD\u30BA\u30DF"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "AcornsPoisonRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__AcornsBlackEdibleRaw__CardImage",
+                "name"     : {
+                  "zh" : "\u751F\u6A61\u5B50",
+                  "en" : "Raw Acorns",
+                  "ja" : "\u751F\u306E\u3069\u3093\u3050\u308A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Flint",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_FlintBlessing__CardImage",
+                "name"     : {
+                  "zh" : "\u71E7\u77F3",
+                  "en" : "Flint",
+                  "ja" : "\u706B\u6253\u77F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "FirerootFresh",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__FirerootFresh__CardImage",
+                "name"     : {
+                  "zh" : "\u706B\u6839",
+                  "en" : "Fireroot",
+                  "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 5000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "AcornsSpiritRaw",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__AcornsBlackEdibleRaw__CardImage",
+                "name"     : {
+                  "zh" : "\u7075\u9B42\u6A61\u5B50",
+                  "en" : "Spirit Acorns",
+                  "ja" : "\u7CBE\u970A\u3069\u3093\u3050\u308A"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 10000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Greenstone",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Bp_GreenStone__CardImage",
+                "name"     : {
+                  "zh" : "\u7EFF\u77F3",
+                  "en" : "Greenstone",
+                  "ja" : "\u30B0\u30EA\u30FC\u30F3\u30B9\u30C8\u30FC\u30F3"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 10,
+                "m_Y" : 10
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "NPCStatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "AgentTrust",
+                      "type" : "NPCStat",
+                      "name" : {
+                        "zh" : "\u4FE1\u4EFB\u5EA6",
+                        "en" : "AgentTrust",
+                        "ja" : "AgentTrust"
+                      }
+                    },
+                    "UseAssociatedAgent" : true,
+                    "Value"              : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 10000.0,
+                        "y" : 20000.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 100.0,
+                        "y" : 100.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Arrive at Badger Hill Spring",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Badger Hill Spring",
+        "en" : "Arrive at Badger Hill Spring",
+        "ja" : "Arrive at Badger Hill Spring"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3.0,
+              "y" : 3.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_GrimbardExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+                "en" : "Grimbard Exists",
+                "ja" : "Grimbard Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentTraderAvailable",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5546\u4EBA\u53EF\u7528",
+                "en" : "AgentTraderAvailable",
+                "ja" : "AgentTraderAvailable"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 11520.0,
+            "y" : 11520.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ClearingPine_BadgerHillQEE",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u737E\u4E18",
+          "en" : "Badger Hill",
+          "ja" : "\u30A2\u30CA\u30B0\u30DE\u306E\u4E18"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Arrive at Badger Hill Summer",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Badger Hill Summer",
+        "en" : "Arrive at Badger Hill Summer",
+        "ja" : "Arrive at Badger Hill Summer"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Summer",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u590F\u5B63",
+                "en" : "Summer Counter",
+                "ja" : "Summer Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3.0,
+              "y" : 3.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_GrimbardExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+                "en" : "Grimbard Exists",
+                "ja" : "Grimbard Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentTraderAvailable",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5546\u4EBA\u53EF\u7528",
+                "en" : "AgentTraderAvailable",
+                "ja" : "AgentTraderAvailable"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 11520.0,
+            "y" : 11520.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ClearingPine_BadgerHillQEE",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u737E\u4E18",
+          "en" : "Badger Hill",
+          "ja" : "\u30A2\u30CA\u30B0\u30DE\u306E\u4E18"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Arrive at Badger Hill Autumn",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Badger Hill Autumn",
+        "en" : "Arrive at Badger Hill Autumn",
+        "ja" : "Arrive at Badger Hill Autumn"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3.0,
+              "y" : 3.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_GrimbardExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+                "en" : "Grimbard Exists",
+                "ja" : "Grimbard Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentTraderAvailable",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5546\u4EBA\u53EF\u7528",
+                "en" : "AgentTraderAvailable",
+                "ja" : "AgentTraderAvailable"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 11520.0,
+            "y" : 11520.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ClearingPine_BadgerHillQEE",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u737E\u4E18",
+          "en" : "Badger Hill",
+          "ja" : "\u30A2\u30CA\u30B0\u30DE\u306E\u4E18"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Arrive at Badger Hill Winter",
+      "ActionLocalizedName" : {
+        "zh" : "Arrive at Badger Hill Winter",
+        "en" : "Arrive at Badger Hill Winter",
+        "ja" : "Arrive at Badger Hill Winter"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Winter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u51AC\u5B63",
+                "en" : "Winter Counter",
+                "ja" : "Winter Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3.0,
+              "y" : 3.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_GrimbardExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+                "en" : "Grimbard Exists",
+                "ja" : "Grimbard Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentTraderAvailable",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5546\u4EBA\u53EF\u7528",
+                "en" : "AgentTraderAvailable",
+                "ja" : "AgentTraderAvailable"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 11520.0,
+            "y" : 11520.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ClearingPine_BadgerHillQEE",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u737E\u4E18",
+          "en" : "Badger Hill",
+          "ja" : "\u30A2\u30CA\u30B0\u30DE\u306E\u4E18"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Depart to Spirit World",
+      "ActionLocalizedName" : {
+        "zh" : "Depart to Spirit World",
+        "en" : "Depart to Spirit World",
+        "ja" : "Depart to Spirit World"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Agent_GrimbardExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5B58\u5728",
+                "en" : "Grimbard Exists",
+                "ja" : "Grimbard Exists"
+              }
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentTraderAvailable",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5546\u4EBA\u53EF\u7528",
+                "en" : "AgentTraderAvailable",
+                "ja" : "AgentTraderAvailable"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    }
+  ],
+  "MaxCarryWeight"         : 100000.0,
+  "TradingConditions"      : {
+    "PlayerUsesCard" : 0,
+    "RequiredStatValues" : [
+      {
+        "Stat" : {
+          "key" : "AlteredMindstate",
+          "type" : "GameStat",
+          "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 300.0,
+          "name" : {
+            "zh" : "\u7CBE\u795E\u5931\u5E38",
+            "en" : "Altered Mindstate",
+            "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 50.0,
+          "y" : 10000.0
+        }
+      }
+    ]
+  },
+  "TradingModifiers"       : [
+    {
+      "ForTradingDirection" : 2,
+      "ModifierMode"        : 1,
+      "SimpleModifier"      : 1.0,
+      "GlobalStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "Skill_Socials",
+            "type" : "GameStat",
+            "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 150.0,
+            "name" : {
+              "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+              "en" : "Socials",
+              "ja" : "\u793E\u4EA4"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 150.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.1,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Neoteny",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5E7C\u6001\u5EF6\u7EED\u6027",
+              "en" : "Neoteny",
+              "ja" : "\u5E7C\u5F62\u6210\u719F"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.025,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FacialHarmony",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u5BF9\u79F0\u6027",
+              "en" : "Facial Harmony",
+              "ja" : "Facial Harmony"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.025,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FemaleTraits",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : -100.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u5973\u6027\u7279\u5F81",
+              "en" : "Female Traits",
+              "ja" : "\u5973\u6027\u306E\u7279\u5FB4"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.05,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Size",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u5C3A\u5BF8",
+              "en" : "Size",
+              "ja" : "\u5927\u304D\u3055"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 100.0,
+              "y" : 50.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.05,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      ],
+      "NPCStatModifiers"    : [
+        {
+          "Stat" : {
+            "key" : "AgentTrust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4FE1\u4EFB\u5EA6",
+              "en" : "AgentTrust",
+              "ja" : "AgentTrust"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 20000.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.25,
+              "y" : 0.0
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      ]
+    },
+    {
+      "ForTradingDirection" : 1,
+      "TargetItems"         : [
+        {
+          "Target" : {
+            "key" : "tag_TraderInterestX4Grimbard",
+            "type" : "CardTag",
+            "count" : 27,
+            "name"  : {
+              "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5174\u8DA3\u00D74",
+              "en" : "tag_GrimbardTraderInterestX4",
+              "ja" : "tag_GrimbardTraderInterestX4"
+            }
+          }
+        }
+      ],
+      "ModifierMode"        : 1,
+      "SimpleModifier"      : 4.0
+    },
+    {
+      "ForTradingDirection" : 1,
+      "TargetItems"         : [
+        {
+          "Target" : {
+            "key" : "tag_TraderInterestX2Grimbard",
+            "type" : "CardTag",
+            "count" : 0,
+            "name"  : {
+              "zh" : "tag_GrimbardTraderInterestX2",
+              "en" : "tag_GrimbardTraderInterestX2",
+              "ja" : "tag_GrimbardTraderInterestX2"
+            }
+          }
+        }
+      ],
+      "ModifierMode"        : 1,
+      "SimpleModifier"      : 2.0
+    },
+    {
+      "ForTradingDirection" : 1,
+      "ModifierMode"        : 1,
+      "SimpleModifier"      : 0.25
+    },
+    {
+      "ForTradingDirection" : 1,
+      "ModifierMode"        : 1,
+      "SimpleModifier"      : 1.0,
+      "GlobalStatModifiers" : [
+        {
+          "Stat" : {
+            "key" : "Skill_Socials",
+            "type" : "GameStat",
+            "icon" : "GameStat__Coherence__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 150.0,
+            "name" : {
+              "zh" : "\u4EBA\u60C5\u7EC3\u8FBE",
+              "en" : "Socials",
+              "ja" : "\u793E\u4EA4"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 150.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.1
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Neoteny",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5E7C\u6001\u5EF6\u7EED\u6027",
+              "en" : "Neoteny",
+              "ja" : "\u5E7C\u5F62\u6210\u719F"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.025
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FacialHarmony",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u5BF9\u79F0\u6027",
+              "en" : "Facial Harmony",
+              "ja" : "Facial Harmony"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.025
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "FemaleTraits",
+            "type" : "GameStat",
+            "icon" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+            "min"  : -100.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u5973\u6027\u7279\u5F81",
+              "en" : "Female Traits",
+              "ja" : "\u5973\u6027\u306E\u7279\u5FB4"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.05
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Size",
+            "type" : "GameStat",
+            "icon" : "GameStat__CallousesFeet__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u5C3A\u5BF8",
+              "en" : "Size",
+              "ja" : "\u5927\u304D\u3055"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 100.0,
+              "y" : 50.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.05
+            },
+            "WhenOutOfRange"   : 1,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      ],
+      "NPCStatModifiers"    : [
+        {
+          "Stat" : {
+            "key" : "AgentTrust",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u4FE1\u4EFB\u5EA6",
+              "en" : "AgentTrust",
+              "ja" : "AgentTrust"
+            }
+          },
+          "Modifier" : {
+            "Active" : true,
+            "InputValueRange" : {
+              "x" : 0.0,
+              "y" : 20000.0
+            },
+            "OutputValueRange" : {
+              "x" : 0.0,
+              "y" : 0.25
+            },
+            "WhenOutOfRange"   : 0,
+            "OutOfRangeCustomValue" : 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "ModifyNPCStatsPerTradeValue" : [
+    {
+      "Type" : 0,
+      "Modifier" : {
+        "TargetStat" : {
+          "key" : "AgentTrust",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u4FE1\u4EFB\u5EA6",
+            "en" : "AgentTrust",
+            "ja" : "AgentTrust"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    },
+    {
+      "Type" : 2,
+      "Modifier" : {
+        "TargetStat" : {
+          "key" : "AgentTrust",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u4FE1\u4EFB\u5EA6",
+            "en" : "AgentTrust",
+            "ja" : "AgentTrust"
+          }
+        },
+        "UseAssociatedAgent" : true,
+        "ValueChange"        : {
+          "x" : 0.15,
+          "y" : 0.15
+        }
+      }
+    }
+  ],
+  "DebugColor"                  : {
+    "r" : 1.0,
+    "g" : 1.0,
+    "b" : 1.0,
+    "a" : 1.0
+  },
+  "type"                        : "NPCAgent",
+  "key"                         : "Agent_TraderGrimbard",
+  "icon"                        : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+  "name"                        : {
+    "zh" : "\u795E\u79D8\u6D1E\u7A74",
+    "en" : "Mysterious Burrow",
+    "ja" : "Mysterious Burrow"
+  },
+  "_uuid"                       : "5eb7e9e563cc92f499f88c5442ad88b3"
+}

@@ -10,30 +10,31 @@
     "en" : "Reduces pain, stress and mental structure while increasing courage and morale. Causes dehydration and nausea when high.",
     "ja" : "\u75DB\u307F\u3001\u30B9\u30C8\u30EC\u30B9\u3001\u7CBE\u795E\u72B6\u614B\u3092\u6E1B\u3089\u3057\u3001\u52C7\u6C17\u3068\u6C17\u5206\u3092\u4E0A\u3052\u308B\u3002\u8131\u6C34\u3068\u5410\u304D\u6C17\u306E\u539F\u56E0\u306B\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 70.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.502,
     "g" : 0.1725,
     "b" : 0.0118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__AlcoholEffect__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5FAE\u91BA",
@@ -651,27 +652,27 @@
       "ConfidenceModifier"     : 0.6
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AlcoholEffect__FeedbackInfo-Icon"
     },
     "StepValue" : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "AlcoholEffect",
-  "icon"                    : "GameStat__AlcoholEffect__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "AlcoholEffect",
+  "icon"                        : "GameStat__AlcoholEffect__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u9152\u7CBE",
     "en" : "Alcohol",
     "ja" : "\u9152"
   },
-  "min"                     : 0.0,
-  "max"                     : 70.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 70.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_Vomit",
@@ -820,6 +821,28 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u996E\u7528",
         "en" : "Action: Drink",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98F2\u3080"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 127.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyMead",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u8702\u871C\u9152",
+          "en" : "Mead",
+          "ja" : "Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ADrink",
+        "en" : "Action: Drink",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ADrink"
       },
       "value"       : {
         "x" : 0.0,
@@ -1023,5 +1046,5 @@
       }
     }
   ],
-  "_uuid"                   : "513ae4007a5e58c47857537a3ae653ad"
+  "_uuid"                       : "513ae4007a5e58c47857537a3ae653ad"
 }

@@ -10,30 +10,31 @@
     "en" : "Helps your immune system, mood and energy levels. Can be gained by eating meat.",
     "ja" : "\u514D\u75AB\u529B\u3001\u6C17\u5206\u3001\u30A8\u30CD\u30EB\u30AE\u30FC\u3092\u6539\u5584\u3059\u308B\u3002\u8089\u3092\u98DF\u3079\u308B\u3068\u6442\u53D6\u3067\u304D\u308B\u3002"
   },
-  "BaseValue"   : 336.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 336.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 336.0
   },
-  "BaseRatePerTick" : -0.5,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -0.5,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.2235,
     "g" : 0.4,
     "b" : 0.8706,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__LQ_MilkCurdled__SpecialDurability3-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u86CB\u767D",
@@ -110,27 +111,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Appetite__FeedbackInfo-Icon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Proteins",
-  "icon"                    : "CardData__LQ_MilkCurdled__SpecialDurability3-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Proteins",
+  "icon"                        : "CardData__LQ_MilkCurdled__SpecialDurability3-OverrideIcon",
+  "name"                        : {
     "zh" : "\u86CB\u767D\u8D28",
     "en" : "Proteins",
     "ja" : "\u30BF\u30F3\u30D1\u30AF\u8CEA"
   },
-  "min"                     : 0.0,
-  "max"                     : 336.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 336.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Proteins_Stomach",
@@ -316,5 +317,5 @@
       }
     }
   ],
-  "_uuid"                   : "0344bd36c91a41041947df8e879ffab5"
+  "_uuid"                       : "0344bd36c91a41041947df8e879ffab5"
 }

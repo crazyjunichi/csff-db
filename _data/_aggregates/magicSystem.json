@@ -543,7 +543,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -563,7 +563,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -1158,7 +1158,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -1178,7 +1178,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -1719,7 +1719,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -1739,7 +1739,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -2334,7 +2334,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -2354,7 +2354,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -2960,7 +2960,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -2980,7 +2980,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -3078,6 +3078,204 @@
       },
       {
         "type" : "Carcass",
+        "liquid" : {
+          "key" : "LQ_SpiritDuck",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "NPCAgent__Agent_Duck1__AgentImage",
+          "name"     : {
+            "zh" : "\u9E2D\u7CBE\u9B44",
+            "en" : "Duck Spirit",
+            "ja" : "Duck Spirit"
+          }
+        },
+        "blueprintContainers" : [
+          {
+            "key" : "Carcass_DuckCarcass",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+            "name"     : {
+              "zh" : "\u6B7B\u9E2D\u5B50",
+              "en" : "Dead Duck",
+              "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+            }
+          }
+        ],
+        "blueprints"          : [
+          {
+            "key" : "Bp_DuckEnchantment",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+            "name"     : {
+              "zh" : "\u9E2D\u9644\u9B54",
+              "en" : "Duck Enchantment",
+              "ja" : "Duck Enchantment"
+            }
+          }
+        ],
+        "blessing"            : {
+          "statMods" : [
+            {
+              "Stat" : {
+                "key" : "SwimmingAid",
+                "type" : "GameStat",
+                "icon" : "GameStat__Skill_Swimming__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u6E38\u6CF3\u63F4\u52A9",
+                  "en" : "Swimming Aid",
+                  "ja" : "\u6C34\u6CF3\u88DC\u52A9\u865A\u7121\u306E\u52A0\u8B77"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 288.0,
+                "y" : 288.0
+              },
+              "IgnoreNovelty" : true
+            },
+            {
+              "Stat" : {
+                "key" : "SpearfishingAid",
+                "type" : "GameStat",
+                "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+                  "en" : "Spearfishing Aid",
+                  "ja" : "Spearfishing Aid"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 288.0,
+                "y" : 288.0
+              },
+              "IgnoreNovelty" : true
+            },
+            {
+              "Stat" : {
+                "key" : "WaterproofingAid",
+                "type" : "GameStat",
+                "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u9632\u6C34\u63F4\u52A9",
+                  "en" : "Waterproofing Aid",
+                  "ja" : "Waterproofing Aid"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 288.0,
+                "y" : 288.0
+              },
+              "IgnoreNovelty" : true
+            }
+          ],
+          "quantity" : 0.0,
+          "focusCost" : -48.0,
+          "cooldown"  : 0.0
+        },
+        "enchantment"         : {
+          "blueprint" : {
+            "key" : "Bp_DuckEnchantment",
+            "type" : "CardData",
+            "CardType" : 7,
+            "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+            "name"     : {
+              "zh" : "\u9E2D\u9644\u9B54",
+              "en" : "Duck Enchantment",
+              "ja" : "Duck Enchantment"
+            }
+          },
+          "desc"      : {
+            "zh" : "Enchants an object with the blessings of a duck spirit, making you more alert and helping you take care of ducks.",
+            "en" : "Enchants an object with the blessings of a duck spirit, making you more alert and helping you take care of ducks.",
+            "ja" : "Enchants an object with the blessings of a duck spirit, making you more alert and helping you take care of ducks."
+          },
+          "statMods"  : [
+            {
+              "Stat" : {
+                "key" : "SpiritualNoise",
+                "type" : "GameStat",
+                "icon" : "GameStat__Headache__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 13.0,
+                "name" : {
+                  "zh" : "\u7CBE\u9B44\u566A\u97F3",
+                  "en" : "Spiritual Noise",
+                  "ja" : "\u970A\u969C"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 1.0,
+                "y" : 1.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "SpearfishingAid",
+                "type" : "GameStat",
+                "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+                  "en" : "Spearfishing Aid",
+                  "ja" : "Spearfishing Aid"
+                }
+              },
+              "RateModifier" : {
+                "x" : 1.2,
+                "y" : 1.2
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "WaterproofingAid",
+                "type" : "GameStat",
+                "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u9632\u6C34\u63F4\u52A9",
+                  "en" : "Waterproofing Aid",
+                  "ja" : "Waterproofing Aid"
+                }
+              },
+              "RateModifier" : {
+                "x" : 1.2,
+                "y" : 1.2
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "SwimmingAid",
+                "type" : "GameStat",
+                "icon" : "GameStat__Skill_Swimming__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u6E38\u6CF3\u63F4\u52A9",
+                  "en" : "Swimming Aid",
+                  "ja" : "\u6C34\u6CF3\u88DC\u52A9\u865A\u7121\u306E\u52A0\u8B77"
+                }
+              },
+              "RateModifier" : {
+                "x" : 1.2,
+                "y" : 1.2
+              }
+            }
+          ],
+          "quantity"  : 0.0,
+          "focusCost" : -72.0
+        }
+      },
+      {
+        "type" : "Carcass",
         "spirit" : {
           "key" : "Spirit_Fox",
           "type" : "CardData",
@@ -3105,7 +3303,7 @@
             "key" : "Carcass_FoxCarcass",
             "type" : "CardData",
             "CardType" : 0,
-            "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+            "icon"     : "CardData__Carcass_Craftheart__CardImage",
             "name"     : {
               "zh" : "\u72D0\u72F8\u5C38\u4F53",
               "en" : "Fox Carcass",
@@ -3575,7 +3773,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -3595,7 +3793,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -5111,7 +5309,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -5131,7 +5329,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -6642,7 +6840,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -6662,7 +6860,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -7682,7 +7880,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -7702,7 +7900,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -8403,7 +8601,7 @@
                     }
                   },
                   {
-                    "key" : "MushroomBed",
+                    "key" : "NOT_USED_MushroomBed",
                     "type" : "CardData",
                     "CardType" : 2,
                     "icon"     : "CardData__Bp_GardenPlot__CardImage",
@@ -9375,7 +9573,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -9395,7 +9593,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -9636,7 +9834,7 @@
                   {
                     "key" : "tag_Tinder",
                     "type" : "CardTag",
-                    "count" : 9,
+                    "count" : 10,
                     "name"  : {
                       "zh" : "\u706B\u7ED2",
                       "en" : "Tinder",
@@ -10998,7 +11196,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -12295,7 +12493,7 @@
                   {
                     "key" : "tag_OpenWound",
                     "type" : "CardTag",
-                    "count" : 16,
+                    "count" : 17,
                     "name"  : {
                       "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
                       "en" : "Open Wound",
@@ -12315,7 +12513,7 @@
                   {
                     "key" : "tag_CleanableWound",
                     "type" : "CardTag",
-                    "count" : 25,
+                    "count" : 26,
                     "name"  : {
                       "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
                       "en" : "Cleanable Wound",
@@ -13401,6 +13599,691 @@
           ],
           "quantity"  : 250.0,
           "focusCost" : -70.0
+        }
+      },
+      {
+        "type" : "Special",
+        "spirit" : {
+          "key" : "Spirit_Craftheart",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name"     : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+            "en" : "Craft-Heart Spirit",
+            "ja" : "Craft-Heart Spirit"
+          }
+        },
+        "liquid" : {
+          "key" : "LQ_SpiritCraftHeart",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name"     : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+            "en" : "Craft-Heart Spirit",
+            "ja" : "Craft-Heart Spirit"
+          }
+        },
+        "enchantment" : {
+          "statMods" : [
+            {
+              "Stat" : {
+                "key" : "SpiritualNoise",
+                "type" : "GameStat",
+                "icon" : "GameStat__Headache__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 13.0,
+                "name" : {
+                  "zh" : "\u7CBE\u9B44\u566A\u97F3",
+                  "en" : "Spiritual Noise",
+                  "ja" : "\u970A\u969C"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 1.0,
+                "y" : 1.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "TrackingAid",
+                "type" : "GameStat",
+                "icon" : "CardData__BeastTracksCardInvisible__CardImage",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u8FFD\u8E2A\u63F4\u52A9",
+                  "en" : "Tracking Aid",
+                  "ja" : "\u8FFD\u8DE1\u652F\u63F4"
+                }
+              },
+              "RateModifier" : {
+                "x" : 1.2,
+                "y" : 1.2
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "AmbushAid",
+                "type" : "GameStat",
+                "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u8FFD\u730E\u8005\u7684\u6700\u7231",
+                  "en" : "Stalker's Favour",
+                  "ja" : "\u30B9\u30C8\u30FC\u30AB\u30FC\u306E\u6069\u6075"
+                }
+              },
+              "RateModifier" : {
+                "x" : 1.2,
+                "y" : 1.2
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "EscapeAid",
+                "type" : "GameStat",
+                "icon" : "GameStat__ChasingAid__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u9003\u8131\u63F4\u52A9",
+                  "en" : "Escape Aid",
+                  "ja" : "\u8131\u51FA\u88DC\u52A9"
+                }
+              },
+              "RateModifier" : {
+                "x" : 1.2,
+                "y" : 1.2
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "TrappingAid",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_LogTrap__CardImage",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u9677\u9631\u63F4\u52A9",
+                  "en" : "Trapping Aid",
+                  "ja" : "Trapping Aid"
+                }
+              },
+              "RateModifier" : {
+                "x" : 1.2,
+                "y" : 1.2
+              }
+            }
+          ],
+          "quantity" : 0.0,
+          "focusCost" : 0.0
+        },
+        "summoning"   : {
+          "statMods" : [
+            {
+              "Stat" : {
+                "key" : "FoxUrge",
+                "type" : "GameStat",
+                "icon" : "NPCAgent__Agent_Fox1__AgentImage",
+                "min"  : 0.0,
+                "max"  : 96.0,
+                "name" : {
+                  "zh" : "\u72D0\u72F8\u672C\u80FD",
+                  "en" : "Fox Urge",
+                  "ja" : "\u30AD\u30C4\u30CD\u306E\u6B32\u6C42"
+                }
+              },
+              "RateModifier" : {
+                "x" : 1.5,
+                "y" : 1.5
+              }
+            }
+          ],
+          "actions"  : [
+            {
+              "ExplorationValue" : 0.0,
+              "ExplorationDirection" : 0,
+              "VisibilityWithInventory" : 0,
+              "ActionName"              : {
+                "zh" : "Blessing",
+                "en" : "Blessing",
+                "ja" : "Blessing"
+              },
+              "DaytimeCost"             : 0,
+              "UseMiniTicks"            : 1,
+              "RequiredStatValues"      : [
+                {
+                  "Stat" : {
+                    "key" : "Skill_Insight",
+                    "type" : "GameStat",
+                    "icon" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
+                    "min"  : 0.0,
+                    "max"  : 1000.0,
+                    "name" : {
+                      "zh" : "\u7075\u89C6",
+                      "en" : "Insight",
+                      "ja" : "\u6D1E\u5BDF\u529B"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 1.0,
+                    "y" : 1000000000.0
+                  },
+                  "HideAllWhenNotMet" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "Light",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 100.0,
+                    "name" : {
+                      "zh" : "\u5149\u4EAE",
+                      "en" : "Light",
+                      "ja" : "\u5149"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 10.0,
+                    "y" : 1000000000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "AlteredMindstate",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 300.0,
+                    "name" : {
+                      "zh" : "\u7CBE\u795E\u5931\u5E38",
+                      "en" : "Altered Mindstate",
+                      "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 50.0,
+                    "y" : 1000000000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "Willpower",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 250.0,
+                    "name" : {
+                      "zh" : "\u610F\u5FD7\u529B",
+                      "en" : "Willpower",
+                      "ja" : "\u610F\u5FD7\u529B"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 50.0,
+                    "y" : 1000000000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "BeastAffinity",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__BeastAffinity__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 1000.0,
+                    "name" : {
+                      "zh" : "\u91CE\u517D\u4EB2\u548C\u5EA6",
+                      "en" : "Beast Affinity",
+                      "ja" : "\u7363\u306E\u89AA\u548C\u6027"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 50.0,
+                    "y" : 1000000000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "Focus",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__Focus__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 96.0,
+                    "name" : {
+                      "zh" : "\u4E13\u6CE8\u5EA6",
+                      "en" : "Focus",
+                      "ja" : "\u96C6\u4E2D\u529B"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 48.0,
+                    "y" : 1000000000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                }
+              ],
+              "RequiredReceivingContainer" : [
+                {
+                  "key" : "Spirit_Craftheart",
+                  "type" : "CardData",
+                  "CardType" : 0,
+                  "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+                  "name"     : {
+                    "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+                    "en" : "Craft-Heart Spirit",
+                    "ja" : "Craft-Heart Spirit"
+                  }
+                }
+              ],
+              "RequiredReceivingDurabilities" : {
+                "RequiredProgressPercent" : {
+                  "MaxValue" : 1.0,
+                  "FloatValue" : 1.0
+                },
+                "RequiredLiquidQuantity"  : 45.0
+              },
+              "StatModifications"             : [
+                {
+                  "Stat" : {
+                    "key" : "TrackingAid",
+                    "type" : "GameStat",
+                    "icon" : "CardData__BeastTracksCardInvisible__CardImage",
+                    "min"  : 0.0,
+                    "max"  : 288.0,
+                    "name" : {
+                      "zh" : "\u8FFD\u8E2A\u63F4\u52A9",
+                      "en" : "Tracking Aid",
+                      "ja" : "\u8FFD\u8DE1\u652F\u63F4"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : 288.0,
+                    "y" : 288.0
+                  },
+                  "IgnoreNovelty" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "AmbushAid",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 288.0,
+                    "name" : {
+                      "zh" : "\u8FFD\u730E\u8005\u7684\u6700\u7231",
+                      "en" : "Stalker's Favour",
+                      "ja" : "\u30B9\u30C8\u30FC\u30AB\u30FC\u306E\u6069\u6075"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : 288.0,
+                    "y" : 288.0
+                  },
+                  "IgnoreNovelty" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "TrappingAid",
+                    "type" : "GameStat",
+                    "icon" : "CardData__Bp_LogTrap__CardImage",
+                    "min"  : 0.0,
+                    "max"  : 288.0,
+                    "name" : {
+                      "zh" : "\u9677\u9631\u63F4\u52A9",
+                      "en" : "Trapping Aid",
+                      "ja" : "Trapping Aid"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : 288.0,
+                    "y" : 288.0
+                  },
+                  "IgnoreNovelty" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "EscapeAid",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__ChasingAid__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 288.0,
+                    "name" : {
+                      "zh" : "\u9003\u8131\u63F4\u52A9",
+                      "en" : "Escape Aid",
+                      "ja" : "\u8131\u51FA\u88DC\u52A9"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : 288.0,
+                    "y" : 288.0
+                  },
+                  "IgnoreNovelty" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "Willpower",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 250.0,
+                    "name" : {
+                      "zh" : "\u610F\u5FD7\u529B",
+                      "en" : "Willpower",
+                      "ja" : "\u610F\u5FD7\u529B"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : -50.0,
+                    "y" : -50.0
+                  },
+                  "IgnoreNovelty" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "BeastAffinity",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__BeastAffinity__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 1000.0,
+                    "name" : {
+                      "zh" : "\u91CE\u517D\u4EB2\u548C\u5EA6",
+                      "en" : "Beast Affinity",
+                      "ja" : "\u7363\u306E\u89AA\u548C\u6027"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : 12.0,
+                    "y" : 12.0
+                  }
+                },
+                {
+                  "Stat" : {
+                    "key" : "Focus",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__Focus__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 96.0,
+                    "name" : {
+                      "zh" : "\u4E13\u6CE8\u5EA6",
+                      "en" : "Focus",
+                      "ja" : "\u96C6\u4E2D\u529B"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : -48.0,
+                    "y" : -48.0
+                  },
+                  "IgnoreNovelty" : true
+                }
+              ],
+              "ReceivingCardChanges"          : {
+                "ModType" : 0,
+                "TransformToLiquidQuantity" : 0.0,
+                "ModifyLiquid"              : true,
+                "LiquidEffectScaling"       : 0,
+                "LiquidQuantityChange"      : {
+                  "x" : -50.0,
+                  "y" : -50.0
+                }
+              },
+              "RoomDirection"                 : 0,
+              "ExitDirection"                 : 0
+            }
+          ],
+          "quantity" : 250.0,
+          "focusCost" : 0.0
+        },
+        "magics"      : {
+          "cardActions" : [
+            {
+              "GivenCardChanges" : {
+                "ModType" : 1,
+                "TransformToLiquidQuantity" : 0.0,
+                "LiquidEffectScaling"       : 0,
+                "Special1Change"            : {
+                  "x" : 16.0,
+                  "y" : 16.0
+                },
+                "Special2Change"            : {
+                  "x" : 32.0,
+                  "y" : 32.0
+                }
+              },
+              "CompatibleCards"  : {
+                "TriggerTags" : [
+                  {
+                    "key" : "tag_OpenWound",
+                    "type" : "CardTag",
+                    "count" : 17,
+                    "name"  : {
+                      "zh" : "\u5F00\u653E\u6027\u4F24\u53E3",
+                      "en" : "Open Wound",
+                      "ja" : "\u958B\u3044\u305F\u50B7"
+                    }
+                  },
+                  {
+                    "key" : "tag_WoundSplint",
+                    "type" : "CardTag",
+                    "count" : 9,
+                    "name"  : {
+                      "zh" : "\u4F24\u53E3\u9700\u8981\u5939\u677F",
+                      "en" : "Wound requiring a Splint",
+                      "ja" : "\u526F\u6728\u304C\u5FC5\u8981\u306A\u602A\u6211"
+                    }
+                  },
+                  {
+                    "key" : "tag_CleanableWound",
+                    "type" : "CardTag",
+                    "count" : 26,
+                    "name"  : {
+                      "zh" : "\u53EF\u6E05\u7406\u7684\u4F24\u53E3",
+                      "en" : "Cleanable Wound",
+                      "ja" : "\u7DBA\u9E97\u306B\u3067\u304D\u308B\u50B7"
+                    }
+                  }
+                ]
+              },
+              "WorksInverted"    : true,
+              "WorksBothWays"    : true,
+              "ActionName"       : {
+                "zh" : "Bestial Resilience",
+                "en" : "Bestial Resilience",
+                "ja" : "Bestial Resilience"
+              },
+              "DaytimeCost"      : 0,
+              "UseMiniTicks"     : 0,
+              "ActionTags"       : [
+                {
+                  "key" : "SpiritSpellAction",
+                  "type" : "ActionTag",
+                  "name" : {
+                    "zh" : "\u7CBE\u9B44\u65BD\u6CD5\u52A8\u4F5C",
+                    "en" : "SpiritSpellAction",
+                    "ja" : "SpiritSpellAction"
+                  }
+                }
+              ],
+              "RequiredStatValues" : [
+                {
+                  "Stat" : {
+                    "key" : "AlteredMindstate",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 300.0,
+                    "name" : {
+                      "zh" : "\u7CBE\u795E\u5931\u5E38",
+                      "en" : "Altered Mindstate",
+                      "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 50.0,
+                    "y" : 10000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                }
+              ],
+              "RequiredReceivingContainerTag" : [
+                {
+                  "key" : "tag_SpiritFocus",
+                  "type" : "CardTag",
+                  "count" : 2,
+                  "name"  : {
+                    "zh" : "\u7CBE\u9B44\u65BD\u6CD5",
+                    "en" : "Spirit Focus",
+                    "ja" : "\u7CBE\u970A\u306E\u96C6\u4E2D"
+                  }
+                }
+              ],
+              "RequiredReceivingLiquidContent" : {
+                "IsActive" : true,
+                "RequiredLiquid" : {
+                  "key" : "LQ_SpiritCraftHeart",
+                  "type" : "CardData",
+                  "CardType" : 9,
+                  "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+                  "name"     : {
+                    "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+                    "en" : "Craft-Heart Spirit",
+                    "ja" : "Craft-Heart Spirit"
+                  }
+                },
+                "RequiredQuantity" : {
+                  "x" : 20.0,
+                  "y" : 100000.0
+                }
+              },
+              "ReceivingCardChanges"           : {
+                "ModType" : 0,
+                "TransformToLiquidQuantity" : 0.0,
+                "ModifyLiquid"              : true,
+                "LiquidEffectScaling"       : 1,
+                "LiquidQuantityChange"      : {
+                  "x" : -25.0,
+                  "y" : -25.0
+                }
+              },
+              "RoomDirection"                  : 0,
+              "ExitDirection"                  : 0
+            },
+            {
+              "GivenCardChanges" : {
+                "ModType" : 1,
+                "TransformToLiquidQuantity" : 0.0,
+                "LiquidEffectScaling"       : 0,
+                "Special3Change"            : {
+                  "x" : 1.0,
+                  "y" : 1.0
+                }
+              },
+              "CompatibleCards"  : {
+                "TriggerTags" : [
+                  {
+                    "key" : "tag_LandTrap",
+                    "type" : "CardTag",
+                    "count" : 11,
+                    "name"  : {
+                      "zh" : "\u9646\u5730\u9677\u9631",
+                      "en" : "Land Trap",
+                      "ja" : "Land Trap"
+                    }
+                  }
+                ]
+              },
+              "WorksInverted"    : true,
+              "WorksBothWays"    : true,
+              "ActionName"       : {
+                "zh" : "Bless",
+                "en" : "Bless",
+                "ja" : "Bless"
+              },
+              "DaytimeCost"      : 0,
+              "UseMiniTicks"     : 0,
+              "ActionTags"       : [
+                {
+                  "key" : "SpiritSpellAction",
+                  "type" : "ActionTag",
+                  "name" : {
+                    "zh" : "\u7CBE\u9B44\u65BD\u6CD5\u52A8\u4F5C",
+                    "en" : "SpiritSpellAction",
+                    "ja" : "SpiritSpellAction"
+                  }
+                }
+              ],
+              "RequiredStatValues" : [
+                {
+                  "Stat" : {
+                    "key" : "AlteredMindstate",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 300.0,
+                    "name" : {
+                      "zh" : "\u7CBE\u795E\u5931\u5E38",
+                      "en" : "Altered Mindstate",
+                      "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 50.0,
+                    "y" : 10000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                }
+              ],
+              "RequiredReceivingContainerTag" : [
+                {
+                  "key" : "tag_SpiritFocus",
+                  "type" : "CardTag",
+                  "count" : 2,
+                  "name"  : {
+                    "zh" : "\u7CBE\u9B44\u65BD\u6CD5",
+                    "en" : "Spirit Focus",
+                    "ja" : "\u7CBE\u970A\u306E\u96C6\u4E2D"
+                  }
+                }
+              ],
+              "RequiredReceivingLiquidContent" : {
+                "IsActive" : true,
+                "RequiredLiquid" : {
+                  "key" : "LQ_SpiritCraftHeart",
+                  "type" : "CardData",
+                  "CardType" : 9,
+                  "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+                  "name"     : {
+                    "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+                    "en" : "Craft-Heart Spirit",
+                    "ja" : "Craft-Heart Spirit"
+                  }
+                },
+                "RequiredQuantity" : {
+                  "x" : 20.0,
+                  "y" : 100000.0
+                }
+              },
+              "ReceivingCardChanges"           : {
+                "ModType" : 0,
+                "TransformToLiquidQuantity" : 0.0,
+                "ModifyLiquid"              : true,
+                "LiquidEffectScaling"       : 1,
+                "LiquidQuantityChange"      : {
+                  "x" : -25.0,
+                  "y" : -25.0
+                }
+              },
+              "RoomDirection"                  : 0,
+              "ExitDirection"                  : 0
+            }
+          ]
         }
       },
       {
@@ -15132,6 +16015,336 @@
                       "zh" : "\u6708\u4EB2\u548C\u5EA6",
                       "en" : "Moon Affinity",
                       "ja" : "\u6708\u3078\u306E\u89AA\u548C\u6027"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : 12.0,
+                    "y" : 12.0
+                  }
+                },
+                {
+                  "Stat" : {
+                    "key" : "Focus",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__Focus__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 96.0,
+                    "name" : {
+                      "zh" : "\u4E13\u6CE8\u5EA6",
+                      "en" : "Focus",
+                      "ja" : "\u96C6\u4E2D\u529B"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : -48.0,
+                    "y" : -48.0
+                  },
+                  "IgnoreNovelty" : true
+                }
+              ],
+              "ReceivingCardChanges"          : {
+                "ModType" : 0,
+                "TransformToLiquidQuantity" : 0.0,
+                "ModifyLiquid"              : true,
+                "LiquidEffectScaling"       : 0,
+                "LiquidQuantityChange"      : {
+                  "x" : -50.0,
+                  "y" : -50.0
+                }
+              },
+              "RoomDirection"                 : 0,
+              "ExitDirection"                 : 0
+            }
+          ],
+          "quantity" : 250.0,
+          "focusCost" : 0.0
+        }
+      },
+      {
+        "type" : "Special",
+        "spirit" : {
+          "key" : "Spirit_Stalker",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Spirit_Stalker__CardImage",
+          "name"     : {
+            "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+            "en" : "Stalker Spirit",
+            "ja" : "Stalker Spirit"
+          }
+        },
+        "liquid" : {
+          "key" : "LQ_SpiritStalker",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+          "name"     : {
+            "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+            "en" : "Stalker Spirit",
+            "ja" : "Stalker Spirit"
+          }
+        },
+        "enchantment" : {
+          "statMods" : [
+            {
+              "Stat" : {
+                "key" : "SpiritualNoise",
+                "type" : "GameStat",
+                "icon" : "GameStat__Headache__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 13.0,
+                "name" : {
+                  "zh" : "\u7CBE\u9B44\u566A\u97F3",
+                  "en" : "Spiritual Noise",
+                  "ja" : "\u970A\u969C"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 1.0,
+                "y" : 1.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "StalkerBlessing",
+                "type" : "GameStat",
+                "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+                "min"  : 0.0,
+                "max"  : 288.0,
+                "name" : {
+                  "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+                  "en" : "Stalker Blessing",
+                  "ja" : "Stalker Blessing"
+                }
+              },
+              "RateModifier" : {
+                "x" : 1.2,
+                "y" : 1.2
+              }
+            }
+          ],
+          "quantity" : 0.0,
+          "focusCost" : 0.0
+        },
+        "summoning"   : {
+          "statMods" : [
+            {
+              "Stat" : {
+                "key" : "StalkerUrge",
+                "type" : "GameStat",
+                "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+                "min"  : 0.0,
+                "max"  : 96.0,
+                "name" : {
+                  "zh" : "\u6F5C\u884C\u8005\u672C\u80FD",
+                  "en" : "Stalker Urge",
+                  "ja" : "Stalker Urge"
+                }
+              },
+              "RateModifier" : {
+                "x" : 1.5,
+                "y" : 1.5
+              }
+            }
+          ],
+          "actions"  : [
+            {
+              "ExplorationValue" : 0.0,
+              "ExplorationDirection" : 0,
+              "VisibilityWithInventory" : 0,
+              "ActionName"              : {
+                "zh" : "Blessing",
+                "en" : "Blessing",
+                "ja" : "Blessing"
+              },
+              "DaytimeCost"             : 0,
+              "UseMiniTicks"            : 1,
+              "RequiredStatValues"      : [
+                {
+                  "Stat" : {
+                    "key" : "Skill_Insight",
+                    "type" : "GameStat",
+                    "icon" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
+                    "min"  : 0.0,
+                    "max"  : 1000.0,
+                    "name" : {
+                      "zh" : "\u7075\u89C6",
+                      "en" : "Insight",
+                      "ja" : "\u6D1E\u5BDF\u529B"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 1.0,
+                    "y" : 1000000000.0
+                  },
+                  "HideAllWhenNotMet" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "Light",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 100.0,
+                    "name" : {
+                      "zh" : "\u5149\u4EAE",
+                      "en" : "Light",
+                      "ja" : "\u5149"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 10.0,
+                    "y" : 1000000000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "AlteredMindstate",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 300.0,
+                    "name" : {
+                      "zh" : "\u7CBE\u795E\u5931\u5E38",
+                      "en" : "Altered Mindstate",
+                      "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 50.0,
+                    "y" : 1000000000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "Willpower",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 250.0,
+                    "name" : {
+                      "zh" : "\u610F\u5FD7\u529B",
+                      "en" : "Willpower",
+                      "ja" : "\u610F\u5FD7\u529B"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 50.0,
+                    "y" : 1000000000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "FearAffinity",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 1000.0,
+                    "name" : {
+                      "zh" : "\u6050\u60E7\u4EB2\u548C\u5EA6",
+                      "en" : "Fear Affinity",
+                      "ja" : "\u6050\u6016\u306E\u89AA\u548C\u6027"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 50.0,
+                    "y" : 1000000000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "Focus",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__Focus__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 96.0,
+                    "name" : {
+                      "zh" : "\u4E13\u6CE8\u5EA6",
+                      "en" : "Focus",
+                      "ja" : "\u96C6\u4E2D\u529B"
+                    }
+                  },
+                  "TriggerRange" : {
+                    "x" : 48.0,
+                    "y" : 1000000000.0
+                  },
+                  "NotifyWhenNotMet" : true
+                }
+              ],
+              "RequiredReceivingContainer" : [
+                {
+                  "key" : "Spirit_Stalker",
+                  "type" : "CardData",
+                  "CardType" : 0,
+                  "icon"     : "CardData__Spirit_Stalker__CardImage",
+                  "name"     : {
+                    "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+                    "en" : "Stalker Spirit",
+                    "ja" : "Stalker Spirit"
+                  }
+                }
+              ],
+              "RequiredReceivingDurabilities" : {
+                "RequiredProgressPercent" : {
+                  "MaxValue" : 1.0,
+                  "FloatValue" : 1.0
+                },
+                "RequiredLiquidQuantity"  : 45.0
+              },
+              "StatModifications"             : [
+                {
+                  "Stat" : {
+                    "key" : "StalkerBlessing",
+                    "type" : "GameStat",
+                    "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+                    "min"  : 0.0,
+                    "max"  : 288.0,
+                    "name" : {
+                      "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+                      "en" : "Stalker Blessing",
+                      "ja" : "Stalker Blessing"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : 288.0,
+                    "y" : 288.0
+                  },
+                  "IgnoreNovelty" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "Willpower",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__Assertiveness__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 250.0,
+                    "name" : {
+                      "zh" : "\u610F\u5FD7\u529B",
+                      "en" : "Willpower",
+                      "ja" : "\u610F\u5FD7\u529B"
+                    }
+                  },
+                  "ValueModifier" : {
+                    "x" : -50.0,
+                    "y" : -50.0
+                  },
+                  "IgnoreNovelty" : true
+                },
+                {
+                  "Stat" : {
+                    "key" : "FearAffinity",
+                    "type" : "GameStat",
+                    "icon" : "GameStat__FearAffinity__DefaultStatusIcon",
+                    "min"  : 0.0,
+                    "max"  : 1000.0,
+                    "name" : {
+                      "zh" : "\u6050\u60E7\u4EB2\u548C\u5EA6",
+                      "en" : "Fear Affinity",
+                      "ja" : "\u6050\u6016\u306E\u89AA\u548C\u6027"
                     }
                   },
                   "ValueModifier" : {

@@ -10,28 +10,29 @@
     "en" : "Secondary sexual characteristics such as hip width and fullness of breasts. Determines how feminine you appear, affecting how others interact with you.",
     "ja" : "\u30D2\u30C3\u30D7\u306E\u5E45\u3084\u80F8\u306E\u5927\u304D\u3055\u306A\u3069\u306E\u7B2C\u4E8C\u6B21\u6027\u5FB4\u3002\u898B\u305F\u76EE\u306E\u5973\u6027\u3089\u3057\u3055\u3092\u5F71\u97FF\u3057\u3001\u5468\u56F2\u306E\u6271\u3044\u65B9\u304C\u5909\u308F\u308B\u3002"
   },
-  "BaseValue"   : -100.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : -100.0,
+  "MinMaxValue"                 : {
     "x" : -100.0,
     "y" : 200.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 3200.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5341\u5206\u663E\u8457",
@@ -225,23 +226,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FemaleTraits",
-  "icon"                    : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FemaleTraits",
+  "icon"                        : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u5973\u6027\u7279\u5F81",
     "en" : "Female Traits",
     "ja" : "\u5973\u6027\u306E\u7279\u5FB4"
   },
-  "min"                     : -100.0,
-  "max"                     : 200.0,
-  "_modifierValues"         : [
+  "min"                         : -100.0,
+  "max"                         : 200.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Weight",
@@ -516,5 +517,5 @@
       }
     }
   ],
-  "_uuid"                   : "81bf0354d117d9f4aa9713c7d518fdda"
+  "_uuid"                       : "81bf0354d117d9f4aa9713c7d518fdda"
 }

@@ -5,30 +5,31 @@
     "en" : "Blood Spilled",
     "ja" : "\u6D41\u3057\u305F\u8840"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 11520.0
   },
-  "BaseRatePerTick" : -2.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -2.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BloodSpilled__FeedbackInfo-Icon"
     },
@@ -37,16 +38,16 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BloodSpilled",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BloodSpilled",
+  "name"                        : {
     "zh" : "\u98D9\u8840",
     "en" : "Blood Spilled",
     "ja" : "\u6D41\u3057\u305F\u8840"
   },
-  "min"                     : 0.0,
-  "max"                     : 11520.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 11520.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "BoarFreeFemale",
@@ -373,6 +374,27 @@
     },
     {
       "source" : {
+        "key" : "Combat_EncounterCraftheart",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "Craft-Heart",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 672.0,
+        "y" : 672.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Combat_EncounterDoe",
         "type" : "Encounter",
         "icon" : "NPCAgent__Agent_Doe__AgentImage",
@@ -499,6 +521,27 @@
     },
     {
       "source" : {
+        "key" : "Combat_EncounterWhiteStag",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+        "name" : {
+          "zh" : "Stag",
+          "en" : "Stag",
+          "ja" : "Stag"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 2880.0,
+        "y" : 2880.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Combat_EncounterWolfPack",
         "type" : "Encounter",
         "icon" : "NPCAgent__Agent_WolfPack__AgentImage",
@@ -540,7 +583,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "HOTFIX_REDUNDANT_07092025_patch",
@@ -606,7 +649,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Tgr_PredatorTrigger",
@@ -844,5 +887,5 @@
       }
     }
   ],
-  "_uuid"                   : "0413d3b4ffa70bb4999e3a93df937601"
+  "_uuid"                       : "0413d3b4ffa70bb4999e3a93df937601"
 }

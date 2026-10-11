@@ -1,0 +1,976 @@
+
+{
+  "AgentName" : {
+    "zh" : "\u6F5C\u884C\u8005",
+    "en" : "Stalker",
+    "ja" : "Stalker"
+  },
+  "AgentImage" : {
+    "FileName" : "NPCAgent__Agent_Stalker__AgentImage"
+  },
+  "WeightCategory" : {
+    "key" : "Heavy",
+    "type" : "AgentWeightCategory",
+    "name" : {
+      "zh" : "\u6C89\u7684",
+      "en" : "Heavy",
+      "ja" : "\u91CD\u3044"
+    }
+  },
+  "HidingConditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredStatValues" : [
+      {
+        "Stat" : {
+          "key" : "AlteredMindstate",
+          "type" : "GameStat",
+          "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+          "min"  : 0.0,
+          "max"  : 300.0,
+          "name" : {
+            "zh" : "\u7CBE\u795E\u5931\u5E38",
+            "en" : "Altered Mindstate",
+            "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 0.0,
+          "y" : 49.0
+        }
+      }
+    ]
+  },
+  "Interactions"     : [
+    {
+      "ButtonName" : {
+        "zh" : "Approach",
+        "en" : "Approach",
+        "ja" : "Approach"
+      },
+      "ButtonType" : 1,
+      "Dialog"     : {
+        "key" : "Dialogue_Stalker",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "You approach the Stalker. ",
+          "en" : "You approach the Stalker. ",
+          "ja" : "You approach the Stalker. "
+        }
+      },
+      "DroppedEncounter" : {
+        "key" : "Combat_EncounterStalker",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "name" : {
+          "zh" : "Stalker",
+          "en" : "Stalker",
+          "ja" : "Stalker"
+        }
+      }
+    }
+  ],
+  "DefaultTracks"    : {
+    "TrackLifetime" : {
+      "m_X" : 32,
+      "m_Y" : 32
+    },
+    "OverrideDefaultTracksCard" : {
+      "key" : "DefaultTracksCard",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__BeastTracksCardInvisible__CardImage",
+      "name"     : {
+        "zh" : "\u6709\u8E2A\u8FF9\uFF01",
+        "en" : "Tracks!",
+        "ja" : "\u8DB3\u8DE1\uFF01"
+      }
+    },
+    "TracksDirection"           : 0,
+    "OverrideTrackDurabilities" : 0,
+    "NPCStatsToTrackDurabilities" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBlood",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8840\u91CF",
+            "en" : "AgentBlood",
+            "ja" : "AgentBlood"
+          }
+        },
+        "OutputDurability"   : 32,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    ]
+  },
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 1,
+  "AmbientSounds"          : [
+    {
+      "AddedRealRange" : 0.0,
+      "AddedNodesRange" : 0,
+      "InternalName"    : "Wolf"
+    }
+  ],
+  "AgentStats"             : [
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8840\u91CF",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentBlood",
+        "zh"                      : "\u8840\u91CF",
+        "en"                      : "AgentBlood",
+        "ja"                      : "AgentBlood"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.17,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6597\u5FD7",
+          "en" : "Agent Morale",
+          "ja" : "Agent Morale"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentMorale",
+        "zh"                      : "\u6597\u5FD7",
+        "en"                      : "AgentMorale",
+        "ja"                      : "AgentMorale"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 10.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8010\u529B",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentStamina",
+        "zh"                      : "\u8010\u529B",
+        "en"                      : "AgentStamina",
+        "ja"                      : "AgentStamina"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6FC0\u6012",
+          "en" : "Agent Eraged - used by Wolves and Wolf Packs, while value is greater than 0 they have a very high priority duty which makes them hunt and attack the player",
+          "ja" : "Agent Eraged - used by Wolves and Wolf Packs, while value is greater than 0 they have a very high priority duty which makes them hunt and attack the player"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentEnraged",
+        "zh"                      : "\u6FC0\u6012",
+        "en"                      : "AgentEnraged",
+        "ja"                      : "AgentEnraged"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 5.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6BD2\u6297",
+          "en" : "Agent Special1",
+          "ja" : "Agent Special1"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentPoisonResistance",
+        "zh"                      : "\u6BD2\u6297",
+        "en"                      : "AgentPoisonResistance",
+        "ja"                      : "AgentPoisonResistance"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 96.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 96.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.4,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u7C7B\u578B",
+          "en" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40",
+          "ja" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapType",
+        "zh"                      : "\u9677\u9631\u7C7B\u578B",
+        "en"                      : "AgentTrapType",
+        "ja"                      : "AgentTrapType"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunning",
+        "zh"                      : "\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunning",
+        "ja"                      : "AgentTrapCunning"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 25.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 25.0,
+        "FloatValue" : 25.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningSnare",
+        "zh"                      : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningSnare",
+        "ja"                      : "AgentTrapCunningSnare"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u5751\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningPitTrap",
+        "zh"                      : "\u9677\u5751\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningPitTrap",
+        "ja"                      : "AgentTrapCunningPitTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningLogTrap",
+        "zh"                      : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningLogTrap",
+        "ja"                      : "AgentTrapCunningLogTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningDeadfall",
+        "zh"                      : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningDeadfall",
+        "ja"                      : "AgentTrapCunningDeadfall"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    }
+  ],
+  "AgentActions"           : [
+    {
+      "ActionID" : "Spawn at Primeval Woods",
+      "ActionLocalizedName" : {
+        "zh" : "Spawn at Primeval Woods",
+        "en" : "Spawn at Primeval Woods",
+        "ja" : "Spawn at Primeval Woods"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Paranoia",
+              "type" : "GameStat",
+              "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 300.0,
+              "name" : {
+                "zh" : "\u504F\u6267",
+                "en" : "Paranoia",
+                "ja" : "Paranoia"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 101.0,
+              "y" : 300.0
+            }
+          }
+        ],
+        "RequiredInGameTimes" : [
+          {
+            "TimeType" : 0,
+            "CompareType" : 0,
+            "StartValue"  : 22,
+            "EndValue"    : 23
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_GroveOak_PrimevalWoods",
+        "type" : "CardData",
+        "CardType" : 4,
+        "icon"     : "CardData__Env_GroveOak_PrimevalWoods__CardImage",
+        "name"     : {
+          "zh" : "\u539F\u521D\u68EE\u6797",
+          "en" : "Primeval Woods",
+          "ja" : "\u592A\u53E4\u306E\u68EE"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Go to Spirit World",
+      "ActionLocalizedName" : {
+        "zh" : "Go to Spirit World",
+        "en" : "Go to Spirit World",
+        "ja" : "Go to Spirit World"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "Paranoia",
+              "type" : "GameStat",
+              "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 300.0,
+              "name" : {
+                "zh" : "\u504F\u6267",
+                "en" : "Paranoia",
+                "ja" : "Paranoia"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 0.0,
+              "y" : 100.0
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Go to Spirit World_2",
+      "ActionLocalizedName" : {
+        "zh" : "Go to Spirit World_2",
+        "en" : "Go to Spirit World_2",
+        "ja" : "Go to Spirit World_2"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredCardsOnBoard" : [
+          {
+            "key" : "Spirit_Stalker",
+            "type" : "CardData",
+            "CardType" : 0,
+            "icon"     : "CardData__Spirit_Stalker__CardImage",
+            "name"     : {
+              "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+              "en" : "Stalker Spirit",
+              "ja" : "Stalker Spirit"
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Enraged = Attack the Player_1",
+      "ActionLocalizedName" : {
+        "zh" : "Enraged = Attack the Player_1",
+        "en" : "Enraged = Attack the Player_1",
+        "ja" : "Enraged = Attack the Player_1"
+      },
+      "RepeatOptions"       : 2,
+      "CannotPerformWhileInCombat" : true,
+      "CannotPerformWhileInDialog" : true,
+      "Conditions"                 : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "AlteredMindstate",
+              "type" : "GameStat",
+              "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 300.0,
+              "name" : {
+                "zh" : "\u7CBE\u795E\u5931\u5E38",
+                "en" : "Altered Mindstate",
+                "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 50.0,
+              "y" : 10000.0
+            }
+          }
+        ],
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentEnraged",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u6FC0\u6012",
+                "en" : "AgentEnraged",
+                "ja" : "AgentEnraged"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 5.0,
+              "y" : 100.0
+            }
+          }
+        ]
+      },
+      "DroppedCards"               : [
+        {
+          "CollectionName" : "Combat",
+          "CollectionWeight" : 0,
+          "DroppedEncounter" : {
+            "key" : "Combat_EncounterStalker",
+            "type" : "Encounter",
+            "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+            "name" : {
+              "zh" : "Stalker",
+              "en" : "Stalker",
+              "ja" : "Stalker"
+            }
+          },
+          "EncounterNPC"     : {
+            "key" : "Agent_Stalker",
+            "type" : "NPCAgent",
+            "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+            "name" : {
+              "zh" : "\u6F5C\u884C\u8005",
+              "en" : "Stalker",
+              "ja" : "Stalker"
+            }
+          }
+        }
+      ],
+      "MoveToPlayerEnvironment"    : true,
+      "MoveTiming"                 : 0,
+      "TriggerHidingGroups"        : [
+        {
+          "key" : "Hunting",
+          "type" : "NPCHidingGroup",
+          "name" : {
+            "zh" : "Hunting",
+            "en" : "Hunting",
+            "ja" : "Hunting"
+          }
+        }
+      ]
+    }
+  ],
+  "AgentPassiveEffects"    : [
+    {
+      "EffectName" : "Paranoia and Fear",
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0
+      },
+      "StatModifiers"   : [
+        {
+          "Stat" : {
+            "key" : "Fear",
+            "type" : "GameStat",
+            "icon" : "GameStat__Fear__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u6050\u60E7",
+              "en" : "Fear",
+              "ja" : "\u6050\u6016"
+            }
+          },
+          "RateModifier" : {
+            "x" : 4.0,
+            "y" : 4.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : 4.0,
+            "y" : 4.0
+          }
+        }
+      ],
+      "OnBoardEffectCap" : 0,
+      "LiquidRateModifier" : 0.0,
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Paranoia and Fear",
+        "en" : "Paranoia and Fear",
+        "ja" : "Paranoia and Fear"
+      }
+    }
+  ],
+  "AgentDuties"            : [
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_Stalker_SeekPlayer",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u73A9\u5BB6",
+          "en" : "Stalker Seek Player",
+          "ja" : "Stalker Seek Player"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1200
+      }
+    }
+  ],
+  "MaxCarryWeight"         : 1.0,
+  "CannotTrade"            : true,
+  "DebugColor"             : {
+    "r" : 0.0,
+    "g" : 1.0,
+    "b" : 0.6567,
+    "a" : 1.0
+  },
+  "type"                   : "NPCAgent",
+  "key"                    : "Agent_Stalker",
+  "icon"                   : "NPCAgent__Agent_Stalker__AgentImage",
+  "name"                   : {
+    "zh" : "\u6F5C\u884C\u8005",
+    "en" : "Stalker",
+    "ja" : "Stalker"
+  },
+  "_uuid"                  : "c6a5d3e7628391142a43a26529cae3aa"
+}

@@ -1,0 +1,71 @@
+
+{
+  "DutyName" : {
+    "zh" : "White Stag move to Deer Grove",
+    "en" : "White Stag move to Deer Grove",
+    "ja" : "White Stag move to Deer Grove"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "TargetAgent" : {
+          "key" : "Agent_WhiteStag",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+          "name" : {
+            "zh" : "\u767D\u9E7F",
+            "en" : "White Stag",
+            "ja" : "White Stag"
+          }
+        },
+        "TargetStat"  : {
+          "key" : "AgentCounterSync",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u540C\u6B65\u8BA1\u6570\u5668",
+            "en" : "AgentCounterSync",
+            "ja" : "AgentCounterSync"
+          }
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "RememberWhenInterrupted"          : {
+    "IntValue" : 0,
+    "Active"   : true
+  },
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "WhiteStagMoveToDeerGrove",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "WhiteStagMoveToDeerGrove",
+        "en" : "WhiteStagMoveToDeerGrove",
+        "ja" : "WhiteStagMoveToDeerGrove"
+      }
+    },
+    {
+      "key" : "WhiteStagSetupNextMoveStep",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WhiteStagSetupNextMoveStep",
+        "en" : "WhiteStagSetupNextMoveStep",
+        "ja" : "WhiteStagSetupNextMoveStep"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_WhiteStag_MoveToDeerGrove",
+  "name"                             : {
+    "zh" : "White Stag move to Deer Grove",
+    "en" : "White Stag move to Deer Grove",
+    "ja" : "White Stag move to Deer Grove"
+  },
+  "_uuid"                            : "f2b600f064c137b43abeb45ce772eb16"
+}

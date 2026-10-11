@@ -5,30 +5,31 @@
     "en" : "Counter",
     "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000000000.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Counter",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Counter",
+  "name"                        : {
     "zh" : "\u8BA1\u6570\u5668",
     "en" : "Counter",
     "ja" : "\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000000000.0,
-  "_requires"               : [
+  "min"                         : 0.0,
+  "max"                         : 1000000000.0,
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Tgr_ForestBeastGoToPlayer",
@@ -68,9 +69,649 @@
         "x" : 0.0,
         "y" : 54720.0
       }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 11520.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_WhiteStagAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_WhiteStagAvailable",
+          "en" : "Tgr_WhiteStagAvailable",
+          "ja" : "Tgr_WhiteStagAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_WhiteStagAvailable",
+        "en" : "Tgr_WhiteStagAvailable",
+        "ja" : "Tgr_WhiteStagAvailable"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 57600.0
+      }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_Apparitions",
@@ -112,5 +753,5 @@
       }
     }
   ],
-  "_uuid"                   : "a1a2efb9e793dbb4294f48220ff8f11b"
+  "_uuid"                       : "a1a2efb9e793dbb4294f48220ff8f11b"
 }

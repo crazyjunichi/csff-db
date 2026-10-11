@@ -6,22 +6,23 @@
     "ja" : "\u80C3\u8178\u611F\u67D3"
   },
   "Description" : {
-    "zh" : "\u4E00\u79CD\u5E38\u89C1\u7684\u80A0\u9053\u75BE\u75C5\u3002\u75C7\u72B6\u5305\u62EC\u8179\u6CFB\u3001\u6076\u5FC3\u3001\u5455\u5410\u548C\u8179\u75DB\u3002",
-    "en" : "A common disease of the intestinal tracts. Symptoms include diarrhoea, nausea, vomiting  and abdominal pain.",
-    "ja" : "\u8178\u306E\u75C5\u6C17\u3002\u75C7\u72B6\u306F\u4E0B\u75E2\u3001\u5410\u304D\u6C17\u3001\u5614\u5410\u3001\u8179\u75DB\u3002"
+    "zh" : "A common disease of the intestinal tracts. Symptoms include diarrhoea, nausea, vomiting  and abdominal pain.\nCan be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support.",
+    "en" : "A common disease of the intestinal tracts. Symptoms include diarrhoea, nausea, vomiting  and abdominal pain.\nCan be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support.",
+    "ja" : "A common disease of the intestinal tracts. Symptoms include diarrhoea, nausea, vomiting  and abdominal pain.\nCan be caught by eating raw food, drinking unsafe water or being generally filthy.\nCan be lowered by boosting your immune system through fireroot, appleweed or garlic, or the right spiritual support."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "DefaultStatusIcon" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "ValueRange" : {
         "m_X" : 1,
@@ -369,23 +370,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Infection_Gastrointestinal",
-  "icon"                    : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Infection_Gastrointestinal",
+  "icon"                        : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon",
+  "name"                        : {
     "zh" : "\u80C3\u80A0\u9053\u611F\u67D3",
     "en" : "Gastrointestinal Infection",
     "ja" : "\u80C3\u8178\u611F\u67D3"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "RottenRemains",
@@ -1119,7 +1120,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -2879,7 +2880,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -4947,7 +4948,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -4969,7 +4970,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -5931,7 +5932,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "VDEBUG_HybernationSuit",
@@ -6273,5 +6274,5 @@
       }
     }
   ],
-  "_uuid"                   : "1a8d37787d69c9b4aa05d332921f3763"
+  "_uuid"                       : "1a8d37787d69c9b4aa05d332921f3763"
 }

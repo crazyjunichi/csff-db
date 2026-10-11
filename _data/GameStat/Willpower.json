@@ -5,35 +5,36 @@
     "en" : "Willpower",
     "ja" : "\u610F\u5FD7\u529B"
   },
-  "BaseValue" : 250.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 250.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 250.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Assertiveness__DefaultStatusIcon"
   },
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Assertiveness__FeedbackInfo-Icon"
     },
@@ -42,22 +43,44 @@
     },
     "StepValue"    : 100.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u610F\u5FD7\u529B\u4E0D\u591F\u3002",
     "en" : "Not enough willpower.",
     "ja" : "\u610F\u5FD7\u529B\u304C\u8DB3\u308A\u306A\u3044\u3002"
   },
-  "type"                    : "GameStat",
-  "key"                     : "Willpower",
-  "icon"                    : "GameStat__Assertiveness__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Willpower",
+  "icon"                        : "GameStat__Assertiveness__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u610F\u5FD7\u529B",
     "en" : "Willpower",
     "ja" : "\u610F\u5FD7\u529B"
   },
-  "min"                     : 0.0,
-  "max"                     : 250.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 250.0,
+  "_modifierValues"             : [
+    {
+      "source" : {
+        "key" : "Bp_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "Summoning Ritual",
+          "en" : "Summoning Ritual",
+          "ja" : "Summoning Ritual"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -250.0,
+        "y" : -250.0
+      }
+    },
     {
       "source" : {
         "key" : "Bp_Appeasement",
@@ -434,6 +457,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_CraftHeartSpiritCalling_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit Calling",
+          "ja" : "Craft-Heart Spirit Calling"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -250.0,
+        "y" : -250.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_CurseGrove",
         "type" : "CardData",
         "CardType" : 7,
@@ -540,6 +585,28 @@
       "value"       : {
         "x" : -250.0,
         "y" : -250.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_DuckEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u9644\u9B54",
+          "en" : "Duck Enchantment",
+          "ja" : "Duck Enchantment"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -100.0,
+        "y" : -100.0
       }
     },
     {
@@ -1512,6 +1579,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_StalkerSpiritCalling",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit Calling",
+          "ja" : "Stalker Spirit Calling"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -250.0,
+        "y" : -250.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_StoneFriendRitual",
         "type" : "CardData",
         "CardType" : 7,
@@ -2018,10 +2107,32 @@
     },
     {
       "source" : {
+        "key" : "Carcass_DuckCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E2D\u5B50",
+          "en" : "Dead Duck",
+          "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -2634,6 +2745,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritDarkness",
         "type" : "CardData",
         "CardType" : 9,
@@ -2964,6 +3097,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritStalker",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit",
+          "ja" : "Stalker Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : -50.0,
+        "y" : -50.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritVoid",
         "type" : "CardData",
         "CardType" : 9,
@@ -3095,7 +3250,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Will",
@@ -3166,7 +3321,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_OakenStaff",
@@ -3187,6 +3342,28 @@
       "value"       : {
         "x" : 50.0,
         "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "Summoning Ritual",
+          "en" : "Summoning Ritual",
+          "ja" : "Summoning Ritual"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 250.0,
+        "y" : 1000000000.0
       }
     },
     {
@@ -3565,6 +3742,28 @@
     },
     {
       "source" : {
+        "key" : "Bp_CraftHeartSpiritCalling_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit Calling",
+          "ja" : "Craft-Heart Spirit Calling"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 250.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bp_CurseGrove",
         "type" : "CardData",
         "CardType" : 7,
@@ -3670,6 +3869,28 @@
       },
       "value"       : {
         "x" : 250.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_DuckEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u9644\u9B54",
+          "en" : "Duck Enchantment",
+          "ja" : "Duck Enchantment"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 100.0,
         "y" : 1000000000.0
       }
     },
@@ -4638,6 +4859,28 @@
       },
       "value"       : {
         "x" : 100.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_StalkerSpiritCalling",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit Calling",
+          "ja" : "Stalker Spirit Calling"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 250.0,
         "y" : 1000000000.0
       }
     },
@@ -5149,10 +5392,32 @@
     },
     {
       "source" : {
+        "key" : "Carcass_DuckCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E2D\u5B50",
+          "en" : "Dead Duck",
+          "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -5765,6 +6030,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritDarkness",
         "type" : "CardData",
         "CardType" : 9,
@@ -6095,6 +6382,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritStalker",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit",
+          "ja" : "Stalker Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritVoid",
         "type" : "CardData",
         "CardType" : 9,
@@ -6182,5 +6491,5 @@
       }
     }
   ],
-  "_uuid"                   : "fb03747247e64ad4bbddcf328e0669ae"
+  "_uuid"                       : "fb03747247e64ad4bbddcf328e0669ae"
 }

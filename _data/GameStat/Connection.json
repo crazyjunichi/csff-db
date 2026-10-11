@@ -10,34 +10,35 @@
     "en" : "Affects wellbeing.\n\nCan be increased by interacting with others.",
     "ja" : "\u5E78\u798F\u5EA6\u306B\u5F71\u97FF\u3092\u4E0E\u3048\u308B\u3002\n\n\u4ED6\u8005\u3068\u4EA4\u6D41\u3059\u308B\u3053\u3068\u3067\u4E0A\u6607\u3059\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : -100.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : -100.0,
     "y" : 100.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "NPCAgent__Agent_TraderGeneral__AgentImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5B8C\u7F8E\u8054\u7ED3",
@@ -233,27 +234,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "NPCAgent__Agent_TraderGeneral__AgentImage"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Connection",
-  "icon"                    : "NPCAgent__Agent_TraderGeneral__AgentImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Connection",
+  "icon"                        : "NPCAgent__Agent_TraderGeneral__AgentImage",
+  "name"                        : {
     "zh" : "\u8054\u7ED3\u5EA6",
     "en" : "Connection",
     "ja" : "\u7D46"
   },
-  "min"                     : -100.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : -100.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "PartnerDialog_ExpressAffection",
@@ -1015,7 +1016,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Loneliness",
@@ -1086,5 +1087,5 @@
       }
     }
   ],
-  "_uuid"                   : "461cb6065a003324ea2868def2d118c6"
+  "_uuid"                       : "461cb6065a003324ea2868def2d118c6"
 }

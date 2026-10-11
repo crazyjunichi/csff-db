@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Makes you better at woodworking.",
     "ja" : "A spirit blessing. Makes you better at woodworking."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "NPCAgent__Agent_Beaver__AgentImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6CB3\u72F8\u8D50\u798F",
@@ -501,27 +502,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BeaverBlessing",
-  "icon"                    : "NPCAgent__Agent_Beaver__AgentImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BeaverBlessing",
+  "icon"                        : "NPCAgent__Agent_Beaver__AgentImage",
+  "name"                        : {
     "zh" : "\u6CB3\u72F8\u8D50\u798F",
     "en" : "Beaver Blessing",
     "ja" : "Beaver Blessing"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_BeaverSpiritBlessingGranted",
@@ -567,7 +568,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LQ_SpiritBeaver",
@@ -729,5 +730,5 @@
       }
     }
   ],
-  "_uuid"                   : "b856874a81bdad24ea9b39ae05212537"
+  "_uuid"                       : "b856874a81bdad24ea9b39ae05212537"
 }

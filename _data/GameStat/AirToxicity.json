@@ -10,19 +10,20 @@
     "en" : "Air toxicity will damage your lungs after prolonged exposure, consider wearing a gas mask to avoid breathing problems.",
     "ja" : "Air toxicity will damage your lungs after prolonged exposure, consider wearing a gas mask to avoid breathing problems."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 6.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "StatusesHaveNoBar" : true,
-  "DefaultStatusIcon" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "StatusesHaveNoBar"           : true,
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__AirToxicity__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Clean Air",
@@ -157,23 +158,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "AirToxicity",
-  "icon"                    : "GameStat__AirToxicity__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "AirToxicity",
+  "icon"                        : "GameStat__AirToxicity__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u7A7A\u6C14\u6BD2\u6027",
     "en" : "Air Toxicity",
     "ja" : "Air Toxicity"
   },
-  "min"                     : 0.0,
-  "max"                     : 6.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 6.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "GasMaskRustic",
@@ -259,5 +260,5 @@
       }
     }
   ],
-  "_uuid"                   : "17c94dff5ee1c524db8742f45f162248"
+  "_uuid"                       : "17c94dff5ee1c524db8742f45f162248"
 }

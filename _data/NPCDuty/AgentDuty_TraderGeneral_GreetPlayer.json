@@ -1,0 +1,92 @@
+
+{
+  "DutyName" : {
+    "zh" : "Trader greets the player",
+    "en" : "Trader greets the player",
+    "ja" : "Trader greets the player"
+  },
+  "DutySummary" : {
+    "zh" : "Trader greets the player",
+    "en" : "Trader greets the player",
+    "ja" : "Trader greets the player"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyConditions"    : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_ClearingOak_GreenGlade",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+        "en" : "Green Glade",
+        "ja" : "\u7DD1\u306E\u5E83\u5834"
+      }
+    },
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentTraderGeneralGreenGladeGreetingDone",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5546\u4EBA\u7EFF\u91CE\u7A7A\u5730\u95EE\u5019\u5B8C\u6210",
+            "en" : "AgentTraderGeneralGreenGladeGreetingDone",
+            "ja" : "AgentTraderGeneralGreenGladeGreetingDone"
+          }
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "TraderGeneralMoveToPlayer",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "TraderGeneralMoveToPlayer",
+        "en" : "TraderGeneralMoveToPlayer",
+        "ja" : "TraderGeneralMoveToPlayer"
+      }
+    },
+    {
+      "key" : "TraderGeneralIntroDialog",
+      "type" : "StartDialogDutyAction",
+      "name" : {
+        "zh" : "TraderGeneralIntroDialog",
+        "en" : "TraderGeneralIntroDialog",
+        "ja" : "TraderGeneralIntroDialog"
+      }
+    },
+    {
+      "key" : "TraderGeneralReturnToGreenGlade",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "TraderGeneralReturnToGreenGlade",
+        "en" : "TraderGeneralReturnToGreenGlade",
+        "ja" : "TraderGeneralReturnToGreenGlade"
+      }
+    },
+    {
+      "key" : "TraderGeneralMarkGreenGladeGreetingDone",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "TraderGeneralMarkGreenGladeGreetingDone",
+        "en" : "TraderGeneralMarkGreenGladeGreetingDone",
+        "ja" : "TraderGeneralMarkGreenGladeGreetingDone"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 2,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_TraderGeneral_GreetPlayer",
+  "name"                             : {
+    "zh" : "Trader greets the player",
+    "en" : "Trader greets the player",
+    "ja" : "Trader greets the player"
+  },
+  "_uuid"                            : "10772f18a8374818bf0b43ba7ceac892"
+}

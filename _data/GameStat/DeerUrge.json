@@ -10,30 +10,31 @@
     "en" : "Raises your stress levels if not satisfied.\nCan be satisfied by meeting deers, traveling through the forest and eating vegetables.",
     "ja" : "\u6B32\u3092\u6E80\u305F\u3059\u307E\u3067\u30B9\u30C8\u30EC\u30B9\u304C\u6E9C\u307E\u308B\u3002\n\u9E7F\u3068\u63A5\u89E6\u3057\u305F\u308A\u3001\u68EE\u306E\u4E2D\u306B\u884C\u3063\u305F\u308A\u3001\u91CE\u83DC\u3092\u98DF\u3079\u305F\u308A\u3057\u305F\u3089\u6E80\u305F\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "NPCAgent__Agent_Stag__AgentImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u9E7F\u4E4B\u672C\u80FD",
@@ -155,23 +156,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "DeerUrge",
-  "icon"                    : "NPCAgent__Agent_Stag__AgentImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "DeerUrge",
+  "icon"                        : "NPCAgent__Agent_Stag__AgentImage",
+  "name"                        : {
     "zh" : "\u9E7F\u4E4B\u672C\u80FD",
     "en" : "Deer Urge",
     "ja" : "\u9E7F\u306E\u6B32\u6C42"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_DeerBlessing",
@@ -460,7 +461,7 @@
       "source" : {
         "key" : "tag_DoeHabitat",
         "type" : "CardTag",
-        "count" : 11,
+        "count" : 13,
         "name"  : {
           "zh" : "\u6BCD\u9E7F\u6816\u606F\u5730",
           "en" : "Doe Habitat",
@@ -644,9 +645,51 @@
         "x" : 96.0,
         "y" : 96.0
       }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterWhiteStag",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+        "name" : {
+          "zh" : "Stag",
+          "en" : "Stag",
+          "ja" : "Stag"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u9009\u9879",
+        "en" : "Encounter Option",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u9078\u629E"
+      },
+      "value"       : {
+        "x" : -24.0,
+        "y" : -24.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterWhiteStag",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+        "name" : {
+          "zh" : "Stag",
+          "en" : "Stag",
+          "ja" : "Stag"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u9009\u9879",
+        "en" : "Encounter Option",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u9078\u629E"
+      },
+      "value"       : {
+        "x" : 96.0,
+        "y" : 96.0
+      }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "DeerCoat",
@@ -737,7 +780,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_NoDeerUrgeReset",
@@ -779,5 +822,5 @@
       }
     }
   ],
-  "_uuid"                   : "724f92e47c5be6a46ac6695e383a40db"
+  "_uuid"                       : "724f92e47c5be6a46ac6695e383a40db"
 }

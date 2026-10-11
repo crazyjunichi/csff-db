@@ -5,13 +5,14 @@
     "en" : "Transfer A",
     "ja" : "Transfer A"
   },
-  "BaseValue" : 10.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 10.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 50.0
   },
-  "BaseRatePerTick" : 3.0,
-  "Transfers"       : [
+  "BaseRatePerTick"             : 3.0,
+  "Transfers"                   : [
     {
       "TransferID" : "Transfer 1 A to B",
       "OtherStat"  : {
@@ -59,9 +60,9 @@
       }
     }
   ],
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "Statuses"        : [
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Active",
@@ -95,20 +96,20 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "TestTransferStatA",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "TestTransferStatA",
+  "name"                        : {
     "zh" : "\u6D4B\u8BD5\u8F6C\u79FB\u5C5E\u6027A",
     "en" : "Transfer A",
     "ja" : "Transfer A"
   },
-  "min"                     : 0.0,
-  "max"                     : 50.0,
-  "_uuid"                   : "4188b8041d7c6774382f6040268a40e7"
+  "min"                         : 0.0,
+  "max"                         : 50.0,
+  "_uuid"                       : "4188b8041d7c6774382f6040268a40e7"
 }

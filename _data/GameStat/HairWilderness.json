@@ -5,22 +5,23 @@
     "en" : "Hair Wilderness",
     "ja" : "Hair Wilderness"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : 0.04,
-  "MinMaxRate"      : {
+  "BaseRatePerTick"             : 0.04,
+  "MinMaxRate"                  : {
     "x" : 0.0,
     "y" : 0.2
   },
-  "StatPriority"    : 1150,
-  "Visibility"      : 2,
-  "VisibleInAppearanceTab" : true,
-  "CannotBeInspected"      : true,
-  "StatusesHaveNoBar"      : true,
-  "Statuses"               : [
+  "StatPriority"                : 1150,
+  "Visibility"                  : 2,
+  "VisibleInAppearanceTab"      : true,
+  "CannotBeInspected"           : true,
+  "StatusesHaveNoBar"           : true,
+  "Statuses"                    : [
     {
       "ValueRange" : {
         "m_X" : 0,
@@ -56,32 +57,32 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "Your hair needs combing first.",
     "en" : "Your hair needs combing first.",
     "ja" : "Your hair needs combing first."
   },
-  "TooMuchText"             : {
+  "TooMuchText"                 : {
     "zh" : "Your hair needs combing first.",
     "en" : "Your hair needs combing first.",
     "ja" : "Your hair needs combing first."
   },
-  "type"                    : "GameStat",
-  "key"                     : "HairWilderness",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HairWilderness",
+  "name"                        : {
     "zh" : "\u5934\u53D1\u84EC\u4E71",
     "en" : "Hair Wilderness",
     "ja" : "Hair Wilderness"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_StyleHair",
@@ -105,7 +106,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Hairstyle",
@@ -392,7 +393,7 @@
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C0F\u5377\u53D1",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AKinky",
         "en" : "Status Stage: Kinky",
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AKinky"
       },
@@ -402,7 +403,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Event_StyleHair",
@@ -548,5 +549,5 @@
       }
     }
   ],
-  "_uuid"                   : "31d9f820c8774ab5929e570b3816fa01"
+  "_uuid"                       : "31d9f820c8774ab5929e570b3816fa01"
 }

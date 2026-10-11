@@ -1,0 +1,48 @@
+
+{
+  "MovementType" : 0,
+  "MoveDestination" : 0,
+  "DestinationSelection" : 2,
+  "MoveToEnvironments"   : [
+    {
+      "key" : "Env_ThicketOak_LostWoods",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u8FF7\u6797\u5E7D\u5F84",
+        "en" : "Lost Woods",
+        "ja" : "\u8FF7\u3044\u306E\u68EE"
+      }
+    }
+  ],
+  "IgnoreCurrentLocation" : true,
+  "LeaveTracks"           : true,
+  "CostRequirements"      : 2,
+  "MoveCosts"             : [
+    {
+      "TargetStat" : {
+        "key" : "AgentStamina",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "AgentStamina",
+          "ja" : "AgentStamina"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : -35.0,
+        "y" : -35.0
+      }
+    }
+  ],
+  "RequiredForSelectingDuty" : true,
+  "key"                      : "StagFleeMoveLostWoods",
+  "type"                     : "NPCDutyAction",
+  "name"                     : {
+    "zh" : "StagFleeMoveLostWoods",
+    "en" : "StagFleeMoveLostWoods",
+    "ja" : "StagFleeMoveLostWoods"
+  },
+  "actionType"               : "MoveDutyAction"
+}

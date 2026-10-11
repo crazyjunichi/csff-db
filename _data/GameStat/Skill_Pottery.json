@@ -10,41 +10,42 @@
     "en" : "Increases the quality of your clay crafts.",
     "ja" : "\u7C98\u571F\u7D30\u5DE5\u306E\u8CEA\u304C\u5411\u4E0A\u3059\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 672,
-  "StalenessMultiplier"     : 0.75,
-  "MaxStalenessStack"       : 5,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 672,
+  "StalenessMultiplier"         : 0.75,
+  "MaxStalenessStack"           : 5,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Pottery",
-  "icon"                    : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Pottery",
+  "icon"                        : "CookingRecipeGroup__BowlsCookingGroup__DefaultImages-0",
+  "name"                        : {
     "zh" : "\u9676\u827A",
     "en" : "Pottery",
     "ja" : "\u9676\u82B8\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_ClayBasin",
@@ -441,7 +442,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_PotteryWheel",
@@ -465,5 +466,5 @@
       }
     }
   ],
-  "_uuid"                   : "220a38c9e1656f94fb1e3975025f3a7a"
+  "_uuid"                       : "220a38c9e1656f94fb1e3975025f3a7a"
 }

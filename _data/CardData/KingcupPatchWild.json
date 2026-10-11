@@ -13,9 +13,9 @@
   "AlternateNames"  : [
     {
       "Conditions" : {
-        "Special4Range" : {
+        "Special1Range" : {
           "x" : 1.0,
-          "y" : 1.0
+          "y" : 5760.0
         }
       },
       "Name"       : {
@@ -32,6 +32,18 @@
   "ObjectWeight"    : 0.0,
   "WeightReductionWhenEquipped" : 0.0,
   "TradingValue"                : 0.0,
+  "CardTags"                    : [
+    {
+      "key" : "tag_HasFlowersForBees",
+      "type" : "CardTag",
+      "count" : 8,
+      "name"  : {
+        "zh" : "\u6709\u82B1\u4F9B\u871C\u8702",
+        "en" : "Temper",
+        "ja" : "Temper"
+      }
+    }
+  ],
   "MapStructureType"            : 0,
   "FlavourFadeRate"             : 0.0,
   "CompatibleDuties"            : [
@@ -144,27 +156,27 @@
   "LiquidEvaporationRate"       : 0.0,
   "SpecialDurability1"          : {
     "CardStatName" : {
-      "zh" : "\u9971\u6EE1\u5EA6",
-      "en" : "Yield",
-      "ja" : "Yield"
+      "zh" : "Flowers",
+      "en" : "Flowers",
+      "ja" : "Flowers"
     },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 5760.0,
-    "RatePerDaytimePoint"  : 1.0,
+    "RatePerDaytimePoint"  : 0.0,
     "ExtraRateWhenEquipped" : 0.0,
     "PauseRateWhenEnvWeightIsFull" : true,
     "HidingOptions"                : 0,
     "TextDisplay"                  : 0,
     "NumberPrecision"              : 0,
     "OverrideIcon"                 : {
-      "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
+      "FileName" : "CardData__AppleweedPlantedGrowing__Progress-OverrideIcon"
     },
     "OnZeroNotification"           : 0,
     "OnFullNotification"           : 0,
-    "FloatValue"                   : 5760.0,
+    "FloatValue"                   : 0.0,
     "Active"                       : true,
     "durabilityKey"                : "SpecialDurability1",
-    "_valueModifications"          : [
+    "_rateModifications"           : [
       {
         "source" : {
           "key" : "KingcupPatchWild",
@@ -178,17 +190,37 @@
           }
         },
         "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1A\u6536\u83B7",
-          "en" : "Action: Harvest",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHarvest"
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AGrows Flowers in Spring",
+          "en" : "Passive Effect\uFF1AGrows Flowers in Spring",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Flowers in Spring"
         },
         "value"       : {
-          "x" : -288.0,
-          "y" : -288.0
+          "x" : 2.0,
+          "y" : 2.0
         }
-      }
-    ],
-    "_rateModifications"           : [
+      },
+      {
+        "source" : {
+          "key" : "KingcupPatchWild",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KingcupPatchWild__CardImage",
+          "name"     : {
+            "zh" : "\u9A74\u8E44\u8349\u4E1B",
+            "en" : "Kingcup Patch",
+            "ja" : "Kingcup Patch"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AFlowers go away in Summer",
+          "en" : "Passive Effect\uFF1AFlowers go away in Summer",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlowers go away in Summer"
+        },
+        "value"       : {
+          "x" : -8.0,
+          "y" : -8.0
+        }
+      },
       {
         "source" : {
           "key" : "KingcupPatchWild",
@@ -276,6 +308,28 @@
           "x" : -9.5,
           "y" : -9.5
         }
+      },
+      {
+        "source" : {
+          "key" : "BeeSkep",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BeeSkep__CardImage",
+          "name"     : {
+            "zh" : "Bee Skep",
+            "en" : "Bee Skep",
+            "ja" : "Bee Skep"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
       }
     ]
   },
@@ -306,30 +360,51 @@
     "durabilityKey"         : "SpecialDurability2"
   },
   "SpecialDurability3"          : {
-    "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 1.0,
-    "RatePerDaytimePoint"  : 0.0,
-    "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 2,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "OnZeroNotification"    : 0,
-    "HasActionOnFull"       : true,
-    "OnFullNotification"    : 0,
-    "OnFull"                : {
-      "DaytimeCost" : 0,
-      "UseMiniTicks" : 0,
-      "ReceivingCardChanges" : {
-        "ModType" : 3,
-        "TransformToLiquidQuantity" : 0.0,
-        "LiquidEffectScaling"       : 0
-      },
-      "FadeToBlack"          : 0,
-      "RoomDirection"        : 0,
-      "ExitDirection"        : 0
+    "CardStatName" : {
+      "zh" : "\u4EA7\u91CF",
+      "en" : "Yield",
+      "ja" : "Yield"
     },
-    "FloatValue"            : 0.0,
-    "durabilityKey"         : "SpecialDurability3"
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 5760.0,
+    "RatePerDaytimePoint"  : 1.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "PauseRateWhenEnvWeightIsFull" : true,
+    "HidingOptions"                : 0,
+    "TextDisplay"                  : 0,
+    "NumberPrecision"              : 0,
+    "OverrideIcon"                 : {
+      "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
+    },
+    "OnZeroNotification"           : 0,
+    "OnFullNotification"           : 0,
+    "FloatValue"                   : 5760.0,
+    "Active"                       : true,
+    "durabilityKey"                : "SpecialDurability3",
+    "_valueModifications"          : [
+      {
+        "source" : {
+          "key" : "KingcupPatchWild",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KingcupPatchWild__CardImage",
+          "name"     : {
+            "zh" : "\u9A74\u8E44\u8349\u4E1B",
+            "en" : "Kingcup Patch",
+            "ja" : "Kingcup Patch"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1A\u6536\u83B7",
+          "en" : "Action: Harvest",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHarvest"
+        },
+        "value"       : {
+          "x" : -288.0,
+          "y" : -288.0
+        }
+      }
+    ]
   },
   "SpecialDurability4"          : {
     "CardStatName" : {
@@ -438,7 +513,7 @@
       },
       "RequiredReceivingDurabilities"          : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -573,7 +648,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -706,7 +781,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -821,7 +896,7 @@
         "TransformToLiquidQuantity" : 0.0,
         "TransferCharges"           : true,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -831,6 +906,136 @@
     }
   ],
   "PassiveEffects"              : [
+    {
+      "EffectName" : "Grows Flowers in Spring",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "OnBoardEffectCap" : 0,
+      "Special1RateModifier" : {
+        "FloatValue" : 2.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier"   : 0.0,
+      "GeneratedLiquid"      : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Grows Flowers in Spring",
+        "en" : "Grows Flowers in Spring",
+        "ja" : "Grows Flowers in Spring"
+      }
+    },
+    {
+      "EffectName" : "Flowers go away in Summer",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Summer",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u590F\u5B63",
+                "en" : "Summer Counter",
+                "ja" : "Summer Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "OnBoardEffectCap" : 0,
+      "Special1RateModifier" : {
+        "FloatValue" : -8.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier"   : 0.0,
+      "GeneratedLiquid"      : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Flowers go away in Summer",
+        "en" : "Flowers go away in Summer",
+        "ja" : "Flowers go away in Summer"
+      }
+    },
     {
       "EffectName" : "Grows Fast In Spring",
       "Conditions" : {

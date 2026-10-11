@@ -10,31 +10,32 @@
     "en" : "Alters your mind state and increases your morale.",
     "ja" : "\u7CBE\u795E\u72B6\u614B\u3092\u5909\u3048\u30E2\u30E9\u30EB\u3092\u4E0A\u3052\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 16.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AppleweedPlantedDormant__SpecialDurability4-OverrideIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u86C7\u5E8A\u5B50\u7D20\u5242\u91CF",
@@ -260,24 +261,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Psylocibin",
-  "icon"                    : "CardData__AppleweedPlantedDormant__SpecialDurability4-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Psylocibin",
+  "icon"                        : "CardData__AppleweedPlantedDormant__SpecialDurability4-OverrideIcon",
+  "name"                        : {
     "zh" : "\u86C7\u5E8A\u5B50\u7D20",
     "en" : "Psylocibin",
     "ja" : "\u30B5\u30A4\u30ED\u30B7\u30D3\u30F3"
   },
-  "min"                     : 0.0,
-  "max"                     : 16.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 16.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "SpiritMushroomsFresh",
@@ -344,7 +345,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Psylocibin",
@@ -392,5 +393,5 @@
       }
     }
   ],
-  "_uuid"                   : "26617bb3e833af34881b3674229a94d4"
+  "_uuid"                       : "26617bb3e833af34881b3674229a94d4"
 }

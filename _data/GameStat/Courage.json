@@ -10,18 +10,19 @@
     "en" : "Allows you to perform painful or dangerous actions you would otherwise not be able to do. It also helps you recover from being demoralized or frightened faster.",
     "ja" : "\u666E\u6BB5\u6016\u304F\u3066\u3067\u304D\u306A\u3044\u30A2\u30AF\u30B7\u30E7\u30F3\u304C\u3001\u3067\u304D\u308B\u3088\u3046\u306B\u306A\u308B\u3002\u58EB\u6C17\u304C\u843D\u3061\u305F\u6642\u3084\u3001\u6050\u6016\u3092\u611F\u3058\u305F\u6642\u306E\u56DE\u5FA9\u304C\u65E9\u307E\u308B\u3002"
   },
-  "BaseValue"   : 50.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 50.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 200.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "DefaultStatusIcon" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Antler__UsageDurability-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u52C7\u6C14",
@@ -265,28 +266,28 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u6211\u8FD8\u6CA1\u6709\u8DB3\u591F\u7684\u52C7\u6C14\u2026\u2026",
     "en" : "I haven't mustered enough courage yet...",
     "ja" : "\u52C7\u6C17\u304C\u8DB3\u308A\u306A\u3044\u30FB\u30FB\u30FB"
   },
-  "type"                    : "GameStat",
-  "key"                     : "Courage",
-  "icon"                    : "CardData__Antler__UsageDurability-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Courage",
+  "icon"                        : "CardData__Antler__UsageDurability-OverrideIcon",
+  "name"                        : {
     "zh" : "\u52C7\u6C14",
     "en" : "Courage",
     "ja" : "\u52C7\u6C17"
   },
-  "min"                     : 0.0,
-  "max"                     : 200.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 200.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "MaidenCharm",
@@ -858,6 +859,144 @@
       "value"       : {
         "x" : 100.0,
         "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 30.0,
+        "y" : 30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 40.0,
+        "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 60.0,
+        "y" : 60.0
       }
     },
     {
@@ -1455,7 +1594,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Spirit_HagBargainFear",
@@ -1500,7 +1639,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "HealingOintment",
@@ -1605,6 +1744,28 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u7ED9\u4F24\u53E3\u4E0A\u836F",
         "en" : "Action: Apply to Wound",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u50B7\u53E3\u306B\u5857\u308B"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AApply to Wound",
+        "en" : "Action: Apply to Wound",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AApply to Wound"
       },
       "value"       : {
         "x" : 0.0,
@@ -3238,6 +3399,72 @@
     },
     {
       "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 4000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "W_WolfBite",
         "type" : "CardData",
         "CardType" : 0,
@@ -3303,5 +3530,5 @@
       }
     }
   ],
-  "_uuid"                   : "3d37dbda5252dc14cb772b4c5e739916"
+  "_uuid"                       : "3d37dbda5252dc14cb772b4c5e739916"
 }

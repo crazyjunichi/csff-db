@@ -10,34 +10,6 @@
   "_actions" : [
     {
       "source" : {
-        "key" : "BoarSkinned",
-        "type" : "CardData",
-        "CardType" : 0,
-        "name"     : {
-          "zh" : "\u5265\u76AE\u7684\u91CE\u732A",
-          "en" : "Skinned Boar",
-          "ja" : "\u76AE\u3092\u5265\u3044\u3060\u30A4\u30CE\u30B7\u30B7"
-        }
-      },
-      "text"   : "\u5254\u8089",
-      "time"   : 1.0
-    },
-    {
-      "source" : {
-        "key" : "BoarSkinned",
-        "type" : "CardData",
-        "CardType" : 0,
-        "name"     : {
-          "zh" : "\u5265\u76AE\u7684\u91CE\u732A",
-          "en" : "Skinned Boar",
-          "ja" : "\u76AE\u3092\u5265\u3044\u3060\u30A4\u30CE\u30B7\u30B7"
-        }
-      },
-      "text"   : "\u5254\u8089",
-      "time"   : 2.0
-    },
-    {
-      "source" : {
         "key" : "Carcass_ForestBeastCarcass",
         "type" : "CardData",
         "CardType" : 0,
@@ -1152,7 +1124,7 @@
       "time"   : 8.0
     }
   ],
-  "count"    : 77,
+  "count"    : 75,
   "_blueprintStepActions" : [
     {
       "source" : {
@@ -1326,6 +1298,42 @@
           "zh" : "\u718A\u76AE\u5927\u8863",
           "en" : "Bear Coat",
           "ja" : "\u30AF\u30DE\u306E\u30B3\u30FC\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BeeSkepEmpty",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Empty Skep",
+          "en" : "Empty Skep",
+          "ja" : "Empty Skep"
         }
       },
       "description" : {
@@ -2851,7 +2859,7 @@
         "key" : "Bp_SimpleBow",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
@@ -3427,7 +3435,6 @@
         "key" : "Bp_ArrowBone",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__ArrowBone__CardImage",
         "name"     : {
           "zh" : "\u9AA8\u7BAD",
           "en" : "Bone Arrows",
@@ -3466,23 +3473,6 @@
           "zh" : "\u9AA8\u5200",
           "en" : "Bone Knife",
           "ja" : "\u9AA8\u306E\u30CA\u30A4\u30D5"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      }
-    },
-    {
-      "source" : {
-        "key" : "Bp_DoughStarter",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "\u9175\u79CD",
-          "en" : "Dough Starter",
-          "ja" : "\u5143\u7A2E"
         }
       },
       "description" : {
@@ -4298,23 +4288,18 @@
   "templateCard"          : {
     "SpoilageTime" : {
       "Active" : true,
-      "MaxValue" : 96.0,
-      "durabilityKey" : "SpoilageTime"
-    },
-    "SpecialDurability1" : {
-      "Active" : true,
-      "MaxValue" : 6000.0,
-      "durabilityKey" : "SpecialDurability1",
+      "MaxValue" : 360.0,
+      "durabilityKey" : "SpoilageTime",
       "CardStatName"  : {
-        "zh" : "\u91CD\u91CF",
-        "en" : "Weight",
-        "ja" : "\u91CD\u3055"
+        "zh" : "\u53D8\u8D28",
+        "en" : "Spoilage",
+        "ja" : "\u8150\u6557\u7269"
       },
       "OverrideIcon"  : {
-        "FileName" : "CardData__BoarFreeFemale__SpecialDurability1-OverrideIcon"
+        "FileName" : "CardData__AcornDoughRaw__SpoilageTime-OverrideIcon"
       }
     },
-    "Progress"           : {
+    "Progress"     : {
       "Active" : true,
       "MaxValue" : 1.0,
       "durabilityKey" : "Progress",
@@ -4338,6 +4323,19 @@
       },
       "OverrideIcon"  : {
         "FileName" : "CardData__AcornDoughRaw__SpecialDurability2-OverrideIcon"
+      }
+    },
+    "SpecialDurability1" : {
+      "Active" : true,
+      "MaxValue" : 2100.0,
+      "durabilityKey" : "SpecialDurability1",
+      "CardStatName"  : {
+        "zh" : "\u91CD\u91CF",
+        "en" : "Weight",
+        "ja" : "\u91CD\u3055"
+      },
+      "OverrideIcon"  : {
+        "FileName" : "CardData__Carcass_BearCarcass__SpecialDurability1-OverrideIcon"
       }
     },
     "UsageDurability"    : {

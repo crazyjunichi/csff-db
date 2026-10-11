@@ -1,0 +1,85 @@
+
+{
+  "DutyName" : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Craft-Heart rests while fleeing",
+    "ja" : "Craft-Heart rests while fleeing"
+  },
+  "DutySummary" : {
+    "zh" : "Craft-Heart rests while fleeing",
+    "en" : "Craft-Heart rests while fleeing",
+    "ja" : "Craft-Heart rests while fleeing"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyConditions"    : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_SpiritWorld",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "SpiritWorld",
+        "en" : "SpiritWorld",
+        "ja" : "SpiritWorld"
+      }
+    },
+    "InvertEnvironmentRequirement" : true,
+    "RequiredNPCStatValues"        : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentCraftHeartFleeMode",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+            "en" : "AgentCraftHeartFleeMode",
+            "ja" : "AgentCraftHeartFleeMode"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentStamina",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8010\u529B",
+            "en" : "AgentStamina",
+            "ja" : "AgentStamina"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 0.0,
+          "y" : 10.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "CraftHeartRest",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "CraftHeartRest",
+        "en" : "CraftHeartRest",
+        "ja" : "CraftHeartRest"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_CraftHeart_RestWhileFleeing",
+  "name"                 : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Craft-Heart rests while fleeing",
+    "ja" : "Craft-Heart rests while fleeing"
+  },
+  "_uuid"                : "27cf238ec2764cb5a5b73625be5df990"
+}

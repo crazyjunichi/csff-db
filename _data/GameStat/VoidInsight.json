@@ -5,34 +5,35 @@
     "en" : "Void Insight",
     "ja" : "Void Insight"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BloodSpilled__FeedbackInfo-Icon"
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BloodSpilled__FeedbackInfo-Icon"
     },
@@ -41,17 +42,17 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "VoidInsight",
-  "icon"                    : "GameStat__BloodSpilled__FeedbackInfo-Icon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "VoidInsight",
+  "icon"                        : "GameStat__BloodSpilled__FeedbackInfo-Icon",
+  "name"                        : {
     "zh" : "\u865A\u7A7A\u6D1E\u5BDF",
     "en" : "Void Insight",
     "ja" : "Void Insight"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_SpiritsEverywhere1g",
@@ -143,7 +144,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_AwakeningRitual",
@@ -207,7 +208,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_VoidExperience",
@@ -225,5 +226,5 @@
       }
     }
   ],
-  "_uuid"                   : "c45f95558f380a54d839d64848b2306d"
+  "_uuid"                       : "c45f95558f380a54d839d64848b2306d"
 }

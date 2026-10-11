@@ -10,47 +10,48 @@
     "en" : "Increases your success chances when hunting with a bow.",
     "ja" : "HHH"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
-    "FileName" : "GameStat__Skill_Archery__DefaultStatusIcon"
+  "DefaultStatusIcon"           : {
+    "FileName" : "GameStat__ArcheryAid__DefaultStatusIcon"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Archery",
-  "icon"                    : "GameStat__Skill_Archery__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Archery",
+  "icon"                        : "GameStat__ArcheryAid__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u7BAD\u672F",
     "en" : "Archery",
     "ja" : "\u5F13\u8853"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_5_3_HuntingGear_SimpleBow",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
@@ -72,7 +73,7 @@
         "key" : "Pk_5_3_HuntingGear_SimpleBow",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
@@ -182,7 +183,7 @@
         "key" : "SimpleBow",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
@@ -204,7 +205,7 @@
         "key" : "SimpleBow",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
@@ -226,7 +227,6 @@
         "key" : "BowComposite",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BowComposite__CardImage",
         "name"     : {
           "zh" : "Composite Bow",
           "en" : "Composite Bow",
@@ -248,7 +248,6 @@
         "key" : "BowComposite",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BowComposite__CardImage",
         "name"     : {
           "zh" : "Composite Bow",
           "en" : "Composite Bow",
@@ -267,9 +266,147 @@
     },
     {
       "source" : {
+        "key" : "ArcheryAid",
+        "type" : "GameStat",
+        "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5C04\u7BAD\u63F4\u52A9",
+          "en" : "Archery Aid",
+          "ja" : "Archery Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AArchery Aid",
+        "en" : "Status Stage: Archery Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AArchery Aid"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ArcheryAid",
+        "type" : "GameStat",
+        "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5C04\u7BAD\u63F4\u52A9",
+          "en" : "Archery Aid",
+          "ja" : "Archery Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AArchery Aid",
+        "en" : "Status Stage: Archery Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AArchery Aid"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ArcheryAid",
+        "type" : "GameStat",
+        "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5C04\u7BAD\u63F4\u52A9",
+          "en" : "Archery Aid",
+          "ja" : "Archery Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AArchery Aid",
+        "en" : "Status Stage: Archery Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AArchery Aid"
+      },
+      "value"       : {
+        "x" : 30.0,
+        "y" : 30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ArcheryAid",
+        "type" : "GameStat",
+        "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5C04\u7BAD\u63F4\u52A9",
+          "en" : "Archery Aid",
+          "ja" : "Archery Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AArchery Aid",
+        "en" : "Status Stage: Archery Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AArchery Aid"
+      },
+      "value"       : {
+        "x" : 40.0,
+        "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ArcheryAid",
+        "type" : "GameStat",
+        "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5C04\u7BAD\u63F4\u52A9",
+          "en" : "Archery Aid",
+          "ja" : "Archery Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AArchery Aid",
+        "en" : "Status Stage: Archery Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AArchery Aid"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ArcheryAid",
+        "type" : "GameStat",
+        "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u5C04\u7BAD\u63F4\u52A9",
+          "en" : "Archery Aid",
+          "ja" : "Archery Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AArchery Aid",
+        "en" : "Status Stage: Archery Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AArchery Aid"
+      },
+      "value"       : {
+        "x" : 60.0,
+        "y" : 60.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Pk_6_2_Archer",
         "type" : "CharacterPerk",
-        "icon" : "CardData__Bp_SimpleBow__CardImage",
+        "icon" : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name" : {
           "zh" : "\u5F13\u7BAD\u624B",
           "en" : "Archer",
@@ -287,7 +424,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_Flint_Arrows",
@@ -355,5 +492,5 @@
       }
     }
   ],
-  "_uuid"                   : "f30b2aea9dece7e43b14b47e6d8bcbc8"
+  "_uuid"                       : "f30b2aea9dece7e43b14b47e6d8bcbc8"
 }

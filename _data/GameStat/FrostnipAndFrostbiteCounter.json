@@ -5,30 +5,31 @@
     "en" : "FrostnipAndFrostbiteCounter",
     "ja" : "FrostnipAndFrostbiteCounter"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 8.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FrostnipAndFrostbiteCounter",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FrostnipAndFrostbiteCounter",
+  "name"                        : {
     "zh" : "\u51BB\u4F24\u8BA1\u6570",
     "en" : "FrostnipAndFrostbiteCounter",
     "ja" : "FrostnipAndFrostbiteCounter"
   },
-  "min"                     : 0.0,
-  "max"                     : 8.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 8.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Tgr_FrostnipFrostbiteCheck",
@@ -50,7 +51,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_FrostnipFrostbiteCheck",
@@ -92,5 +93,5 @@
       }
     }
   ],
-  "_uuid"                   : "aba57d49fa809414a924448ea5164084"
+  "_uuid"                       : "aba57d49fa809414a924448ea5164084"
 }

@@ -10,15 +10,16 @@
     "en" : "Used To enable the cold sensitive Perk",
     "ja" : "Used To enable the cold sensitive Perk"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Cold Sensitive",
@@ -57,22 +58,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_Pk_2_10_ColdSensitive",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_Pk_2_10_ColdSensitive",
+  "name"                        : {
     "zh" : "\u6015\u51B7",
     "en" : "Stat_Pk_2_10_ColdSensitive",
     "ja" : "Stat_Pk_2_10_ColdSensitive"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_2_10_ColdSensitive",
@@ -95,5 +96,5 @@
       }
     }
   ],
-  "_uuid"                   : "72d4a79e18bbdd6479139c9e73154498"
+  "_uuid"                       : "72d4a79e18bbdd6479139c9e73154498"
 }

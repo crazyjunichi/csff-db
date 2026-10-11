@@ -1,0 +1,59 @@
+
+{
+  "DutyName" : {
+    "zh" : "Bee1 go to Spirit World",
+    "en" : "Bee1 go to Spirit World",
+    "ja" : "Bee1 go to Spirit World"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "NotInBackground" : true,
+    "PlayerUsesCard"  : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_SpiritWorld",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "SpiritWorld",
+        "en" : "SpiritWorld",
+        "ja" : "SpiritWorld"
+      }
+    },
+    "InvertEnvironmentRequirement" : true,
+    "RequiredCardsNOTOnBoard"      : [
+      {
+        "key" : "Beehive",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "NPCAgent__Agent_Bee1__AgentImage",
+        "name"     : {
+          "zh" : "Beehive",
+          "en" : "Beehive",
+          "ja" : "Beehive"
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 2,
+  "ActionSequence"       : [
+    {
+      "key" : "Bee1GoToSpiritWorld",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "Bee1GoToSpiritWorld",
+        "en" : "Bee1GoToSpiritWorld",
+        "ja" : "Bee1GoToSpiritWorld"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_Bee1_GoToSpiritWorld",
+  "name"                 : {
+    "zh" : "Bee1 go to Spirit World",
+    "en" : "Bee1 go to Spirit World",
+    "ja" : "Bee1 go to Spirit World"
+  },
+  "_uuid"                : "a9c4b35fd32bd7f418e44726c2ee49b3"
+}

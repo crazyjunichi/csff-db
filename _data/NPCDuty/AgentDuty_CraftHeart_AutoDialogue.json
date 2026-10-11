@@ -1,0 +1,68 @@
+
+{
+  "DutyName" : {
+    "zh" : "Craft-Heart automatically greets the player",
+    "en" : "Craft-Heart automatically greets the player",
+    "ja" : "Craft-Heart automatically greets the player"
+  },
+  "DutySummary" : {
+    "zh" : "Craft-Heart automatically greets the player",
+    "en" : "Craft-Heart automatically greets the player",
+    "ja" : "Craft-Heart automatically greets the player"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyConditions"    : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 2,
+  "ActionSequence"                   : [
+    {
+      "key" : "CraftHeartAutomaticDialog",
+      "type" : "StartDialogDutyAction",
+      "name" : {
+        "zh" : "CraftHeartAutomaticDialog",
+        "en" : "CraftHeartAutomaticDialog",
+        "ja" : "CraftHeartAutomaticDialog"
+      }
+    },
+    {
+      "key" : "CraftHeartResetAgentExists",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "CraftHeartResetAgentExists",
+        "en" : "CraftHeartResetAgentExists",
+        "ja" : "CraftHeartResetAgentExists"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 2,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_CraftHeart_AutoDialogue",
+  "name"                             : {
+    "zh" : "Craft-Heart automatically greets the player",
+    "en" : "Craft-Heart automatically greets the player",
+    "ja" : "Craft-Heart automatically greets the player"
+  },
+  "_uuid"                            : "ee8490c9b7494f268cf76405f85803e0"
+}

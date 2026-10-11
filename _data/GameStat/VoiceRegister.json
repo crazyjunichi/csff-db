@@ -5,18 +5,19 @@
     "en" : "Voice Register",
     "ja" : "Voice Register"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 200.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 2200,
-  "Visibility"      : 2,
-  "VisibleInAppearanceTab" : true,
-  "CannotBeInspected"      : true,
-  "StatusesHaveNoBar"      : true,
-  "Statuses"               : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 2200,
+  "Visibility"                  : 2,
+  "VisibleInAppearanceTab"      : true,
+  "CannotBeInspected"           : true,
+  "StatusesHaveNoBar"           : true,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Soprano Voice",
@@ -120,22 +121,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "VoiceRegister",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "VoiceRegister",
+  "name"                        : {
     "zh" : "\u97F3\u57DF",
     "en" : "Voice Register",
     "ja" : "Voice Register"
   },
-  "min"                     : 0.0,
-  "max"                     : 200.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 200.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Testosterone",
@@ -219,9 +220,9 @@
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8D85\u5927",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5DE8\u4EBA\u8EAB\u6750",
         "en" : "Status Stage: Has a very tall stature.",
-        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5DE8\u5927"
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHas a very tall stature."
       },
       "value"       : {
         "x" : 20.0,
@@ -242,9 +243,9 @@
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5927",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8EAB\u6750\u9AD8\u5927\u3002",
         "en" : "Status Stage: Has a tall stature.",
-        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u304D\u3044"
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHas a tall stature."
       },
       "value"       : {
         "x" : 10.0,
@@ -265,9 +266,9 @@
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C0F",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8EAB\u6750\u77EE\u5C0F\u3002",
         "en" : "Status Stage: Has a short stature.",
-        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C0F\u3055\u3044"
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHas a short stature."
       },
       "value"       : {
         "x" : -10.0,
@@ -288,9 +289,9 @@
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7279\u522B\u5C0F",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F8F\u5112\u8EAB\u6750\u3002",
         "en" : "Status Stage: Has a very short stature.",
-        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u5C0F\u3055\u3044"
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHas a very short stature."
       },
       "value"       : {
         "x" : -20.0,
@@ -298,5 +299,5 @@
       }
     }
   ],
-  "_uuid"                   : "aa4fbc2d8311495cab2f0b25cedbfc37"
+  "_uuid"                       : "aa4fbc2d8311495cab2f0b25cedbfc37"
 }

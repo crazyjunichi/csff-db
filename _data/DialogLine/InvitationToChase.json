@@ -1,0 +1,123 @@
+
+{
+  "Line" : {
+    "zh" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+    "en" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+    "ja" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him."
+  },
+  "OverrideSceneImage" : {
+    "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+  },
+  "NextStep"           : {
+    "NextStep" : 2
+  },
+  "ShowContinueButton" : 2,
+  "ActionToPerform"    : {
+    "NPCStatModifications" : [
+      {
+        "TargetStat" : {
+          "key" : "AgentCraftHeartFleeMode",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+            "en" : "AgentCraftHeartFleeMode",
+            "ja" : "AgentCraftHeartFleeMode"
+          }
+        },
+        "TargetAgent" : {
+          "key" : "Agent_CraftHeart",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+            "en" : "Craft-Heart",
+            "ja" : "Craft-Heart"
+          }
+        },
+        "ValueChange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "Ticks"                : 0,
+    "Miniticks"            : 0
+  },
+  "PossibleAnswers"    : [
+    {
+      "Answer" : {
+        "zh" : "Go after him!",
+        "en" : "Go after him!",
+        "ja" : "Go after him!"
+      },
+      "NewNextLine" : {
+        "NextStep" : 2
+      },
+      "ActionToPerform" : {
+        "StartCombatEncounter" : {
+          "key" : "Combat_EncounterCraftheart",
+          "type" : "Encounter",
+          "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name" : {
+            "zh" : "Craft-Heart",
+            "en" : "Craft-Heart",
+            "ja" : "Craft-Heart"
+          }
+        },
+        "SkipEncounterEvent"   : true,
+        "OverrideEncounterNPC" : true,
+        "EncounterNPC"         : {
+          "key" : "Agent_CraftHeart",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+            "en" : "Craft-Heart",
+            "ja" : "Craft-Heart"
+          }
+        },
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      }
+    },
+    {
+      "Answer" : {
+        "zh" : "Ignore him.",
+        "en" : "Ignore him.",
+        "ja" : "Ignore him."
+      },
+      "NewNextLine" : {
+        "NextStep" : 2
+      },
+      "ActionToPerform" : {
+        "NPCStatModifications" : [
+          {
+            "TargetStat" : {
+              "key" : "AgentCraftHeartFleeMode",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+                "en" : "AgentCraftHeartFleeMode",
+                "ja" : "AgentCraftHeartFleeMode"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ],
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      }
+    }
+  ],
+  "type"               : "DialogLine",
+  "key"                : "InvitationToChase",
+  "name"               : {
+    "zh" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+    "en" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+    "ja" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him."
+  }
+}

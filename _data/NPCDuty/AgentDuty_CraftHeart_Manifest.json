@@ -1,0 +1,93 @@
+
+{
+  "DutyName" : {
+    "zh" : "Craft-Heart manifests in the mortal world",
+    "en" : "Craft-Heart manifests in the mortal world",
+    "ja" : "Craft-Heart manifests in the mortal world"
+  },
+  "DutySummary" : {
+    "zh" : "Craft-Heart manifests in the mortal world",
+    "en" : "Craft-Heart manifests in the mortal world",
+    "ja" : "Craft-Heart manifests in the mortal world"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 1,
+  "DutyConditions"    : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_SpiritWorld",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "SpiritWorld",
+        "en" : "SpiritWorld",
+        "ja" : "SpiritWorld"
+      }
+    },
+    "RequiredStatValues"  : [
+      {
+        "Stat" : {
+          "key" : "Stat_CraftHeartManifestationOutcome",
+          "type" : "GameStat",
+          "min"  : 0.0,
+          "max"  : 1.0,
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u7ED3\u679C",
+            "en" : "Craft-Heart manifestation outcome",
+            "ja" : "Craft-Heart manifestation outcome"
+          }
+        },
+        "TriggerRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ],
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentCounter",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8BA1\u6B65\u5668",
+            "en" : "AgentCounter",
+            "ja" : "AgentCounter"
+          }
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "ManifestInRandomForest",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "ManifestInRandomForest",
+        "en" : "ManifestInRandomForest",
+        "ja" : "ManifestInRandomForest"
+      }
+    },
+    {
+      "key" : "ClearManifestationOutcome",
+      "type" : "ChangeStatDutyAction",
+      "name" : {
+        "zh" : "ClearManifestationOutcome",
+        "en" : "ClearManifestationOutcome",
+        "ja" : "ClearManifestationOutcome"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_CraftHeart_Manifest",
+  "name"                             : {
+    "zh" : "Craft-Heart manifests in the mortal world",
+    "en" : "Craft-Heart manifests in the mortal world",
+    "ja" : "Craft-Heart manifests in the mortal world"
+  },
+  "_uuid"                            : "b6e9d2c750b84c2da1f7e36a9428c501"
+}

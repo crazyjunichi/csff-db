@@ -491,7 +491,7 @@
               "key" : "Bp_Fatchunk",
               "type" : "CardData",
               "CardType" : 7,
-              "icon"     : "CardData__Bp_ButterChunk__CardImage",
+              "icon"     : "CardData__Beeswax__CardImage",
               "name"     : {
                 "zh" : "\u8102\u80AA\u5757",
                 "en" : "Fat Chunk",
@@ -502,7 +502,7 @@
               "key" : "Bp_ButterChunk",
               "type" : "CardData",
               "CardType" : 7,
-              "icon"     : "CardData__Bp_ButterChunk__CardImage",
+              "icon"     : "CardData__Beeswax__CardImage",
               "name"     : {
                 "zh" : "\u9EC4\u6CB9\u5757",
                 "en" : "Butter Chunk",
@@ -1064,7 +1064,6 @@
         "en" : "Hunting",
         "ja" : "\u72E9\u731F"
       },
-      "icon" : "GameStat__Skill_Archery__DefaultStatusIcon",
       "SubGroups" : [
         {
           "key" : "Tab_3_Hunting_Subtab_1_Fishing",
@@ -1284,7 +1283,7 @@
               "key" : "Bp_SimpleBow",
               "type" : "CardData",
               "CardType" : 7,
-              "icon"     : "CardData__Bp_SimpleBow__CardImage",
+              "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
               "name"     : {
                 "zh" : "\u7B80\u6613\u5F13",
                 "en" : "Simple Bow",
@@ -2884,6 +2883,28 @@
                 "en" : "Dry Fodder",
                 "ja" : "\u4E7E\u71E5\u3057\u305F\u98FC\u6599"
               }
+            },
+            {
+              "key" : "Bp_BeeSkep",
+              "type" : "CardData",
+              "CardType" : 7,
+              "icon"     : "CardData__BeeSkep__CardImage",
+              "name"     : {
+                "zh" : "Bee Skep",
+                "en" : "Bee Skep",
+                "ja" : "Bee Skep"
+              }
+            },
+            {
+              "key" : "Bp_BeeSkepEmpty",
+              "type" : "CardData",
+              "CardType" : 7,
+              "icon"     : "CardData__BeeSkep__CardImage",
+              "name"     : {
+                "zh" : "Empty Skep",
+                "en" : "Empty Skep",
+                "ja" : "Empty Skep"
+              }
             }
           ]
         }
@@ -3048,6 +3069,17 @@
               }
             },
             {
+              "key" : "Bp_CraftHeartSpiritCalling_",
+              "type" : "CardData",
+              "CardType" : 7,
+              "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+              "name"     : {
+                "zh" : "\u547C\u5524\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+                "en" : "Craft-Heart Spirit Calling",
+                "ja" : "Craft-Heart Spirit Calling"
+              }
+            },
+            {
               "key" : "Bp_DeerSpiritCalling",
               "type" : "CardData",
               "CardType" : 7,
@@ -3177,6 +3209,17 @@
                 "zh" : "\u547C\u5524\u72D7\u9C7C\u7CBE\u9B44",
                 "en" : "Pike Spirit Calling",
                 "ja" : "\u30AB\u30EF\u30AB\u30DE\u30B9\u306E\u7CBE\u970A\u53EC\u559A"
+              }
+            },
+            {
+              "key" : "Bp_StalkerSpiritCalling",
+              "type" : "CardData",
+              "CardType" : 7,
+              "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+              "name"     : {
+                "zh" : "\u547C\u5524\u6F5C\u884C\u8005\u7CBE\u9B44",
+                "en" : "Stalker Spirit Calling",
+                "ja" : "Stalker Spirit Calling"
               }
             },
             {
@@ -3968,10 +4011,36 @@
     },
     {
       "card" : {
+        "key" : "Carcass_DuckCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E2D\u5B50",
+          "en" : "Dead Duck",
+          "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+        }
+      },
+      "blueprints" : [
+        {
+          "key" : "Bp_DuckEnchantment",
+          "type" : "CardData",
+          "CardType" : 7,
+          "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+          "name"     : {
+            "zh" : "\u9E2D\u9644\u9B54",
+            "en" : "Duck Enchantment",
+            "ja" : "Duck Enchantment"
+          }
+        }
+      ]
+    },
+    {
+      "card" : {
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",

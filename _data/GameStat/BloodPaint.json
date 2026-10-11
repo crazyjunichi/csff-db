@@ -10,30 +10,31 @@
     "en" : "Makes you feel a bit braver and stronger in combat.",
     "ja" : "\u6226\u95D8\u6642\u306B\u5C11\u3057\u52C7\u6562\u3067\u529B\u5F37\u304F\u611F\u3058\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 50.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4245,
     "g" : 0.0706,
     "b" : 0.0741,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.7642,
     "g" : 0.3179,
     "b" : 0.1478,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BloodLoss__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8840\u6D82\u6599",
@@ -152,24 +153,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BloodPaint",
-  "icon"                    : "GameStat__BloodLoss__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BloodPaint",
+  "icon"                        : "GameStat__BloodLoss__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u8840\u6D82\u6599",
     "en" : "Blood Paint",
     "ja" : "\u8840\u5316\u7CA7"
   },
-  "min"                     : 0.0,
-  "max"                     : 50.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 50.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "LQ_Blood",
@@ -215,5 +216,5 @@
       }
     }
   ],
-  "_uuid"                   : "cfcc20176755e6440a3e8da9b19fbec1"
+  "_uuid"                       : "cfcc20176755e6440a3e8da9b19fbec1"
 }

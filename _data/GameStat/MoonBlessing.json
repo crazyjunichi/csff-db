@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Boosts your stealth and night vision, and protects you from wolves.",
     "ja" : "\u7CBE\u970A\u306E\u52A0\u8B77\u3002\u96A0\u5BC6\u80FD\u529B\u3068\u591C\u76EE\u3092\u9AD8\u3081\u3001\u30AA\u30AA\u30AB\u30DF\u304B\u3089\u8EAB\u3092\u5B88\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__MoonAffinity__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6708\u8D50\u798F",
@@ -387,27 +388,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "MoonBlessing",
-  "icon"                    : "GameStat__MoonAffinity__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MoonBlessing",
+  "icon"                        : "GameStat__MoonAffinity__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6708\u8D50\u798F",
     "en" : "Moon Blessing",
     "ja" : "\u6708\u306E\u52A0\u8B77"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_MoonMaidenSpiritBlessingGranted",
@@ -641,7 +642,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "MoontouchedCoat",
@@ -891,7 +892,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Light",
@@ -962,5 +963,5 @@
       }
     }
   ],
-  "_uuid"                   : "f43ed5c49cbfc904989aa34e549218c7"
+  "_uuid"                       : "f43ed5c49cbfc904989aa34e549218c7"
 }

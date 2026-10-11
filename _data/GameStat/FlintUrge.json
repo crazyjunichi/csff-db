@@ -10,30 +10,31 @@
     "en" : "Raises your stress levels if not satisfied.\nCan be satisfied by interacting with flint.",
     "ja" : "\u6B32\u3092\u6E80\u305F\u3059\u307E\u3067\u30B9\u30C8\u30EC\u30B9\u304C\u6E9C\u307E\u308B\u3002\n\u706B\u6253\u77F3\u3092\u4F7F\u3063\u305F\u3089\u6E80\u305F\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_FlintBlessing__CardImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u71E7\u77F3\u672C\u80FD",
@@ -155,23 +156,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FlintUrge",
-  "icon"                    : "CardData__Bp_FlintBlessing__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FlintUrge",
+  "icon"                        : "CardData__Bp_FlintBlessing__CardImage",
+  "name"                        : {
     "zh" : "\u71E7\u77F3\u672C\u80FD",
     "en" : "Flint Urge",
     "ja" : "\u706B\u6253\u77F3\u306E\u6B32\u6C42"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_FlintHoe",
@@ -393,7 +394,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LQ_SpiritFlint",
@@ -439,5 +440,5 @@
       }
     }
   ],
-  "_uuid"                   : "e53d1e42a459e214da46bcf1da426947"
+  "_uuid"                       : "e53d1e42a459e214da46bcf1da426947"
 }

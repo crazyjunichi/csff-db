@@ -1,0 +1,100 @@
+
+{
+  "SpiceName" : {
+    "zh" : "\u8702\u871C\u9152",
+    "en" : "Mead",
+    "ja" : "Mead"
+  },
+  "AddedFlavours" : [
+    {
+      "Flavour" : {
+        "key" : "Fruity",
+        "type" : "FlavourTag",
+        "name" : {
+          "zh" : "\u679C\u9999",
+          "en" : "Fruity",
+          "ja" : "\u30D5\u30EB\u30FC\u30C6\u30A3"
+        }
+      },
+      "Intensity" : 0
+    },
+    {
+      "Flavour" : {
+        "key" : "Sweet",
+        "type" : "FlavourTag",
+        "name" : {
+          "zh" : "\u751C\u5473",
+          "en" : "Sweet",
+          "ja" : "\u7518\u3044"
+        }
+      },
+      "Intensity" : 1
+    }
+  ],
+  "AddedStatModifiers" : [
+    {
+      "Stat" : {
+        "key" : "Calories_Stomach",
+        "type" : "GameStat",
+        "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 200.0,
+        "name" : {
+          "zh" : "\u80C3\u90E8",
+          "en" : "Stomach",
+          "ja" : "\u304A\u8179"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 56.0,
+        "y" : 56.0
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "SaturationSugar",
+        "type" : "GameStat",
+        "icon" : "CardData__FairyweedPowder__CardImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u7CD6\u538C\u5026\u5EA6",
+          "en" : "Sugar Saturation",
+          "ja" : "\u7802\u7CD6\u306E\u98FD\u304D"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 8.0,
+        "y" : 8.0
+      }
+    }
+  ],
+  "type"               : "SpiceTag",
+  "key"                : "Spice_Mead",
+  "name"               : {
+    "zh" : "\u8702\u871C\u9152",
+    "en" : "Mead",
+    "ja" : "Mead"
+  },
+  "_sources"           : [
+    {
+      "source" : {
+        "key" : "LQ_HoneyMead",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u8702\u871C\u9152",
+          "en" : "Mead",
+          "ja" : "Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AAdd",
+        "en" : "Action: Add",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AAdd"
+      }
+    }
+  ],
+  "_uuid"              : "93a3b1db178fa9f48a6a06777b375274"
+}

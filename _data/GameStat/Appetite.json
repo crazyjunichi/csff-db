@@ -10,34 +10,35 @@
     "en" : "Appetite governs the rate at which you get hungry. A higher appetite means you'll need to consume more food, making it easier to gain weight but also stressing you more if food is not available. Conversely, a low appetite will make it harder for you to gain weight but also put less pressure on you if food is scarce. \n\nRegular overeating can increase your appetite, while being very hungry can decrease it. ",
     "ja" : "\u304A\u8179\u304C\u6E1B\u308B\u901F\u5EA6\u3092\u793A\u3059\u3002\u98DF\u6B32\u304C\u5F37\u3044\u3068\u591A\u3044\u983B\u5EA6\u3067\u98DF\u4E8B\u3092\u3068\u308A\u3001\u4F53\u91CD\u304C\u5897\u3048\u3084\u3059\u304F\u3001\u98DF\u4E8B\u3092\u3068\u308B\u3053\u3068\u304C\u51FA\u6765\u306A\u304B\u3063\u305F\u3089\u30B9\u30C8\u30EC\u30B9\u304C\u5897\u3048\u3066\u3057\u307E\u3046\u3002\u9006\u306B\u98DF\u6B32\u304C\u306A\u3044\u3068\u4F53\u91CD\u3092\u5897\u3084\u3059\u306E\u3082\u6804\u990A\u3092\u6442\u308B\u306E\u3082\u96E3\u3057\u3044\u3002\u983B\u7E41\u306B\u98DF\u3079\u308C\u3070\u98DF\u6B32\u306F\u5F37\u304F\u306A\u308A\u3001\u98DF\u4E8B\u306E\u983B\u5EA6\u304C\u843D\u3061\u308C\u3070\u98DF\u6B32\u3082\u306A\u304F\u306A\u308B\u3002\u30A2\u30C3\u30D7\u30EB\u30A6\u30A3\u30FC\u30C9\u306A\u3069\u306E\u690D\u7269\u3092\u98DF\u3079\u3066\u98DF\u6B32\u3092\u5909\u3048\u308B\u3053\u3068\u3082\u53EF\u80FD\u3002\u98DF\u6B32\u306F\u6804\u990A\u3092\u5341\u5206\u306B\u6442\u308B\u3053\u3068\u3068\u8CC7\u6E90\u306E\u7BA1\u7406\u306B\u304B\u306A\u308A\u5F71\u97FF\u3057\u307E\u3059\u3002"
   },
-  "BaseValue"   : 100.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 100.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 250.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 250.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.6941,
     "g" : 0.4314,
     "b" : 0.2784,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Appetite__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u98DF\u6B32\u4E0D\u632F",
@@ -333,27 +334,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Appetite__FeedbackInfo-Icon"
     },
     "StepValue" : 5.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Appetite",
-  "icon"                    : "GameStat__Appetite__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Appetite",
+  "icon"                        : "GameStat__Appetite__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u98DF\u6B32",
     "en" : "Appetite",
     "ja" : "\u98DF\u6B32"
   },
-  "min"                     : 0.0,
-  "max"                     : 250.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 250.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "LQ_SpiritBadger",
@@ -1078,6 +1079,28 @@
       "value"       : {
         "x" : 100.0,
         "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ASkin Integrity, Appetite, Weight, Paranoia",
+        "en" : "Passive Effect: Skin Integrity, Appetite, Weight, Paranoia",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASkin Integrity, Appetite, Weight, Paranoia"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
       }
     },
     {
@@ -2171,7 +2194,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "AppleWeedEffect",
@@ -2449,5 +2472,5 @@
       }
     }
   ],
-  "_uuid"                   : "42aefae29c11e14499270d0e6eb2b6fa"
+  "_uuid"                       : "42aefae29c11e14499270d0e6eb2b6fa"
 }

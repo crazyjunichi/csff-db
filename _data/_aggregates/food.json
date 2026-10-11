@@ -1836,7 +1836,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -6052,7 +6052,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -11612,7 +11612,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -11680,7 +11680,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -12940,7 +12940,6 @@
         "key" : "TestSavoury",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__TestSavoury__CardImage",
         "name"     : {
           "zh" : "Savoury",
           "en" : "Savoury",
@@ -13343,7 +13342,7 @@
       "min"  : 0.0,
       "max"  : 11520.0,
       "name" : {
-        "zh" : "\u7A7A\u58F3\u5316\u7B49\u7EA7",
+        "zh" : "\u7A7A\u58F3\u5316",
         "en" : "Hollowness",
         "ja" : "Hollowness"
       }
@@ -14589,6 +14588,56 @@
       ]
     },
     {
+      "key" : "Spice_Honey",
+      "name" : {
+        "zh" : "\u8702\u871C",
+        "en" : "Honey",
+        "ja" : "Honey"
+      },
+      "addedFlavours" : [
+        {
+          "key" : "Fruity",
+          "type" : "FlavourTag",
+          "name" : {
+            "zh" : "\u679C\u9999",
+            "en" : "Fruity",
+            "ja" : "\u30D5\u30EB\u30FC\u30C6\u30A3"
+          },
+          "intensity" : 0
+        },
+        {
+          "key" : "Sweet",
+          "type" : "FlavourTag",
+          "name" : {
+            "zh" : "\u751C\u5473",
+            "en" : "Sweet",
+            "ja" : "\u7518\u3044"
+          },
+          "intensity" : 1
+        }
+      ],
+      "sources"       : [
+        {
+          "source" : {
+            "key" : "LQ_Honey",
+            "type" : "CardData",
+            "CardType" : 9,
+            "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+            "name"     : {
+              "zh" : "Honey",
+              "en" : "Honey",
+              "ja" : "Honey"
+            }
+          },
+          "description" : {
+            "zh" : "\u52A8\u4F5C\uFF1AAdd",
+            "en" : "Action: Add",
+            "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AAdd"
+          }
+        }
+      ]
+    },
+    {
       "key" : "Spice_JuniperBerries",
       "name" : {
         "zh" : "\u675C\u677E\u5B50",
@@ -14644,6 +14693,56 @@
             "zh" : "\u52A8\u4F5C\uFF1A\u6DFB\u52A0",
             "en" : "Action: Add",
             "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u5165\u308C\u308B"
+          }
+        }
+      ]
+    },
+    {
+      "key" : "Spice_Mead",
+      "name" : {
+        "zh" : "\u8702\u871C\u9152",
+        "en" : "Mead",
+        "ja" : "Mead"
+      },
+      "addedFlavours" : [
+        {
+          "key" : "Fruity",
+          "type" : "FlavourTag",
+          "name" : {
+            "zh" : "\u679C\u9999",
+            "en" : "Fruity",
+            "ja" : "\u30D5\u30EB\u30FC\u30C6\u30A3"
+          },
+          "intensity" : 0
+        },
+        {
+          "key" : "Sweet",
+          "type" : "FlavourTag",
+          "name" : {
+            "zh" : "\u751C\u5473",
+            "en" : "Sweet",
+            "ja" : "\u7518\u3044"
+          },
+          "intensity" : 1
+        }
+      ],
+      "sources"       : [
+        {
+          "source" : {
+            "key" : "LQ_HoneyMead",
+            "type" : "CardData",
+            "CardType" : 9,
+            "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+            "name"     : {
+              "zh" : "\u8702\u871C\u9152",
+              "en" : "Mead",
+              "ja" : "Mead"
+            }
+          },
+          "description" : {
+            "zh" : "\u52A8\u4F5C\uFF1AAdd",
+            "en" : "Action: Add",
+            "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AAdd"
           }
         }
       ]

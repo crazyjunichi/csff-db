@@ -5,50 +5,51 @@
     "en" : "Sleep Deprivation Minor",
     "ja" : "Sleep Deprivation Minor"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 72.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.2687,
     "g" : 0.3145,
     "b" : 0.5755,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__SleepDeprivationMajor__DefaultStatusIcon"
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__BeeSkep__SpoilageTime-OverrideIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "SleepDeprivationMinor",
-  "icon"                    : "GameStat__SleepDeprivationMajor__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "SleepDeprivationMinor",
+  "icon"                        : "GameStat__SleepDeprivationMajor__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u8F7B\u5FAE\u7761\u7720\u4E0D\u8DB3",
     "en" : "Sleep Deprivation Minor",
     "ja" : "Sleep Deprivation Minor"
   },
-  "min"                     : 0.0,
-  "max"                     : 72.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 72.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "BedImprovised",
@@ -270,7 +271,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "VDEBUG_HybernationSuit",
@@ -293,7 +294,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_SleepDeprivationEffects",
@@ -335,5 +336,5 @@
       }
     }
   ],
-  "_uuid"                   : "92aae542f8489f643bd9498cc8e077bc"
+  "_uuid"                       : "92aae542f8489f643bd9498cc8e077bc"
 }

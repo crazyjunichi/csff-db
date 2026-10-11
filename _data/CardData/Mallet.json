@@ -1372,6 +1372,27 @@
       },
       {
         "source" : {
+          "key" : "Bp_Honey",
+          "type" : "CardData",
+          "CardType" : 7,
+          "name"     : {
+            "zh" : "Honey",
+            "en" : "Honey",
+            "ja" : "Honey"
+          }
+        },
+        "description" : {
+          "zh" : "\u84DD\u56FE\u5236\u4F5C",
+          "en" : "Blueprint",
+          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
           "key" : "Bp_Knife_Flint",
           "type" : "CardData",
           "CardType" : 7,
@@ -2497,7 +2518,6 @@
           "key" : "BoneSplinters",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__BoneSplinters__CardImage",
           "name"     : {
             "zh" : "\u9AA8\u5934\u788E\u7247",
             "en" : "Bone Splinters",
@@ -3110,27 +3130,6 @@
       },
       {
         "source" : {
-          "key" : "Bp_Honey",
-          "type" : "CardData",
-          "CardType" : 7,
-          "name"     : {
-            "zh" : "Honey",
-            "en" : "Honey",
-            "ja" : "Honey"
-          }
-        },
-        "description" : {
-          "zh" : "\u84DD\u56FE\u5236\u4F5C",
-          "en" : "Blueprint",
-          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-        },
-        "value"       : {
-          "x" : -1.0,
-          "y" : -1.0
-        }
-      },
-      {
-        "source" : {
           "key" : "Bp_Vitriol",
           "type" : "CardData",
           "CardType" : 7,
@@ -3240,7 +3239,6 @@
           "key" : "WateringTrough",
           "type" : "CardData",
           "CardType" : 2,
-          "icon"     : "CardData__WateringTrough__CardImage",
           "name"     : {
             "zh" : "Watering Trough",
             "en" : "Watering Trough",
@@ -3343,7 +3341,8 @@
   },
   "ActionModifiers"             : [
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionSoftSpecial2Receiving",
           "type" : "ActionTag",
@@ -3404,7 +3403,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionSoftSpecial3Receiving",
           "type" : "ActionTag",
@@ -3465,7 +3465,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionSoftSpecial2Drops",
           "type" : "ActionTag",
@@ -3526,7 +3527,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionSoftSpecial3Drops",
           "type" : "ActionTag",
@@ -3589,7 +3591,8 @@
   ],
   "UsedInBpActionModifiers"     : [
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionSoftSpecial2Drops",
           "type" : "ActionTag",
@@ -3650,7 +3653,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionSoftSpecial3Drops",
           "type" : "ActionTag",
@@ -4037,6 +4041,23 @@
           "zh" : "\u7597\u4F24\u818F",
           "en" : "Healing Ointment",
           "ja" : "\u56DE\u5FA9\u30DA\u30FC\u30B9\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Honey",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
         }
       },
       "description" : {
@@ -5508,7 +5529,6 @@
         "key" : "BoneSplinters",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BoneSplinters__CardImage",
         "name"     : {
           "zh" : "\u9AA8\u5934\u788E\u7247",
           "en" : "Bone Splinters",
@@ -6099,6 +6119,24 @@
     },
     {
       "source" : {
+        "key" : "LQ_HoneyMeadFrozen",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u51B0\u51BB\u8702\u871C\u9152",
+          "en" : "Frozen Mead",
+          "ja" : "Frozen Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ARemove ice layer",
+        "en" : "Action: Remove ice layer",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ARemove ice layer"
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_RyeAleFrozen",
         "type" : "CardData",
         "CardType" : 9,
@@ -6332,23 +6370,6 @@
     },
     {
       "source" : {
-        "key" : "Bp_Honey",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "Honey",
-          "en" : "Honey",
-          "ja" : "Honey"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      }
-    },
-    {
-      "source" : {
         "key" : "Bp_Vitriol",
         "type" : "CardData",
         "CardType" : 7,
@@ -6455,7 +6476,6 @@
         "key" : "WateringTrough",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__WateringTrough__CardImage",
         "name"     : {
           "zh" : "Watering Trough",
           "en" : "Watering Trough",

@@ -10,9 +10,6 @@
     "en" : "A tool for calming bees down.",
     "ja" : "A tool for calming bees down."
   },
-  "CardImage"       : {
-    "FileName" : "CardData__BeeSmokerOn__CardImage"
-  },
   "CardType"        : 0,
   "ObjectWeight"    : 150.0,
   "WeightReductionWhenEquipped" : 0.0,
@@ -129,7 +126,6 @@
           "key" : "BeeSmokerOff",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__BeeSmokerOff__CardImage",
           "name"     : {
             "zh" : "Bee Smoker",
             "en" : "Bee Smoker",
@@ -154,7 +150,6 @@
           "key" : "BeeSmokerOn",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__BeeSmokerOn__CardImage",
           "name"     : {
             "zh" : "Bee Smoker",
             "en" : "Bee Smoker",
@@ -257,7 +252,6 @@
           "key" : "BeeSmokerOff",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__BeeSmokerOff__CardImage",
           "name"     : {
             "zh" : "Bee Smoker",
             "en" : "Bee Smoker",
@@ -327,7 +321,6 @@
   "EnemyAddedStealth"               : 0.0,
   "type"                            : "CardData",
   "key"                             : "BeeSmokerOn",
-  "icon"                            : "CardData__BeeSmokerOn__CardImage",
   "name"                            : {
     "zh" : "Bee Smoker",
     "en" : "Bee Smoker",
@@ -339,7 +332,6 @@
         "key" : "BeeSmokerOff",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BeeSmokerOff__CardImage",
         "name"     : {
           "zh" : "Bee Smoker",
           "en" : "Bee Smoker",
@@ -500,6 +492,24 @@
     },
     {
       "source" : {
+        "key" : "TricksterFluff",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__TricksterFluff__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u7ED2\u6BDB",
+          "en" : "Trickster Fluff",
+          "ja" : "Trickster Fluff"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ALight Tinder",
+        "en" : "Action: Light Tinder",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ALight Tinder"
+      }
+    },
+    {
+      "source" : {
         "key" : "WoodShavings",
         "type" : "CardData",
         "CardType" : 0,
@@ -608,10 +618,27 @@
     },
     {
       "source" : {
+        "key" : "BeeSkep",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASmoke",
+        "en" : "Action: Smoke",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmoke"
+      }
+    },
+    {
+      "source" : {
         "key" : "BeeSmokerOff",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BeeSmokerOff__CardImage",
         "name"     : {
           "zh" : "Bee Smoker",
           "en" : "Bee Smoker",
@@ -640,78 +667,6 @@
         "en" : "Action: Light",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ALight"
       }
-    },
-    {
-      "source" : {
-        "key" : "Bees",
-        "type" : "CardData",
-        "CardType" : 0,
-        "icon"     : "CardData__Bees__CardImage",
-        "name"     : {
-          "zh" : "Bees",
-          "en" : "Bees",
-          "ja" : "Bees"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmoke",
-        "en" : "Action: Smoke",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmoke"
-      }
-    },
-    {
-      "source" : {
-        "key" : "Beehive",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Beehive__CardImage",
-        "name"     : {
-          "zh" : "Beehive",
-          "en" : "Beehive",
-          "ja" : "Beehive"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmoke",
-        "en" : "Action: Smoke",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmoke"
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeSkep",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__BeeSkep__CardImage",
-        "name"     : {
-          "zh" : "Bee Skep",
-          "en" : "Bee Skep",
-          "ja" : "Bee Skep"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmoke",
-        "en" : "Action: Smoke",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmoke"
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeSkepSwarming",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__BeeSkepSwarming__CardImage",
-        "name"     : {
-          "zh" : "Swarming Bee Skep",
-          "en" : "Swarming Bee Skep",
-          "ja" : "Swarming Bee Skep"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmoke",
-        "en" : "Action: Smoke",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmoke"
-      }
     }
   ],
   "_transformTo"                    : [
@@ -720,7 +675,6 @@
         "key" : "BeeSmokerOff",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BeeSmokerOff__CardImage",
         "name"     : {
           "zh" : "Bee Smoker",
           "en" : "Bee Smoker",
@@ -738,7 +692,6 @@
         "key" : "BeeSmokerOff",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BeeSmokerOff__CardImage",
         "name"     : {
           "zh" : "Bee Smoker",
           "en" : "Bee Smoker",

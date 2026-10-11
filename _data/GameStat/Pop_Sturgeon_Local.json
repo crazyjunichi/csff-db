@@ -5,27 +5,28 @@
     "en" : "Pop_Sturgeon_Local",
     "ja" : "Pop_Sturgeon_Local"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "type"                    : "GameStat",
-  "key"                     : "Pop_Sturgeon_Local",
-  "name"                    : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "type"                        : "GameStat",
+  "key"                         : "Pop_Sturgeon_Local",
+  "name"                        : {
     "zh" : "\u672C\u5730\u9C9F\u9C7C\u79CD\u7FA4",
     "en" : "Pop_Sturgeon_Local",
     "ja" : "Pop_Sturgeon_Local"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "River_ThicketAlder_ClayBanks_",
@@ -53,7 +54,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -75,7 +76,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -159,7 +160,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "IceHoleRiver",
@@ -447,5 +448,5 @@
       }
     }
   ],
-  "_uuid"                   : "7d68b8993acd7b442bd933c9cc137324"
+  "_uuid"                       : "7d68b8993acd7b442bd933c9cc137324"
 }

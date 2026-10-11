@@ -10,30 +10,31 @@
     "en" : "Needed for physical activities. Can be recovered by resting or engaging in less strenuous activities. Expending stamina increases your appetite and tires you out. Be cautious not to overexert yourself when food is limited.",
     "ja" : "\u4F11\u3080\u3001\u3082\u3057\u304F\u306F\u75B2\u308C\u306A\u3044\u4F5C\u696D\u3092\u3059\u308B\u3053\u3068\u306B\u3088\u3063\u3066\u56DE\u5FA9\u3059\u308B\u3002\u30B9\u30BF\u30DF\u30CA\u3092\u6D88\u8017\u3059\u308B\u3068\u98DF\u6B32\u304C\u5897\u3057\u3001\u75B2\u308C\u308B\u3002\u98DF\u6599\u304C\u5C11\u306A\u3044\u6642\u306F\u306A\u308B\u3079\u304F\u6D88\u8017\u3057\u306A\u3044\u3079\u304D\u3002"
   },
-  "BaseValue"   : 32.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 32.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 32.0
   },
-  "BaseRatePerTick" : 2.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 2.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.9725,
     "g" : 0.9176,
     "b" : 0.2667,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Stamina__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u7B4B\u75B2\u529B\u5C3D",
@@ -151,7 +152,7 @@
             "min"  : 0.0,
             "max"  : 96.0,
             "name" : {
-              "zh" : "\u6027\u5524\u8D77",
+              "zh" : "\u6027\u594B",
               "en" : "Arousal",
               "ja" : "Arousal"
             }
@@ -286,7 +287,7 @@
             "min"  : 0.0,
             "max"  : 96.0,
             "name" : {
-              "zh" : "\u6027\u5524\u8D77",
+              "zh" : "\u6027\u594B",
               "en" : "Arousal",
               "ja" : "Arousal"
             }
@@ -413,7 +414,7 @@
             "min"  : 0.0,
             "max"  : 96.0,
             "name" : {
-              "zh" : "\u6027\u5524\u8D77",
+              "zh" : "\u6027\u594B",
               "en" : "Arousal",
               "ja" : "Arousal"
             }
@@ -449,10 +450,10 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "StatActions"             : [
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "StatActions"                 : [
     {
       "ExplorationValue" : 0.0,
       "ExplorationDirection" : 0,
@@ -543,29 +544,29 @@
       "ExitDirection"           : 0
     }
   ],
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Stamina__DefaultStatusIcon"
     },
     "StepValue" : 10.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u592A\u7D2F\u4E86\u6211\u505A\u4E0D\u5230\u2026\u2026",
     "en" : "I'm too tired for this action...",
     "ja" : "\u75B2\u308C\u3059\u304E\u3066\u3067\u304D\u306A\u3044\u30FB\u30FB\u30FB"
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stamina",
-  "icon"                    : "GameStat__Stamina__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stamina",
+  "icon"                        : "GameStat__Stamina__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u8010\u529B",
     "en" : "Stamina",
     "ja" : "\u30B9\u30BF\u30DF\u30CA"
   },
-  "min"                     : 0.0,
-  "max"                     : 32.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 32.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "DamBeaverHalfBuilt",
@@ -3101,33 +3102,11 @@
         "key" : "Bp_SimpleBow",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
           "ja" : "\u7C21\u5358\u306A\u5F13"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      },
-      "value"       : {
-        "x" : -10.0,
-        "y" : -10.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Bp_Smokehouse",
-        "type" : "CardData",
-        "CardType" : 7,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u71FB\u88FD\u5C0F\u5C4B"
         }
       },
       "description" : {
@@ -7222,6 +7201,248 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u94F2\u96EA",
         "en" : "Action: Shovel Snow",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u96EA\u3092\u63BB\u304F"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AForage",
+        "en" : "Action: Forage",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AForage"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ANorth",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AWest",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
       },
       "value"       : {
         "x" : -10.0,
@@ -14240,6 +14461,248 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u94F2\u96EA",
         "en" : "Action: Shovel Snow",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u96EA\u304B\u304D\u3059\u308B"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AForage",
+        "en" : "Action: Forage",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AForage"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : -12.0,
+        "y" : -12.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
       },
       "value"       : {
         "x" : -10.0,
@@ -21797,7 +22260,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -21819,7 +22282,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -21841,7 +22304,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -21863,7 +22326,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -21885,7 +22348,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -21907,7 +22370,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -21929,7 +22392,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -21951,7 +22414,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -21973,7 +22436,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -21995,7 +22458,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -22017,7 +22480,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -22039,7 +22502,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -22061,7 +22524,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -26065,7 +26528,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26087,7 +26550,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26109,7 +26572,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26131,7 +26594,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26153,7 +26616,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26175,7 +26638,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26197,7 +26660,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26219,7 +26682,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26241,7 +26704,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26263,7 +26726,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26285,7 +26748,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26307,7 +26770,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26329,7 +26792,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -26351,7 +26814,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26373,7 +26836,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26395,7 +26858,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26417,7 +26880,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26439,7 +26902,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26461,7 +26924,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26483,7 +26946,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26505,7 +26968,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26527,7 +26990,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26549,7 +27012,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26571,7 +27034,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26593,7 +27056,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -26615,7 +27078,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -38468,7 +38931,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -39818,7 +40281,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -40742,7 +41205,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -43789,6 +44252,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AApply to Wound",
+        "en" : "Action: Apply to Wound",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AApply to Wound"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Bloomery",
         "type" : "CardData",
         "CardType" : 2,
@@ -44115,28 +44600,6 @@
       "value"       : {
         "x" : 15.0,
         "y" : 15.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u53D6\u6696",
-        "en" : "Action: Warm Up",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6E29\u3081\u308B"
-      },
-      "value"       : {
-        "x" : 12.0,
-        "y" : 12.0
       }
     },
     {
@@ -45143,50 +45606,6 @@
       "value"       : {
         "x" : -8.0,
         "y" : -8.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
-      },
-      "value"       : {
-        "x" : -4.0,
-        "y" : -4.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
-      },
-      "value"       : {
-        "x" : -4.0,
-        "y" : -4.0
       }
     },
     {
@@ -46903,27 +47322,6 @@
       "value"       : {
         "x" : -10.0,
         "y" : -10.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "StonePile",
-        "type" : "CardData",
-        "CardType" : 2,
-        "name"     : {
-          "zh" : "\u77F3\u5806",
-          "en" : "Stone Pile",
-          "ja" : "\u77F3\u306E\u5C71"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u6536\u96C6\u77F3\u5934",
-        "en" : "Action: Collect Stones",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u77F3\u3092\u96C6\u3081\u308B"
-      },
-      "value"       : {
-        "x" : -4.0,
-        "y" : -4.0
       }
     },
     {
@@ -48706,6 +49104,72 @@
     },
     {
       "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
         "key" : "W_WolfBite",
         "type" : "CardData",
         "CardType" : 0,
@@ -48986,7 +49450,6 @@
         "key" : "WateringTrough",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__WateringTrough__CardImage",
         "name"     : {
           "zh" : "Watering Trough",
           "en" : "Watering Trough",
@@ -50573,6 +51036,144 @@
     },
     {
       "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 6.0,
+        "y" : 6.0
+      }
+    },
+    {
+      "source" : {
         "key" : "SwimmingAid",
         "type" : "GameStat",
         "icon" : "GameStat__Skill_Swimming__DefaultStatusIcon",
@@ -50782,7 +51383,7 @@
       "source" : {
         "key" : "tag_WoodCutting",
         "type" : "CardTag",
-        "count" : 100,
+        "count" : 102,
         "name"  : {
           "zh" : "\u5207\u524A\u6728\u6750",
           "en" : "Wood Cutting",
@@ -51180,7 +51781,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Fibers",
@@ -52077,7 +52678,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_Cabin",
@@ -54701,33 +55302,11 @@
         "key" : "Bp_SimpleBow",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
           "ja" : "\u7C21\u5358\u306A\u5F13"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      },
-      "value"       : {
-        "x" : 20.0,
-        "y" : 100.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Bp_Smokehouse",
-        "type" : "CardData",
-        "CardType" : 7,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u71FB\u88FD\u5C0F\u5C4B"
         }
       },
       "description" : {
@@ -59350,6 +59929,226 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u94F2\u96EA",
         "en" : "Action: Shovel Snow",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u96EA\u3092\u63BB\u304F"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ANorth",
+        "en" : "Action: North",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ANorth"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 32.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 32.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 32.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AWest",
+        "en" : "Action: West",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWest"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 32.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 13.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 13.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
       },
       "value"       : {
         "x" : 10.0,
@@ -65928,6 +66727,226 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u94F2\u96EA",
         "en" : "Action: Shovel Snow",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u96EA\u304B\u304D\u3059\u308B"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 32.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 32.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEast",
+        "en" : "Action: East",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEast"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 32.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASouth",
+        "en" : "Action: South",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASouth"
+      },
+      "value"       : {
+        "x" : 11.0,
+        "y" : 32.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 13.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 13.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AShovel Snow",
+        "en" : "Action: Shovel Snow",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AShovel Snow"
       },
       "value"       : {
         "x" : 10.0,
@@ -72913,7 +73932,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -72935,7 +73954,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -72957,7 +73976,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -72979,7 +73998,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -73001,7 +74020,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -73023,7 +74042,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -73045,7 +74064,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -73067,7 +74086,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -73089,7 +74108,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -73111,7 +74130,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -73133,7 +74152,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -73155,7 +74174,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -76829,7 +77848,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -76851,7 +77870,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -76873,7 +77892,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -76895,7 +77914,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -76917,7 +77936,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -76939,7 +77958,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -76961,7 +77980,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -76983,7 +78002,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -77005,7 +78024,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -77027,7 +78046,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -77049,7 +78068,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -77071,7 +78090,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -77093,7 +78112,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77115,7 +78134,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77137,7 +78156,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77159,7 +78178,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77181,7 +78200,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77203,7 +78222,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77225,7 +78244,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77247,7 +78266,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77269,7 +78288,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77291,7 +78310,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77313,7 +78332,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -77335,7 +78354,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -86979,7 +87998,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -87551,7 +88570,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -90246,27 +91265,6 @@
     },
     {
       "source" : {
-        "key" : "StonePile",
-        "type" : "CardData",
-        "CardType" : 2,
-        "name"     : {
-          "zh" : "\u77F3\u5806",
-          "en" : "Stone Pile",
-          "ja" : "\u77F3\u306E\u5C71"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u6536\u96C6\u77F3\u5934",
-        "en" : "Action: Collect Stones",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u77F3\u3092\u96C6\u3081\u308B"
-      },
-      "value"       : {
-        "x" : 4.0,
-        "y" : 1000000.0
-      }
-    },
-    {
-      "source" : {
         "key" : "StreamQEE",
         "type" : "CardData",
         "CardType" : 2,
@@ -90840,5 +91838,5 @@
       }
     }
   ],
-  "_uuid"                   : "1cfd30cf13b69b949a0ac521f55a59a2"
+  "_uuid"                       : "1cfd30cf13b69b949a0ac521f55a59a2"
 }

@@ -5,27 +5,28 @@
     "en" : "WaterFrozen",
     "ja" : "WaterFrozen"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1344.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Fish Population Reduction, replacing flooded status to freezing status for the flooded paths",
@@ -165,22 +166,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WaterFrozen",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WaterFrozen",
+  "name"                        : {
     "zh" : "\u6C34\u9762\u51BB\u7ED3",
     "en" : "WaterFrozen",
     "ja" : "WaterFrozen"
   },
-  "min"                     : 0.0,
-  "max"                     : 1344.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1344.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "WaterLevel",
@@ -251,7 +252,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BaseTemperature",
@@ -414,7 +415,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "River_ClearingPine_NorthernLakeBank",
@@ -548,5 +549,5 @@
       }
     }
   ],
-  "_uuid"                   : "12168210f9aa7cd4e971d1679155d4f6"
+  "_uuid"                       : "12168210f9aa7cd4e971d1679155d4f6"
 }

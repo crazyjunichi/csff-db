@@ -10,32 +10,33 @@
     "en" : "Remembers winter progression while the active Winter Level resets outside winter.",
     "ja" : "Remembers winter progression while the active Winter Level resets outside winter."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 6.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "CannotBeInspected" : true,
-  "StatusesHaveNoBar" : true,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "CannotBeInspected"           : true,
+  "StatusesHaveNoBar"           : true,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WinterLevelMemory",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WinterLevelMemory",
+  "name"                        : {
     "zh" : "\u51AC\u5B63\u7B49\u7EA7\u8BB0\u5FC6",
     "en" : "Winter Level Memory",
     "ja" : "Winter Level Memory"
   },
-  "min"                     : 0.0,
-  "max"                     : 6.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 6.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Tgr_WinterStart",
@@ -57,7 +58,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Tgr_WinterStart",
@@ -195,7 +196,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_WinterStart",
@@ -353,5 +354,5 @@
       }
     }
   ],
-  "_uuid"                   : "18109aeebd5d47afba39b67be4eb7c91"
+  "_uuid"                       : "18109aeebd5d47afba39b67be4eb7c91"
 }

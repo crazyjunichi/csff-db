@@ -11,27 +11,28 @@
     "ja" : "Active when Ice Skates are equiped. Causes actions tagged with iceskating to ignore the moderate and deep snow penalties. "
   },
   "IsRuntimeOnly" : true,
-  "BaseValue"     : 0.0,
-  "MinMaxValue"   : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 2.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Remove Moderate Snow Penalty",
@@ -195,23 +196,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "IceSkatesEquiped",
-  "icon"                    : "GameStat__CallousesFeet__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "IceSkatesEquiped",
+  "icon"                        : "GameStat__CallousesFeet__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u88C5\u5907\u51B0\u978B",
     "en" : "Ice Skates Equiped",
     "ja" : "Ice Skates Equiped"
   },
-  "min"                     : 0.0,
-  "max"                     : 2.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 2.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "IceSkates",
@@ -257,5 +258,5 @@
       }
     }
   ],
-  "_uuid"                   : "174e125ca986e95419a93c4b110775e2"
+  "_uuid"                       : "174e125ca986e95419a93c4b110775e2"
 }

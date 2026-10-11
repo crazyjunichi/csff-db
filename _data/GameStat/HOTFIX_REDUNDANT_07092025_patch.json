@@ -10,27 +10,28 @@
     "en" : "Used for backwards compatibility, for example this one reduces bloodspilled to 0 but only once per save. ",
     "ja" : "Used for backwards compatibility, for example this one reduces bloodspilled to 0 but only once per save. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 3.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Reduces blood spilled to 0 but only for the first couple of ticks",
@@ -68,10 +69,10 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BloodSpilled__FeedbackInfo-Icon"
     },
@@ -80,14 +81,14 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HOTFIX_REDUNDANT_07092025_patch",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HOTFIX_REDUNDANT_07092025_patch",
+  "name"                        : {
     "zh" : "\u70ED\u4FEE\u590D_07092025",
     "en" : "HOTFIX_REDUNDANT_07092025_patch",
     "ja" : "HOTFIX_REDUNDANT_07092025_patch"
   },
-  "min"                     : 0.0,
-  "max"                     : 3.0,
-  "_uuid"                   : "255fde47e1fd1474ba7d61b9e1059527"
+  "min"                         : 0.0,
+  "max"                         : 3.0,
+  "_uuid"                       : "255fde47e1fd1474ba7d61b9e1059527"
 }

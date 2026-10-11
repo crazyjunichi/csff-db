@@ -11,31 +11,32 @@
     "ja" : "Increases quality of cuts, reducing chances of getting meat scraps, also reduces stamina usage for butchering actions."
   },
   "IsRuntimeOnly" : true,
-  "BaseValue"     : 0.0,
-  "MinMaxValue"   : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 2,
-  "StatusesHaveNoBar" : true,
-  "BarColor"          : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 2,
+  "StatusesHaveNoBar"           : true,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8089\u94A9",
@@ -205,27 +206,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__FleshingBeamActionBonus__FeedbackInfo-Icon"
     },
     "StepValue" : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "MeatHookButcheringBonus",
-  "icon"                    : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MeatHookButcheringBonus",
+  "icon"                        : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon",
+  "name"                        : {
     "zh" : "\u8089\u94A9\u5C60\u5BB0\u52A0\u6210",
     "en" : "Meat Hook Butchering Bonus",
     "ja" : "Meat Hook Butchering Bonus"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "ToolOrWeapon_MeatHook_MetalLocation",
@@ -249,5 +250,5 @@
       }
     }
   ],
-  "_uuid"                   : "dc9cfc6fa46bc6648a5462446192dafe"
+  "_uuid"                       : "dc9cfc6fa46bc6648a5462446192dafe"
 }

@@ -10,42 +10,43 @@
     "en" : "Used to complete the Reach the High Fire Attunement Objective for Hearth. Increased to 1 by the passive effect of Fire Spirit once attunement is high and it stays on 1.",
     "ja" : "Used to complete the Reach the High Fire Attunement Objective for Hearth. Increased to 1 by the passive effect of Fire Spirit once attunement is high and it stays on 1."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "AttunementFireHigh",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "AttunementFireHigh",
+  "name"                        : {
     "zh" : "\u9AD8\u706B\u7130\u8C03\u8C10",
     "en" : "Fire Attunement High",
     "ja" : "Fire Attunement High"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "HearthAwakened",
@@ -465,6 +466,28 @@
     },
     {
       "source" : {
+        "key" : "Spirit_Stalker",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Spirit_Stalker__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit",
+          "ja" : "Stalker Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u9AD8\u5951\u5408",
+        "en" : "Passive Effect: High Attunement",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AHigh Attunement"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Spirit_Sturgeon",
         "type" : "CardData",
         "CardType" : 0,
@@ -552,5 +575,5 @@
       }
     }
   ],
-  "_uuid"                   : "5c71973eec8eb54458fb3fb9acb78e8b"
+  "_uuid"                       : "5c71973eec8eb54458fb3fb9acb78e8b"
 }

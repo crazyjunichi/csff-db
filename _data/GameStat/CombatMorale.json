@@ -10,30 +10,31 @@
     "en" : "Needed to stay in a fight and resist your flight instincts. Recovers over time.",
     "ja" : "\u9003\u3052\u305A\u306B\u6226\u95D8\u3092\u7D9A\u3051\u305F\u308A\u3059\u308B\u305F\u3081\u306B\u5FC5\u8981\u3002\u6642\u9593\u3067\u56DE\u5FA9\u3059\u308B\u3002"
   },
-  "BaseValue"   : 100.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 100.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Assertiveness__FeedbackInfo-Icon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u58EB\u6C14\u4F4E\u843D",
@@ -56,24 +57,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "CombatMorale",
-  "icon"                    : "GameStat__Assertiveness__FeedbackInfo-Icon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "CombatMorale",
+  "icon"                        : "GameStat__Assertiveness__FeedbackInfo-Icon",
+  "name"                        : {
     "zh" : "\u58EB\u6C14",
     "en" : "Combat Morale",
     "ja" : "\u6226\u95D8\u58EB\u6C17"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Morale",
@@ -210,5 +211,5 @@
       }
     }
   ],
-  "_uuid"                   : "0ab6ca761e532cc4daa991e207d01bba"
+  "_uuid"                       : "0ab6ca761e532cc4daa991e207d01bba"
 }

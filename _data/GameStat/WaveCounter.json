@@ -5,35 +5,36 @@
     "en" : "WaveCounter",
     "ja" : "\u6CE2\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 24.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u66B4\u98CE\u96E8\u592A\u5927\u4E86\u6211\u7761\u4E0D\u7740\uFF01",
     "en" : "It's too stormy to sleep!",
     "ja" : "\u5D50\u306E\u305B\u3044\u3067\u5BDD\u308C\u306A\u3044\uFF01"
   },
-  "type"                    : "GameStat",
-  "key"                     : "WaveCounter",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WaveCounter",
+  "name"                        : {
     "zh" : "\u6CE2\u6B21",
     "en" : "WaveCounter",
     "ja" : "\u6CE2\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "min"                     : 0.0,
-  "max"                     : 24.0,
-  "_requires"               : [
+  "min"                         : 0.0,
+  "max"                         : 24.0,
+  "_requires"                   : [
     {
       "source" : {
         "key" : "BedImprovised",
@@ -141,5 +142,5 @@
       }
     }
   ],
-  "_uuid"                   : "ecb835c85d6df5447a38548588f4c9d6"
+  "_uuid"                       : "ecb835c85d6df5447a38548588f4c9d6"
 }

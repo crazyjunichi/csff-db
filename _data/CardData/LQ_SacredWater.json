@@ -21,7 +21,7 @@
     {
       "key" : "tag_Heatable",
       "type" : "CardTag",
-      "count" : 368,
+      "count" : 371,
       "name"  : {
         "zh" : "\u53EF\u52A0\u70ED\u7684",
         "en" : "Heatable",
@@ -655,6 +655,28 @@
       },
       {
         "source" : {
+          "key" : "W_StalkerBite",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__W_BearBite__CardImage",
+          "name"     : {
+            "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+            "en" : "Stalker Bite",
+            "ja" : "Stalker Bite"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1AClean",
+          "en" : "Action: Clean",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+        },
+        "value"       : {
+          "x" : -300.0,
+          "y" : -300.0
+        }
+      },
+      {
+        "source" : {
           "key" : "W_WolfBite",
           "type" : "CardData",
           "CardType" : 0,
@@ -1279,6 +1301,28 @@
           "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
           "en" : "Action: Clean",
           "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "W_StalkerBite",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__W_BearBite__CardImage",
+          "name"     : {
+            "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+            "en" : "Stalker Bite",
+            "ja" : "Stalker Bite"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1AClean",
+          "en" : "Action: Clean",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
         },
         "value"       : {
           "x" : -1.0,
@@ -2773,23 +2817,6 @@
     },
     {
       "source" : {
-        "key" : "DoughStarter",
-        "type" : "CardData",
-        "CardType" : 0,
-        "name"     : {
-          "zh" : "\u9175\u79CD",
-          "en" : "Dough Starter",
-          "ja" : "\u5143\u7A2E"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u52A0\u6C34",
-        "en" : "Action: Fill with Water",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6C34\u3067\u3044\u3063\u3071\u3044\u306B\u3059\u308B"
-      }
-    },
-    {
-      "source" : {
         "key" : "LQ_Ash",
         "type" : "CardData",
         "CardType" : 9,
@@ -2838,24 +2865,6 @@
       },
       "description" : {
         "zh" : "\u52A8\u4F5C\uFF1A\u6C34\u4EFD\u503C",
-        "en" : "Action: Water",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6C34"
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u6D47\u6C34",
         "en" : "Action: Water",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6C34"
       }
@@ -3293,6 +3302,24 @@
     },
     {
       "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      }
+    },
+    {
+      "source" : {
         "key" : "W_WolfBite",
         "type" : "CardData",
         "CardType" : 0,
@@ -3358,24 +3385,6 @@
         "zh" : "\u52A8\u4F5C\uFF1AWet",
         "en" : "Action: Wet",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWet"
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeHoneycomb",
-        "type" : "CardData",
-        "CardType" : 0,
-        "icon"     : "CardData__BeeHoneycomb__CardImage",
-        "name"     : {
-          "zh" : "Honeycomb",
-          "en" : "Honeycomb",
-          "ja" : "Honeycomb"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASoak",
-        "en" : "Action: Soak",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASoak"
       }
     },
     {
@@ -3563,37 +3572,6 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u6C34\u8D50\u798F",
         "en" : "Action: Water Blessing",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6C34\u306E\u795D\u798F"
-      }
-    },
-    {
-      "source" : {
-        "key" : "NOT_USED_LQ_HoneyWater",
-        "type" : "CardData",
-        "CardType" : 9,
-        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
-        "name"     : {
-          "zh" : "Honey Water",
-          "en" : "Honey Water",
-          "ja" : "Honey Water"
-        }
-      },
-      "otherCards" : [
-        {
-          "key" : "BeeHoneycomb",
-          "type" : "CardData",
-          "CardType" : 0,
-          "icon"     : "CardData__BeeHoneycomb__CardImage",
-          "name"     : {
-            "zh" : "Honeycomb",
-            "en" : "Honeycomb",
-            "ja" : "Honeycomb"
-          }
-        }
-      ],
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASoak",
-        "en" : "Action: Soak",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASoak"
       }
     },
     {

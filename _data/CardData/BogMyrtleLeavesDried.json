@@ -2380,6 +2380,7 @@
           "NotifyWhenNotMet" : true
         }
       ],
+      "LocksCardsForUse"    : true,
       "StatModifications"   : [
         {
           "Stat" : {
@@ -2583,6 +2584,7 @@
           "NotifyWhenNotMet" : true
         }
       ],
+      "LocksCardsForUse"    : true,
       "StatModifications"   : [
         {
           "Stat" : {
@@ -4050,6 +4052,42 @@
     },
     {
       "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AAdd",
+        "en" : "Action: Add",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AAdd"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyMead",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u8702\u871C\u9152",
+          "en" : "Mead",
+          "ja" : "Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AAdd",
+        "en" : "Action: Add",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AAdd"
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_RyeAle",
         "type" : "CardData",
         "CardType" : 9,
@@ -4612,7 +4650,7 @@
       }
     },
     {
-      "key" : "Smokehouse",
+      "key" : "NOT_USED_Smokehouse",
       "type" : "CardData",
       "CardType" : 2,
       "icon"     : "CardData__Bp_Kiln__CardImage",

@@ -10,30 +10,31 @@
     "en" : "Lowers fever, pain and stress.",
     "ja" : "\u767A\u71B1\u3001\u75DB\u307F\u3001\u30B9\u30C8\u30EC\u30B9\u3092\u6539\u5584\u3059\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 400.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AlderBark__CardImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u67F3\u82F7\u5242\u91CF",
@@ -116,8 +117,8 @@
             }
           },
           "RateModifier" : {
-            "x" : 0.5,
-            "y" : 0.5
+            "x" : 0.125,
+            "y" : 0.125
           }
         }
       ],
@@ -228,8 +229,8 @@
             }
           },
           "RateModifier" : {
-            "x" : 1.0,
-            "y" : 1.0
+            "x" : 0.25,
+            "y" : 0.25
           }
         }
       ],
@@ -340,8 +341,8 @@
             }
           },
           "RateModifier" : {
-            "x" : 2.0,
-            "y" : 2.0
+            "x" : 0.5,
+            "y" : 0.5
           }
         }
       ],
@@ -452,8 +453,8 @@
             }
           },
           "RateModifier" : {
-            "x" : 4.0,
-            "y" : 4.0
+            "x" : 1.0,
+            "y" : 1.0
           }
         }
       ],
@@ -465,27 +466,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__BogMyrtleLeavesFresh__SpecialDurability3-OverrideIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WillowBarkEffect",
-  "icon"                    : "CardData__AlderBark__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WillowBarkEffect",
+  "icon"                        : "CardData__AlderBark__CardImage",
+  "name"                        : {
     "zh" : "\u67F3\u6811\u76AE",
     "en" : "Willow Bark",
     "ja" : "\u30E4\u30CA\u30AE\u306E\u6A39\u76AE"
   },
-  "min"                     : 0.0,
-  "max"                     : 400.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 400.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "LQ_WillowBarkTea",
@@ -508,7 +509,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "WillowBarkEffect",
@@ -579,5 +580,5 @@
       }
     }
   ],
-  "_uuid"                   : "fc99b34190d32b945bfbc2cbb0f06549"
+  "_uuid"                       : "fc99b34190d32b945bfbc2cbb0f06549"
 }

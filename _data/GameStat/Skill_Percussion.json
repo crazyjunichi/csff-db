@@ -10,46 +10,47 @@
     "en" : "Shows how good you are at playing percussive instruments. Unlocks new rhythms as it gets higher.",
     "ja" : "\u30C9\u30E9\u30E0\u3092\u5F3E\u304F\u4E0A\u624B\u3055\u3092\u793A\u3059\u3002\u5411\u4E0A\u3057\u305F\u3089\u3001\u65B0\u3057\u3044\u30EA\u30BA\u30E0\u304C\u30A2\u30F3\u30ED\u30C3\u30AF\u3059\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_FrameDrum__CardImage"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 12,
-  "StalenessMultiplier"     : 0.8,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 12,
+  "StalenessMultiplier"         : 0.8,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u6280\u80FD\u4E0D\u591F\u3002",
     "en" : "Not enough skill.",
     "ja" : "\u30B9\u30AD\u30EB\u304C\u8DB3\u308A\u306A\u3044\u3002"
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Percussion",
-  "icon"                    : "CardData__Bp_FrameDrum__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Percussion",
+  "icon"                        : "CardData__Bp_FrameDrum__CardImage",
+  "name"                        : {
     "zh" : "\u51FB\u9F13",
     "en" : "Percussion",
     "ja" : "\u30C9\u30E9\u30E0\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_DrumMenu",
@@ -290,7 +291,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Event_DrumMenu",
@@ -531,5 +532,5 @@
       }
     }
   ],
-  "_uuid"                   : "42db47ab7796e4c45aebfc55c225f1d9"
+  "_uuid"                       : "42db47ab7796e4c45aebfc55c225f1d9"
 }

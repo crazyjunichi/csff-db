@@ -10,15 +10,16 @@
     "en" : "Shows the level of sodium in your body. Will dehydrate you and make you nauseous when high.",
     "ja" : "\u4F53\u5185\u306E\u30CA\u30C8\u30EA\u30A6\u30E0\u6FC3\u5EA6\u3092\u793A\u3059\u3002\u9AD8\u3044\u3068\u8131\u6C34\u3084\u5410\u304D\u6C17\u306E\u539F\u56E0\u306B\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 400.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "Statuses"        : [
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u9AD8\u94A0\u542B\u91CF",
@@ -185,22 +186,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Sodium",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Sodium",
+  "name"                        : {
     "zh" : "\u94A0",
     "en" : "Sodium",
     "ja" : "\u30CA\u30C8\u30EA\u30A6\u30E0"
   },
-  "min"                     : 0.0,
-  "max"                     : 400.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 400.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_Vomit",
@@ -224,5 +225,5 @@
       }
     }
   ],
-  "_uuid"                   : "c41e00302ea270c40937be4fd85a30e1"
+  "_uuid"                       : "c41e00302ea270c40937be4fd85a30e1"
 }

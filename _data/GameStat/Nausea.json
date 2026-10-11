@@ -10,34 +10,35 @@
     "en" : "Lowers your morale and makes you throw up if it gets too high.",
     "ja" : "\u58EB\u6C17\u3092\u4E0B\u3052\u3001\u60AA\u5316\u3059\u308B\u3068\u5410\u3044\u3066\u3057\u307E\u3046\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 24.0
   },
-  "BaseRatePerTick" : -1.0,
-  "MinMaxRate"      : {
+  "BaseRatePerTick"             : -1.0,
+  "MinMaxRate"                  : {
     "x" : -10.0,
     "y" : 10.0
   },
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.6784,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__FearAffinity__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u611F\u5230\u6076\u5FC3",
@@ -174,23 +175,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Nausea",
-  "icon"                    : "GameStat__FearAffinity__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Nausea",
+  "icon"                        : "GameStat__FearAffinity__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6076\u5FC3",
     "en" : "Nausea",
     "ja" : "\u5410\u304D\u6C17"
   },
-  "min"                     : 0.0,
-  "max"                     : 24.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 24.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_Vomit",
@@ -220,7 +221,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -286,7 +287,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -330,7 +331,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -352,7 +353,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -738,7 +739,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "VDEBUG_HybernationSuit",
@@ -2502,7 +2503,7 @@
       "source" : {
         "key" : "BeeStings",
         "type" : "GameStat",
-        "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+        "icon" : "GameStat__BeeStings__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 192.0,
         "name" : {
@@ -2525,7 +2526,7 @@
       "source" : {
         "key" : "BeeStings",
         "type" : "GameStat",
-        "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+        "icon" : "GameStat__BeeStings__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 192.0,
         "name" : {
@@ -2545,7 +2546,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_DizzyVomit",
@@ -2567,5 +2568,5 @@
       }
     }
   ],
-  "_uuid"                   : "547f09c7ea6d11d4bbf6714255b0dfd5"
+  "_uuid"                       : "547f09c7ea6d11d4bbf6714255b0dfd5"
 }

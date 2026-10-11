@@ -5,30 +5,31 @@
     "en" : "SleepRisk",
     "ja" : "\u7761\u7720\u306E\u30EA\u30B9\u30AF"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 999.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BloodSpilled__FeedbackInfo-Icon"
     },
@@ -37,16 +38,16 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "SleepRisk",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "SleepRisk",
+  "name"                        : {
     "zh" : "\u7761\u7720\u98CE\u9669",
     "en" : "SleepRisk",
     "ja" : "\u7761\u7720\u306E\u30EA\u30B9\u30AF"
   },
-  "min"                     : 0.0,
-  "max"                     : 999.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 999.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "BedRoll",
@@ -222,5 +223,5 @@
       }
     }
   ],
-  "_uuid"                   : "bbf02bb0a49d7d94a8efe6cee8cf18fe"
+  "_uuid"                       : "bbf02bb0a49d7d94a8efe6cee8cf18fe"
 }

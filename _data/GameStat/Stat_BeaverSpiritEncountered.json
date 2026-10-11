@@ -5,30 +5,31 @@
     "en" : "BeaverSpiritEncountered",
     "ja" : "BeaverSpiritEncountered"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_BeaverSpiritEncountered",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_BeaverSpiritEncountered",
+  "name"                        : {
     "zh" : "\u6CB3\u72F8\u7075\u906D\u9047",
     "en" : "BeaverSpiritEncountered",
     "ja" : "BeaverSpiritEncountered"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_BeaverSpiritSummoning",
@@ -74,7 +75,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_BeaverSpiritEncounteredInsightBonus",
@@ -96,5 +97,5 @@
       }
     }
   ],
-  "_uuid"                   : "d6855ef4b00ff5b48b027ff707833df8"
+  "_uuid"                       : "d6855ef4b00ff5b48b027ff707833df8"
 }

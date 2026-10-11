@@ -5,31 +5,32 @@
     "en" : "Empathy",
     "ja" : "Empathy"
   },
-  "BaseValue" : 50.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 50.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Empathy__DefaultStatusIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u975E\u5E38\u4F4E",
@@ -99,11 +100,11 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Assertiveness__FeedbackInfo-Icon"
     },
@@ -112,17 +113,17 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Empathy",
-  "icon"                    : "GameStat__Empathy__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Empathy",
+  "icon"                        : "GameStat__Empathy__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u4FE1\u4EFB",
     "en" : "Empathy",
     "ja" : "Empathy"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Estrogen",
@@ -235,5 +236,5 @@
       }
     }
   ],
-  "_uuid"                   : "93c8d624eb40ea94e8e1e5a4b2ea2ad9"
+  "_uuid"                       : "93c8d624eb40ea94e8e1e5a4b2ea2ad9"
 }

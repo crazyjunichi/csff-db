@@ -1,0 +1,99 @@
+
+{
+  "Line" : {
+    "zh" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him.",
+    "en" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him.",
+    "ja" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him."
+  },
+  "OverrideSceneImage" : {
+    "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+  },
+  "NextStep"           : {
+    "NextStep" : 2
+  },
+  "ShowContinueButton" : 2,
+  "ActionToPerform"    : {
+    "NPCStatModifications" : [
+      {
+        "TargetStat" : {
+          "key" : "AgentCraftHeartFleeMode",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+            "en" : "AgentCraftHeartFleeMode",
+            "ja" : "AgentCraftHeartFleeMode"
+          }
+        },
+        "TargetAgent" : {
+          "key" : "Agent_CraftHeart",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+            "en" : "Craft-Heart",
+            "ja" : "Craft-Heart"
+          }
+        },
+        "ValueChange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        },
+        "IgnoreNovelty" : true
+      }
+    ],
+    "DroppedCards"         : [
+      {
+        "DroppedCard" : {
+          "key" : "Event_CraftheartSpiritBlessingGranted",
+          "type" : "CardData",
+          "CardType" : 3,
+          "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name"     : {
+            "zh" : "Blessing",
+            "en" : "Blessing",
+            "ja" : "Blessing"
+          }
+        },
+        "Quantity"    : {
+          "m_X" : 1,
+          "m_Y" : 1
+        },
+        "TransferRules" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      }
+    ],
+    "Ticks"                : 0,
+    "Miniticks"            : 0
+  },
+  "type"               : "DialogLine",
+  "key"                : "FarewellAndBlessing",
+  "name"               : {
+    "zh" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him.",
+    "en" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him.",
+    "ja" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him."
+  }
+}

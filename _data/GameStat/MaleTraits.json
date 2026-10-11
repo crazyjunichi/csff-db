@@ -10,28 +10,29 @@
     "en" : "Secondary sexual characteristics such as larger stature, muscle mass and increased body hair.  Determines how masculine you appear, affecting how others interact with you.",
     "ja" : "\u591A\u3044\u7B4B\u8089\u91CF\u3084\u4F53\u6BDB\u306A\u3069\u306E\u7B2C\u4E8C\u6B21\u6027\u5FB4\u3002\u898B\u305F\u76EE\u306E\u7537\u6027\u3089\u3057\u3055\u3092\u5F71\u97FF\u3057\u3001\u5468\u56F2\u306E\u6271\u3044\u65B9\u304C\u5909\u308F\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 200.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 3200.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5341\u5206\u663E\u8457",
@@ -223,23 +224,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "MaleTraits",
-  "icon"                    : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MaleTraits",
+  "icon"                        : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u7537\u6027\u7279\u5F81",
     "en" : "Male Traits",
     "ja" : "\u7537\u6027\u306E\u7279\u5FB4"
   },
-  "min"                     : 0.0,
-  "max"                     : 200.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 200.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Testosterone",
@@ -392,9 +393,9 @@
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8D85\u5927",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5DE8\u4EBA\u8EAB\u6750",
         "en" : "Status Stage: Has a very tall stature.",
-        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5DE8\u5927"
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHas a very tall stature."
       },
       "value"       : {
         "x" : 40.0,
@@ -415,9 +416,9 @@
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5927",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8EAB\u6750\u9AD8\u5927\u3002",
         "en" : "Status Stage: Has a tall stature.",
-        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u304D\u3044"
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHas a tall stature."
       },
       "value"       : {
         "x" : 20.0,
@@ -438,9 +439,9 @@
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5C0F",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u8EAB\u6750\u77EE\u5C0F\u3002",
         "en" : "Status Stage: Has a short stature.",
-        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C0F\u3055\u3044"
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHas a short stature."
       },
       "value"       : {
         "x" : -20.0,
@@ -461,9 +462,9 @@
         }
       },
       "description" : {
-        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u7279\u522B\u5C0F",
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F8F\u5112\u8EAB\u6750\u3002",
         "en" : "Status Stage: Has a very short stature.",
-        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u304B\u306A\u308A\u5C0F\u3055\u3044"
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHas a very short stature."
       },
       "value"       : {
         "x" : -40.0,
@@ -471,5 +472,5 @@
       }
     }
   ],
-  "_uuid"                   : "299fd81819124ed4da5e262bc81813ea"
+  "_uuid"                       : "299fd81819124ed4da5e262bc81813ea"
 }

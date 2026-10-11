@@ -10,30 +10,31 @@
     "en" : "Bad smells, unsightly things and general filth. Lowers comfort and wellbeing, increases nausea and stress.",
     "ja" : "\u60AA\u81ED\u3001\u6C5A\u308C\u3001\u898B\u3066\u3066\u4E0D\u5FEB\u306B\u306A\u308B\u3082\u306E\u3002\u5FEB\u9069\u3055\u3068\u5E78\u798F\u5EA6\u3092\u4E0B\u3052\u3001\u5410\u304D\u6C17\u3068\u30B9\u30C8\u30EC\u30B9\u304C\u5897\u3048\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 2500.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Discomfort__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u7565\u5FAE\u4E0D\u9002",
@@ -541,27 +542,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Discomfort__DefaultStatusIcon"
     },
     "StepValue" : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Discomfort",
-  "icon"                    : "GameStat__Discomfort__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Discomfort",
+  "icon"                        : "GameStat__Discomfort__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u4E0D\u9002",
     "en" : "Discomfort",
     "ja" : "\u6DF1\u3044"
   },
-  "min"                     : 0.0,
-  "max"                     : 2500.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 2500.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "CabinConstructionLocationAttic",
@@ -6529,7 +6530,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -7768,5 +7769,5 @@
       }
     }
   ],
-  "_uuid"                   : "7e3269af16dd90f4483ca2b64a43d80d"
+  "_uuid"                       : "7e3269af16dd90f4483ca2b64a43d80d"
 }

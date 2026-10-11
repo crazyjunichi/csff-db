@@ -10,30 +10,31 @@
     "en" : "Raises your stress levels if not satisfied.\nCan be satisfied by successfully hunting small game, by butchering small animals and eating meat.",
     "ja" : "\u6B32\u3092\u6E80\u305F\u3059\u307E\u3067\u30B9\u30C8\u30EC\u30B9\u304C\u6E9C\u307E\u308B\u3002\n\u5C0F\u3055\u3044\u52D5\u7269\u3092\u72E9\u3063\u3066\u98DF\u3079\u308B\u3053\u3068\u306B\u3088\u3063\u3066\u6E80\u305F\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "NPCAgent__Agent_Fox1__AgentImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u72D0\u72F8\u672C\u80FD",
@@ -209,23 +210,67 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FoxUrge",
-  "icon"                    : "NPCAgent__Agent_Fox1__AgentImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FoxUrge",
+  "icon"                        : "NPCAgent__Agent_Fox1__AgentImage",
+  "name"                        : {
     "zh" : "\u72D0\u72F8\u672C\u80FD",
     "en" : "Fox Urge",
     "ja" : "\u30AD\u30C4\u30CD\u306E\u6B32\u6C42"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
+    {
+      "source" : {
+        "key" : "Bp_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "Summoning Ritual",
+          "en" : "Summoning Ritual",
+          "ja" : "Summoning Ritual"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -96.0,
+        "y" : -96.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_CraftHeartSpiritCalling_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "\u547C\u5524\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit Calling",
+          "ja" : "Craft-Heart Spirit Calling"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : -96.0,
+        "y" : -96.0
+      }
+    },
     {
       "source" : {
         "key" : "Bp_FoxBlessing",
@@ -651,7 +696,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -781,7 +826,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -803,7 +848,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -1377,7 +1422,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -2169,7 +2214,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -2191,7 +2236,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -2313,7 +2358,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "River_ClearingPine_NorthernLakeBank",
@@ -2473,7 +2518,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -2495,7 +2540,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -2800,6 +2845,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u72D0\u672C\u80FD +1.5\uFF08\u7CBE\u9B44\uFF09",
+        "en" : "Passive Effect: Fox Urge +1.5: tag_Spirit ",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFox Urge +1.5: tag_Spirit "
+      },
+      "value"       : {
+        "x" : 1.5,
+        "y" : 1.5
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritFox",
         "type" : "CardData",
         "CardType" : 9,
@@ -2844,5 +2911,5 @@
       }
     }
   ],
-  "_uuid"                   : "61fe13d94cbfc5148942e07745d577ce"
+  "_uuid"                       : "61fe13d94cbfc5148942e07745d577ce"
 }

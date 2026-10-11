@@ -10,40 +10,41 @@
     "en" : "Indirectly shows how well-hydrated you are. Leads to stress, a lower wellbeing and eventual dehydration. Excessive drinking increases the frequency of your need to urinate.",
     "ja" : "\u9593\u63A5\u7684\u306B\u4F53\u5185\u306E\u6C34\u5206\u304C\u8DB3\u308A\u3066\u308B\u304B\u3092\u793A\u3059\u3002\u7D9A\u304F\u3068\u30B9\u30C8\u30EC\u30B9\u306E\u5897\u52A0\u3068\u8131\u6C34\u306E\u539F\u56E0\u306B\u306A\u308B\u3002\u6C34\u5206\u3092\u6442\u308A\u3059\u304E\u308B\u3068\u653E\u5C3F\u3059\u308B\u983B\u5EA6\u304C\u5897\u3059\u3002"
   },
-  "BaseValue"   : 288.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 288.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : -2.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -2.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.2235,
     "g" : 0.4,
     "b" : 0.8706,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusName" : {
+  "DefaultStatusName"           : {
     "zh" : "\u4E0D\u6E34",
     "en" : "Not Thirsty",
     "ja" : "\u5589\u304C\u6E07\u3044\u3066\u306A\u3044"
   },
-  "DefaultStatusDescription" : {
+  "DefaultStatusDescription"    : {
     "zh" : "\u73B0\u5728\u4E0D\u89C9\u5F97\u6E34\u3002",
     "en" : "Not feeling thirsty right now.",
     "ja" : "\u3042\u307E\u308A\u5589\u304C\u6E07\u3044\u3066\u306A\u3044"
   },
-  "DefaultStatusIcon"        : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__BearCoat__FuelCapacity-OverrideIcon"
   },
-  "Statuses"                 : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4E0D\u6E34",
@@ -387,27 +388,27 @@
       "ConfidenceModifier"      : 0.0
     }
   ],
-  "NoveltyCooldownDuration"  : 0,
-  "StalenessMultiplier"      : 0.0,
-  "MaxStalenessStack"        : 0,
-  "ShowActionEffects"        : true,
-  "FeedbackInfo"             : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__BearCoat__FuelCapacity-OverrideIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                     : "GameStat",
-  "key"                      : "Thirst",
-  "icon"                     : "CardData__BearCoat__FuelCapacity-OverrideIcon",
-  "name"                     : {
+  "type"                        : "GameStat",
+  "key"                         : "Thirst",
+  "icon"                        : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+  "name"                        : {
     "zh" : "\u53E3\u6E34\u5EA6",
     "en" : "Thirst",
     "ja" : "\u5589\u306E\u6E07\u304D"
   },
-  "min"                      : 0.0,
-  "max"                      : 288.0,
-  "_modifierValues"          : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_Vomit",
@@ -1163,7 +1164,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -2681,7 +2682,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -4529,7 +4530,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -4551,7 +4552,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -5429,6 +5430,72 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u996E\u7528",
         "en" : "Action: Drink",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u98F2\u3080"
+      },
+      "value"       : {
+        "x" : 80.0,
+        "y" : 80.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ADrink",
+        "en" : "Action: Drink",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ADrink"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyMead",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u8702\u871C\u9152",
+          "en" : "Mead",
+          "ja" : "Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ADrink",
+        "en" : "Action: Drink",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ADrink"
+      },
+      "value"       : {
+        "x" : 80.0,
+        "y" : 80.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyWater",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey Water",
+          "en" : "Honey Water",
+          "ja" : "Honey Water"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ADrink",
+        "en" : "Action: Drink",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ADrink"
       },
       "value"       : {
         "x" : 80.0,
@@ -6547,6 +6614,26 @@
     },
     {
       "source" : {
+        "key" : "Spice_Honey",
+        "type" : "SpiceTag",
+        "name" : {
+          "zh" : "\u8702\u871C",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u9999\u6599",
+        "en" : "Spice",
+        "ja" : "\u30B9\u30D1\u30A4\u30B9"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
         "key" : "Spice_JuniperBerries",
         "type" : "SpiceTag",
         "icon" : "CardData__JuniperberriesCrushed__CardImage",
@@ -6650,7 +6737,7 @@
       }
     }
   ],
-  "_modifierRates"           : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "VDEBUG_HybernationSuit",
@@ -7515,7 +7602,7 @@
       }
     }
   ],
-  "_requires"                : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "TestDropModifiers",
@@ -7538,5 +7625,5 @@
       }
     }
   ],
-  "_uuid"                    : "c589f92d8a479a24c937ea90fa2d1a82"
+  "_uuid"                       : "c589f92d8a479a24c937ea90fa2d1a82"
 }

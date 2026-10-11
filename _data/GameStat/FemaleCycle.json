@@ -10,24 +10,25 @@
     "en" : "Determines when you are fertile.",
     "ja" : "Determines when you are fertile."
   },
-  "BaseValue"   : -1.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : -1.0,
+  "MinMaxValue"                 : {
     "x" : -1.0,
     "y" : 2880.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Fertile",
@@ -65,7 +66,7 @@
             "min"  : 0.0,
             "max"  : 96.0,
             "name" : {
-              "zh" : "\u6027\u5524\u8D77",
+              "zh" : "\u6027\u594B",
               "en" : "Arousal",
               "ja" : "Arousal"
             }
@@ -304,23 +305,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FemaleCycle",
-  "icon"                    : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FemaleCycle",
+  "icon"                        : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u5973\u6027\u751F\u7406\u5468\u671F",
     "en" : "Female Cycle",
     "ja" : "Female Cycle"
   },
-  "min"                     : -1.0,
-  "max"                     : 2880.0,
-  "_modifierValues"         : [
+  "min"                         : -1.0,
+  "max"                         : 2880.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "SexualOrgans",
@@ -345,7 +346,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "FemaleCycle",
@@ -462,5 +463,5 @@
       }
     }
   ],
-  "_uuid"                   : "1aacc00c86613b84dad7fea8c2c04ae6"
+  "_uuid"                       : "1aacc00c86613b84dad7fea8c2c04ae6"
 }

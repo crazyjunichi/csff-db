@@ -1,0 +1,69 @@
+
+{
+  "DutyName" : {
+    "zh" : "Reset trader Green Glade greeting",
+    "en" : "Reset trader Green Glade greeting",
+    "ja" : "Reset trader Green Glade greeting"
+  },
+  "DutySummary" : {
+    "zh" : "Reset trader Green Glade greeting",
+    "en" : "Reset trader Green Glade greeting",
+    "ja" : "Reset trader Green Glade greeting"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyConditions"    : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_ClearingOak_GreenGlade",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+        "en" : "Green Glade",
+        "ja" : "\u7DD1\u306E\u5E83\u5834"
+      }
+    },
+    "InvertEnvironmentRequirement" : true,
+    "RequiredNPCStatValues"        : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentTraderGeneralGreenGladeGreetingDone",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5546\u4EBA\u7EFF\u91CE\u7A7A\u5730\u95EE\u5019\u5B8C\u6210",
+            "en" : "AgentTraderGeneralGreenGladeGreetingDone",
+            "ja" : "AgentTraderGeneralGreenGladeGreetingDone"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "TraderGeneralResetGreenGladeGreeting",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "TraderGeneralResetGreenGladeGreeting",
+        "en" : "TraderGeneralResetGreenGladeGreeting",
+        "ja" : "TraderGeneralResetGreenGladeGreeting"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_TraderGeneral_ResetGreenGladeGreeting",
+  "name"                 : {
+    "zh" : "Reset trader Green Glade greeting",
+    "en" : "Reset trader Green Glade greeting",
+    "ja" : "Reset trader Green Glade greeting"
+  },
+  "_uuid"                : "fd9eada20c0f47a29e005a5f46ad0f15"
+}

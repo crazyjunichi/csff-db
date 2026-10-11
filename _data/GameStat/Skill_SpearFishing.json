@@ -10,41 +10,42 @@
     "en" : "Increases your chances of success and the quality of the fish when fishing.",
     "ja" : "\u91E3\u308B\u6210\u529F\u7387\u3068\u9B5A\u306E\u30AF\u30AA\u30EA\u30C6\u30A3\u304C\u9AD8\u304F\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_Spear_Flint__CardImage"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 12,
-  "StalenessMultiplier"     : 0.8,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 12,
+  "StalenessMultiplier"         : 0.8,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_SpearFishing",
-  "icon"                    : "CardData__Bp_Spear_Flint__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_SpearFishing",
+  "icon"                        : "CardData__Bp_Spear_Flint__CardImage",
+  "name"                        : {
     "zh" : "\u53C9\u9C7C",
     "en" : "Spear Fishing",
     "ja" : "\u30B9\u30D4\u30A2\u30D5\u30A3\u30C3\u30B7\u30F3\u30B0\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "HagPond",
@@ -242,9 +243,147 @@
         "x" : 0.25,
         "y" : 0.25
       }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 30.0,
+        "y" : 30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 40.0,
+        "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 60.0,
+        "y" : 60.0
+      }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "HagPond",
@@ -598,5 +737,5 @@
       }
     }
   ],
-  "_uuid"                   : "216e8105d7dfbbb49b2271c646f100ac"
+  "_uuid"                       : "216e8105d7dfbbb49b2271c646f100ac"
 }

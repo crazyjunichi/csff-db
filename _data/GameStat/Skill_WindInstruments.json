@@ -10,46 +10,47 @@
     "en" : "Unlocks new melodies as it gets higher.",
     "ja" : "\u4E0A\u304C\u308B\u307B\u3069\u66F2\u3092\u30A2\u30F3\u30ED\u30C3\u30AF\u3067\u304D\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_FluteWooden__CardImage"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 12,
-  "StalenessMultiplier"     : 0.8,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 12,
+  "StalenessMultiplier"         : 0.8,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u6280\u80FD\u4E0D\u591F\u3002",
     "en" : "Not enough skill.",
     "ja" : "\u30B9\u30AD\u30EB\u304C\u8DB3\u308A\u306A\u3044\u3002"
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_WindInstruments",
-  "icon"                    : "CardData__Bp_FluteWooden__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_WindInstruments",
+  "icon"                        : "CardData__Bp_FluteWooden__CardImage",
+  "name"                        : {
     "zh" : "\u7BA1\u4E50",
     "en" : "Wind Instruments",
     "ja" : "\u7B1B\u697D\u5668\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_FluteTunes1",
@@ -533,7 +534,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "FluteWooden",
@@ -1120,5 +1121,5 @@
       }
     }
   ],
-  "_uuid"                   : "7930de6de23888942b8b8f01c8b7bcd9"
+  "_uuid"                       : "7930de6de23888942b8b8f01c8b7bcd9"
 }

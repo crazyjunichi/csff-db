@@ -10,30 +10,31 @@
     "en" : "You are mourning the death of a loved one. Lowers your morale and mental structure.",
     "ja" : "\u4EA1\u304F\u306A\u3063\u305F\u4EBA\u3092\u8FFD\u60BC\u3057\u3001\u58EB\u6C17\u3068\u5FC3\u306E\u5065\u5EB7\u304C\u60AA\u5316\u3057\u3066\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 2880.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Assertiveness__FeedbackInfo-NegativeIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u54C0\u60BC",
@@ -98,27 +99,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Assertiveness__FeedbackInfo-NegativeIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Mourning",
-  "icon"                    : "GameStat__Assertiveness__FeedbackInfo-NegativeIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Mourning",
+  "icon"                        : "GameStat__Assertiveness__FeedbackInfo-NegativeIcon",
+  "name"                        : {
     "zh" : "\u54C0\u60BC",
     "en" : "Mourning",
     "ja" : "\u8FFD\u60BC"
   },
-  "min"                     : 0.0,
-  "max"                     : 2880.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 2880.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "DogFriend",
@@ -243,5 +244,5 @@
       }
     }
   ],
-  "_uuid"                   : "8e461e8c41bd3294f8c102991f2ff63b"
+  "_uuid"                       : "8e461e8c41bd3294f8c102991f2ff63b"
 }

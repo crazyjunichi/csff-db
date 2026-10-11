@@ -1,0 +1,1008 @@
+
+{
+  "GameName" : {
+    "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+    "en" : "Grimbards Blessing",
+    "ja" : "Grimbards Blessing"
+  },
+  "Description" : {
+    "zh" : "A spirit blessing. Increases your resilience, courage and sanctuary, lowers your stress and helps with foraging.",
+    "en" : "A spirit blessing. Increases your resilience, courage and sanctuary, lowers your stress and helps with foraging.",
+    "ja" : "A spirit blessing. Increases your resilience, courage and sanctuary, lowers your stress and helps with foraging."
+  },
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
+    "x" : 0.0,
+    "y" : 288.0
+  },
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
+    "x" : 0.0,
+    "y" : 288.0
+  },
+  "BarColor"                    : {
+    "r" : 0.4528,
+    "g" : 0.4528,
+    "b" : 0.4528,
+    "a" : 1.0
+  },
+  "BarHighlightColor"           : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon"           : {
+    "FileName" : "NPCAgent__Agent_TraderGrimbard__AgentImage"
+  },
+  "Statuses"                    : [
+    {
+      "GameName" : {
+        "zh" : "Grimbards Blessing",
+        "en" : "Grimbards Blessing",
+        "ja" : "Grimbards Blessing"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Badger1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 2,
+        "m_Y" : 36
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "GrimbardsBlessing",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+              "en" : "Grimbards Blessing",
+              "ja" : "Grimbards Blessing"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.1446,
+            "y" : -0.1446
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 25.0,
+            "y" : 25.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Courage",
+            "type" : "GameStat",
+            "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u52C7\u6C14",
+              "en" : "Courage",
+              "ja" : "\u52C7\u6C17"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 10.0,
+            "y" : 10.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Sanctuary",
+            "type" : "GameStat",
+            "icon" : "GameStat__DarkSense__DefaultStatusIcon",
+            "min"  : -1000.0,
+            "max"  : 7500.0,
+            "name" : {
+              "zh" : "\u5E87\u62A4\u5EA6",
+              "en" : "Sanctuary",
+              "ja" : "\u5B89\u606F\u5EA6"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 25.0,
+            "y" : 25.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.5,
+            "y" : -0.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ForagingAid",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeaverBlessing__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u89C5\u98DF\u63F4\u52A9",
+              "en" : "Foraging Aid",
+              "ja" : "\u8CC7\u6E90\u96C6\u3081\u30A8\u30A4\u30C9"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 36.0,
+            "y" : 36.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Grimbards Blessing",
+        "en" : "Grimbards Blessing",
+        "ja" : "Grimbards Blessing"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Badger1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 37,
+        "m_Y" : 72
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "GrimbardsBlessing",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+              "en" : "Grimbards Blessing",
+              "ja" : "Grimbards Blessing"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.2892,
+            "y" : -0.2892
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 50.0,
+            "y" : 50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Courage",
+            "type" : "GameStat",
+            "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u52C7\u6C14",
+              "en" : "Courage",
+              "ja" : "\u52C7\u6C17"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 20.0,
+            "y" : 20.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Sanctuary",
+            "type" : "GameStat",
+            "icon" : "GameStat__DarkSense__DefaultStatusIcon",
+            "min"  : -1000.0,
+            "max"  : 7500.0,
+            "name" : {
+              "zh" : "\u5E87\u62A4\u5EA6",
+              "en" : "Sanctuary",
+              "ja" : "\u5B89\u606F\u5EA6"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 50.0,
+            "y" : 50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.75,
+            "y" : -0.75
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ForagingAid",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeaverBlessing__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u89C5\u98DF\u63F4\u52A9",
+              "en" : "Foraging Aid",
+              "ja" : "\u8CC7\u6E90\u96C6\u3081\u30A8\u30A4\u30C9"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 72.0,
+            "y" : 72.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Grimbards Blessing",
+        "en" : "Grimbards Blessing",
+        "ja" : "Grimbards Blessing"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Badger1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 73,
+        "m_Y" : 108
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "GrimbardsBlessing",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+              "en" : "Grimbards Blessing",
+              "ja" : "Grimbards Blessing"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.4338,
+            "y" : -0.4338
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 75.0,
+            "y" : 75.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Courage",
+            "type" : "GameStat",
+            "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u52C7\u6C14",
+              "en" : "Courage",
+              "ja" : "\u52C7\u6C17"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 30.0,
+            "y" : 30.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Sanctuary",
+            "type" : "GameStat",
+            "icon" : "GameStat__DarkSense__DefaultStatusIcon",
+            "min"  : -1000.0,
+            "max"  : 7500.0,
+            "name" : {
+              "zh" : "\u5E87\u62A4\u5EA6",
+              "en" : "Sanctuary",
+              "ja" : "\u5B89\u606F\u5EA6"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 75.0,
+            "y" : 75.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ForagingAid",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeaverBlessing__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u89C5\u98DF\u63F4\u52A9",
+              "en" : "Foraging Aid",
+              "ja" : "\u8CC7\u6E90\u96C6\u3081\u30A8\u30A4\u30C9"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 108.0,
+            "y" : 108.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Grimbards Blessing",
+        "en" : "Grimbards Blessing",
+        "ja" : "Grimbards Blessing"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Badger1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 109,
+        "m_Y" : 144
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "GrimbardsBlessing",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+              "en" : "Grimbards Blessing",
+              "ja" : "Grimbards Blessing"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.5784,
+            "y" : -0.5784
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Courage",
+            "type" : "GameStat",
+            "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u52C7\u6C14",
+              "en" : "Courage",
+              "ja" : "\u52C7\u6C17"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 40.0,
+            "y" : 40.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Sanctuary",
+            "type" : "GameStat",
+            "icon" : "GameStat__DarkSense__DefaultStatusIcon",
+            "min"  : -1000.0,
+            "max"  : 7500.0,
+            "name" : {
+              "zh" : "\u5E87\u62A4\u5EA6",
+              "en" : "Sanctuary",
+              "ja" : "\u5B89\u606F\u5EA6"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.5,
+            "y" : -1.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ForagingAid",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeaverBlessing__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u89C5\u98DF\u63F4\u52A9",
+              "en" : "Foraging Aid",
+              "ja" : "\u8CC7\u6E90\u96C6\u3081\u30A8\u30A4\u30C9"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 144.0,
+            "y" : 144.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Grimbards Blessing",
+        "en" : "Grimbards Blessing",
+        "ja" : "Grimbards Blessing"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Badger1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 145,
+        "m_Y" : 216
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "GrimbardsBlessing",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+              "en" : "Grimbards Blessing",
+              "ja" : "Grimbards Blessing"
+            }
+          },
+          "RateModifier" : {
+            "x" : -0.7953,
+            "y" : -0.7953
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 125.0,
+            "y" : 125.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Courage",
+            "type" : "GameStat",
+            "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u52C7\u6C14",
+              "en" : "Courage",
+              "ja" : "\u52C7\u6C17"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 50.0,
+            "y" : 50.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Sanctuary",
+            "type" : "GameStat",
+            "icon" : "GameStat__DarkSense__DefaultStatusIcon",
+            "min"  : -1000.0,
+            "max"  : 7500.0,
+            "name" : {
+              "zh" : "\u5E87\u62A4\u5EA6",
+              "en" : "Sanctuary",
+              "ja" : "\u5B89\u606F\u5EA6"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 125.0,
+            "y" : 125.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ForagingAid",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeaverBlessing__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u89C5\u98DF\u63F4\u52A9",
+              "en" : "Foraging Aid",
+              "ja" : "\u8CC7\u6E90\u96C6\u3081\u30A8\u30A4\u30C9"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 216.0,
+            "y" : 216.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Grimbards Blessing",
+        "en" : "Grimbards Blessing",
+        "ja" : "Grimbards Blessing"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Badger1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 217,
+        "m_Y" : 288
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "GrimbardsBlessing",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+              "en" : "Grimbards Blessing",
+              "ja" : "Grimbards Blessing"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0122,
+            "y" : -1.0122
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ImmuneSystem",
+            "type" : "GameStat",
+            "icon" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 325.0,
+            "name" : {
+              "zh" : "\u514D\u75AB\u7CFB\u7EDF",
+              "en" : "Immune System",
+              "ja" : "\u514D\u75AB\u7CFB"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 150.0,
+            "y" : 150.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Courage",
+            "type" : "GameStat",
+            "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 200.0,
+            "name" : {
+              "zh" : "\u52C7\u6C14",
+              "en" : "Courage",
+              "ja" : "\u52C7\u6C17"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 60.0,
+            "y" : 60.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Sanctuary",
+            "type" : "GameStat",
+            "icon" : "GameStat__DarkSense__DefaultStatusIcon",
+            "min"  : -1000.0,
+            "max"  : 7500.0,
+            "name" : {
+              "zh" : "\u5E87\u62A4\u5EA6",
+              "en" : "Sanctuary",
+              "ja" : "\u5B89\u606F\u5EA6"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 150.0,
+            "y" : 150.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "ForagingAid",
+            "type" : "GameStat",
+            "icon" : "GameStat__BeaverBlessing__FeedbackInfo-Icon",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u89C5\u98DF\u63F4\u52A9",
+              "en" : "Foraging Aid",
+              "ja" : "\u8CC7\u6E90\u96C6\u3081\u30A8\u30A4\u30C9"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 288.0,
+            "y" : 288.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
+    "Icon" : {
+      "FileName" : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon"
+    },
+    "StepValue" : 50.0
+  },
+  "type"                        : "GameStat",
+  "key"                         : "GrimbardsBlessing",
+  "icon"                        : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+  "name"                        : {
+    "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+    "en" : "Grimbards Blessing",
+    "ja" : "Grimbards Blessing"
+  },
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
+    {
+      "source" : {
+        "key" : "Event_GrimbardSpiritBlessingGranted",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "name"     : {
+          "zh" : "Blessing",
+          "en" : "Blessing",
+          "ja" : "Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AContinue",
+        "en" : "Action: Continue",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AContinue"
+      },
+      "value"       : {
+        "x" : 288.0,
+        "y" : 288.0
+      }
+    }
+  ],
+  "_modifierRates"              : [
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -0.1446,
+        "y" : -0.1446
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -0.2892,
+        "y" : -0.2892
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -0.4338,
+        "y" : -0.4338
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -0.5784,
+        "y" : -0.5784
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -0.7953,
+        "y" : -0.7953
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : -1.0122,
+        "y" : -1.0122
+      }
+    }
+  ],
+  "_uuid"                       : "97ae454a7a6fd8946b6c6eabe0aa873a"
+}

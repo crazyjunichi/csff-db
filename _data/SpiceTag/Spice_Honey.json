@@ -1,0 +1,154 @@
+
+{
+  "SpiceName" : {
+    "zh" : "\u8702\u871C",
+    "en" : "Honey",
+    "ja" : "Honey"
+  },
+  "AddedFlavours" : [
+    {
+      "Flavour" : {
+        "key" : "Fruity",
+        "type" : "FlavourTag",
+        "name" : {
+          "zh" : "\u679C\u9999",
+          "en" : "Fruity",
+          "ja" : "\u30D5\u30EB\u30FC\u30C6\u30A3"
+        }
+      },
+      "Intensity" : 0
+    },
+    {
+      "Flavour" : {
+        "key" : "Sweet",
+        "type" : "FlavourTag",
+        "name" : {
+          "zh" : "\u751C\u5473",
+          "en" : "Sweet",
+          "ja" : "\u7518\u3044"
+        }
+      },
+      "Intensity" : 1
+    }
+  ],
+  "AddedStatModifiers" : [
+    {
+      "Stat" : {
+        "key" : "Thirst",
+        "type" : "GameStat",
+        "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53E3\u6E34\u5EA6",
+          "en" : "Thirst",
+          "ja" : "\u5589\u306E\u6E07\u304D"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "Calories_Stomach",
+        "type" : "GameStat",
+        "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 200.0,
+        "name" : {
+          "zh" : "\u80C3\u90E8",
+          "en" : "Stomach",
+          "ja" : "\u304A\u8179"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 16.8,
+        "y" : 16.8
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "SaturationSugar",
+        "type" : "GameStat",
+        "icon" : "CardData__FairyweedPowder__CardImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u7CD6\u538C\u5026\u5EA6",
+          "en" : "Sugar Saturation",
+          "ja" : "\u7802\u7CD6\u306E\u98FD\u304D"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 14.4,
+        "y" : 14.4
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "Fullness_Stomach",
+        "type" : "GameStat",
+        "icon" : "GameStat__Calories_Stomach__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 200.0,
+        "name" : {
+          "zh" : "\u80C3\u90E8\u9971\u80C0",
+          "en" : "Stomach Fullness",
+          "ja" : "\u304A\u8179\u306E\u6E80\u8179\u611F"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 2.1,
+        "y" : 2.1
+      }
+    },
+    {
+      "Stat" : {
+        "key" : "Satiation",
+        "type" : "GameStat",
+        "icon" : "GameStat__Appetite__FeedbackInfo-Icon",
+        "min"  : 0.0,
+        "max"  : 330.0,
+        "name" : {
+          "zh" : "\u9971\u98DF\u5EA6",
+          "en" : "Satiation",
+          "ja" : "\u98FD\u304D"
+        }
+      },
+      "ValueModifier" : {
+        "x" : 0.6,
+        "y" : 0.6
+      }
+    }
+  ],
+  "type"               : "SpiceTag",
+  "key"                : "Spice_Honey",
+  "name"               : {
+    "zh" : "\u8702\u871C",
+    "en" : "Honey",
+    "ja" : "Honey"
+  },
+  "_sources"           : [
+    {
+      "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AAdd",
+        "en" : "Action: Add",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AAdd"
+      }
+    }
+  ],
+  "_uuid"              : "ad55da7d3dfad4a4cb61002ec7d1a9cf"
+}

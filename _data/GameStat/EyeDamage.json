@@ -10,30 +10,31 @@
     "en" : "Lowers yours vision making it harder to forage or avoid dangers.",
     "ja" : "\u8996\u91CE\u304C\u72ED\u304F\u306A\u308A\u3001\u8CC7\u6E90\u96C6\u3081\u3084\u5371\u967A\u306E\u56DE\u907F\u304C\u96E3\u3057\u304F\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 384.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.9451,
     "g" : 0.5176,
     "b" : 0.3765,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__EyeDamage__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5EA6\u773C\u90E8\u635F\u4F24",
@@ -207,25 +208,25 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Blindness__FeedbackInfo-Icon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "EyeDamage",
-  "icon"                    : "GameStat__EyeDamage__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "EyeDamage",
+  "icon"                        : "GameStat__EyeDamage__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u773C\u90E8\u635F\u4F24",
     "en" : "Eye Damage",
     "ja" : "\u76EE\u306E\u30C0\u30E1\u30FC\u30B8"
   },
-  "min"                     : 0.0,
-  "max"                     : 384.0,
-  "_uuid"                   : "65c266adc4f379b46b90501cb4998da0"
+  "min"                         : 0.0,
+  "max"                         : 384.0,
+  "_uuid"                       : "65c266adc4f379b46b90501cb4998da0"
 }

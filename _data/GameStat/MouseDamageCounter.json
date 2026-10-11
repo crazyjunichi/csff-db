@@ -5,15 +5,16 @@
     "en" : "Mouse Raid Counter",
     "ja" : "\u30CD\u30BA\u30DF\u30EC\u30A4\u30C9\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 192.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u968F\u673A\u901F\u7387",
@@ -87,27 +88,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u66B4\u98CE\u96E8\u592A\u5927\u4E86\u6211\u7761\u4E0D\u7740\uFF01",
     "en" : "It's too stormy to sleep!",
     "ja" : "\u5D50\u306E\u305B\u3044\u3067\u5BDD\u308C\u306A\u3044\uFF01"
   },
-  "type"                    : "GameStat",
-  "key"                     : "MouseDamageCounter",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MouseDamageCounter",
+  "name"                        : {
     "zh" : "\u8001\u9F20\u88AD\u51FB\u6B21\u6570",
     "en" : "Mouse Raid Counter",
     "ja" : "\u30CD\u30BA\u30DF\u30EC\u30A4\u30C9\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "min"                     : 0.0,
-  "max"                     : 192.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 192.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Tgr_MouseRaid",
@@ -129,7 +130,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "MouseDamageCounter",
@@ -175,7 +176,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_MouseRaid",
@@ -217,5 +218,5 @@
       }
     }
   ],
-  "_uuid"                   : "c5bcafedf20fb85449fc13c1344ea044"
+  "_uuid"                       : "c5bcafedf20fb85449fc13c1344ea044"
 }

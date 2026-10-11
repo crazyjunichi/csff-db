@@ -10,30 +10,31 @@
     "en" : "Lowers fever, pain and stress, while slightly altering your mind state.",
     "ja" : "\u767A\u71B1\u3001\u75DB\u307F\u3001\u30B9\u30C8\u30EC\u30B9\u3092\u6539\u5584\u3057\u3001\u7CBE\u795E\u72B6\u614B\u3092\u5C11\u3057\u5909\u3048\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 400.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__BogMyrtleLeavesFresh__SpecialDurability3-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u4ED9\u7075\u8349\u5242\u91CF",
@@ -537,27 +538,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__BogMyrtleLeavesFresh__SpecialDurability3-OverrideIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FairyweedEffect",
-  "icon"                    : "CardData__BogMyrtleLeavesFresh__SpecialDurability3-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FairyweedEffect",
+  "icon"                        : "CardData__BogMyrtleLeavesFresh__SpecialDurability3-OverrideIcon",
+  "name"                        : {
     "zh" : "\u4ED9\u7075\u8349",
     "en" : "Fairyweed",
     "ja" : "\u5996\u7CBE\u8349"
   },
-  "min"                     : 0.0,
-  "max"                     : 400.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 400.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "LQ_Fairybrew",
@@ -622,7 +623,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "FairyweedEffect",
@@ -762,5 +763,5 @@
       }
     }
   ],
-  "_uuid"                   : "d4c750eb676628f45958171877ea7557"
+  "_uuid"                       : "d4c750eb676628f45958171877ea7557"
 }

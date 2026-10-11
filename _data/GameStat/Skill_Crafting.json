@@ -10,41 +10,42 @@
     "en" : "Increases the quality of some of your crafts.",
     "ja" : "\u3044\u304F\u3064\u304B\u306E\u4F5C\u3063\u305F\u7269\u306E\u30AF\u30AA\u30EA\u30C6\u30A3\u304C\u9AD8\u304F\u306A\u308B"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Crafting",
-  "icon"                    : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Crafting",
+  "icon"                        : "CardData__AcornDoughRaw__UsageDurability-OverrideIcon",
+  "name"                        : {
     "zh" : "\u5236\u4F5C",
     "en" : "Crafting",
     "ja" : "\u30AF\u30E9\u30D5\u30C6\u30A3\u30F3\u30B0"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_Cellar",
@@ -1546,7 +1547,7 @@
         "key" : "Bp_SimpleBow",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
@@ -1561,28 +1562,6 @@
       "value"       : {
         "x" : 1.0,
         "y" : 1.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Bp_Smokehouse",
-        "type" : "CardData",
-        "CardType" : 7,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u71FB\u88FD\u5C0F\u5C4B"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      },
-      "value"       : {
-        "x" : 2.0,
-        "y" : 2.0
       }
     },
     {
@@ -1876,7 +1855,6 @@
         "key" : "Bp_ArrowBone",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__ArrowBone__CardImage",
         "name"     : {
           "zh" : "\u9AA8\u7BAD",
           "en" : "Bone Arrows",
@@ -1902,27 +1880,6 @@
           "zh" : "\u9AA8\u5200",
           "en" : "Bone Knife",
           "ja" : "\u9AA8\u306E\u30CA\u30A4\u30D5"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      },
-      "value"       : {
-        "x" : 1.0,
-        "y" : 1.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Bp_DoughStarter",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "\u9175\u79CD",
-          "en" : "Dough Starter",
-          "ja" : "\u5143\u7A2E"
         }
       },
       "description" : {
@@ -2883,7 +2840,6 @@
         "key" : "BonesBird",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BonesBird__CardImage",
         "name"     : {
           "zh" : "\u9E1F\u9AA8",
           "en" : "Bird Bones",
@@ -2905,7 +2861,6 @@
         "key" : "BonesBird",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BonesBird__CardImage",
         "name"     : {
           "zh" : "\u9E1F\u9AA8",
           "en" : "Bird Bones",
@@ -2927,7 +2882,6 @@
         "key" : "BoneSplinters",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BoneSplinters__CardImage",
         "name"     : {
           "zh" : "\u9AA8\u5934\u788E\u7247",
           "en" : "Bone Splinters",
@@ -2949,7 +2903,6 @@
         "key" : "BoneSplinters",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BoneSplinters__CardImage",
         "name"     : {
           "zh" : "\u9AA8\u5934\u788E\u7247",
           "en" : "Bone Splinters",
@@ -3465,7 +3418,6 @@
         "key" : "Bp_WateringTrough",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_WateringTrough__CardImage",
         "name"     : {
           "zh" : "Watering Trough",
           "en" : "Watering Trough",
@@ -3487,7 +3439,6 @@
         "key" : "Bp_Well",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_Well__CardImage",
         "name"     : {
           "zh" : "Well",
           "en" : "Well",
@@ -3987,7 +3938,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "FluteBone_Unfinished",
@@ -4010,5 +3961,5 @@
       }
     }
   ],
-  "_uuid"                   : "d4b67ed3a92b283488db1554bb23270a"
+  "_uuid"                       : "d4b67ed3a92b283488db1554bb23270a"
 }

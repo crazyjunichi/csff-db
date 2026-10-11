@@ -5,31 +5,32 @@
     "en" : "Bog Myrtle Effect",
     "ja" : "Bog Myrtle Effect"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 16.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BogMyrtleEffect__DefaultStatusIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5FAE\u6CBC\u6CFD\u9999\u6728\u6548\u679C",
@@ -313,24 +314,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BogMyrtleEffect",
-  "icon"                    : "GameStat__BogMyrtleEffect__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BogMyrtleEffect",
+  "icon"                        : "GameStat__BogMyrtleEffect__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6CBC\u6CFD\u9999\u6728\u6548\u679C",
     "en" : "Bog Myrtle Effect",
     "ja" : "Bog Myrtle Effect"
   },
-  "min"                     : 0.0,
-  "max"                     : 16.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 16.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "BogMyrtleLeavesFresh",
@@ -418,7 +419,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BogMyrtleEffect",
@@ -489,5 +490,5 @@
       }
     }
   ],
-  "_uuid"                   : "c9e345df3e6e02c4c83d2525d5332883"
+  "_uuid"                       : "c9e345df3e6e02c4c83d2525d5332883"
 }

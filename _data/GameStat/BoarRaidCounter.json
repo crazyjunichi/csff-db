@@ -5,15 +5,16 @@
     "en" : "Boar Raid Counter",
     "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u8972\u6483\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 192.0
   },
-  "BaseRatePerTick" : 0.25,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 0.25,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u968F\u673A\u901F\u7387",
@@ -87,22 +88,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BoarRaidCounter",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BoarRaidCounter",
+  "name"                        : {
     "zh" : "\u91CE\u732A\u88AD\u51FB\u6B21\u6570",
     "en" : "Boar Raid Counter",
     "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u8972\u6483\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "min"                     : 0.0,
-  "max"                     : 192.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 192.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Tgr_BoarFightRaid",
@@ -124,7 +125,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BoarRaidCounter",
@@ -170,7 +171,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_BoarFightRaid",
@@ -212,5 +213,5 @@
       }
     }
   ],
-  "_uuid"                   : "4e8060aed2c0e1a47935fc9c4ecfb838"
+  "_uuid"                       : "4e8060aed2c0e1a47935fc9c4ecfb838"
 }

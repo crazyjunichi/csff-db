@@ -5,34 +5,35 @@
     "en" : "Fish Summoning",
     "ja" : "\u9B5A\u306E\u53EC\u559A"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 16.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 16.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__FishSummoning__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u805A\u9C7C\u672F",
@@ -54,27 +55,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__FishSummoning__DefaultStatusIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FishSummoning",
-  "icon"                    : "GameStat__FishSummoning__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FishSummoning",
+  "icon"                        : "GameStat__FishSummoning__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u805A\u9C7C\u672F",
     "en" : "Fish Summoning",
     "ja" : "\u9B5A\u306E\u53EC\u559A"
   },
-  "min"                     : 0.0,
-  "max"                     : 16.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 16.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "LQ_SpiritWater",
@@ -98,7 +99,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "IceHoleRiver",
@@ -694,5 +695,5 @@
       }
     }
   ],
-  "_uuid"                   : "7dbbd0c00a3893b46910ceb8fe70ed85"
+  "_uuid"                       : "7dbbd0c00a3893b46910ceb8fe70ed85"
 }

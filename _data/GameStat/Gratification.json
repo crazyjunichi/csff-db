@@ -10,34 +10,35 @@
     "en" : "How happy and entertained you feel. Lowers stress and increases wellbeing.\n\nEat good food, have fun and keep a high level of focus to increase it.",
     "ja" : "\u3069\u308C\u307B\u3069\u5E78\u798F\u3067\u697D\u3057\u3081\u3066\u3044\u308B\u304B\u3002\u30B9\u30C8\u30EC\u30B9\u3092\u4E0B\u3052\u3001\u5E78\u798F\u5EA6\u3092\u9AD8\u3081\u308B\u3002\n\n\u826F\u3044\u98DF\u4E8B\u3092\u53D6\u308A\u3001\u697D\u3057\u307F\u3001\u9AD8\u3044\u96C6\u4E2D\u529B\u3092\u4FDD\u3064\u3053\u3068\u3067\u4E0A\u6607\u3059\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : -100.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : -1.5,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : -1.5,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : -100.0,
     "y" : 100.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6781\u4E3A\u6EE1\u8DB3",
@@ -251,28 +252,28 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Gratification__FeedbackInfo-Icon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Gratification",
-  "icon"                    : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Gratification",
+  "icon"                        : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+  "name"                        : {
     "zh" : "\u6EE1\u8DB3\u611F",
     "en" : "Gratification",
     "ja" : "\u6E80\u8DB3\u611F"
   },
-  "min"                     : -100.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : -100.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_Cabin",
@@ -513,6 +514,50 @@
       "value"       : {
         "x" : 10.0,
         "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BeeSkepEmpty",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Empty Skep",
+          "en" : "Empty Skep",
+          "ja" : "Empty Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
       }
     },
     {
@@ -2233,28 +2278,6 @@
     },
     {
       "source" : {
-        "key" : "Bp_Smokehouse",
-        "type" : "CardData",
-        "CardType" : 7,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u71FB\u88FD\u5C0F\u5C4B"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      },
-      "value"       : {
-        "x" : 5.0,
-        "y" : 5.0
-      }
-    },
-    {
-      "source" : {
         "key" : "Bp_SnowMan",
         "type" : "CardData",
         "CardType" : 7,
@@ -2492,27 +2515,6 @@
       "value"       : {
         "x" : 10.0,
         "y" : 10.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Bp_DoughStarter",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "\u9175\u79CD",
-          "en" : "Dough Starter",
-          "ja" : "\u5143\u7A2E"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      },
-      "value"       : {
-        "x" : 2.0,
-        "y" : 2.0
       }
     },
     {
@@ -3706,9 +3708,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Event_WaterfallCave__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -8810,7 +8812,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -9622,7 +9624,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -11736,7 +11738,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -13188,7 +13190,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -13210,7 +13212,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -14030,7 +14032,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -15042,7 +15044,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       },
@@ -16109,6 +16111,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AApply to Wound",
+        "en" : "Action: Apply to Wound",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AApply to Wound"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_NightBroth",
         "type" : "CardData",
         "CardType" : 9,
@@ -16468,28 +16492,6 @@
           "zh" : "\u6851\u62FF\u7089",
           "en" : "Sauna Stove",
           "ja" : "\u30B5\u30A6\u30CA\u30B9\u30C8\u30FC\u30D6"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u53D6\u6696",
-        "en" : "Action: Warm Up",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6E29\u3081\u308B"
-      },
-      "value"       : {
-        "x" : 5.0,
-        "y" : 5.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
         }
       },
       "description" : {
@@ -17158,50 +17160,6 @@
       "value"       : {
         "x" : 4.0,
         "y" : 4.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
-      },
-      "value"       : {
-        "x" : 1.0,
-        "y" : 1.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
-      },
-      "value"       : {
-        "x" : 1.0,
-        "y" : 1.0
       }
     },
     {
@@ -19997,6 +19955,72 @@
     },
     {
       "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
         "key" : "W_WolfBite",
         "type" : "CardData",
         "CardType" : 0,
@@ -20556,6 +20580,144 @@
       "value"       : {
         "x" : 5.0,
         "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 5.0,
+        "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : 6.0,
+        "y" : 6.0
       }
     },
     {
@@ -21142,7 +21304,7 @@
       "source" : {
         "key" : "tag_Heatable",
         "type" : "CardTag",
-        "count" : 368,
+        "count" : 371,
         "name"  : {
           "zh" : "\u53EF\u52A0\u70ED\u7684",
           "en" : "Heatable",
@@ -21163,7 +21325,7 @@
       "source" : {
         "key" : "tag_Heatable",
         "type" : "CardTag",
-        "count" : 368,
+        "count" : 371,
         "name"  : {
           "zh" : "\u53EF\u52A0\u70ED\u7684",
           "en" : "Heatable",
@@ -21184,7 +21346,7 @@
       "source" : {
         "key" : "tag_Heatable",
         "type" : "CardTag",
-        "count" : 368,
+        "count" : 371,
         "name"  : {
           "zh" : "\u53EF\u52A0\u70ED\u7684",
           "en" : "Heatable",
@@ -21346,6 +21508,27 @@
       "value"       : {
         "x" : 10.0,
         "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterCraftheart",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "Craft-Heart",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
       }
     },
     {
@@ -21588,6 +21771,48 @@
           "zh" : "\u516C\u9E7F",
           "en" : "Stag",
           "ja" : "\u96C4\u9E7F"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterStalker",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "name" : {
+          "zh" : "Stalker",
+          "en" : "Stalker",
+          "ja" : "Stalker"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterWhiteStag",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+        "name" : {
+          "zh" : "Stag",
+          "en" : "Stag",
+          "ja" : "Stag"
         }
       },
       "description" : {
@@ -21930,7 +22155,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "CabinConstructionLocationCabinRoom",
@@ -23844,8 +24069,8 @@
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5C11\u91CF\u306E\u30E4\u30CA\u30AE\u306E\u6A39\u76AE"
       },
       "value"       : {
-        "x" : 0.5,
-        "y" : 0.5
+        "x" : 0.125,
+        "y" : 0.125
       }
     },
     {
@@ -23867,8 +24092,8 @@
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u666E\u901A\u306E\u91CF\u306E\u30E4\u30CA\u30AE\u306E\u6A39\u76AE"
       },
       "value"       : {
-        "x" : 1.0,
-        "y" : 1.0
+        "x" : 0.25,
+        "y" : 0.25
       }
     },
     {
@@ -23890,8 +24115,8 @@
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5927\u91CF\u306E\u30E4\u30CA\u30AE\u306E\u6A39\u76AE"
       },
       "value"       : {
-        "x" : 2.0,
-        "y" : 2.0
+        "x" : 0.5,
+        "y" : 0.5
       }
     },
     {
@@ -23913,8 +24138,8 @@
         "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8D85\u5927\u91CF\u306E\u30E4\u30CA\u30AE\u306E\u6A39\u76AE"
       },
       "value"       : {
-        "x" : 4.0,
-        "y" : 4.0
+        "x" : 1.0,
+        "y" : 1.0
       }
     },
     {
@@ -25397,7 +25622,51 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_requires"                   : [
+    {
+      "source" : {
+        "key" : "Agent_CraftHeart",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u52A8\u4F5C",
+        "en" : "NPC Action",
+        "ja" : "NPC\u30A2\u30AF\u30B7\u30E7\u30F3"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Agent_CraftHeart",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u52A8\u4F5C",
+        "en" : "NPC Action",
+        "ja" : "NPC\u30A2\u30AF\u30B7\u30E7\u30F3"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 100.0
+      }
+    }
+  ],
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_Pee",
@@ -25459,5 +25728,5 @@
       }
     }
   ],
-  "_uuid"                   : "fcf10706cd6d1fd4ba39438f6ebee503"
+  "_uuid"                       : "fcf10706cd6d1fd4ba39438f6ebee503"
 }

@@ -10,30 +10,31 @@
     "en" : "Boosts immune system.",
     "ja" : "\u514D\u75AB\u529B\u3092\u30D6\u30FC\u30B9\u30C8\u3059\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u5927\u849C\u6548\u679C",
@@ -200,24 +201,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "GarlicEffect",
-  "icon"                    : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "GarlicEffect",
+  "icon"                        : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+  "name"                        : {
     "zh" : "\u849C",
     "en" : "Garlic",
     "ja" : "\u30CB\u30F3\u30CB\u30AF"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "WildGarlicFresh",
@@ -328,5 +329,5 @@
       }
     }
   ],
-  "_uuid"                   : "823a2724dc0250044901714190f29024"
+  "_uuid"                       : "823a2724dc0250044901714190f29024"
 }

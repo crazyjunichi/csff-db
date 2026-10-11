@@ -5,18 +5,19 @@
     "en" : "Hair Colour",
     "ja" : "Hair Colour"
   },
-  "BaseValue" : 7.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 7.0,
+  "MinMaxValue"                 : {
     "x" : -10.0,
     "y" : 10.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 1200,
-  "Visibility"      : 2,
-  "VisibleInAppearanceTab" : true,
-  "CannotBeInspected"      : true,
-  "StatusesHaveNoBar"      : true,
-  "Statuses"               : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 1200,
+  "Visibility"                  : 2,
+  "VisibleInAppearanceTab"      : true,
+  "CannotBeInspected"           : true,
+  "StatusesHaveNoBar"           : true,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "White Hair",
@@ -218,31 +219,31 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HairColour",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HairColour",
+  "name"                        : {
     "zh" : "\u53D1\u8272",
     "en" : "Hair Colour",
     "ja" : "Hair Colour"
   },
-  "min"                     : -10.0,
-  "max"                     : 10.0,
-  "_modifierValues"         : [
+  "min"                         : -10.0,
+  "max"                         : 10.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_3_5_DarkHair",
         "type" : "CharacterPerk",
         "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBlack__PerkIcon",
         "name" : {
-          "zh" : "\u6DF1\u8272\u5934\u53D1",
+          "zh" : "\u9ED1\u53D1",
           "en" : "Black Hair",
-          "ja" : "\u9ED2\u3044\u9AEA"
+          "ja" : "Black Hair"
         }
       },
       "description" : {
@@ -261,7 +262,7 @@
         "type" : "CharacterPerk",
         "icon" : "NPCCharacterPerk__PartnerPerk_HairColourAuburn__PerkIcon",
         "name" : {
-          "zh" : "\u8D64\u8910\u8272\u5934\u53D1",
+          "zh" : "\u7EA2\u68D5\u8272\u5934\u53D1",
           "en" : "Auburn Hair",
           "ja" : "Auburn Hair"
         }
@@ -429,7 +430,7 @@
         "type" : "CharacterPerk",
         "icon" : "NPCCharacterPerk__PartnerPerk_HairColourWhite__PerkIcon",
         "name" : {
-          "zh" : "\u767D\u8272\u5934\u53D1",
+          "zh" : "\u767D\u53D1",
           "en" : "White Hair",
           "ja" : "White Hair"
         }
@@ -450,9 +451,9 @@
         "type" : "CharacterPerk",
         "icon" : "NPCCharacterPerk__PartnerPerk_HairColourBlonde__PerkIcon",
         "name" : {
-          "zh" : "\u6D45\u8272\u5934\u53D1",
+          "zh" : "\u91D1\u53D1",
           "en" : "Blonde Hair",
-          "ja" : "\u660E\u308B\u3044\u9AEA"
+          "ja" : "Blonde Hair"
         }
       },
       "description" : {
@@ -466,5 +467,5 @@
       }
     }
   ],
-  "_uuid"                   : "536e1210504a47a7be7e656ec3cf6564"
+  "_uuid"                       : "536e1210504a47a7be7e656ec3cf6564"
 }

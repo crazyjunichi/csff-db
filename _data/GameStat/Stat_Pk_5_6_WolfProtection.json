@@ -10,30 +10,31 @@
     "en" : "Used To enable the wolf protection perk, makes it so that wolves never attack the player. Only if player attacks them. ",
     "ja" : "Used To enable the wolf protection perk, makes it so that wolves never attack the player. Only if player attacks them. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_Pk_5_6_WolfProtection",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_Pk_5_6_WolfProtection",
+  "name"                        : {
     "zh" : "\u72FC\u7FA4\u4FDD\u62A4",
     "en" : "Stat_Pk_5_6_WolfProtection",
     "ja" : "Stat_Pk_5_6_WolfProtection"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_5_6_WolfProtection",
@@ -56,7 +57,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Pk_5_6_WolfProtection",
@@ -79,5 +80,5 @@
       }
     }
   ],
-  "_uuid"                   : "0f191940d0173804c8e9f4f556ca1ffb"
+  "_uuid"                       : "0f191940d0173804c8e9f4f556ca1ffb"
 }

@@ -1,0 +1,29 @@
+
+{
+  "NPCStatModifiers" : [
+    {
+      "TargetStat" : {
+        "key" : "AgentCounter",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u8BA1\u6B65\u5668",
+          "en" : "AgentCounter",
+          "ja" : "AgentCounter"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : 5760.0,
+        "y" : 5760.0
+      }
+    }
+  ],
+  "key"              : "StartCraftHeartTrapCooldown",
+  "type"             : "NPCDutyAction",
+  "name"             : {
+    "zh" : "StartCraftHeartTrapCooldown",
+    "en" : "StartCraftHeartTrapCooldown",
+    "ja" : "StartCraftHeartTrapCooldown"
+  },
+  "actionType"       : "ChangeNPCStatDutyAction"
+}

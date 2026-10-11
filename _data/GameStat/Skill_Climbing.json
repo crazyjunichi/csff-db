@@ -10,41 +10,42 @@
     "en" : "Lowers your chances of getting hurt when climbing.",
     "ja" : "\u30AF\u30E9\u30A4\u30DF\u30F3\u30B0\u3067\u602A\u6211\u3059\u308B\u53EF\u80FD\u6027\u304C\u4F4E\u304F\u306A\u308B"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Blindness__FeedbackInfo-Icon"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 3,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 3,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Climbing",
-  "icon"                    : "GameStat__Blindness__FeedbackInfo-Icon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Climbing",
+  "icon"                        : "GameStat__Blindness__FeedbackInfo-Icon",
+  "name"                        : {
     "zh" : "\u6500\u722C",
     "en" : "Climbing",
     "ja" : "\u30AF\u30E9\u30A4\u30DF\u30F3\u30B0\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Caves_FmTheShaft",
@@ -551,7 +552,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Caves_FmTheShaft",
@@ -1037,5 +1038,5 @@
       }
     }
   ],
-  "_uuid"                   : "4e1c1fcb63b240843b8255abab28181a"
+  "_uuid"                       : "4e1c1fcb63b240843b8255abab28181a"
 }

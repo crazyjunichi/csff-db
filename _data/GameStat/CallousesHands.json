@@ -10,24 +10,25 @@
     "en" : "Protects your hands from the damage caused by working with your hands.",
     "ja" : "\u624B\u3092\u4F7F\u3046\u4F5C\u696D\u3067\u5B88\u3063\u3066\u304F\u308C\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.6132,
     "g" : 0.3583,
     "b" : 0.0318,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__CallousesHands__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u624B\u8327",
@@ -111,23 +112,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "CallousesHands",
-  "icon"                    : "GameStat__CallousesHands__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "CallousesHands",
+  "icon"                        : "GameStat__CallousesHands__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u624B\u8327",
     "en" : "Hand Callouses",
     "ja" : "\u624B\u306E\u30BF\u30B3"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_3_9_Callouses",
@@ -150,7 +151,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "HandDamage",
@@ -198,5 +199,5 @@
       }
     }
   ],
-  "_uuid"                   : "882b278b66d1ef24d88aaacae1b70929"
+  "_uuid"                       : "882b278b66d1ef24d88aaacae1b70929"
 }

@@ -10,13 +10,14 @@
     "en" : "Shows the current phase of the moon. Fuller moons provide more moonlight and strengthen moon rituals.\n\nThe new moon is the weakest phase. It gives way to the waxing crescent, then the waxing gibbous, and finally the full moon.\nThe full moon is the strongest phase. It is followed by the waning gibbous, then the waning crescent, before returning to the new moon.",
     "ja" : "\u73FE\u5728\u306E\u6708\u306E\u6E80\u3061\u6B20\u3051\u3092\u793A\u3059\u3002\n\u6708\u304C\u6E80\u3061\u308B\u307B\u3069\u6708\u5149\u306F\u5F37\u307E\u308A\u3001\u6708\u306E\u5100\u5F0F\u3082\u3088\u308A\u5F37\u3044\u529B\u3092\u5E2F\u3073\u308B\u3002\n\n\u65B0\u6708\u306F\u6700\u3082\u529B\u306E\u5F31\u3044\u6708\u76F8\u3002\n\u305D\u3053\u304B\u3089\u4E09\u65E5\u6708\u3001\u5341\u4E09\u591C\u6708\u3092\u7D4C\u3066\u3001\u3084\u304C\u3066\u6E80\u6708\u3078\u81F3\u308B\u3002\n\u6E80\u6708\u306F\u6700\u3082\u529B\u306B\u6E80\u3061\u305F\u6708\u76F8\u3067\u3042\u308A\u3001\u305D\u306E\u5F8C\u306F\u5BDD\u5F85\u6708\u3001\u4E8C\u5341\u516D\u591C\u6708\u3092\u7D4C\u3066\u3001\u518D\u3073\u65B0\u6708\u3078\u3068\u9084\u3063\u3066\u3044\u304F\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 6.0
   },
-  "BaseRatePerTick" : 0.0,
-  "CompositeStats"  : [
+  "BaseRatePerTick"             : 0.0,
+  "CompositeStats"              : [
     {
       "Stat" : {
         "key" : "MoonShape",
@@ -31,23 +32,23 @@
       }
     }
   ],
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "StatusesHaveNoBar"     : true,
-  "BarColor"              : {
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "StatusesHaveNoBar"           : true,
+  "BarColor"                    : {
     "r" : 0.1616,
     "g" : 0.0198,
     "b" : 0.315,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u65B0\u6708",
@@ -169,33 +170,33 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u6708\u5149\u4E0D\u591F",
     "en" : "Not enough moonlight",
     "ja" : "\u6708\u660E\u304B\u308A\u304C\u8DB3\u308A\u306A\u3044"
   },
-  "TooMuchText"             : {
+  "TooMuchText"                 : {
     "zh" : "\u6708\u5149\u4E0D\u591F",
     "en" : "Not enough moonlight",
     "ja" : "\u6708\u660E\u304B\u308A\u304C\u8DB3\u308A\u306A\u3044"
   },
-  "type"                    : "GameStat",
-  "key"                     : "MoonShapeVisible",
-  "icon"                    : "GameStat__MoonShapeVisible__Statuses-0-Icon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MoonShapeVisible",
+  "icon"                        : "GameStat__MoonShapeVisible__Statuses-0-Icon",
+  "name"                        : {
     "zh" : "\u6708\u76F8",
     "en" : "Moon Phase",
     "ja" : "\u6708\u9F62"
   },
-  "min"                     : 0.0,
-  "max"                     : 6.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 6.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "IsNightUnderOpenSky",
@@ -219,7 +220,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_MaidenCharm",
@@ -309,5 +310,5 @@
       }
     }
   ],
-  "_uuid"                   : "88696be73fb2e354fae5143b3d11cf62"
+  "_uuid"                       : "88696be73fb2e354fae5143b3d11cf62"
 }

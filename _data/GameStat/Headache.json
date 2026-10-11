@@ -10,30 +10,31 @@
     "en" : "Can be caused by dehydration or poisoning. Produces pain.",
     "ja" : "\u8131\u6C34\u3084\u6BD2\u304C\u4E3B\u306A\u539F\u56E0\u3002\u75DB\u3044\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 48.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.7412,
     "g" : 0.102,
     "b" : 0.0392,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Headache__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5FAE\u5934\u75BC",
@@ -170,27 +171,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Headache__FeedbackInfo-Icon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Headache",
-  "icon"                    : "GameStat__Headache__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Headache",
+  "icon"                        : "GameStat__Headache__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u5934\u75BC",
     "en" : "Headache",
     "ja" : "\u982D\u75DB"
   },
-  "min"                     : 0.0,
-  "max"                     : 48.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 48.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "LQ_UrineStale",
@@ -258,7 +259,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BogMyrtleEffect",
@@ -700,7 +701,7 @@
       "source" : {
         "key" : "BeeStings",
         "type" : "GameStat",
-        "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+        "icon" : "GameStat__BeeStings__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 192.0,
         "name" : {
@@ -723,7 +724,7 @@
       "source" : {
         "key" : "BeeStings",
         "type" : "GameStat",
-        "icon" : "GameStat__BeeProtection__DefaultStatusIcon",
+        "icon" : "GameStat__BeeStings__DefaultStatusIcon",
         "min"  : 0.0,
         "max"  : 192.0,
         "name" : {
@@ -743,5 +744,5 @@
       }
     }
   ],
-  "_uuid"                   : "1c5804d14cc0b224da5ac7229ca90a00"
+  "_uuid"                       : "1c5804d14cc0b224da5ac7229ca90a00"
 }

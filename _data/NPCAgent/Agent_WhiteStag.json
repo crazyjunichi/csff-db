@@ -1,0 +1,1352 @@
+
+{
+  "AgentName" : {
+    "zh" : "\u767D\u9E7F",
+    "en" : "White Stag",
+    "ja" : "White Stag"
+  },
+  "AgentDescription" : {
+    "zh" : "A great stag stands tall, antlers rising above the brush.",
+    "en" : "A great stag stands tall, antlers rising above the brush.",
+    "ja" : "A great stag stands tall, antlers rising above the brush."
+  },
+  "AgentImage"       : {
+    "FileName" : "NPCAgent__Agent_WhiteStag__AgentImage"
+  },
+  "WeightCategory"   : {
+    "key" : "Heavy",
+    "type" : "AgentWeightCategory",
+    "name" : {
+      "zh" : "\u6C89\u7684",
+      "en" : "Heavy",
+      "ja" : "\u91CD\u3044"
+    }
+  },
+  "HidingConditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_ClearingOak_SacredGlade",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u795E\u5723\u7A7A\u5730",
+        "en" : "Sacred Glade",
+        "ja" : "Sacred Glade"
+      }
+    }
+  },
+  "Interactions"     : [
+    {
+      "ButtonName" : {
+        "zh" : "Approach",
+        "en" : "Approach",
+        "ja" : "Approach"
+      },
+      "ButtonType" : 1,
+      "Dialog"     : {
+        "key" : "Dialogue_AgentStag",
+        "type" : "DialogScene",
+        "name" : {
+          "zh" : "\u516C\u9E7F",
+          "en" : "Stag",
+          "ja" : "\u30AA\u30B9\u30B8\u30AB"
+        },
+        "firstLine" : {
+          "zh" : "\u4F60\u63A5\u8FD1\u516C\u9E7F",
+          "en" : "You approach the Stag",
+          "ja" : "\u30AA\u30B9\u30B8\u30AB\u306B\u8FD1\u3065\u304F\u30FB\u30FB\u30FB"
+        }
+      },
+      "DroppedEncounter" : {
+        "key" : "Combat_EncounterWhiteStag",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+        "name" : {
+          "zh" : "Stag",
+          "en" : "Stag",
+          "ja" : "Stag"
+        }
+      }
+    }
+  ],
+  "DefaultTracks"    : {
+    "Active" : true,
+    "TrackLifetime" : {
+      "m_X" : 32,
+      "m_Y" : 32
+    },
+    "OverrideDefaultTracksCard" : {
+      "key" : "DefaultTracksCard",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__BeastTracksCardInvisible__CardImage",
+      "name"     : {
+        "zh" : "\u6709\u8E2A\u8FF9\uFF01",
+        "en" : "Tracks!",
+        "ja" : "\u8DB3\u8DE1\uFF01"
+      }
+    },
+    "TracksDirection"           : 0,
+    "OverrideTrackDurabilities" : 0,
+    "NPCStatsToTrackDurabilities" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBlood",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8840\u91CF",
+            "en" : "AgentBlood",
+            "ja" : "AgentBlood"
+          }
+        },
+        "OutputDurability"   : 32,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    ]
+  },
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 1,
+  "AmbientSounds"          : [
+    {
+      "DontPlayWhenInCombat" : true,
+      "AddedRealRange"       : 0.0,
+      "AddedNodesRange"      : 0,
+      "InternalName"         : "Stag"
+    }
+  ],
+  "AgentStats"             : [
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8FFD\u9010\u5C1D\u8BD5",
+          "en" : "ChaseAtempts",
+          "ja" : "ChaseAtempts"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "ChaseAtempts",
+        "zh"                      : "\u8FFD\u9010\u5C1D\u8BD5",
+        "en"                      : "ChaseAtempts",
+        "ja"                      : "ChaseAtempts"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 3.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BA1\u6B65\u5668",
+          "en" : "Agent Counter",
+          "ja" : "Agent Counter"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCounter",
+        "zh"                      : "\u8BA1\u6B65\u5668",
+        "en"                      : "AgentCounter",
+        "ja"                      : "AgentCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 480.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+          "en" : "Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. ",
+          "ja" : "Agent Respawn Counter - The default values probably do not need to be changed. Reduce Value to 0 by using Agent actions to enable spawning. Reset the value to max value when Agent is killed. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 2880.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentRespawnCounter",
+        "zh"                      : "\u5237\u65B0\u5012\u8BA1\u65F6",
+        "en"                      : "AgentRespawnCounter",
+        "ja"                      : "AgentRespawnCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 11520.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -10.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u540C\u6B65\u8BA1\u6570\u5668",
+          "en" : "AgentCounterSync",
+          "ja" : "AgentCounterSync"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCounterSync",
+        "zh"                      : "\u540C\u6B65\u8BA1\u6570\u5668",
+        "en"                      : "AgentCounterSync",
+        "ja"                      : "AgentCounterSync"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 5.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5B58\u5728",
+          "en" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. ",
+          "ja" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentExists",
+        "zh"                      : "\u5B58\u5728",
+        "en"                      : "AgentExists",
+        "ja"                      : "AgentExists"
+      },
+      "OverrideMinMaxValue" : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : -3520.0
+      },
+      "OverrideRate"        : {
+        "FloatValue" : 1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8840\u91CF",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentBlood",
+        "zh"                      : "\u8840\u91CF",
+        "en"                      : "AgentBlood",
+        "ja"                      : "AgentBlood"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6597\u5FD7",
+          "en" : "Agent Morale",
+          "ja" : "Agent Morale"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentMorale",
+        "zh"                      : "\u6597\u5FD7",
+        "en"                      : "AgentMorale",
+        "ja"                      : "AgentMorale"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 10.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8010\u529B",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentStamina",
+        "zh"                      : "\u8010\u529B",
+        "en"                      : "AgentStamina",
+        "ja"                      : "AgentStamina"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6BD2\u6297",
+          "en" : "Agent Special1",
+          "ja" : "Agent Special1"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentPoisonResistance",
+        "zh"                      : "\u6BD2\u6297",
+        "en"                      : "AgentPoisonResistance",
+        "ja"                      : "AgentPoisonResistance"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 9600.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 96.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 9600.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u7C7B\u578B",
+          "en" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40",
+          "ja" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapType",
+        "zh"                      : "\u9677\u9631\u7C7B\u578B",
+        "en"                      : "AgentTrapType",
+        "ja"                      : "AgentTrapType"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunning",
+        "zh"                      : "\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunning",
+        "ja"                      : "AgentTrapCunning"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 15.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 15.0,
+        "FloatValue" : 15.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningSnare",
+        "zh"                      : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningSnare",
+        "ja"                      : "AgentTrapCunningSnare"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u5751\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningPitTrap",
+        "zh"                      : "\u9677\u5751\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningPitTrap",
+        "ja"                      : "AgentTrapCunningPitTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningLogTrap",
+        "zh"                      : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningLogTrap",
+        "ja"                      : "AgentTrapCunningLogTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningDeadfall",
+        "zh"                      : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningDeadfall",
+        "ja"                      : "AgentTrapCunningDeadfall"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    }
+  ],
+  "AgentActions"           : [
+    {
+      "ActionID" : "Spawn in Lost Woods Spring",
+      "ActionLocalizedName" : {
+        "zh" : "Spawn in Lost Woods Spring",
+        "en" : "Spawn in Lost Woods Spring",
+        "ja" : "Spawn in Lost Woods Spring"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3.0,
+              "y" : 3.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_WhiteStagExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u767D\u9E7F\u5B58\u5728",
+                "en" : "White Stag Exists",
+                "ja" : "White Stag Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 11520.0,
+            "y" : 11520.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 480.0,
+            "y" : 480.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ThicketOak_LostWoods",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u8FF7\u6797\u5E7D\u5F84",
+          "en" : "Lost Woods",
+          "ja" : "\u8FF7\u3044\u306E\u68EE"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Spawn in Lost Woods Winter",
+      "ActionLocalizedName" : {
+        "zh" : "Spawn in Lost Woods Winter",
+        "en" : "Spawn in Lost Woods Winter",
+        "ja" : "Spawn in Lost Woods Winter"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Winter",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u51AC\u5B63",
+                "en" : "Winter Counter",
+                "ja" : "Winter Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3.0,
+              "y" : 3.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_WhiteStagExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u767D\u9E7F\u5B58\u5728",
+                "en" : "White Stag Exists",
+                "ja" : "White Stag Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 11520.0,
+            "y" : 11520.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 480.0,
+            "y" : 480.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ThicketOak_LostWoods",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u8FF7\u6797\u5E7D\u5F84",
+          "en" : "Lost Woods",
+          "ja" : "\u8FF7\u3044\u306E\u68EE"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Spawn in Lost Woods Summer",
+      "ActionLocalizedName" : {
+        "zh" : "Spawn in Lost Woods Summer",
+        "en" : "Spawn in Lost Woods Summer",
+        "ja" : "Spawn in Lost Woods Summer"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Summer",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u590F\u5B63",
+                "en" : "Summer Counter",
+                "ja" : "Summer Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3.0,
+              "y" : 3.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_WhiteStagExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u767D\u9E7F\u5B58\u5728",
+                "en" : "White Stag Exists",
+                "ja" : "White Stag Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 11520.0,
+            "y" : 11520.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 480.0,
+            "y" : 480.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ThicketOak_LostWoods",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u8FF7\u6797\u5E7D\u5F84",
+          "en" : "Lost Woods",
+          "ja" : "\u8FF7\u3044\u306E\u68EE"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Spawn in Lost Woods Autumn",
+      "ActionLocalizedName" : {
+        "zh" : "Spawn in Lost Woods Autumn",
+        "en" : "Spawn in Lost Woods Autumn",
+        "ja" : "Spawn in Lost Woods Autumn"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 3.0,
+              "y" : 3.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "Agent_WhiteStagExists",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 1.0,
+              "name" : {
+                "zh" : "\u767D\u9E7F\u5B58\u5728",
+                "en" : "White Stag Exists",
+                "ja" : "White Stag Exists"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentRespawnCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5237\u65B0\u5012\u8BA1\u65F6",
+              "en" : "AgentRespawnCounter",
+              "ja" : "AgentRespawnCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 11520.0,
+            "y" : 11520.0
+          }
+        },
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 480.0,
+            "y" : 480.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_ThicketOak_LostWoods",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u8FF7\u6797\u5E7D\u5F84",
+          "en" : "Lost Woods",
+          "ja" : "\u8FF7\u3044\u306E\u68EE"
+        }
+      },
+      "MoveTiming"           : 0
+    },
+    {
+      "ActionID" : "Despawn",
+      "ActionLocalizedName" : {
+        "zh" : "Despawn",
+        "en" : "Despawn",
+        "ja" : "Despawn"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "Agent_WhiteStag",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+              "name" : {
+                "zh" : "\u767D\u9E7F",
+                "en" : "White Stag",
+                "ja" : "White Stag"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            }
+          }
+        ]
+      },
+      "MoveToEnvironment"   : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"          : 0
+    }
+  ],
+  "AgentDuties"            : [
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_WhiteStag_MoveToDeerGrove",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "White Stag move to Deer Grove",
+          "en" : "White Stag move to Deer Grove",
+          "ja" : "White Stag move to Deer Grove"
+        }
+      },
+      "ActivatingMode" : 1
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_WhiteStag_MoveToPrimevalWoods",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "White Stag move to Primeval Woods",
+          "en" : "White Stag move to Primeval Woods",
+          "ja" : "White Stag move to Primeval Woods"
+        }
+      },
+      "ActivatingMode" : 1
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_WhiteStag_MoveToMoonHills",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "White Stag move to Moon Hills",
+          "en" : "White Stag move to Moon Hills",
+          "ja" : "White Stag move to Moon Hills"
+        }
+      },
+      "ActivatingMode" : 1
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_WhiteStag_MoveToPineClearing",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "White Stag move to Pine Clearing",
+          "en" : "White Stag move to Pine Clearing",
+          "ja" : "White Stag move to Pine Clearing"
+        }
+      },
+      "ActivatingMode" : 1
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_WhiteStag_MoveToDeerGrove2",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "White Stag move to Deer Grove 2",
+          "en" : "White Stag move to Deer Grove 2",
+          "ja" : "White Stag move to Deer Grove 2"
+        }
+      },
+      "ActivatingMode" : 1
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_WhiteStag_MoveToLostWoods",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "White Stag move to Lost Woods",
+          "en" : "White Stag move to Lost Woods",
+          "ja" : "White Stag move to Lost Woods"
+        }
+      },
+      "ActivatingMode" : 1
+    }
+  ],
+  "MaxCarryWeight"         : 1.0,
+  "CannotTrade"            : true,
+  "DebugColor"             : {
+    "r" : 0.2471,
+    "g" : 0.5943,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "type"                   : "NPCAgent",
+  "key"                    : "Agent_WhiteStag",
+  "icon"                   : "NPCAgent__Agent_WhiteStag__AgentImage",
+  "name"                   : {
+    "zh" : "\u767D\u9E7F",
+    "en" : "White Stag",
+    "ja" : "White Stag"
+  },
+  "_uuid"                  : "75550a930e5db9341b3ee93fff55a87d"
+}

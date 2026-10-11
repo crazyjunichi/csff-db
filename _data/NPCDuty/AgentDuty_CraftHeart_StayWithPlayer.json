@@ -1,0 +1,75 @@
+
+{
+  "DutyName" : {
+    "zh" : "Craft-Heart stays with the player for one hour",
+    "en" : "Craft-Heart stays with the player for one hour",
+    "ja" : "Craft-Heart stays with the player for one hour"
+  },
+  "DutySummary" : {
+    "zh" : "Craft-Heart stays with the player for one hour",
+    "en" : "Craft-Heart stays with the player for one hour",
+    "ja" : "Craft-Heart stays with the player for one hour"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyConditions"    : {
+    "NotInBackground" : true,
+    "PlayerUsesCard"  : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_SpiritWorld",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "SpiritWorld",
+        "en" : "SpiritWorld",
+        "ja" : "SpiritWorld"
+      }
+    },
+    "InvertEnvironmentRequirement" : true,
+    "RequiredNPCStatValues"        : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentCraftHeartFleeMode",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+            "en" : "AgentCraftHeartFleeMode",
+            "ja" : "AgentCraftHeartFleeMode"
+          }
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "CraftHeartWaitOneHour",
+      "type" : "WaitDutyAction",
+      "name" : {
+        "zh" : "CraftHeartWaitOneHour",
+        "en" : "CraftHeartWaitOneHour",
+        "ja" : "CraftHeartWaitOneHour"
+      }
+    },
+    {
+      "key" : "CraftHeartBeginFleeing",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "CraftHeartBeginFleeing",
+        "en" : "CraftHeartBeginFleeing",
+        "ja" : "CraftHeartBeginFleeing"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_CraftHeart_StayWithPlayer",
+  "name"                 : {
+    "zh" : "Craft-Heart stays with the player for one hour",
+    "en" : "Craft-Heart stays with the player for one hour",
+    "ja" : "Craft-Heart stays with the player for one hour"
+  },
+  "_uuid"                : "7546d946a94245e5ac989575588d15e0"
+}

@@ -5,35 +5,36 @@
     "en" : "Escape Aid",
     "ja" : "\u8131\u51FA\u88DC\u52A9"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "VisibleValueRange"     : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"              : {
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__ChasingAid__DefaultStatusIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u9003\u8131\u63F4\u52A9",
@@ -275,27 +276,49 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__ChasingAid__DefaultStatusIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "EscapeAid",
-  "icon"                    : "GameStat__ChasingAid__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "EscapeAid",
+  "icon"                        : "GameStat__ChasingAid__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u9003\u8131\u63F4\u52A9",
     "en" : "Escape Aid",
     "ja" : "\u8131\u51FA\u88DC\u52A9"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
+    {
+      "source" : {
+        "key" : "Event_CraftheartSpiritBlessingGranted",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "Blessing",
+          "en" : "Blessing",
+          "ja" : "Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AContinue",
+        "en" : "Action: Continue",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AContinue"
+      },
+      "value"       : {
+        "x" : 288.0,
+        "y" : 288.0
+      }
+    },
     {
       "source" : {
         "key" : "Event_MouseSpiritBlessingGranted",
@@ -317,9 +340,53 @@
         "x" : 288.0,
         "y" : 288.0
       }
+    },
+    {
+      "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 288.0,
+        "y" : 288.0
+      }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
+    {
+      "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u8131\u9003\u8F85\u52A9\uFF08\u7CBE\u9B44\u9644\u9B54\uFF09",
+        "en" : "Passive Effect: Escape Aid: tag_SpiritEnchantable",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AEscape Aid: tag_SpiritEnchantable"
+      },
+      "value"       : {
+        "x" : 1.2,
+        "y" : 1.2
+      }
+    },
     {
       "source" : {
         "key" : "LQ_SpiritMouse",
@@ -481,5 +548,5 @@
       }
     }
   ],
-  "_uuid"                   : "1c12a4977261dcf4aa5a02d97a21842e"
+  "_uuid"                       : "1c12a4977261dcf4aa5a02d97a21842e"
 }

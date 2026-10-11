@@ -16,49 +16,6 @@
   "Interactions"     : [
     {
       "ButtonName" : {
-        "zh" : "\u63A5\u89E6",
-        "en" : "Approach",
-        "ja" : "\u8FD1\u3065\u304F"
-      },
-      "Conditions" : {
-        "PlayerUsesCard" : 0,
-        "RequiredNPCStatValues" : [
-          {
-            "TargetAgent" : {
-              "key" : "Agent_TraderGeneral",
-              "type" : "NPCAgent",
-              "icon" : "NPCAgent__Agent_TraderGeneral__AgentImage",
-              "name" : {
-                "zh" : "\u5546\u4EBA",
-                "en" : "Trader",
-                "ja" : "\u5546\u4EBA"
-              }
-            },
-            "TargetStat"  : {
-              "key" : "SeenPlayerEver",
-              "type" : "NPCStat",
-              "name" : {
-                "zh" : "\u89C1\u8FC7\u73A9\u5BB6",
-                "en" : "SeenPlayerEver",
-                "ja" : "SeenPlayerEver"
-              }
-            }
-          }
-        ]
-      },
-      "ButtonType" : 0,
-      "Dialog"     : {
-        "key" : "TraderIntroGeneral",
-        "type" : "DialogScene",
-        "firstLine" : {
-          "zh" : "\u90A3\u4E2A\u7537\u4EBA\u89C1\u5230\u4F60\u4F3C\u4E4E\u5F88\u60CA\u8BB6\u3002",
-          "en" : "The man seems surprised to see you.",
-          "ja" : "\u7537\u306F\u3042\u306A\u305F\u306B\u4F1A\u3063\u3066\u9A5A\u3044\u305F\u3088\u3046\u3060\u3002 "
-        }
-      }
-    },
-    {
-      "ButtonName" : {
         "zh" : "\u4EA4\u8C08",
         "en" : "Talk",
         "ja" : "\u8A71\u3059"
@@ -632,6 +589,95 @@
       "OverrideMinMaxValue"   : {
         "MaxValue" : 1.0,
         "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5546\u4EBA\u7EFF\u91CE\u7A7A\u5730\u95EE\u5019\u5B8C\u6210",
+          "en" : "Trader Green Glade greeting completed",
+          "ja" : "Trader Green Glade greeting completed"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTraderGeneralGreenGladeGreetingDone",
+        "zh"                      : "\u5546\u4EBA\u7EFF\u91CE\u7A7A\u5730\u95EE\u5019\u5B8C\u6210",
+        "en"                      : "AgentTraderGeneralGreenGladeGreetingDone",
+        "ja"                      : "AgentTraderGeneralGreenGladeGreetingDone"
+      },
+      "OverrideMinMaxValue" : {
+        "MaxValue" : 672.0,
+        "FloatValue" : 0.0
+      },
+      "OverrideRate"        : {
+        "FloatValue" : -1.0
+      },
+      "OverrideMinMaxRate"  : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BA1\u6B65\u5668",
+          "en" : "Agent Counter",
+          "ja" : "Agent Counter"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCounter",
+        "zh"                      : "\u8BA1\u6B65\u5668",
+        "en"                      : "AgentCounter",
+        "ja"                      : "AgentCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -1.0,
         "Active"     : true
       },
       "StatAddedPercentageToModifiersOverride" : 0,
@@ -3279,6 +3325,38 @@
         }
       },
       "MoveTiming"          : 0
+    }
+  ],
+  "AgentDuties"            : [
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_TraderGeneral_GreetPlayer",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "Trader greets the player",
+          "en" : "Trader greets the player",
+          "ja" : "Trader greets the player"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 2000000000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_TraderGeneral_ResetGreenGladeGreeting",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "Reset trader Green Glade greeting",
+          "en" : "Reset trader Green Glade greeting",
+          "ja" : "Reset trader Green Glade greeting"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1900000000
+      }
     }
   ],
   "MaxCarryWeight"         : 100000.0,

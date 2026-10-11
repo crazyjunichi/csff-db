@@ -5,34 +5,35 @@
     "en" : "Shadow Blessing",
     "ja" : "\u5F71\u306E\u795D\u798F"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 16.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 16.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__AmbushAid__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5F71\u4E4B\u8D50\u798F",
@@ -74,27 +75,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AmbushAid__DefaultStatusIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "ShadowBlessing",
-  "icon"                    : "GameStat__AmbushAid__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "ShadowBlessing",
+  "icon"                        : "GameStat__AmbushAid__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u5F71\u4E4B\u8D50\u798F",
     "en" : "Shadow Blessing",
     "ja" : "\u5F71\u306E\u795D\u798F"
   },
-  "min"                     : 0.0,
-  "max"                     : 16.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 16.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "LQ_SpiritDarkness",
@@ -140,7 +141,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LQ_SpiritFlintclaw",
@@ -164,5 +165,5 @@
       }
     }
   ],
-  "_uuid"                   : "2cd243fb97a13a544a403450684513ee"
+  "_uuid"                       : "2cd243fb97a13a544a403450684513ee"
 }

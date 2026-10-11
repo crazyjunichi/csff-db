@@ -10,30 +10,31 @@
     "en" : "Counter used to fulfill the Intermediate Trapping Objective: : BuildACageAndPutAPartridgeInsideToAttractMoreBirds. Increased when you put a Partridge inside Cage or CagePlaced. ",
     "ja" : "Counter used to fulfill the Intermediate Trapping Objective: : BuildACageAndPutAPartridgeInsideToAttractMoreBirds. Increased when you put a Partridge inside Cage or CagePlaced. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BuildACageAndPutAPartridgeInsideToAttractMoreBirds",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BuildACageAndPutAPartridgeInsideToAttractMoreBirds",
+  "name"                        : {
     "zh" : "\u9020\u7B3C\u5B50\u653E\u9E67\u9E2A\u5F15\u66F4\u591A\u9E1F",
     "en" : "BuildACageAndPutAPartridgeInsideToAttractMoreBirds",
     "ja" : "BuildACageAndPutAPartridgeInsideToAttractMoreBirds"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "ChickenFreeChick",
@@ -211,5 +212,5 @@
       }
     }
   ],
-  "_uuid"                   : "bb9d8ad58d9f8964b8b2952071b684d1"
+  "_uuid"                       : "bb9d8ad58d9f8964b8b2952071b684d1"
 }

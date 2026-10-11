@@ -171,6 +171,28 @@
     "_valueModifications"   : [
       {
         "source" : {
+          "key" : "LQ_SpiritCraftHeart",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name"     : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+            "en" : "Craft-Heart Spirit",
+            "ja" : "Craft-Heart Spirit"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1ABless",
+          "en" : "Action: Bless",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABless"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
           "key" : "LQ_SpiritFox",
           "type" : "CardData",
           "CardType" : 9,
@@ -313,6 +335,149 @@
       "ReceivingCardChanges"    : {
         "ModType" : 3,
         "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Craft-Heart triggers trap",
+        "en" : "Craft-Heart triggers trap",
+        "ja" : "Craft-Heart triggers trap"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "CompatibleNPCDuties"     : [
+        {
+          "Target" : {
+            "key" : "AgentDuty_CraftHeart_TriggerTraps",
+            "type" : "NPCDuty",
+            "name" : {
+              "zh" : "Craft-Heart triggers traps",
+              "en" : "Craft-Heart triggers traps",
+              "ja" : "Craft-Heart triggers traps"
+            }
+          }
+        }
+      ],
+      "ActionTags"              : [
+        {
+          "key" : "HandAction",
+          "type" : "ActionTag",
+          "name" : {
+            "zh" : "\u624B\u90E8\u52A8\u4F5C",
+            "en" : "HandAction",
+            "ja" : "HandAction"
+          }
+        }
+      ],
+      "RequiredNPCStatValues"   : [
+        {
+          "UseAssociatedAgent" : true,
+          "TargetStat"         : {
+            "key" : "AgentCraftHeartFleeMode",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+              "en" : "AgentCraftHeartFleeMode",
+              "ja" : "AgentCraftHeartFleeMode"
+            }
+          },
+          "ConditionRange"     : {
+            "x" : 0.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "HideIfConditionsNotMet"  : true,
+      "NotBaseAction"           : true,
+      "LocksCardsForUse"        : true,
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "Trickster fluff",
+          "CollectionWeight" : 1,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "TricksterFluff",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__TricksterFluff__CardImage",
+                "name"     : {
+                  "zh" : "\u8BE1\u672F\u7ED2\u6BDB",
+                  "en" : "Trickster Fluff",
+                  "ja" : "Trickster Fluff"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "StatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "Skill_Trapping",
+                      "type" : "GameStat",
+                      "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+                      "min"  : 0.0,
+                      "max"  : 150.0,
+                      "name" : {
+                        "zh" : "\u9677\u9631",
+                        "en" : "Trapping",
+                        "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+                      }
+                    },
+                    "Value"     : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 0.0,
+                        "y" : 150.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 0.0,
+                        "y" : 60.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory" : true
+        }
+      ],
+      "ReceivingCardChanges"    : {
+        "ModType" : 2,
+        "TransformInto" : {
+          "key" : "PitTrapTriggered",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__PitTrapTriggered__CardImage",
+          "name"     : {
+            "zh" : "\u9677\u5751",
+            "en" : "Pit Trap",
+            "ja" : "\u843D\u3068\u3057\u7A74"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "TransferSpoilage"          : true,
+        "TransferUsage"             : true,
+        "TransferFuel"              : true,
+        "TransferCharges"           : true,
+        "TransferSpecial1"          : true,
+        "TransferSpecial2"          : true,
+        "TransferSpecial3"          : true,
+        "TransferSpecial4"          : true,
+        "TransferInventory"         : true,
         "LiquidEffectScaling"       : 0
       },
       "RoomDirection"           : 0,
@@ -1030,6 +1195,24 @@
   "_useFor"                           : [
     {
       "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABless",
+        "en" : "Action: Bless",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABless"
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritFox",
         "type" : "CardData",
         "CardType" : 9,
@@ -1100,6 +1283,42 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u62C6\u9664\u9677\u9631",
         "en" : "Action: Disassemble trap",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7F60\u3092\u89E3\u4F53\u3059\u308B"
+      }
+    },
+    {
+      "source" : {
+        "key" : "TricksterFluff",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__TricksterFluff__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u7ED2\u6BDB",
+          "en" : "Trickster Fluff",
+          "ja" : "Trickster Fluff"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      }
+    },
+    {
+      "source" : {
+        "key" : "PitTrapTriggered",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__PitTrapTriggered__CardImage",
+        "name"     : {
+          "zh" : "\u9677\u5751",
+          "en" : "Pit Trap",
+          "ja" : "\u843D\u3068\u3057\u7A74"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
       }
     },
     {

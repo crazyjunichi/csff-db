@@ -1,0 +1,41 @@
+
+{
+  "MovementType" : 0,
+  "MoveDestination" : 0,
+  "DestinationSelection" : 2,
+  "MoveToEnvironments"   : [
+    {
+      "key" : "Env_ClearingPine_PineClearing",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u677E\u6811\u6797\u9699",
+        "en" : "Pine Clearing",
+        "ja" : "\u677E\u306E\u5E73\u5730"
+      }
+    }
+  ],
+  "MoveToTags"           : [
+    {
+      "key" : "tag_Env_ShelterArea",
+      "type" : "CardTag",
+      "count" : 4,
+      "name"  : {
+        "zh" : "\u907F\u96BE\u533A",
+        "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+        "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+      }
+    }
+  ],
+  "IgnoreCurrentLocation" : true,
+  "LeaveTracks"           : true,
+  "CostRequirements"      : 2,
+  "key"                   : "WhiteStagMoveToPineClearing",
+  "type"                  : "NPCDutyAction",
+  "name"                  : {
+    "zh" : "WhiteStagMoveToPineClearing",
+    "en" : "WhiteStagMoveToPineClearing",
+    "ja" : "WhiteStagMoveToPineClearing"
+  },
+  "actionType"            : "MoveDutyAction"
+}

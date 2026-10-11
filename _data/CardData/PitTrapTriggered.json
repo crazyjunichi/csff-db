@@ -171,6 +171,28 @@
     "_valueModifications"   : [
       {
         "source" : {
+          "key" : "LQ_SpiritCraftHeart",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name"     : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+            "en" : "Craft-Heart Spirit",
+            "ja" : "Craft-Heart Spirit"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1ABless",
+          "en" : "Action: Bless",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABless"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
           "key" : "LQ_SpiritFox",
           "type" : "CardData",
           "CardType" : 9,
@@ -651,6 +673,24 @@
         }
       },
       "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      }
+    },
+    {
+      "source" : {
+        "key" : "PitTrap",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_PitTrap__CardImage",
+        "name"     : {
+          "zh" : "\u9677\u5751",
+          "en" : "Pit Trap",
+          "ja" : "\u843D\u3068\u3057\u7A74"
+        }
+      },
+      "description" : {
         "zh" : "\u52A8\u4F5C\uFF1A\u8BF1\u6355\u7B3C",
         "en" : "Action: Trap",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7F60"
@@ -658,6 +698,24 @@
     }
   ],
   "_useFor"                         : [
+    {
+      "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABless",
+        "en" : "Action: Bless",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABless"
+      }
+    },
     {
       "source" : {
         "key" : "LQ_SpiritFox",

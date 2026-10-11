@@ -1,0 +1,75 @@
+
+{
+  "DutyName" : {
+    "zh" : "White Stag move to Primeval Woods",
+    "en" : "White Stag move to Primeval Woods",
+    "ja" : "White Stag move to Primeval Woods"
+  },
+  "MaxPerformPerDay" : 0,
+  "DutyConditions"   : {
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "TargetAgent" : {
+          "key" : "Agent_WhiteStag",
+          "type" : "NPCAgent",
+          "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+          "name" : {
+            "zh" : "\u767D\u9E7F",
+            "en" : "White Stag",
+            "ja" : "White Stag"
+          }
+        },
+        "TargetStat"  : {
+          "key" : "AgentCounterSync",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u540C\u6B65\u8BA1\u6570\u5668",
+            "en" : "AgentCounterSync",
+            "ja" : "AgentCounterSync"
+          }
+        },
+        "ConditionRange" : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "RememberWhenInterrupted"          : {
+    "IntValue" : 0,
+    "Active"   : true
+  },
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "WhiteStagMoveToPrimevalWoods",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "WhiteStagMoveToPrimevalWoods",
+        "en" : "WhiteStagMoveToPrimevalWoods",
+        "ja" : "WhiteStagMoveToPrimevalWoods"
+      }
+    },
+    {
+      "key" : "WhiteStagSetupNextMoveStep",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "WhiteStagSetupNextMoveStep",
+        "en" : "WhiteStagSetupNextMoveStep",
+        "ja" : "WhiteStagSetupNextMoveStep"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_WhiteStag_MoveToPrimevalWoods",
+  "name"                             : {
+    "zh" : "White Stag move to Primeval Woods",
+    "en" : "White Stag move to Primeval Woods",
+    "ja" : "White Stag move to Primeval Woods"
+  },
+  "_uuid"                            : "a74ea41e4730ad84984165d8ebcc99b5"
+}

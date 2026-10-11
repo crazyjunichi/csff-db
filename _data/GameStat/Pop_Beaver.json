@@ -5,15 +5,16 @@
     "en" : "Population Beaver",
     "ja" : "Population Beaver"
   },
-  "BaseValue" : 10000.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 10000.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 10000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u5BC6\u5EA6",
@@ -159,27 +160,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u592A\u9ED1\u4E86\u6211\u505A\u4E0D\u5230\u2026\u2026",
     "en" : "It's to dark for this action...",
     "ja" : "It's to dark for this action..."
   },
-  "type"                    : "GameStat",
-  "key"                     : "Pop_Beaver",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Pop_Beaver",
+  "name"                        : {
     "zh" : "\u6CB3\u72F8\u79CD\u7FA4\u6570\u91CF",
     "en" : "Population Beaver",
     "ja" : "Population Beaver"
   },
-  "min"                     : 0.0,
-  "max"                     : 10000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 10000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Agent_Beaver",
@@ -223,7 +224,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Pop_Beaver",
@@ -313,5 +314,5 @@
       }
     }
   ],
-  "_uuid"                   : "6eb26986da84bfb42bc347a506d94256"
+  "_uuid"                       : "6eb26986da84bfb42bc347a506d94256"
 }

@@ -6,12 +6,12 @@
     "ja" : "Bee Skep"
   },
   "CardDescription" : {
-    "zh" : "An empty artificial beehive.  It needs a queen, some drones and a honeycomb to work.",
-    "en" : "An empty artificial beehive.  It needs a queen, some drones and a honeycomb to work.",
-    "ja" : "An empty artificial beehive.  It needs a queen, some drones and a honeycomb to work."
+    "zh" : "An empty artificial beehive.  It needs a queen, some bees and a honeycomb to work.",
+    "en" : "An empty artificial beehive.  It needs a queen, some bees and a honeycomb to work.",
+    "ja" : "An empty artificial beehive.  It needs a queen, some bees and a honeycomb to work."
   },
   "CardImage"       : {
-    "FileName" : "CardData__BeeSkepEmpty__CardImage"
+    "FileName" : "CardData__BeeSkep__CardImage"
   },
   "CardType"        : 0,
   "ObjectWeight"    : 500.0,
@@ -23,11 +23,6 @@
   "CanBeTrashed"                : true,
   "DoesNotPile"                 : true,
   "SpoilageTime"                : {
-    "CardStatName" : {
-      "zh" : "Torpor",
-      "en" : "Torpor",
-      "ja" : "Torpor"
-    },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 6.0,
     "RatePerDaytimePoint"  : -1.0,
@@ -44,11 +39,6 @@
     "durabilityKey"         : "SpoilageTime"
   },
   "UsageDurability"             : {
-    "CardStatName" : {
-      "zh" : "Population",
-      "en" : "Population",
-      "ja" : "Population"
-    },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 1344.0,
     "RatePerDaytimePoint"  : 1.0,
@@ -63,20 +53,14 @@
     "HasActionOnFull"       : true,
     "OnFullNotification"    : 1,
     "OnFull"                : {
-      "ActionDescription" : {
-        "zh" : "The Skep is swarming!",
-        "en" : "The Skep is swarming!",
-        "ja" : "The Skep is swarming!"
-      },
-      "DaytimeCost"       : 0,
-      "UseMiniTicks"      : 0,
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
       "ReceivingCardChanges" : {
         "ModType" : 2,
         "TransformInto" : {
-          "key" : "BeeSkepSwarming",
+          "key" : "NOT_USED_BeeSkepSwarming",
           "type" : "CardData",
           "CardType" : 2,
-          "icon"     : "CardData__BeeSkepSwarming__CardImage",
           "name"     : {
             "zh" : "Swarming Bee Skep",
             "en" : "Swarming Bee Skep",
@@ -98,11 +82,6 @@
     "durabilityKey"         : "UsageDurability"
   },
   "FuelCapacity"                : {
-    "CardStatName" : {
-      "zh" : "Food Reserves",
-      "en" : "Food Reserves",
-      "ja" : "Food Reserves"
-    },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 192.0,
     "RatePerDaytimePoint"  : -1.0,
@@ -119,11 +98,6 @@
     "durabilityKey"         : "FuelCapacity"
   },
   "Progress"                    : {
-    "CardStatName" : {
-      "zh" : "Honey",
-      "en" : "Honey",
-      "ja" : "Honey"
-    },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 1000.0,
     "RatePerDaytimePoint"  : 0.1,
@@ -131,9 +105,6 @@
     "HidingOptions"         : 0,
     "TextDisplay"           : 0,
     "NumberPrecision"       : 0,
-    "OverrideIcon"          : {
-      "FileName" : "CardData__BeeHoneycomb__CardImage"
-    },
     "OnZeroNotification"    : 0,
     "OnFullNotification"    : 0,
     "FloatValue"            : 0.0,
@@ -222,13 +193,31 @@
   "EnemyAddedStealth"               : 0.0,
   "type"                            : "CardData",
   "key"                             : "BeeSkepEmpty",
-  "icon"                            : "CardData__BeeSkepEmpty__CardImage",
+  "icon"                            : "CardData__BeeSkep__CardImage",
   "name"                            : {
     "zh" : "Bee Skep",
     "en" : "Bee Skep",
     "ja" : "Bee Skep"
   },
   "_gotFrom"                        : [
+    {
+      "source" : {
+        "key" : "Bp_BeeSkepEmpty",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Empty Skep",
+          "en" : "Empty Skep",
+          "ja" : "Empty Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
     {
       "source" : {
         "key" : "BeeSkep",
@@ -245,6 +234,64 @@
         "zh" : "Population \u964D\u4E3A\u96F6",
         "en" : "Population Depleted",
         "ja" : "Population \u30BC\u30ED"
+      }
+    }
+  ],
+  "_useFor"                         : [
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      }
+    }
+  ],
+  "_transformTo"                    : [
+    {
+      "source" : {
+        "key" : "Bp_BeeSkep",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Bee Skep",
+          "en" : "Bee Skep",
+          "ja" : "Bee Skep"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
       }
     }
   ],

@@ -10,41 +10,42 @@
     "en" : "Increases the quality of your leather crafts, such as clothes and bags.",
     "ja" : "\u670D\u3084\u30AB\u30D0\u30F3\u306A\u3069\u3001\u9769\u3067\u4F5C\u3063\u305F\u7269\u306E\u30AF\u30AA\u30EA\u30C6\u30A3\u304C\u9AD8\u304F\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_LeatherTunic__CardImage"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Leatherworking",
-  "icon"                    : "CardData__Bp_LeatherTunic__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Leatherworking",
+  "icon"                        : "CardData__Bp_LeatherTunic__CardImage",
+  "name"                        : {
     "zh" : "\u5236\u9769",
     "en" : "Leatherworking",
     "ja" : "\u9769\u52A0\u5DE5\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_BearCoat",
@@ -930,7 +931,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -1278,7 +1279,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_TanningPit",
@@ -1742,5 +1743,5 @@
       }
     }
   ],
-  "_uuid"                   : "6e10690af4575114681e3eb11163671e"
+  "_uuid"                       : "6e10690af4575114681e3eb11163671e"
 }

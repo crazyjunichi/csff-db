@@ -10,30 +10,31 @@
     "en" : "Caused by interacting with bees, they can cause nausea and headaches when in high numbers.",
     "ja" : "Caused by interacting with bees, they can cause nausea and headaches when in high numbers."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 192.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
-    "FileName" : "GameStat__BeeProtection__DefaultStatusIcon"
+  "DefaultStatusIcon"           : {
+    "FileName" : "GameStat__BeeStings__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Bee Stings",
@@ -323,29 +324,29 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BeeStings",
-  "icon"                    : "GameStat__BeeProtection__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BeeStings",
+  "icon"                        : "GameStat__BeeStings__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u8702\u86F0",
     "en" : "Bee Stings",
     "ja" : "Bee Stings"
   },
-  "min"                     : 0.0,
-  "max"                     : 192.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 192.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Beehive",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__Beehive__CardImage",
+        "icon"     : "NPCAgent__Agent_Bee1__AgentImage",
         "name"     : {
           "zh" : "Beehive",
           "en" : "Beehive",
@@ -367,7 +368,7 @@
         "key" : "Beehive",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__Beehive__CardImage",
+        "icon"     : "NPCAgent__Agent_Bee1__AgentImage",
         "name"     : {
           "zh" : "Beehive",
           "en" : "Beehive",
@@ -416,50 +417,6 @@
           "zh" : "Bee Skep",
           "en" : "Bee Skep",
           "ja" : "Bee Skep"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1AHarvest",
-        "en" : "Action: Harvest",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHarvest"
-      },
-      "value"       : {
-        "x" : 2.0,
-        "y" : 8.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeSkepSwarming",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__BeeSkepSwarming__CardImage",
-        "name"     : {
-          "zh" : "Swarming Bee Skep",
-          "en" : "Swarming Bee Skep",
-          "ja" : "Swarming Bee Skep"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1AHarvest",
-        "en" : "Action: Harvest",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHarvest"
-      },
-      "value"       : {
-        "x" : 4.0,
-        "y" : 16.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeSkepSwarming",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__BeeSkepSwarming__CardImage",
-        "name"     : {
-          "zh" : "Swarming Bee Skep",
-          "en" : "Swarming Bee Skep",
-          "ja" : "Swarming Bee Skep"
         }
       },
       "description" : {
@@ -477,7 +434,7 @@
         "key" : "Event_BeesSwarming",
         "type" : "CardData",
         "CardType" : 3,
-        "icon"     : "CardData__Event_BeesSwarming__CardImage",
+        "icon"     : "CardData__Bees__CardImage",
         "name"     : {
           "zh" : "A Bee Swarm!",
           "en" : "A Bee Swarm!",
@@ -499,7 +456,7 @@
         "key" : "Event_BeesSwarming",
         "type" : "CardData",
         "CardType" : 3,
-        "icon"     : "CardData__Event_BeesSwarming__CardImage",
+        "icon"     : "CardData__Bees__CardImage",
         "name"     : {
           "zh" : "A Bee Swarm!",
           "en" : "A Bee Swarm!",
@@ -521,7 +478,7 @@
         "key" : "Event_BeesSwarming",
         "type" : "CardData",
         "CardType" : 3,
-        "icon"     : "CardData__Event_BeesSwarming__CardImage",
+        "icon"     : "CardData__Bees__CardImage",
         "name"     : {
           "zh" : "A Bee Swarm!",
           "en" : "A Bee Swarm!",
@@ -539,5 +496,5 @@
       }
     }
   ],
-  "_uuid"                   : "a814865c042979744956a3f659a9652d"
+  "_uuid"                       : "a814865c042979744956a3f659a9652d"
 }

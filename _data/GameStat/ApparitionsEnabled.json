@@ -10,30 +10,31 @@
     "en" : "Used to turn on Apparations, once per season. ",
     "ja" : "Used to turn on Apparations, once per season. "
   },
-  "BaseValue"   : 1.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 1.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "ApparitionsEnabled",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "ApparitionsEnabled",
+  "name"                        : {
     "zh" : "\u5E7B\u5F71\u542F\u7528",
     "en" : "ApparitionsEnabled",
     "ja" : "ApparitionsEnabled"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_MoonMaidenApparitions",
@@ -137,7 +138,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "SpiritShrine_Moon_MoonStone",
@@ -177,7 +178,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_Apparitions",
@@ -279,5 +280,5 @@
       }
     }
   ],
-  "_uuid"                   : "a65ae53513386484eb168dc0d43b214a"
+  "_uuid"                       : "a65ae53513386484eb168dc0d43b214a"
 }

@@ -5,30 +5,31 @@
     "en" : "FlintclawSpiritEncountered",
     "ja" : "FlintclawSpiritEncountered"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_FlintclawSpiritEncountered",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_FlintclawSpiritEncountered",
+  "name"                        : {
     "zh" : "\u71E7\u77F3\u722A\u7075\u906D\u9047",
     "en" : "FlintclawSpiritEncountered",
     "ja" : "FlintclawSpiritEncountered"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_FlintclawSpiritAppeared",
@@ -74,7 +75,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_FlintclawSpiritEncounteredInsightBonus",
@@ -96,5 +97,5 @@
       }
     }
   ],
-  "_uuid"                   : "992283a06b789d04b8aa99bd2368b10a"
+  "_uuid"                       : "992283a06b789d04b8aa99bd2368b10a"
 }

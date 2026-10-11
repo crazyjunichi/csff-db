@@ -1,0 +1,41 @@
+
+{
+  "MovementType" : 0,
+  "MoveDestination" : 0,
+  "DestinationSelection" : 2,
+  "MoveToEnvironments"   : [
+    {
+      "key" : "Env_GrovePine_DeerGrove",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u9E7F\u9E23\u677E\u6797",
+        "en" : "Deer Grove",
+        "ja" : "\u9E7F\u306E\u6797"
+      }
+    }
+  ],
+  "MoveToTags"           : [
+    {
+      "key" : "tag_Env_ShelterArea",
+      "type" : "CardTag",
+      "count" : 4,
+      "name"  : {
+        "zh" : "\u907F\u96BE\u533A",
+        "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+        "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+      }
+    }
+  ],
+  "IgnoreCurrentLocation" : true,
+  "LeaveTracks"           : true,
+  "CostRequirements"      : 2,
+  "key"                   : "WhiteStagMoveToDeerGrove",
+  "type"                  : "NPCDutyAction",
+  "name"                  : {
+    "zh" : "WhiteStagMoveToDeerGrove",
+    "en" : "WhiteStagMoveToDeerGrove",
+    "ja" : "WhiteStagMoveToDeerGrove"
+  },
+  "actionType"            : "MoveDutyAction"
+}

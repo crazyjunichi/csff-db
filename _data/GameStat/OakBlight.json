@@ -5,30 +5,31 @@
     "en" : "Oak Blight",
     "ja" : "Oak Blight"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 2880.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "OakBlight",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "OakBlight",
+  "name"                        : {
     "zh" : "\u6A61\u6811\u67AF\u840E",
     "en" : "Oak Blight",
     "ja" : "Oak Blight"
   },
-  "min"                     : 0.0,
-  "max"                     : 2880.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 2880.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_Appeasement",
@@ -117,7 +118,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "SwampWaterLevel",
@@ -142,7 +143,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "AcornsPoisonRaw",
@@ -166,5 +167,5 @@
       }
     }
   ],
-  "_uuid"                   : "5b509c1bd821bb34991f2943e5ac937f"
+  "_uuid"                       : "5b509c1bd821bb34991f2943e5ac937f"
 }

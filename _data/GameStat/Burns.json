@@ -10,30 +10,31 @@
     "en" : "Caused by over-exposure to the sun or by coming in contact with fire.",
     "ja" : "\u9577\u6642\u9593\u65E5\u306B\u5F53\u305F\u308B\u304B\u706B\u306B\u89E6\u308C\u3066\u3057\u307E\u3046\u3068\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1500.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.7412,
     "g" : 0.102,
     "b" : 0.0392,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5FAE\u70E7\u4F24",
@@ -489,27 +490,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Burns",
-  "icon"                    : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Burns",
+  "icon"                        : "CardData__AcornFlatbread__SpecialDurability1-OverrideIcon",
+  "name"                        : {
     "zh" : "\u70E7\u4F24",
     "en" : "Burns",
     "ja" : "\u706B\u50B7"
   },
-  "min"                     : 0.0,
-  "max"                     : 1500.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 1500.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BrimstoneGelProtection",
@@ -649,5 +650,5 @@
       }
     }
   ],
-  "_uuid"                   : "790683ee1f7ce42479fd30360f5ce41f"
+  "_uuid"                       : "790683ee1f7ce42479fd30360f5ce41f"
 }

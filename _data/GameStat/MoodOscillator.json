@@ -5,15 +5,16 @@
     "en" : "Mood Oscillator",
     "ja" : "N/A"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 576.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "Statuses"                    : [
     {
       "ValueRange" : {
         "m_X" : 0,
@@ -144,22 +145,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "MoodOscillator",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MoodOscillator",
+  "name"                        : {
     "zh" : "\u60C5\u7EEA\u949F\u6446",
     "en" : "Mood Oscillator",
     "ja" : "N/A"
   },
-  "min"                     : 0.0,
-  "max"                     : 576.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 576.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "FirstMonthCounter",
@@ -249,5 +250,5 @@
       }
     }
   ],
-  "_uuid"                   : "8bf6fe75e68529b4c853256427d99d67"
+  "_uuid"                       : "8bf6fe75e68529b4c853256427d99d67"
 }

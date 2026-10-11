@@ -10,6 +10,21 @@
     "en" : "Found in oak clearings and near rivers during spring and autumn. Needs medium to low acidity, medium to high hydration and medium to high structure. Produces the most yield on high nutrients during summer. \n\nAn edible root with versatile culinary uses.",
     "ja" : "\u6625\u3068\u79CB\u3001\u30AA\u30FC\u30AF\u6797\u306E\u958B\u3051\u305F\u5834\u6240\u3084\u5DDD\u8FBA\u3067\u898B\u3089\u308C\u308B\u3002\u9178\u6027\u5EA6\u306F\u4E2D\uFF5E\u4F4E\u3001\u6C34\u5206\u306F\u4E2D\uFF5E\u9AD8\u3001\u571F\u58CC\u69CB\u9020\u3082\u4E2D\uFF5E\u9AD8\u304C\u5FC5\u8981\u3002\u590F\u306B\u306F\u6804\u990A\u5206\u306E\u591A\u3044\u571F\u58CC\u3067\u6700\u5927\u306E\u53CE\u91CF\u3092\u751F\u3080\u3002\n\n\u6599\u7406\u306B\u5E45\u5E83\u304F\u4F7F\u3048\u308B\u98DF\u7528\u306E\u6839\u83DC\u3002"
   },
+  "AlternateNames"  : [
+    {
+      "Conditions" : {
+        "Special1Range" : {
+          "x" : 1.0,
+          "y" : 5760.0
+        }
+      },
+      "Name"       : {
+        "zh" : "Blooming Turnroot Field",
+        "en" : "Blooming Turnroot Field",
+        "ja" : "Blooming Turnroot Field"
+      }
+    }
+  ],
   "CardHelpSection" : {
     "zh" : "<b>\u4EA7\u5730\uFF1A</b>\u6A61\u6728\u6797\u9699\u3001\u6CB3\u8FB9\uFF0C\u5C24\u5176\u662F\u6625\u79CB\u4E24\u5B63\u3002\n\n<b>\u9700\u6C42\uFF1A</b>\u4F4E\u5230\u4E2D\u7B49\u9178\u5EA6\u3001\u4E2D\u9AD8\u6E7F\u5EA6\u548C\u4E2D\u9AD8\u517B\u5206\u3002\u590F\u5B63\u9AD8\u517B\u5206\u4E0B\u4EA7\u91CF\u6700\u9AD8\u3002\n\n<b>\u6548\u679C\uFF1A</b>\u4E3B\u98DF\uFF0C\u7EF4\u751F\u7D20\u6765\u6E90\u3002",
     "en" : "<b>Found:</b> Oak clearings and rivers, especially during spring and autumn.\n\n<b>Growth Needs:</b> Low to Mid Acidity, Mid to High Hydration and Mid to High Structure. Produces the most yield on High Nutrients during Summer. \n\n<b>Benefits:</b> Staple Food, Vitamin Source.",
@@ -61,6 +76,16 @@
         "zh" : "\u91CE\u5154\u98DF\u7269\u519C\u7530",
         "en" : "Deer Food Crop Field",
         "ja" : "Deer Food Crop Field"
+      }
+    },
+    {
+      "key" : "tag_HasFlowersForBees",
+      "type" : "CardTag",
+      "count" : 8,
+      "name"  : {
+        "zh" : "\u6709\u82B1\u4F9B\u871C\u8702",
+        "en" : "Temper",
+        "ja" : "Temper"
       }
     }
   ],
@@ -731,49 +756,28 @@
   },
   "LiquidEvaporationRate"       : 0.0,
   "SpecialDurability1"          : {
+    "CardStatName" : {
+      "zh" : "Flowers",
+      "en" : "Flowers",
+      "ja" : "Flowers"
+    },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 5760.0,
     "RatePerDaytimePoint"  : 0.0,
     "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 0,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "OverrideIcon"          : {
-      "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
+    "PauseRateWhenEnvWeightIsFull" : true,
+    "HidingOptions"                : 0,
+    "TextDisplay"                  : 0,
+    "NumberPrecision"              : 0,
+    "OverrideIcon"                 : {
+      "FileName" : "CardData__AppleweedPlantedGrowing__Progress-OverrideIcon"
     },
-    "HasActionOnZero"       : true,
-    "OnZeroNotification"    : 0,
-    "OnZero"                : {
-      "DaytimeCost" : 0,
-      "UseMiniTicks" : 0,
-      "ReceivingCardChanges" : {
-        "ModType" : 2,
-        "TransformInto" : {
-          "key" : "FallowField",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__BlessedGroveInvisible__CardImage",
-          "name"     : {
-            "zh" : "\u4F11\u8015\u5730",
-            "en" : "Fallow Field",
-            "ja" : "\u4F11\u9591\u5730"
-          }
-        },
-        "TransformToLiquidQuantity" : 0.0,
-        "TransferSpoilage"          : true,
-        "TransferUsage"             : true,
-        "TransferFuel"              : true,
-        "TransferCharges"           : true,
-        "LiquidEffectScaling"       : 0
-      },
-      "FadeToBlack"          : 0,
-      "RoomDirection"        : 0,
-      "ExitDirection"        : 0
-    },
-    "OnFullNotification"    : 0,
-    "FloatValue"            : 5760.0,
-    "durabilityKey"         : "SpecialDurability1",
-    "_valueModifications"   : [
+    "OnZeroNotification"           : 0,
+    "OnFullNotification"           : 0,
+    "FloatValue"                   : 0.0,
+    "Active"                       : true,
+    "durabilityKey"                : "SpecialDurability1",
+    "_valueModifications"          : [
       {
         "source" : {
           "key" : "TurnrootFieldMature",
@@ -794,6 +798,74 @@
         "value"       : {
           "x" : 1440.0,
           "y" : 1440.0
+        }
+      }
+    ],
+    "_rateModifications"           : [
+      {
+        "source" : {
+          "key" : "TurnrootFieldMature",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BlessedGroveInvisible__CardImage",
+          "name"     : {
+            "zh" : "\u6210\u719F\u7684\u7FFB\u6839\u7530",
+            "en" : "Mature Turnroot Field",
+            "ja" : "\u6210\u9577\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8\u7551"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AGrows Flowers in Spring",
+          "en" : "Passive Effect\uFF1AGrows Flowers in Spring",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Flowers in Spring"
+        },
+        "value"       : {
+          "x" : 3.0,
+          "y" : 3.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "TurnrootFieldMature",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BlessedGroveInvisible__CardImage",
+          "name"     : {
+            "zh" : "\u6210\u719F\u7684\u7FFB\u6839\u7530",
+            "en" : "Mature Turnroot Field",
+            "ja" : "\u6210\u9577\u3057\u305F\u30BF\u30FC\u30F3\u30EB\u30FC\u30C8\u7551"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AFlowers go away in Summer",
+          "en" : "Passive Effect\uFF1AFlowers go away in Summer",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlowers go away in Summer"
+        },
+        "value"       : {
+          "x" : -12.0,
+          "y" : -12.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "BeeSkep",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BeeSkep__CardImage",
+          "name"     : {
+            "zh" : "Bee Skep",
+            "en" : "Bee Skep",
+            "ja" : "Bee Skep"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
         }
       }
     ]
@@ -2853,6 +2925,136 @@
   ],
   "PassiveEffects"              : [
     {
+      "EffectName" : "Grows Flowers in Spring",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Spring",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u6625\u5B63",
+                "en" : "Spring Counter",
+                "ja" : "Spring Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "OnBoardEffectCap" : 0,
+      "Special1RateModifier" : {
+        "FloatValue" : 3.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier"   : 0.0,
+      "GeneratedLiquid"      : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Grows Flowers in Spring",
+        "en" : "Grows Flowers in Spring",
+        "ja" : "Grows Flowers in Spring"
+      }
+    },
+    {
+      "EffectName" : "Flowers go away in Summer",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Summer",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u590F\u5B63",
+                "en" : "Summer Counter",
+                "ja" : "Summer Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "OnBoardEffectCap" : 0,
+      "Special1RateModifier" : {
+        "FloatValue" : -12.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier"   : 0.0,
+      "GeneratedLiquid"      : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Flowers go away in Summer",
+        "en" : "Flowers go away in Summer",
+        "ja" : "Flowers go away in Summer"
+      }
+    },
+    {
       "EffectName" : "Cared for (HP +0.05 )",
       "Conditions" : {
         "PlayerUsesCard" : 0,
@@ -3340,7 +3542,7 @@
           {
             "key" : "tag_Inlands_Deciduous_ModerateAcidity",
             "type" : "CardTag",
-            "count" : 31,
+            "count" : 33,
             "name"  : {
               "zh" : "\u4E2D\u7B49\u9178\u5EA6",
               "en" : "Moderate Acidity",
@@ -3379,7 +3581,7 @@
           {
             "key" : "tag_Inlands_Deciduous_ModerateAcidity",
             "type" : "CardTag",
-            "count" : 31,
+            "count" : 33,
             "name"  : {
               "zh" : "\u4E2D\u7B49\u9178\u5EA6",
               "en" : "Moderate Acidity",

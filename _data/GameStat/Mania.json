@@ -10,30 +10,31 @@
     "en" : "Makes you happy and brave but also alters your mind state.",
     "ja" : "\u5E78\u305B\u306B\u306A\u3063\u3066\u3001\u52C7\u6C17\u3092\u4E0E\u3048\u3066\u304F\u308C\u308B\u304C\u7CBE\u795E\u72B6\u614B\u304C\u5909\u5316\u3059\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : -1.25,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.25,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5EA6\u72C2\u70ED",
@@ -341,11 +342,11 @@
       "ConfidenceModifier"     : 0.5
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon"
     },
@@ -354,17 +355,17 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Mania",
-  "icon"                    : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Mania",
+  "icon"                        : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
+  "name"                        : {
     "zh" : "\u72C2\u8E81",
     "en" : "Mania",
     "ja" : "\u30BD\u30A6\u72B6\u614B"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_GodExperience1g",
@@ -410,7 +411,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "MentalStructure",
@@ -525,5 +526,5 @@
       }
     }
   ],
-  "_uuid"                   : "f751dec5f8794f341b1e073037211a6a"
+  "_uuid"                       : "f751dec5f8794f341b1e073037211a6a"
 }

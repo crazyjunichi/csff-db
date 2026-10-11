@@ -5,35 +5,36 @@
     "en" : "Acorns Foraging Aid",
     "ja" : "\u30C9\u30F3\u30B0\u30EA\u63A1\u96C6\u88DC\u52A9"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "VisibleValueRange"     : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"              : {
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__AcornsForagingAid__DefaultStatusIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6A61\u5B50\u89C5\u98DF\u63F4\u52A9",
@@ -275,27 +276,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__AcornsBlackEdibleRaw__CardImage"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "AcornsForagingAid",
-  "icon"                    : "GameStat__AcornsForagingAid__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "AcornsForagingAid",
+  "icon"                        : "GameStat__AcornsForagingAid__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6A61\u5B50\u89C5\u98DF\u63F4\u52A9",
     "en" : "Acorns Foraging Aid",
     "ja" : "\u30C9\u30F3\u30B0\u30EA\u63A1\u96C6\u88DC\u52A9"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_SquirrelSpiritBlessingGranted",
@@ -319,7 +320,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LQ_SpiritSquirrel",
@@ -481,5 +482,5 @@
       }
     }
   ],
-  "_uuid"                   : "6111878fb19ab464fafd4395b5eab823"
+  "_uuid"                       : "6111878fb19ab464fafd4395b5eab823"
 }

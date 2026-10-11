@@ -5,30 +5,31 @@
     "en" : "FlintclawAlive",
     "ja" : "FlintclawAlive"
   },
-  "BaseValue" : 1.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 1.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_FlintclawAlive",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_FlintclawAlive",
+  "name"                        : {
     "zh" : "\u71E7\u77F3\u722A\u5B58\u6D3B",
     "en" : "FlintclawAlive",
     "ja" : "FlintclawAlive"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Tgr_FlintclawRespawn",
@@ -131,7 +132,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Tgr_FlintclawFight",
@@ -153,7 +154,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_FlintclawRespawn",
@@ -255,5 +256,5 @@
       }
     }
   ],
-  "_uuid"                   : "309cee65acda39c4882737030e6e5883"
+  "_uuid"                       : "309cee65acda39c4882737030e6e5883"
 }

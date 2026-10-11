@@ -10,34 +10,35 @@
     "en" : "Caused by Bacteria. Lowers your hydration, morale, stamina and mental structure. ",
     "ja" : "\u3070\u3044\u83CC\u304C\u539F\u56E0\u3002\u6C34\u5206\u3001\u58EB\u6C17\u3001\u30B9\u30BF\u30DF\u30CA\u3001\u5FC3\u306E\u5065\u5EB7\u3092\u4F4E\u4E0B\u3055\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : -8.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : -8.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.6627,
     "g" : 0.7961,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Fever__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u53D1\u70E7",
@@ -592,23 +593,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Fever",
-  "icon"                    : "GameStat__Fever__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Fever",
+  "icon"                        : "GameStat__Fever__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u53D1\u70E7",
     "en" : "Fever",
     "ja" : "\u767A\u71B1"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Spirit_HagBargainHealth",
@@ -655,7 +656,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "VDEBUG_HybernationSuit",
@@ -1414,5 +1415,5 @@
       }
     }
   ],
-  "_uuid"                   : "0ef92382faa66c643975c2c0f42ad82c"
+  "_uuid"                       : "0ef92382faa66c643975c2c0f42ad82c"
 }

@@ -1,22 +1,23 @@
 
 {
   "GameName" : {
-    "zh" : "\u773C\u578B",
+    "zh" : "\u773C\u775B\u7C7B\u578B",
     "en" : "Eye Type",
     "ja" : "Eye Type"
   },
-  "BaseValue" : 116.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 116.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 227.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 1700,
-  "Visibility"      : 2,
-  "VisibleInAppearanceTab" : true,
-  "CannotBeInspected"      : true,
-  "StatusesHaveNoBar"      : true,
-  "Statuses"               : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 1700,
+  "Visibility"                  : 2,
+  "VisibleInAppearanceTab"      : true,
+  "CannotBeInspected"           : true,
+  "StatusesHaveNoBar"           : true,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "Small Narrow-Set Red Eyes",
@@ -440,7 +441,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Narrow-Set Grey Eyes",
+        "zh" : "\u7A84\u773C\u8DDD\u7684\u7070\u8272\u773C\u775B",
         "en" : "Narrow-Set Grey Eyes",
         "ja" : "Narrow-Set Grey Eyes"
       },
@@ -559,7 +560,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Red Eyes",
+        "zh" : "\u7EA2\u8272\u773C\u775B",
         "en" : "Red Eyes",
         "ja" : "Red Eyes"
       },
@@ -576,7 +577,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Grey Eyes",
+        "zh" : "\u7070\u8272\u773C\u775B",
         "en" : "Grey Eyes",
         "ja" : "Grey Eyes"
       },
@@ -593,7 +594,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Light Blue Eyes",
+        "zh" : "\u6D45\u84DD\u8272\u773C\u775B",
         "en" : "Light Blue Eyes",
         "ja" : "Light Blue Eyes"
       },
@@ -916,7 +917,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Large Narrow-Set Hazel Eyes",
+        "zh" : "\u7A84\u773C\u8DDD\u6DE1\u8910\u8272\u5927\u773C\u775B",
         "en" : "Large Narrow-Set Hazel Eyes",
         "ja" : "Large Narrow-Set Hazel Eyes"
       },
@@ -933,7 +934,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Large Narrow-Set Brown Eyes",
+        "zh" : "\u7A84\u773C\u8DDD\u68D5\u8272\u5927\u773C\u775B",
         "en" : "Large Narrow-Set Brown Eyes",
         "ja" : "Large Narrow-Set Brown Eyes"
       },
@@ -950,7 +951,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Large Narrow-Set Dark Brown Eyes",
+        "zh" : "\u7A84\u773C\u8DDD\u6DF1\u68D5\u8272\u5927\u773C\u775B",
         "en" : "Large Narrow-Set Dark Brown Eyes",
         "ja" : "Large Narrow-Set Dark Brown Eyes"
       },
@@ -967,7 +968,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Large Red Eyes",
+        "zh" : "\u7EA2\u8272\u5927\u773C\u775B",
         "en" : "Large Red Eyes",
         "ja" : "Large Red Eyes"
       },
@@ -984,7 +985,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Large Grey Eyes",
+        "zh" : "\u7070\u8272\u5927\u773C\u775B",
         "en" : "Large Grey Eyes",
         "ja" : "Large Grey Eyes"
       },
@@ -1001,7 +1002,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Large Light Blue Eyes",
+        "zh" : "\u6D45\u84DD\u8272\u5927\u773C\u775B",
         "en" : "Large Light Blue Eyes",
         "ja" : "Large Light Blue Eyes"
       },
@@ -1238,22 +1239,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "EyeType",
-  "name"                    : {
-    "zh" : "\u773C\u578B",
+  "type"                        : "GameStat",
+  "key"                         : "EyeType",
+  "name"                        : {
+    "zh" : "\u773C\u775B\u7C7B\u578B",
     "en" : "Eye Type",
     "ja" : "Eye Type"
   },
-  "min"                     : 0.0,
-  "max"                     : 227.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 227.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_3_12_EyesLarge",
@@ -1344,9 +1345,9 @@
         "type" : "CharacterPerk",
         "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
         "name" : {
-          "zh" : "\u6DF1\u8272\u773C\u775B",
+          "zh" : "\u6DF1\u68D5\u8272\u773C\u775B",
           "en" : "Dark Brown Eyes",
-          "ja" : "\u9ED2\u3044\u76EE"
+          "ja" : "Dark Brown Eyes"
         }
       },
       "description" : {
@@ -1449,9 +1450,9 @@
         "type" : "CharacterPerk",
         "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
         "name" : {
-          "zh" : "\u6D45\u8272\u773C\u775B",
+          "zh" : "\u6D45\u84DD\u8272\u773C\u775B",
           "en" : "Light Blue Eyes",
-          "ja" : "\u660E\u308B\u3044\u76EE"
+          "ja" : "Light Blue Eyes"
         }
       },
       "description" : {
@@ -1465,5 +1466,5 @@
       }
     }
   ],
-  "_uuid"                   : "647fe7580bda4d8aa14bdd48bb593400"
+  "_uuid"                       : "647fe7580bda4d8aa14bdd48bb593400"
 }

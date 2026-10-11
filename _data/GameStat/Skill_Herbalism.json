@@ -10,41 +10,42 @@
     "en" : "Increases your chances of finding useful plants when foraging and increases the quality of your brews and medicines.",
     "ja" : "\u8CC7\u6E90\u96C6\u3081\u3059\u308B\u6642\u306B\u5F79\u306B\u7ACB\u3064\u690D\u7269\u304C\u898B\u3064\u304B\u308B\u78BA\u7387\u3068\u8ABF\u5408\u306E\u30AF\u30AA\u30EA\u30C6\u30A3\u304C\u4E0A\u304C\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Caves_FmOvergrownTunnel__Progress-OverrideIcon"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Herbalism",
-  "icon"                    : "CardData__Caves_FmOvergrownTunnel__Progress-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Herbalism",
+  "icon"                        : "CardData__Caves_FmOvergrownTunnel__Progress-OverrideIcon",
+  "name"                        : {
     "zh" : "\u836F\u8349\u5B66",
     "en" : "Herbalism",
     "ja" : "\u85AC\u8349\u5B66"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_TilledField",
@@ -545,6 +546,28 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u89C5\u98DF",
         "en" : "Action: Forage",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u8CC7\u6E90\u3092\u96C6\u3081\u308B"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AForage",
+        "en" : "Action: Forage",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AForage"
       },
       "value"       : {
         "x" : 0.1,
@@ -1095,6 +1118,28 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u89C5\u98DF",
         "en" : "Action: Forage",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u8CC7\u6E90\u3092\u96C6\u3081\u308B"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AForage",
+        "en" : "Action: Forage",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AForage"
       },
       "value"       : {
         "x" : 0.1,
@@ -1678,7 +1723,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -2030,7 +2075,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -2052,7 +2097,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -6027,7 +6072,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_FlintHoe",
@@ -6214,5 +6259,5 @@
       }
     }
   ],
-  "_uuid"                   : "85559650c938ef843af92c18f5b0c6c7"
+  "_uuid"                       : "85559650c938ef843af92c18f5b0c6c7"
 }

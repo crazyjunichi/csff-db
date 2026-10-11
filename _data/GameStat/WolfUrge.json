@@ -10,30 +10,31 @@
     "en" : "Raises your stress levels if not satisfied.\nCan be satisfied by hunting, fighting, chasing, butchering and eating animals.",
     "ja" : "\u6B32\u3092\u6E80\u305F\u3059\u307E\u3067\u30B9\u30C8\u30EC\u30B9\u304C\u6E9C\u307E\u308B\u3002\n\u52D5\u7269\u3068\u6226\u3063\u3066\u3001\u72E9\u3063\u3066\u3001\u8FFD\u3063\u3066\u3001\u89E3\u4F53\u3057\u3066\u3001\u98DF\u3079\u308B\u3053\u3068\u306B\u3088\u3063\u3066\u6E80\u305F\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "NPCAgent__Agent_Wolf__AgentImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u72FC\u4E4B\u672C\u80FD",
@@ -209,23 +210,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WolfUrge",
-  "icon"                    : "NPCAgent__Agent_Wolf__AgentImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WolfUrge",
+  "icon"                        : "NPCAgent__Agent_Wolf__AgentImage",
+  "name"                        : {
     "zh" : "\u72FC\u4E4B\u672C\u80FD",
     "en" : "Wolf Urge",
     "ja" : "\u72FC\u306E\u6B32\u6C42"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_MoontouchedEnchantment",
@@ -1089,7 +1090,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -1879,7 +1880,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -3047,7 +3048,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -3839,7 +3840,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -3861,7 +3862,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -4014,6 +4015,27 @@
           "zh" : "\u91CE\u732A",
           "en" : "Boar",
           "ja" : "\u30A4\u30CE\u30B7\u30B7"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u9009\u9879",
+        "en" : "Encounter Option",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u9078\u629E"
+      },
+      "value"       : {
+        "x" : -96.0,
+        "y" : -96.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterCraftheart",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "Craft-Heart",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
         }
       },
       "description" : {
@@ -4238,6 +4260,27 @@
     },
     {
       "source" : {
+        "key" : "Combat_EncounterWhiteStag",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_WhiteStag__AgentImage",
+        "name" : {
+          "zh" : "Stag",
+          "en" : "Stag",
+          "ja" : "Stag"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u9009\u9879",
+        "en" : "Encounter Option",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u9078\u629E"
+      },
+      "value"       : {
+        "x" : -96.0,
+        "y" : -96.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Combat_EncounterWolf",
         "type" : "Encounter",
         "icon" : "NPCAgent__Agent_Wolf__AgentImage",
@@ -4279,7 +4322,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "MoontouchedCoat",
@@ -4480,5 +4523,5 @@
       }
     }
   ],
-  "_uuid"                   : "b1d3fc8aeb9a3904c99633073503e48e"
+  "_uuid"                       : "b1d3fc8aeb9a3904c99633073503e48e"
 }

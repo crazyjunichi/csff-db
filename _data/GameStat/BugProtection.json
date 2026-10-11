@@ -10,24 +10,25 @@
     "en" : "How protected you are against bug bites.",
     "ja" : "\u866B\u523A\u3055\u308C\u3092\u9632\u3050\u30EC\u30D9\u30EB\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 5.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3544,
     "g" : 0.1248,
     "b" : 0.8019,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BugDamage__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4E2D\u7B49\u9632\u62A4",
@@ -177,23 +178,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BugProtection",
-  "icon"                    : "GameStat__BugDamage__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BugProtection",
+  "icon"                        : "GameStat__BugDamage__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u868A\u866B\u9632\u62A4",
     "en" : "Bug Protection",
     "ja" : "\u866B\u306E\u4FDD\u8B77"
   },
-  "min"                     : 0.0,
-  "max"                     : 5.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 5.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "ClothLarge",
@@ -351,5 +352,5 @@
       }
     }
   ],
-  "_uuid"                   : "57ae811e531f6cd45994063eaff2d724"
+  "_uuid"                       : "57ae811e531f6cd45994063eaff2d724"
 }

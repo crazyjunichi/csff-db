@@ -5,30 +5,31 @@
     "en" : "God Insight",
     "ja" : "\u795E\u304B\u3089\u306E\u77E5\u6075"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BloodSpilled__FeedbackInfo-NegativeIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "ValueRange" : {
         "m_X" : 1,
@@ -98,11 +99,11 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BloodSpilled__FeedbackInfo-NegativeIcon"
     },
@@ -111,17 +112,17 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "GodInsight",
-  "icon"                    : "GameStat__BloodSpilled__FeedbackInfo-NegativeIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "GodInsight",
+  "icon"                        : "GameStat__BloodSpilled__FeedbackInfo-NegativeIcon",
+  "name"                        : {
     "zh" : "\u795E\u5723\u7075\u89C6",
     "en" : "God Insight",
     "ja" : "\u795E\u304B\u3089\u306E\u77E5\u6075"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_GodExperience1g",
@@ -167,7 +168,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Event_WatchedExperience1f",
@@ -191,5 +192,5 @@
       }
     }
   ],
-  "_uuid"                   : "112b179b2e1117f42a116616a57f99d9"
+  "_uuid"                       : "112b179b2e1117f42a116616a57f99d9"
 }

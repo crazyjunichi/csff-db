@@ -181,6 +181,28 @@
     "_valueModifications"   : [
       {
         "source" : {
+          "key" : "LQ_SpiritCraftHeart",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+          "name"     : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+            "en" : "Craft-Heart Spirit",
+            "ja" : "Craft-Heart Spirit"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1ABless",
+          "en" : "Action: Bless",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABless"
+        },
+        "value"       : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      },
+      {
+        "source" : {
           "key" : "LQ_SpiritFox",
           "type" : "CardData",
           "CardType" : 9,
@@ -324,6 +346,424 @@
       "ReceivingCardChanges"    : {
         "ModType" : 3,
         "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Craft-Heart triggers trap",
+        "en" : "Craft-Heart triggers trap",
+        "ja" : "Craft-Heart triggers trap"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "CompatibleNPCDuties"     : [
+        {
+          "Target" : {
+            "key" : "AgentDuty_CraftHeart_TriggerTraps",
+            "type" : "NPCDuty",
+            "name" : {
+              "zh" : "Craft-Heart triggers traps",
+              "en" : "Craft-Heart triggers traps",
+              "ja" : "Craft-Heart triggers traps"
+            }
+          }
+        }
+      ],
+      "ActionTags"              : [
+        {
+          "key" : "HandAction",
+          "type" : "ActionTag",
+          "name" : {
+            "zh" : "\u624B\u90E8\u52A8\u4F5C",
+            "en" : "HandAction",
+            "ja" : "HandAction"
+          }
+        }
+      ],
+      "RequiredNPCStatValues"   : [
+        {
+          "UseAssociatedAgent" : true,
+          "TargetStat"         : {
+            "key" : "AgentCraftHeartFleeMode",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+              "en" : "AgentCraftHeartFleeMode",
+              "ja" : "AgentCraftHeartFleeMode"
+            }
+          },
+          "ConditionRange"     : {
+            "x" : 0.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "HideIfConditionsNotMet"  : true,
+      "NotBaseAction"           : true,
+      "LocksCardsForUse"        : true,
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "Craft-Heart captured - blessed snare",
+          "CollectionWeight" : 5,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_Trapping",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u9677\u9631",
+                  "en" : "Trapping",
+                  "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 150.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : 40
+              },
+              "WhenOutOfRange"    : 1
+            }
+          ],
+          "DurabilitiesDropChanceModifier" : {
+            "Special3" : {
+              "Active" : true,
+              "DurabilityRange" : {
+                "x" : 1.0,
+                "y" : 1.0
+              },
+              "WhenOutOfRange"  : 2
+            }
+          },
+          "DroppedCards"                   : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_Craftheart",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Carcass_Craftheart__CardImage",
+                "name"     : {
+                  "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u5C38\u4F53",
+                  "en" : "Craft-Heart Carcass",
+                  "ja" : "Craft-Heart Carcass"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ],
+          "DropCardsInsideInventory"       : true,
+          "StatModifications"              : [
+            {
+              "Stat" : {
+                "key" : "Stat_CraftHeartManifestationOutcome",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 1.0,
+                "name" : {
+                  "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u7ED3\u679C",
+                  "en" : "Craft-Heart manifestation outcome",
+                  "ja" : "Craft-Heart manifestation outcome"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 1.0,
+                "y" : 1.0
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Craft-Heart escaped - blessed snare",
+          "CollectionWeight" : 95,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_Trapping",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u9677\u9631",
+                  "en" : "Trapping",
+                  "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 150.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : -40
+              },
+              "WhenOutOfRange"    : 1
+            }
+          ],
+          "DurabilitiesDropChanceModifier" : {
+            "Special3" : {
+              "Active" : true,
+              "DurabilityRange" : {
+                "x" : 1.0,
+                "y" : 1.0
+              },
+              "WhenOutOfRange"  : 2
+            }
+          },
+          "DroppedCards"                   : [
+            {
+              "DroppedCard" : {
+                "key" : "TricksterFluff",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__TricksterFluff__CardImage",
+                "name"     : {
+                  "zh" : "\u8BE1\u672F\u7ED2\u6BDB",
+                  "en" : "Trickster Fluff",
+                  "ja" : "Trickster Fluff"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "StatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "Skill_Trapping",
+                      "type" : "GameStat",
+                      "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+                      "min"  : 0.0,
+                      "max"  : 150.0,
+                      "name" : {
+                        "zh" : "\u9677\u9631",
+                        "en" : "Trapping",
+                        "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+                      }
+                    },
+                    "Value"     : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 0.0,
+                        "y" : 150.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 0.0,
+                        "y" : 90.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory"       : true
+        },
+        {
+          "CollectionName" : "Craft-Heart captured - unblessed snare",
+          "CollectionWeight" : -40,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_Trapping",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u9677\u9631",
+                  "en" : "Trapping",
+                  "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 150.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : 50
+              },
+              "WhenOutOfRange"    : 1
+            }
+          ],
+          "DurabilitiesDropChanceModifier" : {
+            "Special3" : {
+              "Active" : true,
+              "WhenOutOfRange" : 2
+            }
+          },
+          "DroppedCards"                   : [
+            {
+              "DroppedCard" : {
+                "key" : "Carcass_Craftheart",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Carcass_Craftheart__CardImage",
+                "name"     : {
+                  "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u5C38\u4F53",
+                  "en" : "Craft-Heart Carcass",
+                  "ja" : "Craft-Heart Carcass"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ],
+          "DropCardsInsideInventory"       : true,
+          "StatModifications"              : [
+            {
+              "Stat" : {
+                "key" : "Stat_CraftHeartManifestationOutcome",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 1.0,
+                "name" : {
+                  "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u7ED3\u679C",
+                  "en" : "Craft-Heart manifestation outcome",
+                  "ja" : "Craft-Heart manifestation outcome"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 1.0,
+                "y" : 1.0
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Craft-Heart escaped - unblessed snare",
+          "CollectionWeight" : 140,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_Trapping",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u9677\u9631",
+                  "en" : "Trapping",
+                  "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 150.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : -50
+              },
+              "WhenOutOfRange"    : 1
+            }
+          ],
+          "DurabilitiesDropChanceModifier" : {
+            "Special3" : {
+              "Active" : true,
+              "WhenOutOfRange" : 2
+            }
+          },
+          "DroppedCards"                   : [
+            {
+              "DroppedCard" : {
+                "key" : "TricksterFluff",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__TricksterFluff__CardImage",
+                "name"     : {
+                  "zh" : "\u8BE1\u672F\u7ED2\u6BDB",
+                  "en" : "Trickster Fluff",
+                  "ja" : "Trickster Fluff"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              },
+              "DropChance"  : {
+                "Active" : true,
+                "BaseDropChance" : 0.0,
+                "StatsModifiers" : [
+                  {
+                    "InputStat" : {
+                      "key" : "Skill_Trapping",
+                      "type" : "GameStat",
+                      "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+                      "min"  : 0.0,
+                      "max"  : 150.0,
+                      "name" : {
+                        "zh" : "\u9677\u9631",
+                        "en" : "Trapping",
+                        "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+                      }
+                    },
+                    "Value"     : {
+                      "Active" : true,
+                      "InputValueRange" : {
+                        "x" : 0.0,
+                        "y" : 150.0
+                      },
+                      "OutputValueRange" : {
+                        "x" : 0.0,
+                        "y" : 90.0
+                      },
+                      "WhenOutOfRange"   : 0,
+                      "OutOfRangeCustomValue" : 0.0
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "DropCardsInsideInventory"       : true
+        }
+      ],
+      "ReceivingCardChanges"    : {
+        "ModType" : 2,
+        "TransformInto" : {
+          "key" : "SnareTrapTriggered",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__SnareTrapTriggered__CardImage",
+          "name"     : {
+            "zh" : "\u5957\u7D22\u9677\u9631",
+            "en" : "Snare Trap",
+            "ja" : "\u304F\u304F\u308A\u7F60"
+          }
+        },
+        "TransformToLiquidQuantity" : 0.0,
+        "TransferSpoilage"          : true,
+        "TransferUsage"             : true,
+        "TransferFuel"              : true,
+        "TransferCharges"           : true,
+        "TransferSpecial1"          : true,
+        "TransferSpecial2"          : true,
+        "TransferSpecial3"          : true,
+        "TransferSpecial4"          : true,
+        "TransferInventory"         : true,
         "LiquidEffectScaling"       : 0
       },
       "RoomDirection"           : 0,
@@ -748,6 +1188,19 @@
     "CardFilters" : [
       {
         "Card" : {
+          "key" : "Carcass_Craftheart",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__Carcass_Craftheart__CardImage",
+          "name"     : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u5C38\u4F53",
+            "en" : "Craft-Heart Carcass",
+            "ja" : "Craft-Heart Carcass"
+          }
+        }
+      },
+      {
+        "Card" : {
           "key" : "Carcass_DuckCarcass",
           "type" : "CardData",
           "CardType" : 0,
@@ -777,7 +1230,7 @@
           "key" : "Carcass_FoxCarcass",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+          "icon"     : "CardData__Carcass_Craftheart__CardImage",
           "name"     : {
             "zh" : "\u72D0\u72F8\u5C38\u4F53",
             "en" : "Fox Carcass",
@@ -967,6 +1420,24 @@
   "_useFor"                           : [
     {
       "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABless",
+        "en" : "Action: Bless",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABless"
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritFox",
         "type" : "CardData",
         "CardType" : 9,
@@ -985,6 +1456,60 @@
     }
   ],
   "_transformTo"                      : [
+    {
+      "source" : {
+        "key" : "Carcass_Craftheart",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u5C38\u4F53",
+          "en" : "Craft-Heart Carcass",
+          "ja" : "Craft-Heart Carcass"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      }
+    },
+    {
+      "source" : {
+        "key" : "TricksterFluff",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__TricksterFluff__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u7ED2\u6BDB",
+          "en" : "Trickster Fluff",
+          "ja" : "Trickster Fluff"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnareTrapTriggered",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__SnareTrapTriggered__CardImage",
+        "name"     : {
+          "zh" : "\u5957\u7D22\u9677\u9631",
+          "en" : "Snare Trap",
+          "ja" : "\u304F\u304F\u308A\u7F60"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      }
+    },
     {
       "source" : {
         "key" : "SnareTrapTriggered",

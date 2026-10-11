@@ -10,30 +10,31 @@
     "en" : "Can be caused by poisoning. Produces pain.",
     "ja" : "\u4E2D\u6BD2\u306B\u3088\u3063\u3066\u5F15\u304D\u8D77\u3053\u3055\u308C\u308B\u3053\u3068\u304C\u3042\u308B\u3002\u75DB\u307F\u3092\u4F34\u3046\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 48.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.7412,
     "g" : 0.102,
     "b" : 0.0392,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Calories_Stomach__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5FAE\u8179\u75DB",
@@ -170,27 +171,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Headache__FeedbackInfo-Icon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stomachache",
-  "icon"                    : "GameStat__Calories_Stomach__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stomachache",
+  "icon"                        : "GameStat__Calories_Stomach__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u8179\u75DB",
     "en" : "Stomachache",
     "ja" : "\u8179\u75DB"
   },
-  "min"                     : 0.0,
-  "max"                     : 48.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 48.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "WitchstonePoisoning",
@@ -261,5 +262,5 @@
       }
     }
   ],
-  "_uuid"                   : "800fa11207b61564f935e711463b9c83"
+  "_uuid"                       : "800fa11207b61564f935e711463b9c83"
 }

@@ -10,46 +10,47 @@
     "en" : "Increases your chances of completing magical rituals succesfully.",
     "ja" : "\u9B54\u6CD5\u306E\u5100\u5F0F\u306E\u6210\u529F\u7387\u304C\u4E0A\u304C\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 12,
-  "StalenessMultiplier"     : 0.8,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 12,
+  "StalenessMultiplier"         : 0.8,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u7075\u89C6\u4E0D\u591F\u3002",
     "en" : "Not enough Insight.",
     "ja" : "\u6D1E\u5BDF\u529B\u304C\u8DB3\u308A\u306A\u3044"
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Insight",
-  "icon"                    : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Insight",
+  "icon"                        : "CardData__Carcass_BadgerCarcass__Progress-OverrideIcon",
+  "name"                        : {
     "zh" : "\u7075\u89C6",
     "en" : "Insight",
     "ja" : "\u6D1E\u5BDF\u529B"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Carcass_BadgerCarcass",
@@ -206,6 +207,28 @@
     },
     {
       "source" : {
+        "key" : "Carcass_DuckCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E2D\u5B50",
+          "en" : "Dead Duck",
+          "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ARelease the Spirit",
+        "en" : "Action: Release the Spirit",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ARelease the Spirit"
+      },
+      "value"       : {
+        "x" : 0.1,
+        "y" : 0.1
+      }
+    },
+    {
+      "source" : {
         "key" : "Carcass_ForestBeastCarcass",
         "type" : "CardData",
         "CardType" : 0,
@@ -231,7 +254,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -1516,7 +1539,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "AlteredMindstate",
@@ -1633,7 +1656,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_Amulet",
@@ -1698,6 +1721,28 @@
       "value"       : {
         "x" : 7.0,
         "y" : 1500.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+        "name"     : {
+          "zh" : "Summoning Ritual",
+          "en" : "Summoning Ritual",
+          "ja" : "Summoning Ritual"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1000.0
       }
     },
     {
@@ -1996,6 +2041,28 @@
           "zh" : "\u53EC\u5524\u4EEA\u5F0F",
           "en" : "Summoning Ritual",
           "ja" : "\u53EC\u559A\u306E\u5100\u5F0F"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u76EE\u6807",
+        "en" : "Blueprint Objective",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8\u76EE\u6A19"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1000.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_DuckEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u9644\u9B54",
+          "en" : "Duck Enchantment",
+          "ja" : "Duck Enchantment"
         }
       },
       "description" : {
@@ -3462,10 +3529,32 @@
     },
     {
       "source" : {
+        "key" : "Carcass_DuckCarcass",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_DuckCarcass__CardImage",
+        "name"     : {
+          "zh" : "\u6B7B\u9E2D\u5B50",
+          "en" : "Dead Duck",
+          "ja" : "\u30AB\u30E2\u306E\u6B7B\u9AB8"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -3938,50 +4027,6 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u51DD\u89C6\u6C34\u9762",
         "en" : "Action: Gaze at Water",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6C34\u3092\u773A\u3081\u308B"
-      },
-      "value"       : {
-        "x" : 1.0,
-        "y" : 10000.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
-      },
-      "value"       : {
-        "x" : 1.0,
-        "y" : 10000.0
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u68C0\u67E5",
-        "en" : "Action: Inspect",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u691C\u67FB\u3059\u308B"
       },
       "value"       : {
         "x" : 1.0,
@@ -4474,6 +4519,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritDarkness",
         "type" : "CardData",
         "CardType" : 9,
@@ -4804,6 +4871,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritStalker",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit",
+          "ja" : "Stalker Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ABlessing",
+        "en" : "Action: Blessing",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ABlessing"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1000000000.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritVoid",
         "type" : "CardData",
         "CardType" : 9,
@@ -4891,7 +4980,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_BadgerSpiritBoundInsightBonus",
@@ -5653,5 +5742,5 @@
       }
     }
   ],
-  "_uuid"                   : "36e14930ddfdcdb4b901f6416b5453be"
+  "_uuid"                       : "36e14930ddfdcdb4b901f6416b5453be"
 }

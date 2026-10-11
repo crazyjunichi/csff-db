@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Makes you better at mining flint and at knapping and makes it more enjoyable.",
     "ja" : "\u7CBE\u970A\u306E\u795D\u798F\u3002\u77F3\u5DE5\u304C\u697D\u3057\u304F\u306A\u308A\u3001\u706B\u6253\u77F3\u306E\u767A\u6398\u304C\u4E0A\u624B\u306B\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_FlintBlessing__CardImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u71E7\u77F3\u52A0\u5DE5",
@@ -621,27 +622,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__Bp_FlintBlessing__CardImage"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FlintKnack",
-  "icon"                    : "CardData__Bp_FlintBlessing__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FlintKnack",
+  "icon"                        : "CardData__Bp_FlintBlessing__CardImage",
+  "name"                        : {
     "zh" : "\u71E7\u77F3\u52A0\u5DE5",
     "en" : "Flint Knack",
     "ja" : "\u706B\u6253\u77F3\u306E\u624D\u80FD"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_FlintBlessing",
@@ -687,7 +688,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "SpiritShrine_Flint_FlintMotherLode",
@@ -893,5 +894,5 @@
       }
     }
   ],
-  "_uuid"                   : "55d7914524f132149a957cd48e01b63d"
+  "_uuid"                       : "55d7914524f132149a957cd48e01b63d"
 }

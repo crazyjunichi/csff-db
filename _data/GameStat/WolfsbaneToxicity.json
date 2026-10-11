@@ -10,30 +10,31 @@
     "en" : "Causes progressive paralysis, nausea, lowered blood pressure and eventual death if untreated.",
     "ja" : "\u9EBB\u75FA\u3001\u5410\u304D\u6C17\u3001\u4F4E\u8840\u5727\u306E\u539F\u56E0\u306B\u306A\u308B\u3053\u3068\u304C\u3042\u308A\u3001\u6CBB\u7642\u3057\u306A\u3044\u3068\u6B7B\u306C\u53EF\u80FD\u304C\u3042\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Fear__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5EA6\u4E4C\u5934\u4E2D\u6BD2",
@@ -307,27 +308,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AppleWeedEffect__DefaultStatusIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WolfsbaneToxicity",
-  "icon"                    : "GameStat__Fear__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WolfsbaneToxicity",
+  "icon"                        : "GameStat__Fear__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u4E4C\u5934\u4E2D\u6BD2",
     "en" : "Wolfsbane Poisoning",
     "ja" : "\u30C8\u30EA\u30AB\u30D6\u30C8\u306E\u6BD2"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "WolfsbaneFresh",
@@ -394,7 +395,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "WolfsbaneExposure",
@@ -465,5 +466,5 @@
       }
     }
   ],
-  "_uuid"                   : "9243632feab991943866f63aa00aaffb"
+  "_uuid"                       : "9243632feab991943866f63aa00aaffb"
 }

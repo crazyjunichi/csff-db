@@ -5,15 +5,16 @@
     "en" : "In Dark Place",
     "ja" : "\u6697\u3044\u5834\u6240\u306B\u3044\u308B"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5728\u9ED1\u6697\u4E2D",
@@ -40,28 +41,28 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u6CA1\u6709\u8DB3\u591F\u7684\u71C3\u6599\u542F\u52A8\u3002",
     "en" : "Not enough fuel to start.",
     "ja" : "\u71C3\u6599\u304C\u8DB3\u308A\u306A\u3044\u3002"
   },
-  "type"                    : "GameStat",
-  "key"                     : "InDarkPlace",
-  "icon"                    : "GameStat__Blindness__Statuses-0-Icon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "InDarkPlace",
+  "icon"                        : "GameStat__Blindness__Statuses-0-Icon",
+  "name"                        : {
     "zh" : "\u5728\u9ED1\u6697\u73AF\u5883",
     "en" : "In Dark Place",
     "ja" : "\u6697\u3044\u5834\u6240\u306B\u3044\u308B"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Env_FmNorthernChamber",
@@ -194,7 +195,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "FishingMosquitosLightAmount",
@@ -492,5 +493,5 @@
       }
     }
   ],
-  "_uuid"                   : "68296cc869f1b5149babbeffc20d8b3f"
+  "_uuid"                       : "68296cc869f1b5149babbeffc20d8b3f"
 }

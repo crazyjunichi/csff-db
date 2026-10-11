@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Lowers your pain and stress but makes you grieve and want for sleep.",
     "ja" : "A spirit blessing. Lowers your pain and stress but makes you grieve and want for sleep."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Event_WillowSpiritBlessingGranted__CardImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u67F3\u6811\u8D50\u798F",
@@ -729,27 +730,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__BogMyrtleLeavesPowder__UsageDurability-OverrideIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WillowBlessing",
-  "icon"                    : "CardData__Event_WillowSpiritBlessingGranted__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WillowBlessing",
+  "icon"                        : "CardData__Event_WillowSpiritBlessingGranted__CardImage",
+  "name"                        : {
     "zh" : "\u4E30\u9976\u798F\u7949",
     "en" : "Fertility Boon",
     "ja" : "Fertility Boon"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_WillowSpiritBlessingGranted",
@@ -773,7 +774,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "WillowBlessing",
@@ -913,5 +914,5 @@
       }
     }
   ],
-  "_uuid"                   : "d3c317745c96c9340a96aac88ea2ba20"
+  "_uuid"                       : "d3c317745c96c9340a96aac88ea2ba20"
 }

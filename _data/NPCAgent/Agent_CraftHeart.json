@@ -1,0 +1,1318 @@
+
+{
+  "AgentName" : {
+    "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+    "en" : "Craft-Heart",
+    "ja" : "Craft-Heart"
+  },
+  "AgentImage" : {
+    "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+  },
+  "WeightCategory" : {
+    "key" : "Medium",
+    "type" : "AgentWeightCategory",
+    "name" : {
+      "zh" : "\u4E0D\u8F7B\u4E0D\u91CD\u7684",
+      "en" : "Medium",
+      "ja" : "\u666E\u901A"
+    }
+  },
+  "HidingConditions" : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_GroveOak_TrickstersGrove",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u8BE1\u672F\u6A61\u6797",
+        "en" : "Trickster's Grove",
+        "ja" : "Trickster's Grove"
+      }
+    }
+  },
+  "Interactions"     : [
+    {
+      "ButtonName" : {
+        "zh" : "Approach",
+        "en" : "Approach",
+        "ja" : "Approach"
+      },
+      "ButtonType" : 0,
+      "Dialog"     : {
+        "key" : "Dialogue_AgentCraftHeartAproach",
+        "type" : "DialogScene",
+        "firstLine" : {
+          "zh" : "You approach the Craft-Heart.",
+          "en" : "You approach the Craft-Heart.",
+          "ja" : "You approach the Craft-Heart."
+        }
+      },
+      "DroppedEncounter" : {
+        "key" : "Combat_EncounterFox",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Fox1__AgentImage",
+        "name" : {
+          "zh" : "\u72D0\u72F8",
+          "en" : "Fox",
+          "ja" : "\u30AD\u30C4\u30CD"
+        }
+      }
+    }
+  ],
+  "DefaultTracks"    : {
+    "Active" : true,
+    "TrackLifetime" : {
+      "m_X" : 32,
+      "m_Y" : 32
+    },
+    "OverrideDefaultTracksCard" : {
+      "key" : "DefaultTracksCard",
+      "type" : "CardData",
+      "CardType" : 2,
+      "icon"     : "CardData__BeastTracksCardInvisible__CardImage",
+      "name"     : {
+        "zh" : "\u6709\u8E2A\u8FF9\uFF01",
+        "en" : "Tracks!",
+        "ja" : "\u8DB3\u8DE1\uFF01"
+      }
+    },
+    "TracksDirection"           : 0,
+    "OverrideTrackDurabilities" : 0,
+    "NPCStatsToTrackDurabilities" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentBlood",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u8840\u91CF",
+            "en" : "AgentBlood",
+            "ja" : "AgentBlood"
+          }
+        },
+        "OutputDurability"   : 32,
+        "Value"              : {
+          "Active" : true,
+          "InputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "OutputValueRange" : {
+            "x" : 0.0,
+            "y" : 100.0
+          },
+          "WhenOutOfRange"   : 0,
+          "OutOfRangeCustomValue" : 0.0
+        }
+      }
+    ]
+  },
+  "AmbientSoundRealRange" : 0.0,
+  "AmbientSoundNodesRange" : 1,
+  "AmbientSounds"          : [
+    {
+      "DontPlayWhenInCombat" : true,
+      "AddedRealRange"       : 0.0,
+      "AddedNodesRange"      : 0,
+      "InternalName"         : "Fox"
+    }
+  ],
+  "AgentStats"             : [
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8FFD\u9010\u5C1D\u8BD5",
+          "en" : "ChaseAtempts",
+          "ja" : "ChaseAtempts"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "ChaseAtempts",
+        "zh"                      : "\u8FFD\u9010\u5C1D\u8BD5",
+        "en"                      : "ChaseAtempts",
+        "ja"                      : "ChaseAtempts"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 2.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5B58\u5728",
+          "en" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. ",
+          "ja" : "1 if Agent is in the World. 0 if not. Used not to spawn additional Agents until the previous one perishes. Change to 0 in Encounter when animal is killed. Change to 1 in Agent Action when it is spawned. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentExists",
+        "zh"                      : "\u5B58\u5728",
+        "en"                      : "AgentExists",
+        "ja"                      : "AgentExists"
+      },
+      "OverrideMinMaxValue" : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : -3520.0
+      },
+      "OverrideRate"        : {
+        "FloatValue" : 1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6597\u5FD7",
+          "en" : "Agent Morale",
+          "ja" : "Agent Morale"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentMorale",
+        "zh"                      : "\u6597\u5FD7",
+        "en"                      : "AgentMorale",
+        "ja"                      : "AgentMorale"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 10.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8840\u91CF",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentBlood",
+        "zh"                      : "\u8840\u91CF",
+        "en"                      : "AgentBlood",
+        "ja"                      : "AgentBlood"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 100.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.17,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8010\u529B",
+          "en" : "Agent Stamina",
+          "ja" : "Agent Stamina"
+        },
+        "DefaultStartingValue" : 100.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentStamina",
+        "zh"                      : "\u8010\u529B",
+        "en"                      : "AgentStamina",
+        "ja"                      : "AgentStamina"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 70.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 70.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 10.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u6BD2\u6297",
+          "en" : "Agent Special1",
+          "ja" : "Agent Special1"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : -1.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentPoisonResistance",
+        "zh"                      : "\u6BD2\u6297",
+        "en"                      : "AgentPoisonResistance",
+        "ja"                      : "AgentPoisonResistance"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 24.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 24.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.4,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u7C7B\u578B",
+          "en" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40",
+          "ja" : "Agent Trap Type, Deadfall = 10, Snare = 20, PitTrap = 30, LogTrap = 40"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapType",
+        "zh"                      : "\u9677\u9631\u7C7B\u578B",
+        "en"                      : "AgentTrapType",
+        "ja"                      : "AgentTrapType"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 100.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 100.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunning",
+        "zh"                      : "\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunning",
+        "ja"                      : "AgentTrapCunning"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 30.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 30.0,
+        "FloatValue" : 30.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Snares, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningSnare",
+        "zh"                      : "\u5957\u7D22\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningSnare",
+        "ja"                      : "AgentTrapCunningSnare"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u9677\u5751\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Pit Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningPitTrap",
+        "zh"                      : "\u9677\u5751\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningPitTrap",
+        "ja"                      : "AgentTrapCunningPitTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Log Traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningLogTrap",
+        "zh"                      : "\u539F\u6728\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningLogTrap",
+        "ja"                      : "AgentTrapCunningLogTrap"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 0.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+          "en" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. ",
+          "ja" : "Agent Cunning Value bonus for Deadfall traps, use to calculate the % catch reduction for traps. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 0.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -10000.0,
+          "y" : 10000.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapCunningDeadfall",
+        "zh"                      : "\u843D\u77F3\u9677\u9631\u6280\u5DE7",
+        "en"                      : "AgentTrapCunningDeadfall",
+        "ja"                      : "AgentTrapCunningDeadfall"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 10000.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 10.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u51B7\u5374",
+          "en" : "Craft-Heart manifestation cooldown",
+          "ja" : "Craft-Heart manifestation cooldown"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 672.0
+        },
+        "DefaultRate"          : -1.0,
+        "DefaultMinMaxRate"    : {
+          "x" : -1.0,
+          "y" : 0.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCraftHeartManifestationCooldown",
+        "zh"                      : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u51B7\u5374",
+        "en"                      : "AgentCraftHeartManifestationCooldown",
+        "ja"                      : "AgentCraftHeartManifestationCooldown"
+      },
+      "OverrideMinMaxValue" : {
+        "MaxValue" : 672.0,
+        "FloatValue" : 0.0
+      },
+      "OverrideRate"        : {
+        "FloatValue" : -1.0
+      },
+      "OverrideMinMaxRate"  : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+          "en" : "Craft-Heart flee mode",
+          "ja" : "Craft-Heart flee mode"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCraftHeartFleeMode",
+        "zh"                      : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+        "en"                      : "AgentCraftHeartFleeMode",
+        "ja"                      : "AgentCraftHeartFleeMode"
+      },
+      "OverrideMinMaxValue" : {
+        "MaxValue" : 672.0,
+        "FloatValue" : 0.0
+      },
+      "OverrideRate"        : {
+        "FloatValue" : -1.0
+      },
+      "OverrideMinMaxRate"  : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BA1\u6B65\u5668",
+          "en" : "Agent Counter",
+          "ja" : "Agent Counter"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCounter",
+        "zh"                      : "\u8BA1\u6B65\u5668",
+        "en"                      : "AgentCounter",
+        "ja"                      : "AgentCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8FD1\u671F\u88AB\u56F0",
+          "en" : "1 if recently trapped. ",
+          "ja" : "1 if recently trapped. "
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "DefaultRate"          : 0.0,
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentTrapped",
+        "zh"                      : "\u8FD1\u671F\u88AB\u56F0",
+        "en"                      : "AgentTrapped",
+        "ja"                      : "AgentTrapped"
+      },
+      "OverrideMinMaxValue" : {
+        "MaxValue" : 10000.0,
+        "FloatValue" : 0.0
+      },
+      "OverrideRate"        : {
+        "FloatValue" : -1.0
+      },
+      "OverrideMinMaxRate"  : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -1.0
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
+    }
+  ],
+  "AgentActions"           : [
+    {
+      "ActionID" : "Weekly manifestation roll",
+      "ActionLocalizedName" : {
+        "zh" : "Weekly manifestation roll",
+        "en" : "Weekly manifestation roll",
+        "ja" : "Weekly manifestation roll"
+      },
+      "RepeatOptions"       : 2,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredEnvironment" : {
+          "key" : "Env_SpiritWorld",
+          "type" : "CardData",
+          "CardType" : 4,
+          "name"     : {
+            "zh" : "SpiritWorld",
+            "en" : "SpiritWorld",
+            "ja" : "SpiritWorld"
+          }
+        },
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentCraftHeartManifestationCooldown",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u51B7\u5374",
+                "en" : "AgentCraftHeartManifestationCooldown",
+                "ja" : "AgentCraftHeartManifestationCooldown"
+              }
+            }
+          },
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            }
+          }
+        ],
+        "RequiredInGameTimes"   : [
+          {
+            "TimeType" : 0,
+            "CompareType" : 0,
+            "StartValue"  : 22,
+            "EndValue"    : 23
+          },
+          {
+            "TimeType" : 1,
+            "CompareType" : 2,
+            "StartValue"  : 120,
+            "EndValue"    : 0
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCraftHeartManifestationCooldown",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u51B7\u5374",
+              "en" : "AgentCraftHeartManifestationCooldown",
+              "ja" : "AgentCraftHeartManifestationCooldown"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 672.0,
+            "y" : 672.0
+          }
+        }
+      ],
+      "DroppedCards"         : [
+        {
+          "CollectionName" : "Remain in Spirit World",
+          "CollectionWeight" : 100,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_Trapping",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u9677\u9631",
+                  "en" : "Trapping",
+                  "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 150.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : -20
+              },
+              "WhenOutOfRange"    : 1
+            },
+            {
+              "Stat" : {
+                "key" : "Gratification",
+                "type" : "GameStat",
+                "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                "min"  : -100.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u6EE1\u8DB3\u611F",
+                  "en" : "Gratification",
+                  "ja" : "\u6E80\u8DB3\u611F"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 100.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : -20
+              },
+              "WhenOutOfRange"    : 1
+            },
+            {
+              "Stat" : {
+                "key" : "AlteredMindstate",
+                "type" : "GameStat",
+                "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 300.0,
+                "name" : {
+                  "zh" : "\u7CBE\u795E\u5931\u5E38",
+                  "en" : "Altered Mindstate",
+                  "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 300.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : -40
+              },
+              "WhenOutOfRange"    : 1
+            }
+          ],
+          "DroppedCards"             : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        },
+        {
+          "CollectionName" : "Manifest in the mortal world",
+          "CollectionWeight" : 0,
+          "StatsDropChanceModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_Trapping",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_DeadfallTrap__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u9677\u9631",
+                  "en" : "Trapping",
+                  "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 150.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : 20
+              },
+              "WhenOutOfRange"    : 1
+            },
+            {
+              "Stat" : {
+                "key" : "Gratification",
+                "type" : "GameStat",
+                "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                "min"  : -100.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u6EE1\u8DB3\u611F",
+                  "en" : "Gratification",
+                  "ja" : "\u6E80\u8DB3\u611F"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 100.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : 20
+              },
+              "WhenOutOfRange"    : 1
+            },
+            {
+              "Stat" : {
+                "key" : "AlteredMindstate",
+                "type" : "GameStat",
+                "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 300.0,
+                "name" : {
+                  "zh" : "\u7CBE\u795E\u5931\u5E38",
+                  "en" : "Altered Mindstate",
+                  "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+                }
+              },
+              "StatRange" : {
+                "x" : 0.0,
+                "y" : 300.0
+              },
+              "InterpWeightRange" : {
+                "m_X" : 0,
+                "m_Y" : 40
+              },
+              "WhenOutOfRange"    : 1
+            }
+          ],
+          "DroppedCards"             : [
+            {
+              "Quantity" : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ],
+          "StatModifications"        : [
+            {
+              "Stat" : {
+                "key" : "Stat_CraftHeartManifestationOutcome",
+                "type" : "GameStat",
+                "min"  : 0.0,
+                "max"  : 1.0,
+                "name" : {
+                  "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u663E\u5F62\u7ED3\u679C",
+                  "en" : "Craft-Heart manifestation outcome",
+                  "ja" : "Craft-Heart manifestation outcome"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 1.0,
+                "y" : 1.0
+              }
+            }
+          ]
+        }
+      ],
+      "MoveTiming"           : 0,
+      "DropCardsEvenIfHiding" : true
+    }
+  ],
+  "AgentDuties"            : [
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_CraftHeart_AutoDialogue",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "Craft-Heart automatically greets the player",
+          "en" : "Craft-Heart automatically greets the player",
+          "ja" : "Craft-Heart automatically greets the player"
+        }
+      },
+      "ActivatingMode" : 1,
+      "ActivatingConditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "PreferenceWeights"    : {
+        "BaseWeight" : 2100000000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_CraftHeart_ReturnToSpiritWorldWhenPlayerAbsent",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "Craft-Heart returns to the Spirit World while the player is absent",
+          "en" : "Craft-Heart returns to the Spirit World while the player is absent",
+          "ja" : "Craft-Heart returns to the Spirit World while the player is absent"
+        }
+      },
+      "ActivatingMode" : 1,
+      "ActivatingConditions" : {
+        "InBackground" : true,
+        "PlayerUsesCard" : 0,
+        "RequiredNPCStatValues" : [
+          {
+            "UseAssociatedAgent" : true,
+            "TargetStat"         : {
+              "key" : "AgentExists",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5B58\u5728",
+                "en" : "AgentExists",
+                "ja" : "AgentExists"
+              }
+            },
+            "ConditionRange"     : {
+              "x" : 1.0,
+              "y" : 1.0
+            }
+          }
+        ]
+      },
+      "PreferenceWeights"    : {
+        "BaseWeight" : 2100000000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_CraftHeart_TriggerTraps",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "Craft-Heart triggers traps",
+          "en" : "Craft-Heart triggers traps",
+          "ja" : "Craft-Heart triggers traps"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 2000000000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_CraftHeart_ReturnToSpiritWorld",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "Craft-Heart returns to the Spirit World",
+          "en" : "Craft-Heart returns to the Spirit World",
+          "ja" : "Craft-Heart returns to the Spirit World"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1000000000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_CraftHeart_RestWhileFleeing",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u9003\u8DD1",
+          "en" : "Craft-Heart rests while fleeing",
+          "ja" : "Craft-Heart rests while fleeing"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 5000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_CraftHeart_StayWithPlayer",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "Craft-Heart stays with the player for one hour",
+          "en" : "Craft-Heart stays with the player for one hour",
+          "ja" : "Craft-Heart stays with the player for one hour"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 10000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_CraftHeart_FleeToWoods",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u9003\u8DD1",
+          "en" : "Craft-Heart flees to the woods",
+          "ja" : "Craft-Heart flees to the woods"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_CraftHeart_SeekPlayer",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "\u5BFB\u627E\u73A9\u5BB6",
+          "en" : "Craft-Heart seeks the player",
+          "ja" : "Craft-Heart seeks the player"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1000
+      }
+    },
+    {
+      "TargetDuty" : {
+        "key" : "AgentDuty_CraftHeart_Manifest",
+        "type" : "NPCDuty",
+        "name" : {
+          "zh" : "Craft-Heart manifests in the mortal world",
+          "en" : "Craft-Heart manifests in the mortal world",
+          "ja" : "Craft-Heart manifests in the mortal world"
+        }
+      },
+      "ActivatingMode" : 1,
+      "PreferenceWeights" : {
+        "BaseWeight" : 1000000
+      }
+    }
+  ],
+  "MaxCarryWeight"         : 1.0,
+  "CannotTrade"            : true,
+  "DebugColor"             : {
+    "r" : 1.0,
+    "g" : 0.3884,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "type"                   : "NPCAgent",
+  "key"                    : "Agent_CraftHeart",
+  "icon"                   : "NPCAgent__Agent_CraftHeart__AgentImage",
+  "name"                   : {
+    "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+    "en" : "Craft-Heart",
+    "ja" : "Craft-Heart"
+  },
+  "_uuid"                  : "8044b9328acc4b4495b8ff5b2aca90e9"
+}

@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Makes you recover stamina faster. ",
     "ja" : "\u7CBE\u970A\u306E\u795D\u798F\u3002\u30B9\u30BF\u30DF\u30CA\u306E\u56DE\u5FA9\u304C\u901F\u304F\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Assertiveness__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8010\u529B\u6062\u590D",
@@ -387,27 +388,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "StaminaRecovery",
-  "icon"                    : "GameStat__Assertiveness__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "StaminaRecovery",
+  "icon"                        : "GameStat__Assertiveness__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u8010\u529B\u6062\u590D",
     "en" : "Stamina Recovery",
     "ja" : "\u30B9\u30BF\u30DF\u30CA\u56DE\u5FA9"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_HareSpiritBlessingGranted",
@@ -497,7 +498,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "SpiritShrine_Wind_WindPine",
@@ -703,5 +704,5 @@
       }
     }
   ],
-  "_uuid"                   : "f51012220577e6e41b66da9331733c9d"
+  "_uuid"                       : "f51012220577e6e41b66da9331733c9d"
 }

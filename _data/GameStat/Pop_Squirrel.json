@@ -5,15 +5,16 @@
     "en" : "Population Squirrel",
     "ja" : "\u30EA\u30B9\u306E\u6570"
   },
-  "BaseValue" : 30000.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 30000.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 30000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4F4E\u5BC6\u5EA6",
@@ -159,22 +160,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Pop_Squirrel",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Pop_Squirrel",
+  "name"                        : {
     "zh" : "\u677E\u9F20\u79CD\u7FA4\u6570\u91CF",
     "en" : "Population Squirrel",
     "ja" : "\u30EA\u30B9\u306E\u6570"
   },
-  "min"                     : 0.0,
-  "max"                     : 30000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 30000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "DeadfallTrap",
@@ -219,7 +220,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Pop_Squirrel",
@@ -351,7 +352,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "DeadfallTrap",
@@ -375,5 +376,5 @@
       }
     }
   ],
-  "_uuid"                   : "d15d7817a0e04f645bcafb03a2a56f10"
+  "_uuid"                       : "d15d7817a0e04f645bcafb03a2a56f10"
 }

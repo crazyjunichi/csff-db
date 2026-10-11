@@ -10,30 +10,31 @@
     "en" : "Alleviates inflamation and provides a mild numbing effect against pain and headaches. ",
     "ja" : "\u708E\u75C7\u3001\u75DB\u307F\u3001\u982D\u75DB\u306B\u52B9\u304F\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 48.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "StatListTab__Chemical__Icon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5F31\u971C\u53F6\u6548\u679C",
@@ -259,27 +260,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "StatListTab__Chemical__Icon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FrostleafEffect",
-  "icon"                    : "StatListTab__Chemical__Icon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FrostleafEffect",
+  "icon"                        : "StatListTab__Chemical__Icon",
+  "name"                        : {
     "zh" : "\u971C\u53F6\u6548\u679C",
     "en" : "Frostleaf Effect",
     "ja" : "\u30D5\u30ED\u30B9\u30C8\u30EA\u30FC\u30D5\u52B9\u679C"
   },
-  "min"                     : 0.0,
-  "max"                     : 48.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 48.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "FrostleafFresh",
@@ -367,5 +368,5 @@
       }
     }
   ],
-  "_uuid"                   : "72155de9abb6ecc4bafd3557e7b84536"
+  "_uuid"                       : "72155de9abb6ecc4bafd3557e7b84536"
 }

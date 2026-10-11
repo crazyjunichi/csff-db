@@ -10,41 +10,42 @@
     "en" : "Increases the quality of your wood crafts, such carvings and furniture.",
     "ja" : "\u5F6B\u308A\u7269\u3084\u5BB6\u5177\u4F5C\u308A\u306A\u3069\u306E\u6728\u5DE5\u306E\u30AF\u30AA\u30EA\u30C6\u30A3\u3092\u4E0A\u3052\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "NPCCharacterPerk__PartnerPerk_KnowledgeWoodworker__PerkIcon"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Woodworking",
-  "icon"                    : "NPCCharacterPerk__PartnerPerk_KnowledgeWoodworker__PerkIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Woodworking",
+  "icon"                        : "NPCCharacterPerk__PartnerPerk_KnowledgeWoodworker__PerkIcon",
+  "name"                        : {
     "zh" : "\u6728\u5DE5",
     "en" : "Woodworking",
     "ja" : "\u6728\u5DE5\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_Cabin",
@@ -556,7 +557,7 @@
         "key" : "Bp_SimpleBow",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
@@ -1128,7 +1129,6 @@
         "key" : "Bp_ArrowBone",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__ArrowBone__CardImage",
         "name"     : {
           "zh" : "\u9AA8\u7BAD",
           "en" : "Bone Arrows",
@@ -1915,6 +1915,50 @@
     },
     {
       "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
         "key" : "ClearingPine_BadgerHillQEE",
         "type" : "CardData",
         "CardType" : 8,
@@ -3007,6 +3051,50 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u5288\u67F4",
         "en" : "Action: Chop Wood",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6728\u3092\u5207\u308B"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AChop Wood",
+        "en" : "Action: Chop Wood",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AChop Wood"
       },
       "value"       : {
         "x" : 0.5,
@@ -4162,7 +4250,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -4184,7 +4272,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -4866,7 +4954,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -4888,7 +4976,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -4910,7 +4998,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -4932,7 +5020,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -7435,7 +7523,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_SimpleArrows",
@@ -7507,7 +7595,7 @@
         "key" : "Bp_SimpleBow",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_SimpleBow__CardImage",
+        "icon"     : "GameStat__ArcheryAid__DefaultStatusIcon",
         "name"     : {
           "zh" : "\u7B80\u6613\u5F13",
           "en" : "Simple Bow",
@@ -7701,5 +7789,5 @@
       }
     }
   ],
-  "_uuid"                   : "66d3ce9da7ddfca49a89e31143fe9e43"
+  "_uuid"                       : "66d3ce9da7ddfca49a89e31143fe9e43"
 }

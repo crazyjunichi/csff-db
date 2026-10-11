@@ -10,42 +10,43 @@
     "en" : "Set to 1 while inside a place with High Home Affinity Durability. Used for completing quests and awakening your Hearth. ",
     "ja" : "Set to 1 while inside a place with High Home Affinity Durability. Used for completing quests and awakening your Hearth. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HighHomeAffinity",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HighHomeAffinity",
+  "name"                        : {
     "zh" : "\u9AD8\u5EA6\u5BB6\u56ED\u4EB2\u548C",
     "en" : "High Home Affinity",
     "ja" : "High Home Affinity"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "CabinConstructionLocationAttic",
@@ -289,7 +290,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Spirit_Fire",
@@ -313,5 +314,5 @@
       }
     }
   ],
-  "_uuid"                   : "513d29da4dcdf8b48bc4d9f7643c514f"
+  "_uuid"                       : "513d29da4dcdf8b48bc4d9f7643c514f"
 }

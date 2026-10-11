@@ -1,25 +1,26 @@
 
 {
   "GameName" : {
-    "zh" : "\u8179\u90E8\u5927\u5C0F",
+    "zh" : "\u809A\u5B50\u5927\u5C0F",
     "en" : "Stomach Size",
     "ja" : "Stomach Size"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 400,
-  "Visibility"      : 2,
-  "VisibleInAppearanceTab" : true,
-  "CannotBeInspected"      : true,
-  "StatusesHaveNoBar"      : true,
-  "Statuses"               : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 400,
+  "Visibility"                  : 2,
+  "VisibleInAppearanceTab"      : true,
+  "CannotBeInspected"           : true,
+  "StatusesHaveNoBar"           : true,
+  "Statuses"                    : [
     {
       "GameName" : {
-        "zh" : "Flat Stomach",
+        "zh" : "\u5E73\u5766\u8179\u90E8",
         "en" : "Flat Stomach",
         "ja" : "Flat Stomach"
       },
@@ -36,7 +37,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Full Stomach",
+        "zh" : "\u5706\u6DA6\u8179\u90E8",
         "en" : "Full Stomach",
         "ja" : "Full Stomach"
       },
@@ -53,7 +54,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Large Stomach",
+        "zh" : "\u5927\u8179\u4FBF\u4FBF",
         "en" : "Large Stomach",
         "ja" : "Large Stomach"
       },
@@ -70,7 +71,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Very Large Stomach",
+        "zh" : "\u8D85\u5927\u80C3\u888B",
         "en" : "Very Large Stomach",
         "ja" : "Very Large Stomach"
       },
@@ -86,22 +87,22 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "StomachSize",
-  "name"                    : {
-    "zh" : "\u8179\u90E8\u5927\u5C0F",
+  "type"                        : "GameStat",
+  "key"                         : "StomachSize",
+  "name"                        : {
+    "zh" : "\u809A\u5B50\u5927\u5C0F",
     "en" : "Stomach Size",
     "ja" : "Stomach Size"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "FatDistribution",
@@ -323,5 +324,5 @@
       }
     }
   ],
-  "_uuid"                   : "ed1f7e3ce64a46de8548634e7651ab6c"
+  "_uuid"                       : "ed1f7e3ce64a46de8548634e7651ab6c"
 }

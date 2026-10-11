@@ -1,0 +1,1044 @@
+
+{
+  "GameName" : {
+    "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+    "en" : "Spearfishing Aid",
+    "ja" : "Spearfishing Aid"
+  },
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
+    "x" : 0.0,
+    "y" : 288.0
+  },
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "VisibleValueRange"           : {
+    "x" : 0.0,
+    "y" : 288.0
+  },
+  "BarColor"                    : {
+    "r" : 0.0941,
+    "g" : 0.298,
+    "b" : 0.8275,
+    "a" : 1.0
+  },
+  "BarHighlightColor"           : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon"           : {
+    "FileName" : "NPCAgent__Agent_Duck1__AgentImage"
+  },
+  "Statuses"                    : [
+    {
+      "GameName" : {
+        "zh" : "Spearfishing Aid",
+        "en" : "Spearfishing Aid",
+        "ja" : "Spearfishing Aid"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Duck1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 2,
+        "m_Y" : 36
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "SpearfishingAid",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+              "en" : "Spearfishing Aid",
+              "ja" : "Spearfishing Aid"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
+        }
+      ],
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "SpearfishingAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u53C9\u9C7C\u52A8\u4F5C",
+                "en" : "SpearfishingAction",
+                "ja" : "SpearfishingAction"
+              }
+            }
+          ],
+          "DurationModifier" : 0,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 1.0,
+                "y" : 1.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Gratification",
+                "type" : "GameStat",
+                "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                "min"  : -100.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u6EE1\u8DB3\u611F",
+                  "en" : "Gratification",
+                  "ja" : "\u6E80\u8DB3\u611F"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 1.0,
+                "y" : 1.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Focus",
+                "type" : "GameStat",
+                "icon" : "GameStat__Focus__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 96.0,
+                "name" : {
+                  "zh" : "\u4E13\u6CE8\u5EA6",
+                  "en" : "Focus",
+                  "ja" : "\u96C6\u4E2D\u529B"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 1.0,
+                "y" : 1.0
+              }
+            }
+          ],
+          "AddedTemporaryStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_SpearFishing",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_Spear_Flint__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u53C9\u9C7C",
+                  "en" : "Spear Fishing",
+                  "ja" : "\u30B9\u30D4\u30A2\u30D5\u30A3\u30C3\u30B7\u30F3\u30B0\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 10.0,
+                "y" : 10.0
+              }
+            }
+          ],
+          "FadeToBlack"                 : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Spearfishing Aid",
+        "en" : "Spearfishing Aid",
+        "ja" : "Spearfishing Aid"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Duck1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 37,
+        "m_Y" : 72
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "SpearfishingAid",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+              "en" : "Spearfishing Aid",
+              "ja" : "Spearfishing Aid"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        }
+      ],
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "SpearfishingAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u53C9\u9C7C\u52A8\u4F5C",
+                "en" : "SpearfishingAction",
+                "ja" : "SpearfishingAction"
+              }
+            }
+          ],
+          "DurationModifier" : 0,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 2.0,
+                "y" : 2.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Gratification",
+                "type" : "GameStat",
+                "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                "min"  : -100.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u6EE1\u8DB3\u611F",
+                  "en" : "Gratification",
+                  "ja" : "\u6E80\u8DB3\u611F"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 2.0,
+                "y" : 2.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Focus",
+                "type" : "GameStat",
+                "icon" : "GameStat__Focus__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 96.0,
+                "name" : {
+                  "zh" : "\u4E13\u6CE8\u5EA6",
+                  "en" : "Focus",
+                  "ja" : "\u96C6\u4E2D\u529B"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 2.0,
+                "y" : 2.0
+              }
+            }
+          ],
+          "AddedTemporaryStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_SpearFishing",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_Spear_Flint__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u53C9\u9C7C",
+                  "en" : "Spear Fishing",
+                  "ja" : "\u30B9\u30D4\u30A2\u30D5\u30A3\u30C3\u30B7\u30F3\u30B0\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 20.0,
+                "y" : 20.0
+              }
+            }
+          ],
+          "FadeToBlack"                 : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Spearfishing Aid",
+        "en" : "Spearfishing Aid",
+        "ja" : "Spearfishing Aid"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Duck1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 73,
+        "m_Y" : 108
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "SpearfishingAid",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+              "en" : "Spearfishing Aid",
+              "ja" : "Spearfishing Aid"
+            }
+          },
+          "RateModifier" : {
+            "x" : -3.0,
+            "y" : -3.0
+          }
+        }
+      ],
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "SpearfishingAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u53C9\u9C7C\u52A8\u4F5C",
+                "en" : "SpearfishingAction",
+                "ja" : "SpearfishingAction"
+              }
+            }
+          ],
+          "DurationModifier" : 0,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 3.0,
+                "y" : 3.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Gratification",
+                "type" : "GameStat",
+                "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                "min"  : -100.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u6EE1\u8DB3\u611F",
+                  "en" : "Gratification",
+                  "ja" : "\u6E80\u8DB3\u611F"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 3.0,
+                "y" : 3.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Focus",
+                "type" : "GameStat",
+                "icon" : "GameStat__Focus__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 96.0,
+                "name" : {
+                  "zh" : "\u4E13\u6CE8\u5EA6",
+                  "en" : "Focus",
+                  "ja" : "\u96C6\u4E2D\u529B"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 3.0,
+                "y" : 3.0
+              }
+            }
+          ],
+          "AddedTemporaryStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_SpearFishing",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_Spear_Flint__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u53C9\u9C7C",
+                  "en" : "Spear Fishing",
+                  "ja" : "\u30B9\u30D4\u30A2\u30D5\u30A3\u30C3\u30B7\u30F3\u30B0\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 30.0,
+                "y" : 30.0
+              }
+            }
+          ],
+          "FadeToBlack"                 : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Spearfishing Aid",
+        "en" : "Spearfishing Aid",
+        "ja" : "Spearfishing Aid"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Duck1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 109,
+        "m_Y" : 144
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "SpearfishingAid",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+              "en" : "Spearfishing Aid",
+              "ja" : "Spearfishing Aid"
+            }
+          },
+          "RateModifier" : {
+            "x" : -4.0,
+            "y" : -4.0
+          }
+        }
+      ],
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "SpearfishingAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u53C9\u9C7C\u52A8\u4F5C",
+                "en" : "SpearfishingAction",
+                "ja" : "SpearfishingAction"
+              }
+            }
+          ],
+          "DurationModifier" : 0,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 4.0,
+                "y" : 4.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Gratification",
+                "type" : "GameStat",
+                "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                "min"  : -100.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u6EE1\u8DB3\u611F",
+                  "en" : "Gratification",
+                  "ja" : "\u6E80\u8DB3\u611F"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 4.0,
+                "y" : 4.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Focus",
+                "type" : "GameStat",
+                "icon" : "GameStat__Focus__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 96.0,
+                "name" : {
+                  "zh" : "\u4E13\u6CE8\u5EA6",
+                  "en" : "Focus",
+                  "ja" : "\u96C6\u4E2D\u529B"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 4.0,
+                "y" : 4.0
+              }
+            }
+          ],
+          "AddedTemporaryStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_SpearFishing",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_Spear_Flint__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u53C9\u9C7C",
+                  "en" : "Spear Fishing",
+                  "ja" : "\u30B9\u30D4\u30A2\u30D5\u30A3\u30C3\u30B7\u30F3\u30B0\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 40.0,
+                "y" : 40.0
+              }
+            }
+          ],
+          "FadeToBlack"                 : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Spearfishing Aid",
+        "en" : "Spearfishing Aid",
+        "ja" : "Spearfishing Aid"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Duck1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 145,
+        "m_Y" : 216
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "SpearfishingAid",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+              "en" : "Spearfishing Aid",
+              "ja" : "Spearfishing Aid"
+            }
+          },
+          "RateModifier" : {
+            "x" : -5.5,
+            "y" : -5.5
+          }
+        }
+      ],
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "SpearfishingAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u53C9\u9C7C\u52A8\u4F5C",
+                "en" : "SpearfishingAction",
+                "ja" : "SpearfishingAction"
+              }
+            }
+          ],
+          "DurationModifier" : 0,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 5.0,
+                "y" : 5.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Gratification",
+                "type" : "GameStat",
+                "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                "min"  : -100.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u6EE1\u8DB3\u611F",
+                  "en" : "Gratification",
+                  "ja" : "\u6E80\u8DB3\u611F"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 5.0,
+                "y" : 5.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Focus",
+                "type" : "GameStat",
+                "icon" : "GameStat__Focus__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 96.0,
+                "name" : {
+                  "zh" : "\u4E13\u6CE8\u5EA6",
+                  "en" : "Focus",
+                  "ja" : "\u96C6\u4E2D\u529B"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 5.0,
+                "y" : 5.0
+              }
+            }
+          ],
+          "AddedTemporaryStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_SpearFishing",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_Spear_Flint__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u53C9\u9C7C",
+                  "en" : "Spear Fishing",
+                  "ja" : "\u30B9\u30D4\u30A2\u30D5\u30A3\u30C3\u30B7\u30F3\u30B0\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 50.0,
+                "y" : 50.0
+              }
+            }
+          ],
+          "FadeToBlack"                 : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Spearfishing Aid",
+        "en" : "Spearfishing Aid",
+        "ja" : "Spearfishing Aid"
+      },
+      "Icon"     : {
+        "FileName" : "NPCAgent__Agent_Duck1__AgentImage"
+      },
+      "ValueRange" : {
+        "m_X" : 217,
+        "m_Y" : 288
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "SpearfishingAid",
+            "type" : "GameStat",
+            "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+            "min"  : 0.0,
+            "max"  : 288.0,
+            "name" : {
+              "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+              "en" : "Spearfishing Aid",
+              "ja" : "Spearfishing Aid"
+            }
+          },
+          "RateModifier" : {
+            "x" : -7.0,
+            "y" : -7.0
+          }
+        }
+      ],
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "SpearfishingAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u53C9\u9C7C\u52A8\u4F5C",
+                "en" : "SpearfishingAction",
+                "ja" : "SpearfishingAction"
+              }
+            }
+          ],
+          "DurationModifier" : 0,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Stamina",
+                "type" : "GameStat",
+                "icon" : "GameStat__Stamina__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 32.0,
+                "name" : {
+                  "zh" : "\u8010\u529B",
+                  "en" : "Stamina",
+                  "ja" : "\u30B9\u30BF\u30DF\u30CA"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 6.0,
+                "y" : 6.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Gratification",
+                "type" : "GameStat",
+                "icon" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+                "min"  : -100.0,
+                "max"  : 100.0,
+                "name" : {
+                  "zh" : "\u6EE1\u8DB3\u611F",
+                  "en" : "Gratification",
+                  "ja" : "\u6E80\u8DB3\u611F"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 6.0,
+                "y" : 6.0
+              }
+            },
+            {
+              "Stat" : {
+                "key" : "Focus",
+                "type" : "GameStat",
+                "icon" : "GameStat__Focus__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 96.0,
+                "name" : {
+                  "zh" : "\u4E13\u6CE8\u5EA6",
+                  "en" : "Focus",
+                  "ja" : "\u96C6\u4E2D\u529B"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 6.0,
+                "y" : 6.0
+              }
+            }
+          ],
+          "AddedTemporaryStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Skill_SpearFishing",
+                "type" : "GameStat",
+                "icon" : "CardData__Bp_Spear_Flint__CardImage",
+                "min"  : 0.0,
+                "max"  : 150.0,
+                "name" : {
+                  "zh" : "\u53C9\u9C7C",
+                  "en" : "Spear Fishing",
+                  "ja" : "\u30B9\u30D4\u30A2\u30D5\u30A3\u30C3\u30B7\u30F3\u30B0\u306E\u30B9\u30AD\u30EB"
+                }
+              },
+              "ValueModifier" : {
+                "x" : 60.0,
+                "y" : 60.0
+              }
+            }
+          ],
+          "FadeToBlack"                 : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
+    "Icon" : {
+      "FileName" : "NPCAgent__Agent_Duck1__AgentImage"
+    },
+    "StepValue" : 10.0
+  },
+  "type"                        : "GameStat",
+  "key"                         : "SpearfishingAid",
+  "icon"                        : "NPCAgent__Agent_Duck1__AgentImage",
+  "name"                        : {
+    "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+    "en" : "Spearfishing Aid",
+    "ja" : "Spearfishing Aid"
+  },
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
+    {
+      "source" : {
+        "key" : "Event_DuckSpiritBlessingGranted",
+        "type" : "CardData",
+        "CardType" : 3,
+        "icon"     : "NPCAgent__Agent_Duck1__AgentImage",
+        "name"     : {
+          "zh" : "\u8D50\u798F",
+          "en" : "Blessing",
+          "ja" : "\u52A0\u8B77"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1A\u7EE7\u7EED",
+        "en" : "Action: Continue",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7D9A\u3051\u308B"
+      },
+      "value"       : {
+        "x" : 288.0,
+        "y" : 288.0
+      }
+    }
+  ],
+  "_modifierRates"              : [
+    {
+      "source" : {
+        "key" : "LQ_SpiritDuck",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Duck1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u7CBE\u9B44",
+          "en" : "Duck Spirit",
+          "ja" : "Duck Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ASpearfishing Aid : tag_SpiritEnchantable",
+        "en" : "Passive Effect: Spearfishing Aid : tag_SpiritEnchantable",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASpearfishing Aid : tag_SpiritEnchantable"
+      },
+      "value"       : {
+        "x" : 1.2,
+        "y" : 1.2
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : -3.0,
+        "y" : -3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : -4.0,
+        "y" : -4.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : -5.5,
+        "y" : -5.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfishingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u53C9\u9C7C\u63F4\u52A9",
+          "en" : "Spearfishing Aid",
+          "ja" : "Spearfishing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfishing Aid",
+        "en" : "Status Stage: Spearfishing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfishing Aid"
+      },
+      "value"       : {
+        "x" : -7.0,
+        "y" : -7.0
+      }
+    }
+  ],
+  "_uuid"                       : "a382566d9e5364744bf40df3dbbe1615"
+}

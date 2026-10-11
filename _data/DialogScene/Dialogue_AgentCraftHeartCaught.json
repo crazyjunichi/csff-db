@@ -1,0 +1,402 @@
+
+{
+  "SceneImage" : {
+    "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+  },
+  "SceneLines" : [
+    {
+      "StartingPoint" : true,
+      "Line"          : {
+        "zh" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead.",
+        "en" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead.",
+        "ja" : "The fox suddenly jumps out of your reach, startling you.\n\nHe seems to have been playing dead."
+      },
+      "OverrideSceneImage" : {
+        "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+      },
+      "NextStep"           : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 2,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "Come back!",
+            "en" : "Come back!",
+            "ja" : "Come back!"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "SincerePraise",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "He smiles at you.\n\nHe seems to be praising your trapping skills... and this time, he seems to mean it.",
+                "en" : "He smiles at you.\n\nHe seems to be praising your trapping skills... and this time, he seems to mean it.",
+                "ja" : "He smiles at you.\n\nHe seems to be praising your trapping skills... and this time, he seems to mean it."
+              }
+            }
+          }
+        }
+      ],
+      "key"                : "PlayingDead",
+      "type"               : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "He smiles at you.\n\nHe seems to be praising your trapping skills... and this time, he seems to mean it.",
+        "en" : "He smiles at you.\n\nHe seems to be praising your trapping skills... and this time, he seems to mean it.",
+        "ja" : "He smiles at you.\n\nHe seems to be praising your trapping skills... and this time, he seems to mean it."
+      },
+      "OverrideSceneImage" : {
+        "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+      },
+      "NextStep"           : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 2,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "Uhm... thanks?",
+            "en" : "Uhm... thanks?",
+            "ja" : "Uhm... thanks?"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "InvitationToCall",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "The fox blinks at you.\n\nSomehow, you understand. He wants you to call on him... if you ever need his help.",
+                "en" : "The fox blinks at you.\n\nSomehow, you understand. He wants you to call on him... if you ever need his help.",
+                "ja" : "The fox blinks at you.\n\nSomehow, you understand. He wants you to call on him... if you ever need his help."
+              }
+            }
+          },
+          "ActionToPerform" : {
+            "StatModifications" : [
+              {
+                "Stat" : {
+                  "key" : "Stat_CraftHeartSpiritBound",
+                  "type" : "GameStat",
+                  "min"  : 0.0,
+                  "max"  : 1.0,
+                  "name" : {
+                    "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44\u7ED1\u5B9A",
+                    "en" : "Stat_CraftHeartSpiritBound",
+                    "ja" : "Stat_CraftHeartSpiritBound"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : 1.0,
+                  "y" : 1.0
+                },
+                "IgnoreNovelty" : true
+              }
+            ],
+            "BlueprintsFullUnlock" : [
+              {
+                "key" : "Bp_CraftHeartSpiritCalling_",
+                "type" : "CardData",
+                "CardType" : 7,
+                "icon"     : "NPCAgent__Agent_Fox1__AgentImage",
+                "name"     : {
+                  "zh" : "\u547C\u5524\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+                  "en" : "Craft-Heart Spirit Calling",
+                  "ja" : "Craft-Heart Spirit Calling"
+                }
+              }
+            ],
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "I'm going to get you!",
+            "en" : "I'm going to get you!",
+            "ja" : "I'm going to get you!"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "InvitationToChase",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+                "en" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+                "ja" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him."
+              }
+            }
+          },
+          "ActionToPerform" : {
+            "NPCStatModifications" : [
+              {
+                "TargetStat" : {
+                  "key" : "AgentCraftHeartFleeMode",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+                    "en" : "AgentCraftHeartFleeMode",
+                    "ja" : "AgentCraftHeartFleeMode"
+                  }
+                },
+                "TargetAgent" : {
+                  "key" : "Agent_CraftHeart",
+                  "type" : "NPCAgent",
+                  "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+                  "name" : {
+                    "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+                    "en" : "Craft-Heart",
+                    "ja" : "Craft-Heart"
+                  }
+                },
+                "ValueChange" : {
+                  "x" : 1.0,
+                  "y" : 1.0
+                }
+              }
+            ],
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        }
+      ],
+      "key"                : "SincerePraise",
+      "type"               : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "The fox blinks at you.\n\nSomehow, you understand. He wants you to call on him... if you ever need his help.",
+        "en" : "The fox blinks at you.\n\nSomehow, you understand. He wants you to call on him... if you ever need his help.",
+        "ja" : "The fox blinks at you.\n\nSomehow, you understand. He wants you to call on him... if you ever need his help."
+      },
+      "OverrideSceneImage" : {
+        "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+      },
+      "NextStep"           : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 2,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "Continue",
+            "en" : "Continue",
+            "ja" : "Continue"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "FarewellAndBlessing",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him.",
+                "en" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him.",
+                "ja" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him."
+              }
+            }
+          }
+        }
+      ],
+      "key"                : "InvitationToCall",
+      "type"               : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+        "en" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him.",
+        "ja" : "The fox darts away, then stops just before disappearing into the foliage.\n\nHe looks back at you and smiles again, taunting you to follow him."
+      },
+      "OverrideSceneImage" : {
+        "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+      },
+      "NextStep"           : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 2,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "Go after him!",
+            "en" : "Go after him!",
+            "ja" : "Go after him!"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          },
+          "ActionToPerform" : {
+            "StartCombatEncounter" : {
+              "key" : "Combat_EncounterCraftheart",
+              "type" : "Encounter",
+              "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+              "name" : {
+                "zh" : "Craft-Heart",
+                "en" : "Craft-Heart",
+                "ja" : "Craft-Heart"
+              }
+            },
+            "SkipEncounterEvent"   : true,
+            "OverrideEncounterNPC" : true,
+            "EncounterNPC"         : {
+              "key" : "Agent_CraftHeart",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+              "name" : {
+                "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+                "en" : "Craft-Heart",
+                "ja" : "Craft-Heart"
+              }
+            },
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "Ignore him.",
+            "en" : "Ignore him.",
+            "ja" : "Ignore him."
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          },
+          "ActionToPerform" : {
+            "NPCStatModifications" : [
+              {
+                "TargetStat" : {
+                  "key" : "AgentCraftHeartFleeMode",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+                    "en" : "AgentCraftHeartFleeMode",
+                    "ja" : "AgentCraftHeartFleeMode"
+                  }
+                },
+                "TargetAgent" : {
+                  "key" : "Agent_CraftHeart",
+                  "type" : "NPCAgent",
+                  "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+                  "name" : {
+                    "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+                    "en" : "Craft-Heart",
+                    "ja" : "Craft-Heart"
+                  }
+                },
+                "ValueChange" : {
+                  "x" : 1.0,
+                  "y" : 1.0
+                }
+              }
+            ],
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        }
+      ],
+      "key"                : "InvitationToChase",
+      "type"               : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him.",
+        "en" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him.",
+        "ja" : "The fox smiles at you one last time, then quickly disappears into the foliage.\n\nYou realize you've understood something deep about him."
+      },
+      "OverrideSceneImage" : {
+        "FileName" : "NPCAgent__Agent_CraftHeart__AgentImage"
+      },
+      "NextStep"           : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton" : 2,
+      "ActionToPerform"    : {
+        "NPCStatModifications" : [
+          {
+            "TargetStat" : {
+              "key" : "AgentCraftHeartFleeMode",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+                "en" : "AgentCraftHeartFleeMode",
+                "ja" : "AgentCraftHeartFleeMode"
+              }
+            },
+            "TargetAgent" : {
+              "key" : "Agent_CraftHeart",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+              "name" : {
+                "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+                "en" : "Craft-Heart",
+                "ja" : "Craft-Heart"
+              }
+            },
+            "ValueChange" : {
+              "x" : 1.0,
+              "y" : 1.0
+            },
+            "IgnoreNovelty" : true
+          }
+        ],
+        "DroppedCards"         : [
+          {
+            "DroppedCard" : {
+              "key" : "Event_CraftheartSpiritBlessingGranted",
+              "type" : "CardData",
+              "CardType" : 3,
+              "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+              "name"     : {
+                "zh" : "Blessing",
+                "en" : "Blessing",
+                "ja" : "Blessing"
+              }
+            },
+            "Quantity"    : {
+              "m_X" : 1,
+              "m_Y" : 1
+            },
+            "TransferRules" : {
+              "Spoilage" : 0,
+              "Usage"    : 0,
+              "Fuel"     : 0,
+              "Progress" : 0,
+              "Special1" : 0,
+              "Special2" : 0,
+              "Special3" : 0,
+              "Special4" : 0,
+              "SpoilageValue" : 0.0,
+              "UsageValue"    : 0.0,
+              "FuelValue"     : 0.0,
+              "ProgressValue" : 0.0,
+              "Special1Value" : 0.0,
+              "Special2Value" : 0.0,
+              "Special3Value" : 0.0,
+              "Special4Value" : 0.0,
+              "SpoilageFrom"  : 1,
+              "UsageFrom"     : 1,
+              "FuelFrom"      : 1,
+              "ProgressFrom"  : 1,
+              "Special1From"  : 1,
+              "Special2From"  : 1,
+              "Special3From"  : 1,
+              "Special4From"  : 1
+            }
+          }
+        ],
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      },
+      "key"                : "FarewellAndBlessing",
+      "type"               : "dialog"
+    }
+  ],
+  "key"        : "Dialogue_AgentCraftHeartCaught",
+  "type"       : "DialogScene",
+  "name"       : {
+    "zh" : "Dialogue_AgentCraftHeartCaught",
+    "en" : "Dialogue_AgentCraftHeartCaught",
+    "ja" : "Dialogue_AgentCraftHeartCaught"
+  }
+}

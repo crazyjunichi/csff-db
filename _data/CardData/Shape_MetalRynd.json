@@ -67,7 +67,7 @@
     {
       "key" : "tag_Heatable",
       "type" : "CardTag",
-      "count" : 368,
+      "count" : 371,
       "name"  : {
         "zh" : "\u53EF\u52A0\u70ED\u7684",
         "en" : "Heatable",
@@ -1032,7 +1032,7 @@
           }
         },
         "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1ASmith",
+          "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
           "en" : "Action: Smith",
           "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
         },
@@ -1045,7 +1045,7 @@
   },
   "SpecialDurability2"          : {
     "CardStatName" : {
-      "zh" : "Metal Quality",
+      "zh" : "\u603B\u91D1\u5C5E\u54C1\u8D28",
       "en" : "Metal Quality",
       "ja" : "Metal Quality"
     },
@@ -1189,7 +1189,7 @@
         ]
       },
       "ActionName"       : {
-        "zh" : "Smith",
+        "zh" : "\u953B\u9020",
         "en" : "Smith",
         "ja" : "Smith"
       },
@@ -1288,12 +1288,13 @@
           "Active"     : true
         }
       },
+      "LocksCardsForUse"                       : true,
       "StatModifications"                      : [
         {
           "Stat" : {
             "key" : "Skill_Smithing",
             "type" : "GameStat",
-            "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+            "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
             "min"  : 0.0,
             "max"  : 150.0,
             "name" : {
@@ -1452,7 +1453,7 @@
             "InputStat" : {
               "key" : "Skill_Smithing",
               "type" : "GameStat",
-              "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+              "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
               "min"  : 0.0,
               "max"  : 150.0,
               "name" : {

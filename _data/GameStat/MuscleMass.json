@@ -10,28 +10,29 @@
     "en" : "Increases the amount of weight you can carry. Can be increased through exercise and by carrying heavy loads.",
     "ja" : "\u4E00\u5EA6\u3067\u6301\u3061\u4E0A\u3052\u3089\u308C\u308B\u91CF\u304C\u5897\u3048\u308B\u3002\u904B\u52D5\u3084\u91CD\u3044\u7269\u3092\u6301\u3061\u4E0A\u3052\u305F\u3089\u5897\u3048\u308B\u3002"
   },
-  "BaseValue"   : 1600.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 1600.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 3200.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 3200.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5F88\u9AD8\u808C\u8089\u6C34\u5E73",
@@ -311,23 +312,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "MuscleMass",
-  "icon"                    : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MuscleMass",
+  "icon"                        : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u808C\u8089\u6C34\u5E73",
     "en" : "Muscle Mass",
     "ja" : "\u7B4B\u8089\u5897\u91CF"
   },
-  "min"                     : 0.0,
-  "max"                     : 3200.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 3200.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "MuscleGrower",
@@ -513,5 +514,5 @@
       }
     }
   ],
-  "_uuid"                   : "60641b6752e934548a3b8913921a777a"
+  "_uuid"                       : "60641b6752e934548a3b8913921a777a"
 }

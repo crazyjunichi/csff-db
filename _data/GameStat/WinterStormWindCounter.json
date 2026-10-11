@@ -5,42 +5,43 @@
     "en" : "WinterStormWindCounter",
     "ja" : "WinterStormWindCounter"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 2.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WinterStormWindCounter",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WinterStormWindCounter",
+  "name"                        : {
     "zh" : "\u51AC\u5B63\u98CE\u66B4\u98CE\u529B\u8BA1\u6570",
     "en" : "WinterStormWindCounter",
     "ja" : "WinterStormWindCounter"
   },
-  "min"                     : 0.0,
-  "max"                     : 2.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 2.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_WinterStormWind",
@@ -86,7 +87,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Weather_5_Blizzard",
@@ -110,7 +111,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_WinterStormWindMaker",
@@ -132,5 +133,5 @@
       }
     }
   ],
-  "_uuid"                   : "a6a28a688003e064eb65bb3334c8fc54"
+  "_uuid"                       : "a6a28a688003e064eb65bb3334c8fc54"
 }

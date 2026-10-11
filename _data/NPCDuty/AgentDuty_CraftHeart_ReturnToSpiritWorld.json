@@ -1,0 +1,79 @@
+
+{
+  "DutyName" : {
+    "zh" : "Craft-Heart returns to the Spirit World",
+    "en" : "Craft-Heart returns to the Spirit World",
+    "ja" : "Craft-Heart returns to the Spirit World"
+  },
+  "DutySummary" : {
+    "zh" : "Craft-Heart returns to the Spirit World",
+    "en" : "Craft-Heart returns to the Spirit World",
+    "ja" : "Craft-Heart returns to the Spirit World"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyConditions"    : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironmentTags" : [
+      {
+        "key" : "tag_Env_HollowDespawnArea",
+        "type" : "CardTag",
+        "count" : 2,
+        "name"  : {
+          "zh" : "\u865A\u7A7A\u6D88\u5931\u533A",
+          "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
+          "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+        }
+      }
+    ],
+    "RequiredNPCStatValues"   : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentCraftHeartFleeMode",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+            "en" : "AgentCraftHeartFleeMode",
+            "ja" : "AgentCraftHeartFleeMode"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "CraftHeartReturnToSpiritWorld",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "CraftHeartReturnToSpiritWorld",
+        "en" : "CraftHeartReturnToSpiritWorld",
+        "ja" : "CraftHeartReturnToSpiritWorld"
+      }
+    },
+    {
+      "key" : "CraftHeartEndFleeing",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "CraftHeartEndFleeing",
+        "en" : "CraftHeartEndFleeing",
+        "ja" : "CraftHeartEndFleeing"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_CraftHeart_ReturnToSpiritWorld",
+  "name"                 : {
+    "zh" : "Craft-Heart returns to the Spirit World",
+    "en" : "Craft-Heart returns to the Spirit World",
+    "ja" : "Craft-Heart returns to the Spirit World"
+  },
+  "_uuid"                : "f558c2c3dc054ae0b307993dfd471a1b"
+}

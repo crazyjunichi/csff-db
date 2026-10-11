@@ -10,15 +10,16 @@
     "en" : "Gives you nausea at its earlier stages, then increases your appetite and finally gives you a penalty to movement.",
     "ja" : "\u598A\u5A20\u521D\u671F\u306F\u3001\u5410\u304D\u6C17\u304C\u3059\u308B\u3002\u5F90\u3005\u306B\u98DF\u6B32\u304C\u5897\u3057\u3001\u6700\u7D42\u7684\u306B\u52D5\u304D\u3065\u3089\u304F\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 8640.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "Statuses"        : [
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6000\u5B55\u521D\u671F",
@@ -385,23 +386,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Pregnancy",
-  "icon"                    : "CardData__BoarFreeFemale__SpecialDurability4-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Pregnancy",
+  "icon"                        : "CardData__BoarFreeFemale__SpecialDurability4-OverrideIcon",
+  "name"                        : {
     "zh" : "\u6000\u5B55",
     "en" : "Pregnancy",
     "ja" : "\u598A\u5A20"
   },
-  "min"                     : 0.0,
-  "max"                     : 8640.0,
-  "_triggers"               : [
+  "min"                         : 0.0,
+  "max"                         : 8640.0,
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_DeepPregancy",
@@ -443,5 +444,5 @@
       }
     }
   ],
-  "_uuid"                   : "7a3e477ec6e4d08429d4d16f570808df"
+  "_uuid"                       : "7a3e477ec6e4d08429d4d16f570808df"
 }

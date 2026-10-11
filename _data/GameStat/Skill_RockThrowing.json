@@ -10,41 +10,42 @@
     "en" : "Increases your success chances when throwing rocks.",
     "ja" : "\u77F3\u6295\u3052\u308B\u6210\u529F\u7387\u304C\u9AD8\u304F\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Skill_RockThrowing__DefaultStatusIcon"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_RockThrowing",
-  "icon"                    : "GameStat__Skill_RockThrowing__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_RockThrowing",
+  "icon"                        : "GameStat__Skill_RockThrowing__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6295\u77F3",
     "en" : "Rock Throwing",
     "ja" : "\u77F3\u6295\u3052\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "StoneFriend",
@@ -458,7 +459,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_Sling",
@@ -482,5 +483,5 @@
       }
     }
   ],
-  "_uuid"                   : "45c4f53ff1af0b644bae584b2cacc7f6"
+  "_uuid"                       : "45c4f53ff1af0b644bae584b2cacc7f6"
 }

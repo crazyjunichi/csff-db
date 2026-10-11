@@ -10,6 +10,21 @@
     "en" : "Found in oak clearings; has very few needs and is ideal for letting fields rest because of its nutrient fixing capabilities.\n\nCan be used as bedding material, animal feed, human food or as a cover crop.",
     "ja" : "\u30AA\u30FC\u30AF\u306E\u68EE\u306E\u5E73\u91CE\u3067\u898B\u3064\u3051\u3089\u308C\u308B\u3002\u80B2\u3066\u3084\u3059\u3044\u4E0A\u306B\u5730\u9762\u306E\u6804\u990A\u3092\u56DE\u5FA9\u3059\u308B\u52B9\u679C\u304C\u3042\u308B\u3002\n\n\u30D9\u30C3\u30C9\u306E\u7D20\u6750\u3001\u990C\u3001\u98DF\u6599\u3084\u88AB\u8986\u4F5C\u7269\u3068\u3057\u3066\u4F7F\u7528\u3067\u304D\u308B\u3002"
   },
+  "AlternateNames"  : [
+    {
+      "Conditions" : {
+        "Special1Range" : {
+          "x" : 1.0,
+          "y" : 5760.0
+        }
+      },
+      "Name"       : {
+        "zh" : "Blooming Clover Patch",
+        "en" : "Blooming Clover Patch",
+        "ja" : "Blooming Clover Patch"
+      }
+    }
+  ],
   "CardImage"       : {
     "FileName" : "CardData__Bp_CloverField__CardImage"
   },
@@ -17,7 +32,7 @@
   "ObjectWeight"    : 0.0,
   "AddedWeightFromDurabilities" : [
     {
-      "InputDurability" : 32,
+      "InputDurability" : 128,
       "Value"           : {
         "Active" : true,
         "InputValueRange" : {
@@ -35,6 +50,18 @@
   ],
   "WeightReductionWhenEquipped" : 0.0,
   "TradingValue"                : 0.0,
+  "CardTags"                    : [
+    {
+      "key" : "tag_HasFlowersForBees",
+      "type" : "CardTag",
+      "count" : 8,
+      "name"  : {
+        "zh" : "\u6709\u82B1\u4F9B\u871C\u8702",
+        "en" : "Temper",
+        "ja" : "Temper"
+      }
+    }
+  ],
   "MapStructureType"            : 0,
   "FlavourFadeRate"             : 0.0,
   "CompatibleDuties"            : [
@@ -133,9 +160,179 @@
   "LiquidEvaporationRate"       : 0.0,
   "SpecialDurability1"          : {
     "CardStatName" : {
-      "zh" : "\u9971\u6EE1\u5EA6",
+      "zh" : "Flowers",
+      "en" : "Flowers",
+      "ja" : "Flowers"
+    },
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 5760.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "PauseRateWhenEnvWeightIsFull" : true,
+    "HidingOptions"                : 0,
+    "TextDisplay"                  : 0,
+    "NumberPrecision"              : 0,
+    "OverrideIcon"                 : {
+      "FileName" : "CardData__AppleweedPlantedGrowing__Progress-OverrideIcon"
+    },
+    "OnZeroNotification"           : 0,
+    "OnFullNotification"           : 0,
+    "FloatValue"                   : 0.0,
+    "Active"                       : true,
+    "durabilityKey"                : "SpecialDurability1",
+    "_rateModifications"           : [
+      {
+        "source" : {
+          "key" : "CloverPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_CloverField__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
+            "en" : "Clover Patch",
+            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AGrows Flowers in Summer",
+          "en" : "Passive Effect\uFF1AGrows Flowers in Summer",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Flowers in Summer"
+        },
+        "value"       : {
+          "x" : 3.0,
+          "y" : 3.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CloverPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_CloverField__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
+            "en" : "Clover Patch",
+            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AFlowers go away in Autumn",
+          "en" : "Passive Effect\uFF1AFlowers go away in Autumn",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlowers go away in Autumn"
+        },
+        "value"       : {
+          "x" : -12.0,
+          "y" : -12.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CloverPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_CloverField__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
+            "en" : "Clover Patch",
+            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51AC\u5B63\u4E0D\u751F\u957F",
+          "en" : "Passive Effect\uFF1ADoes not Grow in Winter",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoes not Grow in Winter"
+        },
+        "value"       : {
+          "x" : -9.5,
+          "y" : -9.5
+        }
+      },
+      {
+        "source" : {
+          "key" : "CloverPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_CloverField__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
+            "en" : "Clover Patch",
+            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6625\u5B63\u5FEB\u901F\u751F\u957F",
+          "en" : "Passive Effect\uFF1AGrows Fast In Spring",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Fast In Spring"
+        },
+        "value"       : {
+          "x" : 5.0,
+          "y" : 5.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Pk_5_25_StartingCattle_PregnantCow",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__BoarFreeFemale__CardImage",
+          "name"     : {
+            "zh" : "\u725B",
+            "en" : "Cow",
+            "ja" : "\u725B"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : -4.0,
+          "y" : -4.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "BeeSkep",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BeeSkep__CardImage",
+          "name"     : {
+            "zh" : "Bee Skep",
+            "en" : "Bee Skep",
+            "ja" : "Bee Skep"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      }
+    ]
+  },
+  "SpecialDurability2"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability2"
+  },
+  "SpecialDurability3"          : {
+    "CardStatName" : {
+      "zh" : "\u4EA7\u91CF",
       "en" : "Yield",
-      "ja" : "\u53CE\u91CF"
+      "ja" : "Yield"
     },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 5760.0,
@@ -152,7 +349,7 @@
     "OnFullNotification"           : 0,
     "FloatValue"                   : 5760.0,
     "Active"                       : true,
-    "durabilityKey"                : "SpecialDurability1",
+    "durabilityKey"                : "SpecialDurability3",
     "_valueModifications"          : [
       {
         "source" : {
@@ -200,50 +397,6 @@
       }
     ],
     "_rateModifications"           : [
-      {
-        "source" : {
-          "key" : "CloverPatch",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__Bp_CloverField__CardImage",
-          "name"     : {
-            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
-            "en" : "Clover Patch",
-            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
-          }
-        },
-        "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51AC\u5B63\u4E0D\u751F\u957F",
-          "en" : "Passive Effect\uFF1ADoes not Grow in Winter",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoes not Grow in Winter"
-        },
-        "value"       : {
-          "x" : -9.5,
-          "y" : -9.5
-        }
-      },
-      {
-        "source" : {
-          "key" : "CloverPatch",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__Bp_CloverField__CardImage",
-          "name"     : {
-            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
-            "en" : "Clover Patch",
-            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
-          }
-        },
-        "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6625\u5B63\u5FEB\u901F\u751F\u957F",
-          "en" : "Passive Effect\uFF1AGrows Fast In Spring",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Fast In Spring"
-        },
-        "value"       : {
-          "x" : 5.0,
-          "y" : 5.0
-        }
-      },
       {
         "source" : {
           "key" : "CowFreeCalf",
@@ -309,56 +462,8 @@
           "x" : -4.0,
           "y" : -4.0
         }
-      },
-      {
-        "source" : {
-          "key" : "Pk_5_25_StartingCattle_PregnantCow",
-          "type" : "CardData",
-          "CardType" : 0,
-          "icon"     : "CardData__BoarFreeFemale__CardImage",
-          "name"     : {
-            "zh" : "\u725B",
-            "en" : "Cow",
-            "ja" : "\u725B"
-          }
-        },
-        "description" : {
-          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
-          "en" : "Action: Feed from Enviroment",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
-        },
-        "value"       : {
-          "x" : -4.0,
-          "y" : -4.0
-        }
       }
     ]
-  },
-  "SpecialDurability2"          : {
-    "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 0.0,
-    "RatePerDaytimePoint"  : 0.0,
-    "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 0,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "OnZeroNotification"    : 0,
-    "OnFullNotification"    : 0,
-    "FloatValue"            : 0.0,
-    "durabilityKey"         : "SpecialDurability2"
-  },
-  "SpecialDurability3"          : {
-    "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 0.0,
-    "RatePerDaytimePoint"  : 0.0,
-    "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 0,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "OnZeroNotification"    : 0,
-    "OnFullNotification"    : 0,
-    "FloatValue"            : 0.0,
-    "durabilityKey"         : "SpecialDurability3"
   },
   "SpecialDurability4"          : {
     "RandomStartingOffset" : 0.0,
@@ -466,7 +571,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -601,7 +706,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -701,7 +806,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -836,7 +941,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -935,7 +1040,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -1070,7 +1175,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -1321,7 +1426,7 @@
         "TransferFuel"              : true,
         "TransferCharges"           : true,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -5760.0,
           "y" : -5760.0
         }
@@ -1389,7 +1494,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -1526,7 +1631,7 @@
         "TransformToLiquidQuantity" : 0.0,
         "TransferCharges"           : true,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -1536,6 +1641,136 @@
     }
   ],
   "PassiveEffects"              : [
+    {
+      "EffectName" : "Grows Flowers in Summer",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Summer",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u590F\u5B63",
+                "en" : "Summer Counter",
+                "ja" : "Summer Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "OnBoardEffectCap" : 0,
+      "Special1RateModifier" : {
+        "FloatValue" : 3.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier"   : 0.0,
+      "GeneratedLiquid"      : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Grows Flowers in Summer",
+        "en" : "Grows Flowers in Summer",
+        "ja" : "Grows Flowers in Summer"
+      }
+    },
+    {
+      "EffectName" : "Flowers go away in Autumn",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "OnBoardEffectCap" : 0,
+      "Special1RateModifier" : {
+        "FloatValue" : -12.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier"   : 0.0,
+      "GeneratedLiquid"      : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Flowers go away in Autumn",
+        "en" : "Flowers go away in Autumn",
+        "ja" : "Flowers go away in Autumn"
+      }
+    },
     {
       "EffectName" : "Does not Grow in Winter",
       "Conditions" : {
@@ -1705,6 +1940,16 @@
         "zh" : "\u6797\u95F4\u65E7\u5730",
         "en" : "Old Glade",
         "ja" : "\u53E4\u304D\u7A7A\u304D\u5730"
+      }
+    },
+    {
+      "key" : "Env_ClearingOak_SacredGlade",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u795E\u5723\u7A7A\u5730",
+        "en" : "Sacred Glade",
+        "ja" : "Sacred Glade"
       }
     }
   ],

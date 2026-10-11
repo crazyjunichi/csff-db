@@ -10,28 +10,29 @@
     "en" : "Increases your stamina and energy. Can be raised through exercise.",
     "ja" : "\u30B9\u30BF\u30DF\u30CA\u3068\u30A8\u30CD\u30EB\u30AE\u30FC\u3092\u5897\u52A0\u3055\u305B\u308B\u3002\u904B\u52D5\u3059\u308C\u3070\u4E0A\u304C\u308B\u3002"
   },
-  "BaseValue"   : 1600.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 1600.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 3200.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 3200.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__ChasingAid__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5065\u58EE\u4F53\u9B44",
@@ -380,23 +381,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Fitness",
-  "icon"                    : "GameStat__ChasingAid__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Fitness",
+  "icon"                        : "GameStat__ChasingAid__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u4F53\u9B44",
     "en" : "Fitness",
     "ja" : "\u30D5\u30A3\u30C3\u30C8\u30CD\u30B9"
   },
-  "min"                     : 0.0,
-  "max"                     : 3200.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 3200.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_3_3_Athletic",
@@ -461,7 +462,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Fitness",
@@ -716,5 +717,5 @@
       }
     }
   ],
-  "_uuid"                   : "693223c6c9bab2445948b379d90f5159"
+  "_uuid"                       : "693223c6c9bab2445948b379d90f5159"
 }

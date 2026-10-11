@@ -10,24 +10,25 @@
     "en" : "Protects your skin from sun damage.",
     "ja" : "\u65E5\u5DEE\u3057\u304B\u3089\u808C\u3092\u5B88\u3063\u3066\u304F\u308C\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : -0.25,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -0.25,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4245,
     "g" : 0.2703,
     "b" : 0.2928,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Tanning__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6652\u9ED1",
@@ -194,23 +195,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Tanning",
-  "icon"                    : "GameStat__Tanning__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Tanning",
+  "icon"                        : "GameStat__Tanning__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6652\u9ED1",
     "en" : "Tanning",
     "ja" : "\u30BF\u30F3\u30CB\u30F3\u30B0"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_3_4_DarkSkin",
@@ -254,7 +255,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "SunExposure",
@@ -420,9 +421,9 @@
         "type" : "CharacterPerk",
         "icon" : "NPCCharacterPerk__PartnerPerk_SkinFair__PerkIcon",
         "name" : {
-          "zh" : "\u6D45\u8272\u76AE\u80A4",
+          "zh" : "\u767D\u7699\u76AE\u80A4",
           "en" : "Fair Skin",
-          "ja" : "\u767D\u3044\u808C"
+          "ja" : "Fair Skin"
         }
       },
       "description" : {
@@ -462,9 +463,9 @@
         "type" : "CharacterPerk",
         "icon" : "NPCCharacterPerk__PartnerPerk_Freckles__PerkIcon",
         "name" : {
-          "zh" : "\u76AE\u80A4\u767D\u7699",
+          "zh" : "\u96EA\u767D\u76AE\u80A4",
           "en" : "Very Fair Skin",
-          "ja" : "\u304B\u306A\u308A\u767D\u3044\u808C\u3002"
+          "ja" : "Very Fair Skin"
         }
       },
       "description" : {
@@ -478,5 +479,5 @@
       }
     }
   ],
-  "_uuid"                   : "03f793e85b7954f45985b6cf78203ae1"
+  "_uuid"                       : "03f793e85b7954f45985b6cf78203ae1"
 }

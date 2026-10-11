@@ -41,7 +41,7 @@
     {
       "key" : "tag_Tinder",
       "type" : "CardTag",
-      "count" : 9,
+      "count" : 10,
       "name"  : {
         "zh" : "\u706B\u7ED2",
         "en" : "Tinder",
@@ -462,7 +462,6 @@
             "key" : "BowDrill",
             "type" : "CardData",
             "CardType" : 0,
-            "icon"     : "CardData__BowDrill__CardImage",
             "name"     : {
               "zh" : "Bow Drill",
               "en" : "Bow Drill",
@@ -879,6 +878,24 @@
     },
     {
       "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      }
+    },
+    {
+      "source" : {
         "key" : "GroveAlder_AlderGrove",
         "type" : "CardData",
         "CardType" : 8,
@@ -1167,6 +1184,24 @@
     },
     {
       "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClear",
+        "en" : "Action: Clear",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClear"
+      }
+    },
+    {
+      "source" : {
         "key" : "River_ClearingAlder_BlackMire",
         "type" : "CardData",
         "CardType" : 8,
@@ -1296,7 +1331,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -1307,24 +1342,6 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
         "en" : "Action: Clear",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30AF\u30EA\u30A2"
-      }
-    },
-    {
-      "source" : {
-        "key" : "River_ClearingOak_RiverClearing",
-        "type" : "CardData",
-        "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
-        "name"     : {
-          "zh" : "\u6CB3\u7554\u6797\u9699",
-          "en" : "River Clearing",
-          "ja" : "\u5DDD\u6CBF\u3044\u306E\u5E73\u5730"
-        }
-      },
-      "description" : {
-        "zh" : "\u72B6\u6001\u89E6\u53D1",
-        "en" : "Stats Change",
-        "ja" : "\u72B6\u614B\u5909\u5316"
       }
     },
     {
@@ -1476,7 +1493,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -1494,7 +1511,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -1815,23 +1832,6 @@
     },
     {
       "source" : {
-        "key" : "Brushwood_rename",
-        "type" : "CardData",
-        "CardType" : 2,
-        "name"     : {
-          "zh" : "\u704C\u6728\u4E1B",
-          "en" : "BrushWood",
-          "ja" : "\u7D30\u3044\u679D"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u91C7\u96C6",
-        "en" : "Action: Harvest",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u53CE\u7A6B"
-      }
-    },
-    {
-      "source" : {
         "key" : "Debris_BackDoor",
         "type" : "CardData",
         "CardType" : 2,
@@ -1930,6 +1930,23 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
         "en" : "Action: Clear",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7247\u4ED8\u3051\u308B"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Pk_5_26_RiverClearingStart",
+        "type" : "CharacterPerk",
+        "icon" : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
+        "name" : {
+          "zh" : "\u6CB3\u8FB9\u7A7A\u5730\u5F00\u5C40",
+          "en" : "River Clearing Start",
+          "ja" : "River Clearing Start"
+        }
+      },
+      "description" : {
+        "zh" : "\u5929\u8D4B\u8D77\u59CB",
+        "en" : "Perk Starting",
+        "ja" : "\u30D1\u30FC\u30AF\u521D\u671F"
       }
     },
     {
@@ -2259,24 +2276,6 @@
     },
     {
       "source" : {
-        "key" : "Spirit_Fire_SpiritEmbers",
-        "type" : "CardData",
-        "CardType" : 0,
-        "icon"     : "CardData__Embers__CardImage",
-        "name"     : {
-          "zh" : "\u706B\u7CBE\u9B44\u706B\u70AD",
-          "en" : "Fire Spirit Embers",
-          "ja" : "\u708E\u306E\u7CBE\u970A\u306E\u6B8B\u308A\u706B"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u70B9\u71C3\u706B\u7ED2",
-        "en" : "Action: Light Tinder",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u706B\u3092\u3064\u3051\u308B"
-      }
-    },
-    {
-      "source" : {
         "key" : "Bloomery",
         "type" : "CardData",
         "CardType" : 2,
@@ -2543,42 +2542,6 @@
     },
     {
       "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u70B9\u71C3\u706B\u7ED2",
-        "en" : "Action: Light Tinder",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u706B\u53E3\u306B\u706B\u3092\u3064\u3051\u308B"
-      }
-    },
-    {
-      "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u6DFB\u5165\u6811\u53F6",
-        "en" : "Action: Feed Leaves",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u8449\u3063\u3071\u3092\u5165\u308C\u308B"
-      }
-    },
-    {
-      "source" : {
         "key" : "SpiritShrine_Fire_RitualPyre",
         "type" : "CardData",
         "CardType" : 2,
@@ -2683,24 +2646,6 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u4FEE\u590D",
         "en" : "Action: Repair",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u30B7\u30A7\u30EB\u30BF\u30FC\u3092\u4FEE\u7406\u3059\u308B"
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u9178\u5316",
-        "en" : "Action: Acidify",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u9178\u5316"
       }
     },
     {
@@ -2880,7 +2825,6 @@
         "key" : "BeeSmokerOff",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BeeSmokerOff__CardImage",
         "name"     : {
           "zh" : "Bee Smoker",
           "en" : "Bee Smoker",
@@ -3126,17 +3070,6 @@
           }
         },
         {
-          "key" : "Spirit_Fire_SpiritEmbers",
-          "type" : "CardData",
-          "CardType" : 0,
-          "icon"     : "CardData__Embers__CardImage",
-          "name"     : {
-            "zh" : "\u706B\u7CBE\u9B44\u706B\u70AD",
-            "en" : "Fire Spirit Embers",
-            "ja" : "\u708E\u306E\u7CBE\u970A\u306E\u6B8B\u308A\u706B"
-          }
-        },
-        {
           "key" : "Bloomery",
           "type" : "CardData",
           "CardType" : 2,
@@ -3256,17 +3189,6 @@
           }
         },
         {
-          "key" : "Smokehouse",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__Bp_Kiln__CardImage",
-          "name"     : {
-            "zh" : "\u70DF\u718F\u5C4B",
-            "en" : "Smokehouse",
-            "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-          }
-        },
-        {
           "key" : "SpiritShrine_Fire_RitualPyre",
           "type" : "CardData",
           "CardType" : 2,
@@ -3378,7 +3300,6 @@
           "key" : "BowDrill",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__BowDrill__CardImage",
           "name"     : {
             "zh" : "Bow Drill",
             "en" : "Bow Drill",

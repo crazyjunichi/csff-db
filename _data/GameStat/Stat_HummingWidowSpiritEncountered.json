@@ -5,30 +5,31 @@
     "en" : "HummingWidowSpiritEncountered",
     "ja" : "HummingWidowSpiritEncountered"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Stat_HummingWidowSpiritEncountered",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Stat_HummingWidowSpiritEncountered",
+  "name"                        : {
     "zh" : "\u55E1\u9E23\u5BE1\u5987\u7075\u906D\u9047",
     "en" : "HummingWidowSpiritEncountered",
     "ja" : "HummingWidowSpiritEncountered"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_HummingWidowSpiritSummoning",
@@ -74,7 +75,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_HummingWidowSpiritEncounteredInsightBonus",
@@ -96,5 +97,5 @@
       }
     }
   ],
-  "_uuid"                   : "4adf1465178e1d947ae5222350bef67b"
+  "_uuid"                       : "4adf1465178e1d947ae5222350bef67b"
 }

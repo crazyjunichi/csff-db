@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Makes you better at foraging.",
     "ja" : "\u7CBE\u970A\u306E\u795D\u798F\u3002\u8CC7\u6E90\u96C6\u3081\u304C\u4E0A\u624B\u304F\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u89C5\u98DF\u63F4\u52A9",
@@ -279,27 +280,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "ForagingAid",
-  "icon"                    : "GameStat__BeaverBlessing__FeedbackInfo-Icon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "ForagingAid",
+  "icon"                        : "GameStat__BeaverBlessing__FeedbackInfo-Icon",
+  "name"                        : {
     "zh" : "\u89C5\u98DF\u63F4\u52A9",
     "en" : "Foraging Aid",
     "ja" : "\u8CC7\u6E90\u96C6\u3081\u30A8\u30A4\u30C9"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_BadgerSpiritBlessingGranted",
@@ -409,9 +410,147 @@
         "x" : 288.0,
         "y" : 288.0
       }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 36.0,
+        "y" : 36.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 72.0,
+        "y" : 72.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 108.0,
+        "y" : 108.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 144.0,
+        "y" : 144.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 216.0,
+        "y" : 216.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 288.0,
+        "y" : 288.0
+      }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BoarCoat",
@@ -661,5 +800,5 @@
       }
     }
   ],
-  "_uuid"                   : "1cfae8f993bbbce448477637d44b3cb3"
+  "_uuid"                       : "1cfae8f993bbbce448477637d44b3cb3"
 }

@@ -10,41 +10,42 @@
     "en" : "Increases the quality of your weaving crafts, such as baskets and improvised plantwear.",
     "ja" : "\u30AB\u30B4\u3084\u690D\u7269\u8863\u88C5\u306A\u3069\u3001\u7E54\u7269\u306E\u30AF\u30AA\u30EA\u30C6\u30A3\u304C\u9AD8\u304F\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_ReedTunic__CardImage"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 672,
-  "StalenessMultiplier"     : 0.75,
-  "MaxStalenessStack"       : 5,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 672,
+  "StalenessMultiplier"         : 0.75,
+  "MaxStalenessStack"           : 5,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Weaving",
-  "icon"                    : "CardData__Bp_ReedTunic__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Weaving",
+  "icon"                        : "CardData__Bp_ReedTunic__CardImage",
+  "name"                        : {
     "zh" : "\u7F16\u7EC7",
     "en" : "Weaving",
     "ja" : "\u7E54\u7269"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_BarkSandals",
@@ -77,6 +78,28 @@
           "zh" : "\u7F16\u7EC7\u7BD3",
           "en" : "Basket",
           "ja" : "\u30AB\u30B4"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_BeeSkepEmpty",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "CardData__BeeSkep__CardImage",
+        "name"     : {
+          "zh" : "Empty Skep",
+          "en" : "Empty Skep",
+          "ja" : "Empty Skep"
         }
       },
       "description" : {
@@ -617,7 +640,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_BarkSandals",
@@ -839,5 +862,5 @@
       }
     }
   ],
-  "_uuid"                   : "056080607e57afa4ea4dfc3db3377204"
+  "_uuid"                       : "056080607e57afa4ea4dfc3db3377204"
 }

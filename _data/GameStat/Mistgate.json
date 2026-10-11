@@ -10,47 +10,48 @@
     "en" : "Set to 1 at 4am of first day preventing Travel. Set to 0 96 ticks after that allowing travel again. ",
     "ja" : "Set to 1 at 4am of first day preventing Travel. Set to 0 96 ticks after that allowing travel again. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : -1.0,
     "y" : 0.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u6211\u8FD8\u6CA1\u51C6\u5907\u597D\u2026\u2026",
     "en" : "Not ready for this yet...",
     "ja" : "\u6E96\u5099\u304C\u8DB3\u308A\u306A\u3044\u30FB\u30FB\u30FB"
   },
-  "type"                    : "GameStat",
-  "key"                     : "Mistgate",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Mistgate",
+  "name"                        : {
     "zh" : "\u96FE\u95E8",
     "en" : "Mistgate",
     "ja" : "Mistgate"
   },
-  "min"                     : -1.0,
-  "max"                     : 0.0,
-  "_modifierValues"         : [
+  "min"                         : -1.0,
+  "max"                         : 0.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_WillOWisp_RiverClearing",
@@ -74,13 +75,13 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -94,5 +95,5 @@
       }
     }
   ],
-  "_uuid"                   : "b19a0588bf58e044988b42eb874feee0"
+  "_uuid"                       : "b19a0588bf58e044988b42eb874feee0"
 }

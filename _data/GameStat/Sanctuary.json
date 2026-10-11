@@ -11,34 +11,35 @@
     "ja" : "\u305D\u306E\u5834\u6240\u304C\u3069\u308C\u307B\u3069\u5B89\u5168\u3067\u3001\u610F\u5473\u304C\u3042\u308A\u3001\u5FEB\u9069\u306B\u611F\u3058\u3089\u308C\u308B\u304B\u3092\u793A\u3059\u3002\u30B9\u30C8\u30EC\u30B9\u3092\u4E0B\u3052\u3001\u5E78\u798F\u611F\u3068\u7CBE\u795E\u5B89\u5B9A\u3092\u9AD8\u3081\u308B\u3002\n\n\u5BB6\u5177\u3084\u6539\u826F\u3001\u88C5\u98FE\u3092\u8FFD\u52A0\u3059\u308B\u3068\u4E0A\u6607\u3059\u308B\u3002"
   },
   "IsRuntimeOnly" : true,
-  "BaseValue"     : 0.0,
-  "MinMaxValue"   : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : -1000.0,
     "y" : 7500.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : -1000.0,
     "y" : 7500.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__DarkSense__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5DEE\u52B2\u7684\u5E87\u62A4",
@@ -628,27 +629,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__DarkSense__DefaultStatusIcon"
     },
     "StepValue" : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Sanctuary",
-  "icon"                    : "GameStat__DarkSense__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Sanctuary",
+  "icon"                        : "GameStat__DarkSense__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u5E87\u62A4\u5EA6",
     "en" : "Sanctuary",
     "ja" : "\u5B89\u606F\u5EA6"
   },
-  "min"                     : -1000.0,
-  "max"                     : 7500.0,
-  "_modifierValues"         : [
+  "min"                         : -1000.0,
+  "max"                         : 7500.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "FleshingBeamLocation",
@@ -793,9 +794,9 @@
         }
       },
       "description" : {
-        "zh" : "\u88AB\u52A8\u6548\u679C",
-        "en" : "Passive Effect",
-        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5E87\u62A4",
+        "en" : "Passive Effect: Sanctuary",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASanctuary"
       },
       "value"       : {
         "x" : 100.0,
@@ -815,9 +816,9 @@
         }
       },
       "description" : {
-        "zh" : "\u88AB\u52A8\u6548\u679C",
-        "en" : "Passive Effect",
-        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5E87\u62A4",
+        "en" : "Passive Effect: Sanctuary",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASanctuary"
       },
       "value"       : {
         "x" : 100.0,
@@ -2249,6 +2250,144 @@
     },
     {
       "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 75.0,
+        "y" : 75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 125.0,
+        "y" : 125.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "GrimbardsBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u8D50\u798F",
+          "en" : "Grimbards Blessing",
+          "ja" : "Grimbards Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AGrimbards Blessing",
+        "en" : "Status Stage: Grimbards Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AGrimbards Blessing"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Discomfort",
         "type" : "GameStat",
         "icon" : "GameStat__Discomfort__DefaultStatusIcon",
@@ -2363,5 +2502,167 @@
       }
     }
   ],
-  "_uuid"                   : "1c878c3860c25904b826bc95765cbea6"
+  "_requires"                   : [
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : 7500.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : 7500.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : 7500.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : 7500.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : 7500.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : 7500.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : 7500.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Tgr_GrimbardAvailable",
+        "type" : "SelfTriggeredAction",
+        "name" : {
+          "zh" : "Tgr_GrimbardAvailable",
+          "en" : "Tgr_GrimbardAvailable",
+          "ja" : "Tgr_GrimbardAvailable"
+        }
+      },
+      "description" : {
+        "zh" : "Tgr_GrimbardAvailable",
+        "en" : "Tgr_GrimbardAvailable",
+        "ja" : "Tgr_GrimbardAvailable"
+      },
+      "value"       : {
+        "x" : -1000.0,
+        "y" : 7500.0
+      }
+    }
+  ],
+  "_uuid"                       : "1c878c3860c25904b826bc95765cbea6"
 }

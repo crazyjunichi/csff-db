@@ -2376,6 +2376,27 @@
       },
       {
         "source" : {
+          "key" : "Bp_Honey",
+          "type" : "CardData",
+          "CardType" : 7,
+          "name"     : {
+            "zh" : "Honey",
+            "en" : "Honey",
+            "ja" : "Honey"
+          }
+        },
+        "description" : {
+          "zh" : "\u84DD\u56FE\u5236\u4F5C",
+          "en" : "Blueprint",
+          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
           "key" : "Bp_Knife_Flint",
           "type" : "CardData",
           "CardType" : 7,
@@ -3927,7 +3948,7 @@
           }
         },
         "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1ASmith",
+          "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
           "en" : "Action: Smith",
           "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
         },
@@ -4117,7 +4138,6 @@
           "key" : "BoneSplinters",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__BoneSplinters__CardImage",
           "name"     : {
             "zh" : "\u9AA8\u5934\u788E\u7247",
             "en" : "Bone Splinters",
@@ -4939,7 +4959,7 @@
           }
         },
         "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1ASmith",
+          "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
           "en" : "Action: Smith",
           "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
         },
@@ -5390,27 +5410,6 @@
       },
       {
         "source" : {
-          "key" : "Bp_Honey",
-          "type" : "CardData",
-          "CardType" : 7,
-          "name"     : {
-            "zh" : "Honey",
-            "en" : "Honey",
-            "ja" : "Honey"
-          }
-        },
-        "description" : {
-          "zh" : "\u84DD\u56FE\u5236\u4F5C",
-          "en" : "Blueprint",
-          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-        },
-        "value"       : {
-          "x" : -1.0,
-          "y" : -1.0
-        }
-      },
-      {
-        "source" : {
           "key" : "Bp_Vitriol",
           "type" : "CardData",
           "CardType" : 7,
@@ -5520,7 +5519,6 @@
           "key" : "WateringTrough",
           "type" : "CardData",
           "CardType" : 2,
-          "icon"     : "CardData__WateringTrough__CardImage",
           "name"     : {
             "zh" : "Watering Trough",
             "en" : "Watering Trough",
@@ -6117,7 +6115,8 @@
   ],
   "ActionModifiers"             : [
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionHardSpecial2Receiving",
           "type" : "ActionTag",
@@ -6160,7 +6159,7 @@
           "Stat" : {
             "key" : "Skill_Smithing",
             "type" : "GameStat",
-            "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+            "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
             "min"  : 0.0,
             "max"  : 150.0,
             "name" : {
@@ -6178,7 +6177,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionHardSpecial3Receiving",
           "type" : "ActionTag",
@@ -6221,7 +6221,7 @@
           "Stat" : {
             "key" : "Skill_Smithing",
             "type" : "GameStat",
-            "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+            "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
             "min"  : 0.0,
             "max"  : 150.0,
             "name" : {
@@ -6239,7 +6239,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionHardSpecial2Drops",
           "type" : "ActionTag",
@@ -6282,7 +6283,7 @@
           "Stat" : {
             "key" : "Skill_Smithing",
             "type" : "GameStat",
-            "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+            "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
             "min"  : 0.0,
             "max"  : 150.0,
             "name" : {
@@ -6300,7 +6301,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionHardSpecial3Drops",
           "type" : "ActionTag",
@@ -6343,7 +6345,7 @@
           "Stat" : {
             "key" : "Skill_Smithing",
             "type" : "GameStat",
-            "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+            "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
             "min"  : 0.0,
             "max"  : 150.0,
             "name" : {
@@ -6363,7 +6365,8 @@
   ],
   "UsedInBpActionModifiers"     : [
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionHardSpecial2Drops",
           "type" : "ActionTag",
@@ -6406,7 +6409,7 @@
           "Stat" : {
             "key" : "Skill_Smithing",
             "type" : "GameStat",
-            "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+            "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
             "min"  : 0.0,
             "max"  : 150.0,
             "name" : {
@@ -6424,7 +6427,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "HammeringActionHardSpecial3Drops",
           "type" : "ActionTag",
@@ -6467,7 +6471,7 @@
           "Stat" : {
             "key" : "Skill_Smithing",
             "type" : "GameStat",
-            "icon" : "GameStat__Skill_Metalworking__DefaultStatusIcon",
+            "icon" : "CardData__Bp_CommissionCopperBarMillKnowledge__CardImage",
             "min"  : 0.0,
             "max"  : 150.0,
             "name" : {
@@ -6495,7 +6499,7 @@
       "Target" : {
         "key" : "tag_SpiritLiquid",
         "type" : "CardTag",
-        "count" : 32,
+        "count" : 35,
         "name"  : {
           "zh" : "\u7CBE\u9B44\u6DB2\u4F53",
           "en" : "Spirit Liquid",
@@ -7374,6 +7378,23 @@
           "zh" : "\u7597\u4F24\u818F",
           "en" : "Healing Ointment",
           "ja" : "\u56DE\u5FA9\u30DA\u30FC\u30B9\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Honey",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
         }
       },
       "description" : {
@@ -9141,7 +9162,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       }
@@ -9349,7 +9370,6 @@
         "key" : "BoneSplinters",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BoneSplinters__CardImage",
         "name"     : {
           "zh" : "\u9AA8\u5934\u788E\u7247",
           "en" : "Bone Splinters",
@@ -10149,7 +10169,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASmith",
+        "zh" : "\u52A8\u4F5C\uFF1A\u953B\u9020",
         "en" : "Action: Smith",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASmith"
       }
@@ -10404,6 +10424,24 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u79FB\u9664\u7ED3\u51B0\u5C42",
         "en" : "Action: Remove ice layer",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6C37\u306E\u5C64\u3092\u53D6\u308A\u9664\u304F"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyMeadFrozen",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u51B0\u51BB\u8702\u871C\u9152",
+          "en" : "Frozen Mead",
+          "ja" : "Frozen Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ARemove ice layer",
+        "en" : "Action: Remove ice layer",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ARemove ice layer"
       }
     },
     {
@@ -10713,23 +10751,6 @@
     },
     {
       "source" : {
-        "key" : "Bp_Honey",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "Honey",
-          "en" : "Honey",
-          "ja" : "Honey"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      }
-    },
-    {
-      "source" : {
         "key" : "Bp_Vitriol",
         "type" : "CardData",
         "CardType" : 7,
@@ -10836,7 +10857,6 @@
         "key" : "WateringTrough",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__WateringTrough__CardImage",
         "name"     : {
           "zh" : "Watering Trough",
           "en" : "Watering Trough",

@@ -10,19 +10,20 @@
     "en" : "The amount of bugs (including mosquitoes) that can be found in a given area.",
     "ja" : "\u3042\u308B\u30A8\u30EA\u30A2\u306B\u3044\u308B\u866B\u306E\u6570\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 5.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "StatusesHaveNoBar" : true,
-  "DefaultStatusIcon" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "StatusesHaveNoBar"           : true,
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BugDamage__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4E2D\u7B49\u868A\u866B\u6570\u91CF",
@@ -184,23 +185,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BugPopulation",
-  "icon"                    : "GameStat__BugDamage__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BugPopulation",
+  "icon"                        : "GameStat__BugDamage__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u868A\u866B\u6570\u91CF",
     "en" : "Bug Population",
     "ja" : "\u866B\u306E\u6570"
   },
-  "min"                     : 0.0,
-  "max"                     : 5.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 5.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Campfire",
@@ -795,5 +796,5 @@
       }
     }
   ],
-  "_uuid"                   : "00c2afb9343f5c34988dcdb12a7792a8"
+  "_uuid"                       : "00c2afb9343f5c34988dcdb12a7792a8"
 }

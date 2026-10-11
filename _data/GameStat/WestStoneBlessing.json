@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Boosts your combat armor, reduces your loneliness and degrades your mental structure. ",
     "ja" : "\u7CBE\u970A\u306E\u52A0\u8B77\u3002\u9632\u5FA1\u529B\u3092\u9AD8\u3081\u3001\u5B64\u72EC\u611F\u3092\u6E1B\u3089\u3059\u304C\u3001\u7CBE\u795E\u69CB\u9020\u3092\u640D\u306A\u3046\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__MoonAffinity__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u97E6\u77F3\u8D50\u798F",
@@ -603,27 +604,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "WestStoneBlessing",
-  "icon"                    : "GameStat__MoonAffinity__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "WestStoneBlessing",
+  "icon"                        : "GameStat__MoonAffinity__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u97E6\u77F3\u8D50\u798F",
     "en" : "West Stone Blessing",
     "ja" : "\u30A6\u30A8\u30B9\u30C8\u30B9\u30C8\u30FC\u30F3\u795D\u798F"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_WestStoneSpiritBlessingGranted",
@@ -647,7 +648,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LQ_SpiritWestStone",
@@ -809,5 +810,5 @@
       }
     }
   ],
-  "_uuid"                   : "3aac69e07209d4b4e94ba97fae87be55"
+  "_uuid"                       : "3aac69e07209d4b4e94ba97fae87be55"
 }

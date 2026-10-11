@@ -1,7 +1,7 @@
 
 {
   "GameName" : {
-    "zh" : "\u7A7A\u58F3\u5316\u7B49\u7EA7",
+    "zh" : "\u7A7A\u58F3\u5316",
     "en" : "Hollowness",
     "ja" : "Hollowness"
   },
@@ -10,31 +10,32 @@
     "en" : "Increases when killing animals and not paying your respects by releasing their spirits.\n\nIncreases nightmares and void affinity but reduces most other affinities considerably making it a lot harder to do magic.",
     "ja" : "Increases when killing animals and not paying your respects by releasing their spirits.\n\nIncreases nightmares and void affinity but reduces most other affinities considerably making it a lot harder to do magic."
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 11520.0
   },
-  "BaseRatePerTick" : -0.25,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "StatusesHaveNoBar" : true,
-  "BarColor"          : {
+  "BaseRatePerTick"             : -0.25,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "StatusesHaveNoBar"           : true,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
-        "zh" : "\u4E2D\u7EA7",
+        "zh" : "\u7A7A\u58F3\u5316",
         "en" : "Hollowness",
         "ja" : "Hollowness"
       },
@@ -73,7 +74,7 @@
     },
     {
       "GameName" : {
-        "zh" : "\u9AD8",
+        "zh" : "\u6781\u5EA6\u7A7A\u6D1E",
         "en" : "Overwhelming Hollowness",
         "ja" : "Overwhelming Hollowness"
       },
@@ -111,23 +112,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HollownessLevel",
-  "icon"                    : "GameStat__BloodSpilled__FeedbackInfo-Icon",
-  "name"                    : {
-    "zh" : "\u7A7A\u58F3\u5316\u7B49\u7EA7",
+  "type"                        : "GameStat",
+  "key"                         : "HollownessLevel",
+  "icon"                        : "GameStat__BloodSpilled__FeedbackInfo-Icon",
+  "name"                        : {
+    "zh" : "\u7A7A\u58F3\u5316",
     "en" : "Hollowness",
     "ja" : "Hollowness"
   },
-  "min"                     : 0.0,
-  "max"                     : 11520.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 11520.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "TumourBoiled",
@@ -135,7 +136,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -331,7 +332,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -619,7 +620,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -641,7 +642,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -663,7 +664,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -679,5 +680,5 @@
       }
     }
   ],
-  "_uuid"                   : "850468f601ecb5d4881ccf2a0a08249f"
+  "_uuid"                       : "850468f601ecb5d4881ccf2a0a08249f"
 }

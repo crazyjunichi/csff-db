@@ -21,30 +21,31 @@
       }
     }
   ],
-  "BaseValue"         : 0.0,
-  "MinMaxValue"       : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 384.0
   },
-  "BaseRatePerTick"   : 0.0,
-  "StatPriority"      : 100,
-  "Visibility"        : 0,
-  "BarColor"          : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.2235,
     "g" : 0.4,
     "b" : 0.8706,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__ExcrementHuman__CardImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u76F4\u80A0\u538B\u529B",
@@ -218,10 +219,10 @@
       "ConfidenceModifier"      : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "StatActions"             : [
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "StatActions"                 : [
     {
       "ExplorationValue" : 0.0,
       "ExplorationDirection" : 0,
@@ -532,24 +533,24 @@
       "ExitDirection"                : 0
     }
   ],
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__ExcrementHuman__CardImage"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "RectalPressure",
-  "icon"                    : "CardData__ExcrementHuman__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "RectalPressure",
+  "icon"                        : "CardData__ExcrementHuman__CardImage",
+  "name"                        : {
     "zh" : "\u76F4\u80A0\u538B\u529B",
     "en" : "Rectal Pressure",
     "ja" : "\u76F4\u8178\u5727"
   },
-  "min"                     : 0.0,
-  "max"                     : 384.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 384.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_TreeTopBase",
@@ -680,7 +681,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "VDEBUG_HybernationSuit",
@@ -908,7 +909,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Event_TreeTopBase",
@@ -978,7 +979,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_Poop",
@@ -1060,5 +1061,5 @@
       }
     }
   ],
-  "_uuid"                   : "e75e3b618f3185d4ba088108d39023a2"
+  "_uuid"                       : "e75e3b618f3185d4ba088108d39023a2"
 }

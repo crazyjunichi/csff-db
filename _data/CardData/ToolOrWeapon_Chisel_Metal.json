@@ -2774,7 +2774,7 @@
           "key" : "Carcass_FoxCarcass",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+          "icon"     : "CardData__Carcass_Craftheart__CardImage",
           "name"     : {
             "zh" : "\u72D0\u72F8\u5C38\u4F53",
             "en" : "Fox Carcass",
@@ -3698,7 +3698,7 @@
           "key" : "FatChunk",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__Bp_ButterChunk__CardImage",
+          "icon"     : "CardData__Beeswax__CardImage",
           "name"     : {
             "zh" : "\u8102\u80AA\u5757",
             "en" : "Fat Chunk",
@@ -4321,6 +4321,27 @@
             "zh" : "\u7597\u4F24\u818F",
             "en" : "Healing Ointment",
             "ja" : "\u56DE\u5FA9\u30DA\u30FC\u30B9\u30C8"
+          }
+        },
+        "description" : {
+          "zh" : "\u84DD\u56FE\u5236\u4F5C",
+          "en" : "Blueprint",
+          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "Bp_Honey",
+          "type" : "CardData",
+          "CardType" : 7,
+          "name"     : {
+            "zh" : "Honey",
+            "en" : "Honey",
+            "ja" : "Honey"
           }
         },
         "description" : {
@@ -5985,27 +6006,6 @@
       },
       {
         "source" : {
-          "key" : "BoarSkinned",
-          "type" : "CardData",
-          "CardType" : 0,
-          "name"     : {
-            "zh" : "\u5265\u76AE\u7684\u91CE\u732A",
-            "en" : "Skinned Boar",
-            "ja" : "\u76AE\u3092\u5265\u3044\u3060\u30A4\u30CE\u30B7\u30B7"
-          }
-        },
-        "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1A\u5254\u8089",
-          "en" : "Action: Butcher",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u89E3\u4F53\u3059\u308B"
-        },
-        "value"       : {
-          "x" : -1.0,
-          "y" : -1.0
-        }
-      },
-      {
-        "source" : {
           "key" : "BoarTiedFemale",
           "type" : "CardData",
           "CardType" : 0,
@@ -7241,7 +7241,7 @@
           "key" : "Carcass_FoxCarcass",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+          "icon"     : "CardData__Carcass_Craftheart__CardImage",
           "name"     : {
             "zh" : "\u72D0\u72F8\u5C38\u4F53",
             "en" : "Fox Carcass",
@@ -8451,7 +8451,6 @@
           "key" : "BoneSplinters",
           "type" : "CardData",
           "CardType" : 0,
-          "icon"     : "CardData__BoneSplinters__CardImage",
           "name"     : {
             "zh" : "\u9AA8\u5934\u788E\u7247",
             "en" : "Bone Splinters",
@@ -9647,27 +9646,6 @@
       },
       {
         "source" : {
-          "key" : "Bp_Honey",
-          "type" : "CardData",
-          "CardType" : 7,
-          "name"     : {
-            "zh" : "Honey",
-            "en" : "Honey",
-            "ja" : "Honey"
-          }
-        },
-        "description" : {
-          "zh" : "\u84DD\u56FE\u5236\u4F5C",
-          "en" : "Blueprint",
-          "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-        },
-        "value"       : {
-          "x" : -1.0,
-          "y" : -1.0
-        }
-      },
-      {
-        "source" : {
           "key" : "Bp_Vitriol",
           "type" : "CardData",
           "CardType" : 7,
@@ -9777,7 +9755,6 @@
           "key" : "WateringTrough",
           "type" : "CardData",
           "CardType" : 2,
-          "icon"     : "CardData__WateringTrough__CardImage",
           "name"     : {
             "zh" : "Watering Trough",
             "en" : "Watering Trough",
@@ -12034,7 +12011,8 @@
   ],
   "ActionModifiers"             : [
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "ChiselingActionSpecial2Receiving",
           "type" : "ActionTag",
@@ -12095,7 +12073,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "ChiselingActionSpecial3Receiving",
           "type" : "ActionTag",
@@ -12156,7 +12135,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "ChiselingActionSpecial2Drops",
           "type" : "ActionTag",
@@ -12217,7 +12197,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "ChiselingActionSpecial3Drops",
           "type" : "ActionTag",
@@ -12280,7 +12261,8 @@
   ],
   "UsedInBpActionModifiers"     : [
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "ChiselingActionSpecial2Drops",
           "type" : "ActionTag",
@@ -12341,7 +12323,8 @@
       "FadeToBlack"                 : 0
     },
     {
-      "AppliesTo" : [
+      "WorksWithNPCs" : true,
+      "AppliesTo"     : [
         {
           "key" : "ChiselingActionSpecial3Drops",
           "type" : "ActionTag",
@@ -12412,7 +12395,7 @@
       "Target" : {
         "key" : "tag_SpiritLiquid",
         "type" : "CardTag",
-        "count" : 32,
+        "count" : 35,
         "name"  : {
           "zh" : "\u7CBE\u9B44\u6DB2\u4F53",
           "en" : "Spirit Liquid",
@@ -12816,6 +12799,23 @@
           "zh" : "\u7597\u4F24\u818F",
           "en" : "Healing Ointment",
           "ja" : "\u56DE\u5FA9\u30DA\u30FC\u30B9\u30C8"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
+        "key" : "Bp_Honey",
+        "type" : "CardData",
+        "CardType" : 7,
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
         }
       },
       "description" : {
@@ -14248,23 +14248,6 @@
     },
     {
       "source" : {
-        "key" : "BoarSkinned",
-        "type" : "CardData",
-        "CardType" : 0,
-        "name"     : {
-          "zh" : "\u5265\u76AE\u7684\u91CE\u732A",
-          "en" : "Skinned Boar",
-          "ja" : "\u76AE\u3092\u5265\u3044\u3060\u30A4\u30CE\u30B7\u30B7"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u5254\u8089",
-        "en" : "Action: Butcher",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u89E3\u4F53\u3059\u308B"
-      }
-    },
-    {
-      "source" : {
         "key" : "BoarTiedFemale",
         "type" : "CardData",
         "CardType" : 0,
@@ -15075,6 +15058,24 @@
     },
     {
       "source" : {
+        "key" : "Carcass_Craftheart",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u5C38\u4F53",
+          "en" : "Craft-Heart Carcass",
+          "ja" : "Craft-Heart Carcass"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACut",
+        "en" : "Action: Cut",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACut"
+      }
+    },
+    {
+      "source" : {
         "key" : "Carcass_DoeCarcass",
         "type" : "CardData",
         "CardType" : 0,
@@ -15312,7 +15313,7 @@
         "key" : "Carcass_FoxCarcass",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Carcass_FoxCarcass__CardImage",
+        "icon"     : "CardData__Carcass_Craftheart__CardImage",
         "name"     : {
           "zh" : "\u72D0\u72F8\u5C38\u4F53",
           "en" : "Fox Carcass",
@@ -16068,7 +16069,7 @@
         "key" : "FatChunk",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__Bp_ButterChunk__CardImage",
+        "icon"     : "CardData__Beeswax__CardImage",
         "name"     : {
           "zh" : "\u8102\u80AA\u5757",
           "en" : "Fat Chunk",
@@ -16734,7 +16735,6 @@
         "key" : "BoneSplinters",
         "type" : "CardData",
         "CardType" : 0,
-        "icon"     : "CardData__BoneSplinters__CardImage",
         "name"     : {
           "zh" : "\u9AA8\u5934\u788E\u7247",
           "en" : "Bone Splinters",
@@ -17793,6 +17793,24 @@
     },
     {
       "source" : {
+        "key" : "LQ_HoneyMeadFrozen",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u51B0\u51BB\u8702\u871C\u9152",
+          "en" : "Frozen Mead",
+          "ja" : "Frozen Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ARemove ice layer",
+        "en" : "Action: Remove ice layer",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ARemove ice layer"
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_RyeAleFrozen",
         "type" : "CardData",
         "CardType" : 9,
@@ -18213,23 +18231,6 @@
     },
     {
       "source" : {
-        "key" : "Bp_Honey",
-        "type" : "CardData",
-        "CardType" : 7,
-        "name"     : {
-          "zh" : "Honey",
-          "en" : "Honey",
-          "ja" : "Honey"
-        }
-      },
-      "description" : {
-        "zh" : "\u84DD\u56FE\u5236\u4F5C",
-        "en" : "Blueprint",
-        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
-      }
-    },
-    {
-      "source" : {
         "key" : "Bp_Vitriol",
         "type" : "CardData",
         "CardType" : 7,
@@ -18336,7 +18337,6 @@
         "key" : "WateringTrough",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__WateringTrough__CardImage",
         "name"     : {
           "zh" : "Watering Trough",
           "en" : "Watering Trough",

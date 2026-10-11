@@ -126,30 +126,51 @@
     "FloatValue"            : 0.0,
     "durabilityKey"         : "SpecialDurability4"
   },
-  "PassiveStatEffects"          : [
-    {
-      "Stat" : {
-        "key" : "Sanctuary",
-        "type" : "GameStat",
-        "icon" : "GameStat__DarkSense__DefaultStatusIcon",
-        "min"  : -1000.0,
-        "max"  : 7500.0,
-        "name" : {
-          "zh" : "\u5E87\u62A4\u5EA6",
-          "en" : "Sanctuary",
-          "ja" : "\u5B89\u606F\u5EA6"
-        }
-      },
-      "ValueModifier" : {
-        "x" : 100.0,
-        "y" : 100.0
-      }
-    }
-  ],
   "PassiveEffects"              : [
     {
+      "EffectName" : "Sanctuary",
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0
+      },
+      "StatModifiers"   : [
+        {
+          "Stat" : {
+            "key" : "Sanctuary",
+            "type" : "GameStat",
+            "icon" : "GameStat__DarkSense__DefaultStatusIcon",
+            "min"  : -1000.0,
+            "max"  : 7500.0,
+            "name" : {
+              "zh" : "\u5E87\u62A4\u5EA6",
+              "en" : "Sanctuary",
+              "ja" : "\u5B89\u606F\u5EA6"
+            }
+          },
+          "ValueModifier" : {
+            "x" : 100.0,
+            "y" : 100.0
+          }
+        }
+      ],
+      "OnBoardEffectCap" : 0,
+      "LiquidRateModifier" : 0.0,
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "\u5E87\u62A4",
+        "en" : "Sanctuary",
+        "ja" : "Sanctuary"
+      }
+    },
+    {
       "EffectName" : "Insulation",
-      "StatModifiers" : [
+      "OnlyWhenNOTInBG" : true,
+      "Conditions"      : {
+        "NotInBackground" : true,
+        "PlayerUsesCard"  : 0
+      },
+      "StatModifiers"   : [
         {
           "Stat" : {
             "key" : "TemperaturePerceived",

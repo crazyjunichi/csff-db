@@ -10,6 +10,21 @@
     "en" : "Bought from traders; needs low to medium acidity, medium hydration and mid to high structure. Produces the most yield on medium nutrients during spring.\n\nCan be used to make twine and cloth and for its edible seeds.",
     "ja" : "\u4EA4\u6613\u5546\u304B\u3089\u8CFC\u5165\u3067\u304D\u308B\u3002\u4F4E\uFF5E\u4E2D\u7A0B\u5EA6\u306E\u9178\u6027\u5EA6\u3001\u4E2D\u7A0B\u5EA6\u306E\u6C34\u5206\u91CF\u3001\u4E2D\uFF5E\u9AD8\u7A0B\u5EA6\u306E\u571F\u58CC\u69CB\u9020\u3092\u5FC5\u8981\u3068\u3059\u308B\u3002\u6625\u306E\u4E2D\u7A0B\u5EA6\u306E\u990A\u5206\u74B0\u5883\u3067\u6700\u3082\u9AD8\u3044\u53CE\u7A6B\u91CF\u3092\u5F97\u3089\u308C\u308B\u3002\n\n\u7E4A\u7DAD\u306F\u7D10\u3084\u5E03\u306E\u88FD\u4F5C\u306B\u4F7F\u7528\u3067\u304D\u3001\u7A2E\u5B50\u306F\u98DF\u7528\u306B\u3082\u306A\u308B\u3002"
   },
+  "AlternateNames"  : [
+    {
+      "Conditions" : {
+        "Special1Range" : {
+          "x" : 1.0,
+          "y" : 5760.0
+        }
+      },
+      "Name"       : {
+        "zh" : "Blooming Flax Field",
+        "en" : "Blooming Flax Field",
+        "ja" : "Blooming Flax Field"
+      }
+    }
+  ],
   "CardHelpSection" : {
     "zh" : "<b>\u83B7\u53D6\uFF1A</b>\u4ECE\u5546\u4EBA\u5904\u8D2D\u5F97\u3002\n\n<b>\u9700\u6C42\uFF1A</b>\u4E2D\u4F4E\u9178\u5EA6\u3001\u4E2D\u7B49\u6E7F\u5EA6\u548C\u4E2D\u9AD8\u571F\u8D28\u3002\u6625\u5B63\u4E2D\u7B49\u517B\u5206\u4E0B\u4EA7\u91CF\u6700\u9AD8\u3002\n\n<b>\u7528\u9014\uFF1A</b>\u7EBA\u7EC7\u54C1\u3001\u98DF\u54C1\u3001\u8C03\u5473\u54C1\u3002",
     "en" : "<b>Found:</b> Bought from Traders. \n\n<b>Growth Needs:</b> Low to Mid Acidity, Mid Hydration and Mid to High Structure. Produces the most yield on Medium Nutrients during Spring.\n\n<b>Benefits:</b> Textiles, Food, Seasoning. ",
@@ -51,6 +66,16 @@
         "zh" : "\u91CE\u732A\u98DF\u7269\u519C\u7530",
         "en" : "Boar Food Crop Field",
         "ja" : "Boar Food Crop Field"
+      }
+    },
+    {
+      "key" : "tag_HasFlowersForBees",
+      "type" : "CardTag",
+      "count" : 8,
+      "name"  : {
+        "zh" : "\u6709\u82B1\u4F9B\u871C\u8702",
+        "en" : "Temper",
+        "ja" : "Temper"
       }
     }
   ],
@@ -721,49 +746,28 @@
   },
   "LiquidEvaporationRate"       : 0.0,
   "SpecialDurability1"          : {
+    "CardStatName" : {
+      "zh" : "Flowers",
+      "en" : "Flowers",
+      "ja" : "Flowers"
+    },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 5760.0,
     "RatePerDaytimePoint"  : 0.0,
     "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 0,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "OverrideIcon"          : {
+    "PauseRateWhenEnvWeightIsFull" : true,
+    "HidingOptions"                : 0,
+    "TextDisplay"                  : 0,
+    "NumberPrecision"              : 0,
+    "OverrideIcon"                 : {
       "FileName" : "CardData__AppleweedPlantedGrowing__Progress-OverrideIcon"
     },
-    "HasActionOnZero"       : true,
-    "OnZeroNotification"    : 0,
-    "OnZero"                : {
-      "DaytimeCost" : 0,
-      "UseMiniTicks" : 0,
-      "ReceivingCardChanges" : {
-        "ModType" : 2,
-        "TransformInto" : {
-          "key" : "FallowField",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__BlessedGroveInvisible__CardImage",
-          "name"     : {
-            "zh" : "\u4F11\u8015\u5730",
-            "en" : "Fallow Field",
-            "ja" : "\u4F11\u9591\u5730"
-          }
-        },
-        "TransformToLiquidQuantity" : 0.0,
-        "TransferSpoilage"          : true,
-        "TransferUsage"             : true,
-        "TransferFuel"              : true,
-        "TransferCharges"           : true,
-        "LiquidEffectScaling"       : 0
-      },
-      "FadeToBlack"          : 0,
-      "RoomDirection"        : 0,
-      "ExitDirection"        : 0
-    },
-    "OnFullNotification"    : 0,
-    "FloatValue"            : 5760.0,
-    "durabilityKey"         : "SpecialDurability1",
-    "_valueModifications"   : [
+    "OnZeroNotification"           : 0,
+    "OnFullNotification"           : 0,
+    "FloatValue"                   : 0.0,
+    "Active"                       : true,
+    "durabilityKey"                : "SpecialDurability1",
+    "_valueModifications"          : [
       {
         "source" : {
           "key" : "FlaxFieldMature",
@@ -787,7 +791,51 @@
         }
       }
     ],
-    "_rateModifications"    : [
+    "_rateModifications"           : [
+      {
+        "source" : {
+          "key" : "FlaxFieldMature",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_FlaxField__CardImage",
+          "name"     : {
+            "zh" : "\u6210\u719F\u7684\u4E9A\u9EBB\u7530",
+            "en" : "Mature Flax Field",
+            "ja" : "\u6210\u719F\u3057\u305F\u4E9C\u9EBB\u7551"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AGrows Flowers in Summer",
+          "en" : "Passive Effect\uFF1AGrows Flowers in Summer",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Flowers in Summer"
+        },
+        "value"       : {
+          "x" : 2.0,
+          "y" : 2.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "FlaxFieldMature",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_FlaxField__CardImage",
+          "name"     : {
+            "zh" : "\u6210\u719F\u7684\u4E9A\u9EBB\u7530",
+            "en" : "Mature Flax Field",
+            "ja" : "\u6210\u719F\u3057\u305F\u4E9C\u9EBB\u7551"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AFlowers go away in Autumn",
+          "en" : "Passive Effect\uFF1AFlowers go away in Autumn",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFlowers go away in Autumn"
+        },
+        "value"       : {
+          "x" : -8.0,
+          "y" : -8.0
+        }
+      },
       {
         "source" : {
           "key" : "FlaxFieldMature",
@@ -804,6 +852,28 @@
           "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51AC\u5B63\uFF08\u751F\u957F -1\uFF0C\u5065\u5EB7 -0.25\uFF09",
           "en" : "Passive Effect\uFF1AWinter (Growth -1)(Health -0.25)",
           "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AWinter (Growth -1)(Health -0.25)"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "BeeSkep",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BeeSkep__CardImage",
+          "name"     : {
+            "zh" : "Bee Skep",
+            "en" : "Bee Skep",
+            "ja" : "Bee Skep"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
         },
         "value"       : {
           "x" : -1.0,
@@ -4131,6 +4201,136 @@
   ],
   "PassiveEffects"              : [
     {
+      "EffectName" : "Grows Flowers in Summer",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Summer",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u590F\u5B63",
+                "en" : "Summer Counter",
+                "ja" : "Summer Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "OnBoardEffectCap" : 0,
+      "Special1RateModifier" : {
+        "FloatValue" : 2.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier"   : 0.0,
+      "GeneratedLiquid"      : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Grows Flowers in Summer",
+        "en" : "Grows Flowers in Summer",
+        "ja" : "Grows Flowers in Summer"
+      }
+    },
+    {
+      "EffectName" : "Flowers go away in Autumn",
+      "Conditions" : {
+        "PlayerUsesCard" : 0,
+        "RequiredStatValues" : [
+          {
+            "Stat" : {
+              "key" : "SeasonCounter_Autumn",
+              "type" : "GameStat",
+              "min"  : 0.0,
+              "max"  : 2880.0,
+              "name" : {
+                "zh" : "\u79CB\u5B63",
+                "en" : "Autumn Counter",
+                "ja" : "Autumn Counter"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 1.0,
+              "y" : 2880.0
+            }
+          }
+        ]
+      },
+      "OnBoardEffectCap" : 0,
+      "Special1RateModifier" : {
+        "FloatValue" : -8.0,
+        "Active"     : true
+      },
+      "LiquidRateModifier"   : 0.0,
+      "GeneratedLiquid"      : {
+        "Durabilities" : {
+          "Spoilage" : 0,
+          "Usage"    : 0,
+          "Fuel"     : 0,
+          "Progress" : 0,
+          "Special1" : 0,
+          "Special2" : 0,
+          "Special3" : 0,
+          "Special4" : 0,
+          "SpoilageValue" : 0.0,
+          "UsageValue"    : 0.0,
+          "FuelValue"     : 0.0,
+          "ProgressValue" : 0.0,
+          "Special1Value" : 0.0,
+          "Special2Value" : 0.0,
+          "Special3Value" : 0.0,
+          "Special4Value" : 0.0,
+          "SpoilageFrom"  : 1,
+          "UsageFrom"     : 1,
+          "FuelFrom"      : 1,
+          "ProgressFrom"  : 1,
+          "Special1From"  : 1,
+          "Special2From"  : 1,
+          "Special3From"  : 1,
+          "Special4From"  : 1
+        }
+      },
+      "WeightCapacityModifier" : 0.0,
+      "_EffectNameI18n"        : {
+        "zh" : "Flowers go away in Autumn",
+        "en" : "Flowers go away in Autumn",
+        "ja" : "Flowers go away in Autumn"
+      }
+    },
+    {
       "EffectName" : "Cared for (HP +0.05 )",
       "Conditions" : {
         "PlayerUsesCard" : 0,
@@ -4618,7 +4818,7 @@
           {
             "key" : "tag_Inlands_Deciduous_ModerateAcidity",
             "type" : "CardTag",
-            "count" : 31,
+            "count" : 33,
             "name"  : {
               "zh" : "\u4E2D\u7B49\u9178\u5EA6",
               "en" : "Moderate Acidity",
@@ -4657,7 +4857,7 @@
           {
             "key" : "tag_Inlands_Deciduous_ModerateAcidity",
             "type" : "CardTag",
-            "count" : 31,
+            "count" : 33,
             "name"  : {
               "zh" : "\u4E2D\u7B49\u9178\u5EA6",
               "en" : "Moderate Acidity",

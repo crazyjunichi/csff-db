@@ -1,0 +1,82 @@
+
+{
+  "DutyName" : {
+    "zh" : "Craft-Heart triggers traps",
+    "en" : "Craft-Heart triggers traps",
+    "ja" : "Craft-Heart triggers traps"
+  },
+  "DutySummary" : {
+    "zh" : "Craft-Heart triggers traps",
+    "en" : "Craft-Heart triggers traps",
+    "ja" : "Craft-Heart triggers traps"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "CraftHeartTriggerTrap",
+      "type" : "AffectItemsDutyAction",
+      "name" : {
+        "zh" : "CraftHeartTriggerTrap",
+        "en" : "CraftHeartTriggerTrap",
+        "ja" : "CraftHeartTriggerTrap"
+      }
+    },
+    {
+      "key" : "WasCraftHeartCaptured",
+      "type" : "TakeSimpleDecisionDutyAction",
+      "name" : {
+        "zh" : "WasCraftHeartCaptured",
+        "en" : "WasCraftHeartCaptured",
+        "ja" : "WasCraftHeartCaptured"
+      }
+    },
+    {
+      "key" : "StartCraftHeartTrapCooldown",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "StartCraftHeartTrapCooldown",
+        "en" : "StartCraftHeartTrapCooldown",
+        "ja" : "StartCraftHeartTrapCooldown"
+      }
+    },
+    {
+      "key" : "EndCraftHeartFleeModeAfterCapture",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "EndCraftHeartFleeModeAfterCapture",
+        "en" : "EndCraftHeartFleeModeAfterCapture",
+        "ja" : "EndCraftHeartFleeModeAfterCapture"
+      }
+    },
+    {
+      "key" : "ReturnCapturedCraftHeartToSpiritWorld",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "ReturnCapturedCraftHeartToSpiritWorld",
+        "en" : "ReturnCapturedCraftHeartToSpiritWorld",
+        "ja" : "ReturnCapturedCraftHeartToSpiritWorld"
+      }
+    },
+    {
+      "key" : "ClearCraftHeartCaptureOutcome",
+      "type" : "ChangeStatDutyAction",
+      "name" : {
+        "zh" : "ClearCraftHeartCaptureOutcome",
+        "en" : "ClearCraftHeartCaptureOutcome",
+        "ja" : "ClearCraftHeartCaptureOutcome"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_CraftHeart_TriggerTraps",
+  "name"                 : {
+    "zh" : "Craft-Heart triggers traps",
+    "en" : "Craft-Heart triggers traps",
+    "ja" : "Craft-Heart triggers traps"
+  },
+  "_uuid"                : "6ce18900c1b548d9a5cf9c15f13137cb"
+}

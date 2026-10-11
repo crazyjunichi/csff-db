@@ -10,34 +10,35 @@
     "en" : "Caused by bleeding wounds, use Tourniquets and Dressings to lower it.",
     "ja" : "\u51FA\u8840\u4E2D\u306E\u50B7\u53E3\u304C\u539F\u56E0\u3002\u6B62\u8840\u5E2F\u3084\u5305\u5E2F\u3092\u4F7F\u304A\u3046\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 20.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 5.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 1.0,
     "g" : 0.0259,
     "b" : 0.0,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.5255,
     "g" : 0.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__BloodLoss__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6CA1\u6709\u6D41\u8840",
@@ -448,28 +449,28 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u592A\u9ED1\u4E86\u6211\u505A\u4E0D\u5230\u2026\u2026",
     "en" : "It's to dark for this action...",
     "ja" : "\u6697\u304F\u3066\u30A2\u30AF\u30B7\u30E7\u30F3\u3067\u304D\u306A\u3044\u30FB\u30FB\u30FB"
   },
-  "type"                    : "GameStat",
-  "key"                     : "BloodLoss",
-  "icon"                    : "GameStat__BloodLoss__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BloodLoss",
+  "icon"                        : "GameStat__BloodLoss__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u5931\u8840",
     "en" : "Blood Loss",
     "ja" : "\u5931\u8840"
   },
-  "min"                     : 0.0,
-  "max"                     : 20.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 20.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "W_ArmLacerationL",
@@ -1110,6 +1111,28 @@
     },
     {
       "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u5931\u8840",
+        "en" : "Passive Effect: Bloodloss",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ABloodloss"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
         "key" : "W_WolfBite",
         "type" : "CardData",
         "CardType" : 0,
@@ -1131,5 +1154,5 @@
       }
     }
   ],
-  "_uuid"                   : "7f4598bd0e82e7b499da3848e452c39f"
+  "_uuid"                       : "7f4598bd0e82e7b499da3848e452c39f"
 }

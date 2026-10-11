@@ -10,35 +10,36 @@
     "en" : "A spirit blessing. Boost your immune system.",
     "ja" : "\u514D\u75AB\u529B\u3092\u5411\u4E0A\u3059\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "VisibleValueRange"     : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"              : {
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u517D\u4E4B\u575A\u97E7",
@@ -496,27 +497,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Resilience",
-  "icon"                    : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Resilience",
+  "icon"                        : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon",
+  "name"                        : {
     "zh" : "\u91CE\u517D\u822C\u575A\u97E7",
     "en" : "Bestial Resilience",
     "ja" : "\u7363\u7684\u8010\u4E45\u529B"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_BadgerSpiritBlessingGranted",
@@ -716,7 +717,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BearCoat",
@@ -1076,5 +1077,5 @@
       }
     }
   ],
-  "_uuid"                   : "747b3124b56c13b43a03eee5854898c7"
+  "_uuid"                       : "747b3124b56c13b43a03eee5854898c7"
 }

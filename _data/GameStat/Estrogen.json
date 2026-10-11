@@ -10,24 +10,25 @@
     "en" : "Increases female physical traits and empathy.",
     "ja" : "\u611F\u53D7\u6027\u8C4A\u304B\u306B\u306A\u308A\u3001\u4F53\u304C\u8C4A\u6E80\u306B\u306A\u308B\u3002"
   },
-  "BaseValue"   : 12.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 12.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__DislikesFemaleTraits__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5FAE\u96CC\u6FC0\u7D20\u6C34\u5E73",
@@ -123,7 +124,7 @@
             "min"  : 0.0,
             "max"  : 200.0,
             "name" : {
-              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "zh" : "\u80F8\u90E8\u5C3A\u5BF8",
               "en" : "Breast Size",
               "ja" : "Breast Size"
             }
@@ -212,7 +213,7 @@
             "min"  : 0.0,
             "max"  : 200.0,
             "name" : {
-              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "zh" : "\u80F8\u90E8\u5C3A\u5BF8",
               "en" : "Breast Size",
               "ja" : "Breast Size"
             }
@@ -372,7 +373,7 @@
             "min"  : 0.0,
             "max"  : 200.0,
             "name" : {
-              "zh" : "\u80F8\u90E8\u5927\u5C0F",
+              "zh" : "\u80F8\u90E8\u5C3A\u5BF8",
               "en" : "Breast Size",
               "ja" : "Breast Size"
             }
@@ -480,23 +481,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Estrogen",
-  "icon"                    : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Estrogen",
+  "icon"                        : "GameStat__DislikesFemaleTraits__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u96CC\u6FC0\u7D20",
     "en" : "Estrogen",
     "ja" : "\u5973\u6027\u30DB\u30EB\u30E2\u30F3"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_1_1_FemaleOrgans",
@@ -561,5 +562,5 @@
       }
     }
   ],
-  "_uuid"                   : "91b8544aaaed97c4990f5af58474156f"
+  "_uuid"                       : "91b8544aaaed97c4990f5af58474156f"
 }

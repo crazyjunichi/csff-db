@@ -10,24 +10,25 @@
     "en" : "How protected you are from the rain.",
     "ja" : "\u96E8\u304B\u3089\u5B88\u3089\u308C\u3066\u308B\u30EC\u30D9\u30EB\u3092\u793A\u3059"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 5.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0,
     "g" : 0.5459,
     "b" : 1.0,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__BearCoat__FuelCapacity-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5FAE\u9632\u62A4",
@@ -177,23 +178,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "RainProtection",
-  "icon"                    : "CardData__BearCoat__FuelCapacity-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "RainProtection",
+  "icon"                        : "CardData__BearCoat__FuelCapacity-OverrideIcon",
+  "name"                        : {
     "zh" : "\u96E8\u6C34\u9632\u62A4",
     "en" : "Rain Protection",
     "ja" : "\u96E8\u8010\u6027"
   },
-  "min"                     : 0.0,
-  "max"                     : 5.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 5.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "CabinConstructionLocationAttic",
@@ -1250,6 +1251,28 @@
     },
     {
       "source" : {
+        "key" : "ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__ClearingOak_GreenGlade__CardImage",
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
         "key" : "ClearingPine_BadgerHillQEE",
         "type" : "CardData",
         "CardType" : 8,
@@ -1866,6 +1889,28 @@
     },
     {
       "source" : {
+        "key" : "GroveOak_TrickstersGrove",
+        "type" : "CardData",
+        "CardType" : 8,
+        "icon"     : "CardData__GroveOak_BoulderGrove__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u6A61\u6797",
+          "en" : "Trickster's Grove",
+          "ja" : "Trickster's Grove"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C",
+        "en" : "Passive Effect",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
         "key" : "GrovePine_CrowPines",
         "type" : "CardData",
         "CardType" : 8,
@@ -2441,7 +2486,7 @@
         "key" : "River_ClearingOak_RiverClearing",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u7554\u6797\u9699",
           "en" : "River Clearing",
@@ -2793,7 +2838,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -2815,7 +2860,7 @@
         "key" : "River_ThicketOak_RiverConfluence",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CB3\u6D41\u4EA4\u6C47\u5904",
           "en" : "River Confluence",
@@ -3955,5 +4000,5 @@
       }
     }
   ],
-  "_uuid"                   : "431f76fbfb93e8c4a850de1528ef863a"
+  "_uuid"                       : "431f76fbfb93e8c4a850de1528ef863a"
 }

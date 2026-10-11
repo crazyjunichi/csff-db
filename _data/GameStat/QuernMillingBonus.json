@@ -10,30 +10,31 @@
     "en" : "Used to store the bonus quality for milled ingridients. To avid rounding the number is multipled by 400\nit interpolates between 0 and 192 but the values go from 0 to 76800. ",
     "ja" : "Used to store the bonus quality for milled ingridients. To avid rounding the number is multipled by 400\nit interpolates between 0 and 192 but the values go from 0 to 76800. "
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 76800.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "QuernMillingBonus",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "QuernMillingBonus",
+  "name"                        : {
     "zh" : "\u77F3\u78E8\u7814\u78E8\u52A0\u6210",
     "en" : "Quern Milling Bonus",
     "ja" : "Quern Milling Bonus"
   },
-  "min"                     : 0.0,
-  "max"                     : 76800.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 76800.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "RotaryQuern",
@@ -189,5 +190,5 @@
       }
     }
   ],
-  "_uuid"                   : "1fd98a1ebe231fb4985422b856c99631"
+  "_uuid"                       : "1fd98a1ebe231fb4985422b856c99631"
 }

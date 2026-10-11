@@ -10,30 +10,31 @@
     "en" : "Counter used to fulfill the Intermediate Cooking Objective: Make a Broth. Increased when an LQ_Stew reaches Broth Thickness",
     "ja" : "Counter used to fulfill the Intermediate Cooking Objective: Make a Broth. Increased when an LQ_Stew reaches Broth Thickness"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "MakeABroth",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MakeABroth",
+  "name"                        : {
     "zh" : "\u505A\u4E00\u7897\u8089\u6C64",
     "en" : "Make a Broth",
     "ja" : "Make a Broth"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "OLD_LQ_StewWater",
@@ -56,5 +57,5 @@
       }
     }
   ],
-  "_uuid"                   : "244762b7618cdc04dbba7b87c63098a5"
+  "_uuid"                       : "244762b7618cdc04dbba7b87c63098a5"
 }

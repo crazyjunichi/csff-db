@@ -113,7 +113,7 @@
     {
       "key" : "tag_Heatable",
       "type" : "CardTag",
-      "count" : 368,
+      "count" : 371,
       "name"  : {
         "zh" : "\u53EF\u52A0\u70ED\u7684",
         "en" : "Heatable",
@@ -880,6 +880,28 @@
           "zh" : "\u52A8\u4F5C\uFF1A\u6E05\u7406",
           "en" : "Action: Clean",
           "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u7DBA\u9E97"
+        },
+        "value"       : {
+          "x" : -300.0,
+          "y" : -300.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "W_StalkerBite",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__W_BearBite__CardImage",
+          "name"     : {
+            "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+            "en" : "Stalker Bite",
+            "ja" : "Stalker Bite"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1AClean",
+          "en" : "Action: Clean",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
         },
         "value"       : {
           "x" : -300.0,
@@ -4849,7 +4871,7 @@
           "CardType" : 0,
           "icon"     : "CardData__TumourBoiled__CardImage",
           "name"     : {
-            "zh" : "Strange Growth",
+            "zh" : "\u751F\u589E\u751F\u7624",
             "en" : "Strange Growth",
             "ja" : "Strange Growth"
           }
@@ -4867,7 +4889,7 @@
           "CardType" : 0,
           "icon"     : "CardData__TumourBoiled__CardImage",
           "name"     : {
-            "zh" : "Dried Growth",
+            "zh" : "\u589E\u751F\u7624\u5E72",
             "en" : "Dried Growth",
             "ja" : "Dried Growth"
           }
@@ -4885,7 +4907,7 @@
           "CardType" : 0,
           "icon"     : "CardData__TumourBoiled__CardImage",
           "name"     : {
-            "zh" : "Cooked Growth",
+            "zh" : "\u70F9\u5236\u589E\u751F\u7624",
             "en" : "Cooked Growth",
             "ja" : "Cooked Growth"
           }
@@ -4903,7 +4925,7 @@
           "CardType" : 0,
           "icon"     : "CardData__TumourBoiled__CardImage",
           "name"     : {
-            "zh" : "Boiled Growth",
+            "zh" : "\u6C34\u716E\u589E\u751F\u7624",
             "en" : "Boiled Growth",
             "ja" : "Boiled Growth"
           }
@@ -5619,6 +5641,28 @@
       },
       {
         "source" : {
+          "key" : "W_StalkerBite",
+          "type" : "CardData",
+          "CardType" : 0,
+          "icon"     : "CardData__W_BearBite__CardImage",
+          "name"     : {
+            "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+            "en" : "Stalker Bite",
+            "ja" : "Stalker Bite"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1AClean",
+          "en" : "Action: Clean",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
           "key" : "W_WolfBite",
           "type" : "CardData",
           "CardType" : 0,
@@ -5975,6 +6019,28 @@
           "x" : 100.0,
           "y" : 100.0
         }
+      },
+      {
+        "source" : {
+          "key" : "LQ_Honey",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+          "name"     : {
+            "zh" : "Honey",
+            "en" : "Honey",
+            "ja" : "Honey"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1AMix",
+          "en" : "Action: Mix",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMix"
+        },
+        "value"       : {
+          "x" : 50.0,
+          "y" : 50.0
+        }
       }
     ]
   },
@@ -6043,6 +6109,28 @@
         "value"       : {
           "x" : 96.0,
           "y" : 96.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "LQ_Honey",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+          "name"     : {
+            "zh" : "Honey",
+            "en" : "Honey",
+            "ja" : "Honey"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1AMix",
+          "en" : "Action: Mix",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMix"
+        },
+        "value"       : {
+          "x" : 40.0,
+          "y" : 40.0
         }
       },
       {
@@ -13762,15 +13850,15 @@
         {
           "Durability" : 32,
           "Value"      : {
-            "x" : 4.0,
-            "y" : 4.0
+            "x" : 2.5,
+            "y" : 2.5
           }
         },
         {
           "Durability" : 128,
           "Value"      : {
-            "x" : 2.5,
-            "y" : 2.5
+            "x" : 4.0,
+            "y" : 4.0
           }
         },
         {
@@ -18877,7 +18965,7 @@
             "CardType" : 0,
             "icon"     : "CardData__TumourBoiled__CardImage",
             "name"     : {
-              "zh" : "Strange Growth",
+              "zh" : "\u751F\u589E\u751F\u7624",
               "en" : "Strange Growth",
               "ja" : "Strange Growth"
             }
@@ -18890,7 +18978,7 @@
             "CardType" : 0,
             "icon"     : "CardData__TumourBoiled__CardImage",
             "name"     : {
-              "zh" : "Dried Growth",
+              "zh" : "\u589E\u751F\u7624\u5E72",
               "en" : "Dried Growth",
               "ja" : "Dried Growth"
             }
@@ -18903,7 +18991,7 @@
             "CardType" : 0,
             "icon"     : "CardData__TumourBoiled__CardImage",
             "name"     : {
-              "zh" : "Cooked Growth",
+              "zh" : "\u70F9\u5236\u589E\u751F\u7624",
               "en" : "Cooked Growth",
               "ja" : "Cooked Growth"
             }
@@ -18916,7 +19004,7 @@
             "CardType" : 0,
             "icon"     : "CardData__TumourBoiled__CardImage",
             "name"     : {
-              "zh" : "Boiled Growth",
+              "zh" : "\u6C34\u716E\u589E\u751F\u7624",
               "en" : "Boiled Growth",
               "ja" : "Boiled Growth"
             }
@@ -20115,40 +20203,6 @@
     },
     {
       "source" : {
-        "key" : "StreamBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "name"     : {
-          "zh" : "\u6CB3\u6D41",
-          "en" : "Stream",
-          "ja" : "\u5C0F\u5DDD"
-        }
-      },
-      "description" : {
-        "zh" : "\u9ED8\u8BA4\u6DB2\u4F53",
-        "en" : "Default Liquid",
-        "ja" : "\u30C7\u30D5\u30A9\u30EB\u30C8\u6DB2\u4F53"
-      }
-    },
-    {
-      "source" : {
-        "key" : "StreamBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "name"     : {
-          "zh" : "\u6CB3\u6D41",
-          "en" : "Stream",
-          "ja" : "\u5C0F\u5DDD"
-        }
-      },
-      "description" : {
-        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AFill",
-        "en" : "Passive Effect: Fill",
-        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AFill"
-      }
-    },
-    {
-      "source" : {
         "key" : "CopperBottle",
         "type" : "CardData",
         "CardType" : 0,
@@ -20307,7 +20361,6 @@
         "key" : "WateringTrough",
         "type" : "CardData",
         "CardType" : 2,
-        "icon"     : "CardData__WateringTrough__CardImage",
         "name"     : {
           "zh" : "Watering Trough",
           "en" : "Watering Trough",
@@ -21079,23 +21132,6 @@
     },
     {
       "source" : {
-        "key" : "DoughStarter",
-        "type" : "CardData",
-        "CardType" : 0,
-        "name"     : {
-          "zh" : "\u9175\u79CD",
-          "en" : "Dough Starter",
-          "ja" : "\u5143\u7A2E"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u52A0\u6C34",
-        "en" : "Action: Fill with Water",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6C34\u3067\u3044\u3063\u3071\u3044\u306B\u3059\u308B"
-      }
-    },
-    {
-      "source" : {
         "key" : "Quicklime",
         "type" : "CardData",
         "CardType" : 0,
@@ -21258,6 +21294,24 @@
     },
     {
       "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AMix",
+        "en" : "Action: Mix",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMix"
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritMushroomsPowder",
         "type" : "CardData",
         "CardType" : 9,
@@ -21378,24 +21432,6 @@
       },
       "description" : {
         "zh" : "\u52A8\u4F5C\uFF1A\u6C34\u4EFD\u503C",
-        "en" : "Action: Water",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6C34"
-      }
-    },
-    {
-      "source" : {
-        "key" : "MushroomBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_GardenPlot__CardImage",
-        "name"     : {
-          "zh" : "\u83CC\u5E8A",
-          "en" : "Mushroom Bed",
-          "ja" : "\u83CC\u5E8A"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u6D47\u6C34",
         "en" : "Action: Water",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6C34"
       }
@@ -21833,6 +21869,24 @@
     },
     {
       "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AClean",
+        "en" : "Action: Clean",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AClean"
+      }
+    },
+    {
+      "source" : {
         "key" : "W_WolfBite",
         "type" : "CardData",
         "CardType" : 0,
@@ -21915,24 +21969,6 @@
         "zh" : "\u52A8\u4F5C\uFF1AWet",
         "en" : "Action: Wet",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AWet"
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeHoneycomb",
-        "type" : "CardData",
-        "CardType" : 0,
-        "icon"     : "CardData__BeeHoneycomb__CardImage",
-        "name"     : {
-          "zh" : "Honeycomb",
-          "en" : "Honeycomb",
-          "ja" : "Honeycomb"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASoak",
-        "en" : "Action: Soak",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASoak"
       }
     },
     {
@@ -22733,6 +22769,37 @@
     },
     {
       "source" : {
+        "key" : "LQ_HoneyWater",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey Water",
+          "en" : "Honey Water",
+          "ja" : "Honey Water"
+        }
+      },
+      "otherCards" : [
+        {
+          "key" : "LQ_Honey",
+          "type" : "CardData",
+          "CardType" : 9,
+          "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+          "name"     : {
+            "zh" : "Honey",
+            "en" : "Honey",
+            "ja" : "Honey"
+          }
+        }
+      ],
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AMix",
+        "en" : "Action: Mix",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AMix"
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_RottenStew",
         "type" : "CardData",
         "CardType" : 9,
@@ -22794,37 +22861,6 @@
         "zh" : "\u52A8\u4F5C\uFF1A\u6C34\u8D50\u798F",
         "en" : "Action: Water Blessing",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6C34\u306E\u795D\u798F"
-      }
-    },
-    {
-      "source" : {
-        "key" : "NOT_USED_LQ_HoneyWater",
-        "type" : "CardData",
-        "CardType" : 9,
-        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
-        "name"     : {
-          "zh" : "Honey Water",
-          "en" : "Honey Water",
-          "ja" : "Honey Water"
-        }
-      },
-      "otherCards" : [
-        {
-          "key" : "BeeHoneycomb",
-          "type" : "CardData",
-          "CardType" : 0,
-          "icon"     : "CardData__BeeHoneycomb__CardImage",
-          "name"     : {
-            "zh" : "Honeycomb",
-            "en" : "Honeycomb",
-            "ja" : "Honeycomb"
-          }
-        }
-      ],
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1ASoak",
-        "en" : "Action: Soak",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASoak"
       }
     },
     {

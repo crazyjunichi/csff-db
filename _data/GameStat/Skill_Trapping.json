@@ -10,41 +10,42 @@
     "en" : "Shows how good you are at trapping. Increases your success chances with traps and unlocks new blueprints as it gets higher.",
     "ja" : "\u7F60\u4F5C\u308A\u306E\u4E0A\u624B\u3055\u3092\u793A\u3059\u3002\u4E0A\u304C\u308C\u3070\u7F60\u3067\u52D5\u7269\u3092\u6355\u307E\u3048\u308B\u78BA\u7387\u304C\u4E0A\u304C\u308A\u3001\u65B0\u3057\u3044\u8A2D\u8A08\u56F3\u3092\u30A2\u30F3\u30ED\u30C3\u30AF\u3067\u304D\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_DeadfallTrap__CardImage"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 12,
-  "StalenessMultiplier"     : 0.8,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 12,
+  "StalenessMultiplier"         : 0.8,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_Trapping",
-  "icon"                    : "CardData__Bp_DeadfallTrap__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_Trapping",
+  "icon"                        : "CardData__Bp_DeadfallTrap__CardImage",
+  "name"                        : {
     "zh" : "\u9677\u9631",
     "en" : "Trapping",
     "ja" : "\u7F60\u4F5C\u308A\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_PitTrap",
@@ -244,6 +245,144 @@
     },
     {
       "source" : {
+        "key" : "TrappingAid",
+        "type" : "GameStat",
+        "icon" : "CardData__Bp_LogTrap__CardImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9677\u9631\u63F4\u52A9",
+          "en" : "Trapping Aid",
+          "ja" : "Trapping Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ATrapping Aid",
+        "en" : "Status Stage: Trapping Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ATrapping Aid"
+      },
+      "value"       : {
+        "x" : 25.0,
+        "y" : 25.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TrappingAid",
+        "type" : "GameStat",
+        "icon" : "CardData__Bp_LogTrap__CardImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9677\u9631\u63F4\u52A9",
+          "en" : "Trapping Aid",
+          "ja" : "Trapping Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ATrapping Aid",
+        "en" : "Status Stage: Trapping Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ATrapping Aid"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TrappingAid",
+        "type" : "GameStat",
+        "icon" : "CardData__Bp_LogTrap__CardImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9677\u9631\u63F4\u52A9",
+          "en" : "Trapping Aid",
+          "ja" : "Trapping Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ATrapping Aid",
+        "en" : "Status Stage: Trapping Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ATrapping Aid"
+      },
+      "value"       : {
+        "x" : 75.0,
+        "y" : 75.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TrappingAid",
+        "type" : "GameStat",
+        "icon" : "CardData__Bp_LogTrap__CardImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9677\u9631\u63F4\u52A9",
+          "en" : "Trapping Aid",
+          "ja" : "Trapping Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ATrapping Aid",
+        "en" : "Status Stage: Trapping Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ATrapping Aid"
+      },
+      "value"       : {
+        "x" : 100.0,
+        "y" : 100.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TrappingAid",
+        "type" : "GameStat",
+        "icon" : "CardData__Bp_LogTrap__CardImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9677\u9631\u63F4\u52A9",
+          "en" : "Trapping Aid",
+          "ja" : "Trapping Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ATrapping Aid",
+        "en" : "Status Stage: Trapping Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ATrapping Aid"
+      },
+      "value"       : {
+        "x" : 125.0,
+        "y" : 125.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TrappingAid",
+        "type" : "GameStat",
+        "icon" : "CardData__Bp_LogTrap__CardImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9677\u9631\u63F4\u52A9",
+          "en" : "Trapping Aid",
+          "ja" : "Trapping Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ATrapping Aid",
+        "en" : "Status Stage: Trapping Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ATrapping Aid"
+      },
+      "value"       : {
+        "x" : 150.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Pk_6_6_Trapper",
         "type" : "CharacterPerk",
         "icon" : "CardData__Bp_DeadfallTrap__CardImage",
@@ -264,7 +403,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Bp_LogTrap",
@@ -374,7 +513,137 @@
         "x" : 0.0,
         "y" : 150.0
       }
+    },
+    {
+      "source" : {
+        "key" : "SnareTrap",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_SnareTrap__CardImage",
+        "name"     : {
+          "zh" : "\u5957\u7D22\u9677\u9631",
+          "en" : "Snare Trap",
+          "ja" : "\u304F\u304F\u308A\u7F60"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnareTrap",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_SnareTrap__CardImage",
+        "name"     : {
+          "zh" : "\u5957\u7D22\u9677\u9631",
+          "en" : "Snare Trap",
+          "ja" : "\u304F\u304F\u308A\u7F60"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnareTrap",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_SnareTrap__CardImage",
+        "name"     : {
+          "zh" : "\u5957\u7D22\u9677\u9631",
+          "en" : "Snare Trap",
+          "ja" : "\u304F\u304F\u308A\u7F60"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SnareTrap",
+        "type" : "CardData",
+        "CardType" : 2,
+        "icon"     : "CardData__Bp_SnareTrap__CardImage",
+        "name"     : {
+          "zh" : "\u5957\u7D22\u9677\u9631",
+          "en" : "Snare Trap",
+          "ja" : "\u304F\u304F\u308A\u7F60"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ACraft-Heart triggers trap",
+        "en" : "Action: Craft-Heart triggers trap",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ACraft-Heart triggers trap"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Agent_CraftHeart",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u52A8\u4F5C",
+        "en" : "NPC Action",
+        "ja" : "NPC\u30A2\u30AF\u30B7\u30E7\u30F3"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 150.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Agent_CraftHeart",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name" : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3",
+          "en" : "Craft-Heart",
+          "ja" : "Craft-Heart"
+        }
+      },
+      "description" : {
+        "zh" : "NPC\u52A8\u4F5C",
+        "en" : "NPC Action",
+        "ja" : "NPC\u30A2\u30AF\u30B7\u30E7\u30F3"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 150.0
+      }
     }
   ],
-  "_uuid"                   : "e096b2d9e7b707a4dab55dbe4e2216ba"
+  "_uuid"                       : "e096b2d9e7b707a4dab55dbe4e2216ba"
 }

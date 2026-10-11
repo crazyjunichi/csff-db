@@ -11,30 +11,31 @@
     "ja" : "\u591A\u3059\u304E\u308B\u7CBE\u970A\u306E\u5B58\u5728\u306B\u3088\u3063\u3066\u751F\u3058\u308B\u3002\n\u96C6\u4E2D\u529B\u3092\u4F4E\u4E0B\u3055\u305B\u3001\u6240\u6301\u3057\u3066\u3044\u308B\u3042\u3089\u3086\u308B\u4ED8\u4E0E\u52B9\u679C\u3092\u5F31\u4F53\u5316\u3055\u305B\u308B\u3002"
   },
   "IsRuntimeOnly" : true,
-  "BaseValue"     : 0.0,
-  "MinMaxValue"   : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 13.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.7412,
     "g" : 0.102,
     "b" : 0.0392,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Headache__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5FAE\u7CBE\u9B44\u566A\u97F3",
@@ -1728,27 +1729,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Headache__DefaultStatusIcon"
     },
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "SpiritualNoise",
-  "icon"                    : "GameStat__Headache__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "SpiritualNoise",
+  "icon"                        : "GameStat__Headache__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u7CBE\u9B44\u566A\u97F3",
     "en" : "Spiritual Noise",
     "ja" : "\u970A\u969C"
   },
-  "min"                     : 0.0,
-  "max"                     : 13.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 13.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_5_5_SpiritualGear_Lq_SpiritMushroomsPowder",
@@ -2102,6 +2103,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritCraftHeart",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_CraftHeart__AgentImage",
+        "name"     : {
+          "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u7CBE\u9B44",
+          "en" : "Craft-Heart Spirit",
+          "ja" : "Craft-Heart Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7CBE\u9B44\u6270\u52A8\uFF08\u7CBE\u9B44\u9644\u9B54\uFF09",
+        "en" : "Passive Effect: Spiritual Noise : tag_SpiritEnchantable",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASpiritual Noise : tag_SpiritEnchantable"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritDarkness",
         "type" : "CardData",
         "CardType" : 9,
@@ -2132,6 +2155,28 @@
           "zh" : "\u9E7F\u7CBE\u9B44",
           "en" : "Deer Spirit",
           "ja" : "\u9E7F\u306E\u7CBE\u970A"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7CBE\u9B44\u6270\u52A8\uFF08\u7CBE\u9B44\u9644\u9B54\uFF09",
+        "en" : "Passive Effect: Spiritual Noise : tag_SpiritEnchantable",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASpiritual Noise : tag_SpiritEnchantable"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_SpiritDuck",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Duck1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u7CBE\u9B44",
+          "en" : "Duck Spirit",
+          "ja" : "Duck Spirit"
         }
       },
       "description" : {
@@ -2564,6 +2609,28 @@
     },
     {
       "source" : {
+        "key" : "LQ_SpiritStalker",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "NPCAgent__Agent_Stalker__AgentImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u7CBE\u9B44",
+          "en" : "Stalker Spirit",
+          "ja" : "Stalker Spirit"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u7CBE\u9B44\u6270\u52A8\uFF08\u7CBE\u9B44\u9644\u9B54\uFF09",
+        "en" : "Passive Effect: Spiritual Noise : tag_SpiritEnchantable",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASpiritual Noise : tag_SpiritEnchantable"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_SpiritSturgeon",
         "type" : "CardData",
         "CardType" : 9,
@@ -2717,5 +2784,5 @@
       }
     }
   ],
-  "_uuid"                   : "30e940eb00405d94b94822377313fb1b"
+  "_uuid"                       : "30e940eb00405d94b94822377313fb1b"
 }

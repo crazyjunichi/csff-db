@@ -1,0 +1,68 @@
+
+{
+  "DutyName" : {
+    "zh" : "Craft-Heart returns to the Spirit World while the player is absent",
+    "en" : "Craft-Heart returns to the Spirit World while the player is absent",
+    "ja" : "Craft-Heart returns to the Spirit World while the player is absent"
+  },
+  "DutySummary" : {
+    "zh" : "Craft-Heart returns to the Spirit World while the player is absent",
+    "en" : "Craft-Heart returns to the Spirit World while the player is absent",
+    "ja" : "Craft-Heart returns to the Spirit World while the player is absent"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyConditions"    : {
+    "InBackground" : true,
+    "PlayerUsesCard" : 0,
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentExists",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5B58\u5728",
+            "en" : "AgentExists",
+            "ja" : "AgentExists"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "CraftHeartReturnToSpiritWorldWhenPlayerAbsent",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "CraftHeartReturnToSpiritWorldWhenPlayerAbsent",
+        "en" : "CraftHeartReturnToSpiritWorldWhenPlayerAbsent",
+        "ja" : "CraftHeartReturnToSpiritWorldWhenPlayerAbsent"
+      }
+    },
+    {
+      "key" : "CraftHeartResetAgentExistsWhenPlayerAbsent",
+      "type" : "ChangeNPCStatDutyAction",
+      "name" : {
+        "zh" : "CraftHeartResetAgentExistsWhenPlayerAbsent",
+        "en" : "CraftHeartResetAgentExistsWhenPlayerAbsent",
+        "ja" : "CraftHeartResetAgentExistsWhenPlayerAbsent"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_CraftHeart_ReturnToSpiritWorldWhenPlayerAbsent",
+  "name"                 : {
+    "zh" : "Craft-Heart returns to the Spirit World while the player is absent",
+    "en" : "Craft-Heart returns to the Spirit World while the player is absent",
+    "ja" : "Craft-Heart returns to the Spirit World while the player is absent"
+  },
+  "_uuid"                : "357fcd2924ae47dab5345b47c94cf523"
+}

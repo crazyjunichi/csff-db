@@ -1,0 +1,90 @@
+
+{
+  "SceneLines" : [
+    {
+      "Line" : {
+        "zh" : "You approach the Stalker. ",
+        "en" : "You approach the Stalker. ",
+        "ja" : "You approach the Stalker. "
+      },
+      "ShowContinueButton" : 0,
+      "PossibleAnswers"    : [
+        {
+          "Answer" : {
+            "zh" : "Leave the Stalker alone. ",
+            "en" : "Leave the Stalker alone. ",
+            "ja" : "Leave the Stalker alone. "
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "Attack the Stalker",
+            "en" : "Attack the Stalker",
+            "ja" : "Attack the Stalker"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          },
+          "ActionToPerform" : {
+            "StatModifications" : [
+              {
+                "Stat" : {
+                  "key" : "AwarenessTempBonus",
+                  "type" : "GameStat",
+                  "icon" : "GameStat__AlertnessAid__DefaultStatusIcon",
+                  "min"  : 0.0,
+                  "max"  : 1000.0,
+                  "name" : {
+                    "zh" : "\u611F\u77E5\u4E34\u65F6\u52A0\u6210",
+                    "en" : "Awareness Temp Bonus",
+                    "ja" : "Awareness Temp Bonus"
+                  }
+                },
+                "ValueModifier" : {
+                  "x" : 1000.0,
+                  "y" : 1000.0
+                }
+              }
+            ],
+            "StartCombatEncounter" : {
+              "key" : "Combat_EncounterStalker",
+              "type" : "Encounter",
+              "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+              "name" : {
+                "zh" : "Stalker",
+                "en" : "Stalker",
+                "ja" : "Stalker"
+              }
+            },
+            "SkipEncounterEvent"   : true,
+            "OverrideEncounterNPC" : true,
+            "EncounterNPC"         : {
+              "key" : "Agent_Stalker",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+              "name" : {
+                "zh" : "\u6F5C\u884C\u8005",
+                "en" : "Stalker",
+                "ja" : "Stalker"
+              }
+            },
+            "Ticks"                : 0,
+            "Miniticks"            : 0
+          }
+        }
+      ],
+      "key"                : "StalkerIntro",
+      "type"               : "dialog"
+    }
+  ],
+  "key"        : "Dialogue_Stalker",
+  "type"       : "DialogScene",
+  "name"       : {
+    "zh" : "Dialogue_Stalker",
+    "en" : "Dialogue_Stalker",
+    "ja" : "Dialogue_Stalker"
+  }
+}

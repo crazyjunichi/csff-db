@@ -1,0 +1,787 @@
+
+{
+  "GameName" : {
+    "zh" : "\u504F\u6267",
+    "en" : "Paranoia",
+    "ja" : "Paranoia"
+  },
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
+    "x" : 0.0,
+    "y" : 300.0
+  },
+  "BaseRatePerTick"             : -0.25,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
+    "r" : 0.0745,
+    "g" : 0.9098,
+    "b" : 0.6118,
+    "a" : 1.0
+  },
+  "BarHighlightColor"           : {
+    "r" : 1.0,
+    "g" : 0.7285,
+    "b" : 0.0,
+    "a" : 1.0
+  },
+  "DefaultStatusIcon"           : {
+    "FileName" : "GameStat__EnemyDefeated__DefaultStatusIcon"
+  },
+  "Statuses"                    : [
+    {
+      "GameName" : {
+        "zh" : "Mild Paranoia",
+        "en" : "Mild Paranoia",
+        "ja" : "Mild Paranoia"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__EnemyDefeated__DefaultStatusIcon"
+      },
+      "ValueRange" : {
+        "m_X" : 50,
+        "m_Y" : 100
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.5,
+            "y" : 0.5
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "HIgh Paranoia",
+        "en" : "HIgh Paranoia",
+        "ja" : "HIgh Paranoia"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__EnemyDefeated__DefaultStatusIcon"
+      },
+      "ValueRange" : {
+        "m_X" : 101,
+        "m_Y" : 200
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : 0.75,
+            "y" : 0.75
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "MentalStructure",
+            "type" : "GameStat",
+            "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 250.0,
+            "name" : {
+              "zh" : "\u4E16\u754C\u89C2",
+              "en" : "Mental Structure",
+              "ja" : "\u7CBE\u795E\u69CB\u9020"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.5,
+            "y" : -1.5
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Severe Paranoia",
+        "en" : "Severe Paranoia",
+        "ja" : "Severe Paranoia"
+      },
+      "Icon"     : {
+        "FileName" : "GameStat__EnemyDefeated__DefaultStatusIcon"
+      },
+      "ValueRange" : {
+        "m_X" : 201,
+        "m_Y" : 300
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Stress",
+            "type" : "GameStat",
+            "icon" : "GameStat__Arousal__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 240.0,
+            "name" : {
+              "zh" : "\u538B\u529B",
+              "en" : "Stress",
+              "ja" : "\u30B9\u30C8\u30EC\u30B9"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "AlteredMindstate",
+            "type" : "GameStat",
+            "icon" : "GameStat__AlteredMindstate__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u7CBE\u795E\u5931\u5E38",
+              "en" : "Altered Mindstate",
+              "ja" : "\u5909\u308F\u3063\u305F\u7CBE\u795E\u72B6\u614B"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.5,
+            "y" : 1.5
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "MentalStructure",
+            "type" : "GameStat",
+            "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+            "min"  : 0.0,
+            "max"  : 250.0,
+            "name" : {
+              "zh" : "\u4E16\u754C\u89C2",
+              "en" : "Mental Structure",
+              "ja" : "\u7CBE\u795E\u69CB\u9020"
+            }
+          },
+          "RateModifier" : {
+            "x" : -2.0,
+            "y" : -2.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "Travel Modifier",
+        "en" : "Travel Modifier",
+        "ja" : "Travel Modifier"
+      },
+      "ValueRange" : {
+        "m_X" : 101,
+        "m_Y" : 300
+      },
+      "EffectsOnActions" : [
+        {
+          "AppliesTo" : [
+            {
+              "key" : "TravelAction",
+              "type" : "ActionTag",
+              "name" : {
+                "zh" : "\u65C5\u884C\u52A8\u4F5C",
+                "en" : "TravelAction",
+                "ja" : "TravelAction"
+              }
+            }
+          ],
+          "DurationModifier" : 0,
+          "AddedStatModifiers" : [
+            {
+              "Stat" : {
+                "key" : "Paranoia",
+                "type" : "GameStat",
+                "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+                "min"  : 0.0,
+                "max"  : 300.0,
+                "name" : {
+                  "zh" : "\u504F\u6267",
+                  "en" : "Paranoia",
+                  "ja" : "Paranoia"
+                }
+              },
+              "ValueModifier" : {
+                "x" : -8.0,
+                "y" : -8.0
+              },
+              "ApplyEachTick" : true
+            }
+          ],
+          "FadeToBlack"        : 0
+        }
+      ],
+      "NotifyPlayer"     : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    }
+  ],
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
+    "Icon" : {
+      "FileName" : "GameStat__EnemyDefeated__DefaultStatusIcon"
+    },
+    "NegativeIcon" : {
+      "FileName" : "GameStat__EnemyDefeated__DefaultStatusIcon"
+    },
+    "StepValue"    : 100.0
+  },
+  "type"                        : "GameStat",
+  "key"                         : "Paranoia",
+  "icon"                        : "GameStat__EnemyDefeated__DefaultStatusIcon",
+  "name"                        : {
+    "zh" : "\u504F\u6267",
+    "en" : "Paranoia",
+    "ja" : "Paranoia"
+  },
+  "min"                         : 0.0,
+  "max"                         : 300.0,
+  "_modifierValues"             : [
+    {
+      "source" : {
+        "key" : "Paranoia",
+        "type" : "GameStat",
+        "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u504F\u6267",
+          "en" : "Paranoia",
+          "ja" : "Paranoia"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ATravel Modifier",
+        "en" : "Status Stage: Travel Modifier",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ATravel Modifier"
+      },
+      "value"       : {
+        "x" : -8.0,
+        "y" : -8.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Combat_EncounterStalker",
+        "type" : "Encounter",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "name" : {
+          "zh" : "Stalker",
+          "en" : "Stalker",
+          "ja" : "Stalker"
+        }
+      },
+      "description" : {
+        "zh" : "\u906D\u9047\u6218\u7ED3\u679C",
+        "en" : "Encounter Result",
+        "ja" : "\u30A8\u30F3\u30AB\u30A6\u30F3\u30BF\u30FC\u7D50\u679C"
+      },
+      "value"       : {
+        "x" : -10000.0,
+        "y" : -10000.0
+      }
+    }
+  ],
+  "_modifierRates"              : [
+    {
+      "source" : {
+        "key" : "W_StalkerBite",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__W_BearBite__CardImage",
+        "name"     : {
+          "zh" : "\u6F5C\u884C\u8005\u54AC\u4F24",
+          "en" : "Stalker Bite",
+          "ja" : "Stalker Bite"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1ASkin Integrity, Appetite, Weight, Paranoia",
+        "en" : "Passive Effect: Skin Integrity, Appetite, Weight, Paranoia",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ASkin Integrity, Appetite, Weight, Paranoia"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "StalkerBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+          "en" : "Stalker Blessing",
+          "ja" : "Stalker Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AStalker Blessing",
+        "en" : "Status Stage: Stalker Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AStalker Blessing"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "StalkerBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+          "en" : "Stalker Blessing",
+          "ja" : "Stalker Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AStalker Blessing",
+        "en" : "Status Stage: Stalker Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AStalker Blessing"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "StalkerBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+          "en" : "Stalker Blessing",
+          "ja" : "Stalker Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AStalker Blessing",
+        "en" : "Status Stage: Stalker Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AStalker Blessing"
+      },
+      "value"       : {
+        "x" : 1.5,
+        "y" : 1.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "StalkerBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+          "en" : "Stalker Blessing",
+          "ja" : "Stalker Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AStalker Blessing",
+        "en" : "Status Stage: Stalker Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AStalker Blessing"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "StalkerBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+          "en" : "Stalker Blessing",
+          "ja" : "Stalker Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AStalker Blessing",
+        "en" : "Status Stage: Stalker Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AStalker Blessing"
+      },
+      "value"       : {
+        "x" : 2.5,
+        "y" : 2.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "StalkerBlessing",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005\u8D50\u798F",
+          "en" : "Stalker Blessing",
+          "ja" : "Stalker Blessing"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AStalker Blessing",
+        "en" : "Status Stage: Stalker Blessing",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AStalker Blessing"
+      },
+      "value"       : {
+        "x" : 3.0,
+        "y" : 3.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MentalStructure",
+        "type" : "GameStat",
+        "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 250.0,
+        "name" : {
+          "zh" : "\u4E16\u754C\u89C2",
+          "en" : "Mental Structure",
+          "ja" : "\u7CBE\u795E\u69CB\u9020"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E16\u754C\u89C2\u5D29\u584C",
+        "en" : "Status Stage: No Mental Structure",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u7CBE\u795E\u69CB\u9020\u304C\u306A\u3044"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MentalStructure",
+        "type" : "GameStat",
+        "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 250.0,
+        "name" : {
+          "zh" : "\u4E16\u754C\u89C2",
+          "en" : "Mental Structure",
+          "ja" : "\u7CBE\u795E\u69CB\u9020"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u5F31",
+        "en" : "Status Stage: Low Structure",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u69CB\u9020\u304C\u306A\u3044"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "MentalStructure",
+        "type" : "GameStat",
+        "icon" : "CardData__Antler__UsageDurability-OverrideIcon",
+        "min"  : 0.0,
+        "max"  : 250.0,
+        "name" : {
+          "zh" : "\u4E16\u754C\u89C2",
+          "en" : "Mental Structure",
+          "ja" : "\u7CBE\u795E\u69CB\u9020"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AHigh Structure",
+        "en" : "Status Stage: High Structure",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHigh Structure"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Paranoia",
+        "type" : "GameStat",
+        "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u504F\u6267",
+          "en" : "Paranoia",
+          "ja" : "Paranoia"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AHIgh Paranoia",
+        "en" : "Status Stage: HIgh Paranoia",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHIgh Paranoia"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Fear",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u6050\u60E7",
+          "en" : "Fear",
+          "ja" : "\u6050\u6016"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u60CA\u5413",
+        "en" : "Status Stage: Frightened",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u6016\u304C\u3063\u3066\u308B"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Fear",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u6050\u60E7",
+          "en" : "Fear",
+          "ja" : "\u6050\u6016"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u52A8\u6447",
+        "en" : "Status Stage: Shaken\u00A0",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u9707\u3048\u3066\u308B"
+      },
+      "value"       : {
+        "x" : 1.5,
+        "y" : 1.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "Fear",
+        "type" : "GameStat",
+        "icon" : "GameStat__Fear__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 100.0,
+        "name" : {
+          "zh" : "\u6050\u60E7",
+          "en" : "Fear",
+          "ja" : "\u6050\u6016"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u60CA\u6050",
+        "en" : "Status Stage: Terrified",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u602F\u3048\u3066\u308B"
+      },
+      "value"       : {
+        "x" : 2.0,
+        "y" : 2.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Isolation",
+        "type" : "GameStat",
+        "icon" : "DialogScene__AwakenedConfirmation__SceneBackground",
+        "min"  : 0.0,
+        "max"  : 11520.0,
+        "name" : {
+          "zh" : "\u5B64\u7ACB\u5EA6",
+          "en" : "Isolation",
+          "ja" : "\u5B64\u72EC\u611F"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4F4E\u5B64\u7ACB\u5EA6",
+        "en" : "Status Stage: Mild Isolation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u8EFD\u5EA6\u306E\u5B64\u72EC\u611F"
+      },
+      "value"       : {
+        "x" : 0.25,
+        "y" : 0.25
+      }
+    },
+    {
+      "source" : {
+        "key" : "Isolation",
+        "type" : "GameStat",
+        "icon" : "DialogScene__AwakenedConfirmation__SceneBackground",
+        "min"  : 0.0,
+        "max"  : 11520.0,
+        "name" : {
+          "zh" : "\u5B64\u7ACB\u5EA6",
+          "en" : "Isolation",
+          "ja" : "\u5B64\u72EC\u611F"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u4E2D\u5B64\u7ACB\u5EA6",
+        "en" : "Status Stage: Medium Isolation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u4E2D\u7A0B\u5EA6\u306E\u5B64\u72EC\u611F"
+      },
+      "value"       : {
+        "x" : 0.5,
+        "y" : 0.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "Isolation",
+        "type" : "GameStat",
+        "icon" : "DialogScene__AwakenedConfirmation__SceneBackground",
+        "min"  : 0.0,
+        "max"  : 11520.0,
+        "name" : {
+          "zh" : "\u5B64\u7ACB\u5EA6",
+          "en" : "Isolation",
+          "ja" : "\u5B64\u72EC\u611F"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u9AD8\u5B64\u7ACB\u5EA6",
+        "en" : "Status Stage: Strong Isolation",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u5F37\u3044\u5B64\u72EC\u611F"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Stress",
+        "type" : "GameStat",
+        "icon" : "GameStat__Arousal__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 240.0,
+        "name" : {
+          "zh" : "\u538B\u529B",
+          "en" : "Stress",
+          "ja" : "\u30B9\u30C8\u30EC\u30B9"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1A\u653E\u677E",
+        "en" : "Status Stage: Relaxed",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1A\u30EA\u30E9\u30C3\u30AF\u30B9\u3057\u3066\u308B"
+      },
+      "value"       : {
+        "x" : -1.0,
+        "y" : -1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Agent_Stalker",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005",
+          "en" : "Stalker",
+          "ja" : "Stalker"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AParanoia and Fear",
+        "en" : "Passive Effect: Paranoia and Fear",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AParanoia and Fear"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    }
+  ],
+  "_uuid"                       : "9716105aead60f342bb2410faba57879"
+}

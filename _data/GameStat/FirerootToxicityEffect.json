@@ -10,30 +10,31 @@
     "en" : "Gained from consuming fireroot. Causes stress, nausea and diarrhoea.",
     "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u3092\u98DF\u3079\u308B\u3053\u3068\u306B\u3088\u3063\u3066\u306A\u308B\u3002\u75C7\u72B6\u306F\u30B9\u30C8\u30EC\u30B9\u3001\u5410\u304D\u6C17\u3001\u4E0B\u75E2\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0941,
     "g" : 0.298,
     "b" : 0.8275,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Fear__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8F7B\u5EA6\u706B\u6839\u4E2D\u6BD2",
@@ -263,24 +264,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "StepValue" : 10.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "FirerootToxicityEffect",
-  "icon"                    : "GameStat__Fear__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "FirerootToxicityEffect",
+  "icon"                        : "GameStat__Fear__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u706B\u6839\u4E2D\u6BD2",
     "en" : "Fireroot Toxicity",
     "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u6709\u5BB3\u6027"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "FirerootCutFresh",
@@ -410,7 +411,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "AppleWeedEffect",
@@ -458,5 +459,5 @@
       }
     }
   ],
-  "_uuid"                   : "09146684775757a4faddfec029318cc1"
+  "_uuid"                       : "09146684775757a4faddfec029318cc1"
 }

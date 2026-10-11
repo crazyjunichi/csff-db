@@ -10,31 +10,32 @@
     "en" : "How predictable and stable your worldview feels. Stresses you and alters your mind state when it gets too low.",
     "ja" : "\u4E16\u754C\u89B3\u306E\u4E88\u6E2C\u53EF\u80FD\u6027\u3068\u5B89\u5B9A\u6027\u3002\u4F4E\u3059\u304E\u308B\u3068\u30B9\u30C8\u30EC\u30B9\u304C\u6E9C\u307E\u308A\u3001\u7CBE\u795E\u72B6\u614B\u304C\u5909\u5316\u3059\u308B\u3002"
   },
-  "BaseValue"   : 250.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 250.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 250.0
   },
-  "BaseRatePerTick" : 1.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "BarColor"              : {
+  "BaseRatePerTick"             : 1.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor"     : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"     : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Antler__UsageDurability-OverrideIcon"
   },
-  "Statuses"              : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4E16\u754C\u89C2\u5D29\u584C",
@@ -137,6 +138,24 @@
           "RateModifier" : {
             "x" : 2.0,
             "y" : 2.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
           }
         }
       ],
@@ -250,6 +269,61 @@
             "x" : 1.0,
             "y" : 1.0
           }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
+          }
+        }
+      ],
+      "NotifyPlayer"   : 0,
+      "RepeatTextNotification" : 0,
+      "AlertLevel"             : 0,
+      "RepeatAlertSounds"      : 0,
+      "ActionsMaxTicks"        : 0,
+      "ConfidenceModifier"     : 0.0
+    },
+    {
+      "GameName" : {
+        "zh" : "High Structure",
+        "en" : "High Structure",
+        "ja" : "High Structure"
+      },
+      "ValueRange" : {
+        "m_X" : 201,
+        "m_Y" : 250
+      },
+      "EffectsOnStats" : [
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : -1.0,
+            "y" : -1.0
+          }
         }
       ],
       "NotifyPlayer"   : 0,
@@ -260,12 +334,12 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "UsesNovelty"           : true,
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Assertiveness__FeedbackInfo-Icon"
     },
@@ -274,17 +348,17 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "MentalStructure",
-  "icon"                    : "CardData__Antler__UsageDurability-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MentalStructure",
+  "icon"                        : "CardData__Antler__UsageDurability-OverrideIcon",
+  "name"                        : {
     "zh" : "\u4E16\u754C\u89C2",
     "en" : "Mental Structure",
     "ja" : "\u7CBE\u795E\u69CB\u9020"
   },
-  "min"                     : 0.0,
-  "max"                     : 250.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 250.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_AnxietyAttack",
@@ -986,7 +1060,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Huntsman_ClothShirt",
@@ -2388,6 +2462,52 @@
     },
     {
       "source" : {
+        "key" : "Paranoia",
+        "type" : "GameStat",
+        "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u504F\u6267",
+          "en" : "Paranoia",
+          "ja" : "Paranoia"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AHIgh Paranoia",
+        "en" : "Status Stage: HIgh Paranoia",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AHIgh Paranoia"
+      },
+      "value"       : {
+        "x" : -1.5,
+        "y" : -1.5
+      }
+    },
+    {
+      "source" : {
+        "key" : "Paranoia",
+        "type" : "GameStat",
+        "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+        "min"  : 0.0,
+        "max"  : 300.0,
+        "name" : {
+          "zh" : "\u504F\u6267",
+          "en" : "Paranoia",
+          "ja" : "Paranoia"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASevere Paranoia",
+        "en" : "Status Stage: Severe Paranoia",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASevere Paranoia"
+      },
+      "value"       : {
+        "x" : -2.0,
+        "y" : -2.0
+      }
+    },
+    {
+      "source" : {
         "key" : "CabinFever",
         "type" : "GameStat",
         "icon" : "GameStat__CabinFever__DefaultStatusIcon",
@@ -3235,7 +3355,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Event_WatchedExperience1a",
@@ -3523,5 +3643,5 @@
       }
     }
   ],
-  "_uuid"                   : "c672b35248e9f2349a084e1514d6c9f8"
+  "_uuid"                       : "c672b35248e9f2349a084e1514d6c9f8"
 }

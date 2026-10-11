@@ -10,28 +10,29 @@
     "en" : "Food here will be gradually transferred into your intestines. Try not to vomit while there's food in your stomach.",
     "ja" : "\u3053\u3053\u306E\u98DF\u3079\u7269\u306F\u8178\u306B\u6D41\u3055\u308C\u308B\u3002\u304A\u8179\u306E\u4E2D\u306B\u98DF\u3079\u7269\u304C\u3042\u308B\u6642\u306F\u306A\u308B\u3079\u304F\u5410\u304F\u306E\u3092\u907F\u3051\u3088\u3046\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 200.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 3,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 3,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 75.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4151,
     "g" : 0.0294,
     "b" : 0.2644,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Calories_Stomach__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6D88\u5316",
@@ -253,23 +254,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Calories_Stomach",
-  "icon"                    : "GameStat__Calories_Stomach__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Calories_Stomach",
+  "icon"                        : "GameStat__Calories_Stomach__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u80C3\u90E8",
     "en" : "Stomach",
     "ja" : "\u304A\u8179"
   },
-  "min"                     : 0.0,
-  "max"                     : 200.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 200.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_Vomit",
@@ -981,7 +982,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Boiled Growth",
+          "zh" : "\u6C34\u716E\u589E\u751F\u7624",
           "en" : "Boiled Growth",
           "ja" : "Boiled Growth"
         }
@@ -1258,6 +1259,28 @@
       "value"       : {
         "x" : 28.0,
         "y" : 28.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "BeeHoneycomb",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__BeeHoneycomb__CardImage",
+        "name"     : {
+          "zh" : "Honeycomb",
+          "en" : "Honeycomb",
+          "ja" : "Honeycomb"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AEat",
+        "en" : "Action: Eat",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEat"
+      },
+      "value"       : {
+        "x" : 168.0,
+        "y" : 168.0
       }
     },
     {
@@ -2675,7 +2698,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Strange Growth",
+          "zh" : "\u751F\u589E\u751F\u7624",
           "en" : "Strange Growth",
           "ja" : "Strange Growth"
         }
@@ -4743,7 +4766,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Cooked Growth",
+          "zh" : "\u70F9\u5236\u589E\u751F\u7624",
           "en" : "Cooked Growth",
           "ja" : "Cooked Growth"
         }
@@ -4765,7 +4788,7 @@
         "CardType" : 0,
         "icon"     : "CardData__TumourBoiled__CardImage",
         "name"     : {
-          "zh" : "Dried Growth",
+          "zh" : "\u589E\u751F\u7624\u5E72",
           "en" : "Dried Growth",
           "ja" : "Dried Growth"
         }
@@ -5526,6 +5549,94 @@
       "value"       : {
         "x" : 40.0,
         "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ADrink",
+        "en" : "Action: Drink",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ADrink"
+      },
+      "value"       : {
+        "x" : 168.0,
+        "y" : 168.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyMead",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u8702\u871C\u9152",
+          "en" : "Mead",
+          "ja" : "Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ADrink",
+        "en" : "Action: Drink",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ADrink"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 336.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyMead",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u8702\u871C\u9152",
+          "en" : "Mead",
+          "ja" : "Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ADrink",
+        "en" : "Action: Drink",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ADrink"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 448.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyWater",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey Water",
+          "en" : "Honey Water",
+          "ja" : "Honey Water"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ADrink",
+        "en" : "Action: Drink",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ADrink"
+      },
+      "value"       : {
+        "x" : 0.0,
+        "y" : 336.0
       }
     },
     {
@@ -6516,6 +6627,26 @@
     },
     {
       "source" : {
+        "key" : "Spice_Honey",
+        "type" : "SpiceTag",
+        "name" : {
+          "zh" : "\u8702\u871C",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u9999\u6599",
+        "en" : "Spice",
+        "ja" : "\u30B9\u30D1\u30A4\u30B9"
+      },
+      "value"       : {
+        "x" : 16.8,
+        "y" : 16.8
+      }
+    },
+    {
+      "source" : {
         "key" : "Spice_JuniperBerries",
         "type" : "SpiceTag",
         "icon" : "CardData__JuniperberriesCrushed__CardImage",
@@ -6533,6 +6664,26 @@
       "value"       : {
         "x" : 5.0,
         "y" : 5.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "Spice_Mead",
+        "type" : "SpiceTag",
+        "name" : {
+          "zh" : "\u8702\u871C\u9152",
+          "en" : "Mead",
+          "ja" : "Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u9999\u6599",
+        "en" : "Spice",
+        "ja" : "\u30B9\u30D1\u30A4\u30B9"
+      },
+      "value"       : {
+        "x" : 56.0,
+        "y" : 56.0
       }
     },
     {
@@ -6800,7 +6951,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Calories_Stomach",
@@ -6894,5 +7045,5 @@
       }
     }
   ],
-  "_uuid"                   : "278d5a1a68f65cb4883b775e8492464f"
+  "_uuid"                       : "278d5a1a68f65cb4883b775e8492464f"
 }

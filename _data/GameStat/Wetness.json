@@ -10,30 +10,31 @@
     "en" : "Shows how wet you are. Lowers your temperature and fever.",
     "ja" : "\u6FE1\u308C\u306E\u30EC\u30D9\u30EB\u3092\u793A\u3059\u3002\u4F53\u6E29\u3068\u71B1\u3092\u4E0B\u3052\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : -20.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -20.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.1255,
     "g" : 0.2863,
     "b" : 0.7373,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__CalmingFlow__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5E72\u71E5",
@@ -264,27 +265,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__AlembicOff__UsageDurability-OverrideIcon"
     },
     "StepValue" : 20.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Wetness",
-  "icon"                    : "GameStat__CalmingFlow__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Wetness",
+  "icon"                        : "GameStat__CalmingFlow__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6E7F\u5EA6",
     "en" : "Wetness",
     "ja" : "\u6FE1\u308C"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "ClearingAlder_SwampHill",
@@ -1236,7 +1237,7 @@
         "key" : "River_ThicketOak_MuddyBank",
         "type" : "CardData",
         "CardType" : 8,
-        "icon"     : "CardData__River_ClearingOak_RiverClearing__CardImage",
+        "icon"     : "CharacterPerk__Pk_5_26_RiverClearingStart__PerkIcon",
         "name"     : {
           "zh" : "\u6CE5\u6CDE\u6CB3\u5CB8",
           "en" : "Muddy Bank",
@@ -1326,9 +1327,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Event_WaterfallCave__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -1348,9 +1349,9 @@
         "CardType" : 2,
         "icon"     : "CardData__Event_WaterfallCave__CardImage",
         "name"     : {
-          "zh" : "\u51FA\u53E3",
+          "zh" : "\u51FA\u53E3\uFF08\u6253\u5F00\uFF09",
           "en" : "Exit (Open)",
-          "ja" : "\u51FA\u53E3"
+          "ja" : "Exit (Open)"
         }
       },
       "description" : {
@@ -2837,28 +2838,6 @@
     },
     {
       "source" : {
-        "key" : "Smokehouse",
-        "type" : "CardData",
-        "CardType" : 2,
-        "icon"     : "CardData__Bp_Kiln__CardImage",
-        "name"     : {
-          "zh" : "\u70DF\u718F\u5C4B",
-          "en" : "Smokehouse",
-          "ja" : "\u30B9\u30E2\u30FC\u30AF\u30CF\u30A6\u30B9"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u53D6\u6696",
-        "en" : "Action: Warm Up",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6E29\u3081\u308B"
-      },
-      "value"       : {
-        "x" : -20.0,
-        "y" : -20.0
-      }
-    },
-    {
-      "source" : {
         "key" : "SpiritShrine_Fire_RitualPyre",
         "type" : "CardData",
         "CardType" : 2,
@@ -4002,27 +3981,6 @@
     },
     {
       "source" : {
-        "key" : "StreamBed",
-        "type" : "CardData",
-        "CardType" : 2,
-        "name"     : {
-          "zh" : "\u6CB3\u6D41",
-          "en" : "Stream",
-          "ja" : "\u5C0F\u5DDD"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1A\u6316\u6CE5\u5DF4",
-        "en" : "Action: Dig up Mud",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u6CE5\u3092\u6398\u308B"
-      },
-      "value"       : {
-        "x" : 20.0,
-        "y" : 20.0
-      }
-    },
-    {
-      "source" : {
         "key" : "HoodieRetromation",
         "type" : "CardData",
         "CardType" : 0,
@@ -4150,7 +4108,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Caves_FmFloodedTunnel",
@@ -4348,6 +4306,144 @@
     },
     {
       "source" : {
+        "key" : "WaterproofingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9632\u6C34\u63F4\u52A9",
+          "en" : "Waterproofing Aid",
+          "ja" : "Waterproofing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AWaterproofing Aid",
+        "en" : "Status Stage: Waterproofing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWaterproofing Aid"
+      },
+      "value"       : {
+        "x" : -10.0,
+        "y" : -10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WaterproofingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9632\u6C34\u63F4\u52A9",
+          "en" : "Waterproofing Aid",
+          "ja" : "Waterproofing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AWaterproofing Aid",
+        "en" : "Status Stage: Waterproofing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWaterproofing Aid"
+      },
+      "value"       : {
+        "x" : -20.0,
+        "y" : -20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WaterproofingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9632\u6C34\u63F4\u52A9",
+          "en" : "Waterproofing Aid",
+          "ja" : "Waterproofing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AWaterproofing Aid",
+        "en" : "Status Stage: Waterproofing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWaterproofing Aid"
+      },
+      "value"       : {
+        "x" : -30.0,
+        "y" : -30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WaterproofingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9632\u6C34\u63F4\u52A9",
+          "en" : "Waterproofing Aid",
+          "ja" : "Waterproofing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AWaterproofing Aid",
+        "en" : "Status Stage: Waterproofing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWaterproofing Aid"
+      },
+      "value"       : {
+        "x" : -40.0,
+        "y" : -40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WaterproofingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9632\u6C34\u63F4\u52A9",
+          "en" : "Waterproofing Aid",
+          "ja" : "Waterproofing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AWaterproofing Aid",
+        "en" : "Status Stage: Waterproofing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWaterproofing Aid"
+      },
+      "value"       : {
+        "x" : -55.0,
+        "y" : -55.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "WaterproofingAid",
+        "type" : "GameStat",
+        "icon" : "NPCAgent__Agent_Duck1__AgentImage",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u9632\u6C34\u63F4\u52A9",
+          "en" : "Waterproofing Aid",
+          "ja" : "Waterproofing Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1AWaterproofing Aid",
+        "en" : "Status Stage: Waterproofing Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1AWaterproofing Aid"
+      },
+      "value"       : {
+        "x" : -70.0,
+        "y" : -70.0
+      }
+    },
+    {
+      "source" : {
         "key" : "RainExposure",
         "type" : "GameStat",
         "icon" : "CardData__BearCoat__FuelCapacity-OverrideIcon",
@@ -4531,5 +4627,5 @@
       }
     }
   ],
-  "_uuid"                   : "08d242ad068c51b4fbef44d546645ac7"
+  "_uuid"                       : "08d242ad068c51b4fbef44d546645ac7"
 }

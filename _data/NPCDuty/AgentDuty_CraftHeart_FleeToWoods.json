@@ -1,0 +1,69 @@
+
+{
+  "DutyName" : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Craft-Heart flees to the woods",
+    "ja" : "Craft-Heart flees to the woods"
+  },
+  "DutySummary" : {
+    "zh" : "Craft-Heart flees to the woods",
+    "en" : "Craft-Heart flees to the woods",
+    "ja" : "Craft-Heart flees to the woods"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyConditions"    : {
+    "PlayerUsesCard" : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_SpiritWorld",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "SpiritWorld",
+        "en" : "SpiritWorld",
+        "ja" : "SpiritWorld"
+      }
+    },
+    "InvertEnvironmentRequirement" : true,
+    "RequiredNPCStatValues"        : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "AgentCraftHeartFleeMode",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u5DE5\u5320\u4E4B\u5FC3\u9003\u8DD1\u6A21\u5F0F",
+            "en" : "AgentCraftHeartFleeMode",
+            "ja" : "AgentCraftHeartFleeMode"
+          }
+        },
+        "ConditionRange"     : {
+          "x" : 1.0,
+          "y" : 1.0
+        }
+      }
+    ]
+  },
+  "DutyExecutionOptions" : 0,
+  "ActionSequence"       : [
+    {
+      "key" : "CraftHeartFleeToWoods",
+      "type" : "MoveDutyAction",
+      "name" : {
+        "zh" : "CraftHeartFleeToWoods",
+        "en" : "CraftHeartFleeToWoods",
+        "ja" : "CraftHeartFleeToWoods"
+      }
+    }
+  ],
+  "GiveUpOptions"        : 0,
+  "GiveUpTicks"          : 0,
+  "type"                 : "NPCDuty",
+  "key"                  : "AgentDuty_CraftHeart_FleeToWoods",
+  "name"                 : {
+    "zh" : "\u9003\u8DD1",
+    "en" : "Craft-Heart flees to the woods",
+    "ja" : "Craft-Heart flees to the woods"
+  },
+  "_uuid"                : "b94413716fdc47aaaef737302e1d63bc"
+}

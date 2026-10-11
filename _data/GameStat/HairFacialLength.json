@@ -5,32 +5,33 @@
     "en" : "Facial Hair Length",
     "ja" : "Facial Hair Length"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 192.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 1400,
-  "Visibility"      : 0,
-  "VisibleInDetailedList" : true,
-  "VisibleInAppearanceTab" : true,
-  "BarColor"               : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 1400,
+  "Visibility"                  : 0,
+  "VisibleInDetailedList"       : true,
+  "VisibleInAppearanceTab"      : true,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor"      : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon"      : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Empathy__DefaultStatusIcon"
   },
-  "Statuses"               : [
+  "Statuses"                    : [
     {
       "ValueRange" : {
         "m_X" : 0,
@@ -188,11 +189,11 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 96,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Assertiveness__FeedbackInfo-Icon"
     },
@@ -201,17 +202,17 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HairFacialLength",
-  "icon"                    : "GameStat__Empathy__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HairFacialLength",
+  "icon"                        : "GameStat__Empathy__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
     "en" : "Facial Hair Length",
     "ja" : "Facial Hair Length"
   },
-  "min"                     : 0.0,
-  "max"                     : 192.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 192.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_3_17_BeardFull",
@@ -255,7 +256,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "SexualOrgans",
@@ -349,5 +350,5 @@
       }
     }
   ],
-  "_uuid"                   : "c99f76b80e19c404fbe4548df8796109"
+  "_uuid"                       : "c99f76b80e19c404fbe4548df8796109"
 }

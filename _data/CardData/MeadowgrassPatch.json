@@ -17,7 +17,7 @@
   "ObjectWeight"    : 0.0,
   "AddedWeightFromDurabilities" : [
     {
-      "InputDurability" : 32,
+      "InputDurability" : 128,
       "Value"           : {
         "Active" : true,
         "InputValueRange" : {
@@ -105,10 +105,86 @@
   },
   "LiquidEvaporationRate"       : 0.0,
   "SpecialDurability1"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 5760.0,
+    "RatePerDaytimePoint"  : 2.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "PauseRateWhenEnvWeightIsFull" : true,
+    "HidingOptions"                : 0,
+    "TextDisplay"                  : 0,
+    "NumberPrecision"              : 0,
+    "OverrideIcon"                 : {
+      "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
+    },
+    "OnZeroNotification"           : 0,
+    "OnFullNotification"           : 0,
+    "FloatValue"                   : 5760.0,
+    "durabilityKey"                : "SpecialDurability1",
+    "_rateModifications"           : [
+      {
+        "source" : {
+          "key" : "MeadowgrassPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_MeadowgrassField__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u7267\u8349",
+            "en" : "Meadowgrass Patch",
+            "ja" : "\u7267\u8349\u306E\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51AC\u5B63\u4E0D\u751F\u957F",
+          "en" : "Passive Effect\uFF1ADoes not Grow in Winter",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoes not Grow in Winter"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "MeadowgrassPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_MeadowgrassField__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u7267\u8349",
+            "en" : "Meadowgrass Patch",
+            "ja" : "\u7267\u8349\u306E\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6625\u5B63\u5FEB\u901F\u751F\u957F",
+          "en" : "Passive Effect\uFF1AGrows Fast In Spring",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Fast In Spring"
+        },
+        "value"       : {
+          "x" : 5.0,
+          "y" : 5.0
+        }
+      }
+    ]
+  },
+  "SpecialDurability2"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 0.0,
+    "RatePerDaytimePoint"  : 0.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 0,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "OnZeroNotification"    : 0,
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 0.0,
+    "durabilityKey"         : "SpecialDurability2"
+  },
+  "SpecialDurability3"          : {
     "CardStatName" : {
-      "zh" : "\u9971\u6EE1\u5EA6",
+      "zh" : "\u4EA7\u91CF",
       "en" : "Yield",
-      "ja" : "\u53CE\u91CF"
+      "ja" : "Yield"
     },
     "RandomStartingOffset" : 0.0,
     "MaxValue"             : 5760.0,
@@ -125,7 +201,7 @@
     "OnFullNotification"           : 0,
     "FloatValue"                   : 5760.0,
     "Active"                       : true,
-    "durabilityKey"                : "SpecialDurability1",
+    "durabilityKey"                : "SpecialDurability3",
     "_valueModifications"          : [
       {
         "source" : {
@@ -171,167 +247,7 @@
           "y" : -5760.0
         }
       }
-    ],
-    "_rateModifications"           : [
-      {
-        "source" : {
-          "key" : "MeadowgrassPatch",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__Bp_MeadowgrassField__CardImage",
-          "name"     : {
-            "zh" : "\u91CE\u751F\u7267\u8349",
-            "en" : "Meadowgrass Patch",
-            "ja" : "\u7267\u8349\u306E\u30D1\u30C3\u30C1"
-          }
-        },
-        "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51AC\u5B63\u4E0D\u751F\u957F",
-          "en" : "Passive Effect\uFF1ADoes not Grow in Winter",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoes not Grow in Winter"
-        },
-        "value"       : {
-          "x" : -1.0,
-          "y" : -1.0
-        }
-      },
-      {
-        "source" : {
-          "key" : "MeadowgrassPatch",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__Bp_MeadowgrassField__CardImage",
-          "name"     : {
-            "zh" : "\u91CE\u751F\u7267\u8349",
-            "en" : "Meadowgrass Patch",
-            "ja" : "\u7267\u8349\u306E\u30D1\u30C3\u30C1"
-          }
-        },
-        "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6625\u5B63\u5FEB\u901F\u751F\u957F",
-          "en" : "Passive Effect\uFF1AGrows Fast In Spring",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Fast In Spring"
-        },
-        "value"       : {
-          "x" : 5.0,
-          "y" : 5.0
-        }
-      },
-      {
-        "source" : {
-          "key" : "CowFreeCalf",
-          "type" : "CardData",
-          "CardType" : 0,
-          "icon"     : "CardData__CowFreeCalf__CardImage",
-          "name"     : {
-            "zh" : "\u5C0F\u725B",
-            "en" : "Calf",
-            "ja" : "\u5B50\u725B"
-          }
-        },
-        "description" : {
-          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
-          "en" : "Action: Feed from Enviroment",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
-        },
-        "value"       : {
-          "x" : -1.0,
-          "y" : -1.0
-        }
-      },
-      {
-        "source" : {
-          "key" : "CowFreeFemale",
-          "type" : "CardData",
-          "CardType" : 0,
-          "icon"     : "CardData__CowFreeFemale__CardImage",
-          "name"     : {
-            "zh" : "\u725B",
-            "en" : "Cow",
-            "ja" : "\u725B"
-          }
-        },
-        "description" : {
-          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
-          "en" : "Action: Feed from Enviroment",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
-        },
-        "value"       : {
-          "x" : -4.0,
-          "y" : -4.0
-        }
-      },
-      {
-        "source" : {
-          "key" : "CowFreeMale",
-          "type" : "CardData",
-          "CardType" : 0,
-          "icon"     : "CardData__CowFreeFemale__CardImage",
-          "name"     : {
-            "zh" : "\u516C\u725B",
-            "en" : "Bull",
-            "ja" : "\u30AA\u30B9\u725B"
-          }
-        },
-        "description" : {
-          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
-          "en" : "Action: Feed from Enviroment",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
-        },
-        "value"       : {
-          "x" : -4.0,
-          "y" : -4.0
-        }
-      },
-      {
-        "source" : {
-          "key" : "Pk_5_25_StartingCattle_PregnantCow",
-          "type" : "CardData",
-          "CardType" : 0,
-          "icon"     : "CardData__BoarFreeFemale__CardImage",
-          "name"     : {
-            "zh" : "\u725B",
-            "en" : "Cow",
-            "ja" : "\u725B"
-          }
-        },
-        "description" : {
-          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
-          "en" : "Action: Feed from Enviroment",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
-        },
-        "value"       : {
-          "x" : -4.0,
-          "y" : -4.0
-        }
-      }
     ]
-  },
-  "SpecialDurability2"          : {
-    "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 0.0,
-    "RatePerDaytimePoint"  : 0.0,
-    "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 0,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "OnZeroNotification"    : 0,
-    "OnFullNotification"    : 0,
-    "FloatValue"            : 0.0,
-    "durabilityKey"         : "SpecialDurability2"
-  },
-  "SpecialDurability3"          : {
-    "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 0.0,
-    "RatePerDaytimePoint"  : 0.0,
-    "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 0,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "OnZeroNotification"    : 0,
-    "OnFullNotification"    : 0,
-    "FloatValue"            : 0.0,
-    "durabilityKey"         : "SpecialDurability3"
   },
   "SpecialDurability4"          : {
     "RandomStartingOffset" : 0.0,
@@ -430,7 +346,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -565,7 +481,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -656,7 +572,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -791,7 +707,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -881,7 +797,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -1016,7 +932,7 @@
         "ModType" : 1,
         "TransformToLiquidQuantity" : 0.0,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }
@@ -1267,7 +1183,7 @@
         "TransferFuel"              : true,
         "TransferCharges"           : true,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -5760.0,
           "y" : -5760.0
         }
@@ -1390,7 +1306,7 @@
       ],
       "RequiredReceivingDurabilities" : {
         "RequiredLiquidQuantity" : 0.0,
-        "RequiredSpecial1Percent" : {
+        "RequiredSpecial3Percent" : {
           "MaxValue" : 1.0,
           "FloatValue" : 0.05,
           "Active"     : true
@@ -1527,7 +1443,7 @@
         "TransformToLiquidQuantity" : 0.0,
         "TransferCharges"           : true,
         "LiquidEffectScaling"       : 0,
-        "Special1Change"            : {
+        "Special3Change"            : {
           "x" : -288.0,
           "y" : -288.0
         }

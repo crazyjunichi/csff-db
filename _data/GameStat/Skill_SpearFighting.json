@@ -10,41 +10,42 @@
     "en" : "Increases your success chances when fighting with spears. ",
     "ja" : "\u69CD\u3067\u6226\u3046\u6642\u306E\u6210\u529F\u7387\u304C\u4E0A\u304C\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 150.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.3113,
     "g" : 0.1043,
     "b" : 0.1079,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Bp_Spear_Flint__CardImage"
   },
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 4,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 4,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Skill_SpearFighting",
-  "icon"                    : "CardData__Bp_Spear_Flint__CardImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Skill_SpearFighting",
+  "icon"                        : "CardData__Bp_Spear_Flint__CardImage",
+  "name"                        : {
     "zh" : "\u67AA\u672F",
     "en" : "Spear Fighting",
     "ja" : "\u69CD\u306E\u30B9\u30AD\u30EB"
   },
-  "min"                     : 0.0,
-  "max"                     : 150.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 150.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_5_3_HuntingGear_Spear_Flint",
@@ -1031,6 +1032,144 @@
     },
     {
       "source" : {
+        "key" : "SpearfightingAid",
+        "type" : "GameStat",
+        "icon" : "CharacterPerk__Pk_6_3_Spearfighter__PerkIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u77DB\u6218\u63F4\u52A9",
+          "en" : "Spearfighting Aid",
+          "ja" : "Spearfighting Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfighting Aid",
+        "en" : "Status Stage: Spearfighting Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfighting Aid"
+      },
+      "value"       : {
+        "x" : 10.0,
+        "y" : 10.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfightingAid",
+        "type" : "GameStat",
+        "icon" : "CharacterPerk__Pk_6_3_Spearfighter__PerkIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u77DB\u6218\u63F4\u52A9",
+          "en" : "Spearfighting Aid",
+          "ja" : "Spearfighting Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfighting Aid",
+        "en" : "Status Stage: Spearfighting Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfighting Aid"
+      },
+      "value"       : {
+        "x" : 20.0,
+        "y" : 20.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfightingAid",
+        "type" : "GameStat",
+        "icon" : "CharacterPerk__Pk_6_3_Spearfighter__PerkIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u77DB\u6218\u63F4\u52A9",
+          "en" : "Spearfighting Aid",
+          "ja" : "Spearfighting Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfighting Aid",
+        "en" : "Status Stage: Spearfighting Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfighting Aid"
+      },
+      "value"       : {
+        "x" : 30.0,
+        "y" : 30.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfightingAid",
+        "type" : "GameStat",
+        "icon" : "CharacterPerk__Pk_6_3_Spearfighter__PerkIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u77DB\u6218\u63F4\u52A9",
+          "en" : "Spearfighting Aid",
+          "ja" : "Spearfighting Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfighting Aid",
+        "en" : "Status Stage: Spearfighting Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfighting Aid"
+      },
+      "value"       : {
+        "x" : 40.0,
+        "y" : 40.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfightingAid",
+        "type" : "GameStat",
+        "icon" : "CharacterPerk__Pk_6_3_Spearfighter__PerkIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u77DB\u6218\u63F4\u52A9",
+          "en" : "Spearfighting Aid",
+          "ja" : "Spearfighting Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfighting Aid",
+        "en" : "Status Stage: Spearfighting Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfighting Aid"
+      },
+      "value"       : {
+        "x" : 50.0,
+        "y" : 50.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "SpearfightingAid",
+        "type" : "GameStat",
+        "icon" : "CharacterPerk__Pk_6_3_Spearfighter__PerkIcon",
+        "min"  : 0.0,
+        "max"  : 288.0,
+        "name" : {
+          "zh" : "\u77DB\u6218\u63F4\u52A9",
+          "en" : "Spearfighting Aid",
+          "ja" : "Spearfighting Aid"
+        }
+      },
+      "description" : {
+        "zh" : "\u72B6\u6001\u9636\u6BB5\uFF1ASpearfighting Aid",
+        "en" : "Status Stage: Spearfighting Aid",
+        "ja" : "\u30B9\u30C6\u30FC\u30BF\u30B9\u6BB5\u968E\uFF1ASpearfighting Aid"
+      },
+      "value"       : {
+        "x" : 60.0,
+        "y" : 60.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Pk_6_3_Spearfighter",
         "type" : "CharacterPerk",
         "icon" : "CharacterPerk__Pk_6_3_Spearfighter__PerkIcon",
@@ -1211,7 +1350,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "SpearPoke",
@@ -1353,5 +1492,5 @@
       }
     }
   ],
-  "_uuid"                   : "82df9ae489751b64095e053730ce2c4b"
+  "_uuid"                       : "82df9ae489751b64095e053730ce2c4b"
 }

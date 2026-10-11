@@ -10,27 +10,28 @@
     "en" : "Caused by spending time in areas with high bug populations. They give pain and increase chances of catching diseases.",
     "ja" : "\u866B\u304C\u591A\u3044\u30A8\u30EA\u30A2\u306B\u884C\u304F\u3068\u3067\u304D\u308B\u3002\u75DB\u304F\u3001\u75C5\u6C17\u306B\u304B\u304B\u308B\u53EF\u80FD\u6027\u304C\u4E0A\u304C\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 384.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.8706,
     "g" : 0.4431,
     "b" : 0.4039,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u868A\u866B\u53EE\u54AC",
@@ -271,23 +272,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BugBites",
-  "icon"                    : "GameStat__BugBites__Statuses-0-Icon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BugBites",
+  "icon"                        : "GameStat__BugBites__Statuses-0-Icon",
+  "name"                        : {
     "zh" : "\u868A\u866B\u53EE\u54AC",
     "en" : "Bug Bites",
     "ja" : "\u866B\u523A\u3055\u308C"
   },
-  "min"                     : 0.0,
-  "max"                     : 384.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 384.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "BedImprovised",
@@ -419,7 +420,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BrimstoneGelProtection",
@@ -536,5 +537,5 @@
       }
     }
   ],
-  "_uuid"                   : "5c42aacf9a2584f4fb44e69e4da8e369"
+  "_uuid"                       : "5c42aacf9a2584f4fb44e69e4da8e369"
 }

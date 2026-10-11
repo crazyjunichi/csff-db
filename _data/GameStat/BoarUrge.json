@@ -10,30 +10,31 @@
     "en" : "Raises your stress levels if not satisfied.\nCan be satisfied by foraging, traveling through muddy areas and eating mushrooms and roots.",
     "ja" : "\u6B32\u3092\u6E80\u305F\u3059\u307E\u3067\u30B9\u30C8\u30EC\u30B9\u304C\u6E9C\u307E\u308B\u3002\n\u8CC7\u6E90\u96C6\u3081\u305F\u308A\u3001\u6CE5\u304C\u591A\u3044\u5730\u57DF\u306B\u884C\u3063\u305F\u308A\u3001\u30AD\u30CE\u30B3\u3068\u30AB\u30D6\u3092\u98DF\u3079\u308C\u3070\u6E80\u305F\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "NPCAgent__Agent_Boar1__AgentImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u91CE\u732A\u672C\u80FD",
@@ -155,23 +156,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "BoarUrge",
-  "icon"                    : "NPCAgent__Agent_Boar1__AgentImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "BoarUrge",
+  "icon"                        : "NPCAgent__Agent_Boar1__AgentImage",
+  "name"                        : {
     "zh" : "\u91CE\u732A\u672C\u80FD",
     "en" : "Boar Urge",
     "ja" : "\u30A4\u30CE\u30B7\u30B7\u306E\u6B32\u6C42"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_BoarBlessing",
@@ -264,7 +265,7 @@
       "source" : {
         "key" : "tag_OpenSky",
         "type" : "CardTag",
-        "count" : 100,
+        "count" : 102,
         "name"  : {
           "zh" : "\u5F00\u9614\u7684\u5929\u7A7A",
           "en" : "Open Sky",
@@ -324,7 +325,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BoarCoat",
@@ -415,5 +416,5 @@
       }
     }
   ],
-  "_uuid"                   : "8f11960f04fff4b44b645685c7700d5f"
+  "_uuid"                       : "8f11960f04fff4b44b645685c7700d5f"
 }

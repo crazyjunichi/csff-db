@@ -248,7 +248,43 @@
         {
           "CollectionName" : "1",
           "CollectionWeight" : 1,
-          "DropSavedBpIngredients" : true
+          "DropSavedBpIngredients" : true,
+          "DroppedIfNoBpIngredient" : [
+            {
+              "DroppedCard" : {
+                "key" : "StickLong",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "GameStat__RoadTravelingAidEast__Statuses-0-Icon",
+                "name"     : {
+                  "zh" : "\u957F\u6728\u68CD",
+                  "en" : "Long Stick",
+                  "ja" : "\u9577\u3044\u68D2"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 7,
+                "m_Y" : 7
+              }
+            },
+            {
+              "DroppedCard" : {
+                "key" : "Twine",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__Twine__CardImage",
+                "name"     : {
+                  "zh" : "\u7EC6\u7EBF",
+                  "en" : "Twine",
+                  "ja" : "\u7D10"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 4,
+                "m_Y" : 4
+              }
+            }
+          ]
         }
       ],
       "ReceivingCardChanges"    : {

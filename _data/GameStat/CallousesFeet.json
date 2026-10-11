@@ -10,24 +10,25 @@
     "en" : "Protects your feet from the damage caused by walking.",
     "ja" : "\u6B69\u304F\u3053\u3068\u306B\u3088\u3063\u3066\u3067\u304D\u3001\u8DB3\u3082\u5B88\u3063\u3066\u304F\u308C\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.6132,
     "g" : 0.3583,
     "b" : 0.0318,
     "a" : 0.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__CallousesFeet__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8DB3\u8327",
@@ -147,23 +148,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "CallousesFeet",
-  "icon"                    : "GameStat__CallousesFeet__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "CallousesFeet",
+  "icon"                        : "GameStat__CallousesFeet__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u8DB3\u8327",
     "en" : "Foot Callouses",
     "ja" : "\u8DB3\u306E\u30BF\u30B3"
   },
-  "min"                     : 0.0,
-  "max"                     : 1000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Pk_3_9_Callouses",
@@ -186,7 +187,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "FootDamage",
@@ -234,5 +235,5 @@
       }
     }
   ],
-  "_uuid"                   : "1aecc3026fb953f479fd6c1121f29981"
+  "_uuid"                       : "1aecc3026fb953f479fd6c1121f29981"
 }

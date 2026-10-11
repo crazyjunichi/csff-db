@@ -1,0 +1,627 @@
+
+{
+  "SceneImage" : {
+    "FileName" : "NPCAgent__Agent_TraderGrimbard__AgentImage"
+  },
+  "SceneTitle" : {
+    "zh" : "Grimbard",
+    "en" : "Grimbard",
+    "ja" : "Grimbard"
+  },
+  "SceneLines" : [
+    {
+      "StartingPoint" : true,
+      "Line"          : {
+        "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+        "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+        "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
+      },
+      "OverrideSpeakerName" : {
+        "Text" : {
+          "zh" : "Grimbard",
+          "en" : "Grimbard",
+          "ja" : "Grimbard"
+        },
+        "Active" : true
+      },
+      "NextStep"            : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton"  : 2,
+      "PossibleAnswers"     : [
+        {
+          "Answer" : {
+            "zh" : "Trade",
+            "en" : "Trade",
+            "ja" : "Trade"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          },
+          "ActionToPerform" : {
+            "StartTrading" : true,
+            "Ticks"        : 0,
+            "Miniticks"    : 0
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "Talk",
+            "en" : "Talk",
+            "ja" : "Talk"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "ConversationHub",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "He sniffs the ground around him, then looks at you attentively.",
+                "en" : "He sniffs the ground around him, then looks at you attentively.",
+                "ja" : "He sniffs the ground around him, then looks at you attentively."
+              }
+            }
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "Step back",
+            "en" : "Step back",
+            "ja" : "Step back"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          }
+        }
+      ],
+      "key"                 : "BurrowGreeting",
+      "type"                : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "He sniffs the ground around him, then looks at you attentively.",
+        "en" : "He sniffs the ground around him, then looks at you attentively.",
+        "ja" : "He sniffs the ground around him, then looks at you attentively."
+      },
+      "OverrideSpeakerName" : {
+        "Text" : {
+          "zh" : "Grimbard",
+          "en" : "Grimbard",
+          "ja" : "Grimbard"
+        },
+        "Active" : true
+      },
+      "NextStep"            : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton"  : 2,
+      "PossibleAnswers"     : [
+        {
+          "Answer" : {
+            "zh" : "Tell me about yourself.",
+            "en" : "Tell me about yourself.",
+            "ja" : "Tell me about yourself."
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "HisHome",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "He looks back at his burrow, as if telling you something.\n\nFrom what you can see past him, it looks surprisingly cozy.\n\nYou understand. This is his home.\n\nAnd somehow... he is his home.",
+                "en" : "He looks back at his burrow, as if telling you something.\n\nFrom what you can see past him, it looks surprisingly cozy.\n\nYou understand. This is his home.\n\nAnd somehow... he is his home.",
+                "ja" : "He looks back at his burrow, as if telling you something.\n\nFrom what you can see past him, it looks surprisingly cozy.\n\nYou understand. This is his home.\n\nAnd somehow... he is his home."
+              }
+            }
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "Let's talk trading.",
+            "en" : "Let's talk trading.",
+            "ja" : "Let's talk trading."
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "TradingInterests",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "He looks at his wares, then at you.\n\nYou understand: the more he trusts you, the better the things he'll offer.\n\nHe sniffs at them, then looks at you again.\n\nHe likes bugs, mice, all kinds of acorns, and edible roots.",
+                "en" : "He looks at his wares, then at you.\n\nYou understand: the more he trusts you, the better the things he'll offer.\n\nHe sniffs at them, then looks at you again.\n\nHe likes bugs, mice, all kinds of acorns, and edible roots.",
+                "ja" : "He looks at his wares, then at you.\n\nYou understand: the more he trusts you, the better the things he'll offer.\n\nHe sniffs at them, then looks at you again.\n\nHe likes bugs, mice, all kinds of acorns, and edible roots."
+              }
+            }
+          }
+        },
+        {
+          "Conditions" : {
+            "PlayerUsesCard" : 0,
+            "RequiredNPCStatValues" : [
+              {
+                "UseAssociatedAgent" : true,
+                "TargetStat"         : {
+                  "key" : "AgentTrust",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u4FE1\u4EFB\u5EA6",
+                    "en" : "AgentTrust",
+                    "ja" : "AgentTrust"
+                  }
+                },
+                "ConditionRange"     : {
+                  "x" : 0.0,
+                  "y" : 4999.0
+                }
+              }
+            ]
+          },
+          "Answer"     : {
+            "zh" : "Can you help me?",
+            "en" : "Can you help me?",
+            "ja" : "Can you help me?"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "InsufficientTrust",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "He watches your outstretched hand but keeps his distance.\n\nHe doesn't seem to trust you enough to help you.",
+                "en" : "He watches your outstretched hand but keeps his distance.\n\nHe doesn't seem to trust you enough to help you.",
+                "ja" : "He watches your outstretched hand but keeps his distance.\n\nHe doesn't seem to trust you enough to help you."
+              }
+            }
+          }
+        },
+        {
+          "Conditions" : {
+            "PlayerUsesCard" : 0,
+            "RequiredNPCStatValues" : [
+              {
+                "UseAssociatedAgent" : true,
+                "TargetStat"         : {
+                  "key" : "AgentTrust",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u4FE1\u4EFB\u5EA6",
+                    "en" : "AgentTrust",
+                    "ja" : "AgentTrust"
+                  }
+                },
+                "ConditionRange"     : {
+                  "x" : 5000.0,
+                  "y" : 20000.0
+                }
+              },
+              {
+                "UseAssociatedAgent" : true,
+                "TargetStat"         : {
+                  "key" : "AgentSpirit",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u7CBE\u9B44",
+                    "en" : "AgentSpirit",
+                    "ja" : "AgentSpirit"
+                  }
+                },
+                "ConditionRange"     : {
+                  "x" : 0.0,
+                  "y" : 2879.0
+                }
+              }
+            ]
+          },
+          "Answer"     : {
+            "zh" : "Can you help me?",
+            "en" : "Can you help me?",
+            "ja" : "Can you help me?"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "Tired",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "He touches your outstretched hand with his snout, but you feel no blessing.\n\nHe seems to be feeling a bit tired.",
+                "en" : "He touches your outstretched hand with his snout, but you feel no blessing.\n\nHe seems to be feeling a bit tired.",
+                "ja" : "He touches your outstretched hand with his snout, but you feel no blessing.\n\nHe seems to be feeling a bit tired."
+              }
+            }
+          }
+        },
+        {
+          "Conditions" : {
+            "PlayerUsesCard" : 0,
+            "RequiredNPCStatValues" : [
+              {
+                "UseAssociatedAgent" : true,
+                "TargetStat"         : {
+                  "key" : "AgentTrust",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u4FE1\u4EFB\u5EA6",
+                    "en" : "AgentTrust",
+                    "ja" : "AgentTrust"
+                  }
+                },
+                "ConditionRange"     : {
+                  "x" : 5000.0,
+                  "y" : 20000.0
+                }
+              },
+              {
+                "UseAssociatedAgent" : true,
+                "TargetStat"         : {
+                  "key" : "AgentSpirit",
+                  "type" : "NPCStat",
+                  "name" : {
+                    "zh" : "\u7CBE\u9B44",
+                    "en" : "AgentSpirit",
+                    "ja" : "AgentSpirit"
+                  }
+                },
+                "ConditionRange"     : {
+                  "x" : 2880.0,
+                  "y" : 2880.0
+                }
+              }
+            ]
+          },
+          "Answer"     : {
+            "zh" : "Can you help me?",
+            "en" : "Can you help me?",
+            "ja" : "Can you help me?"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "BlessingGranted",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "He touches your outstretched hand with his snout.\n\nYou feel his blessing settle upon you.",
+                "en" : "He touches your outstretched hand with his snout.\n\nYou feel his blessing settle upon you.",
+                "ja" : "He touches your outstretched hand with his snout.\n\nYou feel his blessing settle upon you."
+              }
+            }
+          }
+        },
+        {
+          "Answer" : {
+            "zh" : "Step back",
+            "en" : "Step back",
+            "ja" : "Step back"
+          },
+          "NewNextLine" : {
+            "NextStep" : 2
+          }
+        }
+      ],
+      "key"                 : "ConversationHub",
+      "type"                : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "He looks back at his burrow, as if telling you something.\n\nFrom what you can see past him, it looks surprisingly cozy.\n\nYou understand. This is his home.\n\nAnd somehow... he is his home.",
+        "en" : "He looks back at his burrow, as if telling you something.\n\nFrom what you can see past him, it looks surprisingly cozy.\n\nYou understand. This is his home.\n\nAnd somehow... he is his home.",
+        "ja" : "He looks back at his burrow, as if telling you something.\n\nFrom what you can see past him, it looks surprisingly cozy.\n\nYou understand. This is his home.\n\nAnd somehow... he is his home."
+      },
+      "OverrideSpeakerName" : {
+        "Text" : {
+          "zh" : "Grimbard",
+          "en" : "Grimbard",
+          "ja" : "Grimbard"
+        },
+        "Active" : true
+      },
+      "NextStep"            : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton"  : 2,
+      "PossibleAnswers"     : [
+        {
+          "Answer" : {
+            "zh" : "Continue",
+            "en" : "Continue",
+            "ja" : "Continue"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "BurrowGreeting",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+                "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+                "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
+              }
+            }
+          }
+        }
+      ],
+      "key"                 : "HisHome",
+      "type"                : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "He looks at his wares, then at you.\n\nYou understand: the more he trusts you, the better the things he'll offer.\n\nHe sniffs at them, then looks at you again.\n\nHe likes bugs, mice, all kinds of acorns, and edible roots.",
+        "en" : "He looks at his wares, then at you.\n\nYou understand: the more he trusts you, the better the things he'll offer.\n\nHe sniffs at them, then looks at you again.\n\nHe likes bugs, mice, all kinds of acorns, and edible roots.",
+        "ja" : "He looks at his wares, then at you.\n\nYou understand: the more he trusts you, the better the things he'll offer.\n\nHe sniffs at them, then looks at you again.\n\nHe likes bugs, mice, all kinds of acorns, and edible roots."
+      },
+      "OverrideSpeakerName" : {
+        "Text" : {
+          "zh" : "Grimbard",
+          "en" : "Grimbard",
+          "ja" : "Grimbard"
+        },
+        "Active" : true
+      },
+      "NextStep"            : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton"  : 2,
+      "PossibleAnswers"     : [
+        {
+          "Answer" : {
+            "zh" : "Continue",
+            "en" : "Continue",
+            "ja" : "Continue"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "BurrowGreeting",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+                "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+                "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
+              }
+            }
+          }
+        }
+      ],
+      "key"                 : "TradingInterests",
+      "type"                : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "He watches your outstretched hand but keeps his distance.\n\nHe doesn't seem to trust you enough to help you.",
+        "en" : "He watches your outstretched hand but keeps his distance.\n\nHe doesn't seem to trust you enough to help you.",
+        "ja" : "He watches your outstretched hand but keeps his distance.\n\nHe doesn't seem to trust you enough to help you."
+      },
+      "OverrideSpeakerName" : {
+        "Text" : {
+          "zh" : "Grimbard",
+          "en" : "Grimbard",
+          "ja" : "Grimbard"
+        },
+        "Active" : true
+      },
+      "NextStep"            : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton"  : 2,
+      "PossibleAnswers"     : [
+        {
+          "Answer" : {
+            "zh" : "Continue",
+            "en" : "Continue",
+            "ja" : "Continue"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "BurrowGreeting",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+                "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+                "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
+              }
+            }
+          }
+        }
+      ],
+      "key"                 : "InsufficientTrust",
+      "type"                : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "He touches your outstretched hand with his snout, but you feel no blessing.\n\nHe seems to be feeling a bit tired.",
+        "en" : "He touches your outstretched hand with his snout, but you feel no blessing.\n\nHe seems to be feeling a bit tired.",
+        "ja" : "He touches your outstretched hand with his snout, but you feel no blessing.\n\nHe seems to be feeling a bit tired."
+      },
+      "OverrideSpeakerName" : {
+        "Text" : {
+          "zh" : "Grimbard",
+          "en" : "Grimbard",
+          "ja" : "Grimbard"
+        },
+        "Active" : true
+      },
+      "NextStep"            : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton"  : 2,
+      "PossibleAnswers"     : [
+        {
+          "Answer" : {
+            "zh" : "Continue",
+            "en" : "Continue",
+            "ja" : "Continue"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "BurrowGreeting",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+                "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+                "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
+              }
+            }
+          }
+        }
+      ],
+      "key"                 : "Tired",
+      "type"                : "dialog"
+    },
+    {
+      "Line" : {
+        "zh" : "He touches your outstretched hand with his snout.\n\nYou feel his blessing settle upon you.",
+        "en" : "He touches your outstretched hand with his snout.\n\nYou feel his blessing settle upon you.",
+        "ja" : "He touches your outstretched hand with his snout.\n\nYou feel his blessing settle upon you."
+      },
+      "OverrideSpeakerName" : {
+        "Text" : {
+          "zh" : "Grimbard",
+          "en" : "Grimbard",
+          "ja" : "Grimbard"
+        },
+        "Active" : true
+      },
+      "NextStep"            : {
+        "NextStep" : 2
+      },
+      "ShowContinueButton"  : 2,
+      "ActionToPerform"     : {
+        "StatModifications" : [
+          {
+            "Stat" : {
+              "key" : "BeastAffinity",
+              "type" : "GameStat",
+              "icon" : "GameStat__BeastAffinity__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 1000.0,
+              "name" : {
+                "zh" : "\u91CE\u517D\u4EB2\u548C\u5EA6",
+                "en" : "Beast Affinity",
+                "ja" : "\u7363\u306E\u89AA\u548C\u6027"
+              }
+            },
+            "ValueModifier" : {
+              "x" : 12.0,
+              "y" : 12.0
+            }
+          },
+          {
+            "Stat" : {
+              "key" : "BeastUrge",
+              "type" : "GameStat",
+              "icon" : "GameStat__Arousal__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 96.0,
+              "name" : {
+                "zh" : "\u91CE\u517D\u672C\u80FD",
+                "en" : "Beast Urge",
+                "ja" : "\u7363\u306E\u6B32\u6C42"
+              }
+            },
+            "ValueModifier" : {
+              "x" : -96.0,
+              "y" : -96.0
+            }
+          }
+        ],
+        "NPCStatModifications" : [
+          {
+            "TargetStat" : {
+              "key" : "AgentSpirit",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u7CBE\u9B44",
+                "en" : "AgentSpirit",
+                "ja" : "AgentSpirit"
+              }
+            },
+            "UseAssociatedAgent" : true,
+            "ValueChange"        : {
+              "x" : -2880.0,
+              "y" : -2880.0
+            },
+            "IgnoreNovelty"      : true
+          }
+        ],
+        "DroppedCards"         : [
+          {
+            "DroppedCard" : {
+              "key" : "Event_GrimbardSpiritBlessingGranted",
+              "type" : "CardData",
+              "CardType" : 3,
+              "icon"     : "NPCAgent__Agent_TraderGrimbard__AgentImage",
+              "name"     : {
+                "zh" : "Blessing",
+                "en" : "Blessing",
+                "ja" : "Blessing"
+              }
+            },
+            "Quantity"    : {
+              "m_X" : 1,
+              "m_Y" : 1
+            },
+            "TransferRules" : {
+              "Spoilage" : 0,
+              "Usage"    : 0,
+              "Fuel"     : 0,
+              "Progress" : 0,
+              "Special1" : 0,
+              "Special2" : 0,
+              "Special3" : 0,
+              "Special4" : 0,
+              "SpoilageValue" : 0.0,
+              "UsageValue"    : 0.0,
+              "FuelValue"     : 0.0,
+              "ProgressValue" : 0.0,
+              "Special1Value" : 0.0,
+              "Special2Value" : 0.0,
+              "Special3Value" : 0.0,
+              "Special4Value" : 0.0,
+              "SpoilageFrom"  : 1,
+              "UsageFrom"     : 1,
+              "FuelFrom"      : 1,
+              "ProgressFrom"  : 1,
+              "Special1From"  : 1,
+              "Special2From"  : 1,
+              "Special3From"  : 1,
+              "Special4From"  : 1
+            }
+          }
+        ],
+        "Ticks"                : 0,
+        "Miniticks"            : 0
+      },
+      "PossibleAnswers"     : [
+        {
+          "Answer" : {
+            "zh" : "Continue",
+            "en" : "Continue",
+            "ja" : "Continue"
+          },
+          "NewNextLine" : {
+            "NextStep" : 0,
+            "NextLine" : {
+              "key" : "BurrowGreeting",
+              "type" : "DialogLine",
+              "name" : {
+                "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+                "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+                "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
+              }
+            }
+          }
+        }
+      ],
+      "key"                 : "BlessingGranted",
+      "type"                : "dialog"
+    }
+  ],
+  "key"        : "Dialogue_AgentGrimbardTalk",
+  "type"       : "DialogScene",
+  "name"       : {
+    "zh" : "Dialogue_AgentGrimbardTalk",
+    "en" : "Dialogue_AgentGrimbardTalk",
+    "ja" : "Dialogue_AgentGrimbardTalk"
+  }
+}

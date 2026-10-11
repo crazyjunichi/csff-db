@@ -1,0 +1,47 @@
+
+{
+  "MovementType" : 1,
+  "MoveDestination" : 0,
+  "DestinationSelection" : 2,
+  "MoveToEnvironments"   : [
+    {
+      "key" : "Env_ClearingOak_SacredGlade",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u795E\u5723\u7A7A\u5730",
+        "en" : "Sacred Glade",
+        "ja" : "Sacred Glade"
+      }
+    }
+  ],
+  "IgnoreCurrentLocation" : true,
+  "CostRequirements"      : 2,
+  "MoveCosts"             : [
+    {
+      "TargetStat" : {
+        "key" : "AgentStamina",
+        "type" : "NPCStat",
+        "name" : {
+          "zh" : "\u8010\u529B",
+          "en" : "AgentStamina",
+          "ja" : "AgentStamina"
+        }
+      },
+      "UseAssociatedAgent" : true,
+      "ValueChange"        : {
+        "x" : -35.0,
+        "y" : -35.0
+      }
+    }
+  ],
+  "RequiredForSelectingDuty" : true,
+  "key"                      : "StagFleeMoveSacredGlade",
+  "type"                     : "NPCDutyAction",
+  "name"                     : {
+    "zh" : "StagFleeMoveSacredGlade",
+    "en" : "StagFleeMoveSacredGlade",
+    "ja" : "StagFleeMoveSacredGlade"
+  },
+  "actionType"               : "MoveDutyAction"
+}

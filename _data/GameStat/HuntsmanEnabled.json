@@ -10,30 +10,31 @@
     "en" : "Used to turn on the Huntsman Quest line and disable the normal Quest line",
     "ja" : "Used to turn on the Huntsman Quest line and disable the normal Quest line"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 1.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HuntsmanEnabled",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HuntsmanEnabled",
+  "name"                        : {
     "zh" : "\u730E\u4EBA\u4EFB\u52A1\u542F\u7528",
     "en" : "HuntsmanEnabled",
     "ja" : "HuntsmanEnabled"
   },
-  "min"                     : 0.0,
-  "max"                     : 1.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 1.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Huntsman",
@@ -75,7 +76,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "SpiritShrine_Moon_MoonStone",
@@ -135,7 +136,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_Apparitions",
@@ -177,5 +178,5 @@
       }
     }
   ],
-  "_uuid"                   : "b4fd0ad5c6f05c74e8333f68a10153a9"
+  "_uuid"                       : "b4fd0ad5c6f05c74e8333f68a10153a9"
 }

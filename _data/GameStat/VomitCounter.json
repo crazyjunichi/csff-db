@@ -5,30 +5,31 @@
     "en" : "Vomit Counter",
     "ja" : "\u5614\u5410\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 4.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "VomitCounter",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "VomitCounter",
+  "name"                        : {
     "zh" : "\u5455\u5410\u6B21\u6570\u5668",
     "en" : "Vomit Counter",
     "ja" : "\u5614\u5410\u30AB\u30A6\u30F3\u30BF\u30FC"
   },
-  "min"                     : 0.0,
-  "max"                     : 4.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 4.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Tgr_DizzyVomit",
@@ -50,7 +51,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_DizzyVomit",
@@ -88,5 +89,5 @@
       }
     }
   ],
-  "_uuid"                   : "90d3f405f8ce8e14a994efbb481f9d89"
+  "_uuid"                       : "90d3f405f8ce8e14a994efbb481f9d89"
 }

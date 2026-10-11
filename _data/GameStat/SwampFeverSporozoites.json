@@ -5,30 +5,31 @@
     "en" : "Swamp Fever Sporozoites",
     "ja" : "Swamp Fever Sporozoites"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 672.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.6627,
     "g" : 0.7961,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Fever__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u759F\u539F\u866B\u5B50\u5B62\u5B50",
@@ -67,23 +68,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "SwampFeverSporozoites",
-  "icon"                    : "GameStat__Fever__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "SwampFeverSporozoites",
+  "icon"                        : "GameStat__Fever__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6CBC\u6CFD\u70ED\u5B62\u5B50\u4F53",
     "en" : "Swamp Fever Sporozoites",
     "ja" : "Swamp Fever Sporozoites"
   },
-  "min"                     : 0.0,
-  "max"                     : 672.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 672.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "HummingWidowBlessing",
@@ -263,7 +264,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "HummingWidowBlessing",
@@ -472,7 +473,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_SwampFeverStart",
@@ -554,5 +555,5 @@
       }
     }
   ],
-  "_uuid"                   : "040d10daae3e28c4c8dfdb3176362d1e"
+  "_uuid"                       : "040d10daae3e28c4c8dfdb3176362d1e"
 }

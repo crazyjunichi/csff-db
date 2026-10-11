@@ -1,0 +1,74 @@
+
+{
+  "StartingPoint" : true,
+  "Line"          : {
+    "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+    "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+    "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
+  },
+  "OverrideSpeakerName" : {
+    "Text" : {
+      "zh" : "Grimbard",
+      "en" : "Grimbard",
+      "ja" : "Grimbard"
+    },
+    "Active" : true
+  },
+  "NextStep"            : {
+    "NextStep" : 2
+  },
+  "ShowContinueButton"  : 2,
+  "PossibleAnswers"     : [
+    {
+      "Answer" : {
+        "zh" : "Trade",
+        "en" : "Trade",
+        "ja" : "Trade"
+      },
+      "NewNextLine" : {
+        "NextStep" : 2
+      },
+      "ActionToPerform" : {
+        "StartTrading" : true,
+        "Ticks"        : 0,
+        "Miniticks"    : 0
+      }
+    },
+    {
+      "Answer" : {
+        "zh" : "Talk",
+        "en" : "Talk",
+        "ja" : "Talk"
+      },
+      "NewNextLine" : {
+        "NextStep" : 0,
+        "NextLine" : {
+          "key" : "ConversationHub",
+          "type" : "DialogLine",
+          "name" : {
+            "zh" : "He sniffs the ground around him, then looks at you attentively.",
+            "en" : "He sniffs the ground around him, then looks at you attentively.",
+            "ja" : "He sniffs the ground around him, then looks at you attentively."
+          }
+        }
+      }
+    },
+    {
+      "Answer" : {
+        "zh" : "Step back",
+        "en" : "Step back",
+        "ja" : "Step back"
+      },
+      "NewNextLine" : {
+        "NextStep" : 2
+      }
+    }
+  ],
+  "type"                : "DialogLine",
+  "key"                 : "BurrowGreeting",
+  "name"                : {
+    "zh" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+    "en" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade.",
+    "ja" : "A large, curiously aware badger peeks out of the mysterious burrow.\n\nHe pushes some of his belongings outside, keeping them within reach of his claws.\n\nHe looks at you. He seems willing to trade."
+  }
+}

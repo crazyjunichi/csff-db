@@ -10,40 +10,41 @@
     "en" : "Shows your general mood. Affects your immune system and can help trigger depressive and manic states at the extremes.",
     "ja" : "\u6C17\u5206\u3092\u8868\u3059\u3002\u514D\u75AB\u529B\u306B\u5F71\u97FF\u3092\u4E0E\u3048\u3001\u3046\u3064\u72B6\u614B\u3084\u30BD\u30A6\u72B6\u614B\u306E\u304D\u3063\u304B\u3051\u306B\u306A\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : -350.0,
     "y" : 350.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusName" : {
+  "DefaultStatusName"           : {
     "zh" : "\u4E0D\u9519",
     "en" : "Fine",
     "ja" : "\u60AA\u304F\u306A\u3044"
   },
-  "DefaultStatusDescription" : {
+  "DefaultStatusDescription"    : {
     "zh" : "\u6211\u611F\u89C9\u633A\u597D\u7684\u3002",
     "en" : "I'm feeling fine.",
     "ja" : "\u5143\u6C17"
   },
-  "DefaultStatusIcon"        : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon"
   },
-  "Statuses"                 : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6B22\u6B23",
@@ -1131,12 +1132,12 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "UsesNovelty"              : true,
-  "NoveltyCooldownDuration"  : 96,
-  "StalenessMultiplier"      : 0.5,
-  "MaxStalenessStack"        : 2,
-  "ShowActionEffects"        : true,
-  "FeedbackInfo"             : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 96,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Coherence__FeedbackInfo-Icon"
     },
@@ -1145,17 +1146,17 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                     : "GameStat",
-  "key"                      : "Morale",
-  "icon"                     : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
-  "name"                     : {
+  "type"                        : "GameStat",
+  "key"                         : "Morale",
+  "icon"                        : "CardData__BoarFreeFemale__UsageDurability-OverrideIcon",
+  "name"                        : {
     "zh" : "\u60C5\u7EEA",
     "en" : "Morale",
     "ja" : "\u58EB\u6C17"
   },
-  "min"                      : -350.0,
-  "max"                      : 350.0,
-  "_modifierValues"          : [
+  "min"                         : -350.0,
+  "max"                         : 350.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_FrameDrum",
@@ -2123,6 +2124,94 @@
     },
     {
       "source" : {
+        "key" : "TricksterFluff",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__TricksterFluff__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u7ED2\u6BDB",
+          "en" : "Trickster Fluff",
+          "ja" : "Trickster Fluff"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ALight with Hand Drill",
+        "en" : "Action: Light with Hand Drill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ALight with Hand Drill"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TricksterFluff",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__TricksterFluff__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u7ED2\u6BDB",
+          "en" : "Trickster Fluff",
+          "ja" : "Trickster Fluff"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ALight with Bow Drill",
+        "en" : "Action: Light with Bow Drill",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ALight with Bow Drill"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TricksterFluff",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__TricksterFluff__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u7ED2\u6BDB",
+          "en" : "Trickster Fluff",
+          "ja" : "Trickster Fluff"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ALight Tinder",
+        "en" : "Action: Light Tinder",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ALight Tinder"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
+        "key" : "TricksterFluff",
+        "type" : "CardData",
+        "CardType" : 0,
+        "icon"     : "CardData__TricksterFluff__CardImage",
+        "name"     : {
+          "zh" : "\u8BE1\u672F\u7ED2\u6BDB",
+          "en" : "Trickster Fluff",
+          "ja" : "Trickster Fluff"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ALight Tinder",
+        "en" : "Action: Light Tinder",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ALight Tinder"
+      },
+      "value"       : {
+        "x" : 1.0,
+        "y" : 1.0
+      }
+    },
+    {
+      "source" : {
         "key" : "WoodShavings",
         "type" : "CardData",
         "CardType" : 0,
@@ -3012,7 +3101,6 @@
         "key" : "Bp_WateringTrough",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_WateringTrough__CardImage",
         "name"     : {
           "zh" : "Watering Trough",
           "en" : "Watering Trough",
@@ -3034,7 +3122,6 @@
         "key" : "Bp_Well",
         "type" : "CardData",
         "CardType" : 7,
-        "icon"     : "CardData__Bp_Well__CardImage",
         "name"     : {
           "zh" : "Well",
           "en" : "Well",
@@ -3113,28 +3200,6 @@
       "value"       : {
         "x" : 0.25,
         "y" : 0.25
-      }
-    },
-    {
-      "source" : {
-        "key" : "BeeHoneycomb",
-        "type" : "CardData",
-        "CardType" : 0,
-        "icon"     : "CardData__BeeHoneycomb__CardImage",
-        "name"     : {
-          "zh" : "Honeycomb",
-          "en" : "Honeycomb",
-          "ja" : "Honeycomb"
-        }
-      },
-      "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1AEat",
-        "en" : "Action: Eat",
-        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AEat"
-      },
-      "value"       : {
-        "x" : 1.0,
-        "y" : 1.0
       }
     },
     {
@@ -4309,7 +4374,7 @@
       }
     }
   ],
-  "_modifierRates"           : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "CopperNecklace",
@@ -5449,7 +5514,7 @@
       }
     }
   ],
-  "_requires"                : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "FluteWooden",
@@ -5581,5 +5646,5 @@
       }
     }
   ],
-  "_uuid"                    : "4a27fb5da9326b545a5ef73f2b80316e"
+  "_uuid"                       : "4a27fb5da9326b545a5ef73f2b80316e"
 }

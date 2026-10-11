@@ -5,30 +5,31 @@
     "en" : "Swamp Fever Infected RBCs",
     "ja" : "Swamp Fever Infected RBCs"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 2,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 2,
+  "BarColor"                    : {
     "r" : 0.6627,
     "g" : 0.7961,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Fever__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "ValueRange" : {
         "m_X" : 1,
@@ -592,23 +593,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "SwampFeverInfectedRBCs",
-  "icon"                    : "GameStat__Fever__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "SwampFeverInfectedRBCs",
+  "icon"                        : "GameStat__Fever__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6CBC\u6CFD\u70ED\u611F\u67D3\u7EA2\u7EC6\u80DE",
     "en" : "Swamp Fever Infected RBCs",
     "ja" : "Swamp Fever Infected RBCs"
   },
-  "min"                     : 0.0,
-  "max"                     : 100000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Tgr_SwampFeverCycle",
@@ -690,7 +691,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "ImmuneSystem",
@@ -1014,7 +1015,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "Tgr_SwampFeverCycle",
@@ -1076,7 +1077,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_SwampFeverCycle",
@@ -1218,5 +1219,5 @@
       }
     }
   ],
-  "_uuid"                   : "ddcd9a8be5b6f4048a8d9b7eae1e84c0"
+  "_uuid"                       : "ddcd9a8be5b6f4048a8d9b7eae1e84c0"
 }

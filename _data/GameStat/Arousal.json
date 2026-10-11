@@ -1,12 +1,12 @@
 
 {
   "GameName" : {
-    "zh" : "\u6027\u5524\u8D77",
+    "zh" : "\u6027\u594B",
     "en" : "Arousal",
     "ja" : "Arousal"
   },
   "Description" : {
-    "zh" : "Increases your stress, lowers your focus and makes other look more attractive. Can be reduced by relaxing or meditating, or by sharing intimacy with partners.",
+    "zh" : "\u589E\u52A0\u538B\u529B\uFF0C\u964D\u4F4E\u4E13\u6CE8\u5EA6\uFF0C\u5E76\u8BA9\u4F60\u89C9\u5F97\u5176\u4ED6\u4EBA\u66F4\u5177\u5438\u5F15\u529B\u3002\u53EF\u4EE5\u901A\u8FC7\u653E\u677E\u3001\u51A5\u60F3\u6216\u4E0E\u4F34\u4FA3\u4EB2\u5BC6\u4E92\u52A8\u6765\u7F13\u89E3\u3002",
     "en" : "Increases your stress, lowers your focus and makes other look more attractive. Can be reduced by relaxing or meditating, or by sharing intimacy with partners.",
     "ja" : "Increases your stress, lowers your focus and makes other look more attractive. Can be reduced by relaxing or meditating, or by sharing intimacy with partners."
   },
@@ -21,30 +21,31 @@
       }
     }
   ],
-  "BaseValue"         : 0.0,
-  "MinMaxValue"       : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick"   : 0.0,
-  "StatPriority"      : 100,
-  "Visibility"        : 0,
-  "BarColor"          : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Arousal__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "ValueRange" : {
         "m_X" : 0,
@@ -199,7 +200,7 @@
     },
     {
       "GameName" : {
-        "zh" : "Aroused",
+        "zh" : "\u6027\u5174\u594B",
         "en" : "Aroused",
         "ja" : "Aroused"
       },
@@ -285,28 +286,28 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 48,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 48,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__Arousal__DefaultStatusIcon"
     },
     "StepValue" : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Arousal",
-  "icon"                    : "GameStat__Arousal__DefaultStatusIcon",
-  "name"                    : {
-    "zh" : "\u6027\u5524\u8D77",
+  "type"                        : "GameStat",
+  "key"                         : "Arousal",
+  "icon"                        : "GameStat__Arousal__DefaultStatusIcon",
+  "name"                        : {
+    "zh" : "\u6027\u594B",
     "en" : "Arousal",
     "ja" : "Arousal"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "PartnerDialog_Expression",
@@ -328,7 +329,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "Stamina",
@@ -514,5 +515,5 @@
       }
     }
   ],
-  "_uuid"                   : "72da2b6bb5e93df42bb44db5a4126d93"
+  "_uuid"                       : "72da2b6bb5e93df42bb44db5a4126d93"
 }

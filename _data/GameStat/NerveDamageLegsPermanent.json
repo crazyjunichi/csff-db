@@ -5,27 +5,28 @@
     "en" : "Leg Nerve Damage",
     "ja" : "\u811A\u306E\u795E\u7D4C\u640D\u50B7"
   },
-  "BaseValue" : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 2880.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u4FEE\u6B631",
@@ -163,28 +164,28 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "NotEnoughText"           : {
+  "NotEnoughText"               : {
     "zh" : "\u8FD9\u79CD\u72B6\u6001\u4E0D\u80FD\u6500\u722C\u3002",
     "en" : "Can't climb in this state.",
     "ja" : "\u3053\u306E\u72B6\u614B\u3060\u3068\u767B\u308C\u306A\u3044\u3002"
   },
-  "type"                    : "GameStat",
-  "key"                     : "NerveDamageLegsPermanent",
-  "icon"                    : "GameStat__CallousesFeet__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "NerveDamageLegsPermanent",
+  "icon"                        : "GameStat__CallousesFeet__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u817F\u90E8\u795E\u7ECF\u635F\u4F24",
     "en" : "Leg Nerve Damage",
     "ja" : "\u811A\u306E\u795E\u7D4C\u640D\u50B7"
   },
-  "min"                     : 0.0,
-  "max"                     : 2880.0,
-  "_modifierRates"          : [
+  "min"                         : 0.0,
+  "max"                         : 2880.0,
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "NerveDamageLegs",
@@ -209,5 +210,5 @@
       }
     }
   ],
-  "_uuid"                   : "488fb68bc1285884d8fc0cbe10518b1c"
+  "_uuid"                       : "488fb68bc1285884d8fc0cbe10518b1c"
 }

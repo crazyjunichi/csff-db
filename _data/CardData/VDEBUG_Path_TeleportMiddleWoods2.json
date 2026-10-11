@@ -139,6 +139,50 @@
       "ExplorationDirection" : 0,
       "VisibilityWithInventory" : 0,
       "ActionName"              : {
+        "zh" : "Sacred Glade",
+        "en" : "Sacred Glade",
+        "ja" : "Sacred Glade"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "NotBaseAction"           : true,
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 1,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Env_ClearingOak_SacredGlade",
+                "type" : "CardData",
+                "CardType" : 4,
+                "name"     : {
+                  "zh" : "\u795E\u5723\u7A7A\u5730",
+                  "en" : "Sacred Glade",
+                  "ja" : "Sacred Glade"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "ReceivingCardChanges"    : {
+        "ModType" : 3,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
         "zh" : "Whispering Thicket",
         "en" : "Whispering Thicket",
         "ja" : "Whispering Thicket"
@@ -574,6 +618,50 @@
       },
       "RoomDirection"           : 0,
       "ExitDirection"           : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "VisibilityWithInventory" : 0,
+      "ActionName"              : {
+        "zh" : "Sacred Glade",
+        "en" : "Sacred Glade",
+        "ja" : "Sacred Glade"
+      },
+      "DaytimeCost"             : 0,
+      "UseMiniTicks"            : 0,
+      "NotBaseAction"           : true,
+      "ProducedCards"           : [
+        {
+          "CollectionName" : "1",
+          "CollectionWeight" : 1,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "Env_ClearingOak_SacredGlade",
+                "type" : "CardData",
+                "CardType" : 4,
+                "name"     : {
+                  "zh" : "\u795E\u5723\u7A7A\u5730",
+                  "en" : "Sacred Glade",
+                  "ja" : "Sacred Glade"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 1,
+                "m_Y" : 1
+              }
+            }
+          ]
+        }
+      ],
+      "ReceivingCardChanges"    : {
+        "ModType" : 3,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "RoomDirection"           : 0,
+      "ExitDirection"           : 0
     }
   ],
   "MaxLiquidCapacity"           : 0.0,
@@ -612,6 +700,23 @@
     "ja" : "East"
   },
   "_transformTo"                    : [
+    {
+      "source" : {
+        "key" : "Env_ClearingOak_SacredGlade",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "\u795E\u5723\u7A7A\u5730",
+          "en" : "Sacred Glade",
+          "ja" : "Sacred Glade"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1ASacred Glade",
+        "en" : "Action: Sacred Glade",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1ASacred Glade"
+      }
+    },
     {
       "source" : {
         "key" : "Env_ThicketOak_WhisperingThicket",

@@ -10,30 +10,31 @@
     "en" : "Makes you run away or lose control in certain situations and can stop you from performing some actions. Goes down over time.",
     "ja" : "\u72B6\u6CC1\u306B\u3088\u3063\u3066\u9003\u3052\u305F\u308A\u66B4\u8D70\u3057\u305F\u308A\u3059\u308B\u304D\u3063\u304B\u3051\u306B\u306A\u308B\u3002\u6642\u9593\u304C\u7D4C\u3064\u3068\u6E1B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 100.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 100,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 100,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.0745,
     "g" : 0.9098,
     "b" : 0.6118,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Fear__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u60CA\u5413",
@@ -154,6 +155,24 @@
           "RateModifier" : {
             "x" : -8.0,
             "y" : -8.0
+          }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.0,
+            "y" : 1.0
           }
         }
       ],
@@ -285,6 +304,24 @@
             "x" : -16.0,
             "y" : -16.0
           }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : 1.5,
+            "y" : 1.5
+          }
         }
       ],
       "NotifyPlayer"   : 0,
@@ -415,6 +452,24 @@
             "x" : -32.0,
             "y" : -32.0
           }
+        },
+        {
+          "Stat" : {
+            "key" : "Paranoia",
+            "type" : "GameStat",
+            "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 300.0,
+            "name" : {
+              "zh" : "\u504F\u6267",
+              "en" : "Paranoia",
+              "ja" : "Paranoia"
+            }
+          },
+          "RateModifier" : {
+            "x" : 2.0,
+            "y" : 2.0
+          }
         }
       ],
       "NotifyPlayer"   : 0,
@@ -425,11 +480,11 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "CardData__BoarFreeFemale__FuelCapacity-OverrideIcon"
     },
@@ -438,17 +493,17 @@
     },
     "StepValue"    : 100.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Fear",
-  "icon"                    : "GameStat__Fear__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Fear",
+  "icon"                        : "GameStat__Fear__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6050\u60E7",
     "en" : "Fear",
     "ja" : "\u6050\u6016"
   },
-  "min"                     : 0.0,
-  "max"                     : 100.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 100.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_Nightmare",
@@ -603,7 +658,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "HagPond",
@@ -943,6 +998,27 @@
     },
     {
       "source" : {
+        "key" : "Agent_Stalker",
+        "type" : "NPCAgent",
+        "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+        "name" : {
+          "zh" : "\u6F5C\u884C\u8005",
+          "en" : "Stalker",
+          "ja" : "Stalker"
+        }
+      },
+      "description" : {
+        "zh" : "\u88AB\u52A8\u6548\u679C\uFF1AParanoia and Fear",
+        "en" : "Passive Effect: Paranoia and Fear",
+        "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AParanoia and Fear"
+      },
+      "value"       : {
+        "x" : 4.0,
+        "y" : 4.0
+      }
+    },
+    {
+      "source" : {
         "key" : "Agent_WanderingOak",
         "type" : "NPCAgent",
         "icon" : "NPCAgent__Agent_WanderingOak__AgentImage",
@@ -963,7 +1039,7 @@
       }
     }
   ],
-  "_triggers"               : [
+  "_triggers"                   : [
     {
       "source" : {
         "key" : "Tgr_HagPondFear",
@@ -985,5 +1061,5 @@
       }
     }
   ],
-  "_uuid"                   : "9e7fdaf5f13d3a64f89f29422ba60f5c"
+  "_uuid"                       : "9e7fdaf5f13d3a64f89f29422ba60f5c"
 }

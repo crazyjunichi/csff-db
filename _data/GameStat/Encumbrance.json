@@ -10,39 +10,40 @@
     "en" : "Determines your carrying capacity. Is affected by your muscle mass.",
     "ja" : "\u6301\u3061\u4E0A\u3052\u3089\u308C\u308B\u91CF\u3092\u793A\u3059\u3002\u7B4B\u8089\u91CF\u3067\u6C7A\u307E\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 4000.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 4000.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.5882,
     "g" : 0.0667,
     "b" : 0.0549,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusName" : {
+  "DefaultStatusName"           : {
     "zh" : "\u6CA1\u6709\u8D1F\u62C5",
     "en" : "Unencumbered",
     "ja" : "\u8EFD\u3005"
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "CardData__Carcass_BearCarcass__SpecialDurability1-OverrideIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u8D1F\u91CD",
@@ -477,23 +478,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Encumbrance",
-  "icon"                    : "CardData__Carcass_BearCarcass__SpecialDurability1-OverrideIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Encumbrance",
+  "icon"                        : "CardData__Carcass_BearCarcass__SpecialDurability1-OverrideIcon",
+  "name"                        : {
     "zh" : "\u8D1F\u91CD",
     "en" : "Encumbrance",
     "ja" : "\u4F53\u5E79"
   },
-  "min"                     : 0.0,
-  "max"                     : 4000.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 4000.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Weight",
@@ -587,5 +588,5 @@
       }
     }
   ],
-  "_uuid"                   : "21574a6120f4d3c4b913c69987e2ff06"
+  "_uuid"                       : "21574a6120f4d3c4b913c69987e2ff06"
 }

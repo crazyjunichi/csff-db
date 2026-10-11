@@ -10,30 +10,31 @@
     "en" : "Raises your stress levels if not satisfied. Can be satisfied by eating vegetables and travelling through the forest.",
     "ja" : "\u6E80\u305F\u3055\u308C\u306A\u3044\u3068\u30B9\u30C8\u30EC\u30B9\u5024\u304C\u4E0A\u6607\u3059\u308B\u3002\u91CE\u83DC\u3092\u98DF\u3079\u3001\u68EE\u3092\u6B69\u304D\u56DE\u308B\u3053\u3068\u3067\u6E80\u305F\u305B\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 96.0
   },
-  "BaseRatePerTick" : -1.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -1.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.4207,
     "g" : 0.7804,
     "b" : 0.1922,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 0.8899,
     "g" : 1.0,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "NPCAgent__Agent_Hare__AgentImage"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u91CE\u5154\u672C\u80FD",
@@ -155,23 +156,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "HareUrge",
-  "icon"                    : "NPCAgent__Agent_Hare__AgentImage",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "HareUrge",
+  "icon"                        : "NPCAgent__Agent_Hare__AgentImage",
+  "name"                        : {
     "zh" : "\u91CE\u5154\u672C\u80FD",
     "en" : "Hare Urge",
     "ja" : "\u30CE\u30A6\u30B5\u30AE\u306E\u885D\u52D5"
   },
-  "min"                     : 0.0,
-  "max"                     : 96.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 96.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Bp_HareEnchantment",
@@ -990,7 +991,7 @@
       "source" : {
         "key" : "tag_OpenSky",
         "type" : "CardTag",
-        "count" : 100,
+        "count" : 102,
         "name"  : {
           "zh" : "\u5F00\u9614\u7684\u5929\u7A7A",
           "en" : "Open Sky",
@@ -1029,7 +1030,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LQ_SpiritHare",
@@ -1076,5 +1077,5 @@
       }
     }
   ],
-  "_uuid"                   : "79d00ad5e2cc54640acf89f21be83706"
+  "_uuid"                       : "79d00ad5e2cc54640acf89f21be83706"
 }

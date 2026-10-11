@@ -10,19 +10,20 @@
     "en" : "How intense the contact the sun is having on your skin is.",
     "ja" : "\u592A\u967D\u306E\u808C\u3078\u306E\u5F71\u97FF\u3092\u793A\u3059\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 6.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "StatusesHaveNoBar" : true,
-  "DefaultStatusIcon" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "StatusesHaveNoBar"           : true,
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__SunExposure__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u6CA1\u6709\u9633\u5149\u8F90\u5C04",
@@ -330,23 +331,23 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "SunExposure",
-  "icon"                    : "GameStat__SunExposure__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "SunExposure",
+  "icon"                        : "GameStat__SunExposure__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u9633\u5149\u8F90\u5C04",
     "en" : "Sun Exposure",
     "ja" : "\u65E5\u5149\u3078\u306E\u9732\u51FA"
   },
-  "min"                     : 0.0,
-  "max"                     : 6.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 6.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "SunStrength",
@@ -555,5 +556,5 @@
       }
     }
   ],
-  "_uuid"                   : "0628b47ee0bcfab44afbecf344e16ccc"
+  "_uuid"                       : "0628b47ee0bcfab44afbecf344e16ccc"
 }

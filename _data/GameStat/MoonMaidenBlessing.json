@@ -10,34 +10,35 @@
     "en" : "A spirit blessing. Boosts your courage but increases your grief. ",
     "ja" : "\u7CBE\u970A\u306E\u795D\u798F\u3002\n\u52C7\u6C17\u3092\u9AD8\u3081\u308B\u304C\u60B2\u5606\u3082\u5897\u3057\u3066\u3044\u304F\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BaseRatePerTick" : 0.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "VisibleValueRange" : {
+  "BaseRatePerTick"             : 0.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "VisibleValueRange"           : {
     "x" : 0.0,
     "y" : 288.0
   },
-  "BarColor"          : {
+  "BarColor"                    : {
     "r" : 0.4528,
     "g" : 0.4528,
     "b" : 0.4528,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__MoonMaidenBlessing__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5C11\u5973\u8D50\u798F",
@@ -495,27 +496,27 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "NoveltyCooldownDuration" : 0,
-  "StalenessMultiplier"     : 0.0,
-  "MaxStalenessStack"       : 0,
-  "ShowActionEffects"       : true,
-  "FeedbackInfo"            : {
+  "NoveltyCooldownDuration"     : 0,
+  "StalenessMultiplier"         : 0.0,
+  "MaxStalenessStack"           : 0,
+  "ShowActionEffects"           : true,
+  "FeedbackInfo"                : {
     "Icon" : {
       "FileName" : "GameStat__AlertnessAid__DefaultStatusIcon"
     },
     "StepValue" : 50.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "MoonMaidenBlessing",
-  "icon"                    : "GameStat__MoonMaidenBlessing__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "MoonMaidenBlessing",
+  "icon"                        : "GameStat__MoonMaidenBlessing__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u6708\u5973\u8D50\u798F",
     "en" : "Moon Maiden Blessing",
     "ja" : "\u6708\u306E\u4E59\u5973\u306E\u52A0\u8B77"
   },
-  "min"                     : 0.0,
-  "max"                     : 288.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 288.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_MoonMaidenApparitions",
@@ -608,7 +609,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "LQ_SpiritMoonMaiden",
@@ -770,5 +771,5 @@
       }
     }
   ],
-  "_uuid"                   : "d81081ec44ef7684c987cec816d56fb1"
+  "_uuid"                       : "d81081ec44ef7684c987cec816d56fb1"
 }

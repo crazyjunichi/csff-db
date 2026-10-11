@@ -177,6 +177,16 @@
         "en" : "Pungent",
         "ja" : "Pungent"
       }
+    },
+    {
+      "key" : "tag_TraderInterestX4Grimbard",
+      "type" : "CardTag",
+      "count" : 27,
+      "name"  : {
+        "zh" : "\u683C\u91CC\u59C6\u5DF4\u5FB7\u5174\u8DA3\u00D74",
+        "en" : "tag_GrimbardTraderInterestX4",
+        "ja" : "tag_GrimbardTraderInterestX4"
+      }
     }
   ],
   "MapStructureType"            : 0,
@@ -4041,6 +4051,24 @@
   "_useFor"                         : [
     {
       "source" : {
+        "key" : "Bp_DuckEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u9644\u9B54",
+          "en" : "Duck Enchantment",
+          "ja" : "Duck Enchantment"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE\u5236\u4F5C",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
+    {
+      "source" : {
         "key" : "MudHutConstructionLocationEnclosure",
         "type" : "CardData",
         "CardType" : 8,
@@ -4887,6 +4915,42 @@
     },
     {
       "source" : {
+        "key" : "LQ_Honey",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "Honey",
+          "en" : "Honey",
+          "ja" : "Honey"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AAdd",
+        "en" : "Action: Add",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AAdd"
+      }
+    },
+    {
+      "source" : {
+        "key" : "LQ_HoneyMead",
+        "type" : "CardData",
+        "CardType" : 9,
+        "icon"     : "CardData__AlembicOff__UsageDurability-OverrideIcon",
+        "name"     : {
+          "zh" : "\u8702\u871C\u9152",
+          "en" : "Mead",
+          "ja" : "Mead"
+        }
+      },
+      "description" : {
+        "zh" : "\u52A8\u4F5C\uFF1AAdd",
+        "en" : "Action: Add",
+        "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AAdd"
+      }
+    },
+    {
+      "source" : {
         "key" : "LQ_RyeAle",
         "type" : "CardData",
         "CardType" : 9,
@@ -5204,6 +5268,24 @@
     }
   ],
   "_transformTo"                    : [
+    {
+      "source" : {
+        "key" : "Bp_DuckEnchantment",
+        "type" : "CardData",
+        "CardType" : 7,
+        "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
+        "name"     : {
+          "zh" : "\u9E2D\u9644\u9B54",
+          "en" : "Duck Enchantment",
+          "ja" : "Duck Enchantment"
+        }
+      },
+      "description" : {
+        "zh" : "\u84DD\u56FE",
+        "en" : "Blueprint",
+        "ja" : "\u30D6\u30EB\u30FC\u30D7\u30EA\u30F3\u30C8"
+      }
+    },
     {
       "source" : {
         "key" : "CharredRemains",
@@ -5524,7 +5606,7 @@
       }
     },
     {
-      "key" : "Smokehouse",
+      "key" : "NOT_USED_Smokehouse",
       "type" : "CardData",
       "CardType" : 2,
       "icon"     : "CardData__Bp_Kiln__CardImage",

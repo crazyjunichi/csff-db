@@ -10,30 +10,31 @@
     "en" : "Increases over time. Lowers morale and mental structure.",
     "ja" : "\u6642\u9593\u304C\u7D4C\u3064\u3068\u5897\u3048\u308B\u3002\u58EB\u6C17\u3068\u7CBE\u795E\u69CB\u9020\u3092\u4E0B\u3052\u308B\u3002"
   },
-  "BaseValue"   : 0.0,
-  "MinMaxValue" : {
+  "DoesNotAffectPassiveEffects" : true,
+  "BaseValue"                   : 0.0,
+  "MinMaxValue"                 : {
     "x" : 0.0,
     "y" : 4880.0
   },
-  "BaseRatePerTick" : -2.0,
-  "StatPriority"    : 0,
-  "Visibility"      : 0,
-  "BarColor"        : {
+  "BaseRatePerTick"             : -2.0,
+  "StatPriority"                : 0,
+  "Visibility"                  : 0,
+  "BarColor"                    : {
     "r" : 0.1882,
     "g" : 0.2275,
     "b" : 0.6157,
     "a" : 1.0
   },
-  "BarHighlightColor" : {
+  "BarHighlightColor"           : {
     "r" : 1.0,
     "g" : 0.7285,
     "b" : 0.0,
     "a" : 1.0
   },
-  "DefaultStatusIcon" : {
+  "DefaultStatusIcon"           : {
     "FileName" : "GameStat__Grief__DefaultStatusIcon"
   },
-  "Statuses"          : [
+  "Statuses"                    : [
     {
       "GameName" : {
         "zh" : "\u5B64\u72EC",
@@ -314,24 +315,24 @@
       "ConfidenceModifier"     : 0.0
     }
   ],
-  "UsesNovelty"       : true,
-  "NoveltyCooldownDuration" : 48,
-  "StalenessMultiplier"     : 0.5,
-  "MaxStalenessStack"       : 2,
-  "FeedbackInfo"            : {
+  "UsesNovelty"                 : true,
+  "NoveltyCooldownDuration"     : 48,
+  "StalenessMultiplier"         : 0.5,
+  "MaxStalenessStack"           : 2,
+  "FeedbackInfo"                : {
     "StepValue" : 1.0
   },
-  "type"                    : "GameStat",
-  "key"                     : "Loneliness",
-  "icon"                    : "GameStat__Grief__DefaultStatusIcon",
-  "name"                    : {
+  "type"                        : "GameStat",
+  "key"                         : "Loneliness",
+  "icon"                        : "GameStat__Grief__DefaultStatusIcon",
+  "name"                        : {
     "zh" : "\u5B64\u72EC\u611F",
     "en" : "Loneliness",
     "ja" : "\u5B64\u72EC\u3055"
   },
-  "min"                     : 0.0,
-  "max"                     : 4880.0,
-  "_modifierValues"         : [
+  "min"                         : 0.0,
+  "max"                         : 4880.0,
+  "_modifierValues"             : [
     {
       "source" : {
         "key" : "Event_FluteTunes2",
@@ -1636,7 +1637,7 @@
       }
     }
   ],
-  "_modifierRates"          : [
+  "_modifierRates"              : [
     {
       "source" : {
         "key" : "BoarFreeFemale",
@@ -2327,9 +2328,9 @@
         "key" : "TraderIntroGeneral",
         "type" : "DialogScene",
         "firstLine" : {
-          "zh" : "\u90A3\u4E2A\u7537\u4EBA\u89C1\u5230\u4F60\u4F3C\u4E4E\u5F88\u60CA\u8BB6\u3002",
-          "en" : "The man seems surprised to see you.",
-          "ja" : "\u7537\u306F\u3042\u306A\u305F\u306B\u4F1A\u3063\u3066\u9A5A\u3044\u305F\u3088\u3046\u3060\u3002 "
+          "zh" : "A man approaches and greets you. He introduces himself as a travelling trader from a town far to the west.\nHe says he passes through the forest every spring and autumn, and thought he would stop by to introduce himself.\nHe will be setting up at the Green Glade, and invites you to visit if you have anything to trade.",
+          "en" : "A man approaches and greets you. He introduces himself as a travelling trader from a town far to the west.\nHe says he passes through the forest every spring and autumn, and thought he would stop by to introduce himself.\nHe will be setting up at the Green Glade, and invites you to visit if you have anything to trade.",
+          "ja" : "A man approaches and greets you. He introduces himself as a travelling trader from a town far to the west.\nHe says he passes through the forest every spring and autumn, and thought he would stop by to introduce himself.\nHe will be setting up at the Green Glade, and invites you to visit if you have anything to trade."
         }
       },
       "description" : {
@@ -2383,7 +2384,7 @@
       }
     }
   ],
-  "_requires"               : [
+  "_requires"                   : [
     {
       "source" : {
         "key" : "FluteWooden",
@@ -2450,5 +2451,5 @@
       }
     }
   ],
-  "_uuid"                   : "3dc9b7924c4bec142af1c255f6df235d"
+  "_uuid"                       : "3dc9b7924c4bec142af1c255f6df235d"
 }
