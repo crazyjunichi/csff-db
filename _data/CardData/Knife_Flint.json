@@ -7477,7 +7477,7 @@
           "CardType" : 7,
           "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
           "name"     : {
-            "zh" : "\u9E2D\u9644\u9B54",
+            "zh" : "\u9E2D\u5B50\u9644\u9B54",
             "en" : "Duck Enchantment",
             "ja" : "Duck Enchantment"
           }
@@ -13865,6 +13865,372 @@
       ],
       "RoomDirection"             : 0,
       "ExitDirection"             : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "DontCloseInspectionWindow" : true,
+      "VisibilityWithInventory"   : 0,
+      "ActionName"                : {
+        "zh" : "Shave Beard",
+        "en" : "Shave Beard",
+        "ja" : "Shave Beard"
+      },
+      "ActionDescription"         : {
+        "zh" : "Shave off your remaining stubble.",
+        "en" : "Shave off your remaining stubble.",
+        "ja" : "Shave off your remaining stubble."
+      },
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "RequiredStatValues"        : [
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 193.0,
+            "y" : 1343.0
+          },
+          "HideAllWhenNotMet" : true
+        }
+      ],
+      "InstantStatModifications"  : true,
+      "StatModifications"         : [
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -46080.0,
+            "y" : -46080.0
+          },
+          "IgnoreNovelty" : true
+        }
+      ],
+      "RoomDirection"             : 0,
+      "ExitDirection"             : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "DontCloseInspectionWindow" : true,
+      "VisibilityWithInventory"   : 0,
+      "ActionName"                : {
+        "zh" : "Shave Beard",
+        "en" : "Shave Beard",
+        "ja" : "Shave Beard"
+      },
+      "ActionDescription"         : {
+        "zh" : "Shave your beard down to stubble.",
+        "en" : "Shave your beard down to stubble.",
+        "ja" : "Shave your beard down to stubble."
+      },
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "RequiredStatValues"        : [
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 1344.0,
+            "y" : 5759.0
+          },
+          "HideAllWhenNotMet" : true
+        }
+      ],
+      "InstantStatModifications"  : true,
+      "StatModifications"         : [
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : 193.0,
+            "y" : 193.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -46080.0,
+            "y" : -46080.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : -193.0,
+            "y" : -193.0
+          },
+          "IgnoreNovelty"    : true
+        }
+      ],
+      "RoomDirection"             : 0,
+      "ExitDirection"             : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "DontCloseInspectionWindow" : true,
+      "VisibilityWithInventory"   : 0,
+      "ActionName"                : {
+        "zh" : "Shave Beard",
+        "en" : "Shave Beard",
+        "ja" : "Shave Beard"
+      },
+      "ActionDescription"         : {
+        "zh" : "Cut your beard down to short length.",
+        "en" : "Cut your beard down to short length.",
+        "ja" : "Cut your beard down to short length."
+      },
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "RequiredStatValues"        : [
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 5760.0,
+            "y" : 34560.0
+          },
+          "HideAllWhenNotMet" : true
+        }
+      ],
+      "InstantStatModifications"  : true,
+      "StatModifications"         : [
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : 1344.0,
+            "y" : 1344.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -46080.0,
+            "y" : -46080.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : -1344.0,
+            "y" : -1344.0
+          },
+          "IgnoreNovelty"    : true
+        }
+      ],
+      "RoomDirection"             : 0,
+      "ExitDirection"             : 0
+    },
+    {
+      "ExplorationValue" : 0.0,
+      "ExplorationDirection" : 0,
+      "DontCloseInspectionWindow" : true,
+      "VisibilityWithInventory"   : 0,
+      "ActionName"                : {
+        "zh" : "Shave Beard",
+        "en" : "Shave Beard",
+        "ja" : "Shave Beard"
+      },
+      "ActionDescription"         : {
+        "zh" : "Cut your beard down to full length.",
+        "en" : "Cut your beard down to full length.",
+        "ja" : "Cut your beard down to full length."
+      },
+      "DaytimeCost"               : 0,
+      "UseMiniTicks"              : 1,
+      "RequiredStatValues"        : [
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 34561.0,
+            "y" : 46080.0
+          },
+          "HideAllWhenNotMet" : true
+        }
+      ],
+      "InstantStatModifications"  : true,
+      "StatModifications"         : [
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : 5760.0,
+            "y" : 5760.0
+          },
+          "IgnoreNovelty"    : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "ValueModifier" : {
+            "x" : -46080.0,
+            "y" : -46080.0
+          },
+          "IgnoreNovelty" : true
+        },
+        {
+          "Stat" : {
+            "key" : "HairFacialLength",
+            "type" : "GameStat",
+            "icon" : "GameStat__Empathy__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 192.0,
+            "name" : {
+              "zh" : "\u9762\u90E8\u6BDB\u53D1\u957F\u5EA6",
+              "en" : "Facial Hair Length",
+              "ja" : "Facial Hair Length"
+            }
+          },
+          "MinValueModifier" : {
+            "x" : -5760.0,
+            "y" : -5760.0
+          },
+          "IgnoreNovelty"    : true
+        }
+      ],
+      "RoomDirection"             : 0,
+      "ExitDirection"             : 0
     }
   ],
   "PassiveEffects"              : [
@@ -16099,7 +16465,7 @@
         "CardType" : 7,
         "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
         "name"     : {
-          "zh" : "\u9E2D\u9644\u9B54",
+          "zh" : "\u9E2D\u5B50\u9644\u9B54",
           "en" : "Duck Enchantment",
           "ja" : "Duck Enchantment"
         }

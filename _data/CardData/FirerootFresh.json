@@ -1092,6 +1092,163 @@
       "CompatibleCards"  : {
         "TriggerTags" : [
           {
+            "key" : "tag_CutterAdv",
+            "type" : "CardTag",
+            "count" : 7,
+            "name"  : {
+              "zh" : "\u950B\u5229\u5207\u5272\u5DE5\u5177",
+              "en" : "Sharp Cutting Tool",
+              "ja" : "Sharp Cutting Tool"
+            }
+          }
+        ]
+      },
+      "ActionName"       : {
+        "zh" : "\u5265\u76AE\u5207\u788E",
+        "en" : "Peel & Cut ",
+        "ja" : "\u76AE\u3092\u5265\u3044\u3066\u5207\u308B"
+      },
+      "DaytimeCost"      : 0,
+      "UseMiniTicks"     : 1,
+      "CompatibleNPCDuties" : [
+        {
+          "Target" : {
+            "key" : "PartnerDuty_PeelRoots",
+            "type" : "NPCDuty",
+            "name" : {
+              "zh" : "\u706B\u6839\u53BB\u76AE",
+              "en" : "Peel Roots",
+              "ja" : "Peel Roots"
+            }
+          }
+        }
+      ],
+      "ActionTags"          : [
+        {
+          "key" : "HandAction",
+          "type" : "ActionTag",
+          "name" : {
+            "zh" : "\u624B\u90E8\u52A8\u4F5C",
+            "en" : "HandAction",
+            "ja" : "HandAction"
+          }
+        },
+        {
+          "key" : "CraftAction",
+          "type" : "ActionTag",
+          "name" : {
+            "zh" : "\u5236\u4F5C\u52A8\u4F5C",
+            "en" : "CraftAction",
+            "ja" : "CraftAction"
+          }
+        }
+      ],
+      "RequiredStatValues"  : [
+        {
+          "Stat" : {
+            "key" : "Light",
+            "type" : "GameStat",
+            "icon" : "GameStat__AmbushAid__DefaultStatusIcon",
+            "min"  : 0.0,
+            "max"  : 100.0,
+            "name" : {
+              "zh" : "\u5149\u4EAE",
+              "en" : "Light",
+              "ja" : "\u5149"
+            }
+          },
+          "TriggerRange" : {
+            "x" : 10.0,
+            "y" : 150.0
+          },
+          "NotifyWhenNotMet" : true
+        }
+      ],
+      "LocksCardsForUse"    : true,
+      "ProducedCards"       : [
+        {
+          "CollectionName" : "Cut",
+          "CollectionWeight" : 0,
+          "DroppedCards"     : [
+            {
+              "DroppedCard" : {
+                "key" : "FirerootCutFresh",
+                "type" : "CardData",
+                "CardType" : 0,
+                "icon"     : "CardData__CattailRootBoiled__CardImage",
+                "name"     : {
+                  "zh" : "\u5207\u788E\u7684\u706B\u6839",
+                  "en" : "Cut Fireroot",
+                  "ja" : "\u30D5\u30A1\u30A4\u30E4\u30FC\u30EB\u30FC\u30C8\u3092\u5207\u308B"
+                }
+              },
+              "Quantity"    : {
+                "m_X" : 2,
+                "m_Y" : 2
+              },
+              "TransferRules" : {
+                "Spoilage" : 1,
+                "Usage"    : 0,
+                "Fuel"     : 0,
+                "Progress" : 0,
+                "Special1" : 0,
+                "Special2" : 1,
+                "Special3" : 0,
+                "Special4" : 0,
+                "SpoilageValue" : 0.0,
+                "UsageValue"    : 0.0,
+                "FuelValue"     : 0.0,
+                "ProgressValue" : 0.0,
+                "Special1Value" : 0.0,
+                "Special2Value" : 0.0,
+                "Special3Value" : 0.0,
+                "Special4Value" : 0.0,
+                "SpoilageFrom"  : 0,
+                "UsageFrom"     : 0,
+                "FuelFrom"      : 0,
+                "ProgressFrom"  : 0,
+                "Special1From"  : 0,
+                "Special2From"  : 0,
+                "Special3From"  : 0,
+                "Special4From"  : 0
+              }
+            }
+          ]
+        }
+      ],
+      "ReceivingCardChanges" : {
+        "ModType" : 1,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0,
+        "SpoilageChange"            : {
+          "x" : -1185.0,
+          "y" : -1185.0
+        },
+        "UsageChange"               : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    },
+    {
+      "GivenCardChanges" : {
+        "ModType" : 1,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0,
+        "SpoilageChange"            : {
+          "x" : -0.1,
+          "y" : -0.1
+        },
+        "UsageChange"               : {
+          "x" : -0.1,
+          "y" : -0.1
+        }
+      },
+      "CompatibleCards"  : {
+        "TriggerTags" : [
+          {
             "key" : "tag_Cutter",
             "type" : "CardTag",
             "count" : 11,
@@ -1545,7 +1702,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1AForage",
+        "zh" : "\u52A8\u4F5C\uFF1A\u89C5\u98DF",
         "en" : "Action: Forage",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AForage"
       }
@@ -1941,7 +2098,7 @@
         }
       },
       "description" : {
-        "zh" : "\u52A8\u4F5C\uFF1AForage",
+        "zh" : "\u52A8\u4F5C\uFF1A\u89C5\u98DF",
         "en" : "Action: Forage",
         "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AForage"
       }

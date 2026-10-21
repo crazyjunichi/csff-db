@@ -19,7 +19,7 @@
         }
       },
       "Name"       : {
-        "zh" : "Blooming Clover Patch",
+        "zh" : "\u76DB\u5F00\u7684\u91CE\u751F\u4E09\u53F6\u8349",
         "en" : "Blooming Clover Patch",
         "ja" : "Blooming Clover Patch"
       }
@@ -160,7 +160,7 @@
   "LiquidEvaporationRate"       : 0.0,
   "SpecialDurability1"          : {
     "CardStatName" : {
-      "zh" : "Flowers",
+      "zh" : "\u82B1",
       "en" : "Flowers",
       "ja" : "Flowers"
     },
@@ -227,50 +227,6 @@
       },
       {
         "source" : {
-          "key" : "CloverPatch",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__Bp_CloverField__CardImage",
-          "name"     : {
-            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
-            "en" : "Clover Patch",
-            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
-          }
-        },
-        "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51AC\u5B63\u4E0D\u751F\u957F",
-          "en" : "Passive Effect\uFF1ADoes not Grow in Winter",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoes not Grow in Winter"
-        },
-        "value"       : {
-          "x" : -9.5,
-          "y" : -9.5
-        }
-      },
-      {
-        "source" : {
-          "key" : "CloverPatch",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__Bp_CloverField__CardImage",
-          "name"     : {
-            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
-            "en" : "Clover Patch",
-            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
-          }
-        },
-        "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6625\u5B63\u5FEB\u901F\u751F\u957F",
-          "en" : "Passive Effect\uFF1AGrows Fast In Spring",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Fast In Spring"
-        },
-        "value"       : {
-          "x" : 5.0,
-          "y" : 5.0
-        }
-      },
-      {
-        "source" : {
           "key" : "Pk_5_25_StartingCattle_PregnantCow",
           "type" : "CardData",
           "CardType" : 0,
@@ -330,7 +286,7 @@
   },
   "SpecialDurability3"          : {
     "CardStatName" : {
-      "zh" : "\u4EA7\u91CF",
+      "zh" : "\u9971\u6EE1\u5EA6",
       "en" : "Yield",
       "ja" : "Yield"
     },
@@ -397,6 +353,50 @@
       }
     ],
     "_rateModifications"           : [
+      {
+        "source" : {
+          "key" : "CloverPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_CloverField__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
+            "en" : "Clover Patch",
+            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51AC\u5B63\u4E0D\u751F\u957F",
+          "en" : "Passive Effect\uFF1ADoes not Grow in Winter",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoes not Grow in Winter"
+        },
+        "value"       : {
+          "x" : -9.5,
+          "y" : -9.5
+        }
+      },
+      {
+        "source" : {
+          "key" : "CloverPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__Bp_CloverField__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u4E09\u53F6\u8349",
+            "en" : "Clover Patch",
+            "ja" : "\u30AF\u30ED\u30FC\u30D0\u30FC\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6625\u5B63\u5FEB\u901F\u751F\u957F",
+          "en" : "Passive Effect\uFF1AGrows Fast In Spring",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Fast In Spring"
+        },
+        "value"       : {
+          "x" : 5.0,
+          "y" : 5.0
+        }
+      },
       {
         "source" : {
           "key" : "CowFreeCalf",
@@ -1797,6 +1797,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : -9.5
+      },
+      "Special3RateModifier" : {
         "FloatValue" : -9.5,
         "Active"     : true
       },
@@ -1834,6 +1837,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : 5.0
+      },
+      "Special3RateModifier" : {
         "FloatValue" : 5.0,
         "Active"     : true
       },

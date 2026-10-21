@@ -142,7 +142,80 @@
     "OnZeroNotification"           : 0,
     "OnFullNotification"           : 0,
     "FloatValue"                   : 5760.0,
-    "durabilityKey"                : "SpecialDurability1",
+    "durabilityKey"                : "SpecialDurability1"
+  },
+  "SpecialDurability2"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 96.0,
+    "RatePerDaytimePoint"  : -0.25,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 1,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "HasActionOnZero"       : true,
+    "OnZeroNotification"    : 0,
+    "OnZero"                : {
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ReceivingCardChanges" : {
+        "ModType" : 3,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "FadeToBlack"          : 0,
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    },
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 96.0,
+    "durabilityKey"         : "SpecialDurability2"
+  },
+  "SpecialDurability3"          : {
+    "CardStatName" : {
+      "zh" : "\u9971\u6EE1\u5EA6",
+      "en" : "Yield",
+      "ja" : "Yield"
+    },
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 5760.0,
+    "RatePerDaytimePoint"  : 1.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "PauseRateWhenEnvWeightIsFull" : true,
+    "HidingOptions"                : 0,
+    "TextDisplay"                  : 0,
+    "NumberPrecision"              : 0,
+    "OverrideIcon"                 : {
+      "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
+    },
+    "OnZeroNotification"           : 0,
+    "OnFullNotification"           : 0,
+    "FloatValue"                   : 5760.0,
+    "Active"                       : true,
+    "durabilityKey"                : "SpecialDurability3",
+    "_valueModifications"          : [
+      {
+        "source" : {
+          "key" : "NettlePatchWild",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__NettlePatchWild__CardImage",
+          "name"     : {
+            "zh" : "\u91CE\u751F\u8368\u9EBB",
+            "en" : "Nettle Patch",
+            "ja" : "\u30A4\u30E9\u30AF\u30B5\u306E\u30D1\u30C3\u30C1"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1A\u6536\u83B7",
+          "en" : "Action: Harvest",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u53CE\u7A6B"
+        },
+        "value"       : {
+          "x" : -288.0,
+          "y" : -288.0
+        }
+      }
+    ],
     "_rateModifications"           : [
       {
         "source" : {
@@ -231,82 +304,7 @@
           "x" : -9.5,
           "y" : -9.5
         }
-      }
-    ]
-  },
-  "SpecialDurability2"          : {
-    "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 96.0,
-    "RatePerDaytimePoint"  : -0.25,
-    "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 1,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "HasActionOnZero"       : true,
-    "OnZeroNotification"    : 0,
-    "OnZero"                : {
-      "DaytimeCost" : 0,
-      "UseMiniTicks" : 0,
-      "ReceivingCardChanges" : {
-        "ModType" : 3,
-        "TransformToLiquidQuantity" : 0.0,
-        "LiquidEffectScaling"       : 0
       },
-      "FadeToBlack"          : 0,
-      "RoomDirection"        : 0,
-      "ExitDirection"        : 0
-    },
-    "OnFullNotification"    : 0,
-    "FloatValue"            : 96.0,
-    "durabilityKey"         : "SpecialDurability2"
-  },
-  "SpecialDurability3"          : {
-    "CardStatName" : {
-      "zh" : "\u4EA7\u91CF",
-      "en" : "Yield",
-      "ja" : "Yield"
-    },
-    "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 5760.0,
-    "RatePerDaytimePoint"  : 1.0,
-    "ExtraRateWhenEquipped" : 0.0,
-    "PauseRateWhenEnvWeightIsFull" : true,
-    "HidingOptions"                : 0,
-    "TextDisplay"                  : 0,
-    "NumberPrecision"              : 0,
-    "OverrideIcon"                 : {
-      "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
-    },
-    "OnZeroNotification"           : 0,
-    "OnFullNotification"           : 0,
-    "FloatValue"                   : 5760.0,
-    "Active"                       : true,
-    "durabilityKey"                : "SpecialDurability3",
-    "_valueModifications"          : [
-      {
-        "source" : {
-          "key" : "NettlePatchWild",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__NettlePatchWild__CardImage",
-          "name"     : {
-            "zh" : "\u91CE\u751F\u8368\u9EBB",
-            "en" : "Nettle Patch",
-            "ja" : "\u30A4\u30E9\u30AF\u30B5\u306E\u30D1\u30C3\u30C1"
-          }
-        },
-        "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1A\u6536\u83B7",
-          "en" : "Action: Harvest",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1A\u53CE\u7A6B"
-        },
-        "value"       : {
-          "x" : -288.0,
-          "y" : -288.0
-        }
-      }
-    ],
-    "_rateModifications"           : [
       {
         "source" : {
           "key" : "NettlePatchWild",
@@ -1290,6 +1288,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : 1.0
+      },
+      "Special3RateModifier" : {
         "FloatValue" : 1.0,
         "Active"     : true
       },
@@ -1327,6 +1328,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : 1.0
+      },
+      "Special3RateModifier" : {
         "FloatValue" : 1.0,
         "Active"     : true
       },
@@ -1364,6 +1368,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : -1.0
+      },
+      "Special3RateModifier" : {
         "FloatValue" : -1.0,
         "Active"     : true
       },
@@ -1401,6 +1408,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : -9.5
+      },
+      "Special3RateModifier" : {
         "FloatValue" : -9.5,
         "Active"     : true
       },

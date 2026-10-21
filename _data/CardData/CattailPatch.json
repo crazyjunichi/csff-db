@@ -142,53 +142,7 @@
     "OnZeroNotification"           : 0,
     "OnFullNotification"           : 0,
     "FloatValue"                   : 5760.0,
-    "durabilityKey"                : "SpecialDurability1",
-    "_rateModifications"           : [
-      {
-        "source" : {
-          "key" : "CattailPatch",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__CattailPatch__CardImage",
-          "name"     : {
-            "zh" : "\u9999\u84B2\u4E1B",
-            "en" : "Cattail Patch",
-            "ja" : "\u30AC\u30DE\u306E\u7FA4\u751F\u5730"
-          }
-        },
-        "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51AC\u5B63\u4E0D\u751F\u957F",
-          "en" : "Passive Effect\uFF1ADoes not Grow in Winter",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoes not Grow in Winter"
-        },
-        "value"       : {
-          "x" : -1.0,
-          "y" : -1.0
-        }
-      },
-      {
-        "source" : {
-          "key" : "CattailPatch",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__CattailPatch__CardImage",
-          "name"     : {
-            "zh" : "\u9999\u84B2\u4E1B",
-            "en" : "Cattail Patch",
-            "ja" : "\u30AC\u30DE\u306E\u7FA4\u751F\u5730"
-          }
-        },
-        "description" : {
-          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6625\u5B63\u5FEB\u901F\u751F\u957F",
-          "en" : "Passive Effect\uFF1AGrows Fast In Spring",
-          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Fast In Spring"
-        },
-        "value"       : {
-          "x" : 5.0,
-          "y" : 5.0
-        }
-      }
-    ]
+    "durabilityKey"                : "SpecialDurability1"
   },
   "SpecialDurability2"          : {
     "RandomStartingOffset" : 0.0,
@@ -205,7 +159,7 @@
   },
   "SpecialDurability3"          : {
     "CardStatName" : {
-      "zh" : "\u4EA7\u91CF",
+      "zh" : "\u9971\u6EE1\u5EA6",
       "en" : "Yield",
       "ja" : "Yield"
     },
@@ -268,6 +222,52 @@
         "value"       : {
           "x" : -5760.0,
           "y" : -5760.0
+        }
+      }
+    ],
+    "_rateModifications"           : [
+      {
+        "source" : {
+          "key" : "CattailPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__CattailPatch__CardImage",
+          "name"     : {
+            "zh" : "\u9999\u84B2\u4E1B",
+            "en" : "Cattail Patch",
+            "ja" : "\u30AC\u30DE\u306E\u7FA4\u751F\u5730"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u51AC\u5B63\u4E0D\u751F\u957F",
+          "en" : "Passive Effect\uFF1ADoes not Grow in Winter",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1ADoes not Grow in Winter"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      },
+      {
+        "source" : {
+          "key" : "CattailPatch",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__CattailPatch__CardImage",
+          "name"     : {
+            "zh" : "\u9999\u84B2\u4E1B",
+            "en" : "Cattail Patch",
+            "ja" : "\u30AC\u30DE\u306E\u7FA4\u751F\u5730"
+          }
+        },
+        "description" : {
+          "zh" : "\u88AB\u52A8\u6548\u679C\uFF1A\u6625\u5B63\u5FEB\u901F\u751F\u957F",
+          "en" : "Passive Effect\uFF1AGrows Fast In Spring",
+          "ja" : "\u30D1\u30C3\u30B7\u30D6\u52B9\u679C\uFF1AGrows Fast In Spring"
+        },
+        "value"       : {
+          "x" : 5.0,
+          "y" : 5.0
         }
       }
     ]
@@ -1837,6 +1837,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : -1.0
+      },
+      "Special3RateModifier" : {
         "FloatValue" : -1.0,
         "Active"     : true
       },
@@ -1874,6 +1877,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : 5.0
+      },
+      "Special3RateModifier" : {
         "FloatValue" : 5.0,
         "Active"     : true
       },

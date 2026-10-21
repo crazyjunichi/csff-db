@@ -4703,7 +4703,7 @@
       "CardType" : 7,
       "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
       "name"     : {
-        "zh" : "\u9E2D\u9644\u9B54",
+        "zh" : "\u9E2D\u5B50\u9644\u9B54",
         "en" : "Duck Enchantment",
         "ja" : "Duck Enchantment"
       }
@@ -10731,7 +10731,7 @@
       "CardType" : 7,
       "icon"     : "NPCAgent__Agent_Partridge1__AgentImage",
       "name"     : {
-        "zh" : "\u9E2D\u9644\u9B54",
+        "zh" : "\u9E2D\u5B50\u9644\u9B54",
         "en" : "Duck Enchantment",
         "ja" : "Duck Enchantment"
       }
@@ -17276,7 +17276,7 @@
       "type" : "CharacterPerk",
       "icon" : "CardData__Event_StyleHair__CardImage",
       "name" : {
-        "zh" : "\u53CA\u8170\u957F\u53D1",
+        "zh" : "\u957F\u53D1\u98D8\u98D8",
         "en" : "Very Long Hair",
         "ja" : "Very Long Hair"
       }
@@ -17376,7 +17376,7 @@
       "type" : "CharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_BustSmaller__PerkIcon",
       "name" : {
-        "zh" : "\u4F4E\u4F53\u91CD",
+        "zh" : "\u4F53\u91CD\u8FC7\u8F7B",
         "en" : "Low Weight",
         "ja" : "Low Weight"
       }
@@ -18878,7 +18878,7 @@
       "type" : "NPCCharacterPerk",
       "icon" : "NPCCharacterPerk__PartnerPerk_HairCurly__PerkIcon",
       "name" : {
-        "zh" : "\u5927\u5377\u53D1",
+        "zh" : "\u81EA\u7136\u5377\u53D1",
         "en" : "Curly Hair",
         "ja" : "Curly Hair"
       }
@@ -21985,17 +21985,29 @@
   ],
   "NextEnvironment"                                  : {
     "MainEnvCard" : {
-      "key" : "Env_MudHutConstructionStartingPointEnclosure",
+      "key" : "Env_River_ClearingOak_RiverClearing",
       "type" : "CardData",
       "CardType" : 4,
       "name"     : {
-        "zh" : "\u755C\u680F",
-        "en" : "Enclosure",
-        "ja" : "\u56F2\u3044"
+        "zh" : "\u6CB3\u7554\u6797\u9699",
+        "en" : "River Clearing",
+        "ja" : "\u5DDD\u6CBF\u3044\u306E\u5E73\u5730"
       }
     }
   },
   "CurrentEnvironment"                               : {
+    "MainEnvCard" : {
+      "key" : "Env_River_ClearingOak_RiverClearing",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u6CB3\u7554\u6797\u9699",
+        "en" : "River Clearing",
+        "ja" : "\u5DDD\u6CBF\u3044\u306E\u5E73\u5730"
+      }
+    }
+  },
+  "PreviousEnvironment"                              : {
     "MainEnvCard" : {
       "key" : "Env_MudHutConstructionStartingPointEnclosure",
       "type" : "CardData",
@@ -22022,18 +22034,6 @@
       }
     ]
   },
-  "PreviousEnvironment"                              : {
-    "MainEnvCard" : {
-      "key" : "Env_River_ClearingOak_RiverClearing",
-      "type" : "CardData",
-      "CardType" : 4,
-      "name"     : {
-        "zh" : "\u6CB3\u7554\u6797\u9699",
-        "en" : "River Clearing",
-        "ja" : "\u5DDD\u6CBF\u3044\u306E\u5E73\u5730"
-      }
-    }
-  },
   "CurrentWorldMap"                                  : {
     "key" : "DefaultWorldMap",
     "type" : "WorldMapData",
@@ -22045,61 +22045,8 @@
   },
   "EnvironmentsData"                                 : {
     "EnvDictKey" : {
-      "DictionaryKey" : "b2b3c63ab86619d4ba3345d9dedad388_2b19b942a09fdd148a43798e942a74eb",
+      "DictionaryKey" : "b2b3c63ab86619d4ba3345d9dedad388(Env_MudHutConstructionStartingPointEnclosure)_2b19b942a09fdd148a43798e942a74eb(Env_River_ClearingOak_RiverClearing)",
       "LastUpdatedTick" : 72,
-      "AllRegularCards" : [
-        {
-          "CardID" : "0f6b726dde02d674097e37527789858f(MudHutConstructionDoorExitMain)",
-          "EnvironmentKey" : "b2b3c63ab86619d4ba3345d9dedad388(Env_MudHutConstructionStartingPointEnclosure)_2b19b942a09fdd148a43798e942a74eb(Env_River_ClearingOak_RiverClearing)",
-          "PrevEnvTravelIndex" : 0,
-          "SlotInformation"    : {
-            "SlotType" : 2,
-            "SlotIndex" : 0
-          },
-          "CreatedOnTick"      : 72,
-          "CreatedInSaveDataTick" : 72,
-          "NotYetCreated"         : true,
-          "IsTravelCard"          : true,
-          "TravelCardIndex"       : 0,
-          "CurrentWeight"         : 0.0,
-          "ActiveDurabilities"    : 8,
-          "Spoilage"              : 0.0,
-          "Usage"                 : 0.0,
-          "Fuel"                  : 0.0,
-          "ConsumableCharges"     : 0.0,
-          "LiquidQuantity"        : 0.0,
-          "Special1"              : 0.0,
-          "Special2"              : 0.0,
-          "Special3"              : 0.0,
-          "Special4"              : 0.0,
-          "CombatState"           : 0
-        },
-        {
-          "CardID" : "4c52c0b3a852b5341a9fc9d68529ebac(MudHutConstructionStartingPointEnclosure)",
-          "EnvironmentKey" : "b2b3c63ab86619d4ba3345d9dedad388(Env_MudHutConstructionStartingPointEnclosure)_2b19b942a09fdd148a43798e942a74eb(Env_River_ClearingOak_RiverClearing)",
-          "PrevEnvTravelIndex" : 0,
-          "SlotInformation"    : {
-            "SlotType" : 11,
-            "SlotIndex" : 0
-          },
-          "CreatedOnTick"      : 72,
-          "CreatedInSaveDataTick" : 72,
-          "NotYetCreated"         : true,
-          "TravelCardIndex"       : 0,
-          "CurrentWeight"         : 40000.0,
-          "ActiveDurabilities"    : 193,
-          "Spoilage"              : 0.0,
-          "Usage"                 : 0.0,
-          "Fuel"                  : 0.0,
-          "ConsumableCharges"     : 0.0,
-          "LiquidQuantity"        : 0.0,
-          "Special1"              : 0.0,
-          "Special2"              : 1440.0,
-          "Special3"              : 620.0,
-          "Special4"              : 0.0,
-          "CombatState"           : 0
-        }
-      ],
       "CurrentWeight"   : 40000.0,
       "CurrentMaxWeight" : 100000.0,
       "LocalCounterValues" : [

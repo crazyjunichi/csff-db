@@ -656,6 +656,56 @@
       "StatAddedPercentageToModifiersOverride" : 0,
       "NPCStatAddedPercentageToModifiersOverride" : 0,
       "StatusesOverride"                          : 0
+    },
+    {
+      "ModelStat" : {
+        "GameName" : {
+          "zh" : "\u8BA1\u6B65\u5668",
+          "en" : "Agent Counter",
+          "ja" : "Agent Counter"
+        },
+        "DefaultStartingValue" : 0.0,
+        "DefaultMinMaxValue"   : {
+          "x" : 0.0,
+          "y" : 10000.0
+        },
+        "DefaultRate"          : 1.0,
+        "DefaultMinMaxRate"    : {
+          "x" : 0.0,
+          "y" : 1.0
+        },
+        "HidingOptions"        : 0,
+        "TextDisplay"          : 0,
+        "NumberPrecision"      : 0,
+        "NoveltyCooldownDuration" : 0,
+        "StalenessMultiplier"     : 0.0,
+        "MaxStalenessStack"       : 0,
+        "key"                     : "AgentCounter",
+        "zh"                      : "\u8BA1\u6B65\u5668",
+        "en"                      : "AgentCounter",
+        "ja"                      : "AgentCounter"
+      },
+      "OverrideStartingValue" : {
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxValue"   : {
+        "MaxValue" : 672.0,
+        "FloatValue" : 0.0,
+        "Active"     : true
+      },
+      "OverrideRate"          : {
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "OverrideMinMaxRate"    : {
+        "MaxValue" : 0.0,
+        "FloatValue" : -1.0,
+        "Active"     : true
+      },
+      "StatAddedPercentageToModifiersOverride" : 0,
+      "NPCStatAddedPercentageToModifiersOverride" : 0,
+      "StatusesOverride"                          : 0
     }
   ],
   "AgentActions"           : [
@@ -689,7 +739,30 @@
             }
           }
         ],
-        "RequiredInGameTimes" : [
+        "RequiredNPCStatValues" : [
+          {
+            "TargetAgent" : {
+              "key" : "Agent_Stalker",
+              "type" : "NPCAgent",
+              "icon" : "NPCAgent__Agent_Stalker__AgentImage",
+              "name" : {
+                "zh" : "\u6F5C\u884C\u8005",
+                "en" : "Stalker",
+                "ja" : "Stalker"
+              }
+            },
+            "TargetStat"  : {
+              "key" : "AgentCounter",
+              "type" : "NPCStat",
+              "name" : {
+                "zh" : "\u8BA1\u6B65\u5668",
+                "en" : "AgentCounter",
+                "ja" : "AgentCounter"
+              }
+            }
+          }
+        ],
+        "RequiredInGameTimes"   : [
           {
             "TimeType" : 0,
             "CompareType" : 0,
@@ -789,6 +862,78 @@
         }
       },
       "MoveTiming"          : 0
+    },
+    {
+      "ActionID" : "Go to Spirit World_3",
+      "ActionLocalizedName" : {
+        "zh" : "Go to Spirit World_3",
+        "en" : "Go to Spirit World_3",
+        "ja" : "Go to Spirit World_3"
+      },
+      "RepeatOptions"       : 1,
+      "Conditions"          : {
+        "PlayerUsesCard" : 0,
+        "RequiredEnvironment" : {
+          "key" : "Env_SpiritWorld",
+          "type" : "CardData",
+          "CardType" : 4,
+          "name"     : {
+            "zh" : "SpiritWorld",
+            "en" : "SpiritWorld",
+            "ja" : "SpiritWorld"
+          }
+        },
+        "InvertEnvironmentRequirement" : true,
+        "RequiredStatValues"           : [
+          {
+            "Stat" : {
+              "key" : "Paranoia",
+              "type" : "GameStat",
+              "icon" : "GameStat__EnemyDefeated__DefaultStatusIcon",
+              "min"  : 0.0,
+              "max"  : 300.0,
+              "name" : {
+                "zh" : "\u504F\u6267",
+                "en" : "Paranoia",
+                "ja" : "Paranoia"
+              }
+            },
+            "TriggerRange" : {
+              "x" : 300.0,
+              "y" : 300.0
+            }
+          }
+        ]
+      },
+      "NPCStatModifications" : [
+        {
+          "TargetStat" : {
+            "key" : "AgentCounter",
+            "type" : "NPCStat",
+            "name" : {
+              "zh" : "\u8BA1\u6B65\u5668",
+              "en" : "AgentCounter",
+              "ja" : "AgentCounter"
+            }
+          },
+          "UseAssociatedAgent" : true,
+          "ValueChange"        : {
+            "x" : 672.0,
+            "y" : 672.0
+          }
+        }
+      ],
+      "MoveToEnvironment"    : {
+        "key" : "Env_SpiritWorld",
+        "type" : "CardData",
+        "CardType" : 4,
+        "name"     : {
+          "zh" : "SpiritWorld",
+          "en" : "SpiritWorld",
+          "ja" : "SpiritWorld"
+        }
+      },
+      "MoveTiming"           : 0
     },
     {
       "ActionID" : "Enraged = Attack the Player_1",

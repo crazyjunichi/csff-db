@@ -156,7 +156,7 @@
   "LiquidEvaporationRate"       : 0.0,
   "SpecialDurability1"          : {
     "CardStatName" : {
-      "zh" : "Flowers",
+      "zh" : "\u82B1",
       "en" : "Flowers",
       "ja" : "Flowers"
     },
@@ -221,6 +221,103 @@
           "y" : -8.0
         }
       },
+      {
+        "source" : {
+          "key" : "BeeSkep",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__BeeSkep__CardImage",
+          "name"     : {
+            "zh" : "Bee Skep",
+            "en" : "Bee Skep",
+            "ja" : "Bee Skep"
+          }
+        },
+        "description" : {
+          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
+          "en" : "Action: Feed from Enviroment",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
+        },
+        "value"       : {
+          "x" : -1.0,
+          "y" : -1.0
+        }
+      }
+    ]
+  },
+  "SpecialDurability2"          : {
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 96.0,
+    "RatePerDaytimePoint"  : -0.25,
+    "ExtraRateWhenEquipped" : 0.0,
+    "HidingOptions"         : 1,
+    "TextDisplay"           : 0,
+    "NumberPrecision"       : 0,
+    "HasActionOnZero"       : true,
+    "OnZeroNotification"    : 0,
+    "OnZero"                : {
+      "DaytimeCost" : 0,
+      "UseMiniTicks" : 0,
+      "ReceivingCardChanges" : {
+        "ModType" : 3,
+        "TransformToLiquidQuantity" : 0.0,
+        "LiquidEffectScaling"       : 0
+      },
+      "FadeToBlack"          : 0,
+      "RoomDirection"        : 0,
+      "ExitDirection"        : 0
+    },
+    "OnFullNotification"    : 0,
+    "FloatValue"            : 96.0,
+    "durabilityKey"         : "SpecialDurability2"
+  },
+  "SpecialDurability3"          : {
+    "CardStatName" : {
+      "zh" : "\u9971\u6EE1\u5EA6",
+      "en" : "Yield",
+      "ja" : "Yield"
+    },
+    "RandomStartingOffset" : 0.0,
+    "MaxValue"             : 5760.0,
+    "RatePerDaytimePoint"  : 1.0,
+    "ExtraRateWhenEquipped" : 0.0,
+    "PauseRateWhenEnvWeightIsFull" : true,
+    "HidingOptions"                : 0,
+    "TextDisplay"                  : 0,
+    "NumberPrecision"              : 0,
+    "OverrideIcon"                 : {
+      "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
+    },
+    "OnZeroNotification"           : 0,
+    "OnFullNotification"           : 0,
+    "FloatValue"                   : 5760.0,
+    "Active"                       : true,
+    "durabilityKey"                : "SpecialDurability3",
+    "_valueModifications"          : [
+      {
+        "source" : {
+          "key" : "KingcupPatchWild",
+          "type" : "CardData",
+          "CardType" : 2,
+          "icon"     : "CardData__KingcupPatchWild__CardImage",
+          "name"     : {
+            "zh" : "\u9A74\u8E44\u8349\u4E1B",
+            "en" : "Kingcup Patch",
+            "ja" : "Kingcup Patch"
+          }
+        },
+        "description" : {
+          "zh" : "\u52A8\u4F5C\uFF1A\u6536\u83B7",
+          "en" : "Action: Harvest",
+          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHarvest"
+        },
+        "value"       : {
+          "x" : -288.0,
+          "y" : -288.0
+        }
+      }
+    ],
+    "_rateModifications"           : [
       {
         "source" : {
           "key" : "KingcupPatchWild",
@@ -307,101 +404,6 @@
         "value"       : {
           "x" : -9.5,
           "y" : -9.5
-        }
-      },
-      {
-        "source" : {
-          "key" : "BeeSkep",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__BeeSkep__CardImage",
-          "name"     : {
-            "zh" : "Bee Skep",
-            "en" : "Bee Skep",
-            "ja" : "Bee Skep"
-          }
-        },
-        "description" : {
-          "zh" : "\u8F6C\u5316\uFF1A\u4ECE\u73AF\u5883\u4E2D\u8FDB\u98DF",
-          "en" : "Action: Feed from Enviroment",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AFeed from Enviroment"
-        },
-        "value"       : {
-          "x" : -1.0,
-          "y" : -1.0
-        }
-      }
-    ]
-  },
-  "SpecialDurability2"          : {
-    "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 96.0,
-    "RatePerDaytimePoint"  : -0.25,
-    "ExtraRateWhenEquipped" : 0.0,
-    "HidingOptions"         : 1,
-    "TextDisplay"           : 0,
-    "NumberPrecision"       : 0,
-    "HasActionOnZero"       : true,
-    "OnZeroNotification"    : 0,
-    "OnZero"                : {
-      "DaytimeCost" : 0,
-      "UseMiniTicks" : 0,
-      "ReceivingCardChanges" : {
-        "ModType" : 3,
-        "TransformToLiquidQuantity" : 0.0,
-        "LiquidEffectScaling"       : 0
-      },
-      "FadeToBlack"          : 0,
-      "RoomDirection"        : 0,
-      "ExitDirection"        : 0
-    },
-    "OnFullNotification"    : 0,
-    "FloatValue"            : 96.0,
-    "durabilityKey"         : "SpecialDurability2"
-  },
-  "SpecialDurability3"          : {
-    "CardStatName" : {
-      "zh" : "\u4EA7\u91CF",
-      "en" : "Yield",
-      "ja" : "Yield"
-    },
-    "RandomStartingOffset" : 0.0,
-    "MaxValue"             : 5760.0,
-    "RatePerDaytimePoint"  : 1.0,
-    "ExtraRateWhenEquipped" : 0.0,
-    "PauseRateWhenEnvWeightIsFull" : true,
-    "HidingOptions"                : 0,
-    "TextDisplay"                  : 0,
-    "NumberPrecision"              : 0,
-    "OverrideIcon"                 : {
-      "FileName" : "GameStat__BeaverBlessing__FeedbackInfo-Icon"
-    },
-    "OnZeroNotification"           : 0,
-    "OnFullNotification"           : 0,
-    "FloatValue"                   : 5760.0,
-    "Active"                       : true,
-    "durabilityKey"                : "SpecialDurability3",
-    "_valueModifications"          : [
-      {
-        "source" : {
-          "key" : "KingcupPatchWild",
-          "type" : "CardData",
-          "CardType" : 2,
-          "icon"     : "CardData__KingcupPatchWild__CardImage",
-          "name"     : {
-            "zh" : "\u9A74\u8E44\u8349\u4E1B",
-            "en" : "Kingcup Patch",
-            "ja" : "Kingcup Patch"
-          }
-        },
-        "description" : {
-          "zh" : "\u52A8\u4F5C\uFF1A\u6536\u83B7",
-          "en" : "Action: Harvest",
-          "ja" : "\u30A2\u30AF\u30B7\u30E7\u30F3\uFF1AHarvest"
-        },
-        "value"       : {
-          "x" : -288.0,
-          "y" : -288.0
         }
       }
     ]
@@ -1062,6 +1064,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : 1.0
+      },
+      "Special3RateModifier" : {
         "FloatValue" : 1.0,
         "Active"     : true
       },
@@ -1099,6 +1104,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : -1.0
+      },
+      "Special3RateModifier" : {
         "FloatValue" : -1.0,
         "Active"     : true
       },
@@ -1136,6 +1144,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : -9.5
+      },
+      "Special3RateModifier" : {
         "FloatValue" : -9.5,
         "Active"     : true
       },
@@ -1173,6 +1184,9 @@
       },
       "OnBoardEffectCap" : 0,
       "Special1RateModifier" : {
+        "FloatValue" : -9.5
+      },
+      "Special3RateModifier" : {
         "FloatValue" : -9.5,
         "Active"     : true
       },

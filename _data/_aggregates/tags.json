@@ -153,16 +153,6 @@
       }
     },
     {
-      "key" : "tag_Env_Wetlands",
-      "type" : "CardTag",
-      "count" : 7,
-      "name"  : {
-        "zh" : "\u6E7F\u5730\u5730\u5F62",
-        "en" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ",
-        "ja" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "
-      }
-    },
-    {
       "key" : "tag_Env_BoarArea1",
       "type" : "CardTag",
       "count" : 8,
@@ -270,6 +260,16 @@
         "zh" : "\u91CE\u732A\u85CF\u8EAB\u59041",
         "en" : "Used for Agent Duties. Has to be on an Enviroment Card. ",
         "ja" : "Used for Agent Duties. Has to be on an Enviroment Card. "
+      }
+    },
+    {
+      "key" : "tag_Env_Wetlands",
+      "type" : "CardTag",
+      "count" : 3,
+      "name"  : {
+        "zh" : "\u6E7F\u5730\u5730\u5F62",
+        "en" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. ",
+        "ja" : "Used for the Flood System. It has to be on the Enviroment Card to be visible to nested Enviroments like Mud Hut. Do not move it to the location card. "
       }
     },
     {
@@ -847,7 +847,7 @@
       "type" : "CardTag",
       "count" : 24,
       "name"  : {
-        "zh" : "\u540C\u4F34\u53EF\u5B58\u53D6",
+        "zh" : "\u6DF1\u655E\u53E3\u5BB9\u5668",
         "en" : "Deep Open Container",
         "ja" : "Deep Open Container"
       }
@@ -3832,7 +3832,7 @@
         "en" : "CraftAction",
         "ja" : "CraftAction"
       },
-      "count" : 89
+      "count" : 90
     },
     {
       "key" : "CreativeAction",
@@ -4112,7 +4112,7 @@
         "en" : "HandAction",
         "ja" : "HandAction"
       },
-      "count" : 1518
+      "count" : 1524
     },
     {
       "key" : "IceSkatesTravelingAction",
@@ -4142,7 +4142,7 @@
         "en" : "LegAction",
         "ja" : "LegAction"
       },
-      "count" : 509
+      "count" : 517
     },
     {
       "key" : "MudDiggingAction",
@@ -7734,7 +7734,7 @@
           "key" : "PartnerDuty_RemoveStretchedLeather",
           "type" : "NPCDuty",
           "name" : {
-            "zh" : "\u53D6\u4E0B\u7EF7\u76AE",
+            "zh" : "\u79FB\u8D70\u76AE\u9769",
             "en" : "Remove Leather",
             "ja" : "Remove Leather"
           }
@@ -7779,7 +7779,7 @@
           "key" : "PartnerDuty_SmithHardPlaceInForge",
           "type" : "NPCDuty",
           "name" : {
-            "zh" : "\u953B\u9020\u653E\u5165\u7194\u7089(\u786C)",
+            "zh" : "\u653E\u5165\u953B\u9020\u53F0",
             "en" : "Place in Forge",
             "ja" : "Place in Forge"
           }
@@ -7788,7 +7788,7 @@
           "key" : "PartnerDuty_SmithPlaceOnGround",
           "type" : "NPCDuty",
           "name" : {
-            "zh" : "\u953B\u9020\u653E\u7F6E\u5730\u9762",
+            "zh" : "\u653E\u5728\u5730\u4E0A",
             "en" : "Place on Ground",
             "ja" : "Place on Ground"
           }
@@ -7797,7 +7797,7 @@
           "key" : "PartnerDuty_SmithSoftPlaceInForge",
           "type" : "NPCDuty",
           "name" : {
-            "zh" : "\u953B\u9020\u653E\u5165\u7194\u7089(\u8F6F)",
+            "zh" : "\u653E\u5165\u953B\u9020\u53F0",
             "en" : "Place in Forge",
             "ja" : "Place in Forge"
           }
@@ -8051,7 +8051,7 @@
           "key" : "PartnerDuty_SmithHardPlaceInForge",
           "type" : "NPCDuty",
           "name" : {
-            "zh" : "\u953B\u9020\u653E\u5165\u7194\u7089(\u786C)",
+            "zh" : "\u653E\u5165\u953B\u9020\u53F0",
             "en" : "Place in Forge",
             "ja" : "Place in Forge"
           }
@@ -8060,7 +8060,7 @@
           "key" : "PartnerDuty_SmithPlaceOnGround",
           "type" : "NPCDuty",
           "name" : {
-            "zh" : "\u953B\u9020\u653E\u7F6E\u5730\u9762",
+            "zh" : "\u653E\u5728\u5730\u4E0A",
             "en" : "Place on Ground",
             "ja" : "Place on Ground"
           }
@@ -8069,7 +8069,7 @@
           "key" : "PartnerDuty_SmithSoftPlaceInForge",
           "type" : "NPCDuty",
           "name" : {
-            "zh" : "\u953B\u9020\u653E\u5165\u7194\u7089(\u8F6F)",
+            "zh" : "\u653E\u5165\u953B\u9020\u53F0",
             "en" : "Place in Forge",
             "ja" : "Place in Forge"
           }
@@ -8320,7 +8320,7 @@
           "key" : "PartnerDuty_SmithHardPlaceInForge",
           "type" : "NPCDuty",
           "name" : {
-            "zh" : "\u953B\u9020\u653E\u5165\u7194\u7089(\u786C)",
+            "zh" : "\u653E\u5165\u953B\u9020\u53F0",
             "en" : "Place in Forge",
             "ja" : "Place in Forge"
           }
@@ -8329,7 +8329,7 @@
           "key" : "PartnerDuty_SmithPlaceOnGround",
           "type" : "NPCDuty",
           "name" : {
-            "zh" : "\u953B\u9020\u653E\u7F6E\u5730\u9762",
+            "zh" : "\u653E\u5728\u5730\u4E0A",
             "en" : "Place on Ground",
             "ja" : "Place on Ground"
           }
@@ -8338,7 +8338,7 @@
           "key" : "PartnerDuty_SmithSoftPlaceInForge",
           "type" : "NPCDuty",
           "name" : {
-            "zh" : "\u953B\u9020\u653E\u5165\u7194\u7089(\u8F6F)",
+            "zh" : "\u653E\u5165\u953B\u9020\u53F0",
             "en" : "Place in Forge",
             "ja" : "Place in Forge"
           }

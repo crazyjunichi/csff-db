@@ -1,0 +1,66 @@
+
+{
+  "DutyName" : {
+    "zh" : "Trader automatically starts intro dialogue in Green Glade",
+    "en" : "Trader automatically starts intro dialogue in Green Glade",
+    "ja" : "Trader automatically starts intro dialogue in Green Glade"
+  },
+  "DutySummary" : {
+    "zh" : "Trader automatically starts intro dialogue in Green Glade",
+    "en" : "Trader automatically starts intro dialogue in Green Glade",
+    "ja" : "Trader automatically starts intro dialogue in Green Glade"
+  },
+  "DoNotShowToPlayer" : true,
+  "MaxPerformPerDay"  : 0,
+  "DutyConditions"    : {
+    "NotInBackground" : true,
+    "PlayerUsesCard"  : 0,
+    "RequiredEnvironment" : {
+      "key" : "Env_ClearingOak_GreenGlade",
+      "type" : "CardData",
+      "CardType" : 4,
+      "name"     : {
+        "zh" : "\u7EFF\u91CE\u7A7A\u5730",
+        "en" : "Green Glade",
+        "ja" : "\u7DD1\u306E\u5E83\u5834"
+      }
+    },
+    "RequiredNPCStatValues" : [
+      {
+        "UseAssociatedAgent" : true,
+        "TargetStat"         : {
+          "key" : "SeenPlayerEver",
+          "type" : "NPCStat",
+          "name" : {
+            "zh" : "\u89C1\u8FC7\u73A9\u5BB6",
+            "en" : "SeenPlayerEver",
+            "ja" : "SeenPlayerEver"
+          }
+        }
+      }
+    ]
+  },
+  "DifferentConditionsWhenPerformed" : true,
+  "DutyExecutionOptions"             : 0,
+  "ActionSequence"                   : [
+    {
+      "key" : "TraderGeneralAutoIntroDialog",
+      "type" : "StartDialogDutyAction",
+      "name" : {
+        "zh" : "TraderGeneralAutoIntroDialog",
+        "en" : "TraderGeneralAutoIntroDialog",
+        "ja" : "TraderGeneralAutoIntroDialog"
+      }
+    }
+  ],
+  "GiveUpOptions"                    : 0,
+  "GiveUpTicks"                      : 0,
+  "type"                             : "NPCDuty",
+  "key"                              : "AgentDuty_TraderGeneral_AutoIntroAtGreenGlade",
+  "name"                             : {
+    "zh" : "Trader automatically starts intro dialogue in Green Glade",
+    "en" : "Trader automatically starts intro dialogue in Green Glade",
+    "ja" : "Trader automatically starts intro dialogue in Green Glade"
+  },
+  "_uuid"                            : "0eab680168234f8f8cfb70eadc4879a5"
+}
